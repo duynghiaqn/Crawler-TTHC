@@ -3,26 +3,46 @@ const fs = require('fs');
 const readline = require('readline');
 require('dotenv').config();
 
-const headers = {
-    "accept": "application/json, text/plain, */*",
-    "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
-    "content-type": "application/json",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-    "origin": "https://dichvucong.gov.vn",
-    "referer": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh.html"
-};
+const USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0"
+];
+
+function getRandomUserAgent() {
+    return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
+}
+
+function getDynamicHeaders() {
+    return {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+        "content-type": "application/json",
+        "user-agent": getRandomUserAgent(),
+        "origin": "https://dichvucong.gov.vn",
+        "referer": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh.html"
+    };
+}
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-const fetchWithRetry = async (url, payload, customHeaders = headers, maxRetries = 8) => {
+const fetchWithRetry = async (url, payload, customHeaders = null, maxRetries = 8) => {
     for (let i = 0; i <= maxRetries; i++) {
+        const activeHeaders = customHeaders || getDynamicHeaders();
         try {
-            const res = await axios.post(url, payload, { headers: customHeaders, timeout: 60000 }); 
+            const res = await axios.post(url, payload, { headers: activeHeaders, timeout: 60000 }); 
             return res.data;
         } catch (err) {
             if (i < maxRetries) {
                 const waitTime = Math.min(Math.pow(2, i) * 1000, 10000);
-                console.log(`\n⚠️ Mạng chậm/Timeout, đang thử lại lần ${i + 1}/${maxRetries}... (${err.message})`);
+                console.log(`\n⚠️ Mạng chậm/Timeout, xoay User-Agent & thử lại lần ${i + 1}/${maxRetries}... (${err.message})`);
                 await delay(waitTime);
             } else throw err;
         }
@@ -73,7 +93,7 @@ async function main() {
     
     while (true) {
         const payload = { limit: 200, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
-        const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen', payload, headers);
+        const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen', payload);
         if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
         res.data.items.forEach(item => rawList.push(item));
         if (!res.data.lastId || res.data.lastId === lastId) break;
@@ -93,7 +113,7 @@ async function main() {
             const chunk = rawList.slice(i, i + chunkSize);
             const promises = chunk.map(async (item) => {
                 try {
-                    const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/configuring/formality/get-formality-by-citizen', { id: item.id }, headers);
+                    const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/configuring/formality/get-formality-by-citizen', { id: item.id });
                     if (res && res.data) {
                         let detail = res.data.data || res.data;
                         

@@ -4,21 +4,25 @@ const readline = require('readline');
 require('dotenv').config();
 
 const headers = {
-    "accept": "application/json",
-    "content-type": "application/json"
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+    "content-type": "application/json",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "origin": "https://dichvucong.gov.vn",
+    "referer": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh.html"
 };
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-const fetchWithRetry = async (url, payload, headers, maxRetries = 5) => {
+const fetchWithRetry = async (url, payload, customHeaders = headers, maxRetries = 8) => {
     for (let i = 0; i <= maxRetries; i++) {
         try {
-            const res = await axios.post(url, payload, { headers, timeout: 30000 }); 
+            const res = await axios.post(url, payload, { headers: customHeaders, timeout: 60000 }); 
             return res.data;
         } catch (err) {
             if (i < maxRetries) {
-                const waitTime = Math.pow(2, i) * 1000;
-                console.log(`\n⚠️ Mạng chậm, đang thử lại lần ${i + 1}...`);
+                const waitTime = Math.min(Math.pow(2, i) * 1000, 10000);
+                console.log(`\n⚠️ Mạng chậm/Timeout, đang thử lại lần ${i + 1}/${maxRetries}... (${err.message})`);
                 await delay(waitTime);
             } else throw err;
         }

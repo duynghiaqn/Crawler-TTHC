@@ -3,6 +3,17 @@ const fs = require('fs');
 const readline = require('readline');
 require('dotenv').config();
 
+// Global error handlers để ngăn chặn crash
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('❌ Unhandled Rejection:', reason);
+    process.exit(1);
+});
+
+process.on('uncaughtException', (error) => {
+    console.error('❌ Uncaught Exception:', error);
+    process.exit(1);
+});
+
 const USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
@@ -40,11 +51,15 @@ const fetchWithRetry = async (url, payload, customHeaders = null, maxRetries = 8
             const res = await axios.post(url, payload, { headers: activeHeaders, timeout: 60000 }); 
             return res.data;
         } catch (err) {
+            const errorMessage = err.response?.status ? `HTTP ${err.response.status}` : err.message;
             if (i < maxRetries) {
                 const waitTime = Math.min(Math.pow(2, i) * 1000, 10000);
-                console.log(`\n⚠️ Mạng chậm/Timeout, xoay User-Agent & thử lại lần ${i + 1}/${maxRetries}... (${err.message})`);
+                console.log(`\n⚠️ Mạng chậm/Timeout, xoay User-Agent & thử lại lần ${i + 1}/${maxRetries}... (${errorMessage})`);
                 await delay(waitTime);
-            } else throw err;
+            } else {
+                console.error(`❌ Sau ${maxRetries} lần thử, vẫn không thể kết nối: ${errorMessage}`);
+                throw new Error(`Fetch failed after ${maxRetries} retries: ${errorMessage}`);
+            }
         }
     }
 };
@@ -77,87 +92,102 @@ function parseFormalityCaseLevel(detail) {
 async function main() {
     console.log('\n=== CÔNG CỤ XÂY DỰNG DATA JSON (BẢN CLOUD - GITHUB ACTIONS) ===\n');
 
-    // CẤU HÌNH ĐƯỜNG DẪN MÁY CHỦ ẢO (LINUX)
-    const DATA_DIR = './data';
-    const DETAILS_DIR = `${DATA_DIR}/details`;
-    
-    // Xóa sạch data cũ mỗi lần cào mới để kho lưu trữ không bị rác
-    if (fs.existsSync(DATA_DIR)) fs.rmSync(DATA_DIR, { recursive: true, force: true });
-    
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-    fs.mkdirSync(DETAILS_DIR, { recursive: true });
-
-    let rawList = [];
-    let lastId = "";
-    console.log(`🚀 Đang lấy danh mục TTHC toàn quốc...`);
-    
-    while (true) {
-        const payload = { limit: 200, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
-        const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen', payload);
-        if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
-        res.data.items.forEach(item => rawList.push(item));
-        if (!res.data.lastId || res.data.lastId === lastId) break;
-        lastId = res.data.lastId;
-        console.log(`   Đã tìm thấy: ${rawList.length} mã`);
-        await delay(100);
-    }
-    console.log(`✅ Tổng số TTHC gốc: ${rawList.length}`);
-
-    if (rawList.length > 0) {
-        console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục.`);
-        const chunkSize = 20; 
+    try {
+        // CẤU HÌNH ĐƯỜNG DẪN MÁY CHỦ ẢO (LINUX)
+        const DATA_DIR = './data';
+        const DETAILS_DIR = `${DATA_DIR}/details`;
         
-        let indexData = [];
+        // Xóa sạch data cũ mỗi lần cào mới để kho lưu trữ không bị rác
+        if (fs.existsSync(DATA_DIR)) fs.rmSync(DATA_DIR, { recursive: true, force: true });
+        
+        fs.mkdirSync(DATA_DIR, { recursive: true });
+        fs.mkdirSync(DETAILS_DIR, { recursive: true });
 
-        for (let i = 0; i < rawList.length; i += chunkSize) {
-            const chunk = rawList.slice(i, i + chunkSize);
-            const promises = chunk.map(async (item) => {
-                try {
-                    const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/configuring/formality/get-formality-by-citizen', { id: item.id });
-                    if (res && res.data) {
-                        let detail = res.data.data || res.data;
-                        
-                        // 1. Tạo dữ liệu cho file Index
-                        const formalityItem = {
-                            id: item.id,
-                            ma_tthc: item.code,
-                            ten_tthc: item.name,
-                            cap_thuc_hien: parseFormalityCaseLevel(detail),
-                            loai_tthc: parseFormalityType(item.type || detail.formalityType),
-                            linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
-                            co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '')
-                        };
-                        indexData.push(formalityItem);
+        let rawList = [];
+        let lastId = "";
+        console.log(`🚀 Đang lấy danh mục TTHC toàn quốc...`);
+        
+        while (true) {
+            try {
+                const payload = { limit: 200, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
+                const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen', payload);
+                if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
+                res.data.items.forEach(item => rawList.push(item));
+                if (!res.data.lastId || res.data.lastId === lastId) break;
+                lastId = res.data.lastId;
+                console.log(`   Đã tìm thấy: ${rawList.length} mã`);
+                await delay(100);
+            } catch (err) {
+                console.error(`⚠️ Lỗi khi lấy danh mục: ${err.message}`);
+                break;
+            }
+        }
+        console.log(`✅ Tổng số TTHC gốc: ${rawList.length}`);
 
-                        // 2. Xuất file chi tiết
-                        const cleanDetail = sanitizeBase64(detail);
-                        fs.writeFileSync(`${DETAILS_DIR}/${item.id}.json`, JSON.stringify(cleanDetail));
+        if (rawList.length > 0) {
+            console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục.`);
+            const chunkSize = 20; 
+            
+            let indexData = [];
+
+            for (let i = 0; i < rawList.length; i += chunkSize) {
+                const chunk = rawList.slice(i, i + chunkSize);
+                const promises = chunk.map(async (item) => {
+                    try {
+                        const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/configuring/formality/get-formality-by-citizen', { id: item.id });
+                        if (res && res.data) {
+                            let detail = res.data.data || res.data;
+                            
+                            // 1. Tạo dữ liệu cho file Index
+                            const formalityItem = {
+                                id: item.id,
+                                ma_tthc: item.code,
+                                ten_tthc: item.name,
+                                cap_thuc_hien: parseFormalityCaseLevel(detail),
+                                loai_tthc: parseFormalityType(item.type || detail.formalityType),
+                                linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
+                                co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '')
+                            };
+                            indexData.push(formalityItem);
+
+                            // 2. Xuất file chi tiết
+                            const cleanDetail = sanitizeBase64(detail);
+                            fs.writeFileSync(`${DETAILS_DIR}/${item.id}.json`, JSON.stringify(cleanDetail));
+                        }
+                    } catch (e) {
+                        console.warn(`⚠️ Không thể lấy chi tiết cho mã ${item.id}: ${e.message}`);
                     }
-                } catch (e) { } 
-            });
-            await Promise.all(promises);
-            console.log(`   Tải chi tiết & Lưu file: ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}`);
-            await delay(150); 
+                });
+                await Promise.all(promises);
+                console.log(`   Tải chi tiết & Lưu file: ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}`);
+                await delay(150); 
+            }
+
+            // Xuất file cấu trúc Index
+            fs.writeFileSync(`${DATA_DIR}/index.json`, JSON.stringify(indexData));
+            const versionInfo = { 
+                last_updated: new Date().toISOString(),
+                total_records: indexData.length 
+            };
+            fs.writeFileSync(`${DATA_DIR}/version.json`, JSON.stringify(versionInfo));
+
+            // TCI Golden Case Selection sau khi cào dữ liệu
+            console.log(`\n⚡ Tiến hành chạy TCI Calibration Selection...`);
+            try {
+                require('./tci/select-tci-calibration.js');
+            } catch (err) {
+                console.error(`⚠️ Lỗi khi chạy TCI Selection: ${err.message}`);
+            }
+
+            console.log(`🎉 HOÀN TẤT TUYỆT ĐỐI! Toàn bộ dữ liệu đã sẵn sàng để đẩy ra nhánh data.`);
         }
-
-        // Xuất file cấu trúc Index
-        fs.writeFileSync(`${DATA_DIR}/index.json`, JSON.stringify(indexData));
-        const versionInfo = { 
-            last_updated: new Date().toISOString(),
-            total_records: indexData.length 
-        };
-        fs.writeFileSync(`${DATA_DIR}/version.json`, JSON.stringify(versionInfo));
-
-        // TCI Golden Case Selection sau khi cào dữ liệu
-        console.log(`\n⚡ Tiến hành chạy TCI Calibration Selection...`);
-        try {
-            require('./tci/select-tci-calibration.js');
-        } catch (err) {
-            console.error(`⚠️ Lỗi khi chạy TCI Selection: ${err.message}`);
-        }
-
-        console.log(`🎉 HOÀN TẤT TUYỆT ĐỐI! Toàn bộ dữ liệu đã sẵn sàng để đẩy ra nhánh data.`);
+    } catch (err) {
+        console.error('❌ Lỗi chính trong main():', err);
+        process.exit(1);
     }
 }
 
-main();
+main().catch(err => {
+    console.error('❌ Lỗi không được xử lý:', err);
+    process.exit(1);
+});

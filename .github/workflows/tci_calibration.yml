@@ -1,0 +1,40 @@
+name: TCI Calibration
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tci/select-tci-calibration.js'
+      - 'tci/select-golden-cases.js'
+      - 'details/**'
+
+permissions:
+  contents: write
+
+jobs:
+  select:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout calibration branch
+        uses: actions/checkout@v4
+        with:
+          ref: tci-calibration
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Select TCI calibration cases
+        run: node tci/select-tci-calibration.js
+
+      - name: Select Golden Cases
+        run: node tci/select-golden-cases.js
+
+      - name: Commit calibration results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tci-results
+          git diff --cached --quiet || git commit -m "TCI: generate calibration and golden case reports"
+          git push origin HEAD:tci-calibration

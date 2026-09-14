@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.join(process.cwd(), 'details');
-const OUT_DIR = path.join(process.cwd(), 'tci-results');
+const ROOT = fs.existsSync(path.join(process.cwd(), 'data', 'details')) ? path.join(process.cwd(), 'data', 'details') : path.join(process.cwd(), 'details');
+const OUT_DIR = fs.existsSync(path.join(process.cwd(), 'data')) ? path.join(process.cwd(), 'data', 'tci-results') : path.join(process.cwd(), 'tci-results');
 const TARGET = 50;
 
 function arr(v){ return Array.isArray(v) ? v : []; }

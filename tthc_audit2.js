@@ -124,6 +124,14 @@ async function main() {
         };
         fs.writeFileSync(`${DATA_DIR}/version.json`, JSON.stringify(versionInfo));
 
+        // TCI Golden Case Selection sau khi cào dữ liệu
+        console.log(`\n⚡ Tiến hành chạy TCI Calibration Selection...`);
+        try {
+            require('./tci/select-tci-calibration.js');
+        } catch (err) {
+            console.error(`⚠️ Lỗi khi chạy TCI Selection: ${err.message}`);
+        }
+
         console.log(`🎉 HOÀN TẤT TUYỆT ĐỐI! Toàn bộ dữ liệu đã sẵn sàng để đẩy ra nhánh data.`);
     }
 }

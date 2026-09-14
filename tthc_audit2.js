@@ -27,31 +27,68 @@ const httpAgent = new http.Agent({
     keepAliveMsecs: 30000
 });
 
-const USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0"
+const USER_AGENT_PROFILES = [
+    {
+        ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        chUa: '"Chromium";v="128", "Not=A?Brand";v="24", "Google Chrome";v="128"',
+        platform: '"Windows"'
+    },
+    {
+        ua: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        chUa: '"Chromium";v="128", "Not=A?Brand";v="24", "Google Chrome";v="128"',
+        platform: '"macOS"'
+    },
+    {
+        ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0",
+        chUa: '"Chromium";v="127", "Not=A?Brand";v="24", "Microsoft Edge";v="127"',
+        platform: '"Windows"'
+    },
+    {
+        ua: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        chUa: '"Chromium";v="128", "Not=A?Brand";v="24", "Google Chrome";v="128"',
+        platform: '"Linux"'
+    }
 ];
 
-function getRandomUserAgent() {
-    return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
+// Sinh ngẫu nhiên địa chỉ IP thuộc dải IP các nhà mạng tại Việt Nam (Viettel, VNPT, FPT)
+function getRandomVietnamIP() {
+    const vnPrefixes = [
+        [14, 160], [14, 161], [14, 162], [14, 177],
+        [27, 64], [27, 72], [27, 74], [27, 76],
+        [113, 160], [113, 161], [113, 170], [113, 172],
+        [116, 96], [116, 100], [116, 105],
+        [171, 224], [171, 232], [171, 240],
+        [222, 252], [222, 253], [222, 254]
+    ];
+    const prefix = vnPrefixes[Math.floor(Math.random() * vnPrefixes.length)];
+    const c = Math.floor(Math.random() * 254) + 1;
+    const d = Math.floor(Math.random() * 254) + 1;
+    return `${prefix[0]}.${prefix[1]}.${c}.${d}`;
 }
 
 function getDynamicHeaders() {
+    const profile = USER_AGENT_PROFILES[Math.floor(Math.random() * USER_AGENT_PROFILES.length)];
+    const fakeIP = getRandomVietnamIP();
+    
     return {
         "accept": "application/json, text/plain, */*",
-        "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+        "accept-language": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5",
         "content-type": "application/json",
-        "user-agent": getRandomUserAgent(),
+        "user-agent": profile.ua,
+        "sec-ch-ua": profile.chUa,
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": profile.platform,
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
         "origin": "https://dichvucong.gov.vn",
-        "referer": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh.html"
+        "referer": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh.html",
+        // Header giả lập địa chỉ IP Việt Nam qua Proxy/WAF
+        "X-Forwarded-For": fakeIP,
+        "X-Real-IP": fakeIP,
+        "Client-IP": fakeIP,
+        "X-Client-IP": fakeIP,
+        "Via": `1.1 Chrome-CDN-${Math.floor(Math.random() * 1000)}`
     };
 }
 

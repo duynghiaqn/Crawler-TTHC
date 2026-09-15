@@ -9,29 +9,41 @@ on:
 jobs:
   crawl-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 360 # 6 giờ timeout cho Puppeteer (chậm hơn axios)
     
     steps:
       - name: Bước 1 - Kéo mã nguồn về máy ảo
         uses: actions/checkout@v3
 
       - name: Bước 2 - Cài đặt môi trường Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
-      - name: Bước 3 - Cài đặt thư viện
-        run: npm install axios dotenv
+      - name: Bước 3 - Cài đặt thư viện hệ thống cho Chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 \
+            libxfixes3 libxrandr2 libgbm1 libpango-1.0-0 \
+            libcairo2 libasound2 libatspi2.0-0
 
-      - name: Bước 4 - Chạy cỗ máy cào dữ liệu
+      - name: Bước 4 - Cài đặt thư viện Node.js
+        run: npm install
+
+      - name: Bước 5 - Chạy cỗ máy cào dữ liệu (Puppeteer Stealth Anti-WAF)
         run: node tthc_audit2.js
         env:
-          GITHUB_ACTIONS: true # Kích hoạt cờ tự động quét 100% trong code JS
+          GITHUB_ACTIONS: true
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: false
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
 
-      - name: Bước 5 - Đẩy dữ liệu ra CDN (ÉP ĐỀ KHÔNG LƯU LỊCH SỬ)
+      - name: Bước 6 - Đẩy dữ liệu ra CDN (ÉP ĐỀ KHÔNG LƯU LỊCH SỬ)
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./data
-          publish_branch: data # Xuất ra một nhánh riêng tên là "data"
-          force_orphan: true   # ĐÂY LÀ TÍNH NĂNG XÓA SỔ LỊCH SỬ CŨ, NGĂN PHÌNH REPO!
+          publish_branch: data
+          force_orphan: true
           commit_message: "🚀 Cập nhật Master Data TTHC tự động"

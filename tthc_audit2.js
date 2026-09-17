@@ -135,6 +135,19 @@ function formatWait(ms) {
     return ms >= 60000 ? `${(ms / 60000).toFixed(1)} phút` : `${(ms / 1000).toFixed(1)}s`;
 }
 
+function isContextDestroyedError(message) {
+    if (!message) return false;
+    const patterns = [
+        'Execution context was destroyed',
+        'Target closed',
+        'Session closed',
+        'Browser has disconnected',
+        'most likely because of a navigation',
+        'Navigation failed because browser has disconnected'
+    ];
+    return patterns.some(pattern => message.includes(pattern));
+}
+
 // ============================================================
 // PUPPETEER BROWSER MANAGER
 // ============================================================
@@ -280,76 +293,113 @@ class BrowserSession {
         }
     }
 
-    /** Gọi API POST từ bên trong browser context qua page.evaluate
-     *  — Gửi đầy đủ headers giống browser thật: Referer, Origin, sec-fetch-*, sec-ch-ua
-     */
     async fetchAPI(url, payload) {
-        return await this.page.evaluate(async (url, payload, timeout, referer, origin, secChUa, secChUaMobile, secChUaPlatform) => {
-            const controller = new AbortController();
-            const timer = setTimeout(() => controller.abort(), timeout);
+        if (!this.page || this.page.isClosed()) {
+            throw new Error('Puppeteer page is closed');
+        }
 
-            try {
-                const response = await fetch(url, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Accept': 'application/json, text/plain, */*',
-                        'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7',
-                        'Accept-Encoding': 'gzip, deflate, br',
-                        'Origin': origin,
-                        'Referer': referer,
-                        'sec-fetch-site': 'same-origin',
-                        'sec-fetch-mode': 'cors',
-                        'sec-fetch-dest': 'empty',
-                        'sec-ch-ua': secChUa,
-                        'sec-ch-ua-mobile': secChUaMobile,
-                        'sec-ch-ua-platform': secChUaPlatform,
-                    },
-                    body: JSON.stringify(payload),
-                    credentials: 'include',     // Tự động gửi cookie session
-                    signal: controller.signal,
-                });
+        try {
+            return await this.page.evaluate(
+                async (url, payload, timeout, referer, origin, secChUa, secChUaMobile, secChUaPlatform) => {
+                    const controller = new AbortController();
+                    const timer = setTimeout(() => controller.abort(), timeout);
 
-                clearTimeout(timer);
+                    try {
+                        const response = await fetch(url, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Accept': 'application/json, text/plain, */*',
+                                'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7',
+                                'Origin': origin,
+                                'Referer': referer,
+                                'sec-fetch-site': 'same-origin',
+                                'sec-fetch-mode': 'cors',
+                                'sec-fetch-dest': 'empty',
+                                'sec-ch-ua': secChUa,
+                                'sec-ch-ua-mobile': secChUaMobile,
+                                'sec-ch-ua-platform': secChUaPlatform,
+                            },
+                            body: JSON.stringify(payload),
+                            credentials: 'include',
+                            signal: controller.signal,
+                        });
 
-                if (!response.ok) {
-                    return { __error: true, status: response.status, statusText: response.statusText };
-                }
+                        if (!response.ok) {
+                            return {
+                                __error: true,
+                                status: response.status,
+                                statusText: response.statusText
+                            };
+                        }
 
-                const data = await response.json();
-                return data;
-            } catch (err) {
-                clearTimeout(timer);
-                return { __error: true, status: 0, statusText: err.message || 'Network Error' };
+                        return await response.json();
+                    } catch (error) {
+                        return {
+                            __error: true,
+                            status: 0,
+                            statusText: error.message || 'Network Error'
+                        };
+                    } finally {
+                        clearTimeout(timer);
+                    }
+                },
+                url,
+                payload,
+                CONFIG.REQUEST_TIMEOUT,
+                CONFIG.API_REFERER,
+                CONFIG.API_ORIGIN,
+                this.profile.secChUa,
+                this.profile.secChUaMobile,
+                this.profile.secChUaPlatform
+            );
+        } catch (error) {
+            const message = error?.message || String(error);
+
+            if (isContextDestroyedError(message)) {
+                console.warn(`⚠️ Browser context bị mất: ${message}`);
+                await this.restart();
+
+                return {
+                    __error: true,
+                    status: 0,
+                    statusText: `Browser context reset: ${message}`
+                };
             }
-        }, url, payload, CONFIG.REQUEST_TIMEOUT,
-           CONFIG.API_REFERER, CONFIG.API_ORIGIN,
-           this.profile.secChUa, this.profile.secChUaMobile, this.profile.secChUaPlatform
-        );
+
+            throw error;
+        }
     }
 
-    /** Fetch với retry, WAF detection và human-like delays */
     async fetchWithRetry(url, payload, label = '') {
         for (let attempt = 0; attempt <= CONFIG.MAX_RETRIES; attempt++) {
-            // Human-like delay trước mỗi request (trừ lần đầu tiên)
             if (attempt > 0 || label) {
                 await randomDelay(CONFIG.REQUEST_DELAY_MIN, CONFIG.REQUEST_DELAY_MAX);
             }
 
-            // Micro-pause ngẫu nhiên — mô phỏng "nghỉ giải lao"
             if (Math.random() < CONFIG.PAUSE_CHANCE) {
                 const pauseTime = CONFIG.PAUSE_DURATION_MIN + Math.floor(Math.random() * (CONFIG.PAUSE_DURATION_MAX - CONFIG.PAUSE_DURATION_MIN));
                 console.log(`   ☕ Micro-pause ${formatWait(pauseTime)} (mô phỏng người dùng nghỉ)...`);
                 await delay(pauseTime);
             }
 
-            const result = await this.fetchAPI(url, payload);
+            let result;
+            try {
+                result = await this.fetchAPI(url, payload);
+            } catch (error) {
+                console.warn(`⚠️ Lỗi Puppeteer ở lần thử ${attempt + 1}: ${error.message}`);
+                if (attempt >= CONFIG.MAX_RETRIES) {
+                    throw error;
+                }
+                const waitTime = Math.min((attempt + 1) * 5000, 30000);
+                console.log(`⏳ Chờ ${formatWait(waitTime)} trước khi retry...`);
+                await delay(waitTime);
+                continue;
+            }
 
-            // Kiểm tra lỗi WAF
             if (result && result.__error) {
                 const status = result.status;
 
-                // WAF block: 403, 429, 503
                 if (status === 403 || status === 429 || status === 503) {
                     this.consecutiveBlocks++;
                     const backoffTime = CONFIG.WAF_BACKOFF_MIN + Math.floor(Math.random() * (CONFIG.WAF_BACKOFF_MAX - CONFIG.WAF_BACKOFF_MIN));
@@ -358,7 +408,6 @@ class BrowserSession {
                     console.warn(`   ⏳ Chờ ${formatWait(backoffTime)} trước khi thử lại...`);
                     await delay(backoffTime);
 
-                    // Quá nhiều lần bị block → restart browser hoàn toàn
                     if (this.consecutiveBlocks >= CONFIG.WAF_MAX_CONSECUTIVE) {
                         console.warn(`🔄 Quá ${CONFIG.WAF_MAX_CONSECUTIVE} lần bị block — RESTART BROWSER...`);
                         await this.restart();
@@ -367,7 +416,6 @@ class BrowserSession {
                     continue;
                 }
 
-                // Lỗi khác (timeout, network error)
                 if (attempt < CONFIG.MAX_RETRIES) {
                     const waitTime = Math.min(Math.pow(2, attempt) * 1000 + Math.floor(Math.random() * 1000), 20000);
                     console.log(`⚠️ Lỗi (${result.statusText}), thử lại ${attempt + 1}/${CONFIG.MAX_RETRIES} sau ${formatWait(waitTime)}...`);
@@ -378,7 +426,6 @@ class BrowserSession {
                 throw new Error(`Fetch failed after ${CONFIG.MAX_RETRIES} retries: HTTP ${status} ${result.statusText}`);
             }
 
-            // Thành công — reset counter
             this.consecutiveBlocks = 0;
             return result;
         }

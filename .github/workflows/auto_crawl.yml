@@ -2,45 +2,44 @@ name: Auto Crawl DVCQG Data
 
 on:
   schedule:
-    # Chạy tự động vào 0h đêm (giờ Việt Nam) tức 17:00 giờ UTC mỗi ngày
-    - cron: '0 17 * * *' 
-  workflow_dispatch: # Cho phép anh bấm nút chạy thủ công bất cứ lúc nào
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   crawl-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 360 # 6 giờ timeout cho Puppeteer (chậm hơn axios)
-    
-    steps:
-      - name: Bước 1 - Kéo mã nguồn về máy ảo
-        uses: actions/checkout@v3
+    timeout-minutes: 360
 
-      - name: Bước 2 - Cài đặt môi trường Node.js
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24'
+          cache: npm
 
-      - name: Bước 3 - Cài đặt thư viện hệ thống cho Chromium
+      - name: Install Chromium
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
-            libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 \
-            libxfixes3 libxrandr2 libgbm1 libpango-1.0-0 \
-            libcairo2 libasound2t64 libatspi2.0-0 \
-            libglib2.0-0 libdbus-1-3
+          sudo apt-get install -y chromium
+          echo "PUPPETEER_EXECUTABLE_PATH=$(command -v chromium)" >> "$GITHUB_ENV"
+          chromium --version
 
-      - name: Bước 4 - Cài đặt thư viện Node.js
-        run: npm install
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Bước 5 - Chạy cỗ máy cào dữ liệu (Puppeteer Stealth Anti-WAF)
+      - name: Run crawler
         run: node tthc_audit2.js
         env:
-          GITHUB_ACTIONS: true
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: false
-          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
+          GITHUB_ACTIONS: 'true'
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
 
-      - name: Bước 6 - Đẩy dữ liệu ra CDN (ÉP ĐỀ KHÔNG LƯU LỊCH SỬ)
+      - name: Deploy to CDN (data branch)
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

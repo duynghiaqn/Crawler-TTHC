@@ -25,22 +25,53 @@ const CONFIG = {
     MAX_RETRIES: 3,
     TIMEOUT_MS: 12000,
     
-    // Standard Consistent Client Session (No evasion/spoofing)
-    HEADERS: {
+    // Pool of standard Chrome/Edge/Safari/Firefox Headers
+    HEADER_PROFILES: [
+        {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+            "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
+            "sec-ch-ua-platform": '"Windows"'
+        },
+        {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+            "sec-ch-ua-platform": '"Windows"'
+        },
+        {
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+            "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
+            "sec-ch-ua-platform": '"macOS"'
+        },
+        {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
+            "sec-ch-ua": '"Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
+            "sec-ch-ua-platform": '"Windows"'
+        },
+        {
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+            "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
+            "sec-ch-ua-platform": '"Linux"'
+        }
+    ]
+};
+
+function getHeadersForAttempt(attemptIndex = 0) {
+    const profile = CONFIG.HEADER_PROFILES[attemptIndex % CONFIG.HEADER_PROFILES.length];
+    return {
         "accept": "application/json, text/plain, */*",
         "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
         "content-type": "application/json",
         "origin": "https://dichvucong.gov.vn",
         "referer": "https://dichvucong.gov.vn/p/home/dvc-thu-tuc-hanh-chinh.html",
-        "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": '"Windows"',
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-    }
-};
+        "user-agent": profile["user-agent"],
+        "sec-ch-ua": profile["sec-ch-ua"],
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": profile["sec-ch-ua-platform"]
+    };
+}
 
 // Standard HTTPS Agent with maximum 3 connection sockets
 const httpsAgent = new https.Agent({
@@ -133,8 +164,9 @@ function parseFormalityCaseLevel(detail) {
 async function fetchVerifiedRequest(url, payload, checkpoint) {
     for (let retry = 0; retry <= CONFIG.MAX_RETRIES; retry++) {
         try {
+            const reqHeaders = getHeadersForAttempt(retry);
             const res = await axios.post(url, payload, {
-                headers: CONFIG.HEADERS,
+                headers: reqHeaders,
                 httpsAgent,
                 timeout: CONFIG.TIMEOUT_MS,
                 validateStatus: status => status >= 200 && status < 600

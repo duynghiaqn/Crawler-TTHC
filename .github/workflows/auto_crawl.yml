@@ -23,7 +23,7 @@ jobs:
         run: npm install axios dotenv
 
       - name: Bước 4 - Chạy cỗ máy cào dữ liệu
-        run: node tthc_audit2.js
+        run: node tthc_crawler.js
         env:
           GITHUB_ACTIONS: true # Kích hoạt cờ tự động quét 100% trong code JS
 

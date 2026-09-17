@@ -29,7 +29,7 @@ graph TD
     C[👤 Manual Workflow Dispatch] -->|Chạy thủ công| B
     
     subgraph "Engine Cào Dữ Liệu (Node.js)"
-        B --> D[📜 tthc_audit2.js]
+        B --> D[📜 tthc_crawler.js]
         D -->|1. Dynamic Header Pool| E[🛡️ Anti-WAF Request Engine]
         E -->|2. POST API| F[🌐 dichvucong.gov.vn]
         F -->|3. JSON Response| E
@@ -58,7 +58,7 @@ graph TD
 ```mermaid
 sequenceDiagram
     autonumber
-    participant App as tthc_audit2.js
+    participant App as tthc_crawler.js
     participant Pool as Header Rotation Pool
     participant API as DVCQG API Server
     participant FS as Local Filesystem
@@ -119,7 +119,7 @@ Crawler-TTHC/
 │   ├── select-tci-calibration.js   # Script phân tích chọn 50 mẫu calibration
 │   └── select-golden-cases.js      # Script trích xuất 15 mẫu Golden Cases
 ├── package.json                    # Khai báo dependency (axios, dotenv)
-├── tthc_audit2.js                  # Engine cào dữ liệu chính
+├── tthc_crawler.js                  # Engine cào dữ liệu chính
 └── README.md                       # Tài liệu hướng dẫn hệ thống
 ```
 
@@ -138,7 +138,7 @@ npm install
 
 ### 3. Chạy cào dữ liệu thủ công tại máy cục bộ (Local Run)
 ```bash
-node tthc_audit2.js
+node tthc_crawler.js
 ```
 *Dữ liệu cào được sẽ tự động tạo tại thư mục `./data`.*
 
@@ -186,7 +186,7 @@ Chứa toàn bộ cây dữ liệu chi tiết của 1 thủ tục (đã được
 
 | Workflow | Trigger | Lịch / Điều kiện | Nhiệm vụ |
 | :--- | :--- | :--- | :--- |
-| **`auto_crawl.yml`** | `schedule` / `workflow_dispatch` | `0 15 * * *` (22:00 VN) | Chạy `tthc_audit2.js` và đẩy dữ liệu `./data` ra nhánh `data`. |
+| **`auto_crawl.yml`** | `schedule` / `workflow_dispatch` | `0 15 * * *` (22:00 VN) | Chạy `tthc_crawler.js` và đẩy dữ liệu `./data` ra nhánh `data`. |
 | **`tci_calibration.yml`** | `push` / `workflow_dispatch` | Khi có thay đổi code TCI / detail | Phân tích 50 mẫu calibration & 15 Golden Cases, push lên nhánh `tci-calibration`. |
 
 ---

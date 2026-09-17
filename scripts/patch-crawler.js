@@ -1,11 +1,11 @@
 /*
  * Makes the legacy crawler resilient to Puppeteer navigation races.
- * This is deliberately run before tthc_audit2.js so the crawler can be
+ * This is deliberately run before tthc_crawler.js so the crawler can be
  * upgraded without duplicating its large business-logic file.
  */
 const fs = require('fs');
 
-const file = 'tthc_audit2.js';
+const file = 'tthc_crawler.js';
 let source = fs.readFileSync(file, 'utf8');
 
 if (source.includes('NAVIGATION_RACE_PATCH_V1')) {
@@ -67,7 +67,7 @@ const method = `    /** NAVIGATION_RACE_PATCH_V1
 const start = source.indexOf('    async fetchAPI(url, payload) {');
 const end = source.indexOf('    /** Fetch với retry', start);
 if (start < 0 || end < 0) {
-  throw new Error('Could not locate fetchAPI in tthc_audit2.js');
+  throw new Error('Could not locate fetchAPI in tthc_crawler.js');
 }
 source = source.slice(0, start) + method + source.slice(end);
 
@@ -76,7 +76,7 @@ source = source.slice(0, start) + method + source.slice(end);
 const needle = `                // Lỗi khác (timeout, network error)\n                if (attempt < CONFIG.MAX_RETRIES) {`;
 const replacement = `                // Navigation races leave the page in an unknown document.\n                // Restore the warm session before retrying the API request.\n                if (status === 0 && /Execution context was destroyed|navigation|Target closed|Cannot find context/i.test(result.statusText || '')) {\n                    console.warn('   🔁 Page đã điều hướng giữa request — khôi phục session trước khi thử lại...');\n                    await delay(2000 + attempt * 1000);\n                    try {\n                        await this.page.goto(CONFIG.WARMUP_PAGE, { waitUntil: 'domcontentloaded', timeout: 120000 });\n                        await this.warmup();\n                    } catch (recoveryError) {\n                        console.warn(\`   ⚠️ Không thể khôi phục page: \${recoveryError.message}\`);\n                    }\n                }\n\n                // Lỗi khác (timeout, network error)\n                if (attempt < CONFIG.MAX_RETRIES) {`;
 if (!source.includes(needle)) {
-  throw new Error('Could not locate retry block in tthc_audit2.js');
+  throw new Error('Could not locate retry block in tthc_crawler.js');
 }
 source = source.replace(needle, replacement);
 fs.writeFileSync(file, source);

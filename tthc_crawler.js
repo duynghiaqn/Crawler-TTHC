@@ -266,9 +266,11 @@ async function main() {
         try {
             const cacheData = JSON.parse(fs.readFileSync(CONFIG.DISCOVERY_FILE, 'utf8'));
             const cacheAgeHours = (Date.now() - new Date(cacheData.savedAt).getTime()) / (1000 * 3600);
-            if (Array.isArray(cacheData.items) && cacheData.items.length > 0 && cacheAgeHours < 6) {
+            const isCI = process.env.GITHUB_ACTIONS === 'true';
+            
+            if (Array.isArray(cacheData.items) && cacheData.items.length > 0 && (cacheAgeHours < 24 || isCI)) {
                 rawList = cacheData.items;
-                console.log(`⚡ Đã nạp ${rawList.length} TTHC từ Discovery Cache (Tuổi cache: ${cacheAgeHours.toFixed(1)}h).`);
+                console.log(`⚡ Đã nạp ${rawList.length} TTHC từ Discovery Cache (Tuổi cache: ${cacheAgeHours.toFixed(1)}h | CI Mode: ${isCI}).`);
             }
         } catch (e) {
             console.warn(`⚠️ Bỏ qua Discovery cache hỏng: ${e.message}`);

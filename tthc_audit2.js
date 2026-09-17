@@ -8,13 +8,13 @@ const httpsAgent = new https.Agent({ keepAlive: true, rejectUnauthorized: false 
 
 const USER_AGENT_PROFILES = [
     {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
         "sec-ch-ua-platform": '"Windows"'
     },
     {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-        "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
         "sec-ch-ua-platform": '"Windows"'
     },
     {
@@ -23,20 +23,14 @@ const USER_AGENT_PROFILES = [
         "sec-ch-ua-platform": '"macOS"'
     },
     {
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
-        "sec-ch-ua-platform": '"Linux"'
-    },
-    {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
-        "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Microsoft Edge";v="122"',
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
+        "sec-ch-ua": '"Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
         "sec-ch-ua-platform": '"Windows"'
     },
     {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0"
-    },
-    {
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
+        "sec-ch-ua-platform": '"Linux"'
     }
 ];
 
@@ -67,12 +61,15 @@ const fetchWithRetry = async (url, payload, customHeaders = null, maxRetries = 5
     for (let i = 0; i <= maxRetries; i++) {
         try {
             const reqHeaders = customHeaders || getRandomHeaders();
-            const res = await axios.post(url, payload, { headers: reqHeaders, httpsAgent, timeout: 30000 });
+            const res = await axios.post(url, payload, { headers: reqHeaders, httpsAgent, timeout: 45000 });
             return res.data;
         } catch (err) {
             if (i < maxRetries) {
-                const waitTime = Math.pow(2, i) * 1000;
-                console.log(`\n⚠️ Mạng chậm (${err.message}), đang thử lại lần ${i + 1}...`);
+                const jitter = Math.floor(Math.random() * 1000);
+                const waitTime = Math.pow(2, i) * 1000 + jitter;
+                if (i >= 1) {
+                    console.log(`   ⚠️ Thử lại (${err.message}) - lần ${i + 1}/${maxRetries} sau ${Math.round(waitTime)}ms...`);
+                }
                 await delay(waitTime);
             } else throw err;
         }
@@ -129,13 +126,13 @@ async function main() {
         if (!res.data.lastId || res.data.lastId === lastId) break;
         lastId = res.data.lastId;
         console.log(`   Đã tìm thấy: ${rawList.length} mã`);
-        await delay(100);
+        await delay(150);
     }
     console.log(`✅ Tổng số TTHC gốc: ${rawList.length}`);
 
     if (rawList.length > 0) {
         console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục.`);
-        const chunkSize = 20;
+        const chunkSize = 10;
 
         let indexData = [];
 
@@ -166,8 +163,10 @@ async function main() {
                 } catch (e) { }
             });
             await Promise.all(promises);
-            console.log(`   Tải chi tiết & Lưu file: ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}`);
-            await delay(150);
+            if ((i + chunkSize) % 100 === 0 || i + chunkSize >= rawList.length) {
+                console.log(`   Tải chi tiết & Lưu file: ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}`);
+            }
+            await delay(200);
         }
 
         // Xuất file cấu trúc Index

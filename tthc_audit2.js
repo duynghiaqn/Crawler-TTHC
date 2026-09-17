@@ -259,8 +259,8 @@ class BrowserSession {
         console.log(`🔄 Warm-up: Truy cập trang chủ để nhận session + cookies...`);
         try {
             await this.page.goto(CONFIG.WARMUP_PAGE, {
-                waitUntil: 'networkidle2',
-                timeout: 60000
+                waitUntil: 'domcontentloaded',
+                timeout: 30000
             });
 
             // Giả lập scroll để qua behavior analysis

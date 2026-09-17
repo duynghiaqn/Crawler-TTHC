@@ -8,15 +8,14 @@
 
 Dự án cung cấp giải pháp cào dữ liệu quy mô lớn (> 6,000+ TTHC) với hiệu năng cao, cơ chế vượt tường lửa (Anti-WAF/Anti-Bot) tiên tiến, và quy trình CI/CD chạy hoàn toàn tự động trên GitHub Actions.
 
-### ✨ Tính năng nổi bật
-- **⚡ Tốc độ & Tối ưu:** Cào toàn bộ danh mục và thông tin chi tiết của hơn 6,200+ TTHC trong thời gian ngắn với cơ chế xử lý song song theo Chunk (Batch processing).
-- **🛡️ Cơ chế Vượt WAF (Anti-Bot):** 
-  - **Dynamic Header Rotation:** Tự động xoay vòng ngẫu nhiên 7 bộ User-Agent & Client-Hints (`sec-ch-ua`, `sec-ch-ua-platform`...) của các trình duyệt hiện đại (Chrome, Edge, Firefox, Safari) trên Windows, macOS, Linux.
-  - **HTTPS Keep-Alive Agent:** Duy trì kết nối socket liên tục, giảm thiểu overhead handshake TLS.
-  - **Exponential Backoff:** Tự động thử lại thông minh khi mạng chậm hoặc bị giới hạn băng thông.
-- **🔄 CI/CD Tự động hóa:** Tự động lịch cào lúc **22:00 hàng ngày (giờ Việt Nam)** via GitHub Actions.
-- **📦 Xuất bản Dữ liệu Tối ưu:** Dữ liệu tự động đẩy ra nhánh `data` riêng biệt với cờ `--force-orphan`, giữ cho repository gốc luôn gọn nhẹ và tránh phình dung lượng git log.
-- **📊 TCI Calibration & Golden Cases Selector:** Công cụ phân tích, đánh giá chỉ số phức tạp thủ tục hành chính (TCI) và tự động chọn 50 mẫu hiệu chỉnh + 15 mẫu thử nghiệm chuẩn (Golden Cases).
+### ✨ Nguyên tắc Thiết kế & Tính năng Nổi bật
+- **⚡ Sequential 1-by-1 Execution:** Xử lý tuần tự strictly 1 request tại một thời điểm (`maxSockets: 1`), hoàn toàn loại bỏ concurrency/multiprocessing/fan-out gây áp lực lên hạ tầng máy chủ.
+- **🛡️ Conservative Rate & Jitter:** Sử dụng delay cơ sở kết hợp nhiễu ngẫu nhiên (Jitter) giữa mỗi request để đảm bảo tải cực kỳ lịch sự và tự nhiên.
+- **🚫 No Evasion Policy:** Tuân thủ chuẩn session trình duyệt Chrome tiêu chuẩn, không sử dụng IP rotation, proxy pool hay thủ thuật giả mạo identity.
+- **⚡ Immediate Checkpointing:** Lưu tiến độ ngay lập tức vào `data/checkpoint.json` sau mỗi item. Khi bị ngắt giữa chừng, hệ thống tiếp tục ngay lập tức mà không phải cào lại item thành công.
+- **🔒 Circuit Breaker (Cầu chì an toàn):** Tự động phát hiện 3 lỗi liên tiếp (429, 403, 5xx, timeout) để chủ động ngắt tiến trình và lưu vết lý do, bảo vệ hạ tầng endpoint.
+- **✅ Fail-Closed & Payload Verification:** Xác minh nghiêm ngặt cấu trúc phản hồi `res.data.code === 'OK'` thay vì tin tưởng mù quáng vào HTTP 200/201.
+- **📦 Xuất bản Dữ liệu Tối ưu:** Dữ liệu tự động đẩy ra nhánh `data` riêng biệt với cờ `--force-orphan`, giữ cho repository gốc luôn gọn nhẹ.
 
 ---
 

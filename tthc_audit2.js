@@ -1,74 +1,90 @@
 const axios = require('axios');
 const fs = require('fs');
-const readline = require('readline');
+const path = require('path');
+const https = require('https');
 require('dotenv').config();
 
-const https = require('https');
-// Giới hạn maxSockets = 5 để khớp đúng giới hạn socket đồng thời của WAF DVCQG
-const httpsAgent = new https.Agent({ 
-    keepAlive: true, 
-    maxSockets: 5, 
-    maxFreeSockets: 5, 
-    rejectUnauthorized: false 
-});
-
-const USER_AGENT_PROFILES = [
-    {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-        "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-        "sec-ch-ua-platform": '"Windows"'
-    },
-    {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
-        "sec-ch-ua-platform": '"Windows"'
-    },
-    {
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-        "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-        "sec-ch-ua-platform": '"macOS"'
-    }
-];
-
-function getRandomHeaders() {
-    const profile = USER_AGENT_PROFILES[Math.floor(Math.random() * USER_AGENT_PROFILES.length)];
-    return {
+// ============================================================
+// CONFIGURATION & CONSTANTS
+// ============================================================
+const CONFIG = {
+    DATA_DIR: path.join(process.cwd(), 'data'),
+    DETAILS_DIR: path.join(process.cwd(), 'data', 'details'),
+    CHECKPOINT_FILE: path.join(process.cwd(), 'data', 'checkpoint.json'),
+    INDEX_FILE: path.join(process.cwd(), 'data', 'index.json'),
+    VERSION_FILE: path.join(process.cwd(), 'data', 'version.json'),
+    
+    // Low request rate settings (Sequential with Jitter)
+    BASE_DELAY_MS: 300,
+    JITTER_MS: 200,
+    
+    // Circuit Breaker settings
+    MAX_CONSECUTIVE_FAILURES: 3,
+    MAX_RETRIES: 3,
+    TIMEOUT_MS: 20000,
+    
+    // Standard Consistent Client Session (No evasion/spoofing)
+    HEADERS: {
         "accept": "application/json, text/plain, */*",
         "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
         "content-type": "application/json",
         "origin": "https://dichvucong.gov.vn",
         "referer": "https://dichvucong.gov.vn/p/home/dvc-thu-tuc-hanh-chinh.html",
+        "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "user-agent": profile["user-agent"],
-        "sec-ch-ua": profile["sec-ch-ua"],
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": profile["sec-ch-ua-platform"]
-    };
-}
-
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-const fetchWithRetry = async (url, payload, customHeaders = null, maxRetries = 5) => {
-    for (let i = 0; i <= maxRetries; i++) {
-        try {
-            const reqHeaders = customHeaders || getRandomHeaders();
-            const res = await axios.post(url, payload, { headers: reqHeaders, httpsAgent, timeout: 15000 });
-            return res.data;
-        } catch (err) {
-            if (i < maxRetries) {
-                const jitter = Math.floor(Math.random() * 500);
-                const waitTime = Math.pow(2, i) * 800 + jitter;
-                if (i >= 1) {
-                    console.log(`   ⚠️ Thử lại (${err.message}) - lần ${i + 1}/${maxRetries} sau ${Math.round(waitTime)}ms...`);
-                }
-                await delay(waitTime);
-            } else throw err;
-        }
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
     }
 };
 
+// Standard HTTPS Agent with single connection socket
+const httpsAgent = new https.Agent({
+    keepAlive: true,
+    maxSockets: 1,
+    maxFreeSockets: 1,
+    rejectUnauthorized: false
+});
+
+// Helper for polite delay with random jitter
+const politeDelay = async () => {
+    const jitter = Math.floor(Math.random() * CONFIG.JITTER_MS);
+    const totalMs = CONFIG.BASE_DELAY_MS + jitter;
+    await new Promise(resolve => setTimeout(resolve, totalMs));
+};
+
+// ============================================================
+// CHECKPOINT & STATE MANAGEMENT
+// ============================================================
+function loadCheckpoint() {
+    if (fs.existsSync(CONFIG.CHECKPOINT_FILE)) {
+        try {
+            const raw = fs.readFileSync(CONFIG.CHECKPOINT_FILE, 'utf8');
+            return JSON.parse(raw);
+        } catch (e) {
+            console.warn(`⚠️ Lỗi khi đọc checkpoint cũ, khởi tạo mới: ${e.message}`);
+        }
+    }
+    return {
+        completedIds: {},
+        failedIds: {},
+        consecutiveFailures: 0,
+        lastUpdated: new Date().toISOString(),
+        status: 'INITIALIZED',
+        circuitBreakerReason: null
+    };
+}
+
+function saveCheckpoint(checkpoint) {
+    checkpoint.lastUpdated = new Date().toISOString();
+    fs.writeFileSync(CONFIG.CHECKPOINT_FILE, JSON.stringify(checkpoint, null, 2));
+}
+
+// ============================================================
+// DATA SANITIZATION & PARSING UTILS
+// ============================================================
 function sanitizeBase64(obj) {
     let str = JSON.stringify(obj);
     str = str.replace(/data:image\/[^;]+;base64,[a-zA-Z0-9+/=]+/g, '[Hình ảnh đính kèm trên DVCQG]');
@@ -94,84 +110,233 @@ function parseFormalityCaseLevel(detail) {
     return arr.length > 0 ? arr.join(', ') : 'Chưa xác định';
 }
 
-async function main() {
-    console.log('\n=== CÔNG CỤ XÂY DỰNG DATA JSON (BẢN CLOUD - GITHUB ACTIONS) ===\n');
-
-    // CẤU HÌNH ĐƯỜNG DẪN MÁY CHỦ ẢO (LINUX)
-    const DATA_DIR = './data';
-    const DETAILS_DIR = `${DATA_DIR}/details`;
-
-    // Xóa sạch data cũ mỗi lần cào mới để kho lưu trữ không bị rác
-    if (fs.existsSync(DATA_DIR)) fs.rmSync(DATA_DIR, { recursive: true, force: true });
-
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-    fs.mkdirSync(DETAILS_DIR, { recursive: true });
-
-    let rawList = [];
-    let lastId = "";
-    console.log(`🚀 Đang lấy danh mục TTHC toàn quốc...`);
-
-    while (true) {
-        const payload = { limit: 200, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
-        const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen', payload);
-        if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
-        res.data.items.forEach(item => rawList.push(item));
-        if (!res.data.lastId || res.data.lastId === lastId) break;
-        lastId = res.data.lastId;
-        console.log(`   Đã tìm thấy: ${rawList.length} mã`);
-        await delay(150);
-    }
-    console.log(`✅ Tổng số TTHC gốc: ${rawList.length}`);
-
-    if (rawList.length > 0) {
-        console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục.`);
-        const chunkSize = 5;
-
-        let indexData = [];
-
-        for (let i = 0; i < rawList.length; i += chunkSize) {
-            const chunk = rawList.slice(i, i + chunkSize);
-            const promises = chunk.map(async (item) => {
-                try {
-                    const res = await fetchWithRetry('https://dichvucong.gov.vn/api/v1/configuring/formality/get-formality-by-citizen', { id: item.id });
-                    if (res && res.data) {
-                        let detail = res.data.data || res.data;
-
-                        // 1. Tạo dữ liệu cho file Index
-                        const formalityItem = {
-                            id: item.id,
-                            ma_tthc: item.code,
-                            ten_tthc: item.name,
-                            cap_thuc_hien: parseFormalityCaseLevel(detail),
-                            loai_tthc: parseFormalityType(item.type || detail.formalityType),
-                            linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
-                            co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '')
-                        };
-                        indexData.push(formalityItem);
-
-                        // 2. Xuất file chi tiết
-                        const cleanDetail = sanitizeBase64(detail);
-                        fs.writeFileSync(`${DETAILS_DIR}/${item.id}.json`, JSON.stringify(cleanDetail));
-                    }
-                } catch (e) { }
+// ============================================================
+// RESILIENT SEQUENTIAL FETCH ENGINE WITH VERIFICATION & CIRCUIT BREAKER
+// ============================================================
+async function fetchVerifiedRequest(url, payload, checkpoint) {
+    for (let retry = 0; retry <= CONFIG.MAX_RETRIES; retry++) {
+        try {
+            const res = await axios.post(url, payload, {
+                headers: CONFIG.HEADERS,
+                httpsAgent,
+                timeout: CONFIG.TIMEOUT_MS,
+                validateStatus: status => status >= 200 && status < 600
             });
-            await Promise.all(promises);
-            if ((i + chunkSize) % 100 === 0 || i + chunkSize >= rawList.length) {
-                console.log(`   Tải chi tiết & Lưu file: ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}`);
+
+            // 1. Kiểm tra HTTP Status Code
+            if (res.status === 429 || res.status === 403 || res.status >= 500) {
+                const signalError = new Error(`Server rejection signal HTTP ${res.status}`);
+                signalError.statusCode = res.status;
+                throw signalError;
             }
-            await delay(100);
+
+            // 2. Data Verification Rule: Không bao giờ tin tưởng mù quáng vào HTTP 200
+            if (!res.data || (res.data.code !== 'OK' && res.data.code !== 200 && !res.data.data && !res.data.items)) {
+                throw new Error(`Payload verification failed (Response code: ${res.data ? res.data.code : 'INVALID'})`);
+            }
+
+            // Ghi nhận request thành công -> Reset đếm lỗi liên tiếp
+            checkpoint.consecutiveFailures = 0;
+            return res.data;
+
+        } catch (err) {
+            const isRejectionSignal = err.statusCode === 429 || err.statusCode === 403 || (err.statusCode >= 500);
+            
+            if (retry < CONFIG.MAX_RETRIES && !isRejectionSignal) {
+                const waitTime = Math.pow(2, retry) * 1000;
+                console.warn(`   ⚠️ Lỗi mạng (${err.message}) - thử lại lần ${retry + 1}/${CONFIG.MAX_RETRIES} sau ${waitTime}ms...`);
+                await new Promise(resolve => setTimeout(resolve, waitTime));
+            } else {
+                // Tăng biến đếm Circuit Breaker
+                checkpoint.consecutiveFailures += 1;
+                console.error(`   ❌ Request thất bại [Lỗi liên tiếp: ${checkpoint.consecutiveFailures}/${CONFIG.MAX_CONSECUTIVE_FAILURES}]: ${err.message}`);
+                
+                if (checkpoint.consecutiveFailures >= CONFIG.MAX_CONSECUTIVE_FAILURES) {
+                    checkpoint.status = 'CIRCUIT_BREAKER_TRIPPED';
+                    checkpoint.circuitBreakerReason = `Đã dừng chạy an toàn: Phát hiện ${checkpoint.consecutiveFailures} lỗi phản hồi/tường lửa liên tiếp (${err.message}).`;
+                    saveCheckpoint(checkpoint);
+                    throw new Error(checkpoint.circuitBreakerReason);
+                }
+                throw err;
+            }
         }
-
-        // Xuất file cấu trúc Index
-        fs.writeFileSync(`${DATA_DIR}/index.json`, JSON.stringify(indexData));
-        const versionInfo = {
-            last_updated: new Date().toISOString(),
-            total_records: indexData.length
-        };
-        fs.writeFileSync(`${DATA_DIR}/version.json`, JSON.stringify(versionInfo));
-
-        console.log(`🎉 HOÀN TẤT TUYỆT ĐỐI! Toàn bộ dữ liệu đã sẵn sàng để đẩy ra nhánh data.`);
     }
 }
 
-main();
+// ============================================================
+// MAIN PIPELINE
+// ============================================================
+async function main() {
+    console.log('\n=== CÔNG CỤ CÀO TTHC DVCQG (CHUẨN TẦM DOANH NGHIỆP - SEQUENTIAL & CHECKPOINT) ===\n');
+
+    // 1. Khởi tạo thư mục
+    if (!fs.existsSync(CONFIG.DATA_DIR)) fs.mkdirSync(CONFIG.DATA_DIR, { recursive: true });
+    if (!fs.existsSync(CONFIG.DETAILS_DIR)) fs.mkdirSync(CONFIG.DETAILS_DIR, { recursive: true });
+
+    // 2. Đọc Checkpoint
+    const checkpoint = loadCheckpoint();
+    if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
+        console.warn(`⚠️ CẢNH BÁO: Lần chạy trước bị ngắt bởi Circuit Breaker!`);
+        console.warn(` Lý do: ${checkpoint.circuitBreakerReason}`);
+        console.warn(` Resetting Circuit Breaker counter để tiếp tục quy trình an toàn...\n`);
+        checkpoint.consecutiveFailures = 0;
+        checkpoint.status = 'IN_PROGRESS';
+    } else {
+        checkpoint.status = 'IN_PROGRESS';
+    }
+
+    // 3. Khôi phục IndexData từ ổ đĩa nếu đã có
+    let indexData = [];
+    if (fs.existsSync(CONFIG.INDEX_FILE)) {
+        try {
+            indexData = JSON.parse(fs.readFileSync(CONFIG.INDEX_FILE, 'utf8'));
+        } catch (e) {
+            indexData = [];
+        }
+    }
+
+    // 4. Thu thập danh mục TTHC Toàn quốc (Reuse result)
+    let rawList = [];
+    let lastId = "";
+    console.log(`🚀 Đang đồng bộ danh mục TTHC toàn quốc (Sequential Discovery)...`);
+
+    try {
+        while (true) {
+            const payload = { limit: 200, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
+            const res = await fetchVerifiedRequest(
+                'https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen',
+                payload,
+                checkpoint
+            );
+
+            if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
+            res.data.items.forEach(item => rawList.push(item));
+
+            if (!res.data.lastId || res.data.lastId === lastId) break;
+            lastId = res.data.lastId;
+            console.log(`   Đã tìm thấy: ${rawList.length} mã TTHC`);
+            await politeDelay();
+        }
+    } catch (err) {
+        if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
+            console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED: ${err.message}`);
+            process.exit(1);
+        } else {
+            console.error(`⚠️ Lỗi khi lấy danh mục: ${err.message}`);
+        }
+    }
+
+    console.log(`✅ Tổng số TTHC phát hiện: ${rawList.length}`);
+
+    // 5. Tải chi tiết từng TTHC — TUẦN TỰ (SEQUENTIAL ONLY), TỰ ĐỘNG CHÉCKPOINT MỖI ITEM
+    if (rawList.length > 0) {
+        console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục (Sequential 1-by-1 + Immediate Checkpoint)...\n`);
+        
+        let successCount = Object.keys(checkpoint.completedIds).length;
+        let skippedCount = 0;
+
+        for (let i = 0; i < rawList.length; i++) {
+            const item = rawList[i];
+            const detailFilePath = path.join(CONFIG.DETAILS_DIR, `${item.id}.json`);
+
+            // Kiểm tra xem item đã được tải thành công và có file chưa -> Bỏ qua request thừa
+            if (checkpoint.completedIds[item.id] && fs.existsSync(detailFilePath)) {
+                skippedCount++;
+                continue;
+            }
+
+            try {
+                const res = await fetchVerifiedRequest(
+                    'https://dichvucong.gov.vn/api/v1/configuring/formality/get-formality-by-citizen',
+                    { id: item.id },
+                    checkpoint
+                );
+
+                if (res && res.data) {
+                    let detail = res.data.data || res.data;
+
+                    // A. Tạo thông tin Index
+                    const formalityItem = {
+                        id: item.id,
+                        ma_tthc: item.code,
+                        ten_tthc: item.name,
+                        cap_thuc_hien: parseFormalityCaseLevel(detail),
+                        loai_tthc: parseFormalityType(item.type || detail.formalityType),
+                        linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
+                        co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '')
+                    };
+
+                    // Cập nhật indexData (tránh trùng lặp)
+                    const existingIdx = indexData.findIndex(x => x.id === item.id);
+                    if (existingIdx >= 0) {
+                        indexData[existingIdx] = formalityItem;
+                    } else {
+                        indexData.push(formalityItem);
+                    }
+
+                    // B. Lưu RAW JSON Chi tiết (Dọn dẹp base64)
+                    const cleanDetail = sanitizeBase64(detail);
+                    fs.writeFileSync(detailFilePath, JSON.stringify(cleanDetail, null, 2));
+
+                    // C. CHECKPOINT NGAY LẬP TỨC (Immediate Checkpoint)
+                    checkpoint.completedIds[item.id] = {
+                        code: item.code,
+                        timestamp: new Date().toISOString(),
+                        verified: true
+                    };
+                    delete checkpoint.failedIds[item.id];
+                    successCount++;
+                    saveCheckpoint(checkpoint);
+                }
+
+            } catch (err) {
+                // Ghi nhận lỗi cho item này vào checkpoint
+                checkpoint.failedIds[item.id] = {
+                    code: item.code,
+                    timestamp: new Date().toISOString(),
+                    error: err.message
+                };
+                saveCheckpoint(checkpoint);
+
+                if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
+                    console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED TẠI ITEM ${item.code || item.id}!`);
+                    console.error(`   Lý do: ${checkpoint.circuitBreakerReason}`);
+                    console.error(`   Đã lưu Checkpoint tiến độ. Tiến trình dừng lại an toàn.\n`);
+                    break;
+                }
+            }
+
+            // Log tiến độ mỗi 50 TTHC
+            if ((i + 1) % 50 === 0 || i === rawList.length - 1) {
+                console.log(`   [Tiến độ: ${i + 1}/${rawList.length}] ✅ Đã hoàn tất: ${successCount} | ⏩ Bỏ qua: ${skippedCount} | ❌ Lỗi: ${Object.keys(checkpoint.failedIds).length}`);
+            }
+
+            // Tốc độ thấp có jitter chống nghẽn server
+            await politeDelay();
+        }
+
+        // 6. Ghi xuất bản Index & Version
+        fs.writeFileSync(CONFIG.INDEX_FILE, JSON.stringify(indexData, null, 2));
+        const versionInfo = {
+            last_updated: new Date().toISOString(),
+            total_records: indexData.length,
+            completed_records: Object.keys(checkpoint.completedIds).length,
+            failed_records: Object.keys(checkpoint.failedIds).length,
+            circuit_breaker_status: checkpoint.status
+        };
+        fs.writeFileSync(CONFIG.VERSION_FILE, JSON.stringify(versionInfo, null, 2));
+
+        if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
+            process.exit(1);
+        } else {
+            checkpoint.status = 'COMPLETED';
+            saveCheckpoint(checkpoint);
+            console.log(`\n🎉 HOÀN TẤT AN TOÀN! Tổng số TTHC thành công: ${Object.keys(checkpoint.completedIds).length}/${rawList.length}`);
+        }
+    }
+}
+
+main().catch(err => {
+    console.error('❌ Lỗi hệ thống ngoài dự kiến:', err.message);
+    process.exit(1);
+});

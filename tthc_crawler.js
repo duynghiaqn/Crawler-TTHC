@@ -21,9 +21,9 @@ const CONFIG = {
     JITTER_MS: 200,
     
     // Circuit Breaker settings
-    MAX_CONSECUTIVE_FAILURES: 3,
+    MAX_CONSECUTIVE_FAILURES: 5,
     MAX_RETRIES: 3,
-    TIMEOUT_MS: 20000,
+    TIMEOUT_MS: 12000,
     
     // Standard Consistent Client Session (No evasion/spoofing)
     HEADERS: {

@@ -3,9 +3,22 @@ const fs = require('fs');
 const readline = require('readline');
 require('dotenv').config();
 
+const https = require('https');
+const httpsAgent = new https.Agent({ keepAlive: true, rejectUnauthorized: false });
+
 const headers = {
-    "accept": "application/json",
-    "content-type": "application/json"
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+    "content-type": "application/json",
+    "origin": "https://dichvucong.gov.vn",
+    "referer": "https://dichvucong.gov.vn/p/home/dvc-thu-tuc-hanh-chinh.html",
+    "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 };
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -13,12 +26,12 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 const fetchWithRetry = async (url, payload, headers, maxRetries = 5) => {
     for (let i = 0; i <= maxRetries; i++) {
         try {
-            const res = await axios.post(url, payload, { headers, timeout: 30000 });
+            const res = await axios.post(url, payload, { headers, httpsAgent, timeout: 30000 });
             return res.data;
         } catch (err) {
             if (i < maxRetries) {
                 const waitTime = Math.pow(2, i) * 1000;
-                console.log(`\n⚠️ Mạng chậm, đang thử lại lần ${i + 1}...`);
+                console.log(`\n⚠️ Mạng chậm (${err.message}), đang thử lại lần ${i + 1}...`);
                 await delay(waitTime);
             } else throw err;
         }

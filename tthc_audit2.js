@@ -195,34 +195,60 @@ async function main() {
         }
     }
 
-    // 4. Thu thập danh mục TTHC Toàn quốc (Reuse result)
+    // 4. Thu thập danh mục TTHC Toàn quốc (Discovery Caching & Discovery Execution)
+    const DISCOVERY_FILE = path.join(CONFIG.DATA_DIR, 'discovery.json');
     let rawList = [];
-    let lastId = "";
-    console.log(`🚀 Đang đồng bộ danh mục TTHC toàn quốc (Sequential Discovery)...`);
 
-    try {
-        while (true) {
-            const payload = { limit: 200, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
-            const res = await fetchVerifiedRequest(
-                'https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen',
-                payload,
-                checkpoint
-            );
-
-            if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
-            res.data.items.forEach(item => rawList.push(item));
-
-            if (!res.data.lastId || res.data.lastId === lastId) break;
-            lastId = res.data.lastId;
-            console.log(`   Đã tìm thấy: ${rawList.length} mã TTHC`);
-            await politeDelay();
+    // Kiểm tra cache Discovery nếu còn mới (< 6 tiếng)
+    if (fs.existsSync(DISCOVERY_FILE)) {
+        try {
+            const cacheData = JSON.parse(fs.readFileSync(DISCOVERY_FILE, 'utf8'));
+            const cacheAgeHours = (Date.now() - new Date(cacheData.savedAt).getTime()) / (1000 * 3600);
+            if (Array.isArray(cacheData.items) && cacheData.items.length > 0 && cacheAgeHours < 6) {
+                rawList = cacheData.items;
+                console.log(`⚡ Đã nạp ${rawList.length} TTHC từ Discovery Cache (Tuổi cache: ${cacheAgeHours.toFixed(1)}h).`);
+            }
+        } catch (e) {
+            console.warn(`⚠️ Bỏ qua Discovery cache hỏng: ${e.message}`);
         }
-    } catch (err) {
-        if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
-            console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED: ${err.message}`);
-            process.exit(1);
-        } else {
-            console.error(`⚠️ Lỗi khi lấy danh mục: ${err.message}`);
+    }
+
+    if (rawList.length === 0) {
+        let lastId = "";
+        console.log(`🚀 Đang đồng bộ danh mục TTHC toàn quốc từ máy chủ (Discovery Engine)...`);
+
+        try {
+            while (true) {
+                const payload = { limit: 200, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
+                const res = await fetchVerifiedRequest(
+                    'https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen',
+                    payload,
+                    checkpoint
+                );
+
+                if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
+                res.data.items.forEach(item => rawList.push(item));
+
+                if (!res.data.lastId || res.data.lastId === lastId) break;
+                lastId = res.data.lastId;
+                console.log(`   Đã tìm thấy: ${rawList.length} mã TTHC`);
+                await politeDelay();
+            }
+
+            // Ghi Discovery Cache
+            fs.writeFileSync(DISCOVERY_FILE, JSON.stringify({
+                savedAt: new Date().toISOString(),
+                totalItems: rawList.length,
+                items: rawList
+            }, null, 2));
+
+        } catch (err) {
+            if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
+                console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED: ${err.message}`);
+                process.exit(1);
+            } else {
+                console.error(`⚠️ Lỗi khi lấy danh mục: ${err.message}`);
+            }
         }
     }
 
@@ -235,6 +261,7 @@ async function main() {
         let successCount = Object.keys(checkpoint.completedIds).length;
         let skippedCount = 0;
         const chunkSize = 3;
+        const startTime = Date.now();
 
         for (let i = 0; i < rawList.length; i += chunkSize) {
             const chunk = rawList.slice(i, i + chunkSize);
@@ -312,7 +339,9 @@ async function main() {
 
             // Log tiến độ mỗi 60 TTHC
             if ((i + chunkSize) % 60 < chunkSize || i + chunkSize >= rawList.length) {
-                console.log(`   [Tiến độ: ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}] ✅ Đã hoàn tất: ${successCount} | ⏩ Bỏ qua: ${skippedCount} | ❌ Lỗi: ${Object.keys(checkpoint.failedIds).length}`);
+                const elapsedMin = ((Date.now() - startTime) / 60000).toFixed(1);
+                const pct = (((i + chunkSize) / rawList.length) * 100).toFixed(1);
+                console.log(`   [${pct}% | ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}] ✅ Hoàn tất: ${successCount} | ⏩ Bỏ qua: ${skippedCount} | ❌ Lỗi: ${Object.keys(checkpoint.failedIds).length} | ⏱️ ${elapsedMin}m`);
             }
 
             // Tốc độ thấp có jitter chống nghẽn server

@@ -40,11 +40,11 @@ const CONFIG = {
     }
 };
 
-// Standard HTTPS Agent with single connection socket
+// Standard HTTPS Agent with maximum 3 connection sockets
 const httpsAgent = new https.Agent({
     keepAlive: true,
-    maxSockets: 1,
-    maxFreeSockets: 1,
+    maxSockets: 3,
+    maxFreeSockets: 3,
     rejectUnauthorized: false
 });
 
@@ -228,87 +228,91 @@ async function main() {
 
     console.log(`✅ Tổng số TTHC phát hiện: ${rawList.length}`);
 
-    // 5. Tải chi tiết từng TTHC — TUẦN TỰ (SEQUENTIAL ONLY), TỰ ĐỘNG CHÉCKPOINT MỖI ITEM
+    // 5. Tải chi tiết từng TTHC — TỐI ĐA 3 KẾT NỐI SONG SONG (MAX CONCURRENCY = 3)
     if (rawList.length > 0) {
-        console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục (Sequential 1-by-1 + Immediate Checkpoint)...\n`);
+        console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục (Tối đa 3 kết nối song song + Checkpoint liên tục)...\n`);
         
         let successCount = Object.keys(checkpoint.completedIds).length;
         let skippedCount = 0;
+        const chunkSize = 3;
 
-        for (let i = 0; i < rawList.length; i++) {
-            const item = rawList[i];
-            const detailFilePath = path.join(CONFIG.DETAILS_DIR, `${item.id}.json`);
+        for (let i = 0; i < rawList.length; i += chunkSize) {
+            const chunk = rawList.slice(i, i + chunkSize);
+            const pending = chunk.filter(item => {
+                const detailFilePath = path.join(CONFIG.DETAILS_DIR, `${item.id}.json`);
+                if (checkpoint.completedIds[item.id] && fs.existsSync(detailFilePath)) {
+                    skippedCount++;
+                    return false;
+                }
+                return true;
+            });
 
-            // Kiểm tra xem item đã được tải thành công và có file chưa -> Bỏ qua request thừa
-            if (checkpoint.completedIds[item.id] && fs.existsSync(detailFilePath)) {
-                skippedCount++;
-                continue;
-            }
+            if (pending.length > 0) {
+                await Promise.all(pending.map(async (item) => {
+                    const detailFilePath = path.join(CONFIG.DETAILS_DIR, `${item.id}.json`);
+                    try {
+                        const res = await fetchVerifiedRequest(
+                            'https://dichvucong.gov.vn/api/v1/configuring/formality/get-formality-by-citizen',
+                            { id: item.id },
+                            checkpoint
+                        );
 
-            try {
-                const res = await fetchVerifiedRequest(
-                    'https://dichvucong.gov.vn/api/v1/configuring/formality/get-formality-by-citizen',
-                    { id: item.id },
-                    checkpoint
-                );
+                        if (res && res.data) {
+                            let detail = res.data.data || res.data;
 
-                if (res && res.data) {
-                    let detail = res.data.data || res.data;
+                            // A. Tạo thông tin Index
+                            const formalityItem = {
+                                id: item.id,
+                                ma_tthc: item.code,
+                                ten_tthc: item.name,
+                                cap_thuc_hien: parseFormalityCaseLevel(detail),
+                                loai_tthc: parseFormalityType(item.type || detail.formalityType),
+                                linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
+                                co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '')
+                            };
 
-                    // A. Tạo thông tin Index
-                    const formalityItem = {
-                        id: item.id,
-                        ma_tthc: item.code,
-                        ten_tthc: item.name,
-                        cap_thuc_hien: parseFormalityCaseLevel(detail),
-                        loai_tthc: parseFormalityType(item.type || detail.formalityType),
-                        linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
-                        co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '')
-                    };
+                            // Cập nhật indexData (tránh trùng lặp)
+                            const existingIdx = indexData.findIndex(x => x.id === item.id);
+                            if (existingIdx >= 0) {
+                                indexData[existingIdx] = formalityItem;
+                            } else {
+                                indexData.push(formalityItem);
+                            }
 
-                    // Cập nhật indexData (tránh trùng lặp)
-                    const existingIdx = indexData.findIndex(x => x.id === item.id);
-                    if (existingIdx >= 0) {
-                        indexData[existingIdx] = formalityItem;
-                    } else {
-                        indexData.push(formalityItem);
+                            // B. Lưu RAW JSON Chi tiết (Dọn dẹp base64)
+                            const cleanDetail = sanitizeBase64(detail);
+                            fs.writeFileSync(detailFilePath, JSON.stringify(cleanDetail, null, 2));
+
+                            // C. CHECKPOINT NGAY LẬP TỨC
+                            checkpoint.completedIds[item.id] = {
+                                code: item.code,
+                                timestamp: new Date().toISOString(),
+                                verified: true
+                            };
+                            delete checkpoint.failedIds[item.id];
+                            successCount++;
+                            saveCheckpoint(checkpoint);
+                        }
+
+                    } catch (err) {
+                        checkpoint.failedIds[item.id] = {
+                            code: item.code,
+                            timestamp: new Date().toISOString(),
+                            error: err.message
+                        };
+                        saveCheckpoint(checkpoint);
                     }
-
-                    // B. Lưu RAW JSON Chi tiết (Dọn dẹp base64)
-                    const cleanDetail = sanitizeBase64(detail);
-                    fs.writeFileSync(detailFilePath, JSON.stringify(cleanDetail, null, 2));
-
-                    // C. CHECKPOINT NGAY LẬP TỨC (Immediate Checkpoint)
-                    checkpoint.completedIds[item.id] = {
-                        code: item.code,
-                        timestamp: new Date().toISOString(),
-                        verified: true
-                    };
-                    delete checkpoint.failedIds[item.id];
-                    successCount++;
-                    saveCheckpoint(checkpoint);
-                }
-
-            } catch (err) {
-                // Ghi nhận lỗi cho item này vào checkpoint
-                checkpoint.failedIds[item.id] = {
-                    code: item.code,
-                    timestamp: new Date().toISOString(),
-                    error: err.message
-                };
-                saveCheckpoint(checkpoint);
-
-                if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
-                    console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED TẠI ITEM ${item.code || item.id}!`);
-                    console.error(`   Lý do: ${checkpoint.circuitBreakerReason}`);
-                    console.error(`   Đã lưu Checkpoint tiến độ. Tiến trình dừng lại an toàn.\n`);
-                    break;
-                }
+                }));
             }
 
-            // Log tiến độ mỗi 50 TTHC
-            if ((i + 1) % 50 === 0 || i === rawList.length - 1) {
-                console.log(`   [Tiến độ: ${i + 1}/${rawList.length}] ✅ Đã hoàn tất: ${successCount} | ⏩ Bỏ qua: ${skippedCount} | ❌ Lỗi: ${Object.keys(checkpoint.failedIds).length}`);
+            if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
+                console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED! Tiến trình dừng lại an toàn.\n`);
+                break;
+            }
+
+            // Log tiến độ mỗi 60 TTHC
+            if ((i + chunkSize) % 60 < chunkSize || i + chunkSize >= rawList.length) {
+                console.log(`   [Tiến độ: ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}] ✅ Đã hoàn tất: ${successCount} | ⏩ Bỏ qua: ${skippedCount} | ❌ Lỗi: ${Object.keys(checkpoint.failedIds).length}`);
             }
 
             // Tốc độ thấp có jitter chống nghẽn server

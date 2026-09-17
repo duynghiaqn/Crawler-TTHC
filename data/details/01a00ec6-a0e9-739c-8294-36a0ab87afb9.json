@@ -1,0 +1,244 @@
+{
+  "id": "01a00ec6-a0e9-739c-8294-36a0ab87afb9",
+  "code": "1.116351",
+  "codeNotation": "1.116351",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân gửi hồ sơ đề nghị sửa đổi, bổ sung, cấp lại Giấy phép gia công hàng hóa đến cơ quan cấp phép. \nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan cấp phép thông báo để bổ sung, hoàn thiện.\nc) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định, cơ quan cấp phép xem xét sửa đổi, bổ sung, cấp lại Giấy phép hoặc có văn bản thông báo từ chối sửa đổi, bổ sung, nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục sửa đổi, bổ sung/ cấp lại Giấy phép gia công hàng hóa",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a00ec3-2793-71b8-8e10-0fd99d9908f8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "01 bộ hồ sơ bằng tiếng Việt (Các văn bản, tài liệu sử dụng ngôn ngữ không phải tiếng Việt phải được dịch sang tiếng Việt, xác thực bởi người đại diện theo pháp luật hoặc người đại diện theo ủy quyền), bao gồm:",
+          "code": "XNK-292-01",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a00ec3-96d6-7233-8a25-589732d5b783",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Đơn đề nghị sửa đổi, bổ sung, cấp lại Giấy phép, theo mẫu số 12 quy định tại Phụ lục VII Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương: 01 bản chính.",
+          "code": "XNK-292-02",
+          "attachments": [
+            {
+              "id": "01a00ec7-4273-703b-b331-d3a837acd25e",
+              "fileName": "Đơn đề nghị sửa đổi.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a00ec7-4273-703b-b331-d3a837acd25e/Đơn đề nghị sửa đổi.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a00ec3-e0dd-7177-99da-e78cc0a5daf6",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Tài liệu liên quan đến việc sửa đổi, bổ sung Giấy phép hoặc tài liệu có liên quan đến việc mất, thất lạc, hư hỏng Giấy phép (nếu có): 01 bản sao có đóng dấu của thương nhân.",
+          "code": "XNK-292-03",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a00ec4-8556-709f-840c-8897dad2fd7d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp nộp trực tuyến, thương nhân nộp bản sao điện tử của các tài liệu được yêu cầu.",
+          "code": "XNK-292-04",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3"
+  ],
+  "resultIds": [
+    "01a00ec4-f61e-71d3-b793-ae11366938b7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a00ec4-f61e-71d3-b793-ae11366938b7",
+      "name": "Giấy phép của cơ quan có thẩm quyền hoặc văn bản thông báo từ chối sửa đổi, bổ sung, cấp lại",
+      "code": "KQ-292-001"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787041141589,
+  "updatedAt": 1787041141589,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a00ebe-e04a-721a-881a-9da433d007cd",
+    "proposalNumber": "2040/QĐ-BCT",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1787041141457,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

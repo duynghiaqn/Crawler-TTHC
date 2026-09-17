@@ -1,0 +1,260 @@
+{
+  "id": "019f6f67-c3a8-7163-8167-02e782ebf1c2",
+  "code": "3.000616",
+  "codeNotation": "3.000616",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1. Doanh nghiệp đề nghị hỗ trợ từ ngân sách địa phương cho các dự án hoạt động trong lĩnh vực công nghiệp công nghệ số nộp 01 bộ hồ sơ theo quy định tại Phụ lục kèm theo Nghị quyết này tại Trung tâm phục vụ Hành chính công thành phố, cấp xã (nộp trực tiếp hoặc gửi qua đường bưu điện hoặc qua Cổng dịch vụ công quốc gia).\n2. Trong thời hạn 02 ngày làm việc, Sở Khoa học và Công nghệ kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ chưa đầy đủ, hợp lệ, Sở Khoa học và Công nghệ thông báo bằng văn bản để doanh nghiệp bổ sung, hoàn thiện.\n3. Trong thời hạn 06 ngày làm việc kể từ ngày nhận hồ sơ, Sở Khoa học và Công nghệ chủ trì, phối hợp với Sở Tài chính và các cơ quan liên quan tiến hành thẩm định hồ sơ đề nghị hỗ trợ.\n 4. Trong thời hạn 02 ngày làm việc kể từ ngày nhận được Tờ trình của Sở Khoa học và Công nghệ, Ủy ban nhân dân thành phố ban hành quyết định hỗ trợ, tổ chức thực hiện chi trả cho các đối tượng được thụ hưởng chính sách. Trường hợp hồ sơ không đủ điều kiện hỗ trợ, Sở Khoa học và Công nghệ tham mưu Ủy ban nhân dân thành phố ban hành văn bản thông báo và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "a) Doanh nghiệp có năng lực, kinh nghiệm của doanh nghiệp Việt Nam theo quy định tại khoản 1 Điều 25 Nghị định số 88/2025/NĐ-CP; \nb) Doanh nghiệp có năng lực nghiên cứu, thiết kế hoặc sản xuất trong   lĩnh vực vi mạch - điện tử; có chuyên gia chuyên ngành điện tử, công nghệ thông tin, vật liệu bán dẫn hoặc cơ điện tử; đội ngũ quản lý có kinh nghiệm triển khai dự án công nghệ cao.",
+  "name": "Thủ tục Hỗ trợ doanh nghiệp tham gia chuỗi cung ứng bán dẫn",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6f66-a25f-739b-9ae8-f9403bc5c1ac",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ",
+          "code": "TP-H57.000054",
+          "attachments": [
+            {
+              "id": "019f6f66-9c38-7286-87ee-65bdf93f1f4d",
+              "fileName": "Mẫu số 09.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6f66-9c38-7286-87ee-65bdf93f1f4d/Mẫu số 09.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6f67-4656-71d7-bb7c-ffef6f175bf0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản thuyết minh đáp ứng tiêu chí hỗ trợ",
+          "code": "TP-H57.000055",
+          "attachments": [
+            {
+              "id": "019f6f67-13ec-70fa-aeef-f98377df9bff",
+              "fileName": "Mẫu số 10.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6f67-13ec-70fa-aeef-f98377df9bff/Mẫu số 10.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-2f587e315cc3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f6f38-ea67-7405-9753-37da272b125c"
+  ],
+  "resultIds": [
+    "019f6f62-c4e1-7406-a3b2-97a1242bed3b"
+  ],
+  "subjectTypeIds": [
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e5d-edfb72e6be7f"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+      "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+      "code": "G14-TT04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+    "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+    "code": "G14-TT04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế",
+      "code": "H57"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d951d-8d60-76f9-ba48-27dcc889b494"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d951d-8d60-76f9-ba48-27dcc889b494",
+      "name": "Sở Khoa học và Công nghệ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f6f38-ea67-7405-9753-37da272b125c",
+      "name": "Quy định tiêu chí, điều kiện, trình tự, thủ tục, nội dung và mức hỗ trợ \ntừ ngân sách địa phương cho các dự án, doanh nghiệp hoạt động \ntrong lĩnh vực công nghiệp công nghệ số trên địa bàn thành phố Huế\n",
+      "code": "22/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f6f62-c4e1-7406-a3b2-97a1242bed3b",
+      "name": "Quyết định hỗ trợ",
+      "code": "KQ-H57.000104"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [
+    {
+      "id": "01a094b4-1ca0-718e-ab28-6cf0f55feed0",
+      "name": "Hỗ trợ doanh nghiệp tham gia chuỗi cung ứng bán dẫn",
+      "code": "3.000616.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1784346375887,
+  "updatedAt": 1784346375887,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Nộp qua hệ thống dịch vụ công trực tuyến qua cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\n- Nộp trực tiếp tại các Trung tâm Phục vụ hành chính công thành phố cấp xã, phường thuộc thành phố Huế.  \n- Nộp qua dịch vụ bưu chính.",
+  "delegatedAgencies": "UBND Thành phố Huế",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Doanh nghiệp có năng lực, kinh nghiệm của doanh nghiệp Việt Nam theo quy định tại khoản 1 Điều 25 Nghị định số 88/2025/NĐ-CP; \nb) Doanh nghiệp có năng lực nghiên cứu, thiết kế hoặc sản xuất trong   lĩnh vực vi mạch - điện tử; có chuyên gia chuyên ngành điện tử, công nghệ thông tin, vật liệu bán dẫn hoặc cơ điện tử; đội ngũ quản lý có kinh nghiệm triển khai dự án công nghệ cao.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f6e36-6a25-7412-8836-f1a060ec0d77",
+    "proposalNumber": "2486/QĐ-UBND",
+    "decisionDate": 1784134800000,
+    "decisionNumber": null,
+    "publicationDate": 1784346375532,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

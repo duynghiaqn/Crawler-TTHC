@@ -1,0 +1,259 @@
+{
+  "id": "019ff029-a905-728d-a0b7-48e84904d085",
+  "code": "1.116227",
+  "codeNotation": "1.116227",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu nộp hồ sơ đến Trung tâm Phục vụ hành chính công. \nBước 2: Cơ quan tiếp nhận hồ sơ có trách nhiệm: \n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định. \n- Chuyển hồ sơ đến Ủy ban nhân dân cấp xã nơi có đất. \nBước 3: Cơ quan có chức năng quản lý đất đai cấp xã thực hiện: \n- Thông báo cho Văn phòng đăng ký đất đai Thành phố, Chi nhánh Văn phòng đăng ký đất đai chuyển hồ sơ cấp Giấy chứng nhận lần đầu để kiểm tra, xem xét và trình Chủ tịch Ủy ban nhân dân cấp xã quyết định thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai. \n- Kiểm tra hồ sơ, xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 Luật Đất đai theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận. \n- Trình Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận. \n- Chuyển hồ sơ đã giải quyết đến Văn phòng đăng ký đất đai Thành phố, Chi nhánh Văn phòng đăng ký đất đai để thực hiện chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai; chuyển Giấy chứng nhận đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 45,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc. \n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 20 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 45,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc. \n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 20 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 45,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc. \n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 20 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi (cấp xã)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f70d7-3084-72fb-a44f-0310e5515dfc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản kiến nghị việc cấp Giấy chứng nhận không đúng quy định của pháp luật đất đai (bản chính).",
+          "code": "TP-H29.000038",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f70c3-66ac-72f4-b661-5a9d1896e592",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp (bản gốc);",
+          "code": "TP-H29.000035",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019f6a7a-9e36-778c-a0db-d7283ba080a0"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019f6a7a-9e36-778c-a0db-d7283ba080a0",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H29.000003"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-855a-9a81af57b106",
+  "departmentPromulgateCode": "H29",
+  "departmentPromulgateName": "UBND Thành phố Hồ Chí Minh",
+  "cases": [
+    {
+      "id": "019ff3d4-d5b9-708b-a117-e496f5e27cfe",
+      "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi (cấp xã)",
+      "code": "1.116227.01",
+      "processingDay": {
+        "qty": 45,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a0af34-77cf-72ba-a906-17cbb9410226",
+      "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi (cấp xã)",
+      "code": "1.116227.01",
+      "processingDay": {
+        "qty": 45,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786500741842,
+  "updatedAt": 1789645831370,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0a80b-20fb-7209-99f4-f304b44b1266",
+    "proposalNumber": "4716/QĐ-UBND",
+    "decisionDate": 1787590800000,
+    "decisionNumber": null,
+    "publicationDate": 1789645830511,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-855a-9a81af57b106",
+      "name": "UBND Thành phố Hồ Chí Minh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

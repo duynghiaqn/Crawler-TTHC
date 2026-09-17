@@ -1,0 +1,267 @@
+{
+  "id": "019d2bf8-0bb7-753d-86ea-1b9a7378cb52",
+  "code": "1.013770",
+  "codeNotation": "1.013770",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân gửi hồ sơ đề nghị cho phép xuất khẩu, nhập khẩu hàng hóa cấm xuất khẩu, cấm nhập khẩu theo quy định đến cơ quan cấp phép.\nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận hồ sơ, cơ quan cấp phép thông báo để thương nhân hoàn thiện hồ sơ.\nc) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan cấp phép có văn bản trả lời về việc cho phép hay không cho phép thương nhân xuất khẩu, nhập khẩu hàng hóa. Trường hợp không cho phép, phải nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, đúng quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, đúng quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, đúng quy định",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục cấp giấy phép xuất khẩu, nhập khẩu hàng hóa thuộc Danh mục hàng hóa cấm xuất khẩu, cấm nhập khẩu nhằm phục vụ mục đích đặc dụng, bảo hành, phân tích, kiểm nghiệm, nghiên cứu khoa học, y tế, sản xuất dược phẩm, bảo vệ quốc phòng, an ninh quy định, trừ vũ khí trang bị kỹ thuật có ý nghĩa chiến lược, phương tiện kỹ thuật nghiệp vụ đặc biệt theo pháp luật về công nghiệp quốc phòng, an ninh và động viên công nghiệp.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a00ef5-ce29-7497-8da1-7aa6adf89cd5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Đơn đề nghị xuất khẩu, nhập khẩu hàng hóa cấm xuất khẩu, cấm nhập khẩu theo mẫu số 01 quy định tại Phụ lục VII Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương; hoặc theo mẫu do Bộ trưởng, Thủ trưởng cơ quan ngang Bộ có thẩm quyền quản lý quy định (nếu có): 01 bản chính.",
+          "code": "XNK-292-004",
+          "attachments": [
+            {
+              "id": "01a00ef7-ddab-7568-b86b-793200094aac",
+              "fileName": "Đơn đề nghị sửa đổi.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a00ef7-ddab-7568-b86b-793200094aac/Đơn đề nghị sửa đổi.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a00ef6-2813-7123-81ad-1285b395838c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Tài liệu thuyết minh về kế hoạch sử dụng, quy trình quản lý hàng hóa xuất khẩu, nhập khẩu trong quá trình sử dụng; phương án xử lý hàng hóa xuất khẩu, nhập khẩu sau khi sử dụng: 01 bản chính.",
+          "code": "XNK-292-005",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a00ef6-8949-754a-bb2b-9c09dd0e69c7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Báo cáo tình hình thực hiện các giấy phép đã được cấp trước đó (nếu có): 01 bản chính.",
+          "code": "XNK-292-006",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a00ef6-fd97-71c8-8248-26620ed040c3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Các tài liệu, giấy tờ khác do Bộ trưởng, Thủ trưởng cơ quan ngang Bộ có thẩm quyền quản lý quy định (nếu có).",
+          "code": "XNK-292-007",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3"
+  ],
+  "resultIds": [
+    "01a00ef8-7cc8-761e-9230-930a7e4184ae"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b16ccb65a5c0"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương",
+      "code": "G02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a00ef8-7cc8-761e-9230-930a7e4184ae",
+      "name": "Giấy phép xuất khẩu, nhập khẩu hàng hóa thuộc Danh mục hàng hóa cấm xuất khẩu, cấm nhập khẩu nhằm phục vụ mục đích đặc dụng, bảo hành, phân tích, kiểm nghiệm, nghiên cứu khoa học, y tế, sản xuất dược phẩm, bảo vệ quốc phòng, an ninh quy định, trừ vũ khí trang bị kỹ thuật có ý nghĩa chiến lược, phương tiện kỹ thuật nghiệp vụ đặc biệt theo pháp luật về công nghiệp quốc phòng, an ninh và động viên công nghiệp.",
+      "code": "KQ-XNK-100"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "01a013f3-dc8f-72ee-8143-5f8deabac60e",
+      "name": "Thủ tục cấp giấy phép xuất khẩu, nhập khẩu hàng hóa thuộc Danh mục hàng hóa cấm xuất khẩu, cấm nhập khẩu nhằm phục vụ mục đích đặc dụng, bảo hành, phân tích, kiểm nghiệm, nghiên cứu khoa học, y tế, sản xuất dược phẩm, bảo vệ quốc phòng, an ninh quy định, trừ vũ khí trang bị kỹ thuật có ý nghĩa chiến lược, phương tiện kỹ thuật nghiệp vụ đặc biệt theo pháp luật về công nghiệp quốc phòng, an ninh và động viên công nghiệp.",
+      "code": "1.013770.01",
+      "processingDay": {
+        "qty": 17,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2cfc-6f04-715b-b512-8a18b90a182c",
+      "name": "Thủ tục cấp giấy phép xuất khẩu, nhập khẩu hàng hóa thuộc Danh mục hàng hóa cấm xuất khẩu, cấm nhập khẩu nhằm phục vụ mục đích đặc dụng, bảo hành, phân tích, kiểm nghiệm, nghiên cứu khoa học, y tế, sản xuất dược phẩm, bảo vệ quốc phòng, an ninh quy định, trừ vũ khí trang bị kỹ thuật có ý nghĩa chiến lược, phương tiện kỹ thuật nghiệp vụ đặc biệt theo pháp luật về công nghiệp quốc phòng, an ninh và động viên công nghiệp.",
+      "code": "1.013770.01",
+      "processingDay": {
+        "qty": 17,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559169463,
+  "updatedAt": 1787041141608,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công thương",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a00ebe-e04a-721a-881a-9da433d007cd",
+    "proposalNumber": "2040/QĐ-BCT",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1787041141457,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "01a0841f-80f3-72b7-81b1-759f790d803b",
+  "code": "1.116562",
+  "codeNotation": "1.116562",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Trong thời hạn 05 ngày làm việc kể từ ngày thông quan hàng hóa, thương nhân nhập khẩu kim cương thô nộp 01 bộ hồ sơ đề nghị xác nhận nhập khẩu về cơ quan cấp phép.\nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 02 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan cấp phép thông báo để thương nhân bổ sung, hoàn thiện hồ sơ.\nc) Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và đúng quy định, cơ quan cấp phép xác nhận nhập khẩu vào phần bên phải của Giấy chứng nhận KP và gửi kết quả xác nhận nhập khẩu (02 bản sao Giấy chứng nhận KP do cơ quan có thẩm quyền nước xuất khẩu cấp đã được xác nhận nhập khẩu bởi cơ quan cấp phép) qua đường bưu chính theo địa chỉ đăng ký của thương nhân."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": ": 02 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và đúng quy định.",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục xác nhận nhập khẩu kim cương thô theo Quy chế chứng nhận KP.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a08419-b64d-71b5-97ea-3a4719831acb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a)\tBản kê khai trực tuyến về đề nghị xác nhận nhập khẩu kim cương thô theo Quy chế Chứng nhận KP.",
+          "code": "XNK-2195-01",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0841a-1bb2-723d-8dd7-0b878cdaadac",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b)\tGiấy chứng nhận KP cho lô hàng nhập khẩu do cơ quan có thẩm quyền nước xuất khẩu cấp: 01 bản gốc.",
+          "code": "XNK-2195-02",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0841a-7c7b-7614-b147-a539bc316421",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c)\tTờ khai hải quan nhập khẩu (đã thông quan): 01 bản điện tử.",
+          "code": "XNK-2195-03",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+    "01a0841f-2437-7087-acf9-47e9714dc6d5"
+  ],
+  "resultIds": [
+    "01a0841e-8285-758f-8536-5ea203440057"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    },
+    {
+      "id": "01a0841f-2437-7087-acf9-47e9714dc6d5",
+      "name": "Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương về việc quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "48/2026/TT-BCT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0841e-8285-758f-8536-5ea203440057",
+      "name": "Giấy chứng nhận KP do cơ quan có thẩm quyền nước xuất khẩu cấp đã được xác nhận nhập khẩu bởi cơ quan cấp phép.",
+      "code": "KQ-2195-01"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1788924523851,
+  "updatedAt": 1788924523851,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0840d-3793-7321-8cbd-86d03714fc3f",
+    "proposalNumber": "2195/QĐ-BCT",
+    "decisionDate": 1788800400000,
+    "decisionNumber": null,
+    "publicationDate": 1788924523781,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

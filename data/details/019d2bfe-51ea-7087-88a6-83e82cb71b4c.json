@@ -1,0 +1,544 @@
+{
+  "id": "019d2bfe-51ea-7087-88a6-83e82cb71b4c",
+  "code": "1.005103",
+  "codeNotation": "1.005103",
+  "executionSteps": [
+    {
+      "name": "a) Nộp hồ sơ TTHC:",
+      "description": "Người nộp hồ sơ nộp hồ sơ trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính tới Cơ sở đăng kiểm xe cơ giới (sau đây gọi chung là Cơ sở đăng kiểm)."
+    },
+    {
+      "name": "b) Giải quyết TTHC:",
+      "description": "- Thực hiện kiểm tra, đánh giá hồ sơ: \nCơ sở đăng kiểm tiến hành kiểm tra, đánh giá hồ sơ ngay trong ngày nhận được hồ sơ, cụ thể như sau:  \n+ Đối với hồ sơ kiểm định tại cơ sở đăng kiểm: trường hợp hồ sơ kiểm định đạt yêu cầu thì cơ sở đăng kiểm thông báo thời gian kiểm định xe trên hệ thống trực tuyến hoặc thông báo trực tiếp cho người nộp hồ sơ hoặc gửi qua hệ thống bưu chính. Cơ sở đăng kiểm lập phiếu kiểm soát.  \nTrường hợp hồ sơ kiểm định không đạt yêu cầu, cơ sở đăng kiểm thông báo không đạt trên hệ thống trực tuyến hoặc gửi trực tiếp hoặc qua dịch vụ bưu chính cho người nộp hồ sơ.  \n+ Đối với hồ sơ kiểm định ngoài cơ sở đăng kiểm: Trường hợp hồ sơ kiểm định đạt yêu cầu, cơ sở đăng kiểm lập giấy hẹn lịch kiểm định gửi cho người nộp hồ sơ; lập phiếu kiểm soát kiểm định.  \nTrường hợp hồ sơ kiểm định không đạt yêu cầu, cơ sở đăng kiểm thông báo trên hệ thống trực tuyến hoặc gửi trực tiếp hoặc qua dịch vụ bưu chính cho người nộp hồ sơ.  \n+ Trường hợp xe chưa có dữ liệu trong cơ sở dữ liệu của Cục Đăng kiểm Việt Nam (như xe tịch thu, thanh lý bán đấu giá) thì cơ sở đăng kiểm lập bản xác nhận thông số kỹ thuật của xe đính kèm các tài liệu về thông số kỹ thuật, năm sản xuất của xe (tài liệu công bố của nhà sản xuất hoặc kết quả giám định của tổ chức có thẩm quyền) để làm căn cứ lập hồ sơ phương tiện. \n- Thực hiện kiểm định xe cơ giới, xe máy chuyên dùng: \nCơ sở đăng kiểm thực hiện kiểm tra, đối chiếu thực tế phương tiện với hồ sơ đề nghị, trường hợp thông tin thể hiện trên chứng nhận đăng ký xe không đúng với biển số xe, màu biển số xe hoặc với xe thực tế thì cơ sở đăng kiểm gửi thông báo trên hệ thống trực tuyến hoặc gửi trực tiếp cho người nộp hồ sơ, đồng thời cập nhật thông tin vào phần mềm quản lý phương tiện vi phạm của Cục Đăng kiểm Việt Nam. \nTrường hợp phát hiện thông tin trên bản sao: Phiếu kiểm tra chất lượng xuất xưởng (đối với xe sản xuất, lắp ráp trong nước) hoặc Thông báo miễn kiểm tra hoặc Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường (đối với xe nhập khẩu) hoặc xe thực tế hoặc dữ liệu về thông số kỹ thuật của chứng nhận đăng ký xe khác với dữ liệu xe sản xuất, lắp ráp, nhập khẩu của Cục Đăng kiểm Việt Nam; hoặc thông tin của xe cải tạo khác với xe thực tế thì cơ sở đăng kiểm thông báo cho người nộp hồ sơ, đồng thời thông báo cho Cục Đăng kiểm Việt Nam hoặc Cơ sở đăng kiểm chứng nhận xe cải tạo, cơ quan đăng ký xe để phối hợp xử lý. Cơ sở đăng kiểm chỉ thực hiện việc lập hồ sơ phương tiện sau khi có thông tin phù hợp. \nTrường hợp xe thực tế phù hợp với hồ sơ đề nghị, cơ sở đăng kiểm lập phiếu hồ sơ phương tiện đối với xe kiểm định lần đầu (trừ trường hợp xe có chứng nhận đăng ký tạm thời), lập hồ sơ phương tiện và thực hiện kiểm định. \n- Cấp kết quả kiểm định: \nTrong ngày làm việc đối với trường hợp kiểm định tại cơ sở đăng kiểm hoặc trong thời gian 02 ngày làm việc kể từ khi kết thúc kiểm tra, đánh giá đối với trường hợp kiểm định ngoài cơ sở đăng kiểm, cơ sở đăng kiểm cấp giấy chứng \nnhận kiểm định, tem kiểm định hoặc thông báo kết quả không đạt, cụ thể như sau: \n+ Trường hợp xe có kết quả kiểm định không đạt yêu cầu: cơ sở đăng kiểm thực hiện lập thông báo kết quả trên hệ thống trực tuyến hoặc gửi trực tiếp cho người nộp hồ sơ, nhập nội dung không đạt vào phần mềm quản lý phương tiện vi phạm của Cục Đăng kiểm Việt Nam để đưa thông tin phương tiện có kết quả kiểm định không đạt ngay sau khi kết thúc việc kiểm tra, đánh giá đối với trường hợp kiểm định tại cơ sở đăng kiểm hoặc trong vòng 02 ngày đối với trường hợp kiểm định ngoài cơ sở đăng kiểm. \n+ Trường hợp xe có kết quả kiểm định đạt yêu cầu: cơ sở đăng kiểm cấp giấy chứng nhận kiểm định bản điện tử và dán tem kiểm định.  Trường hợp phương tiện có kết quả kiểm định không đạt được kiểm định lại và có kết quả kiểm định đạt yêu cầu thì cơ sở đăng kiểm thực hiện việc gỡ thông tin không đạt trước đó ngay sau khi kết thúc việc kiểm tra, đánh giá."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Kiểm định tại cơ sở đăng kiểm: Trong ngày làm việc và kết quả kiểm định đạt yêu cầu.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Kể từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026, mức  thu lệ phí cấp Giấy chứng nhận bằng 50% mức thu lệ phí quy định tại khoản 3  Điều 1 Thông tư số 36/2022/TT-BTC",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Kiểm định tại cơ sở đăng kiểm: Trong ngày làm việc và kết quả kiểm định đạt yêu cầu.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Kể từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026, mức  thu lệ phí cấp Giấy chứng nhận bằng 50% mức thu lệ phí quy định tại khoản 3  Điều 1 Thông tư số 36/2022/TT-BTC",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Kiểm định tại cơ sở đăng kiểm: Trong ngày làm việc và kết quả kiểm định đạt yêu cầu.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Kể từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026, mức  thu lệ phí cấp Giấy chứng nhận bằng 50% mức thu lệ phí quy định tại khoản 3  Điều 1 Thông tư số 36/2022/TT-BTC",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Kiểm định ngoài cơ sở đăng kiểm: \n+ Thời hạn kiểm tra, đánh giá hồ sơ; lập giấy hẹn lịch kiểm định: ngay trong ngày nhận được hồ sơ hồ sơ kiểm định đạt yêu cầu. \n+ Thời hạn cấp Giấy chứng nhận, Tem kiểm định: 02 ngày làm việc kể từ khi kết thúc kiểm tra, đánh giá và kết quả kiểm định đạt yêu cầu.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Kể từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026, mức  thu lệ phí cấp Giấy chứng nhận bằng 50% mức thu lệ phí quy định tại khoản 3  Điều 1 Thông tư số 36/2022/TT-BTC",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Kiểm định ngoài cơ sở đăng kiểm: \n+ Thời hạn kiểm tra, đánh giá hồ sơ; lập giấy hẹn lịch kiểm định: ngay trong ngày nhận được hồ sơ hồ sơ kiểm định đạt yêu cầu. \n+ Thời hạn cấp Giấy chứng nhận, Tem kiểm định: 02 ngày làm việc kể từ khi kết thúc kiểm tra, đánh giá và kết quả kiểm định đạt yêu cầu.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Kể từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026, mức  thu lệ phí cấp Giấy chứng nhận bằng 50% mức thu lệ phí quy định tại khoản 3  Điều 1 Thông tư số 36/2022/TT-BTC",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Kiểm định ngoài cơ sở đăng kiểm: \n+ Thời hạn kiểm tra, đánh giá hồ sơ; lập giấy hẹn lịch kiểm định: ngay trong ngày nhận được hồ sơ hồ sơ kiểm định đạt yêu cầu. \n+ Thời hạn cấp Giấy chứng nhận, Tem kiểm định: 02 ngày làm việc kể từ khi kết thúc kiểm tra, đánh giá và kết quả kiểm định đạt yêu cầu.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Kể từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026, mức  thu lệ phí cấp Giấy chứng nhận bằng 50% mức thu lệ phí quy định tại khoản 3  Điều 1 Thông tư số 36/2022/TT-BTC",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "- Phương tiện không thuộc danh sách bị từ chối kiểm định theo khoản 1 Điều 43 Luật Trật tự, an toàn giao thông đường bộ. \n- Phương tiện đáp ứng các Quy chuẩn kỹ thuật quốc gia về ô tô, rơ moóc, xe chở hàng bốn bánh có gắn động cơ, xe chở người bốn bánh có gắn động cơ trong kiểm định an toàn kỹ thuật và bảo vệ môi trường và Quy chuẩn kỹ thuật quốc gia về chất lượng an toàn kỹ thuật và bảo vệ môi trường đối với xe máy chuyên dùng (QCVN 122:2024/BGTVT; QCVN 13:2024/BGTVT). \n- Phương tiện không có lỗi thiết kế, lắp ráp đã bị triệu hồi trên hệ thống của Cục Đăng kiểm VN mà chưa thực hiện khắc phục.",
+  "name": "Cấp Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường cho xe cơ giới (trừ xe mô tô, xe gắn máy), xe máy chuyên dùng trong trường hợp kiểm định lần đầu, kiểm định định kỳ, kiểm định cho xe có chứng nhận đăng ký xe tạm thời.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "* Trường hợp kiểm định lần đầu",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-9811de48f0a6",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao phiếu kiểm tra chất lượng xuất xưởng (đối với xe sản xuất, lắp ráp trong nước).",
+          "code": "000.00.00.G04-KQ004964",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-a168f2c329ae",
+          "originalQty": 1,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận kết quả kiểm định còn hiệu lực (bản chính hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính) đối với: thiết bị nâng hàng có sức nâng theo thiết kế từ 1.000 (kg) trở lên; thiết bị nâng người có chiều cao nâng lớn nhất lớn hơn 2,0 (m); xi téc chở khí hóa lỏng, khí dầu mỏ hóa lỏng, khí thiên nhiên nén hoặc các chất lỏng có áp suất làm việc cao hơn 0,7 (bar) hoặc chất lỏng hay chất rắn dạng bột không có áp suất nhưng khi tháo ra dùng khí có áp suất cao hơn 0,7 (bar) theo quy định tại Nghị định số 44/2016/NĐ-CP.",
+          "code": "000.00.00.G04-KQ004966",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-95585ba151cf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị kiểm định ngoài cơ sở đăng kiểm (đối với trường hợp chủ xe có đề nghị)",
+          "code": "000.00.00.G04-KQ004963",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fcff9-8771-73e6-bcf9-8f74ec42e99d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ảnh chụp số khung, số động cơ hoặc ảnh chụp bản chà số khung, số động cơ của xe (được dán trên Phiếu xuất xưởng hoặc Giấy chứng nhận/Thông báo miễn kiểm tra chất lượng xe nhập khẩu).",
+          "code": "TP-G17.000537",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fcffb-533f-740a-b553-4fdcc6eff7dd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ về đăng ký xe (là một trong các giấy tờ sau: Bản chính chứng nhận đăng ký xe; bản sao có chứng thực/bản sao điện tử được chứng thực; giấy hẹn cấp chứng nhận đăng ký xe; hoặc dữ liệu chứng nhận đăng ký xe/giấy hẹn được tích hợp trên tài khoản định danh điện tử VNeID, VneTraffic) hoặc đối với xe nhập khẩu đã qua sử dụng chưa được cấp chứng nhận đăng ký xe, biển số xe thì xuất trình bản sao Thông báo miễn kiểm tra hoặc Giấy chứng nhận chất lượng xe nhập khẩu đối với xe chưa đăng ký.",
+          "code": "TP-G17.000542",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "* Trường hợp kiểm định định kỳ",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-95585ba151cf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị kiểm định ngoài cơ sở đăng kiểm (đối với trường hợp chủ xe có đề nghị)",
+          "code": "000.00.00.G04-KQ004963",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-a168f2c329ae",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận kết quả kiểm định còn hiệu lực (bản chính hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính) đối với: thiết bị nâng hàng có sức nâng theo thiết kế từ 1.000 (kg) trở lên; thiết bị nâng người có chiều cao nâng lớn nhất lớn hơn 2,0 (m); xi téc chở khí hóa lỏng, khí dầu mỏ hóa lỏng, khí thiên nhiên nén hoặc các chất lỏng có áp suất làm việc cao hơn 0,7 (bar) hoặc chất lỏng hay chất rắn dạng bột không có áp suất nhưng khi tháo ra dùng khí có áp suất cao hơn 0,7 (bar) theo quy định tại Nghị định số 44/2016/NĐ-CP.",
+          "code": "000.00.00.G04-KQ004966",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-9811de48f0a6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao phiếu kiểm tra chất lượng xuất xưởng (đối với xe sản xuất, lắp ráp trong nước).",
+          "code": "000.00.00.G04-KQ004964",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fcffb-533f-740a-b553-4fdcc6eff7dd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ về đăng ký xe (là một trong các giấy tờ sau: Bản chính chứng nhận đăng ký xe; bản sao có chứng thực/bản sao điện tử được chứng thực; giấy hẹn cấp chứng nhận đăng ký xe; hoặc dữ liệu chứng nhận đăng ký xe/giấy hẹn được tích hợp trên tài khoản định danh điện tử VNeID, VneTraffic) hoặc đối với xe nhập khẩu đã qua sử dụng chưa được cấp chứng nhận đăng ký xe, biển số xe thì xuất trình bản sao Thông báo miễn kiểm tra hoặc Giấy chứng nhận chất lượng xe nhập khẩu đối với xe chưa đăng ký.",
+          "code": "TP-G17.000542",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "* Trường hợp kiểm định đối với xe có chứng nhận đăng ký xe tạm thời",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-b8176c03f5a1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(1) Văn bản đề nghị kiểm định an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu chạy rà trước khi thử nghiệm khí thải, bản thông số kỹ thuật xe cơ giới nhập khẩu chạy rà trước khi thử nghiệm khí thải theo mẫu",
+          "code": "000.00.00.G04-KQ004972",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-ab1930d53179",
+          "originalQty": 1,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Xe sản xuất, lắp ráp trong nước, xe thuộc đối tượng nghiên cứu, phát triển có nhu cầu tham gia giao thông đường bộ: xuất trình bản chính chứng nhận đăng ký xe tạm thời và nộp bản sao phiếu kiểm tra chất lượng xuất xưởng.",
+          "code": "000.00.00.G04-KQ004968",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-b3ad0984fbf7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Giấy tờ xuất trình: bản chính chứng nhận đăng ký xe tạm thời;",
+          "code": "000.00.00.G04-KQ004970",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-c38a73636b3c",
+          "originalQty": 1,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Xe nhập khẩu (không thuộc trường hợp: xe sản xuất, lắp ráp trong nước, xe thuộc đối tượng nghiên cứu, phát triển có nhu cầu tham gia giao thông đường bộ; xe cơ giới nhập khẩu chạy rà trước khi thử nghiệm khí thải): xuất trình bản chính chứng nhận đăng ký xe tạm thời và nộp bản sao phiếu kiểm tra chất lượng xuất xưởng của nhà sản xuất nước ngoài.",
+          "code": "000.00.00.G04-KQ004974",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-ad13c9205349",
+          "originalQty": 0,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Xe cơ giới nhập khẩu chạy rà trước khi thử nghiệm khí thải:",
+          "code": "000.00.00.G04-KQ004969",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-bf5ce2088933",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "(2) Bản dịch thuật tiếng việt có chứng thực phiếu kiểm tra chất lượng xuất xưởng của nhà sản xuất nước ngoài.",
+          "code": "000.00.00.G04-KQ004973",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-bf8b0c4a1509"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9efe-cedc0819f1ef",
+    "019d2bb3-5d7d-7398-be4b-c57fb5f4e0fc",
+    "019d2bb3-5d7e-72d1-afe1-e85ed69c2c4c",
+    "019d2bb3-5d87-7195-a43f-d7107a0db778",
+    "019d2bb3-5d87-7195-a443-09c5d3e2f894",
+    "019e80d7-efe4-770e-9fcd-98882ddedf32",
+    "019fcbcf-de1e-728e-981f-dd9ce78aa8c4"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3c-7215-a27a-b2fa768794e2",
+    "019d2bb2-1c3d-7379-a671-94d578956cdb",
+    "019d2bb2-1c3d-7379-a671-9973b9937260"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6ada-753f-9ac8-72a5969dfddc"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-bf8b0c4a1509",
+      "name": "Đăng kiểm",
+      "code": "G04-GT01"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-bf8b0c4a1509",
+    "name": "Đăng kiểm",
+    "code": "G04-GT01"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-72a5969dfddc",
+      "name": "Cơ sở đăng kiểm (xe cơ giới, xe máy chuyên dùng)",
+      "code": "CSDK"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d87-7195-a43f-d7107a0db778",
+      "name": "Thông tư 36/2022/TT-BTC",
+      "code": "36/2022/TT-BTC"
+    },
+    {
+      "id": "019e80d7-efe4-770e-9fcd-98882ddedf32",
+      "name": "Thông tư sửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực đăng kiểm phương tiện giao thông đường bộ",
+      "code": "45/2026/TT-BXD"
+    },
+    {
+      "id": "019d2bb3-5d7c-71ab-9efe-cedc0819f1ef",
+      "name": "Quy định trình tự, thủ tục kiểm định, miễn kiểm định lần đầu cho xe cơ giới, xe máy chuyên dùng; trình tự, thủ tục chứng nhận an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới cải tạo, xe máy chuyên dùng cải tạo; trình tự, thủ tục kiểm định khí thải xe mô tô, xe gắn máy",
+      "code": "47/2024/TT-BGTVT"
+    },
+    {
+      "id": "019fcbcf-de1e-728e-981f-dd9ce78aa8c4",
+      "name": "Quy định trình tự, thủ tục kiểm định, miễn kiểm định lần đầu cho xe cơ giới, xe máy chuyên dùng; trình tự, thủ tục chứng nhận an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới cải tạo, xe máy chuyên dùng cải tạo; trình tự, thủ tục kiểm định khí thải xe mô tô, xe gắn máy.",
+      "code": "30/2026/TT-BXD"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4b-c57fb5f4e0fc",
+      "name": "Quy định  giá dịch vụ kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới, thiết bị và xe máy chuyên dùng đang lưu hành; đánh giá, hiệu chuẩn thiết bị kiểm tra xe cơ giới.",
+      "code": "238/2016/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe1-e85ed69c2c4c",
+      "name": "Thông tư sửa đổi, bổ sung một số điều của các Thông tư để cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm đường bộ, hàng không dân dụng và thanh tra thuộc phạm vi quản lý của Bộ Xây dựng",
+      "code": "71/2025/TT-BXD"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a443-09c5d3e2f894",
+      "name": "Thông tư 55/2022/TT-BTC",
+      "code": "55/2022/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3d-7379-a671-9973b9937260",
+      "name": "Giấy hẹn trả Giấy chứng nhận kiểm định",
+      "code": "KQ.G04.000500"
+    },
+    {
+      "id": "019d2bb2-1c3c-7215-a27a-b2fa768794e2",
+      "name": "Giấy chứng nhận, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với phương tiện giao thông cơ giới đường bộ",
+      "code": "KQ.G04.000268"
+    },
+    {
+      "id": "019d2bb2-1c3d-7379-a671-94d578956cdb",
+      "name": "Thông báo kết quả kiểm tra, đánh giá",
+      "code": "KQ.G04.000499"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "01a028a5-ea53-7537-9499-af1968b78925",
+      "name": "Cấp Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường cho xe cơ giới (trừ xe mô tô, xe gắn máy), xe máy chuyên dùng trong trường hợp kiểm định lần đầu, kiểm định định kỳ, kiểm định cho xe có chứng nhận đăng ký xe tạm thời.",
+      "code": "1.005103.01",
+      "processingDay": {
+        "qty": 0,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2cb6-f158-7325-9e2c-88c848b3d851",
+      "name": "Cấp Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường cho xe cơ giới (trừ xe mô tô, xe gắn máy)",
+      "code": "1.005103.01",
+      "processingDay": {
+        "qty": 0,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559580650,
+  "updatedAt": 1787388356893,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ sở đăng kiểm (xe cơ giới, xe máy chuyên dùng)",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Phương tiện không thuộc danh sách bị từ chối kiểm định theo khoản 1 Điều 43 Luật Trật tự, an toàn giao thông đường bộ. \n- Phương tiện đáp ứng các Quy chuẩn kỹ thuật quốc gia về ô tô, rơ moóc, xe chở hàng bốn bánh có gắn động cơ, xe chở người bốn bánh có gắn động cơ trong kiểm định an toàn kỹ thuật và bảo vệ môi trường và Quy chuẩn kỹ thuật quốc gia về chất lượng an toàn kỹ thuật và bảo vệ môi trường đối với xe máy chuyên dùng (QCVN 122:2024/BGTVT; QCVN 13:2024/BGTVT). \n- Phương tiện không có lỗi thiết kế, lắp ráp đã bị triệu hồi trên hệ thống của Cục Đăng kiểm VN mà chưa thực hiện khắc phục.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f92e6-a8e4-76bb-be79-04f52ceaa6a8",
+    "proposalNumber": "1288/QĐ-BXD",
+    "decisionDate": 1784653200000,
+    "decisionNumber": null,
+    "publicationDate": 1787388356785,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

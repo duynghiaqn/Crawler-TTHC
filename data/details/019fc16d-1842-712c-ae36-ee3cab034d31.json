@@ -1,0 +1,383 @@
+{
+  "id": "019fc16d-1842-712c-ae36-ee3cab034d31",
+  "code": "1.116092",
+  "codeNotation": "1.116092",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến một trong các cơ quan trên địa bàn cấp tỉnh sau đây:\n- Trường hợp tổ chức trong nước, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc, tổ chức nước ngoài có chức năng ngoại giao, tổ chức kinh tế có vốn đầu tư nước ngoài nộp hồ sơ đến Trung tâm Phục vụ hành chính công.\n- Trường hợp cá nhân, cộng đồng dân cư, người gốc Việt Nam định cư ở nước ngoài nộp hồ sơ đến Trung tâm Phục vụ hành chính công hoặc Chi nhánh Văn phòng đăng ký đất đai.\nKhi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực\nTrường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Chi nhánh Văn phòng đăng ký đất đai. \nBước 2: Chi nhánh Văn phòng đăng ký đất đai có trách nhiệm:\n- Kiểm tra hồ sơ.\n- Xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính.\n- Trao Giấy chứng nhận hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 270000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Phí: Đăng ký biến động đất đai đối với các loại biến động còn lại: 270.000đ/ giấy",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Lệ phí: 30.000 đồng/Giấy",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "I. Quy định mức thu phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất đối với tổ chức\nTrường hợp thực hiện dịch vụ công trực tuyến toàn trình\nBằng 60% mức thu tại Điểm A, Mục I, Phụ lục III này Nghị quyết số 31/2025/NQ-HĐND tỉnh Thái Nguyên Ban hành Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng một số loại phí thuộc lĩnh vực đất đai trên\nII. Quy định mức thu phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất đối với hộ gia đình, cá nhân\nTrường hợp thực hiện dịch vụ công trực tuyến toàn trình\nBằng 60% mức thu tại Điểm A, Mục II, Phụ lục III này Nghị quyết số 31/2025/NQ-HĐND tỉnh Thái Nguyên Ban hành Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng một số loại phí thuộc lĩnh vực đất đai trên",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 270000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Phí: Đăng ký biến động đất đai đối với các loại biến động còn lại: 270.000đ/ giấy",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Lệ phí: 30.000 đồng/Giấy",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 270000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Phí: Đăng ký biến động đất đai đối với các loại biến động còn lại: 270.000đ/ giấy",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Lệ phí: 30.000 đồng/Giấy",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Đối với các xã vùng đồng bào dân tộc thiểu số và miền núi (thuộc khu vực III) theo quyết định của Uỷ ban nhân dân tỉnh thì thời gian thực hiện không quá 10 ngày so với tổng thời gian thực hiện thủ tục này",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 270000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Phí: Đăng ký biến động đất đai đối với các loại biến động còn lại: 270.000đ/ giấy",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Lệ phí: 30.000 đồng/Giấy",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Đối với các xã vùng đồng bào dân tộc thiểu số và miền núi (thuộc khu vực III) theo quyết định của Uỷ ban nhân dân tỉnh thì thời gian thực hiện không quá 10 ngày so với tổng thời gian thực hiện thủ tục này\nI. Quy định mức thu phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất đối với tổ chức\nTrường hợp thực hiện dịch vụ công trực tuyến toàn trình\nBằng 60% mức thu tại Điểm A, Mục I, Phụ lục III này Nghị quyết số 31/2025/NQ-HĐND tỉnh Thái Nguyên Ban hành Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng một số loại phí thuộc lĩnh vực đất đai trên\nII. Quy định mức thu phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất đối với hộ gia đình, cá nhân\nTrường hợp thực hiện dịch vụ công trực tuyến toàn trình\nBằng 60% mức thu tại Điểm A, Mục II, Phụ lục III này Nghị quyết số 31/2025/NQ-HĐND tỉnh Thái Nguyên Ban hành Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng một số loại phí thuộc lĩnh vực đất đai trên",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 270000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Phí: Đăng ký biến động đất đai đối với các loại biến động còn lại: 270.000đ/ giấy",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Lệ phí: 30.000 đồng/Giấy",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Đối với các xã vùng đồng bào dân tộc thiểu số và miền núi (thuộc khu vực III) theo quyết định của Uỷ ban nhân dân tỉnh thì thời gian thực hiện không quá 10 ngày so với tổng thời gian thực hiện thủ tục này",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 270000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Phí: Đăng ký biến động đất đai đối với các loại biến động còn lại: 270.000đ/ giấy",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cá nhân:  + Lệ phí: 30.000 đồng/Giấy",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thái Nguyên - Xác nhận tiếp tục sử dụng đất nông nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fc16b-bc99-712d-9f03-979f0c7880e6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị xác nhận lại thời hạn sử dụng đất theo Mẫu số 09",
+          "code": "H55-T29-01",
+          "attachments": [
+            {
+              "id": "019fc16b-b4a4-704b-a766-ba3065d1be3c",
+              "fileName": "Cap_tinh_TTHC_29_Xac_nhan_tiep_tuc_su_dung_dat_nong_nghiep__Mau_14.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fc16b-b4a4-704b-a766-ba3065d1be3c/Cap_tinh_TTHC_29_Xac_nhan_tiep_tuc_su_dung_dat_nong_nghiep__Mau_14.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fc16c-0d8b-75b9-b787-8937519b6714",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp",
+          "code": "H55-T29-02",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
+    "019d2bb3-5d7e-72d1-afe9-61a6469bc95c",
+    "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+    "019d2bb3-5d84-71c5-b673-29122897c8a3",
+    "019fc15d-2748-70f9-aa59-4ff9b2dbeaa0"
+  ],
+  "resultIds": [
+    "019d2bb2-1c6d-743d-a39d-63d2de47991d"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b26-4a4ef35acfe3"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b26-4a4ef35acfe3",
+      "name": "Văn phòng đăng ký đất đai Tỉnh Thái Nguyên",
+      "code": "H55.59.01"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b673-29122897c8a3",
+      "name": "Luật số 43/2024/QH15 ngày 29/6/2024",
+      "code": "43/2024/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
+      "name": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
+      "code": "102/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-61a6469bc95c",
+      "name": "Thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-C"
+    },
+    {
+      "id": "019fc15d-2748-70f9-aa59-4ff9b2dbeaa0",
+      "name": "Quyết định số 82/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh quy định về trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thái Nguyên. ",
+      "code": "82/2026/QĐ-UBND "
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+      "name": "Luật Đất đai ngày 18/01/2024;",
+      "code": "31/2024/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c6d-743d-a39d-63d2de47991d",
+      "name": "Giấy chứng nhận quyền sử dụng đất; Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở; Giấy chứng nhận quyền sở hữu nhà ở; Giấy chứng nhận quyền sở hữu công trình xây dựng; Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất; Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất",
+      "code": "KQ.G10.001147"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b25-68dfdcdcff0e",
+  "departmentPromulgateCode": "H55",
+  "departmentPromulgateName": "UBND tỉnh Thái Nguyên",
+  "cases": [
+    {
+      "id": "019ff0b8-c8d0-7128-95fa-b1e197edc34d",
+      "name": "Thái Nguyên - Xác nhận tiếp tục sử dụng đất nông nghiệp",
+      "code": "1.116092.02",
+      "processingDay": {
+        "qty": 10,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fca8a-42b6-7534-b8b2-ab3fddb60e72",
+      "name": "Thái Nguyên - Xác nhận tiếp tục sử dụng đất nông nghiệp",
+      "code": "1.116092.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785806585972,
+  "updatedAt": 1789215802411,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng đăng ký đất đai Tỉnh Thái Nguyên",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc Chi nhánh Văn phòng đăng ký đất đai.\nb) Nộp thông qua dịch vụ bưu chính công ích.\nc) Nộp trực tuyến trên Cổng dịch vụ công.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb66d-a92f-77bb-9f04-f71f9be365ed",
+    "proposalNumber": "2198/QĐ-UBND",
+    "decisionDate": 1783357200000,
+    "decisionNumber": null,
+    "publicationDate": 1785806585669,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b25-68dfdcdcff0e",
+      "name": "UBND tỉnh Thái Nguyên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

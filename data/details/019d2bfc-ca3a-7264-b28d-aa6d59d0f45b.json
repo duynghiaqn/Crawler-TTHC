@@ -1,0 +1,297 @@
+{
+  "id": "019d2bfc-ca3a-7264-b28d-aa6d59d0f45b",
+  "code": "1.013480",
+  "codeNotation": "1.013480",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Doanh nghiệp, tổ chức mua tem điện tử thực hiện khai báo, gửi dữ liệu thông tin về tem điện tử đã dán lên sản phẩm thuốc lá nhập khẩu, rượu nhập khẩu trên Hệ thống Dịch vụ công trực tuyến (DVCTT) theo đúng thời hạn quy định.  \nBước 2: Cơ quan hải quan tiếp nhận thông tin khai báo của doanh nghiệp.\n- Cách thức thực hiện: \nBằng phương thức điện tử qua Hệ thống Dịch vụ công trực tuyến. Trường hợp Hệ thống gặp sự cố, doanh nghiệp, tổ chức lập báo cáo sử dụng tem điện tử gửi đến Chi cục Hải quan khu vực cấp bán tem điện tử và khai báo bổ sung sau khi Hệ thống được khắc phục theo đúng thời hạn quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Bằng phương thức điện tử qua Hệ thống Dịch vụ công trực tuyến. Trường hợp Hệ thống gặp sự cố, doanh nghiệp, tổ chức lập báo cáo sử dụng tem điện tử gửi đến Hải quan cửa khẩu/ngoài cửa khẩu cấp bán tem điện tử và khai báo bổ sung sau khi Hệ thống được khắc phục theo đúng thời hạn quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Bằng phương thức điện tử qua Hệ thống Dịch vụ công trực tuyến. Trường hợp Hệ thống gặp sự cố, doanh nghiệp, tổ chức lập báo cáo sử dụng tem điện tử gửi đến Hải quan cửa khẩu/ngoài cửa khẩu cấp bán tem điện tử và khai báo bổ sung sau khi Hệ thống được khắc phục theo đúng thời hạn quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Báo cáo tình hình sử dụng tem điện tử thuốc lá nhập khẩu hoặc tem điện tử rượu nhập khẩu",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7168-7766-84dd-ce7dc1d79241",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Số lượng hồ sơ: 01 (bộ).",
+          "code": "000.00.00.G01-KQ002801",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-8aa5cb641dd7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Mẫu số 12/TEM Phụ lục VI kèm theo Thông tư số 93/2026/TT-BTC.",
+          "code": "000.00.00.G12-KQ013977",
+          "attachments": [
+            {
+              "id": "019f8d04-ac1a-748b-b5bb-cc7122455a3b",
+              "fileName": "Mẫu số 12.TEM.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d04-ac1a-748b-b5bb-cc7122455a3b/Mẫu số 12.TEM.doc"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b470-5059d2d50a11",
+    "019d2bb3-5d84-71c5-b672-0af27f5afaf6",
+    "019d2bb3-5d86-7760-a63c-797a72f2fc9c",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f7eee-65ff-7190-97bb-0d978182d268",
+    "019f8950-f814-75e9-9794-0f1fbb579324",
+    "019f8961-befe-72a0-bfd4-d723439f074a",
+    "019f8962-323c-72b9-8b93-9e34d4aeb1dc"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afeb-2ab99fbc04fa"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-ef2c2dac8162",
+    "019d2be3-6a90-761e-acd7-67d808ae72f6"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e1-ef2c2dac8162",
+    "019d2be3-6a90-761e-acd7-67d808ae72f6"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+      "name": "Hải quan",
+      "code": "G12-TC04"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-ef2c2dac8162",
+      "name": "Hải quan khu vực/ hải quan cửa khẩu",
+      "code": "BTCHQKV"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-67d808ae72f6",
+      "name": "Chi cục Hải quan khu vực",
+      "code": "CCHQ"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-ef2c2dac8162",
+      "name": "Hải quan khu vực/ hải quan cửa khẩu",
+      "code": "BTCHQKV"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-67d808ae72f6",
+      "name": "Chi cục Hải quan khu vực",
+      "code": "CCHQ"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-0af27f5afaf6",
+      "name": "Luật Giao dịch điện tử năm 2023",
+      "code": "20/2023/QH15"
+    },
+    {
+      "id": "019f7eee-65ff-7190-97bb-0d978182d268",
+      "name": "Nghị định số 254/2026/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "code": "254/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8950-f814-75e9-9794-0f1fbb579324",
+      "name": "Thông tư số 93/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định việc in, phát hành, quản lý và sử dụng tem điện tử rượu và tem điện tử thuốc lá",
+      "code": "93/2026/TT-BTC "
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b470-5059d2d50a11",
+      "name": "Quy định chi tiết một số điều và biện pháp thi hành Luật Phòng, chống tác hại của thuốc lá về kinh doanh thuốc lá",
+      "code": "67/2013/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63c-797a72f2fc9c",
+      "name": "Nghị định 105/2017/NĐ-CP",
+      "code": "105/2017/NĐ-CP"
+    },
+    {
+      "id": "019f8961-befe-72a0-bfd4-d723439f074a",
+      "name": "Luật Chuyển đổi số số 148/2025/QH15",
+      "code": "148/2025/QH15"
+    },
+    {
+      "id": "019f8962-323c-72b9-8b93-9e34d4aeb1dc",
+      "name": "Luật An ninh mạng số 116/2025/QH15",
+      "code": "116/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afeb-2ab99fbc04fa",
+      "name": "Dữ liệu, thông tin liên quan đến sản phẩm được tích hợp trên mã QR gắn trên tem",
+      "code": "KQ.G12.000861"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019f8d2c-3071-72c6-95d3-39c9f21ee363",
+      "name": "Báo cáo tình hình sử dụng tem điện tử thuốc lá nhập khẩu hoặc tem điện tử rượu nhập khẩu",
+      "code": "1.013480.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d36-60c8-708f-8bcd-a1a2e56d741f",
+      "name": "Báo cáo tình hình sử dụng tem điện tử thuốc lá nhập khẩu hoặc tem điện tử rượu nhập khẩu",
+      "code": "1.013480.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559480378,
+  "updatedAt": 1785229460912,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Hải quan khu vực/ hải quan cửa khẩu, Chi cục Hải quan khu vực",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Hải quan khu vực/ hải quan cửa khẩu, Chi cục Hải quan khu vực",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f8949-589b-7534-a278-afbc00c352f7",
+    "proposalNumber": "1932/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1784779910366,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": "01a04bd5-010d-74eb-8fc5-b58661a37f34",
+  "code": "1.116534",
+  "codeNotation": "1.116534",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "1.1. Người yêu cầu đăng ký nộp 01 bộ hồ sơ đến Trung tâm Phục vụ hành chính công hoặc thông qua dịch vụ bưu chính hoặc nộp trực tuyến trên Cổng dịch vụ công quốc gia.\n1.2. Trung tâm Phục vụ hành chính công thực hiện các công việc sau:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả; trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Cơ quan có chức năng quản lý đất đai cấp xã.\n1.3. Cơ quan có chức năng quản lý đất đai cấp xã thực hiện:\n- Thông báo cho Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai chuyển hồ sơ cấp Giấy chứng nhận để kiểm tra, xem xét và trình Chủ tịch Ủy ban nhân dân cấp xã quyết định thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai. \n- Kiểm tra hồ sơ, xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 Luật Đất đai theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận. \n- Trình Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận. \n- Gửi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\n- Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 28,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 28,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 28,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc. (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) \nĐối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 30 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 28 ngày làm việc. \nPhí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    }
+  ],
+  "description": "không",
+  "name": "Thu hồi Giấy chứng nhận đã cấp lần đầu và Giấy chứng nhận được cấp theo điểm b khoản 2 Điều 14 Nghị định số 49/2026/NĐ-CP của Chính phủ không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi (TPCT)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a04bd3-dd64-70ea-a6c5-b7b715e3ae81",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản kiến nghị việc cấp Giấy chứng nhận không đúng quy định của pháp luật đất đai (bản chính).",
+          "code": "SNNMT_QD4413_TTHC12_capxa_01",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04bd4-21ed-7271-b512-ed5b544d8fb8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp (bản gốc).",
+          "code": "SNNMT_QD4413_TTHC12_capxa_02",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a04bd4-8f9d-76bb-925f-4d490f58544a",
+    "01a04174-6e6a-760e-9a3a-21c60be8753b"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a94-7330-86c7-9bf0c67bd322",
+    "019d2be3-6a94-7330-86c8-d87e57adc204"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a85-74ec-a339-e57aeca50e22"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a94-7330-86c8-d87e57adc204",
+      "name": "Phòng Kinh tế, Hạ tầng và Đô thị",
+      "code": "H18.132.02"
+    },
+    {
+      "id": "019d2be3-6a94-7330-86c7-9bf0c67bd322",
+      "name": "Phòng Kinh tế",
+      "code": "H18.116.02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a85-74ec-a339-e57aeca50e22",
+      "name": "Văn phòng Đăng ký đất đai - Thành phố Cần Thơ",
+      "code": "H13.12.3"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a04bd4-8f9d-76bb-925f-4d490f58544a",
+      "name": "Quyết định thu hồi Giấy chứng nhận đã cấp sai quy định của pháp luật.",
+      "code": "H13.SNNMT_QD4413_TTHC12_capxa_01"
+    },
+    {
+      "id": "01a04174-6e6a-760e-9a3a-21c60be8753b",
+      "name": "Giấy chứng nhận",
+      "code": "H13.SNNMT_QD4413_Giấy chứng nhận"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a339-9985e7aba649",
+  "departmentPromulgateCode": "H13",
+  "departmentPromulgateName": "UBND Thành phố Cần Thơ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787979844978,
+  "updatedAt": 1787979844978,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Phòng Kinh tế, Hạ tầng và Đô thị, Phòng Kinh tế",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Người yêu cầu đăng ký nộp 01 bộ hồ sơ đến Trung tâm Phục vụ hành chính công hoặc thông qua dịch vụ bưu chính hoặc nộp trực tuyến trên Cổng dịch vụ công quốc gia",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "Văn phòng Đăng ký đất đai - Thành phố Cần Thơ",
+  "requirementsAndConditions": "không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a042a0-5d09-7389-91d6-93dfc5a9b3f2",
+    "proposalNumber": "4413/QĐ-UBND.",
+    "decisionDate": 1787504400000,
+    "decisionNumber": null,
+    "publicationDate": 1787979844744,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a339-9985e7aba649",
+      "name": "UBND Thành phố Cần Thơ"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

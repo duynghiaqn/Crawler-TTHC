@@ -1,0 +1,284 @@
+{
+  "id": "019d2bfc-2dc8-76fa-8b85-925158447914",
+  "code": "1.007699",
+  "codeNotation": "1.007699",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Tổ chức, cá nhân khi đăng ký quyền sử dụng, quyền sở hữu tài sản trừ nhà, đất (bao gồm cả các trường hợp thuộc diện miễn lệ phí trước bạ theo quy định của pháp luật về lệ phí trước bạ) nộp hồ sơ khai lệ phí trước bạ tại cơ quan thuế nơi đăng ký quyền sở hữu, quyền sử dụng hoặc địa điểm do Ủy ban nhân dân cấp tỉnh quyết định."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan thuế tiếp nhận hồ sơ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Chậm nhất là ngày làm việc tiếp theo kể từ ngày nhận được hồ sơ khai thuế, khoản thu khác hợp pháp, đầy đủ, đúng mẫu quy định của người nộp thuế. Trường hợp cơ quan thuế tiếp nhận hồ sơ khai thuế của người nộp thuế trong đó có thông tin đề nghị miễn thuế, giảm thuế thì cơ quan thuế ban hành thông báo nộp tiền đối với trường hợp được miễn thuế, giảm thuế theo thời hạn quy định tại điểm b khoản 2 Điều 16 Nghị định số 252/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Chậm nhất là ngày làm việc tiếp theo kể từ ngày nhận được hồ sơ khai thuế, khoản thu khác hợp pháp, đầy đủ, đúng mẫu quy định của người nộp thuế. Trường hợp cơ quan thuế tiếp nhận hồ sơ khai thuế của người nộp thuế trong đó có thông tin đề nghị miễn thuế, giảm thuế thì cơ quan thuế ban hành thông báo nộp tiền đối với trường hợp được miễn thuế, giảm thuế theo thời hạn quy định tại điểm b khoản 2 Điều 16 Nghị định số 252/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Chậm nhất là ngày làm việc tiếp theo kể từ ngày nhận được hồ sơ khai thuế, khoản thu khác hợp pháp, đầy đủ, đúng mẫu quy định của người nộp thuế. Trường hợp cơ quan thuế tiếp nhận hồ sơ khai thuế của người nộp thuế trong đó có thông tin đề nghị miễn thuế, giảm thuế thì cơ quan thuế ban hành thông báo nộp tiền đối với trường hợp được miễn thuế, giảm thuế theo thời hạn quy định tại điểm b khoản 2 Điều 16 Nghị định số 252/2026/NĐ-CP.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế.",
+  "name": "Khai lệ phí trước bạ tàu thuyền đánh cá, tàu thuyền vận tải thuỷ nội địa, tàu biển nếu thiếu hồ sơ gốc hoặc đóng mới tại Việt Nam",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30e-0f721182f63b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai lệ phí trước bạ theo mẫu số 02/LPTB ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0015684",
+          "attachments": [
+            {
+              "id": "019fa880-f404-7499-82db-93b8c906e9ec",
+              "fileName": "2. 02.LPTB.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa880-f404-7499-82db-93b8c906e9ec/2. 02.LPTB.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f31-d494f1c3dbf7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Phiếu báo hoặc xác nhận của cơ quan có thẩm quyền về việc tàu thuyền thuộc đối tượng được đăng ký sở hữu",
+          "code": "G12.0011904",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa889-04d5-762c-90ed-062837072259",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì các tờ khai số 02/LPTB thực hiện theo mẫu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính (đã được sửa đổi, bổ sung)",
+          "code": "G12.0011915",
+          "attachments": [
+            {
+              "id": "019fa888-ec93-742f-84bb-6e8df020d574",
+              "fileName": "02 LPTB TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa888-ec93-742f-84bb-6e8df020d574/02 LPTB TT 80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "lệ phí trước bạ",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe7-e3216a7d527d"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe7-e3216a7d527d",
+      "name": "Thông báo nộp lệ phí trước bạ",
+      "code": "KQ.G12.000504"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d75a4-9ea6-76bf-96b8-952877b928b6",
+      "name": "Khai lệ phí trước bạ tàu thuyền đánh cá, tàu thuyền vận tải thuỷ nội địa, tàu biển nếu thiếu hồ sơ gốc hoặc đóng mới tại Việt Nam ",
+      "code": "1.007699.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-ca7d-7057-9ec1-bee951643a49",
+      "name": "Khai lệ phí trước bạ tàu thuyền đánh cá, tàu thuyền vận tải thuỷ nội địa, tàu biển nếu thiếu hồ sơ gốc hoặc đóng mới tại Việt Nam ",
+      "code": "1.007699.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559440328,
+  "updatedAt": 1785399199692,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế cơ sở",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "019d2bfd-ec17-74d1-948c-87a5fb60b66b",
+  "code": "1.013782",
+  "codeNotation": "1.013782",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan báo chí của địa phương có nhu cầu xuất bản thêm ấn phẩm báo chí, cơ quan chủ quản báo chí gửi 01 bộ hồ sơ về Ủy ban nhân dân cấp tỉnh.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh có trách nhiệm kiểm tra tính đầy đủ, chính xác của hồ sơ. Trường hợp hồ sơ chưa đầy đủ, chính xác, Ủy ban nhân dân cấp tỉnh phải thông báo bằng văn bản và nêu rõ lý do. Hết thời hạn 07 ngày làm việc, trường hợp không có thông báo yêu cầu bổ sung, hoàn thiện hồ sơ bằng văn bản thì hồ sơ được tiếp nhận chính thức.\n- Trong thời hạn 07 ngày làm việc kể từ ngày tiếp nhận chính thức, Ủy ban nhân dân cấp tỉnh cấp Giấy phép xuất bản thêm ấn phẩm báo chí; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "- Có tôn chỉ, mục đích phù hợp với tôn chỉ, mục đích của cơ quan báo chí; đối tượng phục vụ;\n- Có phương án về tổ chức và nhân sự bảo đảm hoạt động của ấn phẩm báo chí;\n- Có tên và hình thức trình bày tên ấn phẩm báo chí;\n- Có giải pháp kỹ thuật bảo đảm an toàn, an ninh thông tin.",
+  "name": "Thủ tục cấp giấy phép xuất bản thêm ấn phẩm báo chí đối với cơ quan báo chí của địa phương",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7181-77b9-b0fa-8b9c35b4f53f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đề án đề nghị cấp giấy phép xuất bản thêm ấn phẩm báo chí có xác nhận của cơ quan chủ quản báo chí theo Mẫu số 02 tại Phụ lục I ban hành kèm theo Thông tư số 20/2026/TT-BVHTTDL ngày 30/6/2026;",
+          "code": "000.00.00.G14-KQ1498",
+          "attachments": [
+            {
+              "id": "01a01949-d391-750b-bbab-cb2006a91f6b",
+              "fileName": "De an MS02 TT20.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a01949-d391-750b-bbab-cb2006a91f6b/De an MS02 TT20.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-7181-77b9-b0fa-8e833619e516",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Mẫu trình bày tên gọi ấn phẩm báo in, tạp chí in (bản màu) có xác nhận của cơ quan chủ quản báo chí.",
+          "code": "000.00.00.G14-KQ1499",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-108a168d8c99"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f8253-7b83-74a8-9b67-48f73b229c01",
+    "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+    "01a01e6e-19d0-77ab-93db-cda462a67ed7"
+  ],
+  "resultIds": [
+    "019d2bb2-1c74-72d6-adbb-6494a7c3bcef"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e65-9c9d4b77d824"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-108a168d8c99",
+      "name": "Báo chí",
+      "code": "G14-TT02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-108a168d8c99",
+    "name": "Báo chí",
+    "code": "G14-TT02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-9c9d4b77d824",
+      "name": "Ủy ban nhân dân cấp tỉnh",
+      "code": "UBNDCT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3",
+    "019d3810-8907-7195-8ecb-6e3d0c581f7e"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    },
+    {
+      "id": "019d3810-8907-7195-8ecb-6e3d0c581f7e",
+      "name": "Sở Văn hóa, Thể thao và Du lịch"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f8253-7b83-74a8-9b67-48f73b229c01",
+      "name": "Luật Báo chí 2025",
+      "code": "126/2025/QH15 "
+    },
+    {
+      "id": "01a01e6e-19d0-77ab-93db-cda462a67ed7",
+      "name": "Nghị định quy định chi tiết thi hành một số điều của Luật Báo chí",
+      "code": "237/2026/NĐ-CP "
+    },
+    {
+      "id": "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+      "name": "Thông tư quy định chi tiết hồ sơ, thủ tục cấp, sửa đổi, bổ sung giấy phép hoạt động báo chí; điều kiện, hồ sơ, thủ tục cấp giấy phép xuất bản bản tin, xuất bản đặc san; lưu chiểu bản tin, đặc san.",
+      "code": "20/2026/TT-BVHTTDL "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c74-72d6-adbb-6494a7c3bcef",
+      "name": "Giấy phép xuất bản thêm ấn phẩm báo chí",
+      "code": "KQ.G14.000040"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "019daebc-c31d-76c8-afc8-cd1c96dec434",
+      "name": "Thủ tục cấp giấy phép xuất bản thêm ấn phẩm đối với cơ quan báo chí của địa phương",
+      "code": "1.013782.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a031e6-929d-74dc-92d9-d85dafa63aa5",
+      "name": "Thủ tục cấp giấy phép xuất bản thêm ấn phẩm báo chí đối với cơ quan báo chí của địa phương",
+      "code": "1.013782.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559554583,
+  "updatedAt": 1787543583743,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Có tôn chỉ, mục đích phù hợp với tôn chỉ, mục đích của cơ quan báo chí; đối tượng phục vụ;\n- Có phương án về tổ chức và nhân sự bảo đảm hoạt động của ấn phẩm báo chí;\n- Có tên và hình thức trình bày tên ấn phẩm báo chí;\n- Có giải pháp kỹ thuật bảo đảm an toàn, an ninh thông tin.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff3ff-5c64-7698-8888-c706df670883",
+    "proposalNumber": "2149/QĐ-BVHTTDL",
+    "decisionDate": 1786899600000,
+    "decisionNumber": null,
+    "publicationDate": 1787543583558,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "id": "019d2bfc-d9cf-774f-a7e7-9e24f53a6a18",
+  "code": "2.000762",
+  "codeNotation": "2.000762",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Lập, nộp hồ sơ\n\tNgười đề nghị lập hồ sơ theo quy định tại Mục 9.3 (Thành phần hồ sơ) và nộp đến cơ quan BHXH tỉnh (hoặc BHXH cơ sở thuộc BHXH tỉnh) nơi đã ban hành quyết định thôi hưởng trợ cấp mất sức lao động hằng tháng (hoặc nơi đã tiếp nhận hồ sơ bàn giao từ ngành Lao động – Thương binh và Xã hội (nay là Nội vụ) để chi trả).\n\tTrường hợp người đề nghị lựa chọn hình thức nộp hồ sơ trực tiếp thì có thể nộp hồ sơ đến cơ quan BHXH tỉnh/BHXH cơ sở thuận tiện nhất."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan BHXH tiếp nhận hồ sơ và giải quyết hoặc chuyển hồ sơ đến cơ quan BHXH có thẩm quyền giải quyết theo quy định (đối với hồ sơ tiếp nhận trực tiếp không thuộc thẩm quyền giải quyết của cơ quan BHXH nơi tiếp nhận)."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Nhận kết quả\n\tNgười đề nghị nhận hồ sơ, giấy tờ liên quan theo quy định (Quyết định hưởng chế độ; thẻ BHYT đối với trường hợp hưởng trợ cấp hằng tháng); Tiền trợ cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Người đề nghị nhận kết quả gồm:\n\t- Hồ sơ giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Tiền trợ cấp:\n\t+ Thông qua tài khoản cá nhân.\n\t+ Bằng tiền mặt tại cơ quan BHXH (đối với nhận trợ cấp mai táng).\n\t+ Bằng tiền mặt thông qua tổ chức hỗ trợ chi trả (đối với hưởng chế độ hằng tháng).\nTối đa là 15 ngày làm việc kể từ ngày cơ quan BHXH nhận được hồ sơ theo quy định của người đề nghị.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Người đề nghị nhận kết quả gồm:\n\t- Hồ sơ giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Tiền trợ cấp:\n\t+ Thông qua tài khoản cá nhân.\n\t+ Bằng tiền mặt tại cơ quan BHXH (đối với nhận trợ cấp mai táng).\n\t+ Bằng tiền mặt thông qua tổ chức hỗ trợ chi trả (đối với hưởng chế độ hằng tháng).\nTối đa là 15 ngày làm việc kể từ ngày cơ quan BHXH nhận được hồ sơ theo quy định của người đề nghị.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Người đề nghị nhận kết quả gồm:\n\t- Hồ sơ giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Tiền trợ cấp:\n\t+ Thông qua tài khoản cá nhân.\n\t+ Bằng tiền mặt tại cơ quan BHXH (đối với nhận trợ cấp mai táng).\n\t+ Bằng tiền mặt thông qua tổ chức hỗ trợ chi trả (đối với hưởng chế độ hằng tháng).\nTối đa là 15 ngày làm việc kể từ ngày cơ quan BHXH nhận được hồ sơ theo quy định của người đề nghị.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Theo quy định tại Điều 1, Điều 2 Quyết định số 613/QĐ-TTg.",
+  "name": "Giải quyết hưởng trợ cấp hằng tháng theo Quyết định số 613/QĐ-TTg",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "1. Đối với hưởng trợ cấp hằng tháng",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02e9a-ce1c-70ce-8006-5ffd080e6472",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị giải quyết trợ cấp hằng tháng (Mẫu số 14-HSB)",
+          "code": "TP.G12.002028",
+          "attachments": [
+            {
+              "id": "01a02eb0-9366-77f9-bdc4-91a188356f85",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02eb0-9366-77f9-bdc4-91a188356f85/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02e9b-60e4-72c9-a4bc-606b6e561536",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp người bị phạt tù nhưng không được hưởng án treo đã chấp hành xong hình phạt tù; người bị Tòa án tuyên bố là mất tích trở về; người xuất cảnh trở về định cư hợp pháp thì có thêm bản sao Giấy chứng nhận chấp hành xong hình phạt tù hoặc bản sao Quyết định của Tòa án tuyên bố mất tích trở về hoặc bản sao Quyết định trở về nước định cư hợp pháp",
+          "code": "TP.G12.002029",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Hồ sơ do cơ quan BHXH đang lưu trữ (trường hợp BHXH cơ sở không có hồ sơ thì làm văn bản đề nghị BHXH tỉnh sao lục), gồm",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02e9c-65f8-714e-96be-3dfcfd13cfd4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định của cơ quan, đơn vị cho nghỉ việc vì MSLĐ",
+          "code": "TP.G12.002030",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e9c-d7d2-72e8-b4b9-8d6cd6653657",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phiếu cá nhân (trường hợp tại mặt sau của Quyết định nghỉ việc có ghi quá trình công tác thì hồ sơ không gồm có Phiếu cá nhân)",
+          "code": "TP.G12.002031",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e9d-9db6-743c-afa1-7c051a0002ba",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản GĐYK (trừ trường hợp nghỉ việc vì MSLĐ theo Nghị quyết 16-HĐBT ngày 08/02/1982)",
+          "code": "TP.G12.002032",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e9e-21cb-779f-80a4-2da03e085dce",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định hoặc Thông báo thôi hưởng trợ cấp MSLĐ hằng tháng",
+          "code": "TP.G12.002033",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "- Trường hợp hồ sơ có bản chính Bản trích lục hồ sơ MSLĐ của Bộ Lao động - Thương binh và Xã hội (nay là Bộ Nội vụ)  thì được sử dụng thay cho hồ sơ MSLĐ nêu trên",
+      "profileComponents": []
+    },
+    {
+      "name": "Trường hợp hồ sơ trợ cấp MSLĐ chưa tiếp nhận bàn giao từ Sở Lao động – Thương binh và Xã hội (nay là Sở Nội vụ) thì phối hợp để bàn giao, tiếp nhận, quản lý làm căn cứ giải quyết",
+      "profileComponents": []
+    },
+    {
+      "name": "Trường hợp hồ sơ hưởng trợ cấp MSLĐ đang quản lý không có hoặc bị thiếu thì thông báo để người đề nghị cung cấp hồ sơ của cá nhân đang quản lý (bản chính hoặc bản sao hợp lệ); nếu người đề nghị không cung cấp được hồ sơ theo yêu cầu thì làm văn bản đề nghị BHXH Việt Nam (qua Trung tâm Lưu trữ) sao lục. Trường hợp nếu cả người đề nghị và BHXH Việt Nam đều không có hồ sơ hoặc hồ sơ bị thiếu để cung cấp thì thông báo để người đề nghị đến cơ quan, đơn vị cũ khi nghỉ việc hưởng trợ cấp MSLĐ xin được cung cấp hồ sơ do đơn vị lưu trữ (bản chính hoặc bản sao hợp lệ)",
+      "profileComponents": []
+    },
+    {
+      "name": "2. Đối với hưởng trợ cấp mai táng phí của người đủ điều kiện hưởng trợ cấp hằng tháng theo Quyết định số 613/QĐ-TTg nhưng chưa được giải quyết hưởng trợ cấp mà bị chết từ ngày 01/7/2010 đến trước ngày 01/01/2016",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02ea1-d500-744c-95f0-fb5ea1e060a4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị giải quyết trợ cấp mai táng của người lo mai táng (Mẫu số 14-HSB)",
+          "code": "TP.G12.002034",
+          "attachments": [
+            {
+              "id": "01a02eb1-2245-71fb-b949-6cba678e3f00",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02eb1-2245-71fb-b949-6cba678e3f00/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02ea2-6610-71f3-b4ad-604d573f6a1f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy chứng tử hoặc bản sao giấy khai tử hoặc bản sao Quyết định của Tòa án tuyên bố đã chết hoặc bản chính giấy xác nhận của Ủy ban nhân dân xã, phường, thị trấn nơi chôn cất",
+          "code": "TP.G12.002035",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02ea2-f363-7324-a8ed-5ae0b56fcde1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp người đủ điều kiện hưởng trợ cấp hằng tháng theo Quyết định số 613/QĐ-TTg nhưng chưa được giải quyết hưởng trợ cấp mà bị chết thì có thêm Bản sao Giấy chứng nhận chấp hành xong hình phạt tù đối với trường hợp bị phạt tù nhưng không được hưởng án treo hoặc bản sao Quyết định của Tòa án tuyên bố mất tích trở về đối với trường hợp bị Tòa án tuyên bố là mất tích trở về hoặc bản sao Quyết định trở về nước định cư hợp pháp đối với trường hợp xuất cảnh trở về định cư hợp pháp",
+          "code": "TP.G12.002036",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02ea3-8511-753a-96f6-4a333cdea430",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Căn cứ Văn bản đề nghị của người lo mai táng, thực hiện như quy định tại tiết c điểm 1.1 khoản 1 Điều này",
+          "code": "TP.G12.002037",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "3. Đối với hưởng chế độ tử tuất của người đủ điều kiện hưởng trợ cấp hằng tháng theo Quyết định số 613/QĐ-TTg nhưng chưa được giải quyết hưởng trợ cấp mà bị chết từ ngày 01/01/2016 trở đi:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02ea5-ed81-729e-b53c-a66ba4ca6408",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy chứng tử hoặc bản sao giấy báo tử hoặc trích lục khai tử hoặc bản sao quyết định tuyên bố là đã chết của Tòa án đã có hiệu lực pháp luật",
+          "code": "TP.G12.002038",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02ea6-6db2-7278-bb25-e4c230cc9822",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai của thân nhân, tổ chức, cá nhân lo mai táng theo Mẫu số 09-HSB",
+          "code": "TP.G12.002039",
+          "attachments": [
+            {
+              "id": "01a02eb1-7b9e-773b-b91d-1ea11b8e574f",
+              "fileName": "09-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02eb1-7b9e-773b-b91d-1ea11b8e574f/09-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02ea6-ea96-72d9-ba37-014a510f7910",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp người đủ điều kiện hưởng trợ cấp hằng tháng theo Quyết định số 613/QĐ-TTg nhưng chưa được giải quyết hưởng trợ cấp mà bị chết thì có thêm bản sao Giấy chứng nhận chấp hành xong hình phạt tù đối với trường hợp bị phạt tù nhưng không được hưởng án treo hoặc bản sao Quyết định của Tòa án tuyên bố mất tích trở về đối với trường hợp bị Tòa án tuyên bố là mất tích trở về hoặc bản sao Quyết định trở về nước định cư hợp pháp đối với trường hợp xuất cảnh trở về định cư hợp pháp",
+          "code": "TP.G12.002040",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Ghi chú:  - Không yêu cầu thân nhân nộp Bản sao giấy chứng tử hoặc Trích lục khai tử khi cơ quan BHXH khai thác được thông tin thành phần hồ sơ này trên Cơ sở dữ liệu hộ tịch điện tử. - Thành phần hồ sơ nếu không ghi là bản chính thì có thể nộp bản chính hoặc bản sao hợp lệ. Các thành phần hồ sơ là mẫu do cơ quan BHXH ban hành là bản chính. - Trường hợp ủy quyền nhận các chế độ BHXH: Hồ sơ kèm theo Văn bản uỷ quyền (được chứng thực) theo quy định của pháp luật và Văn bản đề nghị Mẫu số 14-HSB.",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cá nhân",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9f06-d9e645d89484",
+    "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+    "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+    "019d2bb3-5d84-71c5-b679-4cd33f9b9406",
+    "019d2bb3-5d87-7195-a440-f511123122ee",
+    "019e72eb-488d-760e-abb8-0a3bb6585c78",
+    "01a023be-84c8-77db-ade3-9c613cd83670"
+  ],
+  "resultIds": [
+    "019d2bb2-1c82-739b-8b99-d6be7cc06c52",
+    "01a02ea9-d9fb-746f-8484-2359d9dbcb3d",
+    "01a02eaa-6241-744f-a417-2317328c1995",
+    "01a02eaa-fcc3-7203-8c42-c4ace71e04e8",
+    "01a02eab-8f22-76df-9ca0-3afa64e0ccb3",
+    "01a02eab-fb03-70ab-b316-592ef19b0256",
+    "01a02eac-6390-735e-a1f3-2c955ce53ce0"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-a18231a6fcf6"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-a18231a6fcf6",
+      "name": "Bảo hiểm xã hội tỉnh",
+      "code": "BHXHT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7c-71ab-9f06-d9e645d89484",
+      "name": "Hướng dẫn Quyết định 613/QĐ-TTg ngày 06 tháng 5 năm 2010 của Thủ tướng Chính phủ về việc trợ cấp hàng tháng cho những người có từ đủ 15 năm đến dưới 20 năm công tác thực tế đã hết thời hạn hưởng trợ cấp mất sức lao động",
+      "code": "16/2010/TT-BLĐTBXH"
+    },
+    {
+      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+      "name": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
+      "code": "2222/QĐ-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc",
+      "code": "158/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b679-4cd33f9b9406",
+      "name": "Về việc trợ cấp hàng tháng cho những người có từ đủ 15 năm đến dưới 20 năm công tác thực tế đã hết thời hạn hưởng trợ cấp mất sức lao động",
+      "code": "613/QĐ-TTg"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a440-f511123122ee",
+      "name": "Luật Bảo hiểm xã hội",
+      "code": "41/2024/QH15"
+    },
+    {
+      "id": "019e72eb-488d-760e-abb8-0a3bb6585c78",
+      "name": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP BAN HÀNH KÈM THEO QUYẾT ĐỊNH SỐ 2222/QĐ-BHXH NGÀY 29/7/2025 CỦA GIÁM ĐỐC BẢO HIỂM XÃ HỘI VIỆT NAM",
+      "code": "313/QĐ-BHXH "
+    },
+    {
+      "id": "01a023be-84c8-77db-ade3-9c613cd83670",
+      "name": "Quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp; cấp sổ bảo hiểm xã hội, thẻ bảo hiểm y tế",
+      "code": "366/QĐ-BHXH"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a02ea9-d9fb-746f-8484-2359d9dbcb3d",
+      "name": "Quyết định về việc hưởng trợ cấp hằng tháng (Mẫu số 07G-HSB)",
+      "code": "KQ.G12.002029"
+    },
+    {
+      "id": "01a02eaa-6241-744f-a417-2317328c1995",
+      "name": "Quyết định về việc hưởng trợ cấp mai táng (Mẫu số 08G-HSB) (áp dụng cho trường hợp đủ điều kiện hưởng nhưng chưa được giải quyết mà đã chết)",
+      "code": "KQ.G12.002030"
+    },
+    {
+      "id": "01a02eaa-fcc3-7203-8c42-c4ace71e04e8",
+      "name": "Quyết định về việc hưởng trợ cấp tuất một lần (Mẫu số 08E-HSB) (áp dụng cho trường hợp đủ điều kiện hưởng nhưng chưa được giải quyết mà đã chết từ 01/01/2016 trở đi).",
+      "code": "KQ.G12.002031"
+    },
+    {
+      "id": "01a02eab-fb03-70ab-b316-592ef19b0256",
+      "name": "Thẻ BHYT (đối với trường hợp hưởng trợ cấp hằng tháng)",
+      "code": "KQ.G12.002033"
+    },
+    {
+      "id": "019d2bb2-1c82-739b-8b99-d6be7cc06c52",
+      "name": "Tiền trợ cấp",
+      "code": "KQ.G12.0000100"
+    },
+    {
+      "id": "01a02eab-8f22-76df-9ca0-3afa64e0ccb3",
+      "name": "Quyết định về việc hưởng trợ cấp tuất hằng tháng (Mẫu số 08C-HSB)",
+      "code": "KQ.G12.002032"
+    },
+    {
+      "id": "01a02eac-6390-735e-a1f3-2c955ce53ce0",
+      "name": "Thông báo về việc chi trả lương hưu, trợ cấp BHXH đối với trường hợp di chuyển hưởng chế độ BHXH tại huyện/tỉnh khác (Mẫu 23-HSB).",
+      "code": "KQ.G12.002034"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d76f3-b793-75a6-9436-e0533e525230",
+      "name": "Giải quyết hưởng trợ cấp hàng tháng theo Quyết định số 613/QĐ-TTg đối với người đủ điều kiện hưởng trợ cấp hàng tháng nhưng chưa được giải quyết mà bị chết từ ngày 01/7/2010 trở đi",
+      "code": "2.000762.02",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a750-744b-bc2e-d021dd5e0726",
+      "name": "Giải quyết hưởng trợ cấp hằng tháng theo Quyết định số 613/QĐ-TTg",
+      "code": "2.000762.02",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a77d-758a-993d-ba7f2f6a133b",
+      "name": "Giải quyết hưởng trợ cấp hằng tháng theo Quyết định số 613/QĐ-TTg",
+      "code": "2.000762.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d76f3-13f7-76e8-bcc6-3374e40f22c4",
+      "name": "Giải quyết hưởng trợ cấp hàng tháng theo Quyết định số 613/QĐ-TTg",
+      "code": "2.000762.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559484367,
+  "updatedAt": 1787504992044,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Theo quy định tại Điều 1, Điều 2 Quyết định số 613/QĐ-TTg.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

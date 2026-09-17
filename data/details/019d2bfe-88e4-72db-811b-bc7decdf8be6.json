@@ -1,0 +1,351 @@
+{
+  "id": "019d2bfe-88e4-72db-811b-bc7decdf8be6",
+  "code": "1.013092",
+  "codeNotation": "1.013092",
+  "executionSteps": [
+    {
+      "name": "a) Nộp hồ sơ TTHC:",
+      "description": "Tổ chức, cá nhân nộp hồ sơ trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính tới Cơ sở đăng kiểm."
+    },
+    {
+      "name": "b) Giải quyết TTHC:",
+      "description": "- Trường hợp hồ sơ không đạt yêu cầu, cơ sở đăng kiểm thông báo trên hệ thống trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính cho người nộp hồ sơ.  \n- Trường hợp hồ sơ đạt yêu cầu, cơ sở đăng kiểm lập phiếu kiểm soát kiểm định; thực hiện cấp lại tem kiểm định trực tiếp hoặc thông qua dịch vụ bưu chính và cấp trực tuyến đối với giấy chứng nhận cho người nộp hồ sơ cụ thể như sau:  \n+ Trường hợp giấy chứng nhận kiểm định, tem kiểm định bị sai thông tin, cơ sở đăng kiểm cấp lại giấy chứng nhận kiểm định, tem kiểm định trong 04 giờ làm việc kể từ khi nhận được hồ sơ hợp lệ và thu hồi giấy chứng nhận kiểm định, tem kiểm định bị sai.  \n+ Trường hợp giấy chứng nhận kiểm định hoặc tem kiểm định bị hỏng nhưng có đủ thông tin để xác định số sêri hoặc biển số xe, cơ sở đăng kiểm cấp lại giấy chứng nhận kiểm định, tem kiểm định trong 04 giờ làm việc kể từ khi nhận được hồ sơ hợp lệ và thu hồi giấy chứng nhận kiểm định, tem kiểm định bị hỏng.  \n+ Trường hợp giấy chứng nhận kiểm định (bản giấy) hoặc tem kiểm định bị mất đồng thời hoặc chỉ bị mất một trong hai hoặc giấy chứng nhận kiểm định (bản giấy) hoặc tem kiểm định bị hỏng nhưng không có đủ thông tin để xác định số sêri hoặc biển số xe, cơ sở đăng kiểm lập giấy tiếp nhận thông tin báo mất, đăng \ntải thông tin báo mất giấy chứng nhận kiểm định, tem kiểm định trên phần mềm quản lý phương tiện vi phạm của Cục Đăng kiểm Việt Nam. Sau 15 ngày kể từ ngày đăng thông tin báo mất nếu không được tìm thấy, người nộp hồ sơ mang theo giấy tiếp nhận thông tin báo mất và giấy chứng nhận kiểm định, tem kiểm định (không bị mất) tới cơ sở đăng kiểm nộp lại để được cấp lại giấy chứng nhậnkiểm định, tem kiểm định trong ngày làm việc.  \nĐối với các trường hợp giấy chứng nhận kiểm định, tem kiểm định bị mất, \nhỏng, rách, sai thông tin cấp trước ngày Thông tư số 30/2026/TT-BXD có hiệu \nlực, khi thực hiện cấp lại thì thực hiện cấp giấy chứng nhận kiểm định, tem kiểm \nđịnh theo quy định tại Điều 18 Thông tư số 30/2026/TT-BXD."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 4,
+      "processingTimeUnit": "HOUR",
+      "description": "- Trường hợp giấy chứng nhận kiểm định, tem kiểm định bị sai thông tin; bị hỏng nhưng có đủ thông tin để xác định số seri hoặc biển số xe: 04 giờ làm việc kể từ khi nhận được hồ sơ hợp lệ. \n- Trường hợp giấy chứng nhận kiểm định (bản giấy) hoặc tem kiểm định bị mất; tem kiểm định bị hỏng nhưng không có đủ thông tin để xác định số seri hoặc biển số xe: sau 15 ngày kể từ ngày đăng thông tin báo mất.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Kể từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026, mức  50  thu lệ phí cấp Giấy chứng nhận bằng 50% mức thu lệ phí quy định tại khoản 3  Điều 1 Thông tư số 36/2022/TT-BTC",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 4,
+      "processingTimeUnit": "HOUR",
+      "description": "- Trường hợp giấy chứng nhận kiểm định, tem kiểm định bị sai thông tin; bị hỏng nhưng có đủ thông tin để xác định số seri hoặc biển số xe: 04 giờ làm việc kể từ khi nhận được hồ sơ hợp lệ. \n- Trường hợp giấy chứng nhận kiểm định (bản giấy) hoặc tem kiểm định bị mất; tem kiểm định bị hỏng nhưng không có đủ thông tin để xác định số seri hoặc biển số xe: sau 15 ngày kể từ ngày đăng thông tin báo mất.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Kể từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026, mức  50  thu lệ phí cấp Giấy chứng nhận bằng 50% mức thu lệ phí quy định tại khoản 3  Điều 1 Thông tư số 36/2022/TT-BTC",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 4,
+      "processingTimeUnit": "HOUR",
+      "description": "-  Trường hợp giấy chứng nhận kiểm định, tem kiểm định bị sai thông tin; bị hỏng nhưng có đủ thông tin để xác định số seri hoặc biển số xe: 04 giờ làm việc kể từ khi nhận được hồ sơ hợp lệ. \n- Trường hợp giấy chứng nhận kiểm định (bản giấy) hoặc tem kiểm định bị mất; tem kiểm định bị hỏng nhưng không có đủ thông tin để xác định số seri hoặc biển số xe: sau 15 ngày kể từ ngày đăng thông tin báo mất.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Kể từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026, mức  thu lệ phí cấp Giấy chứng nhận bằng 50% mức thu lệ phí quy định tại khoản 3  Điều 1 Thông tư số 36/2022/TT-BTC",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "- Việc cấp lại được thực hiện trong các trường hợp: giấy chứng nhận kiểm định, tem kiểm định bị sai thông tin; bị hỏng; bị mất; xe thay đổi chứng nhận đăng ký xe, biển số xe; xe thay đổi từ hình thức không kinh doanh vận tải sang có kinh doanh vận tải hoặc ngược lại; xe có sự thay đổi nhưng không coi là cải tạo. Tổ chức, cá nhân không phải mang xe đến cơ sở đăng kiểm để kiểm định lại.  \n- Giấy chứng nhận kiểm định, tem kiểm định được cấp lại bởi cơ sở đăng kiểm đã cấp giấy chứng nhận kiểm định, tem kiểm định trước đó và có thời hạn hiệu lực cùng với thời hạn hiệu lực của giấy chứng nhận kiểm định, tem kiểm định đã cấp. Riêng đối với trường hợp xe thay đổi từ hình thức không kinh doanh vận tải sang có kinh doanh vận tải hoặc ngược lại dẫn đến thay đổi chu kỳ kiểm định, thời hạn hiệu lực của giấy chứng nhận kiểm định, tem kiểm định cấp lại được xác định theo quy định tại Phụ lục V ban hành kèm theo Thông tư số 30/2026/TT-BXD.  \nTrường hợp cơ sở đăng kiểm đã cấp giấy chứng nhận kiểm định bị thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới thì việc cấp lại được thực hiện bởi cơ sở đăng kiểm được chỉ định nhận bàn giao hồ sơ.",
+  "name": "Cấp lại Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường cho xe cơ giới, xe máy chuyên dùng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "- Giấy tờ phải nộp",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d1a-4959b1afcbfb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp lại giấy chứng nhận kiểm định, tem kiểm định theo mẫu",
+          "code": "000.00.00.G04-KQ004944",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fcffa-f9c8-705f-8b9f-7fcfdc953aac",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ảnh chụp thể hiện xe có lắp đặt thiết bị giám sát hành trình, camera người lái, camera khoang hành khách đối với xe thay đổi từ hình thức không kinh doanh vận tải sang có kinh doanh vận tải.",
+          "code": "TP-G17.000541",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fcff9-f284-73b9-b349-df977323396a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ảnh chụp xe bao gồm: 02 ảnh tổng thể chéo góc khoảng từ 30 độ đến 45 độ phía trước và phía sau (thể hiện rõ biển số xe). Ảnh chụp phải đảm bảo có độ phân giải tối thiểu 1280x720 pixels, rõ nét, thể hiện thời gian thực khi chụp (gồm ngày, tháng, năm, giờ, phút chụp ảnh), ảnh chiếm diện tích tối thiểu 75% diện tích khung ảnh.",
+          "code": "TP-G17.000538",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fcffa-9c11-7228-9622-66ad3f5ad739",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận kiểm định, tem kiểm định cũ (đối với trường hợp bị hỏng hoặc sai thông tin)",
+          "code": "TP-G17.000540",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "- Giất tờ xuất trình",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fcffb-533f-740a-b553-4fdcc6eff7dd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ về đăng ký xe (là một trong các giấy tờ sau: Bản chính chứng nhận đăng ký xe; bản sao có chứng thực/bản sao điện tử được chứng thực; giấy hẹn cấp chứng nhận đăng ký xe; hoặc dữ liệu chứng nhận đăng ký xe/giấy hẹn được tích hợp trên tài khoản định danh điện tử VNeID, VneTraffic) hoặc đối với xe nhập khẩu đã qua sử dụng chưa được cấp chứng nhận đăng ký xe, biển số xe thì xuất trình bản sao Thông báo miễn kiểm tra hoặc Giấy chứng nhận chất lượng xe nhập khẩu đối với xe chưa đăng ký.",
+          "code": "TP-G17.000542",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-bf8b0c4a1509"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9efc-c376a2368474",
+    "019d2bb3-5d7d-7398-be47-c8ac88934210",
+    "019d2bb3-5d87-7195-a43f-d7107a0db778",
+    "019e6da9-1a52-7447-a5cf-e920466e105f",
+    "019fcbcf-de1e-728e-981f-dd9ce78aa8c4"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3d-7379-a671-87efce01d1d9"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6ada-753f-9ac8-72a5969dfddc"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-bf8b0c4a1509",
+      "name": "Đăng kiểm",
+      "code": "G04-GT01"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-bf8b0c4a1509",
+    "name": "Đăng kiểm",
+    "code": "G04-GT01"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-72a5969dfddc",
+      "name": "Cơ sở đăng kiểm (xe cơ giới, xe máy chuyên dùng)",
+      "code": "CSDK"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fcbcf-de1e-728e-981f-dd9ce78aa8c4",
+      "name": "Quy định trình tự, thủ tục kiểm định, miễn kiểm định lần đầu cho xe cơ giới, xe máy chuyên dùng; trình tự, thủ tục chứng nhận an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới cải tạo, xe máy chuyên dùng cải tạo; trình tự, thủ tục kiểm định khí thải xe mô tô, xe gắn máy.",
+      "code": "30/2026/TT-BXD"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a43f-d7107a0db778",
+      "name": "Thông tư 36/2022/TT-BTC",
+      "code": "36/2022/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d7c-71ab-9efc-c376a2368474",
+      "name": "Quy định về giá dịch vụ lập hồ sơ phương tiện đối với xe cơ giới được miễn kiểm định lần đầu và dịch vụ in lại Giấy chứng nhận kiểm định và Tem kiểm định đối với xe cơ giới.",
+      "code": "11/2024/TT-BGTVT"
+    },
+    {
+      "id": "019e6da9-1a52-7447-a5cf-e920466e105f",
+      "name": "QUY ĐỊNH MỨC THU, MIỄN MỘT SỐ KHOẢN PHÍ, LỆ PHÍ NHẰM HỖ TRỢ CHO DOANH NGHIỆP, NGƯỜI DÂN.",
+      "code": " 64/2025/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be47-c8ac88934210",
+      "name": "Quy định mức thu, chế độ thu, nộp, quản lý lệ phí cấp giấy chứng nhận bảo đảm chất lượng, an toàn kỹ thuật đối với máy, thiết bị, phương tiện giao thông vận tải có yêu cầu nghiêm ngặt về an toàn",
+      "code": "199/2016/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3d-7379-a671-87efce01d1d9",
+      "name": "Giấy chứng nhận kiểm định, tem kiểm định (xe cơ giới, xe máy chuyên dùng)",
+      "code": "KQ.G04.000495"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "01a028a5-eb23-7048-946d-8c99fe6f386c",
+      "name": "Cấp lại Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường cho xe cơ giới, xe máy chuyên dùng",
+      "code": "1.013092.01",
+      "processingDay": {
+        "qty": 0,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2cb6-91de-719b-aee4-6c13badfd228",
+      "name": "Cấp lại Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường cho xe cơ giới (trừ xe mô tô, xe gắn máy), xe máy chuyên dùng",
+      "code": "1.013092.01",
+      "processingDay": {
+        "qty": 0,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559594724,
+  "updatedAt": 1787388356899,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ sở đăng kiểm (xe cơ giới, xe máy chuyên dùng)",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Việc cấp lại được thực hiện trong các trường hợp: giấy chứng nhận kiểm định, tem kiểm định bị sai thông tin; bị hỏng; bị mất; xe thay đổi chứng nhận đăng ký xe, biển số xe; xe thay đổi từ hình thức không kinh doanh vận tải sang có kinh doanh vận tải hoặc ngược lại; xe có sự thay đổi nhưng không coi là cải tạo. Tổ chức, cá nhân không phải mang xe đến cơ sở đăng kiểm để kiểm định lại.  \n- Giấy chứng nhận kiểm định, tem kiểm định được cấp lại bởi cơ sở đăng kiểm đã cấp giấy chứng nhận kiểm định, tem kiểm định trước đó và có thời hạn hiệu lực cùng với thời hạn hiệu lực của giấy chứng nhận kiểm định, tem kiểm định đã cấp. Riêng đối với trường hợp xe thay đổi từ hình thức không kinh doanh vận tải sang có kinh doanh vận tải hoặc ngược lại dẫn đến thay đổi chu kỳ kiểm định, thời hạn hiệu lực của giấy chứng nhận kiểm định, tem kiểm định cấp lại được xác định theo quy định tại Phụ lục V ban hành kèm theo Thông tư số 30/2026/TT-BXD.  \nTrường hợp cơ sở đăng kiểm đã cấp giấy chứng nhận kiểm định bị thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới thì việc cấp lại được thực hiện bởi cơ sở đăng kiểm được chỉ định nhận bàn giao hồ sơ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f92e6-a8e4-76bb-be79-04f52ceaa6a8",
+    "proposalNumber": "1288/QĐ-BXD",
+    "decisionDate": 1784653200000,
+    "decisionNumber": null,
+    "publicationDate": 1787388356785,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

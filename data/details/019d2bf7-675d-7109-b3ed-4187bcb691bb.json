@@ -1,0 +1,288 @@
+{
+  "id": "019d2bf7-675d-7109-b3ed-4187bcb691bb",
+  "code": "1.002756",
+  "codeNotation": "1.002756",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Cơ quan, tổ chức tại Việt Nam truy cập Trang thông tin cấp thị thực điện tử (có tên miền tiếng Việt là “https://thithucdientu.gov.vn”, tiếng Anh là “https://evisa.gov.vn”) sử dụng tài khoản định danh điện tử đăng nhập vào mục khai và gửi hồ sơ đề nghị cấp thị thực điện tử hoặc Cổng dịch vụ công quốc gia để đề nghị cấp thị thực điện tử cho người nước ngoài.\nBước 2: Nhập thông tin của người nước ngoài, tải ảnh mặt chân dung và trang nhân thân hộ chiếu. Sau khi thực hiện bước này, cơ quan, tổ chức sẽ được hệ thống cấp mã hồ sơ điện tử.\nBước 3: Sử dụng chữ ký điện tử để xác nhận thông tin đề nghị.\nBước 4: Nộp phí cấp thị thực vào tài khoản quy định tại Trang thông tin cấp thị thực điện tử hoặc Cổng dịch vụ công quốc gia sau khi nhận mã hồ sơ điện tử của cơ quan quản lý xuất nhập cảnh.\nThời gian nộp hồ sơ: 24 giờ/07 ngày.\nThời gian tiếp nhận hồ sơ: Từ thứ 2 đến sáng thứ 7 hàng tuần (trừ ngày Tết, ngày lễ).\nBước 5: Nhận kết quả:\nCơ quan, tổ chức sử dụng mã hồ sơ điện tử để kiểm tra kết quả giải quyết tại Trang thông tin cấp thị thực điện tử hoặc Cổng dịch vụ công quốc gia, trường hợp được cấp thị thực điện tử thì thông báo mã hồ sơ điện tử cho người nước ngoài để sử dụng mã hồ sơ điện tử in thị thực điện tử.\nThời gian trả kết quả: Từ thứ 2 đến thứ 6 hàng tuần (trừ ngày Tết, ngày lễ)"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 03 ngày làm việc kể từ ngày Cục Quản lý xuất nhập cảnh nhận đủ thông tin đề nghị cấp thị thực điện tử và phí cấp thị thực. \nĐối với hồ sơ qua thẩm định chưa đủ điều kiện giải quyết, sau 15 ngày kể từ khi thông báo, nếu người đề nghị không hoàn thành việc hoàn thiện hồ sơ thì hồ sơ sẽ bị đóng trên Hệ thống thông tin giải quyết thủ tục hành chính.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 50,
+          "currencyId": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
+          "attachment": null,
+          "description": "+ Thị thực có giá trị nhiều lần: 50USD/thị thực điện tử.",
+          "currencyName": "USD"
+        },
+        {
+          "type": "FEE",
+          "value": 25,
+          "currencyId": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
+          "attachment": null,
+          "description": "+ Thị thực có giá trị một lần: 25USD/thị thực điện tử.",
+          "currencyName": "USD"
+        }
+      ]
+    }
+  ],
+  "description": "+ Cơ quan, tổ chức tại Việt Nam có tài khoản điện tử theo quy định tại khoản 2 Điều 16b của Văn bản hợp nhất số 27/VBHN-VPQH hợp nhất Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam do văn phòng Quốc hội ban hành ngày 16/12/2019 và có chữ ký điện tử theo quy định của Luật giao dịch điện tử.\n+ Người nước ngoài có hộ chiếu và không thuộc trường hợp chưa cho nhập cảnh quy định tại Điều 21 của Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam.\n+ Người nước ngoài là công dân các nước, vùng lãnh thổ thuộc danh sách được cấp thị thực điện tử theo Nghị quyết của Chính phủ.",
+  "name": "Cấp thị thực điện tử theo đề nghị của cơ quan, tổ chức",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7168-7766-84d9-33efc35d1e1b",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Ảnh trang nhân thân hộ chiếu được tải lên Trang thông tin cấp thị thực điện tử theo quy định.",
+          "code": "000.00.00.G01-KQ002509",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7168-7766-84d9-2c08e835599d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Ảnh mới chụp của người đề nghị cấp thị thực điện tử, kích cỡ ảnh 4 x 6cm, định dạng jpeg, kích thước ≤ 2 MB, mặt nhìn thẳng, không đội mũ, không đeo kính, trang phục lịch sự, phông ảnh nền trắng;",
+          "code": "000.00.00.G01-KQ002508",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7168-7766-84d9-2a93d4db97b9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Thông tin đề nghị cấp thị thực điện tử (trên Trang thông tin cấp thị thực điện tử hoặc Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an) theo mẫu NA1a ban hành kèm theo Thông tư số 22/2023/TT-BCA ngày 30/6/2023 của Bộ Công an.",
+          "code": "000.00.00.G01-KQ002507",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b0-c819e290d773"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7b-7049-8fc6-695a4235465b",
+    "019d2bb3-5d84-71c5-b674-b1d4ccab82e5",
+    "019d2bb3-5d86-7760-a645-08dd5ede9baf",
+    "019da523-7834-71ed-9461-2ac0a510544b",
+    "019f17d3-85a4-76ae-b8f8-f0abaf877424",
+    "019ff547-6a69-7038-a010-d5ec1e9fd252",
+    "019ff54a-a8f3-7479-8dc1-7e9daf1a91d9"
+  ],
+  "resultIds": [
+    "019d2bb2-1c37-76e8-b48c-807a4ae6f057"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d05-79c4703b2341"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b0-c819e290d773",
+      "name": "Quản lý xuất nhập cảnh",
+      "code": "G01-CA11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b0-c819e290d773",
+    "name": "Quản lý xuất nhập cảnh",
+    "code": "G01-CA11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d05-79c4703b2341",
+      "name": "Cục quản lý xuất nhập cảnh",
+      "code": "G01s.108.000"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7b-7049-8fc6-695a4235465b",
+      "name": "Thông tư số 22/2023/TT-BCA",
+      "code": "22/2023/TT-BCA"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b674-b1d4ccab82e5",
+      "name": "Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam",
+      "code": "Luật 47/2014/QH13"
+    },
+    {
+      "id": "019da523-7834-71ed-9461-2ac0a510544b",
+      "name": "sửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia",
+      "code": "367/2025/NĐ-CP"
+    },
+    {
+      "id": "019ff547-6a69-7038-a010-d5ec1e9fd252",
+      "name": "Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "Nghị định 118/2025/NĐ-CP "
+    },
+    {
+      "id": "019ff54a-a8f3-7479-8dc1-7e9daf1a91d9",
+      "name": "Thông tư số 70/2026/TT-BCA ngày 25/05/2026 của Bộ Công an Sửa đổi, bổ sung một số điều của Thông tư số 04/2015/TT-BCA ngày 05 tháng 01 năm 2015 của Bộ trưởng Bộ Công an quy định mẫu giấy tờ liên quan đến việc nhập cảnh, xuất cảnh, cư trú của người nước ngoài tại Việt Nam (được sửa đổi, bổ sung một số điều tại Thông tư số 57/2020/TT-BCA ngày 10 tháng 6 năm 2020 và Thông tư số 22/2023/TT-BCA ngày 30 tháng 6 năm 2023) và Thông tư số 31/2015/TT-BCA ngày 06 tháng 7 năm 2015 của Bộ trưởng Bộ Công an hướng dẫn một số nội dung về cấp thị thực, cấp thẻ tạm trú, cấp giấy phép xuất nhập cảnh, giải quyết thường trú cho người nước ngoài tại Việt Nam (được sửa đổi, bổ sung một số điều tại Thông tư số 65/2022/TT-BCA ngày 30 tháng 12 năm 2022 và Thông tư số 06/2025/TT-BCA ngày 16  tháng 01 năm 2025).",
+      "code": "Thông tư số 70/2026/TT-BCA"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a645-08dd5ede9baf",
+      "name": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023",
+      "code": "23/2023/QH15"
+    },
+    {
+      "id": "019f17d3-85a4-76ae-b8f8-f0abaf877424",
+      "name": "Thông tư số 28/2026/TT-BTC ngày 27/3/2026  của Bộ Tài chính quy định mức thu, chế độ thu, nộp phí, lệ phí trong lĩnh vực xuất cảnh, nhập cảnh, quá cảnh, cư trú tại Việt Nam",
+      "code": "28/2026/TT-BTC "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c37-76e8-b48c-807a4ae6f057",
+      "name": "Thị thực điện tử",
+      "code": "KQ.G01.000071"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [
+    {
+      "id": "019d2c9e-1137-7290-b95c-cb3849671d15",
+      "name": "Cấp thị thực điện tử theo đề nghị của cơ quan, tổ chức",
+      "code": "1.002756.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019ff58d-5b17-7342-a785-4a0514d93580",
+      "name": "Cấp thị thực điện tử theo đề nghị của cơ quan, tổ chức",
+      "code": "1.002756.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559127389,
+  "updatedAt": 1786531107476,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục quản lý xuất nhập cảnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "https://www.xuatnhapcanh.gov.vn, https://www.immigration.gov.vn",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "+ Cơ quan, tổ chức tại Việt Nam có tài khoản điện tử theo quy định tại khoản 2 Điều 16b của Văn bản hợp nhất số 27/VBHN-VPQH hợp nhất Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam do văn phòng Quốc hội ban hành ngày 16/12/2019 và có chữ ký điện tử theo quy định của Luật giao dịch điện tử.\n+ Người nước ngoài có hộ chiếu và không thuộc trường hợp chưa cho nhập cảnh quy định tại Điều 21 của Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam.\n+ Người nước ngoài là công dân các nước, vùng lãnh thổ thuộc danh sách được cấp thị thực điện tử theo Nghị quyết của Chính phủ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff536-ec1e-741b-84c7-dbfef84cb759",
+    "proposalNumber": "4946/QĐ-BCA-QLXNC",
+    "decisionDate": 1785862800000,
+    "decisionNumber": null,
+    "publicationDate": 1786531107282,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

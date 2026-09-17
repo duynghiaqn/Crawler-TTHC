@@ -1,0 +1,314 @@
+{
+  "id": "019ff8b3-6bc3-7674-a672-5afc20e2a182",
+  "code": "1.116254",
+  "codeNotation": "1.116254",
+  "executionSteps": [
+    {
+      "name": "Trường hợp thông tin dữ liệu không có trong cơ sở dữ liệu quốc gia về đất đai (02 ngày làm việc)",
+      "description": "B1\t\n1. Tiếp nhận hồ sơ.\nTiếp nhận hồ sơ trực tiếp từ người nộp hồ sơ hoặc từ Dịch vụ bưu chính công ích hoặc qua  Hệ thống thông tin giải quyết TTHC \n2. Cán bộ TN&TKQ kiểm tra hồ sơ:\nKiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả cho người yêu cầu đăng ký.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\nB2\tChuyển hồ sơ về Văn phòng Đăng ký đất đai giải quyết.\nB3\tVăn phòng Đăng ký đất đai thực hiện:\n- Trường hợp không đủ điều kiện: Văn bản Thông báo hồ sơ không đủ điều kiện giải quyết để trả theo quy định.\n\n\t- Trường hợp đủ điều kiện:\n+  Xác nhận xóa cho thuê, cho thuê lại vào Giấy chứng nhận đã cấp của chủ đầu tư dự án.\n+  Thu hồi Giấy chứng nhận đã cấp của bên thuê, bên thuê lại đất.\n+  Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai.\nB4\tĐóng dấu, phát hành văn bản và chuyển kết quả cho nơi tiếp nhận hồ sơ để trả cho tổ chức, cá nhân.\nB5\tTrả kết quả giải quyết TTHC và thu phí, lệ phí theo quy định."
+    },
+    {
+      "name": "Trường hợp thông tin dữ liệu có trong cơ sở dữ liệu quốc gia về đất đai (01 ngày làm việc)",
+      "description": "B1\t\n1. Tiếp nhận hồ sơ.\nTiếp nhận hồ sơ trực tiếp từ người nộp hồ sơ hoặc từ Dịch vụ bưu chính công ích hoặc qua  Hệ thống thông tin giải quyết TTHC  \n2. Cán bộ TN&TKQ kiểm tra hồ sơ:\nKiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả cho người yêu cầu đăng ký.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\nB2\tChuyển hồ sơ về Văn phòng Đăng ký đất đai giải quyết.\nB3\tVăn phòng đăng ký đất đai thực hiện:\n- Trường hợp không đủ điều kiện: Văn bản Thông báo hồ sơ không đủ điều kiện giải quyết để trả theo quy định.\n\n\t- Trường hợp đủ điều kiện:\n+  Xác nhận xóa cho thuê, cho thuê lại vào Giấy chứng nhận đã cấp của chủ đầu tư dự án.\n+  Thu hồi Giấy chứng nhận đã cấp của bên thuê, bên thuê lại đất.\n+  Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai.\nB4\tĐóng dấu, phát hành văn bản và chuyển kết quả cho nơi tiếp nhận hồ sơ để trả cho tổ chức, cá nhân.\nB5\tTrả kết quả giải quyết TTHC và thu phí, lệ phí theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với trường hợp thông tin dữ liệu không có trong cơ sở dữ liệu quốc gia về đất đai.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với trường hợp thông tin dữ liệu không có trong cơ sở dữ liệu quốc gia về đất đai.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với trường hợp thông tin dữ liệu không có trong cơ sở dữ liệu quốc gia về đất đai.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với trường hợp thông tin dữ liệu có trong cơ sở dữ liệu quốc gia về đất đai.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với trường hợp thông tin dữ liệu có trong cơ sở dữ liệu quốc gia về đất đai.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với trường hợp thông tin dữ liệu có trong cơ sở dữ liệu quốc gia về đất đai.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Xóa đăng ký thuê, cho thuê lại quyền sử dụng đất trong dự án xây dựng kinh doanh kết cấu hạ tầng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019ff397-522b-74eb-b537-f0ca95f76724",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số BM.VPĐĐ.02.01.",
+          "code": "QT.VPĐĐ.02.01",
+          "attachments": [
+            {
+              "id": "019ff8b1-c703-770d-bc32-8ff9ab8c13b3",
+              "fileName": "Mẫu số 04.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019ff8b1-c703-770d-bc32-8ff9ab8c13b3/Mẫu số 04.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff397-c68d-737d-acb9-7f43c875f94c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp.",
+          "code": "QT.VPĐĐ.02.02",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff398-2351-76f9-aa76-10bb710c567c",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc xóa cho thuê, xóa cho thuê lại quyền sử dụng đất.",
+          "code": "QT.VPĐĐ.02.03",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff398-7608-7780-940d-ce958876d2ba",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục thông qua người đại diện.",
+          "code": "QT.VPĐĐ.02.04",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "Lưu ý khi nộp hồ sơ:\n     Khi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\n     Trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì nộp bản gốc Giấy chứng nhận đã cấp.\n     Trường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019fefd3-98ec-76e1-92d3-fda38413e12c"
+  ],
+  "resultIds": [
+    "019fdf8f-5c71-72eb-90b7-40f4b2432e0e"
+  ],
+  "subjectTypeIds": [
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a87-7317-8558-590296213c7f"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a87-7317-8558-590296213c7f"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a87-7317-8558-590296213c7f",
+      "name": "Văn phòng Đăng ký đất đai - Tỉnh Hà Tĩnh",
+      "code": "H27.05.06"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a87-7317-8558-590296213c7f",
+      "name": "Văn phòng Đăng ký đất đai - Tỉnh Hà Tĩnh",
+      "code": "H27.05.06"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019fefd3-98ec-76e1-92d3-fda38413e12c",
+      "name": "ban hành quy định trình tự, TTHC về đất đai thuộc thẩm quyền của Văn phòng Đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai trên địa bàn tỉnh Hà Tĩnh",
+      "code": "42/2026/QĐ-UBND"
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fdf8f-5c71-72eb-90b7-40f4b2432e0e",
+      "name": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.",
+      "code": "KQ.H26.105.2026.1"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+  "departmentPromulgateCode": "H27",
+  "departmentPromulgateName": "UBND tỉnh Hà Tĩnh",
+  "cases": [
+    {
+      "id": "019ffe03-f18b-70ae-8902-41a1cbc72a5f",
+      "name": "Xóa đăng ký thuê, cho thuê lại quyền sử dụng đất trong dự án xây dựng kinh doanh kết cấu hạ tầng",
+      "code": "1.116254.02",
+      "processingDay": {
+        "qty": 2,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019ffa89-0507-724f-9e1d-7cadea41b4e9",
+      "name": "Xóa đăng ký thuê, cho thuê lại quyền sử dụng đất trong dự án xây dựng kinh doanh kết cấu hạ tầng",
+      "code": "1.116254.01",
+      "processingDay": {
+        "qty": 2,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786614104544,
+  "updatedAt": 1786614104544,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng Đăng ký đất đai - Tỉnh Hà Tĩnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Văn phòng Đăng ký đất đai - Tỉnh Hà Tĩnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff575-3143-7055-a433-5e535881b213",
+    "proposalNumber": "1886/QĐ-UBND",
+    "decisionDate": 1784739600000,
+    "decisionNumber": null,
+    "publicationDate": 1786614103337,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+      "name": "UBND tỉnh Hà Tĩnh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "019d2bfc-7433-72e7-93c9-346d84f10e3b",
+  "code": "1.009063",
+  "codeNotation": "1.009063",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Doanh nghiệp yêu cầu người mua hàng xuất trình hộ chiếu. \nKiểm tra thông tin trên hệ thống xử lý dữ liệu điện tử hải quan để bán hàng trong định lượng quy định tại khoản 4 Điều 6 Nghị định số 273/2026/NĐ-CP trong trường hợp bán hàng miễn thuế phục vụ cho nhu cầu sinh hoạt chung của thuyền viên làm việc trên tàu biển chạy tuyến quốc tế trong thời gian tàu neo đậu tại cảng biển Việt Nam để chờ xuất cảnh.\nBước 2: Gửi thông tin bán hàng theo Mẫu số 12 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP đến hệ thống xử lý dữ liệu điện tử hải quan. Trường hợp hệ thống xử lý dữ liệu điện tử hải quan gặp sự cố, trong vòng 24 giờ kể từ khi hệ thống xử lý dữ liệu điện tử hải quan được khắc phục, doanh nghiệp thực hiện gửi thông tin đến hệ thống xử lý dữ liệu điện tử hải quan. \n- Trường hợp bán hàng miễn thuế trực tuyến: Gửi thông tin bán hàng theo Mẫu số 12 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP đến hệ thống xử lý dữ liệu điện tử hải quan ngay sau khi chấp nhận đơn hàng và hoàn tất thủ tục thanh toán. Trường hợp hệ thống xử lý dữ liệu điện tử hải quan gặp sự cố, trong vòng 24 giờ kể từ khi hệ thống xử lý dữ liệu điện tử hải quan được khắc phục, doanh nghiệp thực hiện gửi thông tin đến hệ thống xử lý dữ liệu điện tử hải quan. Khi giao hàng cho khách mua hàng, doanh nghiệp kiểm tra đối chiếu thông tin mà khách đã kê khai khi mua hàng trực tuyến với thông tin trên các giấy tờ liên quan đến khách mua hàng theo quy định đối với từng đối tượng.\nBước 3: Thực hiện xuất hóa đơn bán hàng theo quy định.\nTrường hợp bán hàng miễn thuế phục vụ cho nhu cầu sinh hoạt chung của thuyền viên làm việc trên tàu biển chạy tuyến quốc tế trong thời gian tàu neo đậu tại cảng biển Việt Nam để chờ xuất cảnh: Thực hiện xuất hóa đơn bán hàng (bao gồm cả hàng tặng kèm sản phẩm, nếu có), trên hóa đơn đầy đủ các thông tin họ tên, số hộ chiếu, quốc tịch của thuyền trưởng/người đại diện tàu, số hiệu tàu, ngày tàu nhập cảnh. Lưu hóa đơn bán hàng theo quy định hiện hành về hóa đơn.\nBước 4: Trường hợp mua hàng miễn thuế phục vụ nhu cầu của thuyền viên làm việc trên tàu biển chạy tuyến quốc tế phục vụ cho hành trình tiếp theo ngoài lãnh hải Việt Nam: Doanh nghiệp thực hiện vận chuyển hàng hóa vào kho của tàu. Lưu hóa đơn bán hàng có chữ ký của người mua hàng hoặc thuyền trưởng hoặc người đại diện tàu và xác nhận của công chức hải quan nơi thực hiện thủ tục xuất cảnh tàu, đơn đặt hàng và danh sách thuyền viên.\nBước 5: Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế giám sát hàng hóa từ cửa hàng miễn thuế đến khi hàng hóa chịu sự giám sát của cơ quan hải quan nơi tàu xuất cảnh.\nBước 6: Hải quan nơi thực hiện thủ tục xuất cảnh tàu thực hiện niêm phong kho của tàu chứa hàng miễn thuế, xác nhận hàng qua khu vực giám sát (ký tên, đóng dấu công chức hải quan trên hóa đơn bán hàng) và giám sát cho đến khi tàu xuất cảnh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Ngay khi doanh nghiệp gửi thông tin lên hệ thống xử lý dữ liệu điện tử hải quan.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Ngay khi doanh nghiệp gửi thông tin lên hệ thống xử lý dữ liệu điện tử hải quan.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục bán hàng miễn thuế cho đối tượng mua là thuyền viên làm việc trên tàu biển chạy tuyến quốc tế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fd011-edb8-744f-9c54-a766c83a28eb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Chỉ tiêu thông tin tại Mẫu số 12 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP (đối với trường hợp nộp trực tuyến).",
+          "code": "000.00.00.G12-KQ12589",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fc558-dd5c-7395-9a78-efc7e38e5c9f"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96e1-36b8791f252d"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019fca8e-5226-715a-a636-481e53b9f6f9"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+      "name": "Hải quan",
+      "code": "G12-TC04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+    "name": "Hải quan",
+    "code": "G12-TC04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019fca8e-5226-715a-a636-481e53b9f6f9",
+      "name": "Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế.",
+      "code": "000.00.34.G12.15"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fc558-dd5c-7395-9a78-efc7e38e5c9f",
+      "name": "Về kinh doanh hàng miễn thuế",
+      "code": "273/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96e1-36b8791f252d",
+      "name": "phản hồi từ hệ thống xử lý dữ liệu điện tử hải quan và xác nhận của cơ quan hải quan trên hệ thống xử lý dữ liệu điện tử hải quan về số liệu báo cáo.",
+      "code": "KQ.G12.000417"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1774559458355,
+  "updatedAt": 1785982947069,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế.",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb763-4d3e-756b-8273-43cfe32d9020",
+    "proposalNumber": "2017",
+    "decisionDate": 1785171600000,
+    "decisionNumber": null,
+    "publicationDate": 1785982946082,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

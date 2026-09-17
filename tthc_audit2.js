@@ -4,7 +4,13 @@ const readline = require('readline');
 require('dotenv').config();
 
 const https = require('https');
-const httpsAgent = new https.Agent({ keepAlive: true, rejectUnauthorized: false });
+// Giới hạn maxSockets = 5 để khớp đúng giới hạn socket đồng thời của WAF DVCQG
+const httpsAgent = new https.Agent({ 
+    keepAlive: true, 
+    maxSockets: 5, 
+    maxFreeSockets: 5, 
+    rejectUnauthorized: false 
+});
 
 const USER_AGENT_PROFILES = [
     {
@@ -21,22 +27,12 @@ const USER_AGENT_PROFILES = [
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
         "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
         "sec-ch-ua-platform": '"macOS"'
-    },
-    {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
-        "sec-ch-ua": '"Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-        "sec-ch-ua-platform": '"Windows"'
-    },
-    {
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-        "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-        "sec-ch-ua-platform": '"Linux"'
     }
 ];
 
 function getRandomHeaders() {
     const profile = USER_AGENT_PROFILES[Math.floor(Math.random() * USER_AGENT_PROFILES.length)];
-    const reqHeaders = {
+    return {
         "accept": "application/json, text/plain, */*",
         "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
         "content-type": "application/json",
@@ -45,14 +41,11 @@ function getRandomHeaders() {
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "user-agent": profile["user-agent"]
+        "user-agent": profile["user-agent"],
+        "sec-ch-ua": profile["sec-ch-ua"],
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": profile["sec-ch-ua-platform"]
     };
-    if (profile["sec-ch-ua"]) {
-        reqHeaders["sec-ch-ua"] = profile["sec-ch-ua"];
-        reqHeaders["sec-ch-ua-mobile"] = "?0";
-        reqHeaders["sec-ch-ua-platform"] = profile["sec-ch-ua-platform"];
-    }
-    return reqHeaders;
 }
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -61,12 +54,12 @@ const fetchWithRetry = async (url, payload, customHeaders = null, maxRetries = 5
     for (let i = 0; i <= maxRetries; i++) {
         try {
             const reqHeaders = customHeaders || getRandomHeaders();
-            const res = await axios.post(url, payload, { headers: reqHeaders, httpsAgent, timeout: 45000 });
+            const res = await axios.post(url, payload, { headers: reqHeaders, httpsAgent, timeout: 15000 });
             return res.data;
         } catch (err) {
             if (i < maxRetries) {
-                const jitter = Math.floor(Math.random() * 1000);
-                const waitTime = Math.pow(2, i) * 1000 + jitter;
+                const jitter = Math.floor(Math.random() * 500);
+                const waitTime = Math.pow(2, i) * 800 + jitter;
                 if (i >= 1) {
                     console.log(`   ⚠️ Thử lại (${err.message}) - lần ${i + 1}/${maxRetries} sau ${Math.round(waitTime)}ms...`);
                 }
@@ -132,7 +125,7 @@ async function main() {
 
     if (rawList.length > 0) {
         console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục.`);
-        const chunkSize = 10;
+        const chunkSize = 5;
 
         let indexData = [];
 
@@ -166,7 +159,7 @@ async function main() {
             if ((i + chunkSize) % 100 === 0 || i + chunkSize >= rawList.length) {
                 console.log(`   Tải chi tiết & Lưu file: ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}`);
             }
-            await delay(200);
+            await delay(100);
         }
 
         // Xuất file cấu trúc Index

@@ -2,48 +2,36 @@ name: Auto Crawl DVCQG Data
 
 on:
   schedule:
-    - cron: '0 17 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    # Chạy tự động vào 0h đêm (giờ Việt Nam) tức 17:00 giờ UTC mỗi ngày
+    - cron: '0 17 * * *' 
+  workflow_dispatch: # Cho phép anh bấm nút chạy thủ công bất cứ lúc nào
 
 jobs:
   crawl-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
-
+    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Bước 1 - Kéo mã nguồn về máy ảo
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Bước 2 - Cài đặt môi trường Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '24'
-          cache: npm
+          node-version: '18'
 
-      - name: Install Chromium
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium
-          echo "PUPPETEER_EXECUTABLE_PATH=$(command -v chromium)" >> "$GITHUB_ENV"
-          chromium --version
+      - name: Bước 3 - Cài đặt thư viện
+        run: npm install axios dotenv
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run crawler
+      - name: Bước 4 - Chạy cỗ máy cào dữ liệu
         run: node tthc_audit2.js
         env:
-          GITHUB_ACTIONS: 'true'
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
+          GITHUB_ACTIONS: true # Kích hoạt cờ tự động quét 100% trong code JS
 
-      - name: Deploy to CDN (data branch)
+      - name: Bước 5 - Đẩy dữ liệu ra CDN (ÉP ĐỀ KHÔNG LƯU LỊCH SỬ)
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./data
-          publish_branch: data
-          force_orphan: true
-          commit_message: "🚀 Cập nhật Master Data TTHC tự động"
+          publish_branch: data # Xuất ra một nhánh riêng tên là "data"
+          force_orphan: true   # ĐÂY LÀ TÍNH NĂNG XÓA SỔ LỊCH SỬ CŨ, NGĂN PHÌNH REPO!
+          commit_message: "🚀 Cập nhật Master Data tự động"

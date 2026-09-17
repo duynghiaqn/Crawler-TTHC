@@ -1,7 +1,7 @@
 {
   "name": "crawler-tthc-backend",
   "version": "2.0.0",
-  "description": "Crawler TTHC from dichvucong.gov.vn",
+  "description": "Crawler TTHC DVCQG",
   "main": "pipeline/index.js",
   "scripts": {
     "build-data": "node pipeline/index.js",
@@ -9,9 +9,6 @@
   },
   "dependencies": {
     "axios": "^1.6.0",
-    "dotenv": "^16.4.5",
-    "puppeteer": "^23.0.0",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "dotenv": "^16.4.5"
   }
 }

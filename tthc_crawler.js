@@ -13,8 +13,10 @@ const CONFIG = {
     CHECKPOINT_FILE: path.join(process.cwd(), 'data', 'checkpoint.json'),
     INDEX_FILE: path.join(process.cwd(), 'data', 'index.json'),
     VERSION_FILE: path.join(process.cwd(), 'data', 'version.json'),
+    DISCOVERY_FILE: path.join(process.cwd(), 'data', 'discovery.json'),
     
-    // Low request rate settings (Sequential with Jitter)
+    // Low request rate settings (Conservative concurrency = 3 with Jitter)
+    MAX_CONCURRENCY: 3,
     BASE_DELAY_MS: 300,
     JITTER_MS: 200,
     
@@ -43,10 +45,25 @@ const CONFIG = {
 // Standard HTTPS Agent with maximum 3 connection sockets
 const httpsAgent = new https.Agent({
     keepAlive: true,
-    maxSockets: 3,
-    maxFreeSockets: 3,
+    maxSockets: CONFIG.MAX_CONCURRENCY,
+    maxFreeSockets: CONFIG.MAX_CONCURRENCY,
     rejectUnauthorized: false
 });
+
+// Atomic write utility to prevent partial/corrupted JSON writes on unexpected termination
+function safeWriteJson(filePath, data) {
+    const tmpPath = `${filePath}.${Date.now()}.tmp`;
+    try {
+        fs.writeFileSync(tmpPath, JSON.stringify(data, null, 2));
+        fs.renameSync(tmpPath, filePath);
+    } catch (err) {
+        if (fs.existsSync(tmpPath)) {
+            try { fs.unlinkSync(tmpPath); } catch (e) {}
+        }
+        // Fallback to direct write if rename fails
+        fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    }
+}
 
 // Helper for polite delay with random jitter
 const politeDelay = async () => {
@@ -79,7 +96,7 @@ function loadCheckpoint() {
 
 function saveCheckpoint(checkpoint) {
     checkpoint.lastUpdated = new Date().toISOString();
-    fs.writeFileSync(CONFIG.CHECKPOINT_FILE, JSON.stringify(checkpoint, null, 2));
+    safeWriteJson(CONFIG.CHECKPOINT_FILE, checkpoint);
 }
 
 // ============================================================
@@ -111,7 +128,7 @@ function parseFormalityCaseLevel(detail) {
 }
 
 // ============================================================
-// RESILIENT SEQUENTIAL FETCH ENGINE WITH VERIFICATION & CIRCUIT BREAKER
+// RESILIENT FETCH ENGINE WITH VERIFICATION & CIRCUIT BREAKER
 // ============================================================
 async function fetchVerifiedRequest(url, payload, checkpoint) {
     for (let retry = 0; retry <= CONFIG.MAX_RETRIES; retry++) {
@@ -167,7 +184,7 @@ async function fetchVerifiedRequest(url, payload, checkpoint) {
 // MAIN PIPELINE
 // ============================================================
 async function main() {
-    console.log('\n=== CÔNG CỤ CÀO TTHC DVCQG (CHUẨN TẦM DOANH NGHIỆP - SEQUENTIAL & CHECKPOINT) ===\n');
+    console.log('\n=== CÔNG CỤ CÀO TTHC DVCQG (CHUẨN TẦM DOANH NGHIỆP - STABLE & SAFE) ===\n');
 
     // 1. Khởi tạo thư mục
     if (!fs.existsSync(CONFIG.DATA_DIR)) fs.mkdirSync(CONFIG.DATA_DIR, { recursive: true });
@@ -195,14 +212,25 @@ async function main() {
         }
     }
 
-    // 4. Thu thập danh mục TTHC Toàn quốc (Discovery Caching & Discovery Execution)
-    const DISCOVERY_FILE = path.join(CONFIG.DATA_DIR, 'discovery.json');
+    // Đăng ký Handler ngắt đột ngột (SIGINT, SIGTERM) để lưu trạng thái an toàn
+    const handleShutdown = () => {
+        console.warn('\n⚠️ Nhận tín hiệu dừng tiến trình. Đang lưu Checkpoint & Index an toàn...');
+        try {
+            safeWriteJson(CONFIG.INDEX_FILE, indexData);
+            saveCheckpoint(checkpoint);
+            console.log('✅ Đã lưu tiến độ thành công trước khi thoát.');
+        } catch (e) {}
+        process.exit(0);
+    };
+    process.on('SIGINT', handleShutdown);
+    process.on('SIGTERM', handleShutdown);
+
+    // 4. Thu thập danh mục TTHC Toàn quốc (Discovery Caching & Execution)
     let rawList = [];
 
-    // Kiểm tra cache Discovery nếu còn mới (< 6 tiếng)
-    if (fs.existsSync(DISCOVERY_FILE)) {
+    if (fs.existsSync(CONFIG.DISCOVERY_FILE)) {
         try {
-            const cacheData = JSON.parse(fs.readFileSync(DISCOVERY_FILE, 'utf8'));
+            const cacheData = JSON.parse(fs.readFileSync(CONFIG.DISCOVERY_FILE, 'utf8'));
             const cacheAgeHours = (Date.now() - new Date(cacheData.savedAt).getTime()) / (1000 * 3600);
             if (Array.isArray(cacheData.items) && cacheData.items.length > 0 && cacheAgeHours < 6) {
                 rawList = cacheData.items;
@@ -235,12 +263,12 @@ async function main() {
                 await politeDelay();
             }
 
-            // Ghi Discovery Cache
-            fs.writeFileSync(DISCOVERY_FILE, JSON.stringify({
+            // Ghi Discovery Cache an toàn
+            safeWriteJson(CONFIG.DISCOVERY_FILE, {
                 savedAt: new Date().toISOString(),
                 totalItems: rawList.length,
                 items: rawList
-            }, null, 2));
+            });
 
         } catch (err) {
             if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
@@ -260,7 +288,7 @@ async function main() {
         
         let successCount = Object.keys(checkpoint.completedIds).length;
         let skippedCount = 0;
-        const chunkSize = 3;
+        const chunkSize = CONFIG.MAX_CONCURRENCY;
         const startTime = Date.now();
 
         for (let i = 0; i < rawList.length; i += chunkSize) {
@@ -275,7 +303,7 @@ async function main() {
             });
 
             if (pending.length > 0) {
-                await Promise.all(pending.map(async (item) => {
+                const results = await Promise.all(pending.map(async (item) => {
                     const detailFilePath = path.join(CONFIG.DETAILS_DIR, `${item.id}.json`);
                     try {
                         const res = await fetchVerifiedRequest(
@@ -287,7 +315,6 @@ async function main() {
                         if (res && res.data) {
                             let detail = res.data.data || res.data;
 
-                            // A. Tạo thông tin Index
                             const formalityItem = {
                                 id: item.id,
                                 ma_tthc: item.code,
@@ -298,38 +325,43 @@ async function main() {
                                 co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '')
                             };
 
-                            // Cập nhật indexData (tránh trùng lặp)
-                            const existingIdx = indexData.findIndex(x => x.id === item.id);
-                            if (existingIdx >= 0) {
-                                indexData[existingIdx] = formalityItem;
-                            } else {
-                                indexData.push(formalityItem);
-                            }
-
-                            // B. Lưu RAW JSON Chi tiết (Dọn dẹp base64)
                             const cleanDetail = sanitizeBase64(detail);
-                            fs.writeFileSync(detailFilePath, JSON.stringify(cleanDetail, null, 2));
+                            safeWriteJson(detailFilePath, cleanDetail);
 
-                            // C. CHECKPOINT NGAY LẬP TỨC
-                            checkpoint.completedIds[item.id] = {
-                                code: item.code,
-                                timestamp: new Date().toISOString(),
-                                verified: true
-                            };
-                            delete checkpoint.failedIds[item.id];
-                            successCount++;
-                            saveCheckpoint(checkpoint);
+                            return { success: true, item, formalityItem };
+                        }
+                    } catch (err) {
+                        return { success: false, item, error: err.message };
+                    }
+                    return { success: false, item, error: 'Unknown Error' };
+                }));
+
+                // Cập nhật State & Checkpoint an toàn theo từng đợt Batch (Thread-Safe)
+                for (const res of results) {
+                    if (res.success) {
+                        const existingIdx = indexData.findIndex(x => x.id === res.item.id);
+                        if (existingIdx >= 0) {
+                            indexData[existingIdx] = res.formalityItem;
+                        } else {
+                            indexData.push(res.formalityItem);
                         }
 
-                    } catch (err) {
-                        checkpoint.failedIds[item.id] = {
-                            code: item.code,
+                        checkpoint.completedIds[res.item.id] = {
+                            code: res.item.code,
                             timestamp: new Date().toISOString(),
-                            error: err.message
+                            verified: true
                         };
-                        saveCheckpoint(checkpoint);
+                        delete checkpoint.failedIds[res.item.id];
+                        successCount++;
+                    } else {
+                        checkpoint.failedIds[res.item.id] = {
+                            code: res.item.code,
+                            timestamp: new Date().toISOString(),
+                            error: res.error
+                        };
                     }
-                }));
+                }
+                saveCheckpoint(checkpoint);
             }
 
             if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
@@ -344,12 +376,11 @@ async function main() {
                 console.log(`   [${pct}% | ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}] ✅ Hoàn tất: ${successCount} | ⏩ Bỏ qua: ${skippedCount} | ❌ Lỗi: ${Object.keys(checkpoint.failedIds).length} | ⏱️ ${elapsedMin}m`);
             }
 
-            // Tốc độ thấp có jitter chống nghẽn server
             await politeDelay();
         }
 
         // 6. Ghi xuất bản Index & Version
-        fs.writeFileSync(CONFIG.INDEX_FILE, JSON.stringify(indexData, null, 2));
+        safeWriteJson(CONFIG.INDEX_FILE, indexData);
         const versionInfo = {
             last_updated: new Date().toISOString(),
             total_records: indexData.length,
@@ -357,7 +388,7 @@ async function main() {
             failed_records: Object.keys(checkpoint.failedIds).length,
             circuit_breaker_status: checkpoint.status
         };
-        fs.writeFileSync(CONFIG.VERSION_FILE, JSON.stringify(versionInfo, null, 2));
+        safeWriteJson(CONFIG.VERSION_FILE, versionInfo);
 
         if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
             process.exit(1);

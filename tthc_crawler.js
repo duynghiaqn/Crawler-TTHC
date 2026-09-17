@@ -23,7 +23,9 @@ const CONFIG = {
     // Circuit Breaker settings
     MAX_CONSECUTIVE_FAILURES: 5,
     MAX_RETRIES: 3,
-    TIMEOUT_MS: 12000,
+    TIMEOUT_MS: 15000,
+    DISCOVERY_TIMEOUT_MS: 25000,
+    DISCOVERY_LIMIT: 50,
     
     // Pool of standard Chrome/Edge/Safari/Firefox Headers
     HEADER_PROFILES: [
@@ -161,14 +163,14 @@ function parseFormalityCaseLevel(detail) {
 // ============================================================
 // RESILIENT FETCH ENGINE WITH VERIFICATION & CIRCUIT BREAKER
 // ============================================================
-async function fetchVerifiedRequest(url, payload, checkpoint) {
+async function fetchVerifiedRequest(url, payload, checkpoint, customTimeout = CONFIG.TIMEOUT_MS) {
     for (let retry = 0; retry <= CONFIG.MAX_RETRIES; retry++) {
         try {
             const reqHeaders = getHeadersForAttempt(retry);
             const res = await axios.post(url, payload, {
                 headers: reqHeaders,
                 httpsAgent,
-                timeout: CONFIG.TIMEOUT_MS,
+                timeout: customTimeout,
                 validateStatus: status => status >= 200 && status < 600
             });
 
@@ -275,16 +277,28 @@ async function main() {
 
     if (rawList.length === 0) {
         let lastId = "";
-        console.log(`🚀 Đang đồng bộ danh mục TTHC toàn quốc từ máy chủ (Discovery Engine)...`);
+        let currentLimit = CONFIG.DISCOVERY_LIMIT;
+        console.log(`🚀 Đang đồng bộ danh mục TTHC toàn quốc từ máy chủ (Discovery Engine - Limit: ${currentLimit})...`);
 
         try {
             while (true) {
-                const payload = { limit: 200, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
-                const res = await fetchVerifiedRequest(
-                    'https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen',
-                    payload,
-                    checkpoint
-                );
+                const payload = { limit: currentLimit, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
+                let res;
+                try {
+                    res = await fetchVerifiedRequest(
+                        'https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen',
+                        payload,
+                        checkpoint,
+                        CONFIG.DISCOVERY_TIMEOUT_MS
+                    );
+                } catch (pageErr) {
+                    if (currentLimit > 25) {
+                        currentLimit = 25;
+                        console.warn(`⚠️ Discovery gặp lỗi với limit=${payload.limit}. Tự động giảm limit xuống ${currentLimit} và thử lại...`);
+                        continue;
+                    }
+                    throw pageErr;
+                }
 
                 if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
                 res.data.items.forEach(item => rawList.push(item));
@@ -295,19 +309,42 @@ async function main() {
                 await politeDelay();
             }
 
-            // Ghi Discovery Cache an toàn
-            safeWriteJson(CONFIG.DISCOVERY_FILE, {
-                savedAt: new Date().toISOString(),
-                totalItems: rawList.length,
-                items: rawList
-            });
+            if (rawList.length > 0) {
+                // Ghi Discovery Cache an toàn
+                safeWriteJson(CONFIG.DISCOVERY_FILE, {
+                    savedAt: new Date().toISOString(),
+                    totalItems: rawList.length,
+                    items: rawList
+                });
+            }
 
         } catch (err) {
             if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
-                console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED: ${err.message}`);
-                process.exit(1);
+                console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED TRONG DISCOVERY: ${err.message}`);
             } else {
-                console.error(`⚠️ Lỗi khi lấy danh mục: ${err.message}`);
+                console.error(`⚠️ Lỗi khi lấy danh mục từ máy chủ: ${err.message}`);
+            }
+        }
+
+        // Multitier Fallback: Nếu không lấy được danh mục mới từ mạng, nạp từ Discovery Cache cũ hoặc Index hiện có
+        if (rawList.length === 0) {
+            console.warn(`🔄 Đang kích hoạt Fallback phục hồi danh mục từ Cache / Index dữ liệu...`);
+            if (fs.existsSync(CONFIG.DISCOVERY_FILE)) {
+                try {
+                    const cacheData = JSON.parse(fs.readFileSync(CONFIG.DISCOVERY_FILE, 'utf8'));
+                    if (Array.isArray(cacheData.items) && cacheData.items.length > 0) {
+                        rawList = cacheData.items;
+                        console.log(`⚡ Fallback 1 thành công: Nạp ${rawList.length} TTHC từ Discovery Cache lưu trước đó.`);
+                    }
+                } catch (e) {}
+            }
+            if (rawList.length === 0 && indexData.length > 0) {
+                rawList = indexData.map(item => ({
+                    id: item.id,
+                    code: item.ma_tthc,
+                    name: item.ten_tthc
+                }));
+                console.log(`⚡ Fallback 2 thành công: Nạp ${rawList.length} TTHC từ Index hiện tại trên đĩa.`);
             }
         }
     }

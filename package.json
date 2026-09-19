@@ -4,6 +4,7 @@
   "description": "Crawler TTHC DVCQG",
   "main": "pipeline/index.js",
   "scripts": {
+    "crawl-and-publish": "bash scripts/crawl_and_publish.sh",
     "build-data": "node pipeline/index.js",
     "test:regression": "node tests/regression.js"
   },

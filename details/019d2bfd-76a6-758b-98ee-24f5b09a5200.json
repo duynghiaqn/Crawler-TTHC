@@ -1,0 +1,258 @@
+{
+  "id": "019d2bfd-76a6-758b-98ee-24f5b09a5200",
+  "code": "1.009832",
+  "codeNotation": "1.009832",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Giám đốc Sở Tư pháp tiếp nhận hồ sơ đề nghị cấp lại thẻ giám định viên tư pháp.\nTrong thời hạn 10 ngày làm việc, kể từ ngày tiếp nhận hồ sơ đề nghị cấp lại thẻ giám định viên tư pháp, Giám đốc Sở Tư pháp trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định cấp lại thẻ giám định viên tư pháp.\nTrong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đề nghị cấp lại thẻ giám định viên tư pháp, Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định cấp lại thẻ giám định viên tư pháp; trường hợp từ chối thì phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Cấp lại thẻ giám định viên tư pháp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b9-719f-84fb-1d0ded5b881e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp lại thẻ giám định viên tư pháp",
+          "code": "000.00.00.G15-KQ2809",
+          "attachments": [
+            {
+              "id": "01a067d2-61c4-712f-b453-6a5236f6b9c6",
+              "fileName": "Mẫu TP04_đơn đn cấp lại thẻ.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a067d2-61c4-712f-b453-6a5236f6b9c6/Mẫu TP04_đơn đn cấp lại thẻ.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b9-719f-84fb-1b627059ce81",
+          "originalQty": 2,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "ảnh màu chân dung cỡ 2cm x 3cm (chụp trong thời gian 6 tháng gần nhất) của người đề nghị cấp lại thẻ giám định viên tư pháp.",
+          "code": "000.00.00.G15-KQ2808",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b9-719f-84fb-145a2bd6d170",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Thẻ giám định viên tư pháp đang sử dụng trong trường hợp có sự thay đổi thông tin đã được ghi trên thẻ; thẻ giám định viên tư pháp trong trường hợp thẻ cũ bị hỏng.",
+          "code": "000.00.00.G15-KQ2807",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0666a-36b1-758a-b184-d986ec52dc4e",
+    "01a0666c-3cd7-74a9-80b5-f2296fc0681c"
+  ],
+  "resultIds": [
+    "019d2bb2-1c78-7725-a750-695e4329d3ac"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3",
+      "name": "Giám định tư pháp",
+      "code": "G15-TP06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3",
+    "name": "Giám định tư pháp",
+    "code": "G15-TP06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0666a-36b1-758a-b184-d986ec52dc4e",
+      "name": "Luật Giám định tư pháp năm 2025",
+      "code": "105/2025/QH15"
+    },
+    {
+      "id": "01a0666c-3cd7-74a9-80b5-f2296fc0681c",
+      "name": "Nghị định số 177/2026/NĐ-CP ngày 19/5/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Giám định tư pháp",
+      "code": "177/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c78-7725-a750-695e4329d3ac",
+      "name": "Thẻ giám định viên tư pháp",
+      "code": "KQ.G15.000097"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d603f1537007",
+  "departmentPromulgateCode": "G15",
+  "departmentPromulgateName": "Bộ Tư pháp",
+  "cases": [
+    {
+      "id": "01a06804-f644-77c8-8ec0-b31ea1204a02",
+      "name": "Cấp lại thẻ giám định viên tư pháp",
+      "code": "1.009832.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2cb1-4620-77a8-824f-bf8f72df2110",
+      "name": "Cấp lại thẻ giám định viên tư pháp cấp tỉnh",
+      "code": "1.009832.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559524518,
+  "updatedAt": 1788451549301,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Hồ sơ được nộp trực tiếp hoặc qua dịch vụ bưu chính đến cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh, thành phố quản lý lĩnh vực giám định tư pháp hoặc Trung tâm phục vụ hành chính công tỉnh, thành phố nơi thường trú hoặc trực tuyến trên môi trường điện tử",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0662c-75a1-743b-8fe0-435be75b70a0",
+    "proposalNumber": "1998/QĐ-BTP",
+    "decisionDate": 1788368400000,
+    "decisionNumber": null,
+    "publicationDate": 1788451549153,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

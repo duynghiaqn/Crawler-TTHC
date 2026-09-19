@@ -1,0 +1,461 @@
+{
+  "id": "019d2bfb-ef06-742e-805c-1821811ba3e1",
+  "code": "1.007040",
+  "codeNotation": "1.007040",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Người nộp thuế chuẩn bị số liệu, lập hồ sơ và gửi đến cơ quan thuế quản lý trực tiếp người nộp thuế chậm nhất là ngày thứ 20 của tháng tiếp theo tháng phát sinh nghĩa vụ thuế.\nTrường hợp người nộp thuế có hoạt động kinh doanh xuất khẩu chưa nộp thuế tiêu thụ đặc biệt ở khâu sản xuất sau đó không xuất khẩu mà bán trong nước và trường hợp cơ sở kinh doanh mua xe ô tô, tàu bay, du thuyền sản xuất trong nước thuộc đối tượng không chịu thuế tiêu thụ đặc biệt nhưng sau đó chuyển mục đích sử dụng sang đối tượng chịu thuế tiêu thụ đặc biệt thì thực hiện khai thuế tiêu thụ đặc biệt theo từng lần phát sinh và gửi đến cơ quan thuế quản lý trực tiếp người nộp thuế chậm nhất 10 ngày kể từ ngày tiếp theo ngày phát sinh.\nTrường hợp NNT có số thuế TTĐB đề nghị hoàn thuế trên tờ khai thuế thì NNT thực hiện kê khai thông tin vào Phụ lục tờ khai đề nghị hoàn thuế tại Tờ khai mẫu số 01/TTĐB.\n++ Trường hợp NNT nộp hồ sơ qua giao dịch điện tử: NNT truy cập vào Cổng Dịch vụ công Quốc gia/Hệ thống thông tin quản lý thuế để lập hồ sơ điện tử, ký điện tử và gửi đến cơ quan thuế.\n++ Trường hợp NNT nộp hồ sơ trực tiếp/qua bưu chính  theo quy định tại điểm a khoản 5 Điều 8 Thông tư số 89/2026/TT-BTC: NNT lập hồ sơ giấy, ký và gửi đến cơ quan thuế qua Trung tâm Phục vụ hành chính công cấp tỉnh/Trung tâm Phục vụ hành chính công cấp xã hoặc qua đường bưu chính."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan thuế tiếp nhận:\n++ Trường hợp hồ sơ được nộp qua giao dịch điện tử thì việc tiếp nhận và kiểm tra, chấp nhận hồ sơ thực hiện như sau:\n+++ Ghi nhận hồ sơ: Cổng Dịch vụ công Quốc gia/Hệ thống thông tin quản lý thuế gửi thông báo cho NNT về việc tiếp nhận hồ sơ của NNT hoặc thông báo lý do không tiếp nhận hồ sơ của NNT \n+++ Kiểm tra, tiếp nhận hồ sơ: Cơ quan thuế kiểm tra hồ sơ và gửi thông báo cho NNT về việc tiếp nhận hoặc không tiếp nhận hồ sơ của NNT qua Cổng Dịch vụ công Quốc gia/Hệ thống thông tin quản lý thuế chậm nhất 01 ngày làm việc kể từ ngày Hệ thống thông tin điện tử mà người nộp thuế gửi hồ sơ ghi nhận việc thực hiện nộp hồ sơ; riêng đối với  hồ sơ khai thuế đồng thời là hồ sơ hoàn thuế, thời hạn gửi thông báo chậm nhất là 03 ngày làm việc kể từ ngày hệ thống thông tin điện tử mà người nộp thuế gửi hồ sơ ghi nhận việc nộp hồ sơ.\n++ Trường hợp hồ sơ được nộp trực tiếp/qua bưu chính theo quy định tại điểm a khoản 5 Điều 8 Thông tư số 89/2026/TT-BTC: cơ quan thuế thực hiện tiếp nhận, đóng dấu tiếp nhận hồ sơ của NNT (nếu hồ sơ đã đầy đủ, đúng quy định) hoặc hướng dẫn NNT hoàn thiện hồ sơ (nếu hồ sơ không đầy đủ, không đúng quy định)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp khai thuế tiêu thụ đặc biệt đối với sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế TTĐB: Không phải trả kết quả cho người nộp thuế. \n+ Trường hợp NNT có số thuế tiêu thụ đặc biệt đối với xăng sinh học được hoàn thuế, kê khai chỉ tiêu đề nghị hoàn trên Tờ khai mẫu số 01/TTĐB và Phụ lục đề nghị hoàn thuế giá trị gia tăng theo mẫu số 01-4/TTĐB thì Cơ quan thuế giải quyết hồ sơ hoàn thuế ban hành: \n\t++ Đối với hồ sơ thuộc diện hoàn thuế trước chậm nhất là 06 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ hoàn thuế;\n\t++ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp khai thuế tiêu thụ đặc biệt đối với sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế TTĐB: Không phải trả kết quả cho người nộp thuế. \n+ Trường hợp NNT có số thuế tiêu thụ đặc biệt đối với xăng sinh học được hoàn thuế, kê khai chỉ tiêu đề nghị hoàn trên Tờ khai mẫu số 01/TTĐB và Phụ lục đề nghị hoàn thuế giá trị gia tăng theo mẫu số 01-4/TTĐB thì Cơ quan thuế giải quyết hồ sơ hoàn thuế ban hành: \n\t++ Đối với hồ sơ thuộc diện hoàn thuế trước chậm nhất là 06 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ hoàn thuế;\n\t++ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp khai thuế tiêu thụ đặc biệt đối với sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế TTĐB: Không phải trả kết quả cho người nộp thuế. \n+ Trường hợp NNT có số thuế tiêu thụ đặc biệt đối với xăng sinh học được hoàn thuế, kê khai chỉ tiêu đề nghị hoàn trên Tờ khai mẫu số 01/TTĐB và Phụ lục đề nghị hoàn thuế giá trị gia tăng theo mẫu số 01-4/TTĐB thì Cơ quan thuế giải quyết hồ sơ hoàn thuế ban hành: \n\t++ Đối với hồ sơ thuộc diện hoàn thuế trước chậm nhất là 06 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ hoàn thuế;\n\t++ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "name": "Khai thuế tiêu thụ đặc biệt đối với sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế tiêu thụ đặc biệt và hoàn thuế tiêu thụ đặc biệt đối với xăng sinh học",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(i) Trường hợp khai thuế TTĐB đối với sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế TTĐB:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a313-ff36afa83db9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế Tiêu thụ đặc biệt mẫu số 01/TTĐB ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0016061",
+          "attachments": [
+            {
+              "id": "019fa31c-5e54-70cc-b5b4-c5c0884cc4db",
+              "fileName": "1. 01.TTĐB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa31c-5e54-70cc-b5b4-c5c0884cc4db/1. 01.TTĐB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-04527e97ffe4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng phân bổ thuế tiêu thụ đặc biệt theo địa bàn tỉnh, thành phố từ hoạt động kinh doanh sổ xố (nếu có) mẫu số 01-3/TTĐB ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0016063",
+          "attachments": [
+            {
+              "id": "019fa31d-101e-7372-bcc1-61bd06089cd0",
+              "fileName": "3. 01-3-TTĐB.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa31d-101e-7372-bcc1-61bd06089cd0/3. 01-3-TTĐB.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-032db2630a22",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng xác định thuế tiêu thụ đặc biệt được khấu trừ (nếu có) mẫu số 01-2/TTĐB ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0016062",
+          "attachments": [
+            {
+              "id": "019fa31c-b72e-7726-a98a-cccb7c84587f",
+              "fileName": "2. 01-2.TTĐB.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa31c-b72e-7726-a98a-cccb7c84587f/2. 01-2.TTĐB.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa320-3cb4-731f-ae81-f378a99e9f8f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì các tờ khai số 01/TTĐB, số 01-2/TTĐB, 01-3/TTĐB thực hiện theo Mẫu ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025 của Chính phủ",
+          "code": "G12.0016069",
+          "attachments": [
+            {
+              "id": "019fa31f-3bb9-7053-89c7-8bc56fb9a652",
+              "fileName": "01 1 TTĐB TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa31f-3bb9-7053-89c7-8bc56fb9a652/01 1 TTĐB TT 80.docx"
+            },
+            {
+              "id": "019fa320-1c93-7379-ad5f-43e1d2a1e2e8",
+              "fileName": "01-3 TTĐB TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa320-1c93-7379-ad5f-43e1d2a1e2e8/01-3 TTĐB TT 80.docx"
+            },
+            {
+              "id": "019fa320-1dc2-73da-ac8b-06e0763aa944",
+              "fileName": "01-2 TTĐB TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa320-1dc2-73da-ac8b-06e0763aa944/01-2 TTĐB TT 80.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(ii) Trường hợp hoàn thuế tiêu thụ đặc biệt đối với xăng sinh học:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a313-ff36afa83db9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế Tiêu thụ đặc biệt mẫu số 01/TTĐB ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0016061",
+          "attachments": [
+            {
+              "id": "019fa31c-5e54-70cc-b5b4-c5c0884cc4db",
+              "fileName": "1. 01.TTĐB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa31c-5e54-70cc-b5b4-c5c0884cc4db/1. 01.TTĐB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa322-bbf9-719d-ad36-4791400390e7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục thông tin đề nghị hoàn thuế tiêu thụ đặc biệt đối với xăng sinh học theo mẫu 01-4/TTĐB ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0016070",
+          "attachments": [
+            {
+              "id": "019fa322-b553-7098-b3a2-ad26bf4ddb40",
+              "fileName": "4. 01-4.TTĐB.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa322-b553-7098-b3a2-ad26bf4ddb40/4. 01-4.TTĐB.pdf"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa323-b2fb-76bf-80d8-2b6b34f22b89",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ ngày 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC, NNT được áp dụng mẫu tờ khai 01/TTĐB ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025 của Chính phủ",
+          "code": "G12.001671",
+          "attachments": [
+            {
+              "id": "019fa323-a7f3-7768-802f-406564e3d4fd",
+              "fileName": "01 1 TTĐB TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa323-a7f3-7768-802f-406564e3d4fd/01 1 TTĐB TT 80.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa324-9e9f-7055-82c8-011b6801f166",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với hồ sơ khai thuế mà người nộp thuế đã khai chỉ tiêu đề nghị hoàn trên tờ khai thuế của kỳ tính thuế trước ngày 01 tháng 7 năm 2026 nhưng chưa gửi hồ sơ hoàn thuế đến cơ quan thuế thì người nộp thuế gửi mẫu 01a/ĐNHT theo quy định tại Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính và các văn bản sửa đổi, bổ sung cho tất cả các kỳ tính thuế",
+          "code": "G12.006073",
+          "attachments": [
+            {
+              "id": "019fa324-c084-707f-aa7c-b586c16bb327",
+              "fileName": "01a ĐNHT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa324-c084-707f-aa7c-b586c16bb327/01a ĐNHT.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa326-85c7-7256-822b-e8f29df817eb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với hồ sơ khai thuế mà người nộp thuế đã khai chỉ tiêu đề nghị hoàn trên tờ khai thuế của kỳ tính thuế trước ngày 01 tháng 7 năm 2026 nhưng gửi hồ sơ hoàn thuế đến cơ quan thuế sau thời điểm quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì người nộp thuế thực hiện đề nghị hoàn thuế theo mẫu biểu quy định tại điểm b khoản 2 Điều 46 Thông tư số 89/2026/TT-BTC, mẫu đơn, mẫu tờ khai của hồ sơ hoàn thuế gồm",
+          "code": "G12.006074",
+          "attachments": [
+            {
+              "id": "019fa326-8115-757f-9960-140095505d81",
+              "fileName": "4. 01-4.TTĐB.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa326-8115-757f-9960-140095505d81/4. 01-4.TTĐB.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "thuế tiêu thụ đặc biệt",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96e1-59c6a510ec9f",
+    "019d2bb2-1c71-7574-afe8-1af89bd23d1c",
+    "019fa2fb-b816-715f-b0a7-8559667eabb4",
+    "019fa328-0757-726b-936d-17f088ac9c48",
+    "019fa329-7177-760d-ad80-2bef251243b4",
+    "019fa6be-d9ec-771f-b967-a3bae0d4c476"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fa2fb-b816-715f-b0a7-8559667eabb4",
+      "name": "Thông báo một phần số tiền đề nghị hoàn thuế trong hồ sơ hoàn thuế của người nộp thuế thuộc diện kiểm tra trước hoàn thuế (số 05/TB-HT )",
+      "code": "KQ.G12.000567"
+    },
+    {
+      "id": "019fa328-0757-726b-936d-17f088ac9c48",
+      "name": "Thông báo số tiền đề nghị hoàn nhưng không được hoàn thuế, số tiền đề nghị hoàn chưa đủ điều kiện được hoàn thuế (mẫu số 04/TB-HT)",
+      "code": "KQ.G12.001485"
+    },
+    {
+      "id": "019fa329-7177-760d-ad80-2bef251243b4",
+      "name": "Quyết định hoàn thuế kiêm bù trừ thu ngân sách nhà nước (mẫu số 02/QĐ-HT)",
+      "code": "KQ.G12.001558"
+    },
+    {
+      "id": "019fa6be-d9ec-771f-b967-a3bae0d4c476",
+      "name": "Phụ lục số tiền thuế, tiền chậm nộp, tiền phạt phải nộp được bù trừ (Mẫu số 01/PL-BT)",
+      "code": "KQ.G12000603"
+    },
+    {
+      "id": "019d2bb2-1c70-724b-96e1-59c6a510ec9f",
+      "name": "Hồ sơ gửi đến cơ quan thuế không có kết quả giải quyết.",
+      "code": "KQ.G12.000429"
+    },
+    {
+      "id": "019d2bb2-1c71-7574-afe8-1af89bd23d1c",
+      "name": "Thông báo về việc giải trình, bổ sung thông tin, tài liệu (Mẫu 01/TB-BSTT-NNT)",
+      "code": "KQ.G12.000566"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2dc4-9b44-771d-8ee6-716432a116aa",
+      "name": "Khai thuế tiêu thụ đặc biệt đối với sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế TTĐB",
+      "code": "1.007040.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-c969-7764-91c8-7a950db0a11c",
+      "name": "Khai thuế tiêu thụ đặc biệt đối với sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế TTĐB",
+      "code": "1.007040.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d762f-7f58-77cf-a556-685d9164155b",
+      "name": "Khai thuế tiêu thụ đặc biệt đối với sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế TTĐB",
+      "code": "1.007040.02",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559424262,
+  "updatedAt": 1785399197897,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố, Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/Thuế cơ sở/Chi cục Thuế Doanh nghiệp lớn; Chi cục Thuế Thương mại điện tử trực tiếp quản lý NNT.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

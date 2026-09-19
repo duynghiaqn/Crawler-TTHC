@@ -1,0 +1,261 @@
+{
+  "id": "019fb637-60ae-768d-a2b0-1e54f5d02222",
+  "code": "3.000634",
+  "codeNotation": "3.000634",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người có đơn yêu cầu giải quyết tranh chấp đất đai nộp đơn đến Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm hành chính công cấp xã hoặc Ủy ban nhân dân tỉnh.\nTrường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Ủy ban nhân dân tỉnh."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Ủy ban nhân dân tỉnh có trách nhiệm:\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đơn phải thông báo bằng văn bản cho các bên tranh chấp đất đai và Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai về việc thụ lý đơn yêu cầu giải quyết tranh chấp đất đai, trường hợp không thụ lý thì phải thông báo bằng văn bản và nêu rõ lý do.\n- Giao trách nhiệm cho cơ quan tham mưu giải quyết."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Cơ quan tham mưu có nhiệm vụ thẩm tra, xác minh vụ việc, tổ chức hòa giải giữa các bên tranh chấp, tổ chức cuộc họp các ban, ngành có liên quan để tư vấn giải quyết tranh chấp đất đai (nếu cần thiết) và hoàn chỉnh hồ sơ trình Ủy ban nhân dân tỉnh ban hành quyết định giải quyết tranh chấp đất đai."
+    },
+    {
+      "name": "",
+      "description": "Bước 4: Ủy ban nhân dân tỉnh ban hành quyết định giải quyết tranh chấp hoặc quyết định công nhận hòa giải thành và gửi cho các bên tranh chấp, các tổ chức, cá nhân có quyền và nghĩa vụ liên quan."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Giải quyết tranh chấp đất đai thuộc thẩm quyền của Chủ tịch Ủy ban nhân cấp tỉnh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb62e-9194-7449-9de2-788590fdb3b7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn yêu cầu giải quyết tranh chấp đất đai",
+          "code": "Đ007",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fb632-8dc9-700f-8911-3241b2de4067",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019fb0be-c41a-70da-bf34-42632706099f"
+  ],
+  "resultIds": [
+    "019fb631-39fe-7225-9a44-86cf74c05595"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-5b3b-776b-ae3c-c9f6bbc23933"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-5b3b-776b-ae3c-c9f6bbc23933",
+      "name": "Cơ quan, tổ chức, đơn vị có thẩm quyền quản lý hoặc được giao trực tiếp quản lý đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "019fb632-8dc9-700f-8911-3241b2de4067",
+      "name": "Sửa đổi, bổ sung một số điều tại Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15.",
+      "code": "18/01/2024 "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019fb0be-c41a-70da-bf34-42632706099f",
+      "name": "Quyết định số 22/2026/QĐ-UBND ngày 30/3/2026 về việc Quy định phân cấp phân quyền thực hiện một số nhiệm vụ trong lĩnh vực đất đai trên địa bàn tỉnh Điện Biên.",
+      "code": "22/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fb631-39fe-7225-9a44-86cf74c05595",
+      "name": "Quyết định",
+      "code": "KQ11"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a341-16615c474af4",
+  "departmentPromulgateCode": "H18",
+  "departmentPromulgateName": "UBND tỉnh Điện Biên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1785562257280,
+  "updatedAt": 1785562257280,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm hành chính công cấp xã hoặc Ủy ban nhân dân tỉnh",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb595-a11e-760d-90fc-0d4660334ae2",
+    "proposalNumber": "53/QUBND",
+    "decisionDate": 1784048400000,
+    "decisionNumber": null,
+    "publicationDate": 1785562255602,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a341-16615c474af4",
+      "name": "UBND tỉnh Điện Biên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

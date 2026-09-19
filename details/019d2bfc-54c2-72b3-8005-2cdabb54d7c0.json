@@ -1,0 +1,321 @@
+{
+  "id": "019d2bfc-54c2-72b3-8005-2cdabb54d7c0",
+  "code": "1.008342",
+  "codeNotation": "1.008342",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Tổ chức khấu trừ thuế thu nhập cá nhân, khai thay thuế giá trị gia tăng đối với hoạt động đại lý bảo hiểm, xổ số, bán hàng đa cấp, hoạt động môi giới; doanh nghiệp bảo hiểm trả phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác chuẩn bị hồ sơ và gửi đến cơ quan thuế quản lý trực tiếp.\nKhai theo tháng hoặc theo quý cùng với kỳ khai thuế giá trị gia tăng của tổ chức. Thời hạn nộp hồ sơ khai thuế tháng chậm nhất là ngày thứ 20 của tháng tiếp theo tháng phát sinh nghĩa vụ thuế. Thời hạn nộp hồ sơ khai thuế quý chậm nhất là ngày cuối cùng của tháng đầu quý tiếp theo quý phát sinh nghĩa vụ thuế."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan thuế tiếp nhận hồ sơ của người nộp thuế theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "name": "Khai thuế thu nhập cá nhân của tổ chức khấu trừ thuế đối với hoạt động bán đúng giá đại lý bảo hiểm, xổ số, bán hàng đa cấp; hoạt động môi giới; doanh nghiệp bảo hiểm trả phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f37-a6879c99ee4e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế (Áp dụng đối với tổ chức khấu trừ thuế, khai thay, nộp thay thuế đối với hoạt động đại lý bán đúng giá bảo hiểm, xổ số, bán hàng đa cấp, hoạt động môi giới; doanh nghiệp bảo hiểm trả phí tích lũy bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác) mẫu số 01/XSBHDCMG-CNKD Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0012275",
+          "attachments": [
+            {
+              "id": "019fa6ae-a091-76cc-86e5-c9e2250494ee",
+              "fileName": "11. 01.XSBHDCMG-CNKD TT 89.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6ae-a091-76cc-86e5-c9e2250494ee/11. 01.XSBHDCMG-CNKD TT 89.pdf"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30e-2996ccdaf13e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phụ lục Bảng kê chi tiết cá nhân có phát sinh doanh thu (Kèm theo Tờ khai 01/XSBHDCMG-CNKD kê khai vào hồ sơ khai thuế của kỳ tháng/quý cuối cùng trong năm tính thuế) mẫu số 01/BK-XSBHDCMG Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0015691",
+          "attachments": [
+            {
+              "id": "019fa6af-4a54-7699-94af-2e3d6665889e",
+              "fileName": "12. 01.BK-XSBHDCMG.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6af-4a54-7699-94af-2e3d6665889e/12. 01.BK-XSBHDCMG.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa6b0-ae19-746f-ab00-7582aee18495",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì áp dụng theo các mẫu 01/XSBHĐC, 01/BK-XSBHĐC thực hiện theo mẫu biểu ban hành kèm theo Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0015692",
+          "attachments": [
+            {
+              "id": "019fa6b0-a1c4-729b-91a3-d8074dcd7191",
+              "fileName": "01 BK XSBHĐC TT 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6b0-a1c4-729b-91a3-d8074dcd7191/01 BK XSBHĐC TT 18.docx"
+            },
+            {
+              "id": "019fa6b0-a2bd-730b-8b27-cb5cc26369e4",
+              "fileName": "01 XSBHĐC - TT 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6b0-a2bd-730b-8b27-cb5cc26369e4/01 XSBHĐC - TT 18.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "thu nhập cá nhân , khai thuế",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019e72a9-0c2b-749c-8856-31e73c463ba4",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421",
+    "019fa376-69da-7783-9853-6afa7cd86621",
+    "019fa377-0d10-73ea-b3b0-ee84180af5fe"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe7-ecb2733edc3b"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e72a9-0c2b-749c-8856-31e73c463ba4",
+      "name": "Nghị định số 141/2026/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP quy định về chính sách thuế đối với hộ kinh doanh, cá nhân kinh doanh và Nghị định số 320/2025/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp",
+      "code": "141/2026/NĐ-CP"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019fa377-0d10-73ea-b3b0-ee84180af5fe",
+      "name": "Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập cá nhân",
+      "code": "253/2026/NĐ-CP "
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019fa376-69da-7783-9853-6afa7cd86621",
+      "name": "Luật Thuế thu nhập cá nhân 109/2025/QH15 ngày 10/12/2025 và các văn bản pháp luật quy định chi tiết, hướng dẫn thi hành và sửa đổi, bổ sung có liên quan",
+      "code": "109/2025/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe7-ecb2733edc3b",
+      "name": "Hồ sơ gửi đến cơ quan thuế không có kết quả trả từ cơ quan thuế",
+      "code": "KQ.G12.000513"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2d90-d9bb-743a-bd59-a496b3ce7cb2",
+      "name": "Khai thuế thu nhập cá nhân tháng/quý của tổ chức khấu trừ thuế đối với cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, đại lý bảo hiểm, đại lý bán hàng đa cấp, cá nhân có thu nhập từ phí tích luỹ bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác",
+      "code": "1.008342.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-cf7d-71ca-b3aa-99ff8350a60e",
+      "name": "Khai thuế thu nhập cá nhân tháng/quý của tổ chức khấu trừ thuế đối với cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, đại lý bảo hiểm, đại lý bán hàng đa cấp, cá nhân có thu nhập từ phí tích luỹ bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác",
+      "code": "1.008342.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559450306,
+  "updatedAt": 1785399203756,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/Thuế cơ sở/Chi cục Thuế Doanh nghiệp lớn; Chi cục Thuế Thương mại điện tử",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

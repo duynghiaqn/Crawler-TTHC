@@ -1,0 +1,224 @@
+{
+  "id": "019d2bfc-743b-721f-aed2-4bea92d275d8",
+  "code": "1.009070",
+  "codeNotation": "1.009070",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Doanh nghiệp gửi dữ liệu theo Mẫu số 03 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP đến hệ thống xử lý dữ liệu điện tử hải quan trước khi đưa tiền vào, tiền ra khỏi khu cách ly, khu hạn chế.\nBước 2: Doanh nghiệp thực hiện các yêu cầu của cơ quan hải quan qua phản hồi của hệ thống xử lý dữ liệu điện tử hải quan. Xuất trình tiền mặt trong trường hợp cơ quan hải quan yêu cầu.\nBước 3: Khi nhận được thông tin khai báo của doanh nghiệp, công chức hải quan kiểm tra các nội dung khai báo trên hệ thống xử lý dữ liệu điện tử hải quan.\nBước 4: Giám sát tiền mặt đưa vào, ra khu cách ly, khu hạn chế và kiểm tra thực tế tiền mặt đưa vào, đưa ra khu cách ly, khu hạn chế trên cơ sở áp dụng quản lý rủi ro hoặc có dấu hiệu vi phạm pháp luật.\nBước 5: Công chức hải quan thực hiện xác nhận tiền qua khu vực giám sát trên hệ thống xử lý dữ liệu điện tử hải quan đối với tiền mặt đưa vào, đưa ra khu cách ly, khu hạn chế."
+    },
+    {
+      "name": "Trường hợp hệ thống xử lý dữ liệu điện tử gặp sự cố",
+      "description": "Bước 1: Doanh nghiệp có trách nhiệm kê khai trên 02 Bảng kê lượng tiền mang vào/ra khu cách ly, khu hạn chế theo Mẫu số 03/BKTMVR Phụ lục III ban hành kèm theo Nghị định số 273/2026/NĐ-CP cho công chức hải quan kiểm tra, xác nhận. Xuất trình tiền mặt trong trường hợp cơ quan hải quan yêu cầu. Trong thời hạn 24 giờ kể từ khi sự cố của hệ thống xử lý dữ liệu điện tử hải quan được khắc phục, doanh nghiệp gửi các thông tin trên bảng kê đến hệ thống xử lý dữ liệu điện tử hải quan.\nBước 2: Cơ quan hải quan có trách nhiệm giám sát việc đưa tiền mặt vào, ra khỏi khu cách ly, khu hạn chế. Kiểm tra thực tế tiền mặt trên cơ sở áp dụng quản lý rủi ro hoặc có dấu hiệu vi phạm pháp luật. Ngay sau khi hoàn thành việc kiểm tra tiền mặt (đối với trường hợp phải kiểm tra thực tế) hoặc tiền mặt qua khu vực giám sát, cơ quan hải quan thực hiện xác nhận trên 02 Bảng kê lượng tiền mang vào/ra khu cách ly, khu hạn chế doanh nghiệp xuất trình, lưu 01 bản, trả lại doanh nghiệp 01 bản."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Ngay khi doanh nghiệp gửi thông tin lên hệ thống xử lý dữ liệu điện tử hải quan hoặc ngay sau khi doanh nghiệp xuất trình trực tiếp cho cơ quan hải quan trong trường hợp hệ thống xử lý dữ liệu điện tử gặp sự cố.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Ngay khi doanh nghiệp gửi thông tin lên hệ thống xử lý dữ liệu điện tử hải quan hoặc ngay sau khi doanh nghiệp xuất trình trực tiếp cho cơ quan hải quan trong trường hợp hệ thống xử lý dữ liệu điện tử gặp sự cố.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục đối với tiền mặt của doanh nghiệp kinh doanh hàng miễn thuế đưa vào, đưa ra khu cách ly, khu vực hạn chế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-55652ec23a52",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng kê lượng tiền mang vào/ra khu cách ly, khu hạn chế theo Mẫu số 03/BKTMVR Phụ lục III ban hành kèm theo Nghị định số 273/2026/NĐ-CP (đối với trường hợp nộp trực tiếp).",
+          "code": "000.00.00.G12-KQ9861",
+          "attachments": [
+            {
+              "id": "019fd4d3-4578-741b-9101-58749e053663",
+              "fileName": "Mẫu số 03.BKTMVR.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fd4d3-4578-741b-9101-58749e053663/Mẫu số 03.BKTMVR.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fd4d2-5b72-745f-93a4-549c49c8b0f2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Chỉ tiêu thông tin theo Mẫu số 03 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP (đối với trường hợp nộp trực tuyến).",
+          "code": "000.00.00.G12-45689",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fc558-dd5c-7395-9a78-efc7e38e5c9f"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96e1-3cd40d00966d",
+    "019fd4d4-f979-70c5-a721-7babe3b68ef3"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6ada-753f-9ac5-84e1f1329442"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+      "name": "Hải quan",
+      "code": "G12-TC04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+    "name": "Hải quan",
+    "code": "G12-TC04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6ada-753f-9ac5-84e1f1329442",
+      "name": "Hải quan cửa khẩu",
+      "code": "BGT-HQCK"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fc558-dd5c-7395-9a78-efc7e38e5c9f",
+      "name": "Về kinh doanh hàng miễn thuế",
+      "code": "273/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96e1-3cd40d00966d",
+      "name": "Xác nhận của cơ quan hải quan trên hệ thống xử lý dữ liệu điện tử đối với tiền mặt đưa vào, đưa ra khu cách ly, khu hạn chế",
+      "code": "KQ.G12.000419"
+    },
+    {
+      "id": "019fd4d4-f979-70c5-a721-7babe3b68ef3",
+      "name": "Xác nhận trên 02 Bảng kê lượng tiền mang vào/ra khu cách ly, khu hạn chế do doanh nghiệp xuất trình.",
+      "code": "KQ.G12.001256"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1774559458363,
+  "updatedAt": 1785982947220,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Hải quan cửa khẩu",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb763-4d3e-756b-8273-43cfe32d9020",
+    "proposalNumber": "2017",
+    "decisionDate": 1785171600000,
+    "decisionNumber": null,
+    "publicationDate": 1785982946082,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

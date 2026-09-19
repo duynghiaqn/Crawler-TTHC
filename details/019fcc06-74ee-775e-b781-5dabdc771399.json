@@ -1,0 +1,295 @@
+{
+  "id": "019fcc06-74ee-775e-b781-5dabdc771399",
+  "code": "1.116159",
+  "codeNotation": "1.116159",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "B1\t1. Người đề nghị nộp hồ sơ nộp hồ sơ tại Trung tâm phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc qua Hệ thống thông tin giải quyết TTHC. Trường hợp có biên bản họp giữa UBND cấp xã với người sử dụng đất về việc tặng cho quyền sử dụng đất thì người sử dụng đất không phải nộp hồ sơ.\n2. Cán bộ TN&TKQ kiểm tra hồ sơ:\n- Nếu hồ sơ không hợp lệ thì hướng dẫn bổ sung, hoàn thiện hồ sơ theo quy định. Nếu không bổ sung hoàn thiện được thì từ chối tiếp nhận hồ sơ.\n- Nếu hồ sơ hợp lệ thì làm thủ tục tiếp nhận hồ sơ, hẹn trả kết quả cho người nộp hồ sơ, chuyển hồ sơ về cơ quan nông nghiệp và môi trường cấp xã.\n\n\n\nB2\ta) Cơ quan nông nghiệp và môi trường cấp xã tham mưu UBND cấp xã tổ chức thực hiện đo đạc, chỉnh lý bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất.\nb) Phần diện tích còn lại của thửa đất (nếu có) thì người sử dụng đất, chủ sở hữu tài sản gắn liền với đất thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu theo quy định đối với phần diện tích còn lại của thửa đất.\n\nB3\t- Chuyển hồ sơ đến Chi nhánh Văn phòng Đăng ký đất đai để chỉnh lý, cập nhật vào hồ hơ địa chính."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 10 ngày làm việc. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 10 ngày làm việc. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh).",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 10 ngày làm việc. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh).",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb281-a916-74fc-aa0c-c046b3faff87",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn theo Mẫu số 01 ban hành kèm theo Quyết định số 48/2026/QĐ-UBND ngày 06/7/2026 của UBND tỉnh",
+          "code": "TPHS 00001",
+          "attachments": [
+            {
+              "id": "019fb277-0c91-7201-9edd-9b4cf0460b7d",
+              "fileName": "Mẫu số 01.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb277-0c91-7201-9edd-9b4cf0460b7d/Mẫu số 01.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb729-115e-730d-aa42-983bd7d349b7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phiếu hướng dẫn hoàn thiện hồ sơ",
+          "code": "TPHS0002",
+          "attachments": [
+            {
+              "id": "019fca74-903c-769d-b03b-be1354f2e783",
+              "fileName": "Mẫu 02.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fca74-903c-769d-b03b-be1354f2e783/Mẫu 02.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb5af-60a8-716f-b561-9b988ac08ea6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thông báo xác nhận kết quả đăng ký đất đai",
+          "code": "TPHS0003",
+          "attachments": [
+            {
+              "id": "019fca70-b404-734f-b9c4-4324f73ecb53",
+              "fileName": "Mẫu 03.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fca70-b404-734f-b9c4-4324f73ecb53/Mẫu 03.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb729-f5b3-726c-944a-91453b031b22",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phiếu kiểm soát quá trình giải quyết hồ sơ",
+          "code": "TPHS0005",
+          "attachments": [
+            {
+              "id": "019fca76-6a10-77bf-94ae-a9c399f14f14",
+              "fileName": "Mẫu 05.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fca76-6a10-77bf-94ae-a9c399f14f14/Mẫu 05.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb5f5-c009-74f8-ab03-2d11e71c8c73",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Dự án đầu tư lấn biển hoặc hạng mục lấn biển của dự án đầu tư đã được cơ quan nhà nước có thẩm quyền phê duyệt đối với trường hợp quy định tại Điều 190 của Luật Đất đai.",
+          "code": "TPHS0006",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fcadc-cffd-71a8-814d-f4198c3cc2a5"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fcadc-cffd-71a8-814d-f4198c3cc2a5",
+      "name": "Văn bản",
+      "code": "KQTH 1"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+  "departmentPromulgateCode": "H27",
+  "departmentPromulgateName": "UBND tỉnh Hà Tĩnh",
+  "cases": [
+    {
+      "id": "019fcc24-2ba6-72aa-bc5e-33f373527055",
+      "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận.",
+      "code": "1.116159.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785835648150,
+  "updatedAt": 1785835648150,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb231-1c5a-727d-a307-31892901a940",
+    "proposalNumber": "1918/UBND",
+    "decisionDate": 1785258000000,
+    "decisionNumber": null,
+    "publicationDate": 1785835648055,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+      "name": "UBND tỉnh Hà Tĩnh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

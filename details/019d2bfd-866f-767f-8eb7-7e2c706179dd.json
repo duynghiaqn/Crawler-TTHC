@@ -1,0 +1,235 @@
+{
+  "id": "019d2bfd-866f-767f-8eb7-7e2c706179dd",
+  "code": "2.000555",
+  "codeNotation": "2.000555",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Văn phòng giám định tư pháp thay đổi nội dung thành lập, đăng ký hoạt động khi thay đổi về tên gọi, địa chỉ trụ sở, người đại diện theo pháp luật, danh sách thành viên hợp danh của văn phòng.\nVăn phòng giám định tư pháp lập 01 bộ hồ sơ đề nghị thay đổi nội dung thành lập, đăng ký hoạt động, nộp trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp hoặc Trung tâm phục vụ hành chính công tỉnh, thành phố nơi văn phòng giám định tư pháp đã thành lập, đăng ký hoạt động hoặc trực tuyến trên môi trường điện tử theo quy định tại Điều 2 của Nghị định số 177/2026/NĐ-CP ngày 19/5/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Giám định tư pháp. \nTrong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Tư pháp cấp giấy đăng ký hoạt động hoặc ghi nhận nội dung thay đổi vào giấy đăng ký hoạt động của văn phòng; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "Văn phòng giám định tư pháp chỉ được thay đổi địa chỉ trụ sở trong phạm vi đơn vị hành chính cấp tỉnh nơi đặt trụ sở theo giấy đăng ký hoạt động đã được cấp.\nViệc thay đổi tên của văn phòng giám định tư pháp phải bảo đảm yêu cầu quy định tại khoản 5 Điều 20 của Luật Giám định tư pháp.",
+  "name": "Cấp Giấy đăng ký hoạt động của văn phòng giám định tư pháp trong trường hợp thay đổi tên gọi, địa chỉ trụ sở, người đại diện theo pháp luật, danh sách thành viên hợp danh của văn phòng giám định tư pháp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b9-719f-84fa-fceaeff0ffd0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị thay đổi nội dung thành lập, đăng ký hoạt động",
+          "code": "000.00.00.G15-KQ2801",
+          "attachments": [
+            {
+              "id": "01a067dd-d043-76ab-b68a-5f67922d2601",
+              "fileName": "Mẫu TP10_Đơn đn thay đổi nội dung ĐKHĐ.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a067dd-d043-76ab-b68a-5f67922d2601/Mẫu TP10_Đơn đn thay đổi nội dung ĐKHĐ.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0666a-36b1-758a-b184-d986ec52dc4e",
+    "01a0666c-3cd7-74a9-80b5-f2296fc0681c"
+  ],
+  "resultIds": [
+    "01a067df-6f6d-7290-bbf1-4b7f075ae395"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3",
+      "name": "Giám định tư pháp",
+      "code": "G15-TP06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3",
+    "name": "Giám định tư pháp",
+    "code": "G15-TP06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dae14-45ef-7462-9028-2facf17f028a"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dae14-45ef-7462-9028-2facf17f028a",
+      "name": "Sở Tư pháp"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0666a-36b1-758a-b184-d986ec52dc4e",
+      "name": "Luật Giám định tư pháp năm 2025",
+      "code": "105/2025/QH15"
+    },
+    {
+      "id": "01a0666c-3cd7-74a9-80b5-f2296fc0681c",
+      "name": "Nghị định số 177/2026/NĐ-CP ngày 19/5/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Giám định tư pháp",
+      "code": "177/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a067df-6f6d-7290-bbf1-4b7f075ae395",
+      "name": "Cấp giấy đăng ký hoạt động hoặc ghi nhận nội dung thay đổi vào giấy đăng ký hoạt động của văn phòng",
+      "code": "KQ.G15.99711"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d603f1537007",
+  "departmentPromulgateCode": "G15",
+  "departmentPromulgateName": "Bộ Tư pháp",
+  "cases": [
+    {
+      "id": "019d2c50-0582-700e-9c5a-7333f608fcbd",
+      "name": "Cấp lại Giấy đăng ký hoạt động của Văn phòng giám định tư pháp trong trường hợp thay đổi tên gọi, địa chỉ trụ sở, người đại diện theo pháp luật, danh sách thành viên hợp danh của Văn phòng giám định tư pháp",
+      "code": "2.000555.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a06804-f754-7344-8080-8a9899b51f10",
+      "name": "Cấp Giấy đăng ký hoạt động của văn phòng giám định tư pháp trong trường hợp thay đổi tên gọi, địa chỉ trụ sở, người đại diện theo pháp luật, danh sách thành viên hợp danh của văn phòng giám định tư pháp",
+      "code": "2.000555.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559528559,
+  "updatedAt": 1788451549307,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Hồ sơ được nộp trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp hoặc Trung tâm phục vụ hành chính công tỉnh, thành phố nơi văn phòng giám định tư pháp đã thành lập, đăng ký hoạt động hoặc trực tuyến trên môi trường điện tử",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Văn phòng giám định tư pháp chỉ được thay đổi địa chỉ trụ sở trong phạm vi đơn vị hành chính cấp tỉnh nơi đặt trụ sở theo giấy đăng ký hoạt động đã được cấp.\nViệc thay đổi tên của văn phòng giám định tư pháp phải bảo đảm yêu cầu quy định tại khoản 5 Điều 20 của Luật Giám định tư pháp.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0662c-75a1-743b-8fe0-435be75b70a0",
+    "proposalNumber": "1998/QĐ-BTP",
+    "decisionDate": 1788368400000,
+    "decisionNumber": null,
+    "publicationDate": 1788451549153,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

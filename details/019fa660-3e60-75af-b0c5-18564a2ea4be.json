@@ -1,0 +1,160 @@
+{
+  "id": "019fa660-3e60-75af-b0c5-18564a2ea4be",
+  "code": "6.006751",
+  "codeNotation": "6.006751",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Bước 1: Lấy ý kiến về Đề án đóng, mở cửa rừng tự nhiên\nSở Nông nghiệp và Môi trường xây dựng Đề án đóng hoặc mở cửa rừng tự nhiên trong phạm vi toàn tỉnh (sau đây gọi tắt là Đề án); lấy ý kiến bằng văn bản của Bộ Nông nghiệp và Môi trường, Ủy ban nhân dân cấp xã và cơ quan, đơn vị có liên quan đối với Đề án. \nTrong thời hạn 04 ngày làm việc kể từ ngày nhận được văn bản lấy ý kiến, cơ quan, đơn vị được lấy ý kiến có trách nhiệm trả lời bằng văn bản.\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản trả lời, Sở Nông nghiệp và Môi trường hoàn thiện Đề án, trình Chủ tịch Ủy ban nhân dân cấp tỉnh;\nb) Bước 2: Trình Hội đồng nhân dân cấp tỉnh thông qua Đề án\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ do Sở Nông nghiệp và Môi trường trình, Chủ tịch Ủy ban nhân dân cấp tỉnh trình Hội đồng nhân dân cùng cấp thông qua Đề án.\nc) Bước 3: Ban hành Quyết định phê duyệt Đề án\nHội đồng nhân dân cấp tỉnh xem xét, thông qua Đề án đóng hoặc mở cửa rừng tự nhiên theo quy chế làm việc của Hội đồng. Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định đóng hoặc mở cửa rừng tự nhiên trong phạm vi toàn tỉnh theo Mẫu số 18 Phụ lục IB ban hành kèm theo Nghị định số 42/2026/NĐ-CP ngay sau khi Hội đồng nhân dân cấp tỉnh thông qua Đề án."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc kể từ ngày ban hành văn bản lấy ý kiến của Bộ Nông nghiệp và Môi trường, Uỷ ban nhân dân cấp xã và cơ quan, đơn vị có liên quan.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc kể từ ngày ban hành văn bản lấy ý kiến của Bộ Nông nghiệp và Môi trường, Uỷ ban nhân dân cấp xã và cơ quan, đơn vị có liên quan.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đóng hoặc mở cửa rừng tự nhiên thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-c7bee458b0da"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fa65f-7445-7709-80bf-9d067b034912"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-c7bee458b0da",
+      "name": "Lâm nghiệp và Kiểm lâm",
+      "code": "G10-NN07"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-c7bee458b0da",
+    "name": "Lâm nghiệp và Kiểm lâm",
+    "code": "G10-NN07"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fa65f-7445-7709-80bf-9d067b034912",
+      "name": "Quyết định đóng hoặc mở cửa rừng tự nhiên theo Mẫu số 18 Phụ lục IB ban hành kèm theo Nghị định số 42/2026/NĐ-CP",
+      "code": "Quyết định đóng hoặc mở cửa rừng tự nhiên theo Mẫu số 18 Phụ lục IB ban hành kèm theo Nghị định số 4"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789530467286,
+  "updatedAt": 1789530467286,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa286-9471-779e-b378-67e28007a3f2",
+    "proposalNumber": "549/QĐ-UBND",
+    "decisionDate": 1772384400000,
+    "decisionNumber": null,
+    "publicationDate": 1789530466824,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

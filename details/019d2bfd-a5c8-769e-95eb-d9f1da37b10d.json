@@ -1,0 +1,256 @@
+{
+  "id": "019d2bfd-a5c8-769e-95eb-d9f1da37b10d",
+  "code": "1.000030",
+  "codeNotation": "1.000030",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Trường hợp thay đổi chủ sở hữu kênh, thể loại kênh, nội dung kênh, cơ quan báo chí thực hiện hồ sơ, thủ tục theo quy định tại Điều 12 Thông tư số 20/2026/TT-BVHTTDL.\n- Trường hợp thay đổi nội dung ghi trong giấy phép, trừ trường hợp quy định tại khoản 1 và khoản 2 Điều 13 Thông tư số 20/2026/TT-BVHTTDL, cơ quan báo chí gửi 01 bộ hồ sơ đề nghị Cục Phát thanh, truyền hình và thông tin điện tử sửa đổi, bổ sung giấy phép.\n- Trong thời hạn 08 ngày làm việc kể từ ngày tiếp nhận chính thức, Cục Phát thanh, truyền hình và thông tin điện tử cấp giấy phép sửa đổi, bổ sung giấy phép biên tập kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền theo Mẫu số 13 tại Phụ lục IV ban hành kèm theo Thông tư số 20/2026/TT-BVHTTDL ngày 30/6/2026; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Thủ tục sửa đổi, bổ sung giấy phép biên tập kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7180-744f-b64d-360e863f76b2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của cơ quan báo chí nêu rõ lý do thay đổi và cam kết chịu trách nhiệm pháp lý về các nội dung đề nghị thay đổi. Đối với cơ quan báo chí hoạt động phát thanh, truyền hình cấp tỉnh hoặc cấp Bộ, văn bản phải có xác nhận của cơ quan chủ quản; đối với Đài Truyền hình Việt Nam, Đài Tiếng nói Việt Nam, văn bản đề nghị phải do người đứng đầu hoặc người được ủy quyền hợp pháp theo quy định của pháp luật ký",
+          "code": "000.00.00.G14-KQ001923",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7180-744f-b64d-3e41dbbf57ba",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp thay đổi về thời gian, thời lượng, khung truyền dẫn, phát sóng các nhóm chuyên mục đối với kênh chương trình nước ngoài không có thu phí bản quyền nội dung, cơ quan báo chí phải gửi kèm theo văn bản hợp pháp của hãng phát thanh, truyền hình nước ngoài xác nhận về những nội dung thay đổi và khung truyền dẫn, phát sóng kênh chương trình trong 01 tháng từ thời điểm không quá 03 tháng tính đến ngày nộp hồ sơ.",
+          "code": "000.00.00.G14-KQ001925",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+    "019f8253-7b83-74a8-9b67-48f73b229c01"
+  ],
+  "resultIds": [
+    "019fd67b-8501-7159-9b08-6a5ccd51ef7a"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-98005c923f40"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+      "name": "Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14-TT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+    "name": "Phát thanh, truyền hình và thông tin điện tử",
+    "code": "G14-TT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-98005c923f40",
+      "name": "Cục Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14.21"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f8253-7b83-74a8-9b67-48f73b229c01",
+      "name": "Luật Báo chí 2025",
+      "code": "126/2025/QH15 "
+    },
+    {
+      "id": "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+      "name": "Thông tư quy định chi tiết hồ sơ, thủ tục cấp, sửa đổi, bổ sung giấy phép hoạt động báo chí; điều kiện, hồ sơ, thủ tục cấp giấy phép xuất bản bản tin, xuất bản đặc san; lưu chiểu bản tin, đặc san.",
+      "code": "20/2026/TT-BVHTTDL "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fd67b-8501-7159-9b08-6a5ccd51ef7a",
+      "name": "Giấy phép sửa đổi, bổ sung giấy phép biên tập kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền",
+      "code": "G16-KQ.PTTH.2026.02"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "019fd680-e563-751e-b700-954b35ca6635",
+      "name": "Thủ tục sửa đổi, bổ sung giấy phép biên tập kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền",
+      "code": "1.000030.01",
+      "processingDay": {
+        "qty": 8,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2cd6-4a2d-76d9-9df1-bc73f1da1a93",
+      "name": "Sửa đổi, bổ sung giấy phép biên tập kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền",
+      "code": "1.000030.01",
+      "processingDay": {
+        "qty": 16,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559536584,
+  "updatedAt": 1786010199198,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Phát thanh, truyền hình và thông tin điện tử",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fd605-f4a1-76ba-9746-fa5b85971e2f",
+    "proposalNumber": "2044/QĐ-BVHTTDL",
+    "decisionDate": 1785862800000,
+    "decisionNumber": null,
+    "publicationDate": 1786010198781,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

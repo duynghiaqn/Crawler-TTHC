@@ -10,7 +10,6 @@ on:
 
 jobs:
   crawl-and-deploy:
-    #runs-on: ubuntu-latest
     runs-on: self-hosted
     
     steps:

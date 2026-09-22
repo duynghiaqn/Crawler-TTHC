@@ -10,7 +10,7 @@ on:
 
 jobs:
   crawl-and-deploy:
-    runs-on: svr-vp
+    runs-on: self-hosted
     
     steps:
       - name: Bước 1 - Kéo mã nguồn về máy ảo

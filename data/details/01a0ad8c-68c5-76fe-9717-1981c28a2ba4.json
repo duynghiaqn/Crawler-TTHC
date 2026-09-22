@@ -1,0 +1,233 @@
+{
+  "id": "01a0ad8c-68c5-76fe-9717-1981c28a2ba4",
+  "code": "6.006768",
+  "codeNotation": "6.006768",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Căn cứ kết quả rà soát, thống kê, phân loại theo quy định tại khoản 2 Điều 9 Nghị định số 15/2025/NĐ-CP; cơ quan quản lý đường sắt đô thị lập hồ sơ đề nghị giao tài sản kết cấu hạ tầng đường sắt đô thị cho doanh nghiệp quản lý tài sản đường sắt đô thị, báo cáo Ủy ban nhân dân cấp tỉnh.\n- Bước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ quy định, cơ quan, Ủy ban nhân dân cấp tỉnh xem xét, quyết định giao tài sản kết cấu hạ tầng đường sắt đô thị."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Trực tuyến qua Hệ thống phần mềm quản lý văn bản và hồ sơ công việc (TD Office)\n30 ngày kể từ ngày nhận đủ hồ sơ",
+      "fees": []
+    }
+  ],
+  "description": "Không.",
+  "name": "Thủ tục: Giao tài sản kết cấu hạ tầng đường sắt đô thị theo hình thức không tính thành phần vốn nhà nước tại doanh nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a04267-8065-708a-babb-6864ceaefa72",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý đường sắt đô thị về việc đề nghị giao tài sản cho doanh nghiệp quản lý tài sản đường sắt đô thị theo hình thức không tính thành phần vốn nhà nước tại doanh nghiệp",
+          "code": "TP-H56.0000349",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04269-0464-727d-989f-969cc90dbfa9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ý kiến bằng văn bản về việc giao tài sản của: Cơ quan, đơn vị có liên quan thuộc Ủy ban nhân dân cấp tỉnh; cơ quan, tổ chức, đơn vị, doanh nghiệp đang quản lý, tạm quản lý tài sản và cơ quan quản lý cấp trên (nếu có) của cơ quan, tổ chức, đơn vị, doanh nghiệp đó; doanh nghiệp quản lý tài sản đường sắt đô thị được đề nghị giao quản lý tài sản",
+          "code": "TP-H56.0000350",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04269-537b-730e-86ad-0d5abd8e6d21",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị giao (tên tài sản, tên tuyến, địa chỉ, năm đưa vào sử dụng; thông số cơ bản (chiều dài, diện tích, khối lượng,…); nguyên giá, giá trị còn lại; tình trạng sử dụng của tài sản; tên tổ chức, đơn vị, doanh nghiệp đang quản lý, tạm quản lý tài sản) do cơ quan quản lý đường sắt đô thị chủ trì lập",
+          "code": "TP-H56.0000351",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0410d-b222-763d-8833-dffb0c6df678",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ pháp lý về tài sản (Quyết định giao/điều chuyển tài sản, Biên bản bàn giao, tiếp nhận tài sản hoặc các giấy tờ, tài liệu khác chứng minh quyền quản lý, sử dụng, tạm quản lý tài sản (nếu có))",
+          "code": "TP-H56.0000281",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0410e-9bfa-758e-ba92-ec6b9ab09856",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ khác có liên quan (nếu có)",
+          "code": "TP-H56.0000282",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-852c7a498878",
+    "01a06665-d0ed-76ea-b626-185a168f90a1"
+  ],
+  "resultIds": [
+    "01a0ad8c-0699-74aa-883c-6561d53fdc21"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b10-50d287f0ba45"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6ada-753f-9ac8-5b801c9771db"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+    "name": "Quản lý công sản",
+    "code": "G12-TC09"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b10-50d287f0ba45",
+      "name": "Văn phòng Ủy ban Nhân dân tỉnh",
+      "code": "H35.1"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-5b801c9771db",
+      "name": "Các cơ quan, tổ chức liên quan",
+      "code": "CQLQ"
+    }
+  ],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a06665-d0ed-76ea-b626-185a168f90a1",
+      "name": "Sửa đổi, bổ sung một số điều của các Nghị định quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng giao thông",
+      "code": "99/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-852c7a498878",
+      "name": "Nghị định số 15/2025/NĐ-CP của Chính phủ quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng đường sắt",
+      "code": "15/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0ad8c-0699-74aa-883c-6561d53fdc21",
+      "name": "Quyết định giao tài sản kết cấu hạ tầng đường sắt đô thị",
+      "code": "KQ-H56.0000082"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+  "departmentPromulgateCode": "H56",
+  "departmentPromulgateName": "UBND tỉnh Thanh Hóa",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789954716109,
+  "updatedAt": 1789954716109,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng Ủy ban Nhân dân tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Văn phòng UBND tỉnh Thanh Hóa (Số 35 Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa).",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "Các cơ quan, tổ chức liên quan",
+  "requirementsAndConditions": "Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a03d74-54e5-7620-a931-65ef091b67e5",
+    "proposalNumber": "2349/QĐ-VP",
+    "decisionDate": 1783530000000,
+    "decisionNumber": null,
+    "publicationDate": 1789954714458,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+      "name": "UBND tỉnh Thanh Hóa"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

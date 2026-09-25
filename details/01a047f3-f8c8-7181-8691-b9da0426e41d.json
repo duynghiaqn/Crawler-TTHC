@@ -1,0 +1,214 @@
+{
+  "id": "01a047f3-f8c8-7181-8691-b9da0426e41d",
+  "code": "1.116537",
+  "codeNotation": "1.116537",
+  "executionSteps": [
+    {
+      "name": "Bước 1:",
+      "description": "Căn cứ danh mục ngành, nghề ưu tiên hoặc ngành, nghề khó xã hội hóa do Bộ Giáo dục và Đào tạo ban hành; chiến lược, kế hoạch phát triển kinh tế - xã hội; nhu cầu nhân lực và thị trường lao động của địa phương, Ủy ban nhân dân cấp tỉnh quyết định danh mục ngành, nghề được hỗ trợ đào tạo tại địa phương phù hợp với khả năng cân đối ngân sách và điều kiện thực tiễn."
+    },
+    {
+      "name": "Bước 2:",
+      "description": "Trên cơ sở định hướng phát triển, nhu cầu ngành, nghề đào tạo, doanh nghiệp lập danh sách người lao động đã ký hợp đồng lao động với doanh nghiệp phù hợp với danh mục ngành, nghề được hỗ trợ đào tạo tại địa phương và tiêu chuẩn, điều kiện của ngành, nghề đăng ký, gửi cơ quan chuyên môn cấp tỉnh."
+    },
+    {
+      "name": "Bước 3:",
+      "description": "Căn cứ nhu cầu đào tạo của doanh nghiệp, danh mục ngành, nghề được hỗ trợ đào tạo, cơ quan chuyên môn cấp tỉnh rà soát, tổng hợp, báo cáo Ủy ban nhân dân cấp tỉnh phê duyệt kế hoạch, loại hình, hình thức, kinh phí hỗ trợ đào tạo phù hợp với tình hình phát triển kinh tế - xã hội của địa phương."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không quy định.",
+      "processingTimeUnit": "OTHER",
+      "description": "Gửi Hồ sơ đăng ký nhu cầu đào tạo của doanh nghiệp về các ngành, nghề ưu tiên hoặc khó xã hội hóa tới cơ quan chuyên môn cấp tỉnh bằng một trong các hình thức:  Qua đường dịch vụ bưu chính.\nPhí, lệ phí: Không quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định.",
+      "processingTimeUnit": "OTHER",
+      "description": "Gửi Hồ sơ đăng ký nhu cầu đào tạo của doanh nghiệp về các ngành, nghề ưu tiên hoặc khó xã hội hóa tới cơ quan chuyên môn cấp tỉnh bằng một trong các hình thức:  nộp trực tiếp\nPhí, lệ phí: Không quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không quy định.",
+      "processingTimeUnit": "OTHER",
+      "description": "Gửi Hồ sơ đăng ký nhu cầu đào tạo của doanh nghiệp về các ngành, nghề ưu tiên hoặc khó xã hội hóa tới cơ quan chuyên môn cấp tỉnh bằng một trong các hình thức: Trực tuyến trên môi trường điện tử nếu đáp ứng điều kiện về cơ sở hạ tầng, kỹ thuật để làm thủ tục đăng ký theo đúng quy định tại Nghị định số 308/2026/NĐ-CP ngày 05 tháng 8 năm 2026 của Chính phủ.\nPhí, lệ phí: Không quy định.",
+      "fees": []
+    }
+  ],
+  "description": "l) Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định.",
+  "name": "Đăng ký nhu cầu đào tạo của doanh nghiệp về các ngành, nghề ưu tiên hoặc khó xã hội hóa",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a047f1-b597-779c-82a6-ee28dc768653",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy đăng ký nhu cầu đào tạo của doanh nghiệp về các ngành, nghề ưu tiên hoặc khó xã hội hóa. Mẫu đăng ký nhu cầu do địa phương quy định.",
+          "code": "KQ.G12.55587911",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a047f5-143d-75dc-ae33-2f4a710fbaf8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Tài liệu kèm theo giấy đăng ký nhu cầu đào tạo của doanh nghiệp là danh sách người lao động đã ký hợp đồng lao động với doanh nghiệp phù hợp với danh mục ngành, nghề được hỗ trợ đào tạo tại địa phương và các giấy tờ có liên quan (nếu có) để chứng minh nhu cầu đào tạo của doanh nghiệp về các ngành, nghề ưu tiên hoặc khó xã hội hóa.",
+          "code": "KQ.G12.008522210",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "e) Đối tượng thực hiện: Doanh nghiệp có nhu cầu đào tạo các ngành, nghề ưu tiên hoặc khó xã hội hóa.",
+  "keywords": "",
+  "categoryIds": [
+    "01a047ec-9dcc-77ac-a227-664859d597fa"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a047f3-ea46-7728-b769-c262b8339be2",
+    "01a04d36-e0fc-7276-82fc-fedbc0c16a0a"
+  ],
+  "resultIds": [
+    "01a047f2-2fe0-76d5-af0a-770d0773739c"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a047ec-9dcc-77ac-a227-664859d597fa",
+      "name": "Giáo dục nghề nghiệp, Ngân sách nhà nước",
+      "code": "G12-TC8965"
+    }
+  ],
+  "category": {
+    "id": "01a047ec-9dcc-77ac-a227-664859d597fa",
+    "name": "Giáo dục nghề nghiệp, Ngân sách nhà nước",
+    "code": "G12-TC8965"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a047f3-ea46-7728-b769-c262b8339be2",
+      "name": "Luật Giáo dục nghề nghiệp năm 2025",
+      "code": "124/2025/QH15"
+    },
+    {
+      "id": "01a04d36-e0fc-7276-82fc-fedbc0c16a0a",
+      "name": "Nghị định số 308/2026/NĐ-CP ngày 05 tháng 8 năm 2026 của Chính phủ  quy định chi tiết một số điều của Luật Giáo dục nghề nghiệp về chính sách hỗ trợ của Nhà nước đối với doanh nghiệp và Quỹ đào tạo nhân lực của doanh nghiệp.",
+      "code": "Nghị định số 308/2026/NĐ-CP ngày 05 tháng 8 năm 2026 của Chính phủ "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a047f2-2fe0-76d5-af0a-770d0773739c",
+      "name": "Kế hoạch, loại hình, hình thức, kinh phí hỗ trợ đào tạo được Ủy ban nhân dân cấp tỉnh phê duyệt.",
+      "code": "KQ.G12.15889992"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1788002090803,
+  "updatedAt": 1788002090803,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "g) Cơ quan giải quyết thủ tục hành chính: Cơ quan chuyên môn cấp tỉnh.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "l) Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a047f4-0515-7107-a34b-3f9220eae0b6",
+    "proposalNumber": "2428/QĐ-BTC",
+    "decisionDate": 1787850000000,
+    "decisionNumber": null,
+    "publicationDate": 1788002090763,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "019fc2a4-caf4-76db-a282-3d7b6c71ee92",
+  "code": "1.116107",
+  "codeNotation": "1.116107",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người có đơn yêu cầu giải quyết tranh chấp đất đai nộp đơn đến Trung tâm Phục vụ hành chính công hoặc Ủy ban nhân dân cấp xã.\nTrường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Ủy ban nhân dân cấp xã.\nBước 2: Chủ tịch Ủy ban nhân dân cấp xã có trách nhiệm:\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đơn phải thông báo bằng văn bản cho các bên tranh chấp đất đai và Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai về việc thụ lý đơn yêu cầu giải quyết tranh chấp đất đai, trường hợp không thụ lý thì phải thông báo bằng văn bản và nêu rõ lý do. \n- Giao trách nhiệm cho cơ quan tham mưu giải quyết. \nBước 3: Cơ quan tham mưu có nhiệm vụ thẩm tra, xác minh vụ việc, tổ chức hòa giải giữa các bên tranh chấp, tổ chức cuộc họp các ban, ngành có liên quan để tư vấn giải quyết tranh chấp đất đai (nếu cần thiết) và hoàn chỉnh hồ sơ trình Chủ tịch Ủy ban nhân dân cấp tỉnh ban hành quyết định giải quyết tranh chấp đất đai. \nBước 4: Chủ tịch Ủy ban nhân dân cấp có thẩm quyền ban hành quyết định giải quyết tranh chấp và gửi cho các bên tranh chấp, các tổ chức, cá nhân có quyền và nghĩa vụ liên quan."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 45 ngày kể từ ngày thụ lý đơn yêu cầu giải quyết tranh chấp đất đai",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 45 ngày kể từ ngày thụ lý đơn yêu cầu giải quyết tranh chấp đất đai",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 45 ngày kể từ ngày thụ lý đơn yêu cầu giải quyết tranh chấp đất đai",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn không quá 60 ngày",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn không quá 60 ngày",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn không quá 60 ngày",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thái Nguyên - Giải quyết tranh chấp đất đai thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp xã",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Thành phần hồ sơ cơ quan quản lý đất đai trình Chủ tịch Ủy ban nhân dân cấp xã",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fc564-fa66-736c-b1b3-90901e001c34",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn yêu cầu giải quyết tranh chấp đất đai",
+          "code": "H55-XA13-01",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fc565-3ee9-720d-954f-c38cc9d8543d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản hòa giải tại Ủy ban nhân dân cấp xã; biên bản làm việc với các bên tranh chấp và người có liên quan; biên bản kiểm tra hiện trạng đất tranh chấp; biên bản cuộc họp các ban, ngành có liên quan để tư vấn giải quyết tranh chấp đất đai đối với trường hợp hòa giải không thành (nếu có); biên bản hòa giải trong quá trình giải quyết tranh chấp",
+          "code": "H55-XA13-02",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fc565-808c-74c0-a7b9-1ac661a0d879",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trích lục bản đồ, hồ sơ địa chính, dữ liệu ảnh viễn thám qua các thời kỳ liên quan đến diện tích đất tranh chấp (nếu có) và các tài liệu làm chứng cứ, chứng minh trong quá trình giải quyết tranh chấp",
+          "code": "H55-XA13-03",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fc565-bd00-73a6-8f42-ccc005ccf0b2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo đề xuất và dự thảo quyết định giải quyết tranh chấp",
+          "code": "H55-XA13-04",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019fb632-8dc9-700f-8911-3241b2de4067"
+  ],
+  "resultIds": [
+    "019d2bb2-1c6c-7279-86b7-82f9a8db874a"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019fb632-8dc9-700f-8911-3241b2de4067",
+      "name": "Sửa đổi, bổ sung một số điều tại Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15.",
+      "code": "18/01/2024 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c6c-7279-86b7-82f9a8db874a",
+      "name": "Quyết định giải quyết tranh chấp đất đai",
+      "code": "KQ.G10.000916"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b25-68dfdcdcff0e",
+  "departmentPromulgateCode": "H55",
+  "departmentPromulgateName": "UBND tỉnh Thái Nguyên",
+  "cases": [
+    {
+      "id": "019ff086-ace4-719f-91a5-cebf6beb13a4",
+      "name": "Thái Nguyên - Giải quyết tranh chấp đất đai thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp xã",
+      "code": "1.116107.02",
+      "processingDay": {
+        "qty": 45,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fcad0-7013-72f8-b69e-6e87aefddad1",
+      "name": "Thái Nguyên - Giải quyết tranh chấp đất đai thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp xã",
+      "code": "1.116107.01",
+      "processingDay": {
+        "qty": 60,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785806585929,
+  "updatedAt": 1789216357665,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc Ủy ban nhân dân cấp xã.  \nb) Nộp thông qua dịch vụ bưu chính công ích.\nc) Nộp trực tuyến trên Cổng dịch vụ công.",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb66d-a92f-77bb-9f04-f71f9be365ed",
+    "proposalNumber": "2198/QĐ-UBND",
+    "decisionDate": 1783357200000,
+    "decisionNumber": null,
+    "publicationDate": 1785806585669,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b25-68dfdcdcff0e",
+      "name": "UBND tỉnh Thái Nguyên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "019d2bfc-e975-702b-8e64-5692d3b7c41e",
+  "code": "2.002228",
+  "codeNotation": "2.002228",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Nộp hồ sơ\nTổ trưởng tổ hợp tác (hoặc người đại diện theo ủy quyền của các thành viên tổ hợp tác) gửi hồ sơ thông báo chấm dứt hoạt động đến Ủy ban nhân dân cấp xã nơi tổ hợp tác hoạt động.\nBước 2: Tiếp nhận hồ sơ\nỦy ban nhân dân cấp xã tiếp nhận hồ sơ thông báo chấm dứt hoạt động của tổ hợp tác.\nBước 3: Xử lý hồ sơ\nĐối với hồ sơ gửi trực tiếp hoặc qua dịch vụ bưu chính, Ủy ban nhân dân cấp xã cập nhật vào Hệ thống thông tin về đăng ký hợp tác xã khi nhận hồ sơ. Trường hợp hồ sơ kê khai không đầy đủ, chính xác theo quy định tại điểm b khoản 3 Điều 21 Nghị định số 294/2026/NĐ-CP ngày 23/7/2026 của Chính phủ về tổ hợp tác) (Nghị định số 294/2026/NĐ-CP), Ủy ban nhân dân cấp xã thông báo bằng văn bản cho người gửi hồ sơ khi nhận hồ sơ, trong đó ghi rõ lý do và nội dung cần sửa đổi, bổ sung.\nĐối với hồ sơ gửi qua môi trường điện tử, thông tin của tổ hợp tác được cập nhật vào Hệ thống thông tin về đăng ký hợp tác xã khi xử lý hồ sơ. Trường hợp hồ sơ kê khai không đầy đủ, chính xác theo quy định tại điểm b khoản 3 Điều 21 Nghị định số 294/2026/NĐ-CP, Ủy ban nhân dân cấp xã gửi thông báo qua mạng thông tin điện tử cho người gửi hồ sơ khi xử lý hồ sơ, trong đó ghi rõ lý do và nội dung cần sửa đổi, bổ sung."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Tại thời điểm nhận hồ sơ/tại thời điểm xử lý hồ sơ.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Tại thời điểm nhận hồ sơ/tại thời điểm xử lý hồ sơ.",
+      "processingTimeUnit": "OTHER",
+      "description": "Người nộp hồ sơ đăng nhập Cổng dịch vụ công quốc gia hoặc ứng dụng định danh quốc gia bằng tài khoản định danh điện tử để truy cập Hệ thống thông tin quốc gia về đăng ký doanh nghiệp. Người nộp hồ sơ thực hiện thủ tục đăng ký doanh nghiệp theo quy trình trên Hệ thống thông tin quốc gia về đăng ký doanh nghiệp",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Tại thời điểm nhận hồ sơ/tại thời điểm xử lý hồ sơ.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "- Hồ sơ thông báo có đầy đủ giấy tờ và nội dung các giấy tờ đó được kê khai đầy đủ theo quy định của pháp luật.\n- Tổ hợp tác thực hiện thông báo chấm dứt hoạt động trong thời hạn 05 ngày làm việc kể từ ngày chấm dứt hoạt động.\n- Thời gian để tổ hợp tác sửa đổi, bổ sung hồ sơ thông báo chấm dứt hoạt động của tổ hợp tác là 10 ngày kể từ ngày Ủy ban nhân dân cấp xã ra thông báo, sau thời hạn trên nếu tổ hợp tác không nộp hồ sơ sửa đổi, bổ sung thì hồ sơ thông báo không còn giá trị, Ủy ban nhân dân cấp xã sẽ hủy hồ sơ thông báo của tổ hợp tác.",
+  "name": "Thông báo chấm dứt hoạt động của tổ hợp tác không đăng ký",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa683-4d17-769b-bbb2-9fcc8143d6df",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Thông báo chấm dứt hoạt động tổ hợp tác không đăng ký (Mẫu số 3);",
+          "code": "TP-G12.0002025",
+          "attachments": [
+            {
+              "id": "019fa683-40cb-758e-bfd6-430d368d8872",
+              "fileName": "Biểu mẫu số 03_Về việc chấm dứt hoạt động tổ hợp tác không đăng ký.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa683-40cb-758e-bfd6-430d368d8872/Biểu mẫu số 03_Về việc chấm dứt hoạt động tổ hợp tác không đăng ký.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa683-a32f-71bc-9e2a-965de37878e9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Biên bản họp tổ hợp tác về việc chấm dứt hoạt động (đối với trường hợp tổ hợp tác chấm dứt theo sự thỏa thuận của các thành viên);",
+          "code": "TP-G12.0002026",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa683-ec15-7200-b3ae-e31f276ea9de",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản sao hoặc bản chính biên bản họp tổ hợp tác về việc bầu tổ trưởng (trường hợp tổ trưởng nộp hồ sơ);",
+          "code": "TP-G12.0002027",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa684-2d86-74c9-920a-51b7b4eb90e8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản sao hoặc bản chính văn bản ủy quyền của một trăm phần trăm (100%) tổng số thành viên tổ hợp tác đồng ý (trường hợp người đại diện theo ủy quyền của các thành viên tổ hợp tác nộp hồ sơ).",
+          "code": "TP-G12.0002028",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa684-e7a2-720e-8bfd-cc55d72ab4c6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với tổ hợp tác thành lập trước ngày Nghị định số 294/2026/NĐ-CP có hiệu lực thi hành mà đến thời điểm chấm dứt hoạt động chưa cập nhật thông tin thay đổi thành viên với Ủy ban nhân dân cấp xã theo quy định thì hồ sơ thông báo chấm dứt hoạt động tổ hợp tác phải kèm theo bản sao sổ ghi chép về việc đóng góp của thành viên tổ hợp tác",
+          "code": "TP-G12.0002029",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-2d17782b0994"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b670-d23f4a84e3b8",
+    "019d2bb3-5d84-71c5-b671-d9e439ecbebe",
+    "019fa2f0-0446-76c2-b339-d67344e0c90b"
+  ],
+  "resultIds": [
+    "019d2bb2-1c73-70ac-aa18-dbfbf73baac7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b67e-e228d0bb056f"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-2d17782b0994",
+      "name": "Thành lập và hoạt động của tổ hợp tác không đăng ký",
+      "code": "G05-KD-13"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-2d17782b0994",
+    "name": "Thành lập và hoạt động của tổ hợp tác không đăng ký",
+    "code": "G05-KD-13"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b67e-e228d0bb056f",
+      "name": "Ủy ban Nhân dân xã, phường, thị trấn.",
+      "code": "000.00.UB.003"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-d9e439ecbebe",
+      "name": "Luật Hợp tác xã",
+      "code": "17/2023/QH15"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b670-d23f4a84e3b8",
+      "name": "Bộ luật Dân sự",
+      "code": "91/2015/QH13"
+    },
+    {
+      "id": "019fa2f0-0446-76c2-b339-d67344e0c90b",
+      "name": "Nghị định về tổ hợp tác",
+      "code": "294/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c73-70ac-aa18-dbfbf73baac7",
+      "name": "Cập nhật vào Hệ thống thông tin về đăng ký hợp tác xã hoặc thông báo",
+      "code": "KQ.G12.001487"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019f6e46-c557-738c-b7f5-c16d90b2639c",
+      "name": "Thông báo chấm dứt hoạt động của tổ hợp tác",
+      "code": "2.002228.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559488373,
+  "updatedAt": 1785492284630,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ủy ban Nhân dân xã, phường, thị trấn.",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Hồ sơ thông báo có đầy đủ giấy tờ và nội dung các giấy tờ đó được kê khai đầy đủ theo quy định của pháp luật.\n- Tổ hợp tác thực hiện thông báo chấm dứt hoạt động trong thời hạn 05 ngày làm việc kể từ ngày chấm dứt hoạt động.\n- Thời gian để tổ hợp tác sửa đổi, bổ sung hồ sơ thông báo chấm dứt hoạt động của tổ hợp tác là 10 ngày kể từ ngày Ủy ban nhân dân cấp xã ra thông báo, sau thời hạn trên nếu tổ hợp tác không nộp hồ sơ sửa đổi, bổ sung thì hồ sơ thông báo không còn giá trị, Ủy ban nhân dân cấp xã sẽ hủy hồ sơ thông báo của tổ hợp tác.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fad30-7182-7428-9519-366b49d5bd7d",
+    "proposalNumber": "1994/QĐ-BTC",
+    "decisionDate": 1785085200000,
+    "decisionNumber": null,
+    "publicationDate": 1785317074188,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

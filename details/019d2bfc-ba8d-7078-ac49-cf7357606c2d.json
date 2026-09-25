@@ -1,0 +1,379 @@
+{
+  "id": "019d2bfc-ba8d-7078-ac49-cf7357606c2d",
+  "code": "1.011022",
+  "codeNotation": "1.011022",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "+ Bước 1. \n++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 và thông báo số tài khoản/số hiệu ví điện tử (kèm theo thông báo đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC.\nHộ kinh doanh, cá nhân kinh doanh đã nộp thuế theo phương pháp khoán hoặc phương pháp kê khai trong năm 2025, có doanh thu từ 01 tỷ đồng trở xuống, chưa nộp hồ sơ khai thuế quý I năm 2026 hoặc chưa gửi Thông báo số tài khoản/số hiệu ví điện tử theo quy định tại Thông tư số 18/2026/TT-BTC thì gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC chậm nhất là ngày 31 tháng 7 năm 2026.\n++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác theo mẫu số 01/CNKD ban hành kèm theo Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC và thông báo số tài khoản/số hiệu ví điện tử (kèm theo Tờ khai thuế đầu tiên của năm 2026 đối với hộ kinh doanh đang hoạt động hoặc kèm theo Tờ khai thuế đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC.\n++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất thì khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm theo mẫu số 01/CNKD ban hành kèm theo Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC và thông báo số tài khoản/số hiệu ví điện tử (kèm theo Tờ khai thuế đầu tiên của năm 2026 đối với hộ kinh doanh đang hoạt động hoặc kèm theo Tờ khai thuế đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC, lập Bảng kê hàng tồn kho, máy móc, thiết bị (kèm theo hồ sơ khai thuế quý I năm 2026 đối với trường hợp khai thuế theo quý hoặc chậm nhất là ngày 20 tháng 4 năm 2026 đối với trường hợp khai thuế theo tháng) theo mẫu 01/BK-HTK ban hành kèm theo Thông tư số 18/2026/TT-BTC. \nHộ kinh doanh, cá nhân kinh doanh khi thay đổi thông tin số tài khoản/số hiệu ví điện tử thì thông báo cho cơ quan thuế theo quy định của pháp luật quản lý thuế."
+    },
+    {
+      "name": "",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận hồ sơ của người nộp thuế theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "Trực tuyến: qua Cổng Dịch vụ công quốc gia/Hệ thống thông tin quản lý thuế/Hệ thống thông tin của tổ chức cung cấp dịch T-VAN",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "Thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "Tại Trung tâm Phục vụ hành chính công cấp tỉnh, xã",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "name": "Khai thuế/Thông báo doanh thu đối với hộ kinh doanh, cá nhân kinh doanh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(i) Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh)",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2e-8e6e5379cab5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Thông báo doanh thu/Tờ khai thuế năm (Áp dụng đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống; hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế; cá nhân hợp tác kinh doanh với tổ chức; cá nhân làm đại lý bán đúng giá đối với hoạt động bảo hiểm, xổ số, bán hàng đa cấp; cá nhân thực hiện hoạt động môi giới thuộc trường hợp phải nộp thuế mà chưa được tổ chức khấu trừ thuế, khai thuế thay, nộp thuế thay trong năm) theo mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế",
+          "code": "G12.0001183",
+          "attachments": [
+            {
+              "id": "019fac77-baef-7326-aecb-51710d567ec9",
+              "fileName": "01 TKN CNKD TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fac77-baef-7326-aecb-51710d567ec9/01 TKN CNKD TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2e-5ef2e5c26107",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "thông báo số tài khoản/số hiệu ví điện tử (kèm theo Tờ khai thuế đầu tiên của năm 2026 đối với hộ kinh doanh đang hoạt động hoặc kèm theo Tờ khai thuế đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC, lập Bảng kê hàng tồn kho, máy móc, thiết bị (kèm theo hồ sơ khai thuế quý I năm 2026 đối với trường hợp khai thuế theo quý hoặc chậm nhất là ngày 20 tháng 4 năm 2026 đối với trường hợp khai thuế theo tháng) theo mẫu 01/BK-HTK ban hành kèm theo Thông tư số 18/2026/TT-BTC",
+          "code": "G12.0001184",
+          "attachments": [
+            {
+              "id": "019fac78-4372-73b9-9eba-bebe21410d3d",
+              "fileName": "01 BK-STK.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fac78-4372-73b9-9eba-bebe21410d3d/01 BK-STK.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(ii) Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế",
+      "profileComponents": [
+        {
+          "profileComponentId": "019e7292-1427-729a-a97f-5a31dad9a78c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo mẫu số 01/CNKD ban hành kèm theo Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC",
+          "code": "G12.0001185",
+          "attachments": [
+            {
+              "id": "019fac78-a390-71fe-8bea-0eccd9f0cf42",
+              "fileName": "01 CNKD TT 50.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fac78-a390-71fe-8bea-0eccd9f0cf42/01 CNKD TT 50.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019e7293-34e3-74d9-9852-2c380ed528f7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "thông báo số tài khoản/số hiệu ví điện tử (kèm theo Tờ khai thuế đầu tiên của năm 2026 đối với hộ kinh doanh đang hoạt động hoặc kèm theo Tờ khai thuế đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC",
+          "code": "G12.0001186",
+          "attachments": [
+            {
+              "id": "019fac78-f456-7615-b97a-15fb93889d72",
+              "fileName": "01 BK-STK.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fac78-f456-7615-b97a-15fb93889d72/01 BK-STK.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(iii) Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019e7296-216a-72ea-8304-147130c71c10",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm là tờ khai theo mẫu số 01/CNKD ban hành kèm theo Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC",
+          "code": "G12.0001187",
+          "attachments": [
+            {
+              "id": "019fac79-3af8-76ba-acd0-bf4b0e8b6f77",
+              "fileName": "01 CNKD TT 50.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fac79-3af8-76ba-acd0-bf4b0e8b6f77/01 CNKD TT 50.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2e-5ef2e5c26107",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "thông báo số tài khoản/số hiệu ví điện tử (kèm theo Tờ khai thuế đầu tiên của năm 2026 đối với hộ kinh doanh đang hoạt động hoặc kèm theo Tờ khai thuế đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC, lập Bảng kê hàng tồn kho, máy móc, thiết bị (kèm theo hồ sơ khai thuế quý I năm 2026 đối với trường hợp khai thuế theo quý hoặc chậm nhất là ngày 20 tháng 4 năm 2026 đối với trường hợp khai thuế theo tháng) theo mẫu 01/BK-HTK ban hành kèm theo Thông tư số 18/2026/TT-BTC",
+          "code": "G12.0001184",
+          "attachments": [
+            {
+              "id": "019fac78-4372-73b9-9eba-bebe21410d3d",
+              "fileName": "01 BK-STK.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fac78-4372-73b9-9eba-bebe21410d3d/01 BK-STK.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "- Đối tượng thực hiện thủ tục hành chính: Hộ kinh doanh, cá nhân kinh doanh.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e39-0aa7-757f-bfbb-291601c2e514",
+    "019e5e39-aa14-746c-80cd-afe06a8d307a",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019e729c-8330-71b8-b045-b7f2443f308a",
+    "019e72a9-0c2b-749c-8856-31e73c463ba4",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421",
+    "019fa376-69da-7783-9853-6afa7cd86621",
+    "019fa377-0d10-73ea-b3b0-ee84180af5fe"
+  ],
+  "resultIds": [
+    "019e5e36-2b71-729b-8304-bed7e2942ff7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e72a9-0c2b-749c-8856-31e73c463ba4",
+      "name": "Nghị định số 141/2026/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP quy định về chính sách thuế đối với hộ kinh doanh, cá nhân kinh doanh và Nghị định số 320/2025/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp",
+      "code": "141/2026/NĐ-CP"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019e5e39-0aa7-757f-bfbb-291601c2e514",
+      "name": "Nghị định số 68/2026/NĐ-CP ngày 05/3/2026 quy định về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "68/2026/NĐ-CP"
+    },
+    {
+      "id": "019e5e39-aa14-746c-80cd-afe06a8d307a",
+      "name": "Thông tư số 18/2026/TT-BTC ngày 05/3/2026 quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "18/2026/TT-BTC "
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019e729c-8330-71b8-b045-b7f2443f308a",
+      "name": "Thông tư số 50/2026/TT-BTC của Bộ Tài chính: Sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC ngày 05 tháng 3 năm 2026 của Bộ trưởng Bộ Tài chính quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "50/2026/TT-BTC"
+    },
+    {
+      "id": "019fa376-69da-7783-9853-6afa7cd86621",
+      "name": "Luật Thuế thu nhập cá nhân 109/2025/QH15 ngày 10/12/2025 và các văn bản pháp luật quy định chi tiết, hướng dẫn thi hành và sửa đổi, bổ sung có liên quan",
+      "code": "109/2025/QH15 "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019fa377-0d10-73ea-b3b0-ee84180af5fe",
+      "name": "Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập cá nhân",
+      "code": "253/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019e5e36-2b71-729b-8304-bed7e2942ff7",
+      "name": "Hồ sơ gửi đến cơ quan thuế không có kết quả giải quyết.",
+      "code": "KQ.G12.01128"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d6cab-94b2-772f-b4b4-a97d2673193d",
+      "name": "Khai thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp kê khai",
+      "code": "1.011022.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-d795-72ee-b1bd-6e315d144d62",
+      "name": "Khai thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp kê khai",
+      "code": "1.011022.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559476365,
+  "updatedAt": 1785399197330,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế cơ sở.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

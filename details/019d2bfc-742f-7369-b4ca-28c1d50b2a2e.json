@@ -1,0 +1,200 @@
+{
+  "id": "019d2bfc-742f-7369-b4ca-28c1d50b2a2e",
+  "code": "1.009062",
+  "codeNotation": "1.009062",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "BBước 1: Nhân viên bán hàng yêu cầu người mua hàng xuất trình Sổ định mức miễn thuế của tổ chức hoặc Sổ định mức miễn thuế của cá nhân kèm chứng minh thư do Bộ Ngoại giao cấp trừ trường hợp Sổ định mức miễn thuế đã được cơ quan có thẩm quyền cấp cập nhật thông tin vào cổng thông tin một cửa quốc gia.\nBước 2: Nhân viên bán hàng nhập thông tin về định lượng hàng hóa tại Sổ định mức miễn thuế do người mua hàng xuất trình hoặc dữ liệu về Sổ định mức từ cổng thông tin một cửa quốc gia đã được cơ quan có thẩm quyền cập nhật (đối với trường hợp sử dụng Sổ lần đầu) theo Mẫu số 14 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP và gửi đến hệ thống xử lý dữ liệu điện tử hải quan.\nBước 3: Xuất trình bản chính Sổ định mức mua hàng miễn thuế cho cơ quan hải quan để xác nhận định mức mua hàng miễn thuế trên hệ thống xử lý dữ liệu điện tử hải quan, trừ trường hợp Sổ định mức miễn thuế đã được cơ quan có thẩm quyền cấp cập nhật thông tin vào cổng thông tin một cửa quốc gia.\nĐối với người mua hàng lần đầu tiên mua hàng miễn thuế theo Sổ định mức mua hàng miễn thuế, cơ quan hải quan kiểm tra bản chính Sổ định mức mua hàng miễn thuế hoặc kiểm tra trên cổng thông tin một cửa quốc gia về định lượng mua hàng miễn thuế, xác nhận trên hệ thống xử lý dữ liệu điện tử hải quan lượng hàng miễn thuế được phép mua của người mua hàng để hệ thống xử lý dữ liệu điện tử hải quan trừ lùi định mức mua hàng miễn thuế.\nBước 4: Gửi thông tin bán hàng theo Mẫu số 12 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP đến hệ thống xử lý dữ liệu điện tử hải quan. \nTrường hợp bán hàng miễn thuế trực tuyến: Gửi thông tin bán hàng theo Mẫu số 12 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP đến hệ thống xử lý dữ liệu điện tử hải quan ngay sau khi chấp nhận đơn hàng và hoàn tất thủ tục thanh toán. Khi giao hàng cho khách mua hàng, kiểm tra đối chiếu thông tin mà khách đã kê khai khi mua hàng trực tuyến với thông tin trên các giấy tờ liên quan đến khách mua hàng theo quy định đối với từng đối tượng.\nTrường hợp hệ thống xử lý dữ liệu điện tử hải quan gặp sự cố, trong vòng 24 giờ kể từ khi hệ thống xử lý dữ liệu điện tử hải quan được khắc phục, doanh nghiệp thực hiện gửi thông tin đến hệ thống xử lý dữ liệu điện tử hải quan.\nBước 5: Xuất hóa đơn bán hàng (bao gồm cả hàng tặng kèm sản phẩm, nếu có) theo quy định. Cắt ô tem tương ứng mặt hàng đã bán trên Sổ định mức hàng miễn thuế và lưu ô tem tương ứng theo từng hóa đơn bán hàng. Lưu hóa đơn bán hàng theo quy định hiện hành về hóa đơn."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Ngay khi doanh nghiệp xuất trình trực tiếp cho Hải quan quản lý cửa hàng miễn thuế hoặc ngay khi doanh nghiệp gửi thông tin lên hệ thống xử lý dữ liệu điện tử hải quan.",
+      "processingTimeUnit": "OTHER",
+      "description": "Gửi lên hệ thống xử lý dữ liệu điện tử hải quan hoặc xuất trình trực tiếp cho Hải quan quản lý cửa hàng miễn thuế đối với khách hàng lần đầu tiên mua hàng miễn thuế theo Sổ định mức mua hàng miễn thuế.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Ngay khi doanh nghiệp xuất trình trực tiếp cho Hải quan quản lý cửa hàng miễn thuế hoặc ngay khi doanh nghiệp gửi thông tin lên hệ thống xử lý dữ liệu điện tử hải quan.",
+      "processingTimeUnit": "OTHER",
+      "description": "Gửi lên hệ thống xử lý dữ liệu điện tử hải quan hoặc xuất trình trực tiếp cho Hải quan quản lý cửa hàng miễn thuế đối với khách hàng lần đầu tiên mua hàng miễn thuế theo Sổ định mức mua hàng miễn thuế.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục bán hàng miễn thuế cho tổ chức, cá nhân được hưởng quyền ưu đãi miễn trừ mua hàng tại cửa hàng miễn thuế trong nội địa",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad1-f10e36c40792",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Chỉ tiêu thông tin theo Mẫu số 14 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP (đối với trường hợp nộp trực tuyến).",
+          "code": "000.00.00.G12-KQ9836",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fd011-edb8-744f-9c54-a766c83a28eb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Chỉ tiêu thông tin tại Mẫu số 12 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP (đối với trường hợp nộp trực tuyến).",
+          "code": "000.00.00.G12-KQ12589",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fc558-dd5c-7395-9a78-efc7e38e5c9f"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96e1-33f008a12dce"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019fca8e-5226-715a-a636-481e53b9f6f9"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+      "name": "Hải quan",
+      "code": "G12-TC04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+    "name": "Hải quan",
+    "code": "G12-TC04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019fca8e-5226-715a-a636-481e53b9f6f9",
+      "name": "Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế.",
+      "code": "000.00.34.G12.15"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fc558-dd5c-7395-9a78-efc7e38e5c9f",
+      "name": "Về kinh doanh hàng miễn thuế",
+      "code": "273/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96e1-33f008a12dce",
+      "name": "Xác nhận của Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế trên Sổ định mức mua hàng miễn thuế.",
+      "code": "KQ.G12.000416"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1774559458351,
+  "updatedAt": 1785982947307,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế.",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb763-4d3e-756b-8273-43cfe32d9020",
+    "proposalNumber": "2017",
+    "decisionDate": 1785171600000,
+    "decisionNumber": null,
+    "publicationDate": 1785982946082,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

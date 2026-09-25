@@ -1,0 +1,266 @@
+{
+  "id": "019d2bf7-dcee-748a-83b5-28ce715b2524",
+  "code": "1.000905",
+  "codeNotation": "1.000905",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân gửi hồ sơ đề nghị cấp Giấy phép quy định tại Điều 20 Nghị định Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương đến cơ quan cấp phép. \nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận hồ sơ của thương nhân, cơ quan cấp phép có văn bản yêu cầu thương nhân hoàn thiện hồ sơ.\nc) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan cấp phép gửi văn bản kèm theo bộ hồ sơ đăng ký cấp phép của doanh nghiệp đến Bộ, cơ quan ngang Bộ liên quan để xin ý kiến. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản xin ý kiến, Bộ, cơ quan ngang Bộ có văn bản trả lời cơ quan cấp phép.\nd) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định hoặc kể từ ngày nhận được văn bản trả lời của Bộ, cơ quan ngang Bộ liên quan đối với trường hợp quy định tại điểm c khoản này, cơ quan cấp phép cấp Giấy phép cho thương nhân. Trường hợp không cấp Giấy phép, cơ quan cấp phép trả lời bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 13,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "13 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 13,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "13 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 13,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "13 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không có",
+  "name": "Thủ tục cấp Giấy phép tạm xuất, tái nhập",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "01 bộ hồ sơ",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0133e-6a78-709c-81b5-389e5d071882",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Đơn đề nghị cấp Giấy phép tạm xuất, tái nhập theo mẫu số 05 quy định tại Phụ lục VII Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương: 01 bản chính.",
+          "code": "XNK-292-28",
+          "attachments": [
+            {
+              "id": "01a0133f-8759-749d-9563-6e137af78bf4",
+              "fileName": "Đơn đề nghị cấp giấy phép tạm xuất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0133f-8759-749d-9563-6e137af78bf4/Đơn đề nghị cấp giấy phép tạm xuất.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0133e-eaf6-7378-944c-ca1c17e70e22",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Hợp đồng, thỏa thuận sửa chữa, bảo hành hoặc hợp đồng, thỏa thuận cho thuê, mượn hàng hóa: 01 bản sao có đóng dấu của thương nhân.",
+          "code": "XNK-292-30",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3"
+  ],
+  "resultIds": [
+    "01a01340-0c42-74ef-b0cd-0d927c2f3c0e"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e65-9c9d4b77d824"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-9c9d4b77d824",
+      "name": "Ủy ban nhân dân cấp tỉnh",
+      "code": "UBNDCT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a01340-0c42-74ef-b0cd-0d927c2f3c0e",
+      "name": "Giấy phép tạm xuất, .tái nhập hoặc văn bản từ chối cấp phép.",
+      "code": "KQ-292-1900"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "01a013f3-dbb8-72bc-8d4a-b4339240d7de",
+      "name": "Thủ tục cấp Giấy phép tạm xuất, tái nhập",
+      "code": "1.000905.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019daac3-0374-72c2-a0a4-80a4277acf64",
+      "name": "Thủ tục cấp Giấy phép tạm xuất, tái nhập",
+      "code": "1.000905.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019da9df-7ec2-750b-af8b-542935e864a1",
+      "name": "Thủ tục cấp Giấy phép tạm xuất, tái nhập",
+      "code": "1.000905.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559157486,
+  "updatedAt": 1787041141608,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ủy ban nhân dân cấp tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không có",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a00ebe-e04a-721a-881a-9da433d007cd",
+    "proposalNumber": "2040/QĐ-BCT",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1787041141457,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

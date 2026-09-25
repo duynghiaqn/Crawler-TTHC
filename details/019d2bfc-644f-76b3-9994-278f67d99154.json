@@ -1,0 +1,321 @@
+{
+  "id": "019d2bfc-644f-76b3-9994-278f67d99154",
+  "code": "1.008525",
+  "codeNotation": "1.008525",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người nộp thuế chuẩn bị số liệu, lập hồ sơ và gửi đến cơ quan thuế quản lý trực tiếp, chậm nhất là ngày cuối cùng của tháng thứ 03 kể từ ngày kết thúc năm dương lịch hoặc năm tài chính."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan thuế tiếp nhận hồ sơ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính.",
+  "name": "Khai quyết toán lợi nhuận sau thuế còn lại nộp vào ngân sách nhà\nnước theo quy định của pháp luật về quản lý và đầu tư vốn nhà nước tại\ndoanh nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f30-a9ad307086f0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai quyết toán lợi nhuận sau thuế còn lại nộp vào ngân sách nhà nước theo quy định của pháp luật về quản lý và đầu tư vốn nhà nước tại doanh nghiệp mẫu số 01/QT-LNCL ban hành kèm theo Phụ lục I Danh mục hồ sơ khai thuế Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ Tài chính",
+          "code": "G12.0011830",
+          "attachments": [
+            {
+              "id": "019fa892-8c35-7008-aabc-c149c58a2a5a",
+              "fileName": "01-QTLNCL.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa892-8c35-7008-aabc-c149c58a2a5a/01-QTLNCL.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f30-ac7e57eafef9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phụ lục bảng phân bổ số lợi nhuận sau thuế còn lại nộp vào ngân sách nhà nước theo quy định của pháp luật về quản lý và đầu tư vốn nhà nước tại doanh nghiệp cho các địa phương được hưởng nguồn thu đối với hoạt động kinh doanh xổ số điện toán  theo mẫu 01-1/QT-LNCN (áp dụng đối với doanh nghiệp có hoạt động kinh doanh xổ số điện toán) ban hành kèm theo Phụ lục I Danh mục hồ sơ khai thuế Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ Tài chính",
+          "code": "G12.0011831",
+          "attachments": [
+            {
+              "id": "019fa893-2a7e-71f0-85e9-23b0125ed759",
+              "fileName": "01-1.QTLNCL.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa893-2a7e-71f0-85e9-23b0125ed759/01-1.QTLNCL.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa895-7eea-76bb-bf88-0a3e15ad935d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì các tờ khai số 01/QT-LNCL, 01-1/QT-LNCN thực hiện theo mẫu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính (đã được sửa đổi, bổ sung)",
+          "code": "G12.0011832",
+          "attachments": [
+            {
+              "id": "019fa894-7b53-76fb-9388-9afb1ebdd01d",
+              "fileName": "01 QT LNCL.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa894-7b53-76fb-9388-9afb1ebdd01d/01 QT LNCL.docx"
+            },
+            {
+              "id": "019fa895-7ae3-70a8-b75f-47a13a857bd0",
+              "fileName": "01-1 QT NLCL TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa895-7ae3-70a8-b75f-47a13a857bd0/01-1 QT NLCL TT 80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ",
+  "keywords": "Khai quyết toán",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d86-7760-a63e-605d8e3e9db3",
+    "019d2bb3-5d86-7760-a63f-a8c6d42da82f",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421",
+    "019fa333-90c9-70c8-8723-5c4b476b5aa4",
+    "019fa898-5acf-75ff-913a-3222146e9dc4",
+    "019fa898-ef8e-73c2-93a7-682c9b27df29"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96e1-59c6a510ec9f"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63e-605d8e3e9db3",
+      "name": "Nghị định 122/2017/NĐ-CP",
+      "code": "122/2017/NĐ-CP"
+    },
+    {
+      "id": "019fa333-90c9-70c8-8723-5c4b476b5aa4",
+      "name": "Luật Thuế thu nhập doanh nghiệp số 68/2025/QH15 ngày 16/6/2025 và các văn bản pháp luật quy định chi tiết, hướng dẫn thi hành và sửa đổi, bổ sung có liên quan",
+      "code": "672025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63f-a8c6d42da82f",
+      "name": "Thông tư 138/2017/TT-BTC",
+      "code": "138/2017/TT-BTC"
+    },
+    {
+      "id": "019fa898-5acf-75ff-913a-3222146e9dc4",
+      "name": "Nghị định số 59/2021/NĐ-CP ngày 18 tháng 6 năm 2021 quy định một số nội dung đặc thù về cơ chế quản lý tài chính, đánh giá hiệu quả hoạt động đối với Sở Giao dịch Chứng khoán Việt Nam, Tổng Công ty lưu ký và bù trừ Chứng khoán Việt Nam",
+      "code": "59/2021/NĐ-CP "
+    },
+    {
+      "id": "019fa898-ef8e-73c2-93a7-682c9b27df29",
+      "name": "Nghị định số 145/2026/NĐ-CP ngày 05 tháng 5 năm 2026 quy định một số nội dung về cơ chế quản lý tài chính, đánh giá hiệu quả hoạt động đối với Sở Giao dịch Chứng khoán Việt Nam, Tổng công ty lưu ký và bù trừ Chứng khoán Việt Nam",
+      "code": "145/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96e1-59c6a510ec9f",
+      "name": "Hồ sơ gửi đến cơ quan thuế không có kết quả giải quyết.",
+      "code": "KQ.G12.000429"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019fb215-d0c1-76bd-b4ac-418da7934466",
+      "name": "Khai quyết toán lợi nhuận sau thuế còn lại sau khi trích lập các quỹ của doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ ",
+      "code": "1.008525.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d6cd0-a249-7798-8529-b03926d2ee53",
+      "name": "Khai quyết toán lợi nhuận sau thuế còn lại sau khi trích lập các quỹ của doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ ",
+      "code": "1.008525.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559454287,
+  "updatedAt": 1785399201914,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/Chi cục Thuế Doanh nghiệp lớn; Chi cục Thuế Thương mại điện tử",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

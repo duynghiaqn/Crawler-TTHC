@@ -146,7 +146,7 @@ function loadUniqueProvinceWardDataset() {
     }));
 }
 
-function compareProvinceWard() {
+async function compareProvinceWard() {
     console.log('\n================================================================');
     console.log('🏛️  BÁO CÁO THEO DÕI BIẾN ĐỘNG TTHC THEO MÃ DUY NHẤT (PROVINCE & WARD)');
     console.log('    [Tính duy nhất theo Mã TTHC | Hợp nhất thủ tục áp dụng cả Tỉnh & Xã]');

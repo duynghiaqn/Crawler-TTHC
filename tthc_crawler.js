@@ -27,52 +27,118 @@ const CONFIG = {
     DISCOVERY_TIMEOUT_MS: 25000,
     DISCOVERY_LIMIT: 50,
     
-    // Pool of standard Chrome/Edge/Safari/Firefox Headers
+    // Pool đa dạng các Browser Profile (Chrome, Edge, Firefox, Safari, Opera trên Windows, macOS, Linux, Android)
     HEADER_PROFILES: [
         {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-            "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-            "sec-ch-ua-platform": '"Windows"'
+            "name": "Chrome 126 - Windows 11",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+            "sec-ch-ua": '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
+            "sec-ch-ua-platform": '"Windows"',
+            "sec-ch-ua-mobile": "?0",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"
         },
         {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
-            "sec-ch-ua-platform": '"Windows"'
+            "name": "Chrome 125 - macOS Sonoma",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "sec-ch-ua": '"Google Chrome";v="125", "Chromium";v="125", "Not?A_Brand";v="24"',
+            "sec-ch-ua-platform": '"macOS"',
+            "sec-ch-ua-mobile": "?0",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"
         },
         {
-            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-            "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-            "sec-ch-ua-platform": '"macOS"'
+            "name": "Microsoft Edge 125 - Windows 11",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0",
+            "sec-ch-ua": '"Microsoft Edge";v="125", "Chromium";v="125", "Not=A?Brand";v="24"',
+            "sec-ch-ua-platform": '"Windows"',
+            "sec-ch-ua-mobile": "?0",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi;q=0.9,en;q=0.8"
         },
         {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
-            "sec-ch-ua": '"Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-            "sec-ch-ua-platform": '"Windows"'
+            "name": "Firefox 126 - Windows 11",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi;q=0.8,en-US;q=0.5,en;q=0.3"
         },
         {
-            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-            "sec-ch-ua": '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-            "sec-ch-ua-platform": '"Linux"'
+            "name": "Safari 17.4 - macOS Sonoma",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi-VN;q=0.9,en-US;q=0.8,en;q=0.7"
+        },
+        {
+            "name": "Opera 109 - Windows 11",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0",
+            "sec-ch-ua": '"Opera";v="109", "Chromium";v="123", "Not:A-Brand";v="8"',
+            "sec-ch-ua-platform": '"Windows"',
+            "sec-ch-ua-mobile": "?0",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"
+        },
+        {
+            "name": "Chrome 125 - Linux x86_64",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "sec-ch-ua": '"Google Chrome";v="125", "Chromium";v="125", "Not?A_Brand";v="24"',
+            "sec-ch-ua-platform": '"Linux"',
+            "sec-ch-ua-mobile": "?0",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"
+        },
+        {
+            "name": "Firefox 125 - macOS",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:125.0) Gecko/20100101 Firefox/125.0",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"
+        },
+        {
+            "name": "Microsoft Edge 124 - macOS",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+            "sec-ch-ua": '"Microsoft Edge";v="124", "Chromium";v="124", "Not-A.Brand";v="99"',
+            "sec-ch-ua-platform": '"macOS"',
+            "sec-ch-ua-mobile": "?0",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"
+        },
+        {
+            "name": "Chrome 124 - Android Mobile",
+            "user-agent": "Mozilla/5.0 (Linux; Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.179 Mobile Safari/537.36",
+            "sec-ch-ua": '"Android WebView";v="124", "Chromium";v="124", "Not-A.Brand";v="99"',
+            "sec-ch-ua-platform": '"Android"',
+            "sec-ch-ua-mobile": "?1",
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"
         }
     ]
 };
 
+let globalHeaderIndex = 0;
+
 function getHeadersForAttempt(attemptIndex = 0) {
-    const profile = CONFIG.HEADER_PROFILES[attemptIndex % CONFIG.HEADER_PROFILES.length];
-    return {
-        "accept": "application/json, text/plain, */*",
-        "accept-language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+    const profileIndex = (globalHeaderIndex++ + attemptIndex) % CONFIG.HEADER_PROFILES.length;
+    const profile = CONFIG.HEADER_PROFILES[profileIndex];
+
+    const headers = {
+        "accept": profile.accept || "application/json, text/plain, */*",
+        "accept-language": profile["accept-language"] || "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+        "accept-encoding": "gzip, deflate, br, zstd",
         "content-type": "application/json",
         "origin": "https://dichvucong.gov.vn",
         "referer": "https://dichvucong.gov.vn/p/home/dvc-thu-tuc-hanh-chinh.html",
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "user-agent": profile["user-agent"],
-        "sec-ch-ua": profile["sec-ch-ua"],
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": profile["sec-ch-ua-platform"]
+        "user-agent": profile["user-agent"]
     };
+
+    if (profile["sec-ch-ua"]) {
+        headers["sec-ch-ua"] = profile["sec-ch-ua"];
+        headers["sec-ch-ua-mobile"] = profile["sec-ch-ua-mobile"] || "?0";
+        headers["sec-ch-ua-platform"] = profile["sec-ch-ua-platform"];
+    }
+
+    return headers;
 }
 
 // Standard HTTPS Agent with maximum 3 connection sockets

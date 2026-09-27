@@ -52,15 +52,20 @@ function loadUniqueProvinceWardDataset() {
                         const isProvince = Boolean(detail.isProvince || detail.type === 'PROVINCE');
                         const isWard = Boolean(detail.isWard || detail.type === 'WARD');
 
+                        const category = detail.category || detail.linh_vuc || (Array.isArray(detail.categories) ? detail.categories.join(', ') : detail.categories) || '';
+                        const agency = detail.executingAgencies || detail.co_quan_thuc_hien || detail.departmentPromulgateName || detail.departmentPromulgate || '';
+
                         if (!codeMap.has(code)) {
                             codeMap.set(code, {
+                                id: detail.id || code,
                                 code,
-                                id: detail.id,
                                 name: detail.name || detail.ten_tthc || '',
+                                category,
+                                agency,
                                 isProvince,
                                 isWard,
                                 formalityType: detail.formalityType || detail.type || 'STANDARD',
-                                executingAgencies: detail.executingAgencies || detail.co_quan_thuc_hien || '',
+                                executingAgencies: detail.executingAgencies || detail.co_quan_thuc_hien || agency,
                                 departmentPromulgate: detail.departmentPromulgateName || detail.departmentPromulgate || '',
                                 url: `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
                             });
@@ -68,6 +73,8 @@ function loadUniqueProvinceWardDataset() {
                             const existing = codeMap.get(code);
                             if (isProvince) existing.isProvince = true;
                             if (isWard) existing.isWard = true;
+                            if (!existing.category && category) existing.category = category;
+                            if (!existing.agency && agency) existing.agency = agency;
                             if (!existing.executingAgencies && (detail.executingAgencies || detail.co_quan_thuc_hien)) {
                                 existing.executingAgencies = detail.executingAgencies || detail.co_quan_thuc_hien;
                             }
@@ -101,16 +108,20 @@ function loadUniqueProvinceWardDataset() {
 
                         const isProvince = mockDetail.isProvince;
                         const isWard = mockDetail.isWard;
+                        const category = Array.isArray(item.categories) ? item.categories.join(', ') : (item.category || item.linh_vuc || '');
+                        const agency = depts || (Array.isArray(item.departments) ? item.departments.join(', ') : item.co_quan_thuc_hien || item.departmentPromulgate || '');
 
                         if (!codeMap.has(code)) {
                             codeMap.set(code, {
-                                code,
                                 id: item.id || code,
+                                code,
                                 name: item.name || '',
+                                category,
+                                agency,
                                 isProvince,
                                 isWard,
                                 formalityType: item.formalityType || item.type || 'STANDARD',
-                                executingAgencies: depts,
+                                executingAgencies: depts || agency,
                                 departmentPromulgate: item.departmentPromulgate || '',
                                 url: `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
                             });
@@ -118,6 +129,8 @@ function loadUniqueProvinceWardDataset() {
                             const existing = codeMap.get(code);
                             if (isProvince) existing.isProvince = true;
                             if (isWard) existing.isWard = true;
+                            if (!existing.category && category) existing.category = category;
+                            if (!existing.agency && agency) existing.agency = agency;
                         }
                     }
                 });
@@ -175,10 +188,8 @@ function compareProvinceWard() {
         console.log(`   • Chỉ Cấp Xã:               ${wardOnlyCount} TTHC`);
         console.log(`   • CẢ CẤP TỈNH & CẤP XÃ:     ${bothCount} TTHC\n`);
 
-        // Đưa tất cả thủ tục ban đầu vào danh sách added_items của báo cáo khởi tạo
         currentItems.forEach(item => addedItems.push(item));
     } else {
-        // So sánh chi tiết các TTHC Thêm mới, Bãi bỏ, Thay đổi
         currentMap.forEach((currItem, code) => {
             if (!previousMap.has(code)) {
                 addedItems.push(currItem);
@@ -189,8 +200,11 @@ function compareProvinceWard() {
 
                 if (nameChanged || levelChanged) {
                     modifiedItems.push({
+                        id: currItem.id || code,
                         code,
-                        id: currItem.id,
+                        name: currItem.name,
+                        category: currItem.category || '',
+                        agency: currItem.agency || currItem.executingAgencies || '',
                         old_name: prevItem.name,
                         new_name: currItem.name,
                         old_level: prevItem.level_label || getLevelLabel(prevItem),
@@ -206,14 +220,16 @@ function compareProvinceWard() {
         previousMap.forEach((prevItem, code) => {
             if (!currentMap.has(code)) {
                 removedItems.push({
+                    id: prevItem.id || code,
                     code: prevItem.code,
-                    id: prevItem.id,
                     name: prevItem.name,
+                    category: prevItem.category || '',
+                    agency: prevItem.agency || prevItem.executingAgencies || prevItem.departmentPromulgate || '',
                     level_label: prevItem.level_label || getLevelLabel(prevItem),
                     isProvince: prevItem.isProvince,
                     isWard: prevItem.isWard,
-                    departmentPromulgate: prevItem.departmentPromulgate,
-                    executingAgencies: prevItem.executingAgencies,
+                    departmentPromulgate: prevItem.departmentPromulgate || '',
+                    executingAgencies: prevItem.executingAgencies || '',
                     url: prevItem.url || `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
                 });
             }
@@ -283,6 +299,9 @@ function compareProvinceWard() {
                 both_province_and_ward: bothCount
             }
         },
+        added: addedItems,
+        removed: removedItems,
+        modified: modifiedItems,
         added_items: addedItems,
         removed_items: removedItems,
         modified_items: modifiedItems

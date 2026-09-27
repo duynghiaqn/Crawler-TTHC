@@ -23,9 +23,10 @@ const CONFIG = {
     // Circuit Breaker settings
     MAX_CONSECUTIVE_FAILURES: 5,
     MAX_RETRIES: 3,
-    TIMEOUT_MS: 15000,
-    DISCOVERY_TIMEOUT_MS: 25000,
+    TIMEOUT_MS: 20000,
+    DISCOVERY_TIMEOUT_MS: 35000,
     DISCOVERY_LIMIT: 50,
+
     
     // Pool đa dạng các Browser Profile (Chrome, Edge, Firefox, Safari, Opera trên Windows, macOS, Linux, Android)
     HEADER_PROFILES: [
@@ -141,12 +142,14 @@ function getHeadersForAttempt(attemptIndex = 0) {
     return headers;
 }
 
-// Standard HTTPS Agent with maximum 3 connection sockets
+// Standard HTTPS Agent với IPv4 Forcing (family: 4) & Keep-Alive ngắn để ngăn socket treo ETIMEDOUT
 const httpsAgent = new https.Agent({
     keepAlive: true,
+    keepAliveMsecs: 1000,
     maxSockets: CONFIG.MAX_CONCURRENCY,
     maxFreeSockets: CONFIG.MAX_CONCURRENCY,
-    rejectUnauthorized: false
+    rejectUnauthorized: false,
+    family: 4 // Ép dùng IPv4 14.238.3.76 tránh ETIMEDOUT trên IPv6 / DNS dual-stack
 });
 
 // Atomic write utility to prevent partial/corrupted JSON writes on unexpected termination
@@ -230,7 +233,8 @@ function parseFormalityCaseLevel(detail) {
 // RESILIENT FETCH ENGINE WITH VERIFICATION & CIRCUIT BREAKER
 // ============================================================
 async function fetchVerifiedRequest(url, payload, checkpoint, customTimeout = CONFIG.TIMEOUT_MS) {
-    for (let retry = 0; retry <= CONFIG.MAX_RETRIES; retry++) {
+    const maxRetries = 4;
+    for (let retry = 0; retry <= maxRetries; retry++) {
         try {
             const reqHeaders = getHeadersForAttempt(retry);
             const res = await axios.post(url, payload, {
@@ -258,14 +262,19 @@ async function fetchVerifiedRequest(url, payload, checkpoint, customTimeout = CO
 
         } catch (err) {
             const isRejectionSignal = err.statusCode === 429 || err.statusCode === 403 || (err.statusCode >= 500);
+            const isNetworkTimeout = err.code === 'ETIMEDOUT' || err.code === 'ECONNRESET' || err.code === 'ENOTFOUND' || err.code === 'ECONNREFUSED' || (err.message && (err.message.includes('timeout') || err.message.includes('ETIMEDOUT')));
             
-            if (retry < CONFIG.MAX_RETRIES && !isRejectionSignal) {
-                const waitTime = Math.pow(2, retry) * 1000;
-                console.warn(`   ⚠️ Lỗi mạng (${err.message}) - thử lại lần ${retry + 1}/${CONFIG.MAX_RETRIES} sau ${waitTime}ms...`);
+            if (retry < maxRetries && (!isRejectionSignal || isNetworkTimeout)) {
+                const baseWait = Math.pow(2, retry) * 1000;
+                const jitter = Math.floor(Math.random() * 500);
+                const waitTime = baseWait + jitter;
+                console.warn(`   ⚠️ Lỗi kết nối (${err.message}) - Thử lại lần ${retry + 1}/${maxRetries} sau ${waitTime}ms...`);
                 await new Promise(resolve => setTimeout(resolve, waitTime));
             } else {
-                // Tăng biến đếm Circuit Breaker
-                checkpoint.consecutiveFailures += 1;
+                // Chỉ tăng đếm Circuit Breaker khi gặp lỗi từ chối chủ động từ phía Server (429, 403, 5xx)
+                if (!isNetworkTimeout) {
+                    checkpoint.consecutiveFailures += 1;
+                }
                 console.error(`   ❌ Request thất bại [Lỗi liên tiếp: ${checkpoint.consecutiveFailures}/${CONFIG.MAX_CONSECUTIVE_FAILURES}]: ${err.message}`);
                 
                 if (checkpoint.consecutiveFailures >= CONFIG.MAX_CONSECUTIVE_FAILURES) {
@@ -347,6 +356,12 @@ async function main() {
                 if (currentLimit > 25) {
                     currentLimit = 25;
                     console.warn(`⚠️ Discovery gặp lỗi với limit=${payload.limit}. Tự động giảm limit xuống ${currentLimit} và thử lại...`);
+                    await new Promise(resolve => setTimeout(resolve, 2000));
+                    continue;
+                } else if (currentLimit > 10) {
+                    currentLimit = 10;
+                    console.warn(`⚠️ Discovery vẫn gặp lỗi với limit=25. Tiếp tục giảm limit xuống ${currentLimit} và thử lại...`);
+                    await new Promise(resolve => setTimeout(resolve, 3000));
                     continue;
                 }
                 throw pageErr;

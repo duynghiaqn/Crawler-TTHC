@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios');
+require('dotenv').config();
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const DETAILS_DIR = path.join(DATA_DIR, 'details');
@@ -313,6 +315,110 @@ function compareProvinceWard() {
     fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(currentItems, null, 2));
     console.log(`📸 Đã cập nhật Snapshot mới nhất cho kỳ so sánh tiếp theo.`);
     console.log('================================================================\n');
+
+    const isChanged = addedItems.length > 0 || removedItems.length > 0 || modifiedItems.length > 0 || process.env.FORCE_ALERT === 'true';
+    if (isChanged) {
+        console.log(`🔔 Phát hiện biến động số liệu TTHC (Thêm: ${addedItems.length}, Bãi bỏ: ${removedItems.length}, Thay đổi: ${modifiedItems.length}). Tiến hành gửi cảnh báo...`);
+        await sendAlertNotification({
+            added: addedItems,
+            removed: removedItems,
+            modified: modifiedItems,
+            summary: report.summary,
+            hasSnapshot
+        });
+    } else {
+        console.log(`ℹ️ Không có biến động tăng/giảm TTHC so với kỳ trước. Bỏ qua gửi cảnh báo.`);
+    }
 }
 
-compareProvinceWard();
+async function sendAlertNotification(summaryData) {
+    const gasWebhookUrl = process.env.GAS_WEBHOOK_URL;
+    const gasSecretKey = process.env.GAS_SECRET_KEY || '';
+
+    if (!gasWebhookUrl) {
+        console.log('⚠️ GAS_WEBHOOK_URL chưa được cấu hình. Bỏ qua gửi cảnh báo.');
+        return;
+    }
+
+    const timeVN = new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' });
+    const { added, removed, modified, summary, hasSnapshot } = summaryData;
+
+    let emoji = '📊';
+    if (summary.added_count > 0 && summary.removed_count === 0) emoji = '📈';
+    else if (summary.removed_count > 0 && summary.added_count === 0) emoji = '📉';
+    else if (summary.added_count > 0 || summary.removed_count > 0) emoji = '⚠️';
+
+    const netSign = summary.net_change >= 0 ? `+${summary.net_change}` : `${summary.net_change}`;
+
+    let messageLines = [
+        `${emoji} *[CẢNH BÁO BIẾN ĐỘNG TTHC CẤP TỈNH & CẤP XÃ]*`,
+        `⏰ *Thời gian:* \`${timeVN}\` (Giờ VN)`,
+        `📌 *Trạng thái kỳ so sánh:* ${hasSnapshot ? 'So với Snapshot gần nhất' : 'Khởi tạo Snapshot ban đầu'}`,
+        ``,
+        `📈 *THỐNG KÊ TỔNG QUAN:*`,
+        `  • Kỳ trước: *${summary.previous_total}* TTHC`,
+        `  • Hiện tại: *${summary.current_total}* TTHC`,
+        `  • Biến động ròng (Net): *${netSign}* TTHC`,
+        `  • 🆕 Thêm mới: *${summary.added_count}* TTHC`,
+        `  • 🗑️ Bãi bỏ: *${summary.removed_count}* TTHC`,
+        `  • ✏️ Thay đổi thông tin: *${summary.modified_count}* TTHC`,
+        ``,
+        `🏢 *PHÂN LOẠI CẤP THỰC HIỆN:*`,
+        `  • Chỉ Cấp Tỉnh: ${summary.level_breakdown.province_only}`,
+        `  • Chỉ Cấp Xã: ${summary.level_breakdown.ward_only}`,
+        `  • Cả Tỉnh & Xã: ${summary.level_breakdown.both_province_and_ward}`
+    ];
+
+    if (added.length > 0) {
+        messageLines.push(``, `✨ *DANH SÁCH TTHC THÊM MỚI (${added.length}):*`);
+        added.slice(0, 5).forEach((item, idx) => {
+            messageLines.push(`${idx + 1}. \`[${item.code}]\` ${item.name}`);
+        });
+        if (added.length > 5) messageLines.push(`... và ${added.length - 5} TTHC khác.`);
+    }
+
+    if (removed.length > 0) {
+        messageLines.push(``, `❌ *DANH SÁCH TTHC BÃI BỎ (${removed.length}):*`);
+        removed.slice(0, 5).forEach((item, idx) => {
+            messageLines.push(`${idx + 1}. \`[${item.code}]\` ${item.name}`);
+        });
+        if (removed.length > 5) messageLines.push(`... và ${removed.length - 5} TTHC khác.`);
+    }
+
+    if (modified.length > 0) {
+        messageLines.push(``, `✏️ *DANH SÁCH TTHC THAY ĐỔI (${modified.length}):*`);
+        modified.slice(0, 5).forEach((item, idx) => {
+            messageLines.push(`${idx + 1}. \`[${item.code}]\` ${item.new_name || item.name} (${item.old_level} ➔ ${item.new_level})`);
+        });
+        if (modified.length > 5) messageLines.push(`... và ${modified.length - 5} TTHC khác.`);
+    }
+
+    const fullMessage = messageLines.join('\n');
+
+    try {
+        console.log('📤 Đang gửi cảnh báo biến động tới GAS Webhook...');
+        const payload = {
+            secret_key: gasSecretKey,
+            secret: gasSecretKey,
+            status: 'alert',
+            status_text: `Biến động TTHC: ${netSign} (+${summary.added_count} / -${summary.removed_count})`,
+            event_type: 'COMPARE_PROVINCE_ALERT',
+            time: timeVN,
+            message: fullMessage,
+            text: fullMessage,
+            summary: summary
+        };
+        const response = await axios.post(gasWebhookUrl, payload, {
+            headers: { 'Content-Type': 'application/json' },
+            timeout: 10000
+        });
+        console.log('📩 Kết quả từ GAS Webhook:', response.data);
+    } catch (err) {
+        console.error('❌ Lỗi gửi cảnh báo tới GAS Webhook:', err.message);
+    }
+}
+
+compareProvinceWard().catch(err => {
+    console.error('❌ Lỗi khi thực thi compareProvinceWard:', err);
+});
+

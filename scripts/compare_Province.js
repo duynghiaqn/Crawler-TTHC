@@ -10,11 +10,10 @@ const SNAPSHOT_FILE = path.join(DATA_DIR, 'snapshot_province.json');
 const REPORT_FILE = path.join(DATA_DIR, 'compare_province_report.json');
 
 // Kiểm tra điều kiện giữ lại TTHC Cấp Tỉnh / Cấp Xã (Loại trừ TTHC đặc thù của tỉnh thành khác)
-function shouldIncludeInProvinceWardReport(detail) {
+function shouldIncludeItem(detail) {
     const isProvince = Boolean(detail.isProvince || detail.type === 'PROVINCE');
     const isWard = Boolean(detail.isWard || detail.type === 'WARD');
 
-    // Chỉ xét TTHC Cấp tỉnh hoặc Cấp xã
     if (!isProvince && !isWard) return false;
 
     const deptCode = detail.departmentPromulgateCode || detail.departmentCode || detail.departmentPromulgateId || '';
@@ -24,16 +23,22 @@ function shouldIncludeInProvinceWardReport(detail) {
     const type = detail.type || detail.formalityType || '';
     const isSpecificOther = (type === 'SPECIFIC' || type === 'LOCAL_REGULATION') && !isGiaLai;
 
-    // Loại bỏ TTHC đặc thù/địa phương của tỉnh thành khác
     if (isSpecificOther) return false;
 
     return true;
 }
 
-function loadProvinceWardDataset() {
-    const items = [];
+function getLevelLabel(item) {
+    if (item.isProvince && item.isWard) return 'Cấp tỉnh & Cấp xã (Cả 2 cấp)';
+    if (item.isProvince) return 'Cấp tỉnh';
+    if (item.isWard) return 'Cấp xã';
+    return 'Chưa xác định';
+}
 
-    // 1. Nạp từ data/details/*.json (Chi tiết chính xác nhất)
+function loadUniqueProvinceWardDataset() {
+    const codeMap = new Map();
+
+    // 1. Nạp từ data/details/*.json (Gộp theo Mã TTHC duy nhất)
     if (fs.existsSync(DETAILS_DIR)) {
         try {
             const files = fs.readdirSync(DETAILS_DIR).filter(f => f.endsWith('.json'));
@@ -41,31 +46,41 @@ function loadProvinceWardDataset() {
                 try {
                     const fullPath = path.join(DETAILS_DIR, file);
                     const detail = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
-                    if (detail && detail.id && shouldIncludeInProvinceWardReport(detail)) {
+                    if (detail && shouldIncludeItem(detail)) {
+                        const code = String(detail.code || detail.codeNotation || detail.ma_tthc || detail.id).trim();
+                        if (!code) continue;
+
                         const isProvince = Boolean(detail.isProvince || detail.type === 'PROVINCE');
                         const isWard = Boolean(detail.isWard || detail.type === 'WARD');
 
-                        items.push({
-                            id: detail.id,
-                            code: detail.code || detail.codeNotation || detail.ma_tthc || '',
-                            name: detail.name || detail.ten_tthc || '',
-                            formalityType: detail.formalityType || detail.type || 'STANDARD',
-                            isProvince,
-                            isWard,
-                            isMinistry: Boolean(detail.isMinistry),
-                            executingAgencies: detail.executingAgencies || detail.co_quan_thuc_hien || '',
-                            departmentPromulgate: detail.departmentPromulgateName || detail.departmentPromulgate || ''
-                        });
+                        if (!codeMap.has(code)) {
+                            codeMap.set(code, {
+                                code,
+                                id: detail.id,
+                                name: detail.name || detail.ten_tthc || '',
+                                isProvince,
+                                isWard,
+                                formalityType: detail.formalityType || detail.type || 'STANDARD',
+                                executingAgencies: detail.executingAgencies || detail.co_quan_thuc_hien || '',
+                                departmentPromulgate: detail.departmentPromulgateName || detail.departmentPromulgate || ''
+                            });
+                        } else {
+                            // Hợp nhất cờ phân cấp nếu 1 mã áp dụng cho cả tỉnh và xã
+                            const existing = codeMap.get(code);
+                            if (isProvince) existing.isProvince = true;
+                            if (isWard) existing.isWard = true;
+                            if (!existing.executingAgencies && (detail.executingAgencies || detail.co_quan_thuc_hien)) {
+                                existing.executingAgencies = detail.executingAgencies || detail.co_quan_thuc_hien;
+                            }
+                        }
                     }
                 } catch (e) {}
             }
         } catch (e) {}
     }
 
-    if (items.length > 0) return items;
-
-    // 2. Fallback từ discovery.json
-    if (fs.existsSync(DISCOVERY_FILE)) {
+    // 2. Fallback từ discovery.json nếu cần
+    if (codeMap.size === 0 && fs.existsSync(DISCOVERY_FILE)) {
         try {
             const cache = JSON.parse(fs.readFileSync(DISCOVERY_FILE, 'utf8'));
             const raw = cache.items || cache;
@@ -82,42 +97,56 @@ function loadProvinceWardDataset() {
                         formalityType: item.formalityType
                     };
 
-                    if (shouldIncludeInProvinceWardReport(mockDetail)) {
-                        items.push({
-                            id: item.id || item.code,
-                            code: item.code || item.codeNotation || '',
-                            name: item.name || '',
-                            formalityType: item.formalityType || item.type || 'STANDARD',
-                            isProvince: mockDetail.isProvince,
-                            isWard: mockDetail.isWard,
-                            isMinistry: false,
-                            executingAgencies: depts,
-                            departmentPromulgate: item.departmentPromulgate || ''
-                        });
+                    if (shouldIncludeItem(mockDetail)) {
+                        const code = String(item.code || item.codeNotation || item.id).trim();
+                        if (!code) return;
+
+                        const isProvince = mockDetail.isProvince;
+                        const isWard = mockDetail.isWard;
+
+                        if (!codeMap.has(code)) {
+                            codeMap.set(code, {
+                                code,
+                                id: item.id || code,
+                                name: item.name || '',
+                                isProvince,
+                                isWard,
+                                formalityType: item.formalityType || item.type || 'STANDARD',
+                                executingAgencies: depts,
+                                departmentPromulgate: item.departmentPromulgate || ''
+                            });
+                        } else {
+                            const existing = codeMap.get(code);
+                            if (isProvince) existing.isProvince = true;
+                            if (isWard) existing.isWard = true;
+                        }
                     }
                 });
             }
         } catch (e) {}
     }
 
-    return items;
+    return Array.from(codeMap.values()).map(item => ({
+        ...item,
+        level_label: getLevelLabel(item)
+    }));
 }
 
 function compareProvinceWard() {
     console.log('\n================================================================');
-    console.log('🏛️  BÁO CÁO THEO DÕI BIẾN ĐỘNG TTHC CẤP TỈNH & CẤP XÃ TOÀN QUỐC');
-    console.log('    [Bao gồm: TTHC Tiêu chuẩn/Liên thông + TTHC Gia Lai H21]');
+    console.log('🏛️  BÁO CÁO THEO DÕI BIẾN ĐỘNG TTHC THEO MÃ DUY NHẤT (PROVINCE & WARD)');
+    console.log('    [Tính duy nhất theo Mã TTHC | Hợp nhất thủ tục áp dụng cả Tỉnh & Xã]');
     console.log('    [Loại bỏ: TTHC Đặc thù/Địa phương của các tỉnh thành khác]');
     console.log('================================================================\n');
 
-    const currentItems = loadProvinceWardDataset();
+    const currentItems = loadUniqueProvinceWardDataset();
     if (currentItems.length === 0) {
         console.error('⚠️ Không tìm thấy dữ liệu TTHC Cấp tỉnh / Cấp xã phù hợp.');
         return;
     }
 
     const currentMap = new Map();
-    currentItems.forEach(item => currentMap.set(item.id, item));
+    currentItems.forEach(item => currentMap.set(item.code, item));
 
     let previousMap = new Map();
     let hasSnapshot = false;
@@ -126,33 +155,45 @@ function compareProvinceWard() {
         try {
             const prevRaw = JSON.parse(fs.readFileSync(SNAPSHOT_FILE, 'utf8'));
             if (Array.isArray(prevRaw)) {
-                prevRaw.forEach(item => previousMap.set(item.id, item));
+                prevRaw.forEach(item => previousMap.set(item.code || item.id, item));
                 hasSnapshot = true;
             }
         } catch (e) {}
     }
 
-    const currProvinceItems = currentItems.filter(x => x.isProvince);
-    const currWardItems = currentItems.filter(x => x.isWard);
+    const provinceOnlyCount = currentItems.filter(x => x.isProvince && !x.isWard).length;
+    const wardOnlyCount = currentItems.filter(x => !x.isProvince && x.isWard).length;
+    const bothCount = currentItems.filter(x => x.isProvince && x.isWard).length;
 
     if (!hasSnapshot) {
-        console.log(`📸 Khởi tạo Snapshot Cấp Tỉnh & Cấp Xã (Đã lọc bỏ TTHC đặc thù tỉnh khác) lần đầu tiên.`);
-        console.log(`⚡ Tổng TTHC hợp lệ: ${currentItems.length} (Cấp Tỉnh: ${currProvinceItems.length} | Cấp Xã: ${currWardItems.length})`);
+        console.log(`📸 Khởi tạo Snapshot theo Mã TTHC duy nhất lần đầu tiên.`);
+        console.log(`⚡ Tổng số Mã TTHC duy nhất hiện tại: ${currentItems.length}`);
+        console.log(`   • Chỉ Cấp Tỉnh:             ${provinceOnlyCount} TTHC`);
+        console.log(`   • Chỉ Cấp Xã:               ${wardOnlyCount} TTHC`);
+        console.log(`   • CẢ CẤP TỈNH & CẤP XÃ:     ${bothCount} TTHC`);
+
         fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(currentItems, null, 2));
 
         const initialReport = {
             compared_at: new Date().toISOString(),
-            filter: "Standard/National TTHC + Gia Lai H21 (Excluding specific TTHCs of other provinces)",
+            filter: "Unique by TTHC Code (National Standard + Gia Lai H21 | Excluding specific TTHCs of other provinces)",
             status: 'INITIAL_SNAPSHOT_CREATED',
             summary: {
-                total_target_records: currentItems.length,
-                province: { total: currProvinceItems.length, added: currProvinceItems.length, removed: 0, net_change: currProvinceItems.length },
-                ward: { total: currWardItems.length, added: currWardItems.length, removed: 0, net_change: currWardItems.length }
+                total_unique_codes: currentItems.length,
+                previous_total: 0,
+                net_change: currentItems.length,
+                added_count: currentItems.length,
+                removed_count: 0,
+                modified_count: 0,
+                level_breakdown: {
+                    province_only: provinceOnlyCount,
+                    ward_only: wardOnlyCount,
+                    both_province_and_ward: bothCount
+                }
             },
-            province_added: [],
-            province_removed: [],
-            ward_added: [],
-            ward_removed: []
+            added_items: [],
+            removed_items: [],
+            modified_items: []
         };
 
         fs.writeFileSync(REPORT_FILE, JSON.stringify(initialReport, null, 2));
@@ -160,129 +201,109 @@ function compareProvinceWard() {
         return;
     }
 
-    // Phân tích so sánh biến động Cấp Tỉnh & Cấp Xã
-    const provinceAdded = [];
-    const provinceRemoved = [];
-    const wardAdded = [];
-    const wardRemoved = [];
+    // Phân tích so sánh chi tiết biến động
+    const addedItems = [];
+    const removedItems = [];
+    const modifiedItems = [];
 
-    // Tìm TTHC thêm mới
-    currentMap.forEach((currItem, id) => {
-        if (!previousMap.has(id)) {
-            if (currItem.isProvince) provinceAdded.push(currItem);
-            if (currItem.isWard) wardAdded.push(currItem);
+    // Tìm TTHC thêm mới hoặc thay đổi
+    currentMap.forEach((currItem, code) => {
+        if (!previousMap.has(code)) {
+            addedItems.push(currItem);
         } else {
-            const prevItem = previousMap.get(id);
-            if (!prevItem.isProvince && currItem.isProvince) provinceAdded.push(currItem);
-            if (prevItem.isProvince && !currItem.isProvince) provinceRemoved.push(currItem);
+            const prevItem = previousMap.get(code);
+            const nameChanged = prevItem.name !== currItem.name;
+            const levelChanged = prevItem.level_label !== currItem.level_label;
 
-            if (!prevItem.isWard && currItem.isWard) wardAdded.push(currItem);
-            if (prevItem.isWard && !currItem.isWard) wardRemoved.push(currItem);
+            if (nameChanged || levelChanged) {
+                modifiedItems.push({
+                    code,
+                    old_name: prevItem.name,
+                    new_name: currItem.name,
+                    old_level: prevItem.level_label,
+                    new_level: currItem.level_label,
+                    executingAgencies: currItem.executingAgencies
+                });
+            }
         }
     });
 
     // Tìm TTHC bãi bỏ
-    previousMap.forEach((prevItem, id) => {
-        if (!currentMap.has(id)) {
-            if (prevItem.isProvince) provinceRemoved.push(prevItem);
-            if (prevItem.isWard) wardRemoved.push(prevItem);
+    previousMap.forEach((prevItem, code) => {
+        if (!currentMap.has(code)) {
+            removedItems.push(prevItem);
         }
     });
 
-    let prevProvinceCount = 0;
-    let prevWardCount = 0;
-    previousMap.forEach(item => {
-        if (item.isProvince) prevProvinceCount++;
-        if (item.isWard) prevWardCount++;
-    });
+    const netChange = currentItems.length - previousMap.size;
+    const netSign = netChange >= 0 ? `+${netChange}` : `${netChange}`;
 
-    const netProvinceChange = currProvinceItems.length - prevProvinceCount;
-    const netWardChange = currWardItems.length - prevWardCount;
+    console.log(`📈 THỐNG KÊ BIẾN ĐỘNG DỮ LIỆU:`);
+    console.log(`   • Tổng số mã TTHC kỳ trước: ${previousMap.size}`);
+    console.log(`   • Tổng số mã TTHC hiện tại: ${currentItems.length}`);
+    console.log(`   • Biến động ròng (Net):      ${netSign} mã TTHC`);
+    console.log(`   • 🆕 Mã TTHC thêm mới:      ${addedItems.length} TTHC`);
+    console.log(`   • 🗑️ Mã TTHC bãi bỏ:        ${removedItems.length} TTHC`);
+    console.log(`   • ✏️ Mã TTHC thay đổi:       ${modifiedItems.length} TTHC\n`);
 
-    const signProvince = netProvinceChange >= 0 ? `+${netProvinceChange}` : `${netProvinceChange}`;
-    const signWard = netWardChange >= 0 ? `+${netWardChange}` : `${netWardChange}`;
+    console.log(`📊 PHÂN LOẠI CẤP THỰC HIỆN HIỆN TẠI:`);
+    console.log(`   • 🏢 Chỉ Cấp Tỉnh:             ${provinceOnlyCount} TTHC`);
+    console.log(`   • 🏡 Chỉ Cấp Xã:               ${wardOnlyCount} TTHC`);
+    console.log(`   • 🔄 CẢ CẤP TỈNH & CẤP XÃ:     ${bothCount} TTHC\n`);
 
-    console.log(`📌 1. BÁO CÁO TTHC CẤP TỈNH (PROVINCE LEVEL):`);
-    console.log(`   • Số lượng kỳ trước: ${prevProvinceCount}`);
-    console.log(`   • Số lượng hiện tại: ${currProvinceItems.length}`);
-    console.log(`   • Biến động ròng (Net): ${signProvince} TTHC`);
-    console.log(`   • 🆕 Thêm mới / bổ sung: ${provinceAdded.length} TTHC`);
-    console.log(`   • 🗑️ Bãi bỏ / loại bỏ:   ${provinceRemoved.length} TTHC\n`);
-
-    if (provinceAdded.length > 0) {
-        console.log(`   ✨ Chi tiết TTHC Cấp Tỉnh thêm mới (${provinceAdded.length}):`);
-        provinceAdded.slice(0, 10).forEach((item, idx) => {
-            console.log(`      ${idx + 1}. [${item.code}] ${item.name}`);
+    if (addedItems.length > 0) {
+        console.log(`✨ CHI TIẾT TTHC THÊM MỚI (${addedItems.length}):`);
+        addedItems.slice(0, 10).forEach((item, idx) => {
+            console.log(`   ${idx + 1}. [${item.code}] ${item.name} (${item.level_label})`);
         });
-        if (provinceAdded.length > 10) console.log(`      ... và ${provinceAdded.length - 10} TTHC khác.`);
+        if (addedItems.length > 10) console.log(`   ... và ${addedItems.length - 10} TTHC khác.`);
         console.log('');
     }
 
-    if (provinceRemoved.length > 0) {
-        console.log(`   ❌ Chi tiết TTHC Cấp Tỉnh bãi bỏ (${provinceRemoved.length}):`);
-        provinceRemoved.slice(0, 10).forEach((item, idx) => {
-            console.log(`      ${idx + 1}. [${item.code}] ${item.name}`);
+    if (removedItems.length > 0) {
+        console.log(`❌ CHI TIẾT TTHC BÃI BỎ (${removedItems.length}):`);
+        removedItems.slice(0, 10).forEach((item, idx) => {
+            console.log(`   ${idx + 1}. [${item.code}] ${item.name} (${item.level_label})`);
         });
-        if (provinceRemoved.length > 10) console.log(`      ... và ${provinceRemoved.length - 10} TTHC khác.`);
+        if (removedItems.length > 10) console.log(`   ... và ${removedItems.length - 10} TTHC khác.`);
         console.log('');
     }
 
-    console.log(`----------------------------------------------------------------`);
-    console.log(`📌 2. BÁO CÁO TTHC CẤP XÃ (WARD/COMMUNE LEVEL):`);
-    console.log(`   • Số lượng kỳ trước: ${prevWardCount}`);
-    console.log(`   • Số lượng hiện tại: ${currWardItems.length}`);
-    console.log(`   • Biến động ròng (Net): ${signWard} TTHC`);
-    console.log(`   • 🆕 Thêm mới / bổ sung: ${wardAdded.length} TTHC`);
-    console.log(`   • 🗑️ Bãi bỏ / loại bỏ:   ${wardRemoved.length} TTHC\n`);
-
-    if (wardAdded.length > 0) {
-        console.log(`   ✨ Chi tiết TTHC Cấp Xã thêm mới (${wardAdded.length}):`);
-        wardAdded.slice(0, 10).forEach((item, idx) => {
-            console.log(`      ${idx + 1}. [${item.code}] ${item.name}`);
+    if (modifiedItems.length > 0) {
+        console.log(`✏️ CHI TIẾT TTHC THAY ĐỔI THÔNG TIN (${modifiedItems.length}):`);
+        modifiedItems.slice(0, 10).forEach((item, idx) => {
+            console.log(`   ${idx + 1}. [${item.code}] ${item.new_name} (Cũ: ${item.old_level} -> Mới: ${item.new_level})`);
         });
-        if (wardAdded.length > 10) console.log(`      ... và ${wardAdded.length - 10} TTHC khác.`);
-        console.log('');
-    }
-
-    if (wardRemoved.length > 0) {
-        console.log(`   ❌ Chi tiết TTHC Cấp Xã bãi bỏ (${wardRemoved.length}):`);
-        wardRemoved.slice(0, 10).forEach((item, idx) => {
-            console.log(`      ${idx + 1}. [${item.code}] ${item.name}`);
-        });
-        if (wardRemoved.length > 10) console.log(`      ... và ${wardRemoved.length - 10} TTHC khác.`);
+        if (modifiedItems.length > 10) console.log(`   ... và ${modifiedItems.length - 10} TTHC khác.`);
         console.log('');
     }
 
     const report = {
         compared_at: new Date().toISOString(),
-        filter: "Standard/National TTHC + Gia Lai H21 (Excluding specific TTHCs of other provinces)",
+        filter: "Unique by TTHC Code (National Standard + Gia Lai H21 | Excluding specific TTHCs of other provinces)",
         summary: {
-            province: {
-                previous: prevProvinceCount,
-                current: currProvinceItems.length,
-                net_change: netProvinceChange,
-                added_count: provinceAdded.length,
-                removed_count: provinceRemoved.length
-            },
-            ward: {
-                previous: prevWardCount,
-                current: currWardItems.length,
-                net_change: netWardChange,
-                added_count: wardAdded.length,
-                removed_count: wardRemoved.length
+            previous_total: previousMap.size,
+            current_total: currentItems.length,
+            net_change: netChange,
+            added_count: addedItems.length,
+            removed_count: removedItems.length,
+            modified_count: modifiedItems.length,
+            level_breakdown: {
+                province_only: provinceOnlyCount,
+                ward_only: wardOnlyCount,
+                both_province_and_ward: bothCount
             }
         },
-        province_added: provinceAdded,
-        province_removed: provinceRemoved,
-        ward_added: wardAdded,
-        ward_removed: wardRemoved
+        added_items: addedItems,
+        removed_items: removedItems,
+        modified_items: modifiedItems
     };
 
     fs.writeFileSync(REPORT_FILE, JSON.stringify(report, null, 2));
-    console.log(`💾 Chi tiết báo cáo Cấp tỉnh & Cấp xã đã lưu tại: data/compare_province_report.json`);
+    console.log(`💾 Chi tiết báo cáo đã lưu tại: data/compare_province_report.json`);
 
     fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(currentItems, null, 2));
-    console.log(`📸 Đã cập nhật Snapshot Cấp tỉnh/xã mới nhất cho kỳ so sánh tiếp theo.`);
+    console.log(`📸 Đã cập nhật Snapshot mới nhất cho kỳ so sánh tiếp theo.`);
     console.log('================================================================\n');
 }
 

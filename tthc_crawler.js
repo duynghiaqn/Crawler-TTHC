@@ -259,95 +259,79 @@ async function main() {
     process.on('SIGINT', handleShutdown);
     process.on('SIGTERM', handleShutdown);
 
-    // 4. Thu thập danh mục TTHC Toàn quốc (Discovery Caching & Execution)
+    // 4. Thu thập danh mục TTHC Toàn quốc (Discovery Engine - Always Live Discovery First)
     let rawList = [];
+    let lastId = "";
+    let currentLimit = CONFIG.DISCOVERY_LIMIT;
+    
+    console.log(`🚀 Đang đồng bộ danh mục TTHC mới nhất từ máy chủ DVCQG (Discovery Engine - Limit: ${currentLimit})...`);
 
-    if (fs.existsSync(CONFIG.DISCOVERY_FILE)) {
-        try {
-            const cacheData = JSON.parse(fs.readFileSync(CONFIG.DISCOVERY_FILE, 'utf8'));
-            const cacheAgeHours = (Date.now() - new Date(cacheData.savedAt).getTime()) / (1000 * 3600);
-            const isCI = process.env.GITHUB_ACTIONS === 'true';
-            
-            if (Array.isArray(cacheData.items) && cacheData.items.length > 0 && (cacheAgeHours < 24 || isCI)) {
-                rawList = cacheData.items;
-                console.log(`⚡ Đã nạp ${rawList.length} TTHC từ Discovery Cache (Tuổi cache: ${cacheAgeHours.toFixed(1)}h | CI Mode: ${isCI}).`);
+    try {
+        while (true) {
+            const payload = { limit: currentLimit, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
+            let res;
+            try {
+                res = await fetchVerifiedRequest(
+                    'https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen',
+                    payload,
+                    checkpoint,
+                    CONFIG.DISCOVERY_TIMEOUT_MS
+                );
+            } catch (pageErr) {
+                if (currentLimit > 25) {
+                    currentLimit = 25;
+                    console.warn(`⚠️ Discovery gặp lỗi với limit=${payload.limit}. Tự động giảm limit xuống ${currentLimit} và thử lại...`);
+                    continue;
+                }
+                throw pageErr;
             }
-        } catch (e) {
-            console.warn(`⚠️ Bỏ qua Discovery cache hỏng: ${e.message}`);
+
+            if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
+            res.data.items.forEach(item => rawList.push(item));
+
+            if (!res.data.lastId || res.data.lastId === lastId) break;
+            lastId = res.data.lastId;
+            console.log(`   Đã tìm thấy: ${rawList.length} mã TTHC từ máy chủ`);
+            await politeDelay();
+        }
+
+        if (rawList.length > 0) {
+            // Ghi nhận và cập nhật Discovery Cache mới nhất
+            safeWriteJson(CONFIG.DISCOVERY_FILE, {
+                savedAt: new Date().toISOString(),
+                totalItems: rawList.length,
+                items: rawList
+            });
+            console.log(`✅ Đồng bộ trực tiếp thành công ${rawList.length} TTHC từ máy chủ DVCQG.`);
+        }
+
+    } catch (err) {
+        if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
+            console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED TRONG DISCOVERY: ${err.message}`);
+        } else {
+            console.error(`⚠️ Không thể kết nối lấy danh mục mới từ máy chủ (${err.message}). Kích hoạt Fallback...`);
         }
     }
 
+    // Multitier Fallback: Nếu không lấy được danh mục mới từ mạng (do mạng lỗi/chặn IP), nạp từ Discovery Cache cũ hoặc Index hiện có
     if (rawList.length === 0) {
-        let lastId = "";
-        let currentLimit = CONFIG.DISCOVERY_LIMIT;
-        console.log(`🚀 Đang đồng bộ danh mục TTHC toàn quốc từ máy chủ (Discovery Engine - Limit: ${currentLimit})...`);
-
-        try {
-            while (true) {
-                const payload = { limit: currentLimit, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
-                let res;
-                try {
-                    res = await fetchVerifiedRequest(
-                        'https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen',
-                        payload,
-                        checkpoint,
-                        CONFIG.DISCOVERY_TIMEOUT_MS
-                    );
-                } catch (pageErr) {
-                    if (currentLimit > 25) {
-                        currentLimit = 25;
-                        console.warn(`⚠️ Discovery gặp lỗi với limit=${payload.limit}. Tự động giảm limit xuống ${currentLimit} và thử lại...`);
-                        continue;
-                    }
-                    throw pageErr;
+        console.warn(`🔄 Đang kích hoạt Fallback phục hồi danh mục từ Cache / Index dữ liệu cũ...`);
+        if (fs.existsSync(CONFIG.DISCOVERY_FILE)) {
+            try {
+                const cacheData = JSON.parse(fs.readFileSync(CONFIG.DISCOVERY_FILE, 'utf8'));
+                if (Array.isArray(cacheData.items) && cacheData.items.length > 0) {
+                    rawList = cacheData.items;
+                    console.log(`⚡ Fallback 1 thành công: Nạp ${rawList.length} TTHC từ Discovery Cache lưu trước đó.`);
                 }
-
-                if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
-                res.data.items.forEach(item => rawList.push(item));
-
-                if (!res.data.lastId || res.data.lastId === lastId) break;
-                lastId = res.data.lastId;
-                console.log(`   Đã tìm thấy: ${rawList.length} mã TTHC`);
-                await politeDelay();
-            }
-
-            if (rawList.length > 0) {
-                // Ghi Discovery Cache an toàn
-                safeWriteJson(CONFIG.DISCOVERY_FILE, {
-                    savedAt: new Date().toISOString(),
-                    totalItems: rawList.length,
-                    items: rawList
-                });
-            }
-
-        } catch (err) {
-            if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
-                console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED TRONG DISCOVERY: ${err.message}`);
-            } else {
-                console.error(`⚠️ Lỗi khi lấy danh mục từ máy chủ: ${err.message}`);
-            }
+            } catch (e) {}
         }
-
-        // Multitier Fallback: Nếu không lấy được danh mục mới từ mạng, nạp từ Discovery Cache cũ hoặc Index hiện có
-        if (rawList.length === 0) {
-            console.warn(`🔄 Đang kích hoạt Fallback phục hồi danh mục từ Cache / Index dữ liệu...`);
-            if (fs.existsSync(CONFIG.DISCOVERY_FILE)) {
-                try {
-                    const cacheData = JSON.parse(fs.readFileSync(CONFIG.DISCOVERY_FILE, 'utf8'));
-                    if (Array.isArray(cacheData.items) && cacheData.items.length > 0) {
-                        rawList = cacheData.items;
-                        console.log(`⚡ Fallback 1 thành công: Nạp ${rawList.length} TTHC từ Discovery Cache lưu trước đó.`);
-                    }
-                } catch (e) {}
-            }
-            if (rawList.length === 0 && indexData.length > 0) {
-                rawList = indexData.map(item => ({
-                    id: item.id,
-                    code: item.ma_tthc,
-                    name: item.ten_tthc
-                }));
-                console.log(`⚡ Fallback 2 thành công: Nạp ${rawList.length} TTHC từ Index hiện tại trên đĩa.`);
-            }
+        if (rawList.length === 0 && indexData.length > 0) {
+            rawList = indexData.map(item => ({
+                id: item.id,
+                code: item.ma_tthc,
+                name: item.ten_tthc
+            }));
+            console.log(`⚡ Fallback 2 thành công: Nạp ${rawList.length} TTHC từ Index hiện tại trên đĩa.`);
         }
     }
 

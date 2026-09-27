@@ -9,10 +9,21 @@ const DISCOVERY_FILE = path.join(DATA_DIR, 'discovery.json');
 const SNAPSHOT_FILE = path.join(DATA_DIR, 'snapshot_province.json');
 const REPORT_FILE = path.join(DATA_DIR, 'compare_province_report.json');
 
+// Kiểm tra TTHC thuộc Tỉnh Gia Lai (Mã H21)
+function isGiaLaiItem(item) {
+    const deptCode = item.departmentPromulgateCode || item.departmentCode || item.departmentPromulgateId || '';
+    const deptName = item.departmentPromulgateName || item.departmentPromulgate || item.executingAgencies || item.departmentsExecuting || '';
+    
+    return (
+        deptCode === 'H21' ||
+        String(deptName).toLowerCase().includes('gia lai')
+    );
+}
+
 function loadProvinceWardDataset() {
     const items = [];
 
-    // 1. Đọc trực tiếp từ data/details/*.json (nhiều thông tin chính xác nhất về isProvince, isWard)
+    // 1. Đọc trực tiếp từ data/details/*.json (Lọc duy nhất Tỉnh Gia Lai - H21)
     if (fs.existsSync(DETAILS_DIR)) {
         try {
             const files = fs.readdirSync(DETAILS_DIR).filter(f => f.endsWith('.json'));
@@ -20,25 +31,22 @@ function loadProvinceWardDataset() {
                 try {
                     const fullPath = path.join(DETAILS_DIR, file);
                     const detail = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
-                    if (detail && detail.id) {
-                        const isProvince = Boolean(detail.isProvince);
+                    if (detail && detail.id && isGiaLaiItem(detail)) {
+                        const isProvince = Boolean(detail.isProvince || detail.type === 'PROVINCE');
                         const isWard = Boolean(detail.isWard);
-                        const isMinistry = Boolean(detail.isMinistry);
-                        const isOtherAgency = Boolean(detail.isOtherAgency);
 
-                        if (isProvince || isWard) {
-                            items.push({
-                                id: detail.id,
-                                code: detail.code || detail.codeNotation || detail.ma_tthc || '',
-                                name: detail.name || detail.ten_tthc || '',
-                                isProvince,
-                                isWard,
-                                isMinistry,
-                                isOtherAgency,
-                                executingAgencies: detail.executingAgencies || detail.co_quan_thuc_hien || '',
-                                departmentPromulgate: detail.departmentPromulgate || ''
-                            });
-                        }
+                        items.push({
+                            id: detail.id,
+                            code: detail.code || detail.codeNotation || detail.ma_tthc || '',
+                            name: detail.name || detail.ten_tthc || '',
+                            departmentCode: 'H21',
+                            formalityType: detail.formalityType || detail.type || 'STANDARD',
+                            isProvince,
+                            isWard,
+                            isMinistry: Boolean(detail.isMinistry),
+                            executingAgencies: detail.executingAgencies || detail.co_quan_thuc_hien || '',
+                            departmentPromulgate: detail.departmentPromulgateName || detail.departmentPromulgate || 'UBND tỉnh Gia Lai'
+                        });
                     }
                 } catch (e) {}
             }
@@ -47,26 +55,26 @@ function loadProvinceWardDataset() {
 
     if (items.length > 0) return items;
 
-    // 2. Fallback từ index.json nếu chưa tải xong chi tiết
-    if (fs.existsSync(INDEX_FILE)) {
+    // 2. Fallback từ discovery.json nếu chưa tải xong chi tiết
+    if (fs.existsSync(DISCOVERY_FILE)) {
         try {
-            const raw = JSON.parse(fs.readFileSync(INDEX_FILE, 'utf8'));
+            const cache = JSON.parse(fs.readFileSync(DISCOVERY_FILE, 'utf8'));
+            const raw = cache.items || cache;
             if (Array.isArray(raw)) {
                 raw.forEach(item => {
-                    const levelStr = String(item.cap_thuc_hien || '');
-                    const isProvince = levelStr.includes('Cấp tỉnh');
-                    const isWard = levelStr.includes('Cấp xã');
-                    if (isProvince || isWard) {
+                    if (isGiaLaiItem(item)) {
+                        const depts = Array.isArray(item.departments) ? item.departments.join(', ') : '';
                         items.push({
-                            id: item.id || item.ma_tthc,
-                            code: item.ma_tthc || '',
-                            name: item.ten_tthc || '',
-                            isProvince,
-                            isWard,
-                            isMinistry: levelStr.includes('Cấp Bộ'),
-                            isOtherAgency: levelStr.includes('Cơ quan khác'),
-                            executingAgencies: item.co_quan_thuc_hien || '',
-                            departmentPromulgate: ''
+                            id: item.id || item.code,
+                            code: item.code || item.codeNotation || '',
+                            name: item.name || '',
+                            departmentCode: 'H21',
+                            formalityType: item.formalityType || item.type || 'STANDARD',
+                            isProvince: item.type === 'PROVINCE' || !depts.includes('cấp xã'),
+                            isWard: depts.includes('cấp xã'),
+                            isMinistry: false,
+                            executingAgencies: depts,
+                            departmentPromulgate: item.departmentPromulgate || 'UBND tỉnh Gia Lai'
                         });
                     }
                 });
@@ -79,12 +87,13 @@ function loadProvinceWardDataset() {
 
 function compareProvinceWard() {
     console.log('\n================================================================');
-    console.log('🏛️  BÁO CÁO THEO DÕI BIẾN ĐỘNG TTHC CẤP TỈNH & CẤP XÃ');
+    console.log('🏛️  BÁO CÁO THEO DÕI BIẾN ĐỘNG TTHC TỈNH GIA LAI (H21)');
+    console.log('    [Bộ lọc: departmentCode="H21" | type="PROVINCE" | STANDARD]');
     console.log('================================================================\n');
 
     const currentItems = loadProvinceWardDataset();
     if (currentItems.length === 0) {
-        console.error('❌ Không tìm thấy dữ liệu TTHC Cấp tỉnh / Cấp xã.');
+        console.error('⚠️ Không tìm thấy dữ liệu TTHC Tỉnh Gia Lai (H21) trong hệ thống.');
         return;
     }
 
@@ -104,34 +113,36 @@ function compareProvinceWard() {
         } catch (e) {}
     }
 
-    if (!hasSnapshot) {
-        console.log(`📸 Khởi tạo Snapshot Cấp Tỉnh & Cấp Xã lần đầu tiên.`);
-        console.log(`⚡ Tổng số TTHC Cấp Tỉnh/Xã hiện có: ${currentItems.length}`);
-        fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(currentItems, null, 2));
+    const currProvinceItems = currentItems.filter(x => x.isProvince);
+    const currWardItems = currentItems.filter(x => x.isWard);
 
-        const provinceCount = currentItems.filter(x => x.isProvince).length;
-        const wardCount = currentItems.filter(x => x.isWard).length;
+    if (!hasSnapshot) {
+        console.log(`📸 Khởi tạo Snapshot TTHC Tỉnh Gia Lai (H21) lần đầu tiên.`);
+        console.log(`⚡ Tổng TTHC Gia Lai phát hiện: ${currentItems.length} (Cấp Tỉnh: ${currProvinceItems.length} | Cấp Xã: ${currWardItems.length})`);
+        fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(currentItems, null, 2));
 
         const initialReport = {
             compared_at: new Date().toISOString(),
+            target_province: "Gia Lai",
+            departmentCode: "H21",
             status: 'INITIAL_SNAPSHOT_CREATED',
             summary: {
-                total_target_records: currentItems.length,
-                province: { total: provinceCount, added: provinceCount, removed: 0, net_change: provinceCount },
-                ward: { total: wardCount, added: wardCount, removed: 0, net_change: wardCount }
+                total_gialai_records: currentItems.length,
+                province: { total: currProvinceItems.length, added: currProvinceItems.length, removed: 0, net_change: currProvinceItems.length },
+                ward: { total: currWardItems.length, added: currWardItems.length, removed: 0, net_change: currWardItems.length }
             },
-            province_added: [],
+            province_added: currProvinceItems,
             province_removed: [],
-            ward_added: [],
+            ward_added: currWardItems,
             ward_removed: []
         };
 
         fs.writeFileSync(REPORT_FILE, JSON.stringify(initialReport, null, 2));
-        console.log(`✅ Đã tạo tệp báo cáo khởi tạo: data/compare_province_report.json\n`);
+        console.log(`✅ Đã ghi báo cáo khởi tạo Tỉnh Gia Lai vào: data/compare_province_report.json\n`);
         return;
     }
 
-    // Phân tích so sánh biến động Cấp Tỉnh & Cấp Xã
+    // Phân tích so sánh biến động Tỉnh Gia Lai (H21)
     const provinceAdded = [];
     const provinceRemoved = [];
     const wardAdded = [];
@@ -143,7 +154,6 @@ function compareProvinceWard() {
             if (currItem.isProvince) provinceAdded.push(currItem);
             if (currItem.isWard) wardAdded.push(currItem);
         } else {
-            // Kiểm tra trường hợp chuyển cấp (từ không phải cấp tỉnh/xã sang cấp tỉnh/xã)
             const prevItem = previousMap.get(id);
             if (!prevItem.isProvince && currItem.isProvince) provinceAdded.push(currItem);
             if (prevItem.isProvince && !currItem.isProvince) provinceRemoved.push(currItem);
@@ -153,7 +163,7 @@ function compareProvinceWard() {
         }
     });
 
-    // Tìm TTHC bị bãi bỏ / xóa
+    // Tìm TTHC bãi bỏ
     previousMap.forEach((prevItem, id) => {
         if (!currentMap.has(id)) {
             if (prevItem.isProvince) provinceRemoved.push(prevItem);
@@ -161,7 +171,6 @@ function compareProvinceWard() {
         }
     });
 
-    // Tính toán số lượng trước và sau
     let prevProvinceCount = 0;
     let prevWardCount = 0;
     previousMap.forEach(item => {
@@ -169,80 +178,74 @@ function compareProvinceWard() {
         if (item.isWard) prevWardCount++;
     });
 
-    const currProvinceCount = currentItems.filter(x => x.isProvince).length;
-    const currWardCount = currentItems.filter(x => x.isWard).length;
-
-    const netProvinceChange = currProvinceCount - prevProvinceCount;
-    const netWardChange = currWardCount - prevWardCount;
+    const netProvinceChange = currProvinceItems.length - prevProvinceCount;
+    const netWardChange = currWardItems.length - prevWardCount;
 
     const signProvince = netProvinceChange >= 0 ? `+${netProvinceChange}` : `${netProvinceChange}`;
     const signWard = netWardChange >= 0 ? `+${netWardChange}` : `${netWardChange}`;
 
-    console.log(`📌 1. BÁO CÁO TTHC CẤP TỈNH (PROVINCE LEVEL):`);
-    console.log(`   • Số lượng TTHC Cấp tỉnh kỳ trước: ${prevProvinceCount}`);
-    console.log(`   • Số lượng TTHC Cấp tỉnh hiện tại: ${currProvinceCount}`);
-    console.log(`   • Biến động ròng (Net):             ${signProvince} TTHC`);
-    console.log(`   • 🆕 Thêm mới / bổ sung cấp:       ${provinceAdded.length} TTHC`);
-    console.log(`   • 🗑️ Bãi bỏ / bỏ phân cấp:         ${provinceRemoved.length} TTHC\n`);
+    console.log(`📌 1. TTHC GIA LAI (H21) - CẤP TỈNH (PROVINCE LEVEL):`);
+    console.log(`   • Số lượng kỳ trước: ${prevProvinceCount}`);
+    console.log(`   • Số lượng hiện tại: ${currProvinceItems.length}`);
+    console.log(`   • Biến động ròng (Net): ${signProvince} TTHC`);
+    console.log(`   • 🆕 Thêm mới / bổ sung: ${provinceAdded.length} TTHC`);
+    console.log(`   • 🗑️ Bãi bỏ / loại bỏ:   ${provinceRemoved.length} TTHC\n`);
 
     if (provinceAdded.length > 0) {
-        console.log(`   ✨ TTHC Cấp Tỉnh thêm mới (${provinceAdded.length}):`);
-        provinceAdded.slice(0, 5).forEach((item, idx) => {
+        console.log(`   ✨ Chi tiết TTHC Cấp Tỉnh thêm mới (${provinceAdded.length}):`);
+        provinceAdded.forEach((item, idx) => {
             console.log(`      ${idx + 1}. [${item.code}] ${item.name}`);
         });
-        if (provinceAdded.length > 5) console.log(`      ... và ${provinceAdded.length - 5} TTHC khác.`);
         console.log('');
     }
 
     if (provinceRemoved.length > 0) {
-        console.log(`   ❌ TTHC Cấp Tỉnh bãi bỏ (${provinceRemoved.length}):`);
-        provinceRemoved.slice(0, 5).forEach((item, idx) => {
+        console.log(`   ❌ Chi tiết TTHC Cấp Tỉnh bãi bỏ (${provinceRemoved.length}):`);
+        provinceRemoved.forEach((item, idx) => {
             console.log(`      ${idx + 1}. [${item.code}] ${item.name}`);
         });
-        if (provinceRemoved.length > 5) console.log(`      ... và ${provinceRemoved.length - 5} TTHC khác.`);
         console.log('');
     }
 
     console.log(`----------------------------------------------------------------`);
-    console.log(`📌 2. BÁO CÁO TTHC CẤP XÃ (WARD/COMMUNE LEVEL):`);
-    console.log(`   • Số lượng TTHC Cấp xã kỳ trước:   ${prevWardCount}`);
-    console.log(`   • Số lượng TTHC Cấp xã hiện tại:   ${currWardCount}`);
-    console.log(`   • Biến động ròng (Net):             ${signWard} TTHC`);
-    console.log(`   • 🆕 Thêm mới / bổ sung cấp:       ${wardAdded.length} TTHC`);
-    console.log(`   • 🗑️ Bãi bỏ / bỏ phân cấp:         ${wardRemoved.length} TTHC\n`);
+    console.log(`📌 2. TTHC GIA LAI (H21) - CẤP XÃ (WARD/COMMUNE LEVEL):`);
+    console.log(`   • Số lượng kỳ trước: ${prevWardCount}`);
+    console.log(`   • Số lượng hiện tại: ${currWardItems.length}`);
+    console.log(`   • Biến động ròng (Net): ${signWard} TTHC`);
+    console.log(`   • 🆕 Thêm mới / bổ sung: ${wardAdded.length} TTHC`);
+    console.log(`   • 🗑️ Bãi bỏ / loại bỏ:   ${wardRemoved.length} TTHC\n`);
 
     if (wardAdded.length > 0) {
-        console.log(`   ✨ TTHC Cấp Xã thêm mới (${wardAdded.length}):`);
-        wardAdded.slice(0, 5).forEach((item, idx) => {
+        console.log(`   ✨ Chi tiết TTHC Cấp Xã thêm mới (${wardAdded.length}):`);
+        wardAdded.forEach((item, idx) => {
             console.log(`      ${idx + 1}. [${item.code}] ${item.name}`);
         });
-        if (wardAdded.length > 5) console.log(`      ... và ${wardAdded.length - 5} TTHC khác.`);
         console.log('');
     }
 
     if (wardRemoved.length > 0) {
-        console.log(`   ❌ TTHC Cấp Xã bãi bỏ (${wardRemoved.length}):`);
-        wardRemoved.slice(0, 5).forEach((item, idx) => {
+        console.log(`   ❌ Chi tiết TTHC Cấp Xã bãi bỏ (${wardRemoved.length}):`);
+        wardRemoved.forEach((item, idx) => {
             console.log(`      ${idx + 1}. [${item.code}] ${item.name}`);
         });
-        if (wardRemoved.length > 5) console.log(`      ... và ${wardRemoved.length - 5} TTHC khác.`);
         console.log('');
     }
 
-    // Ghi file báo cáo JSON
     const report = {
         compared_at: new Date().toISOString(),
+        target_province: "Gia Lai",
+        departmentCode: "H21",
         summary: {
             province: {
                 previous: prevProvinceCount,
-                current: currProvinceCount,
+                current: currProvinceItems.length,
                 net_change: netProvinceChange,
                 added_count: provinceAdded.length,
                 removed_count: provinceRemoved.length
             },
             ward: {
                 previous: prevWardCount,
-                current: currWardCount,
+                current: currWardItems.length,
                 net_change: netWardChange,
                 added_count: wardAdded.length,
                 removed_count: wardRemoved.length
@@ -255,11 +258,10 @@ function compareProvinceWard() {
     };
 
     fs.writeFileSync(REPORT_FILE, JSON.stringify(report, null, 2));
-    console.log(`💾 Chi tiết báo cáo Cấp tỉnh & Cấp xã đã lưu tại: data/compare_province_report.json`);
+    console.log(`💾 Chi tiết báo cáo Tỉnh Gia Lai (H21) đã lưu tại: data/compare_province_report.json`);
 
-    // Cập nhật Snapshot cho kỳ tiếp theo
     fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(currentItems, null, 2));
-    console.log(`📸 Đã cập nhật Snapshot Cấp tỉnh/xã mới nhất cho lần so sánh tiếp theo.`);
+    console.log(`📸 Đã cập nhật Snapshot Tỉnh Gia Lai cho kỳ so sánh tiếp theo.`);
     console.log('================================================================\n');
 }
 

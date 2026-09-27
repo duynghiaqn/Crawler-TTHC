@@ -10,6 +10,7 @@ node tthc_crawler.js
 
 # 2. Phân tích so sánh biến động dữ liệu TTHC (tăng/giảm/bãi bỏ)
 node scripts/compare.js
+node scripts/compare_Province.js
 
 echo "=================================================="
 echo "📦 ĐANG CẬP NHẬT GITHUB REPOSITORY (MAIN & DATA)"

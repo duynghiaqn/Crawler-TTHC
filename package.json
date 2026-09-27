@@ -6,6 +6,7 @@
   "scripts": {
     "crawl-and-publish": "bash scripts/crawl_and_publish.sh",
     "compare": "node scripts/compare.js",
+    "compare:province": "node scripts/compare_Province.js",
     "build-data": "node pipeline/index.js",
     "test:regression": "node tests/regression.js"
   },

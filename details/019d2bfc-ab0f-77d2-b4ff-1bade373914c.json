@@ -1,0 +1,352 @@
+{
+  "id": "019d2bfc-ab0f-77d2-b4ff-1bade373914c",
+  "code": "1.010343",
+  "codeNotation": "1.010343",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1:\n+ Về phương thức lập hóa đơn điện tử và thời điểm chuyển dữ liệu hóa đơn điện tử:"
+    },
+    {
+      "name": "Trường hợp (1): Người bán hàng chuyển dữ liệu hóa đơn điện tử hàng hóa, cung cấp dịch vụ phát sinh trong tháng hoặc quý theo Bảng tổng hợp dữ liệu hóa đơn điện tử",
+      "description": "++Trường hợp gửi theo Mẫu số 01/TH-HĐĐT Phụ lục III ban hành kèm theo Thông tư số 91/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính quy định về hóa đơn, chứng từ đối với các trường hợp sau:\n+++ Cung cấp dịch vụ thuộc lĩnh vực: bưu chính, viễn thông, bảo hiểm, tài chính ngân hàng, vận tải hàng không, chứng khoán, tài sản mã hóa, giao dịch trên sàn giao dịch các-bon;\n+++ Bán hàng hóa là điện, nước nếu có thông tin về mã khách hàng hoặc mã số thuế của khách hàng.\n+++ Bán hàng hóa, cung cấp dịch vụ của tổ chức nước ngoài có hoạt động kinh doanh, cung cấp dịch vụ thông qua nền tảng thương mại điện tử, nền tảng số khác tại Việt Nam.\n++ Trường hợp gửi theo Mẫu 01/TH-DT Phụ lục III ban hành kèm theo Thông tư số 91/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính: hoạt động kinh doanh casino và trò chơi điện tử có thưởng, thời điểm lập hóa đơn điện tử chậm nhất là 01 ngày kể từ thời điểm kết thúc ngày xác định doanh thu, đồng thời doanh nghiệp kinh doanh casino và trò chơi điện tử có thưởng chuyển dữ liệu ghi nhận số tiền thu được (do đổi đồng tiền quy ước cho người chơi tại quầy, tại bàn chơi và số tiền thu tại máy trò chơi điện tử có thưởng) trừ đi số tiền đổi trả cho người chơi (do người chơi trúng thưởng hoặc người chơi không sử dụng hết) theo Mẫu 01/TH-DT Phụ lục IV ban hành kèm theo Thông tư số 91/2026/TT-BTC đến cơ quan thuế cùng thời điểm chuyển dữ liệu hóa đơn điện tử. Ngày xác định doanh thu là khoảng thời gian từ 0 giờ 00 phút đến 23 giờ 59 phút cùng ngày.”"
+    },
+    {
+      "name": "Trường hợp (2): Phương thức chuyển đầy đủ nội dung hóa đơn áp dụng đối với trường hợp bán hàng hóa, cung cấp dịch vụ không thuộc quy định chuyển dữ liệu hóa đơn điện tử theo bảng tổng hợp",
+      "description": "Người bán sau khi lập đầy đủ các nội dung trên hóa đơn gửi hóa đơn cho người mua và đồng thời gửi hóa đơn cho cơ quan thuế chậm nhất là ngày làm việc tiếp theo kể từ thời điểm lập hóa đơn."
+    },
+    {
+      "name": "",
+      "description": "+ Về hình thức gửi dữ liệu tới cơ quan thuế như sau: \n++ Đối với hình thức gửi trực tiếp:\n+++ Tổ chức kinh tế sử dụng hóa đơn bình quân từ 1.000.000 hóa đơn một tháng trở lên (tính theo số lượng hóa đơn bình quân năm trước liền kề), có hệ thống công nghệ thông tin đáp ứng yêu cầu về định dạng chuẩn dữ liệu, có nhu cầu chuyển dữ liệu hóa đơn điện tử theo hình thức gửi trực tiếp đến cơ quan thuế gửi văn bản kèm theo tài liệu chứng minh điều kiện đáp ứng đến Cục Thuế.\n+++ Tổ chức kinh tế có tổ chức mô hình Công ty mẹ - con, có xây dựng hệ thống quản lý dữ liệu hóa đơn tập trung tại Công ty mẹ và có nhu cầu Công ty mẹ chuyển toàn bộ dữ liệu hóa đơn điện tử bao gồm cả dữ liệu của các công ty con đến cơ quan thuế qua Hệ thống thông tin quản lý thuế thì gửi kèm theo danh sách công ty con đến Cục Thuế để thực hiện kết nối kỹ thuật.\n++ Đối với hình thức gửi thông qua tổ chức cung cấp dịch vụ hóa đơn điện tử:\n+++ Các tổ chức kinh tế không thuộc trường hợp gửi trực tiếp thực hiện ký hợp đồng với tổ chức cung cấp dịch vụ hóa đơn điện tử để tổ chức cung cấp dịch vụ hóa đơn điện tử làm dịch vụ chuyển dữ liệu hóa đơn điện tử đến cơ quan thuế."
+    },
+    {
+      "name": "Trường hợp (3): Chuyển dữ liệu chứng từ điện tử đến cơ quan quản lý thuế",
+      "description": "+ Tổ chức, cá nhân khấu trừ thuế sau khi lập đầy đủ các nội dung trên chứng từ khấu trừ thuế thu nhập cá nhân điện tử gửi cho người bị khấu trừ thuế, đồng thời gửi cho cơ quan thuế ngay trong ngày lập chứng từ.\n++ Tổ chức khấu trừ thuế thu nhập cá nhân là tổ chức kết nối chuyển dữ liệu hóa đơn điện tử theo hình thức gửi trực tiếp đến cơ quan thuế thì chuyển dữ liệu chứng từ khấu trừ thuế thu nhập cá nhân qua Hệ thống thông tin quản lý thuế.\n++ Tổ chức, cá nhân trả thu nhập không thuộc đối tượng áp dụng hóa đơn điện tử và tổ chức, cá nhân trả thu nhập sử dụng hóa đơn điện tử có mã của cơ quan thuế sử dụng miễn phí dịch vụ theo quy định tại Điều 11 Nghị định số 254/2026/NĐ-CP thì được lựa chọn chuyển dữ liệu chứng từ khấu trừ thuế thu nhập cá nhân điện tử thông qua Hệ thống thông tin quản lý thuế hoặc tổ chức cung cấp dịch vụ hóa đơn điện tử được Cục Thuế ủy thác cung cấp dịch vụ chứng từ khấu trừ thuế thu nhập cá nhân điện tử."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan Thuế tiếp nhận và giải quyết hồ sơ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Đối với dữ liệu gửi Cơ quan thuế: Hệ thống thông tin quản lý thuế gửi phản hồi tự động về việc xác nhận người nộp thuế đã gửi thành công và thông báo về thời điểm tiếp nhận chính thức hồ sơ, tài liệu của người nộp thuế;\n+ Đối với trường hợp chuyển dữ liệu hóa đơn điện tử theo hình thức gửi trực tiếp đến cơ quan thuế, \n++ Trong thời gian 05 ngày làm việc kể từ ngày Cơ quan thuế gửi thông báo  Mẫu 01/TB-ĐKĐT, tổ chức cần chuẩn bị đủ điều kiện về hạ tầng kỹ thuật và thông báo cho Cục Thuế để phối hợp kết nối.\n++ Trường hợp doanh nghiệp, tổ chức thông báo cho Cục Thuế để phối hợp kết nối: Thời gian thực hiện trong 10 ngày làm việc kể từ ngày Cục Thuế nhận được đề nghị của doanh nghiệp, tổ chức, Cục Thuế thực hiện kiểm thử kết nối, truyền nhận dữ liệu, trường hợp thành công thì doanh nghiệp, tổ chức thực hiện gửi dữ liệu thành hình thức gửi trực tiếp;\n++ Trường hợp doanh nghiệp, tổ chức không thông báo cho Cục Thuế để phối hợp kết nối hoặc kết nối không thành công: trong 05 ngày làm việc cơ quan thuế gửi thông báo và doanh nghiệp, tổ chức thay đổi đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Đối với dữ liệu gửi Cơ quan thuế: Hệ thống thông tin quản lý thuế gửi phản hồi tự động về việc xác nhận người nộp thuế đã gửi thành công và thông báo về thời điểm tiếp nhận chính thức hồ sơ, tài liệu của người nộp thuế;\n+ Đối với trường hợp chuyển dữ liệu hóa đơn điện tử theo hình thức gửi trực tiếp đến cơ quan thuế, \n++ Trong thời gian 05 ngày làm việc kể từ ngày Cơ quan thuế gửi thông báo  Mẫu 01/TB-ĐKĐT, tổ chức cần chuẩn bị đủ điều kiện về hạ tầng kỹ thuật và thông báo cho Cục Thuế để phối hợp kết nối.\n++ Trường hợp doanh nghiệp, tổ chức thông báo cho Cục Thuế để phối hợp kết nối: Thời gian thực hiện trong 10 ngày làm việc kể từ ngày Cục Thuế nhận được đề nghị của doanh nghiệp, tổ chức, Cục Thuế thực hiện kiểm thử kết nối, truyền nhận dữ liệu, trường hợp thành công thì doanh nghiệp, tổ chức thực hiện gửi dữ liệu thành hình thức gửi trực tiếp;\n++ Trường hợp doanh nghiệp, tổ chức không thông báo cho Cục Thuế để phối hợp kết nối hoặc kết nối không thành công: trong 05 ngày làm việc cơ quan thuế gửi thông báo và doanh nghiệp, tổ chức thay đổi đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Đối với dữ liệu gửi Cơ quan thuế: Hệ thống thông tin quản lý thuế gửi phản hồi tự động về việc xác nhận người nộp thuế đã gửi thành công và thông báo về thời điểm tiếp nhận chính thức hồ sơ, tài liệu của người nộp thuế;\n+ Đối với trường hợp chuyển dữ liệu hóa đơn điện tử theo hình thức gửi trực tiếp đến cơ quan thuế, \n++ Trong thời gian 05 ngày làm việc kể từ ngày Cơ quan thuế gửi thông báo  Mẫu 01/TB-ĐKĐT, tổ chức cần chuẩn bị đủ điều kiện về hạ tầng kỹ thuật và thông báo cho Cục Thuế để phối hợp kết nối.\n++ Trường hợp doanh nghiệp, tổ chức thông báo cho Cục Thuế để phối hợp kết nối: Thời gian thực hiện trong 10 ngày làm việc kể từ ngày Cục Thuế nhận được đề nghị của doanh nghiệp, tổ chức, Cục Thuế thực hiện kiểm thử kết nối, truyền nhận dữ liệu, trường hợp thành công thì doanh nghiệp, tổ chức thực hiện gửi dữ liệu thành hình thức gửi trực tiếp;\n++ Trường hợp doanh nghiệp, tổ chức không thông báo cho Cục Thuế để phối hợp kết nối hoặc kết nối không thành công: trong 05 ngày làm việc cơ quan thuế gửi thông báo và doanh nghiệp, tổ chức thay đổi đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "++ Đối với dữ liệu hóa đơn điện tử: Đảm bảo cơ sở hạ tầng CNTT để gửi dữ liệu tới cơ quan thuế bằng phương thức điện tử. \n++ Đối với hình thức gửi trực tiếp: số lượng hóa đơn bình quân từ 1.000.000 hóa đơn một tháng trở lên (tính theo số lượng hóa đơn bình quân năm trước liền kề), có hệ thống công nghệ thông tin đáp ứng yêu cầu về định dạng chuẩn dữ liệu, có nhu cầu chuyển dữ liệu hóa đơn điện tử theo hình thức gửi trực tiếp đến cơ quan thuế.",
+  "name": "Chuyển dữ liệu hóa đơn điện tử/chứng từ điện tử tới cơ quan thuế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd77-830423b4d0ad",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng tổng hợp doanh thu (đối với hoạt động kinh doanh casino, trò chơi điện tử có thưởng)- Mẫu 01/TH-DT",
+          "code": "G12.0001214",
+          "attachments": [
+            {
+              "id": "019f7f40-a1f3-7079-9bfd-353cf69ead8e",
+              "fileName": "Mẫu 01 TH- DT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7f40-a1f3-7079-9bfd-353cf69ead8e/Mẫu 01 TH- DT.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd77-7d84f50552e6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng tổng hợp dữ liệu hóa đơn điện tử (Mẫu số 01/TH-HĐĐT)",
+          "code": "G12.0001215",
+          "attachments": [
+            {
+              "id": "019f7f41-708a-74f7-881e-cd48ffa22f11",
+              "fileName": "Mẫu 01 TH- HĐĐT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7f41-708a-74f7-881e-cd48ffa22f11/Mẫu 01 TH- HĐĐT.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hồ sơ đăng ký gửi dữ liệu HĐĐT trực tiếp",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd77-86c944ef1573",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản kèm theo tài liệu chứng minh điều kiện đáp ứng yêu cầu về hóa đơn bình quân từ 1.000.000 hóa đơn một tháng trở lên (tính theo số lượng hóa đơn bình quân năm trước liền kề), có hệ thống công nghệ thông tin đáp ứng yêu cầu về định dạng chuẩn dữ liệu, có nhu cầu chuyển dữ liệu hóa đơn điện tử theo hình thức gửi trực tiếp đến cơ quan thuế (không có mẫu)",
+          "code": "G12.0001219",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f7ef5-5ff2-73cd-841d-79992569d6c6",
+    "019f7eee-65ff-7190-97bb-0d978182d268",
+    "019f64ed-e026-7299-b5f2-ca44a3964050"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-73ae9b6a2329",
+    "019d2bb2-1c71-7574-afec-7e05c87b4c34"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f7ef5-5ff2-73cd-841d-79992569d6c6",
+      "name": "Quy định một số điều của Luật Quản lý thuế và Nghị định số 254/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "code": "91/2026/TT-BTC"
+    },
+    {
+      "id": "019f7eee-65ff-7190-97bb-0d978182d268",
+      "name": "Nghị định số 254/2026/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "code": "254/2026/NĐ-CP"
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-73ae9b6a2329",
+      "name": "Thông báo về việc chấp nhận/không chấp nhận đăng ký/thay đổi thông tin sử dụng hóa đơn điện tử/chứng từ điện tử và thực hiện kết nối kỹ thuật và kiểm tra truyền nhận dữ liệu (Mẫu số 01/TB-ĐKĐT)",
+      "code": "KQ.G12.000964"
+    },
+    {
+      "id": "019d2bb2-1c71-7574-afec-7e05c87b4c34",
+      "name": "Hệ thống thông tin giải quyết thủ tục hành chính của ngành thuế gửi phản hồi tự động về việc xác nhận người nộp thuế đã gửi thành công và thông báo về thời điểm tiếp nhận chính thức hồ sơ, tài liệu của người nộp thuế khi nhận được dữ liệu hóa đơn điện tử của NNT",
+      "code": "KQ.G12.000967"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2d8b-cd16-71d0-9071-0eaea3a75bf1",
+      "name": "Chuyển dữ liệu hóa đơn điện tử tới cơ quan thuế",
+      "code": "1.010343.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f7f5d-1de0-702f-bdc1-d741e233c0d7",
+      "name": "Chuyển dữ liệu hóa đơn điện tử tới cơ quan thuế",
+      "code": "1.010343.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559472399,
+  "updatedAt": 1784548236181,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở, Thuế tỉnh, thành phố, Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "++ Đối với dữ liệu hóa đơn điện tử: Đảm bảo cơ sở hạ tầng CNTT để gửi dữ liệu tới cơ quan thuế bằng phương thức điện tử. \n++ Đối với hình thức gửi trực tiếp: số lượng hóa đơn bình quân từ 1.000.000 hóa đơn một tháng trở lên (tính theo số lượng hóa đơn bình quân năm trước liền kề), có hệ thống công nghệ thông tin đáp ứng yêu cầu về định dạng chuẩn dữ liệu, có nhu cầu chuyển dữ liệu hóa đơn điện tử theo hình thức gửi trực tiếp đến cơ quan thuế.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f7ee5-35d7-759c-8728-1bcfbba4d16f",
+    "proposalNumber": "1896/QĐ-BTC",
+    "decisionDate": 1784221200000,
+    "decisionNumber": null,
+    "publicationDate": 1784548236075,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

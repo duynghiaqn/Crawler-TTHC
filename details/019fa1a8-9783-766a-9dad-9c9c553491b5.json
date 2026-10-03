@@ -1,0 +1,169 @@
+{
+  "id": "019fa1a8-9783-766a-9dad-9c9c553491b5",
+  "code": "6.006733",
+  "codeNotation": "6.006733",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Sở Nông nghiệp và Môi trường tổ chức điều tra, xác định vị trí, giá trị dòng chảy tối thiểu trên các sông, suối nội tỉnh.\n- Bước 2: Sở Nông nghiệp và Môi trường gửi hồ sơ lấy ý kiến các Sở: Công thương, Xây dựng, Văn hóa, Thể thao và Du lịch và các Sở, ban, ngành có liên quan về dòng chảy tối thiểu trên các sông, suối nội tỉnh.\n- Bước 3: Sở Nông nghiệp và Môi trường tổng hợp ý kiến các Sở, ban ngành, gửi Bộ Nông nghiệp và Môi trường (qua Cục Quản lý tài nguyên nước) để cho ý kiến.\n- Bước 4: Sở Nông nghiệp và Môi trường tổng hợp, tiếp thu, giải trình góp ý và hoàn thiện hồ sơ trình Ủy ban nhân dân tỉnh xem xét, quyết định. \n- Bước 5: Ủy ban nhân dân tỉnh xem xét, phê duyệt về dòng chảy tối thiểu trên các sông, suối nội tỉnh. \n- Bước 6: Trong thời hạn 14 ngày, kể từ ngày quyết định được phê duyệt, Ủy ban nhân dân cấp công bố, đăng tải Quyết định phê duyệt dòng chảy tối thiểu kèm theo danh mục dòng chảy tối thiểu trên sông, suối nội tỉnh trên Cổng thông tin điện tử của Ủy ban nhân dân tỉnh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Phê duyệt dòng chảy tối thiểu trên sông, suối nội tỉnh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-cd0d340d535a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fa1a8-05ec-758c-88fc-db493b5f09bf"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-cd0d340d535a",
+      "name": "Tài nguyên nước",
+      "code": "G13-TN10"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-cd0d340d535a",
+    "name": "Tài nguyên nước",
+    "code": "G13-TN10"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fa1a8-05ec-758c-88fc-db493b5f09bf",
+      "name": "Quyết định của Ủy ban nhân dân tỉnh phê duyệt dòng chảy tối thiểu kèm theo danh mục dòng chảy tối thiểu trên sông, suối nội tỉnh.",
+      "code": "Quyết định của Ủy ban nhân dân tỉnh phê duyệt dòng chảy tối thiểu kèm theo danh mục dòng chảy tối th"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789530479300,
+  "updatedAt": 1789530479300,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa19f-10b6-76d8-9ec6-24615ded4e08",
+    "proposalNumber": "372/QĐ-UBND",
+    "decisionDate": 1770310800000,
+    "decisionNumber": null,
+    "publicationDate": 1789530479177,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

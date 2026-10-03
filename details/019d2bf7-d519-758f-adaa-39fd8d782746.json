@@ -1,0 +1,279 @@
+{
+  "id": "019d2bf7-d519-758f-adaa-39fd8d782746",
+  "code": "1.000522",
+  "codeNotation": "1.000522",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a)  Chủ hàng hoặc người thực hiện dịch vụ quá cảnh gửi hồ sơ đề nghị quá cảnh hàng hóa đến Bộ Công Thương. \nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận hồ sơ, Bộ Công Thương có thông báo để bổ sung, hoàn thiện hồ sơ.\nc) Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định của chủ hàng, Bộ Công Thương có văn bản trao đổi ý kiến với Bộ Quốc phòng, Bộ Công an kèm theo bộ hồ sơ đề nghị quá cảnh hàng hóa của chủ hàng. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản trao đổi ý kiến của cơ quan cấp phép, Bộ Quốc phòng, Bộ Công an có văn bản trả lời.\nd) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được ý kiến của Bộ Quốc phòng, Bộ Công an, Bộ Công Thương cấp Giấy phép cho chủ hàng. Trường hợp từ chối cấp Giấy phép, cơ quan cấp phép có văn bản trả lời nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 17 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 17 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 17 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục cấp Giấy phép quá cảnh hàng hóa là vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a00efc-7493-703c-982c-eb2fa953c8c7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Đơn đề nghị quá cảnh hàng hóa của chủ hàng, theo mẫu số 07 quy định tại Phụ lục VII Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương; : 01 bản chính.",
+          "code": "XNK-292-06",
+          "attachments": [
+            {
+              "id": "01a00efd-a240-7118-a462-407764441e59",
+              "fileName": "Đơn đề nghị cấp Giấy phép quá cảnh hàng hóa.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a00efd-a240-7118-a462-407764441e59/Đơn đề nghị cấp Giấy phép quá cảnh hàng hóa.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a00efc-cb71-77fa-a236-f6d4f79d84a3",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Hợp đồng vận tải: 01 bản sao có đóng dấu của chủ hàng.",
+          "code": "XNK-292-07",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a00efd-2713-7219-979c-ba2ece4f83cc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c) Công thư đề nghị của cơ quan có thẩm quyền của nước đề nghị cho hàng hóa quá cảnh gửi Bộ trưởng Bộ Công Thương: 01 bản chính.",
+          "code": "XNK-292-08",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3"
+  ],
+  "resultIds": [
+    "01a00efe-6f9d-709f-9e41-ba2a6995b01a"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b16ccb65a5c0"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương",
+      "code": "G02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a00efe-6f9d-709f-9e41-ba2a6995b01a",
+      "name": "Giấy phép quá cảnh hàng hóa là vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ hoặc văn bản từ chối cấp phép.",
+      "code": "KQ-XNK-1011"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "01a013f3-dac5-712a-9ff4-31e8a041c831",
+      "name": "Thủ tục cấp Giấy phép quá cảnh hàng hóa là vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ",
+      "code": "1.000522.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019dc0f3-a795-77c3-9f31-8efccbe18d1a",
+      "name": "Thủ tục cấp Giấy phép quá cảnh hàng hóa là vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ",
+      "code": "1.000522.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559155481,
+  "updatedAt": 1787041141594,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công thương",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a00ebe-e04a-721a-881a-9da433d007cd",
+    "proposalNumber": "2040/QĐ-BCT",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1787041141457,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

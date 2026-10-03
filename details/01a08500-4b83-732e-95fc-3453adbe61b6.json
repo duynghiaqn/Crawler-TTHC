@@ -1,0 +1,270 @@
+{
+  "id": "01a08500-4b83-732e-95fc-3453adbe61b6",
+  "code": "1.116611",
+  "codeNotation": "1.116611",
+  "executionSteps": [
+    {
+      "name": "Bước 1",
+      "description": "Thông báo, hướng dẫn thực hiện. Tháng 8 hằng năm, cơ sở giáo dục mầm non tổ chức phổ biến, thông báo rộng rãi và hướng dẫn cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em thuộc đối tượng được hưởng chính sách nộp hồ sơ đề nghị hỗ trợ ăn trưa."
+    },
+    {
+      "name": "Bước 2",
+      "description": "Nộp hồ sơ. Trong vòng 15 ngày làm việc kể từ ngày cơ sở giáo dục mầm non thông báo, cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nộp trực tiếp hoặc qua dịch vụ bưu chính hoặc trực tuyến 01 bộ hồ sơ tại cơ sở giáo dục mầm non nơi trẻ đang học. Mỗi đối tượng nộp 01 bộ hồ sơ cho 01 lần đầu đề nghị hỗ trợ trong cả thời gian học tại cơ sở giáo dục mầm non. Riêng trường hợp thuộc diện hộ nghèo, hộ cận nghèo phải nộp bổ sung Giấy chứng nhận hộ nghèo, hộ cận nghèo theo từng năm học."
+    },
+    {
+      "name": "Bước 3:",
+      "description": "Tiếp nhận và kiểm tra hồ sơ. Cơ sở giáo dục mầm non tiếp nhận, kiểm tra thành phần hồ sơ; trường hợp bản sao chưa có chứng thực thì người tiếp nhận hồ sơ đối chiếu với bản chính, ký xác nhận vào bản sao để đưa vào hồ sơ. Trường hợp hồ sơ chưa đầy đủ hoặc chưa đúng quy định thì hướng dẫn người nộp hồ sơ bổ sung, hoàn thiện. Sau khi tiếp nhận hồ sơ hợp lệ, cơ sở giáo dục mầm non gửi giấy tiếp nhận hồ sơ cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em. Trường hợp hồ sơ gửi qua dịch vụ bưu chính hoặc trực tuyến không bảo đảm yêu cầu, trong thời hạn 05 ngày làm việc, cơ sở giáo dục mầm non thông báo việc không tiếp nhận hồ sơ và nêu rõ lý do."
+    },
+    {
+      "name": "Bước 4",
+      "description": "Lập và gửi danh sách đề nghị hỗ trợ. Trong vòng 10 ngày làm việc kể từ ngày hết hạn nhận hồ sơ, cơ sở giáo dục mầm non lập danh sách trẻ em được đề nghị hỗ trợ ăn trưa theo Mẫu số 01 ban hành kèm theo Nghị định số 105/2020/NĐ-CP, kèm hồ sơ theo quy định, gửi cơ quan có chức năng quản lý giáo dục thuộc Ủy ban nhân dân cấp xã nơi cơ sở giáo dục mầm non đặt trụ sở để xem xét, tổng hợp."
+    },
+    {
+      "name": "Bước 5",
+      "description": "Thẩm định, tổng hợp hồ sơ. Trong vòng 07 ngày làm việc kể từ khi nhận được hồ sơ của cơ sở giáo dục mầm non, cơ quan có chức năng quản lý giáo dục thuộc Ủy ban nhân dân cấp xã tổ chức thẩm định hồ sơ, tổng hợp danh sách trẻ em được hỗ trợ ăn trưa theo Mẫu số 02 ban hành kèm theo Nghị định số 105/2020/NĐ-CP, gửi cơ quan tài chính cùng cấp để trình Ủy ban nhân dân cấp xã phê duyệt theo quy định của pháp luật về ngân sách nhà nước."
+    },
+    {
+      "name": "Bước 6",
+      "description": "Phê duyệt danh sách. Trong vòng 07 ngày làm việc kể từ khi nhận được hồ sơ của cơ quan có chức năng quản lý giáo dục, Ủy ban nhân dân cấp xã phê duyệt danh sách trẻ em được hỗ trợ ăn trưa và thông báo kết quả cho cơ sở giáo dục mầm non."
+    },
+    {
+      "name": "Bước 7",
+      "description": "Công khai và tổ chức thực hiện chi hỗ trợ. Sau khi được cấp có thẩm quyền phê duyệt danh sách, cơ sở giáo dục mầm non thông báo công khai và tổ chức triển khai thực hiện chi hỗ trợ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 24,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp trực tiếp tại cơ sở giáo dục mầm non nơi trẻ đang học;",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 24,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em truy cập Cổng Dịch vụ công quốc gia (http://dichvucong.gov.vn) và thực hiện đăng ký/đăng nhập tài khoản, xác thực định danh điện tử, chọn dịch vụ công, nộp hồ sơ trực tuyến theo hướng dẫn.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 24,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp qua dịch vụ bưu chính: Cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em gửi hồ sơ qua đường BCCI đến cơ sở giáo dục mầm non nơi trẻ đang học.",
+      "fees": []
+    }
+  ],
+  "description": "Trẻ em nhà trẻ học tại các cơ sở giáo dục mầm non ngoài công lập trên địa bàn tỉnh Tuyên Quang, bảo đảm một trong các điều kiện quy định tại điểm a, b, c, d, đ khoản 1 Điều 7 Nghị định số 105/2020/NĐ-CP, được sửa đổi, bổ sung tại Nghị định số 104/2022/NĐ-CP, hoặc là người dân tộc thiểu số rất ít người theo quy định của Chính phủ.",
+  "name": "Hỗ trợ kinh phí ăn trưa cho trẻ em nhà trẻ tại các cơ sở giáo dục mầm non ngoài công lập.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb2-1c3b-735b-85a8-6481874bc158",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": true,
+          "name": "",
+          "code": "",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71e6-702a-a6d5-cb13b6a0dbf7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy xác nhận hộ nghèo do Ủy ban nhân dân cấp xã cấp cho đối tượng được quy định tại khoản 4 Điều 15 Nghị định số 81/2021/NĐ-CP",
+          "code": "000.00.00.H22-KQ000067",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7179-7214-a8a0-5356e9d88c6f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao kèm theo bản chính để đối chiếu hoặc bản sao có chứng thực Giấy xác nhận của cơ quan quản lý đối tượng người có công và Giấy khai sinh của trẻ em. (Cơ quan giải quyết TTHC khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu về hộ tịch để thay thế thành phần hồ sơ Bản sao Quyết định về việc trợ cấp xã hội, Bản sao xác nhận về tình trạng trẻ mồ côi, bị bỏ rơi hoặc trẻ thuộc các trường hợp khác quy định, Giấy chứng nhận nuôi con nuôi.  Trường hợp Cơ quan giải quyết TTHC không khai thác được hoặc khai thác không đầy đủ dữ liệu công dân trên Cơ sở dữ liệu quốc gia về về dân cư, Cơ sở dữ liệu về hộ tịch, Cơ quan giải quyết TTHC yêu cầu công dân bổ sung Bản sao Quyết định về việc trợ cấp xã hội, Bản sao xác nhận về tình trạng trẻ mồ côi, bị bỏ rơi hoặc trẻ thuộc các trường hợp khác quy định, Giấy chứng nhận nuôi con nuôi theo quy định tại Điều 8 Nghị quyết 66.7/2025/NQ-CP ngày 15/11/2025 của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu)",
+          "code": "000.00.00.G03-KQ1303",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7178-7732-a0d6-339e132a8777",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao kèm theo bản chính để đối chiếu hoặc bản sao có chứng thực Giấy xác nhận khuyết tật do Ủy ban nhân dân cấp xã cấp hoặc Quyết định về việc trợ cấp xã hội của Chủ tịch Ủy ban nhân dân cấp huyện. (Cơ quan giải quyết TTHC khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu về hộ tịch để thay thế thành phần hồ sơ Bản sao Quyết định về việc trợ cấp xã hội, Bản sao xác nhận về tình trạng trẻ mồ côi, bị bỏ rơi hoặc trẻ thuộc các trường hợp khác quy định, Giấy chứng nhận nuôi con nuôi.  Trường hợp Cơ quan giải quyết TTHC không khai thác được hoặc khai thác không đầy đủ dữ liệu công dân trên Cơ sở dữ liệu quốc gia về về dân cư, Cơ sở dữ liệu về hộ tịch, Cơ quan giải quyết TTHC yêu cầu công dân bổ sung Bản sao Quyết định về việc trợ cấp xã hội, Bản sao xác nhận về tình trạng trẻ mồ côi, bị bỏ rơi hoặc trẻ thuộc các trường hợp khác quy định, Giấy chứng nhận nuôi con nuôi theo quy định tại Điều 8 Nghị quyết 66.7/2025/NQ-CP ngày 15/11/2025 của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu)",
+          "code": "000.00.00.G03-KQ001474",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-0b425c484651"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a08525-513e-76db-beba-d09cbb45b2e3"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3b-735b-85a8-6481874bc158"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-0b425c484651",
+      "name": "Giáo dục mầm non",
+      "code": "G03-GD06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-0b425c484651",
+    "name": "Giáo dục mầm non",
+    "code": "G03-GD06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d89ed-2491-721f-b1ce-5256c602d5f6"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019dbcf8-2512-751f-b250-ac73e3d6fa26"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d89ed-2491-721f-b1ce-5256c602d5f6",
+      "name": "Cơ sở giáo dục"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019dbcf8-2512-751f-b250-ac73e3d6fa26",
+      "name": "Phòng Văn hóa - Xã hội xã"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a08525-513e-76db-beba-d09cbb45b2e3",
+      "name": "Quy định chính sách hỗ trợ ăn trưa cho trẻ em nhà trẻ và mức hỗ trợ đối với trẻ em mầm non là con công nhân, người lao động làm việc tại khu công nghiệp; mức hỗ trợ đối với giáo viên mầm non làm việc tại cơ sở giáo dục mầm non ngoài công lập ở địa bàn có khu công nghiệp trên địa bàn tỉnh Tuyên Quang",
+      "code": "28/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3b-735b-85a8-6481874bc158",
+      "name": "Danh sách trẻ em mầm non được hưởng trợ cấp do UBND cấp xã phê duyệt",
+      "code": "KQ.G03.000424"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e60-6458eb08bfe1",
+  "departmentPromulgateCode": "H60",
+  "departmentPromulgateName": "UBND tỉnh Tuyên Quang",
+  "cases": [
+    {
+      "id": "01a085aa-b0b6-75b9-a99a-59cc77f69070",
+      "name": "Hỗ trợ kinh phí ăn trưa cho trẻ em nhà trẻ tại các cơ sở giáo dục mầm non ngoài công lập",
+      "code": "1.116611.01",
+      "processingDay": {
+        "qty": 24,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1788938094615,
+  "updatedAt": 1788940253486,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ sở giáo dục mầm non nơi trẻ đang học",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trẻ em nhà trẻ học tại các cơ sở giáo dục mầm non ngoài công lập trên địa bàn tỉnh Tuyên Quang, bảo đảm một trong các điều kiện quy định tại điểm a, b, c, d, đ khoản 1 Điều 7 Nghị định số 105/2020/NĐ-CP, được sửa đổi, bổ sung tại Nghị định số 104/2022/NĐ-CP, hoặc là người dân tộc thiểu số rất ít người theo quy định của Chính phủ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a08500-e848-74da-8f1e-b1bc224a0e8e",
+    "proposalNumber": "2209/QĐ-UBND",
+    "decisionDate": 1788886800000,
+    "decisionNumber": null,
+    "publicationDate": 1788938094551,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e60-6458eb08bfe1",
+      "name": "UBND tỉnh Tuyên Quang"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

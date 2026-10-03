@@ -1,0 +1,259 @@
+{
+  "id": "019fda7e-5cf8-779c-a643-967188047a11",
+  "code": "1.116209",
+  "codeNotation": "1.116209",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Chủ đầu tư hạ tầng gửi Ban Quản lý Khu kinh tế 01 bộ hồ sơ theo quy định tại\nkhoản 2 Điều này tới Trung tâm Phục vụ hành chính công tỉnh, Trung tâm Phục vụ hành\nchính công cấp xã và Điểm Tiếp nhận và Trả kết quả; Trực tuyến:\nhttps://dichvucong.gov.vn; Dịch vụ bưu chính;\nb) Trường hợp hồ sơ chưa hợp lệ, trong thời hạn 03 ngày làm việc, Ban Quản lý\nKhu kinh tế có văn bản thông báo cho chủ đầu tư để hoàn thiện hồ sơ;\nc) Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ban Quản lý\nKhu kinh tế thẩm định hồ sơ, dự thảo và trình Ủy ban nhân dân tỉnh quyết định xác định\ndiện tích đất đã đầu tư hạ tầng của khu công nghiệp dành cho doanh nghiệp được hỗ trợ.\nd) Trong thời hạn 10 ngày làm việc kể từ ngày nhận được hồ sơ trình của Ban\nQuản lý Khu kinh tế, Ủy ban nhân dân tỉnh ban hành quyết định xác định diện tích đất\nđã đầu tư hạ tầng của khu công nghiệp dành cho doanh nghiệp được hỗ trợ và thực hiện\ncông bố công khai thông tin trên cổng thông tin, trang tin điện tử của Ủy ban nhân dân\ntỉnh hoặc văn bản không chấp thuận gửi Ban Quản lý Khu kinh tế để thông báo tới Chủ\nđầu tư.\nđ) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được quyết định xác định diện\ntích đất hoặc văn bản không chấp thuận của Ủy ban nhân dân tỉnh, Ban Quản lý Khu\nkinh tế có thông báo gửi Chủ đầu tư."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp trực tiếp tới Trung tâm Phục vụ hành chính công tỉnh, Trung tâm Phục vụ hành\nchính công cấp xã và Điểm Tiếp nhận và Trả kết quả; Trực tuyến:\nhttps://dichvucong.gov.vn; Dịch vụ bưu chính",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp trực tiếp tới Trung tâm Phục vụ hành chính công tỉnh, Trung tâm Phục vụ hành\nchính công cấp xã và Điểm Tiếp nhận và Trả kết quả; Trực tuyến:\nhttps://dichvucong.gov.vn; Dịch vụ bưu chính",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp trực tiếp tới Trung tâm Phục vụ hành chính công tỉnh, Trung tâm Phục vụ hành\nchính công cấp xã và Điểm Tiếp nhận và Trả kết quả; Trực tuyến:\nhttps://dichvucong.gov.vn; Dịch vụ bưu chính",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Xác định diện tích đất đã đầu tư hạ tầng dành cho doanh nghiệp được hỗ trợ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fda73-fcc8-7606-9b78-63abc7c74162",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của Chủ đầu tư hạ tầng theo Mẫu Phụ lục I kèm theo Quyết định số 66/QĐ-UBND ngày 15/7/2026 của UBND tỉnh Quảng Ninh",
+          "code": "BQLKKT001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fda74-7693-736e-a58f-d71c03a2fe6d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản chấp thuận kết quả nghiệm thu hoàn thành công trình, hạng mục công trình hạ tầng đưa vào sử dụng cho diện tích đất dành cho doanh nghiệp được hỗ trợ thuê, thuê lại của cơ quan có thẩm quyền theo pháp luật về xây dựng và pháp luật khác có liên quan.",
+          "code": "BQLKKT002",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fda74-e208-7668-97b6-18c7699a7f56",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản đồ xác định cụ thể vị trí, diện tích, ranh giới, tọa độ phạm vi đất dành cho doanh nghiệp được hỗ trợ thuê, thuê lại và phần lấn biển (nếu có).",
+          "code": "BQLKKT003",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019fda6a-c1f8-777a-981e-123fa9cc82be"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afed-28a72d1103b7",
+    "019fda7b-bbac-77c9-97cc-b654603aeb73",
+    "019fda7c-9e02-7022-b5d9-f769d8224da4",
+    "019d2bb3-5d86-7760-a643-6f6b787e77cb"
+  ],
+  "resultIds": [
+    "019fda79-ad38-73ec-a2e1-32f85de242df"
+  ],
+  "subjectTypeIds": [
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b20-0b3f47295a02"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019fda6a-c1f8-777a-981e-123fa9cc82be",
+      "name": "HỖ TRỢ TIẾP CẬN ĐẤT ĐAI, MẶT BẰNG SẢN XUẤT KINH DOANH",
+      "code": "H49-BQLKKT01"
+    }
+  ],
+  "category": {
+    "id": "019fda6a-c1f8-777a-981e-123fa9cc82be",
+    "name": "HỖ TRỢ TIẾP CẬN ĐẤT ĐAI, MẶT BẰNG SẢN XUẤT KINH DOANH",
+    "code": "H49-BQLKKT01"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b20-0b3f47295a02",
+      "name": "Ban Quản lý Khu kinh tế",
+      "code": "H49.9"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afed-28a72d1103b7",
+      "name": "Nghị định quy định chi tiết và hướng dẫn thi hành một số điều của Nghị quyết số 198/2025/QH15 ngày 17 tháng 5 năm 2025 của Quốc hội về một số cơ chế, chính sách đặc biệt phát triển kinh tế tư nhân",
+      "code": "20/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a643-6f6b787e77cb",
+      "name": "Nghị quyết về một số cơ chế, chính sách đặc biệt phát triển kinh tế tư nhân",
+      "code": "198/2025/QH15"
+    },
+    {
+      "id": "019fda7c-9e02-7022-b5d9-f769d8224da4",
+      "name": "Quyết định số 66/2026/QĐ-UBND ngày 15/7/2026 của UBND tỉnh ban hành\nQuy định một số nội dung về hỗ trợ tiếp cận đất đai, mặt bằng sản xuất kinh doanh theo\nquy định tại Điều 7 Nghị quyết số 198/2025/QH15 của Quốc hộitrên địa bàn tỉnh Quảng Ninh,\ncó hiệu lực từ ngày 26/7/2026.",
+      "code": "QN-002"
+    },
+    {
+      "id": "019fda7b-bbac-77c9-97cc-b654603aeb73",
+      "name": "Nghị quyết số 88/2025/NQ-HĐND ngày 16/12/2025 của HĐND tỉnh “Quy định\nphân cấp nguồn thu, nhiệm vụ chi và tỷ lệ phần trăm (%) phân chia các khoản thu giữa\nngân sách cấp tỉnh và ngân sách cấp xã; nguyên tắc, tiêu chí, định mức phân bổ ngân\nsách địa phương”",
+      "code": "QN-001"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fda79-ad38-73ec-a2e1-32f85de242df",
+      "name": "Thông báo của Ban Quản lý Khu kinh tế về kết quả giải quyết thủ tục hành chính cho chủ đầu tư (kèm theo Quyết định của Ủy ban nhân dân tỉnh trong trường hợp được chấp thuận hoặc Văn bản của Ủy ban nhân dân tỉnh không chấp thuận).",
+      "code": "BQLKKT007"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b1c-46b23e7f2084",
+  "departmentPromulgateCode": "H49",
+  "departmentPromulgateName": "UBND tỉnh Quảng Ninh",
+  "cases": [
+    {
+      "id": "019fda85-1b6a-7506-852c-0eab143e4775",
+      "name": "Xác định diện tích đất đã đầu tư hạ tầng dành cho doanh nghiệp được hỗ trợ",
+      "code": "1.116209.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786077524938,
+  "updatedAt": 1786077524938,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ban Quản lý Khu kinh tế",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fda84-063f-738d-9927-1868f4898d9d",
+    "proposalNumber": "333/QĐ-VP.UBND.KSTT",
+    "decisionDate": 1785430800000,
+    "decisionNumber": null,
+    "publicationDate": 1786077524896,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b1c-46b23e7f2084",
+      "name": "UBND tỉnh Quảng Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

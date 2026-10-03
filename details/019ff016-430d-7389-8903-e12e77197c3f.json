@@ -1,0 +1,240 @@
+{
+  "id": "019ff016-430d-7389-8903-e12e77197c3f",
+  "code": "1.116327",
+  "codeNotation": "1.116327",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "B1\t1. Người đề nghị nộp hồ sơ tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc qua hoặc qua Hệ thống thông tin giải quyết TTHC.\n2. Cán bộ TN&TKQ kiểm tra hồ sơ:\n- Nếu hồ sơ chưa đầy đủ hoặc không hợp lệ thì hướng dẫn bổ sung, hoàn thiện hồ sơ theo quy định. Nếu không bổ sung hoàn thiện được thì từ chối tiếp nhận hồ sơ.\nNếu hồ sơ đầy đủ, hợp lệ thì làm thủ tục tiếp nhận hồ sơ, hẹn trả kết quả cho người nộp hồ sơ. Hồ sơ được chuyển đến cơ quan chuyên môn về nông nghiệp và môi trường cấp tỉnh.\nB2\tSoát xét hồ sơ:\n- Rà soát, kiểm tra hồ sơ; hướng dẫn người nộp hồ sơ hoàn thiện hoặc bổ sung hồ sơ đối với trường hợp không đầy đủ, hợp lệ. \n- Chủ trì phối hợp với các cơ quan có liên quan gửi hồ sơ phương án sử dụng đất đến các sở, ban, ngành có liên quan và UBND cấp xã nơi có đất để lấy ý kiến và trình Chủ tịch UBND tỉnh thành lập Hội đồng thẩm định.\nB3\tCác sở, ban, ngành có liên quan và UBND cấp xã nơi có đất gửi ý kiến bằng văn bản đến cơ quan chuyên môn về nông nghiệp và môi trường cấp tỉnh.\nB4\tSau khi nhận được ý kiến của các Sở, ban, ngành có liên quan và UBND cấp xã nơi có đất, cơ quan chuyên môn về nông nghiệp và môi trường cấp tỉnh tổ chức họp Hội đồng để thẩm định.\nB6\tTrường hợp hồ sơ phương án sử dụng đất của Công ty nông, lâm nghiệp không phải chỉnh sửa: trình Chủ tịch UBND tỉnh phê duyệt phương án sử dụng đất.\n\tTrường hợp hồ sơ phương án sử dụng đất của Công ty nông, lâm nghiệp phải chỉnh sửa: Thông báo cho công ty nông, lâm nghiệp để hoàn thiện hoàn thiện hồ sơ.\nB7\tChủ tịch UBND tỉnh xem xét, phê duyệt phương án sử dụng đất\nB8\tChuyển kết quả cho cơ quan tiếp nhận hồ sơ để trả kết quả"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 31,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 31 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh)",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 31,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 31 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh)",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 31,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 31 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh)",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thẩm định, phê duyệt phương án sử dụng đất",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019feffb-7148-771f-9796-4019edea8a32",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thẩm định, phê duyệt phương án sử dụng đất theo Mẫu số 30 ban hành kèm theo Quyết định số 48/2026/QĐ-UBND ngày 06/7/2026 của UBND tỉnh.",
+          "code": "QT.ĐĐ.10.1",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019feffb-f5e0-7128-853d-a4c38dbd24ca",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản đồ địa chính có thể hiện ranh giới sử dụng đất hoặc hồ sơ ranh giới sử dụng đất của công ty nông, lâm nghiệp; bản tổng hợp diện tích các loại đất của công ty nông, lâm nghiệp.",
+          "code": "QT.ĐĐ.10.2",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019feffc-4b5f-77fc-b055-596b882ce09f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu khác có liên quan (nếu có)",
+          "code": "QT.ĐĐ.10.3",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fcbdd-e80a-73cc-aa02-e130ae61ccc2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": true,
+          "name": "",
+          "code": "",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019feec3-a121-725a-b5ba-6cf0571f69b8"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019feec3-a121-725a-b5ba-6cf0571f69b8",
+      "name": "Văn bản",
+      "code": "Kết quả giải quyết TTHC"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+  "departmentPromulgateCode": "H27",
+  "departmentPromulgateName": "UBND tỉnh Hà Tĩnh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1786814441550,
+  "updatedAt": 1786814441550,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã.\n-\t- Qua Dịch vụ bưu chính công ích. \n-\t- Qua Cổng Dịch vụ công quốc gia: https://dichvucong.gov.vn.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fefaf-cc6d-766d-b82e-e30490da3809",
+    "proposalNumber": "1998/QĐ-UBND",
+    "decisionDate": 1786035600000,
+    "decisionNumber": null,
+    "publicationDate": 1786522619055,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+      "name": "UBND tỉnh Hà Tĩnh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

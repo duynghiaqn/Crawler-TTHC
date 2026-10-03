@@ -1,0 +1,219 @@
+{
+  "id": "01a0ada8-08b7-71b0-9957-aedab660d3e8",
+  "code": "6.006770",
+  "codeNotation": "6.006770",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Doanh nghiệp quản lý tài sản đường sắt đô thị lập Đề án cho thuê quyền khai thác tài sản, trình Ủy ban nhân dân cấp tỉnh.\n- Bước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ quy định tại điểm a khoản 4 Điều 34, UBND cấp tỉnh xem xét, phê duyệt Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng đường sắt đô thị."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Trực tuyến qua Hệ thống phần mềm quản lý văn bản và hồ sơ công việc (TD Office)\n30 ngày kể từ ngày nhận đủ hồ sơ",
+      "fees": []
+    }
+  ],
+  "description": "Không.",
+  "name": "Khai thác tài sản kết cấu hạ tầng đường sắt đô thị (Trường hợp: Cho thuê quyền khai thác tài sản kết cấu hạ tầng đường sắt đô thị)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0426d-e3ec-701c-a617-9b61b716497a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của doanh nghiệp quản lý tài sản đường sắt đô thị về việc đề nghị phê duyệt Đề án",
+          "code": "TP-H56.0000354",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0426e-7566-755b-9e3d-df0f65a3991c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đề án cho thuê quyền khai thác tài sản do doanh nghiệp quản lý đường sắt đô thị lập theo Mẫu số 02B tại Phụ lục ban hành kèm theo Nghị định số 15/2025/NĐ-CP, được sửa đổi, bổ sung tại Nghị định số 99/2026/NĐ-CP",
+          "code": "TP-H56.0000355",
+          "attachments": [
+            {
+              "id": "01a0426e-6c37-71e4-9c22-8a80dfc07663",
+              "fileName": "Mẫu số 02B C.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0426e-6c37-71e4-9c22-8a80dfc07663/Mẫu số 02B C.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a04120-84fb-7767-8e55-4d2295b60001",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ý kiến của các cơ quan có liên quan (nếu có)",
+          "code": "TP-H56.0000287",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0664f-71df-72ce-8a44-f8a1f13344e8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "TP-H56.0000389",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-852c7a498878",
+    "01a06665-d0ed-76ea-b626-185a168f90a1"
+  ],
+  "resultIds": [
+    "01a0426e-fbaf-76d8-8d9b-be8728b26f33"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+    "name": "Quản lý công sản",
+    "code": "G12-TC09"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9448-4f70-755d-9f51-d3e89652ee18"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9448-4f70-755d-9f51-d3e89652ee18",
+      "name": "Sở Xây dựng"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-852c7a498878",
+      "name": "Nghị định số 15/2025/NĐ-CP của Chính phủ quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng đường sắt",
+      "code": "15/2025/NĐ-CP"
+    },
+    {
+      "id": "01a06665-d0ed-76ea-b626-185a168f90a1",
+      "name": "Sửa đổi, bổ sung một số điều của các Nghị định quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng giao thông",
+      "code": "99/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0426e-fbaf-76d8-8d9b-be8728b26f33",
+      "name": "Quyết định phê duyệt Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng đường sắt đô thị",
+      "code": "KQ-H56.0000061"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+  "departmentPromulgateCode": "H56",
+  "departmentPromulgateName": "UBND tỉnh Thanh Hóa",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789954716300,
+  "updatedAt": 1789954716300,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Sở Xây dựng tỉnh Thanh Hóa (Số 45 Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa)",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a03d74-54e5-7620-a931-65ef091b67e5",
+    "proposalNumber": "2349/QĐ-VP",
+    "decisionDate": 1783530000000,
+    "decisionNumber": null,
+    "publicationDate": 1789954714458,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+      "name": "UBND tỉnh Thanh Hóa"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

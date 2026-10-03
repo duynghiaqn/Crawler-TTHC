@@ -1,0 +1,472 @@
+{
+  "id": "019d2bfe-0b52-71a6-855e-458de1996a3c",
+  "code": "1.000271",
+  "codeNotation": "1.000271",
+  "executionSteps": [
+    {
+      "name": "a) Nộp hồ sơ thủ tục hành chính:",
+      "description": "Doanh nghiệp, tổ chức nộp hồ sơ trực tiếp tại Bộ phận Một cửa Cục Hàng không Việt Nam hoặc qua bưu chính hoặc trực tuyến trên Cổng Dịch vụ công quốc gia."
+    },
+    {
+      "name": "b) Giải quyết thủ tục hành chính:",
+      "description": "- Trong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ, trường hợp hồ sơ đầy đủ, chính xác, Cục Hàng không Việt Nam gửi thông báo thu phí cho tổ chức, cá nhân nộp hồ sơ; trường hợp hồ sơ chưa đầy đủ, chính xác, Cục Hàng không Việt Nam trả hồ sơ và nêu rõ lý do.\n- Việc nộp phí được thực hiện trong thời hạn 03 ngày làm việc kể từ ngày cơ quan giải quyết thủ tục hành chính xác nhận hồ sơ hợp lệ; quá thời hạn này, các tổ chức, cá nhân không hoàn thành nghĩa vụ tài chính theo quy định, cơ quan giải quyết thủ tục hành chính từ chối giải quyết thủ tục hành chính. Thời gian thực hiện việc nộp phí của tổ chức, cá nhân không tính vào thời gian giải quyết thủ tục hành chính. Các khoản phí và lệ phí thực hiện theo pháp luật về phí và lệ phí.\n- Đối với trường hợp cấp lại do bị mất hoặc bị hỏng hoặc thay đổi tên, địa chỉ trụ sở chính của doanh nghiệp, tổ chức: Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo xác nhận nộp phí, Cục Hàng không Việt Nam cấp lại Giấy chứng nhận khai thác hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay cho doanh nghiệp, tổ chức đề nghị, đồng thời thu hồi hoặc bãi bỏ Giấy chứng nhận đã cấp. \n- Đối với Trường hợp cấp lại khi tổ chức đề nghị tiến hành cải tạo, thay đổi, nâng cấp hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay hoặc được phục hồi sau khi đã khắc phục được nguyên nhân dẫn đến bị đình chỉ, thu hồi theo yêu cầu của Cục Hàng không Việt Nam: Trong thời hạn 06 ngày làm việc kể từ ngày nhận được thông báo xác nhận nộp phí, Cục Hàng không Việt Nam thẩm định, yêu cầu tổ chức đề nghị cấp Giấy chứng nhận giải trình bổ sung các nội dung liên quan và cấp Giấy chứng nhận khai thác hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay; trường hợp không cấp Giấy chứng nhận phải gửi văn bản trả lời cho tổ chức đề nghị và nêu rõ lý do. \n- Kết quả giải quyết thủ tục hành chính được trả bằng bản điện tử, trừ trường hợp công dân, tổ chức có nhu cầu nhận bản giấy. Hồ sơ và kết quả giải quyết thủ tục hành chính bằng bản điện tử có giá trị pháp lý như bản giấy."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời hạn gửi thông báo thu phí: 01 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác.\n- Thời hạn cấp Giấy chứng nhận:\n + Trường hợp cấp lại khi tổ chức đề nghị tiến hành cải tạo, thay đổi, nâng cấp hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay hoặc được phục hồi sau khi đã khắc phục được nguyên nhân dẫn đến bị đình chỉ, thu hồi theo yêu cầu của Cục Hàng không Việt Nam\n06 ngày làm việc kể từ ngày nhận được thông báo xác nhận nộp phí.\n- Phí: 4.00.000 (đối với hệ thống) và 2.000.000 (đối với thiết bị).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 4000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "+ Phí cấp: 4.00.000 (đối với hệ thống). + Phí cấp: 2.000.000 (đối với thiết bị).",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "+ Phí cấp: 4.00.000 (đối với hệ thống). + Phí cấp: 2.000.000 (đối với thiết bị).",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời hạn gửi thông báo thu phí: 01 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác.\n- Thời hạn cấp Giấy chứng nhận:\n+ Trường hợp cấp lại khi tổ chức đề nghị tiến hành cải tạo, thay đổi, nâng cấp hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay hoặc được phục hồi sau khi đã khắc phục được nguyên nhân dẫn đến bị đình chỉ, thu hồi theo yêu cầu của Cục Hàng không Việt Nam\n06 ngày làm việc kể từ ngày nhận được thông báo xác nhận nộp phí.\n- Phí: 4.00.000 (đối với hệ thống) và 2.000.000 (đối với thiết bị).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 4000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "+ Phí cấp: 4.00.000 (đối với hệ thống). + Phí cấp: 2.000.000 (đối với thiết bị).",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "+ Phí cấp: 4.00.000 (đối với hệ thống). + Phí cấp: 2.000.000 (đối với thiết bị).",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời hạn gửi thông báo thu phí: 01 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác.\n- Thời hạn cấp Giấy chứng nhận:\n + Trường hợp cấp lại khi tổ chức đề nghị tiến hành cải tạo, thay đổi, nâng cấp hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay hoặc được phục hồi sau khi đã khắc phục được nguyên nhân dẫn đến bị đình chỉ, thu hồi theo yêu cầu của Cục Hàng không Việt Nam\n06 ngày làm việc kể từ ngày nhận được thông báo xác nhận nộp phí.\n- Phí: 4.00.000 (đối với hệ thống) và 2.000.000 (đối với thiết bị).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 4000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "+ Phí cấp: 4.00.000 (đối với hệ thống). + Phí cấp: 2.000.000 (đối với thiết bị).",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "+ Phí cấp: 4.00.000 (đối với hệ thống). + Phí cấp: 2.000.000 (đối với thiết bị).",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp cấp lại do bị mất hoặc bị hỏng hoặc Thay đổi tên, địa chỉ trụ sở chính của doanh nghiệp, tổ chức: 03 ngày làm việc kể từ ngày nhận được thông báo xác nhận nộp phí,\n- Đối với hệ thống: 4.000.000 đồng/lần.\n- Đối với thiết bị: 2.000.000 đồng/lần.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 4000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Đối với hệ thống: 4.000.000 đồng/lần.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Đối với thiết bị: 2.000.000 đồng/lần.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp cấp lại do bị mất hoặc bị hỏng hoặc Thay đổi tên, địa chỉ trụ sở chính của doanh nghiệp, tổ chức: 03 ngày làm việc kể từ ngày nhận được thông báo xác nhận nộp phí,\n- Đối với hệ thống: 4.000.000 đồng/lần.\n- Đối với thiết bị: 2.000.000 đồng/lần.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 4000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Đối với hệ thống: 4.000.000 đồng/lần.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Đối với thiết bị: 2.000.000 đồng/lần.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp cấp lại do bị mất hoặc bị hỏng hoặc Thay đổi tên, địa chỉ trụ sở chính của doanh nghiệp, tổ chức: 03 ngày làm việc kể từ ngày nhận được thông báo xác nhận nộp phí,\n- Đối với hệ thống: 4.000.000 đồng/lần.\n- Đối với thiết bị: 2.000.000 đồng/lần.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 4000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Đối với hệ thống: 4.000.000 đồng/lần.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Đối với thiết bị: 2.000.000 đồng/lần.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay được cấp Giấy chứng nhận khai thác phải đáp ứng các quy định sau:\na) Đáp ứng tiêu chuẩn do Việt Nam ban hành hoặc công nhận phù hợp với tiêu chuẩn của ICAO;\nb) Có giấy phép sử dụng tần số và thiết bị phát sóng vô tuyến điện (đối với thiết bị phát sóng vô tuyến điện);\nc) Có mã số, địa chỉ kỹ thuật của hệ thống kỹ thuật, trang bị, thiết bị CNS (nếu áp dụng);\nd) Đối với thiết bị dẫn đường, giám sát hàng không được đầu tư, lắp đặt mới, phải có kết quả bay kiểm tra, hiệu chuẩn cơ bản và đạt tiêu chuẩn đưa vào khai thác; trường hợp điều chuyển thiết bị dẫn đường vô hướng đã sử dụng và được lắp đặt tại vị trí khác, được phép sử dụng kết quả bay kiểm tra của tàu bay thương mại để xem xét đưa vào khai thác;\nđ) Hệ thống, thiết bị bay kiểm tra, hiệu chuẩn, bay đánh giá phương thức bay bằng thiết bị phải phù hợp với tiêu chuẩn của nhà sản xuất tàu bay kiểm tra, hiệu chuẩn nếu có kết nối trực tiếp vào trang thiết bị tàu bay hoặc có yêu cầu cải tiến tàu bay.\ne) Có Giấy chứng nhận kiểm định, hiệu chuẩn (theo quy định) hoặc được quản lý, kiểm soát theo chương trình đo lường đã được phê duyệt (đối với hệ thống trang thiết bị quan trắc khí tượng).",
+  "name": "Cấp lại Giấy chứng nhận khai thác hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Trường hợp cấp lại do bị mất hoặc bị hỏng hoặc thay đổi tên, địa chỉ trụ sở chính của doanh nghiệp, tổ chức:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6619-7794-723d-a019-aeb8d04823d7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp lại Giấy chứng nhận theo Mẫu",
+          "code": "TP-G17.000307",
+          "attachments": [
+            {
+              "id": "019f703e-596e-76e0-a098-decc5314816b",
+              "fileName": "TP-G17.000307; TP-G17.000309  Maudondenghicapcaplaigiaychungnhankhaithactrngthietbi.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f703e-596e-76e0-a098-decc5314816b/TP-G17.000307; TP-G17.000309  Maudondenghicapcaplaigiaychungnhankhaithactrngthietbi.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6619-eaff-741c-bd95-5c9b3a0969af",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo giải trình lý do đề nghị cấp lại",
+          "code": "TP-G17.000308",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp cấp lại khi tổ chức đề nghị tiến hành cải tạo, thay đổi, nâng cấp hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay hoặc được phục hồi sau khi đã khắc phục được nguyên nhân dẫn đến bị đình chỉ, thu hồi theo yêu cầu của Cục Hàng không Việt Nam:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f661a-46fc-749b-91aa-da45df512e52",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp lại Giấy chứng nhận theo mẫu",
+          "code": "TP-G17.000309",
+          "attachments": [
+            {
+              "id": "019f703e-8619-762f-bfa3-389452bbbed5",
+              "fileName": "TP-G17.000307; TP-G17.000309  Maudondenghicapcaplaigiaychungnhankhaithactrngthietbi.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f703e-8619-762f-bfa3-389452bbbed5/TP-G17.000307; TP-G17.000309  Maudondenghicapcaplaigiaychungnhankhaithactrngthietbi.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f661a-9876-7198-95dc-bd67aecc336b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo giải trình và các hồ sơ theo quy định về việc cải tạo, thay đổi, nâng cấp hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay hoặc được phục hồi sau khi đã khắc phục được nguyên nhân dẫn đến bị đình chỉ, thu hồi theo yêu cầu của Cục Hàng không Việt Nam liên quan đến đề nghị cấp lại Giấy chứng nhận",
+          "code": "TP-G17.000310",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f661a-e636-758b-98e1-b643e957d4bf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao biên bản kết quả bay kiểm tra hiệu chuẩn, kết quả kiểm định mới nhất của hệ thống kỹ thuật, thiết bị (đối với hệ thống, thiết bị phải bay kiểm tra hiệu chuẩn hoặc kiểm định)",
+          "code": "TP-G17.000311",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f661b-6432-743f-ad98-c1c4aaedc5a9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo đánh giá an toàn hoặc báo cáo đánh giá sự thay đổi",
+          "code": "TP-G17.000312",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f661b-c82b-759f-8e06-91822e179f71",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Lý lịch hệ thống trang thiết bị",
+          "code": "TP-G17.000313",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f661c-1fbb-75d9-8383-da19b0e01528",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Sơ đồ lắp đặt/ kết nối hệ thống hoặc bản vẽ hoàn công",
+          "code": "TP-G17.000314",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4a-d5e2110a1c95",
+    "019f5e60-6765-772d-b7b4-1e90fc871e31"
+  ],
+  "resultIds": [
+    "019f6a20-8ccf-7513-a87f-e1184caa73bd"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+      "name": "Hàng không",
+      "code": "G04-GT06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+    "name": "Hàng không",
+    "code": "G04-GT06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f5e60-6765-772d-b7b4-1e90fc871e31",
+      "name": "Thông tư quy định về quản lý và bảo đảm hoạt động bay",
+      "code": "47/2026/TT-BXD"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4a-d5e2110a1c95",
+      "name": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không",
+      "code": "193/2016/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f6a20-8ccf-7513-a87f-e1184caa73bd",
+      "name": "Giấy chứng nhận khai thác hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay",
+      "code": "KQ-G17.000056"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "01a031d3-8491-7773-9504-1151b2eb1ff2",
+      "name": "Cấp lại Giấy chứng nhận khai thác hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay",
+      "code": "1.000271.01",
+      "processingDay": {
+        "qty": 6,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d8a-bb79-7537-9714-996c87cc0a5d",
+      "name": "Thủ tục cấp lại Giấy phép khai thác hệ thống kỹ thuật, thiết bị bảo đảm hoạt động bay",
+      "code": "1.000271.01",
+      "processingDay": {
+        "qty": 6,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559562578,
+  "updatedAt": 1787542340196,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Hàng không Việt Nam",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "119 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội",
+  "delegatedAgencies": "Cục Hàng không Việt Nam",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Hệ thống trang thiết bị kỹ thuật bảo đảm hoạt động bay được cấp Giấy chứng nhận khai thác phải đáp ứng các quy định sau:\na) Đáp ứng tiêu chuẩn do Việt Nam ban hành hoặc công nhận phù hợp với tiêu chuẩn của ICAO;\nb) Có giấy phép sử dụng tần số và thiết bị phát sóng vô tuyến điện (đối với thiết bị phát sóng vô tuyến điện);\nc) Có mã số, địa chỉ kỹ thuật của hệ thống kỹ thuật, trang bị, thiết bị CNS (nếu áp dụng);\nd) Đối với thiết bị dẫn đường, giám sát hàng không được đầu tư, lắp đặt mới, phải có kết quả bay kiểm tra, hiệu chuẩn cơ bản và đạt tiêu chuẩn đưa vào khai thác; trường hợp điều chuyển thiết bị dẫn đường vô hướng đã sử dụng và được lắp đặt tại vị trí khác, được phép sử dụng kết quả bay kiểm tra của tàu bay thương mại để xem xét đưa vào khai thác;\nđ) Hệ thống, thiết bị bay kiểm tra, hiệu chuẩn, bay đánh giá phương thức bay bằng thiết bị phải phù hợp với tiêu chuẩn của nhà sản xuất tàu bay kiểm tra, hiệu chuẩn nếu có kết nối trực tiếp vào trang thiết bị tàu bay hoặc có yêu cầu cải tiến tàu bay.\ne) Có Giấy chứng nhận kiểm định, hiệu chuẩn (theo quy định) hoặc được quản lý, kiểm soát theo chương trình đo lường đã được phê duyệt (đối với hệ thống trang thiết bị quan trắc khí tượng).",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f5aad-ca33-7608-8a52-967457803be1",
+    "proposalNumber": "1240/QĐ-BXD",
+    "decisionDate": 1784221200000,
+    "decisionNumber": null,
+    "publicationDate": 1787542339792,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

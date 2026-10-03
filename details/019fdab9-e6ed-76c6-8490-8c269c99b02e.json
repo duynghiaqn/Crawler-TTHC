@@ -1,0 +1,321 @@
+{
+  "id": "019fdab9-e6ed-76c6-8490-8c269c99b02e",
+  "code": "1.116558",
+  "codeNotation": "1.116558",
+  "executionSteps": [
+    {
+      "name": "a)\tNộp hồ sơ TTHC",
+      "description": "Doanh nghiệp nộp hồ sơ đề nghị cấp Giấy phép kinh doanh vận tải hàng không chuyên dùng trực tuyến tại Cổng dịch vụ công quốc gia hoặc trực tiếp tại Bộ phận Một cửa Cục Hàng không Việt Nam hoặc qua dịch vụ bưu chính."
+    },
+    {
+      "name": "b)\tGiải quyết TTHC",
+      "description": "-\tCục Hàng không Việt Nam thực hiện tiếp nhận, kiểm tra hồ sơ trong 03 ngày làm việc kể từ ngày nhận được hồ sơ. Trường hợp thành phần hồ sơ đúng quy định thì tiếp nhận hồ sơ và thông báo nộp phí thẩm định. Trường hợp hồ sơ không đầy đủ theo quy định thì có thông báo hướng dẫn doanh nghiệp để bổ sung, hoàn thiện.\n-\tTrong thời hạn 05 ngày làm việc kể từ ngày nhận được thông báo nộp phí thẩm định của Cục Hàng không Việt Nam, doanh nghiệp có trách nhiệm nộp phí theo quy định. Trường hợp doanh nghiệp không thực hiện nộp phí theo thời hạn, Cục Hàng không Việt Nam từ chối, trả lại hồ sơ cho doanh nghiệp.\n-\tTrong thời hạn 15 ngày làm việc kể từ ngày nhận đủ phí thẩm định, Cục Hàng không Việt Nam tiến hành thẩm định hồ sơ:\n+ Trường hợp hồ sơ đáp ứng các điều kiện theo quy định, Cục Hàng không Việt Nam cấp Giấy phép kinh doanh vận tải hàng không chuyên dùng;\n+ Trường hợp hồ sơ chưa đáp ứng điều kiện giải quyết, Cục Hàng không Việt Nam ban hành văn bản yêu cầu doanh nghiệp bổ sung, hoàn thiện hồ sơ, trong đó nêu rõ lý do, nội dung cần bổ sung.\n-\tTrong thời hạn 15 ngày làm việc kể từ ngày nhận được thông báo của Cục Hàng không Việt Nam, doanh nghiệp có trách nhiệm hoàn thiện hồ sơ theo yêu cầu. Trường hợp doanh nghiệp không nộp lại hồ sơ đúng thời hạn quy định, Cục Hàng không Việt Nam đóng hồ sơ.\n-\tTrường hợp doanh nghiệp nộp lại hồ sơ đúng thời hạn quy định, Cục Hàng không Việt Nam tiếp tục quy trình thẩm định hồ sơ, thời hạn giải quyết được tính lại từ đầu:\n+ Trường hợp hồ sơ đáp ứng các điều kiện theo quy định, Cục Hàng không Việt Nam cấp Giấy phép kinh doanh vận tải hàng không chuyên dùng;\n+ Trường hợp hồ sơ không đáp ứng các điều kiện theo quy định, Cục Hàng không Việt Nam thông báo từ chối, trong đó nêu rõ lý do và đóng hồ sơ.\n \n\n(Kết quả giải quyết thủ tục hành chính được trả bằng bản điện tử, trừ trường hợp công dân, tổ chức có nhu cầu nhận bản giấy. Hồ sơ và kết quả giải quyết thủ tục hành chính bằng bản điện tử có giá trị pháp lý như bản giấy)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Cục Hàng không Việt Nam thực hiện tiếp nhận, kiểm tra hồ sơ trong 03 ngày làm việc kể từ ngày nhận được hồ sơ\n-  Thời hạn thông báo nộp phí thẩm đinh: ngay khi tiếp nhận hồ sơ đúng quy định; \n- Thời hạn thẩm định, cấp Giấy phép: 15 ngày làm việc kể từ ngày nhận đủ phí thẩm định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 20000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Cục Hàng không Việt Nam thực hiện tiếp nhận, kiểm tra hồ sơ trong 03 ngày làm việc kể từ ngày nhận được hồ sơ\n-  Thời hạn thông báo nộp phí thẩm đinh: ngay khi tiếp nhận hồ sơ đúng quy định; \n- Thời hạn thẩm định, cấp Giấy phép: 15 ngày làm việc kể từ ngày nhận đủ phí thẩm định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 20000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Cục Hàng không Việt Nam thực hiện tiếp nhận, kiểm tra hồ sơ trong 03 ngày làm việc kể từ ngày nhận được hồ sơ\n-  Thời hạn thông báo nộp phí thẩm đinh: ngay khi tiếp nhận hồ sơ đúng quy định; \n- Thời hạn thẩm định, cấp Giấy phép: 15 ngày làm việc kể từ ngày nhận đủ phí thẩm định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 20000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Doanh nghiệp kinh doanh vận tải hàng không chuyên dùng phải đáp ứng các điều kiện về vốn, tổ chức bộ máy và phương án có tàu bay khai thác quy định tại Điều 20, Điều 21 và Điều 22 Nghị định số 208/2026/NĐ-CP ngày 15 tháng 6 năm 2026 của Chính phủ về vận tải hàng không.",
+  "name": "Cấp Giấy phép kinh doanh vận tải hàng không chuyên dùng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71bf-70ca-b354-fdd90d06e6d8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Điều lệ hoạt động của doanh nghiệp;",
+          "code": "000.00.00.G04-KQ2647",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0423f-0411-75bb-bae9-c6df6b97a835",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai đề nghị cấp giấy phép: 01 bản chính hoặc biểu mẫu điện tử theo Mẫu",
+          "code": "TP-G17.000603",
+          "attachments": [
+            {
+              "id": "01a0762f-183c-73e1-b664-0a03582acebc",
+              "fileName": "TP-G17.000603TokhaicapcaplaiGPKDvantaihangkhong.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0762f-183c-73e1-b664-0a03582acebc/TP-G17.000603TokhaicapcaplaiGPKDvantaihangkhong.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0423f-68f4-7199-a02f-97f120d3bf5c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử phương án có tàu bay khai thác",
+          "code": "TP-G17.000604",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0423f-b096-754f-943c-f4976e35e86e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao điện tử được cấp từ sổ gốc tài liệu chứng minh điều kiện về vốn theo quy định tại Điều 4 Nghị định số 208/2026/NĐ-CP ngày 15 tháng 6 năm 2026 của Chính phủ về vận tải hàng không",
+          "code": "TP-G17.000605",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0423f-f698-719a-92a2-545a9072f48c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử hợp đồng, hợp đồng nguyên tắc hoặc thỏa thuận về việc thuê, mua tàu bay thể hiện hình thức thuê, mua tàu bay",
+          "code": "TP-G17.000606",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04240-3c82-76a3-8fac-81f3fcd20dc6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử Điều lệ hoạt động của doanh nghiệp thể hiện cơ cấu tổ chức bộ máy",
+          "code": "TP-G17.000607",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f64ef-4b9b-754e-8e9d-ce4e4aa17f54",
+    "01a04250-4145-72f6-b05b-427929f4ef2a"
+  ],
+  "resultIds": [
+    "019fdac6-00d5-7346-9738-d3c8ef45b9fc"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+      "name": "Hàng không",
+      "code": "G04-GT06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+    "name": "Hàng không",
+    "code": "G04-GT06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f64ef-4b9b-754e-8e9d-ce4e4aa17f54",
+      "name": "Thông tư quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không.",
+      "code": "193/2016/TT-BTC "
+    },
+    {
+      "id": "01a04250-4145-72f6-b05b-427929f4ef2a",
+      "name": "Nghị định 208/2026/NĐ-CP về vận tải hàng không ngày 15/06/2026",
+      "code": "208/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fdac6-00d5-7346-9738-d3c8ef45b9fc",
+      "name": "Giấy phép kinh doanh vận tải hàng không",
+      "code": "000.00.00.G04-KQ0201"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790041351384,
+  "updatedAt": 1790041351384,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Hàng không Việt Nam",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Cục Hàng không Việt Nam",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Doanh nghiệp kinh doanh vận tải hàng không chuyên dùng phải đáp ứng các điều kiện về vốn, tổ chức bộ máy và phương án có tàu bay khai thác quy định tại Điều 20, Điều 21 và Điều 22 Nghị định số 208/2026/NĐ-CP ngày 15 tháng 6 năm 2026 của Chính phủ về vận tải hàng không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f6516-1372-71b6-a6bc-b2836375b35f",
+    "proposalNumber": "1211/QĐ-BXD",
+    "decisionDate": 1783962000000,
+    "decisionNumber": null,
+    "publicationDate": 1790041351221,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

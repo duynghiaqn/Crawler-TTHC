@@ -1,0 +1,276 @@
+{
+  "id": "01a09edc-b3b3-76b0-81b1-62bd7a1573d9",
+  "code": "3.000727",
+  "codeNotation": "3.000727",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1.\tĐối tượng hoặc gia đình đối tượng hoặc người giám hộ lập 01 Tờ khai và cung cấp 01 bản sao đối với từng loại giấy tờ có liên quan, gửi trực tiếp tại Trung tâm Phục vụ hành chính công thành phố/Trung tâm Phục vụ hành chính công cấp xã; qua dịch vụ bưu chính; hoặc trực tuyến trên Cổng Dịch vụ công Quốc gia theo quy định.\n2.\tTrong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ của đối tượng, Chủ tịch UBND cấp xã chỉ đạo tổ chức xem xét, thực hiện xác thực và chuẩn hóa thông tin liên quan của đối tượng với cơ sở dữ liệu quốc gia về dân cư và có văn bản đề nghị kèm theo hồ sơ của đối tượng gửi cơ sở trợ giúp xã hội công lập trực thuộc Sở Y tế.\nTrường hợp không đủ điều kiện, trong thời hạn 03 ngày làm việc kể từ khi nhân được hồ sơ của đối tượng, Chủ tịch UBND cấp xã trả lời bằng văn bản và nêu rõ lý do.\n3.\tTrong thời hạn 05 ngày làm việc, kể từ khi nhận được văn bản đề nghị của Chủ tịch UBND cấp xã, người đứng đầu cơ sở trợ giúp xã hội công lập trực thuộc Sở Y tế xem xét, quyết định tiếp nhận đối tượng vào chăm sóc, nuôi dưỡng tại cơ sở. Trường hợp đối tượng không đủ điều kiện tiếp nhận thì có văn bản trả lời và nêu rõ lý do"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "15 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "15 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "15 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "Đối tượng thuộc quy định tại khoản 2 Điều 2 Nghị quyết số 41/2025/NQ-HĐND",
+  "name": "Thủ tục tiếp nhận đối tượng có hoàn cảnh đặc biệt khó khăn vào chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội công lập trực thuộc Sở Y tế theo Điều 5 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a09ed9-4db8-7044-b5ac-85a4850bc31d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai theo Mẫu số 10 kèm theo Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+          "code": "TP-H17.000499",
+          "attachments": [
+            {
+              "id": "01a09ed9-4718-7619-a0a1-2b7e9a62d0fd",
+              "fileName": "MauSo_10.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a09ed9-4718-7619-a0a1-2b7e9a62d0fd/MauSo_10.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a09ed9-c2a4-767f-b8dc-cf9eb86a6f02",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy xác định mức độ khuyết tật đối với người khuyết tật",
+          "code": "TP-H17.000500",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09eda-040e-738c-86fa-356990927cb4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy ra viện của cơ sở y tế công lập có chức năng điều trị bệnh tâm thần; Biên bản của cơ quan chức năng về hành vi nguy hiểm cho bản thân, gia đình, cộng đồng và xã hội dành cho đối tượng khuyết tật về thần kinh, có hành vi nguy hiểm",
+          "code": "TP-H17.000501",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09eda-6ce5-74cb-a614-795d1413b124",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các giấy tờ có thông tin về cha hoặc mẹ của đối tượng đang công tác phục vụ bảo vệ Tổ quốc tại các vùng biên giới hải đảo",
+          "code": "TP-H17.000502",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09eda-fd0d-769c-97b9-398989b1ca26",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị Chủ tịch UBND cấp xã đề nghị đưa đối tượng vào cơ sở trợ giúp xã hội công lập trực thuộc Sở Y tế để nuôi dưỡng lâu dài",
+          "code": "TP-H17.000503",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09edc-3ede-714d-8208-a89eef275983",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ liên quan khác (nếu có)",
+          "code": "TP-H17.000504",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-6573ae6e97af"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a09ed6-0486-7606-b380-c185bc63b82d",
+    "01a09ed6-c17c-77f4-a132-b547cd5618d7"
+  ],
+  "resultIds": [
+    "01a09ed7-63b5-757c-91f0-475ddcfc95dc"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a33f-a730d6c6bd32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+      "name": "Bảo trợ xã hội",
+      "code": "G07-LĐ03"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+    "name": "Bảo trợ xã hội",
+    "code": "G07-LĐ03"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a33f-a730d6c6bd32",
+      "name": "Sở Y tế TP. Đà Nẵng",
+      "code": "H17.19"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a09ed6-0486-7606-b380-c185bc63b82d",
+      "name": "Quy định một số chính sách trợ giúp xã hội trên địa bàn thành phố Đà Nẵng",
+      "code": "Nghị quyết số 41/2025/NQ-HĐND (Thành phố Đà Nẵng)"
+    },
+    {
+      "id": "01a09ed6-c17c-77f4-a132-b547cd5618d7",
+      "name": "Quy định về thẩm quyền, hồ sơ, trình tự, thủ tục thực hiện chính sách trợ giúp xã hội theo Nghị quyết số 41/2025/NQ-HĐND",
+      "code": "124/2026/QĐ-UBND (thành phố Đà Nẵng)"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a09ed7-63b5-757c-91f0-475ddcfc95dc",
+      "name": "Quyết định tiếp nhận đối tượng vào nuôi dưỡng hoặc văn bản trả lời đối với trường hợp không đủ điều kiện đưa vào nuôi dưỡng tại cơ sở trợ giúp xã hội của người đứng đầu cơ sở trợ giúp xã hội công lập trực thuộc Sở Y tế",
+      "code": "KQ.H17.000304"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33d-803cf2496575",
+  "departmentPromulgateCode": "H17",
+  "departmentPromulgateName": "UBND Thành phố Đà Nẵng",
+  "cases": [
+    {
+      "id": "01a0cc3f-9e33-700f-ba82-8a7f4b010a94",
+      "name": "Thủ tục tiếp nhận đối tượng có hoàn cảnh đặc biệt khó khăn vào chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội công lập trực thuộc Sở Y tế theo Điều 5 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+      "code": "3.000727.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790133045791,
+  "updatedAt": 1790133045791,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Y tế TP. Đà Nẵng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đối tượng thuộc quy định tại khoản 2 Điều 2 Nghị quyết số 41/2025/NQ-HĐND",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a09ed0-e223-7106-83d1-874643a1972a",
+    "proposalNumber": "4088/QĐ-UBND",
+    "decisionDate": 1789059600000,
+    "decisionNumber": null,
+    "publicationDate": 1790133045722,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33d-803cf2496575",
+      "name": "UBND Thành phố Đà Nẵng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

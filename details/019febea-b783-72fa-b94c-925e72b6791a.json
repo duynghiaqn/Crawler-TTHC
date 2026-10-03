@@ -1,0 +1,246 @@
+{
+  "id": "019febea-b783-72fa-b94c-925e72b6791a",
+  "code": "1.116215",
+  "codeNotation": "1.116215",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Bước 1. Gửi hồ sơ\nHộ gia đình theo quy định của Luật Cư trú có đề nghị rà soát, công nhận hộ nghèo, hộ cận nghèo, hộ thoát nghèo trong năm theo Mẫu số 01 Phụ lục I ban hành kèm theo Thông tư số 25/2026/TT-BNNMT gửi Chủ tịch Ủy ban nhân dân cấp xã qua Trung tâm Phục vụ hành chính công cấp xã (nộp trực tiếp, trực tuyến hoặc gửi qua đường bưu điện).\nb) Bước 2. Lập danh sách hộ gia đình cần rà soát\nTrên cơ sở đề nghị rà soát, công nhận hộ nghèo, hộ cận nghèo, hộ thoát nghèo trong năm của hộ gia đình, người thực hiện rà soát sử dụng Phiếu A để rà soát, lập danh sách hộ gia đình thuộc Danh sách rà soát hộ nghèo, hộ cận nghèo đối với hộ không có điều kiện nhận dạng nhanh theo ghi chú tại cột 0 và hộ có dưới 04 tiêu chí từ cột 01 đến cột 09; lập Danh sách rà soát hộ thoát nghèo đối với hộ có đề nghị rà soát, công nhận hộ thoát nghèo.\nc) Bước 3. Tổ chức rà soát, phân loại hộ gia đình\nThực hiện rà soát, phân loại hộ nghèo, hộ cận nghèo, hộ thoát nghèo theo quy định tại khoản 3 Điều 5 Thông tư số 25/2026/TT-BNNMT.\nd) Bước 4. Tổ chức họp dân để lấy ý kiến về kết quả rà soát; niêm yết, thông báo công khai kết quả rà soát\nThực hiện tổ chức họp dân để lấy ý kiến về kết quả rà soát theo quy định tại khoản 4 Điều 5 Thông tư số 25/2026/TT-BNNMT và niêm yết, thông báo công khai kết quả rà soát theo quy định tại khoản 5 Điều 5 Thông tư số 25/2026/TT-BNNMT.\nđ) Bước 5. Công nhận hộ nghèo, hộ cận nghèo, hộ thoát nghèo\nChủ tịch Ủy ban nhân dân cấp xã quyết định công nhận Danh sách hộ nghèo, hộ cận nghèo, hộ thoát nghèo theo Mẫu số 05 Phụ lục I ban hành kèm theo Thông tư số 25/2026/TT-BNNMT; cấp Giấy chứng nhận hộ nghèo, hộ cận nghèo theo Mẫu số 06 Phụ lục I ban hành kèm theo Thông tư số 25/2026/TT-BNNMT trước ngày 01 của tháng kế tiếp.\ne) Trường hợp đột xuất\nTrường hợp đột xuất do xảy ra thiên tai, hỏa hoạn, dịch bệnh hoặc trường hợp bất khả kháng khác; phát sinh từ ngày 15 tháng 12 đến hết ngày 31 tháng 12 thì thời gian rà soát, Danh sách hộ gia đình cần rà soát do người thực hiện rà soát đề xuất, Chủ tịch Ủy ban nhân dân cấp xã quyết định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 9,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 9,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 9,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Công nhận hộ nghèo, hộ cận nghèo, hộ thoát nghèo trong năm theo chuẩn nghèo đa chiều quốc gia giai đoạn 2027-2030",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fee85-101e-705b-ade0-2698424adf43",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị rà soát, công nhận hộ nghèo, hộ cận nghèo, hộ thoát nghèo theo Mẫu số 01 ban hành kèm theo Thông tư số 25/2026/TT-BNNMT",
+          "code": "TP-G10.000090",
+          "attachments": [
+            {
+              "id": "019fee94-f203-77c6-8ddf-842d12a874b8",
+              "fileName": "Mau so 1 - Giay de nghi ra soat cong nhan HN-HCN-HTN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fee94-f203-77c6-8ddf-842d12a874b8/Mau so 1 - Giay de nghi ra soat cong nhan HN-HCN-HTN.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-279df5f4d7c9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fef15-148d-764d-908d-9dcc229bebed",
+    "019fef15-dff7-77dd-8a92-58ca73731b57"
+  ],
+  "resultIds": [
+    "019fee85-ac86-739e-be65-8a153d8fa8aa",
+    "019fee86-9846-76f8-84be-ed5f96c8d9da",
+    "019fee87-48b7-75c2-b4b5-53b826f0e953"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-279df5f4d7c9",
+      "name": "Giảm nghèo",
+      "code": "G07-LĐ16"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-279df5f4d7c9",
+    "name": "Giảm nghèo",
+    "code": "G07-LĐ16"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fef15-148d-764d-908d-9dcc229bebed",
+      "name": "Quy định chuẩn nghèo đa chiều quốc gia giai đoạn 2026 - 2030",
+      "code": "351/2025/NĐ-CP"
+    },
+    {
+      "id": "019fef15-dff7-77dd-8a92-58ca73731b57",
+      "name": "Hướng dẫn quy trình, phương pháp rà soát, công nhận hộ nghèo, hộ cận nghèo, hộ thoát nghèo theo chuẩn nghèo đa chiều quốc gia giai đoạn 2027-2030",
+      "code": "25/2026/TT-BNNMT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fee86-9846-76f8-84be-ed5f96c8d9da",
+      "name": "Giấy chứng nhận hộ nghèo, hộ cận nghèo theo Mẫu số 06 ban hành kèm theo Thông tư số 25/2026/TT-BNNMT",
+      "code": "KQ-G10.000024"
+    },
+    {
+      "id": "019fee85-ac86-739e-be65-8a153d8fa8aa",
+      "name": "Quyết định công nhận Danh sách hộ nghèo, hộ cận nghèo, hộ thoát nghèo theo Mẫu số 05 ban hành kèm theo Thông tư số 25/2026/TT-BNNMT",
+      "code": "KQ-G10.000023"
+    },
+    {
+      "id": "019fee87-48b7-75c2-b4b5-53b826f0e953",
+      "name": "Văn bản trả lời, nêu rõ lý do đối với trường hợp không đủ điều kiện công nhận hộ nghèo, hộ cận nghèo, hộ thoát nghèo",
+      "code": "KQ-G10.000025"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+  "departmentPromulgateCode": "G10",
+  "departmentPromulgateName": "Bộ Nông nghiệp và Môi trường",
+  "cases": [
+    {
+      "id": "01a06b2d-0355-73a8-a3f4-f85a24c0ec98",
+      "name": "Công nhận hộ nghèo, hộ cận nghèo, hộ thoát nghèo trong năm theo chuẩn nghèo đa chiều quốc gia giai đoạn 2027-2030",
+      "code": "1.116215.01",
+      "processingDay": {
+        "qty": 31,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1788078873962,
+  "updatedAt": 1788078873962,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019febc5-a0f6-7407-a7cd-e9c0d815550a",
+    "proposalNumber": "3121/QĐ-BNNMT",
+    "decisionDate": 1786122000000,
+    "decisionNumber": null,
+    "publicationDate": 1788078873923,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+      "name": "Bộ Nông nghiệp và Môi trường"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

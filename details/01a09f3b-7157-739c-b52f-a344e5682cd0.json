@@ -1,0 +1,256 @@
+{
+  "id": "01a09f3b-7157-739c-b52f-a344e5682cd0",
+  "code": "3.000732",
+  "codeNotation": "3.000732",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1.\tCha, mẹ hoặc người nuôi dưỡng, người giám hộ đối với trẻ em thuộc đối tượng quy định làm 01 Đơn và kèm các giấy tờ theo quy định gửi trực tiếp tại Trung tâm Phục vụ hành chính công thành phố/Trung tâm Phục vụ hành chính công cấp xã; qua dịch vụ bưu chính; hoặc trực tuyến trên Cổng Dịch vụ công Quốc gia theo quy định đến Chủ tịch UBND cấp xã nơi cư trú.\n2.\tTrong thời gian 03 ngày làm việc kể từ ngày tiếp nhận đủ hồ sơ đề nghị hỗ trợ phẫu thuật tim, Chủ tịch UBND cấp xã chỉ đạo tổ chức xem xét, tiến hành kiểm tra, thực hiện xác thực và chuẩn hóa thông tin liên quan của đối tượng với cơ sở dữ liệu quốc gia về dân cư, có văn bản (kèm theo hồ sơ) gửi về Sở Y tế đề nghị xem xét giải quyết.\nTrường hợp không đủ điều kiện, trong thời gian 02 ngày làm việc kể từ khi nhận hồ sơ của đối tượng, Chủ tịch UBND cấp xã có văn bản trả lời và nêu rõ lý do.\n3.\tTrong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận văn bản đề nghị của Chủ tịch UBND cấp xã (kèm đầy đủ hồ sơ đề nghị của đối tượng), Sở Y tế kiểm tra, ban hành Quyết định và trả kết quả cho đối tượng.\nTrường hợp không đủ điều kiện, trong thời gian 02 ngày làm việc kể từ khi tiếp nhận văn bản đề nghị của Chủ tịch UBND cấp xã (kèm đầy đủ hồ sơ đề nghị của đối tượng), Sở Y tế có văn bản trả lời và nêu rõ lý do"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "06 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "06 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "06 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "Trẻ thuộc đối tượng quy định tại khoản 1 Điều 2 Nghị quyết số 45/2026/NQ-HĐND",
+  "name": "Thủ tục thực hiện chính sách hỗ trợ phẫu thuật tim cho trẻ em bẩm sinh theo Điều 2 Quyết định số 128/2026/QĐ-UBND",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a09f39-70c7-72c6-a079-268aae057983",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ chi phí phẫu thuật tim theo theo mẫu đính kèm Quyết định số 128/2026/QĐ-UBND",
+          "code": "TP-H17.000522",
+          "attachments": [
+            {
+              "id": "01a09f39-6b0a-775d-a780-42e616670679",
+              "fileName": "MauDon.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a09f39-6b0a-775d-a780-42e616670679/MauDon.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a09f3a-28fe-7169-abfa-9e4c802d023f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy ra viện",
+          "code": "TP-H17.000523",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09f3a-a401-736c-b545-0870c94ea16f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy thanh toán viện phí (chi phí khám, phẫu thuật tim)",
+          "code": "TP-H17.000524",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09f3b-3775-77dc-8b02-9b82a499af0b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản gốc vé đi lại của các phương tiện giao thông thực tế đi khám, phẫu thuật tim; hóa đơn và các chứng từ khác theo quy định (nếu có)",
+          "code": "TP-H17.000525",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b5-47bca3d9ccc2"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a09ed6-0486-7606-b380-c185bc63b82d",
+    "01a09f38-c34c-770f-8394-3a9df695f112"
+  ],
+  "resultIds": [
+    "01a09f38-0566-77f5-b32e-a51ec6d32818"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a33f-a730d6c6bd32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b5-47bca3d9ccc2",
+      "name": "Trẻ em",
+      "code": "G07-LĐ17"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a33f-a730d6c6bd32",
+      "name": "Sở Y tế TP. Đà Nẵng",
+      "code": "H17.19"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019da875-2375-73ee-b766-00768091be3a"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019da875-2375-73ee-b766-00768091be3a",
+      "name": "Sở Y tế"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a09ed6-0486-7606-b380-c185bc63b82d",
+      "name": "Quy định một số chính sách trợ giúp xã hội trên địa bàn thành phố Đà Nẵng",
+      "code": "Nghị quyết số 41/2025/NQ-HĐND (Thành phố Đà Nẵng)"
+    },
+    {
+      "id": "01a09f38-c34c-770f-8394-3a9df695f112",
+      "name": "Quy định về thẩm quyền, hồ sơ, trình tự, thủ tục thực hiện chính sách hỗ trợ phẫu thuật tim cho trẻ em bị bệnh tim bẩm sinh theo Nghị quyết số 45/2026/NQ-HĐND",
+      "code": "128/2026/QĐ-UBND (thành phố Đà Nẵng)"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a09f38-0566-77f5-b32e-a51ec6d32818",
+      "name": "Quyết định hỗ trợ hoặc văn bản trả lời không đủ điều kiện để hỗ trợ chi phí phẫu thuật tim cho trẻ em của Sở Y tế",
+      "code": "KQ.H17.000310"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33d-803cf2496575",
+  "departmentPromulgateCode": "H17",
+  "departmentPromulgateName": "UBND Thành phố Đà Nẵng",
+  "cases": [
+    {
+      "id": "01a0cc4b-d6d7-7214-927c-6dd4fbf07bfa",
+      "name": "Thủ tục thực hiện chính sách hỗ trợ phẫu thuật tim cho trẻ em bẩm sinh theo Điều 2 Quyết định số 128/2026/QĐ-UBND",
+      "code": "3.000732.01",
+      "processingDay": {
+        "qty": 6,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790133045793,
+  "updatedAt": 1790133045793,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Y tế TP. Đà Nẵng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trẻ thuộc đối tượng quy định tại khoản 1 Điều 2 Nghị quyết số 45/2026/NQ-HĐND",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a09ed0-e223-7106-83d1-874643a1972a",
+    "proposalNumber": "4088/QĐ-UBND",
+    "decisionDate": 1789059600000,
+    "decisionNumber": null,
+    "publicationDate": 1790133045722,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33d-803cf2496575",
+      "name": "UBND Thành phố Đà Nẵng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": "01a0652d-8382-7446-9ade-c7b7b0d15c72",
+  "code": "1.116540",
+  "codeNotation": "1.116540",
+  "executionSteps": [
+    {
+      "name": "Bước 1",
+      "description": "Bước 1: Chủ hộ gia đình nộp hồ sơ trực tiếp, qua dịch vụ bưu chính công ích đến Bộ phận Một cửa; hoặc nộp hồ sơ trực tuyến tại địa chỉ: https://dichvucong.gov.vn/.\nCông chức Bộ phận Một cửa tiếp nhận, kiểm tra hồ sơ và chuyển hồ sơ đến cơ quan giải quyết theo quy định."
+    },
+    {
+      "name": "Bước 2",
+      "description": "Bước 2: UBND cấp xã thực hiện:\n- UBND cấp xã kiểm tra thành phần hồ sơ theo quy định.\n+ Trường hợp hồ sơ chưa đầy đủ, chưa hợp lệ, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp xã thông báo bằng văn bản cho Chủ hộ, trong đó nêu rõ nội dung cần bổ sung, hoàn thiện hoặc lý do trả lại hồ sơ.\n+ Trường hợp hồ sơ đầy đủ, hợp lệ, Ủy ban nhân dân cấp xã thực hiện kiểm tra điều kiện hỗ trợ kinh phí lắp đặt theo quy định tại Điều 6 Nghị quyết số 21/2026/NQ-HĐND ngày 16/7/2026 của Hội đồng nhân dân tỉnh Bắc Ninh. Ủy ban nhân dân cấp xã kiểm tra, đối chiếu thực tế hệ thống điện mặt trời hộ gia đình tại địa chỉ đề nghị hỗ trợ khi cần thiết.\n- Trong thời hạn không quá 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, căn cứ kết quả kiểm tra điều kiện hỗ trợ, Chủ tịch Ủy ban nhân dân cấp xã ban hành quyết định phê duyệt kinh phí hỗ trợ đối với trường hợp đủ điều kiện hỗ trợ (theo Mẫu số 02); trường hợp không đủ điều kiện hỗ trợ, Ủy ban nhân dân cấp xã thông báo bằng văn bản cho Chủ hộ, trong đó nêu rõ lý do không hỗ trợ kinh phí lắp đặt."
+    },
+    {
+      "name": "Bước 3",
+      "description": "Bước 3: Chuyển kinh phí hỗ trợ cho Chủ hộ:\n- Việc chuyển kinh phí hỗ trợ cho Chủ hộ được thực hiện theo thông tin tài khoản đã đăng ký trong Đơn đề nghị hỗ trợ kinh phí lắp đặt, trong thời hạn không quá 05 ngày làm việc kể từ ngày ban hành quyết định phê duyệt kinh phí hỗ trợ.\nỦy ban nhân dân cấp xã có trách nhiệm lưu trữ hồ sơ, cập nhật thông tin về quá trình tiếp nhận, xử lý hồ sơ và kết quả giải quyết trên Hệ thống thông tin giải quyết TTHC theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp xã.\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp xã.\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp xã.\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "a) Đối với điện mặt trời hộ gia đình (chưa bao gồm hệ thống lưu trữ điện): Tổng công suất định mức của các tấm quang điện được lắp đặt phải đạt từ 01 kWp trở lên.\nb) Đối với hệ thống lưu trữ điện lắp đặt đồng bộ với điện mặt trời hộ gia đình: Tổng dung lượng của hệ thống lưu trữ điện được lắp đặt phải đạt từ 02 kWh trở lên.\nc) Có Thông báo phát triển nguồn điện hoặc Giấy chứng nhận đăng ký phát triển nguồn điện mặt trời mái nhà tự sản xuất, tự tiêu thụ theo quy định tại Nghị định số 58/2025/NĐ-CP được sửa đổi, bổ sung bởi Nghị định số 243/2026/NĐ-CP và các văn bản sửa đổi, bổ sung hoặc thay thế sau này đối với trường hợp pháp luật quy định phải thông báo hoặc đăng ký phát triển nguồn điện.\nd) Có cam kết khai thác, sử dụng hệ thống điện mặt trời hộ gia đình đúng mục đích trong thời gian tối thiểu 03 năm kể từ ngày nhận kinh phí hỗ trợ, cam kết chịu trách nhiệm về an toàn điện, phòng cháy, chữa cháy, an toàn chịu lực công trình, bảo vệ môi trường và việc quản lý, xử lý thiết bị sau sử dụng theo quy định của pháp luật.\ne) Hệ thống điện mặt trời hộ gia đình hoàn thành lắp đặt, đưa vào vận hành sau ngày Nghị quyết này có hiệu lực thi hành.\ng) Nhà ở riêng lẻ nơi lắp đặt hệ thống điện mặt trời hộ gia đình phải là chỗ ở hợp pháp của hộ gia đình. Trường hợp Chủ hộ không đồng thời là chủ sở hữu nhà ở riêng lẻ hoặc nhà ở riêng lẻ thuộc sở hữu chung của nhiều người thì phải có văn bản ủy quyền hoặc văn bản thống nhất cử một người đại diện thực hiện thủ tục đề nghị hỗ trợ.",
+  "name": "Phê duyệt kinh phí hỗ trợ lắp đặt hệ thống điện mặt trời mái nhà tự sản xuất, tự tiêu thụ và hệ thống lưu trữ điện cho hộ gia đình",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a064bc-43bd-70ce-af50-99b97fcb55cf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ kinh phí lắp đặt (theo Mẫu số 01)",
+          "code": "TP-H05.000296",
+          "attachments": [
+            {
+              "id": "01a064bc-2750-74f0-ba5e-be55ae68bc01",
+              "fileName": "Mau so 1 (thuc hien NQ 21_2026 cua HDND tinh).docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a064bc-2750-74f0-ba5e-be55ae68bc01/Mau so 1 (thuc hien NQ 21_2026 cua HDND tinh).docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a064bc-addf-7153-a707-cf94a2eb1840",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao không chứng thực Thông báo phát triển nguồn điện hoặc Giấy chứng nhận đăng ký phát triển nguồn điện mặt trời mái nhà tự sản xuất, tự tiêu thụ theo quy định tại Nghị định số 58/2025/NĐ-CP được sửa đổi, bổ sung bởi Nghị định số 243/2026/NĐ-CP và các văn bản sửa đổi, bổ sung bởi Nghị định số 243/NĐ-CP và các văn bản sửa đổi, bổ sung hoặc thay thế sau này đối với trường hợp pháp luật quy định phải thông báo hoặc đăng ký phát triển nguồn điện",
+          "code": "TP-H05.000297",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a064bd-4eef-77bc-91a8-dfb2980a6025",
+          "originalQty": 1,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính hoặc bản sao Văn bản ủy quyền hoặc văn bản thống nhất cử một người đại diện thực hiện thủ tục đề nghị hỗ trợ trong trường hợp Chủ hộ không đồng thời là chủ sở hữu nhà ở riêng lẻ nơi lắp đặt hệ thống điện mặt trời hộ gia đình hoặc nhà ở riêng lẻ thuộc sở hữu chung của nhiều người. Trường hợp nộp trực tuyến thì sử dụng bản điện tử hoặc bản chụp theo quy định về thực hiện thủ tục hành chính trên môi trường điện tử",
+          "code": "TP-H05.000298",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Tài liệu phục vụ kiểm tra, đối chiếu việc hệ thống điện mặt trời hộ gia đình đã hoàn thành lắp đặt, đưa vào vận hành sau ngày Nghị quyết số 21/2026/NQ-HĐND có hiệu lực thi hành, gồm một trong các tài liệu phù hợp như:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a064be-6d37-75dd-bbfa-7ff43e58bd30",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản nghiệm thu, hồ sơ bàn giao lắp đặt, xác nhận hoàn thành lắp đặt của đơn vị lắp đặt trong trường hợp thuê đơn vị lắp đặt",
+          "code": "TP-H05.000299",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0651b-30e2-709a-8be2-e855f1ae51c1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hóa đơn, chứng từ mua thiết bị, tài liệu kỹ thuật của thiết bị chính trong hệ thống như tấm quang điện, bộ chuyển đổi nghịch lưu inverter, hệ thống lưu trữ điện, nếu có",
+          "code": "TP-H05.000300",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0651c-0530-74d3-8b04-201be936f7d4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hoặc tài liệu khác có liên quan",
+          "code": "TP-H05.000301",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp hộ gia đình tự lắp đặt thì Chủ hộ kê khai, cam kết trong Đơn đề nghị hỗ trợ về việc hệ thống đã hoàn thành lắp đặt, đưa vào vận hành tại đúng địa chỉ đề nghị hỗ trợ sau ngày Nghị quyết số 21/2026/NQ-HĐND có hiệu lực thi hành và chịu trách nhiệm trước pháp luật về nội dung kê khai, cam kết. Trường hợp nộp trực tuyến thì sử dụng bản điện tử hoặc bản chụp theo quy định.",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Trường hợp thông tin, giấy tờ trong thành phần hồ sơ đã có trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của tỉnh, cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành được chia sẻ, khai thác theo quy định hoặc là kết quả do cơ quan thực hiện thủ tục hành chính đang quản lý thì không yêu cầu Chủ hộ cung cấp lại.",
+  "keywords": "Hệ thống điện mặt trời",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-85a95f320bcf"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a06527-0b89-7751-af8f-b3b2b8ae2170"
+  ],
+  "resultIds": [
+    "01a064bf-2d4a-718c-9919-664be5af4f37"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a85-74ec-a32e-aaa627094b57"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-85a95f320bcf",
+      "name": "Điện lực",
+      "code": "42"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-85a95f320bcf",
+    "name": "Điện lực",
+    "code": "42"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a85-74ec-a32e-aaa627094b57",
+      "name": "Sở Công thương tỉnh Bắc Ninh",
+      "code": "H05.7"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a06527-0b89-7751-af8f-b3b2b8ae2170",
+      "name": "Nghị quyết số 21/2026/NQ-HĐND ngày 16/7/2026 của Hội đồng nhân dân tỉnh Bắc Ninh ban hành Quy định chính sách hỗ trợ cho hộ gia đình lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ và hệ thống lưu trữ điện trên địa bàn tỉnh Bắc Ninh, giai đoạn 2026-2030",
+      "code": "21/2026/NQ-HĐND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a064bf-2d4a-718c-9919-664be5af4f37",
+      "name": "Quyết định Phê duyệt kinh phí hỗ trợ lắp đặt hệ thống điện mặt trời mái nhà tự sản xuất, tự tiêu thụ và hệ thống lưu trữ điện cho hộ gia đình (Mẫu số 02).",
+      "code": "KQ-H05.000149"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND tỉnh Bắc Ninh",
+  "cases": [
+    {
+      "id": "01a0655f-2451-7498-890d-58535eb22956",
+      "name": "Phê duyệt kinh phí hỗ trợ lắp đặt hệ thống điện mặt trời mái nhà tự sản xuất, tự tiêu thụ và hệ thống lưu trữ điện cho hộ gia đình",
+      "code": "1.116540.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1788406991015,
+  "updatedAt": 1788406991015,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp xã.\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "Sở Công thương tỉnh Bắc Ninh",
+  "requirementsAndConditions": "a) Đối với điện mặt trời hộ gia đình (chưa bao gồm hệ thống lưu trữ điện): Tổng công suất định mức của các tấm quang điện được lắp đặt phải đạt từ 01 kWp trở lên.\nb) Đối với hệ thống lưu trữ điện lắp đặt đồng bộ với điện mặt trời hộ gia đình: Tổng dung lượng của hệ thống lưu trữ điện được lắp đặt phải đạt từ 02 kWh trở lên.\nc) Có Thông báo phát triển nguồn điện hoặc Giấy chứng nhận đăng ký phát triển nguồn điện mặt trời mái nhà tự sản xuất, tự tiêu thụ theo quy định tại Nghị định số 58/2025/NĐ-CP được sửa đổi, bổ sung bởi Nghị định số 243/2026/NĐ-CP và các văn bản sửa đổi, bổ sung hoặc thay thế sau này đối với trường hợp pháp luật quy định phải thông báo hoặc đăng ký phát triển nguồn điện.\nd) Có cam kết khai thác, sử dụng hệ thống điện mặt trời hộ gia đình đúng mục đích trong thời gian tối thiểu 03 năm kể từ ngày nhận kinh phí hỗ trợ, cam kết chịu trách nhiệm về an toàn điện, phòng cháy, chữa cháy, an toàn chịu lực công trình, bảo vệ môi trường và việc quản lý, xử lý thiết bị sau sử dụng theo quy định của pháp luật.\ne) Hệ thống điện mặt trời hộ gia đình hoàn thành lắp đặt, đưa vào vận hành sau ngày Nghị quyết này có hiệu lực thi hành.\ng) Nhà ở riêng lẻ nơi lắp đặt hệ thống điện mặt trời hộ gia đình phải là chỗ ở hợp pháp của hộ gia đình. Trường hợp Chủ hộ không đồng thời là chủ sở hữu nhà ở riêng lẻ hoặc nhà ở riêng lẻ thuộc sở hữu chung của nhiều người thì phải có văn bản ủy quyền hoặc văn bản thống nhất cử một người đại diện thực hiện thủ tục đề nghị hỗ trợ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a064ed-cab2-7119-81d4-fe11cd7d4c5a",
+    "proposalNumber": "2414/QĐ-UBND",
+    "decisionDate": 1787763600000,
+    "decisionNumber": null,
+    "publicationDate": 1788406990932,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND tỉnh Bắc Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

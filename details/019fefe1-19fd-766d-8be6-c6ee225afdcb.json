@@ -1,0 +1,151 @@
+{
+  "id": "019fefe1-19fd-766d-8be6-c6ee225afdcb",
+  "code": "5.003872",
+  "codeNotation": "5.003872",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "abc"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký kinh doanh (fix)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "INTERCONNECTED_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2c08-77b9-731a-ae11-42a5a53492f9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019feee3-e37a-71ce-99e8-4235476fcbb2"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2c08-77b9-731a-ae11-42a5a53492f9",
+      "name": "Hoạt động khoa học và công nghệ",
+      "code": "180716381"
+    }
+  ],
+  "category": {
+    "id": "019d2c08-77b9-731a-ae11-42a5a53492f9",
+    "name": "Hoạt động khoa học và công nghệ",
+    "code": "180716381"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-ab18-77a9-86e6-51520f70579d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-ab18-77a9-86e6-51520f70579d",
+      "name": "Đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019feee3-e37a-71ce-99e8-4235476fcbb2",
+      "name": "Văn bản trả lời người đề nghị và nêu rõ lý do trong trường hợp không phê duyệt",
+      "code": "KQ.G11.1.013281.II.14"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1786435989921,
+  "updatedAt": 1786436023886,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "relatedFormalities": [
+    {
+      "id": "019f4a2a-825b-7377-a3f3-1ae25d4c3869",
+      "name": "Thuyên chuyển nhà giáo trong cơ sở giáo dục công lập tại cấp xã"
+    }
+  ],
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fefe1-ddfa-771d-b28c-00db9ec68d30",
+    "proposalNumber": "110803",
+    "decisionDate": 1786381200000,
+    "decisionNumber": null,
+    "publicationDate": 1786435989893,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

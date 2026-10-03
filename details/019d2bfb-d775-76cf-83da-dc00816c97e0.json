@@ -1,0 +1,635 @@
+{
+  "id": "019d2bfb-d775-76cf-83da-dc00816c97e0",
+  "code": "1.001613",
+  "codeNotation": "1.001613",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Lập, nộp hồ sơ\n\t- NLĐ lập hồ sơ theo quy định tại mục 6.3 (Thành phần hồ sơ) và nộp đến cơ quan BHXH."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Nhận kết quả\n\tNLĐ nhận hồ sơ, giấy tờ liên quan theo quy định (Quyết định về việc hưởng BHXH một lần; Bản quá trình đóng BHXH); Tiền trợ cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: NLĐ nhận:\n\t- Hồ sơ giấy tờ liên quan theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử); \n\t- Tiền trợ cấp:\n\t+ Thông qua tài khoản cá nhân. \n\t+ Bằng tiền mặt tại cơ quan BHXH. \nThời hạn giải quyết: Tối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: NLĐ nhận:\n\t- Hồ sơ giấy tờ liên quan theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử); \n\t- Tiền trợ cấp:\n\t+ Thông qua tài khoản cá nhân. \n\t+ Bằng tiền mặt tại cơ quan BHXH. \nThời hạn giải quyết: Tối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: NLĐ nhận:\n\t- Hồ sơ giấy tờ liên quan theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử); \n\t- Tiền trợ cấp:\n\t+ Thông qua tài khoản cá nhân. \n\t+ Bằng tiền mặt tại cơ quan BHXH. \nThời hạn giải quyết: Tối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Theo quy định tại Điều 70, Điều 102 Luật BHXH số 41/2024/QH15.",
+  "name": "Giải quyết hưởng BHXH một lần",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Theo quy định tại Điều 78, 106 Luật BHXH năm 2024, Thông tư số 136/2020/TT-BQP, gồm:",
+      "profileComponents": []
+    },
+    {
+      "name": "1. Đối với người tham gia BHXH bắt buộc",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a023a8-f7e8-73b0-9497-f4e60ff02794",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Sổ BHXH",
+          "code": "TP-G12.0001200",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02d67-f839-7657-ba05-9b5922055954",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo Mẫu số 14-HSB",
+          "code": "TP.G12.000081",
+          "attachments": [
+            {
+              "id": "01a02de5-e51a-722c-b292-89c5fb20dec8",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02de5-e51a-722c-b292-89c5fb20dec8/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02e21-800d-750a-ad7e-50d1c8af7e50",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp ra nước ngoài định cư, ngoài hồ sơ quy định tại tiết a, b nêu trên thì có thêm bản sao giấy xác nhận của cơ quan có thẩm quyền về việc thôi quốc tịch Việt Nam hoặc bản dịch tiếng Việt được chứng thực hoặc công chứng một trong các giấy tờ sau đây:\t\t\t - Hộ chiếu do nước ngoài cấp\t\t - Thị thực của cơ quan nước ngoài có thẩm quyền cấp có xác nhận việc cho phép nhập cảnh để định cư ở nước ngoài;\t\t\t - Thẻ thường trú dài hạn ở nước ngoài của cơ quan nước ngoài có thẩm quyền cấp;\t\t - Giấy tờ hợp pháp khác thể hiện việc định cư ở nước ngoài theo quy định của Chính phủ.",
+          "code": "TP.G12.000092",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e22-6dd8-707a-bb29-169827d2316c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp mắc một trong những bệnh ung thư, bại liệt, xơ gan mất bù, lao nặng, AIDS, ngoài hồ sơ quy định tại tiết a, b nêu trên thì có thêm bản tóm tắt hồ sơ bệnh án hoặc bản chính hoặc bản sao giấy ra viện",
+          "code": "TP.G12.000093",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e23-2896-77b9-bdb4-c08dffd6c7bb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp suy giảm KNLĐ từ 81% trở lên; người khuyết tật đặc biệt nặng, ngoài hồ sơ quy định tại tiết a, b nêu trên thì có thêm biên bản giám định mức suy giảm KNLĐ của Hội đồng GĐYK hoặc bản sao giấy xác nhận mức độ khuyết tật đặc biệt nặng",
+          "code": "TP.G12.000094",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e23-e8a0-714e-baee-501f6e658338",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp thanh toán phí GĐYK thì có thêm hóa đơn, chứng từ thu phí giám định kèm theo bản chính bảng kê các nội dung giám định của cơ sở thực hiện GĐYK",
+          "code": "TP.G12.000095",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e24-98f6-7280-b269-7653b0fc6a3a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai cá nhân về thời gian, địa bàn phục vụ trong Quân đội có hưởng phụ cấp khu vực (Mẫu số 04B-HBQP ban hành kèm theo Thông tư số 136/2020/TT-BQP ngày 29/10/2020) đối với trường hợp có thời gian phục vụ trong Quân đội trước ngày 01/01/2007 tại địa bàn có hưởng phụ cấp khu vực mà sổ BHXH không thể hiện đầy đủ thông tin làm căn cứ tính phụ cấp khu vực",
+          "code": "TP.G12.000096",
+          "attachments": [
+            {
+              "id": "01a02e34-d3b2-72d7-900c-68e8b11fa5c1",
+              "fileName": "04B-HBQP.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02e34-d3b2-72d7-900c-68e8b11fa5c1/04B-HBQP.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02e25-3691-742b-9444-758c008c62c3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp NLĐ là công dân nước ngoài làm việc tại Việt Nam đề nghị hưởng BHXH một lần: Hồ sơ như  tại điểm a, b, d, đ, e khoản khoản 1 nêu trên",
+          "code": "TP.G12.000097",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "2. Trường hợp tham gia BHXH tự nguyện",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a023a8-f7e8-73b0-9497-f4e60ff02794",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Sổ BHXH",
+          "code": "TP-G12.0001200",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02d67-f839-7657-ba05-9b5922055954",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo Mẫu số 14-HSB",
+          "code": "TP.G12.000081",
+          "attachments": [
+            {
+              "id": "01a02de5-e51a-722c-b292-89c5fb20dec8",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02de5-e51a-722c-b292-89c5fb20dec8/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02e21-800d-750a-ad7e-50d1c8af7e50",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp ra nước ngoài định cư, ngoài hồ sơ quy định tại tiết a, b nêu trên thì có thêm bản sao giấy xác nhận của cơ quan có thẩm quyền về việc thôi quốc tịch Việt Nam hoặc bản dịch tiếng Việt được chứng thực hoặc công chứng một trong các giấy tờ sau đây:\t\t\t - Hộ chiếu do nước ngoài cấp\t\t - Thị thực của cơ quan nước ngoài có thẩm quyền cấp có xác nhận việc cho phép nhập cảnh để định cư ở nước ngoài;\t\t\t - Thẻ thường trú dài hạn ở nước ngoài của cơ quan nước ngoài có thẩm quyền cấp;\t\t - Giấy tờ hợp pháp khác thể hiện việc định cư ở nước ngoài theo quy định của Chính phủ.",
+          "code": "TP.G12.000092",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e22-6dd8-707a-bb29-169827d2316c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp mắc một trong những bệnh ung thư, bại liệt, xơ gan mất bù, lao nặng, AIDS, ngoài hồ sơ quy định tại tiết a, b nêu trên thì có thêm bản tóm tắt hồ sơ bệnh án hoặc bản chính hoặc bản sao giấy ra viện",
+          "code": "TP.G12.000093",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e23-2896-77b9-bdb4-c08dffd6c7bb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp suy giảm KNLĐ từ 81% trở lên; người khuyết tật đặc biệt nặng, ngoài hồ sơ quy định tại tiết a, b nêu trên thì có thêm biên bản giám định mức suy giảm KNLĐ của Hội đồng GĐYK hoặc bản sao giấy xác nhận mức độ khuyết tật đặc biệt nặng",
+          "code": "TP.G12.000094",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e2b-593a-7402-9d42-61fa3e3426be",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp thanh toán phí GĐYK thì có thêm hóa đơn, chứng từ thu phí giám định kèm theo bản chính bảng kê các nội dung giám định của cơ sở thực hiện GĐYK.",
+          "code": "TP.G12.000099",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02e24-98f6-7280-b269-7653b0fc6a3a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai cá nhân về thời gian, địa bàn phục vụ trong Quân đội có hưởng phụ cấp khu vực (Mẫu số 04B-HBQP ban hành kèm theo Thông tư số 136/2020/TT-BQP ngày 29/10/2020) đối với trường hợp có thời gian phục vụ trong Quân đội trước ngày 01/01/2007 tại địa bàn có hưởng phụ cấp khu vực mà sổ BHXH không thể hiện đầy đủ thông tin làm căn cứ tính phụ cấp khu vực",
+          "code": "TP.G12.000096",
+          "attachments": [
+            {
+              "id": "01a02e34-d3b2-72d7-900c-68e8b11fa5c1",
+              "fileName": "04B-HBQP.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02e34-d3b2-72d7-900c-68e8b11fa5c1/04B-HBQP.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ghi chú:  - Hồ sơ thay thế tại Bảng này được thực hiện khi đã có trong cơ sở dữ liệu cơ quan BHXH đang quản lý, cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành được kết nối, chia sẻ đủ điều kiện khai thác, sử dụng, đảm bảo tính pháp lý theo quy định. Hồ sơ đã có dữ liệu thay thế thì đơn vị SDLĐ, NLĐ không phải cung cấp cho cơ quan BHXH. - Không yêu cầu NLĐ nộp lại sổ BHXH bản giấy.  - Thành phần hồ sơ nếu không ghi là bản chính thì có thể nộp bản chính hoặc bản sao hợp lệ. Các thành phần hồ sơ là mẫu do cơ quan BHXH ban hành là bản chính. - Trường hợp ủy quyền nhận chế độ BHXH: Hồ sơ kèm theo Văn bản uỷ quyền (được chứng thực) theo quy định của pháp luật",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be46-85fda49d119e",
+    "019d2bb3-5d7e-72d1-afe5-6de8c6e793ac",
+    "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+    "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+    "019d2bb3-5d86-7760-a63f-86fb70a72ee2",
+    "019d2bb3-5d87-7195-a440-f511123122ee",
+    "019e72e9-3b2a-77b9-9c29-023d914eb3dc",
+    "01a02e0e-719d-7317-8057-eba06fcb84d3",
+    "01a02e32-1e58-70b3-9ace-f98694c5cc92"
+  ],
+  "resultIds": [
+    "019d2bb2-1c82-739b-8b99-71f2b510b501",
+    "019d2bb2-1c82-739b-8b99-a45e7c4f69fb",
+    "019d2bb2-1c82-739b-8b99-d6be7cc06c52"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e65-3c061397ee5f",
+    "019d2be3-6ab7-7554-88f2-90c046346591"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e65-3c061397ee5f",
+    "019d2be3-6ab7-7554-88f2-90c046346591"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-3c061397ee5f",
+      "name": "Bảo hiểm xã hội cấp Tỉnh",
+      "code": "LĐTB-T"
+    },
+    {
+      "id": "019d2be3-6ab7-7554-88f2-90c046346591",
+      "name": "Bảo hiểm xã hội cấp huyện",
+      "code": "LĐTB-H"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-3c061397ee5f",
+      "name": "Bảo hiểm xã hội cấp Tỉnh",
+      "code": "LĐTB-T"
+    },
+    {
+      "id": "019d2be3-6ab7-7554-88f2-90c046346591",
+      "name": "Bảo hiểm xã hội cấp huyện",
+      "code": "LĐTB-H"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d87-7195-a440-f511123122ee",
+      "name": "Luật Bảo hiểm xã hội",
+      "code": "41/2024/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be46-85fda49d119e",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT BẢO HIỂM XÃ HỘI VỀ BẢO HIỂM XÃ HỘI BẮT BUỘC",
+      "code": "12/2025/TT-BNV"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe5-6de8c6e793ac",
+      "name": "THÔNG TƯ QUY ĐỊNH CHI TIẾT THI HÀNH LUẬT BẢO HIỂM XÃ HỘI, LUẬT AN TOÀN, VỆ SINH LAO ĐỘNG VỀ LĨNH VỰC Y TẾ VÀ MỘT SỐ ĐIỀU CỦA LUẬT KHÁM BỆNH, CHỮA BỆNH",
+      "code": "25/2025/TT-BYT"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc",
+      "code": "158/2025/NĐ-CP"
+    },
+    {
+      "id": "019e72e9-3b2a-77b9-9c29-023d914eb3dc",
+      "name": "Quy định về giao dịch điện tử trong lĩnh vực bảo hiểm xã hội và Cơ sở dữ liệu quốc gia về bảo hiểm",
+      "code": "164/2025/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63f-86fb70a72ee2",
+      "name": "Thông tư 136/2020/TT-BQP",
+      "code": "136/2020/TT-BQP"
+    },
+    {
+      "id": "01a02e0e-719d-7317-8057-eba06fcb84d3",
+      "name": "Vv vướng mắc trong thực hiện chế độ BHXH",
+      "code": "4831/LĐTBXH-BHXH"
+    },
+    {
+      "id": "01a02e32-1e58-70b3-9ace-f98694c5cc92",
+      "name": "Quy định chi tiết và biện pháp thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc đối với quân nhân, công an nhân dân, dân quân thường trực và người làm công tác cơ yếu hưởng lương như đối với quân nhân",
+      "code": "157/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội tự nguyện",
+      "code": "159/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c82-739b-8b99-71f2b510b501",
+      "name": "Bản quá trình đóng BHXH (Mẫu số 04-HSB)",
+      "code": "KQ.G24.000012"
+    },
+    {
+      "id": "019d2bb2-1c82-739b-8b99-d6be7cc06c52",
+      "name": "Tiền trợ cấp",
+      "code": "KQ.G12.0000100"
+    },
+    {
+      "id": "019d2bb2-1c82-739b-8b99-a45e7c4f69fb",
+      "name": "Quyết định về việc hưởng BHXH một lần (Mẫu số 07B-HSB)",
+      "code": "KQ.G24.000030"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d76f8-a623-743c-be96-9ea2226ebdb9",
+      "name": "Giải quyết hưởng BHXH một lần đối với NLĐ phục viên, xuất ngũ, thôi việc",
+      "code": "1.001613.06",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d76f6-f542-72ea-b059-672aea30a910",
+      "name": "Giải quyết hưởng BHXH một lần đối với NLĐ đang mắc một trong những bệnh nguy hiểm đến tính mạng",
+      "code": "1.001613.03",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d76f7-7dfb-729a-ad9d-44ec2a9805ae",
+      "name": "Giải quyết hưởng BHXH một lần đối với NLĐ tham gia BHXH bắt buộc sau một năm nghỉ việc, người tham gia BHXH tự nguyện sau một năm không tiếp tục đóng BHXH mà chưa đủ 20 năm đóng BHXH",
+      "code": "1.001613.04",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d76f8-06e2-7259-a271-5bbe20dde120",
+      "name": "Giải quyết hưởng BHXH một lần đối với NLĐ là công dân nước ngoài vào làm việc tại Việt Nam (có hiệu lực từ 01/01/2022)",
+      "code": "1.001613.05",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d76f5-fa05-710a-8945-88d7be2eed98",
+      "name": "Giải quyết hưởng BHXH một lần đối với trường hợp đủ tuổi hưởng lương hưu theo quy định mà chưa đủ 20 năm đóng BHXH hoặc chưa đủ 15 năm đóng BHXH bắt buộc đối với trường hợp lao động nữ là người hoạt động chuyên trách hoặc không chuyên trách ở xã, phường, thị trấn và không tiếp tục tham gia BHXH tự nguyện",
+      "code": "1.001613.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a445-721a-9d1a-466bbf42c3f7",
+      "name": "Giải quyết hưởng BHXH một lần",
+      "code": "1.001613.04",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a48f-75d8-9804-56b82ba8cb84",
+      "name": "Giải quyết hưởng BHXH một lần",
+      "code": "1.001613.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a4b9-7109-87b4-b25821bd7148",
+      "name": "Giải quyết hưởng BHXH một lần",
+      "code": "1.001613.02",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a3eb-753d-9920-cabea4468be1",
+      "name": "Giải quyết hưởng BHXH một lần",
+      "code": "1.001613.06",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a46f-70e6-a8ed-993c772b4b5e",
+      "name": "Giải quyết hưởng BHXH một lần",
+      "code": "1.001613.05",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a4e0-72dd-85fa-ae9440e47367",
+      "name": "Giải quyết hưởng BHXH một lần",
+      "code": "1.001613.07",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a417-709a-ad3a-79f841cd6de8",
+      "name": "Giải quyết hưởng BHXH một lần",
+      "code": "1.001613.03",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d76f6-82f1-74c8-b217-6c44d3a54298",
+      "name": "Giải quyết hưởng BHXH một lần đối với NLĐ ra nước ngoài để định cư",
+      "code": "1.001613.02",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d76fa-993a-7338-9e93-32ae77f007eb",
+      "name": "Giải quyết hưởng BHXH một lần áp dụng thí điểm xác thực qua chữ ký số được tích hợp trong ứng dụng trên thiết bị di động theo Quyết định số 422/QĐ-TTg ngày 04/04/2022 của Thủ tướng Chính phủ phê duyệt Danh mục dịch vụ công trực tuyến tích hợp, cung cấp trên Cổng Dịch vụ công quốc gia năm 2022",
+      "code": "1.001613.07",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559418229,
+  "updatedAt": 1787504991656,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Theo quy định tại Điều 70, Điều 102 Luật BHXH số 41/2024/QH15.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "id": "019d2bfe-0b53-71a8-a7bc-8e092805145f",
+  "code": "1.000246",
+  "codeNotation": "1.000246",
+  "executionSteps": [
+    {
+      "name": "a) Nộp hồ sơ TTHC",
+      "description": "Doanh nghiệp, tổ chức nộp hồ sơ trực tiếp tại Bộ phận Một cửa Cục Hàng không Việt Nam hoặc qua bưu chính hoặc trực tuyến trên Cổng Dịch vụ công quốc gia."
+    },
+    {
+      "name": "b) Giải quyết TTHC",
+      "description": "- Trong thời hạn 01 ngày làm việc kể từ khi nhận được hồ sơ, Cục Hàng không Việt Nam kiểm tra tính hợp lệ, đầy đủ của hồ sơ. Nếu hồ sơ không đủ điều kiện tiếp nhận, thông báo trực tiếp hoặc bằng văn bản hoặc trên môi trường điện tử cho người làm đơn lý do nếu hồ sơ bị từ chối. Nếu thành phần hồ sơ đầy đủ theo quy định thì hồ sơ được tiếp nhận.\n- Trong thời gian 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ hợp lệ, Cục Hàng không Việt Nam tổ chức đánh giá chi tiết nội dung hồ sơ. Trường hợp có yêu cầu sửa đổi, bổ sung hồ sơ, Cục Hàng không Việt Nam có trách nhiệm thông báo bằng văn bản cho người đề nghị để sửa đổi, bổ sung hồ sơ. Trong thời hạn 15 ngày làm việc kể từ khi thông báo kết quả đánh giá hồ sơ, nếu người đề nghị không hoàn thành việc hoàn thiện hồ sơ, Cục Hàng không Việt Nam thực hiện đóng hồ sơ giải quyết thủ tục hành chính, đồng thời thông báo trả lại hồ sơ. Trường hợp hồ sơ không đạt yêu cầu, Cục Hàng không Việt Nam thông báo từ chối cấp phép và nêu rõ lý do. Trường hợp hồ sơ đạt yêu cầu, người đề nghị hoàn thành nghĩa vụ nộp phí, lệ phí theo quy định. \n- Việc nộp phí được thực hiện trong thời hạn 03 ngày làm việc kể từ ngày Cục Hàng không Việt Nam xác nhận hồ sơ hợp lệ; quá thời hạn này, các tổ chức, cá nhân không hoàn thành nghĩa vụ tài chính theo quy định, Cục Hàng không Việt Nam từ chối giải quyết thủ tục hành chính. Thời gian thực hiện việc nộp phí của tổ chức, cá nhân không tính vào thời gian giải quyết thủ tục hành chính. Các khoản phí và lệ phí thực hiện theo pháp luật về phí và lệ phí.\n- Trong thời hạn 05 ngày, kể từ khi thông báo về tính hợp lệ hồ sơ và người đề nghị hoàn thành nghĩa vụ nộp phí, Cục Hàng không Việt Nam sẽ tiến hành tổ chức sát hạch theo quy định đối với loại giấy phép và năng định tương ứng. \n- Cục Hàng không Việt Nam cấp giấy phép, năng định theo đề nghị trong thời hạn 02 ngày làm việc, kể từ khi người làm đơn đạt được kết quả sát hạch theo quy định.\n- Kết quả giải quyết thủ tục hành chính được trả bằng bản điện tử, trừ trường hợp công dân, tổ chức có nhu cầu nhận bản giấy. Hồ sơ và kết quả giải quyết thủ tục hành chính bằng bản điện tử có giá trị pháp lý như bản giấy."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 11,
+      "processingTimeUnit": "DAY",
+      "description": "- Trong thời hạn 01 ngày làm việc kể từ khi nhận được hồ sơ, Cục Hàng không Việt Nam kiểm tra tính hợp lệ, đầy đủ của hồ sơ. \n- Thời hạn đánh giá chi tiết nội dung hồ sơ: 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ hợp lệ.\n- Thời hạn tổ chức sát hạch: 05 ngày làm việc kể từ khi thông báo về tính hợp lệ hồ sơ và người đề nghị hoàn thành nghĩa vụ nộp phí.\n- Thời hạn cấp giấy phép, năng định: 02 ngày làm việc, kể từ khi kết quả sát hạch đạt yêu cầu.\n- Phí: \n+ Sát hạch lý thuyết: 600.000 VNĐ/lần.\n+ Sát hạch thực hành: 250.000 VNĐ/lần.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 600000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Sát hạch lý thuyết: 600.000 VNĐ/lần.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 250000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Sát hạch thực hành: 250.000 VNĐ/lần.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 11,
+      "processingTimeUnit": "DAY",
+      "description": "- Thời hạn đánh giá chi tiết nội dung hồ sơ: 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ hợp lệ.\n- Thời hạn tổ chức sát hạch: 05 ngày làm việc kể từ khi thông báo về tính hợp lệ hồ sơ và người đề nghị hoàn thành nghĩa vụ nộp phí.\n- Thời hạn cấp giấy phép, năng định: 02 ngày làm việc, kể từ khi kết quả sát hạch đạt yêu cầu.\n- Phí: \n+ Sát hạch lý thuyết: 600.000 VNĐ/lần.\n+ Sát hạch thực hành: 250.000 VNĐ/lần.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 600000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Sát hạch lý thuyết: 600.000 VNĐ/lần.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 250000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Sát hạch thực hành: 250.000 VNĐ/lần.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 11,
+      "processingTimeUnit": "DAY",
+      "description": "- Trong thời hạn 01 ngày làm việc kể từ khi nhận được hồ sơ, Cục Hàng không Việt Nam kiểm tra tính hợp lệ, đầy đủ của hồ sơ.\n- Thời hạn đánh giá chi tiết nội dung hồ sơ: 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ hợp lệ.\n- Thời hạn tổ chức sát hạch: 05 ngày làm việc kể từ khi thông báo về tính hợp lệ hồ sơ và người đề nghị hoàn thành nghĩa vụ nộp phí.\n- Thời hạn cấp giấy phép, năng định: 02 ngày làm việc, kể từ khi kết quả sát hạch đạt yêu cầu.\n- Phí: \n+ Sát hạch lý thuyết: 600.000 VNĐ/lần.\n+ Sát hạch thực hành: 250.000 VNĐ/lần.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 600000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Sát hạch lý thuyết: 600.000 VNĐ/lần.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Sát hạch thực hành: 250.000 VNĐ/lần.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "* Tiêu chuẩn chung của nhân viên bảo đảm hoạt động bay (ANS) \n1. Là công dân Việt Nam từ 18 tuổi trở lên (riêng đối với Kiểm soát viên không lưu và Nhân viên khai thác thiết bị thông tin liên lạc hàng không là từ 21 tuổi trở lên), tốt nghiệp trung học phổ thông trở lên, có lý lịch rõ ràng, sức khỏe, phẩm chất đạo đức, trình độ chuyên môn, ngoại ngữ và năng lực phù hợp với chức danh, vị trí và phạm vi nhiệm vụ được giao.\n2. Những chức danh pháp luật quy định phải có giấy phép chỉ được thực hiện nhiệm vụ khi có giấy phép và năng định còn hiệu lực; các chức danh khác chỉ được thực hiện nhiệm vụ khi có chứng chỉ chuyên môn và xác nhận nội bộ năng lực còn hiệu lực. Chức danh không thuộc diện cấp giấy phép, năng định do doanh nghiệp ANS chỉ định và báo cáo Cục Hàng không Việt Nam để kiểm tra, giám sát.\nI. Nhân viên không lưu\n* Điều kiện để cấp Giấy phép, năng định cho kiểm soát viên không lưu \n1. Người đề nghị cấp giấy phép lần đầu phải:\na) Từ 21 tuổi trở lên; \nb) Đã hoàn thành khóa học tại đơn vị và hoàn thành các kỳ kiểm tra và đánh giá phù hợp theo quy định; \nc) Đáp ứng các yêu cầu về kiến thức quy định tại Điều 338, Điều 339 và kinh nghiệm quy định tại Điều 340 Thông tư số 47/2026/TT-BXD;\nd) Có Giấy chứng nhận đủ điều kiện sức khỏe còn hiệu lực; \nđ) Đáp ứng yêu cầu về trình độ thông thạo tiếng Anh theo quy định tại Thông tư số 47/2026/TT-BXD;\ne) Đạt yêu cầu của kỳ sát hạch cấp giấy phép, năng định do Cục Hàng không Việt Nam tổ chức.\n2. Giấy phép Kiểm soát viên không lưu chỉ có hiệu lực khi có ít nhất 01 năng định còn hiệu lực. \n3. Người có giấy phép kiểm soát viên không lưu nếu không bắt đầu thực hiện các quyền hạn và năng định của giấy phép trong vòng một năm kể từ ngày cấp thì phải thực hiện huấn luyện đơn vị (Unit training) sau khi được đánh giá năng lực bởi cơ sở đào tạo, huấn luyện phù hợp.\n* Các yêu cầu về kiến thức đối với việc cấp giấy phép cho Kiểm soát viên không lưu \n1. Yêu cầu kiến thức chung:\na) Luật hàng không (Air law): Các quy tắc và quy định liên quan đến kiểm soát viên không lưu;\nb) Hệ thống thiết bị không lưu (Air traffic control equipment): Nguyên lý, cách sử dụng và giới hạn của các hệ thống thiết bị được sử dụng trong kiểm soát không lưu;\nc) Kiến thức chung (General knowledge): Các nguyên lý bay; các nguyên lý vận hành và chức năng của tàu bay và hệ thống tàu bay điều khiển từ xa (RPAS), động cơ và các hệ thống thiết bị; tính năng của tàu bay liên quan đến các hoạt động điều hành bay;\nd) Năng lực con người (Human performance): Khả năng và giới hạn của con người bao gồm các nguyên tắc về Quản lý mối đe dọa và quản lý lỗi (TEM - Threat and Error Management) được quy định tại Tài liệu huấn luyện về các Yếu tố con người (Doc 9683);\nđ) Khí tượng (Meteorology): Khí tượng hàng không; cách sử dụng và đánh giá các tài liệu và thông tin khí tượng; nguồn gốc và đặc điểm của các hiện tượng thời tiết ảnh hưởng đến hoạt động bay và an toàn bay; kỹ thuật đo độ cao (altimetry);\ne) Dẫn đường (Navigation): Các nguyên lý dẫn đường hàng không; nguyên lý, giới hạn và độ chính xác của các hệ thống thiết bị dẫn đường và thiết bị hỗ trợ bằng mắt (visual aids); và\ng) Các phương thức khai thác (Operational procedures): Các phương thức kiểm soát không lưu, thông tin liên lạc, liên lạc thoại vô tuyến và thuật ngữ hàng không (trong các tình huống thông thường, không thông thường và khẩn nguy); cách sử dụng các tài liệu và tin tức hàng không có liên quan; các biện pháp thực hành an toàn liên quan đến chuyến bay.\n2. Yêu cầu về kinh nghiệm:\nNgười nộp đơn phải hoàn thành các khóa đào tạo theo quy định và chứng minh được năng lực theo yêu cầu của Nhà chức trách hàng không Việt Nam, đồng thời phải hoàn thành khóa huấn luyện tại vị trí làm việc trong môi trường điều hành bay thực tế tối thiểu là 03 tháng, dưới sự giám sát trực tiếp của giáo viên thực hành huấn luyện kiểm soát viên không lưu tại vị trí làm việc (ATC OJTI). Các yêu cầu về kinh nghiệm quy định cho từng năng định đối với kiểm soát viên không lưu tại Điều 340 có thể được tính là một phần kinh nghiệm quy định tại khoản này. \n* Yêu cầu về kiến thức cho từng năng định. \n1. Năng định kiểm soát sân bay: Yêu cầu về Sơ đồ sân bay; các đặc tính vật lý và thiết bị hỗ trợ bằng mắt; Cấu trúc vùng trời; Áp dụng các quy tắc, các phương thức và nguồn thông tin; Các trang thiết bị dẫn đường hàng không; Thiết bị kiểm soát không lưu và việc sử dụng các thiết bị này; Địa hình và các địa tiêu nổi bật; Đặc điểm của hoạt động bay; Các hiện tượng thời tiết; Các kế hoạch khẩn nguy và tìm kiếm, cứu nạn.\n2. Năng định kiểm soát tiếp cận và đường dài không có giám sát: Cấu trúc vùng trời; Áp dụng các quy tắc, các phương thức và nguồn thông tin; Các trang thiết bị dẫn đường hàng không; Thiết bị kiểm soát không lưu và việc sử dụng các thiết bị này; Địa hình và các địa tiêu nổi bật; Các đặc điểm của hoạt động bay và luồng không lưu; Các hiện tượng thời tiết; Các kế hoạch khẩn nguy và tìm kiếm, cứu nạn.\n3. Năng định kiểm soát tiếp cận và đường dài có giám sát: Các nguyên lý, cách sử dụng và các hạn chế của hệ thống giám sát ATS được áp dụng và của các thiết bị liên quan; Các phương thức cung cấp dịch vụ giám sát ATS phù hợp, bao gồm cả các phương thức nhằm đảm bảo phân cách địa hình phù hợp.\n* Các yêu cầu về kinh nghiệm đối với Kiểm soát viên không lưu \n1. Năng định Kiểm soát sân bay (ADC - Aerodrome Control): tối thiểu 90 giờ hoặc 01 tháng, tính theo giá trị lớn hơn tại cơ sở đề nghị cấp năng định. \n2. Năng định Kiểm soát tiếp cận không có giám sát ATS (APP), Kiểm soát tiếp cận giám sát ATS (APS), Kiểm soát đường dài không có giám sát ATS (ACP), và Kiểm soát đường dài giám sát ATS (ACS): tối thiểu 180 giờ hoặc 03 tháng, tính theo giá trị lớn hơn. \n3. Năng định Kiểm soát tiếp cận ra đa chính xác (APRC Approach precision radar control rating): Thực hiện tối thiểu 200 lần tiếp cận chính xác, trong đó có tối đa 100 lần thực hiện trên thiết bị mô phỏng, giả định được Cục Hàng không Việt Nam chấp thuận và tối thiểu 100 lần thực hiện trên trang thiết bị thực tế tại cơ sở đề nghị cấp năng định.\n4. Trường hợp năng định APS có dẫn dắt tiếp cận bằng hệ thống giám sát: Phải thực hiện thêm tối thiểu 25 lần dẫn dắt tiếp cận trên màn hình hiển thị vị trí hoặc hệ thống giám sát tương đương tại cơ sở dưới sự giám sát của giáo viên thực hành tại vị trí làm việc (ATC OJTI).\n5. Đơn đề nghị cấp năng định phải được nộp trong thời hạn 06 tháng kể từ ngày hoàn thành yêu cầu về kinh nghiệm được quy định tại các khoản 1, 2, 3, 4 Điều 340 Thông tư số 47/2026/TT-BXD.\n6. Trong trường hợp người nộp đơn đã được cấp một năng định loại khác, hoặc đã được cấp cùng loại năng định đó nhưng tại một cơ sở cung cấp dịch vụ không lưu khác, Cục Hàng không Việt Nam sẽ xem xét khả năng có thể giảm yêu cầu về kinh nghiệm theo quy định tại các khoản 1, 2, 3, 4 Điều 340 Thông tư số 47/2026/TT-BXD.\n7. Trường hợp thay đổi cơ sở, vị trí hoặc môi trường khai thác có khác biệt đáng kể về hệ thống thiết bị, quy trình, vùng trời hoặc mức độ phức tạp thì phải hoàn thành chương trình Huấn luyện chuyển đổi (Conversion training) và được đánh giá đạt yêu cầu trước khi thực hiện nhiệm vụ độc lập. Kiểm soát viên không lưu chỉ được khai thác độc lập tại cơ sở ATS mới sau khi hoàn thành huấn luyện lý thuyết, huấn luyện mô phỏng, giả định hoặc huấn luyện bổ sung cần thiết, huấn luyện tại vị trí làm việc dưới sự giám sát của giáo viên đủ điều kiện và được đánh giá đạt năng lực theo chương trình huấn luyện đã được phê chuẩn.\n* Các yêu cầu về kỹ năng đối với Kiểm soát viên không lưu \n1. Người nộp đơn phải chứng minh được các kỹ năng, khả năng nhận định tình huống và hiệu quả thực hiện các công việc cần thiết để cung cấp dịch vụ điều hành bay an toàn, điều hòa và thông suốt, tương ứng với mức độ quyền hạn được cấp; bao gồm cả khả năng nhận diện và quản lý các mối đe dọa và sai sót (TEM).\n2. Tài liệu hướng dẫn về việc áp dụng quản lý mối đe dọa và sai sót (TEM) được quy định tại Tài liệu PANS-TRG (Doc 9868), Phần II, Mục I, Chương 6 và Tài liệu hướng dẫn Đào tạo về các yếu tố con người (Tài liệu 9683)\nII. Nhân viên khai thác thiết bị thông tin liên lạc hàng không\n* Điều kiện cấp giấy phép và năng định cho nhân viên khai thác thiết bị thông tin liên lạc hàng không\nĐiều kiện chung để được cấp giấy phép:\n1. Đáp ứng các tiêu chuẩn chung của nhân viên bảo đảm hoạt động bay;\n2. Từ 21 tuổi trở lên; \n3. Đã hoàn thành chương trình đào tạo ban đầu và huấn luyện đơn vị; \n4. Đáp ứng yêu cầu về trình độ thông thạo tiếng Anh theo quy định tại Thông tư số 47/2026/TT-BXD;\n5. Đạt yêu cầu của kỳ sát hạch cấp năng định do Cục Hàng không Việt Nam tổ chức.\n* Các yêu cầu về kiến thức và kinh nghiệm thực hành tối thiểu đối với việc đào tạo, huấn luyện nhân viên khai thác thiết bị thông tin liên lạc hàng không \nNgười đề nghị cấp giấy phép nhân viên khai thác thiết bị thông tin liên lạc hàng không phải đáp ứng tối thiểu các yêu cầu về:\n1. Lý thuyết theo các chủ đề như sau: \na) Kiến thức chung: Dịch vụ Không lưu được cung cấp trong phạm vi quốc gia;\nb) Phương thức khai thác: Phương thức liên lạc vô tuyến; thuật ngữ; mạng viễn thông hàng không;\nc) Quy tắc và quy định: Các quy tắc và quy định áp dụng đối với nhân viên khai thác thiết bị thông tin liên lạc hàng không;\nd) Thiết bị thông tin viễn thông: Nguyên lý, việc sử dụng và các giới hạn của thiết bị thông tin viễn thông tại một đài, trạm hàng không.\n2. Kinh nghiệm: \nHoàn thành khóa đào tạo được phê chuẩn trong thời gian 12 tháng trước ngày nộp đơn đề nghị cấp giấy phép, năng định và có thời gian thực tập dưới sự giám sát của giáo viên thực hành tại vị trí làm việc trong thời gian tối thiểu là 02 tháng.\n3. Kỹ năng:\nNgười đề nghị phải chứng minh năng lực trong việc:\na) Khai thác các thiết bị liên lạc viễn thông đang được sử dụng; \nb) Chuyển và nhận các điện thông thoại vô tuyến một cách hiệu quả và chính xác.\n4. Khi thực hiện nhiệm vụ tại một đài, trạm hàng không, người được cấp giấy phép nhân viên khai thác thiết bị thông tin liên lạc hàng không phải nắm vững toàn bộ thông tin về các loại thiết bị và phương thức khai thác được sử dụng tại đài, trạm hàng không đó.",
+  "name": "Cấp giấy phép, năng định nhân viên bảo đảm hoạt động bay",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6592-ab22-7718-a5f2-073ba483a1b2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của doanh nghiệp cung cấp dịch vụ ANS kèm theo danh sách trích ngang hoặc đơn của cá nhân đề nghị",
+          "code": "TP-G17.000272",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6593-145a-7480-ba0d-43b76023f97d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc mẫu biểu điện tử đơn đề nghị cấp giấy phép, năng định theo mẫu tại Phụ lục II ban hành kèm theo Thông tư này",
+          "code": "TP-G17.000273",
+          "attachments": [
+            {
+              "id": "019f6ac8-0130-71fe-8bb3-0a37829cab0b",
+              "fileName": "TP-G17.000273Maudondenghicapcaplaigiahangiayphepnhanvienbaodamhoatdongbay.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6ac8-0130-71fe-8bb3-0a37829cab0b/TP-G17.000273Maudondenghicapcaplaigiahangiayphepnhanvienbaodamhoatdongbay.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f660c-a3b3-75fe-aa3f-b28eb78602d4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Sơ yếu lý lịch có dán ảnh và xác nhận của thủ trưởng đơn vị hoặc chính quyền địa phương (áp dụng đối với Kiểm soát viên không lưu);",
+          "code": "TP-G17.000274",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f660d-ac5f-707e-96bf-6acae0c084e6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ chứng minh về kiến thức, kinh nghiệm phù hợp với giấy phép, năng định bao gồm: + Chứng chỉ chuyên môn; + Bản sao hoặc bản sao điện tử chứng nhận hoàn thành khóa huấn luyện đơn vị hoặc kết quả kiểm tra kiến thức phù hợp; + Đối với Kiểm soát viên không lưu phải kèm hồ sơ OJT, nhật ký OJT và phiếu đánh giá tổng hợp năng lực:",
+          "code": "TP-G17.000275",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f660e-208e-7457-a2cf-67dac628ccee",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử Giấy chứng nhận sức khoẻ còn hiệu lực (áp dụng đối với Học viên Kiểm soát không lưu, Kiểm soát viên không lưu, Giáo viên thực hành tại vị trí làm việc Kiểm soát viên không lưu);",
+          "code": "TP-G17.000276",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f660e-75a9-770d-9570-ca274aa85e04",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử Giấy chứng nhận trình độ thông thạo tiếng Anh còn hiệu lực",
+          "code": "TP-G17.000277",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f660e-cd8a-77de-a8b1-a95afef3c670",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ảnh chân dung điện tử chụp trong vòng 6 tháng tính đến thời điểm nộp hồ sơ",
+          "code": "TP-G17.000278",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Nhân viên bảo đảm hoạt động bay",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4a-d5e2110a1c95",
+    "019f5e60-6765-772d-b7b4-1e90fc871e31"
+  ],
+  "resultIds": [
+    "019f6a1e-f9d3-712d-b0ce-adf193cbd435"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+      "name": "Hàng không",
+      "code": "G04-GT06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+    "name": "Hàng không",
+    "code": "G04-GT06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be4a-d5e2110a1c95",
+      "name": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không",
+      "code": "193/2016/TT-BTC"
+    },
+    {
+      "id": "019f5e60-6765-772d-b7b4-1e90fc871e31",
+      "name": "Thông tư quy định về quản lý và bảo đảm hoạt động bay",
+      "code": "47/2026/TT-BXD"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f6a1e-f9d3-712d-b0ce-adf193cbd435",
+      "name": "Giấy phép, năng định nhân viên bảo đảm hoạt động bay",
+      "code": "KQ-G17.000053"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "01a031d3-84c3-727f-9c6e-322f10478460",
+      "name": "Cấp giấy phép, năng định nhân viên bảo đảm hoạt động bay",
+      "code": "1.000246.01",
+      "processingDay": {
+        "qty": 11,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d8a-dc5a-7168-b75a-5b8a1c72fd15",
+      "name": "Cấp giấy phép, năng định nhân viên bảo đảm hoạt động bay",
+      "code": "1.000246.01",
+      "processingDay": {
+        "qty": 11,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559562579,
+  "updatedAt": 1787542340195,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Hàng không Việt Nam",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Cục Hàng không Việt Nam",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "* Tiêu chuẩn chung của nhân viên bảo đảm hoạt động bay (ANS) \n1. Là công dân Việt Nam từ 18 tuổi trở lên (riêng đối với Kiểm soát viên không lưu và Nhân viên khai thác thiết bị thông tin liên lạc hàng không là từ 21 tuổi trở lên), tốt nghiệp trung học phổ thông trở lên, có lý lịch rõ ràng, sức khỏe, phẩm chất đạo đức, trình độ chuyên môn, ngoại ngữ và năng lực phù hợp với chức danh, vị trí và phạm vi nhiệm vụ được giao.\n2. Những chức danh pháp luật quy định phải có giấy phép chỉ được thực hiện nhiệm vụ khi có giấy phép và năng định còn hiệu lực; các chức danh khác chỉ được thực hiện nhiệm vụ khi có chứng chỉ chuyên môn và xác nhận nội bộ năng lực còn hiệu lực. Chức danh không thuộc diện cấp giấy phép, năng định do doanh nghiệp ANS chỉ định và báo cáo Cục Hàng không Việt Nam để kiểm tra, giám sát.\nI. Nhân viên không lưu\n* Điều kiện để cấp Giấy phép, năng định cho kiểm soát viên không lưu \n1. Người đề nghị cấp giấy phép lần đầu phải:\na) Từ 21 tuổi trở lên; \nb) Đã hoàn thành khóa học tại đơn vị và hoàn thành các kỳ kiểm tra và đánh giá phù hợp theo quy định; \nc) Đáp ứng các yêu cầu về kiến thức quy định tại Điều 338, Điều 339 và kinh nghiệm quy định tại Điều 340 Thông tư số 47/2026/TT-BXD;\nd) Có Giấy chứng nhận đủ điều kiện sức khỏe còn hiệu lực; \nđ) Đáp ứng yêu cầu về trình độ thông thạo tiếng Anh theo quy định tại Thông tư số 47/2026/TT-BXD;\ne) Đạt yêu cầu của kỳ sát hạch cấp giấy phép, năng định do Cục Hàng không Việt Nam tổ chức.\n2. Giấy phép Kiểm soát viên không lưu chỉ có hiệu lực khi có ít nhất 01 năng định còn hiệu lực. \n3. Người có giấy phép kiểm soát viên không lưu nếu không bắt đầu thực hiện các quyền hạn và năng định của giấy phép trong vòng một năm kể từ ngày cấp thì phải thực hiện huấn luyện đơn vị (Unit training) sau khi được đánh giá năng lực bởi cơ sở đào tạo, huấn luyện phù hợp.\n* Các yêu cầu về kiến thức đối với việc cấp giấy phép cho Kiểm soát viên không lưu \n1. Yêu cầu kiến thức chung:\na) Luật hàng không (Air law): Các quy tắc và quy định liên quan đến kiểm soát viên không lưu;\nb) Hệ thống thiết bị không lưu (Air traffic control equipment): Nguyên lý, cách sử dụng và giới hạn của các hệ thống thiết bị được sử dụng trong kiểm soát không lưu;\nc) Kiến thức chung (General knowledge): Các nguyên lý bay; các nguyên lý vận hành và chức năng của tàu bay và hệ thống tàu bay điều khiển từ xa (RPAS), động cơ và các hệ thống thiết bị; tính năng của tàu bay liên quan đến các hoạt động điều hành bay;\nd) Năng lực con người (Human performance): Khả năng và giới hạn của con người bao gồm các nguyên tắc về Quản lý mối đe dọa và quản lý lỗi (TEM - Threat and Error Management) được quy định tại Tài liệu huấn luyện về các Yếu tố con người (Doc 9683);\nđ) Khí tượng (Meteorology): Khí tượng hàng không; cách sử dụng và đánh giá các tài liệu và thông tin khí tượng; nguồn gốc và đặc điểm của các hiện tượng thời tiết ảnh hưởng đến hoạt động bay và an toàn bay; kỹ thuật đo độ cao (altimetry);\ne) Dẫn đường (Navigation): Các nguyên lý dẫn đường hàng không; nguyên lý, giới hạn và độ chính xác của các hệ thống thiết bị dẫn đường và thiết bị hỗ trợ bằng mắt (visual aids); và\ng) Các phương thức khai thác (Operational procedures): Các phương thức kiểm soát không lưu, thông tin liên lạc, liên lạc thoại vô tuyến và thuật ngữ hàng không (trong các tình huống thông thường, không thông thường và khẩn nguy); cách sử dụng các tài liệu và tin tức hàng không có liên quan; các biện pháp thực hành an toàn liên quan đến chuyến bay.\n2. Yêu cầu về kinh nghiệm:\nNgười nộp đơn phải hoàn thành các khóa đào tạo theo quy định và chứng minh được năng lực theo yêu cầu của Nhà chức trách hàng không Việt Nam, đồng thời phải hoàn thành khóa huấn luyện tại vị trí làm việc trong môi trường điều hành bay thực tế tối thiểu là 03 tháng, dưới sự giám sát trực tiếp của giáo viên thực hành huấn luyện kiểm soát viên không lưu tại vị trí làm việc (ATC OJTI). Các yêu cầu về kinh nghiệm quy định cho từng năng định đối với kiểm soát viên không lưu tại Điều 340 có thể được tính là một phần kinh nghiệm quy định tại khoản này. \n* Yêu cầu về kiến thức cho từng năng định. \n1. Năng định kiểm soát sân bay: Yêu cầu về Sơ đồ sân bay; các đặc tính vật lý và thiết bị hỗ trợ bằng mắt; Cấu trúc vùng trời; Áp dụng các quy tắc, các phương thức và nguồn thông tin; Các trang thiết bị dẫn đường hàng không; Thiết bị kiểm soát không lưu và việc sử dụng các thiết bị này; Địa hình và các địa tiêu nổi bật; Đặc điểm của hoạt động bay; Các hiện tượng thời tiết; Các kế hoạch khẩn nguy và tìm kiếm, cứu nạn.\n2. Năng định kiểm soát tiếp cận và đường dài không có giám sát: Cấu trúc vùng trời; Áp dụng các quy tắc, các phương thức và nguồn thông tin; Các trang thiết bị dẫn đường hàng không; Thiết bị kiểm soát không lưu và việc sử dụng các thiết bị này; Địa hình và các địa tiêu nổi bật; Các đặc điểm của hoạt động bay và luồng không lưu; Các hiện tượng thời tiết; Các kế hoạch khẩn nguy và tìm kiếm, cứu nạn.\n3. Năng định kiểm soát tiếp cận và đường dài có giám sát: Các nguyên lý, cách sử dụng và các hạn chế của hệ thống giám sát ATS được áp dụng và của các thiết bị liên quan; Các phương thức cung cấp dịch vụ giám sát ATS phù hợp, bao gồm cả các phương thức nhằm đảm bảo phân cách địa hình phù hợp.\n* Các yêu cầu về kinh nghiệm đối với Kiểm soát viên không lưu \n1. Năng định Kiểm soát sân bay (ADC - Aerodrome Control): tối thiểu 90 giờ hoặc 01 tháng, tính theo giá trị lớn hơn tại cơ sở đề nghị cấp năng định. \n2. Năng định Kiểm soát tiếp cận không có giám sát ATS (APP), Kiểm soát tiếp cận giám sát ATS (APS), Kiểm soát đường dài không có giám sát ATS (ACP), và Kiểm soát đường dài giám sát ATS (ACS): tối thiểu 180 giờ hoặc 03 tháng, tính theo giá trị lớn hơn. \n3. Năng định Kiểm soát tiếp cận ra đa chính xác (APRC Approach precision radar control rating): Thực hiện tối thiểu 200 lần tiếp cận chính xác, trong đó có tối đa 100 lần thực hiện trên thiết bị mô phỏng, giả định được Cục Hàng không Việt Nam chấp thuận và tối thiểu 100 lần thực hiện trên trang thiết bị thực tế tại cơ sở đề nghị cấp năng định.\n4. Trường hợp năng định APS có dẫn dắt tiếp cận bằng hệ thống giám sát: Phải thực hiện thêm tối thiểu 25 lần dẫn dắt tiếp cận trên màn hình hiển thị vị trí hoặc hệ thống giám sát tương đương tại cơ sở dưới sự giám sát của giáo viên thực hành tại vị trí làm việc (ATC OJTI).\n5. Đơn đề nghị cấp năng định phải được nộp trong thời hạn 06 tháng kể từ ngày hoàn thành yêu cầu về kinh nghiệm được quy định tại các khoản 1, 2, 3, 4 Điều 340 Thông tư số 47/2026/TT-BXD.\n6. Trong trường hợp người nộp đơn đã được cấp một năng định loại khác, hoặc đã được cấp cùng loại năng định đó nhưng tại một cơ sở cung cấp dịch vụ không lưu khác, Cục Hàng không Việt Nam sẽ xem xét khả năng có thể giảm yêu cầu về kinh nghiệm theo quy định tại các khoản 1, 2, 3, 4 Điều 340 Thông tư số 47/2026/TT-BXD.\n7. Trường hợp thay đổi cơ sở, vị trí hoặc môi trường khai thác có khác biệt đáng kể về hệ thống thiết bị, quy trình, vùng trời hoặc mức độ phức tạp thì phải hoàn thành chương trình Huấn luyện chuyển đổi (Conversion training) và được đánh giá đạt yêu cầu trước khi thực hiện nhiệm vụ độc lập. Kiểm soát viên không lưu chỉ được khai thác độc lập tại cơ sở ATS mới sau khi hoàn thành huấn luyện lý thuyết, huấn luyện mô phỏng, giả định hoặc huấn luyện bổ sung cần thiết, huấn luyện tại vị trí làm việc dưới sự giám sát của giáo viên đủ điều kiện và được đánh giá đạt năng lực theo chương trình huấn luyện đã được phê chuẩn.\n* Các yêu cầu về kỹ năng đối với Kiểm soát viên không lưu \n1. Người nộp đơn phải chứng minh được các kỹ năng, khả năng nhận định tình huống và hiệu quả thực hiện các công việc cần thiết để cung cấp dịch vụ điều hành bay an toàn, điều hòa và thông suốt, tương ứng với mức độ quyền hạn được cấp; bao gồm cả khả năng nhận diện và quản lý các mối đe dọa và sai sót (TEM).\n2. Tài liệu hướng dẫn về việc áp dụng quản lý mối đe dọa và sai sót (TEM) được quy định tại Tài liệu PANS-TRG (Doc 9868), Phần II, Mục I, Chương 6 và Tài liệu hướng dẫn Đào tạo về các yếu tố con người (Tài liệu 9683)\nII. Nhân viên khai thác thiết bị thông tin liên lạc hàng không\n* Điều kiện cấp giấy phép và năng định cho nhân viên khai thác thiết bị thông tin liên lạc hàng không\nĐiều kiện chung để được cấp giấy phép:\n1. Đáp ứng các tiêu chuẩn chung của nhân viên bảo đảm hoạt động bay;\n2. Từ 21 tuổi trở lên; \n3. Đã hoàn thành chương trình đào tạo ban đầu và huấn luyện đơn vị; \n4. Đáp ứng yêu cầu về trình độ thông thạo tiếng Anh theo quy định tại Thông tư số 47/2026/TT-BXD;\n5. Đạt yêu cầu của kỳ sát hạch cấp năng định do Cục Hàng không Việt Nam tổ chức.\n* Các yêu cầu về kiến thức và kinh nghiệm thực hành tối thiểu đối với việc đào tạo, huấn luyện nhân viên khai thác thiết bị thông tin liên lạc hàng không \nNgười đề nghị cấp giấy phép nhân viên khai thác thiết bị thông tin liên lạc hàng không phải đáp ứng tối thiểu các yêu cầu về:\n1. Lý thuyết theo các chủ đề như sau: \na) Kiến thức chung: Dịch vụ Không lưu được cung cấp trong phạm vi quốc gia;\nb) Phương thức khai thác: Phương thức liên lạc vô tuyến; thuật ngữ; mạng viễn thông hàng không;\nc) Quy tắc và quy định: Các quy tắc và quy định áp dụng đối với nhân viên khai thác thiết bị thông tin liên lạc hàng không;\nd) Thiết bị thông tin viễn thông: Nguyên lý, việc sử dụng và các giới hạn của thiết bị thông tin viễn thông tại một đài, trạm hàng không.\n2. Kinh nghiệm: \nHoàn thành khóa đào tạo được phê chuẩn trong thời gian 12 tháng trước ngày nộp đơn đề nghị cấp giấy phép, năng định và có thời gian thực tập dưới sự giám sát của giáo viên thực hành tại vị trí làm việc trong thời gian tối thiểu là 02 tháng.\n3. Kỹ năng:\nNgười đề nghị phải chứng minh năng lực trong việc:\na) Khai thác các thiết bị liên lạc viễn thông đang được sử dụng; \nb) Chuyển và nhận các điện thông thoại vô tuyến một cách hiệu quả và chính xác.\n4. Khi thực hiện nhiệm vụ tại một đài, trạm hàng không, người được cấp giấy phép nhân viên khai thác thiết bị thông tin liên lạc hàng không phải nắm vững toàn bộ thông tin về các loại thiết bị và phương thức khai thác được sử dụng tại đài, trạm hàng không đó.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f5aad-ca33-7608-8a52-967457803be1",
+    "proposalNumber": "1240/QĐ-BXD",
+    "decisionDate": 1784221200000,
+    "decisionNumber": null,
+    "publicationDate": 1787542339792,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

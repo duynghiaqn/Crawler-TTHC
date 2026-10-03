@@ -1,0 +1,327 @@
+{
+  "id": "019d2bfc-baa9-754f-becd-a83ed82e1181",
+  "code": "1.011047",
+  "codeNotation": "1.011047",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "+ Bước 1:\nCăn cứ kế hoạch sản xuất rượu, kế hoạch sản xuất sản phẩm thuốc lá để tiêu thụ trong nước hàng năm, chậm nhất là ngày 15 tháng 5 của năm liền trước năm kế hoạch, tổ chức, cá nhân sản xuất rượu hoặc doanh nghiệp sản xuất sản phẩm thuốc lá để tiêu thụ trong nước sử dụng tài khoản giao dịch điện tử còn hiệu lực đã được cơ quan thuế cấp, truy cập Hệ thống thông tin quản lý thuế để đăng ký kế hoạch mua tem điện tử theo Mẫu số 02/TEM Phụ lục III kèm theo Thông tư số 93/2026/TT-BTC. Số lượng tem đề nghị mua không được vượt quá sản lượng được phép sản xuất theo Giấy phép sản xuất còn hiệu lực do cơ quan có thẩm quyền cấp (nếu có), trường hợp vượt phải ghi rõ lý do.\nTrường hợp trong năm, doanh nghiệp, tổ chức, cá nhân có biến động về sản xuất dẫn đến tăng nhu cầu mua tem điện tử; các tổ chức, cá nhân mới có hoạt động sản xuất rượu, doanh nghiệp mới có Giấy phép sản xuất sản phẩm thuốc lá để tiêu thụ trong nước sau ngày 15 tháng 5 hàng năm: trước ngày đề nghị mua tem điện tử ít nhất 30 ngày, doanh nghiệp, tổ chức, cá nhân sử dụng tài khoản giao dịch điện tử còn hiệu lực đã được cơ quan thuế cấp, truy cập Hệ thống thông tin quản lý thuế để đăng ký số lượng tem điện tử cần mua hoặc mua thêm của năm kế hoạch theo Mẫu số 02/TEM Phụ lục III kèm theo Thông tư số 93/2026/TT-BTC. Tổng số lượng tem điện tử đề nghị mua không được vượt quá sản lượng được phép sản xuất theo Giấy phép sản xuất (nếu có), trường hợp vượt phải ghi rõ lý do."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan thuế tiếp nhận và giải quyết hồ sơ của người nộp thuế:\nTrong thời gian 01 ngày làm việc, kể từ ngày Hệ thống thông tin quản lý thuế tiếp nhận thành công hồ sơ của tổ chức, cá nhân, cơ quan thuế Thông báo của cơ quan thuế qua phương thức điện tử theo Mẫu số 02/TB/TEM Phụ lục III kèm theo Thông tư số 93/2026/TT-BTC về việc chấp nhận hay không chấp nhận việc đăng ký kế hoạch mua, mua bổ sung tem điện tử rượu, tem điện tử thuốc lá qua Hệ thống thông tin quản lý thuế."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không",
+  "name": "Kế hoạch mua/mua bổ sung/đơn đề nghị mua tem điện tử thuốc lá hoặc tem điện tử rượu sản xuất để tiêu thụ trong nước",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-8c58ec9ad413",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Kế hoạch mua/mua bổ sung/đơn đề nghị mua tem điện tử thuốc lá hoặc tem điện tử rượu sản xuất để tiêu thụ trong nước (Mẫu số 02/TEM Phụ lục III Thông tư số 93/2026/TT-BTC)",
+          "code": "G12.0001589",
+          "attachments": [
+            {
+              "id": "019f8956-dd05-74d4-892f-2a3938537981",
+              "fileName": "Mẫu 02 TEM KH mua.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8956-dd05-74d4-892f-2a3938537981/Mẫu 02 TEM KH mua.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "tem điện tử thuốc lá hoặc tem điện tử rượu sản xuất",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe8-6a884f7f33a2",
+    "019d2bb3-5d7e-72d1-afe8-92103708c5ef",
+    "019d2bb3-5d7e-72d1-afec-6d106daf390f",
+    "019d2bb3-5d7f-719e-b470-5059d2d50a11",
+    "019d2bb3-5d84-71c5-b672-0af27f5afaf6",
+    "019d2bb3-5d86-7760-a63c-797a72f2fc9c",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f7eee-65ff-7190-97bb-0d978182d268",
+    "019f8950-f814-75e9-9794-0f1fbb579324",
+    "019f8961-befe-72a0-bfd4-d723439f074a",
+    "019f8962-323c-72b9-8b93-9e34d4aeb1dc"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe8-802f299c8da0",
+    "019d2bb2-1c72-75fa-a590-5ed0b72a04d6"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-92103708c5ef",
+      "name": "Nghị định số 108/2018/NĐ-CP",
+      "code": "108/2018/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63c-797a72f2fc9c",
+      "name": "Nghị định 105/2017/NĐ-CP",
+      "code": "105/2017/NĐ-CP"
+    },
+    {
+      "id": "019f8961-befe-72a0-bfd4-d723439f074a",
+      "name": "Luật Chuyển đổi số số 148/2025/QH15",
+      "code": "148/2025/QH15"
+    },
+    {
+      "id": "019f8962-323c-72b9-8b93-9e34d4aeb1dc",
+      "name": "Luật An ninh mạng số 116/2025/QH15",
+      "code": "116/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-6a884f7f33a2",
+      "name": "sửa đổi, bổ sung một số điều của Nghị định số 67/2013/NĐ-CP ngày 27 tháng 6 năm 2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Phòng, chống tác hại của thuốc lá về kinh doanh thuốc lá",
+      "code": "106/2017/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-6d106daf390f",
+      "name": "Sửa đổi, bổ sung một số điều của các Nghị định liên quan đến điều kiện đầu tư kinh doanh thuộc lĩnh vực quản lý nhà nước của Bộ Công Thương",
+      "code": "17/2020/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b470-5059d2d50a11",
+      "name": "Quy định chi tiết một số điều và biện pháp thi hành Luật Phòng, chống tác hại của thuốc lá về kinh doanh thuốc lá",
+      "code": "67/2013/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b672-0af27f5afaf6",
+      "name": "Luật Giao dịch điện tử năm 2023",
+      "code": "20/2023/QH15"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019f7eee-65ff-7190-97bb-0d978182d268",
+      "name": "Nghị định số 254/2026/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "code": "254/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8950-f814-75e9-9794-0f1fbb579324",
+      "name": "Thông tư số 93/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định việc in, phát hành, quản lý và sử dụng tem điện tử rượu và tem điện tử thuốc lá",
+      "code": "93/2026/TT-BTC "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe8-802f299c8da0",
+      "name": "Thông báo chấp nhận/không chấp nhận hồ sơ đăng ký, sử dụng tem điện tử (Mẫu số 02/TB/TEM)",
+      "code": "KQ.G12.000632"
+    },
+    {
+      "id": "019d2bb2-1c72-75fa-a590-5ed0b72a04d6",
+      "name": "Thông báo bổ sung hồ sơ của cơ quan thuế trong trường hợp không được chấp thuận",
+      "code": "KQ.G12.001025"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019f8d2c-2e7a-763f-b12a-998beb724e69",
+      "name": "Kế hoạch mua/mua bổ sung/đơn đề nghị mua tem điện tử thuốc lá hoặc tem điện tử rượu sản xuất để tiêu thụ trong nước ",
+      "code": "1.011047.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d762a-faa3-77eb-b5d7-10f0510c1512",
+      "name": "Kế hoạch mua/mua bổ sung/đơn đề nghị mua tem điện tử thuốc lá hoặc tem điện tử rượu sản xuất để tiêu thụ trong nước ",
+      "code": "1.011047.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559476393,
+  "updatedAt": 1784779910435,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thuế tỉnh, thành phố, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f8949-589b-7534-a278-afbc00c352f7",
+    "proposalNumber": "1932/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1784779910366,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

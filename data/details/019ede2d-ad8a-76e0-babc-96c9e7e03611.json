@@ -1,0 +1,775 @@
+{
+  "id": "019ede2d-ad8a-76e0-babc-96c9e7e03611",
+  "code": "1.116779",
+  "codeNotation": "1.116779",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu nộp hồ sơ đến bất kỳ Trung tâm Phục vụ hành chính công cấp xã trên địa bàn tỉnh Tây Ninh. \nBước 2: Cơ quan tiếp nhận hồ sơ có trách nhiệm:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Ủy ban nhân dân cấp xã nơi có đất.\nBước 3: Cơ quan chuyên môn có chức năng quản lý đất đai cấp xã thực hiện:\n- Thông báo cho Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai chuyển hồ sơ cấp Giấy chứng nhận lần đầu để kiểm tra, xem xét và trình Chủ tịch Ủy ban nhân dân cấp xã quyết định thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai.\n- Kiểm tra hồ sơ, xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 Luật Đất đai theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận.\n- Trình Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận.\n- Chuyển hồ sơ đã giải quyết đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai để thực hiện chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai; chuyển Giấy chứng nhận đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 22,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 22 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận đối với cả đất và tài sản gắn liền với đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 35 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận đối với cả đất và tài sản gắn liền với đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp và cấp lại Giấy chứng nhận sau thu hồi là không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận đối với cả đất và tài sản gắn liền với đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 22,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 22 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận đối với cả đất và tài sản gắn liền với đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 22,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 22 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận đối với cả đất và tài sản gắn liền với đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 18 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 15 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 35 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận đối với cả đất và tài sản gắn liền với đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 35 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận đối với cả đất và tài sản gắn liền với đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp và cấp lại Giấy chứng nhận sau thu hồi là không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận đối với cả đất và tài sản gắn liền với đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp và cấp lại Giấy chứng nhận sau thu hồi là không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 350000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 450000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận đối với cả đất và tài sản gắn liền với đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại, cấp đổi giấy chứng nhận; giao đất, thuê đất, chuyển mục đích sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "(Tây Ninh) Thu hồi Giấy chứng nhận đã cấp lần đầu không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0e8cd-d55e-76b6-b95a-333257ebf40b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản kiến nghị việc cấp Giấy chứng nhận không đúng quy định của pháp luật đất đai (bản chính);",
+          "code": "TP-H53.490131",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0e8cf-a71c-72b9-a4f1-2017e0b163b0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp hoặc các giấy tờ về quyền sử dụng đất theo quy định tại Điều 137 Luật Đất đai",
+          "code": "TP-H53.490132",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Thu hồi Giấy chứng nhận đã cấp lần đầu không",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be43-c8018597053e",
+    "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019d2bb3-5d86-7760-a644-ce39f72a6124",
+    "019d2bb3-5d86-7760-a645-75ce66feb3f0",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d"
+  ],
+  "resultIds": [
+    "019ed885-945d-73f4-9f6b-0989fca2fb1f",
+    "01a0eb14-9960-77f5-b4f1-20862a98a14f"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [
+    "019e4d63-7e81-76ee-98fb-0fa853b79176"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019e4d63-7e81-76ee-98fb-0fa853b79176",
+      "name": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+      "code": "CQCM-NNMT-CAPXA"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da",
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    },
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
+      "code": "226/2025/NĐ-CP"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be43-c8018597053e",
+      "name": "Quyết định 2304/QĐ-BNNMT năm 2025 công bố thủ tục hành chính lĩnh vực đất đai thuộc phạm vi chức năng quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
+      "code": "2304/QĐ-BNNMT"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
+      "name": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
+      "code": "102/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a645-75ce66feb3f0",
+      "name": "Đính chính Nghị định số 151/2025/NĐ-CP ngày 12/6/2025",
+      "code": "2418/QĐ-BNNMT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019ed885-945d-73f4-9f6b-0989fca2fb1f",
+      "name": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất",
+      "code": "KQ-H53.490002"
+    },
+    {
+      "id": "01a0eb14-9960-77f5-b4f1-20862a98a14f",
+      "name": "Quyết định thu hồi Giấy chứng nhận đã cấp sai quy định của pháp luật",
+      "code": "KQ-H53.490012"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+      "name": "Đảng viên",
+      "code": "ĐT5"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b23-f5575505c632",
+  "departmentPromulgateCode": "H53",
+  "departmentPromulgateName": "UBND tỉnh Tây Ninh",
+  "cases": [
+    {
+      "id": "01a0f06c-f8da-751a-b5dd-e89eaa0f10c1",
+      "name": "(Tây Ninh) Thu hồi Giấy chứng nhận đã cấp lần đầu không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi - Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn ((đối với trường hợp Thu hồi GCN cấp lần đầu);",
+      "code": "1.116779.03",
+      "processingDay": {
+        "qty": 35,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a0f06c-f8ee-7508-acb9-628daa6c8e3e",
+      "name": "(Tây Ninh) Thu hồi Giấy chứng nhận đã cấp lần đầu không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi -Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn ((đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu và cấp Giấy chứng nhận sau thu hồi)",
+      "code": "1.116779.04",
+      "processingDay": {
+        "qty": 65,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a0f06c-f8c4-777a-ab50-aa552c1d1cb3",
+      "name": "(Tây Ninh) Thu hồi Giấy chứng nhận đã cấp lần đầu không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi ((đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu và cấp Giấy chứng nhận sau thu hồi)",
+      "code": "1.116779.02",
+      "processingDay": {
+        "qty": 40,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a0f065-66ad-7289-90b3-df68a277e11e",
+      "name": "(Tây Ninh) Thu hồi Giấy chứng nhận đã cấp lần đầu không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi (đối với trường hợp Thu hồi GCN cấp lần đầu)",
+      "code": "1.116779.01",
+      "processingDay": {
+        "qty": 22,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790698182292,
+  "updatedAt": 1790993929104,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "tại bất kỳ Trung tâm Phục vụ hành chính công cấp xã trên địa bàn tỉnh Tây Ninh.",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0e715-bb35-706b-84e1-2f335eac2a6e",
+    "proposalNumber": "17773/QĐ-UBND",
+    "decisionDate": 1790269200000,
+    "decisionNumber": null,
+    "publicationDate": 1790698176886,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b23-f5575505c632",
+      "name": "UBND tỉnh Tây Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

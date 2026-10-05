@@ -1,0 +1,295 @@
+{
+  "id": "01a0f65f-4713-7199-9b0c-d57f794ef14d",
+  "code": "1.116908",
+  "codeNotation": "1.116908",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Cơ sở trợ giúp xã hội có trách nhiệm tiếp nhận ngay các đối tượng cần sự bảo vệ khẩn cấp để chăm sóc, nuôi dưỡng và hoàn thiện các thủ tục theo quy trình sau:\n- Bước 1: Lập biên bản tiếp nhận có chữ ký của cá nhân hoặc đại diện cơ quan, đơn vị phát hiện ra đối tượng (nếu có), chính quyền (hoặc công an) cấp xã, đại diện cơ sở trợ giúp xã hội. Đối với đối tượng là nạn nhân của bạo lực gia đình, nạn nhân bị xâm hại tình dục, nạn nhân bị mua bán và nạn nhân bị cưỡng bức lao động, biên bản tiếp nhận có chữ ký của đối tượng (nếu có thể).\n- Bước 2: Thực hiện đánh giá về mức độ tổn thương, khả năng phục hồi và nhu cầu trợ giúp của đối tượng để có kế hoạch trợ giúp đối tượng.\n- Bước 3: Bảo đảm an toàn và chữa trị những tổn thương về thân thể hoặc tinh thần cho đối tượng kịp thời; đối với trẻ em bị bỏ rơi, thông báo trên các phương tiện thông tin đại chúng.\n- Bước 4: Quyết định tiếp nhận chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội hoặc chuyển đối tượng về gia đình, cộng đồng.\n- Bước 5: Hoàn thành các thủ tục, hồ sơ của đối tượng theo quy định. Trường hợp là trẻ em bị bỏ rơi, cơ sở thực hiện các thủ tục khai sinh cho trẻ theo quy định của pháp luật về hộ tịch.\nĐối với việc tiếp nhận đối tượng cần bảo vệ khẩn cấp, Tờ khai đề nghị chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội do đối tượng, cá nhân đại diện cơ quan đơn vị phát hiện ra đối tượng, chính quyền (hoặc công an) khai khi đề nghị tiếp nhận hoặc do người đứng đầu cơ sở trợ giúp xã hội hoàn thiện hồ sơ, thủ tục sau khi tiếp nhận vào cơ sở trợ giúp xã hội (Bổ sung, hoàn thiện hồ sơ sau khi tiếp nhận theo quy định)"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "tiếp nhận ngay - cách tính ngày",
+      "processingTimeUnit": "OTHER",
+      "description": "Cơ sở trợ giúp xã hội có trách nhiệm tiếp nhận ngay các đối tượng cần sự bảo vệ khẩn cấp để chăm sóc, nuôi dưỡng và hoàn thiện các thủ tục theo quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "tiếp nhận ngay- cách tính ngày",
+      "processingTimeUnit": "OTHER",
+      "description": "Cơ sở trợ giúp xã hội có trách nhiệm tiếp nhận ngay các đối tượng cần sự bảo vệ khẩn cấp để chăm sóc, nuôi dưỡng và hoàn thiện các thủ tục theo quy định",
+      "fees": []
+    }
+  ],
+  "description": "Đối tượng cần bảo vệ khẩn cấp theo quy định tại khoản 2, khoản 3 Điều 21 Nghị định  số 335/2026/NĐ-CP",
+  "name": "Tiếp nhận đối tượng cần bảo vệ khẩn cấp vào cơ sở trợ giúp xã hội",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f5b3-5d8a-70f9-bb35-81f23788410d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai đề nghị chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội (theo Mẫu số 04 ban hành kèm theo Nghị định số 335/2026/NĐ-CP).",
+          "code": "000.00.00.G18-KQ00578",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0f65e-673d-7530-bb01-98fb3d2f1c46",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản tiếp nhận có chữ ký của cá nhân hoặc đại diện cơ quan, đơn vị phát hiện ra đối tượng (nếu có), chính quyền (hoặc công an) cấp xã, đại diện cơ sở trợ giúp xã hội. Đối với đối tượng là nạn nhân của bạo lực gia đình, nạn nhân bị xâm hại tình dục, nạn nhân bị mua bán và nạn nhân bị cưỡng bức lao động, biên bản tiếp nhận có chữ ký của đối tượng (nếu có thể)",
+          "code": "000.00.00.G18-KQ00579",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-6573ae6e97af"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0f5ba-70eb-7222-824e-83a91e1866e9"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7c-74ea-bcd1-826725c09c84"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [
+    "019db982-6fb8-7285-9947-458fde87536d"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+      "name": "Bảo trợ xã hội",
+      "code": "G07-LĐ03"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+    "name": "Bảo trợ xã hội",
+    "code": "G07-LĐ03"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019db982-6fb8-7285-9947-458fde87536d",
+      "name": "Cơ sở trợ giúp xã hội",
+      "code": "H13.17.012"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019daf95-daaf-742f-b51e-84b3e8e08570",
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019daf95-daaf-742f-b51e-84b3e8e08570",
+      "name": "Công an Xã"
+    },
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0f5ba-70eb-7222-824e-83a91e1866e9",
+      "name": "Nghị định số 335/2026/NĐ-CP ngày 21/8/2026 của Chính phủ quy\nđịnh chính sách trợ giúp xã hội",
+      "code": "335/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7c-74ea-bcd1-826725c09c84",
+      "name": "Quyết định trợ giúp đối tượng tại cơ sở trợ giúp xã hội hoặc chuyển đối tượng về gia đình, cộng đồng (BYT)",
+      "code": "KQ.G18.000332"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+      "name": "Đảng viên",
+      "code": "ĐT5"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "departmentPromulgateCode": "G18",
+  "departmentPromulgateName": "Bộ Y tế",
+  "cases": [
+    {
+      "id": "01a10a3c-1a31-73ef-9089-205becab0ba8",
+      "name": "Tiếp nhận đối tượng cần bảo vệ khẩn cấp vào cơ sở trợ giúp xã hội",
+      "code": "1.116908.01",
+      "processingDay": {
+        "qty": 0,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790936620280,
+  "updatedAt": 1791017414705,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ sở trợ giúp xã hội",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đối tượng cần bảo vệ khẩn cấp theo quy định tại khoản 2, khoản 3 Điều 21 Nghị định  số 335/2026/NĐ-CP",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0f577-f175-74ec-809e-f309e5bdb030",
+    "proposalNumber": "3033/QĐ-BYT",
+    "decisionDate": 1790614800000,
+    "decisionNumber": null,
+    "publicationDate": 1790936620193,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

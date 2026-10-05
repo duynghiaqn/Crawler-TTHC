@@ -1,0 +1,212 @@
+{
+  "id": "01a0d42d-35d9-746e-9694-9fde831d90ee",
+  "code": "2.002918",
+  "codeNotation": "2.002918",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Các tổ chức, cá nhân nộp 01 (một) bộ hồ sơ đề nghị hỗ trợ qua hình thức trực tiếp hoặc trực tuyến hoặc qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công các cấp; \nBước 2:\n- Trong thời hạn 20 ngày làm việc kể từ ngày nhận hồ sơ hợp lệ, Ủy ban nhân dân cấp xã nơi có tàu cá thành lập Tổ thẩm định hồ sơ đề nghị hỗ trợ, thành phần gồm: đại diện các cơ quan, đơn vị chuyên môn cấp xã, đại diện Cơ quan quản lý thủy sản Thành phố, Bộ đội Biên phòng và các cơ quan, đơn vị liên quan, để tiến hành kiểm tra hồ sơ, thẩm định nội dung, xác định số kinh phí hỗ trợ và ban hành Quyết định hỗ trợ theo Mẫu số 03; \n- Trường hợp hồ sơ không đảm bảo đủ điều kiện hỗ trợ thì Ủy ban nhân dân cấp xã có văn bản thông báo cho chủ tàu cá biết và nêu rõ lý do. \nBước 3: Trong thời gian 10 ngày làm việc kể từ ngày ban hành Quyết định hỗ trợ, Ủy ban nhân dân cấp xã chỉ đạo cơ quan, đơn vị chuyên môn trực thuộc phối hợp cơ quan Kho bạc nhà nước khu vực thực hiện thủ tục cấp kinh phí hỗ trợ cho tổ chức, cá nhân theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Hỗ trợ chuyển đổi nghề khai thác thủy sản",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0d42b-5431-765b-a6d6-7d01a2a2de17",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "ĐƠN ĐỀ NGHỊ HỖ TRỢ HỖ TRỢ CHUYỂN ĐỔI NGHỀ KHAI THÁC THỦY SẢN",
+          "code": "TP-H29.0000130",
+          "attachments": [
+            {
+              "id": "01a0d42b-b490-74fa-8d84-67f691fbe63c",
+              "fileName": "ĐƠN ĐỀ NGHỊ HỖ TRỢ HỖ TRỢ CHUYỂN ĐỔI NGHỀ KHAI THÁC THỦY SẢN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0d42b-b490-74fa-8d84-67f691fbe63c/ĐƠN ĐỀ NGHỊ HỖ TRỢ HỖ TRỢ CHUYỂN ĐỔI NGHỀ KHAI THÁC THỦY SẢN.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-0fb535088a1a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a0d427-67ca-721a-8a83-c5ad757974b6"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-0fb535088a1a",
+      "name": "Thủy sản",
+      "code": "G10-NN14"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-0fb535088a1a",
+    "name": "Thủy sản",
+    "code": "G10-NN14"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a0d427-67ca-721a-8a83-c5ad757974b6",
+      "name": "QĐ Về việc hỗ trợ giải bản tàu cá/chuyển đổi nghề theo",
+      "code": "KQ-H29.0000024"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-855a-9a81af57b106",
+  "departmentPromulgateCode": "H29",
+  "departmentPromulgateName": "UBND Thành phố Hồ Chí Minh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790742658250,
+  "updatedAt": 1790742658250,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0d40d-c5f9-7338-b02d-b6807da5d89a",
+    "proposalNumber": "6089/QĐ-UBND",
+    "decisionDate": 1789923600000,
+    "decisionNumber": null,
+    "publicationDate": 1790742657903,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-855a-9a81af57b106",
+      "name": "UBND Thành phố Hồ Chí Minh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

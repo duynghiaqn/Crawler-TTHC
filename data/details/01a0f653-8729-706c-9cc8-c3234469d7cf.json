@@ -1,0 +1,206 @@
+{
+  "id": "01a0f653-8729-706c-9cc8-c3234469d7cf",
+  "code": "1.116907",
+  "codeNotation": "1.116907",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Đối tượng hoặc người giám hộ, nhân viên công tác xã hội chuẩn bị hồ sơ theo quy định gửi Chủ tịch Uỷ ban nhân dân xã, phường, đặc khu nơi cư trú (sau đây gọi chung là cấp xã).\n\t- Bước 2: Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ của đối tượng, Chủ tịch Ủy ban nhân dân cấp xã thực hiện xác thực thông tin liên quan của đối tượng với Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu tổng hợp quốc gia, Cơ sở dữ liệu chuyên ngành dùng chung, xem xét điều kiện của đối tượng và có văn bản gửi cơ sở trợ giúp xã hội kèm theo hồ sơ của đối tượng. Trường hợp đối tượng không đủ điều kiện tiếp nhận chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội thì Chủ tịch Ủy ban nhân dân cấp xã trả lời bằng văn bản và nêu rõ lý do;\n\t- Bước 3: Trong thời hạn 02 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của Chủ tịch Ủy ban nhân dân cấp xã và hồ sơ của đối tượng, người đứng đầu cơ sở trợ giúp xã hội xem xét, quyết định tiếp nhận đối tượng vào nuôi dưỡng, chăm sóc tại cơ sở trợ giúp xã hội hoặc cung cấp dịch vụ chăm sóc tại cộng đồng phù hợp.\n\tTrường hợp không đủ điều kiện chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội, thì trả lời bằng văn bản và nêu rõ lý do.\n\t- Việc tiếp nhận thủ tục hành chính không phụ thuộc vào địa giới hành chính thực hiện theo quy định của pháp luật về thực hiện thủ tục hành chính không phụ thuộc địa giới hành chính."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "Đối tượng bảo trợ xã hội có hoàn cảnh đặc biệt khó khăn theo quy định tại khoản 1 Điều 21 Nghị định số 335/2026/NĐ-CP",
+  "name": "Tiếp nhận đối tượng bảo trợ xã hội có hoàn cảnh đặc biệt khó khăn vào cơ sở trợ giúp xã hội",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f5b3-5d8a-70f9-bb35-81f23788410d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai đề nghị chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội (theo Mẫu số 04 ban hành kèm theo Nghị định số 335/2026/NĐ-CP).",
+          "code": "000.00.00.G18-KQ00578",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-6573ae6e97af"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0f5ba-70eb-7222-824e-83a91e1866e9"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7c-74ea-bcd1-7295f03fab0a"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+      "name": "Bảo trợ xã hội",
+      "code": "G07-LĐ03"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+    "name": "Bảo trợ xã hội",
+    "code": "G07-LĐ03"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0f5ba-70eb-7222-824e-83a91e1866e9",
+      "name": "Nghị định số 335/2026/NĐ-CP ngày 21/8/2026 của Chính phủ quy\nđịnh chính sách trợ giúp xã hội",
+      "code": "335/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7c-74ea-bcd1-7295f03fab0a",
+      "name": "Quyết định tiếp nhận đối tượng vào cơ sở trợ giúp xã hội (BYT)",
+      "code": "KQ.G18.000328"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "departmentPromulgateCode": "G18",
+  "departmentPromulgateName": "Bộ Y tế",
+  "cases": [
+    {
+      "id": "01a10a31-7d0b-734f-8584-148c2594ffa2",
+      "name": "Tiếp nhận đối tượng bảo trợ xã hội có hoàn cảnh đặc biệt khó khăn vào cơ sở trợ giúp xã hội",
+      "code": "1.116907.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790936620277,
+  "updatedAt": 1790936620277,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đối tượng bảo trợ xã hội có hoàn cảnh đặc biệt khó khăn theo quy định tại khoản 1 Điều 21 Nghị định số 335/2026/NĐ-CP",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0f577-f175-74ec-809e-f309e5bdb030",
+    "proposalNumber": "3033/QĐ-BYT",
+    "decisionDate": 1790614800000,
+    "decisionNumber": null,
+    "publicationDate": 1790936620193,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

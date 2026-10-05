@@ -1,23 +1,3325 @@
 {
-  "compared_at": "2026-09-27T04:45:15.757Z",
+  "compared_at": "2026-10-05T23:34:04.501Z",
   "filter": "Unique by TTHC Code (National Standard + Gia Lai H21 | Excluding specific TTHCs of other provinces)",
   "summary": {
     "previous_total": 2922,
-    "current_total": 2922,
-    "net_change": 0,
-    "added_count": 0,
+    "current_total": 3021,
+    "net_change": 99,
+    "added_count": 99,
     "removed_count": 0,
     "modified_count": 0,
     "level_breakdown": {
-      "province_only": 2156,
-      "ward_only": 475,
-      "both_province_and_ward": 291
+      "province_only": 2223,
+      "ward_only": 504,
+      "both_province_and_ward": 294
     }
   },
-  "added": [],
+  "added": [
+    {
+      "id": "01a0c31b-4463-769a-94fb-a1246271b19c",
+      "code": "1.116644",
+      "name": "Lựa chọn tổ chức, cá nhân để xem xét cấp giấy phép thăm dò khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh ở khu vực không đấu giá quyền khai thác khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116644",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4487-70b8-b1c7-50bacaf81095",
+      "code": "1.116645",
+      "name": "Lựa chọn tổ chức, cá nhân để nộp hồ sơ đề nghị cấp giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116645",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-44a1-762d-a77c-f631ebeedaa6",
+      "code": "1.116646",
+      "name": "Chấp thuận thay đổi nội dung đề án thăm dò khoáng sản, xác định trữ lượng khoáng sản đi kèm",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116646",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-44be-704f-97ca-4fb3adb9214e",
+      "code": "1.116647",
+      "name": "Chấp thuận việc lấy mẫu để nghiên cứu, thử nghiệm công nghệ chế biến khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116647",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-44db-752d-9570-b74e8448f480",
+      "code": "1.116648",
+      "name": "Chấp thuận thăm dò, khai thác khoáng sản tại khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116648",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-44f7-7662-9402-e9dc05a1e761",
+      "code": "1.116649",
+      "name": "Thăm dò bổ sung để nâng cấp tài nguyên, trữ lượng khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116649",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4514-70fb-bd08-725bc1c8d4f8",
+      "code": "1.116650",
+      "name": "Công nhận kết quả thăm dò khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116650",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-452c-762b-9c5d-84c5cef1dba0",
+      "code": "1.116651",
+      "name": "Bổ sung khối lượng công tác thăm dò khi giấy phép thăm dò khoáng sản đã hết thời hạn",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116651",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-454c-7773-8978-ec6a45f1e473",
+      "code": "1.116652",
+      "name": "Cấp giấy phép thăm dò khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116652",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-456a-74b0-8939-da4f445a0513",
+      "code": "1.116653",
+      "name": "Cấp lại giấy phép thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116653",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4583-707b-9b56-962424f39fdf",
+      "code": "1.116654",
+      "name": "Gia hạn giấy phép thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116654",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-45a8-726f-932a-ad2dffb70bc4",
+      "code": "1.116655",
+      "name": "Điều chỉnh giấy phép thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116655",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-45cd-77e7-9186-34b07c69df5f",
+      "code": "1.116656",
+      "name": "Trả lại giấy phép thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116656",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-45ea-77fb-b446-83e2ad841249",
+      "code": "1.116657",
+      "name": "Chuyển nhượng quyền thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116657",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4610-764c-b103-12bd2f421ae2",
+      "code": "1.116658",
+      "name": "Cấp giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116658",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-462f-72de-b30d-b6db0e19b3d0",
+      "code": "1.116659",
+      "name": "Cấp lại giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116659",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-465e-75f7-83dd-544e8ea31a40",
+      "code": "1.116660",
+      "name": "Gia hạn giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116660",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4686-7330-9e5f-b992a71aaf8b",
+      "code": "1.116661",
+      "name": "Điều chỉnh giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116661",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-46a5-76b7-8440-dc23f497f169",
+      "code": "1.116662",
+      "name": "Trả lại giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116662",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-46c6-7510-89ad-0aba8863fc7f",
+      "code": "1.116663",
+      "name": "Cấp đổi giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116663",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-46df-7409-a946-71da3cb40443",
+      "code": "1.116664",
+      "name": "Phê duyệt đề án đóng cửa mỏ khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116664",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-46f5-735b-b19a-a350ede1adba",
+      "code": "1.116665",
+      "name": "Điều chỉnh nội dung đề án đóng cửa mỏ khoáng sản đã được phê duyệt",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116665",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-470e-72f8-9354-8ce1132ccea2",
+      "code": "1.116666",
+      "name": "Chấp thuận phương án đóng cửa mỏ khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116666",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-472d-7138-b588-a085581af708",
+      "code": "1.116667",
+      "name": "Quyết định đóng cửa mỏ khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116667",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4748-7575-8f3b-510aec0981ff",
+      "code": "1.116668",
+      "name": "Cấp giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116668",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-476d-70af-8e4c-e30be7b3a90f",
+      "code": "1.116669",
+      "name": "Gia hạn giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116669",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-478c-74fe-a0e4-4642b1ff260c",
+      "code": "1.116670",
+      "name": "Điều chỉnh giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116670",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-47ab-7658-a1cc-8325ecdad8db",
+      "code": "1.116671",
+      "name": "Trả lại giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116671",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-47cf-7338-b7ab-4153fafff7d8",
+      "code": "1.116672",
+      "name": "Chuyển nhượng quyền khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116672",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-47e7-751a-8187-ecffea654076",
+      "code": "1.116673",
+      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản đối với giấy phép thuộc thẩm quyền cấp của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116673",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4802-77f6-95c7-52c0ef254e33",
+      "code": "1.116674",
+      "name": "Xác nhận đăng ký thu hồi khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116674",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-481e-77fa-a3e0-afc3bd5dc1dc",
+      "code": "1.116675",
+      "name": "Chấp thuận khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV tại khu vực không đấu giá quyền khai thác khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116675",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4836-7604-85f8-894a5ed68281",
+      "code": "1.116676",
+      "name": "Xác nhận kết quả khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116676",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-484e-7528-ab38-d5de0e71b123",
+      "code": "1.116677",
+      "name": "Chấp thuận nội dung đánh giá mức độ ảnh hưởng của việc thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116677",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4868-70e0-b6dc-b724602dc861",
+      "code": "1.116678",
+      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp xã",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116678",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0c31b-4887-72f5-974e-c9b317b60cd9",
+      "code": "1.116679",
+      "name": "Xác nhận đăng ký thu hồi khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp xã",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116679",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0c354-b2ea-75ce-bea6-f92d691b208d",
+      "code": "1.116680",
+      "name": "Chuyển nhượng quyền khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116680",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0e5da-03ec-76a8-99ed-12d34bccc6b1",
+      "code": "5.003885",
+      "name": "THỦ TỤC ĐỀ NGHỊ XÉT TẶNG DANH HIỆU CỜ THI ĐUA CỦA BỘ NỘI VỤ",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+        "name": "Thi đua - khen thưởng",
+        "code": "G09.17_TDKTTW"
+      },
+      "agency": "Văn phòng Bộ - Bộ Nội vụ, Bộ Nội vụ",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "Văn phòng Bộ - Bộ Nội vụ, Bộ Nội vụ",
+      "departmentPromulgate": "Bộ Nội vụ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003885",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0e5df-7811-777c-8576-942a606eddbc",
+      "code": "3.000734",
+      "name": "Công nhận tiến bộ kỹ thuật",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b3-1cfb93d6e5cc",
+        "name": "Khoa học và Công nghệ",
+        "code": "G10-NN05"
+      },
+      "agency": "Cơ quan chức năng do Ủy ban nhân dân cấp tỉnh chỉ định",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "OTHER",
+      "executingAgencies": "Cơ quan chức năng do Ủy ban nhân dân cấp tỉnh chỉ định",
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=3.000734",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0e60c-cfde-7408-9f1d-0ed4257e02e8",
+      "code": "5.003887",
+      "name": "THỦ TỤC ĐỀ NGHỊ XÉT TẶNG GIẤY KHEN CỦA THỦ TRƯỞNG CÁC CƠ QUAN, ĐƠN VỊ CÓ TƯ CÁCH PHÁP NHÂN THUỘC BỘ NỘI VỤ",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+        "name": "Thi đua - khen thưởng",
+        "code": "G09.17_TDKTTW"
+      },
+      "agency": "Bộ Nội vụ",
+      "isProvince": true,
+      "isWard": true,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "Bộ Nội vụ",
+      "departmentPromulgate": "Bộ Nội vụ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003887",
+      "level_label": "Cấp tỉnh & Cấp xã (Cả 2 cấp)"
+    },
+    {
+      "id": "01a0e614-34b3-7355-929c-9f54d24e6bc0",
+      "code": "1.116788",
+      "name": "Đăng ký thường trú",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b0-d9177954f319",
+        "name": "Đăng ký, quản lý cư trú",
+        "code": "G01-CA05"
+      },
+      "agency": "Bộ Công an",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công an",
+      "departmentPromulgate": "Bộ Công an",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116788",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0ec28-dbc0-7715-940b-361bc397f70e",
+      "code": "1.116810",
+      "name": "Cấp phép hoạt động giáo dục đối với trường mầm non do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị thành lập",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116810",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec2e-ed7a-7125-b4a3-0d6c726e5d27",
+      "code": "1.116811",
+      "name": "Sáp nhập, chia, tách trường mầm non do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116811",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec35-2ff2-704d-b2d3-c276a6c96e77",
+      "code": "1.116812",
+      "name": "Cấp phép hoạt động giáo dục đối với trường tiểu học, trường trung học cơ sở do cơ quan đại diện ngoại giao, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116812",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec39-9a53-73da-97c6-2dfe4b0d365d",
+      "code": "1.116813",
+      "name": "Sáp nhập, chia, tách trường tiểu học, trường trung học cơ sở do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116813",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec51-156b-763e-837d-678ce09b6324",
+      "code": "1.116814",
+      "name": "Đổi tên trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường mầm non, trường tiểu học, trường trung học cơ sở, trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116814",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec57-fd9e-70f3-ae95-2b249b5cdf11",
+      "code": "1.116815",
+      "name": "Thay đổi địa điểm hoạt động giáo dục của trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường mầm non, trường tiểu học, trường trung học cơ sở, trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116815",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec5d-8503-713e-b8ff-81f0e3a7d2d8",
+      "code": "1.116816",
+      "name": "Đổi tên trường mầm non, trường tiểu học, trường trung học cơ sở, trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116816",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0ec65-4faa-7015-90a7-120c7b1bf392",
+      "code": "1.116817",
+      "name": "Thay đổi địa điểm hoạt động giáo dục của trường mầm non, trường tiểu học, trường trung học cơ sở, trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116817",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f002-9335-76ee-ba40-51c71d33ef6c",
+      "code": "1.116818",
+      "name": "Cho phép thành lập lớp dành cho người khuyết tật tư thục ngoài cơ sở giáo dục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116818",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f011-315c-7373-9678-d13f6e83bbb3",
+      "code": "1.116789",
+      "name": "Đăng ký tạm trú",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b0-d9177954f319",
+        "name": "Đăng ký, quản lý cư trú",
+        "code": "G01-CA05"
+      },
+      "agency": "Công an cấp Xã",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Công an cấp Xã",
+      "departmentPromulgate": "Bộ Công an",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116789",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f019-4902-775f-aa9a-dab1093e32fd",
+      "code": "1.116819",
+      "name": "Giải thể lớp dành cho người khuyết tật tư thục ngoài cơ sở giáo dục (Theo đề nghị của tổ chức, cá nhân thành lập)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116819",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f020-f9fa-76dc-a750-1821124f3aa6",
+      "code": "1.116820",
+      "name": "Cho phép thành lập lớp độc lập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116820",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f026-cc73-7378-83e9-be1aba81dbca",
+      "code": "1.116821",
+      "name": "Sáp nhập, chia, tách lớp độc lập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116821",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f02c-9907-7769-ad53-7aa49248d494",
+      "code": "1.116822",
+      "name": "Giải thể lớp độc lập tư thục (Theo đề nghị của tổ chức, cá nhân thành lập lớp)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116822",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f032-5159-70e1-916c-bcee84b8c1ea",
+      "code": "1.116823",
+      "name": "Sáp nhập, chia, tách lớp dành cho người khuyết tật tư thục ngoài cơ sở giáo dục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116823",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f039-921a-72ae-9cf3-16de8cf6fd5d",
+      "code": "1.116824",
+      "name": "Cho phép thành lập trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116824",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f03f-1684-7594-a43d-ff8f9591764a",
+      "code": "1.116825",
+      "name": "Cấp phép hoạt động giáo dục đối với trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116825",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f048-fff8-739a-8c62-040c8c62b1fd",
+      "code": "5.003903",
+      "name": "Xét tặng Kỷ niệm chương “Vì sự nghiệp ngành Nội vụ”",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+        "name": "Thi đua - khen thưởng",
+        "code": "G09.17_TDKTTW"
+      },
+      "agency": "UBND tỉnh Thanh Hóa",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "UBND tỉnh Thanh Hóa",
+      "departmentPromulgate": "UBND tỉnh Thanh Hóa",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003903",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f055-b928-758a-a510-0df226740c25",
+      "code": "1.116826",
+      "name": "Giải thể trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116826",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f060-98ca-7598-b078-89b0b84a49db",
+      "code": "1.116827",
+      "name": "Cho phép thành lập trường mầm non do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116827",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f065-4891-72d6-969f-4701a7af8989",
+      "code": "1.116828",
+      "name": "Cho phép thành lập trường tiểu học, trường trung học cơ sở do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116828",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f085-012b-7628-80c4-c5c695a27bc7",
+      "code": "1.116829",
+      "name": "Giải thể trường tiểu học, trường trung học cơ sở theo đề nghị của cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116829",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f08a-aaca-77d9-8f21-45e6858efc8a",
+      "code": "5.003904",
+      "name": "Thủ tục Điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b1-85a95f320bcf",
+        "name": "Điện lực",
+        "code": "42"
+      },
+      "agency": "UBND tỉnh Thanh Hóa",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "UBND tỉnh Thanh Hóa",
+      "departmentPromulgate": "UBND tỉnh Thanh Hóa",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003904",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f139-f4d9-778d-a6d4-62eb01c39ba5",
+      "code": "1.116830",
+      "name": "Sáp nhập, chia, tách trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116830",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f140-bb92-7068-9bdd-fe330351e8bf",
+      "code": "1.116831",
+      "name": "Giải thể trường mầm non theo đề nghị của cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116831",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f148-de2f-70dc-b15c-6e239e9f6fe1",
+      "code": "5.003905",
+      "name": "Công bố đóng luồng đường thủy nội địa quốc gia vì lý do bảo đảm quốc phòng, an ninh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+        "name": "Hàng hải và đường thủy nội địa",
+        "code": "G04-GT05"
+      },
+      "agency": "Văn phòng Ủy ban Nhân dân tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "Văn phòng Ủy ban Nhân dân tỉnh",
+      "departmentPromulgate": "UBND tỉnh Thanh Hóa",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003905",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f148-f356-7499-8dd4-e27f3803136d",
+      "code": "1.116832",
+      "name": "Cho phép thành lập trung tâm giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên tư thục, trung tâm khác thực hiện nhiệm vụ giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp tư thục, trung tâm hỗ trợ phát triển giáo dục hòa nhập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116832",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f151-5d7b-770d-98c3-d7c0d10f6cbf",
+      "code": "1.116833",
+      "name": "Sáp nhập, chia, tách trung tâm giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên tư thục, trung tâm khác thực hiện nhiệm vụ giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp tư thục, trung tâm hỗ trợ phát triển giáo dục hòa nhập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116833",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f155-bb93-702c-b05e-272d6cb1f610",
+      "code": "1.116834",
+      "name": "Giải thể trung tâm giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên tư thục, trung tâm khác thực hiện nhiệm vụ giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp tư thục, trung tâm hỗ trợ phát triển giáo dục hòa nhập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116834",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f15a-1cfe-71bc-87ac-b9dbf9ffb977",
+      "code": "5.003906",
+      "name": "Thủ tục Công bố đóng khu neo đậu vì lý do bảo đảm quốc phòng, an ninh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+        "name": "Hàng hải và đường thủy nội địa",
+        "code": "G04-GT05"
+      },
+      "agency": "UBND tỉnh Thanh Hóa",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "UBND tỉnh Thanh Hóa",
+      "departmentPromulgate": "UBND tỉnh Thanh Hóa",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003906",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f164-09e5-704f-a2e6-ebd35ad4ec9b",
+      "code": "1.116835",
+      "name": "Cho phép thành lập trường mầm non",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116835",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f16e-2509-7789-8557-8d68d868bd5f",
+      "code": "1.116836",
+      "name": "Cấp phép hoạt động giáo dục đối với trường mầm non",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116836",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f176-232a-75b7-80f1-dc8d8f9cdcf7",
+      "code": "1.116837",
+      "name": "Sáp nhập, chia, tách trường mầm non",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116837",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f179-5ea9-7394-8af1-f0d96cdf2004",
+      "code": "1.116838",
+      "name": "Giải thể trường mầm non (Theo đề nghị của tổ chức, cá nhân thành lập trường)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116838",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f180-8f18-71a3-bd5c-ae39015a5927",
+      "code": "1.116839",
+      "name": "Cho phép thành lập nhóm, lớp mầm non độc lập dân lập, tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116839",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f183-f379-747e-aea1-fb3518ea76a9",
+      "code": "1.116840",
+      "name": "Sáp nhập, chia, tách nhóm lớp mầm non độc lập dân lập, tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116840",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f187-168d-7775-8789-f99e71a027af",
+      "code": "1.116841",
+      "name": "Giải thể nhóm lớp mầm non độc lập dân lập, tư thục (Theo đề nghị của tổ chức, cá nhân thành lập nhóm lớp)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116841",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f18a-e20e-771e-92ed-eb211e5ab713",
+      "code": "1.116842",
+      "name": "Cho phép thành lập trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116842",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f18e-9c38-77a9-a9ac-657df2b2dd9a",
+      "code": "1.116843",
+      "name": "Cấp phép hoạt động giáo dục đối với trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116843",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f1a7-3ac7-736d-a46a-fe7cd785463f",
+      "code": "2.002924",
+      "name": "Thay đổi địa điểm trụ sở chính và phân hiệu của trường trung học nghề, trường trung cấp",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002924",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f292-ef1b-7209-9853-a198ebb5282e",
+      "code": "1.116844",
+      "name": "Sáp nhập, chia, tách trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116844",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f298-7493-775d-9f7c-35f854b7a37d",
+      "code": "1.116845",
+      "name": "Giải thể trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở (Theo đề nghị của tổ chức, cá nhân thành lập trường)",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116845",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f2a1-afa5-762e-82ca-3c5b5eb039ff",
+      "code": "1.116846",
+      "name": "Cho phép cơ sở giáo dục khác thực hiện chương trình giáo dục phổ thông cấp tiểu học, cấp trung học cơ sở",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116846",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f2a7-6af2-73ef-86e5-09fb607d11f0",
+      "code": "1.116847",
+      "name": "Cho phép thành lập trung tâm học tập cộng đồng tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116847",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f2ac-bf6e-723f-b804-63f768e2c8f7",
+      "code": "1.116848",
+      "name": "Sáp nhập, chia, tách trung tâm học tập cộng đồng tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116848",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f2b1-8240-736b-9fc7-e5423b295950",
+      "code": "1.116849",
+      "name": "Giải thể trung tâm học tập cộng đồng tư thục (Theo đề nghị của tổ chức, cá nhân thành lập trung tâm)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116849",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f653-8729-706c-9cc8-c3234469d7cf",
+      "code": "1.116907",
+      "name": "Tiếp nhận đối tượng bảo trợ xã hội có hoàn cảnh đặc biệt khó khăn vào cơ sở trợ giúp xã hội",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+        "name": "Bảo trợ xã hội",
+        "code": "G07-LĐ03"
+      },
+      "agency": "Bộ Y tế",
+      "isProvince": true,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Y tế",
+      "departmentPromulgate": "Bộ Y tế",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116907",
+      "level_label": "Cấp tỉnh & Cấp xã (Cả 2 cấp)"
+    },
+    {
+      "id": "01a0f65f-4713-7199-9b0c-d57f794ef14d",
+      "code": "1.116908",
+      "name": "Tiếp nhận đối tượng cần bảo vệ khẩn cấp vào cơ sở trợ giúp xã hội",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+        "name": "Bảo trợ xã hội",
+        "code": "G07-LĐ03"
+      },
+      "agency": "Cơ sở trợ giúp xã hội",
+      "isProvince": true,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Cơ sở trợ giúp xã hội",
+      "departmentPromulgate": "Bộ Y tế",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116908",
+      "level_label": "Cấp tỉnh & Cấp xã (Cả 2 cấp)"
+    },
+    {
+      "id": "01a0f668-d09b-7368-9850-3c8288daf506",
+      "code": "1.116909",
+      "name": "Thực hiện trợ cấp xã hội và nhận chăm sóc, nuôi dưỡng, hỗ trợ kinh phí nhận chăm sóc, nuôi dưỡng hằng tháng",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+        "name": "Bảo trợ xã hội",
+        "code": "G07-LĐ03"
+      },
+      "agency": "Bộ Y tế",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Y tế",
+      "departmentPromulgate": "Bộ Y tế",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116909",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f66e-63a3-749a-a9d8-2dcbeda6af79",
+      "code": "1.116910",
+      "name": "Hỗ trợ chi phí mai táng cho đối tượng bảo trợ xã hội",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+        "name": "Bảo trợ xã hội",
+        "code": "G07-LĐ03"
+      },
+      "agency": "Bộ Y tế",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Y tế",
+      "departmentPromulgate": "Bộ Y tế",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116910",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f699-bfa0-71e1-b0ce-f7c949785260",
+      "code": "2.002932",
+      "name": "Thành lập, cho phép thành lập trường trung cấp, trường trung học nghề",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002932",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f69f-98ef-706c-a644-6e127a8a4997",
+      "code": "2.002933",
+      "name": "Cấp phép hoạt động giáo dục nghề nghiệp đối với trường trung cấp, trường trung học nghề (bao gồm trường trung cấp quy định tại khoản 4 Điều 4 Nghị định số 361/2026/NĐ-CP)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002933",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f6a6-e28c-77bb-84ea-0c09d712f8db",
+      "code": "2.002934",
+      "name": "Thành lập, cho phép thành lập phân hiệu của trường trung cấp, trường trung học nghề",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002934",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f6ad-22fd-7491-817a-b1d0b5ac4b8e",
+      "code": "2.002935",
+      "name": "Sáp nhập, chia, tách trường trung cấp, trường trung học nghề",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002935",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f6b2-0239-7086-8ad8-0af6a284d2e2",
+      "code": "2.002936",
+      "name": "Giải thể, cho phép giải thể trường trung cấp, trường trung học nghề, phân hiệu của trường trung cấp, trường trung học nghề theo đề nghị của cơ quan, tổ chức, cá nhân đề nghị thành lập",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002936",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0fa90-0472-76f8-ba2c-195c9cbd1c4e",
+      "code": "5.003909",
+      "name": "1.\tSáp nhập đơn vị sự nghiệp công lập vào trường trung cấp, trường trung học nghề công lập",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b1-f9b9de88e50e",
+        "name": "Giáo dục nghề nghiệp",
+        "code": "G03-GD03"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003909",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a10af1-c1de-738e-913e-f039625d0faf",
+      "code": "1.116953",
+      "name": "Thủ tục chấp thuận thay đổi địa điểm đặt trụ sở phòng giao dịch của chi nhánh ngân hàng nước ngoài trong khu thương mại tự do hoặc trong khu phi thuế quan",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b5-5dfb042512a5",
+        "name": "Thành lập và hoạt động ngân hàng",
+        "code": "G19-NH01"
+      },
+      "agency": "Ngân hàng Nhà nước Khu vực",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Ngân hàng Nhà nước Khu vực",
+      "departmentPromulgate": "Ngân hàng Nhà nước Việt Nam",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116953",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a10b03-83e0-72bc-b0ff-2dab5c5bd0e0",
+      "code": "1.116954",
+      "name": "Thủ tục chấp thuận tự nguyện chấm dứt hoạt động phòng giao dịch của chi nhánh ngân hàng nước ngoài trong khu thương mại tự do, khu phi thuế quan",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b5-5dfb042512a5",
+        "name": "Thành lập và hoạt động ngân hàng",
+        "code": "G19-NH01"
+      },
+      "agency": "Ngân hàng Nhà nước Khu vực",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Ngân hàng Nhà nước Khu vực",
+      "departmentPromulgate": "Ngân hàng Nhà nước Việt Nam",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116954",
+      "level_label": "Cấp tỉnh"
+    }
+  ],
   "removed": [],
   "modified": [],
-  "added_items": [],
+  "added_items": [
+    {
+      "id": "01a0c31b-4463-769a-94fb-a1246271b19c",
+      "code": "1.116644",
+      "name": "Lựa chọn tổ chức, cá nhân để xem xét cấp giấy phép thăm dò khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh ở khu vực không đấu giá quyền khai thác khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116644",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4487-70b8-b1c7-50bacaf81095",
+      "code": "1.116645",
+      "name": "Lựa chọn tổ chức, cá nhân để nộp hồ sơ đề nghị cấp giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116645",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-44a1-762d-a77c-f631ebeedaa6",
+      "code": "1.116646",
+      "name": "Chấp thuận thay đổi nội dung đề án thăm dò khoáng sản, xác định trữ lượng khoáng sản đi kèm",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116646",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-44be-704f-97ca-4fb3adb9214e",
+      "code": "1.116647",
+      "name": "Chấp thuận việc lấy mẫu để nghiên cứu, thử nghiệm công nghệ chế biến khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116647",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-44db-752d-9570-b74e8448f480",
+      "code": "1.116648",
+      "name": "Chấp thuận thăm dò, khai thác khoáng sản tại khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116648",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-44f7-7662-9402-e9dc05a1e761",
+      "code": "1.116649",
+      "name": "Thăm dò bổ sung để nâng cấp tài nguyên, trữ lượng khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116649",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4514-70fb-bd08-725bc1c8d4f8",
+      "code": "1.116650",
+      "name": "Công nhận kết quả thăm dò khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116650",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-452c-762b-9c5d-84c5cef1dba0",
+      "code": "1.116651",
+      "name": "Bổ sung khối lượng công tác thăm dò khi giấy phép thăm dò khoáng sản đã hết thời hạn",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116651",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-454c-7773-8978-ec6a45f1e473",
+      "code": "1.116652",
+      "name": "Cấp giấy phép thăm dò khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116652",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-456a-74b0-8939-da4f445a0513",
+      "code": "1.116653",
+      "name": "Cấp lại giấy phép thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116653",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4583-707b-9b56-962424f39fdf",
+      "code": "1.116654",
+      "name": "Gia hạn giấy phép thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116654",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-45a8-726f-932a-ad2dffb70bc4",
+      "code": "1.116655",
+      "name": "Điều chỉnh giấy phép thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116655",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-45cd-77e7-9186-34b07c69df5f",
+      "code": "1.116656",
+      "name": "Trả lại giấy phép thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116656",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-45ea-77fb-b446-83e2ad841249",
+      "code": "1.116657",
+      "name": "Chuyển nhượng quyền thăm dò khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116657",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4610-764c-b103-12bd2f421ae2",
+      "code": "1.116658",
+      "name": "Cấp giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116658",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-462f-72de-b30d-b6db0e19b3d0",
+      "code": "1.116659",
+      "name": "Cấp lại giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116659",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-465e-75f7-83dd-544e8ea31a40",
+      "code": "1.116660",
+      "name": "Gia hạn giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116660",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4686-7330-9e5f-b992a71aaf8b",
+      "code": "1.116661",
+      "name": "Điều chỉnh giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116661",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-46a5-76b7-8440-dc23f497f169",
+      "code": "1.116662",
+      "name": "Trả lại giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116662",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-46c6-7510-89ad-0aba8863fc7f",
+      "code": "1.116663",
+      "name": "Cấp đổi giấy phép khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116663",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-46df-7409-a946-71da3cb40443",
+      "code": "1.116664",
+      "name": "Phê duyệt đề án đóng cửa mỏ khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116664",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-46f5-735b-b19a-a350ede1adba",
+      "code": "1.116665",
+      "name": "Điều chỉnh nội dung đề án đóng cửa mỏ khoáng sản đã được phê duyệt",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116665",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-470e-72f8-9354-8ce1132ccea2",
+      "code": "1.116666",
+      "name": "Chấp thuận phương án đóng cửa mỏ khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116666",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-472d-7138-b588-a085581af708",
+      "code": "1.116667",
+      "name": "Quyết định đóng cửa mỏ khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116667",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4748-7575-8f3b-510aec0981ff",
+      "code": "1.116668",
+      "name": "Cấp giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116668",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-476d-70af-8e4c-e30be7b3a90f",
+      "code": "1.116669",
+      "name": "Gia hạn giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116669",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-478c-74fe-a0e4-4642b1ff260c",
+      "code": "1.116670",
+      "name": "Điều chỉnh giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116670",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-47ab-7658-a1cc-8325ecdad8db",
+      "code": "1.116671",
+      "name": "Trả lại giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116671",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-47cf-7338-b7ab-4153fafff7d8",
+      "code": "1.116672",
+      "name": "Chuyển nhượng quyền khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116672",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-47e7-751a-8187-ecffea654076",
+      "code": "1.116673",
+      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản đối với giấy phép thuộc thẩm quyền cấp của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116673",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4802-77f6-95c7-52c0ef254e33",
+      "code": "1.116674",
+      "name": "Xác nhận đăng ký thu hồi khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116674",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-481e-77fa-a3e0-afc3bd5dc1dc",
+      "code": "1.116675",
+      "name": "Chấp thuận khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV tại khu vực không đấu giá quyền khai thác khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116675",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4836-7604-85f8-894a5ed68281",
+      "code": "1.116676",
+      "name": "Xác nhận kết quả khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116676",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-484e-7528-ab38-d5de0e71b123",
+      "code": "1.116677",
+      "name": "Chấp thuận nội dung đánh giá mức độ ảnh hưởng của việc thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116677",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0c31b-4868-70e0-b6dc-b724602dc861",
+      "code": "1.116678",
+      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp xã",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116678",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0c31b-4887-72f5-974e-c9b317b60cd9",
+      "code": "1.116679",
+      "name": "Xác nhận đăng ký thu hồi khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp xã",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116679",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0c354-b2ea-75ce-bea6-f92d691b208d",
+      "code": "1.116680",
+      "name": "Chuyển nhượng quyền khai thác khoáng sản thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Bộ Công thương",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công thương",
+      "departmentPromulgate": "Bộ Công thương",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116680",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0e5da-03ec-76a8-99ed-12d34bccc6b1",
+      "code": "5.003885",
+      "name": "THỦ TỤC ĐỀ NGHỊ XÉT TẶNG DANH HIỆU CỜ THI ĐUA CỦA BỘ NỘI VỤ",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+        "name": "Thi đua - khen thưởng",
+        "code": "G09.17_TDKTTW"
+      },
+      "agency": "Văn phòng Bộ - Bộ Nội vụ, Bộ Nội vụ",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "Văn phòng Bộ - Bộ Nội vụ, Bộ Nội vụ",
+      "departmentPromulgate": "Bộ Nội vụ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003885",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0e5df-7811-777c-8576-942a606eddbc",
+      "code": "3.000734",
+      "name": "Công nhận tiến bộ kỹ thuật",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b3-1cfb93d6e5cc",
+        "name": "Khoa học và Công nghệ",
+        "code": "G10-NN05"
+      },
+      "agency": "Cơ quan chức năng do Ủy ban nhân dân cấp tỉnh chỉ định",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "OTHER",
+      "executingAgencies": "Cơ quan chức năng do Ủy ban nhân dân cấp tỉnh chỉ định",
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=3.000734",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0e60c-cfde-7408-9f1d-0ed4257e02e8",
+      "code": "5.003887",
+      "name": "THỦ TỤC ĐỀ NGHỊ XÉT TẶNG GIẤY KHEN CỦA THỦ TRƯỞNG CÁC CƠ QUAN, ĐƠN VỊ CÓ TƯ CÁCH PHÁP NHÂN THUỘC BỘ NỘI VỤ",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+        "name": "Thi đua - khen thưởng",
+        "code": "G09.17_TDKTTW"
+      },
+      "agency": "Bộ Nội vụ",
+      "isProvince": true,
+      "isWard": true,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "Bộ Nội vụ",
+      "departmentPromulgate": "Bộ Nội vụ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003887",
+      "level_label": "Cấp tỉnh & Cấp xã (Cả 2 cấp)"
+    },
+    {
+      "id": "01a0e614-34b3-7355-929c-9f54d24e6bc0",
+      "code": "1.116788",
+      "name": "Đăng ký thường trú",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b0-d9177954f319",
+        "name": "Đăng ký, quản lý cư trú",
+        "code": "G01-CA05"
+      },
+      "agency": "Bộ Công an",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Công an",
+      "departmentPromulgate": "Bộ Công an",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116788",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0ec28-dbc0-7715-940b-361bc397f70e",
+      "code": "1.116810",
+      "name": "Cấp phép hoạt động giáo dục đối với trường mầm non do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị thành lập",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116810",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec2e-ed7a-7125-b4a3-0d6c726e5d27",
+      "code": "1.116811",
+      "name": "Sáp nhập, chia, tách trường mầm non do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116811",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec35-2ff2-704d-b2d3-c276a6c96e77",
+      "code": "1.116812",
+      "name": "Cấp phép hoạt động giáo dục đối với trường tiểu học, trường trung học cơ sở do cơ quan đại diện ngoại giao, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116812",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec39-9a53-73da-97c6-2dfe4b0d365d",
+      "code": "1.116813",
+      "name": "Sáp nhập, chia, tách trường tiểu học, trường trung học cơ sở do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116813",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec51-156b-763e-837d-678ce09b6324",
+      "code": "1.116814",
+      "name": "Đổi tên trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường mầm non, trường tiểu học, trường trung học cơ sở, trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116814",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec57-fd9e-70f3-ae95-2b249b5cdf11",
+      "code": "1.116815",
+      "name": "Thay đổi địa điểm hoạt động giáo dục của trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường mầm non, trường tiểu học, trường trung học cơ sở, trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116815",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0ec5d-8503-713e-b8ff-81f0e3a7d2d8",
+      "code": "1.116816",
+      "name": "Đổi tên trường mầm non, trường tiểu học, trường trung học cơ sở, trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116816",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0ec65-4faa-7015-90a7-120c7b1bf392",
+      "code": "1.116817",
+      "name": "Thay đổi địa điểm hoạt động giáo dục của trường mầm non, trường tiểu học, trường trung học cơ sở, trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116817",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f002-9335-76ee-ba40-51c71d33ef6c",
+      "code": "1.116818",
+      "name": "Cho phép thành lập lớp dành cho người khuyết tật tư thục ngoài cơ sở giáo dục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116818",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f011-315c-7373-9678-d13f6e83bbb3",
+      "code": "1.116789",
+      "name": "Đăng ký tạm trú",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b0-d9177954f319",
+        "name": "Đăng ký, quản lý cư trú",
+        "code": "G01-CA05"
+      },
+      "agency": "Công an cấp Xã",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Công an cấp Xã",
+      "departmentPromulgate": "Bộ Công an",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116789",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f019-4902-775f-aa9a-dab1093e32fd",
+      "code": "1.116819",
+      "name": "Giải thể lớp dành cho người khuyết tật tư thục ngoài cơ sở giáo dục (Theo đề nghị của tổ chức, cá nhân thành lập)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116819",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f020-f9fa-76dc-a750-1821124f3aa6",
+      "code": "1.116820",
+      "name": "Cho phép thành lập lớp độc lập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116820",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f026-cc73-7378-83e9-be1aba81dbca",
+      "code": "1.116821",
+      "name": "Sáp nhập, chia, tách lớp độc lập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116821",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f02c-9907-7769-ad53-7aa49248d494",
+      "code": "1.116822",
+      "name": "Giải thể lớp độc lập tư thục (Theo đề nghị của tổ chức, cá nhân thành lập lớp)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116822",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f032-5159-70e1-916c-bcee84b8c1ea",
+      "code": "1.116823",
+      "name": "Sáp nhập, chia, tách lớp dành cho người khuyết tật tư thục ngoài cơ sở giáo dục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116823",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f039-921a-72ae-9cf3-16de8cf6fd5d",
+      "code": "1.116824",
+      "name": "Cho phép thành lập trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116824",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f03f-1684-7594-a43d-ff8f9591764a",
+      "code": "1.116825",
+      "name": "Cấp phép hoạt động giáo dục đối với trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116825",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f048-fff8-739a-8c62-040c8c62b1fd",
+      "code": "5.003903",
+      "name": "Xét tặng Kỷ niệm chương “Vì sự nghiệp ngành Nội vụ”",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+        "name": "Thi đua - khen thưởng",
+        "code": "G09.17_TDKTTW"
+      },
+      "agency": "UBND tỉnh Thanh Hóa",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "UBND tỉnh Thanh Hóa",
+      "departmentPromulgate": "UBND tỉnh Thanh Hóa",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003903",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f055-b928-758a-a510-0df226740c25",
+      "code": "1.116826",
+      "name": "Giải thể trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116826",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f060-98ca-7598-b078-89b0b84a49db",
+      "code": "1.116827",
+      "name": "Cho phép thành lập trường mầm non do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116827",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f065-4891-72d6-969f-4701a7af8989",
+      "code": "1.116828",
+      "name": "Cho phép thành lập trường tiểu học, trường trung học cơ sở do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116828",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f085-012b-7628-80c4-c5c695a27bc7",
+      "code": "1.116829",
+      "name": "Giải thể trường tiểu học, trường trung học cơ sở theo đề nghị của cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116829",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f08a-aaca-77d9-8f21-45e6858efc8a",
+      "code": "5.003904",
+      "name": "Thủ tục Điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b1-85a95f320bcf",
+        "name": "Điện lực",
+        "code": "42"
+      },
+      "agency": "UBND tỉnh Thanh Hóa",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "UBND tỉnh Thanh Hóa",
+      "departmentPromulgate": "UBND tỉnh Thanh Hóa",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003904",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f139-f4d9-778d-a6d4-62eb01c39ba5",
+      "code": "1.116830",
+      "name": "Sáp nhập, chia, tách trường trung học phổ thông và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học phổ thông; trường trung học phổ thông chuyên; trường năng khiếu nghệ thuật, thể dục, thể thao và trường năng khiếu khác; trường dành cho người khuyết tật; trường trung học phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116830",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f140-bb92-7068-9bdd-fe330351e8bf",
+      "code": "1.116831",
+      "name": "Giải thể trường mầm non theo đề nghị của cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116831",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f148-de2f-70dc-b15c-6e239e9f6fe1",
+      "code": "5.003905",
+      "name": "Công bố đóng luồng đường thủy nội địa quốc gia vì lý do bảo đảm quốc phòng, an ninh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+        "name": "Hàng hải và đường thủy nội địa",
+        "code": "G04-GT05"
+      },
+      "agency": "Văn phòng Ủy ban Nhân dân tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "Văn phòng Ủy ban Nhân dân tỉnh",
+      "departmentPromulgate": "UBND tỉnh Thanh Hóa",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003905",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f148-f356-7499-8dd4-e27f3803136d",
+      "code": "1.116832",
+      "name": "Cho phép thành lập trung tâm giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên tư thục, trung tâm khác thực hiện nhiệm vụ giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp tư thục, trung tâm hỗ trợ phát triển giáo dục hòa nhập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116832",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f151-5d7b-770d-98c3-d7c0d10f6cbf",
+      "code": "1.116833",
+      "name": "Sáp nhập, chia, tách trung tâm giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên tư thục, trung tâm khác thực hiện nhiệm vụ giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp tư thục, trung tâm hỗ trợ phát triển giáo dục hòa nhập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116833",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f155-bb93-702c-b05e-272d6cb1f610",
+      "code": "1.116834",
+      "name": "Giải thể trung tâm giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên tư thục, trung tâm khác thực hiện nhiệm vụ giáo dục thường xuyên tư thục, trung tâm giáo dục nghề nghiệp tư thục, trung tâm hỗ trợ phát triển giáo dục hòa nhập tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116834",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f15a-1cfe-71bc-87ac-b9dbf9ffb977",
+      "code": "5.003906",
+      "name": "Thủ tục Công bố đóng khu neo đậu vì lý do bảo đảm quốc phòng, an ninh",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+        "name": "Hàng hải và đường thủy nội địa",
+        "code": "G04-GT05"
+      },
+      "agency": "UBND tỉnh Thanh Hóa",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "UBND tỉnh Thanh Hóa",
+      "departmentPromulgate": "UBND tỉnh Thanh Hóa",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003906",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f164-09e5-704f-a2e6-ebd35ad4ec9b",
+      "code": "1.116835",
+      "name": "Cho phép thành lập trường mầm non",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116835",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f16e-2509-7789-8557-8d68d868bd5f",
+      "code": "1.116836",
+      "name": "Cấp phép hoạt động giáo dục đối với trường mầm non",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116836",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f176-232a-75b7-80f1-dc8d8f9cdcf7",
+      "code": "1.116837",
+      "name": "Sáp nhập, chia, tách trường mầm non",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116837",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f179-5ea9-7394-8af1-f0d96cdf2004",
+      "code": "1.116838",
+      "name": "Giải thể trường mầm non (Theo đề nghị của tổ chức, cá nhân thành lập trường)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116838",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f180-8f18-71a3-bd5c-ae39015a5927",
+      "code": "1.116839",
+      "name": "Cho phép thành lập nhóm, lớp mầm non độc lập dân lập, tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116839",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f183-f379-747e-aea1-fb3518ea76a9",
+      "code": "1.116840",
+      "name": "Sáp nhập, chia, tách nhóm lớp mầm non độc lập dân lập, tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116840",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f187-168d-7775-8789-f99e71a027af",
+      "code": "1.116841",
+      "name": "Giải thể nhóm lớp mầm non độc lập dân lập, tư thục (Theo đề nghị của tổ chức, cá nhân thành lập nhóm lớp)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116841",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f18a-e20e-771e-92ed-eb211e5ab713",
+      "code": "1.116842",
+      "name": "Cho phép thành lập trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116842",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f18e-9c38-77a9-a9ac-657df2b2dd9a",
+      "code": "1.116843",
+      "name": "Cấp phép hoạt động giáo dục đối với trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116843",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f1a7-3ac7-736d-a46a-fe7cd785463f",
+      "code": "2.002924",
+      "name": "Thay đổi địa điểm trụ sở chính và phân hiệu của trường trung học nghề, trường trung cấp",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002924",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f292-ef1b-7209-9853-a198ebb5282e",
+      "code": "1.116844",
+      "name": "Sáp nhập, chia, tách trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116844",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f298-7493-775d-9f7c-35f854b7a37d",
+      "code": "1.116845",
+      "name": "Giải thể trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở (Theo đề nghị của tổ chức, cá nhân thành lập trường)",
+      "category": {
+        "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+        "name": "Giáo dục Phổ thông",
+        "code": "G03-GD18"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116845",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f2a1-afa5-762e-82ca-3c5b5eb039ff",
+      "code": "1.116846",
+      "name": "Cho phép cơ sở giáo dục khác thực hiện chương trình giáo dục phổ thông cấp tiểu học, cấp trung học cơ sở",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116846",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f2a7-6af2-73ef-86e5-09fb607d11f0",
+      "code": "1.116847",
+      "name": "Cho phép thành lập trung tâm học tập cộng đồng tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116847",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f2ac-bf6e-723f-b804-63f768e2c8f7",
+      "code": "1.116848",
+      "name": "Sáp nhập, chia, tách trung tâm học tập cộng đồng tư thục",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116848",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f2b1-8240-736b-9fc7-e5423b295950",
+      "code": "1.116849",
+      "name": "Giải thể trung tâm học tập cộng đồng tư thục (Theo đề nghị của tổ chức, cá nhân thành lập trung tâm)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116849",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f653-8729-706c-9cc8-c3234469d7cf",
+      "code": "1.116907",
+      "name": "Tiếp nhận đối tượng bảo trợ xã hội có hoàn cảnh đặc biệt khó khăn vào cơ sở trợ giúp xã hội",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+        "name": "Bảo trợ xã hội",
+        "code": "G07-LĐ03"
+      },
+      "agency": "Bộ Y tế",
+      "isProvince": true,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Y tế",
+      "departmentPromulgate": "Bộ Y tế",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116907",
+      "level_label": "Cấp tỉnh & Cấp xã (Cả 2 cấp)"
+    },
+    {
+      "id": "01a0f65f-4713-7199-9b0c-d57f794ef14d",
+      "code": "1.116908",
+      "name": "Tiếp nhận đối tượng cần bảo vệ khẩn cấp vào cơ sở trợ giúp xã hội",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+        "name": "Bảo trợ xã hội",
+        "code": "G07-LĐ03"
+      },
+      "agency": "Cơ sở trợ giúp xã hội",
+      "isProvince": true,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Cơ sở trợ giúp xã hội",
+      "departmentPromulgate": "Bộ Y tế",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116908",
+      "level_label": "Cấp tỉnh & Cấp xã (Cả 2 cấp)"
+    },
+    {
+      "id": "01a0f668-d09b-7368-9850-3c8288daf506",
+      "code": "1.116909",
+      "name": "Thực hiện trợ cấp xã hội và nhận chăm sóc, nuôi dưỡng, hỗ trợ kinh phí nhận chăm sóc, nuôi dưỡng hằng tháng",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+        "name": "Bảo trợ xã hội",
+        "code": "G07-LĐ03"
+      },
+      "agency": "Bộ Y tế",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Y tế",
+      "departmentPromulgate": "Bộ Y tế",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116909",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f66e-63a3-749a-a9d8-2dcbeda6af79",
+      "code": "1.116910",
+      "name": "Hỗ trợ chi phí mai táng cho đối tượng bảo trợ xã hội",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+        "name": "Bảo trợ xã hội",
+        "code": "G07-LĐ03"
+      },
+      "agency": "Bộ Y tế",
+      "isProvince": false,
+      "isWard": true,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Y tế",
+      "departmentPromulgate": "Bộ Y tế",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116910",
+      "level_label": "Cấp xã"
+    },
+    {
+      "id": "01a0f699-bfa0-71e1-b0ce-f7c949785260",
+      "code": "2.002932",
+      "name": "Thành lập, cho phép thành lập trường trung cấp, trường trung học nghề",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002932",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f69f-98ef-706c-a644-6e127a8a4997",
+      "code": "2.002933",
+      "name": "Cấp phép hoạt động giáo dục nghề nghiệp đối với trường trung cấp, trường trung học nghề (bao gồm trường trung cấp quy định tại khoản 4 Điều 4 Nghị định số 361/2026/NĐ-CP)",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002933",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f6a6-e28c-77bb-84ea-0c09d712f8db",
+      "code": "2.002934",
+      "name": "Thành lập, cho phép thành lập phân hiệu của trường trung cấp, trường trung học nghề",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002934",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f6ad-22fd-7491-817a-b1d0b5ac4b8e",
+      "code": "2.002935",
+      "name": "Sáp nhập, chia, tách trường trung cấp, trường trung học nghề",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002935",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0f6b2-0239-7086-8ad8-0af6a284d2e2",
+      "code": "2.002936",
+      "name": "Giải thể, cho phép giải thể trường trung cấp, trường trung học nghề, phân hiệu của trường trung cấp, trường trung học nghề theo đề nghị của cơ quan, tổ chức, cá nhân đề nghị thành lập",
+      "category": "",
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "NOT_ASSIGNED_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002936",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a0fa90-0472-76f8-ba2c-195c9cbd1c4e",
+      "code": "5.003909",
+      "name": "1.\tSáp nhập đơn vị sự nghiệp công lập vào trường trung cấp, trường trung học nghề công lập",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b1-f9b9de88e50e",
+        "name": "Giáo dục nghề nghiệp",
+        "code": "G03-GD03"
+      },
+      "agency": "Bộ Giáo dục và Đào tạo",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "CENTRAL_REGULATION",
+      "executingAgencies": "Bộ Giáo dục và Đào tạo",
+      "departmentPromulgate": "Bộ Giáo dục và Đào tạo",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003909",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a10af1-c1de-738e-913e-f039625d0faf",
+      "code": "1.116953",
+      "name": "Thủ tục chấp thuận thay đổi địa điểm đặt trụ sở phòng giao dịch của chi nhánh ngân hàng nước ngoài trong khu thương mại tự do hoặc trong khu phi thuế quan",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b5-5dfb042512a5",
+        "name": "Thành lập và hoạt động ngân hàng",
+        "code": "G19-NH01"
+      },
+      "agency": "Ngân hàng Nhà nước Khu vực",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Ngân hàng Nhà nước Khu vực",
+      "departmentPromulgate": "Ngân hàng Nhà nước Việt Nam",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116953",
+      "level_label": "Cấp tỉnh"
+    },
+    {
+      "id": "01a10b03-83e0-72bc-b0ff-2dab5c5bd0e0",
+      "code": "1.116954",
+      "name": "Thủ tục chấp thuận tự nguyện chấm dứt hoạt động phòng giao dịch của chi nhánh ngân hàng nước ngoài trong khu thương mại tự do, khu phi thuế quan",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b5-5dfb042512a5",
+        "name": "Thành lập và hoạt động ngân hàng",
+        "code": "G19-NH01"
+      },
+      "agency": "Ngân hàng Nhà nước Khu vực",
+      "isProvince": true,
+      "isWard": false,
+      "formalityType": "ASSIGNED_REGULATION",
+      "executingAgencies": "Ngân hàng Nhà nước Khu vực",
+      "departmentPromulgate": "Ngân hàng Nhà nước Việt Nam",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.116954",
+      "level_label": "Cấp tỉnh"
+    }
+  ],
   "removed_items": [],
   "modified_items": []
 }

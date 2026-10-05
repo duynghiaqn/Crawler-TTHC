@@ -314,6 +314,14 @@ async function compareProvinceWard() {
 
     fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(currentItems, null, 2));
     console.log(`📸 Đã cập nhật Snapshot mới nhất cho kỳ so sánh tiếp theo.`);
+
+    // Tự động xuất file Excel Master Data & Biến động TTHC Gia Lai
+    try {
+        const { exportTTHCExcel } = require('./export_excel');
+        exportTTHCExcel();
+    } catch (excelErr) {
+        console.warn('⚠️ Lỗi khi tự động xuất Excel từ compare_Province:', excelErr.message);
+    }
     console.log('================================================================\n');
 
     const isChanged = addedItems.length > 0 || removedItems.length > 0 || modifiedItems.length > 0 || process.env.FORCE_ALERT === 'true';

@@ -5,13 +5,16 @@
   "main": "pipeline/index.js",
   "scripts": {
     "crawl-and-publish": "bash scripts/crawl_and_publish.sh",
+    "crawl-and-publish:win": "scripts\\crawl_and_publish.bat",
     "compare": "node scripts/compare.js",
     "compare:province": "node scripts/compare_Province.js",
+    "export:excel": "node scripts/export_excel.js",
     "build-data": "node pipeline/index.js",
     "test:regression": "node tests/regression.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "xlsx": "^0.18.5"
   }
 }

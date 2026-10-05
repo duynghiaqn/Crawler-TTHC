@@ -144,15 +144,43 @@ Crawler-TTHC/
 ### 2. Cài đặt Dependency
 ```bash
 npm install
+cp .env.example .env   # Tạo file cấu hình từ mẫu
 ```
 
-### 3. Chạy cào dữ liệu thủ công tại máy cục bộ (Local Run)
+### 3. Cấu hình Biến Môi trường (.env)
+Tạo file `.env` tại thư mục gốc với các tùy chọn:
+```ini
+# Cấu hình Upload Repository (true: cho phép đẩy code, false: chỉ lưu data cục bộ)
+UPLOAD_REPO=true
+GIT_REMOTE_NAME=origin
+GITHUB_TOKEN=ghp_YourGitHubPersonalAccessToken  # Token quyền push repo (tùy chọn)
+GIT_MAIN_BRANCH=main
+GIT_DATA_BRANCH=data
+
+# Cấu hình thông báo Telegram
+TELEGRAM_ENABLE=true
+TELEGRAM_BOT_TOKEN=123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ
+TELEGRAM_CHAT_ID=-100xxxxxxxxxx
+TELEGRAM_TOPIC_ID=    # Để trống nếu không dùng topic trong supergroup
+```
+
+### 4. Chạy trên Windows
+- Bấm đúp vào file `run.bat` tại thư mục gốc để mở giao diện Menu điều khiển trực quan.
+- Hoặc chạy trực tiếp quy trình xuất bản:
+```cmd
+scripts\crawl_and_publish.bat
+```
+
+### 5. Chạy thủ công trên Linux / macOS
 ```bash
+# Chạy riêng cỗ máy cào dữ liệu
 node tthc_crawler.js
-```
-*Dữ liệu cào được và checkpoint sẽ tự động cập nhật tại thư mục `./data`.*
 
-### 4. Chạy phân tích TCI Calibration
+# Hoặc chạy toàn bộ quy trình (Cào + So sánh + Upload + Báo cáo Telegram)
+bash scripts/crawl_and_publish.sh
+```
+
+### 6. Chạy phân tích TCI Calibration
 ```bash
 node tci/select-tci-calibration.js
 node tci/select-golden-cases.js

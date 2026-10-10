@@ -1,0 +1,245 @@
+{
+  "id": "019e80e9-56bc-779b-8f64-b8b7fc227ac6",
+  "code": "3.000575",
+  "codeNotation": "3.000575",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Trường hợp thay đổi biểu tượng ghi trong giấy phép sản xuất kênh chương trình phát thanh trong nước, giấy phép sản xuất kênh chương trình truyền hình trong nước, cơ quan báo chí hoạt động phát thanh, truyền hình cấp tỉnh gửi 01 bộ hồ sơ đề nghị Ủy ban nhân dân cấp tỉnh chấp thuận. \n- Trong thời hạn 08 ngày làm việc kể từ ngày tiếp nhận chính thức, Ủy ban nhân dân cấp tỉnh chấp thuận bằng văn bản theo Mẫu số 02 tại Phụ lục V ban hành kèm theo Thông tư số 20/2026/TT-BVHTTDL ngày 30/6/2026; trường hợp không chấp thuận phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Kể từ ngày tiếp nhận chính thức hồ sơ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Kể từ ngày tiếp nhận chính thức hồ sơ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Kể từ ngày tiếp nhận chính thức hồ sơ.",
+      "fees": []
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Thủ tục chấp thuận thay đổi biểu tượng ghi trong giấy phép sản xuất kênh chương trình phát thanh trong nước, giấy phép sản xuất kênh chương trình truyền hình trong nước (cho cơ quan báo chí hoạt động phát thanh, truyền hình cấp tỉnh)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fd63e-e23c-715a-924a-b986da5b903c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của cơ quan báo chí nêu rõ lý do thay đổi",
+          "code": "G16-TPHS.PTTH.2026.3",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fd63f-9d5e-74e4-bc0e-4bd66dfaa386",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Mẫu biểu tượng (bản màu)",
+          "code": "G16-TPHS.PTTH.2026.4",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+    "019f8253-7b83-74a8-9b67-48f73b229c01"
+  ],
+  "resultIds": [
+    "019e80e8-76b3-7770-9525-8981896c6f04"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+      "name": "Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14-TT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+    "name": "Phát thanh, truyền hình và thông tin điện tử",
+    "code": "G14-TT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d3810-8907-7195-8ecb-6e3d0c581f7e",
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d3810-8907-7195-8ecb-6e3d0c581f7e",
+      "name": "Sở Văn hóa, Thể thao và Du lịch"
+    },
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f8253-7b83-74a8-9b67-48f73b229c01",
+      "name": "Luật Báo chí 2025",
+      "code": "126/2025/QH15 "
+    },
+    {
+      "id": "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+      "name": "Thông tư quy định chi tiết hồ sơ, thủ tục cấp, sửa đổi, bổ sung giấy phép hoạt động báo chí; điều kiện, hồ sơ, thủ tục cấp giấy phép xuất bản bản tin, xuất bản đặc san; lưu chiểu bản tin, đặc san.",
+      "code": "20/2026/TT-BVHTTDL "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019e80e8-76b3-7770-9525-8981896c6f04",
+      "name": "Văn bản chấp thuận thay đổi biểu tượng ghi trong giấy phép sản xuất kênh chương trình phát thanh trong nước, giấy phép sản xuất kênh chương trình truyền hình trong nước",
+      "code": "G16-KQ00661806"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "019f275c-13e0-73ba-92fb-b0f09e0ead46",
+      "name": "Chấp thuận nội dung thay đổi biểu tượng kênh ghi trong giấy phép sản xuất kênh chương trình trong nước bao gồm kênh chương trình chuyên quảng cáo (cho cơ quan Báo và phát thanh, truyền hình tỉnh, thành phố)",
+      "code": "3.000575.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fd680-e69a-7198-94a1-5c9016059048",
+      "name": "Thủ tục chấp thuận thay đổi biểu tượng ghi trong giấy phép sản xuất kênh chương trình phát thanh trong nước, giấy phép sản xuất kênh chương trình truyền hình trong nước (cho cơ quan báo chí hoạt động phát thanh, truyền hình cấp tỉnh)",
+      "code": "3.000575.01",
+      "processingDay": {
+        "qty": 8,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1780279236284,
+  "updatedAt": 1786010199047,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fd605-f4a1-76ba-9746-fa5b85971e2f",
+    "proposalNumber": "2044/QĐ-BVHTTDL",
+    "decisionDate": 1785862800000,
+    "decisionNumber": null,
+    "publicationDate": 1786010198781,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

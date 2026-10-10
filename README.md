@@ -117,19 +117,28 @@ Crawler-TTHC/
 │   └── workflows/
 │       ├── auto_crawl.yml          # Workflow chạy cào dữ liệu tự động 22:00 hàng ngày
 │       └── tci_calibration.yml     # Workflow phân tích mẫu hiệu chỉnh TCI
-├── data/                           # Thư mục chứa dữ liệu đầu ra (Deploy sang nhánh 'data')
-│   ├── index.json                  # File chỉ mục toàn bộ TTHC
+├── data/                           # Thư mục dữ liệu toàn quốc (Toàn bộ 6,700+ TTHC)
+│   ├── index.json                  # Chỉ mục toàn bộ TTHC
 │   ├── version.json                # Thông tin phiên bản & thời gian cập nhật
-│   ├── discovery.json              # File cache danh mục TTHC toàn quốc (< 6h)
-│   ├── checkpoint.json             # File lưu vết tiến độ & trạng thái Circuit Breaker
-│   └── details/                    # Thư mục chứa chi tiết từng TTHC dạng JSON
-│       ├── 01a0a85c-80c6-768f...json
-│       └── ...
-├── tci/
-│   ├── select-tci-calibration.js   # Script phân tích chọn 50 mẫu calibration
-│   └── select-golden-cases.js      # Script trích xuất 15 mẫu Golden Cases
-├── package.json                    # Khai báo dependency (axios, dotenv)
-├── tthc_crawler.js                 # Engine cào dữ liệu chính (Enterprise Standard)
+│   ├── discovery.json              # Cache danh mục TTHC toàn quốc (< 6h)
+│   ├── checkpoint.json             # Lưu vết tiến độ & trạng thái Circuit Breaker
+│   └── details/                    # Chi tiết từng TTHC dạng JSON
+├── data-gl/                        # Thư mục dữ liệu CHUYÊN BIỆT TỈNH GIA LAI (Cấp tỉnh & Xã đã lọc)
+│   ├── index.json                  # Chỉ mục TTHC áp dụng tại Gia Lai
+│   ├── version.json                # Thông tin phiên bản, số lượng cấp tỉnh, cấp xã, tỷ lệ loại trừ
+│   ├── discovery.json              # Danh sách discovery TTHC Gia Lai
+│   ├── checkpoint.json             # Checkpoint tiến độ lọc riêng Gia Lai
+│   ├── snapshot.json               # Snapshot lưu trữ để so sánh biến động kỳ này/kỳ sau
+│   ├── compare_report.json         # Báo cáo biến động TTHC Gia Lai (Thêm mới, bãi bỏ, sửa đổi)
+│   ├── Bao_cao_TTHC_Gia_Lai.xlsx   # Báo cáo Master Data Excel 4 Sheets cho tỉnh Gia Lai
+│   └── details/                    # Chi tiết từng TTHC của Gia Lai
+├── scripts/
+│   ├── filter_gia_lai.js           # Bộ lọc chuẩn TTHC Gia Lai (Cấp tỉnh, cấp xã; trừ thuế, ngân hàng, tòa án, hải quan, công an)
+│   ├── compare_Province.js         # Phân tích so sánh biến động TTHC cấp tỉnh & xã
+│   ├── export_excel.js             # Xuất file Excel báo cáo TTHC Gia Lai
+│   └── ...
+├── tthc_crawler.js                 # Engine cào dữ liệu TTHC toàn quốc
+├── tthc_crawler_gl.js              # Engine cào & đồng bộ dữ liệu TTHC chuyên biệt Tỉnh Gia Lai
 └── README.md                       # Tài liệu hướng dẫn hệ thống
 ```
 

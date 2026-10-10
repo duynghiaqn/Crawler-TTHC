@@ -1,0 +1,333 @@
+{
+  "id": "019d2bfe-908d-726f-a05f-7026ac241c2d",
+  "code": "1.013232",
+  "codeNotation": "1.013232",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Chủ đầu tư nộp hồ sơ đề nghị cấp giấy phép xây dựng di dời công trình cấp III, cấp IV, công trình nhà ở riêng lẻ của hộ gia đình, cá nhân trực tuyến tại Cổng Dịch vụ công quốc gia; trường hợp do sự cố khách quan, đột xuất không thể thực hiện trên môi trường điện tử, cơ quan có thẩm quyền cấp giấy phép xây dựng được thực hiện theo hình thức trực tiếp tại Bộ phận Một cửa hoặc thông qua dịch vụ bưu chính công ích. Trong thời hạn 07 ngày làm việc đối với nhà ở riêng lẻ của hộ gia đình, cá nhân và 10 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền có trách nhiệm xem xét cấp giấy phép xây dựng công trình cấp III, cấp IV, công trình nhà ở riêng lẻ của hộ gia đình, cá nhân.\n- Trong thời hạn 05 ngày làm việc đối với các công trình cấp III, cấp IV hoặc 03 ngày đối với công trình nhà ở riêng lẻ của hộ gia đình, cá nhân kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền cấp giấy phép xây dựng phải tổ chức thẩm định hồ sơ, kiểm tra thực địa (nếu cần thiết), thông báo 1 lần bằng thư điện tử hoặc tin nhắn cho tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ nếu tài liệu còn thiếu, tài liệu không đúng theo quy định hoặc không đúng thực tế. \n- Trong thời gian 02 ngày làm việc kể từ ngày nhận được hồ sơ các cơ quan quản lý nhà nước được hỏi ý kiến có trách nhiệm trả lời về những nội dung thuộc chức năng quản lý của mình. Sau thời hạn trên, nếu các cơ quan này không có ý kiến thì được coi là đã đồng ý và phải chịu trách nhiệm về những nội dung thuộc chức năng quản lý của mình; cơ quan cấp giấy phép xây dựng căn cứ các quy định hiện hành để quyết định việc cấp giấy phép xây dựng.\n- Trong thời gian 02 ngày làm việc kể từ ngày nhận được thông báo (nếu có), tổ chức, cá nhân đề nghị cấp giấy phép giấy phép xây dựng có trách nhiệm bổ sung, hoàn thiện hồ sơ theo nội dung thông báo. Trường hợp việc bổ sung hồ sơ không đáp ứng được các nội dung theo thông báo thì trong thời hạn 01 ngày làm việc, cơ quan có thẩm quyền có trách nhiệm thông báo đến chủ đầu tư về lý do không cấp giấy phép. Tổ chức, cá nhân đề nghị cấp giấy phép thực hiện lại quy trình đề nghị cấp giấy phép xây dựng.\nTrong thời hạn 07 ngày làm việc đối với nhà ở riêng lẻ của hộ gia đình, cá nhân và 10 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền có trách nhiệm xem xét cấp giấy phép xây dựng công trình cấp III, cấp IV, công trình nhà ở riêng lẻ của hộ gia đình, cá nhân."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc đối với nhà ở riêng lẻ của hộ gia đình, cá nhân",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc đối với nhà ở riêng lẻ của hộ gia đình, cá nhân",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc đối với nhà ở riêng lẻ của hộ gia đình, cá nhân",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Cấp giấy phép di dời đối với công trình cấp III, cấp IV (Công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f421d-443c-70a8-8e34-231558c49f0d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp giấy phép di dời công trình theo Mẫu số 1 Phụ lục số II Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ",
+          "code": "TP-G17.000230",
+          "attachments": [
+            {
+              "id": "019fdf00-9d2a-72fd-bda4-e438ea24afad",
+              "fileName": "Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fdf00-9d2a-72fd-bda4-e438ea24afad/Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f421d-a9ce-7558-83d9-df07c607bdd7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu quy định tại khoản 3 Điều 61 bao gồm:  + Bản sao giấy tờ chứng minh quyền sử dụng đất nơi công trình sẽ di dời đến và giấy tờ hợp pháp về sở hữu công trình theo quy định của pháp luật. Trường hợp Giấy chứng nhận quyền sử dụng đất đã có trong Cơ sở dữ liệu quốc gia về đất đai thì các thông tin này được thay thế bằng dữ liệu khi Cơ sở dữ liệu quốc gia về đất đai được vận hành. + Bản vẽ hoàn công công trình (nếu có) hoặc bản vẽ thiết kế mô tả thực trạng công trình được di dời, gồm mặt bằng, mặt cắt móng và bản vẽ kết cấu chịu lực chính; bản vẽ tổng mặt bằng địa điểm công trình sẽ được di dời tới; bản vẽ mặt bằng, mặt cắt móng tại địa điểm công trình sẽ di dời đến. + Báo cáo kết quả khảo sát đánh giá chất lượng hiện trạng của công trình do tổ chức, cá nhân có đủ điều kiện năng lực thực hiện.  + Phương án di dời do tổ chức, cá nhân có đủ điều kiện năng lực thực hiện gồm:  Phần thuyết minh về hiện trạng công trình và khu vực công trình sẽ được di dời đến; giải pháp di dời, phương án bố trí sử dụng phương tiện, thiết bị, nhân lực; giải pháp bảo đảm an toàn cho công trình, người, máy móc, thiết bị và công trình lân cận; bảo đảm vệ sinh môi trường; tiến độ di dời; tổ chức, cá nhân thực hiện di dời công trình; phần bản vẽ biện pháp thi công di dời công trình.",
+          "code": "TP-G17.000231",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f1d67-d525-7040-bc15-3156f4c4411c",
+    "019f3666-e3d6-702f-926b-ced690d453d0"
+  ],
+  "resultIds": [
+    "019fe045-3375-7549-92b9-cb44c5b157d6"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+      "name": "Hoạt động xây dựng",
+      "code": "G17-XD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+    "name": "Hoạt động xây dựng",
+    "code": "G17-XD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f1d67-d525-7040-bc15-3156f4c4411c",
+      "name": "Luật Xây dựng",
+      "code": "135/2025/QH15"
+    },
+    {
+      "id": "019f3666-e3d6-702f-926b-ced690d453d0",
+      "name": "Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng",
+      "code": "217/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fe045-3375-7549-92b9-cb44c5b157d6",
+      "name": "Kết quả giấy phép sửa chữa, cải tạo, di dời",
+      "code": "KQ-G17.000094"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "019f1b4a-4fa0-75ca-abee-a597e70a167d",
+      "name": "Cấp giấy phép di dời đối với công trình cấp III, cấp IV (Công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ",
+      "code": "1.013232.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a00e79-c494-775c-984f-932f4bc450e8",
+      "name": "Cấp giấy phép di dời đối với công trình cấp III, cấp IV (Công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ",
+      "code": "1.013232.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019db8a7-59ca-7484-9a0e-9bceb12b1739",
+      "name": "Cấp giấy phép di dời đối với công trình cấp III, cấp IV (Công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ",
+      "code": "1.013232.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559596685,
+  "updatedAt": 1786949251317,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f3649-8985-7142-a495-0228f712ad67",
+    "proposalNumber": "1077/QĐ-BXD",
+    "decisionDate": 1782666000000,
+    "decisionNumber": null,
+    "publicationDate": 1786949250428,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

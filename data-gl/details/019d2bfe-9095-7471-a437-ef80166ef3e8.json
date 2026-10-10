@@ -1,0 +1,302 @@
+{
+  "id": "019d2bfe-9095-7471-a437-ef80166ef3e8",
+  "code": "1.013233",
+  "codeNotation": "1.013233",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Chủ đầu tư nộp hồ sơ đề nghị gia hạn giấy phép xây dựng công trình cấp đặc biệt, cấp I, cấp II trực tuyến tại Cổng Dịch vụ công quốc gia; trường hợp do sự cố khách quan, đột xuất không thể thực hiện trên môi trường điện tử, cơ quan có thẩm quyền cấp giấy phép xây dựng được thực hiện theo hình thức trực tiếp tại Bộ phận Một cửa hoặc thông qua dịch vụ bưu chính công ích. \n- Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan có thẩm quyền cấp giấy phép xây dựng phải tổ chức thẩm định hồ sơ, kiểm tra thực địa (nếu cần thiết), thông báo một lần bằng thư điện tử hoặc tin nhắn cho tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ nếu tài liệu còn thiếu, tài liệu không đúng theo quy định hoặc không đúng với thực tế. \n \t- Trong thời gian 02 ngày làm việc kể từ ngày nhận được hồ sơ các cơ quan quản lý nhà nước được hỏi ý kiến có trách nhiệm trả lời bằng văn bản về những nội dung thuộc chức năng quản lý của mình. Sau thời hạn trên, nếu các cơ quan này không có ý kiến thì được coi là đã đồng ý và phải chịu trách nhiệm về những nội dung thuộc chức năng quản lý của mình; cơ quan cấp giấy phép xây dựng căn cứ các quy định hiện hành để quyết định việc gia hạn giấy phép xây dựng\n- Trong thời gian 01 ngày làm việc kể từ ngày nhận được thông báo (nếu có), tổ chức, cá nhân đề nghị gia hạn giấy phép xây dựng có trách nhiệm bổ sung, hoàn thiện hồ sơ theo nội dung thông báo. Trường hợp việc bổ sung hồ sơ không đáp ứng được các nội dung theo thông báo thì trong thời hạn 01 ngày làm việc, cơ quan có thẩm quyền có trách nhiệm thông báo đến chủ đầu tư về lý do không gia hạn giấy phép xây dựng. Tổ chức, cá nhân đề nghị gia hạn giấy phép xây dựng thực hiện lại quy trình đề nghị gia hạn giấy phép xây dựng.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền có trách nhiệm xem xét cấp gia hạn giấy phép xây dựng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "(Theo quy định của Hội đồng nhân dân cấp tỉnh)"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Gia hạn giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (Công trình không theo tuyến/theo tuyến trong đô thị/tín ngưỡng, tôn giáo/tượng đài, tranh hoành tráng/sửa chữa, cải tạo/theo giai đoạn cho công trình không theo tuyến/theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f4211-374a-74af-bd6f-71f0e6a63773",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị gia hạn giấy phép xây dựng theo Mẫu số 02 Phụ lục số II Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ",
+          "code": "TP-G17.000211",
+          "attachments": [
+            {
+              "id": "019fdefa-f1dd-70ca-9af6-ef9860c11c27",
+              "fileName": "Đơn G 17.000194. 211 . 213. 375 380 386 393. 399.  406 415.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fdefa-f1dd-70ca-9af6-ef9860c11c27/Đơn G 17.000194. 211 . 213. 375 380 386 393. 399.  406 415.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f4211-a1a7-7289-acae-85983fbe69e6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính giấy phép xây dựng đã được cấp",
+          "code": "TP-G17.000212",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019e1a20-4bcb-77ce-8a33-9b18a804996e",
+    "019f1d67-d525-7040-bc15-3156f4c4411c",
+    "019f3666-e3d6-702f-926b-ced690d453d0"
+  ],
+  "resultIds": [
+    "019fe03e-47d4-7742-b9e9-9f4519b297d0"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b678-107d9fbca512",
+    "019d2be3-6a82-76c9-bfe4-d424e31e0ba7",
+    "019d2be3-6a88-732b-8b0c-20b472284fe5",
+    "019d2be3-6ada-753f-9ac6-14aca15dfd29"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+      "name": "Hoạt động xây dựng",
+      "code": "G17-XD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+    "name": "Hoạt động xây dựng",
+    "code": "G17-XD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a82-76c9-bfe4-d424e31e0ba7",
+      "name": "Ban QLDA đầu tư xây dựng khu kinh tế",
+      "code": "000.03.20.H38"
+    },
+    {
+      "id": "019d2be3-6ada-753f-9ac6-14aca15dfd29",
+      "name": "Ban Quản lý Khu chế xuất- Khu công nghiệp",
+      "code": "BQLKCX"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b678-107d9fbca512",
+      "name": "Ban Quản lý Khu công nghệ cao",
+      "code": "000.00.21.H17"
+    },
+    {
+      "id": "019d2be3-6a88-732b-8b0c-20b472284fe5",
+      "name": "Bộ phận Một cửa Sở Xây dựng",
+      "code": "H32.18.07"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9448-4f70-755d-9f51-d3e89652ee18"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9448-4f70-755d-9f51-d3e89652ee18",
+      "name": "Sở Xây dựng"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f3666-e3d6-702f-926b-ced690d453d0",
+      "name": "Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng",
+      "code": "217/2026/NĐ-CP"
+    },
+    {
+      "id": "019e1a20-4bcb-77ce-8a33-9b18a804996e",
+      "name": " Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ.\n",
+      "code": "105/2025/NĐ- CP"
+    },
+    {
+      "id": "019f1d67-d525-7040-bc15-3156f4c4411c",
+      "name": "Luật Xây dựng",
+      "code": "135/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fe03e-47d4-7742-b9e9-9f4519b297d0",
+      "name": "Kết quả giấy phép cấp mới, điều chỉnh, gia hạn",
+      "code": "KQ-G17.000093"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "01a00e79-ca04-7416-b0fe-babc158c456c",
+      "name": "Gia hạn giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (Công trình không theo tuyến/theo tuyến trong đô thị/tín ngưỡng, tôn giáo/tượng đài, tranh hoành tráng/sửa chữa, cải tạo/theo giai đoạn cho công trình không theo tuyến/theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án)",
+      "code": "1.013233.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019db0e9-5827-746f-abd0-5d231753c9fe",
+      "name": "Gia hạn giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (Công trình không theo tuyến/theo tuyến trong đô thị/tín ngưỡng, tôn giáo/tượng đài, tranh hoành tráng/sửa chữa, cải tạo/theo giai đoạn cho công trình không theo tuyến/theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án)",
+      "code": "1.013233.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559596693,
+  "updatedAt": 1786949252791,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ban QLDA đầu tư xây dựng khu kinh tế, Ban Quản lý Khu chế xuất- Khu công nghiệp, Ban Quản lý Khu công nghệ cao, Bộ phận Một cửa Sở Xây dựng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f3649-8985-7142-a495-0228f712ad67",
+    "proposalNumber": "1077/QĐ-BXD",
+    "decisionDate": 1782666000000,
+    "decisionNumber": null,
+    "publicationDate": 1786949250428,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

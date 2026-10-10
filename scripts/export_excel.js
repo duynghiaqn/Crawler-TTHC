@@ -2,10 +2,20 @@ const fs = require('fs');
 const path = require('path');
 const XLSX = require('xlsx');
 
+const { getLevelLabel } = require('./filter_gia_lai');
+
 const DATA_DIR = path.join(process.cwd(), 'data');
+const DATA_GL_DIR = path.join(process.cwd(), 'data-gl');
+
 const SNAPSHOT_PROVINCE_FILE = path.join(DATA_DIR, 'snapshot_province.json');
 const REPORT_PROVINCE_FILE = path.join(DATA_DIR, 'compare_province_report.json');
-const EXCEL_OUTPUT_FILE = path.join(DATA_DIR, 'Bao_cao_TTHC_Gia_Lai.xlsx');
+
+const SNAPSHOT_GL_FILE = path.join(DATA_GL_DIR, 'snapshot.json');
+const INDEX_GL_FILE = path.join(DATA_GL_DIR, 'index.json');
+const REPORT_GL_FILE = path.join(DATA_GL_DIR, 'compare_report.json');
+
+const EXCEL_OUTPUT_FILE = path.join(DATA_GL_DIR, 'Bao_cao_TTHC_Gia_Lai.xlsx');
+const EXCEL_LEGACY_OUTPUT_FILE = path.join(DATA_DIR, 'Bao_cao_TTHC_Gia_Lai.xlsx');
 
 /**
  * Format timestamp sang gio Viet Nam (ICT - UTC+7)
@@ -29,13 +39,6 @@ function formatCategory(cat) {
     return String(cat);
 }
 
-function getLevelLabel(item) {
-    if (item.isProvince && item.isWard) return 'Cả Cấp tỉnh & Cấp xã';
-    if (item.isProvince) return 'Cấp tỉnh';
-    if (item.isWard) return 'Cấp xã';
-    return item.level_label || 'Chưa xác định';
-}
-
 /**
  * Xuat file Excel tong hop TTHC Cap Tinh, Cap Xa va Bien dong Gia Lai
  */
@@ -45,9 +48,20 @@ function exportTTHCExcel(customOutputPath = null) {
     console.log('📊 ĐANG XUẤT FILE EXCEL MASTER DATA & BIẾN ĐỘNG TTHC GIA LAI...');
     console.log('================================================================');
 
-    // 1. Doc du lieu tu snapshot_province.json
+    // 1. Doc du lieu: Ưu tiên data-gl/snapshot.json hoặc data-gl/index.json
     let allItems = [];
-    if (fs.existsSync(SNAPSHOT_PROVINCE_FILE)) {
+    if (fs.existsSync(SNAPSHOT_GL_FILE)) {
+        try {
+            allItems = JSON.parse(fs.readFileSync(SNAPSHOT_GL_FILE, 'utf8'));
+        } catch (e) {}
+    } else if (fs.existsSync(INDEX_GL_FILE)) {
+        try {
+            allItems = JSON.parse(fs.readFileSync(INDEX_GL_FILE, 'utf8'));
+        } catch (e) {}
+    }
+
+    // Fallback: data/snapshot_province.json
+    if ((!Array.isArray(allItems) || allItems.length === 0) && fs.existsSync(SNAPSHOT_PROVINCE_FILE)) {
         try {
             allItems = JSON.parse(fs.readFileSync(SNAPSHOT_PROVINCE_FILE, 'utf8'));
         } catch (e) {
@@ -60,9 +74,13 @@ function exportTTHCExcel(customOutputPath = null) {
         return null;
     }
 
-    // 2. Doc du lieu bien dong tu compare_province_report.json
+    // 2. Doc du lieu bien dong tu compare_report.json (data-gl) hoac compare_province_report.json (data)
     let reportData = null;
-    if (fs.existsSync(REPORT_PROVINCE_FILE)) {
+    if (fs.existsSync(REPORT_GL_FILE)) {
+        try {
+            reportData = JSON.parse(fs.readFileSync(REPORT_GL_FILE, 'utf8'));
+        } catch (e) {}
+    } else if (fs.existsSync(REPORT_PROVINCE_FILE)) {
         try {
             reportData = JSON.parse(fs.readFileSync(REPORT_PROVINCE_FILE, 'utf8'));
         } catch (e) {
@@ -359,6 +377,15 @@ function exportTTHCExcel(customOutputPath = null) {
     // 4. Ghi file ra dia
     XLSX.writeFile(wb, outputPath);
     console.log(`✅ Xuất thành công file Excel tại: ${outputPath}`);
+
+    // Ghi thêm bản sao sang data/ để tương thích ngược nếu outputPath là mặc định
+    if (!customOutputPath && fs.existsSync(DATA_DIR)) {
+        try {
+            XLSX.writeFile(wb, EXCEL_LEGACY_OUTPUT_FILE);
+            console.log(`✅ Đã đồng bộ thêm bản sao file Excel tại: ${EXCEL_LEGACY_OUTPUT_FILE}`);
+        } catch (e) {}
+    }
+
     console.log(`   • Sheet 1: 'Tổng hợp & Biến động' (${s1Rows.length - 25} dòng biến động)`);
     console.log(`   • Sheet 2: 'TTHC Cấp Tỉnh' (${provinceItems.length} TTHC)`);
     console.log(`   • Sheet 3: 'TTHC Cấp Xã' (${wardItems.length} TTHC)`);

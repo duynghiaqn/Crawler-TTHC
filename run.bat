@@ -12,6 +12,7 @@ if /i "%~1"=="all" goto opt_all
 if /i "%~1"=="publish" goto opt_all
 if /i "%~1"=="test-tele" goto opt_test_tele
 if /i "%~1"=="install" goto opt_install
+if /i "%~1"=="crawl-gl" goto opt_crawl_gl
 if /i "%~1"=="excel" goto opt_excel
 
 :menu
@@ -27,10 +28,11 @@ echo   [4] Kiem tra ket noi va thu nghiem gui tin nhan Telegram
 echo   [5] Cai dat / Cap nhat thu vien NPM (npm install)
 echo   [6] Kiem tra trang thai Git (git status)
 echo   [7] Xuat file Excel TTHC Cap Tinh, Cap Xa va Bien dong Gia Lai
+echo   [8] Cao va loc du lieu TTHC Gia Lai rieng biet (node tthc_crawler_gl.js)
 echo   [0] Thoat
 echo.
 echo =====================================================================
-set /p "CHOICE=>> Vui long nhap lua chon (0-7) roi nhan Enter: "
+set /p "CHOICE=>> Vui long nhap lua chon (0-8) roi nhan Enter: "
 
 if "%CHOICE%"=="1" goto opt_crawl
 if "%CHOICE%"=="2" goto opt_compare
@@ -39,6 +41,7 @@ if "%CHOICE%"=="4" goto opt_test_tele
 if "%CHOICE%"=="5" goto opt_install
 if "%CHOICE%"=="6" goto opt_git_status
 if "%CHOICE%"=="7" goto opt_excel
+if "%CHOICE%"=="8" goto opt_crawl_gl
 if "%CHOICE%"=="0" goto opt_exit
 
 echo.
@@ -167,6 +170,22 @@ echo.
 echo ---------------------------------------------------------------------
 echo File Excel da duoc luu tai: data\Bao_cao_TTHC_Gia_Lai.xlsx
 echo Nhan phim bat ky de quay lai menu...
+pause >nul
+goto menu
+
+:: -------------------------------------------------------------
+:: Chuc nang 8: Cao & Dong bo TTHC Gia Lai
+:: -------------------------------------------------------------
+:opt_crawl_gl
+call :check_node
+cls
+echo =====================================================================
+echo [BAT DAU] DANG THU THAP VA LOC DU LIEU TTHC GIA LAI (data-gl)...
+echo =====================================================================
+node tthc_crawler_gl.js
+echo.
+echo ---------------------------------------------------------------------
+echo Tien trinh hoan tat. Nhan phim bat ky de quay lai menu...
 pause >nul
 goto menu
 

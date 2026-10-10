@@ -1,0 +1,361 @@
+{
+  "id": "019d2bfc-ca6b-7492-af2b-d3147fc084c4",
+  "code": "1.014035",
+  "codeNotation": "1.014035",
+  "executionSteps": [
+    {
+      "name": "* Trường hợp đăng ký trực tiếp hoặc qua dịch vụ bưu chính:",
+      "description": "- Hộ kinh doanh có thể dừng thực hiện thủ tục đăng ký hộ kinh doanh khi hồ sơ đăng ký hộ kinh doanh chưa được chấp thuận trên Hệ thống thông tin về đăng ký hộ kinh doanh. Trong trường hợp này, chủ hộ kinh doanh gửi văn bản đề nghị dừng thực hiện thủ tục đăng ký hộ kinh doanh đến Cơ quan đăng ký kinh doanh cấp xã. \n- Cơ quan đăng ký kinh doanh cấp xã xem xét, ra thông báo về việc dừng thực hiện thủ tục đăng ký hộ kinh doanh và hủy hồ sơ đăng ký hộ kinh doanh theo quy trình trên Hệ thống thông tin về đăng ký hộ kinh doanh trong thời hạn 02 ngày làm việc kể từ ngày nhận được văn bản đề nghị. Trường hợp từ chối dừng thực hiện thủ tục đăng ký hộ kinh doanh, Cơ quan đăng ký kinh doanh cấp xã ra thông báo bằng văn bản và nêu rõ lý do từ chối."
+    },
+    {
+      "name": "* Trường hợp đăng ký qua mạng thông tin điện tử:",
+      "description": "Người nộp hồ sơ đăng nhập Cổng dịch vụ công quốc gia hoặc Ứng dụng định danh quốc gia bằng tài khoản định danh điện tử để truy cập Hệ thống thông tin về đăng ký hộ kinh doanh. Người nộp hồ sơ thực hiện thủ tục đăng ký hộ kinh doanh theo quy trình trên Hệ thống thông tin về đăng ký hộ kinh doanh như sau: \n- Trường hợp người nộp hồ sơ là người có thẩm quyền ký văn bản đề nghị đăng ký hộ kinh doanh \nNgười nộp hồ sơ kê khai thông tin trên Hệ thống thông tin về đăng ký hộ kinh doanh. Đối với các giấy đề nghị hoặc thông báo có nội dung được kê khai trên Hệ thống thông tin về đăng ký hộ kinh doanh và chỉ yêu cầu người nộp hồ sơ ký thì người nộp hồ sơ không phải thực hiện ký số và tải lên Hệ thống thông tin về đăng ký hộ kinh doanh. Đối với các giấy tờ khác trong thành phần hồ sơ đăng ký theo quy định, người nộp hồ sơ phải bảo đảm các giấy tờ này được ký số hoặc ký trực tiếp theo quy định, được thể hiện dưới dạng văn bản điện tử và tải các giấy tờ này lên Hệ thống thông tin về đăng ký hộ kinh doanh. \nĐối với các giấy đề nghị hoặc thông báo có nội dung được kê khai trên Hệ thống thông tin về đăng ký hộ kinh doanh yêu cầu nhiều người ký và giấy tờ khác trong thành phần hồ sơ đăng ký theo quy định, người nộp hồ sơ phải bảo đảm các giấy tờ này được ký số hoặc ký trực tiếp theo quy định, được thể hiện dưới dạng văn bản điện tử và tải các giấy tờ này lên Hệ thống thông tin về đăng ký hộ kinh doanh.\nNgười nộp hồ sơ thanh toán phí, lệ phí (nếu có) và thực hiện xác thực điện tử theo quy định để nộp hồ sơ. Sau khi hoàn thành việc gửi hồ sơ, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử; \n- Trường hợp người nộp hồ sơ là người được ủy quyền thực hiện thủ tục đăng ký hộ kinh doanh \nNgười nộp hồ sơ kê khai thông tin và tải các giấy tờ trong thành phần hồ sơ đăng ký theo quy định lên Hệ thống thông tin về đăng ký hộ kinh doanh. Các giấy tờ này phải được ký số hoặc ký trực tiếp theo quy định và được thể hiện dưới dạng văn bản điện tử. \nNgười nộp hồ sơ thanh toán phí, lệ phí (nếu có) và thực hiện xác thực điện tử theo quy định để nộp hồ sơ. Sau khi hoàn thành việc gửi hồ sơ, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử. \nCơ quan đăng ký kinh doanh cấp xã xem xét tính hợp lệ của hồ sơ và trả kết quả giải quyết hồ sơ cho hộ kinh doanh theo quy định tại Nghị định số 168/2025/NĐ-CP. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin về đăng ký hộ kinh doanh để nhận thông tin phản hồi về kết quả xử lý hồ sơ."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Người nộp hồ sơ đăng nhập Cổng dịch vụ công quốc gia hoặc ứng dụng định danh quốc gia bằng tài khoản định danh điện tử để truy cập Hệ thống thông tin quốc gia về đăng ký doanh nghiệp. Người nộp hồ sơ thực hiện thủ tục đăng ký doanh nghiệp theo quy trình trên Hệ thống thông tin quốc gia về đăng ký doanh nghiệp.\nTrong thời hạn 02 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrường hợp hồ sơ được tiếp nhận trên Hệ thống thông tin về đăng ký hộ kinh doanh sau giờ hành chính hoặc vào ngày nghỉ, ngày lễ, Tết theo quy định thì thời hạn trả kết quả giải quyết thủ tục đăng ký hộ kinh doanh quy định tại Nghị định số 168/2025/NĐ-CP được tính từ ngày làm việc kế tiếp của ngày hồ sơ được tiếp nhận.\n\nNgười thành lập hộ kinh doanh thực hiện thủ tục đăng ký hộ kinh doanh với Cơ quan đăng ký kinh doanh cấp xã theo một trong những phương thức sau đây:\n- Đăng ký qua mạng thông tin điện tử.\nTrong thời hạn 02 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrường hợp hồ sơ được tiếp nhận trên Hệ thống thông tin về đăng ký hộ kinh doanh sau giờ hành chính hoặc vào ngày nghỉ, ngày lễ, Tết theo quy định thì thời hạn trả kết quả giải quyết thủ tục đăng ký hộ kinh doanh quy định tại Nghị định số 168/2025/NĐ-CP được tính từ ngày làm việc kế tiếp của ngày hồ sơ được tiếp nhận.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Mức lệ phí (nếu có) theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 02 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrường hợp hồ sơ được tiếp nhận trên Hệ thống thông tin về đăng ký hộ kinh doanh sau giờ hành chính hoặc vào ngày nghỉ, ngày lễ, Tết theo quy định thì thời hạn trả kết quả giải quyết thủ tục đăng ký hộ kinh doanh quy định tại Nghị định số 168/2025/NĐ-CP được tính từ ngày làm việc kế tiếp của ngày hồ sơ được tiếp nhận.\n\nNgười thành lập hộ kinh doanh thực hiện thủ tục đăng ký hộ kinh doanh với Cơ quan đăng ký kinh doanh cấp xã theo một trong những phương thức sau đây:\n- Đăng ký trực tiếp tại Cơ quan đăng ký kinh doanh cấp xã;\nTrong thời hạn 02 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrường hợp hồ sơ được tiếp nhận trên Hệ thống thông tin về đăng ký hộ kinh doanh sau giờ hành chính hoặc vào ngày nghỉ, ngày lễ, Tết theo quy định thì thời hạn trả kết quả giải quyết thủ tục đăng ký hộ kinh doanh quy định tại Nghị định số 168/2025/NĐ-CP được tính từ ngày làm việc kế tiếp của ngày hồ sơ được tiếp nhận.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Mức lệ phí (nếu có) theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 02 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrường hợp hồ sơ được tiếp nhận trên Hệ thống thông tin về đăng ký hộ kinh doanh sau giờ hành chính hoặc vào ngày nghỉ, ngày lễ, Tết theo quy định thì thời hạn trả kết quả giải quyết thủ tục đăng ký hộ kinh doanh quy định tại Nghị định số 168/2025/NĐ-CP được tính từ ngày làm việc kế tiếp của ngày hồ sơ được tiếp nhận.\n\nNgười thành lập hộ kinh doanh thực hiện thủ tục đăng ký hộ kinh doanh với Cơ quan đăng ký kinh doanh cấp xã theo một trong những phương thức sau đây:\n- Đăng ký qua mạng thông tin điện tử.\nTrong thời hạn 02 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrường hợp hồ sơ được tiếp nhận trên Hệ thống thông tin về đăng ký hộ kinh doanh sau giờ hành chính hoặc vào ngày nghỉ, ngày lễ, Tết theo quy định thì thời hạn trả kết quả giải quyết thủ tục đăng ký hộ kinh doanh quy định tại Nghị định số 168/2025/NĐ-CP được tính từ ngày làm việc kế tiếp của ngày hồ sơ được tiếp nhận.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Mức lệ phí (nếu có) theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    }
+  ],
+  "description": "k) Yêu cầu, điều kiện thực hiện thủ tục hành chính: \n- Hộ kinh doanh có thể dừng thực hiện thủ tục đăng ký hộ kinh doanh khi hồ sơ đăng ký hộ kinh doanh chưa được chấp thuận trên Hệ thống thông tin về đăng ký hộ kinh doanh.\n- Có hồ sơ đăng ký hộ kinh doanh hợp lệ.\n* Hồ sơ đăng ký hộ kinh doanh qua mạng thông tin điện tử phải bảo đảm các yêu cầu sau:\n- Có đầy đủ các giấy tờ và nội dung các giấy tờ đó được kê khai đầy đủ theo quy định như hồ sơ bằng bản giấy và được thể hiện dưới dạng văn bản điện tử hoặc dữ liệu điện tử có đầy đủ thông tin theo quy định như hồ sơ đăng ký bằng bản giấy. Tên văn bản điện tử phải được đặt tương ứng với tên loại giấy tờ trong hồ sơ đăng ký hộ kinh doanh bằng bản giấy; \n- Các thông tin đăng ký hộ kinh doanh được kê khai trên Hệ thống thông tin về đăng ký hộ kinh doanh phải được nhập đầy đủ và chính xác theo các thông tin trong hồ sơ đăng ký hộ kinh doanh; \n- Có thông tin về số điện thoại, thư điện tử của người nộp hồ sơ được kê khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp;\n- Trường hợp ủy quyền thực hiện thủ tục đăng ký hộ kinh doanh, hồ sơ đăng ký hộ kinh doanh qua mạng thông tin điện tử phải kèm theo các giấy tờ, tài liệu quy định tại Điều 93 Nghị định số 168/2025/NĐ-CP được thể hiện dưới dạng văn bản điện tử hoặc dữ liệu điện tử theo quy định.",
+  "name": "Dừng thực hiện thủ tục đăng ký hộ kinh doanh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "* Thành phần hồ sơ:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb110-a291-74b9-9eaf-108467d18335",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Giấy đề nghị dừng thực hiện thủ tục đăng ký hộ kinh doanh theo Mẫu số 6, Phụ lục II, Thông tư số 68/2025/TT-BTC ngày 01/7/2025 của Bộ trưởng Bộ Tài chính.",
+          "code": "000.00.00.G12-332212",
+          "attachments": [
+            {
+              "id": "019fb110-8682-77b4-bd52-0cdaa9786293",
+              "fileName": "Mẫu số 6-Pl2.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb110-8682-77b4-bd52-0cdaa9786293/Mẫu số 6-Pl2.doc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "* Trường hợp ủy quyền thực hiện thủ tục thì hồ sơ phải kèm theo một trong những giấy tờ sau: - Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký hộ kinh doanh, kèm theo hồ sơ đăng ký hộ kinh doanh bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb110-e979-74e9-9bc8-b98ecd3ed3e9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký hộ kinh doanh. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực.",
+          "code": "000.00.00.G12-333245",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "* Trường hợp ủy quyền thực hiện thủ tục thì hồ sơ phải kèm theo một trong những giấy tờ sau:- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký hộ kinh doanh, kèm theo hồ sơ bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb111-40cb-7140-b526-e4d2e824d802",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(i) Bản sao hợp đồng cung cấp dịch vụ với tổ chức làm dịch vụ thực hiện thủ tục liên quan đến đăng ký hộ kinh doanh;",
+          "code": "000.00.00.G12-2223456",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb111-6f97-72db-a257-bcf454aff5de",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(ii) Giấy giới thiệu của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký hộ kinh doanh.",
+          "code": "000.00.00.G12-33214",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "* Trường hợp ủy quyền thực hiện thủ tục thì hồ sơ phải kèm theo một trong những giấy tờ sau:- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký hộ kinh doanh, hồ sơ bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb111-aa82-708e-bae2-fdded7b58bf8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và chủ hộ kinh doanh.",
+          "code": "000.00.00.G12-333124",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "* Trường hợp ủy quyền thực hiện thủ tục thì hồ sơ phải kèm theo một trong những giấy tờ sau:- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký hộ kinh doanh, hồ sơ bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb111-e4f9-704f-94a5-6533c64aa6fa",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(i) Bản sao hợp đồng cung cấp dịch vụ với tổ chức làm dịch vụ thực hiện thủ tục liên quan đến đăng ký hộ kinh doanh;",
+          "code": "000.00.00.G12-22345",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb112-1dee-7339-a5d9-4ae7c0ffe525",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(ii) Giấy giới thiệu của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký hộ kinh doanh. - Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký hộ kinh doanh chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người ủy quyền và người được ủy quyền phải thực hiện xác thực điện tử để được cấp đăng ký hộ kinh doanh khi thực hiện thủ tục đăng ký thành lập hộ kinh doanh, đăng ký thay đổi chủ hộ kinh doanh, đăng ký thay đổi thành viên hộ gia đình đăng ký hộ kinh doanh.  Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký hộ kinh doanh. Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký hộ kinh doanh thì Cơ quan đăng ký kinh doanh cấp xã yêu cầu hộ kinh doanh báo cáo theo quy định tại khoản 6 Điều 22 Nghị định số 168/2026/NĐ-CP. Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký hộ kinh doanh phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân còn hiệu lực của người ủy quyền.",
+          "code": "000.00.00.G12-133245",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "đ) Đối tượng thực hiện thủ tục hành chính:\nNgười thành lập hộ kinh doanh, chủ hộ kinh doanh.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c1c23b06076e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4e-87184807d6b6",
+    "019d2bb3-5d7e-72d1-afec-5e297320f06a",
+    "019d2bb3-5d84-71c5-b673-a5cd7b50c21c",
+    "019d2bb3-5d87-7195-a445-a84d5af06feb"
+  ],
+  "resultIds": [
+    "019d2bb2-1c72-75fa-a590-42e0286e1d3c",
+    "019d2bb2-1c72-75fa-a590-bf7f5f930b53"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c1c23b06076e",
+      "name": "Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)",
+      "code": "G05-KD10"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c1c23b06076e",
+    "name": "Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)",
+    "code": "G05-KD10"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d87-7195-a445-a84d5af06feb",
+      "name": "Luật sửa đổi, bổ sung một số điều của Luật Doanh nghiệp 2020",
+      "code": "76/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4e-87184807d6b6",
+      "name": "Thông tư số 68/2025/TT-BTC của Bộ Tài chính: Ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh",
+      "code": "68/2025/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-5e297320f06a",
+      "name": "Nghị định số 168/2025/NĐ-CP ngày 30 tháng 6 năm 2025 của Chính phủ về đăng ký doanh nghiệp",
+      "code": "168/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-a5cd7b50c21c",
+      "name": "Luật Doanh nghiệp",
+      "code": "59/2020/QH14"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c72-75fa-a590-42e0286e1d3c",
+      "name": "Cơ quan đăng ký kinh doanh thông báo bằng văn bản nội dung cần sửa đổi, bổ sung",
+      "code": "KQ.G12.001017"
+    },
+    {
+      "id": "019d2bb2-1c72-75fa-a590-bf7f5f930b53",
+      "name": "thông báo bằng văn bản và nêu rõ lý do từ chối.",
+      "code": "KQ.G12.001055"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2d40-2f92-7340-a588-135b375b4348",
+      "name": "Dừng thực hiện thủ tục đăng ký hộ kinh doanh",
+      "code": "1.014035.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb11f-eafb-7276-86dd-1df9a236de38",
+      "name": "Dừng thực hiện thủ tục đăng ký hộ kinh doanh",
+      "code": "1.014035.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559480426,
+  "updatedAt": 1785469518486,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "e) Cơ quan giải quyết thủ tục hành chính:\nTrường hợp đơn vị hành chính cấp xã thành lập phòng chuyên môn thì cơ quan đăng ký kinh doanh giải quyết thủ tục đăng ký hộ kinh doanh là phòng chuyên môn thuộc Ủy ban nhân dân cấp xã có chức năng, nhiệm vụ đăng ký hộ kinh doanh theo quyết định của Ủy ban nhân dân cấp tỉnh, thành phố trực thuộc trung ương;\nTrường hợp đơn vị hành chính cấp xã không thành lập phòng chuyên môn thì cơ quan đăng ký kinh doanh giải quyết thủ tục đăng ký hộ kinh doanh là Ủy ban nhân dân cấp xã;\nCơ quan đăng ký kinh doanh giải quyết thủ tục đăng ký hộ kinh doanh nêu trên (sau đây gọi là Cơ quan đăng ký kinh doanh cấp xã).",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "k) Yêu cầu, điều kiện thực hiện thủ tục hành chính: \n- Hộ kinh doanh có thể dừng thực hiện thủ tục đăng ký hộ kinh doanh khi hồ sơ đăng ký hộ kinh doanh chưa được chấp thuận trên Hệ thống thông tin về đăng ký hộ kinh doanh.\n- Có hồ sơ đăng ký hộ kinh doanh hợp lệ.\n* Hồ sơ đăng ký hộ kinh doanh qua mạng thông tin điện tử phải bảo đảm các yêu cầu sau:\n- Có đầy đủ các giấy tờ và nội dung các giấy tờ đó được kê khai đầy đủ theo quy định như hồ sơ bằng bản giấy và được thể hiện dưới dạng văn bản điện tử hoặc dữ liệu điện tử có đầy đủ thông tin theo quy định như hồ sơ đăng ký bằng bản giấy. Tên văn bản điện tử phải được đặt tương ứng với tên loại giấy tờ trong hồ sơ đăng ký hộ kinh doanh bằng bản giấy; \n- Các thông tin đăng ký hộ kinh doanh được kê khai trên Hệ thống thông tin về đăng ký hộ kinh doanh phải được nhập đầy đủ và chính xác theo các thông tin trong hồ sơ đăng ký hộ kinh doanh; \n- Có thông tin về số điện thoại, thư điện tử của người nộp hồ sơ được kê khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp;\n- Trường hợp ủy quyền thực hiện thủ tục đăng ký hộ kinh doanh, hồ sơ đăng ký hộ kinh doanh qua mạng thông tin điện tử phải kèm theo các giấy tờ, tài liệu quy định tại Điều 93 Nghị định số 168/2025/NĐ-CP được thể hiện dưới dạng văn bản điện tử hoặc dữ liệu điện tử theo quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa319-3033-719f-95ba-03b0be48753d",
+    "proposalNumber": "1995/QĐ-BTC",
+    "decisionDate": 1784826000000,
+    "decisionNumber": null,
+    "publicationDate": 1785383077787,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

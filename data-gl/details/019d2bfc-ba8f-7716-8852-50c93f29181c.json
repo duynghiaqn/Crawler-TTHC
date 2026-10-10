@@ -1,0 +1,314 @@
+{
+  "id": "019d2bfc-ba8f-7716-8852-50c93f29181c",
+  "code": "1.011021",
+  "codeNotation": "1.011021",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "+ Bước 1. \nTổ chức khai thuế thay, nộp thuế thay cho cá nhân cho thuê bất động sản, trừ hoạt động kinh doanh lưu trú kê khai Tờ khai theo Mẫu số 01/TCKT ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 và Phụ lục Bảng kê chi tiết cá nhân cho thuê bất động sản theo Mẫu số 02/BK-KTBĐS ban hành kèm theo Thông tư số 50/2026/TT-BTC sửa đổi, bổ sung Thông tư số 18/2026/TT-BTC và gửi hồ sơ khai thuế cho cơ quan thuế nơi có BĐS cho thuê."
+    },
+    {
+      "name": "",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận hồ sơ của người nộp thuế theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "Trực tuyến: qua Cổng Dịch vụ công quốc gia/Hệ thống thông tin quản lý thuế/Hệ thống thông tin của tổ chức cung cấp dịch T-VAN",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "Thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "Trực tiếp: Tại Trung tâm Phục vụ hành chính công cấp tỉnh, xã",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "name": "Khai thuế đối với tổ chức khai thuế thay, nộp thuế thay cho cá nhân có bất động sản cho thuê",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30f-0b7ed648ecfa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế của tổ chức khai thay (Áp dụng đối với tổ chức khai thuế thay, nộp thuế thay cá nhân hợp tác kinh doanh với tổ chức; tổ chức khai thuế thay, nộp thuế thay cho cá nhân cho thuê bất động sản) theo mẫu số 01/TCKT Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026",
+          "code": "G12.0001192",
+          "attachments": [
+            {
+              "id": "019facb0-a217-75cd-acfe-247de6d26f05",
+              "fileName": "01 TCKT TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facb0-a217-75cd-acfe-247de6d26f05/01 TCKT TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2e-7df6e1aca7d4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phụ lục Bảng kê chi tiết cá nhân cho thuê bất động sản theo Mẫu số 02/BK-KTBĐS ban hành kèm theo Thông tư số 50/2026/TT-BTC sửa đổi, bổ sung Thông tư số 18/2026/TT-BTC",
+          "code": "G12.0001193",
+          "attachments": [
+            {
+              "id": "019facb0-e1cc-705a-8897-c3e836ee337b",
+              "fileName": "02 BK KTBĐS.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facb0-e1cc-705a-8897-c3e836ee337b/02 BK KTBĐS.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb20e-0374-7747-a147-a06241164796",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì mẫu 01/TCKT thực hiện theo mẫu biểu ban hành kèm theo Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0011195",
+          "attachments": [
+            {
+              "id": "019fb20e-be3f-716a-89ac-7ad93bfe9274",
+              "fileName": "01 TCKT TT 18.2026.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb20e-be3f-716a-89ac-7ad93bfe9274/01 TCKT TT 18.2026.docx"
+            },
+            {
+              "id": "019fb20f-0a78-7578-8d01-786a93673029",
+              "fileName": "02 BK KTBĐS TT 50.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb20f-0a78-7578-8d01-786a93673029/02 BK KTBĐS TT 50.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "Khai thuế, nộp thuế, cá nhân có bất động sản",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e39-0aa7-757f-bfbb-291601c2e514",
+    "019e5e39-aa14-746c-80cd-afe06a8d307a",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019e729c-8330-71b8-b045-b7f2443f308a",
+    "019e72a9-0c2b-749c-8856-31e73c463ba4",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421",
+    "019fa376-69da-7783-9853-6afa7cd86621",
+    "019fa377-0d10-73ea-b3b0-ee84180af5fe"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96e1-59c6a510ec9f"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e005b-c45a-7351-bdf2-f495ce849003"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e005b-c45a-7351-bdf2-f495ce849003",
+      "name": "Thuế cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019fa376-69da-7783-9853-6afa7cd86621",
+      "name": "Luật Thuế thu nhập cá nhân 109/2025/QH15 ngày 10/12/2025 và các văn bản pháp luật quy định chi tiết, hướng dẫn thi hành và sửa đổi, bổ sung có liên quan",
+      "code": "109/2025/QH15 "
+    },
+    {
+      "id": "019e5e39-0aa7-757f-bfbb-291601c2e514",
+      "name": "Nghị định số 68/2026/NĐ-CP ngày 05/3/2026 quy định về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "68/2026/NĐ-CP"
+    },
+    {
+      "id": "019e5e39-aa14-746c-80cd-afe06a8d307a",
+      "name": "Thông tư số 18/2026/TT-BTC ngày 05/3/2026 quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "18/2026/TT-BTC "
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019fa377-0d10-73ea-b3b0-ee84180af5fe",
+      "name": "Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập cá nhân",
+      "code": "253/2026/NĐ-CP "
+    },
+    {
+      "id": "019e729c-8330-71b8-b045-b7f2443f308a",
+      "name": "Thông tư số 50/2026/TT-BTC của Bộ Tài chính: Sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC ngày 05 tháng 3 năm 2026 của Bộ trưởng Bộ Tài chính quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "50/2026/TT-BTC"
+    },
+    {
+      "id": "019e72a9-0c2b-749c-8856-31e73c463ba4",
+      "name": "Nghị định số 141/2026/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP quy định về chính sách thuế đối với hộ kinh doanh, cá nhân kinh doanh và Nghị định số 320/2025/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp",
+      "code": "141/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96e1-59c6a510ec9f",
+      "name": "Hồ sơ gửi đến cơ quan thuế không có kết quả giải quyết.",
+      "code": "KQ.G12.000429"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019fb215-d7b6-730b-b236-23b6ca1cff34",
+      "name": "Khai thuế đối với tổ chức, cá nhân khai thay cho cá nhân có tài sản cho thuê",
+      "code": "1.011021.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d8c-8e01-7758-a118-15643519c601",
+      "name": "Khai thuế đối với tổ chức, cá nhân khai thay cho cá nhân có tài sản cho thuê",
+      "code": "1.011021.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559476367,
+  "updatedAt": 1785399200184,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế cơ sở",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

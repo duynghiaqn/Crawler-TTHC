@@ -8,7 +8,10 @@
     "crawl-and-publish:win": "scripts\\crawl_and_publish.bat",
     "compare": "node scripts/compare.js",
     "compare:province": "node scripts/compare_Province.js",
+    "compare:gl": "node scripts/compare_Province.js",
+    "crawl:gl": "node tthc_crawler_gl.js",
     "export:excel": "node scripts/export_excel.js",
+    "export:excel:gl": "node scripts/export_excel.js",
     "build-data": "node pipeline/index.js",
     "test:regression": "node tests/regression.js"
   },

@@ -3,44 +3,60 @@ const path = require('path');
 const axios = require('axios');
 require('dotenv').config();
 
+const {
+    isEligibleGiaLai,
+    getLevelLabel
+} = require('./filter_gia_lai');
+
 const DATA_DIR = path.join(process.cwd(), 'data');
-const DETAILS_DIR = path.join(DATA_DIR, 'details');
-const INDEX_FILE = path.join(DATA_DIR, 'index.json');
-const DISCOVERY_FILE = path.join(DATA_DIR, 'discovery.json');
+const DATA_GL_DIR = path.join(process.cwd(), 'data-gl');
+
+const DETAILS_DIR = fs.existsSync(path.join(DATA_GL_DIR, 'details')) 
+    ? path.join(DATA_GL_DIR, 'details') 
+    : path.join(DATA_DIR, 'details');
 
 const SNAPSHOT_FILE = path.join(DATA_DIR, 'snapshot_province.json');
 const REPORT_FILE = path.join(DATA_DIR, 'compare_province_report.json');
 
-// Kiểm tra điều kiện giữ lại TTHC Cấp Tỉnh / Cấp Xã (Loại trừ TTHC đặc thù của tỉnh thành khác)
+const SNAPSHOT_GL_FILE = path.join(DATA_GL_DIR, 'snapshot.json');
+const REPORT_GL_FILE = path.join(DATA_GL_DIR, 'compare_report.json');
+
 function shouldIncludeItem(detail) {
-    const isProvince = Boolean(detail.isProvince || detail.type === 'PROVINCE');
-    const isWard = Boolean(detail.isWard || detail.type === 'WARD');
-
-    if (!isProvince && !isWard) return false;
-
-    const deptCode = detail.departmentPromulgateCode || detail.departmentCode || detail.departmentPromulgateId || '';
-    const deptName = detail.departmentPromulgateName || detail.departmentPromulgate || detail.executingAgencies || detail.departmentsExecuting || '';
-    const isGiaLai = deptCode === 'H21' || String(deptName).toLowerCase().includes('gia lai');
-
-    const type = detail.type || detail.formalityType || '';
-    const isSpecificOther = (type === 'SPECIFIC' || type === 'LOCAL_REGULATION') && !isGiaLai;
-
-    if (isSpecificOther) return false;
-
-    return true;
-}
-
-function getLevelLabel(item) {
-    if (item.isProvince && item.isWard) return 'Cấp tỉnh & Cấp xã (Cả 2 cấp)';
-    if (item.isProvince) return 'Cấp tỉnh';
-    if (item.isWard) return 'Cấp xã';
-    return 'Chưa xác định';
+    return isEligibleGiaLai(detail);
 }
 
 function loadUniqueProvinceWardDataset() {
     const codeMap = new Map();
 
-    if (fs.existsSync(DETAILS_DIR)) {
+    // 1. Ưu tiên đọc từ data-gl/index.json nếu có sẵn
+    const glIndexFile = path.join(DATA_GL_DIR, 'index.json');
+    if (fs.existsSync(glIndexFile)) {
+        try {
+            const raw = JSON.parse(fs.readFileSync(glIndexFile, 'utf8'));
+            if (Array.isArray(raw) && raw.length > 0) {
+                raw.forEach(item => {
+                    const code = String(item.ma_tthc || item.code || item.id).trim();
+                    if (!code) return;
+                    codeMap.set(code, {
+                        id: item.id || code,
+                        code,
+                        name: item.ten_tthc || item.name || '',
+                        category: item.linh_vuc || (Array.isArray(item.categories) ? item.categories.join(', ') : item.category) || '',
+                        agency: item.co_quan_thuc_hien || item.executingAgencies || '',
+                        isProvince: Boolean(item.isProvince || (item.cap_thuc_hien && item.cap_thuc_hien.includes('tỉnh'))),
+                        isWard: Boolean(item.isWard || (item.cap_thuc_hien && item.cap_thuc_hien.includes('xã'))),
+                        formalityType: item.loai_tthc || item.formalityType || 'STANDARD',
+                        executingAgencies: item.co_quan_thuc_hien || item.executingAgencies || '',
+                        departmentPromulgate: item.co_quan_ban_hanh || item.departmentPromulgate || '',
+                        url: item.url || `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
+                    });
+                });
+            }
+        } catch (e) {}
+    }
+
+    // 2. Nếu chưa có data-gl/index.json, đọc từ DETAILS_DIR áp dụng shouldIncludeItem
+    if (codeMap.size === 0 && fs.existsSync(DETAILS_DIR)) {
         try {
             const files = fs.readdirSync(DETAILS_DIR).filter(f => f.endsWith('.json'));
             for (const file of files) {
@@ -313,7 +329,13 @@ async function compareProvinceWard() {
     console.log(`💾 Đã lưu chi tiết danh sách thêm mới/bãi bỏ vào: data/compare_province_report.json`);
 
     fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(currentItems, null, 2));
-    console.log(`📸 Đã cập nhật Snapshot mới nhất cho kỳ so sánh tiếp theo.`);
+    console.log(`📸 Đã cập nhật Snapshot mới nhất cho kỳ so sánh tiếp theo: data/snapshot_province.json`);
+
+    if (fs.existsSync(DATA_GL_DIR)) {
+        fs.writeFileSync(REPORT_GL_FILE, JSON.stringify(report, null, 2));
+        fs.writeFileSync(SNAPSHOT_GL_FILE, JSON.stringify(currentItems, null, 2));
+        console.log(`💾 Đã đồng bộ Báo cáo & Snapshot vào thư mục data-gl/ (snapshot.json, compare_report.json)`);
+    }
 
     // Tự động xuất file Excel Master Data & Biến động TTHC Gia Lai
     try {

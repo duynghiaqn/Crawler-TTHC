@@ -14,22 +14,25 @@ jobs:
     
     steps:
       - name: Bước 1 - Kéo mã nguồn về máy ảo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Bước 2 - Cài đặt môi trường Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
 
       - name: Bước 3 - Cài đặt thư viện
-        run: npm install axios dotenv
+        run: npm install axios dotenv xlsx
 
-      - name: Bước 4 - Chạy cỗ máy cào dữ liệu
+      - name: Bước 4 - Chạy cỗ máy cào dữ liệu toàn quốc
         run: node tthc_crawler.js
         env:
           GITHUB_ACTIONS: true # Kích hoạt cờ tự động quét 100% trong code JS
 
-      - name: Bước 4.1 - Phân tích & Cảnh báo biến động TTHC (Compare Engine)
+      - name: Bước 4.1 - Thu thập & lọc dữ liệu TTHC Gia Lai (data-gl)
+        run: node tthc_crawler_gl.js
+
+      - name: Bước 4.2 - Phân tích & Cảnh báo biến động TTHC (Compare Engine)
         run: |
           node scripts/compare.js
           node scripts/compare_Province.js
@@ -38,7 +41,7 @@ jobs:
           GAS_SECRET_KEY: ${{ secrets.GAS_SECRET_KEY }}
 
       - name: Bước 5 - Đẩy dữ liệu ra CDN (ÉP ĐỀ KHÔNG LƯU LỊCH SỬ)
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./data

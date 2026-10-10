@@ -16,19 +16,22 @@ trap_error() {
 trap trap_error ERR
 
 # 1. Chạy cỗ máy cào dữ liệu
-echo "[1/4] ⏳ Đang chạy cỗ máy cào dữ liệu..."
+echo "[1/5] ⏳ Đang chạy cỗ máy cào dữ liệu toàn quốc..."
 node tthc_crawler.js
 
+echo "[2/5] 🏛️ Đang thu thập và lọc dữ liệu TTHC Gia Lai (data-gl)..."
+node tthc_crawler_gl.js || true
+
 # 2. Phân tích so sánh biến động dữ liệu TTHC (tăng/giảm/bãi bỏ)
-echo "[2/4] 📊 Đang phân tích so sánh biến động dữ liệu TTHC..."
+echo "[3/5] 📊 Đang phân tích so sánh biến động dữ liệu TTHC..."
 node scripts/compare.js || true
 
-echo "[3/4] 📊 Đang phân tích so sánh dữ liệu cấp Tỉnh và xuất file Excel..."
+echo "[4/5] 📊 Đang phân tích so sánh dữ liệu cấp Tỉnh và xuất file Excel..."
 node scripts/compare_Province.js || true
 node scripts/export_excel.js || true
 
 # 3. Xuất bản dữ liệu & Gửi thông báo Telegram theo cấu hình .env
-echo "[4/4] 📦 Đang xuất bản dữ liệu và gửi thông báo Telegram..."
+echo "[5/5] 📦 Đang xuất bản dữ liệu và gửi thông báo Telegram..."
 node scripts/publish.js
 
 echo "=================================================="

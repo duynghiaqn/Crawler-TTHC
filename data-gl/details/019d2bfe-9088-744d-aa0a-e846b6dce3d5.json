@@ -1,0 +1,696 @@
+{
+  "id": "019d2bfe-9088-744d-aa0a-e846b6dce3d5",
+  "code": "1.013225",
+  "codeNotation": "1.013225",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Chủ đầu tư nộp hồ sơ đề nghị cấp giấy phép xây dựng mới, có thời hạn công trình cấp III, cấp IV, công trình nhà ở riêng lẻ của hộ gia đình, cá nhân nộp hồ sơ trực tuyến tại Cổng Dịch vụ công quốc gia; trường hợp do sự cố khách quan, đột xuất không thể thực hiện trên môi trường điện tử, cơ quan có thẩm quyền cấp giấy phép xây dựng được thực hiện theo hình thức trực tiếp tại Bộ phận Một cửa hoặc thông qua dịch vụ bưu chính công ích. \n- Trong thời hạn 05 ngày làm việc đối với các công trình cấp III, cấp IV hoặc  03 ngày đối với công trình nhà ở riêng lẻ của hộ gia đình, cá nhân kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền cấp giấy phép xây dựng phải tổ chức thẩm định hồ sơ, kiểm tra thực địa (nếu cần thiết), thông báo 1 lần bằng thư điện tử hoặc tin nhắn cho tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ nếu tài liệu còn thiếu, tài liệu không đúng theo quy định hoặc không đúng thực tế. \n- Trong thời gian 02 ngày làm việc kể từ ngày nhận được hồ sơ các cơ quan quản lý nhà nước được hỏi ý kiến có trách nhiệm trả lời về những nội dung thuộc chức năng quản lý của mình. Sau thời hạn trên, nếu các cơ quan này không có ý kiến thì được coi là đã đồng ý và phải chịu trách nhiệm về những nội dung thuộc chức năng quản lý của mình; cơ quan cấp giấy phép xây dựng căn cứ các quy định hiện hành để quyết định việc cấp giấy phép xây dựng.\n- Trong thời gian 02 ngày làm việc kể từ ngày nhận được thông báo (nếu có), tổ chức, cá nhân đề nghị cấp giấy phép giấy phép xây dựng có trách nhiệm bổ sung, hoàn thiện hồ sơ theo nội dung thông báo. Trường hợp việc bổ sung hồ sơ không đáp ứng được các nội dung theo thông báo thì trong thời hạn 01 ngày làm việc, cơ quan có thẩm quyền có trách nhiệm thông báo đến chủ đầu tư về lý do không cấp giấy phép. Tổ chức, cá nhân đề nghị cấp giấy phép thực hiện lại quy trình đề nghị cấp giấy phép xây dựng.\nTrong thời hạn 07 ngày làm việc đối với công trình nhà ở riêng lẻ của hộ gia đình, cá nhân và 10 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền có trách nhiệm xem xét cấp giấy phép xây dựng công trình cấp III, cấp IV, công trình nhà ở riêng lẻ của hộ gia đình, cá nhân."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc đối với nhà ở riêng lẻ của hộ gia đình, cá nhân kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc đối với nhà ở riêng lẻ của hộ gia đình, cá nhân kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc đối với nhà ở riêng lẻ của hộ gia đình, cá nhân kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Cấp giấy phép xây dựng mới, có thời hạn đối với công trình cấp III, cấp IV và công trình nhà ở riêng lẻ của hộ gia đình, cá nhân   (công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo /Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(1.1) Đối với công trình theo tuyến hoặc không theo tuyến:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f7060-7b2a-752a-8b74-c2a55b3e2e53",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp giấy phép xây dựng theo Mẫu số 01 Phụ lục số II Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ",
+          "code": "TP-G17.000347",
+          "attachments": [
+            {
+              "id": "019fdeff-3eeb-725e-9d30-ee18eea5ac59",
+              "fileName": "Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fdeff-3eeb-725e-9d30-ee18eea5ac59/Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f7060-dc43-7780-9e2a-71081f278089",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Một trong những giấy tờ hợp pháp về đất đai chứng minh sự phù hợp mục đích sử dụng đất và sở hữu công trình để cấp phép xây dựng theo quy định tại Điều 55 của Nghị định số 217/2026/NĐ-CP, bao gồm:  + Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất.  + Giấy chứng nhận quyền sử dụng đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ. Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở; giấy chứng nhận quyền sở hữu công trình xây dựng đã được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở, pháp luật về xây dựng qua các thời kỳ.  + Các loại giấy tờ đủ điều kiện để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất gồm: Các loại giấy tờ quy định tại Điều 137 Luật Đất đai năm 2024; các loại giấy tờ đủ điều kiện khác để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai. + Giấy tờ về đất đai đối với trường hợp được Nhà nước giao đất, cho thuê đất, chuyển mục đích sử dụng đất từ sau ngày 01 tháng 7 năm 2004 nhưng không có giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định của pháp luật về đất đai, gồm một trong các loại giấy tờ: Quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất của cơ quan có thẩm quyền hoặc hợp đồng thuê đất kèm theo (nếu có) hoặc giấy tờ về trúng đấu giá quyền sử dụng đất, đấu thầu dự án có sử dụng đất. + Báo cáo hiện trạng sử dụng đất đối với trường hợp tổ chức tôn giáo, tổ chức tôn giáo trực thuộc đang sử dụng mà chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất được Ủy ban nhân dân cấp tỉnh nơi có đất kiểm tra thực tế sử dụng và xử lý theo quy định tại Điều 142, Điều 145 Luật Đất đai năm 2024. + Giấy tờ về việc xếp hạng di tích lịch sử - văn hóa, danh lam thắng cảnh hoặc danh mục kiểm kê di tích theo quy định của pháp luật về di sản văn hoá đối với trường hợp cấp giấy phép xây dựng để thực hiện bảo quản, tu bổ, phục hồi di tích lịch sử - văn hóa, danh lam thắng cảnh nhưng chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định. + Văn bản chấp thuận về địa điểm xây dựng của Ủy ban nhân dân cấp huyện (trước đây) hoặc Ủy ban nhân dân cấp xã đối với công trình xây dựng biển quảng cáo, trạm viễn thông, cột ăng-ten, cột điện, cáp điện, trạm biến áp phân phối và các công trình tương tự khác theo quy định của pháp luật có liên quan tại khu vực không thuộc nhóm đất có mục đích sử dụng để xây dựng đối với loại công trình này và không được chuyển đổi mục đích sử dụng đất. + Giấy tờ hợp pháp về đất đai của chủ rừng và hợp đồng cho thuê môi trường rừng giữa chủ rừng và tổ chức, cá nhân thực hiện dự án du lịch sinh thái, nghỉ dưỡng, giải trí theo quy định của pháp luật về lâm nghiệp. + Giấy chứng nhận quyền sử dụng đất hoặc quyết định giao đất hoặc quyết định cho thuê đất của cơ quan có thẩm quyền có mục đích sử dụng đất chính kèm theo phương án sử dụng đa mục đích được cơ quan có thẩm quyền phê duyệt đối với trường hợp xây dựng công trình trên đất được sử dụng kết hợp đa mục đích theo quy định tại Điều 218 Luật Đất đai năm 2024.  + Hợp đồng thuê đất giữa chủ đầu tư xây dựng công trình và người quản lý, sử dụng công trình giao thông hoặc văn bản chấp thuận của cơ quan quản lý nhà nước có thẩm quyền về giao thông đối với công trình được phép xây dựng trong phạm vi đất dành cho giao thông theo quy định của pháp luật. + Văn bản của cơ quan có thẩm quyền đã cấp giấy chứng nhận quyền sử dụng đất xác định diện tích các loại đất đối với trường hợp người sử dụng đất có một trong các loại giấy tờ hợp pháp về đất đai theo quy định tại các khoản 1, 2, 3, 4 và 5 Điều 55 Nghị định số 217/2026/NĐ-CP nhưng trên các giấy tờ đó không ghi rõ diện tích các loại đất để làm cơ sở cấp giấy phép xây dựng. + Trường hợp chủ đầu tư thuê đất hoặc thuê công trình, bộ phận công trình của chủ sử dụng đất, chủ sở hữu công trình để đầu tư xây dựng thì ngoài một trong các giấy tờ nêu trên, người đề nghị cấp giấy phép xây dựng bổ sung hợp đồng; thoả thuận hợp pháp về việc thuê đất hoặc thuê công trình, bộ phận công trình tương ứng. + Ủy ban nhân dân cấp tỉnh hoặc phân cấp, ủy quyền cho Ủy ban nhân dân cấp xã quy định về diện tích, vị trí, mục đích sử dụng và chấp thuận tổng mặt bằng của công trình xây dựng phục vụ trực tiếp sản xuất nông nghiệp trên đất trồng lúa.  + Các giấy tờ hợp pháp khác theo quy định pháp luật về đất đai.  + Hoặc văn bản chấp thuận của cơ quan có thẩm quyền về vị trí và phương án tuyến hoặc Quyết định thu hồi đất của cơ quan có thẩm quyền theo quy định của pháp luật về đất đai",
+          "code": "TP-G17.000348",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7061-283d-770b-93f3-f6c34daf61f0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt dự án; Báo cáo kết quả thẩm tra thiết kế xây dựng theo quy định tại Nghị định này (nếu có); kết quả thực hiện thủ tục hành chính theo quy định của pháp luật về phòng cháy, chữa cháy và cứu nạn, cứu hộ đối với hồ sơ thiết kế đề nghị cấp giấy phép xây dựng (nếu có yêu cầu); kết quả thực hiện thủ tục hành chính về bảo vệ môi trường theo quy định của pháp luật về bảo vệ môi trường (nếu có yêu cầu); văn bản ý kiến của cơ quan chuyên môn về văn hóa cấp tỉnh (nếu có yêu cầu).",
+          "code": "TP-G17.000349",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7061-7e53-7452-81c6-f0872222919a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bộ bản vẽ thiết kế xây dựng trong hồ sơ thiết kế xây dựng triển khai sau khi dự án được phê duyệt hoặc thiết kế bản vẽ thi công đối với dự án chỉ yêu cầu lập Báo cáo kinh tế - kỹ thuật được phê duyệt hoặc đóng dấu xác nhận theo quy định của pháp luật về xây dựng, gồm: bản vẽ tổng mặt bằng toàn dự án, mặt bằng định vị công trình trên lô đất, bản vẽ kiến trúc các mặt bằng, các mặt đứng và mặt cắt chủ yếu của công trình (đối với công trình không theo tuyến) hoặc sơ đồ vị trí tuyến công trình, bản vẽ mặt bằng tổng thể hoặc bản vẽ bình đồ công trình, bản vẽ các mặt cắt dọc và mặt cắt ngang chủ yếu của tuyến công trình (đối với công trình theo tuyến); bản vẽ mặt bằng, mặt cắt móng; các bản vẽ thể hiện giải pháp kết cấu chính của công trình; bản vẽ mặt bằng đấu nối với hệ thống hạ tầng kỹ thuật bên ngoài công trình, dự án.",
+          "code": "TP-G17.000350",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7061-d4f6-748a-9b2b-290ecfa454c4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ngoài các thành phần hồ sơ nêu trên, chủ đầu tư cần cung cấp dữ liệu BIM của công trình theo các định dạng gốc và định dạng chuẩn IFC 4.0 hoặc các định dạng mở khác phù hợp với đặc thù, tính chất của công trình bằng các thiết bị lưu trữ phổ biến theo quy định tại Điều 8 Nghị định số 217/2026/NĐ-CP",
+          "code": "TP-G17.000351",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(1.2) Đối với công trình tôn giáo và phụ trợ",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f7062-2cbe-738b-8af8-ff136e094066",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp giấy phép xây dựng theo Mẫu số 1 Phụ lục số II Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ.",
+          "code": "TP-G17.000352",
+          "attachments": [
+            {
+              "id": "019fdeff-7e8a-746c-928f-bf41006f35d8",
+              "fileName": "Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fdeff-7e8a-746c-928f-bf41006f35d8/Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f7062-9161-7248-b325-8c3c06791d19",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Một trong những giấy tờ hợp pháp về đất đai chứng minh sự phù hợp mục đích sử dụng đất và sở hữu công trình để cấp phép xây dựng theo quy định tại Điều 55 của Nghị định số 217/2026/NĐ-CP, bao gồm:  + Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất.  + Giấy chứng nhận quyền sử dụng đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ. Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở; giấy chứng nhận quyền sở hữu công trình xây dựng đã được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở, pháp luật về xây dựng qua các thời kỳ.  + Các loại giấy tờ đủ điều kiện để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất gồm: Các loại giấy tờ quy định tại Điều 137 Luật Đất đai năm 2024; các loại giấy tờ đủ điều kiện khác để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai. + Giấy tờ về đất đai đối với trường hợp được Nhà nước giao đất, cho thuê đất, chuyển mục đích sử dụng đất từ sau ngày 01 tháng 7 năm 2004 nhưng không có giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định của pháp luật về đất đai, gồm một trong các loại giấy tờ: Quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất của cơ quan có thẩm quyền hoặc hợp đồng thuê đất kèm theo (nếu có) hoặc giấy tờ về trúng đấu giá quyền sử dụng đất, đấu thầu dự án có sử dụng đất. + Báo cáo hiện trạng sử dụng đất đối với trường hợp tổ chức tôn giáo, tổ chức tôn giáo trực thuộc đang sử dụng mà chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất được Ủy ban nhân dân cấp tỉnh nơi có đất kiểm tra thực tế sử dụng và xử lý theo quy định tại Điều 142, Điều 145 Luật Đất đai năm 2024. + Giấy tờ về việc xếp hạng di tích lịch sử - văn hóa, danh lam thắng cảnh hoặc danh mục kiểm kê di tích theo quy định của pháp luật về di sản văn hoá đối với trường hợp cấp giấy phép xây dựng để thực hiện bảo quản, tu bổ, phục hồi di tích lịch sử - văn hóa, danh lam thắng cảnh nhưng chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định. + Văn bản chấp thuận về địa điểm xây dựng của Ủy ban nhân dân cấp huyện (trước đây) hoặc Ủy ban nhân dân cấp xã đối với công trình xây dựng biển quảng cáo, trạm viễn thông, cột ăng-ten, cột điện, cáp điện, trạm biến áp phân phối và các công trình tương tự khác theo quy định của pháp luật có liên quan tại khu vực không thuộc nhóm đất có mục đích sử dụng để xây dựng đối với loại công trình này và không được chuyển đổi mục đích sử dụng đất. + Giấy tờ hợp pháp về đất đai của chủ rừng và hợp đồng cho thuê môi trường rừng giữa chủ rừng và tổ chức, cá nhân thực hiện dự án du lịch sinh thái, nghỉ dưỡng, giải trí theo quy định của pháp luật về lâm nghiệp. + Giấy chứng nhận quyền sử dụng đất hoặc quyết định giao đất hoặc quyết định cho thuê đất của cơ quan có thẩm quyền có mục đích sử dụng đất chính kèm theo phương án sử dụng đa mục đích được cơ quan có thẩm quyền phê duyệt đối với trường hợp xây dựng công trình trên đất được sử dụng kết hợp đa mục đích theo quy định tại Điều 218 Luật Đất đai năm 2024.  + Hợp đồng thuê đất giữa chủ đầu tư xây dựng công trình và người quản lý, sử dụng công trình giao thông hoặc văn bản chấp thuận của cơ quan quản lý nhà nước có thẩm quyền về giao thông đối với công trình được phép xây dựng trong phạm vi đất dành cho giao thông theo quy định của pháp luật. + Văn bản của cơ quan có thẩm quyền đã cấp giấy chứng nhận quyền sử dụng đất xác định diện tích các loại đất đối với trường hợp người sử dụng đất có một trong các loại giấy tờ hợp pháp về đất đai theo quy định tại các khoản 1, 2, 3, 4 và 5 Điều 55 Nghị định số 217/2026/NĐ-CP nhưng trên các giấy tờ đó không ghi rõ diện tích các loại đất để làm cơ sở cấp giấy phép xây dựng. + Trường hợp chủ đầu tư thuê đất hoặc thuê công trình, bộ phận công trình của chủ sử dụng đất, chủ sở hữu công trình để đầu tư xây dựng thì ngoài một trong các giấy tờ nêu trên, người đề nghị cấp giấy phép xây dựng bổ sung hợp đồng; thoả thuận hợp pháp về việc thuê đất hoặc thuê công trình, bộ phận công trình tương ứng. + Ủy ban nhân dân cấp tỉnh hoặc phân cấp, ủy quyền cho Ủy ban nhân dân cấp xã quy định về diện tích, vị trí, mục đích sử dụng và chấp thuận tổng mặt bằng của công trình xây dựng phục vụ trực tiếp sản xuất nông nghiệp trên đất trồng lúa.  + Các giấy tờ hợp pháp khác theo quy định pháp luật về đất đai.  + Hoặc văn bản chấp thuận của cơ quan có thẩm quyền về vị trí và phương án tuyến hoặc Quyết định thu hồi đất của cơ quan có thẩm quyền theo quy định của pháp luật về đất đai.",
+          "code": "TP-G17.000353",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7062-e895-743f-9db4-b793f8901602",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt dự án; Báo cáo kết quả thẩm tra thiết kế xây dựng theo quy định tại Nghị định này (nếu có); kết quả thực hiện thủ tục hành chính theo quy định của pháp luật về phòng cháy, chữa cháy và cứu nạn, cứu hộ đối với hồ sơ thiết kế đề nghị cấp giấy phép xây dựng (nếu có yêu cầu); kết quả thực hiện thủ tục hành chính về bảo vệ môi trường theo quy định của pháp luật về bảo vệ môi trường (nếu có yêu cầu); văn bản ý kiến của cơ quan chuyên môn về văn hóa cấp tỉnh (nếu có yêu cầu).",
+          "code": "TP-G17.000354",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7063-3eaf-707f-bd26-5f10492d7f1d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản chấp thuận về sự cần thiết xây dựng và quy mô công trình của cơ quan chuyên môn về tín ngưỡng, tôn giáo thuộc Ủy ban nhân dân cấp tỉnh.",
+          "code": "TP-G17.000355",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7063-9855-7477-b9e7-eabb8c3519b7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bộ bản vẽ thiết kế xây dựng trong hồ sơ thiết kế xây dựng triển khai sau khi dự án được phê duyệt hoặc thiết kế bản vẽ thi công đối với dự án chỉ yêu cầu lập Báo cáo kinh tế - kỹ thuật được phê duyệt hoặc đóng dấu xác nhận theo quy định của pháp luật về xây dựng, gồm: bản vẽ tổng mặt bằng toàn dự án, mặt bằng định vị công trình trên lô đất, bản vẽ kiến trúc các mặt bằng, các mặt đứng và mặt cắt chủ yếu của công trình (đối với công trình không theo tuyến) hoặc sơ đồ vị trí tuyến công trình, bản vẽ mặt bằng tổng thể hoặc bản vẽ bình đồ công trình, bản vẽ các mặt cắt dọc và mặt cắt ngang chủ yếu của tuyến công trình (đối với công trình theo tuyến); bản vẽ mặt bằng, mặt cắt móng; các bản vẽ thể hiện giải pháp kết cấu chính của công trình; bản vẽ mặt bằng đấu nối với hệ thống hạ tầng kỹ thuật bên ngoài công trình, dự án.",
+          "code": "TP-G17.000356",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7063-f5e5-72ca-a45d-07bb70fbbea7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ngoài các thành phần hồ sơ nêu trên, chủ đầu tư cần cung cấp dữ liệu BIM của công trình theo các định dạng gốc và định dạng chuẩn IFC 4.0 hoặc các định dạng mở khác phù hợp với đặc thù, tính chất của công trình bằng các thiết bị lưu trữ phổ biến theo quy định tại Điều 8 Nghị định số 217/2026/NĐ-CP",
+          "code": "TP-G17.000357",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(1.3) Đối với công trình tín ngưỡng:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f7064-4de6-712d-909a-be1282d18d92",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp giấy phép xây dựng theo Mẫu số 1 Phụ lục số II Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ",
+          "code": "TP-G17.000358",
+          "attachments": [
+            {
+              "id": "019fdeff-acd2-779f-8e72-38ff2bb1d9f4",
+              "fileName": "Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fdeff-acd2-779f-8e72-38ff2bb1d9f4/Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f7065-05f6-704e-a42d-d17047562d14",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Một trong những giấy tờ hợp pháp về đất đai chứng minh sự phù hợp mục đích sử dụng đất và sở hữu công trình để cấp phép xây dựng theo quy định tại Điều 55 của Nghị định số 217/2026/NĐ-CP, bao gồm:  + Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất.  + Giấy chứng nhận quyền sử dụng đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ. Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở; giấy chứng nhận quyền sở hữu công trình xây dựng đã được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở, pháp luật về xây dựng qua các thời kỳ.  + Các loại giấy tờ đủ điều kiện để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất gồm: Các loại giấy tờ quy định tại Điều 137 Luật Đất đai năm 2024; các loại giấy tờ đủ điều kiện khác để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai. + Giấy tờ về đất đai đối với trường hợp được Nhà nước giao đất, cho thuê đất, chuyển mục đích sử dụng đất từ sau ngày 01 tháng 7 năm 2004 nhưng không có giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định của pháp luật về đất đai, gồm một trong các loại giấy tờ: Quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất của cơ quan có thẩm quyền hoặc hợp đồng thuê đất kèm theo (nếu có) hoặc giấy tờ về trúng đấu giá quyền sử dụng đất, đấu thầu dự án có sử dụng đất. + Báo cáo hiện trạng sử dụng đất đối với trường hợp tổ chức tôn giáo, tổ chức tôn giáo trực thuộc đang sử dụng mà chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất được Ủy ban nhân dân cấp tỉnh nơi có đất kiểm tra thực tế sử dụng và xử lý theo quy định tại Điều 142, Điều 145 Luật Đất đai năm 2024. + Giấy tờ về việc xếp hạng di tích lịch sử - văn hóa, danh lam thắng cảnh hoặc danh mục kiểm kê di tích theo quy định của pháp luật về di sản văn hoá đối với trường hợp cấp giấy phép xây dựng để thực hiện bảo quản, tu bổ, phục hồi di tích lịch sử - văn hóa, danh lam thắng cảnh nhưng chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định. + Văn bản chấp thuận về địa điểm xây dựng của Ủy ban nhân dân cấp huyện (trước đây) hoặc Ủy ban nhân dân cấp xã đối với công trình xây dựng biển quảng cáo, trạm viễn thông, cột ăng-ten, cột điện, cáp điện, trạm biến áp phân phối và các công trình tương tự khác theo quy định của pháp luật có liên quan tại khu vực không thuộc nhóm đất có mục đích sử dụng để xây dựng đối với loại công trình này và không được chuyển đổi mục đích sử dụng đất. + Giấy tờ hợp pháp về đất đai của chủ rừng và hợp đồng cho thuê môi trường rừng giữa chủ rừng và tổ chức, cá nhân thực hiện dự án du lịch sinh thái, nghỉ dưỡng, giải trí theo quy định của pháp luật về lâm nghiệp. + Giấy chứng nhận quyền sử dụng đất hoặc quyết định giao đất hoặc quyết định cho thuê đất của cơ quan có thẩm quyền có mục đích sử dụng đất chính kèm theo phương án sử dụng đa mục đích được cơ quan có thẩm quyền phê duyệt đối với trường hợp xây dựng công trình trên đất được sử dụng kết hợp đa mục đích theo quy định tại Điều 218 Luật Đất đai năm 2024.  + Hợp đồng thuê đất giữa chủ đầu tư xây dựng công trình và người quản lý, sử dụng công trình giao thông hoặc văn bản chấp thuận của cơ quan quản lý nhà nước có thẩm quyền về giao thông đối với công trình được phép xây dựng trong phạm vi đất dành cho giao thông theo quy định của pháp luật. + Văn bản của cơ quan có thẩm quyền đã cấp giấy chứng nhận quyền sử dụng đất xác định diện tích các loại đất đối với trường hợp người sử dụng đất có một trong các loại giấy tờ hợp pháp về đất đai theo quy định tại các khoản 1, 2, 3, 4 và 5 Điều 55 Nghị định số 217/2026/NĐ-CP nhưng trên các giấy tờ đó không ghi rõ diện tích các loại đất để làm cơ sở cấp giấy phép xây dựng. + Trường hợp chủ đầu tư thuê đất hoặc thuê công trình, bộ phận công trình của chủ sử dụng đất, chủ sở hữu công trình để đầu tư xây dựng thì ngoài một trong các giấy tờ nêu trên, người đề nghị cấp giấy phép xây dựng bổ sung hợp đồng; thoả thuận hợp pháp về việc thuê đất hoặc thuê công trình, bộ phận công trình tương ứng. + Ủy ban nhân dân cấp tỉnh hoặc phân cấp, ủy quyền cho Ủy ban nhân dân cấp xã quy định về diện tích, vị trí, mục đích sử dụng và chấp thuận tổng mặt bằng của công trình xây dựng phục vụ trực tiếp sản xuất nông nghiệp trên đất trồng lúa.  + Các giấy tờ hợp pháp khác theo quy định pháp luật về đất đai.",
+          "code": "TP-G17.000359",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7065-ac08-700d-bea5-54b4974bef46",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản ý kiến của cơ quan chuyên môn về văn hóa cấp tỉnh (trường hợp pháp luật về di sản văn hóa có yêu cầu). + Văn bản chấp thuận về sự cần thiết xây dựng và quy mô công trình của cơ quan chuyên môn về tín ngưỡng, tôn giáo thuộc Ủy ban nhân dân cấp tỉnh; Báo cáo kết quả thẩm tra thiết kế xây dựng đối với các công trình tín ngưỡng ảnh hưởng lớn đến an toàn, lợi ích cộng đồng.",
+          "code": "TP-G17.000360",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7066-4328-7189-afec-6d711db3fa31",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ngoài các thành phần hồ sơ nêu trên, chủ đầu tư cần cung cấp dữ liệu BIM của công trình theo các định dạng gốc và định dạng chuẩn IFC 4.0 hoặc các định dạng mở khác phù hợp với đặc thù, tính chất của công trình bằng các thiết bị lưu trữ phổ biến theo quy định tại Điều 8 Nghị định số 217/2026/NĐ-CP.",
+          "code": "TP-G17.000362",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7065-f2d2-76e3-8326-b152447593e5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bộ bản vẽ thiết kế xây dựng kèm theo; kết quả thực hiện thủ tục hành chính theo quy định của pháp luật về phòng cháy, chữa cháy và cứu nạn, cứu hộ (nếu có yêu cầu); Báo cáo kết quả thẩm tra thiết kế xây dựng trong trường hợp pháp luật về xây dựng có yêu cầu, gồm: bản vẽ mặt bằng công trình trên lô đất kèm theo sơ đồ vị trí công trình; bản vẽ mặt bằng các tầng, các mặt đứng và mặt cắt chính của công trình; bản vẽ mặt bằng móng và mặt cắt móng kèm theo sơ đồ đấu nối hệ thống hạ tầng kỹ thuật bên ngoài công trình gồm cấp nước, thoát nước, cấp điện; bản cam kết bảo đảm an toàn đối với công trình liền kề.",
+          "code": "TP-G17.000361",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(1.4) Đối với công trình tượng đài, tranh hoành tráng",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f7066-a219-7088-9789-aee076781e3e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp giấy phép xây dựng theo Mẫu số 1 Phụ lục số II Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ.",
+          "code": "TP-G17.000363",
+          "attachments": [
+            {
+              "id": "019fdeff-e934-70ee-b025-604da2d07619",
+              "fileName": "Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fdeff-e934-70ee-b025-604da2d07619/Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f7066-fffc-727d-b307-80ff0b533106",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Một trong những giấy tờ hợp pháp về đất đai chứng minh sự phù hợp mục đích sử dụng đất và sở hữu công trình để cấp phép xây dựng theo quy định tại Điều 55 của Nghị định số 217/2026/NĐ-CP, bao gồm:  + Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất.  + Giấy chứng nhận quyền sử dụng đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ. Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở; giấy chứng nhận quyền sở hữu công trình xây dựng đã được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở, pháp luật về xây dựng qua các thời kỳ.  + Các loại giấy tờ đủ điều kiện để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất gồm: Các loại giấy tờ quy định tại Điều 137 Luật Đất đai năm 2024; các loại giấy tờ đủ điều kiện khác để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai. + Giấy tờ về đất đai đối với trường hợp được Nhà nước giao đất, cho thuê đất, chuyển mục đích sử dụng đất từ sau ngày 01 tháng 7 năm 2004 nhưng không có giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định của pháp luật về đất đai, gồm một trong các loại giấy tờ: Quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất của cơ quan có thẩm quyền hoặc hợp đồng thuê đất kèm theo (nếu có) hoặc giấy tờ về trúng đấu giá quyền sử dụng đất, đấu thầu dự án có sử dụng đất. + Báo cáo hiện trạng sử dụng đất đối với trường hợp tổ chức tôn giáo, tổ chức tôn giáo trực thuộc đang sử dụng mà chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất được Ủy ban nhân dân cấp tỉnh nơi có đất kiểm tra thực tế sử dụng và xử lý theo quy định tại Điều 142, Điều 145 Luật Đất đai năm 2024. + Giấy tờ về việc xếp hạng di tích lịch sử - văn hóa, danh lam thắng cảnh hoặc danh mục kiểm kê di tích theo quy định của pháp luật về di sản văn hoá đối với trường hợp cấp giấy phép xây dựng để thực hiện bảo quản, tu bổ, phục hồi di tích lịch sử - văn hóa, danh lam thắng cảnh nhưng chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định. + Văn bản chấp thuận về địa điểm xây dựng của Ủy ban nhân dân cấp huyện (trước đây) hoặc Ủy ban nhân dân cấp xã đối với công trình xây dựng biển quảng cáo, trạm viễn thông, cột ăng-ten, cột điện, cáp điện, trạm biến áp phân phối và các công trình tương tự khác theo quy định của pháp luật có liên quan tại khu vực không thuộc nhóm đất có mục đích sử dụng để xây dựng đối với loại công trình này và không được chuyển đổi mục đích sử dụng đất. + Giấy tờ hợp pháp về đất đai của chủ rừng và hợp đồng cho thuê môi trường rừng giữa chủ rừng và tổ chức, cá nhân thực hiện dự án du lịch sinh thái, nghỉ dưỡng, giải trí theo quy định của pháp luật về lâm nghiệp. + Giấy chứng nhận quyền sử dụng đất hoặc quyết định giao đất hoặc quyết định cho thuê đất của cơ quan có thẩm quyền có mục đích sử dụng đất chính kèm theo phương án sử dụng đa mục đích được cơ quan có thẩm quyền phê duyệt đối với trường hợp xây dựng công trình trên đất được sử dụng kết hợp đa mục đích theo quy định tại Điều 218 Luật Đất đai năm 2024.  + Hợp đồng thuê đất giữa chủ đầu tư xây dựng công trình và người quản lý, sử dụng công trình giao thông hoặc văn bản chấp thuận của cơ quan quản lý nhà nước có thẩm quyền về giao thông đối với công trình được phép xây dựng trong phạm vi đất dành cho giao thông theo quy định của pháp luật. + Văn bản của cơ quan có thẩm quyền đã cấp giấy chứng nhận quyền sử dụng đất xác định diện tích các loại đất đối với trường hợp người sử dụng đất có một trong các loại giấy tờ hợp pháp về đất đai theo quy định tại các khoản 1, 2, 3, 4 và 5 Điều 55 Nghị định số 217/2026/NĐ-CP nhưng trên các giấy tờ đó không ghi rõ diện tích các loại đất để làm cơ sở cấp giấy phép xây dựng. + Trường hợp chủ đầu tư thuê đất hoặc thuê công trình, bộ phận công trình của chủ sử dụng đất, chủ sở hữu công trình để đầu tư xây dựng thì ngoài một trong các giấy tờ nêu trên, người đề nghị cấp giấy phép xây dựng bổ sung hợp đồng; thoả thuận hợp pháp về việc thuê đất hoặc thuê công trình, bộ phận công trình tương ứng. + Ủy ban nhân dân cấp tỉnh hoặc phân cấp, ủy quyền cho Ủy ban nhân dân cấp xã quy định về diện tích, vị trí, mục đích sử dụng và chấp thuận tổng mặt bằng của công trình xây dựng phục vụ trực tiếp sản xuất nông nghiệp trên đất trồng lúa.  + Các giấy tờ hợp pháp khác theo quy định pháp luật về đất đai.  + Hoặc văn bản chấp thuận của cơ quan có thẩm quyền về vị trí và phương án tuyến hoặc Quyết định thu hồi đất của cơ quan có thẩm quyền theo quy định của pháp luật về đất đai.",
+          "code": "TP-G17.000364",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7067-5312-777e-aa33-4c3ec2072845",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt dự án; Báo cáo kết quả thẩm tra thiết kế xây dựng theo quy định tại Nghị định này (nếu có); kết quả thực hiện thủ tục hành chính theo quy định của pháp luật về phòng cháy, chữa cháy và cứu nạn, cứu hộ đối với hồ sơ thiết kế đề nghị cấp giấy phép xây dựng (nếu có yêu cầu); kết quả thực hiện thủ tục hành chính về bảo vệ môi trường theo quy định của pháp luật về bảo vệ môi trường (nếu có yêu cầu); văn bản ý kiến của cơ quan chuyên môn về văn hóa cấp tỉnh (nếu có yêu cầu).",
+          "code": "TP-G17.000365",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7067-a5ae-728b-b4a3-a5d7a7d98598",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bộ bản vẽ thiết kế xây dựng trong hồ sơ thiết kế xây dựng triển khai sau khi dự án được phê duyệt hoặc thiết kế bản vẽ thi công đối với dự án chỉ yêu cầu lập Báo cáo kinh tế - kỹ thuật được phê duyệt hoặc đóng dấu xác nhận theo quy định của pháp luật về xây dựng, gồm: bản vẽ tổng mặt bằng toàn dự án, mặt bằng định vị công trình trên lô đất, bản vẽ kiến trúc các mặt bằng, các mặt đứng và mặt cắt chủ yếu của công trình (đối với công trình không theo tuyến) hoặc sơ đồ vị trí tuyến công trình, bản vẽ mặt bằng tổng thể hoặc bản vẽ bình đồ công trình, bản vẽ các mặt cắt dọc và mặt cắt ngang chủ yếu của tuyến công trình (đối với công trình theo tuyến); bản vẽ mặt bằng, mặt cắt móng; các bản vẽ thể hiện giải pháp kết cấu chính của công trình; bản vẽ mặt bằng đấu nối với hệ thống hạ tầng kỹ thuật bên ngoài công trình, dự án.",
+          "code": "TP-G17.000366",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7067-f22c-7639-9ff1-6db19f8634cd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý nhà nước về văn hóa có thẩm quyền theo quy định của pháp luật về hoạt động mỹ thuật.",
+          "code": "TP-G17.000367",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7068-4d16-7431-967f-8160d94d6980",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ngoài các thành phần hồ sơ nêu trên, chủ đầu tư cần cung cấp dữ liệu BIM của công trình theo các định dạng gốc và định dạng chuẩn IFC 4.0 hoặc các định dạng mở khác phù hợp với đặc thù, tính chất của công trình bằng các thiết bị lưu trữ phổ biến theo quy định tại Điều 8 Nghị định số 217/2026/NĐ-CP.",
+          "code": "TP-G17.000368",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(1.5) Đối với công trình của các cơ quan ngoại giao và tổ chức quốc tế",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f7068-b93c-702b-af4d-6bb361d6413e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp giấy phép xây dựng theo Mẫu số 1 Phụ lục số II Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ",
+          "code": "TP-G17.000369",
+          "attachments": [
+            {
+              "id": "019fdf00-3739-70f8-880e-052c3916adab",
+              "fileName": "Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fdf00-3739-70f8-880e-052c3916adab/Đơn G17.000170. 175.181. 18.192, 324. 327. 332. 335. 341. 347 352. 358 .363. 369 209. 230.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f7069-125a-729c-97d7-8e8dbd7844e2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Một trong những giấy tờ hợp pháp về đất đai chứng minh sự phù hợp mục đích sử dụng đất và sở hữu công trình để cấp phép xây dựng theo quy định tại Điều 55 của Nghị định số 217/2026/NĐ-CP, bao gồm:  + Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất.  + Giấy chứng nhận quyền sử dụng đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ. Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở; giấy chứng nhận quyền sở hữu công trình xây dựng đã được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở, pháp luật về xây dựng qua các thời kỳ.  + Các loại giấy tờ đủ điều kiện để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất gồm: Các loại giấy tờ quy định tại Điều 137 Luật Đất đai năm 2024; các loại giấy tờ đủ điều kiện khác để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai. + Giấy tờ về đất đai đối với trường hợp được Nhà nước giao đất, cho thuê đất, chuyển mục đích sử dụng đất từ sau ngày 01 tháng 7 năm 2004 nhưng không có giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định của pháp luật về đất đai, gồm một trong các loại giấy tờ: Quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất của cơ quan có thẩm quyền hoặc hợp đồng thuê đất kèm theo (nếu có) hoặc giấy tờ về trúng đấu giá quyền sử dụng đất, đấu thầu dự án có sử dụng đất. + Báo cáo hiện trạng sử dụng đất đối với trường hợp tổ chức tôn giáo, tổ chức tôn giáo trực thuộc đang sử dụng mà chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất được Ủy ban nhân dân cấp tỉnh nơi có đất kiểm tra thực tế sử dụng và xử lý theo quy định tại Điều 142, Điều 145 Luật Đất đai năm 2024. + Giấy tờ về việc xếp hạng di tích lịch sử - văn hóa, danh lam thắng cảnh hoặc danh mục kiểm kê di tích theo quy định của pháp luật về di sản văn hoá đối với trường hợp cấp giấy phép xây dựng để thực hiện bảo quản, tu bổ, phục hồi di tích lịch sử - văn hóa, danh lam thắng cảnh nhưng chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định. + Văn bản chấp thuận về địa điểm xây dựng của Ủy ban nhân dân cấp huyện (trước đây) hoặc Ủy ban nhân dân cấp xã đối với công trình xây dựng biển quảng cáo, trạm viễn thông, cột ăng-ten, cột điện, cáp điện, trạm biến áp phân phối và các công trình tương tự khác theo quy định của pháp luật có liên quan tại khu vực không thuộc nhóm đất có mục đích sử dụng để xây dựng đối với loại công trình này và không được chuyển đổi mục đích sử dụng đất. + Giấy tờ hợp pháp về đất đai của chủ rừng và hợp đồng cho thuê môi trường rừng giữa chủ rừng và tổ chức, cá nhân thực hiện dự án du lịch sinh thái, nghỉ dưỡng, giải trí theo quy định của pháp luật về lâm nghiệp. + Giấy chứng nhận quyền sử dụng đất hoặc quyết định giao đất hoặc quyết định cho thuê đất của cơ quan có thẩm quyền có mục đích sử dụng đất chính kèm theo phương án sử dụng đa mục đích được cơ quan có thẩm quyền phê duyệt đối với trường hợp xây dựng công trình trên đất được sử dụng kết hợp đa mục đích theo quy định tại Điều 218 Luật Đất đai năm 2024.  + Hợp đồng thuê đất giữa chủ đầu tư xây dựng công trình và người quản lý, sử dụng công trình giao thông hoặc văn bản chấp thuận của cơ quan quản lý nhà nước có thẩm quyền về giao thông đối với công trình được phép xây dựng trong phạm vi đất dành cho giao thông theo quy định của pháp luật. + Văn bản của cơ quan có thẩm quyền đã cấp giấy chứng nhận quyền sử dụng đất xác định diện tích các loại đất đối với trường hợp người sử dụng đất có một trong các loại giấy tờ hợp pháp về đất đai theo quy định tại các khoản 1, 2, 3, 4 và 5 Điều 55 Nghị định số 217/2026/NĐ-CP nhưng trên các giấy tờ đó không ghi rõ diện tích các loại đất để làm cơ sở cấp giấy phép xây dựng. + Trường hợp chủ đầu tư thuê đất hoặc thuê công trình, bộ phận công trình của chủ sử dụng đất, chủ sở hữu công trình để đầu tư xây dựng thì ngoài một trong các giấy tờ nêu trên, người đề nghị cấp giấy phép xây dựng bổ sung hợp đồng; thoả thuận hợp pháp về việc thuê đất hoặc thuê công trình, bộ phận công trình tương ứng. + Ủy ban nhân dân cấp tỉnh hoặc phân cấp, ủy quyền cho Ủy ban nhân dân cấp xã quy định về diện tích, vị trí, mục đích sử dụng và chấp thuận tổng mặt bằng của công trình xây dựng phục vụ trực tiếp sản xuất nông nghiệp trên đất trồng lúa.  + Các giấy tờ hợp pháp khác theo quy định pháp luật về đất đai.  + Hoặc văn bản chấp thuận của cơ quan có thẩm quyền về vị trí và phương án tuyến hoặc Quyết định thu hồi đất của cơ quan có thẩm quyền theo quy định của pháp luật về đất đai",
+          "code": "TP-G17.000370",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7069-72b3-73ab-b83b-ee50998f53d7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt dự án; Báo cáo kết quả thẩm tra thiết kế xây dựng theo quy định tại Nghị định này (nếu có); kết quả thực hiện thủ tục hành chính theo quy định của pháp luật về phòng cháy, chữa cháy và cứu nạn, cứu hộ đối với hồ sơ thiết kế đề nghị cấp giấy phép xây dựng (nếu có yêu cầu); kết quả thực hiện thủ tục hành chính về bảo vệ môi trường theo quy định của pháp luật về bảo vệ môi trường (nếu có yêu cầu); văn bản ý kiến của cơ quan chuyên môn về văn hóa cấp tỉnh (nếu có yêu cầu).",
+          "code": "TP-G17.000371",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7069-bbe0-77ef-8fb7-c4e39f6bc0e8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bộ bản vẽ thiết kế xây dựng trong hồ sơ thiết kế xây dựng triển khai sau khi dự án được phê duyệt hoặc thiết kế bản vẽ thi công đối với dự án chỉ yêu cầu lập Báo cáo kinh tế - kỹ thuật được phê duyệt hoặc đóng dấu xác nhận theo quy định của pháp luật về xây dựng, gồm: bản vẽ tổng mặt bằng toàn dự án, mặt bằng định vị công trình trên lô đất, bản vẽ kiến trúc các mặt bằng, các mặt đứng và mặt cắt chủ yếu của công trình (đối với công trình không theo tuyến) hoặc sơ đồ vị trí tuyến công trình, bản vẽ mặt bằng tổng thể hoặc bản vẽ bình đồ công trình, bản vẽ các mặt cắt dọc và mặt cắt ngang chủ yếu của tuyến công trình (đối với công trình theo tuyến); bản vẽ mặt bằng, mặt cắt móng; các bản vẽ thể hiện giải pháp kết cấu chính của công trình; bản vẽ mặt bằng đấu nối với hệ thống hạ tầng kỹ thuật bên ngoài công trình, dự án.",
+          "code": "TP-G17.000372",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f706a-58eb-73dc-898e-824b997844f6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ngoài các thành phần hồ sơ nêu trên, chủ đầu tư cần cung cấp dữ liệu BIM của công trình theo các định dạng gốc và định dạng chuẩn IFC 4.0 hoặc các định dạng mở khác phù hợp với đặc thù, tính chất của công trình bằng các thiết bị lưu trữ phổ biến theo quy định tại Điều 8 Nghị định số 217/2026/NĐ-CP",
+          "code": "TP-G17.000374",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f706a-d234-738b-91e9-5dc115fcc921",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị điều chỉnh, gia hạn, cấp lại giấy phép xây dựng theo Mẫu số 02 Phụ lục II Nghị định số 217/2026/NĐ-CP",
+          "code": "TP-G17.000375",
+          "attachments": [
+            {
+              "id": "019fdefb-550f-725b-88c6-0fd9814ac5b9",
+              "fileName": "Đơn G 17.000194. 211 . 213. 375 380 386 393. 399.  406 415.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fdefb-550f-725b-88c6-0fd9814ac5b9/Đơn G 17.000194. 211 . 213. 375 380 386 393. 399.  406 415.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f706a-0b0f-7033-a664-39afcf867ae1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các điều khoản quy định của Hiệp định hoặc thỏa thuận đã được ký kết với Chính phủ Việt Nam.",
+          "code": "TP-G17.000373",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d9ae5-d5d1-734b-a3aa-8979fb7de3c3",
+    "019f1d67-d525-7040-bc15-3156f4c4411c",
+    "019f3666-e3d6-702f-926b-ced690d453d0"
+  ],
+  "resultIds": [
+    "019fe03e-47d4-7742-b9e9-9f4519b297d0"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+      "name": "Hoạt động xây dựng",
+      "code": "G17-XD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+    "name": "Hoạt động xây dựng",
+    "code": "G17-XD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f1d67-d525-7040-bc15-3156f4c4411c",
+      "name": "Luật Xây dựng",
+      "code": "135/2025/QH15"
+    },
+    {
+      "id": "019d9ae5-d5d1-734b-a3aa-8979fb7de3c3",
+      "name": "Nghị định số 105/2025/NĐ-CP ngày 15/5/2025 của Chính phủ quy định chi\ntiết một số điều và biện pháp thi hành Luật Phòng cháy, chữa cháy và cứu nạn,\ncứu hộ",
+      "code": "105/2025/CP-NĐ"
+    },
+    {
+      "id": "019f3666-e3d6-702f-926b-ced690d453d0",
+      "name": "Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng",
+      "code": "217/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fe03e-47d4-7742-b9e9-9f4519b297d0",
+      "name": "Kết quả giấy phép cấp mới, điều chỉnh, gia hạn",
+      "code": "KQ-G17.000093"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "019f1b4a-498c-7583-ae14-e4dded4f12cc",
+      "name": "Cấp giấy phép xây dựng mới đối với công trình cấp III, cấp IV (Công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ",
+      "code": "1.013225.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a00e79-bb33-759d-a477-e640a4e3f3fa",
+      "name": "Cấp giấy phép xây dựng mới, có thời hạn đối với công trình cấp III, cấp IV và công trình nhà ở riêng lẻ của hộ gia đình, cá nhân   (công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo /Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ.",
+      "code": "1.013225.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2da0-ad4b-749b-bab8-39f4580f0714",
+      "name": "Cấp giấy phép xây dựng mới đối với công trình cấp III, cấp IV (Công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ",
+      "code": "1.013225.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559596680,
+  "updatedAt": 1786949251313,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f3649-8985-7142-a495-0228f712ad67",
+    "proposalNumber": "1077/QĐ-BXD",
+    "decisionDate": 1782666000000,
+    "decisionNumber": null,
+    "publicationDate": 1786949250428,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

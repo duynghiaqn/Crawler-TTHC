@@ -1,0 +1,271 @@
+{
+  "id": "019d2bf7-e4fa-7548-a212-814f15e2bb46",
+  "code": "1.002808",
+  "codeNotation": "1.002808",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân gửi hồ sơ đề nghị sửa đổi, bổ sung, cấp lại Giấy phép theo quy định đến cơ quan cấp phép. \nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan cấp phép thông báo cho thương nhân để bổ sung, hoàn thiện.\nc) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định, cơ quan cấp phép cấp sửa đổi, bổ sung, cấp lại Giấy phép cho thương nhân hoặc có văn bản thông báo từ chối sửa đổi, bổ sung, nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "03 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "03 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "03 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "KHÔNG CÓ",
+  "name": "Thủ tục sửa đổi, bổ sung, cấp lại Giấy phép gia công quân phục và Giấy phép nhập khẩu quân phục để làm mẫu",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a013ee-5997-706e-b401-dff0b83cee29",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Đơn đề nghị sửa đổi, bổ sung Giấy phép, theo mẫu số 12 quy định tại Phụ lục VII Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương: 01 bản chính.",
+          "code": "XNK-292-043",
+          "attachments": [
+            {
+              "id": "01a013ef-08a2-7098-be4e-78c61819b3c4",
+              "fileName": "Mẫu đề nghị đơn sửa đổi.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a013ef-08a2-7098-be4e-78c61819b3c4/Mẫu đề nghị đơn sửa đổi.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a013ee-a0b6-7699-8a61-f3d8fb9d1a49",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Các tài liệu chứng minh có liên quan đến việc sửa đổi, bổ sung hoặc tài liệu liên quan đến việc mất, thất lạc, hư hỏng Giấy phép (nếu có): 01 bản sao có đóng dấu của thương nhân.",
+          "code": "XNK-292-044",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3"
+  ],
+  "resultIds": [
+    "01a013ef-6f40-7251-9fba-71f7f23b077d"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a013ef-6f40-7251-9fba-71f7f23b077d",
+      "name": "Giấy phép gia công quân phục/ Giấy phép nhập khẩu quân phục để làm mẫu được sửa đổi, bổ sung, cấp lại hoặc văn bản thông báo từ chối cấp sửa đổi, bổ sung, cấp lại Giấy phép.",
+      "code": "KQ-2020"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "019dc0f4-741d-71bf-a196-2c74ed919eb0",
+      "name": "Thủ tục sửa đổi, bổ sung/ cấp lại Giấy phép sản xuất, gia công quân phục cho lực lượng vũ trang nước ngoài",
+      "code": "1.002808.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019eab51-c17b-713d-8b1e-a4f18bc44078",
+      "name": "Thủ tục sửa đổi, bổ sung/ cấp lại Giấy phép sản xuất, gia công quân phục cho lực lượng vũ trang nước ngoài",
+      "code": "1.002808.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a013f3-dc55-7534-9a07-1ab8b1d3e8b9",
+      "name": "Thủ tục sửa đổi, bổ sung, cấp lại Giấy phép gia công quân phục và Giấy phép nhập khẩu quân phục để làm mẫu",
+      "code": "1.002808.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559159546,
+  "updatedAt": 1787041141608,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "KHÔNG CÓ",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a00ebe-e04a-721a-881a-9da433d007cd",
+    "proposalNumber": "2040/QĐ-BCT",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1787041141457,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

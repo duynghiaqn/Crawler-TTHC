@@ -1,0 +1,237 @@
+{
+  "id": "019ff00d-2c19-727a-aae2-007dc73c697e",
+  "code": "1.116328",
+  "codeNotation": "1.116328",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "B1\tNgười đề nghị nộp hồ sơ tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc qua hoặc qua Hệ thống thông tin giải quyết TTHC.\n2. Cán bộ TN&TKQ kiểm tra hồ sơ:\n- Nếu hồ sơ chưa đầy đủ hoặc không hợp lệ thì hướng dẫn bổ sung, hoàn thiện hồ sơ theo quy định. Nếu không bổ sung hoàn thiện được thì từ chối tiếp nhận hồ sơ.\nNếu hồ sơ đầy đủ, hợp lệ thì làm thủ tục tiếp nhận hồ sơ, hẹn trả kết quả cho người nộp hồ sơ. Hồ sơ được chuyển đến cơ quan chuyên môn về nông nghiệp và môi trường cấp tỉnh.\nB2\tSoát xét hồ sơ:\n- Rà soát, kiểm tra hồ sơ; hướng dẫn người nộp hồ sơ hoàn thiện hoặc bổ sung hồ sơ đối với trường hợp không đầy đủ, hợp lệ. \n- Chủ trì phối hợp với các cơ quan, đơn vị có liên quan xem xét trình Chủ tịch UBND cấp tỉnh văn bản cho phép cho phép thực hiện phương án thỏa thuận về nhận quyền sử dụng đất mà không thực hiện thu hồi đất. Hồ sơ gồm: Giấy tờ quy định tại mục 2.3 nêu trên, văn bản cho phép thực hiện phương án thỏa thuận về nhận quyền sử dụng đất mà không thực hiện thu hồi đất\n\nB4\tChủ tịch UBND tỉnh có văn bản cho phép hoặc không cho phép tổ chức kinh tế thực hiện phương án thỏa thuận về nhận quyền sử dụng đất mà không thực hiện thu hồi đất\nB5\tChuyển kết quả cho cơ quan tiếp nhận hồ sơ để trả kết quả"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 9,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh)",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 9,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh)",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 9,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh)",
+      "fees": []
+    }
+  ],
+  "description": "-Tổ chức kinh tế không sử dụng vốn ngân sách nhà nước và thuộc trường hợp thu hồi đất tại Điều 79 Luật Đất đai và khoản 2 Điều 3 Nghị quyết số 254/2025/QH15.\n- Phù hợp với quy hoạch sử dụng đất hoặc quy hoạch được lập theo quy định của pháp luật về quy hoạch đô thị, quy hoạch nông thôn hoặc chỉ tiêu sử dụng đất trong phương án phân bổ và khoanh vùng đất đai của quy hoạch tỉnh được phân bổ đến đơn vị hành chính cấp xã hoặc phương án phân bổ chỉ tiêu sử dụng đất đến từng đơn vị hành chính cấp xã đã được cơ quan có thẩm quyền phê duyệt.\n- Không vi phạm quy định của pháp luật về đất đai hoặc có vi phạm quy định của pháp luật về đất đai nhưng đã chấp hành xong quyết định, bản án đã có hiệu lực pháp luật của cơ quan có thẩm quyền tại thời điểm đề nghị giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất. Việc xác định người sử dụng đất vi phạm quy định của pháp luật về đất đai được công khai trên Cổng thông tin điện tử của UBND tỉnh và Cổng thông tin điện tử của Bộ Nông nghiệp và Môi trường.",
+  "name": "Tổ chức kinh tế lựa chọn nhận chuyển quyền sử dụng đất mà không đề xuất thu hồi đất quy định tại điểm c khoản 1 Điều 127 của Luật Đất đai.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019feff8-bef4-7018-be0b-0c53cda2bd7b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị cho phép thực hiện phương án thỏa thuận về nhận quyền sử dụng đất mà không thực hiện thu hồi đất theo Mẫu số 20 ban hành kèm theo Quyết định số 48/2026/QĐ-UBND ngày 06/7/2026 của UBND tỉnh",
+          "code": "QT.ĐĐ.11.1",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019feff9-0c97-75bc-9544-f62e1e205b39",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính",
+          "code": "QT.ĐĐ.11.2",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019feffa-3d3d-71a5-b74d-1239878e4d80",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo hiện trạng khu đất (trong đó làm rõ việc giải phóng mặt bằng, hiện trạng sử dụng đất…)",
+          "code": "QT.ĐĐ.11.3",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019feec3-a121-725a-b5ba-6cf0571f69b8"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019feec3-a121-725a-b5ba-6cf0571f69b8",
+      "name": "Văn bản",
+      "code": "Kết quả giải quyết TTHC"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+  "departmentPromulgateCode": "H27",
+  "departmentPromulgateName": "UBND tỉnh Hà Tĩnh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1786814488064,
+  "updatedAt": 1786814488064,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã. \n- Qua Dịch vụ bưu chính công ích.\n- Qua Cổng Dịch vụ công quốc gia: https://dichvucong.gov.vn",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "-Tổ chức kinh tế không sử dụng vốn ngân sách nhà nước và thuộc trường hợp thu hồi đất tại Điều 79 Luật Đất đai và khoản 2 Điều 3 Nghị quyết số 254/2025/QH15.\n- Phù hợp với quy hoạch sử dụng đất hoặc quy hoạch được lập theo quy định của pháp luật về quy hoạch đô thị, quy hoạch nông thôn hoặc chỉ tiêu sử dụng đất trong phương án phân bổ và khoanh vùng đất đai của quy hoạch tỉnh được phân bổ đến đơn vị hành chính cấp xã hoặc phương án phân bổ chỉ tiêu sử dụng đất đến từng đơn vị hành chính cấp xã đã được cơ quan có thẩm quyền phê duyệt.\n- Không vi phạm quy định của pháp luật về đất đai hoặc có vi phạm quy định của pháp luật về đất đai nhưng đã chấp hành xong quyết định, bản án đã có hiệu lực pháp luật của cơ quan có thẩm quyền tại thời điểm đề nghị giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất. Việc xác định người sử dụng đất vi phạm quy định của pháp luật về đất đai được công khai trên Cổng thông tin điện tử của UBND tỉnh và Cổng thông tin điện tử của Bộ Nông nghiệp và Môi trường.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fefaf-cc6d-766d-b82e-e30490da3809",
+    "proposalNumber": "1998/QĐ-UBND",
+    "decisionDate": 1786035600000,
+    "decisionNumber": null,
+    "publicationDate": 1786522619055,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+      "name": "UBND tỉnh Hà Tĩnh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

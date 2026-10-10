@@ -1,0 +1,274 @@
+{
+  "id": "019f9ca1-d165-7289-8275-736d1e98bdd6",
+  "code": "1.116017",
+  "codeNotation": "1.116017",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a. Trình tự thực hiện:\nBước 1: Hộ gia đình, cá nhân nộp văn bản thể hiện đề nghị tính hoặc tính lại tiền sử dụng đất theo quy định tại điểm a, b, c, d khoản 2 Điều 12 Nghị định số 50/2026/NĐ-CP này chậm nhất trước ngày 01 tháng 01 năm 2027 đến bộ phận một cửa liên thông.\nBước 2: Bộ phận một cửa liên thông cấp giấy tiếp nhận hồ sơ và hẹn trả kết quả; chuyển văn bản này đến Ủy ban nhân dân cấp xã nơi có đất để thực hiện việc xác định hạn mức giao đất ở của thửa đất được lựa chọn để tính hoặc tính lại tiền sử dụng đất; chuyển thông tin đến cơ quan thuế.\nBước 3: Cơ quan thuế thực hiện việc tính hoặc tính lại tiền sử dụng đất theo quy định tại Nghị định này; ban hành thông báo nộp tiền sử dụng đất hoặc thông báo điều chỉnh thông báo nộp tiền sử dụng đất gửi cho người sử dụng đất; đồng thời gửi thông tin đến Ủy ban nhân dân cấp xã theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "7,5 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "7,5 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "7,5 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 9.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "đối với vùng khó khăn",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 9.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "đối với vùng khó khăn",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 9.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "đối với vùng khó khăn",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "tính, tính lại tiền sử dụng đất đối với hộ gia đình, cá nhân theo quy định tại các điểm a, b, c và d khoản 2 Điều 12 Nghị định số 50/2026/NĐ-CP (TTHC nhập sai)",
+  "decisionNo": "",
+  "executionCases": [],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-15edc80221c2"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019e8730-324d-711b-a6f7-359ba778b634"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698f-1081-74cf-8c3b-3602b5a3ecad",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-15edc80221c2",
+      "name": "Tài chính đất đai",
+      "code": "G12-TC30"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da",
+    "019e005b-c45a-7351-bdf2-f495ce849003"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da",
+    "019e005b-c45a-7351-bdf2-f495ce849003"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    },
+    {
+      "id": "019e005b-c45a-7351-bdf2-f495ce849003",
+      "name": "Thuế cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    },
+    {
+      "id": "019e005b-c45a-7351-bdf2-f495ce849003",
+      "name": "Thuế cơ sở"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019e8730-324d-711b-a6f7-359ba778b634",
+      "name": "Thông báo nộp tiền sử dụng đất hoặc thông báo điều chỉnh thông báo nộp tiền sử dụng đất gửi cho người sử dụng đất.",
+      "code": "TP-G12.00011112"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b698f-1081-74cf-8c3b-3602b5a3ecad",
+      "name": "Tổ chức Đảng",
+      "code": "ĐT6"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+      "name": "Đảng viên",
+      "code": "ĐT5"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [
+    {
+      "id": "019ffa47-8985-7225-90ec-6337d2327894",
+      "name": "Tính, tính lại tiền sử dụng đất đối với hộ gia đình, cá nhân theo quy định tại các điểm a, b, c và d khoản 2 Điều 12 Nghị định số 50/2026/NĐ-CP (Tỉnh Phú Thọ)",
+      "code": "1.116017.01",
+      "processingDay": {
+        "qty": 9.5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785397273316,
+  "updatedAt": 1789006218546,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "1. Trực tiếp:\n1.1. Trung tâm Phục vụ hành chính công tỉnh Phú Thọ.\n- Cơ sở 1: Địa chỉ: Số 398 - đường Trần Phú - phường Việt Trì - tỉnh Phú Thọ;\nĐT: 0210 2222 555.\n- Cơ sở 2: Địa chỉ: Số 5 - đường Nguyễn Trãi, phường Vĩnh Phúc, tỉnh Phú Thọ;\nĐT: 0211 3616 618.\n- Cơ sở 3: Địa chỉ: Số 485 - đường Trần Hưng Đạo, phường Hòa Bình, tỉnh Phú Thọ;\nĐT: 0218 3868 689.\n1.2. Trung tâm Phục vụ hành chính công các xã, phường trên địa bàn tỉnh Phú Thọ.\n2. Trực tuyến:\nĐịa chỉ truy cập: https://dichvucong.gov.vn/\n3. Dịch vụ Bưu chính công ích.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019facb1-b74a-7752-abe0-45a36aafd4f7",
+    "proposalNumber": "2143/QĐ-UBND",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1785397269411,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

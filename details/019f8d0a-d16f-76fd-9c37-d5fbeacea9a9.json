@@ -1,0 +1,291 @@
+{
+  "id": "019f8d0a-d16f-76fd-9c37-d5fbeacea9a9",
+  "code": "1.116012",
+  "codeNotation": "1.116012",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công cấp tỉnh, Trung tâm Phục vụ hành chính công cấp xã hoặc thông qua dịch vụ bưu chính công ích hoặc nộp trực tuyến trên Cổng dịch vụ công. Việc lựa chọn địa điểm nộp hồ sơ không phụ thuộc vào địa bàn cấp xã nơi có đất.\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ:\nChuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai đối với trường hợp thu hồi Giấy chứng nhận đã cấp khi thực hiện thủ tục đăng ký biến động đất đai, tài sản gắn liền với đất.\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai kiểm tra hồ sơ, xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 Luật Đất đai theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận. \nXem xét, quyết định thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai (trừ trường hợp người được cấp Giấy chứng nhận đã thực hiện thủ tục chuyển quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật).\nBước 4: Chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai; chuyển kết quả đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\nBước 5: Người sử dụng đất nghị cấp lại Giấy chứng nhận sau khi thu hồi\nnộp hồ sơ theo thủ tục tương ứng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn không quá 35 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn không quá 35 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn không quá 35 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn không quá 35 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn không quá 35 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn không quá 35 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định."
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện (VPĐK đất đai - tỉnh Phú Thọ)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019f8d0a-c1f3-70ed-beb5-abd9dcc29ecb"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a347-b53f134b0f27"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a85-74ec-a347-b53f134b0f27"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a347-b53f134b0f27",
+      "name": "Phòng thẩm định & cấp GCN cá nhân",
+      "code": "H21.24.01.01"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a85-74ec-a347-b53f134b0f27",
+      "name": "Phòng thẩm định & cấp GCN cá nhân",
+      "code": "H21.24.01.01"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019e005b-c45a-7351-bdf2-f495ce849003"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019e005b-c45a-7351-bdf2-f495ce849003",
+      "name": "Thuế cơ sở"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019f8d0a-c1f3-70ed-beb5-abd9dcc29ecb",
+      "name": "Quyết định hủy Giấy chứng nhận.",
+      "code": "Quyết định hủy Giấy chứng nhận."
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [
+    {
+      "id": "019fd112-7162-734e-9660-ff7506e19da4",
+      "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện",
+      "code": "1.116012.01",
+      "processingDay": {
+        "qty": 25,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785397271793,
+  "updatedAt": 1785397271793,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Phòng thẩm định & cấp GCN cá nhân",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "1. Trực tiếp: \n1.1. Trung tâm Phục vụ hành chính công tỉnh Phú Thọ. \n- Cơ sở 1: Địa chỉ: Số 398 - Đường Trần Phú - phường Việt Trì - tỉnh Phú Thọ ĐT: 0210 2222 555 \n- Cơ sở 2: Địa chỉ: số 5, đường Nguyễn Trãi, Phường Vĩnh Phúc, tỉnh Phú Thọ; ĐT: 0211 3616 618.\n- Cơ sở 3: Số 485 đường Trần Hưng Đạo, phường Hòa Bình, tỉnh Phú Thọ; ĐT: 02183868689\n1.2. Trung tâm Phục vụ hành chính công các xã, phường trên địa bàn tỉnh Phú Thọ.\n2. Trực tuyến \nĐịa chỉ truy cập: \nwww.dichvucong.gov.vn \n3. Dịch vụ Bưu chính",
+  "delegatedAgencies": "Phòng thẩm định & cấp GCN cá nhân",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019facb1-b74a-7752-abe0-45a36aafd4f7",
+    "proposalNumber": "2143/QĐ-UBND",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1785397269411,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

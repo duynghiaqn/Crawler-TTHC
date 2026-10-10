@@ -1,0 +1,387 @@
+{
+  "id": "019fcd6c-095f-76c7-b54d-b6eb20068124",
+  "code": "3.000697",
+  "codeNotation": "3.000697",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến một trong các địa điểm trên địa bàn cấp tỉnh: Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm Phục vụ hành chính công cấp xã hoặc Văn phòng đăng ký đất đai.\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ các giấy tờ là quyết định phê duyệt hoặc quyết định phê duyệt điều chỉnh quy hoạch xây dựng chi tiết, bản đồ điều chỉnh quy hoạch xây dựng chi tiết."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n   Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\n  - Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Văn phòng đăng ký đất đai thực hiện:\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 09 đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính đối với trường hợp phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai.\n- Cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp đối với trường hợp không phải thực hiện nghĩa vụ tài chính; trao Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\nTrường hợp phải thực hiện nghĩa vụ tài chính thì thực hiện các công việc quy định tại điểm này khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết thủ tục thay đổi quyền sử dụng đất, quyền sở hữu tài\nsản gắn liền với đất do chia, tách, hợp nhất, sáp nhập, chuyển đổi mô hình tổ chức,\nchuyển đổi loại hình doanh nghiệp là không quá 18 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết thủ tục thay đổi quyền sử dụng đất, quyền sở hữu tài\nsản gắn liền với đất do chia, tách, hợp nhất, sáp nhập, chuyển đổi mô hình tổ chức,\nchuyển đổi loại hình doanh nghiệp là không quá 18 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết thủ tục thay đổi quyền sử dụng đất, quyền sở hữu tài\nsản gắn liền với đất do chia, tách, hợp nhất, sáp nhập, chuyển đổi mô hình tổ chức,\nchuyển đổi loại hình doanh nghiệp là không quá 18 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết thủ tục cấp Giấy chứng nhận quyền sử dụng đất,quyền sở hữu tài sản gắn liền với đất theo quy hoạch xây dựng chi tiết hoặc điều\nchỉnh quy hoạch xây dựng chi tiết là không quá 15 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết thủ tục cấp Giấy chứng nhận quyền sử dụng đất,quyền sở hữu tài sản gắn liền với đất theo quy hoạch xây dựng chi tiết hoặc điều\nchỉnh quy hoạch xây dựng chi tiết là không quá 15 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết thủ tục cấp Giấy chứng nhận quyền sử dụng đất,quyền sở hữu tài sản gắn liền với đất theo quy hoạch xây dựng chi tiết hoặc điều\nchỉnh quy hoạch xây dựng chi tiết là không quá 15 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký biến động thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do chia, tách, hợp nhất, sáp nhập tổ chức hoặc chuyển đổi mô hình tổ chức, chuyển đổi loại hình doanh nghiệp theo quy định của pháp luật về doanh nghiệp; điều chỉnh quy hoạch xây dựng chi tiết; cấp Giấy chứng nhận cho từng thửa đất theo quy hoạch xây dựng chi tiết cho chủ đầu tư dự án có nhu cầu",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fe72c-58cd-749e-bd12-9c8a3dc9e5e0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Đối với trường hợp thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do chia, tách, hợp nhất, sáp nhập tổ chức hoặc chuyển đổi mô hình tổ chức, chuyển đổi loại hình doanh nghiệp theo quy định của pháp luật về doanh nghiệp: - Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18",
+          "code": "T3",
+          "attachments": [
+            {
+              "id": "019fe72c-4518-724a-9ad2-2df2bf5eba0f",
+              "fileName": "Mẫu số 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fe72c-4518-724a-9ad2-2df2bf5eba0f/Mẫu số 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fe72c-c173-7528-b180-36cb3af2e12b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Giấy chứng nhận đã cấp.  - Giấy chứng nhận đăng ký doanh nghiệp hoặc văn bản về việc thành lập tổ chức sau khi thay đổi. - Quyết định của cơ quan, tổ chức có thẩm quyền hoặc văn bản về việc chia, tách, hợp nhất, sáp nhập, chuyển đổi mô hình tổ chức, chuyển đổi loại hình doanh nghiệp theo quy định của pháp luật về doanh nghiệp phù hợp với quy định của pháp luật, trong đó phải xác định rõ tổ chức được sử dụng đất, sở hữu tài sản gắn liền với đất sau khi chia, tách, hợp nhất, sáp nhập, chuyển đổi mô hình tổ chức, chuyển đổi loại hình doanh nghiệp.",
+          "code": "T4",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fe72d-297d-772c-80ff-830965c62e15",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản vẽ tách thửa đất, hợp thửa đất theo Mẫu số 22 ban hành kèm theo Quyết định này đối với trường hợp phải tách thửa đất, hợp thửa đất. - Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp người sử dụng đất có nhu cầu đo đạc để xác định lại kích thước các cạnh, diện tích của thửa đất. - Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện. - Các loại giấy tờ về miễn, giảm nghĩa vụ tài chính (nếu có). - Tờ khai thuế và lệ phí theo quy định (nếu có).",
+          "code": "T5",
+          "attachments": [
+            {
+              "id": "019fe72d-13db-77c8-9ce8-b5dc205da597",
+              "fileName": "Mẫu số 22.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fe72d-13db-77c8-9ce8-b5dc205da597/Mẫu số 22.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fe72d-ab36-73c8-96cc-60cf49cda858",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Đối với trường hợp điều chỉnh quy hoạch xây dựng chi tiết: - Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18 ban hành kèm theo Quyết định này. - Giấy chứng nhận đã cấp. - Quyết định phê duyệt điều chỉnh quy hoạch xây dựng chi tiết của cơ quan có thẩm quyền kèm theo bản đồ điều chỉnh quy hoạch xây dựng chi tiết và bản đồ địa chính hoặc mảnh trích đo bản đồ địa chính; trường hợp phải xác định lại giá đất thì nộp thêm giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính về đất đai. - Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện. - Các loại giấy tờ về miễn, giảm nghĩa vụ tài chính (nếu có). - Tờ khai thuế và lệ phí theo quy định (nếu có).",
+          "code": "T6",
+          "attachments": [
+            {
+              "id": "019fe72d-9a7f-773e-86d0-4e495bbb3dea",
+              "fileName": "Mẫu số 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fe72d-9a7f-773e-86d0-4e495bbb3dea/Mẫu số 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fe72e-1b9e-7658-a701-57fdf65a0514",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c) Đối với trường hợp cấp Giấy chứng nhận cho từng thửa đất theo quy hoạch xây dựng chi tiết cho chủ đầu tư dự án có nhu cầu: - Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18 ban hành kèm theo Quyết định này. - Giấy chứng nhận đã cấp. - Quyết định phê duyệt quy hoạch xây dựng chi tiết của cơ quan có thẩm quyền kèm theo bản đồ quy hoạch xây dựng chi tiết và bản đồ địa chính hoặc mảnh trích đo bản đồ địa chính. - Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện. - Các loại giấy tờ về miễn, giảm nghĩa vụ tài chính (nếu có). - Tờ khai thuế và lệ phí theo quy định (nếu có).",
+          "code": "T7",
+          "attachments": [
+            {
+              "id": "019fe72e-16a3-715e-b9a0-880522df8796",
+              "fileName": "Mẫu số 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fe72e-16a3-715e-b9a0-880522df8796/Mẫu số 18.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d85-73da-8eb2-34c5e0dd0b18",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019fb1fa-2084-7275-8106-8d583ed94e03"
+  ],
+  "resultIds": [
+    "019fb5cc-8fc2-75ba-89db-61892e5aa653"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-5b3b-776b-ae3c-c9f6bbc23933"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-5b3b-776b-ae3c-c9f6bbc23933",
+      "name": "Cơ quan, tổ chức, đơn vị có thẩm quyền quản lý hoặc được giao trực tiếp quản lý đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eb2-34c5e0dd0b18",
+      "name": "Sửa đổi, bổ sung một số điều của Quy định về cấp phép đối với các hoạt động liên quan đến đê điều trên địa bàn tỉnh Quảng Bình ban hành kèm theo Quyết định số 04/2019/QĐ-UBND ngày  01/02/2019",
+      "code": "22/2023/QĐ-UBND"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    },
+    {
+      "id": "019fb1fa-2084-7275-8106-8d583ed94e03",
+      "name": "Quy định trình tự, thủ tục hành chính về đất đai\ntrên địa bàn tỉnh Điện Biên. \n",
+      "code": "53/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fb5cc-8fc2-75ba-89db-61892e5aa653",
+      "name": "Giấy chứng nhận",
+      "code": "KQ.010"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a341-16615c474af4",
+  "departmentPromulgateCode": "H18",
+  "departmentPromulgateName": "UBND tỉnh Điện Biên",
+  "cases": [
+    {
+      "id": "01a07e95-9a9e-7261-ac49-52da83627832",
+      "name": "Đăng ký biến động thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do chia, tách, hợp nhất, sáp nhập tổ chức hoặc chuyển đổi mô hình tổ chức, chuyển đổi loại hình doanh nghiệp theo quy định của pháp luật về doanh nghiệp; điều chỉnh quy hoạch xây dựng chi tiết; cấp Giấy chứng nhận cho từng thửa đất theo quy hoạch xây dựng chi tiết cho chủ đầu tư dự án có nhu cầu",
+      "code": "3.000697.02",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a07e95-9a7f-70af-9f91-0101808cbdbf",
+      "name": "Đăng ký biến động thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do chia, tách, hợp nhất, sáp nhập tổ chức hoặc chuyển đổi mô hình tổ chức, chuyển đổi loại hình doanh nghiệp theo quy định của pháp luật về doanh nghiệp; điều chỉnh quy hoạch xây dựng chi tiết; cấp Giấy chứng nhận cho từng thửa đất theo quy hoạch xây dựng chi tiết cho chủ đầu tư dự án có nhu cầu",
+      "code": "3.000697.01",
+      "processingDay": {
+        "qty": 18,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1787638240297,
+  "updatedAt": 1788771391826,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Trung tâm Phục vụ hành chính công tỉnh;\n- Trung tâm Phục vụ hành chính công cấp xã;\n- Chi nhánh Văn phòng đăng ký đất đai.\n- Chi nhánh Văn phòng đăng ký đất đai",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fccf2-6ffb-749b-babc-afda5bf4e3b5",
+    "proposalNumber": "1723/QĐ-UBND",
+    "decisionDate": 1785430800000,
+    "decisionNumber": null,
+    "publicationDate": 1787638237560,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a341-16615c474af4",
+      "name": "UBND tỉnh Điện Biên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

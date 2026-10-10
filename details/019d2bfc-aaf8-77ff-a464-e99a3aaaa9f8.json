@@ -1,0 +1,313 @@
+{
+  "id": "019d2bfc-aaf8-77ff-a464-e99a3aaaa9f8",
+  "code": "1.010341",
+  "codeNotation": "1.010341",
+  "executionSteps": [
+    {
+      "name": "Trường hợp (1): Xử lý hóa đơn điện tử đã lập sai",
+      "description": "Bước 1: Trường hợp phát hiện hóa đơn điện tử đã lập sai (bao gồm hóa đơn điện tử đã được cấp mã của cơ quan thuế, hóa đơn điện tử không có mã của cơ quan thuế đã gửi dữ liệu đến cơ quan thuế) thì người bán thực hiện xử lý như sau:\n+ Trường hợp sai về các nội dung trên hóa đơn như tên, địa chỉ, số tiền bằng chữ hoặc các nội dung khác nhưng không sai về: mã số thuế, số tiền ghi trên hóa đơn, thuế suất, tiền thuế hoặc hàng hóa ghi trên hóa đơn thì người bán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại hóa đơn. Người bán thực hiện thông báo với cơ quan thuế về hóa đơn điện tử đã lập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III ban hành kèm theo Thông tư số 91/2026/TT-BTC. \nBước 2: \n+ Trường hợp hóa đơn điện tử đã lập sai các nội dung về: mã số thuế; tên hàng hóa, hàng hóa ghi trên hóa đơn không đúng quy cách, chất lượng; số tiền ghi trên hóa đơn; thuế suất; tiền thuế hoặc các nội dung bắt buộc khác (trừ trường hợp quy định tại điểm a khoản 1 Điều 10 Thông tư số 91/2026/TT-BTC) thì người bán có thể lựa chọn điều chỉnh hoặc thay thế hóa đơn điện tử như sau:\n++ b.1) Người bán lập hóa đơn điện tử điều chỉnh hóa đơn đã lập sai. \nHóa đơn điện tử điều chỉnh hóa đơn điện tử đã lập sai phải có dòng chữ “Điều chỉnh cho hóa đơn Mẫu số… ký hiệu… số... ngày... tháng... năm”. \n++ b.2) Người bán lập hóa đơn điện tử mới thay thế cho hóa đơn điện tử lập sai. \nHóa đơn điện tử mới thay thế hóa đơn điện tử đã lập sai phải có dòng chữ “Thay thế cho hóa đơn Mẫu số... ký hiệu... số... ngày... tháng... năm”.\nNgười bán ký số trên hóa đơn điện tử mới điều chỉnh hoặc thay thế cho hóa đơn điện tử đã lập sai sau đó người bán gửi cho người mua (đối với trường hợp sử dụng hóa đơn điện tử không có mã của cơ quan thuế) hoặc gửi cơ quan thuế để cơ quan thuế cấp mã cho hóa đơn điện tử mới để gửi cho người mua (đối với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế). \n+ Trường hợp trong tháng người bán đã lập sai cùng thông tin về người mua, tên hàng, đơn giá, số lượng, thuế suất trên nhiều hóa đơn của cùng một người mua trong cùng tháng, thì người bán được lập một hóa đơn điều chỉnh hoặc thay thế cho nhiều hóa đơn điện tử đã lập sai trong cùng tháng và đính kèm bảng kê các hóa đơn điện tử đã lập sai theo Mẫu số 01/BK-ĐCTT Phụ lục III ban hành kèm theo Thông tư số 91/2026/TT-BTC.\nBước 3: Cơ quan Thuế tiếp nhận dữ liệu điện tử."
+    },
+    {
+      "name": "Trường hợp (2): Xử lý chứng từ điện tử đã lập sai",
+      "description": "Trường hợp chứng từ điện tử đã lập sai thì tổ chức khấu trừ thuế thực hiện xử lý chứng từ điện tử đã lập theo nguyên tắc tương tự xử lý hóa đơn điện tử đã lập quy định tại Trường hợp (1). Thông báo chứng từ đã lập sai theo Mẫu số 04/SS-CTĐT Phụ lục III ban hành kèm theo Thông tư số 91/2026/TT-BTC."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời gian 01 ngày làm việc kể từ ngày tiếp nhận thông báo hóa đơn điện tử lập sai.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời gian 01 ngày làm việc kể từ ngày tiếp nhận thông báo hóa đơn điện tử lập sai.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời gian 01 ngày làm việc kể từ ngày tiếp nhận thông báo hóa đơn điện tử lập sai.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Đảm bảo cơ sở hạ tầng CNTT để gửi dữ liệu tới cơ quan thuế bằng phương thức điện tử",
+  "name": "Xử lý hóa đơn điện tử đã lập sai/Xử lý chứng từ điện tử đã lập sai",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Trường hợp (1): Xử lý hóa đơn điện tử đã lập sai",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd77-761fdce72bc9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Thông báo hóa đơn điện tử đã lập sai (Mẫu số 04/SS-HĐĐT)",
+          "code": "G12.0001212",
+          "attachments": [
+            {
+              "id": "019f7f2f-1444-7594-8565-0f4a1eeb5103",
+              "fileName": "Mẫu 04 SS-HĐĐT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7f2f-1444-7594-8565-0f4a1eeb5103/Mẫu 04 SS-HĐĐT.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp (2): Xử lý chứng từ điện tử đã lập sai",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f7f30-15eb-742b-8076-49fa55b00264",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thông báo chứng từ đã lập sai (Mẫu số 04/SS-CTĐT)",
+          "code": "G12.0001213",
+          "attachments": [
+            {
+              "id": "019f7f30-11ba-77ab-963e-401ae8e41cd7",
+              "fileName": "Mẫu 04 SS-CTĐT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7f30-11ba-77ab-963e-401ae8e41cd7/Mẫu 04 SS-CTĐT.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019f7eee-65ff-7190-97bb-0d978182d268",
+    "019f7ef5-5ff2-73cd-841d-79992569d6c6"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-7b10d604762f",
+    "019d2bb2-1c73-70ac-aa18-6330c4b7f3f0"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f7eee-65ff-7190-97bb-0d978182d268",
+      "name": "Nghị định số 254/2026/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "code": "254/2026/NĐ-CP"
+    },
+    {
+      "id": "019f7ef5-5ff2-73cd-841d-79992569d6c6",
+      "name": "Quy định một số điều của Luật Quản lý thuế và Nghị định số 254/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "code": "91/2026/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-7b10d604762f",
+      "name": "Thông báo về việc tiếp nhận/ kết quả xử lý về việc hóa đơn điện tử/chứng từ điện tử đã lập sai (Mẫu 01/TB-SSĐT)",
+      "code": "KQ.G12.000966"
+    },
+    {
+      "id": "019d2bb2-1c73-70ac-aa18-6330c4b7f3f0",
+      "name": "Hệ thống thông tin giải quyết thủ tục hành chính của ngành thuế gửi phản hồi tự động về việc xác nhận người nộp thuế đã gửi thành công và thông báo về thời điểm tiếp nhận chính thức hồ sơ, tài liệu của người nộp thuế khi nhận Mẫu 04/SS-HĐĐT.",
+      "code": "KQ.G12.001323"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019f7f5d-1d55-779b-be2f-3cfdca949ef2",
+      "name": "Xử lý hóa đơn điện tử đã lập sai theo Mẫu số 04/SS-HĐĐT",
+      "code": "1.010341.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d6cb5-0764-708e-909d-7d3dbe4bb41c",
+      "name": "Xử lý hóa đơn điện tử đã lập sai theo Mẫu số 04/SS-HĐĐT",
+      "code": "1.010341.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559472376,
+  "updatedAt": 1784548236546,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố, Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đảm bảo cơ sở hạ tầng CNTT để gửi dữ liệu tới cơ quan thuế bằng phương thức điện tử",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f7ee5-35d7-759c-8728-1bcfbba4d16f",
+    "proposalNumber": "1896/QĐ-BTC",
+    "decisionDate": 1784221200000,
+    "decisionNumber": null,
+    "publicationDate": 1784548236075,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "019fcbca-18c5-769b-939e-26de84a09748",
+  "code": "1.116139",
+  "codeNotation": "1.116139",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "test"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký kinh doanh 0408_2026",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-5fb3c1d54155"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fb61e-e634-72e5-b747-d31c37b8be82"
+  ],
+  "subjectTypeIds": [
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-5fb3c1d54155",
+      "name": "Tiêu chuẩn đo lường chất lượng",
+      "code": "G02-CT20"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-ab18-77a9-86e6-51520f70579d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-ab18-77a9-86e6-51520f70579d",
+      "name": "Đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fb61e-e634-72e5-b747-d31c37b8be82",
+      "name": "Văn bản phê duyệt phương án sử dụng đất của Công ty nông, lâm nghiệp.",
+      "code": "KQ.006"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "cases": [
+    {
+      "id": "019fcbcb-b255-728a-9cca-0626b678ae52",
+      "name": "Đăng ký kinh doanh 0408 (DVC toàn trình)",
+      "code": "1.116139.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fcbd1-a904-7524-8b16-4ef08d15b45b",
+      "name": "Đăng ký kinh doanh 0408_2026",
+      "code": "1.116139.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785830447301,
+  "updatedAt": 1785830942948,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": null,
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

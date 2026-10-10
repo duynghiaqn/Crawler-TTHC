@@ -1,0 +1,369 @@
+{
+  "id": "019d2bfc-646a-739a-a221-0309d6bbd5e4",
+  "code": "1.008538",
+  "codeNotation": "1.008538",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: \n(i) Cá nhân thuộc diện khai thuế thu nhập cá nhân đối với trường hợp có thu nhập từ nhận thừa kế, quà tặng không phải là bất động sản, chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai thuế chậm nhất là ngày thứ 10 kể từ ngày tiếp theo ngày phát sinh nghĩa vụ thuế.\nNơi nộp hồ sơ khai thuế như sau:\n+ Cá nhân có thu nhập từ thừa kế, quà tặng là chứng khoán, phần vốn góp nộp hồ sơ khai thuế tại cơ quan thuế quản lý tổ chức phát hành chứng khoán, doanh nghiệp có phần vốn góp. Đối với chứng khoán là chứng chỉ quỹ, nộp hồ sơ khai thuế tại cơ quan thuế quản lý công ty quản lý quỹ. Trường hợp cá nhân đồng thời nhận thừa kế, quà tặng của nhiều loại chứng khoán, phần vốn góp là cơ quan thuế quản lý nơi cá nhân nhận thừa kế, quà tặng cư trú.\n+ Cá nhân có thu nhập từ nhận thừa kế, quà tặng tại nước ngoài là cơ quan thuế quản lý nơi cá nhân cư trú. \n+ Cá nhân có thu nhập từ nhận thừa kế, quà tặng là ô tô, xe gắn máy, xe mô tô, tàu thủy, kể cả sà lan, ca nô, tàu kéo, tàu đẩy, thuyền, kể cả du thuyền, tàu bay, súng săn, súng thể thao và các tài sản khác phải đăng ký quyền sở hữu hoặc quyền sử dụng với cơ quan quản lý nhà nước là cơ quan thuế quản lý nơi nộp hồ sơ khai lệ phí trước bạ.\n(ii) Tổ chức, cá nhân nhận chuyển nhượng biển số xe trúng đấu giá hoặc cá nhân chuyển nhượng biển số xe trúng đấu giá trực tiếp khai thuế với cơ quan thuế chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai thuế chậm nhất là ngày thứ 10 kể từ ngày tiếp theo ngày phát sinh nghĩa vụ thuế.\nNơi nộp hồ sơ khai thuế là cơ quan thuế quản lý nơi khai lệ phí trước bạ."
+    },
+    {
+      "name": "",
+      "description": "- Bước 2: Cơ quan thuế tiếp nhận hồ sơ của người nộp thuế theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026  của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "name": "Khai thuế thu nhập cá nhân đối với cá nhân nhận thừa kế, quà tặng không phải là bất động sản; Tổ chức, cá nhân nhận chuyển nhượng biển số\nxe trúng đấu giá; Cá nhân chuyển nhượng biễn số xe trúng đấu giá trực tiếp\nkhai thuế với cơ quan thuế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(i) Trường hợp khai thuế TNCN đối với thu nhập từ nhận thừa kế, quà tặng (trừ nhận thừa kế, quà tặng là bất động sản):",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f32-85ab5bba4bfd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân nhận thừa kế, quà tặng không phải là bất động sản; Tổ chức, cá nhân nhận chuyển nhượng biển số xe trúng đấu giá; Cá nhân chuyển nhượng biển số xe trúng đấu giá trực tiếp khai thuế với cơ quan thuế) mẫu số 04/TKQT-TNCN ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0001155",
+          "attachments": [
+            {
+              "id": "019fa66b-777f-779e-b13c-72463212efac",
+              "fileName": "21. 04.TKQT-TNCN.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa66b-777f-779e-b13c-72463212efac/21. 04.TKQT-TNCN.pdf"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f32-8a19de63138a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản pháp lý chứng minh quyền nhận thừa kế, quà tặng",
+          "code": "G12.0001156",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f32-8d43b63c5459",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ xác định đối tượng được miễn thuế thu nhập cá nhân, không phải nộp thuế thu nhập cá nhân, tạm thời chưa phải nộp thuế thu nhập cá nhân theo quy định",
+          "code": "G12.0001154",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "ii) Trường hợp tổ chức, cá nhân nhận chuyển nhượng biển số xe trúng đấu giá; Cá nhân chuyển nhượng biển số xe trúng đấu giá trực tiếp khai thuế với cơ quan thuế:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f32-85ab5bba4bfd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế thu nhập cá nhân (Áp dụng đối với cá nhân nhận thừa kế, quà tặng không phải là bất động sản; Tổ chức, cá nhân nhận chuyển nhượng biển số xe trúng đấu giá; Cá nhân chuyển nhượng biển số xe trúng đấu giá trực tiếp khai thuế với cơ quan thuế) mẫu số 04/TKQT-TNCN ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0001155",
+          "attachments": [
+            {
+              "id": "019fa66b-777f-779e-b13c-72463212efac",
+              "fileName": "21. 04.TKQT-TNCN.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa66b-777f-779e-b13c-72463212efac/21. 04.TKQT-TNCN.pdf"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa66d-a0c1-736d-9e15-ea3b25007e30",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Hợp đồng chuyển nhượng biển số xe trúng đấu giá",
+          "code": "G12.0012150",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa66e-29af-74bb-b299-bcb67a770e4d",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp cơ quan thuế đã kết nối, khai thác được thông tin có trong các cơ sở dữ liệu quốc gia, cơ sở dữ liệu của cơ quan nhà nước có thẩm quyền thì người nộp thuế không phải nộp các thành phần hồ sơ kèm theo nêu trên",
+          "code": "G12.0012151",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa66e-80cb-700e-a9fa-b4dfd5d7f38e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì mẫu 04/TKQT-TNCN thực hiện theo mẫu biểu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính, sửa đổi bổ sung theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính",
+          "code": "G12.0012152",
+          "attachments": [
+            {
+              "id": "019fa66e-7b89-761a-8f99-386576365225",
+              "fileName": "Mẫu 04 TKQT-TNCN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa66e-7b89-761a-8f99-386576365225/Mẫu 04 TKQT-TNCN.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "Khai thuế, thu nhập cá nhân",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421",
+    "019fa376-69da-7783-9853-6afa7cd86621",
+    "019fa377-0d10-73ea-b3b0-ee84180af5fe"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe7-eb8682e3b91d"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019fa377-0d10-73ea-b3b0-ee84180af5fe",
+      "name": "Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập cá nhân",
+      "code": "253/2026/NĐ-CP "
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019fa376-69da-7783-9853-6afa7cd86621",
+      "name": "Luật Thuế thu nhập cá nhân 109/2025/QH15 ngày 10/12/2025 và các văn bản pháp luật quy định chi tiết, hướng dẫn thi hành và sửa đổi, bổ sung có liên quan",
+      "code": "109/2025/QH15 "
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe7-eb8682e3b91d",
+      "name": "Thông báo nộp thuế của cơ quan thuế (Mẫu số 04/TB-TKQT-TNCN)",
+      "code": "KQ.G12.000511"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019fb215-d112-770a-b085-44818cd9b1d2",
+      "name": "Khai thuế thu nhập cá nhân đối với cá nhân có thu nhập từ nhận thừa kế, quà tặng là các tài sản khác phải đăng ký quyền sở hữu, không phải là bất động sản",
+      "code": "1.008538.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d8b-5886-738e-9e07-7fe8b36dddca",
+      "name": "Khai thuế thu nhập cá nhân đối với cá nhân có thu nhập từ nhận thừa kế, quà tặng là các tài sản khác phải đăng ký quyền sở hữu, không phải là bất động sản",
+      "code": "1.008538.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559454314,
+  "updatedAt": 1785399197351,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố, Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/Thuế cơ sở/Chi cục Thuế Doanh nghiệp lớn; Chi cục Thuế Thương mại điện tử.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026  của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

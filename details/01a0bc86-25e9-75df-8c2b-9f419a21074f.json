@@ -1,0 +1,358 @@
+{
+  "id": "01a0bc86-25e9-75df-8c2b-9f419a21074f",
+  "code": "1.116728",
+  "codeNotation": "1.116728",
+  "executionSteps": [
+    {
+      "name": "Bước 1: Người sử dụng đất",
+      "description": "nộp hồ sơ tới Trung tâm Phục vụ hành chính công cấp xã hoặc Ủy ban nhân dân cấp xã."
+    },
+    {
+      "name": "Bước 2: Cơ quan có chức năng quản lý đất đai cấp xã tổ chức thực hiện:",
+      "description": "- Đo đạc chỉnh lý bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất.\n- Chuyển hồ sơ đến Chi nhánh Văn phòng Đăng ký đất đai để chỉnh lý, cập nhật vào hồ hơ địa chính."
+    },
+    {
+      "name": "Bước 3: Người sử dụng đất, chủ sở hữu tài sản gắn liền với đất",
+      "description": "thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu theo quy định đối với phần diện tích còn lại của thửa đất (nếu có)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang; Nghị quyết số 41/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất trên địa bàn tỉnh An Giang; Nghị quyết số 42/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp lệ phí cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của Ủy ban nhân dân tỉnh về việc ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 21/2022/QĐ-UBND ngày 24/5/2022 của Ủy ban nhân dân tỉnh về việc sửa đổi, bổ sung một số điều của Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của UBND tỉnh ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang; Nghị quyết số 41/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất trên địa bàn tỉnh An Giang; Nghị quyết số 42/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp lệ phí cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của Ủy ban nhân dân tỉnh về việc ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 21/2022/QĐ-UBND ngày 24/5/2022 của Ủy ban nhân dân tỉnh về việc sửa đổi, bổ sung một số điều của Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của UBND tỉnh ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang; Nghị quyết số 41/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất trên địa bàn tỉnh An Giang; Nghị quyết số 42/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp lệ phí cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của Ủy ban nhân dân tỉnh về việc ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 21/2022/QĐ-UBND ngày 24/5/2022 của Ủy ban nhân dân tỉnh về việc sửa đổi, bổ sung một số điều của Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của UBND tỉnh ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "An Giang-Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp chưa được cấp Giấy chứng nhận",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "- Trường hợp chưa được cấp Giấy chứng nhận",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0cc05-86c0-7665-8d68-01d9fb512de4",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản tặng cho quyền sử dụng đất hoặc biên bản họp giữa đại diện thôn, ấp, làng, bản, buôn, bom, phum, sóc, tổ dân phố, điểm dân cư với người sử dụng đất về việc tặng cho quyền sử dụng đất.",
+          "code": "SNNMTAG_QD3828_CAPXA_TTHC_38_MAU01",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "- Trường hợp đã được cấp Giấy chứng nhận",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0cc06-05e4-7429-ad35-8692dab74af1",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản tặng cho quyền sử dụng đất hoặc biên bản họp giữa đại diện thôn, ấp, làng, bản, buôn, bom, phum, sóc, tổ dân phố, điểm dân cư với người sử dụng đất về việc tặng cho quyền sử dụng đất.",
+          "code": "SNNMTAG_QD3828_CAPXA_TTHC_38_MAU02",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0cc06-52fc-75c8-aa58-d48f4ae53b6b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận.",
+          "code": "SNNMTAG_QD3828_CAPXA_TTHC_38_MAU03",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp có biên bản họp giữa Ủy ban nhân dân cấp xã với người sử dụng đất về việc tặng cho quyền sử dụng đất thì người sử dụng đất",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0cc09-e9ef-734f-8208-3c20702de8f0",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp cho Ủy ban nhân dân cấp xã nơi có đất;",
+          "code": "SNNMTAG_QD3828_CAPXA_TTHC_38_MAU04",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Tặng cho, quyền sử dụng đất",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b673-29122897c8a3",
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+    "01a08abc-e5eb-738e-932f-abe36517faa2",
+    "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+    "01a08ac7-9f69-714f-b73a-7159f239f942",
+    "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+    "01a0a477-2c88-7288-8ea9-1a12e11a0825"
+  ],
+  "resultIds": [
+    "01a0bc85-5566-72f3-9125-fab6486a69ee"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a90-761e-acd7-9ff8d159a731"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-9ff8d159a731",
+      "name": "Cơ quan quản lý đất đai cấp xã",
+      "code": "Cơquanquảnlýđấtđaicấpxã"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da",
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    },
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b673-29122897c8a3",
+      "name": "Luật số 43/2024/QH15 ngày 29/6/2024",
+      "code": "43/2024/QH15"
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    },
+    {
+      "id": "01a0a477-2c88-7288-8ea9-1a12e11a0825",
+      "name": "Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh An Giang",
+      "code": "57/2026/ QĐ-UBND"
+    },
+    {
+      "id": "01a08abc-e5eb-738e-932f-abe36517faa2",
+      "name": "Luật số 31/2024/QH15 của Quốc hội: Luật Đất đai",
+      "code": "Luật số 31/2024/QH15"
+    },
+    {
+      "id": "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị định số 49/2026/NĐ-CP"
+    },
+    {
+      "id": "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+      "name": "Nghị định số 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai",
+      "code": "102/2024/NĐ-CP "
+    },
+    {
+      "id": "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "Nghị định số 151/2025/NĐ-CP"
+    },
+    {
+      "id": "01a08ac7-9f69-714f-b73a-7159f239f942",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định quy định chi tiết thi hành Luật Đất đai",
+      "code": "Nghị định số 226/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0bc85-5566-72f3-9125-fab6486a69ee",
+      "name": "Chỉnh lý, cập nhật vào hồ hơ địa chính, cơ sở dữ liệu đất đai.",
+      "code": "snnmtagg-kq1-xa-tthc04"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3e7-e214bdb86482",
+  "departmentPromulgateCode": "H01",
+  "departmentPromulgateName": "UBND tỉnh An Giang",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790608206207,
+  "updatedAt": 1790608206207,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan quản lý đất đai cấp xã",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fffa3-57c4-71e9-bf3a-adc3dd05efb4",
+    "proposalNumber": "3828/QĐ-UBND",
+    "decisionDate": 1786467600000,
+    "decisionNumber": null,
+    "publicationDate": 1790608203472,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3e7-e214bdb86482",
+      "name": "UBND tỉnh An Giang"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

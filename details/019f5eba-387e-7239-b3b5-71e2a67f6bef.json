@@ -1,0 +1,332 @@
+{
+  "id": "019f5eba-387e-7239-b3b5-71e2a67f6bef",
+  "code": "1.115992",
+  "codeNotation": "1.115992",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công cấp tỉnh, Trung tâm Phục vụ hành chính công cấp xã hoặc thông qua dịch vụ bưu chính công ích hoặc nộp trực tuyến trên Cổng dịch vụ công. Việc lựa chọn địa điểm nộp hồ sơ không phụ thuộc vào địa bàn cấp xã nơi có đất.\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ:\n Chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai đối với trường hợp đính chính Giấy chứng nhận đã cấp khi thực hiện thủ tục đăng ký biến động đất đai, tài sản gắn liền với đất có sai sót."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: \nTrường hợp đính chính Giấy chứng nhận đã cấp khi thực hiện thủ tục đăng ký biến động đất đai, tài sản gắn liền với đất có sai sót thì Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai thực hiện:\n- Kiểm tra, lập biên bản kết luận về nội dung và nguyên nhân sai sót.\n- Xác nhận nội dung đính chính trên Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; gửi Giấy chứng nhận đã đính chính đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 \nKhông tính thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai (05 ngày làm việc), thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu giám định, thời gian niêm yết công khai (15 ngày), đăng tin trên phương tiện thông tin đại chúng, thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận, thời gian trích đo bản đồ địa chính (05 ngày làm việc).gày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí; các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí và theo quy định của Hội đồng nhân dân tỉnh và UBND tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc.\nKhông tính thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai (05 ngày làm việc), thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu giám định, thời gian niêm yết công khai (15 ngày), đăng tin trên phương tiện thông tin đại chúng, thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận, thời gian trích đo bản đồ địa chính (05 ngày làm việc).gày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí; các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí và theo quy định của Hội đồng nhân dân tỉnh và UBND tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc\nKhông tính thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai (05 ngày làm việc), thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu giám định, thời gian niêm yết công khai (15 ngày), đăng tin trên phương tiện thông tin đại chúng, thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận, thời gian trích đo bản đồ địa chính (05 ngày làm việc).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí; các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí và theo quy định của Hội đồng nhân dân tỉnh và UBND tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc.\nKhông tính thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai (05 ngày làm việc), thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu giám định, thời gian niêm yết công khai (15 ngày), đăng tin trên phương tiện thông tin đại chúng, thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận, thời gian trích đo bản đồ địa chính (05 ngày làm việc).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí; các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí và theo quy định của Hội đồng nhân dân tỉnh và UBND tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc.\nKhông tính thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai (05 ngày làm việc), thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu giám định, thời gian niêm yết công khai (15 ngày), đăng tin trên phương tiện thông tin đại chúng, thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận, thời gian trích đo bản đồ địa chính (05 ngày làm việc).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí; các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí và theo quy định của Hội đồng nhân dân tỉnh và UBND tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc.\nKhông tính thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai (05 ngày làm việc), thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu giám định, thời gian niêm yết công khai (15 ngày), đăng tin trên phương tiện thông tin đại chúng, thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận, thời gian trích đo bản đồ địa chính (05 ngày làm việc).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí; các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí và theo quy định của Hội đồng nhân dân tỉnh và UBND tỉnh."
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Đính chính Giấy chứng nhận đã cấp (cấp xã - tỉnh Phú Thọ)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb112-f607-70ed-8b55-823ee6ee806e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 14 ban hành kèm theo Quyết định số 33/2026/QĐ-UBND ngày 29 tháng 6 năm 2026 của UBND tỉnh Phú Thọ",
+          "code": "H44.TPHS.0000369",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f9212-f35c-7499-9809-bb3be056ab91",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": true,
+          "name": "",
+          "code": "",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb113-6d66-7491-8233-c8559c953cdf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ chứng minh sai sót thông tin về thửa đất, tài sản gắn liền với đất so với thông tin trên Giấy chứng nhận đã cấp đối với trường hợp sai sót thông tin về thửa đất, tài sản gắn liền với đất (nếu có)",
+          "code": "H44.TPHS.0000370",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb113-a1cc-77ad-802e-a54d6566385b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp sai sót thông tin của người được cấp Giấy chứng nhận so với thông tin tại thời điểm đề nghị đính chính thì cơ quan giải quyết thủ tục có trách nhiệm khai thác, sử dụng thông tin về người được cấp Giấy chứng nhận trong Cơ sở dữ liệu quốc gia về dân cư, nếu không thể khai thác được thông tin thì nộp Giấy tờ chứng minh sai sót thông tin của người được cấp Giấy chứng nhận",
+          "code": "H44.TPHS.0000371",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb114-1bb0-707e-83da-809133bf86f1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp người sử dụng đất, chủ sở hữu tài sản gắn liền với đất thực hiện thủ tục thông qua người đại diện theo quy định của pháp luật về dân sự thì phải có văn bản về việc ủy quyền theo quy định của pháp luật về dân sự",
+          "code": "H44.TPHS.0000372",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019f5e83-9df2-77fb-b87c-38e01a072520"
+  ],
+  "subjectTypeIds": [
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019f5e83-9df2-77fb-b87c-38e01a072520",
+      "name": "Giấy chứng nhận",
+      "code": "Giấy chứng nhận"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [
+    {
+      "id": "019feff1-674f-7616-b3bd-6af35d75572f",
+      "name": "Đính chính Giấy chứng nhận đã cấp (cấp xã - tỉnh Phú Thọ)",
+      "code": "1.115992.01",
+      "processingDay": {
+        "qty": 18,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785397272768,
+  "updatedAt": 1785397272768,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "1. Trực tiếp:\n1.1. Trung tâm Phục vụ hành chính công tỉnh Phú Thọ.\n- Cơ sở 1: Địa chỉ: Số 398 - đường Trần Phú - phường Việt Trì - tỉnh Phú Thọ;\nĐT: 0210 2222 555.\n- Cơ sở 2: Địa chỉ: Số 5 - đường Nguyễn Trãi, phường Vĩnh Phúc, tỉnh Phú Thọ;\nĐT: 0211 3616 618.\n- Cơ sở 3: Địa chỉ: Số 485 - đường Trần Hưng Đạo, phường Hòa Bình, tỉnh Phú Thọ;\nĐT: 0218 3868 689.\n1.2. Trung tâm Phục vụ hành chính công các xã, phường trên địa bàn tỉnh Phú Thọ.\n2. Trực tuyến:\nĐịa chỉ truy cập: https://dichvucong.gov.vn/\n3. Dịch vụ Bưu chính công ích.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019facb1-b74a-7752-abe0-45a36aafd4f7",
+    "proposalNumber": "2143/QĐ-UBND",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1785397269411,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

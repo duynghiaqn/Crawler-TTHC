@@ -1,0 +1,225 @@
+{
+  "id": "01a0aeb7-58d9-7788-b2f1-6f9ada561346",
+  "code": "6.006773",
+  "codeNotation": "6.006773",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Căn cứ kết quả rà soát, thống kê, phân loại tài sản theo quy định tại khoản 1 Điều 7 Nghị định số 84/2025/NĐ-CP, cơ quan quản lý hàng hải ở trung ương (đối với tài sản thuộc trung ương quản lý), cơ quan quản lý hàng hải ở địa phương (đối với tài sản thuộc địa phương quản lý) chủ trì, lập 01 bộ hồ sơ đề nghị giao tài sản kết cấu hạ tầng hàng hải quy định tại các điểm b, c, d và đ khoản 1 Điều 7 Nghị định số 84/2025/NĐ-CP cho cơ quan, doanh nghiệp quản lý tài sản quy định tại khoản 1, khoản 2 Điều 5 Nghị định số 84/2025/NĐ-CP, báo cáo cơ quan, người có thẩm quyền quy định tại Điều 6 Nghị định số 84/2025/NĐ-CP (được sửa đổi, bổ sung tại khoản 4 Điều 77 Nghị định số 99/2026/NĐ-CP của Chính phủ). \n- Bước 2: Trong thời hạn 15 ngày, kể từ ngày nhận được đầy đủ hồ sơ theo quy định tại khoản 2 Điều 7 Nghị định số 84/2025/NĐ-CP, cơ quan, người có thẩm quyền quy định tại Điều 6 Nghị định số 84/2025/NĐ-CP (được sửa đổi, bổ sung tại khoản 4 Điều 77 Nghị định số 99/2026/NĐ-CP của Chính phủ) xem xét, quyết định giao tài sản kết cấu hạ tầng hàng hải đối với trường hợp thuộc thẩm quyền hoặc có văn bản trả lời nêu rõ lý do trong trường hợp từ chối."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "Trực tuyến qua Hệ thống phần mềm quản lý văn bản và hồ sơ công việc (TD Office)\n15 ngày kể từ ngày nhận đủ hồ sơ",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Giao quản lý tài sản kết cấu hạ tầng hàng hải",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a04281-1ee5-723a-92db-014815407049",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý hàng hải về việc đề nghị giao tài sản (trong đó xác định cụ thể đối tượng được giao và hình thức giao tài sản)",
+          "code": "TP-H56.0000372",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04281-7ad8-7559-a23b-bb438608c06a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản họp liên ngành hoặc ý kiến bằng văn bản về việc giao tài sản, hình thức giao tài sản của: Cơ quan, tổ chức, đơn vị, doanh nghiệp đang quản lý hoặc tạm quản lý tài sản và cơ quan quản lý cấp trên (nếu có) của cơ quan, tổ chức, đơn vị, doanh nghiệp đó; cơ quan, đơn vị có liên quan của Bộ Xây dựng (đối với tài sản thuộc trung ương quản lý), cơ quan, đơn vị có liên quan của địa phương (đối với tài sản thuộc địa phương quản lý); cơ quan, doanh nghiệp dự kiến được giao quản lý tài sản",
+          "code": "TP-H56.0000373",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04281-cce2-729d-8d9e-0584e0ecb0a5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị giao (tên tài sản; địa chỉ; năm đưa vào sử dụng; thông số cơ bản (số lượng hoặc khối lượng hoặc chiều dài hoặc diện tích,...); nguyên giá, giá trị còn lại (nếu có); giá trị tài sản được xác định, quyết định theo quy định tại khoản 3 Điều này trong trường hợp giao tài sản cho doanh nghiệp quản lý tài sản quy định tại khoản 2 Điều 5 Nghị định số 84/2025/NĐ-CP theo hình thức tính thành phần vốn nhà nước tại doanh nghiệp; tình trạng sử dụng của tài sản) do cơ quan quản lý hàng hải lập",
+          "code": "TP-H56.0000374",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0410d-b222-763d-8833-dffb0c6df678",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ pháp lý về tài sản (Quyết định giao/điều chuyển tài sản, Biên bản bàn giao, tiếp nhận tài sản hoặc các giấy tờ, tài liệu khác chứng minh quyền quản lý, sử dụng, tạm quản lý tài sản (nếu có))",
+          "code": "TP-H56.0000281",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0410e-9bfa-758e-ba92-ec6b9ab09856",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ khác có liên quan (nếu có)",
+          "code": "TP-H56.0000282",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b471-fe1c33ae3b8f",
+    "01a06665-d0ed-76ea-b626-185a168f90a1"
+  ],
+  "resultIds": [
+    "01a04282-218e-70f7-a6d1-f8da53020c42"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b10-50d287f0ba45"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+    "name": "Quản lý công sản",
+    "code": "G12-TC09"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b10-50d287f0ba45",
+      "name": "Văn phòng Ủy ban Nhân dân tỉnh",
+      "code": "H35.1"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b471-fe1c33ae3b8f",
+      "name": "Nghị định số 84/2025/NĐ-CP ngày 04/4/2025 của Chính phủ quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng hàng hải",
+      "code": "84/2025"
+    },
+    {
+      "id": "01a06665-d0ed-76ea-b626-185a168f90a1",
+      "name": "Sửa đổi, bổ sung một số điều của các Nghị định quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng giao thông",
+      "code": "99/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a04282-218e-70f7-a6d1-f8da53020c42",
+      "name": "Quyết định giao quản lý tài sản kết cấu hạ tầng hàng hải",
+      "code": "KQ-H56.0000068"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+  "departmentPromulgateCode": "H56",
+  "departmentPromulgateName": "UBND tỉnh Thanh Hóa",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789954716782,
+  "updatedAt": 1789954716782,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng Ủy ban Nhân dân tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Văn phòng UBND tỉnh Thanh Hóa (Số 35 Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa)",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a03d74-54e5-7620-a931-65ef091b67e5",
+    "proposalNumber": "2349/QĐ-VP",
+    "decisionDate": 1783530000000,
+    "decisionNumber": null,
+    "publicationDate": 1789954714458,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+      "name": "UBND tỉnh Thanh Hóa"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

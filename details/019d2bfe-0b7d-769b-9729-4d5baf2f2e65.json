@@ -1,0 +1,434 @@
+{
+  "id": "019d2bfe-0b7d-769b-9729-4d5baf2f2e65",
+  "code": "1.000597",
+  "codeNotation": "1.000597",
+  "executionSteps": [
+    {
+      "name": "Nộp hồ sơ thủ tục hành chính",
+      "description": "Cơ sở đào tạo, huấn luyện nghiệp vụ nhân viên hàng không gửi hồ sơ trực tiếp tại Bộ phận Một cửa Cục Hàng không Việt Nam hoặc qua dịch vụ bưu chính hoặc trên Cổng Dịch vụ công quốc gia."
+    },
+    {
+      "name": "Giải quyết thủ tục hành chính",
+      "description": "- Giấy chứng nhận được cấp lại trong trường hợp bị mất, rách, hỏng hoặc thay đổi thông tin tên hoặc địa chỉ trên nội dung giấy chứng nhận: Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ theo quy định, Cục Hàng không Việt Nam cấp lại giấy chứng nhận hoặc thông báo từ chối cấp bằng văn bản, nêu rõ lý do - Trường hợp cấp lại do gia hạn Giấy chứng nhận, Cơ sở đào tạo, huấn luyện nghiệp vụ nhân viên hàng không Trong thời hạn 02 ngày làm việc kể từ khi nhận được hồ sơ đề nghị gia hạn Giấy chứng nhận, Cục Hàng không Việt Nam kiểm tra tính hợp lệ của hồ sơ; bố trí nguồn lực và lập kế hoạch kiểm tra, đánh giá để thực hiện gia hạn; Việc nộp phí được thực hiện trong thời hạn 03 ngày làm việc kể từ ngày cơ quan giải quyết thủ tục hành chính xác nhận hồ sơ hợp lệ; quá thời hạn này, các tổ chức, cá nhân không hoàn thành nghĩa vụ tài chính theo quy định, cơ quan giải quyết thủ tục hành chính từ chối giải quyết thủ tục hành chính. Thời gian thực hiện việc nộp phí của tổ chức, cá nhân không tính vào thời gian giải quyết thủ tục hành chính. Trong thời hạn 05 ngày làm việc kể từ ngày thông báo về kế hoạch đánh giá gia hạn, Cục Hàng không Việt Nam hoàn thành các nội dung kiểm tra, đánh giá gia hạn và thông báo kết quả kiểm tra, đánh giá để gia hạn; Trong thời hạn 20 ngày làm việc kể từ khi nhận được thông báo kết quả kiểm tra, đánh giá, tổ chức huấn luyện phải báo cáo Cục Hàng không Việt Nam kế hoạch khắc phục và hoàn thành các yêu cầu phải khắc phục; Cơ sở đào tạo, huấn luyện nghiệp vụ nhân viên hàng không phải báo cáo ngay Cục Hàng không Việt Nam các yêu cầu khắc phục không thể khắc phục hoặc không thể khắc phục đúng thời hạn; Trong thời hạn 03 ngày làm việc kể từ khi nhận được báo cáo và hồ sơ khắc phục, Cục Hàng không Việt Nam sẽ đánh giá, thẩm định kết quả khắc phục để làm căn cứ gia hạn Giấy chứng nhận cơ sở đào tạo, huấn luyện nghiệp vụ nhân viên hàng không Kết quả giải quyết thủ tục hành chính được trả bằng bản điện tử, trừ trường hợp công dân, tổ chức có nhu cầu nhận bản giấy. Hồ sơ và kết quả giải quyết thủ tục hành chính bằng bản điện tử có giá trị pháp lý như bản giấy."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Trường hợp cấp lại do gia hạn Giấy chứng nhận: Trong thời hạn 10 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ theo quy định;\n- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp; - Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp. Từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 15000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp (Từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không).",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp. (Từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không).",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Trường hợp cấp lại do gia hạn Giấy chứng nhận: Trong thời hạn 10 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ theo quy định;\n- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp; - Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp. Từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 15000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp (Từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không).",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp. (Từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không).",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Trường hợp cấp lại do gia hạn Giấy chứng nhận: Trong thời hạn 10 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ theo quy định;\n- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp; - Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp. Từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 15000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp (Từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không).",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp. (Từ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không).",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Giấy chứng nhận được cấp lại trong trường hợp bị mất, rách, hỏng hoặc thay đổi thông tin tên hoặc địa chỉ trên nội dung giấy chứng nhận: Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ theo quy định;\n- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp; - Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp.\nTừ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 15000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp;",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Giấy chứng nhận được cấp lại trong trường hợp bị mất, rách, hỏng hoặc thay đổi thông tin tên hoặc địa chỉ trên nội dung giấy chứng nhận: Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ theo quy định\n- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp; - Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp.\nTừ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 15000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp;",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Giấy chứng nhận được cấp lại trong trường hợp bị mất, rách, hỏng hoặc thay đổi thông tin tên hoặc địa chỉ trên nội dung giấy chứng nhận: Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ theo quy định\n- Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp; - Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp.\nTừ ngày 01 tháng 7 năm 2025 đến hết ngày 31 tháng 12 năm 2026 thu phí bằng 50% mức thu phí quy định tại Mục VI Phần A Biểu mức thu phí, lệ phí trong lĩnh vực hàng không ban hành kèm theo Thông tư số 193/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 15000000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại do thay đổi nội dung: 15.000.000 VNĐ/lần cấp;",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 2400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp lại do mất, rách, hỏng: 2.400.000 VNĐ/lần cấp.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Điều kiện kinh doanh dịch vụ đào tạo, huấn luyện nghiệp vụ nhân viên hàng không \n* Nhà chức trách hàng không Việt Nam cấp Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không khi đáp ứng các yêu cầu sau:\n- Có tổ chức bộ máy, đội ngũ cán bộ quản lý và hệ thống tài liệu đào tạo, huấn luyện để tổ chức thực hiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không theo quy định tại Phụ lục I ban hành kèm theo Nghị định số 221/2026/NĐ-CP;\n- Có cơ sở vật chất phục vụ đào tạo, huấn luyện theo quy định tại Phụ lục II ban hành kèm theo Nghị định số 221/2026/NĐ-CP;\n- Có đủ đội ngũ giáo viên đáp ứng tiêu chuẩn:\n+ Giáo viên cơ sở đào tạo, huấn luyện nghiệp vụ nhân viên hàng không phải đáp ứng các yêu cầu sau:\nCó trình độ chuyên môn phù hợp với môn học, nội dung giảng dạy;\nCó kinh nghiệm làm việc trong lĩnh vực chuyên môn liên quan đến môn giảng dạy;\nĐã hoàn thành khóa đào tạo, bồi dưỡng về kỹ năng, phương pháp giảng dạy phù hợp với chức danh giáo viên.\n+ Giáo viên lý thuyết có trình độ từ đại học trở lên với chuyên ngành đào tạo phù hợp với môn học, nội dung giảng dạy không phải đáp ứng yêu cầu kinh nghiệm làm việc.\n+ Tiêu chuẩn đối với giáo viên cơ sở đào tạo được quy định chi tiết tại Phụ lục III ban hành kèm theo Nghị định 221/2026/NĐ-CP.\n* Cơ sở được cấp giấy chứng nhận đủ điều kiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không có trách nhiệm:\n- Xây dựng và ban hành hệ thống tài liệu đào tạo, huấn luyện phù hợp với Chương trình đào tạo, huấn luyện nghiệp vụ nhân viên hàng không theo quy định của Bộ trưởng Bộ Xây dựng.\n- Hệ thống tài liệu đào tạo, huấn luyện nghiệp vụ nhân viên hàng không trong lĩnh vực bảo đảm hoạt động bay, lĩnh vực tàu bay và khai thác tàu bay phải được Nhà chức trách hàng không Việt Nam phê chuẩn trước khi tổ chức thực hiện đào tạo, huấn luyện;\n- Bảo đảm có đầy đủ đội ngũ giáo viên có kinh nghiệm và phải duy trì năng lực cho đội ngũ giáo viên;\n- Bảo đảm duy trì đủ cơ sở vật chất phù hợp phạm vi đào tạo, huấn luyện được phê chuẩn; thiết bị huấn luyện giả định đối với người lái tàu bay và tiếp viên hàng không phải được Nhà chức trách hàng không Việt Nam phê chuẩn theo quy định của Bộ trưởng Bộ Xây dựng trước khi tổ chức đào tạo, huấn luyện.",
+  "name": "Cấp lại Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Thành phần hồ sơ Giấy chứng nhận được cấp lại trong trường hợp bị mất, rách, hỏng hoặc thay đổi thông tin tên hoặc địa chỉ trên nội dung giấy chứng nhận:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f2838-d707-75cf-b41d-6bea2ae024b6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp lại giấy chứng nhận theo Mẫu;",
+          "code": "TP-G17.000106",
+          "attachments": [
+            {
+              "id": "019f3cdb-418a-720f-8d37-d7c0a4dd36ea",
+              "fileName": "TP-G17.000106MaudondenghicapGiaychungnhancosodaotaohuanluyen.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f3cdb-418a-720f-8d37-d7c0a4dd36ea/TP-G17.000106MaudondenghicapGiaychungnhancosodaotaohuanluyen.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71bf-70ca-b355-7095886440c7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Các tài liệu liên quan đến việc thay đổi nội dung giấy chứng nhận (nếu có).",
+          "code": "000.00.00.G04-KQ2676",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Thành phần hồ sơ trường hợp cấp lại do gia hạn Giấy chứng nhận",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f2838-d707-75cf-b41d-6bea2ae024b6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp lại giấy chứng nhận theo Mẫu;",
+          "code": "TP-G17.000106",
+          "attachments": [
+            {
+              "id": "019f3cdb-418a-720f-8d37-d7c0a4dd36ea",
+              "fileName": "TP-G17.000106MaudondenghicapGiaychungnhancosodaotaohuanluyen.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f3cdb-418a-720f-8d37-d7c0a4dd36ea/TP-G17.000106MaudondenghicapGiaychungnhancosodaotaohuanluyen.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f2839-f7c3-721d-b179-6e219b7fe75e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo toàn bộ tình hình hoạt động, trong đó nêu rõ các thông tin về hiện trạng trang thiết bị, cơ sở vật chất, đội ngũ nhân sự, các thay đổi liên quan, các kết quả đã thực hiện kể từ thời điểm Giấy chứng nhận cơ sở đào tạo, huấn luyện nghiệp vụ nhân viên hàng không được cấp hoặc gia hạn gần nhất",
+          "code": "TP-G17.000108",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4a-d5e2110a1c95",
+    "019d2bb3-5d87-7195-a44a-3b6ecfec48c7",
+    "019f1c84-712a-762c-8cca-b0727a9837ab"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7b-7208-ba47-2a6addd4d337"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+      "name": "Hàng không",
+      "code": "G04-GT06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+    "name": "Hàng không",
+    "code": "G04-GT06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d87-7195-a44a-3b6ecfec48c7",
+      "name": "Thông tư số 64/2025/TT-BCT",
+      "code": "Thông tư số 64/2025/TT-BCT"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4a-d5e2110a1c95",
+      "name": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không",
+      "code": "193/2016/TT-BTC"
+    },
+    {
+      "id": "019f1c84-712a-762c-8cca-b0727a9837ab",
+      "name": "Nghị định về Nhà chức trách hàng không Việt Nam và quản lý an toàn hàng không.",
+      "code": "221/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7b-7208-ba47-2a6addd4d337",
+      "name": "Mẫu Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không",
+      "code": "KQ.G17.000602"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "019d2da5-237c-7587-a826-e2f06577a5fd",
+      "name": "Cấp lại Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không (trừ lĩnh vực đào tạo nhân viên an ninh hàng không)",
+      "code": "1.000597.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a03d17-e824-765c-8541-dd62d20c4f29",
+      "name": "Cấp lại Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không",
+      "code": "1.000597.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559562621,
+  "updatedAt": 1787731367540,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Hàng không Việt Nam",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cục Hàng không Việt Nam, 119 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội",
+  "delegatedAgencies": "Cục Hàng không Việt Nam",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Điều kiện kinh doanh dịch vụ đào tạo, huấn luyện nghiệp vụ nhân viên hàng không \n* Nhà chức trách hàng không Việt Nam cấp Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không khi đáp ứng các yêu cầu sau:\n- Có tổ chức bộ máy, đội ngũ cán bộ quản lý và hệ thống tài liệu đào tạo, huấn luyện để tổ chức thực hiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không theo quy định tại Phụ lục I ban hành kèm theo Nghị định số 221/2026/NĐ-CP;\n- Có cơ sở vật chất phục vụ đào tạo, huấn luyện theo quy định tại Phụ lục II ban hành kèm theo Nghị định số 221/2026/NĐ-CP;\n- Có đủ đội ngũ giáo viên đáp ứng tiêu chuẩn:\n+ Giáo viên cơ sở đào tạo, huấn luyện nghiệp vụ nhân viên hàng không phải đáp ứng các yêu cầu sau:\nCó trình độ chuyên môn phù hợp với môn học, nội dung giảng dạy;\nCó kinh nghiệm làm việc trong lĩnh vực chuyên môn liên quan đến môn giảng dạy;\nĐã hoàn thành khóa đào tạo, bồi dưỡng về kỹ năng, phương pháp giảng dạy phù hợp với chức danh giáo viên.\n+ Giáo viên lý thuyết có trình độ từ đại học trở lên với chuyên ngành đào tạo phù hợp với môn học, nội dung giảng dạy không phải đáp ứng yêu cầu kinh nghiệm làm việc.\n+ Tiêu chuẩn đối với giáo viên cơ sở đào tạo được quy định chi tiết tại Phụ lục III ban hành kèm theo Nghị định 221/2026/NĐ-CP.\n* Cơ sở được cấp giấy chứng nhận đủ điều kiện đào tạo, huấn luyện nghiệp vụ nhân viên hàng không có trách nhiệm:\n- Xây dựng và ban hành hệ thống tài liệu đào tạo, huấn luyện phù hợp với Chương trình đào tạo, huấn luyện nghiệp vụ nhân viên hàng không theo quy định của Bộ trưởng Bộ Xây dựng.\n- Hệ thống tài liệu đào tạo, huấn luyện nghiệp vụ nhân viên hàng không trong lĩnh vực bảo đảm hoạt động bay, lĩnh vực tàu bay và khai thác tàu bay phải được Nhà chức trách hàng không Việt Nam phê chuẩn trước khi tổ chức thực hiện đào tạo, huấn luyện;\n- Bảo đảm có đầy đủ đội ngũ giáo viên có kinh nghiệm và phải duy trì năng lực cho đội ngũ giáo viên;\n- Bảo đảm duy trì đủ cơ sở vật chất phù hợp phạm vi đào tạo, huấn luyện được phê chuẩn; thiết bị huấn luyện giả định đối với người lái tàu bay và tiếp viên hàng không phải được Nhà chức trách hàng không Việt Nam phê chuẩn theo quy định của Bộ trưởng Bộ Xây dựng trước khi tổ chức đào tạo, huấn luyện.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f1c62-d663-7662-900f-fc080643c590",
+    "proposalNumber": "1201/QĐ-BXD",
+    "decisionDate": 1783616400000,
+    "decisionNumber": null,
+    "publicationDate": 1787731365779,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

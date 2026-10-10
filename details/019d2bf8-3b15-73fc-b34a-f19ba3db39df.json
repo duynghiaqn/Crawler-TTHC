@@ -1,0 +1,264 @@
+{
+  "id": "019d2bf8-3b15-73fc-b34a-f19ba3db39df",
+  "code": "2.001282",
+  "codeNotation": "2.001282",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân gửi hồ sơ đề nghị cấp Giấy phép xuất khẩu, nhập khẩu hàng hóa thuộc diện áp dụng biện pháp tạm ngừng xuất khẩu, tạm ngừng nhập khẩu theo quy định tại Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương đến cơ quan cấp phép.\nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định hoặc cần bổ sung tài liệu giải trình, trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận hồ sơ, cơ quan cấp phép thông báo để thương nhân hoàn thiện hồ sơ.\nc) Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan cấp phép gửi hồ sơ tới Bộ, cơ quan ngang Bộ có liên quan để xin ý kiến. \nd) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được công văn xin ý kiến của cơ quan cấp phép, Bộ, cơ quan ngang Bộ có liên quan có văn bản trả lời cơ quan cấp phép về việc đồng ý hay không đồng ý cấp phép nhập khẩu. Trường hợp không đồng ý cấp phép, Bộ, cơ quan ngang Bộ có liên quan nêu rõ lý do.\nđ)  Trong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản trả lời của Bộ, cơ quan ngang Bộ có liên quan, cơ quan cấp phép cấp Giấy phép cho thương nhân xuất khẩu, nhập khẩu hàng hóa. Trường hợp không cấp Giấy phép, cơ quan cấp phép có văn bản trả lời, nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục cấp Giấy phép xuất khẩu, nhập khẩu hàng hóa thuộc diện áp dụng biện pháp tạm ngừng xuất khẩu, tạm ngừng nhập khẩu",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0130e-2c93-74b9-bb97-20ba4129ebf3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Đơn đề nghị cấp Giấy phép xuất khẩu, nhập khẩu hàng hóa thuộc diện áp dụng biện pháp tạm ngừng xuất khẩu, tạm ngừng nhập khẩu, theo mẫu số 01 quy định tại Phụ lục VII Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương: 01 bản chính.",
+          "code": "XNK-292-014",
+          "attachments": [
+            {
+              "id": "01a0130f-4b5a-708c-a9d6-e39f9dc85c6c",
+              "fileName": "Đơn đề nghị xuất khẩu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0130f-4b5a-708c-a9d6-e39f9dc85c6c/Đơn đề nghị xuất khẩu.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0130e-76e3-721b-99d6-781e1149e372",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Tài liệu thuyết minh về kế hoạch sử dụng, quy trình quản lý hàng hóa xuất khẩu, nhập khẩu trong quá trình sử dụng; phương án xử lý hàng hóa xuất khẩu, nhập khẩu sau khi sử dụng: 01 bản chính.",
+          "code": "XNK-292-15",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0130e-d22a-76da-b9fb-9ea9523604cc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Báo cáo tình hình thực hiện các giấy phép đã được cấp trước đó (nếu có): 01 bản chính.",
+          "code": "XNK-016",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3"
+  ],
+  "resultIds": [
+    "01a0130f-c06f-760b-aaad-5c6f41422beb"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0130f-c06f-760b-aaad-5c6f41422beb",
+      "name": "Giấy phép của cơ quan có thẩm quyền hoặc văn bản từ chối cấp phép.",
+      "code": "KQ-109"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "019f649d-afef-731b-9122-083848c1ec19",
+      "name": "Thủ tục cấp Giấy phép xuất khẩu, nhập khẩu hàng hóa đã có quyết định tạm ngừng xuất khẩu, tạm ngừng nhập khẩu nhằm phục vụ mục đích đặc dụng, bảo hành, phân tích, kiểm nghiệm, nghiên cứu khoa học, y tế, sản xuất dược phẩm, bảo vệ quốc phòng, an ninh",
+      "code": "2.001282.02",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a013f3-dd0c-730f-b05c-959695224744",
+      "name": "Thủ tục cấp Giấy phép xuất khẩu, nhập khẩu hàng hóa thuộc diện áp dụng biện pháp tạm ngừng xuất khẩu, tạm ngừng nhập khẩu",
+      "code": "2.001282.02",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019dc0f7-3439-708f-9e6b-7ad405641c45",
+      "name": "Thủ tục cấp Giấy phép xuất khẩu, nhập khẩu hàng hóa đã có quyết định tạm ngừng xuất khẩu, tạm ngừng nhập khẩu nhằm phục vụ mục đích đặc dụng, bảo hành, phân tích, kiểm nghiệm, nghiên cứu khoa học, y tế, sản xuất dược phẩm, bảo vệ quốc phòng, an ninh",
+      "code": "2.001282.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559181589,
+  "updatedAt": 1787041142035,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a00ebe-e04a-721a-881a-9da433d007cd",
+    "proposalNumber": "2040/QĐ-BCT",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1787041141457,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

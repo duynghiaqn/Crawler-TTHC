@@ -1,0 +1,314 @@
+{
+  "id": "019d2bfe-90a3-7380-bff5-eec6890fd74e",
+  "code": "1.013237",
+  "codeNotation": "1.013237",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cá nhân nộp trực tiếp, qua dịch vụ bưu chính hoặc trực tuyến 01 bộ hồ sơ đề nghị cấp chứng chỉ hành nghề hoạt động xây dựng đến  Bộ phận một cửa.\n- Trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan có thẩm quyền cấp chứng chỉ hành nghề có trách nhiệm thông báo một lần bằng văn bản tới cá nhân đề nghị cấp chứng chỉ hành nghề trường hợp hồ sơ không đầy đủ hoặc không hợp lệ;\n- Trong thời hạn 02 ngày làm việc kể từ ngày có kết quả đánh giá hồ sơ của Hội đồng, cơ quan có thẩm quyền cấp chứng chỉ hành nghề thông báo kết quả đánh giá hồ sơ đủ điều kiện hoặc không đủ điều kiện cấp chứng chỉ hành nghề cho cá nhân đề nghị cấp chứng chỉ.\n- Trong thời hạn 06 ngày làm việc kể từ ngày có thông báo kết quả đánh giá hồ sơ đủ điều kiện của Hội đồng, cơ quan có thẩm quyền cấp chứng chỉ hành nghề cấp chứng chỉ hành nghề cho cá nhân đủ điều kiện, đồng thời nhập dữ liệu để khởi tạo mã định danh trên Hệ thống thông tin về hoạt động xây dựng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "06 ngày làm việc kể từ ngày có thông báo kết quả đánh giá hồ sơ đủ điều kiện.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Bộ trưởng Bộ Tài chính"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "06 ngày làm việc kể từ ngày có thông báo kết quả đánh giá hồ sơ đủ điều kiện.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Bộ trưởng Bộ Tài chính"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "06 ngày làm việc kể từ ngày có thông báo kết quả đánh giá hồ sơ đủ điều kiện.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Bộ trưởng Bộ Tài chính"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Cấp mới chứng chỉ hành nghề hoạt động xây dựng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f41d8-6be0-72ae-b2e4-ea224b4e0c95",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp chứng chỉ hành nghề theo Mẫu số 01 Phụ lục III ban hành kèm theo Nghị định số 212/2026/NĐ-CP (bản gốc trong trường hợp nộp trực tiếp hoặc thông qua dịch vụ bưu chính; trường hợp nộp trực tuyến thì kê khai thông tin trên biểu mẫu điện tử tương tác trên Cổng dịch vụ công quốc gia)",
+          "code": "TP-G17.000149",
+          "attachments": [
+            {
+              "id": "019f5adb-8525-771d-8548-6d876ea6bac8",
+              "fileName": "TP - G17.000149.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f5adb-8525-771d-8548-6d876ea6bac8/TP - G17.000149.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f41d9-0103-7399-936b-cc082fde9b59",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tệp tin ảnh màu cỡ 4x6 cm có nền màu trắng chân dung của người đề nghị cấp chứng chỉ hành nghề được chụp trong thời gian không quá 06 tháng",
+          "code": "TP-G17.000150",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41d9-79ff-7279-8e8c-6d06d7df069f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao có chứng thực hoặc tệp tin bản sao điện tử được chứng thực theo quy định: Văn bằng do cơ sở đào tạo hợp pháp cấp phù hợp với lĩnh vực, hạng chứng chỉ hành nghề đề nghị cấp; trường hợp trên văn bằng không ghi hoặc ghi không rõ chuyên ngành đào tạo thì phải nộp kèm bảng điểm hoặc phụ lục văn bằng để làm cơ sở kiểm tra, đánh giá (đối với văn bằng do cơ sở đào tạo nước ngoài cấp, trường hợp cá nhân là người nước ngoài và người Việt Nam định cư ở nước ngoài phải là bản được hợp pháp hóa lãnh sự và bản dịch sang tiếng Việt được công chứng, chứng thực theo quy định của pháp luật Việt Nam; các trường hợp còn lại văn bằng do cơ sở đào tạo nước ngoài cấp phải được hệ thống giáo dục Việt Nam công nhận). Trường hợp thông tin về văn bằng, trình độ đào tạo, chuyên ngành đào tạo đã được lưu trữ, kết nối, chia sẻ và xác thực từ Cơ sở dữ liệu ngành Giáo dục hoặc cơ sở dữ liệu có thẩm quyền khác thì cá nhân không phải nộp tài liệu này;",
+          "code": "TP-G17.000151",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41d9-eb11-723e-a9f1-95648457b194",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao có chứng thực hoặc tệp tin bản sao điện tử được chứng thực theo quy định: Chứng chỉ hành nghề (nếu có) đã được cơ quan có thẩm quyền cấp trước đó phù hợp với thời gian và phạm vi chứng minh kinh nghiệm. Trường hợp thông tin chứng chỉ hành nghề đã được lưu trữ, cập nhật, kết nối, chia sẻ và xác thực trong Cơ sở dữ liệu quốc gia về hoạt động xây dựng hoặc cơ sở dữ liệu của cơ quan chuyên môn về xây dựng thì cá nhân không phải nộp tài liệu này",
+          "code": "TP-G17.000152",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41da-692c-727e-a6f4-c67febb9d0d7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao có chứng thực hoặc tệp tin bản sao điện tử được chứng thực theo quy định: Các quyết định phân công công việc (giao nhiệm vụ) của tổ chức cho cá nhân hoặc văn bản xác nhận của đại diện hợp pháp của chủ đầu tư và chịu trách nhiệm về tính trung thực của nội dung xác nhận về các công việc mà cá nhân đã hoàn thành theo nội dung kê khai hoặc văn bản của các cơ quan chuyên môn về xây dựng có nội dung liên quan đến kinh nghiệm của cá nhân kê khai; hợp đồng kinh tế và biên bản nghiệm thu các công việc thực hiện đã kê khai đối với trường hợp cá nhân hành nghề độc lập;",
+          "code": "TP-G17.000153",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41da-ea57-745d-92e1-b70933125795",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao có chứng thực hoặc tệp tin bản sao điện tử được chứng thực theo quy định: Giấy tờ về cư trú hoặc giấy phép lao động tại Việt Nam đối với người nước ngoài hoặc người Việt Nam định cư ở nước ngoài",
+          "code": "TP-G17.000154",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f1d67-d525-7040-bc15-3156f4c4411c",
+    "019f5b4e-9575-73cf-9db7-d85e5179923b"
+  ],
+  "resultIds": [
+    "019fe442-bbbd-7546-ad29-8a3eabf82dea"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+      "name": "Hoạt động xây dựng",
+      "code": "G17-XD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+    "name": "Hoạt động xây dựng",
+    "code": "G17-XD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d7511-da0f-746d-aeb5-b2bc21ecab4d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d7511-da0f-746d-aeb5-b2bc21ecab4d",
+      "name": "UBND cấp tỉnh hoặc cơ quan có thẩm quyền do UBND cấp tỉnh quyết định việc phân cấp hoặc ủy quyền theo quy định của Luật Tổ chức chính quyền địa phương số 72/2025/QH15"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f1d67-d525-7040-bc15-3156f4c4411c",
+      "name": "Luật Xây dựng",
+      "code": "135/2025/QH15"
+    },
+    {
+      "id": "019f5b4e-9575-73cf-9db7-d85e5179923b",
+      "name": "Nghị định số 212/2026/NĐ-CP ngày 17/6/2026 của Chính phủ quy định về điều kiện năng lực hoạt động xây dựng, hệ thống thông tin, cơ sở dữ liệu quốc gia về hoạt động xây dựng.",
+      "code": "212/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fe442-bbbd-7546-ad29-8a3eabf82dea",
+      "name": "Chứng chỉ hành nghề hoạt động xây dựng",
+      "code": "KQ-G17.000098"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "01a00e79-d78c-7132-9d88-bd075c9fd0c3",
+      "name": "Cấp mới chứng chỉ hành nghề hoạt động xây dựng",
+      "code": "1.013237.01",
+      "processingDay": {
+        "qty": 55,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019daff3-36cc-76e2-9190-73bf9187cd67",
+      "name": "Cấp mới chứng chỉ hành nghề hoạt động xây dựng",
+      "code": "1.013237.01",
+      "processingDay": {
+        "qty": 55,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559596707,
+  "updatedAt": 1786949252402,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f3649-8985-7142-a495-0228f712ad67",
+    "proposalNumber": "1077/QĐ-BXD",
+    "decisionDate": 1782666000000,
+    "decisionNumber": null,
+    "publicationDate": 1786949250428,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "id": "019d2bfc-54be-763f-9ca5-24f99b8e4331",
+  "code": "1.008339",
+  "codeNotation": "1.008339",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: \nTrường hợp khai thuế đối với hãng hàng không nước ngoài: Văn phòng bán vé, đại lý tại Việt Nam của hãng Hàng không nước ngoài có trách nhiệm khai thuế TNDN và nộp thuế cho hãng Hàng không nước ngoài. Hồ sơ khai thuế được nộp cho cơ quan thuế quản lý trực tiếp Văn phòng bán vé, đại lý tại Việt Nam của hãng Hàng không nước ngoài. Khai thuế TNDN cho hãng Hàng không nước ngoài là loại khai theo quý.\nTrường hợp khai thuế đối với hãng vận tải nước ngoài: Tổ chức làm đại lý tàu biển hoặc đại lý giao nhận vận chuyển hàng hóa cho các hãng vận tải nước ngoài (sau đây gọi chung là đại lý của hãng vận tải) có trách nhiệm khấu trừ và nộp thuế thay cho các hãng vận tải nước ngoài. Hồ sơ khai thuế đối với hãng vận tải nước ngoài được nộp cho cơ quan thuế quản lý trực tiếp bên đại lý của hãng vận tải. Khai thuế đối với hãng vận tải nước ngoài là tạm nộp theo quý và quyết toán theo năm."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan thuế tiếp nhận hồ sơ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "name": ". Khai thuế đối với hãng hàng không nước ngoài/hãng vận tải nước ngoài",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(i) Đối với khai thuế đối với hãng hàng không nước ngoài gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f31-08b24a1cb150",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế thu nhập doanh nghiệp đối với hãng hàng không nước ngoài theo mẫu số 01/HKNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0011854",
+          "attachments": [
+            {
+              "id": "019facb7-5063-70fc-ad27-b6708da197ee",
+              "fileName": "7. 01.HKNN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facb7-5063-70fc-ad27-b6708da197ee/7. 01.HKNN.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f31-0f16f987575c",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hợp đồng nhà thầu, hợp đồng nhà thầu phụ (đối với lần khai thuế đầu tiên của hợp đồng nhà thầu)",
+          "code": "G12.0011855",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(ii) Đối với khai thuế đối với hãng vận tải nước ngoài gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f31-2be5062f1280",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai quyết toán thuế TNDN đối với hãng vận tải nước ngoài theo Mẫu số 01/VTNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0011862",
+          "attachments": [
+            {
+              "id": "019facb9-4712-755b-94c1-7c082d6e7e6d",
+              "fileName": "8. 01.VTNN.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facb9-4712-755b-94c1-7c082d6e7e6d/8. 01.VTNN.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b4-7308-8115-a6d771a4bfb7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục bảng kê bảng kê thu nhập vận tải quốc tế (áp dụng đối với trường hợp hoán đổi/chia chỗ) theo mẫu số 01-2/VTNN",
+          "code": "G12.0008148",
+          "attachments": [
+            {
+              "id": "019facbb-7045-75e9-a032-dc50275d1d91",
+              "fileName": "10. 01-2.VTNN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facbb-7045-75e9-a032-dc50275d1d91/10. 01-2.VTNN.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b4-7308-8115-a1fa2af9533d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục bảng kê thu nhập vận tải quốc tế (áp dụng đối với doanh nghiệp khai thác tàu) theo mẫu số 01-1/VTNN",
+          "code": "G12.0008147",
+          "attachments": [
+            {
+              "id": "019facbc-0d04-7031-b7f2-316a6f6b360a",
+              "fileName": "9. 01-1.VTNN.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facbc-0d04-7031-b7f2-316a6f6b360a/9. 01-1.VTNN.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b4-7308-8115-a8de1ae8c13d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục Bảng kê doanh thu lưu công-ten-nơ theo mẫu số 01-3/VTNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0008149",
+          "attachments": [
+            {
+              "id": "019facbc-f097-773c-ba9e-8157ba10c1d2",
+              "fileName": "11. 01-3.VTNN.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facbc-f097-773c-ba9e-8157ba10c1d2/11. 01-3.VTNN.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019facbf-2d51-72e1-a6e8-6dab99d0d872",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì các tờ khai 01/HKNN, 01/VTNN, 01-1/VTNN, 01-2/VTNN, 01-3/VTNN thực hiện theo mẫu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính (đã được sửa đổi, bổ sung)",
+          "code": "G12.0008150",
+          "attachments": [
+            {
+              "id": "019facbf-24aa-700a-a204-7fe65e48af75",
+              "fileName": "01-3 VTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facbf-24aa-700a-a204-7fe65e48af75/01-3 VTNN TT 80.docx"
+            },
+            {
+              "id": "019facbf-2598-7710-ab5d-32ae5190953b",
+              "fileName": "01-2 VTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facbf-2598-7710-ab5d-32ae5190953b/01-2 VTNN TT 80.docx"
+            },
+            {
+              "id": "019facbf-2699-747b-8f5b-c6060f36fa39",
+              "fileName": "01-1 VTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facbf-2699-747b-8f5b-c6060f36fa39/01-1 VTNN TT 80.docx"
+            },
+            {
+              "id": "019facbf-27b9-750e-81de-bbf023f5531b",
+              "fileName": "01 VTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facbf-27b9-750e-81de-bbf023f5531b/01 VTNN TT 80.docx"
+            },
+            {
+              "id": "019facbf-28b2-72a5-9e5d-6f1d91e25cb9",
+              "fileName": "01 HKNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facbf-28b2-72a5-9e5d-6f1d91e25cb9/01 HKNN TT 80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Tổ chức khai thay, nộp thay",
+  "keywords": "Khai thuế, hãng hàng không nước ngoài, hãng vận tải nước ngoài",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96e1-59c6a510ec9f"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96e1-59c6a510ec9f",
+      "name": "Hồ sơ gửi đến cơ quan thuế không có kết quả giải quyết.",
+      "code": "KQ.G12.000429"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2d90-85e4-72cd-9aa2-5f397d9cdbed",
+      "name": "Khai thuế đối với hãng vận tải nước ngoài",
+      "code": "1.008339.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-ced8-70b8-8eea-ae0c2718ca55",
+      "name": "Khai thuế đối với hãng vận tải nước ngoài",
+      "code": "1.008339.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559450302,
+  "updatedAt": 1785399199253,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/Thuế cơ sở/ Chi cục thuế Doanh nghiệp lớn/Chi cục thuế Thương mại điện tử.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

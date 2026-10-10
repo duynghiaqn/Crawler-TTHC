@@ -1,0 +1,333 @@
+{
+  "id": "019d2bf7-6f17-7561-bd4d-811d3c432237",
+  "code": "1.003326",
+  "codeNotation": "1.003326",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Chuẩn bị hồ sơ theo quy định của pháp luật\nBước 2: Nộp hồ sơ trực tiếp vào giờ hành chính các ngày làm việc trong tuần tại tại một trong hai trụ sở làm việc của Cục Quản lý xuất nhập cảnh: \n+ Số 69 đường Mạc Thái Tổ, phường Yên Hòa, TP Hà Nội.\n+ Số 333 - 335 - 337 đường Nguyễn Trãi, phường Cầu Ông Lãnh, TP Hồ Chí Minh. \nHoặc nộp hồ sơ trực tuyến qua Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an và gửi hồ sơ bổ sung qua dịch vụ bưu chính công ích theo thông báo của Cục Quản lý xuất nhập cảnh trên Cổng dịch vụ công trực tuyến (nếu có).\n* Cán bộ tiếp nhận hồ sơ kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Nếu hồ sơ đầy đủ, hợp lệ thì tiếp nhận hồ sơ, in và cấp giấy hẹn trả kết quả cho người nộp hồ sơ; yêu cầu nộp phí cho cán bộ thu phí, cán bộ thu phí giao biên lai thu tiền cho người nộp hồ sơ hoặc thông báo trên Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an để người nộp hồ sơ thanh toán trực tuyến và nhận biên lai điện tử.\n+ Nếu hồ sơ thiếu hoặc không hợp lệ thì cán bộ tiếp nhận hồ sơ hướng dẫn hoặc thông báo trên Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an để người nộp hồ sơ hoàn chỉnh\n+ Trường hợp hồ sơ không đủ điều kiện thì không tiếp nhận hồ sơ, trả lời bằng văn bản hoặc thông báo trên Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an và nêu rõ lý do\n* Thời gian tiếp nhận hồ sơ: Từ thứ 2 đến sáng thứ 7 hàng tuần (trừ ngày Tết, ngày lễ)\nBước 3: Nhận kết quả:\n+ Người nộp hồ sơ trực tiếp nhận kết quả tại Cục Quản lý xuất nhập cảnh; khi đến nhận kết quả trực tiếp mang theo giấy hẹn trả kết quả, giấy tờ tùy thân để đối chiếu. Trường hợp đề nghị nhận kết quả qua dịch vụ bưu chính thực hiện theo hướng dẫn của cơ quan cung cấp dịch vụ bưu chính.\n+ Trường hợp không đồng ý gia hạn tạm trú thì trả lời bằng văn bản hoặc thông báo trên Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an và nêu rõ lý do.\n+ Thời gian trả kết quả: Từ thứ 2 đến thứ 6 hàng tuần (trừ ngày Tết, ngày lễ)"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "nộp hồ sơ trực tuyến qua Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an. không quá 05 ngày làm việc kể từ khi nhận đủ hồ sơ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 10,
+          "currencyId": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
+          "attachment": null,
+          "description": "10 USD/lần.",
+          "currencyName": "USD"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "nộp bổ sung hồ sơ qua dịch vụ bưu chính công ích theo thông báo của Cục Quản lý xuất nhập cảnh trên Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an (nếu có). không quá 05 ngày làm việc kể từ khi nhận đủ hồ sơ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 10,
+          "currencyId": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
+          "attachment": null,
+          "description": "10 USD/lần.",
+          "currencyName": "USD"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "nộp hồ sơ trực tiếp tại trụ sở Cục Quản lý xuất nhập cảnh. không quá 05 ngày làm việc kể từ khi nhận đủ hồ sơ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 10,
+          "currencyId": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
+          "attachment": null,
+          "description": "10 USD/lần.",
+          "currencyName": "USD"
+        }
+      ]
+    }
+  ],
+  "description": "+ Trước khi làm thủ tục mời, bảo lãnh người nước ngoài nhập cảnh Việt Nam, cơ quan, tổ chức cần phải nộp hồ sơ theo quy định tại khoản 2, Điều 16, Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam\n+ Người nước ngoài có hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế, có thị thực (trừ trường hợp miễn thị thực), chứng nhận tạm trú do cơ quan có thẩm quyền Việt Nam cấp, đang cư trú tại Việt Nam và không thuộc diện \"chưa cho nhập cảnh Việt Nam\".\n+ Công dân Việt Nam thường trú ở trong nước đề nghị gia hạn tạm trú cho người nước ngoài thuộc diện đối tượng được quy định tại khoản 1 Điều 45 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam phải xuất trình giấy tờ chứng minh quan hệ.\n*Các giấy tờ chứng minh đủ điều kiện thực hiện thủ tục hành chính nếu đã có trong cơ sở dữ liệu quốc gia hoặc cơ sở dữ liệu chuyên ngành mà cơ quan tiếp nhận, giải quyết thủ tục khai thác, sử dụng được thì không yêu cầu cơ quan, tổ chức, cá nhân phải cung cấp.",
+  "name": "Gia hạn tạm trú cho người nước ngoài tại Việt Nam (thực hiện tại cấp Trung ương)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7167-703c-b036-b0025fa1514d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của người nước ngoài.",
+          "code": "000.00.00.G01-KQ002285",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7167-703c-b036-b601ed7eb85c",
+          "originalQty": 0,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp nộp hồ sơ trực tuyến thì hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của người nước ngoài phải gửi qua dịch vụ bưu chính công ích về cơ quan tiếp nhận; thành phần hồ sơ khác  phải được chứng thực điện tử theo quy định, trường hợp chưa được chứng thực điện tử thì gửi hồ sơ về cơ quan tiếp nhận thông qua dịch vụ bưu chính công ích.",
+          "code": "000.00.00.G01-KQ002286",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7168-7766-84da-e8958b68a3f5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai đề nghị cấp thị thực, gia hạn tạm trú (mẫu NA5) ban hành kèm theo Thông tư số 22/2023/TT-BCA ngày 30/6/2023.",
+          "code": "000.00.00.G01-KQ002618",
+          "attachments": [
+            {
+              "id": "019dd006-449c-72ae-8b6e-e2301b1dc93e",
+              "fileName": "NA5 (1).doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019dd006-449c-72ae-8b6e-e2301b1dc93e/NA5 (1).doc"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b0-c819e290d773"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7b-7049-8fc6-bf397506ad71",
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d86-7760-a645-08dd5ede9baf",
+    "019da523-7834-71ed-9461-2ac0a510544b",
+    "019f178a-9238-735e-b060-ab6c2b280a2a",
+    "019d2bb3-5d86-7760-a644-be2cc1fc1209",
+    "019f1783-0dbd-7601-8c3b-7dff57223300",
+    "019ff54a-a8f3-7479-8dc1-7e9daf1a91d9"
+  ],
+  "resultIds": [
+    "019d2bb2-1c37-76e8-b48c-9ac92eba5c39"
+  ],
+  "subjectTypeIds": [
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6990-6a92-7166-a335-f87bf9f53428"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6ada-753f-9ac8-5d6c431d6aab"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6ada-753f-9ac8-5d6c431d6aab"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b0-c819e290d773",
+      "name": "Quản lý xuất nhập cảnh",
+      "code": "G01-CA11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b0-c819e290d773",
+    "name": "Quản lý xuất nhập cảnh",
+    "code": "G01-CA11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-5d6c431d6aab",
+      "name": "Cục quản lý xuất nhập cảnh",
+      "code": "CQLXNC"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-5d6c431d6aab",
+      "name": "Cục quản lý xuất nhập cảnh",
+      "code": "CQLXNC"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d86-7760-a644-be2cc1fc1209",
+      "name": "Nghị quyết số 222/2025/QH15",
+      "code": "222/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7b-7049-8fc6-bf397506ad71",
+      "name": "Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam",
+      "code": "47/2014/QH13"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a645-08dd5ede9baf",
+      "name": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023",
+      "code": "23/2023/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019da523-7834-71ed-9461-2ac0a510544b",
+      "name": "sửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia",
+      "code": "367/2025/NĐ-CP"
+    },
+    {
+      "id": "019ff54a-a8f3-7479-8dc1-7e9daf1a91d9",
+      "name": "Thông tư số 70/2026/TT-BCA ngày 25/05/2026 của Bộ Công an Sửa đổi, bổ sung một số điều của Thông tư số 04/2015/TT-BCA ngày 05 tháng 01 năm 2015 của Bộ trưởng Bộ Công an quy định mẫu giấy tờ liên quan đến việc nhập cảnh, xuất cảnh, cư trú của người nước ngoài tại Việt Nam (được sửa đổi, bổ sung một số điều tại Thông tư số 57/2020/TT-BCA ngày 10 tháng 6 năm 2020 và Thông tư số 22/2023/TT-BCA ngày 30 tháng 6 năm 2023) và Thông tư số 31/2015/TT-BCA ngày 06 tháng 7 năm 2015 của Bộ trưởng Bộ Công an hướng dẫn một số nội dung về cấp thị thực, cấp thẻ tạm trú, cấp giấy phép xuất nhập cảnh, giải quyết thường trú cho người nước ngoài tại Việt Nam (được sửa đổi, bổ sung một số điều tại Thông tư số 65/2022/TT-BCA ngày 30 tháng 12 năm 2022 và Thông tư số 06/2025/TT-BCA ngày 16  tháng 01 năm 2025).",
+      "code": "Thông tư số 70/2026/TT-BCA"
+    },
+    {
+      "id": "019f178a-9238-735e-b060-ab6c2b280a2a",
+      "name": "Thông tư số 28/2026/TT-BTC ngày 27/3/2026  của Bộ Tài chính quy định mức thu, chế độ thu, nộp phí, lệ phí trong lĩnh vực xuất cảnh, nhập cảnh, quá cảnh, cư trú tại Việt Nam",
+      "code": "28/2026/TT-BTC"
+    },
+    {
+      "id": "019f1783-0dbd-7601-8c3b-7dff57223300",
+      "name": "Nghị định số 327/2025/NĐ-CP ngày 18/12/2025 của Chính phủ quy định về chính sách nhập cảnh, xuất cảnh, cư trú đối với người nước ngoài tại Trung tâm tài chính quốc tế tại Việt Nam",
+      "code": "327/2025/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c37-76e8-b48c-9ac92eba5c39",
+      "name": "Gia hạn chứng nhận tạm trú",
+      "code": "KQ.G01.000077"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [
+    {
+      "id": "019f1b64-8af0-756d-af67-08b7a915bdab",
+      "name": "Gia hạn tạm trú cho người nước ngoài tại Việt Nam thực hiện tại Cục",
+      "code": "1.003326.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019ff58d-5b95-73bb-b340-a887dfd78b66",
+      "name": "Gia hạn tạm trú cho người nước ngoài tại Việt Nam (thực hiện tại cấp Trung ương)",
+      "code": "1.003326.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019df0d7-e77b-77dc-96ab-5d4b7a749248",
+      "name": "Gia hạn tạm trú cho người nước ngoài tại Việt Nam thực hiện tại Cục",
+      "code": "1.003326.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559129367,
+  "updatedAt": 1786531107488,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục quản lý xuất nhập cảnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Cục quản lý xuất nhập cảnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "+ Trước khi làm thủ tục mời, bảo lãnh người nước ngoài nhập cảnh Việt Nam, cơ quan, tổ chức cần phải nộp hồ sơ theo quy định tại khoản 2, Điều 16, Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam\n+ Người nước ngoài có hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế, có thị thực (trừ trường hợp miễn thị thực), chứng nhận tạm trú do cơ quan có thẩm quyền Việt Nam cấp, đang cư trú tại Việt Nam và không thuộc diện \"chưa cho nhập cảnh Việt Nam\".\n+ Công dân Việt Nam thường trú ở trong nước đề nghị gia hạn tạm trú cho người nước ngoài thuộc diện đối tượng được quy định tại khoản 1 Điều 45 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam phải xuất trình giấy tờ chứng minh quan hệ.\n*Các giấy tờ chứng minh đủ điều kiện thực hiện thủ tục hành chính nếu đã có trong cơ sở dữ liệu quốc gia hoặc cơ sở dữ liệu chuyên ngành mà cơ quan tiếp nhận, giải quyết thủ tục khai thác, sử dụng được thì không yêu cầu cơ quan, tổ chức, cá nhân phải cung cấp.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff536-ec1e-741b-84c7-dbfef84cb759",
+    "proposalNumber": "4946/QĐ-BCA-QLXNC",
+    "decisionDate": 1785862800000,
+    "decisionNumber": null,
+    "publicationDate": 1786531107282,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

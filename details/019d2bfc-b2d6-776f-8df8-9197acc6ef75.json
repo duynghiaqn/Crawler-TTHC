@@ -1,0 +1,358 @@
+{
+  "id": "019d2bfc-b2d6-776f-8df8-9197acc6ef75",
+  "code": "1.010761",
+  "codeNotation": "1.010761",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "+ Bước 1: Các tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác tại khoản 2 Điều 2 Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính đáp ứng các tiêu chuẩn kỹ thuật theo công khai của Cục Thuế theo quy định tại điểm a khoản 3 Điều 93 Thông tư số 89/2026/TT-BTC ngày 30/6/2026 lập văn bản đề nghị kết nối (kèm theo các hồ sơ, tài liệu chứng minh hệ thống đáp ứng tiêu chuẩn kết nối)/Thay đổi, bổ sung thông tin kết nối/Ngừng kết nối và gửi đến Cục Thuế.\n\t++ Trường hợp nộp hồ sơ qua giao dịch điện tử: Các tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác truy cập vào Cổng Dịch vụ công quốc gia/ Hệ thống thông tin quản lý thuế để lập hồ sơ điện tử, ký điện tử và gửi đến cơ quan thuế.\n++ Trường hợp nộp hồ sơ trực tiếp/qua bưu chính: Các tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác lập hồ sơ giấy, ký và gửi đến Cục Thuế hoặc qua đường bưu chính."
+    },
+    {
+      "name": "",
+      "description": "+ Bước 2: Cơ quan thuế tiếp nhận hồ sơ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp (1): Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị kết nối của tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác; Cục Thuế có thông báo về việc chấp thuận hoặc không chấp thuận văn bản đề nghị kết nối; hoặc yêu cầu bổ sung thông tin. \nTrong thời hạn 05 ngày làm việc kể từ ngày ký biên bản kiểm tra với kết quả là đạt, Cục Thuế và tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác thống nhất nội dung, thời gian ký thỏa thuận. \nTrong thời hạn 10 ngày làm việc, nếu biên bản kiểm tra có kết quả là không đáp ứng các tiêu chuẩn kết nối thì Cục Thuế có văn bản thông báo từ chối ký thỏa thuận và nêu rõ lý do. \nTrong thời hạn 15 ngày làm việc kể từ ngày cơ quan thuế ban hành Thông báo yêu cầu giải trình bổ sung thông tin nếu tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác không giải trình, bổ sung thông tin thì cơ quan thuế thực hiện đóng hồ sơ.\n(ii) Trường hợp (2): 05 ngày làm việc kể từ ngày nhận được đầy đủ thông tin bổ sung và hồ sơ kèm theo (nếu có); hoặc 05 ngày làm việc kể từ ngày ký biên bản kiểm tra với kết quả là đạt (đối với trường hợp các thay đổi liên quan đến tiêu chuẩn kỹ thuật ảnh hưởng đến việc kết nối); Cục Thuế và tổ chức đã tham gia kết nối thống nhất nội dung, thời gian ký thỏa thuận bổ sung.\n(iii) Trường hợp (3): Trong thời hạn 10 ngày làm việc kể từ ngày Cục Thuế nhận được thông báo ngừng cung cấp dịch vụ của tổ chức đã tham gia kết nối thì 2 bên ký biên bản chấm dứt thỏa thuận.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "(i) Trường hợp (1): Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị kết nối của tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác; Cục Thuế có thông báo về việc chấp thuận hoặc không chấp thuận văn bản đề nghị kết nối; hoặc yêu cầu bổ sung thông tin. \nTrong thời hạn 05 ngày làm việc kể từ ngày ký biên bản kiểm tra với kết quả là đạt, Cục Thuế và tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác thống nhất nội dung, thời gian ký thỏa thuận. \nTrong thời hạn 10 ngày làm việc, nếu biên bản kiểm tra có kết quả là không đáp ứng các tiêu chuẩn kết nối thì Cục Thuế có văn bản thông báo từ chối ký thỏa thuận và nêu rõ lý do. \nTrong thời hạn 15 ngày làm việc kể từ ngày cơ quan thuế ban hành Thông báo yêu cầu giải trình bổ sung thông tin nếu tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác không giải trình, bổ sung thông tin thì cơ quan thuế thực hiện đóng hồ sơ.\n(ii) Trường hợp (2): 05 ngày làm việc kể từ ngày nhận được đầy đủ thông tin bổ sung và hồ sơ kèm theo (nếu có); hoặc 05 ngày làm việc kể từ ngày ký biên bản kiểm tra với kết quả là đạt (đối với trường hợp các thay đổi liên quan đến tiêu chuẩn kỹ thuật ảnh hưởng đến việc kết nối); Cục Thuế và tổ chức đã tham gia kết nối thống nhất nội dung, thời gian ký thỏa thuận bổ sung.\n(iii) Trường hợp (3): Trong thời hạn 10 ngày làm việc kể từ ngày Cục Thuế nhận được thông báo ngừng cung cấp dịch vụ của tổ chức đã tham gia kết nối thì 2 bên ký biên bản chấm dứt thỏa thuận.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "(i) Trường hợp (1): Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị kết nối của tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác; Cục Thuế có thông báo về việc chấp thuận hoặc không chấp thuận văn bản đề nghị kết nối; hoặc yêu cầu bổ sung thông tin. \nTrong thời hạn 05 ngày làm việc kể từ ngày ký biên bản kiểm tra với kết quả là đạt, Cục Thuế và tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác thống nhất nội dung, thời gian ký thỏa thuận. \nTrong thời hạn 10 ngày làm việc, nếu biên bản kiểm tra có kết quả là không đáp ứng các tiêu chuẩn kết nối thì Cục Thuế có văn bản thông báo từ chối ký thỏa thuận và nêu rõ lý do. \nTrong thời hạn 15 ngày làm việc kể từ ngày cơ quan thuế ban hành Thông báo yêu cầu giải trình bổ sung thông tin nếu tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác không giải trình, bổ sung thông tin thì cơ quan thuế thực hiện đóng hồ sơ.\n(ii) Trường hợp (2): 05 ngày làm việc kể từ ngày nhận được đầy đủ thông tin bổ sung và hồ sơ kèm theo (nếu có); hoặc 05 ngày làm việc kể từ ngày ký biên bản kiểm tra với kết quả là đạt (đối với trường hợp các thay đổi liên quan đến tiêu chuẩn kỹ thuật ảnh hưởng đến việc kết nối); Cục Thuế và tổ chức đã tham gia kết nối thống nhất nội dung, thời gian ký thỏa thuận bổ sung.\n(iii) Trường hợp (3): Trong thời hạn 10 ngày làm việc kể từ ngày Cục Thuế nhận được thông báo ngừng cung cấp dịch vụ của tổ chức đã tham gia kết nối thì 2 bên ký biên bản chấm dứt thỏa thuận.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "name": "Đề nghị kết nối để phối hợp thu nộp ngân sách nhà nước (NSNN)/Thay đổi, bổ sung thông tin kết nối/Ngừng kết nối",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(i) Trường hợp (1) Đề nghị kết nối để phối hợp thu nộp NSNN của tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác với cơ quan thuế:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-c09eda07a2ff",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị kết nối với Hệ thống thông tin quản lý thuế theo mẫu số 01/KNNT-TĐT Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "000.00.00.G12-00015983",
+          "attachments": [
+            {
+              "id": "019fac5c-329a-7059-8c28-15b73d40ac60",
+              "fileName": "01 KNNT 89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fac5c-329a-7059-8c28-15b73d40ac60/01 KNNT 89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-bd67c6598e1d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, tài liệu chứng minh (nếu có) về việc đáp ứng các tiêu chuẩn kỹ thuật theo công khai của Cục Thuế",
+          "code": "000.00.00.G12-00015982",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fabbc-61e5-716c-a0ec-ddec7724b539",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì mẫu 01/KNNT-TĐT thực hiện theo mẫu biểu ban hành kèm theo Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính.",
+          "code": "TP-G12.0001064",
+          "attachments": [
+            {
+              "id": "019fb1f7-da55-76ee-97c4-f399548b03a4",
+              "fileName": "01 KNNT TĐT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb1f7-da55-76ee-97c4-f399548b03a4/01 KNNT TĐT.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(ii) Trường hợp (2) Thay đổi, bổ sung thông tin kết nối đã ký thỏa thuận với tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác - Thời hạn nộp hồ sơ: Chậm nhất là 10 ngày làm việc kể từ ngày phát sinh thay đổi, bổ sung thông tin liên quan đến thỏa thuận đã ký với Cục Thuế.",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-d58e1e6f615f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thay đổi, bổ sung thông tin liên quan đến thông tin kết nối đã cung cấp theo mẫu số 01/KNNT-TĐT Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "000.00.00.G12-00015988",
+          "attachments": [
+            {
+              "id": "019fac5c-88dc-77f9-bb71-3bfdb8611e1b",
+              "fileName": "01 KNNT 89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fac5c-88dc-77f9-bb71-3bfdb8611e1b/01 KNNT 89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-c9f7bef67929",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các tài liệu kèm theo.",
+          "code": "000.00.00.G12-00015985",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb1f9-da11-7255-aa30-76bb094fba70",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì mẫu 01/KNNT-TĐT thực hiện theo mẫu biểu ban hành kèm theo Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính",
+          "code": "G12.0015968",
+          "attachments": [
+            {
+              "id": "019fb1f9-d453-7689-8222-e3d88c4b7cb0",
+              "fileName": "01 KNNT TĐT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb1f9-d453-7689-8222-e3d88c4b7cb0/01 KNNT TĐT.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(iii) Trường hợp (3) Tạm ngừng/ngừng kết nối với Hệ thống thông tin quản lý thuế - Thời hạn nộp hồ sơ: Trước thời hạn đề nghị ngừng/tạm ngừng cung cấp dịch vụ ít nhất 30 ngày",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fabcb-6abf-7738-83f8-93a1a98412c7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản tạm ngừng cung cấp dịch vụ hoặc Văn bản ngừng cung cấp dịch vụ",
+          "code": "TP-G12.0001065",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "- Đối tượng thực hiện thủ tục hành chính: Các tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác tại khoản 2 Điều 2 Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính đáp ứng các tiêu chuẩn kỹ thuật theo công khai của Cục Thuế.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96de-d21b22ffe7f5",
+    "019d2bb2-1c70-724b-96de-d7b0564a9507",
+    "019d2bb2-1c70-724b-96de-da1e72fd1751",
+    "019d2bb2-1c70-724b-96de-dd3475311d30"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d13-a70d2aaadfb4"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d13-a70d2aaadfb4",
+      "name": "Cục Thuế - Bộ tài chính",
+      "code": "G12.18"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96de-d21b22ffe7f5",
+      "name": "Thông báo về việc chấp thuận hoặc không chấp thuận văn bản đề nghị kết nối với Hệ thống thông tin quản lý thuế; hoặc yêu cầu bổ sung thông tin theo mẫu 01/TBKN-TĐT Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+      "code": "KQ.G12.000236"
+    },
+    {
+      "id": "019d2bb2-1c70-724b-96de-d7b0564a9507",
+      "name": "Văn bản thỏa thuận kết nối giữa tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác và Cục Thuế; hoặc văn bản thông báo từ chối ký thỏa thuận Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì mẫu 01/TBKN-TĐT thực hiện theo mẫu biểu ban hành kèm theo Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính.",
+      "code": "KQ.G12.000237"
+    },
+    {
+      "id": "019d2bb2-1c70-724b-96de-dd3475311d30",
+      "name": "Văn bản chấm dứt thỏa thuận kết nối với tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác.",
+      "code": "KQ.G12.000239"
+    },
+    {
+      "id": "019d2bb2-1c70-724b-96de-da1e72fd1751",
+      "name": "Văn bản thỏa thuận bổ sung kết nối giữa tổ chức đã tham gia kết nối và Cục Thuế",
+      "code": "KQ.G12.000238"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d6cb7-54a9-72dd-8c13-e9014b52f9c6",
+      "name": "Đề nghị kết nối để phối hợp thu nộp ngân sách nhà nước (NSNN)/Thay đổi, bổ sung thông tin kết nối/Ngừng kết nối",
+      "code": "1.010761.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-d54a-76a4-8915-49603aede78d",
+      "name": "Đề nghị kết nối để phối hợp thu nộp ngân sách nhà nước (NSNN)/Thay đổi, bổ sung thông tin kết nối/Ngừng kết nối",
+      "code": "1.010761.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559474390,
+  "updatedAt": 1785399201976,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Thuế - Bộ tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cục Thuế",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp tổ chức cung ứng dịch vụ thanh toán, tổ chức cung ứng dịch vụ trung gian thanh toán và tổ chức dịch vụ khác lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

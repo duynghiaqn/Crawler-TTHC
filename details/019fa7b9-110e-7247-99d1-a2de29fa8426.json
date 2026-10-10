@@ -1,0 +1,280 @@
+{
+  "id": "019fa7b9-110e-7247-99d1-a2de29fa8426",
+  "code": "1.116278",
+  "codeNotation": "1.116278",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Công ty nông, lâm nghiệp gửi hồ sơ đến tại Trung tâm Phục vụ hành chính công thành phố/ Trung tâm Phục vụ hành chính công cấp xã/ Nộp trực tuyến trên Cổng Dịch vụ công quốc gia. Khi nộp hồ sơ, Công ty nông, lâm nghiệp được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. \nTrường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực. Trường hợp Trung tâm Phục vụ hành chính công thành phố/ Trung tâm Phục vụ hành chính công cấp xã/ Doanh nghiệp cung ứng dịch vụ bưu chính công ích tiếp nhận hồ sơ thì chuyển hồ sơ đến Sở Nông nghiệp và Môi trường.\nBước 2: Sở Nông nghiệp và Môi trường gửi hồ sơ phương án sử dụng đất đến các Sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất để lấy ý kiến và gửi thành viên Hội đồng thẩm định phương án sử dụng đất lâm nghiệp trong thời hạn không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án sử dụng đất của Công ty nông, lâm nghiệp. \nBước 3: Các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất gửi ý kiến bằng văn bản đến Sở Nông nghiệp và Môi trường trong thời hạn không quá 03 ngày làm việc kể từ ngày nhận được hồ sơ lấy ý kiến. \nBước 4: Tổ chức họp Hội đồng để thẩm định trong thời hạn không quá 02 ngày làm việc kể từ ngày kết thúc thời hạn lấy ý kiến.\nBước 5: Sở Nông nghiệp và Môi trường thực hiện như sau:\n- Trường hợp hồ sơ phương án sử dụng đất của Công ty nông, lâm nghiệp không phải chỉnh sửa: Trình Ủy ban nhân dân thành phố phê duyệt trong thời hạn không quá 02 ngày làm việc kể từ ngày thẩm định.\n- Trường hợp hồ sơ phương án sử dụng đất của Công ty nông, lâm nghiệp phải chỉnh sửa: \n+ Thông báo cho Công ty nông, lâm nghiệp để hoàn thiện hoàn thiện hồ sơ trong thời hạn không quá 01 ngày làm việc kể từ ngày thẩm định, nếu hồ sơ phương án sử dụng đất phải chỉnh sửa, bổ sung. \n+ Trình Ủy ban nhân dân thành phố phê duyệt phương án sử dụng đất trong thời hạn không quá 02 ngày làm việc kể từ ngày Công ty nông, lâm nghiệp hoàn thiện hồ sơ. \nBước 6: Ủy ban nhân dân thành phố xem xét, phê duyệt Phương án sử dụng đất trong thời hạn không quá 03 ngày làm việc kể từ ngày nhận được hồ sơ phương án sử dụng đất do Sở Nông nghiệp và Môi trường trình."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thẩm định, phê duyệt phương án sử dụng đất của Công ty nông, lâm nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa7b5-9105-7149-b616-d59a8934985b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thẩm định, phê duyệt phương án sử dụng đất",
+          "code": "TP-H57.000064",
+          "attachments": [
+            {
+              "id": "019fa7b5-6c66-77a3-b2ac-5fa407fe7dda",
+              "fileName": "MAU 26. VAN BAN DN TD PD PA SDD.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa7b5-6c66-77a3-b2ac-5fa407fe7dda/MAU 26. VAN BAN DN TD PD PA SDD.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa7b5-e3f5-732f-b4df-a6284bf435f3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Phương án sử dụng đất; nội dung phương án sử dụng đất gồm:  + Căn cứ lập phương án sử dụng đất.  + Phân tích, đánh giá về điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh.  + Định hướng sử dụng đất, phương hướng nhiệm vụ, phương án sản xuất, kinh doanh cụ thể của công ty nông, lâm nghiệp.  + Đánh giá tác động của phương án sử dụng đất đến kinh tế - xã hội, môi trường, quốc phòng, an ninh và phương án sản xuất, kinh doanh.  + Các giải pháp tổ chức thực hiện đối với phần diện tích đất công ty nông, lâm nghiệp giữ lại.  + Xác định vị trí, ranh giới, diện tích đất, hiện trạng sử dụng đất khu vực đất bàn giao cho địa phương theo quy định tại điểm d khoản 1 Điều 181 Luật Đất đai 2024.  + Thuyết minh phương án sử dụng đất.",
+          "code": "TP-H57.000065",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ffa83-8c54-776c-a558-dde336bf5921",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản đồ địa chính có thể hiện ranh giới sử dụng đất hoặc hồ sơ ranh giới sử dụng đất của công ty nông, lâm nghiệp; bản tổng hợp diện tích các loại đất của Công ty nông, lâm nghiệp",
+          "code": "TP-H57.000167",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
+    "019d2bb3-5d7f-719e-b46b-911f4e0d794e",
+    "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019fa6c1-b028-74d3-a8da-33946aabb5be",
+    "019feec9-f9a6-749b-a97a-7305b7a405e4"
+  ],
+  "resultIds": [
+    "019fa7b7-e4ab-75ce-af7d-f0c0001a3233"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e5f-749743862da1"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e5d-edfb72e6be7f"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e5f-749743862da1",
+      "name": "Sở Nông nghiệp và Môi trường - Thành phố Huế",
+      "code": "H57.24"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế",
+      "code": "H57"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46b-911f4e0d794e",
+      "name": "Nghị định số 254/2025/NĐ-CP ngày 26/9/2025 của Chính phủ quy định về quản lý, thanh toán, quyết toán dự án sử dụng vốn đầu tư công.",
+      "code": "254/2025/NĐ-CP"
+    },
+    {
+      "id": "019fa6c1-b028-74d3-a8da-33946aabb5be",
+      "name": "Quy định về phân cấp của Ủy ban nhân dân thành phố trong lĩnh vực đất đai trên địa bàn thành phố Huế\n",
+      "code": "31/2026/QĐ-UBND."
+    },
+    {
+      "id": "019feec9-f9a6-749b-a97a-7305b7a405e4",
+      "name": "Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn thành phố Huế",
+      "code": "80/2026/QĐ-UBND"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
+      "name": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
+      "code": "102/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+      "name": "Luật Đất đai ngày 18/01/2024;",
+      "code": "31/2024/QH15"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fa7b7-e4ab-75ce-af7d-f0c0001a3233",
+      "name": "Văn bản phê duyệt phương án sử dụng đất của Công ty nông, lâm nghiệp",
+      "code": "KQ-H57.000010"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [
+    {
+      "id": "019ffdbe-26a0-7709-aeee-0653680b7efa",
+      "name": "Thẩm định, phê duyệt phương án sử dụng đất của Công ty nông, lâm nghiệp",
+      "code": "1.116278.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786617409622,
+  "updatedAt": 1786617409622,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Nông nghiệp và Môi trường - Thành phố Huế",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại tại Trung tâm Phục vụ hành chính công thành phố Huế hoặc Trung tâm Phục vụ hành chính công cấp xã trên địa bàn thành phố Huế.\nb) Nộp thông qua Doanh nghiệp cung ứng dịch vụ bưu chính công ích.\nc) Nộp trực tuyến trên Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "UBND Thành phố Huế",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff954-1697-730d-8686-87d19727de19",
+    "proposalNumber": "2746/QĐ-UBND",
+    "decisionDate": 1786122000000,
+    "decisionNumber": null,
+    "publicationDate": 1786617409387,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

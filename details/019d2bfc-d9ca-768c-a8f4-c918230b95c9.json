@@ -1,0 +1,355 @@
+{
+  "id": "019d2bfc-d9ca-768c-a8f4-c918230b95c9",
+  "code": "2.000755",
+  "codeNotation": "2.000755",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Lập, nộp hồ sơ\n\tNgười đang hưởng lương hưu, trợ cấp BHXH hằng tháng lập hồ sơ theo quy định tại mục 7.3 (Thành phần hồ sơ) và nộp đến cơ quan BHXH nơi đang chi trả chế độ. \n\t(Trường hợp người đang hưởng lương hưu, trợ cấp BHXH hằng tháng nêu trên lựa chọn hình thức nộp hồ sơ trực tiếp thì có thể nộp hồ sơ đến cơ quan BHXH tỉnh/BHXH cơ sở thuận tiện nhất)."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định hoặc chuyển hồ sơ đến cơ quan BHXH có thẩm quyền giải quyết theo quy định (đối với hồ sơ tiếp nhận trực tiếp không thuộc thẩm quyền giải quyết của cơ quan BHXH nơi tiếp nhận)."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Nhận kết quả\n\tNgười đang hưởng lương hưu, trợ cấp BHXH hằng tháng nhận hồ sơ, giấy tờ liên quan theo quy định (Quyết định về việc hưởng trợ cấp một lần); Tiền trợ cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Người đang hưởng lương hưu, trợ cấp BHXH hằng tháng nhận:\n\t- Hồ sơ giấy tờ liên quan theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử). \n\t- Tiền trợ cấp:\n\t+ Thông qua tài khoản cá nhân. \n\t+ Bằng tiền mặt tại cơ quan BHXH\nTối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Người đang hưởng lương hưu, trợ cấp BHXH hằng tháng nhận:\n\t- Hồ sơ giấy tờ liên quan theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử). \n\t- Tiền trợ cấp:\n\t+ Thông qua tài khoản cá nhân. \n\t+ Bằng tiền mặt tại cơ quan BHXH\nTối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Người đang hưởng lương hưu, trợ cấp BHXH hằng tháng nhận:\n\t- Hồ sơ giấy tờ liên quan theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử). \n\t- Tiền trợ cấp:\n\t+ Thông qua tài khoản cá nhân. \n\t+ Bằng tiền mặt tại cơ quan BHXH\nTối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Theo quy định tại Điều 76, Điều 115 Luật BHXH",
+  "name": "Giải quyết hưởng trợ cấp một lần đối với người đang hưởng lương hưu, trợ cấp BHXH hằng tháng ra nước ngoài để định cư",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Theo quy định tại khoản 4 Điều 76 Luật BHXH năm 2024, gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02d67-f839-7657-ba05-9b5922055954",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo Mẫu số 14-HSB",
+          "code": "TP.G12.000081",
+          "attachments": [
+            {
+              "id": "01a02de5-e51a-722c-b292-89c5fb20dec8",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02de5-e51a-722c-b292-89c5fb20dec8/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02e21-800d-750a-ad7e-50d1c8af7e50",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp ra nước ngoài định cư, ngoài hồ sơ quy định tại tiết a, b nêu trên thì có thêm bản sao giấy xác nhận của cơ quan có thẩm quyền về việc thôi quốc tịch Việt Nam hoặc bản dịch tiếng Việt được chứng thực hoặc công chứng một trong các giấy tờ sau đây:\t\t\t - Hộ chiếu do nước ngoài cấp\t\t - Thị thực của cơ quan nước ngoài có thẩm quyền cấp có xác nhận việc cho phép nhập cảnh để định cư ở nước ngoài;\t\t\t - Thẻ thường trú dài hạn ở nước ngoài của cơ quan nước ngoài có thẩm quyền cấp;\t\t - Giấy tờ hợp pháp khác thể hiện việc định cư ở nước ngoài theo quy định của Chính phủ.",
+          "code": "TP.G12.000092",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Ghi chú:  - Thành phần hồ sơ nếu không ghi là bản chính thì có thể nộp bản chính hoặc bản sao hợp lệ. Các thành phần hồ sơ là mẫu do cơ quan BHXH ban hành là bản chính. - Trường hợp ủy quyền nhận chế độ BHXH: Hồ sơ kèm theo Văn bản uỷ quyền (được chứng thực) theo quy định của pháp luật",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cá nhân",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+    "019d2bb3-5d7d-7398-be46-85fda49d119e",
+    "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+    "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+    "019d2bb3-5d86-7760-a63f-86fb70a72ee2",
+    "019d2bb3-5d87-7195-a440-f511123122ee",
+    "019e72e9-3b2a-77b9-9c29-023d914eb3dc",
+    "019e72eb-488d-760e-abb8-0a3bb6585c78",
+    "01a02e0e-719d-7317-8057-eba06fcb84d3",
+    "01a02e32-1e58-70b3-9ace-f98694c5cc92"
+  ],
+  "resultIds": [
+    "019d2bb2-1c82-739b-8b99-9818bf5320d1",
+    "019d2bb2-1c82-739b-8b99-d6be7cc06c52"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e65-3c061397ee5f"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-3c061397ee5f",
+      "name": "Bảo hiểm xã hội cấp Tỉnh",
+      "code": "LĐTB-T"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e72e9-3b2a-77b9-9c29-023d914eb3dc",
+      "name": "Quy định về giao dịch điện tử trong lĩnh vực bảo hiểm xã hội và Cơ sở dữ liệu quốc gia về bảo hiểm",
+      "code": "164/2025/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+      "name": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
+      "code": "2222/QĐ-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be46-85fda49d119e",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT BẢO HIỂM XÃ HỘI VỀ BẢO HIỂM XÃ HỘI BẮT BUỘC",
+      "code": "12/2025/TT-BNV"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc",
+      "code": "158/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63f-86fb70a72ee2",
+      "name": "Thông tư 136/2020/TT-BQP",
+      "code": "136/2020/TT-BQP"
+    },
+    {
+      "id": "01a02e0e-719d-7317-8057-eba06fcb84d3",
+      "name": "Vv vướng mắc trong thực hiện chế độ BHXH",
+      "code": "4831/LĐTBXH-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội tự nguyện",
+      "code": "159/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a440-f511123122ee",
+      "name": "Luật Bảo hiểm xã hội",
+      "code": "41/2024/QH15"
+    },
+    {
+      "id": "019e72eb-488d-760e-abb8-0a3bb6585c78",
+      "name": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP BAN HÀNH KÈM THEO QUYẾT ĐỊNH SỐ 2222/QĐ-BHXH NGÀY 29/7/2025 CỦA GIÁM ĐỐC BẢO HIỂM XÃ HỘI VIỆT NAM",
+      "code": "313/QĐ-BHXH "
+    },
+    {
+      "id": "01a02e32-1e58-70b3-9ace-f98694c5cc92",
+      "name": "Quy định chi tiết và biện pháp thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc đối với quân nhân, công an nhân dân, dân quân thường trực và người làm công tác cơ yếu hưởng lương như đối với quân nhân",
+      "code": "157/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c82-739b-8b99-d6be7cc06c52",
+      "name": "Tiền trợ cấp",
+      "code": "KQ.G12.0000100"
+    },
+    {
+      "id": "019d2bb2-1c82-739b-8b99-9818bf5320d1",
+      "name": "Quyết định về việc hưởng trợ cấp một lần",
+      "code": "KQ.G24.000027"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d767a-36cc-73d5-b4c2-93cd0243ea28",
+      "name": "Giải quyết hưởng trợ cấp BHXH một lần đối với người đang hưởng lương hưu, trợ cấp BHXH hàng tháng ra nước ngoài để định cư",
+      "code": "2.000755.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a701-76fc-9969-e647386ab7d2",
+      "name": "Giải quyết hưởng trợ cấp một lần đối với người đang hưởng lương hưu, trợ cấp BHXH hằng tháng ra nước ngoài để định cư",
+      "code": "2.000755.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a72b-76c8-afb8-7473675eea08",
+      "name": "Giải quyết hưởng trợ cấp một lần đối với người đang hưởng lương hưu, trợ cấp BHXH hằng tháng ra nước ngoài để định cư",
+      "code": "2.000755.02",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d767b-ddce-72f8-83ef-b3dd71f9e905",
+      "name": "Giải quyết hưởng trợ cấp BHXH một lần đối với công dân nước ngoài đang hưởng lương hưu, trợ cấp BHXH hàng tháng không còn cư trú ở Việt Nam",
+      "code": "2.000755.02",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559484362,
+  "updatedAt": 1787504991989,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Theo quy định tại Điều 76, Điều 115 Luật BHXH",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

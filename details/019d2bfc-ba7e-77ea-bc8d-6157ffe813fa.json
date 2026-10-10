@@ -1,0 +1,306 @@
+{
+  "id": "019d2bfc-ba7e-77ea-bc8d-6157ffe813fa",
+  "code": "1.011006",
+  "codeNotation": "1.011006",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: \nNgười nộp thuế chưa có quyết định thuê đất, hợp đồng thuê đất (bao gồm cả trường hợp thuê đất đã hết thời hạn sử dụng đất nhưng chưa được gia hạn thời gian sử dụng đất) chuẩn bị, lập hồ sơ khai tiền thuê đất và nộp cho cơ quan cơ quan thuế nơi có đất. \n++ Thời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày sử dụng đất vào mục đích thuộc đối tượng phải thuê đất.\n++ Trường hợp trong năm có sự thay đổi các yếu tố để xác định nghĩa vụ tài chính về tiền thuê đất thì thời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày được cấp có thẩm quyền ban hành văn bản ghi nhận sự thay đổi.\n++ Người nộp thuế trong năm không có sự thay đổi các yếu tố dẫn đến thay đổi số tiền thuê đất phải nộp thì không phải kê khai năm tiếp theo.\nTrường hợp cơ quan thuế đã kết nối, chia sẻ, sử dụng được thông tin có trong cơ sở dữ liệu quốc gia, cơ sở dữ liệu của cơ quan nhà nước có thẩm quyền, Hệ thống thông tin quản lý thuế hoặc hồ sơ xác định nghĩa vụ tài chính, phiếu chuyển thông tin do cơ quan có thẩm quyền chuyển đến và các thông tin, dữ liệu này bảo đảm đủ căn cứ để tính tiền thuê đất theo quy định thì người nộp thuế không phải nộp hồ sơ khai tiền thuê đất trừ trường hợp người nộp thuế có đề nghị miễn, giảm trên hồ sơ khai thuế, khoản thu khác. Cơ quan thuế công bố công khai trên Hệ thống thông tin quản lý thuế các loại hồ sơ khai thuế, khoản thu khác đủ điều kiện thực hiện theo quy định."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Chậm nhất là 02 ngày làm việc kể từ ngày nhận hồ sơ khai tiền thuê đất của người nộp thuế, cơ quan thuế có văn bản theo mẫu số 01/CCTT-NVTC Phụ lục V kèm theo Thông tư số 89/2026/TT-BTC gửi cơ quan nhà nước có thẩm quyền theo quy định của Chính phủ về tiền thuê đất để cung cấp thông tin địa chính làm căn cứ ban hành thông báo nộp tiền.\n+ Cơ quan thuế ban hành thông báo nộp tiền thuê đất cho người nộp thuế chậm nhất là 05 ngày làm việc kể từ ngày nhận được văn bản cung cấp thông tin do cơ quan nhà nước có thẩm quyền chuyển đến.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Chậm nhất là 02 ngày làm việc kể từ ngày nhận hồ sơ khai tiền thuê đất của người nộp thuế, cơ quan thuế có văn bản theo mẫu số 01/CCTT-NVTC Phụ lục V kèm theo Thông tư số 89/2026/TT-BTC gửi cơ quan nhà nước có thẩm quyền theo quy định của Chính phủ về tiền thuê đất để cung cấp thông tin địa chính làm căn cứ ban hành thông báo nộp tiền.\n+ Cơ quan thuế ban hành thông báo nộp tiền thuê đất cho người nộp thuế chậm nhất là 05 ngày làm việc kể từ ngày nhận được văn bản cung cấp thông tin do cơ quan nhà nước có thẩm quyền chuyển đến.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Chậm nhất là 02 ngày làm việc kể từ ngày nhận hồ sơ khai tiền thuê đất của người nộp thuế, cơ quan thuế có văn bản theo mẫu số 01/CCTT-NVTC Phụ lục V kèm theo Thông tư số 89/2026/TT-BTC gửi cơ quan nhà nước có thẩm quyền theo quy định của Chính phủ về tiền thuê đất để cung cấp thông tin địa chính làm căn cứ ban hành thông báo nộp tiền.\n+ Cơ quan thuế ban hành thông báo nộp tiền thuê đất cho người nộp thuế chậm nhất là 05 ngày làm việc kể từ ngày nhận được văn bản cung cấp thông tin do cơ quan nhà nước có thẩm quyền chuyển đến.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "name": "Khai tiền thuê đất đối với trường hợp chưa có quyết định thuê đất, hợp đồng thuê đất",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ khai tiền thuê đất thực hiện theo quy định tại điểm 10 Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính, gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30e-8d4e36f7b059",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai tiền thuê đất mẫu 01/TMĐN tại Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0015715",
+          "attachments": [
+            {
+              "id": "019fa863-9c0a-7167-8177-27e083d06013",
+              "fileName": "7. 01-TMĐN.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa863-9c0a-7167-8177-27e083d06013/7. 01-TMĐN.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa864-2ab4-74ee-b312-42b78b020a4e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao các giấy tờ liên quan khác (nếu có)",
+          "code": "G12.0015716",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa864-de07-71d4-a2f3-522456062e22",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì tờ khai số 01/TMĐN thực hiện theo mẫu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư 40/2025/TT-BTC và Thông tư 94/2025/TT-BTC).",
+          "code": "G12.0015727",
+          "attachments": [
+            {
+              "id": "019fa864-c713-774b-bd4a-c1fc1a04d3b2",
+              "fileName": "01 TMĐN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa864-c713-774b-bd4a-c1fc1a04d3b2/01 TMĐN TT 80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "quan, tổ chức, hộ gia đình, cá nhân.",
+  "keywords": "Khai tiền thuê đất",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe8-2d2590ea131f",
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019fa869-4992-7245-a19d-f1df91ce84dc"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e005b-7a95-72d9-83b9-1df81c4b08e9",
+    "019e005b-c45a-7351-bdf2-f495ce849003"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e005b-7a95-72d9-83b9-1df81c4b08e9",
+      "name": "Thuế tỉnh, thành phố"
+    },
+    {
+      "id": "019e005b-c45a-7351-bdf2-f495ce849003",
+      "name": "Thuế cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-2d2590ea131f",
+      "name": "Nghị định số 103/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định về tiền sử dụng đất, tiền thuê đất",
+      "code": "103/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fa869-4992-7245-a19d-f1df91ce84dc",
+      "name": "Thông báo nộp tiền thuê đất (Mẫu số 01a hoặc Mẫu số 01b Phụ lục II Nghị định số 103/2024/NĐ-CP ngày 30/7/2024)",
+      "code": "KQ.G12.001515"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2dc6-c2f1-72c8-9104-20b191ee8278",
+      "name": "Khai tiền thuê đất",
+      "code": "1.011006.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-d71f-70ac-8f23-7abf1f2cee4d",
+      "name": "Khai tiền thuê đất",
+      "code": "1.011006.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559476350,
+  "updatedAt": 1785399198638,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/Thuế cơ sở",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "01a09f35-59a6-7010-addd-5274bbb2cf7a",
+  "code": "3.000731",
+  "codeNotation": "3.000731",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1.\tCá nhân, cơ quan, đơn vị, tổ chức trực tiếp tổ chức mai táng cho đối tượng không quá 90 ngày làm 01 bộ hồ sơ gửi trực tiếp tại Trung tâm Phục vụ hành chính công thành phố/Trung tâm Phục vụ hành chính công cấp xã; qua dịch vụ bưu chính; hoặc trực tuyến trên Cổng Dịch vụ công Quốc gia theo quy định đến Chủ tịch UBND cấp xã.\n2.\tTrong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ của cá nhân, cơ quan, đơn vị, tổ chức trực tiếp tổ chức mai táng cho đối tượng, Chủ tịch UBND cấp xã xem xét, quyết định hỗ trợ chi phí mai táng và thực hiện chi trả kinh phí hỗ trợ theo quy định.\nTrường hợp không đủ điều kiện, trong thời hạn 03 ngày làm việc kể từ khi nhân được hồ sơ của cá nhân, cơ quan, đơn vị, tổ chức, Chủ tịch UBND cấp xã trả lời bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "03 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "03 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "03 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "Cá nhân, cơ quan, đơn vị, tổ chức trực tiếp tổ chức mai táng cho đối tượng quy định tại khoản 1 Điều 2 Nghị quyết số 41/2025/NQ-HĐND",
+  "name": "Thủ tục hỗ trợ chi phí mai táng cho đối tượng được trợ cấp xã hội hàng tháng ở cộng đồng theo Điều 4 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a09f34-87e6-73b4-95b7-e6df0f16f8e3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai theo Mẫu số 09 kèm theo Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+          "code": "TP-H17.000520",
+          "attachments": [
+            {
+              "id": "01a09f34-8374-7319-a900-d8b787b0d500",
+              "fileName": "MauSo_09.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a09f34-8374-7319-a900-d8b787b0d500/MauSo_09.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a09f34-e293-708f-8416-13c432e9967c",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy chứng tử của đối tượng.",
+          "code": "TP-H17.000521",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09ee3-251e-7206-8754-f97fd4d04ccc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ liên quan khác (nếu có)",
+          "code": "TP-H17.000507",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-6573ae6e97af"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a09ed6-0486-7606-b380-c185bc63b82d",
+    "01a09ed6-c17c-77f4-a132-b547cd5618d7"
+  ],
+  "resultIds": [
+    "01a09f33-ab16-768a-be6b-bfc333f0ae4e"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+      "name": "Bảo trợ xã hội",
+      "code": "G07-LĐ03"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+    "name": "Bảo trợ xã hội",
+    "code": "G07-LĐ03"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a09ed6-0486-7606-b380-c185bc63b82d",
+      "name": "Quy định một số chính sách trợ giúp xã hội trên địa bàn thành phố Đà Nẵng",
+      "code": "Nghị quyết số 41/2025/NQ-HĐND (Thành phố Đà Nẵng)"
+    },
+    {
+      "id": "01a09ed6-c17c-77f4-a132-b547cd5618d7",
+      "name": "Quy định về thẩm quyền, hồ sơ, trình tự, thủ tục thực hiện chính sách trợ giúp xã hội theo Nghị quyết số 41/2025/NQ-HĐND",
+      "code": "124/2026/QĐ-UBND (thành phố Đà Nẵng)"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a09f33-ab16-768a-be6b-bfc333f0ae4e",
+      "name": "Quyết định hỗ trợ chi phí mai táng cho đối tượng của Chủ tịch UBND cấp xã hoặc văn bản trả lời không đủ điều kiện để hỗ trợ chi phí mai táng",
+      "code": "KQ.H17.000309"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33d-803cf2496575",
+  "departmentPromulgateCode": "H17",
+  "departmentPromulgateName": "UBND Thành phố Đà Nẵng",
+  "cases": [
+    {
+      "id": "01a0cc47-cbaf-7389-b8a4-bf1ba32fece3",
+      "name": "Thủ tục hỗ trợ chi phí mai táng cho đối tượng được trợ cấp xã hội hàng tháng ở cộng đồng theo Điều 4 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+      "code": "3.000731.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790133045796,
+  "updatedAt": 1790133045796,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Cá nhân, cơ quan, đơn vị, tổ chức trực tiếp tổ chức mai táng cho đối tượng quy định tại khoản 1 Điều 2 Nghị quyết số 41/2025/NQ-HĐND",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a09ed0-e223-7106-83d1-874643a1972a",
+    "proposalNumber": "4088/QĐ-UBND",
+    "decisionDate": 1789059600000,
+    "decisionNumber": null,
+    "publicationDate": 1790133045722,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33d-803cf2496575",
+      "name": "UBND Thành phố Đà Nẵng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

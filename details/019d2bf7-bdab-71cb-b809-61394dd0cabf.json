@@ -1,0 +1,361 @@
+{
+  "id": "019d2bf7-bdab-71cb-b809-61394dd0cabf",
+  "code": "3.000346",
+  "codeNotation": "3.000346",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Nộp hồ sơ TTHC: \n- Đối với người dự sát hạch nộp qua cơ sở đào tạo lái xe: Cơ sở đào tạo lái xe nộp báo cáo đề nghị sát hạch kèm theo danh sách thí sinh đề nghị sát hạch cấp giấy phép lái xe gửi đến Phòng Cảnh sát giao thông trước kỳ sát hạch ít nhất 07 ngày làm việc. \n- Cá nhân đề nghị sát hạch gửi trực tuyến tại Cổng Dịch vụ công quốc gia hoặc qua Ứng dụng định danh quốc gia (VNeID) hoặc các ứng dụng của lực lượng Công an nhân dân theo quy định; trường hợp hệ thống, các ứng dụng bị lỗi hoặc cơ sở hạ tầng chưa đáp ứng gửi trực tiếp đến Phòng Cảnh sát giao thông trước kỳ sát hạch lái xe ít nhất 07 ngày làm việc.\nb) Giải quyết TTHC: \n- Căn cứ kết quả kỳ sát hạch, Cục Cảnh sát giao thông cấp giấy phép lái xe điện tử cho người đạt kết quả kỳ sát hạch lái xe.\n- Thời gian cấp giấy phép lái xe: Giấy phép lái xe điện tử được cấp và tích hợp vào hệ thống dữ liệu điện tử trong thời hạn 02 giờ kể từ thời điểm kết thúc kỳ sát hạch lái xe, trong thời hạn 3,5 ngày làm việc Cục Cảnh sát giao thông, Phòng Cảnh sát giao thông in, trả giấy phép lái xe chất liệu PET (khi người dân có yêu cầu)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "3,5 ngày làm việc đối với giấy phép lái xe bằng chất liệu PET và 02 giờ đối với giấy phép lái xe điện tử kể từ thời điểm kết thúc kỳ sát hạch lái xe và người đạt kết quả kỳ sát hạch đã hoàn thành nghĩa vụ nộp lệ phí cấp giấy phép lái xe.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 115000,
+          "currencyId": "",
+          "attachment": null,
+          "description": "- Phí sát hạch lái xe:  + Đối với thi sát hạch lái xe các hạng xe A1, A, B1: Sát hạch lý thuyết: 60.000 đồng/lần, Sát hạch thực hành: 60.000 đồng/lần. + Đối với thi sát hạch lái xe ô tô (hạng xe B, C1, C, D1, D2, D, BE, CE, C1E, D1E, D2E, DE): Sát hạch lý thuyết: 100.000 đồng/lần, Sát hạch thực hành trong hình: 350.000 đồng/lần, Sát hạch thực hành trên đường giao thông: 80.000 đồng/lần.  - Lệ phí cấp giấy phép lái xe: 115.000 đồng."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "3,5 ngày làm việc đối với giấy phép lái xe bằng chất liệu PET và 02 giờ đối với giấy phép lái xe điện tử kể từ thời điểm kết thúc kỳ sát hạch lái xe và người đạt kết quả kỳ sát hạch đã hoàn thành nghĩa vụ nộp lệ phí cấp giấy phép lái xe.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 115000,
+          "currencyId": "",
+          "attachment": null,
+          "description": "- Phí sát hạch lái xe:  + Đối với thi sát hạch lái xe các hạng xe A1, A, B1: Sát hạch lý thuyết: 60.000 đồng/lần, Sát hạch thực hành: 60.000 đồng/lần;  + Đối với thi sát hạch lái xe ô tô (hạng xe B, C1, C, D1, D2, D, BE, CE, C1E, D1E, D2E, DE): Sát hạch lý thuyết: 100.000 đồng/lần, Sát hạch thực hành trong hình: 350.000 đồng/lần, Sát hạch thực hành trên đường giao thông: 80.000 đồng/lần, Sát hạch lái xe ô tô bằng phần mềm mô phỏng các tình huống giao thông: 100.000 đồng/lần.  - Lệ phí cấp giấy phép lái xe: 135.000 đồng/lần. Trường hợp tổ chức, cá nhân nộp hồ sơ theo hình thức trực tuyến: Kể từ ngày 01/12/2023 đến hết ngày 31/12/2025, áp dụng mức thu lệ phí là 115.000 đồng/lần cấp."
+        }
+      ]
+    }
+  ],
+  "description": "- Là công dân Việt Nam, người nước ngoài được phép cư trú hoặc đang làm việc, học tập tại Việt Nam.\n- Đủ tuổi (tính đến ngày dự sát hạch lái xe), sức khỏe theo quy định tại khoản 1, 2 Điều 59 Luật Trật tự, an toàn giao thông đường bộ.\n  - Được cơ đào tạo lái xe xác nhận hoàn thành khóa đào tạo lái xe hoặc được cấp chứng chỉ sơ cấp hoặc giấy xác nhận hoàn thành chương trình đào tạo theo đúng quy định. \n- Người có giấy phép lái xe ô tô các hạng quá thời hạn sử dụng; mất giấy phép lái xe và giấy phép lái xe ô tô đó quá thời hạn sử dụng kể cả giấy phép lái xe quân sự do Bộ Quốc phòng cấp, giấy phép lái xe trong Công an nhân dân khi thôi không còn làm nhiệm vụ quốc phòng, an ninh. Người có giấy phép lái xe thuộc các trường hợp này phải có tên trong hệ thống thông tin giấy phép lái xe tại Cục Cảnh sát giao thông hoặc bảng kê danh sách cấp giấy phép lái xe (sổ quản lý), giấy phép lái xe quân sự do Bộ Quốc phòng cấp bị mất thì phải có xác nhận của cơ quan đã cấp.\n+ Trường hợp giấy phép lái xe quá hạn từ đủ 30 ngày đến dưới 01 năm kể từ ngày hết hạn thì phải sát hạch lại lý thuyết để cấp giấy phép lái xe.\n+ Trường hợp giấy phép lái xe quá hạn từ đủ 01 năm trở lên kể từ ngày hết hạn thì phải sát hạch lại lý thuyết, thực hành lái xe trong hình và trên đường để cấp giấy phép lái xe theo quy định.",
+  "name": "Cấp giấy phép lái xe",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ đề nghị sát hạch cấp giấy phép lái xe do quá thời hạn sử dụng, do giấy phép lái xe mất và quá thời hạn sử dụng",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-6708708f1b28",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử một trong các giấy tờ: chứng minh thư ngoại giao, chứng minh thư công vụ, thị thực hoặc thẻ tạm trú còn thời hạn từ 90 ngày trở lên, thẻ thường trú còn giá trị (đối với người nước ngoài). Trường hợp cá nhân thực hiện thủ tục nộp bản sao, bản điện tử không có chứng thực thì phải xuất trình bản chính để đối chiếu; trường hợp cá nhân nộp bản sao, bản điện tử có giá trị sử dụng thay bản chính theo quy định của pháp luật về chứng thực thì không phải xuất trình bản chính;",
+          "code": "000.00.00.G01-KQ003259",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-5b957b1f633e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy phép lái xe quân sự do Bộ Quốc phòng cấp hoặc xác nhận của cơ quan đã cấp đối với trường hợp mất giấy phép lái xe (đối với giấy phép lái xe quân sự do Bộ Quốc phòng cấp);",
+          "code": "000.00.00.G01-KQ003256",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-4ef809a82fea",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy khám sức khỏe của người lái xe còn hiệu lực (bản điện tử), trường hợp hệ thống bị lỗi thì sử dụng bản giấy do cơ sở khám bệnh, chữa bệnh đủ tiêu chuẩn theo quy định của pháp luật về khám bệnh, chữa bệnh cấp",
+          "code": "000.00.00.G01-KQ003253",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-551d2a9e9e1c",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy phép lái xe, trường hợp giấy phép lái xe bị mất thì cung cấp thông tin về giấy phép lái xe",
+          "code": "000.00.00.G01-KQ003255",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-52206fdf7bae",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đề nghị sát hạch để cấp giấy phép lái xe theo quy định tại Phụ lục I ban hành kèm theo Thông tư số 12/2025/TT-BCA",
+          "code": "000.00.00.G01-KQ003254",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-5e8b706e5429",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy tờ chứng minh thôi không còn phục vụ trong lực lượng Quân đội nhân dân, Công an nhân dân (đối với trường hợp giấy phép lái xe quân sự do Bộ Quốc phòng cấp, giấy phép lái xe trong Công an nhân dân).",
+          "code": "000.00.00.G01-KQ003257",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Hồ sơ đề nghị sát hạch của cá nhân",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-6fa9a9dd212e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy khám sức khỏe của người lái xe còn hiệu lực (bản điện tử), trường hợp hệ thống bị lỗi thì sử dụng bản giấy do cơ sở khám bệnh, chữa bệnh đủ tiêu chuẩn theo quy định của pháp luật về khám bệnh, chữa bệnh cấp",
+          "code": "000.00.00.G01-KQ003261",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-6708708f1b28",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử một trong các giấy tờ: chứng minh thư ngoại giao, chứng minh thư công vụ, thị thực hoặc thẻ tạm trú còn thời hạn từ 90 ngày trở lên, thẻ thường trú còn giá trị (đối với người nước ngoài). Trường hợp cá nhân thực hiện thủ tục nộp bản sao, bản điện tử không có chứng thực thì phải xuất trình bản chính để đối chiếu; trường hợp cá nhân nộp bản sao, bản điện tử có giá trị sử dụng thay bản chính theo quy định của pháp luật về chứng thực thì không phải xuất trình bản chính;",
+          "code": "000.00.00.G01-KQ003259",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-43c3b0849ff5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản tổng hợp kết quả sát hạch của các kỳ sát hạch trước đối với trường hợp người không đạt kết quả sát hạch, có nhu cầu đăng ký sát hạch lại.",
+          "code": "000.00.00.G01-KQ003250",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-6a1d47ed3945",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Chứng chỉ sơ cấp hoặc chứng chỉ đào tạo hoặc giấy xác nhận hoàn thành khóa đào tạo đối với thí sinh dự sát hạch lái xe hạng A1, A, B1, B, C1, C, D1, D2, D, BE, C1E, CE, D1E, D2E, DE.",
+          "code": "000.00.00.G01-KQ003260",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Hồ sơ đề nghị sát hạch của cơ sở đào tạo lái xe gồm",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-f35475517cb9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo đề nghị tổ chức sát hạch theo Mẫu 02 Phụ lục VII",
+          "code": "000.00.00.G01-KQ003294",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-fbf9795c66f0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ đề nghị sát hạch của cá nhân theo quy định",
+          "code": "000.00.00.G01-KQ003296",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7169-728e-b730-f4bdb4cfcaeb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh sách thí sinh đề nghị sát hạch để cấp giấy phép lái xe theo mẫu 03 Phụ lục VII ban hành kèm theo Thông tư số 108/2026/TT-BCA ngày 29/6/2026 của Bộ trưởng Bộ Công an và hồ sơ đề nghị sát hạch của cá nhân theo quy định.",
+          "code": "000.00.00.G01-KQ003295",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-11516ea4d23a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f8e17-f623-730d-81fb-0572cf565239",
+    "019f9217-1d7c-73d3-b912-fb5218cb4d8f"
+  ],
+  "resultIds": [
+    "019d2bb2-1c37-76e8-b48e-2f04c36d5aab"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-11516ea4d23a",
+      "name": "Sát hạch, cấp giấy phép lái xe",
+      "code": "G01-CA28"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f8e17-f623-730d-81fb-0572cf565239",
+      "name": "Thông tư số 154/2025/TT-BTC ngày 31/12/2025 của Bộ Tài chính quy định mức thu, chế độ thu, nộp phí sát hạch lái xe, lệ phí cấp bằng, chứng chỉ được hoạt động trên các loại phương tiện và lệ phí đăng ký, cấp biển xe máy chuyên dùng",
+      "code": "154/2025/TT-BTC "
+    },
+    {
+      "id": "019f9217-1d7c-73d3-b912-fb5218cb4d8f",
+      "name": "Thông tư số 108/2026/TT-BCA ngày 29/6/2026 của Bộ trưởng Bộ Công an quy định về sát hạch, cấp giấy phép lái xe; cấp, sử dụng giấy phép lái xe quốc tế.",
+      "code": "108/2026/TT-BCA "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c37-76e8-b48e-2f04c36d5aab",
+      "name": "Giấy phép lái xe",
+      "code": "KQ.G01.000185"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [
+    {
+      "id": "019d2cc6-cf60-765a-bd05-17a272b49de7",
+      "name": "Cấp giấy phép lái xe",
+      "code": "3.000346.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559149483,
+  "updatedAt": 1784882399153,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Công an cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Công an cấp Tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Là công dân Việt Nam, người nước ngoài được phép cư trú hoặc đang làm việc, học tập tại Việt Nam.\n- Đủ tuổi (tính đến ngày dự sát hạch lái xe), sức khỏe theo quy định tại khoản 1, 2 Điều 59 Luật Trật tự, an toàn giao thông đường bộ.\n  - Được cơ đào tạo lái xe xác nhận hoàn thành khóa đào tạo lái xe hoặc được cấp chứng chỉ sơ cấp hoặc giấy xác nhận hoàn thành chương trình đào tạo theo đúng quy định. \n- Người có giấy phép lái xe ô tô các hạng quá thời hạn sử dụng; mất giấy phép lái xe và giấy phép lái xe ô tô đó quá thời hạn sử dụng kể cả giấy phép lái xe quân sự do Bộ Quốc phòng cấp, giấy phép lái xe trong Công an nhân dân khi thôi không còn làm nhiệm vụ quốc phòng, an ninh. Người có giấy phép lái xe thuộc các trường hợp này phải có tên trong hệ thống thông tin giấy phép lái xe tại Cục Cảnh sát giao thông hoặc bảng kê danh sách cấp giấy phép lái xe (sổ quản lý), giấy phép lái xe quân sự do Bộ Quốc phòng cấp bị mất thì phải có xác nhận của cơ quan đã cấp.\n+ Trường hợp giấy phép lái xe quá hạn từ đủ 30 ngày đến dưới 01 năm kể từ ngày hết hạn thì phải sát hạch lại lý thuyết để cấp giấy phép lái xe.\n+ Trường hợp giấy phép lái xe quá hạn từ đủ 01 năm trở lên kể từ ngày hết hạn thì phải sát hạch lại lý thuyết, thực hành lái xe trong hình và trên đường để cấp giấy phép lái xe theo quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f8db9-a166-7249-8334-277214647290",
+    "proposalNumber": "4685/QĐ-BCA-C08",
+    "decisionDate": 1784739600000,
+    "decisionNumber": null,
+    "publicationDate": 1784882398975,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "019ffa31-2a12-754c-823f-4f3c60e8708b",
+  "code": "1.116367",
+  "codeNotation": "1.116367",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Nộp, tiếp nhận và kiểm tra hồ sơ\n- Người sử dụng đất có nhu cầu nộp hồ sơ đề nghị đến Trung tâm Phục vụ hành chính công xã.\n- Trung tâm Phục vụ hành chính công xã thực hiện:\nKiểm tra tính đầy đủ của thành phần hồ sơ; tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định; chuyển hồ sơ đến cơ quan chuyên môn về nông nghiệp và môi trường cấp xã\nBước 2: Cơ quan chuyên môn về nông nghiệp và môi trường cấp xã tổ chức thực hiện:\n-\tĐo đạc chỉnh lý bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất.\n-\tChuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai để chỉnh lý, cập nhật vào hồ sơ địa chính.\nBước 3: Chuyển trả kết quả cho Bộ phận Tiếp nhận và Trả kết quả.\nBước 4: Người sử dụng đất, chủ sở hữu tài sản gắn liền với đất thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu theo quy định đối với phần diện tích còn lại của thửa đất (nếu có)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: cộng thêm 10 ngày làm việc (tổng không quá 20 ngày làm việc).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật Phí và lệ phí và các văn bản hướng dẫn thi hành."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: cộng thêm 10 ngày làm việc (tổng không quá 20 ngày làm việc).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật Phí và lệ phí và các văn bản hướng dẫn thi hành."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: cộng thêm 10 ngày làm việc (tổng không quá 20 ngày làm việc).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật Phí và lệ phí và các văn bản hướng dẫn thi hành."
+        }
+      ]
+    }
+  ],
+  "description": "Không",
+  "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019ff95a-04f3-70bc-ad3c-4013bbfb0caa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản tặng cho quyền sử dụng đất hoặc biên bản họp giữa đại diện thôn, ấp, làng, bản, buôn, bom, phum, sóc, tổ dân phố, điểm dân cư với người sử dụng đất về việc tặng cho quyền sử dụng đất",
+          "code": "TP-H36.000065",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019ff547-6a69-7038-a010-d5ec1e9fd252",
+    "019ff55f-3e0f-7380-ba75-b10ab7a9315f",
+    "019ff569-efe6-72ec-b193-2370b63daa83",
+    "019ff56b-712f-7599-b645-cc34fbaa83fb"
+  ],
+  "resultIds": [
+    "019ffa2f-9379-772e-a1f6-7966b8386264"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff55f-3e0f-7380-ba75-b10ab7a9315f",
+      "name": "Phân cấp cho cơ quan, người có thẩm quyền thực hiện nhiệm vụ, quyền hạn được phân cấp trong lĩnh vực đất đai trên địa bàn tỉnh Lâm Đồng",
+      "code": "16/2026/QĐ-UBND "
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019ff569-efe6-72ec-b193-2370b63daa83",
+      "name": "Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Lâm Đồng",
+      "code": "40/2026/QĐ-UBND"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019ff547-6a69-7038-a010-d5ec1e9fd252",
+      "name": "Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "Nghị định 118/2025/NĐ-CP "
+    },
+    {
+      "id": "019ff56b-712f-7599-b645-cc34fbaa83fb",
+      "name": "Ủy quyền cho cơ quan, người có thẩm quyền thực hiện nhiệm vụ, quyền hạn trong lĩnh vực đất đai trên địa bàn tỉnh Lâm Đồng",
+      "code": "1927/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019ffa2f-9379-772e-a1f6-7966b8386264",
+      "name": "Chỉnh lý, cập nhật vào hồ sơ địa chính, cơ sở dữ liệu đất đai",
+      "code": "KQ-H36.000025"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b10-c1c15a42daee",
+  "departmentPromulgateCode": "H36",
+  "departmentPromulgateName": "UBND tỉnh Lâm Đồng",
+  "cases": [
+    {
+      "id": "01a02262-0769-762c-9e72-c4a34ba385d8",
+      "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận",
+      "code": "1.116367.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1787224434682,
+  "updatedAt": 1787224434682,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công cấp xã",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff4aa-fccb-723d-82e1-b62adabff033",
+    "proposalNumber": "4058/QĐ-UBND",
+    "decisionDate": 1786381200000,
+    "decisionNumber": null,
+    "publicationDate": 1786941108480,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b10-c1c15a42daee",
+      "name": "UBND tỉnh Lâm Đồng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

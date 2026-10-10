@@ -1,0 +1,291 @@
+{
+  "id": "019f9ca9-cbb8-7797-94be-70496e38f291",
+  "code": "1.116018",
+  "codeNotation": "1.116018",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công cấp tỉnh, Trung tâm Phục vụ hành chính công cấp xã hoặc thông qua dịch vụ bưu chính công ích hoặc nộp trực tuyến trên Cổng dịch vụ công. Việc lựa chọn địa điểm nộp hồ sơ không phụ thuộc vào địa bàn cấp xã nơi có đất.\nTrung tâm Phục vụ hành chính công tiếp nhận hồ sơ, trường hợp hồ sơ hợp lệ và đầy đủ thành phần hồ sơ thì viết phiếu tiếp nhận và chuyển hồ sơ đến Cơ quan nông nghiệp và Môi trường cấp xã đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu thuộc thẩm quyền cấp Giấy chứng nhận của Chủ tịch ủy ban nhân dân xã."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan nông nghiệp và Môi trường cấp xã thực hiện:\n- Trường hợp hồ sơ không đầy đủ, không hợp lệ, làm văn bản trả lại hồ sơ đồng thời hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ. \n- Trường hợp hồ sơ hợp lệ, thông báo cho Văn phòng đăng ký đất đai, hoặc Chi nhánh văn phòng đăng ký đất đai cung cấp hồ sơ cấp Giấy chứng nhận lần đầu.\n- Kiểm tra hồ sơ, xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 Luật Đất đai theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận. \n- Trình Chủ tịch Ủy ban nhân dân cấp xã quyết định hủy Giấy chứng nhận đã cấp."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Chủ tịch Ủy ban nhân dân cấp xã quyết định hủy Giấy chứng nhận đã cấp"
+    },
+    {
+      "name": "",
+      "description": "Bước 4: Cơ quan nông nghiệp và môi trường cấp xã thực hiện:\n Chuyển hồ sơ đã giải quyết đến Văn phòng đăng ký đất đai để thực hiện chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    },
+    {
+      "name": "",
+      "description": "Bước 5: Người sử dụng đất nghị cấp lại Giấy chứng nhận sau khi thu hồi\nnộp hồ sơ theo thủ tục tương ứng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi giấy chứng nhận không quá 35 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi giấy chứng nhận không quá 35 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi giấy chứng nhận không quá 35 ngày làm việc",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện (cấp xã - tỉnh Phú Thọ)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb1bb-1b28-73fa-8344-d1aa67faf776",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản kiến nghị việc cấp Giấy chứng nhận không đúng quy định của pháp luật đất đai (bản chính)",
+          "code": "H44.TPHS.0000375",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f9212-f35c-7499-9809-bb3be056ab91",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": true,
+          "name": "",
+          "code": "",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019f9ca6-449d-748f-98de-fc5c310c178e"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019f9ca6-449d-748f-98de-fc5c310c178e",
+      "name": "Quyết định thu hồi Giấy chứng nhận",
+      "code": "Quyết định thu hồi Giấy chứng nhận"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+      "name": "Đảng viên",
+      "code": "ĐT5"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [
+    {
+      "id": "019feff2-048a-7666-83b6-45212d2d4bf4",
+      "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện (cấp xã - tỉnh Phú Thọ)",
+      "code": "1.116018.01",
+      "processingDay": {
+        "qty": 35,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785397269613,
+  "updatedAt": 1785397269613,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "1. Trực tiếp:\n1.1. Trung tâm Phục vụ hành chính công tỉnh Phú Thọ.\n- Cơ sở 1: Địa chỉ: Số 398 - đường Trần Phú - phường Việt Trì - tỉnh Phú Thọ;\nĐT: 0210 2222 555.\n- Cơ sở 2: Địa chỉ: Số 5 - đường Nguyễn Trãi, phường Vĩnh Phúc, tỉnh Phú Thọ;\nĐT: 0211 3616 618.\n- Cơ sở 3: Địa chỉ: Số 485 - đường Trần Hưng Đạo, phường Hòa Bình, tỉnh Phú Thọ;\nĐT: 0218 3868 689.\n1.2. Trung tâm Phục vụ hành chính công các xã, phường trên địa bàn tỉnh Phú Thọ.\n2. Trực tuyến:\nĐịa chỉ truy cập: https://dichvucong.gov.vn/\n3. Dịch vụ Bưu chính công ích.",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019facb1-b74a-7752-abe0-45a36aafd4f7",
+    "proposalNumber": "2143/QĐ-UBND",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1785397269411,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

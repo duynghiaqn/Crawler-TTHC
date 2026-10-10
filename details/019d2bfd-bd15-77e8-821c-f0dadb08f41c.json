@@ -1,0 +1,264 @@
+{
+  "id": "019d2bfd-bd15-77e8-821c-f0dadb08f41c",
+  "code": "1.002790",
+  "codeNotation": "1.002790",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan, tổ chức đề nghị cấp giấy phép hoạt động phát thanh, giấy phép hoạt động truyền hình nộp 01 bộ hồ sơ về Bộ VHTTDL.\n- Trong thời hạn 45 ngày kể từ ngày tiếp nhận chính thức, Bộ VHTTDL xem xét cấp giấy phép hoạt động phát thanh, giấy phép hoạt động truyền hình theo Mẫu số 08 tại Phụ lục IV ban hành kèm theo Thông tư số 20/2026/TT-BVHTTDL ngày 30/6/2026 cho cơ quan, tổ chức. Trường hợp từ chối, Bộ VHTTDL phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "- Xác định loại hình báo chí; tôn chỉ, mục đích đối tượng phục vụ; chương trình, thời gian, thời lượng, phương thức truyền dẫn, phát sóng.\n- Có phương án về tổ chức và nhân sự bảo đảm hoạt động của cơ quan báo chí; có người đủ tiêu chuẩn theo quy định.\n- Có tên và biểu tượng kênh phát thanh, kênh truyền hình.\n- Có trụ sở và các Điều kiện cơ sở vật chất, kỹ thuật; phương án tài chính; có các giải pháp kỹ thuật bảo đảm an toàn, an ninh thông tin; phải có phương án, kế hoạch thuê hoặc sử dụng hạ tầng truyền dẫn, phát sóng.\n- Phù hợp với quy hoạch phát triển và quản lý báo chí toàn quốc được Thủ tướng Chính phủ phê duyệt.\n- Sau khi được cấp giấy phép hoạt động báo chí, cơ quan chủ quản báo chí ra quyết định thành lập cơ quan báo chí và thông báo trên các phương tiện thông tin đại chúng.",
+  "name": "Thủ tục cấp giấy phép hoạt động phát thanh, giấy phép hoạt động truyền hình",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fd648-5e43-70e1-a813-0678bf8e7ffa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của cơ quan chủ quản đối với cơ quan báo chí hoạt động phát thanh, truyền hình cấp tỉnh hoặc cấp Bộ; đối với Đài Truyền hình Việt Nam, Đài Tiếng nói Việt Nam, văn bản đề nghị phải do người đứng đầu hoặc người được ủy quyền hợp pháp theo quy định của pháp luật ký.",
+          "code": "G16-TPHS.PTTH.2026.7",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fd648-b476-76b6-b055-39cbee3b8e73",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đề án đề nghị cấp giấy phép hoạt động phát thanh, giấy phép hoạt động truyền hình (Mẫu số 01 tại Phụ lục II ban hành kèm theo Thông tư số 20/2026/TT-BVHTTDL ngày 30/6/2026)",
+          "code": "G16-TPHS.PTTH.2026.8",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+    "019f8253-7b83-74a8-9b67-48f73b229c01"
+  ],
+  "resultIds": [
+    "019d2bb2-1c75-741b-9abe-e3e1a2749bc3"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-98005c923f40"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66d-0e988ad98b55"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+      "name": "Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14-TT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+    "name": "Phát thanh, truyền hình và thông tin điện tử",
+    "code": "G14-TT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-98005c923f40",
+      "name": "Cục Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14.21"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch",
+      "code": "G16"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f8253-7b83-74a8-9b67-48f73b229c01",
+      "name": "Luật Báo chí 2025",
+      "code": "126/2025/QH15 "
+    },
+    {
+      "id": "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+      "name": "Thông tư quy định chi tiết hồ sơ, thủ tục cấp, sửa đổi, bổ sung giấy phép hoạt động báo chí; điều kiện, hồ sơ, thủ tục cấp giấy phép xuất bản bản tin, xuất bản đặc san; lưu chiểu bản tin, đặc san.",
+      "code": "20/2026/TT-BVHTTDL "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c75-741b-9abe-e3e1a2749bc3",
+      "name": "Giấy phép hoạt động phát thanh/Giấy phép hoạt động truyền hình",
+      "code": "KQ.G14.000133"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "019fd680-e616-76be-9b52-c9f49885664a",
+      "name": "Thủ tục cấp giấy phép hoạt động phát thanh, giấy phép hoạt động truyền hình",
+      "code": "1.002790.01",
+      "processingDay": {
+        "qty": 45,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d7e-fe33-7125-999b-6a08e317e575",
+      "name": "Thủ tục cấp giấy phép hoạt động phát thanh, giấy phép hoạt động truyền hình",
+      "code": "1.002790.01",
+      "processingDay": {
+        "qty": 60,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559542549,
+  "updatedAt": 1786010199127,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Phát thanh, truyền hình và thông tin điện tử",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Văn hóa, Thể thao và Du lịch",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Xác định loại hình báo chí; tôn chỉ, mục đích đối tượng phục vụ; chương trình, thời gian, thời lượng, phương thức truyền dẫn, phát sóng.\n- Có phương án về tổ chức và nhân sự bảo đảm hoạt động của cơ quan báo chí; có người đủ tiêu chuẩn theo quy định.\n- Có tên và biểu tượng kênh phát thanh, kênh truyền hình.\n- Có trụ sở và các Điều kiện cơ sở vật chất, kỹ thuật; phương án tài chính; có các giải pháp kỹ thuật bảo đảm an toàn, an ninh thông tin; phải có phương án, kế hoạch thuê hoặc sử dụng hạ tầng truyền dẫn, phát sóng.\n- Phù hợp với quy hoạch phát triển và quản lý báo chí toàn quốc được Thủ tướng Chính phủ phê duyệt.\n- Sau khi được cấp giấy phép hoạt động báo chí, cơ quan chủ quản báo chí ra quyết định thành lập cơ quan báo chí và thông báo trên các phương tiện thông tin đại chúng.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fd605-f4a1-76ba-9746-fa5b85971e2f",
+    "proposalNumber": "2044/QĐ-BVHTTDL",
+    "decisionDate": 1785862800000,
+    "decisionNumber": null,
+    "publicationDate": 1786010198781,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

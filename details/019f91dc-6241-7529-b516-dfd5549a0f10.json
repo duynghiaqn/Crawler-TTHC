@@ -1,0 +1,341 @@
+{
+  "id": "019f91dc-6241-7529-b516-dfd5549a0f10",
+  "code": "1.115972",
+  "codeNotation": "1.115972",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Trường hợp cấp Giấy phép hoạt động:\n- Bước 1: Chủ sở hữu phương tiện hoặc người được ủy quyền theo quy định của pháp luật chuẩn bị 01 bộ hồ sơ và nộp đến cơ quan có thẩm quyền bằng một trong các hình thức: Nộp trực tuyến trên Cổng dịch vụ công quốc gia hoặc gửi qua dịch vụ bưu chính hoặc nộp trực tiếp tại cơ quan có thẩm quyền;\n- Bước 2: Cơ quan có thẩm quyền tiếp nhận, kiểm tra hồ sơ; tra cứu dữ liệu đăng ký xe trên hệ thống đăng ký, quản lý xe và đối chiếu với thông tin trong hồ sơ.\n+ Trường hợp hồ sơ hợp lệ, cơ quan có thẩm quyền cấp Giấy phép hoạt động đối với phương tiện giao thông thông minh.\n+ Trường hợp hồ sơ không đủ điều kiện giải quyết thì có văn bản trả lời ngay và nêu rõ lý do.\nb) Trường hợp cấp lại Giấy phép hoạt động:\n- Bước 1: Chủ sở hữu phương tiện hoặc người được ủy quyền nộp Đơn đề nghị cấp lại Giấy phép hoạt động trong trường hợp giấy phép bị mất hoặc bị hư hỏng.\n- Bước 2: Cơ quan có thẩm quyền xem xét hồ sơ.\nTrường hợp đủ điều kiện thì cấp lại Giấy phép hoạt động; trường hợp không đủ điều kiện thì có văn bản trả lời và nêu rõ lý do.\nc) Trường hợp thu hồi Giấy phép hoạt động:\nChủ sở hữu phương tiện hoặc người được ủy quyền có trách nhiệm nộp lại Giấy phép hoạt động cho cơ quan đã cấp khi thuộc trường hợp phải thu hồi theo quy định.\nCơ quan có thẩm quyền tiếp nhận và thu hồi Giấy phép hoạt động."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cấp Giấy phép hoạt động: Không quá 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cấp Giấy phép hoạt động: Không quá 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cấp lại Giấy phép hoạt động: Không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cấp lại Giấy phép hoạt động: Không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "HOUR",
+      "description": "Thu hồi Giấy phép hoạt động: Hoàn thành ngay khi chủ sở hữu phương tiện nộp lại Giấy phép hoạt động",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thu hồi Giấy phép hoạt động: Hoàn thành ngay khi chủ sở hữu phương tiện nộp lại Giấy phép hoạt động",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Cấp, thu hồi giấy phép hoạt động đối với phương tiện giao thông thông minh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "- Trường hợp cấp Giấy phép hoạt động",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f91da-2a76-773a-8025-46b77550c8ff",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp Giấy phép hoạt động theo Mẫu số 03a Phụ lục III ban hành kèm theo Nghị định số 236/2026/NĐ-CP",
+          "code": "000.00.00.G01-KQ003698",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f91da-77b5-75cb-8c9c-5be4f4a4af4d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường theo quy định",
+          "code": "000.00.00.G01-KQ003699",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f91da-d5d7-7281-b5ff-1468c9bf0076",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ của chủ sở hữu phương tiện theo quy định",
+          "code": "000.00.00.G01-KQ003700",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp cấp lại Giấy phép hoạt động",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f91db-4029-75ac-8e4d-e1bd58e9b147",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp lại Giấy phép hoạt động theo Mẫu số 03a Phụ lục III ban hành kèm theo Nghị định số 236/2026/NĐ-CP",
+          "code": "000.00.00.G01-KQ003701",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f91db-9252-7349-ab95-f07e65beeecb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ của chủ sở hữu phương tiện theo quy định",
+          "code": "000.00.00.G01-KQ003702",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp thu hồi Giấy phép hoạt động: Giấy phép hoạt động phương tiện giao thông thông minh",
+      "profileComponents": []
+    },
+    {
+      "name": "Trường hợp cơ quan giải quyết thủ tục hành chính khai thác được thông tin trong cơ sở dữ liệu thì không yêu cầu người nộp hồ sơ cung cấp giấy tờ này",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b0-cd8abffeaa2a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-dfa7472cab6e",
+    "019f82b2-689c-7667-aa40-6ec8fb7fcd94",
+    "019d2bb3-5d7e-72d1-afeb-9787cb38c152",
+    "019d2bb3-5d7e-72d1-afec-c7ba7cb44bf3",
+    "019f91d8-4d43-7753-a33a-88f5941421a7",
+    "019f1695-2ebe-754f-a8e5-1fd2704da6db"
+  ],
+  "resultIds": [
+    "019d2bb2-1c37-76e8-b48e-6c6df95b6312"
+  ],
+  "subjectTypeIds": [
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b0-cd8abffeaa2a",
+      "name": "Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng",
+      "code": "G01-CA06"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9787cb38c152",
+      "name": "Nghị định số 151/2024/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Trật tự, an toàn giao thông đường bộ",
+      "code": "151/2024/NĐ-CP"
+    },
+    {
+      "id": "019f91d8-4d43-7753-a33a-88f5941421a7",
+      "name": "Nghị quyết số 22/2026/NQ-CP ngày 29/4/2026 của Chính phủ quy định về cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính và cắt giảm, đơn giản hóa điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Công an.",
+      "code": "22/2026/NQ-CP "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-c7ba7cb44bf3",
+      "name": "Nghị định số 184/2025/NĐ-CP của Chính phủ: Quy định phân định thẩm quyền khi tổ chức chính quyền địa phương 02 cấp và sửa đổi, bổ sung một số điều của các Nghị định của Chính phủ trong lĩnh vực an ninh, trật tự",
+      "code": "184/2025/NĐ-CP"
+    },
+    {
+      "id": "019f1695-2ebe-754f-a8e5-1fd2704da6db",
+      "name": "Thông tư số 62/2026/TT-BCA ngày 18/5/2026 quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi quản lý của Bộ Công an",
+      "code": "62/2026/TT-BCA "
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b672-dfa7472cab6e",
+      "name": "Luật Trật tự, an toàn giao thông đường bộ",
+      "code": "36/2024/QH15"
+    },
+    {
+      "id": "019f82b2-689c-7667-aa40-6ec8fb7fcd94",
+      "name": "Sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự",
+      "code": "118/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c37-76e8-b48e-6c6df95b6312",
+      "name": "Giấy phép hoạt động phương tiện giao thông thông minh",
+      "code": "KQ.G01.000202"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1784882399133,
+  "updatedAt": 1784882399133,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Công an cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Công an cấp Tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f8db9-a166-7249-8334-277214647290",
+    "proposalNumber": "4685/QĐ-BCA-C08",
+    "decisionDate": 1784739600000,
+    "decisionNumber": null,
+    "publicationDate": 1784882398975,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

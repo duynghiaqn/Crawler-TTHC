@@ -1,0 +1,271 @@
+{
+  "id": "019d2bff-2d4f-740f-bf4b-83897c316ca6",
+  "code": "1.013884",
+  "codeNotation": "1.013884",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Cơ sở xét nghiệm phải gửi Đơn đề nghị cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 05 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP kèm theo hồ sơ đến cơ quan chuyên môn về y tế thuộc Ủy ban nhân dân cấp tỉnh (cơ quan tiếp nhận hồ sơ)chậm nhất là 60 ngày, trước khi Giấy chứng nhận đạt tiêu chuẩn an toàn sinh học hết hiệu lực. Trường hợp quá thời hạn trên mà chưa nộp hồ sơ đề nghị cấp lại Giấy chứng nhận an toàn sinh học thì phải thực hiện theo thủ tục cấp mới Giấy chứng nhận an toàn sinh học.\nBước 2. Khi nhận được hồ sơ hợp lệ, cơ quan tiếp nhận hồ sơ cấp phiếu tiếp nhận hồ sơ theo Mẫu số 06 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP.\nBước 3. Trong thời gian 10 (mười) ngày kể từ ngày tiếp nhận hồ sơ, cơ quan tiếp nhận hồ sơ phải tiến hành thẩm định hồ sơ và kiểm tra hồ sơ thẩm định đã cấp Giấy chứng nhận an toàn sinh học trước đó.\nBước 4. Trường hợp hồ sơ chưa đầy đủ thì trong thời gian 05 (năm) ngày làm việc kể từ ngày thẩm định hồ sơ, cơ quan tiếp nhận hồ sơ phải thông báo bằng văn bản cho cơ sở đề nghị cấp lại giấy chứng nhận để hoàn chỉnh hồ sơ. Văn bản thông báo phải nêu cụ thể những nội dung cần bổ sung, nội dung cần sửa đổi. Cơ sở đề nghị cấp giấy chứng nhận phải bổ sung, sửa đổi theo đúng những nội dung đã được ghi trong văn bản và gửi về cơ quan tiếp nhận hồ sơ.\nTrong trường hợp cần thiết thì tiến hành thẩm định tại phòng xét nghiệm trong vòng 10 (mười) ngày kể từ ngày thẩm định hồ sơ. Trường hợp hồ sơ đầy đủ và cơ sở xét nghiệm đáp ứng đầy đủ các điều kiện theo biên bản thẩm định tại cơ sở xét nghiệm, cơ quan tiếp nhận hồ sơ báo cáo người đứng đầu cơ quan tiếp nhận hồ sơ cấp lại Giấy chứng nhận an toàn sinh học trong thời hạn 07 (bảy) ngày làm việc, kể từ ngày thẩm định tại phòng xét nghiệm.\nTrong trường hợp hồ sơ đầy đủ và không thẩm định tại cơ sở xét nghiệm, thì phải cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 07 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP trong vòng 10 (mười) ngày, kể từ ngày thẩm định hồ sơ.\n"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 27,
+      "processingTimeUnit": "DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 27,
+      "processingTimeUnit": "DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 17,
+      "processingTimeUnit": "DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Cấp lại giấy chứng nhận cơ sở xét nghiệm đạt tiêu chuẩn an toàn sinh học cấp III do hết hạn.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71c3-760a-8efe-211535455164",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "source": "",
+          "name": "Đơn đề nghị cấp lại giấy chứng nhận an toàn sinh học theo Mẫu số 05 tại Phụ lục  ban hành kèm theo Nghị định số 103/2016/NĐ-CP.",
+          "code": "000.00.00.G18-KQ005231",
+          "attachments": [
+            {
+              "id": "019e2ae8-baec-73fe-9d5c-d4588f05d461",
+              "fileName": "MUS345.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019e2ae8-baec-73fe-9d5c-d4588f05d461/MUS345.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71c3-760a-8efe-369e8481861e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "source": "",
+          "name": "Báo cáo về các sự cố an toàn sinh học đã xảy ra (nếu có). Nội dung báo cáo phải nêu rõ thời gian xảy ra sự cố, mức độ của sự cố, các biện pháp đã áp  dụng để xử lý, khắc phục sự cố an toàn sinh học.",
+          "code": "000.00.00.G18-KQ005236",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c3-760a-8efe-2c71bf23715d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "source": "",
+          "name": "Báo cáo về các thay đổi liên quan đến  thiết bị y tế: ghi rõ tên thiết bị, số lượng, tình trạng thiết bị mới được bổ sung hoặc thay thế theo quy định tại Mẫu số 04 tại Phụ  lục ban hành kèm theo  Nghị định số 103/2016/NĐ-CP.",
+          "code": "000.00.00.G18-KQ005234",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c3-760a-8efe-252627419443",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "source": "",
+          "name": "Bản sao Giấy chứng nhận  an toàn sinh học đã được cấp;",
+          "code": "000.00.00.G18-KQ005232",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c3-760a-8efe-2ba59629039e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "source": "",
+          "name": "Báo cáo  về các thay đổi liên  quan đến nhân sự (nếu có);",
+          "code": "000.00.00.G18-KQ005233",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c3-760a-8efe-3295370e3196",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "source": "",
+          "name": "- Báo cáo về các thay  đổi liên quan đến cơ sở vật chất",
+          "code": "000.00.00.G18-KQ005235",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b5-14e7ff23278d"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-5aa2d036b45a",
+    "019d2bb3-5d7d-7398-be4e-69cce97f8824"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7b-7208-ba4a-f37266295bd0"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a87-7317-8556-f7d97e70d8df"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b5-14e7ff23278d",
+      "name": "Phòng bệnh",
+      "code": "G18-YT12"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a87-7317-8556-f7d97e70d8df",
+      "name": "Sở Y tế Thành phố Hà Nội",
+      "code": "H26.19"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-5aa2d036b45a",
+      "name": "NGHỊ ĐỊNH  QUY ĐỊNH VỀ PHÂN QUYỀN, PHÂN CẤP TRONG LĨNH VỰC Y TẾ",
+      "code": "148/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
+      "name": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
+      "code": "64/2025/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7b-7208-ba4a-f37266295bd0",
+      "name": "Giấy chứng nhận cơ sở xét nghiệm đạt tiêu chuẩn an toàn sinh học cấp III",
+      "code": "KQ.G18.000232"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "departmentPromulgateCode": "G18",
+  "departmentPromulgateName": "Bộ Y tế",
+  "cases": [
+    {
+      "id": "019dabe2-f001-725b-ac1c-e60a8c8c6f5e",
+      "name": "Cấp lại giấy chứng nhận cơ sở xét nghiệm đạt tiêu chuẩn an toàn sinh học cấp III do hết hạn.",
+      "code": "1.013884.01",
+      "processingDay": {
+        "qty": 27,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559636815,
+  "updatedAt": 1787209021496,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Y tế Thành phố Hà Nội",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019d2d4d-08ff-749a-a7fb-6f71c7218c40",
+    "proposalNumber": "2495/QĐ-BYT",
+    "decisionDate": 1754265600000,
+    "decisionNumber": null,
+    "publicationDate": 1776167757344,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": []
+}

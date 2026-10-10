@@ -1,0 +1,260 @@
+{
+  "id": "019f6f39-39aa-719d-b02a-7a2bd604a4ad",
+  "code": "3.000612",
+  "codeNotation": "3.000612",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1. Doanh nghiệp đề nghị hỗ trợ từ ngân sách địa phương cho các dự án hoạt động trong lĩnh vực công nghiệp công nghệ số nộp 01 bộ hồ sơ theo quy định tại Phụ lục kèm theo Nghị quyết này tại Trung tâm phục vụ Hành chính công thành phố, cấp xã (nộp trực tiếp hoặc gửi qua đường bưu điện hoặc qua Cổng dịch vụ công quốc gia).\n2. Trong thời hạn 02 ngày làm việc, Sở Khoa học và Công nghệ kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ chưa đầy đủ, hợp lệ, Sở Khoa học và Công nghệ thông báo bằng văn bản để doanh nghiệp bổ sung, hoàn thiện.\n3. Trong thời hạn 06 ngày làm việc kể từ ngày nhận hồ sơ, Sở Khoa học và Công nghệ chủ trì, phối hợp với Sở Tài chính và các cơ quan liên quan tiến hành thẩm định hồ sơ đề nghị hỗ trợ.\n 4. Trong thời hạn 02 ngày làm việc kể từ ngày nhận được Tờ trình của Sở Khoa học và Công nghệ, Ủy ban nhân dân thành phố ban hành quyết định hỗ trợ, tổ chức thực hiện chi trả cho các đối tượng được thụ hưởng chính sách. Trường hợp hồ sơ không đủ điều kiện hỗ trợ, Sở Khoa học và Công nghệ tham mưu Ủy ban nhân dân thành phố ban hành văn bản thông báo và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "a) Doanh nghiệp có thuê nhân lực công nghiệp công nghệ số chất lượng cao; \nb) Doanh nghiệp có hoạt động đào tạo, đào tạo lại, bồi dưỡng nâng cao chất lượng nguồn nhân lực của doanh nghiệp;\nc) Dự án khởi nghiệp sáng tạo có nhu cầu đào tạo phát triển nguồn nhân lực công nghiệp công nghệ số;\nd) Dự án khởi nghiệp sáng tạo có thu hút nguồn nhân lực công nghiệp công nghệ số chất lượng cao, nhân tài công nghệ số;\nđ) Dự án thiết kế chip bán dẫn có nhu cầu đào tạo phát triển nguồn nhân lực thiết kế chip bán dẫn",
+  "name": "Thủ tục Hỗ trợ phát triển nhân lực công nghiệp công nghệ số",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6f33-6426-70f9-b525-7c3d62b0a6a7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ",
+          "code": "TP-H57.000046",
+          "attachments": [
+            {
+              "id": "019f6f31-7538-7742-ae79-272cb14973c3",
+              "fileName": "Mẫu số 01.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6f31-7538-7742-ae79-272cb14973c3/Mẫu số 01.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6f34-eac5-7348-ad6e-8fa43dfc84aa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản thuyết minh đáp ứng tiêu chí hỗ trợ phát triển nhân lực công nghiệp công nghệ số",
+          "code": "TP-H57.000047",
+          "attachments": [
+            {
+              "id": "019f6f34-c117-71bf-b80f-facd4a3d4125",
+              "fileName": "Mẫu số 02.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6f34-c117-71bf-b80f-facd4a3d4125/Mẫu số 02.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-2f587e315cc3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f6f38-ea67-7405-9753-37da272b125c"
+  ],
+  "resultIds": [
+    "019f6f37-e79b-730a-9656-6d9d53b04fa8"
+  ],
+  "subjectTypeIds": [
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e5d-edfb72e6be7f"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+      "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+      "code": "G14-TT04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+    "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+    "code": "G14-TT04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế",
+      "code": "H57"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d951d-8d60-76f9-ba48-27dcc889b494"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d951d-8d60-76f9-ba48-27dcc889b494",
+      "name": "Sở Khoa học và Công nghệ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f6f38-ea67-7405-9753-37da272b125c",
+      "name": "Quy định tiêu chí, điều kiện, trình tự, thủ tục, nội dung và mức hỗ trợ \ntừ ngân sách địa phương cho các dự án, doanh nghiệp hoạt động \ntrong lĩnh vực công nghiệp công nghệ số trên địa bàn thành phố Huế\n",
+      "code": "22/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f6f37-e79b-730a-9656-6d9d53b04fa8",
+      "name": "Quyết định hỗ trợ, tổ chức thực hiện chi trả cho các đối tượng được thụ hưởng chính sách",
+      "code": "KQ-H57.000100"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [
+    {
+      "id": "01a094af-3f7f-71ba-a5e4-df4df95ea08e",
+      "name": "Hỗ trợ phát triển nhân lực công nghiệp công nghệ số",
+      "code": "3.000612.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1784346375588,
+  "updatedAt": 1784346375588,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Nộp qua hệ thống dịch vụ công trực tuyến qua cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\n- Nộp trực tiếp tại các Trung tâm Phục vụ hành chính công thành phố, cấp xã, phường thuộc thành phố Huế.  \n- Nộp qua dịch vụ bưu chính.",
+  "delegatedAgencies": "UBND Thành phố Huế",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Doanh nghiệp có thuê nhân lực công nghiệp công nghệ số chất lượng cao; \nb) Doanh nghiệp có hoạt động đào tạo, đào tạo lại, bồi dưỡng nâng cao chất lượng nguồn nhân lực của doanh nghiệp;\nc) Dự án khởi nghiệp sáng tạo có nhu cầu đào tạo phát triển nguồn nhân lực công nghiệp công nghệ số;\nd) Dự án khởi nghiệp sáng tạo có thu hút nguồn nhân lực công nghiệp công nghệ số chất lượng cao, nhân tài công nghệ số;\nđ) Dự án thiết kế chip bán dẫn có nhu cầu đào tạo phát triển nguồn nhân lực thiết kế chip bán dẫn",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f6e36-6a25-7412-8836-f1a060ec0d77",
+    "proposalNumber": "2486/QĐ-UBND",
+    "decisionDate": 1784134800000,
+    "decisionNumber": null,
+    "publicationDate": 1784346375532,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

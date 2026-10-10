@@ -1,0 +1,351 @@
+{
+  "id": "019fcc06-95d5-721e-b4af-62df39e20747",
+  "code": "1.116160",
+  "codeNotation": "1.116160",
+  "executionSteps": [
+    {
+      "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận",
+      "description": "B1\t1. Người đề nghị nộp hồ sơ nộp hồ sơ tại Trung tâm phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc qua Hệ thống thông tin giải quyết TTHC. Trường hợp có biên bản họp giữa UBND cấp xã với người sử dụng đất về việc tặng cho quyền sử dụng đất thì người sử dụng đất không phải nộp hồ sơ.\n2. Cán bộ TN&TKQ kiểm tra hồ sơ:\n- Nếu hồ sơ không hợp lệ thì hướng dẫn bổ sung, hoàn thiện hồ sơ theo quy định. Nếu không bổ sung hoàn thiện được thì từ chối tiếp nhận hồ sơ.\n- Nếu hồ sơ hợp lệ thì làm thủ tục tiếp nhận hồ sơ, hẹn trả kết quả cho người nộp hồ sơ, chuyển hồ sơ về cơ quan nông nghiệp và môi trường cấp xã.\n\n\n\nB2\ta) Cơ quan nông nghiệp và môi trường cấp xã tham mưu UBND cấp xã tổ chức thực hiện đo đạc, chỉnh lý bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất.\nb) Phần diện tích còn lại của thửa đất (nếu có) thì người sử dụng đất, chủ sở hữu tài sản gắn liền với đất thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu theo quy định đối với phần diện tích còn lại của thửa đất.\n\nB3\t- Chuyển hồ sơ đến Chi nhánh Văn phòng Đăng ký đất đai để chỉnh lý, cập nhật vào hồ hơ địa chính."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb281-a916-74fc-aa0c-c046b3faff87",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn theo Mẫu số 01 ban hành kèm theo Quyết định số 48/2026/QĐ-UBND ngày 06/7/2026 của UBND tỉnh",
+          "code": "TPHS 00001",
+          "attachments": [
+            {
+              "id": "019fb277-0c91-7201-9edd-9b4cf0460b7d",
+              "fileName": "Mẫu số 01.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb277-0c91-7201-9edd-9b4cf0460b7d/Mẫu số 01.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb729-115e-730d-aa42-983bd7d349b7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phiếu hướng dẫn hoàn thiện hồ sơ",
+          "code": "TPHS0002",
+          "attachments": [
+            {
+              "id": "019fca74-903c-769d-b03b-be1354f2e783",
+              "fileName": "Mẫu 02.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fca74-903c-769d-b03b-be1354f2e783/Mẫu 02.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb5af-60a8-716f-b561-9b988ac08ea6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thông báo xác nhận kết quả đăng ký đất đai",
+          "code": "TPHS0003",
+          "attachments": [
+            {
+              "id": "019fca70-b404-734f-b9c4-4324f73ecb53",
+              "fileName": "Mẫu 03.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fca70-b404-734f-b9c4-4324f73ecb53/Mẫu 03.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb729-f5b3-726c-944a-91453b031b22",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phiếu kiểm soát quá trình giải quyết hồ sơ",
+          "code": "TPHS0005",
+          "attachments": [
+            {
+              "id": "019fca76-6a10-77bf-94ae-a9c399f14f14",
+              "fileName": "Mẫu 05.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fca76-6a10-77bf-94ae-a9c399f14f14/Mẫu 05.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb5f5-c009-74f8-ab03-2d11e71c8c73",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Dự án đầu tư lấn biển hoặc hạng mục lấn biển của dự án đầu tư đã được cơ quan nhà nước có thẩm quyền phê duyệt đối với trường hợp quy định tại Điều 190 của Luật Đất đai.",
+          "code": "TPHS0006",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+    "019d2bb3-5d7e-72d1-afe8-2d2590ea131f",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019e8731-a144-730f-9660-6392ade03300",
+    "019d2bb3-5d84-71c5-b675-6f91d70bb510",
+    "019fb5d1-364b-75d4-b567-3e6e83bdc0fc",
+    "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1"
+  ],
+  "resultIds": [
+    "019fcc03-888f-764d-a50a-ed9be10d8fc2"
+  ],
+  "subjectTypeIds": [
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-2d2590ea131f",
+      "name": "Nghị định số 103/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định về tiền sử dụng đất, tiền thuê đất",
+      "code": "103/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019e8731-a144-730f-9660-6392ade03300",
+      "name": "Quy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất",
+      "code": "Nghị định số 50/2026/NĐ-CP"
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b675-6f91d70bb510",
+      "name": "Nghị quyết số 253/2020/NQ-HĐND",
+      "code": "253/2020/NQ-HĐND"
+    },
+    {
+      "id": "019fb5d1-364b-75d4-b567-3e6e83bdc0fc",
+      "name": "sửa đổi, bổ sung một số khoản phí, lệ phí trên địa bàn tỉnh.",
+      "code": "136/2024/NQ-HĐND"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+      "name": "Nghị định số 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai",
+      "code": "102/2024/NĐ-CP "
+    },
+    {
+      "id": "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1",
+      "name": "Sửa đổi, bổ sung một số điều của Quy chế thi đua, khen thưởng trên địa bàn tỉnh Nghệ An và Phụ lục I ban hành kèm theo Quyết định số 81/2025/QĐ-UBND ngày 31/10/2025 của Ủy ban nhân dân tỉnh Nghệ An",
+      "code": "34/2026/QĐ-UBND"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fcc03-888f-764d-a50a-ed9be10d8fc2",
+      "name": "Tên Văn Bản",
+      "code": "KQTH 18"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+  "departmentPromulgateCode": "H27",
+  "departmentPromulgateName": "UBND tỉnh Hà Tĩnh",
+  "cases": [
+    {
+      "id": "019fcc3c-8426-76e0-9fbe-4183acc00c15",
+      "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận.",
+      "code": "1.116160.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785835648984,
+  "updatedAt": 1785835648984,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Trung tâm Phục vụ hành chính công tỉnh/xã.\n- Qua Dịch vụ bưu chính công ích.\n- Hệ thống thông tin giải quyết TTHC",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb231-1c5a-727d-a307-31892901a940",
+    "proposalNumber": "1918/UBND",
+    "decisionDate": 1785258000000,
+    "decisionNumber": null,
+    "publicationDate": 1785835648055,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+      "name": "UBND tỉnh Hà Tĩnh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

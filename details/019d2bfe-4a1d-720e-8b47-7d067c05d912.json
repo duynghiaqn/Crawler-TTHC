@@ -1,0 +1,335 @@
+{
+  "id": "019d2bfe-4a1d-720e-8b47-7d067c05d912",
+  "code": "1.004709",
+  "codeNotation": "1.004709",
+  "executionSteps": [
+    {
+      "name": "Nộp hồ sơ thủ tục hành chính",
+      "description": "Người khai thác công trình nộp 01 bộ hồ sơ đề nghị đưa công trình, một phần công trình vào khai thác đến Cục Hàng không Việt Nam. Việc thực hiện tiếp nhận thủ tục hành chính được thực hiện theo quy định của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận một cửa và Cổng dịch vụ công quốc gia."
+    },
+    {
+      "name": "Giải quyết thủ tục hành chính",
+      "description": "Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng không Việt Nam thẩm định hồ sơ, kiểm tra thực tế (nếu cần thiết), quyết định đưa công trình, một phần công trình vào khai thác, phê duyệt sửa đổi, bổ sung tài liệu khai thác sân bay (nếu có), quyết định phê duyệt tài liệu khai thác công trình hoặc phê duyệt sửa đổi, bổ sung tài liệu khai thác công trình (nếu có) hoặc yêu cầu sửa đổi, bổ sung hồ sơ trong trường hợp cần thiết. Sau khi nhận được hồ sơ bổ sung của người khai thác công trình (nếu có), trong thời hạn 03 ngày làm việc, Cục Hàng không Việt Nam ban hành quyết định đưa công trình, một phần công trình vào khai thác, phê duyệt sửa đổi, bổ sung tài liệu khai thác sân bay (nếu có), quyết định phê duyệt tài liệu khai thác công trình hoặc phê duyệt sửa đổi, bổ sung tài liệu khai thác công trình (nếu có), trường hợp không chấp thuận, Cục Hàng không Việt Nam phải có văn bản thông báo, nêu rõ lý do.\nSau khi cơ quan giải quyết thủ tục hành chính thực hiện thẩm định mà có yêu cầu phải sửa đổi, bổ sung hồ sơ, cơ quan giải quyết thủ tục hành chính có văn bản đề nghị sửa đổi, bổ sung, nêu rõ lý do, nội dung cần bổ sung. Sau 15 ngày làm việc kể từ ngày nhận được thông báo của cơ quan giải quyết thủ tục hành chính mà tổ chức, cá nhân không hoàn thiện, bổ sung hồ sơ thì cơ quan giải quyết thủ tục hành chính kết thúc giải quyết thủ tục hành chính. Thời gian tổ chức, cá nhân bổ sung hồ sơ không tính vào thời gian giải quyết thủ tục hành chính.\nKết quả giải quyết thủ tục hành chính được trả bằng bản điện tử, trừ trường hợp công dân, tổ chức có nhu cầu nhận bản giấy. Hồ sơ và kết quả giải quyết thủ tục hành chính bằng bản điện tử có giá trị pháp lý như bản giấy."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời hạn thẩm định hồ sơ, kiểm tra thực tế trong trường hợp không phải bổ sung hồ sơ: 08 ngày làm việc kể từ ngày doanh nghiệp nộp hồ sơ theo quy định.\n- Trong trường hợp yêu cầu bổ sung:\n+ Thời hạn yêu cầu bổ sung hồ sơ: 03 ngày làm việc kể từ ngày doanh nghiệp nộp đủ hồ sơ theo quy định;\n+ Thời hạn quyết định đưa công trình, một phần công trình vào khai thác: 03 ngày sau khi nhận được hồ sơ bổ sung của doanh nghiệp",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời hạn thẩm định hồ sơ, kiểm tra thực tế trong trường hợp không phải bổ sung hồ sơ: 08 ngày làm việc kể từ ngày doanh nghiệp nộp hồ sơ theo quy định.\n- Trong trường hợp yêu cầu bổ sung:\n+ Thời hạn yêu cầu bổ sung hồ sơ: 03 ngày làm việc kể từ ngày doanh nghiệp nộp đủ hồ sơ theo quy định;\n+ Thời hạn quyết định đưa công trình, một phần công trình vào khai thác: 03 ngày sau khi nhận được hồ sơ bổ sung của doanh nghiệp",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời hạn thẩm định hồ sơ, kiểm tra thực tế trong trường hợp không phải bổ sung hồ sơ: 08 ngày làm việc kể từ ngày doanh nghiệp nộp hồ sơ theo quy định.\n- Trong trường hợp yêu cầu bổ sung:\n+ Thời hạn yêu cầu bổ sung hồ sơ: 03 ngày làm việc kể từ ngày doanh nghiệp nộp đủ hồ sơ theo quy định;\n+ Thời hạn quyết định đưa công trình, một phần công trình vào khai thác: 03 ngày sau khi nhận được hồ sơ bổ sung của doanh nghiệp",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Công trình được đưa vào khai thác phải đảm bảo đủ yêu cầu an ninh, an toàn và tiêu chuẩn khai thác theo quy định.",
+  "name": "Đưa công trình, một phần công trình vào khai thác",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f7d17-eedb-77c5-95fc-943916e60170",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo Mẫu số I.09 quy định tại Phụ lục ban hành kèm theo Nghị định 205/2026/NĐ-CP",
+          "code": "TP-G17.000454",
+          "attachments": [
+            {
+              "id": "019f7d2b-e272-769b-8d40-073e18918736",
+              "fileName": "TP-G17.000454.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7d2b-e272-769b-8d40-073e18918736/TP-G17.000454.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f7d18-6151-766e-a0a6-b2ac51e8f221",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử biên bản nghiệm thu hoàn thành hạng mục công trình, công trình xây dựng đưa vào sử dụng và bản sao văn bản thông báo kết quả kiểm tra công tác nghiệm thu hạng mục công trình, công trình đưa vào sử dụng của cơ quan nhà nước có thẩm quyền theo quy định của pháp luật về xây dựng",
+          "code": "TP-G17.000455",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7d18-b0ce-773b-94e5-18634c09fa47",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo tài liệu khai thác công trình hoặc tài liệu khai thác sân bay; nội dung sửa đổi, bổ sung tài liệu kèm theo tài liệu chứng minh (nếu có)",
+          "code": "TP-G17.000456",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7d18-f49d-758a-8003-b5caa2fc8984",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử hồ sơ quản lý sự thay đổi theo quy định của hệ thống quản lý an toàn (nếu có).",
+          "code": "TP-G17.000457",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d86-7760-a639-d5af31708914"
+  ],
+  "resultIds": [
+    "019f7d0d-b238-70fb-aba7-5a1bbb8a43ae",
+    "019f7d17-9b99-754e-a74c-6cf555ec87eb",
+    "019f7d19-6341-747b-88ae-beba0bf4da5d",
+    "019f7d19-d3a7-74ec-806e-b85b00762519"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+      "name": "Hàng không",
+      "code": "G04-GT06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+    "name": "Hàng không",
+    "code": "G04-GT06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d86-7760-a639-d5af31708914",
+      "name": "Nghị định 205/2026/NĐ-CP ngày 15/6/2026 của Chính phủ về cảng hàng không và bãi cất, hạ cánh.",
+      "code": "205/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f7d17-9b99-754e-a74c-6cf555ec87eb",
+      "name": "Quyết định phê duyệt sửa đổi, bổ sung tài liệu khai thác sân bay hoặc tài liệu khai thác bãi cất, hạ cánh thực hiện theo Mẫu số II.07 quy định tại Phụ lục ban hành kèm theo Nghị định 205/2026/NĐ-CP",
+      "code": "KQ-G17.000066"
+    },
+    {
+      "id": "019f7d0d-b238-70fb-aba7-5a1bbb8a43ae",
+      "name": "Trường hợp không cấp giấy phép phải gửi văn bản trả lời người đề nghị và nêu rõ lý do theo Mẫu số II.14 quy định tại Phụ lục ban hành kèm theo Nghị định số 205/2026/NĐ-CP",
+      "code": "KQ-G17.000061"
+    },
+    {
+      "id": "019f7d19-d3a7-74ec-806e-b85b00762519",
+      "name": "Quyết định phê duyệt tài liệu khai thác công trình hoặc phê duyệt sửa đổi, bổ sung tài liệu khai thác công trình (nếu có) thực hiện theo Mẫu số II.10 quy định tại Phụ lục ban hành kèm theo Nghị định 205/2026/NĐ-CP",
+      "code": "KQ-G17.000070"
+    },
+    {
+      "id": "019f7d19-6341-747b-88ae-beba0bf4da5d",
+      "name": "Quyết định phê duyệt sửa đổi, bổ sung tài liệu khai thác sân bay (nếu có) thực hiện theo Mẫu số II.07 quy định tại Phụ lục ban hành kèm theo Nghị định 205/2026/NĐ-CP",
+      "code": "KQ-G17.000068"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "01a03d17-e910-7493-ba36-348854208ae5",
+      "name": "Đưa công trình, một phần công trình vào khai thác",
+      "code": "1.004709.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2cb5-509c-7024-9483-69c6e2c17bff",
+      "name": "Đưa công trình, một phần công trình thuộc kết cấu hạ tầng cảng hàng không, sân bay vào khai thác",
+      "code": "1.004709.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559578653,
+  "updatedAt": 1787731369185,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Hàng không Việt Nam",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "119 Nguyễn Sơn, Phường Bồ Đề, Hà Nội",
+  "delegatedAgencies": "Cục Hàng không Việt Nam",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Công trình được đưa vào khai thác phải đảm bảo đủ yêu cầu an ninh, an toàn và tiêu chuẩn khai thác theo quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f1c62-d663-7662-900f-fc080643c590",
+    "proposalNumber": "1201/QĐ-BXD",
+    "decisionDate": 1783616400000,
+    "decisionNumber": null,
+    "publicationDate": 1787731365779,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

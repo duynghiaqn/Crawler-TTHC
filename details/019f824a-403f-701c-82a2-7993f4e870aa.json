@@ -1,0 +1,257 @@
+{
+  "id": "019f824a-403f-701c-82a2-7993f4e870aa",
+  "code": "1.116000",
+  "codeNotation": "1.116000",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công cấp tỉnh, Trung tâm Phục vụ hành chính công cấp xã hoặc thông qua dịch vụ bưu chính công ích hoặc nộp trực tuyến trên Cổng dịch vụ công. Việc lựa chọn địa điểm nộp hồ sơ không phụ thuộc vào địa bàn cấp xã nơi có đất.\n- Trường hợp là tổ chức được giao đất để quản lý nộp hồ sơ thì Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ và chuyển hồ sơ đến Văn phòng đăng ký đất đai.\n- Trường hợp là cơ quan có chức năng quản lý đất đai nộp hồ sơ đối với đất thuộc trách nhiệm quản lý của Chủ tịch Ủy ban nhân dân cấp tỉnh, cấp xã thì Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ và chuyển hồ sơ đến Văn phòng đăng ký đất đai.\n- Trường hợp là người đại diện cho cộng đồng dân cư nộp hồ sơ đối với đất giao cộng đồng dân cư quản lý thì Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ và chuyển hồ sơ đến Chi nhánh Văn phòng đăng ký đất đai.\nBước 2: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện việc lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết là 17 ngày làm việc. Đối với các xã miền núi; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn là 27 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 27,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết là 17 ngày làm việc. Đối với các xã miền núi; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn là 27 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết là 17 ngày làm việc. Đối với các xã miền núi; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn là 27 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 27,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết là 17 ngày làm việc. Đối với các xã miền núi; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn là 27 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết là 17 ngày làm việc. Đối với các xã miền núi; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn là 27 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 27,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết là 17 ngày làm việc. Đối với các xã miền núi; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn là 27 ngày làm việc",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý (VPĐK đất đai - tỉnh Phú Thọ)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb0cc-9076-728a-b278-a7abb72fc679",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 15 ban hành kèm theo Quyết định số 33/2026/QĐ-UBND ngày 29 tháng 6 năm 2026 của UBND tỉnh Phú Thọ",
+          "code": "H44.TPHS.00058",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb0cd-073b-7245-af4b-18f30a7444f6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kết quả rà soát hiện trạng sử dụng đất theo Mẫu số 15d ban hành kèm theo Quyết định số 33/2026/QĐ-UBND ngày 29 tháng 6 năm 2026 của UBND tỉnh Phú Thọ.",
+          "code": "H44.TPHS.00030",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019f824a-26e2-75c7-860d-29ad219c987c"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a347-b53f134b0f27"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a85-74ec-a338-04dc89744109"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a347-b53f134b0f27",
+      "name": "Phòng thẩm định & cấp GCN cá nhân",
+      "code": "H21.24.01.01"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a85-74ec-a338-04dc89744109",
+      "name": "Văn phòng Đăng ký đất đai tỉnh Cà Mau",
+      "code": "H12.06.26"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019f824a-26e2-75c7-860d-29ad219c987c",
+      "name": "Lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.",
+      "code": "Lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [
+    {
+      "id": "019fd104-4e4b-714b-b87c-7a6e2a946648",
+      "name": "Thủ tục Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý (VPĐK đất đai - tỉnh Phú Thọ)",
+      "code": "1.116000.01",
+      "processingDay": {
+        "qty": 17,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fdb72-81a9-7078-afb9-75b11a403618",
+      "name": "Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý",
+      "code": "1.116000.02",
+      "processingDay": {
+        "qty": 17,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785397271273,
+  "updatedAt": 1785397271273,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Phòng thẩm định & cấp GCN cá nhân",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "1. Trực tiếp: \n1.1. Trung tâm Phục vụ hành chính công tỉnh Phú Thọ. \n- Cơ sở 1: Địa chỉ: Số 398 - Đường Trần Phú - phường Việt Trì - tỉnh Phú Thọ ĐT: 0210 2222 555 \n- Cơ sở 2: Địa chỉ: số 5, đường Nguyễn Trãi, Phường Vĩnh Phúc, tỉnh Phú Thọ; ĐT: 0211 3616 618.\n- Cơ sở 3: Số 485 đường Trần Hưng Đạo, phường Hòa Bình, tỉnh Phú Thọ; ĐT: 02183868689\n1.2. Trung tâm Phục vụ hành chính công các xã, phường trên địa bàn tỉnh Phú Thọ.\n2. Trực tuyến \nĐịa chỉ truy cập: \nwww.dichvucong.gov.vn \n3. Dịch vụ Bưu chính",
+  "delegatedAgencies": "Văn phòng Đăng ký đất đai tỉnh Cà Mau",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019facb1-b74a-7752-abe0-45a36aafd4f7",
+    "proposalNumber": "2143/QĐ-UBND",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1785397269411,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

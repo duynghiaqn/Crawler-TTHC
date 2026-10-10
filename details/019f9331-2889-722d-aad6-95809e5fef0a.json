@@ -1,0 +1,232 @@
+{
+  "id": "019f9331-2889-722d-aad6-95809e5fef0a",
+  "code": "1.115979",
+  "codeNotation": "1.115979",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Nộp hồ sơ TTHC: \n- Cá nhân gửi hồ sơ trực tiếp tại Phòng Cảnh sát giao thông hoặc Công an cấp xã nơi được bố trí điểm tiếp nhận hồ sơ;\n- Cá nhân chụp ảnh trực tiếp hoặc sử dụng ảnh tại dữ liệu căn cước hoặc gửi ảnh chân dung, nền trắng, kích thước 3cmx4cm tại nơi tiếp nhận hồ sơ; xuất trình bản sao giấy tờ chứng minh không còn phục vụ trong lực lượng Quân đội nhân dân (đối với trường hợp đổi giấy phép lái xe quân sự do Bộ quốc phòng cấp), bản sao giấy chứng minh không còn phục vụ trong lực lượng Công an nhân dân hoặc công văn đề nghị đổi giấy phép lái xe trong Công an nhân dân của đơn vị để phục vụ yêu cầu công tác và hoàn thành nghĩa vụ nộp lệ phí khi được tiếp nhận hồ sơ.\nb) Giải quyết TTHC: \n- Đối với giấy phép lái xe quân sự do Bộ Quốc phòng cấp, Phòng Cảnh sát giao thông hoặc Công an cấp xã nơi bố trí điểm tiếp nhận kiểm tra hồ sơ, thực hiện nhập thông tin điện tử; in phiếu hẹn trả kết quả, trường hợp phát hiện có nghi vấn, Phòng Cảnh sát giao thông có văn bản đề nghị đơn vị chức năng thuộc Bộ Quốc phòng xác minh giấy phép lái xe đã cấp theo mẫu số 01 Phụ lục X ban hành kèm theo Thông tư số 108/2026/TT-BCA ngày 29/6/2026, khi chưa có kết quả xác minh giấy phép lái xe hoặc có kết quả xác minh giấy phép lái xe không do Bộ Quốc phòng cấp thì không đổi giấy phép lái xe. Đối với giấy phép lái xe trong Công an nhân dân Phòng Cảnh sát giao thông hoặc Công an cấp xã kiểm tra hồ sơ, tra cứu thông tin về giấy phép lái xe từ hệ thống thông tin giấy phép lái xe trong Công an nhân dân, trường hợp chưa có thông tin phải xác minh theo mẫu số 01 Phụ lục X ban hành kèm theo Thông tư số 108/2026/TT-BCA ngày 29/6/2026; tra cứu vi phạm của người lái xe, thực hiện nhập thông tin điện tử; in phiếu hẹn trả kết quả.\n- Trường hợp giấy phép lái xe không thuộc đối tượng được đổi thì phải thông báo về việc không tiếp nhận hồ sơ; trường hợp hồ sơ không đúng theo quy định thì hướng dẫn những nội dung cần bổ sung hoặc sửa đổi cho cá nhân trong thời hạn 02 ngày làm việc, kể từ ngày nhận hồ sơ.\n- Trong thời hạn 01 ngày làm việc kể từ thời điểm nhận đủ hồ sơ Phòng Cảnh sát giao thông chuyển dữ liệu đến Cục Cảnh sát giao thông để quản lý tập trung và cấp giấy phép lái xe, tích hợp giấy phép lái xe trên Ứng dụng định danh quốc gia (VNeID) hoặc các ứng dụng của lực lượng Công an nhân dân theo quy định, trong thời hạn 2,5 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ Cục Cảnh sát giao thông hoặc phòng Cảnh sát giao thông tổ chức in và trả giấy phép lái xe khi người dân có yêu cầu."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "2,5 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng theo quy định (bao gồm xác tích hợp giấy phép lái xe trên Ứng dụng định danh quốc gia (VNeID) và in, trả giấy phép lái xe khi người dân có yêu cầu).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 115000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "- Yêu cầu đối với việc đổi giấy phép lái xe do Bộ Quốc phòng cấp khi thôi phục vụ trong Quân đội: Người có giấy phép lái xe quân sự do Bộ Quốc phòng cấp còn thời hạn sử dụng có nhu cầu được đổi giấy phép lái xe, giấy phép lái xe quân sự có hiệu lực được phép lái nhiều hạng xe khác nhau, được đổi sang giấy phép lái xe có hiệu lực lái các hạng xe tương ứng, giấy phép lái xe quân sự hạng CX được đổi sang giấy phép lái xe hạng C.\n- Yêu cầu đối với việc đổi giấy phép lái xe trong Công an nhân dân khi thôi không còn phục vụ trong lực lượng Công an: Người có giấy phép lái xe còn thời hạn sử dụng bị mất, bị hỏng nhưng vẫn còn thời hạn sử dụng, có thông tin trong hệ thống thông tin giấy phép lái xe tại Cục Cảnh sát giao thông hoặc bảng kê danh sách cấp giấy phép lái xe (sổ quản lý) có nhu cầu được đổi giấy phép lái xe; Người có giấy phép lái xe mô tô bằng vật liệu giấy, không bị tẩy xóa, có đủ thông tin trong giấy phép lái xe có nhu cầu được đổi giấy phép lái xe.\n- Không đổi giấy phép lái xe quân sự, giấy phép lái xe trong Công an nhân dân bị tẩy xóa thông tin; người vi phạm trật tự, an toàn giao thông đường bộ chưa thực hiện xong yêu cầu của cơ quan nhà nước có thẩm quyền về giải quyết, xử lý vụ việc vi phạm hành chính trong lĩnh vực trật tự, an toàn giao thông đường bộ.",
+  "name": "Đổi giấy phép lái xe quân sự, Công an",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f932f-7191-7295-8b27-ccdd1e8b765b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy tờ chứng minh thôi không còn phục vụ trong lực lượng Quân đội nhân dân (trường hợp đổi giấy phép lái xe quân sự do Bộ Quốc phòng cấp), bản sao giấy tờ chứng minh thôi không còn phục vụ trong lực lượng Công an nhân dân hoặc công văn đề nghị đổi giấy phép lái xe trong Công an nhân dân của đơn vị để phục vụ yêu cầu công tác",
+          "code": "000.00.00.G01-KQ003927",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f932f-ecb0-7422-b4af-48de878fb2d0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy phép lái xe quân sự còn thời hạn sử dụng hoặc xác nhận của cơ quan có thẩm quyền của Bộ Quốc phòng về việc đã được cấp giấy phép lái xe quân sự, tình trạng còn thời hạn sử dụng (đối với trường hợp đổi giấy phép lái xe quân sự do Bộ Quốc phòng cấp). Giấy phép lái xe trong trường hợp không có trong cơ sở dữ liệu quản lý giấy phép lái xe trong Công an nhân dân hoặc sổ quản lý giấy phép lái xe; bản cam kết trong trường hợp giấy phép lái xe bị mất, còn hồ sơ gốc (đối với trường hợp đổi giấy phép lái xe trong Công an nhân dân).",
+          "code": "000.00.00.G01-KQ003928",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f9330-4d81-73b7-8fb9-0ba103ffba25",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy khám sức khỏe của người lái xe còn hiệu lực (bản điện tử), trường hợp do lỗi kỹ thuật không sử dụng được bản điện tử thì sử dụng bản giấy do cơ sở khám bệnh, chữa bệnh đủ tiêu chuẩn theo quy định của pháp luật về khám bệnh, chữa bệnh cấp",
+          "code": "000.00.00.G01-KQ003929",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-11516ea4d23a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f9217-1d7c-73d3-b912-fb5218cb4d8f",
+    "019f8e17-f623-730d-81fb-0572cf565239"
+  ],
+  "resultIds": [
+    "019d2bb2-1c37-76e8-b48e-2f04c36d5aab"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30",
+    "019d2be3-6a90-761e-acd7-26762619bf92"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30",
+    "019d2be3-6a90-761e-acd7-26762619bf92"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-11516ea4d23a",
+      "name": "Sát hạch, cấp giấy phép lái xe",
+      "code": "G01-CA28"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-26762619bf92",
+      "name": "Công an cấp Xã",
+      "code": "BCA_CAX"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-26762619bf92",
+      "name": "Công an cấp Xã",
+      "code": "BCA_CAX"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f8e17-f623-730d-81fb-0572cf565239",
+      "name": "Thông tư số 154/2025/TT-BTC ngày 31/12/2025 của Bộ Tài chính quy định mức thu, chế độ thu, nộp phí sát hạch lái xe, lệ phí cấp bằng, chứng chỉ được hoạt động trên các loại phương tiện và lệ phí đăng ký, cấp biển xe máy chuyên dùng",
+      "code": "154/2025/TT-BTC "
+    },
+    {
+      "id": "019f9217-1d7c-73d3-b912-fb5218cb4d8f",
+      "name": "Thông tư số 108/2026/TT-BCA ngày 29/6/2026 của Bộ trưởng Bộ Công an quy định về sát hạch, cấp giấy phép lái xe; cấp, sử dụng giấy phép lái xe quốc tế.",
+      "code": "108/2026/TT-BCA "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c37-76e8-b48e-2f04c36d5aab",
+      "name": "Giấy phép lái xe",
+      "code": "KQ.G01.000185"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1784882399147,
+  "updatedAt": 1784882399147,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Công an cấp Xã, Công an cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Công an cấp Xã, Công an cấp Tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Yêu cầu đối với việc đổi giấy phép lái xe do Bộ Quốc phòng cấp khi thôi phục vụ trong Quân đội: Người có giấy phép lái xe quân sự do Bộ Quốc phòng cấp còn thời hạn sử dụng có nhu cầu được đổi giấy phép lái xe, giấy phép lái xe quân sự có hiệu lực được phép lái nhiều hạng xe khác nhau, được đổi sang giấy phép lái xe có hiệu lực lái các hạng xe tương ứng, giấy phép lái xe quân sự hạng CX được đổi sang giấy phép lái xe hạng C.\n- Yêu cầu đối với việc đổi giấy phép lái xe trong Công an nhân dân khi thôi không còn phục vụ trong lực lượng Công an: Người có giấy phép lái xe còn thời hạn sử dụng bị mất, bị hỏng nhưng vẫn còn thời hạn sử dụng, có thông tin trong hệ thống thông tin giấy phép lái xe tại Cục Cảnh sát giao thông hoặc bảng kê danh sách cấp giấy phép lái xe (sổ quản lý) có nhu cầu được đổi giấy phép lái xe; Người có giấy phép lái xe mô tô bằng vật liệu giấy, không bị tẩy xóa, có đủ thông tin trong giấy phép lái xe có nhu cầu được đổi giấy phép lái xe.\n- Không đổi giấy phép lái xe quân sự, giấy phép lái xe trong Công an nhân dân bị tẩy xóa thông tin; người vi phạm trật tự, an toàn giao thông đường bộ chưa thực hiện xong yêu cầu của cơ quan nhà nước có thẩm quyền về giải quyết, xử lý vụ việc vi phạm hành chính trong lĩnh vực trật tự, an toàn giao thông đường bộ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f8db9-a166-7249-8334-277214647290",
+    "proposalNumber": "4685/QĐ-BCA-C08",
+    "decisionDate": 1784739600000,
+    "decisionNumber": null,
+    "publicationDate": 1784882398975,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "id": "019d2bfc-6c70-7517-836b-9b5e86f49c16",
+  "code": "1.008584",
+  "codeNotation": "1.008584",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: \n++ Người nộp thuế chuẩn bị, lập hồ sơ đề nghị miễn, giảm tiền thuê đất theo quy định và gửi đến cơ quan thuế nơi có đất;\n++ Người nộp thuế chuẩn bị, lập hồ sơ đề nghị miễn, giảm thuế sử dụng đất nông nghiệp, thuế sử dụng đất phi nông nghiệp theo quy định và gửi đến cơ quan thuế quản lý khoản thu ngân sách nhà nước;\n++ Người nộp thuế chuẩn bị, lập hồ sơ đề nghị giảm thuế tiêu thụ đặc biệt theo quy định và gửi đến cơ quan thuế quản lý trực tiếp."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan thuế thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định;"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 30 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ, cơ quan thuế có quyết định, thông báo miễn thuế, giảm thuế hoặc thông báo lý do không được miễn thuế, giảm thuế. Thời hạn giải quyết hồ sơ miễn thuế, giảm thuế không bao gồm thời gian người nộp thuế được giải trình, bổ sung thông tin tài liệu theo thông báo của cơ quan thuế khi giải quyết hồ sơ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 30 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ, cơ quan thuế có quyết định, thông báo miễn thuế, giảm thuế hoặc thông báo lý do không được miễn thuế, giảm thuế. Thời hạn giải quyết hồ sơ miễn thuế, giảm thuế không bao gồm thời gian người nộp thuế được giải trình, bổ sung thông tin tài liệu theo thông báo của cơ quan thuế khi giải quyết hồ sơ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 30 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ, cơ quan thuế có quyết định, thông báo miễn thuế, giảm thuế hoặc thông báo lý do không được miễn thuế, giảm thuế. Thời hạn giải quyết hồ sơ miễn thuế, giảm thuế không bao gồm thời gian người nộp thuế được giải trình, bổ sung thông tin tài liệu theo thông báo của cơ quan thuế khi giải quyết hồ sơ.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính.",
+  "name": "Miễn, giảm trong các trường hợp bất khả kháng, thiên tai, hỏa hoạn, tai nạn bất ngờ (tiền thuê đất; thuế sử dụng đất nông nghiệp; thuế sử dụng đất phi nông nghiệp; thuế tiêu thụ đặc biệt)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "i.1. Miễn, giảm tiền thuê đất + Đối với trường hợp được Nhà nước cho thuê đất trả tiền thuê đất hằng năm để sử dụng vào mục đích sản xuất nông nghiệp, lâm nghiệp, nuôi trồng thủy sản, làm muối mà bị thiên tai, hỏa hoạn theo quy định tại khoản 3 Điều 5 Nghị định số 230/2025/NĐ-CP của Chính phủ quy định các trường hợp khác được miễn, giảm tiền sử dụng đất, tiền thuê đất theo quy định tại khoản 2 Điều 157 Luật Đất đai năm 2024:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-eb212e39a486",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0001163",
+          "attachments": [
+            {
+              "id": "019fa783-2c06-74da-bdc2-b8db8efd0de0",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa783-2c06-74da-bdc2-b8db8efd0de0/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f39-faf46cb58a5f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định thời gian, địa điểm xảy ra thiên tai, hỏa hoạn của cơ quan nhà nước có thẩm quyền nơi xảy ra thiên tai, hỏa hoạn theo mẫu số 02/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính và bản sao tài liệu xác định giá trị thiệt hại của người nộp thuế đã gửi cơ quan nhà nước có thẩm quyền",
+          "code": "G12.0001167",
+          "attachments": [
+            {
+              "id": "019fa7a5-f96a-72c0-a22d-6ebe8a01e004",
+              "fileName": "02 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa7a5-f96a-72c0-a22d-6ebe8a01e004/02 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019e6372-e448-7671-b67b-5d96a8b2dcaf",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao tài liệu chứng minh về các khoản hỗ trợ của nhà nước theo quy định của pháp luật (trong trường hợp người thuê đất có nhận được khoản hỗ trợ của nhà nước theo quy định của pháp luật)",
+          "code": "G12.0001172",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-c23ae4e067b5",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao: Quyết định cho thuê đất hoặc Hợp đồng thuê đất hoặc văn bản về sử dụng đất của cơ quan, người có thẩm quyền cho thuê đất",
+          "code": "G12.0001165",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "i.2. Miễn, giảm tiền thuê đất - Đối với trường hợp được Nhà nước cho thuê đất trả tiền thuê đất hằng năm sử dụng vào mục đích sản xuất, kinh doanh (trừ dự án sử dụng đất vào mục đích sản xuất nông nghiệp, lâm nghiệp, nuôi trồng thủy sản, làm muối) nhưng phải tạm ngừng hoạt động để khắc phục hậu quả do bị thiên tai, hỏa hoạn hoặc do tai nạn bất khả kháng theo quy định tại khoản 4 Điều 5 Nghị định số 230/2025/NĐ-CP",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-eb212e39a486",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0001163",
+          "attachments": [
+            {
+              "id": "019fa783-2c06-74da-bdc2-b8db8efd0de0",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa783-2c06-74da-bdc2-b8db8efd0de0/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019e6373-d756-76cf-8e51-9397e495ff00",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác nhận về thời gian tạm ngừng hoạt động sản xuất, kinh doanh của cơ quan quản lý nhà nước có thẩm quyền theo quy định tại điểm a khoản 4 Điều 5 Nghị định số 230/2025/NĐ-CP",
+          "code": "G12.0001173",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-c23ae4e067b5",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao: Quyết định cho thuê đất hoặc Hợp đồng thuê đất hoặc văn bản về sử dụng đất của cơ quan, người có thẩm quyền cho thuê đất",
+          "code": "G12.0001165",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "ii.1. Miễn, giảm thuế sử dụng đất nông nghiệp  + Đối với trường hợp người nộp thuế gặp khó khăn do gặp thiên tai, hoả hoạn:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-eb212e39a486",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0001163",
+          "attachments": [
+            {
+              "id": "019fa783-2c06-74da-bdc2-b8db8efd0de0",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa783-2c06-74da-bdc2-b8db8efd0de0/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30d-d4cfdd4aebbf",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định thời gian, địa điểm xảy ra thiên tai, hỏa hoạn của cơ quan nhà nước có thẩm quyền nơi xảy ra thiên tai, hỏa hoạn theo mẫu số 02/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính và bản sao tài liệu xác định giá trị thiệt hại của người nộp thuế đã gửi cơ quan nhà nước có thẩm quyền",
+          "code": "G12.0001170",
+          "attachments": [
+            {
+              "id": "019fa7a6-2622-722c-a0ad-d1ae6844a103",
+              "fileName": "02 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa7a6-2622-722c-a0ad-d1ae6844a103/02 - MGTH-TT89.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ii.2. Miễn, giảm thuế sử dụng đất nông nghiệp Đối với trường hợp người nộp thuế gặp khó khăn do tai nạn bất ngờ:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-eb212e39a486",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0001163",
+          "attachments": [
+            {
+              "id": "019fa783-2c06-74da-bdc2-b8db8efd0de0",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa783-2c06-74da-bdc2-b8db8efd0de0/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2e-b18f0e17d5b7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định thời gian, địa điểm xảy ra tai nạn bất ngờ của cơ quan nhà nước có thẩm quyền nơi xảy ra tai nạn bất ngờ theo mẫu số 02/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính hoặc bản sao văn bản xác nhận mức độ thương tật của cơ quan y tế",
+          "code": "G12.0001177",
+          "attachments": [
+            {
+              "id": "019fa7a6-6cd6-77fb-b3ab-f2627bd74911",
+              "fileName": "02 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa7a6-6cd6-77fb-b3ab-f2627bd74911/02 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2e-56cb33635c8e",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây tai nạn (nếu có)",
+          "code": "G12.0001178",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa798-b610-702b-8ae4-d99d0c62c5b9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao các chứng từ chi liên quan trực tiếp đến việc khắc phục tai nạn.",
+          "code": "TP-G12.0001022",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "iii. Miễn, giảm thuế sử dụng đất phi nông nghiệp đối với người nộp thuế gặp khó khăn do sự kiện bất khả kháng",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa79c-0474-767e-a4e0-4e00e8720d87",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH ban hành kèm theo phụ lục III Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính",
+          "code": "TP-G12.0001023",
+          "attachments": [
+            {
+              "id": "019fa79c-8915-71ee-940f-55becf3a7c4f",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa79c-8915-71ee-940f-55becf3a7c4f/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa79c-e39b-771d-89fa-1edc525dccc0",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định thời gian, địa điểm xảy ra sự kiện bất khả kháng của cơ quan nhà nước có thẩm quyền nơi xảy ra sự kiện bất khả kháng theo mẫu số 02/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính và bản sao tài liệu xác định giá trị thiệt hại của người nộp thuế đã gửi cơ quan nhà nước có thẩm quyền.",
+          "code": "TP-G12.0001024",
+          "attachments": [
+            {
+              "id": "019fa7a6-a272-758e-9d89-e00da0710347",
+              "fileName": "02 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa7a6-a272-758e-9d89-e00da0710347/02 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa79d-595a-7219-8f31-9c64af692b39",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao các giấy tờ liên quan đến thửa đất chịu thuế như: Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất; Người nộp thuế không phải nộp Giấy chứng nhận quyền sử dụng đất kèm theo hồ sơ miễn thuế, giảm thuế. Cơ quan thuế khai thác, sử dụng thông tin về Giấy chứng nhận quyền sử dụng đất trong cơ sở dữ liệu quốc gia về đất đai",
+          "code": "TP-G12.0001025",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "iv.1. Giảm thuế tiêu thụ đặc biệt đối với người nộp thuế sản xuất hàng hóa thuộc diện chịu thuế tiêu thụ đặc biệt  + Đối với người nộp thuế gặp khó khăn do thiên tai:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa79e-ba3d-7390-b629-a77475d9810f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính",
+          "code": "TP-G12.0001026",
+          "attachments": [
+            {
+              "id": "019fa79e-aefa-722e-a1a0-de6bc9275e95",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa79e-aefa-722e-a1a0-de6bc9275e95/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa79f-2b2f-74a9-ac0d-ea0f0d1b6565",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định thời gian, địa điểm xảy ra thiên tai của cơ quan nhà nước có thẩm quyền nơi xảy ra thiên tai theo mẫu số 02/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính và bản sao tài liệu xác định giá trị thiệt hại của người nộp thuế đã gửi cơ quan nhà nước có thẩm quyền",
+          "code": "TP-G12.0001027",
+          "attachments": [
+            {
+              "id": "019fa7a6-d415-765d-b63b-9051dd1f38df",
+              "fileName": "02 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa7a6-d415-765d-b63b-9051dd1f38df/02 - MGTH-TT89.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iv.2. Giảm thuế tiêu thụ đặc biệt đối với người nộp thuế sản xuất hàng hóa thuộc diện chịu thuế tiêu thụ đặc biệt Đối với người nộp thuế gặp khó khăn do tai nạn bất ngờ",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa7a0-fdc5-700b-86f3-0f0d947af92c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính",
+          "code": "TP-G12.0001028",
+          "attachments": [
+            {
+              "id": "019fa7a0-f401-748d-92fa-a7aa1064c2b4",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa7a0-f401-748d-92fa-a7aa1064c2b4/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa7a1-6d40-75bd-9dff-f5caf75c21ad",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định thời gian, địa điểm xảy ra tai nạn bất ngờ của cơ quan nhà nước có thẩm quyền nơi xảy ra tai nạn bất ngờ theo mẫu số 02/MGTH Phụ lục III ban hành kèm theo Thông tư này hoặc văn bản xác nhận mức độ thương tật của cơ quan y tế",
+          "code": "TP-G12.0001029",
+          "attachments": [
+            {
+              "id": "019fa7a6-ffe1-723a-b5fd-bb5666e4340c",
+              "fileName": "02 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa7a6-ffe1-723a-b5fd-bb5666e4340c/02 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa7a1-c658-732a-9e02-9521342eee4e",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây tai nạn (nếu có)",
+          "code": "TP-G12.0001030",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa7a2-2dd8-70f0-af30-15e5cd3ceb0c",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao các chứng từ chi liên quan trực tiếp đến việc khắc phục tai nạn.",
+          "code": "TP-G12.0001031",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb1c6-9247-748e-b92f-ea127046897e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ ngày 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì mẫu số 01/MGTH và 02/MGTH thực hiện theo các mẫu biểu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính (đã được sửa đổi, bổ sung).",
+          "code": "G12.0011135",
+          "attachments": [
+            {
+              "id": "019fb1c6-8e62-7678-97d7-375f66ae4819",
+              "fileName": "01 MGTH TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb1c6-8e62-7678-97d7-375f66ae4819/01 MGTH TT 80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Tổ chức, hộ gia đình, cá nhân.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d7e-72d1-afed-bb9d18045764",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96df-0d8378c6d2fa",
+    "019d2bb2-1c71-7574-afe8-17852300bbbb"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afed-bb9d18045764",
+      "name": "Nghị định số 230/2025/NĐ-CP Quy định các trường hợp khác được miễn, giảm tiền sử dụng đất, tiền thuê đất theo quy định tại khoản 2 Điều 157 Luật Đất đai năm 2024",
+      "code": "230/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96df-0d8378c6d2fa",
+      "name": "Quyết định miễn thuế, giảm thuế theo mẫu số 03/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+      "code": "KQ.G12.000260"
+    },
+    {
+      "id": "019d2bb2-1c71-7574-afe8-17852300bbbb",
+      "name": "Thông báo không được miễn thuế, giảm thuế theo mẫu số 04/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+      "code": "KQ.G12.000558"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d7558-351c-7352-8788-8b00ed734380",
+      "name": "Miễn, giảm trong các trường hợp bất khả kháng, thiên tai, hỏa hoạn, tai nạn bất ngờ (Tiền thuê đất, thuê mặt nước; thuế sử dụng đất nông nghiệp; thuế sử dụng đất phi nông nghiệp) ",
+      "code": "1.008584.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-d412-737a-84b2-67740c3be18c",
+      "name": "Miễn, giảm trong các trường hợp bất khả kháng, thiên tai, hỏa hoạn, tai nạn bất ngờ (Tiền thuê đất, thuê mặt nước; thuế sử dụng đất nông nghiệp; thuế sử dụng đất phi nông nghiệp) ",
+      "code": "1.008584.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559456368,
+  "updatedAt": 1785399197351,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thuế tỉnh, thành phố, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/ Thuế cơ sở.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

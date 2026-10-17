@@ -1,0 +1,265 @@
+{
+  "id": "019ff042-5256-722c-844c-6bd9a59df3fd",
+  "code": "1.116326",
+  "codeNotation": "1.116326",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "B1\t1. Người đề nghị nộp hồ sơ tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc qua hoặc qua Hệ thống thông tin giải quyết TTHC.\n2. Cán bộ TN&TKQ kiểm tra hồ sơ:\n- Nếu hồ sơ chưa đầy đủ hoặc không hợp lệ thì hướng dẫn bổ sung, hoàn thiện hồ sơ theo quy định. Nếu không bổ sung hoàn thiện được thì từ chối tiếp nhận hồ sơ.\nNếu hồ sơ đầy đủ, hợp lệ thì làm thủ tục tiếp nhận hồ sơ, hẹn trả kết quả cho người nộp hồ sơ. Hồ sơ được chuyển đến cơ quan chuyên môn về nông nghiệp và môi trường cấp tỉnh.\nB2\tThông báo cho Văn phòng Đăng ký đất đai chuyển hồ sơ cấp Giấy chứng nhận lần đầu đến cơ quan nông nghiệp và môi trường cấp tỉnh để kiểm tra hồ sơ, lập biên bản kết luận về nội dung và nguyên nhân sai sót.\nB3\tVăn phòng Đăng ký đất đai cung cấp hồ sơ theo yêu cầu tại bước B2 và chuyển về Cơ quan nông nghiệp và môi trường cấp tỉnh.\nB4\tThẩm định, xử lý hồ sơ:\n- Trường hợp không đủ điều kiện giải quyết: ban hành Văn bản thông báo hồ sơ không đủ điều kiện giải quyết kèm theo hồ sơ chuyển Trung tâm Hành chính công trả cho người nộp hồ sơ.\n- Trường hợp đủ điều kiện giải quyết: \n+ Lập Biên bản thẩm định, ghi nội dung đính chính trên GCN (trường hợp không cấp mới GCN thì chuyển B7 để ký duyệt hồ sơ);\n+ Trường hợp cấp mới GCN thì chuyển xuống B5 để  cập nhật, chỉnh lý cơ sở dữ liệu đất đai hồ sơ địa chính để cấp GCN.\nB5\tChuyển hồ sơ đến Văn phòng Đăng ký đất đai cập nhật, chỉnh lý cơ sở dữ liệu đất đai hồ sơ địa chính theo quy định\n\nB6\tin Giấy chứng nhận kèm Biên bản thẩm định trình lãnh đạo Cơ quan nông nghiệp và môi trường cấp tỉnh ký nháy để trình Lãnh đạo cơ quan chuyên môn nông nghiệp và môi trường cấp tỉnh ký GCN.\nB7\tKý duyệt kết quả giải quyết TTHC theo thẩm quyền.\n\nB8\tChuyển hồ sơ đến Văn phòng Đăng ký đất đai cập nhật, chỉnh lý cơ sở dữ liệu đất đai hồ sơ địa chính và lưu trữ hồ sơ theo quy định\n\n    B9\tChuyển kết quả giải quyết TTHC đến Trung tâm Phục vụ hành chính công để trả kết quả giải quyết TTHC và thu phí, lệ phí theo quy định. \nTrường hợp tổ chức nộp hồ sơ qua dịch vụ bưu chính hoặc Hệ thống thông tin TTHC có đăng ký gửi kết quả giải quyết TTHC thì thực hiện gửi kết quả theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 05 ngày làm việc. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh)",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 05 ngày làm việc. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh)",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 05 ngày làm việc. (Không bao gồm thời gian thực hiện của các cơ quan, đơn vị có liên quan đối với các trường hợp quy định tại khoản 2 Điều 29 Quyết định số 48/2026/QĐ-UBND của UBND tỉnh)",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Đính chính Giấy chứng nhận đã cấp lần đầu có sai sót.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019ff021-4ecf-702f-b486-3877db30cc82",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo mẫu BM.QT.ĐĐVP.08.01.",
+          "code": "QT.ĐĐVP.08",
+          "attachments": [
+            {
+              "id": "019ff4d7-917c-7337-aa77-8c81696a4cba",
+              "fileName": "Mẫu số 04.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019ff4d7-917c-7337-aa77-8c81696a4cba/Mẫu số 04.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff022-7be3-71aa-ac43-d59a9e626104",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hợp đồng, văn bản về chuyển quyền sử dụng đất đã lập theo quy định.",
+          "code": "QT.ĐĐVP.08.2",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff023-6459-7398-8430-58c91e642cb6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản gốc Giấy chứng nhận đã cấp",
+          "code": "QT.ĐĐVP.08.3",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff024-6c97-7215-b761-37644d73a7c3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ về việc chuyển quyền sử dụng đất có đủ chữ ký của bên chuyển quyền và bên nhận chuyển quyền.",
+          "code": "QT.ĐĐVP.08.4",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019feffe-257e-76c8-ae35-6389e60b9796",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 27 kèm theo Quyết định số 48/2026/QĐ-UBND ngày 06/7/2026 của UBND tỉnh.",
+          "code": "QT.ĐĐ.08.1",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019ff03e-da23-763a-974a-bda60ae64ccd",
+    "019ff03f-9cf8-74c8-b151-40582ac7a2b3"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a86-70a8-a0ae-6eb1f5ec76fd"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a86-70a8-a0ae-6eb1f5ec76fd",
+      "name": "Văn phòng Đăng ký đất đai",
+      "code": "H24.60.4"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d8a38-d4a7-713d-9573-1e39f9f5c04f"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+      "name": "Sở Nông nghiệp và Môi trường"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019ff03e-da23-763a-974a-bda60ae64ccd",
+      "name": "+ Hồ sơ đủ điều kiện: Giấy chứng nhận",
+      "code": "KQ 8.1"
+    },
+    {
+      "id": "019ff03f-9cf8-74c8-b151-40582ac7a2b3",
+      "name": "+  Hồ sơ không đủ điều kiện: Văn bản trả hồ sơ (kèm hồ sơ).",
+      "code": "KQ 8.2"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+  "departmentPromulgateCode": "H27",
+  "departmentPromulgateName": "UBND tỉnh Hà Tĩnh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1786814346968,
+  "updatedAt": 1786814346968,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng Đăng ký đất đai",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã.\n- Qua Dịch vụ bưu chính công ích;\n- Cổng Dịch vụ công quốc gia https://dichvucong.gov.vn.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fefaf-cc6d-766d-b82e-e30490da3809",
+    "proposalNumber": "1998/QĐ-UBND",
+    "decisionDate": 1786035600000,
+    "decisionNumber": null,
+    "publicationDate": 1786522619055,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+      "name": "UBND tỉnh Hà Tĩnh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

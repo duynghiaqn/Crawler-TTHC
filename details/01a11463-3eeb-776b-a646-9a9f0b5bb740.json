@@ -1,0 +1,173 @@
+{
+  "id": "01a11463-3eeb-776b-a646-9a9f0b5bb740",
+  "code": "1.117007",
+  "codeNotation": "1.117007",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Cơ quan đầu mối phối hợp với Ủy ban nhân dân cấp xã, các cơ quan, tổ chức liên quan xác minh hoàn cảnh khó khăn về kinh tế.\n- Bước 2: Xác nhận của Ủy ban nhân dân cấp xã nơi nạn nhân cư trú hoặc cơ quan, tổ chức nơi nạn nhân học tập, làm việc về việc nạn nhân hoặc gia đình của nạn nhân đang gặp khó khăn về kinh tế đối với trường hợp nạn nhân bị thương trong vụ tai nạn giao thông đường bộ với tỷ lệ tổn thương cơ thể trên 31% đến dưới 81% đang gặp khó khăn về kinh tế hoặc xác nhận của Ủy ban nhân dân cấp xã nơi hộ gia đình cư trú về việc hộ gia đình đang gặp khó khăn về kinh tế đối với trường hợp hộ gia đình có nạn nhân bị chết trong vụ tai nạn giao thông đường bộ đang gặp khó khăn về kinh tế."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "HOUR",
+      "description": "Thực hiện ngay trong quá trình lập hồ sơ đề nghị chi từ Quỹ của Cơ quan đầu mối",
+      "fees": []
+    }
+  ],
+  "description": "- Hộ gia đình, nạn thuộc một trong các trường hợp quy định tại Điều 11 Nghị định số 279/2025/NĐ-CP;\n- Nạn nhân trong vụ tai nạn giao thông đường bộ được cơ quan có thẩm quyền lập hồ sơ thụ lý, điều tra, giải quyết theo quy định của pháp luật;\n- Người không gây ra nguyên nhân trực tiếp dẫn đến vụ tai nạn giao thông đường bộ;\n- Nạn nhân không phải là người điều khiển phương tiện tham gia giao thông đường bộ mà: trong máu hoặc hơi thở có nồng độ cồn; trong cơ thể có chất ma túy hoặc các chất kích thích khác mà pháp luật cấm sử dụng; phương tiện không đủ điều kiện tham gia giao thông đường bộ theo quy định của pháp luật;",
+  "name": "Xác nhận của Ủy ban nhân dân cấp xã nơi hộ gia đình cư trú về việc hộ gia đình đang gặp khó khăn về kinh tế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a11461-b030-737d-9325-753aba6a7c73",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Xác nhận của Ủy ban nhân dân cấp xã nơi nạn nhân, hộ gia đình nạn nhân cư trú hoặc của cơ quan, tổ chức nơi nạn nhân học tập, làm việc",
+          "code": "00.00.00.G01-KQ00579",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-1f63f9beee1a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a11444-1588-774b-9bdc-b625d33d1a48"
+  ],
+  "resultIds": [
+    "01a11462-cd02-7177-92d8-870bed305285"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6adc-74f3-b277-ce0ff2366b99"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-1f63f9beee1a",
+      "name": "Bảo đảm trật tự, an toàn giao thông đường bộ",
+      "code": "G01-CA32"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-1f63f9beee1a",
+    "name": "Bảo đảm trật tự, an toàn giao thông đường bộ",
+    "code": "G01-CA32"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6adc-74f3-b277-ce0ff2366b99",
+      "name": "Ủy ban nhân dân cấp xã",
+      "code": "UBNDX"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a11444-1588-774b-9bdc-b625d33d1a48",
+      "name": "Thông tư số 126/2026/TT-BCA ngày 30/6/2026 của Bộ trưởng Bộ Công an quy định trình tự, thủ tục thực hiện nội dung chi từ Quỹ giảm thiểu thiệt hại tai nạn giao thông đường bộ",
+      "code": "126/2026/TT-BCA "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a11462-cd02-7177-92d8-870bed305285",
+      "name": "Giấy xác nhận của Ủy ban nhân dân cấp xã nơi nạn nhân, hộ gia đình nạn nhân cư trú hoặc của cơ quan, tổ chức nơi nạn nhân học tập, làm việc",
+      "code": "KQ.G01.000453"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791344065887,
+  "updatedAt": 1791344065887,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Ủy ban nhân dân cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Hộ gia đình, nạn thuộc một trong các trường hợp quy định tại Điều 11 Nghị định số 279/2025/NĐ-CP;\n- Nạn nhân trong vụ tai nạn giao thông đường bộ được cơ quan có thẩm quyền lập hồ sơ thụ lý, điều tra, giải quyết theo quy định của pháp luật;\n- Người không gây ra nguyên nhân trực tiếp dẫn đến vụ tai nạn giao thông đường bộ;\n- Nạn nhân không phải là người điều khiển phương tiện tham gia giao thông đường bộ mà: trong máu hoặc hơi thở có nồng độ cồn; trong cơ thể có chất ma túy hoặc các chất kích thích khác mà pháp luật cấm sử dụng; phương tiện không đủ điều kiện tham gia giao thông đường bộ theo quy định của pháp luật;",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0e5d6-2d3d-70cf-a2c3-c7d08e56d16d",
+    "proposalNumber": "5395/QĐ-BCA",
+    "decisionDate": 1787504400000,
+    "decisionNumber": null,
+    "publicationDate": 1791344065778,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

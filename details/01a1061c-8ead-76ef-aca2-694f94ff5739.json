@@ -1,0 +1,365 @@
+{
+  "id": "01a1061c-8ead-76ef-aca2-694f94ff5739",
+  "code": "1.116950",
+  "codeNotation": "1.116950",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện",
+      "description": "Bước 1: Người yêu cầu đính chính nộp hồ sơ đến Trung tâm Phục vụ hành chính công. Khi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật. Trường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định. \n\tBước 2: Cơ quan tiếp nhận hồ sơ thực hiện: \n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định. \n- Chuyển hồ sơ đến cơ quan có chức năng quản lý đất đai cấp xã. \n\tBước 3: Cơ quan có chức năng quản lý đất đai cấp xã thực hiện: \n\t- Thông báo cho Văn phòng đăng ký đất đai, Chi nhánh văn phòng đăng ký đất đai để chuyển hồ sơ cấp Giấy chứng nhận lần đầu để kiểm tra hồ sơ, lập biên bản kết luận về nội dung và nguyên nhân sai sót. \n\t- Trình Chủ tịch Ủy ban nhân dân cấp xã xác nhận nội dung đính chính trên Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \n\t- Chuyển Giấy chứng nhận đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\n - Chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh văn phòng đăng ký đất đai để chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 40,
+      "processingTimeUnit": "HOUR",
+      "description": "Không quá 05 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 120,
+      "processingTimeUnit": "HOUR",
+      "description": "Đối với các xã miền núi, xã có điều kiện kinh tế - xã hội khó khăn, xã có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Ninh Bình_Đính chính Giấy chứng nhận đã cấp lần đầu có sai sót",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0dcd7-9bc2-7725-84af-489b96f33de4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18 ban hành kèm theo Quyết định số 64/2026/QĐ-UBND ngày 10/6/2026.",
+          "code": "H42.TPHS Mẫu 18",
+          "attachments": [
+            {
+              "id": "01a0dcd5-32da-7009-910f-ddf498cc9d62",
+              "fileName": "Mẫu số 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0dcd5-32da-7009-910f-ddf498cc9d62/Mẫu số 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a10619-7451-718f-b491-67a1dfafe598",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản gốc Giấy chứng nhận đã cấp.",
+          "code": "H42.TPHS BGGCN",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a10619-f261-77d2-957a-0e5e5e09c6c6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Giấy tờ chứng minh sai sót thông tin của người được cấp Giấy chứng nhận so với thông tin tại thời điểm đề nghị đính chính hoặc sai sót thông tin về thửa đất, tài sản gắn liền với đất so với thông tin trên Giấy chứng nhận đã cấp.",
+          "code": "H42.TPHS GTCM",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0faa7-5fbe-744f-9a91-17f5aa97e4cc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Văn bản về việc ủy quyền theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục thông qua người đại diện.",
+          "code": "H42.TPHS GUQ",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+    "019d2bb3-5d87-7195-a448-2704415be2ca",
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019e8731-a144-730f-9660-6392ade03300",
+    "01a0dba1-ea9a-71ef-a48f-08f4dae5f901",
+    "01a0db75-1b06-76d8-811f-5fefff6a8d2b"
+  ],
+  "resultIds": [
+    "01a0dcf4-4798-715a-b6bf-34ffe41b01c3"
+  ],
+  "subjectTypeIds": [
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b15-828ae2e74c00"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+      "name": "UBND tỉnh Ninh Bình",
+      "code": "H42"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019e8731-a144-730f-9660-6392ade03300",
+      "name": "Quy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất",
+      "code": "Nghị định số 50/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a448-2704415be2ca",
+      "name": "Nghị định 101/2024/NĐ-CP",
+      "code": "Nghị định 101/2024/NĐ-CP"
+    },
+    {
+      "id": "01a0db75-1b06-76d8-811f-5fefff6a8d2b",
+      "name": "Quyết định số 64/2026/QĐ-UBND ngày 10/6/2026 của Ủy ban nhân dân tỉnh về việc quy định trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn tỉnh Ninh Bình.",
+      "code": "64/2026/QĐ-UBND "
+    },
+    {
+      "id": "01a0dba1-ea9a-71ef-a48f-08f4dae5f901",
+      "name": "Quyết định số 43/2026/QĐ-UBND ngày 13/4/2026 của Ủy ban nhân dân tỉnh về việc Phân cấp một số nhiệm vụ trong lĩnh vực quản lý Nhà nước về đất đai trên địa bàn tỉnh Ninh Bình",
+      "code": "43/2026/QĐ-UBND "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+      "name": "Luật Đất đai ngày 18/01/2024;",
+      "code": "31/2024/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0dcf4-4798-715a-b6bf-34ffe41b01c3",
+      "name": "Giấy chứng nhận.",
+      "code": "H42.KQTT 11"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+  "departmentPromulgateCode": "H42",
+  "departmentPromulgateName": "UBND tỉnh Ninh Bình",
+  "cases": [
+    {
+      "id": "01a109d3-bc0e-70d2-8db1-bb78fe8d9505",
+      "name": "Ninh Bình_Đính chính Giấy chứng nhận đã cấp lần đầu có sai sót",
+      "code": "1.116950.02",
+      "processingDay": {
+        "qty": 120,
+        "type": "HOUR"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a109d3-bbdb-74cb-bbd8-c289a4dceb6c",
+      "name": "Ninh Bình_Đính chính Giấy chứng nhận đã cấp lần đầu có sai sót",
+      "code": "1.116950.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "HOUR"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1791104686461,
+  "updatedAt": 1791104686461,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm Phục vụ hành chính công. \n\tb) Nộp thông qua dịch vụ bưu chính. \n\tc) Nộp trực tuyến trên Cổng dịch vụ công (DVC trực tuyến một phần).",
+  "delegatedAgencies": "UBND tỉnh Ninh Bình",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0d78b-1233-731d-9947-6315325b6d46",
+    "proposalNumber": "3497/QĐ-UBND",
+    "decisionDate": 1790182800000,
+    "decisionNumber": null,
+    "publicationDate": 1791104682829,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+      "name": "UBND tỉnh Ninh Bình"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

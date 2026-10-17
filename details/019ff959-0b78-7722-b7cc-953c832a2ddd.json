@@ -1,0 +1,275 @@
+{
+  "id": "019ff959-0b78-7722-b7cc-953c832a2ddd",
+  "code": "3.000673",
+  "codeNotation": "3.000673",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1. Tổ chức, cá nhân nộp hồ sơ về Sở Khoa học và Công nghệ.\n2. Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, Sở Khoa học và Công nghệ xem xét hồ sơ đề nghị hỗ trợ. Trường hợp hồ sơ chưa hợp lệ theo quy định, Sở Khoa học và Công nghệ trả hồ sơ, thông báo bằng văn bản và nêu rõ lý do để tổ chức, cá nhân hoàn thiện hồ sơ.\n3. Trong 07 ngày làm việc kể từ ngày nhận đầy đủ hồ sơ hợp lệ, Sở Khoa học và Công nghệ thành lập và tổ chức họp Hội đồng thẩm định để tiến hành thẩm định hồ sơ.\n4. Hội đồng thẩm định tổ chức thẩm định và báo cáo kết quả thẩm định gửi Sở Khoa học và Công nghệ.\n5. Ngay sau khi nhận được biên bản họp Hội đồng, trong vòng 05 ngày làm việc, Sở Khoa học và Công nghệ xem xét, ban hành Quyết định phê duyệt hỗ trợ.\n6. Sở Khoa học và Công nghệ trả kết quả cho tổ chức, cá nhân."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "1. Hội đồng thẩm định: 07 ngày làm việc.\n2. Sở Khoa học và Công nghệ: 08 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "1. Hội đồng thẩm định: 07 ngày làm việc.\n2. Sở Khoa học và Công nghệ: 08 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "1. Hội đồng thẩm định: 07 ngày làm việc.\n2. Sở Khoa học và Công nghệ: 08 ngày làm việc.",
+      "fees": []
+    }
+  ],
+  "description": "Tổ chức, cá nhân đáp ứng các tiêu chí quy định tại Điều 5 Nghị quyết số 92/2026/NQ-HĐND",
+  "name": "Thủ tục hỗ trợ một phần chi phí thuê nhân lực công nghiệp công nghệ số chất lượng cao",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019ff95b-7ac7-7105-b035-3b0df877a34c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ chi phí thuê nhân lực công nghiệp công nghệ số chất lượng cao kèm thuyết minh nội dung đề nghị hỗ trợ đáp ứng nguyên tắc, tiêu chí, điều kiện tại Quy định ban hành tại Nghị quyết số 92/2026/NQ-HĐND",
+          "code": "TP-H17.000481",
+          "attachments": [
+            {
+              "id": "019ff95b-752d-7622-9ac2-ecbac965aa8a",
+              "fileName": "Mẫu số 1.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019ff95b-752d-7622-9ac2-ecbac965aa8a/Mẫu số 1.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff95b-e491-7689-8582-f39840b01d66",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Quyết định chủ trương đầu tư hoặc Giấy chứng nhận đăng ký đầu tư",
+          "code": "TP-H17.000482",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff95c-5673-744b-8253-a401f028dbde",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Hợp đồng lao động giữa doanh nghiệp và nhân lực công nghiệp công nghệ số chất lượng cao làm việc tại dự án nghiên cứu, sản xuất sản phẩm công nghệ số trọng điểm, chip bán dẫn, hệ thống trí tuệ nhân tạo trên địa bàn thành phố Đà Nẵng, có đóng bảo hiểm xã hội, có thỏa thuận nội dung công việc liên quan đến dự án",
+          "code": "TP-H17.000483",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff95c-b799-751b-9e17-75e959c8f2c4",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Quyết định phân công nhiệm vụ làm việc tại dự án",
+          "code": "TP-H17.000484",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff95d-0598-752a-877e-2684b1326fc2",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Chứng từ chi trả chi phí thuê nhân lực công nghiệp công nghệ số chất lượng cao của doanh nghiệp",
+          "code": "TP-H17.000485",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff95d-7e44-720d-9af1-c84612f33c80",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Cam kết của người lao động làm việc cam kết làm việc đến khi hoàn thành dự án",
+          "code": "TP-H17.000486",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-2f587e315cc3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019ff958-6e39-74ac-afd7-9ab25deaa33a"
+  ],
+  "resultIds": [
+    "019ff957-7352-77fc-9729-df9723ea8b4e"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a33d-f9f23ed71934"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a85-74ec-a33d-f9f23ed71934"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+      "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+      "code": "G14-TT04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+    "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+    "code": "G14-TT04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a33d-f9f23ed71934",
+      "name": "Sở Khoa học và Công nghệ TP.Đà Nẵng",
+      "code": "H17.08"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a85-74ec-a33d-f9f23ed71934",
+      "name": "Sở Khoa học và Công nghệ TP.Đà Nẵng",
+      "code": "H17.08"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff958-6e39-74ac-afd7-9ab25deaa33a",
+      "name": "Quy định tiêu chí, điều kiện, trình tự, thủ tục, nội dung và mức hỗ trợ phát triển nhân lực công nghiệp công nghệ số làm việc tại các dự án nghiên cứu, sản xuất sản phẩm công nghệ số trọng điểm, chip bán dẫn, hệ thống trí tuệ nhân tạo trên địa bàn thành phố Đà Nẵng",
+      "code": "92/2026/NQ-HĐND (thành phố Đà Nẵng)"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019ff957-7352-77fc-9729-df9723ea8b4e",
+      "name": "Quyết định phê duyệt hỗ trợ hoặc văn bản thông báo kết quả xét duyệt hồ sơ",
+      "code": "KQ.H17.000300"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33d-803cf2496575",
+  "departmentPromulgateCode": "H17",
+  "departmentPromulgateName": "UBND Thành phố Đà Nẵng",
+  "cases": [
+    {
+      "id": "019fff0b-bf87-7548-ab56-a78631d5dbc1",
+      "name": "Thủ tục hỗ trợ một phần chi phí thuê nhân lực công nghiệp công nghệ số chất lượng cao",
+      "code": "3.000673.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786690119275,
+  "updatedAt": 1786690119275,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Khoa học và Công nghệ TP.Đà Nẵng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Sở Khoa học và Công nghệ TP.Đà Nẵng",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Tổ chức, cá nhân đáp ứng các tiêu chí quy định tại Điều 5 Nghị quyết số 92/2026/NQ-HĐND",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff94e-a3dc-749f-815a-14fb7e5020b3",
+    "proposalNumber": "3600/QĐ-UBND",
+    "decisionDate": 1786467600000,
+    "decisionNumber": null,
+    "publicationDate": 1786690119240,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33d-803cf2496575",
+      "name": "UBND Thành phố Đà Nẵng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "id": "019edddf-b500-7332-a58a-ea77b918d00a",
+  "code": "1.116774",
+  "codeNotation": "1.116774",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ tại bất kỳ Trung tâm Phục vụ hành chính công cấp xã trên địa bàn tỉnh Tây Ninh. \nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện: \n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến cơ quan chuyên môn có chức năng quản lý đất đai cấp xã.\nBước 3: Cơ quan chuyên môn có chức năng quản lý đất đai cấp xã thực hiện:\n- Thông báo cho Chi nhánh Văn phòng đăng ký đất đai cung cấp hồ sơ cấp giấy chứng nhận lần đầu.\n- Kiểm tra hồ sơ cấp giấy chứng nhận trước đây, trường hợp đủ điều kiện xác định lại diện tích đất ở theo quy định tại khoản 6 Điều 141 Luật Đất đai thì trình Chủ tịch Ủy ban nhân dân cấp xã xác định lại diện tích đất ở và cấp Giấy chứng nhận cho người sử dụng đất. \n- Chuyển Giấy chứng nhận đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\n- Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 28,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 28 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 28,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 28 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 28,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 28 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp giấy chứng nhận về quyền sử dụng đất",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "DAY",
+      "description": "không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp mới giấy chứng nhận lần đầu",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "DAY",
+      "description": "không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp mới giấy chứng nhận lần đầu",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "DAY",
+      "description": "không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp mới giấy chứng nhận lần đầu",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 28,
+      "processingTimeUnit": "DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 28 ngày làm việc.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp mới giấy chứng nhận lần đầu",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 28,
+      "processingTimeUnit": "DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 28 ngày làm việc.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp mới giấy chứng nhận lần đầu",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 28,
+      "processingTimeUnit": "DAY",
+      "description": "không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Cấp mới giấy chứng nhận lần đầu",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Việc xác định lại diện tích đất ở chỉ thực hiện đối với trường hợp thửa đất ở có vườn, ao, thổ cư của hộ gia đình, cá nhân đã được cấp giấy chứng nhận trước ngày 01 tháng 7 năm 2004, tại thời điểm cấp giấy chứng nhận trước đây người sử dụng đất có giấy tờ về quyền sử dụng đất theo quy định tại Điều 137 Luật Đất đai và nay có nhu cầu xác định lại diện tích đất ở.\nChủ sử  dụng đất cam kết ranh giới thửa đất không thay đổi.",
+  "name": "(Tây Ninh) Xác định lại diện tích đất ở của hộ gia đình, cá nhân đã được cấp Giấy chứng nhận trước ngày 01 tháng 7 năm 2004",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0e74f-bfc0-74de-9b16-bb401ebb9e9a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất",
+          "code": "TP-H53.490028",
+          "attachments": [
+            {
+              "id": "01a0ec38-ec78-735e-aaa5-407c90f7f68d",
+              "fileName": "Mẫu số 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0ec38-ec78-735e-aaa5-407c90f7f68d/Mẫu số 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0e8cf-a71c-72b9-a4f1-2017e0b163b0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp hoặc các giấy tờ về quyền sử dụng đất theo quy định tại Điều 137 Luật Đất đai",
+          "code": "TP-H53.490132",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0e782-0bea-74cf-8f83-a2e50422403a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện.",
+          "code": "TP-H53.490025",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Xác định lại diện tích đất ở",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be43-c8018597053e",
+    "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019d2bb3-5d86-7760-a644-ce39f72a6124",
+    "019d2bb3-5d86-7760-a645-75ce66feb3f0",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d"
+  ],
+  "resultIds": [
+    "019ed885-945d-73f4-9f6b-0989fca2fb1f"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019e4d63-7e81-76ee-98fb-0fa853b79176"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019e4d63-7e81-76ee-98fb-0fa853b79176",
+      "name": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+      "code": "CQCM-NNMT-CAPXA"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da",
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    },
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be43-c8018597053e",
+      "name": "Quyết định 2304/QĐ-BNNMT năm 2025 công bố thủ tục hành chính lĩnh vực đất đai thuộc phạm vi chức năng quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
+      "code": "2304/QĐ-BNNMT"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
+      "name": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
+      "code": "102/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
+      "code": "226/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a645-75ce66feb3f0",
+      "name": "Đính chính Nghị định số 151/2025/NĐ-CP ngày 12/6/2025",
+      "code": "2418/QĐ-BNNMT"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019ed885-945d-73f4-9f6b-0989fca2fb1f",
+      "name": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất",
+      "code": "KQ-H53.490002"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+      "name": "Đảng viên",
+      "code": "ĐT5"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b23-f5575505c632",
+  "departmentPromulgateCode": "H53",
+  "departmentPromulgateName": "UBND tỉnh Tây Ninh",
+  "cases": [
+    {
+      "id": "01a0f026-364a-77ab-99df-f027b61b8532",
+      "name": "(Tây Ninh) Xác định lại diện tích đất ở của hộ gia đình, cá nhân đã được cấp Giấy chứng nhận trước ngày 01 tháng 7 năm 2004",
+      "code": "1.116774.01",
+      "processingDay": {
+        "qty": 18,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a0f026-366a-74f8-9f65-0a4027c0e141",
+      "name": "(Tây Ninh) Xác định lại diện tích đất ở của hộ gia đình, cá nhân đã được cấp Giấy chứng nhận trước ngày 01 tháng 7 năm 2004 (Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn)",
+      "code": "1.116774.02",
+      "processingDay": {
+        "qty": 28,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790698181898,
+  "updatedAt": 1790994037804,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "tại bất kỳ Trung tâm Phục vụ hành chính công cấp xã trên địa bàn tỉnh Tây Ninh.",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Việc xác định lại diện tích đất ở chỉ thực hiện đối với trường hợp thửa đất ở có vườn, ao, thổ cư của hộ gia đình, cá nhân đã được cấp giấy chứng nhận trước ngày 01 tháng 7 năm 2004, tại thời điểm cấp giấy chứng nhận trước đây người sử dụng đất có giấy tờ về quyền sử dụng đất theo quy định tại Điều 137 Luật Đất đai và nay có nhu cầu xác định lại diện tích đất ở.\nChủ sử  dụng đất cam kết ranh giới thửa đất không thay đổi.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0e715-bb35-706b-84e1-2f335eac2a6e",
+    "proposalNumber": "17773/QĐ-UBND",
+    "decisionDate": 1790269200000,
+    "decisionNumber": null,
+    "publicationDate": 1790698176886,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b23-f5575505c632",
+      "name": "UBND tỉnh Tây Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

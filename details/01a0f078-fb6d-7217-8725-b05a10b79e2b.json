@@ -1,0 +1,275 @@
+{
+  "id": "01a0f078-fb6d-7217-8725-b05a10b79e2b",
+  "code": "1.117099",
+  "codeNotation": "1.117099",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người sử dụng đất nộp văn bản tặng cho quyền sử dụng đất hoặc biên bản họp giữa đại diện thôn, làng, bản, tổ dân phố, điểm dân cư với người sử dụng đất về việc tặng cho quyền sử dụng đất cho Trung tâm Phục vụ hành chính công hoặc Ủy ban nhân dân cấp xã nơi có đất.\nTrường hợp có biên bản họp giữa Ủy ban nhân dân cấp xã với người sử dụng đất về việc tặng cho quyền sử dụng đất thì người sử dụng đất không phải nộp giấy tờ quy định tại điểm này.\nBước 2: Cơ quan có chức năng quản lý đất đai cấp xã tổ chức thực hiện:\n- Đo đạc chỉnh lý bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai để chỉnh lý, cập nhật vào hồ hơ địa chính.\nBước 3: Người sử dụng đất, chủ sở hữu tài sản gắn liền với đất thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu theo quy định đối với phần diện tích còn lại của thửa đất (nếu có)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết đối với trường hợp tặng cho quyền sử dụng đất là không quá 10 ngày làm việc. \n- Đối với các xã miền núi, biên giới; đặc khu Cồn Cỏ; các xã khó khăn, xã đặc biệt khó khăn theo quyết định của cấp có thẩm quyền thì thời gian thực hiện đối với thủ tục hành chính được tăng thêm 07 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết đối với trường hợp tặng cho quyền sử dụng đất là không quá 10 ngày làm việc. \n- Đối với các xã miền núi, biên giới; đặc khu Cồn Cỏ; các xã khó khăn, xã đặc biệt khó khăn theo quyết định của cấp có thẩm quyền thì thời gian thực hiện đối với thủ tục hành chính được tăng thêm 07 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian giải quyết đối với trường hợp tặng cho quyền sử dụng đất là không quá 10 ngày làm việc. \n- Đối với các xã miền núi, biên giới; đặc khu Cồn Cỏ; các xã khó khăn, xã đặc biệt khó khăn theo quyết định của cấp có thẩm quyền thì thời gian thực hiện đối với thủ tục hành chính được tăng thêm 07 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "(Quảng Trị) Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0fabd-d8e5-742a-ac5b-e6ebae40bda6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản tặng cho quyền sử dụng đất hoặc biên bản họp giữa đại diện thôn, ấp, làng, bản, buôn, bom, phum, sóc, tổ dân phố, điểm dân cư với người sử dụng đất về việc tặng cho quyền sử dụng đất. Trường hợp có biên bản họp giữa Ủy ban nhân dân cấp xã với người sử dụng đất về việc tặng cho quyền sử dụng đất thì người sử dụng đất không phải nộp giấy tờ quy định tại điểm này.",
+          "code": "H50.TPHS0151",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019ff547-6a69-7038-a010-d5ec1e9fd252",
+    "01a08abc-e5eb-738e-932f-abe36517faa2",
+    "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+    "01a0b229-6c81-73cf-b713-afdd42ad3b80"
+  ],
+  "resultIds": [
+    "01a0f078-1d98-7150-9306-cef3bdabbcac"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6adc-74f3-b277-ce0ff2366b99",
+    "019e4d63-7e81-76ee-98fb-0fa853b79176"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6adc-74f3-b277-ce0ff2366b99",
+      "name": "Ủy ban nhân dân cấp xã",
+      "code": "UBNDX"
+    },
+    {
+      "id": "019e4d63-7e81-76ee-98fb-0fa853b79176",
+      "name": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+      "code": "CQCM-NNMT-CAPXA"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a08abc-e5eb-738e-932f-abe36517faa2",
+      "name": "Luật số 31/2024/QH15 của Quốc hội: Luật Đất đai",
+      "code": "Luật số 31/2024/QH15"
+    },
+    {
+      "id": "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị định số 49/2026/NĐ-CP"
+    },
+    {
+      "id": "019ff547-6a69-7038-a010-d5ec1e9fd252",
+      "name": "Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "Nghị định 118/2025/NĐ-CP "
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    },
+    {
+      "id": "01a0b229-6c81-73cf-b713-afdd42ad3b80",
+      "name": "Quy định trình tự, thủ tục hành chính lĩnh vực đất đai áp dụng trên địa bàn tỉnh Quảng Trị",
+      "code": "59/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f078-1d98-7150-9306-cef3bdabbcac",
+      "name": "Chỉnh lý, cập nhật vào hồ hơ địa chính, cơ sở dữ liệu đất đai.",
+      "code": "H50.KQ.Chinh ly"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b20-29251b1ac762",
+  "departmentPromulgateCode": "H50",
+  "departmentPromulgateName": "UBND tỉnh Quảng Trị",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791394099637,
+  "updatedAt": 1791394099637,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ủy ban nhân dân cấp xã, Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ae89-0763-77f8-a94d-fffa932e509e",
+    "proposalNumber": "3883/QĐ-UBND",
+    "decisionDate": 1791306000000,
+    "decisionNumber": null,
+    "publicationDate": 1791394099405,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b20-29251b1ac762",
+      "name": "UBND tỉnh Quảng Trị"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

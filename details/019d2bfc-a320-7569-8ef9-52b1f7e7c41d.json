@@ -1,0 +1,529 @@
+{
+  "id": "019d2bfc-a320-7569-8ef9-52b1f7e7c41d",
+  "code": "1.009796",
+  "codeNotation": "1.009796",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "+ Bước 1: Công ty cổ phần đáp ứng điều kiện quy định tại điểm a khoản 1 Điều 32 Luật Chướng khoán số 54/2019/QH14 được sửa đổi, bổ sung tại điểm a khoản 11 Điều 1 Luật số 56/2024/QH15 nộp hồ sơ đến Ủy ban Chứng khoán Nhà nước (UBCKNN).\n+ Bước 2: UBCKNN (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ UBCKNN hướng dẫn công ty bổ sung hồ sơ theo quy định.\n+ Bước 3: UBCKNN xem xét tính đầy đủ, hợp lệ của hồ sơ. Trường hợp nội dung chưa đầy đủ hoặc chưa rõ ràng, UBCKNN yêu cầu công ty bổ sung hoặc giải trình. \nTrường hợp quá 60 ngày kể từ ngày UBCKNN có yêu cầu bổ sung hoặc giải trình hồ sơ mà công ty không hoàn thiện hồ sơ, UBCKNN dừng việc xem xét hồ sơ đăng ký công ty đại chúng của công ty.\n+ Bước 4: Trường hợp công ty giải trình, bổ sung đầy đủ hồ sơ theo yêu cầu và không quá thời hạn 60 ngày kể từ ngày UBCKNN có yêu cầu giải trình, bổ sung hồ sơ, UBCKNN gửi công văn xác nhận hoàn tất việc đăng ký công ty đại chúng cho công ty, đồng thời công bố tên, nội dung kinh doanh và các thông tin khác liên quan đến công ty đại chúng trên phương tiện công bố thông tin của UBCKNN."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "- qua hệ thống dịch vụ công trực tuyến theo các văn bản hướng dẫn của Bộ Tài chính. - Trong thời hạn 15 (mười lăm) ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 830000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "830.000 đồng (nộp 1 lần duy nhất khi được xác nhận hoàn tất việc đăng ký công ty đại chúng).",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "- Trực tiếp tại Bộ phận Một cửa- Trong thời hạn 15 (mười lăm) ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 830000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "830.000 đồng (nộp 1 lần duy nhất khi được xác nhận hoàn tất việc đăng ký công ty đại chúng).",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "- gửi qua đường bưu điện - Trong thời hạn 15 (mười lăm) ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 830000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "830.000 đồng (nộp 1 lần duy nhất khi được xác nhận hoàn tất việc đăng ký công ty đại chúng).",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Công ty cổ phần có vốn điều lệ đã góp từ 30 tỷ đồng trở lên, có vốn chủ sở hữu từ 30 tỷ đồng trở lên và có tối thiểu 10% số cổ phiếu có quyền biểu quyết do ít nhất 100 nhà đầu tư không phải cổ đông lớn nắm giữ.",
+  "name": "Đăng ký công ty đại chúng.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "1. Đối với công ty cổ phần:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa33d-6b74-71aa-b859-770f7e447487",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Giấy đăng ký công ty đại chúng theo mẫu quy định tại Phụ lục số II ban hành kèm theo Thông tư số 19/2025/TT-BTC;",
+          "code": "000.00.00.G12-098",
+          "attachments": [
+            {
+              "id": "019fa33e-9135-77ad-9a91-1200ebd78f66",
+              "fileName": "Phụ lục số II.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa33e-9135-77ad-9a91-1200ebd78f66/Phụ lục số II.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa33e-f841-7179-a542-93cc4f1363f0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Điều lệ công ty theo quy định của Luật Doanh nghiệp và dự thảo Điều lệ công ty áp dụng cho CTĐC theo quy định trong trường hợp điều lệ hiện hành của công ty chưa đáp ứng quy định đối với CTĐC;",
+          "code": "000.00.00.G12-0876",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa33f-577c-76db-9284-85e2d5637558",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c) Giấy chứng nhận đăng ký doanh nghiệp hoặc giấy tờ pháp lý tương đương trong trường hợp không khai thác được thông tin về các tài liệu này trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp hoặc các Cơ sở dữ liệu quốc gia khác (nếu có);",
+          "code": "000.00.00.G12-0967",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa33f-c02e-732e-80ef-dca13ef9274d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "d) Bản công bố thông tin về công ty đại chúng theo mẫu quy định tại Phụ lục số III ban hành kèm theo Thông tư số 19/2025/TT-BTC;",
+          "code": "000.00.00.G12-0245",
+          "attachments": [
+            {
+              "id": "019fa33f-bbfb-7269-873e-c909fee7af46",
+              "fileName": "Phụ lục số III.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa33f-bbfb-7269-873e-c909fee7af46/Phụ lục số III.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa33f-fca7-7548-a6cb-fac090173a4a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "đ) Báo cáo tài chính năm gần nhất của công ty cổ phần được kiểm toán bởi tổ chức kiểm toán độc lập. Trường hợp công ty tăng vốn điều lệ sau thời điểm kết thúc kỳ kế toán năm gần nhất, công ty phải bổ sung báo cáo tài chính kỳ gần nhất được kiểm toán hoặc soát xé (Kỳ gần nhất được tính từ thời điểm bắt đầu năm tài chính tiếp theo đến thời điểm hoàn thành việc thay đổi vốn điều lệ);",
+          "code": "000.00.00.G12-30346",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa340-5837-7084-bce1-12b618e1af6e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "e) Báo cáo về vốn điều lệ đã góp tính đến thời điểm đăng ký công ty đại chúng theo quy định tại Điều 4 Thông tư số 19/2025/TT-BTC và Phụ lục I Thông tư số 19/2025/TT-BTC được sửa đổi, bổ sung tại Phụ lục I Thông tư số 80/2026/TT-BTC;",
+          "code": "000.00.00.G12-04556",
+          "attachments": [
+            {
+              "id": "019fa3bc-d06c-7529-9185-232c74d90f70",
+              "fileName": "Phụ lục số I.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa3bc-d06c-7529-9185-232c74d90f70/Phụ lục số I.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa340-a1ea-7759-90fb-c81a1aa17e0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "g) Danh sách cổ đông theo mẫu quy định tại Phụ lục số IV ban hành kèm theo Thông tư số 19/2025/TT-BTC; Trường hợp có thay đổi, công ty có trách nhiệm cập nhật và gửi UBCKNN",
+          "code": "000.00.00.G12-907",
+          "attachments": [
+            {
+              "id": "019fa340-9bfe-763c-a0a5-2e7636cfe65f",
+              "fileName": "Phụ lục số IV.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa340-9bfe-763c-a0a5-2e7636cfe65f/Phụ lục số IV.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. Đối với công ty đại chúng hình thành sau chia, tách, hợp nhất doanh nghiệp -2.1. Đối với trường hợp công ty trước chia, tách, hợp nhất không phải là CTĐC:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa341-f223-7408-86ed-b6b65847bcb9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ bao gồm các tài liệu quy định tại điểm a, b, c, d, g nêu tại mục 1.3.1 và các tài liệu sau: a) Báo cáo về vốn điều lệ đã góp được kiểm toán bởi tổ chức kiểm toán độc lập của công ty trước thời điểm chia, tách; báo cáo về vốn điều lệ đã góp được kiểm toán bởi tổ chức kiểm toán độc lập của các công ty trước thời điểm hợp nhất doanh nghiệp; báo cáo về vốn điều lệ đã góp được kiểm toán bởi tổ chức kiểm toán độc lập của công ty cổ phần hình thành sau chia, tách, hợp nhất doanh nghiệp theo quy định tại Điều 4 Thông tư số 19/2025/TT-BTC và Phụ lục I Thông tư số 19/2025/TT-BTC được sửa đổi, bổ sung tại Phụ lục I Thông tư số 80/2026/TT-BTC;",
+          "code": "000.00.00.G12-1789",
+          "attachments": [
+            {
+              "id": "019fa3bc-ff7b-707b-bc9c-4341cfc17ea6",
+              "fileName": "Phụ lục số I.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa3bc-ff7b-707b-bc9c-4341cfc17ea6/Phụ lục số I.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa342-2e2d-713e-b2d7-1e81b54a34f3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Báo cáo tài chính năm gần nhất của công ty cổ phần được hình thành sau chia, tách, hợp nhất doanh nghiệp được kiểm toán bởi tổ chức kiểm toán độc lập. Trường hợp tại thời điểm nộp hồ sơ đăng ký công ty đại chúng, công ty chưa có báo cáo tài chính năm gần nhất do thời gian hoạt động chưa đủ năm tài chính theo quy định, báo cáo tài chính năm gần nhất được kiểm toán trong hồ sơ đăng ký công ty đại chúng được thay thế bằng báo cáo tài chính kỳ gần nhất được kiểm toán hoặc soát xét kèm theo báo cáo tài chính năm gần nhất được kiểm toán của các công ty trước chia, tách, hợp nhất.",
+          "code": "000.00.00.G12-1790",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Đối với công ty đại chúng hình thành sau chia, tách, hợp nhất doanh nghiệp:2.2. Đối với trường hợp công ty trước khi chia doanh nghiệp là CTĐC: Hồ sơ bao gồm các tài liệu quy định tại điểm a, b, c, d, g nêu tại mục 1.3.1 và các tài liệu sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa343-211c-76f9-a06e-e14781fe2b36",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "2.2. Đối với trường hợp công ty trước khi chia doanh nghiệp là CTĐC: Hồ sơ bao gồm các tài liệu quy định tại điểm a, b, c, d, g nêu tại mục 1.3.1 và các tài liệu sau: a) Báo cáo về vốn điều lệ đã góp được kiểm toán bởi tổ chức kiểm toán độc lập của công ty cổ phần hình thành sau chia doanh nghiệp tính từ thời điểm chia doanh nghiệp đến thời điểm đăng ký công ty đại chúng theo quy định tại Điều 4 Thông tư số 19/2025/TT-BTC và Phụ lục I Thông tư số 19/2025/TT-BTC được sửa đổi, bổ sung tại Phụ lục I Thông tư số 80/2026/TT-BTC;",
+          "code": "000.00.00.G12-1791",
+          "attachments": [
+            {
+              "id": "019fa3bd-268b-736b-b7ef-956f0dece9b7",
+              "fileName": "Phụ lục số I.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa3bd-268b-736b-b7ef-956f0dece9b7/Phụ lục số I.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa343-5c2d-7149-b527-cf9296871f7e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Báo cáo tài chính năm gần nhất của công ty cổ phần được hình thành sau chia doanh nghiệp được kiểm toán bởi tổ chức kiểm toán độc lập. Trường hợp tại thời điểm nộp hồ sơ đăng ký công ty đại chúng, công ty chưa có báo cáo tài chính năm gần nhất do thời gian hoạt động chưa đủ năm tài chính theo quy định, báo cáo tài chính năm gần nhất được kiểm toán trong hồ sơ đăng ký công ty đại chúng được thay thế bằng báo cáo tài chính kỳ gần nhất được kiểm toán hoặc soát xét.",
+          "code": "000.00.00.G12-1799",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "3. Đối với trường hợp công ty cổ phần đăng ký công ty đại chúng sau khi thực hiện phát hành cổ phiếu thông qua việc hoán đổi cổ phiếu theo hợp đồng hợp nhất doanh nghiệp và đã được Ủy ban Chứng khoán Nhà nước cấp giấy chứng nhận chào bán.",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa344-f4e9-72e7-ad59-cdd6b03ac49f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Giấy đăng ký công ty đại chúng theo mẫu quy định tại Phụ lục số II ban hành kèm theo Thông tư số 19/2025/TT-BTC;",
+          "code": "000.00.00.G12-1247",
+          "attachments": [
+            {
+              "id": "019fa344-f038-77ce-9b5b-d0d17ba0b30f",
+              "fileName": "Phụ lục số II.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa344-f038-77ce-9b5b-d0d17ba0b30f/Phụ lục số II.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa345-266d-725f-b81e-3a9d335cc538",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Điều lệ công ty theo quy định của Luật Doanh nghiệp và dự thảo Điều lệ công ty áp dụng cho CTĐC theo quy định trong trường hợp điều lệ hiện hành của công ty chưa đáp ứng quy định đối với CTĐC;",
+          "code": "000.00.00.G12-1786",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa345-54bc-722f-843c-5967795d347c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c) Giấy chứng nhận đăng ký doanh nghiệp hoặc giấy tờ pháp lý tương đương trong trường hợp không khai thác được thông tin về các tài liệu này trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp hoặc các Cơ sở dữ liệu quốc gia khác (nếu có);",
+          "code": "000.00.00.G12-1792",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa345-8174-70ca-98eb-fb0911151636",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "d) Bản công bố thông tin về công ty đại chúng theo mẫu quy định tại Phụ lục số III ban hành kèm theo Thông tư số 19/2025/TT-BTC;",
+          "code": "000.00.00.G12-1798",
+          "attachments": [
+            {
+              "id": "019fa345-a490-7461-bc0f-975f0afb1429",
+              "fileName": "Phụ lục số III.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa345-a490-7461-bc0f-975f0afb1429/Phụ lục số III.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa345-f51f-73c8-b4a2-f23ca123de30",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "g) Danh sách cổ đông theo mẫu quy định tại Phụ lục số IV ban hành kèm theo Thông tư số 19/2025/TT-BTC; Trường hợp có thay đổi, công ty có trách nhiệm cập nhật và gửi UBCKNN.",
+          "code": "000.00.00.G12-3989",
+          "attachments": [
+            {
+              "id": "019fa345-f0c9-713e-884f-a223f27fd8e6",
+              "fileName": "Phụ lục số IV.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa345-f0c9-713e-884f-a223f27fd8e6/Phụ lục số IV.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f4edf13b8cc3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe5-ada6fa6d7ca7",
+    "019d2bb3-5d84-71c5-b673-8c498fc98ef5",
+    "019d2bb3-5d86-7760-a645-d843125d5d2a",
+    "019d2bb3-5d87-7195-a442-db836cad8655",
+    "019fa357-8c76-710a-b540-fd349b97ae21"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96de-0cbca7643337",
+    "019d2bb2-1c73-70ac-aa17-2233be063172"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a73-7290-a1e8-16252297c4d6"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a73-7290-a1e8-16252297c4d6"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f4edf13b8cc3",
+      "name": "Chứng khoán",
+      "code": "G12-TC02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f4edf13b8cc3",
+    "name": "Chứng khoán",
+    "code": "G12-TC02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a73-7290-a1e8-16252297c4d6",
+      "name": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
+      "code": "000.00.22.G12"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a73-7290-a1e8-16252297c4d6",
+      "name": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
+      "code": "000.00.22.G12"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b673-8c498fc98ef5",
+      "name": "Luật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính",
+      "code": "56/2024/QH15"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a442-db836cad8655",
+      "name": "Luật 54/2019/QH14",
+      "code": "54/2019/QH14"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a645-d843125d5d2a",
+      "name": "Thông tư quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí trong lĩnh vực chứng khoán",
+      "code": "25/2022/TT-BTC"
+    },
+    {
+      "id": "019fa357-8c76-710a-b540-fd349b97ae21",
+      "name": "Thông tư 19/2025/TT-BTC được sửa đổi, bổ sung bởi Thông tư 80/2026/TT-BTC.",
+      "code": "Thông tư 80/2026/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe5-ada6fa6d7ca7",
+      "name": "Thông tư quy định việc đăng ký công ty đại chúng, hủy tư cách công ty đại chúng, báo cáo về vốn điều lệ đã góp được kiểm toán",
+      "code": "19/2025/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96de-0cbca7643337",
+      "name": "Công văn xác nhận hoàn tất việc đăng ký công ty đại chúng",
+      "code": "KQ.G12.000180"
+    },
+    {
+      "id": "019d2bb2-1c73-70ac-aa17-2233be063172",
+      "name": "Công bố tên, nội dung kinh doanh và thông tin khác liên quan đến công ty đại chúng trên phương tiện thông tin của UBCKNN.",
+      "code": "KQ.G12.001241"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019db9d6-c5d5-720e-94d6-9d9b2fa6f5b2",
+      "name": "Đăng ký công ty đại chúng",
+      "code": "1.009796.02",
+      "processingDay": {
+        "qty": 15,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fa3c9-887a-7171-a2ad-346a5f08791c",
+      "name": "Đăng ký công ty đại chúng",
+      "code": "1.009796.02",
+      "processingDay": {
+        "qty": 15,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d66-8176-76a7-aa7e-740e8ec23b49",
+      "name": "Đăng ký công ty đại chúng.",
+      "code": "1.009796.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559470368,
+  "updatedAt": 1785159321530,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Công ty cổ phần có vốn điều lệ đã góp từ 30 tỷ đồng trở lên, có vốn chủ sở hữu từ 30 tỷ đồng trở lên và có tối thiểu 10% số cổ phiếu có quyền biểu quyết do ít nhất 100 nhà đầu tư không phải cổ đông lớn nắm giữ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f8e93-97d5-7306-b940-2619fcaa27ce",
+    "proposalNumber": "1968/QĐ-BTC",
+    "decisionDate": 1784653200000,
+    "decisionNumber": null,
+    "publicationDate": 1785159321472,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

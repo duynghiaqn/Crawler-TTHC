@@ -1,0 +1,261 @@
+{
+  "id": "01a0ec9a-2ebd-772a-af7b-8fa3a58da040",
+  "code": "1.116795",
+  "codeNotation": "1.116795",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Tổ chức, cá nhân gửi hồ sơ đề xuất hỗ trợ về Sở Khoa học và Công nghệ sau khi tham gia ngày hội khởi nghiệp sáng tạo, chợ công nghệ, thiết bị hoặc sự kiện kết nối cung cầu công nghệ, thiết bị trong và ngoài nước.\nHồ sơ nộp về Sở Khoa học và Công nghệ trong thời gian 30 ngày sau khi sự kiện kết thúc.\nb) Trong thời hạn 15 ngày làm việc kể từ ngày nhận đầy đủ hồ sơ theo quy định, Sở Khoa học và Công nghệ có trách nhiệm thành lập Hội đồng thẩm định và trình UBND tỉnh xem xét quyết định;\nc) Trong thời gian 07 ngày làm việc kể từ ngày nhận được Tờ trình của Sở Khoa học và Công nghệ thì UBND tỉnh ban hành Quyết định hỗ trợ hoặc không hỗ trợ;\nd) Trong thời hạn 03 ngày làm việc kể từ ngày có quyết định hỗ trợ của UBND tỉnh, Sở Khoa học và Công nghệ có trách nhiệm thực hiện việc hỗ trợ cho tổ chức, cá nhân theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Không có",
+  "name": "Hỗ trợ tổ chức, cá nhân giới thiệu công nghệ, thiết bị, sản phẩm mới hoặc kết quả nghiên cứu khoa học và công nghệ ở trong nước và quốc tế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0ec92-6cd3-7078-b0b7-f113b0f5d018",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Đơn đề nghị hỗ trợ tham gia sự kiện tương ứng (theo Mẫu Phụ lục 01 được ban hành kèm theo Nghị quyết 16/2026/HĐND); b) Tài liệu chứng minh việc tham gia (giấy mời, quyết định cử đoàn, danh mục sản phẩm, hình ảnh trưng bày gian hàng, giấy chứng nhận (nếu có), …); c) Bản sao hộ chiếu có dấu xác nhận ngày đi, ngày về của cơ quan xuất nhập cảnh (Hoặc giấy tờ chứng minh khác).",
+          "code": "H41-KQ000145",
+          "attachments": [
+            {
+              "id": "01a0ec92-4cbe-7561-a7ac-275deef49c8e",
+              "fileName": "3970. PL01 MẪU ĐƠN ĐỀ NGHỊ HỖ TRỢ.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0ec92-4cbe-7561-a7ac-275deef49c8e/3970. PL01 MẪU ĐƠN ĐỀ NGHỊ HỖ TRỢ.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-14f00d4f0a62"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
+    "01a0ec52-40fe-7189-9405-6405c92c9ab1"
+  ],
+  "resultIds": [
+    "01a0ec5b-9bec-74ce-b813-9b67c356c574"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b14-68e63e16b9bb"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b14-23b0bf40ce58"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+      "name": "Hoạt động khoa học và công nghệ",
+      "code": "G06-KC02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+    "name": "Hoạt động khoa học và công nghệ",
+    "code": "G06-KC02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b14-68e63e16b9bb",
+      "name": "Sở Khoa học Và Công nghệ - Tỉnh Nghệ An",
+      "code": "H41.37"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+      "name": "UBND tỉnh Nghệ An",
+      "code": "H41"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
+      "name": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo",
+      "code": "93/2025/QH15"
+    },
+    {
+      "id": "01a0ec52-40fe-7189-9405-6405c92c9ab1",
+      "name": "Ban hành Quy định một số chính sách hỗ trợ phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số trên địa bàn tỉnh Nghệ An giai đoạn 2026 - 2030",
+      "code": "16/2026/NQ-HĐND."
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0ec5b-9bec-74ce-b813-9b67c356c574",
+      "name": "Quyết định hỗ trợ và kinh phí hỗ trợ",
+      "code": "H41-KQ000100"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+  "departmentPromulgateCode": "H41",
+  "departmentPromulgateName": "UBND tỉnh Nghệ An",
+  "cases": [
+    {
+      "id": "01a0f595-1295-747d-a51c-2a7530cc62b8",
+      "name": "Hỗ trợ tổ chức, cá nhân giới thiệu công nghệ, thiết bị, sản phẩm mới hoặc kết quả nghiên cứu khoa học và công nghệ ở trong nước và quốc tế",
+      "code": "1.116795.01",
+      "processingDay": {
+        "qty": 25,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790752237791,
+  "updatedAt": 1790752237791,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Khoa học Và Công nghệ - Tỉnh Nghệ An",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Nộp hồ sơ trực tuyến qua Cổng Dịch vụ công quốc gia tại địa chỉ https://dichvucong.gov.vn;\n- Hoặc nộp hồ sơ trực tiếp hoặc qua dịch vụ bưu chính đến Trung tâm Phục vụ hành chính công tỉnh, số 16 đường Trường Thi, phường Trường Vinh, tỉnh Nghệ An hoặc Trung tâm Phục vụ hành chính công các xã, phường trên địa bàn tỉnh.\n- Thời gian nộp hồ sơ: Trong thời gian 30 ngày sau khi sự kiện kết thúc.",
+  "delegatedAgencies": "UBND tỉnh Nghệ An",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không có",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ec3f-5962-7308-a4aa-be2b0a9c97d8",
+    "proposalNumber": "3970/QĐ-UBND",
+    "decisionDate": 1788714000000,
+    "decisionNumber": null,
+    "publicationDate": 1790752237642,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+      "name": "UBND tỉnh Nghệ An"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

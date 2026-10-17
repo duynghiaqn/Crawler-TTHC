@@ -1,0 +1,270 @@
+{
+  "id": "01a10f8b-042f-72b8-9155-1c0428f29280",
+  "code": "2.002939",
+  "codeNotation": "2.002939",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1.1. Trình tự thực hiện\nBước 1: Tổ chức, cá nhân gửi trực tiếp (hoặc qua dịch vụ bưu chính công ích\nhoặc qua hệ thống dịch vụ công trực tuyến) 01 hồ sơ đề nghị hỗ trợ tới Trung tâm Phục\nvụ hành chính công cấp xã.\nBước 2: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ từ\nTrung tâm Phục vụ hành chính công cấp xã, Phòng Kinh tế (hoặc Phòng Kinh tế, Hạ\ntầng và Đô thị) chủ trì, phối hợp với các đơn vị liên quan, thực hiện thẩm định hồ sơ;\nbáo cáo kết quả thẩm định trình Chủ tịch Ủy ban nhân dân cấp xã xem xét, phê duyệt.\nBước 3: Trong thời hạn 02 ngày làm việc kể từ ngày nhận báo cáo kết quả thẩm\nđịnh và đề xuất của Phòng Kinh tế (hoặc Phòng Kinh tế, Hạ tầng và Đô thị):\n- Trường hợp kết quả thẩm định hồ sơ không đủ điều kiện hỗ trợ, Chủ tịch Ủy\nban nhân dân cấp xã chỉ đạo của Phòng Kinh tế (hoặc Phòng Kinh tế, Hạ tầng và Đô\nthị) có Văn bản thông báo cho tổ chức, cá nhân được biết, trong đó nêu rõ lý do trong\nthời hạn 03 ngày làm việc.\n- Trường hợp kết quả thẩm định hồ sơ đủ điều kiện hỗ trợ, Chủ tịch Ủy ban nhân\ndân cấp xã chỉ đạo của Phòng Kinh tế (hoặc Phòng Kinh tế, Hạ tầng và Đô thị) thực\nhiện thông báo công khai trong thời gian 30 ngày; trong thời hạn 03 ngày làm việc kể\ntừ ngày kết thúc thông báo công khai Phòng Kinh tế (hoặc Phòng Kinh tế, Hạ tầng và\nĐô thị) có trách nhiệm dự thảo Quyết định hỗ trợ, trình Chủ tịch Ủy ban nhân dân cấp\ncấp xã quyết định ban hành.\nBước 4: Trong thời hạn 02 ngày làm việc, Chủ tịch Ủy ban nhân dân cấp xã xem\nxét, ký ban hành quyết định. Trả kết quả tới Trung tâm Phục vụ hành chính công cấp xã."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- 20 ngày làm việc (đối với hồ sơ đủ điều kiện hỗ trợ không kể thời gian công khai).\n- 15 ngày làm việc đối với hồ sơ không đủ điều kiện.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- 20 ngày làm việc (đối với hồ sơ đủ điều kiện hỗ trợ không kể thời gian công khai).\n- 15 ngày làm việc đối với hồ sơ không đủ điều kiện.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- 20 ngày làm việc (đối với hồ sơ đủ điều kiện hỗ trợ không kể thời gian công khai).\n- 15 ngày làm việc đối với hồ sơ không đủ điều kiện.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Chính sách hỗ trợ kinh phí thay thế thiết bị giám sát hành trình tàu cá",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a10f87-416f-719f-a7bf-065f77066ea5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ kinh phí thay thế thiết bị giám sát hành trình",
+          "code": "H31_Mẫu số 01TT, 02TT",
+          "attachments": [
+            {
+              "id": "01a10f87-1a3e-7549-a76d-3a764be9f749",
+              "fileName": "Mẫu 01TT, 02TT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a10f87-1a3e-7549-a76d-3a764be9f749/Mẫu 01TT, 02TT.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a10f87-e234-72ef-bbf1-b27c435edda8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản nghiệm thu sau khi thay thế thiết bị giám sát hành trình",
+          "code": "H31_Biên bản nghiệm thu sau khi thay thế thiết bị giám sát hành trình",
+          "attachments": [
+            {
+              "id": "01a10f87-d8e5-719f-a304-a9066be1f46d",
+              "fileName": "Mẫu 01TT, 02TT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a10f87-d8e5-719f-a304-a9066be1f46d/Mẫu 01TT, 02TT.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a0b241-444b-76aa-9c38-66091de94ee3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d87-7195-a446-e2b043ee42d3",
+    "019d2bb3-5d7f-719e-b46d-c779ae189a37",
+    "01a10f70-aeb6-76cd-8dd0-d308498cd290"
+  ],
+  "resultIds": [
+    "01a10f6c-df0a-70eb-8359-ae72364c03da"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a0b241-444b-76aa-9c38-66091de94ee3",
+      "name": "Biển và thủy sản",
+      "code": "LV.H31.36070001"
+    }
+  ],
+  "category": {
+    "id": "01a0b241-444b-76aa-9c38-66091de94ee3",
+    "name": "Biển và thủy sản",
+    "code": "LV.H31.36070001"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d87-7195-a446-e2b043ee42d3",
+      "name": "Luật Ngân sách nhà nước số 89/2025/QH15",
+      "code": "89/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46d-c779ae189a37",
+      "name": "Nghị định số 41/2026/NĐ-CP ngày 25/01/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Thủy sản.",
+      "code": "41/2026/NĐ-CP"
+    },
+    {
+      "id": "01a10f70-aeb6-76cd-8dd0-d308498cd290",
+      "name": "Nghị quyết số 03/2026/NQ-HĐND ngày 12/6/2026 của Hội đồng nhân dân tỉnh\nquy định chính sách hỗ trợ kinh phí phá dỡ tàu cá, chuyển đổi nghề khai thác thủy sản,\nthay thế thiết bị giám sát hành trình cho chủ tàu cá trên địa bàn tỉnh Hưng Yên",
+      "code": "03/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a10f6c-df0a-70eb-8359-ae72364c03da",
+      "name": "Quyết định hỗ trợ đối với hồ sơ đủ điều kiện hoặc Văn bản thông báo đối với hồ sơ không đủ điều kiện tới Trung tâm Phục vụ hành chính công cấp xã",
+      "code": "KQ.H31.360030"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+  "departmentPromulgateCode": "H31",
+  "departmentPromulgateName": "UBND tỉnh Hưng Yên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791339799342,
+  "updatedAt": 1791339799342,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trực tiếp (hoặc qua dịch vụ bưu chính công ích hoặc\nqua hệ thống dịch vụ công trực tuyến) 01 hồ sơ đề nghị hỗ trợ tới Trung tâm Phục vụ\nhành chính công cấp xã.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0b243-669b-7048-bb0e-36e15c8c6dc5",
+    "proposalNumber": "2271/QĐ-UBND",
+    "decisionDate": 1784566800000,
+    "decisionNumber": null,
+    "publicationDate": 1791339799265,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+      "name": "UBND tỉnh Hưng Yên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

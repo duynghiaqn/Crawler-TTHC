@@ -1,0 +1,509 @@
+{
+  "id": "019d2bfd-0127-74ef-8c1e-327943f82d40",
+  "code": "3.000083",
+  "codeNotation": "3.000083",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "+ Bước 1: Cá nhân chuẩn bị hồ sơ giảm thuế thu nhập cá nhân và gửi đến cơ quan thuế."
+    },
+    {
+      "name": "",
+      "description": "+ Bước 2: Cơ quan thuế tiếp nhận hồ sơ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Đối với hồ sơ thông thường: Trường hợp hồ sơ giảm thuế thuộc đối tượng và trường hợp được giảm thuế, cơ quan thuế thực hiện đối chiếu số tiền thuế đề nghị giảm thuế tại hồ sơ giảm thuế với số tiền phải nộp của khoản đề nghị giảm thuế tương ứng trên ứng dụng.\n+ Đối với hồ sơ phải giải trình, bổ sung, hồ sơ cơ quan thuế phải kiểm tra thực tế: Trong thời hạn 30 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ, cơ quan thuế có quyết định, thông báo giảm thuế hoặc thông báo lý đo không được giảm thuế. Thời hạn giải quyết hồ sơ giảm thuế không bao gồm thời gian người nộp thuế được giải trình, bổ sung thông tin tài liệu theo thông báo của cơ quan thuế khi giải quyết hồ sơ.\n+ Trường hợp hồ sơ giảm thuế được tiếp nhận theo cơ chế một cửa liên thông thì trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp pháp, đầy đủ, đúng mẫu quy định, cơ quan thuế thông báo số tiền được giảm thuế hoặc lý do không được giảm thuế trên thông báo nộp thuế gửi cơ quan tiếp nhận hồ sơ theo cơ chế một cửa liên thông.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Đối với hồ sơ thông thường: Trường hợp hồ sơ giảm thuế thuộc đối tượng và trường hợp được giảm thuế, cơ quan thuế thực hiện đối chiếu số tiền thuế đề nghị giảm thuế tại hồ sơ giảm thuế với số tiền phải nộp của khoản đề nghị giảm thuế tương ứng trên ứng dụng.\n+ Đối với hồ sơ phải giải trình, bổ sung, hồ sơ cơ quan thuế phải kiểm tra thực tế: Trong thời hạn 30 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ, cơ quan thuế có quyết định, thông báo giảm thuế hoặc thông báo lý đo không được giảm thuế. Thời hạn giải quyết hồ sơ giảm thuế không bao gồm thời gian người nộp thuế được giải trình, bổ sung thông tin tài liệu theo thông báo của cơ quan thuế khi giải quyết hồ sơ.\n+ Trường hợp hồ sơ giảm thuế được tiếp nhận theo cơ chế một cửa liên thông thì trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp pháp, đầy đủ, đúng mẫu quy định, cơ quan thuế thông báo số tiền được giảm thuế hoặc lý do không được giảm thuế trên thông báo nộp thuế gửi cơ quan tiếp nhận hồ sơ theo cơ chế một cửa liên thông.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Đối với hồ sơ thông thường: Trường hợp hồ sơ giảm thuế thuộc đối tượng và trường hợp được giảm thuế, cơ quan thuế thực hiện đối chiếu số tiền thuế đề nghị giảm thuế tại hồ sơ giảm thuế với số tiền phải nộp của khoản đề nghị giảm thuế tương ứng trên ứng dụng.\n+ Đối với hồ sơ phải giải trình, bổ sung, hồ sơ cơ quan thuế phải kiểm tra thực tế: Trong thời hạn 30 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ, cơ quan thuế có quyết định, thông báo giảm thuế hoặc thông báo lý đo không được giảm thuế. Thời hạn giải quyết hồ sơ giảm thuế không bao gồm thời gian người nộp thuế được giải trình, bổ sung thông tin tài liệu theo thông báo của cơ quan thuế khi giải quyết hồ sơ.\n+ Trường hợp hồ sơ giảm thuế được tiếp nhận theo cơ chế một cửa liên thông thì trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp pháp, đầy đủ, đúng mẫu quy định, cơ quan thuế thông báo số tiền được giảm thuế hoặc lý do không được giảm thuế trên thông báo nộp thuế gửi cơ quan tiếp nhận hồ sơ theo cơ chế một cửa liên thông.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế.",
+  "name": "Giảm thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh và cá nhân khác gặp khó khăn do thiên tai, dịch bệnh, hoả hoạn, tai nạn, bệnh hiểm nghèo",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(i) Trường hợp người nộp thuế gặp khó khăn do thiên tai, dịch bệnh, hỏa hoạn:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30b-e6e7d5d6fccb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây tai nạn (nếu có)",
+          "code": "000.00.00.G12-00015547",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30b-ea31e03037c4",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định thời gian, địa điểm xảy ra thiên tai, dịch bệnh, hỏa hoạn của cơ quan nhà nước có thẩm quyền nơi xảy ra thiên tai, dịch bệnh, hỏa hoạn theo mẫu số 02/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 và bản sao tài liệu xác định giá trị thiệt hại của người nộp thuế đã gửi cơ quan nhà nước có thẩm quyền",
+          "code": "000.00.00.G12-00015548",
+          "attachments": [
+            {
+              "id": "019fa6b0-d186-73bf-aba4-fcfaac99dd26",
+              "fileName": "02 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6b0-d186-73bf-aba4-fcfaac99dd26/02 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30e-bbfbbf20a7d6",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao các chứng từ chi liên quan trực tiếp đến việc khắc phục thiên tai, dịch bệnh, hỏa hoạn (nếu có)",
+          "code": "000.00.00.G12-00015726",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30b-e12212f5b376",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai quyết toán thuế thu nhập cá nhân theo mẫu số 02/QTT-TNCN Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 (nếu người nộp thuế chưa nộp hồ sơ quyết toán thuế của kỳ đề nghị giảm thuế)",
+          "code": "000.00.00.G12-00015546",
+          "attachments": [
+            {
+              "id": "019fa6b1-1a3c-7463-9bef-5e129a5eee56",
+              "fileName": "02 QTT TNCN TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6b1-1a3c-7463-9bef-5e129a5eee56/02 QTT TNCN TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30f-8fa9b972a525",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính",
+          "code": "G12.00015779",
+          "attachments": [
+            {
+              "id": "019fa6e6-30c6-700b-b2c0-6db5ffbf5a44",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6e6-30c6-700b-b2c0-6db5ffbf5a44/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb164-758a-77c2-ba47-44c59dab44ad",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế theo mẫu số 01/TKN-CNKD hoặc Tờ khai quyết toán thuế thu nhập cá nhân theo mẫu số 02/CNKD-TNCN-QTT Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 (nếu hộ kinh doanh, cá nhân kinh doanh chưa nộp Tờ khai thuế năm hoặc hồ sơ quyết toán thuế của kỳ đề nghị giảm thuế).",
+          "code": "G12.0015885",
+          "attachments": [
+            {
+              "id": "019fb164-5c16-7025-8a28-31858f339e89",
+              "fileName": "24. 01.TKN-CNKD.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb164-5c16-7025-8a28-31858f339e89/24. 01.TKN-CNKD.docx"
+            },
+            {
+              "id": "019fb164-9b9b-74dc-a4e6-72971769294a",
+              "fileName": "25. 02.CNKD-TNCN-QTT TT 89.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb164-9b9b-74dc-a4e6-72971769294a/25. 02.CNKD-TNCN-QTT TT 89.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(ii) Trường hợp người nộp thuế gặp khó khăn do bị tai nạn:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b1-7528-b0f1-8042fca50c4a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản xác định thời gian, địa điểm xảy ra thiên tai, hỏa hoạn của cơ quan nhà nước có thẩm quyền nơi xảy ra thiên tai, hỏa hoạn theo mẫu số 02/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC và bản sao tài liệu xác định giá trị thiệt hại của người nộp thuế đã gửi cơ quan nhà nước có thẩm quyền",
+          "code": "000.00.00.G12-002118",
+          "attachments": [
+            {
+              "id": "019fa6e6-e5c1-71a7-a3ee-56c78ed2a097",
+              "fileName": "02 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6e6-e5c1-71a7-a3ee-56c78ed2a097/02 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30b-e6e7d5d6fccb",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây tai nạn (nếu có)",
+          "code": "000.00.00.G12-00015547",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b1-7528-b0f1-790b26dcd056",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao điện tử chứng từ chi liên quan trực tiếp đến việc khắc phục tai nạn;",
+          "code": "000.00.00.G12-002116",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa699-3f39-74bd-a1e2-c33b6b1e37e7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai quyết toán thuế thu nhập cá nhân theo mẫu số 02/QTT-TNCN Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 (nếu người nộp thuế chưa nộp hồ sơ quyết toán thuế của kỳ đề nghị giảm thuế)",
+          "code": "TP-G12.0001016",
+          "attachments": [
+            {
+              "id": "019fa6b1-8ab9-706f-a8dc-2bff6bffc245",
+              "fileName": "02 QTT TNCN TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6b1-8ab9-706f-a8dc-2bff6bffc245/02 QTT TNCN TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa699-aec3-708b-af19-bedd12ea41d1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế theo mẫu số 01/TKN-CNKD hoặc Tờ khai quyết toán thuế thu nhập cá nhân theo mẫu số 02/CNKD-TNCN-QTT Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 (nếu hộ kinh doanh, cá nhân kinh doanh chưa nộp Tờ khai thuế năm hoặc hồ sơ quyết toán thuế của kỳ đề nghị giảm thuế)",
+          "code": "TP-G12.0001017",
+          "attachments": [
+            {
+              "id": "019fa6b1-d23a-75db-ac27-d01fd2553fce",
+              "fileName": "02 CNKD TNCN 89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6b1-d23a-75db-ac27-d01fd2553fce/02 CNKD TNCN 89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30f-8fa9b972a525",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính",
+          "code": "G12.00015779",
+          "attachments": [
+            {
+              "id": "019fa6e6-30c6-700b-b2c0-6db5ffbf5a44",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6e6-30c6-700b-b2c0-6db5ffbf5a44/01 - MGTH-TT89.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(iii) Trường hợp người nộp thuế mắc bệnh hiểm nghèo:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30e-bdbea0d2172c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026",
+          "code": "000.00.00.G12-00015727",
+          "attachments": [
+            {
+              "id": "019fa6b2-0a1d-7348-a5d1-e7630606777f",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6b2-0a1d-7348-a5d1-e7630606777f/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30b-d57b36eeb89a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao hồ sơ bệnh án hoặc bản tóm tắt hồ sơ bệnh án hoặc sổ khám bệnh theo quy định của pháp luật về khám bệnh, chữa bệnh",
+          "code": "000.00.00.G12-00015543",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30b-f1d65bf46563",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao chứng từ chứng minh chi phí khám chữa bệnh do cơ quan y tế cấp hoặc hóa đơn mua thuốc chữa bệnh kèm theo đơn thuốc của bác sỹ",
+          "code": "000.00.00.G12-00015550",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30b-f635178d7f86",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai quyết toán thuế thu nhập cá nhân theo mẫu số 02/QTT-TNCN Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 (nếu người nộp thuế chưa nộp hồ sơ quyết toán thuế của kỳ đề nghị giảm thuế)",
+          "code": "000.00.00.G12-00015551",
+          "attachments": [
+            {
+              "id": "019fa6b2-3811-76e7-95d1-6639e2600238",
+              "fileName": "02 QTT TNCN TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6b2-3811-76e7-95d1-6639e2600238/02 QTT TNCN TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa69d-7653-708e-a9d5-2d7295c3fd59",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế theo mẫu số 01/TKN-CNKD hoặc Tờ khai quyết toán thuế thu nhập cá nhân theo mẫu số 02/CNKD-TNCN-QTT Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 (nếu hộ kinh doanh, cá nhân kinh doanh chưa nộp Tờ khai thuế năm hoặc hồ sơ quyết toán thuế của kỳ đề nghị giảm thuế)",
+          "code": "TP-G12.0001018",
+          "attachments": [
+            {
+              "id": "019fa6b2-6a17-745b-b1a4-156263a75f8f",
+              "fileName": "02 CNKD TNCN 89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6b2-6a17-745b-b1a4-156263a75f8f/02 CNKD TNCN 89.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cá nhân, hộ kinh doanh, cá nhân kinh doanh gặp khó khăn do thiên tai, dịch bệnh, hoả hoạn; do tai nạn; mắc bệnh hiểm nghèo.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96df-0d8378c6d2fa",
+    "019d2bb2-1c71-7574-afe8-17852300bbbb"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e005b-7a95-72d9-83b9-1df81c4b08e9",
+    "019e005b-c45a-7351-bdf2-f495ce849003"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e005b-7a95-72d9-83b9-1df81c4b08e9",
+      "name": "Thuế tỉnh, thành phố"
+    },
+    {
+      "id": "019e005b-c45a-7351-bdf2-f495ce849003",
+      "name": "Thuế cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe8-17852300bbbb",
+      "name": "Thông báo không được miễn thuế, giảm thuế theo mẫu số 04/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+      "code": "KQ.G12.000558"
+    },
+    {
+      "id": "019d2bb2-1c70-724b-96df-0d8378c6d2fa",
+      "name": "Quyết định miễn thuế, giảm thuế theo mẫu số 03/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+      "code": "KQ.G12.000260"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2d8d-144f-709e-a5c8-264a7a16b49b",
+      "name": "Giảm thuế thu nhập cá nhân đối với cá nhân, hộ kinh doanh, cá nhân kinh doanh gặp khó khăn do thiên tai, hoả hoạn, do bị tai nạn; mắc bệnh hiểm nghèo",
+      "code": "3.000083.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-da0a-747c-a2a2-1c5daf10ac55",
+      "name": "Giảm thuế thu nhập cá nhân đối với cá nhân, hộ kinh doanh, cá nhân kinh doanh gặp khó khăn do thiên tai, hoả hoạn, do bị tai nạn; mắc bệnh hiểm nghèo",
+      "code": "3.000083.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559494439,
+  "updatedAt": 1785399198784,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh/thành phố, Thuế cơ sở.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

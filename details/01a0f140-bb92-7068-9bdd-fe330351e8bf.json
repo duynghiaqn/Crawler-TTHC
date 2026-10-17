@@ -1,0 +1,204 @@
+{
+  "id": "01a0f140-bb92-7068-9bdd-fe330351e8bf",
+  "code": "1.116831",
+  "codeNotation": "1.116831",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ gửi 01 bộ hồ sơ quy định tại khoản 1 Điều 18 Nghị định số 360/2026/NĐ-CP qua Cổng Dịch vụ công Quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận hồ sơ của cấp có thẩm quyền. Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, nếu hồ sơ chưa đầy đủ, đúng quy định, cơ quan tiếp nhận phải thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử những nội dung cần chỉnh sửa, bổ sung cho cơ quan, tổ chức. \nb) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn chủ trì, phối hợp với đơn vị có liên quan thẩm định hồ sơ, trình cấp có thẩm quyền xem xét, quyết định giải thể; nếu chưa đủ điều kiện thì phải thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử cho cơ quan, tổ chức và nêu rõ lý do;\nc) Quyết định giải thể trường mầm non theo Mẫu số 08 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP, được gửi trực tiếp hoặc qua dịch vụ bưu chính cho cơ quan, tổ chức và công bố công khai trên các phương tiện thông tin đại chúng, trang thông tin điện tử của Ủy ban nhân dân cấp tỉnh. Sau khi quyết định giải thể trường có hiệu lực, đất đai và các tài sản trên đất được xử lý theo quy định của pháp luật có liên quan."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ qua dịch vụ bưu chính đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP",
+      "fees": []
+    }
+  ],
+  "description": "Không.",
+  "name": "Giải thể trường mầm non theo đề nghị của cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f083-b8e3-711a-b0df-ed2107968af5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị giải thể của cơ quan, tổ chức đề nghị thành lập trường theo Mẫu số 06 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP, trong đó nêu rõ lý do và phương án xử lý tổ chức bộ máy, nhân sự, tài chính, tài sản, đất đai, trẻ em và các vấn đề khác có liên quan.",
+          "code": "TP-G03.0001150",
+          "attachments": [
+            {
+              "id": "01a0f083-8f5a-75ef-bed2-547651f5cf1d",
+              "fileName": "Mẫu số 06.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0f083-8f5a-75ef-bed2-547651f5cf1d/Mẫu số 06.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0eb27-0a75-75f9-a08c-6705f56edf6d"
+  ],
+  "resultIds": [
+    "01a0f084-b5e6-76ec-9fba-3716312964cc"
+  ],
+  "subjectTypeIds": [
+    "019b6990-6a92-7166-a335-f87bf9f53428"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+      "name": "Giáo dục Phổ thông",
+      "code": "G03-GD18"
+    }
+  ],
+  "category": {
+    "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+    "name": "Giáo dục Phổ thông",
+    "code": "G03-GD18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0eb27-0a75-75f9-a08c-6705f56edf6d",
+      "name": "Quy định về điều kiện đầu tư và hoạt động của cơ sở giáo dục mầm non, cơ sở giáo dục phổ thông, cơ sở giáo dục thường xuyên và cơ sở giáo dục khác thuộc hệ thống giáo dục quốc dân",
+      "code": "360/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f084-b5e6-76ec-9fba-3716312964cc",
+      "name": "Quyết định của Chủ tịch Ủy ban nhân dân cấp tỉnh giải thể trường mầm non (theo Mẫu số 08 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP).",
+      "code": "KQ-G03.00026"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790907958109,
+  "updatedAt": 1790907958109,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ec28-ef38-71b3-860d-48702fad8c6f",
+    "proposalNumber": "2855/QĐ-BGDĐT",
+    "decisionDate": 1790701200000,
+    "decisionNumber": null,
+    "publicationDate": 1790907957843,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

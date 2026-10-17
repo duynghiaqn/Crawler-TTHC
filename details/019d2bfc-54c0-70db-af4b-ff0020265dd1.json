@@ -1,0 +1,403 @@
+{
+  "id": "019d2bfc-54c0-70db-af4b-ff0020265dd1",
+  "code": "1.008340",
+  "codeNotation": "1.008340",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Tổ chức, cá nhân trả thu nhập thực hiện khấu trừ thuế chuẩn bị hồ sơ khai thuế, gửi đến cơ quan Thuế. Thời hạn nộp hồ sơ khai thuế tháng chậm nhất là ngày thứ 20 của tháng tiếp theo tháng phát sinh nghĩa vụ thuế. Thời hạn nộp hồ sơ khai thuế theo quý chậm nhất là ngày cuối cùng của tháng đầu của quý tiếp theo quý phát sinh nghĩa vụ thuế."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan thuế tiếp nhận hồ sơ của người nộp thuế theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không phải trả kết quả cho người nộp thuế",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "name": "Khai thuế đối với tổ chức, cá nhân trả thu nhập thực hiện khấu trừ thuế đối với thu nhập của cá nhân cư trú và cá nhân không cư trú bao gồm: đầu tư vốn, chuyển nhượng chứng khoán, nhận cổ phiếu thưởng của người lao động và cổ phiếu ESOP, từ bản quyền, nhượng quyền thương mại, trúng thưởng, chuyển nhượng tên miền quốc gia Việt Nam “.vn”, chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon, từ chuyển nhượng tài sản số; thu nhập từ kinh doanh của cá nhân không cư trú; tổ chức, cá nhân nhận chuyển nhượng vốn của cá nhân không cư trú",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(i) Trường hợp khai thuế đối với tổ chức khấu trừ thuế thu nhập cá nhân với thu nhập từ cổ phiếu thưởng cho người lao động, cổ phiếu ESOP:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f38-7732bf9a9136",
+          "originalQty": 1,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế (Áp dụng đối với tổ chức, cá nhân trả thu nhập khấu trừ thuế đối với thu nhập của cá nhân cư trú và cá nhân không cư trú bao gồm: từ đầu tư vốn, từ chuyển nhượng chứng khoán, từ nhận cổ phiếu thưởng của người lao động và cổ phiếu ESOP, từ bản quyền, từ nhượng quyền thương mại, từ trúng thưởng, từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”, từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon, từ chuyển nhượng tài sản số; thu nhập từ kinh doanh của cá nhân không cư trú; tổ chức, cá nhân nhận chuyển nhượng vốn của cá nhân không cư trú) theo mẫu số 06/TNCN Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0012326",
+          "attachments": [
+            {
+              "id": "019fa69f-1b86-7642-a2ec-5da9a9f147d2",
+              "fileName": "14. 06 TNCN TT 89.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa69f-1b86-7642-a2ec-5da9a9f147d2/14. 06 TNCN TT 89.pdf"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f38-78e16742e6f0",
+          "originalQty": 1,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phụ lục bảng kê chi tiết cá nhân có thu nhập từ cổ phiếu thưởng, cổ phiếu ESOP trong năm tính thuế (Kèm theo Tờ khai mẫu số 06/TNCN kê khai vào hồ sơ khai thuế của tháng/quý cuối cùng trong năm tính thuế hoặc tháng/quý phát sinh việc chia, tách, hợp nhất, sáp nhập, giải thể, phá sản, chấm dứt hoạt động) theo mẫu số 06-2/BK-TNCN Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0012327",
+          "attachments": [
+            {
+              "id": "019fa69f-88b2-7101-8058-c496c6ee6d44",
+              "fileName": "16. 06-2.BK-TNCN TT 89.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa69f-88b2-7101-8058-c496c6ee6d44/16. 06-2.BK-TNCN TT 89.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(ii) Trường hợp khai thuế đối với tổ chức, cá nhân trả thu nhập khấu trừ thuế đối với thu nhập của cá nhân cư trú và cá nhân không cư trú bao gồm: từ đầu tư vốn, từ chuyển nhượng chứng khoán, từ bản quyền, từ nhượng quyền thương mại, từ trúng thưởng, từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”, từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon, từ chuyển nhượng tài sản số; thu nhập từ kinh doanh của cá nhân không cư trú; tổ chức, cá nhân nhận chuyển nhượng vốn của cá nhân không cư trú:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f38-7732bf9a9136",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế (Áp dụng đối với tổ chức, cá nhân trả thu nhập khấu trừ thuế đối với thu nhập của cá nhân cư trú và cá nhân không cư trú bao gồm: từ đầu tư vốn, từ chuyển nhượng chứng khoán, từ nhận cổ phiếu thưởng của người lao động và cổ phiếu ESOP, từ bản quyền, từ nhượng quyền thương mại, từ trúng thưởng, từ chuyển nhượng tên miền quốc gia Việt Nam “.vn”, từ chuyển nhượng kết quả giảm phát thải nhà kính, tín chỉ các bon, từ chuyển nhượng tài sản số; thu nhập từ kinh doanh của cá nhân không cư trú; tổ chức, cá nhân nhận chuyển nhượng vốn của cá nhân không cư trú) theo mẫu số 06/TNCN Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0012326",
+          "attachments": [
+            {
+              "id": "019fa69f-1b86-7642-a2ec-5da9a9f147d2",
+              "fileName": "14. 06 TNCN TT 89.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa69f-1b86-7642-a2ec-5da9a9f147d2/14. 06 TNCN TT 89.pdf"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f32-7d166f4a82c7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục bảng kê chi tiết cá nhân có thu nhập trong năm tính thuế (Kèm theo Tờ khai mẫu số 06/TNCN kê khai vào hồ sơ khai thuế của tháng/quý cuối cùng trong năm tính thuế hoặc tháng/quý phát sinh việc chia, tách, hợp nhất, sáp nhập, giải thể, phá sản, chấm dứt hoạt động) mẫu số 06-1/BK-TNCN Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0011946",
+          "attachments": [
+            {
+              "id": "019fa6a2-8490-7169-92b5-5c1e8d53bffc",
+              "fileName": "15. 06-1.BK-TNCN.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6a2-8490-7169-92b5-5c1e8d53bffc/15. 06-1.BK-TNCN.pdf"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f32-06db27554cf6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục Bảng xác định số thuế thu nhập cá nhân phải nộp đối với thu nhập từ tiền lương, tiền công và trúng thưởng (áp dụng đối với tổ chức khấu trừ thuế đối với thu nhập từ trúng thưởng của cá nhân trúng thưởng xổ số điện toán) mẫu số 05-1/PBT-KK-TNCN Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0011916",
+          "attachments": [
+            {
+              "id": "019fa6a3-d243-7201-b58d-b0606162d7b5",
+              "fileName": "2. BK 05-1.PBT-KK-TNCN TT 89.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6a3-d243-7201-b58d-b0606162d7b5/2. BK 05-1.PBT-KK-TNCN TT 89.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa6a8-1248-73bc-b29a-9c066f98dacb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì các mẫu 06/TNCN, 06-1/BK-TNCN, 05-1/PBT-KK-TNCN thực hiện theo mẫu biểu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính",
+          "code": "G12.0011917",
+          "attachments": [
+            {
+              "id": "019fa6a8-0a6d-77c9-8ba4-e1607516903d",
+              "fileName": "06 TNCN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6a8-0a6d-77c9-8ba4-e1607516903d/06 TNCN TT 80.docx"
+            },
+            {
+              "id": "019fa6a8-0ba9-77bf-aafd-f822f0b1d1f1",
+              "fileName": "05-1 PBT-KK-TNCN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6a8-0ba9-77bf-aafd-f822f0b1d1f1/05-1 PBT-KK-TNCN.docx"
+            },
+            {
+              "id": "019fa6a8-0cc6-7052-a3a0-d26d9c2d230f",
+              "fileName": "06.1 BK TNCN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6a8-0cc6-7052-a3a0-d26d9c2d230f/06.1 BK TNCN TT 80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Khai thuế, khấu trừ thuế, cá nhân cư trú, cá nhân không cư trú",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421",
+    "019fa376-69da-7783-9853-6afa7cd86621",
+    "019fa377-0d10-73ea-b3b0-ee84180af5fe"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96e1-59c6a510ec9f"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019fa377-0d10-73ea-b3b0-ee84180af5fe",
+      "name": "Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập cá nhân",
+      "code": "253/2026/NĐ-CP "
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019fa376-69da-7783-9853-6afa7cd86621",
+      "name": "Luật Thuế thu nhập cá nhân 109/2025/QH15 ngày 10/12/2025 và các văn bản pháp luật quy định chi tiết, hướng dẫn thi hành và sửa đổi, bổ sung có liên quan",
+      "code": "109/2025/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96e1-59c6a510ec9f",
+      "name": "Hồ sơ gửi đến cơ quan thuế không có kết quả giải quyết.",
+      "code": "KQ.G12.000429"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2d90-2e8a-7199-bd6c-514b922875bc",
+      "name": "Khai thuế thu nhập cá nhân tháng/quý của tổ chức, cá nhân trả thu nhập thực hiện khấu trừ thuế đối với thu nhập từ đầu tư vốn, từ chuyển nhượng chứng khoán, từ bản quyền, từ nhượng quyền thương mại, từ trúng thưởng của cá nhân cư trú và cá nhân không cư trú; từ kinh doanh của cá nhân không cư trú; Tổ chức, cá nhân khi nhận chuyển nhượng vốn góp của cá nhân không cư trú",
+      "code": "1.008340.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-cf0a-7499-b034-38dcb8d2e1b0",
+      "name": "Khai thuế thu nhập cá nhân tháng/quý của tổ chức, cá nhân trả thu nhập thực hiện khấu trừ thuế đối với thu nhập từ đầu tư vốn, từ chuyển nhượng chứng khoán, từ bản quyền, từ nhượng quyền thương mại, từ trúng thưởng của cá nhân cư trú và cá nhân không cư trú; từ kinh doanh của cá nhân không cư trú; Tổ chức, cá nhân khi nhận chuyển nhượng vốn góp của cá nhân không cư trú",
+      "code": "1.008340.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559450304,
+  "updatedAt": 1785399202544,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/Thuế cơ sở/Chi cục Thuế Doanh nghiệp lớn; Chi cục Thuế Thương mại điện tử",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "01a09f23-bd96-758b-a56a-d0864c7b9407",
+  "code": "3.000729",
+  "codeNotation": "3.000729",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1.\tGia đình đối tượng hoặc người giám hộ làm 01 Đơn và cung cấp 01 bản sao đối với mỗi loại giấy tờ liên quan gửi trực tiếp tại Trung tâm Phục vụ hành chính công thành phố/Trung tâm Phục vụ hành chính công cấp xã; qua dịch vụ bưu chính; hoặc trực tuyến trên Cổng Dịch vụ công Quốc gia theo quy định đến Giám đốc Bệnh viện Tâm thần trực thuộc Sở Y tế.\n2.\tKhi nhận được hồ sơ của đối tượng, Giám đốc Bệnh viện Tâm thần trực thuộc Sở Y tế xem xét, tiếp nhận, hỗ trợ điều trị ngay; trường hợp không đủ điều kiện để tiếp nhận thì có văn bản trả lời nêu rõ lý do"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Đối tượng  thuộc quy định tại khoản 4 Điều 2 Nghị quyết số 41/2025/NQ-HĐND",
+  "name": "Thủ tục hỗ trợ đối tượng có dấu hiệu bị loạn thần có hành vi nguy hiểm cho bản thân, gia đình và xã hội điều trị tự nguyện tại Bệnh viện Tâm thần trực thuộc Sở Y tế theo Điều 7 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a09f22-284d-718d-b157-502d035e5f97",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn theo Mẫu số 11 kèm theo Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+          "code": "TP-H17.000508",
+          "attachments": [
+            {
+              "id": "01a09f22-1b85-76fd-8df2-e22ffba47b02",
+              "fileName": "MauSo_11.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a09f22-1b85-76fd-8df2-e22ffba47b02/MauSo_11.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a09f22-eb1b-769f-8dc2-beb2d3bdea51",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản của cơ quan chức năng về hành vi nguy hiểm cho bản thân, gia đình, cộng đồng và xã hội của đối tượng",
+          "code": "TP-H17.000509",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09f23-36b8-77b9-a02e-30e4cf2b4f57",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy xác nhận tình trạng nghiện ma túy",
+          "code": "TP-H17.000510",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09f23-7b6f-721c-957a-901cf451f159",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Xác nhận của cơ quan y tế có thẩm quyền đối với trường hợp nhiễm HIV/AIDS.",
+          "code": "TP-H17.000511",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09ee3-251e-7206-8754-f97fd4d04ccc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ liên quan khác (nếu có)",
+          "code": "TP-H17.000507",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-6573ae6e97af"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a09ed6-0486-7606-b380-c185bc63b82d",
+    "01a09ed6-c17c-77f4-a132-b547cd5618d7"
+  ],
+  "resultIds": [
+    "01a09f20-3f3a-7649-9a51-5c35d90ff19c"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a33f-a730d6c6bd32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+      "name": "Bảo trợ xã hội",
+      "code": "G07-LĐ03"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+    "name": "Bảo trợ xã hội",
+    "code": "G07-LĐ03"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a33f-a730d6c6bd32",
+      "name": "Sở Y tế TP. Đà Nẵng",
+      "code": "H17.19"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a09ed6-0486-7606-b380-c185bc63b82d",
+      "name": "Quy định một số chính sách trợ giúp xã hội trên địa bàn thành phố Đà Nẵng",
+      "code": "Nghị quyết số 41/2025/NQ-HĐND (Thành phố Đà Nẵng)"
+    },
+    {
+      "id": "01a09ed6-c17c-77f4-a132-b547cd5618d7",
+      "name": "Quy định về thẩm quyền, hồ sơ, trình tự, thủ tục thực hiện chính sách trợ giúp xã hội theo Nghị quyết số 41/2025/NQ-HĐND",
+      "code": "124/2026/QĐ-UBND (thành phố Đà Nẵng)"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a09f20-3f3a-7649-9a51-5c35d90ff19c",
+      "name": "Quyết định tiếp nhận, hỗ trợ điều trị tâm thần tự nguyện hoặc văn bản trả lời đối với trường hợp không tiếp nhận, hỗ trợ đối tượng điều trị tâm thần tự nguyện tại Bệnh viện Tâm thần của Giám đốc Bệnh viện Tâm thần trực thuộc Sở Y tế",
+      "code": "KQ.H17.000306"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33d-803cf2496575",
+  "departmentPromulgateCode": "H17",
+  "departmentPromulgateName": "UBND Thành phố Đà Nẵng",
+  "cases": [
+    {
+      "id": "01a0cc44-9497-720e-a184-8d4b6b81cea3",
+      "name": "Thủ tục hỗ trợ đối tượng có dấu hiệu bị loạn thần có hành vi nguy hiểm cho bản thân, gia đình và xã hội điều trị tự nguyện tại Bệnh viện Tâm thần trực thuộc Sở Y tế theo Điều 7 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+      "code": "3.000729.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790133045843,
+  "updatedAt": 1790133045843,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Y tế TP. Đà Nẵng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đối tượng  thuộc quy định tại khoản 4 Điều 2 Nghị quyết số 41/2025/NQ-HĐND",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a09ed0-e223-7106-83d1-874643a1972a",
+    "proposalNumber": "4088/QĐ-UBND",
+    "decisionDate": 1789059600000,
+    "decisionNumber": null,
+    "publicationDate": 1790133045722,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33d-803cf2496575",
+      "name": "UBND Thành phố Đà Nẵng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

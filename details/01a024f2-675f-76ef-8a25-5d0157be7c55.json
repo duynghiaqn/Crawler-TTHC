@@ -1,0 +1,356 @@
+{
+  "id": "01a024f2-675f-76ef-8a25-5d0157be7c55",
+  "code": "1.116465",
+  "codeNotation": "1.116465",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Lập, nộp hồ sơ\nTổ chức dịch vụ việc làm công gửi hồ sơ chi trả trợ cấp thất nghiệp của NLĐ cho BHXH tỉnh."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: BHXH tỉnh tiếp nhận, kiểm tra hồ sơ, rà soát đối chiếu thông tin đề nghị thanh toán với cơ sở dữ liệu của hệ thống và thực hiện như sau:\n- Trường hợp hồ sơ không đủ theo quy định hoặc không đủ điều kiện chi trả thì trả lời bằng văn bản (Mẫu số 01/TB-HSB ban hành kèm theo Quyết định số 313/QĐ-BHXH) nêu rõ lý do gửi Tổ chức dịch vụ việc làm công để bổ sung hồ sơ. \n- Trường hợp hồ sơ đủ điều kiện chi trả theo quy định thì BHXH tỉnh chi trả trợ cấp thất nghiệp cho người lao động và trả kết quả giải quyết cho Tổ chức dịch vụ việc làm công theo Mẫu số 01/TB-KQ (ban hành kèm theo Quyết định số 58/QĐ-BHXH ngày 22/01/2025 của BHXH Việt Nam)."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Nhận kết quả giải quyết.\nTổ chức dịch vụ việc làm công căn cứ ngày hẹn trên phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục chi trả trợ cấp thất nghiệp cho NLĐ."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Tổ chức dịch vụ việc làm công nhận giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n- Đối với hồ sơ chi trả của trường hợp có quyết định hưởng mới trợ cấp thất nghiệp: 05 ngày làm việc kể từ ngày NLĐ hết thời hạn nhận quyết định về việc hưởng TCTN hoặc hết thời hạn thông báo tìm kiếm việc làm hằng tháng nếu không nhận được quyết định tạm dừng hoặc chấm dứt hưởng TCTN đối với NLĐ.\n- Đối với hồ sơ chi trả của trường hợp có quyết định về việc tạm dừng, tiếp tục, di chuyển hưởng, chấm dứt hưởng trợ cấp thất nghiệp: 01 ngày làm việc kể từ ngày nhận được hồ sơ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Tổ chức dịch vụ việc làm công nhận giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n- Đối với hồ sơ chi trả của trường hợp có quyết định hưởng mới trợ cấp thất nghiệp: 05 ngày làm việc kể từ ngày NLĐ hết thời hạn nhận quyết định về việc hưởng TCTN hoặc hết thời hạn thông báo tìm kiếm việc làm hằng tháng nếu không nhận được quyết định tạm dừng hoặc chấm dứt hưởng TCTN đối với NLĐ.\n- Đối với hồ sơ chi trả của trường hợp có quyết định về việc tạm dừng, tiếp tục, di chuyển hưởng, chấm dứt hưởng trợ cấp thất nghiệp: 01 ngày làm việc kể từ ngày nhận được hồ sơ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Tổ chức dịch vụ việc làm công nhận giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n- Đối với hồ sơ chi trả của trường hợp có quyết định hưởng mới trợ cấp thất nghiệp: 05 ngày làm việc kể từ ngày NLĐ hết thời hạn nhận quyết định về việc hưởng TCTN hoặc hết thời hạn thông báo tìm kiếm việc làm hằng tháng nếu không nhận được quyết định tạm dừng hoặc chấm dứt hưởng TCTN đối với NLĐ.\n- Đối với hồ sơ chi trả của trường hợp có quyết định về việc tạm dừng, tiếp tục, di chuyển hưởng, chấm dứt hưởng trợ cấp thất nghiệp: 01 ngày làm việc kể từ ngày nhận được hồ sơ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Chi trả trợ cấp thất nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ do Tổ chức dịch vụ việc làm công gửi đến BHXH tỉnh được liên thông, chia sẻ từ cơ sở dữ liệu quốc gia về giải quyết hưởng các chế độ bảo hiểm thất nghiệp thông qua Cổng dịch vụ công quốc gia. Trường hợp chưa gửi được thông qua Cổng dịch vụ công quốc gia, Tổ chức dịch vụ việc làm công gửi trực tiếp hoặc thông qua dịch vụ bưu chính công ích đến BHXH tỉnh. Tùy theo từng trường hợp phát sinh mà hồ sơ được gửi như sau:",
+      "profileComponents": []
+    },
+    {
+      "name": "(1) Hồ sơ chi trả đối với trường hợp có quyết định hưởng mới trợ cấp thất nghiệp gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a024e8-d763-7450-83b7-eef55b5f991f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định về việc hưởng trợ cấp thất nghiệp theo Mẫu số 13",
+          "code": "TP-G12.0000008",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a024e9-582c-767f-ad03-75fb13f2e0c2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định về việc hủy trợ cấp thất nghiệp theo Mẫu số 06 (ban hành kèm theo Nghị định số 374/2025/NĐ-CP)",
+          "code": "TP-G12.0000009",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(2) Hồ sơ chi trả đối với trường hợp tạm dừng hưởng trợ cấp thất nghiệp:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a024ea-63b1-773e-9718-8c68630692bf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định về việc tạm dừng hưởng trợ cấp thất nghiệp theo Mẫu số 14 (ban hành kèm theo Nghị định số 374/2025/NĐ-CP)",
+          "code": "TP-G12.0000010",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(3) Hồ sơ chi trả đối với trường hợp tiếp tục hưởng trợ cấp thất nghiệp:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a024eb-6785-76c1-b2ac-7d43abeec713",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định về việc tiếp tục hưởng trợ cấp thất nghiệp theo Mẫu số 15 (ban hành kèm theo Nghị định số 374/2025/NĐ-CP)",
+          "code": "TP-G12.0000011",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(4) Hồ sơ chi trả đối với trường hợp di chuyển hưởng trợ cấp thất nghiệp:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a024ec-2802-751d-8ca0-f0c908043aa4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Thông báo của Tổ chức dịch vụ việc làm công nơi người lao động chuyển đi với cơ quan BHXH về việc dừng chi trả trợ cấp thất nghiệp theo Mẫu số 19",
+          "code": "TP-G12.0000012",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a024ec-bb37-75cd-8671-4715062d6f7e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Thông báo của Tổ chức dịch vụ việc làm công nơi người lao động chuyển đến hưởng trợ cấp thất nghiệp với cơ quan bảo hiểm xã hội nơi người lao động chuyển đến về việc tiếp tục thực hiện chi trả trợ cấp thất nghiệp theo Mẫu số 20 (ban hành kèm theo Nghị định số 374/2025/NĐ-CP)",
+          "code": "TP-G12.0000013",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(5) Hồ sơ chi trả đối với trường hợp chấm dứt hưởng trợ cấp thất nghiệp:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a024ed-864b-70ab-9a6a-35fc151933fb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định về việc chấm dứt hưởng trợ cấp thất nghiệp theo Mẫu số 25",
+          "code": "TP-G12.0000014",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a024ee-11a1-745a-9b41-7d0489d45a06",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định về việc thu hồi tiền trợ cấp thất nghiệp theo Mẫu số 08 (ban hành kèm theo Nghị định số 374/2025/NĐ-CP)",
+          "code": "TP-G12.0000015",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Tổ chức dịch vụ việc làm công",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+    "019d2bb3-5d7f-719e-b474-aeca548c5d4e",
+    "019d2bb3-5d85-73da-8eba-01524719babf",
+    "019e72eb-488d-760e-abb8-0a3bb6585c78",
+    "01a024ce-76f5-75e5-a7fe-40af57b833fc",
+    "01a0286c-2b57-700d-a953-d146f3afa3a4"
+  ],
+  "resultIds": [
+    "01a024ef-dc3e-7659-96fb-0e4656a49528",
+    "01a024f0-8d5b-7179-a0ee-d45872a4064c"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-a18231a6fcf6"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-a18231a6fcf6",
+      "name": "Bảo hiểm xã hội tỉnh",
+      "code": "BHXHT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+      "name": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
+      "code": "2222/QĐ-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eba-01524719babf",
+      "name": "Luật Việc làm",
+      "code": "74/2025/QH15"
+    },
+    {
+      "id": "019e72eb-488d-760e-abb8-0a3bb6585c78",
+      "name": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP BAN HÀNH KÈM THEO QUYẾT ĐỊNH SỐ 2222/QĐ-BHXH NGÀY 29/7/2025 CỦA GIÁM ĐỐC BẢO HIỂM XÃ HỘI VIỆT NAM",
+      "code": "313/QĐ-BHXH "
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b474-aeca548c5d4e",
+      "name": "Quy định chi tiết một số điều của Luật Việc làm về bảo hiểm thất nghiệp",
+      "code": "Nghị định số 374/2025/NĐ-CP"
+    },
+    {
+      "id": "01a024ce-76f5-75e5-a7fe-40af57b833fc",
+      "name": "Thông tư số 107/2025/TT-BTC của Bộ Tài chính: Hướng dẫn kế toán quỹ bảo hiểm xã hội, quỹ bảo hiểm y tế, quỹ bảo hiểm thất nghiệp",
+      "code": "107/2025/TT-BTC"
+    },
+    {
+      "id": "01a0286c-2b57-700d-a953-d146f3afa3a4",
+      "name": "hướng dẫn về việc lập chứng từ kế toán quỹ bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp",
+      "code": "3349/BHXH-TCKT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a024ef-dc3e-7659-96fb-0e4656a49528",
+      "name": "Người lao động được chi trả trợ cấp thất nghiệp theo Danh sách chi trả trợ cấp thất nghiệp (Mẫu số C72b-HD) và được cấp thẻ BHYT trong thời gian hưởng TCTN",
+      "code": "TP-G12.0000004"
+    },
+    {
+      "id": "01a024f0-8d5b-7179-a0ee-d45872a4064c",
+      "name": "Thông báo kết quả tiếp nhận quyết định hưởng các chế độ bảo hiểm thất nghiệp Mẫu số 01/TB-HSB",
+      "code": "TP-G12.0000005"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787504991640,
+  "updatedAt": 1787504991640,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

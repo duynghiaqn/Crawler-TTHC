@@ -16,8 +16,11 @@ function loadCurrentDataset() {
                     id: item.id || item.ma_tthc,
                     code: item.ma_tthc || item.code || '',
                     name: item.ten_tthc || item.name || '',
+                    cap_thuc_hien: item.cap_thuc_hien || '',
+                    loai_tthc: item.loai_tthc || '',
                     category: item.linh_vuc || (Array.isArray(item.categories) ? item.categories.join(', ') : ''),
-                    agency: item.co_quan_thuc_hien || (Array.isArray(item.departments) ? item.departments.join(', ') : '')
+                    agency: item.co_quan_thuc_hien || (Array.isArray(item.departments) ? item.departments.join(', ') : ''),
+                    url: item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : '')
                 }));
             }
         } catch (e) {}

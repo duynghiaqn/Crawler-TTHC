@@ -163,12 +163,14 @@ pause >nul
 call :check_node
 cls
 echo =====================================================================
-echo [BAT DAU] DANG XUAT FILE EXCEL TTHC GIA LAI...
+echo [BAT DAU] DANG XUAT FILE EXCEL TTHC DVCQG TOAN QUOC VA GIA LAI...
 echo =====================================================================
 node scripts/export_excel.js
 echo.
 echo ---------------------------------------------------------------------
-echo File Excel da duoc luu tai: data\Bao_cao_TTHC_Gia_Lai.xlsx
+echo File Excel da duoc luu tai:
+echo   - Toan quoc: data\Bao_cao_TTHC_DVCQG.xlsx
+echo   - Gia Lai:   data-gl\Bao_cao_TTHC_Gia_Lai.xlsx
 echo Nhan phim bat ky de quay lai menu...
 pause >nul
 goto menu

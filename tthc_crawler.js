@@ -14,6 +14,8 @@ const CONFIG = {
     INDEX_FILE: path.join(process.cwd(), 'data', 'index.json'),
     VERSION_FILE: path.join(process.cwd(), 'data', 'version.json'),
     DISCOVERY_FILE: path.join(process.cwd(), 'data', 'discovery.json'),
+    SNAPSHOT_FILE: path.join(process.cwd(), 'data', 'snapshot.json'),
+    COMPARE_REPORT_FILE: path.join(process.cwd(), 'data', 'compare_report.json'),
     
     // Low request rate settings (Conservative concurrency = 3 with Jitter)
     MAX_CONCURRENCY: 3,
@@ -321,6 +323,19 @@ async function main() {
         }
     }
 
+    // Hỗ trợ cờ --compare / --compare-only: Xuất báo cáo thống kê biến động & Excel ngay lập tức
+    if (process.argv.includes('--compare') || process.argv.includes('--compare-only')) {
+        console.log('⚡ Chế độ: Xuất báo cáo thống kê biến động toàn bộ TTHC (--compare)...');
+        generateCompareReport(indexData);
+        try {
+            const { exportNationalExcel } = require('./scripts/export_excel');
+            exportNationalExcel();
+        } catch (excelErr) {
+            console.warn('⚠️ Lỗi xuất Excel DVCQG:', excelErr.message);
+        }
+        return;
+    }
+
     // Đăng ký Handler ngắt đột ngột (SIGINT, SIGTERM) để lưu trạng thái an toàn
     const handleShutdown = () => {
         console.warn('\n⚠️ Nhận tín hiệu dừng tiến trình. Đang lưu Checkpoint & Index an toàn...');
@@ -516,16 +531,29 @@ async function main() {
             await politeDelay();
         }
 
-        // 6. Ghi xuất bản Index & Version
+        // 6. Ghi xuất bản Index & Thống kê biến động toàn bộ TTHC
         safeWriteJson(CONFIG.INDEX_FILE, indexData);
+
+        // Kích hoạt engine so sánh và xuất dữ liệu thống kê biến động toàn bộ TTHC
+        const compareReport = generateCompareReport(indexData);
+
         const versionInfo = {
             last_updated: new Date().toISOString(),
             total_records: indexData.length,
             completed_records: Object.keys(checkpoint.completedIds).length,
             failed_records: Object.keys(checkpoint.failedIds).length,
-            circuit_breaker_status: checkpoint.status
+            circuit_breaker_status: checkpoint.status,
+            compare_summary: compareReport ? compareReport.summary : null
         };
         safeWriteJson(CONFIG.VERSION_FILE, versionInfo);
+
+        // Tự động xuất file Excel Báo cáo Master Data & Biến động DVCQG tại thư mục data
+        try {
+            const { exportNationalExcel } = require('./scripts/export_excel');
+            exportNationalExcel();
+        } catch (excelErr) {
+            console.warn('⚠️ Lỗi tự động xuất Excel DVCQG:', excelErr.message);
+        }
 
         if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
             process.exit(1);
@@ -535,6 +563,192 @@ async function main() {
             console.log(`\n🎉 HOÀN TẤT AN TOÀN! Tổng số TTHC thành công: ${Object.keys(checkpoint.completedIds).length}/${rawList.length}`);
         }
     }
+}
+
+// ============================================================
+// COMPARE ENGINE: THỐNG KÊ BIẾN ĐỘNG TOÀN BỘ TTHC
+// ============================================================
+function generateCompareReport(currentItems) {
+    console.log('\n========================================================================');
+    console.log('📊 BÁO CÁO THEO DÕI BIẾN ĐỘNG TOÀN BỘ TTHC (COMPARE ENGINE)');
+    console.log('========================================================================\n');
+
+    if (!Array.isArray(currentItems) || currentItems.length === 0) {
+        console.warn('⚠️ Không có dữ liệu TTHC để thực hiện so sánh biến động.');
+        return null;
+    }
+
+    const currentMap = new Map();
+    currentItems.forEach(item => {
+        const key = item.id || item.ma_tthc || item.code;
+        if (key) {
+            currentMap.set(key, {
+                id: item.id || '',
+                code: item.ma_tthc || item.code || '',
+                name: item.ten_tthc || item.name || '',
+                cap_thuc_hien: item.cap_thuc_hien || '',
+                loai_tthc: item.loai_tthc || '',
+                category: item.linh_vuc || (Array.isArray(item.categories) ? item.categories.join(', ') : ''),
+                agency: item.co_quan_thuc_hien || (Array.isArray(item.departments) ? item.departments.join(', ') : ''),
+                url: item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : '')
+            });
+        }
+    });
+
+    let previousMap = new Map();
+    let hasSnapshot = false;
+
+    if (fs.existsSync(CONFIG.SNAPSHOT_FILE)) {
+        try {
+            const prevRaw = JSON.parse(fs.readFileSync(CONFIG.SNAPSHOT_FILE, 'utf8'));
+            if (Array.isArray(prevRaw) && prevRaw.length > 0) {
+                prevRaw.forEach(item => {
+                    const key = item.id || item.code || item.ma_tthc;
+                    if (key) {
+                        previousMap.set(key, {
+                            id: item.id || '',
+                            code: item.code || item.ma_tthc || '',
+                            name: item.name || item.ten_tthc || '',
+                            cap_thuc_hien: item.cap_thuc_hien || '',
+                            loai_tthc: item.loai_tthc || '',
+                            category: item.category || item.linh_vuc || '',
+                            agency: item.agency || item.co_quan_thuc_hien || '',
+                            url: item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : '')
+                        });
+                    }
+                });
+                hasSnapshot = true;
+            }
+        } catch (e) {
+            console.warn(`⚠️ Tệp snapshot cũ hỏng hoặc không hợp lệ: ${e.message}`);
+        }
+    }
+
+    const added = [];
+    const removed = [];
+    const modified = [];
+
+    if (!hasSnapshot) {
+        console.log(`📸 Chưa có Snapshot dữ liệu trước đó.`);
+        console.log(`⚡ Tạo mới Snapshot khởi tạo ban đầu với: ${currentMap.size} TTHC.`);
+        const snapshotItems = Array.from(currentMap.values());
+        safeWriteJson(CONFIG.SNAPSHOT_FILE, snapshotItems);
+
+        const initialReport = {
+            compared_at: new Date().toISOString(),
+            status: 'INITIAL_SNAPSHOT_CREATED',
+            summary: {
+                previous_total: 0,
+                current_total: currentMap.size,
+                net_change: currentMap.size,
+                added_count: currentMap.size,
+                removed_count: 0,
+                modified_count: 0
+            },
+            added: snapshotItems,
+            removed: [],
+            modified: []
+        };
+        safeWriteJson(CONFIG.COMPARE_REPORT_FILE, initialReport);
+        console.log(`✅ Đã xuất báo cáo khởi tạo vào: ${CONFIG.COMPARE_REPORT_FILE}\n`);
+        return initialReport;
+    }
+
+    // So sánh: tìm thủ tục thêm mới & sửa đổi
+    currentMap.forEach((currItem, key) => {
+        if (!previousMap.has(key)) {
+            added.push(currItem);
+        } else {
+            const prevItem = previousMap.get(key);
+            const changes = [];
+            if (prevItem.name !== currItem.name) changes.push({ field: 'Tên TTHC', old: prevItem.name, new: currItem.name });
+            if (prevItem.code && currItem.code && prevItem.code !== currItem.code) changes.push({ field: 'Mã TTHC', old: prevItem.code, new: currItem.code });
+            if (prevItem.cap_thuc_hien && currItem.cap_thuc_hien && prevItem.cap_thuc_hien !== currItem.cap_thuc_hien) changes.push({ field: 'Cấp thực hiện', old: prevItem.cap_thuc_hien, new: currItem.cap_thuc_hien });
+            if (prevItem.agency && currItem.agency && prevItem.agency !== currItem.agency) changes.push({ field: 'Cơ quan thực hiện', old: prevItem.agency, new: currItem.agency });
+
+            if (changes.length > 0) {
+                modified.push({
+                    id: currItem.id,
+                    code: currItem.code,
+                    name: currItem.name,
+                    changes,
+                    url: currItem.url
+                });
+            }
+        }
+    });
+
+    // So sánh: tìm thủ tục bãi bỏ
+    previousMap.forEach((prevItem, key) => {
+        if (!currentMap.has(key)) {
+            removed.push(prevItem);
+        }
+    });
+
+    const netChange = currentMap.size - previousMap.size;
+    const netSign = netChange >= 0 ? `+${netChange}` : `${netChange}`;
+
+    console.log(`📈 THỐNG KÊ TỔNG QUAN BIẾN ĐỘNG TOÀN BỘ TTHC:`);
+    console.log(`   • Số lượng TTHC kỳ trước: ${previousMap.size}`);
+    console.log(`   • Số lượng TTHC hiện tại: ${currentMap.size}`);
+    console.log(`   • Biến động ròng (Net):   ${netSign} TTHC`);
+    console.log(`   • 🆕 Thêm mới:           ${added.length} TTHC`);
+    console.log(`   • 🗑️ Bãi bỏ / Xóa:        ${removed.length} TTHC`);
+    console.log(`   • ✏️ Thay đổi nội dung:   ${modified.length} TTHC\n`);
+
+    if (added.length > 0) {
+        console.log(`✨ DANH SÁCH TTHC MỚI BỔ SUNG (${added.length}):`);
+        added.slice(0, 10).forEach((item, idx) => {
+            console.log(`   ${idx + 1}. [${item.code || 'N/A'}] ${item.name} (${item.category || item.agency || 'N/A'})`);
+        });
+        if (added.length > 10) console.log(`   ... và ${added.length - 10} TTHC mới khác.`);
+        console.log('');
+    }
+
+    if (removed.length > 0) {
+        console.log(`❌ DANH SÁCH TTHC ĐÃ BÃI BỎ (${removed.length}):`);
+        removed.slice(0, 10).forEach((item, idx) => {
+            console.log(`   ${idx + 1}. [${item.code || 'N/A'}] ${item.name}`);
+        });
+        if (removed.length > 10) console.log(`   ... và ${removed.length - 10} TTHC bãi bỏ khác.`);
+        console.log('');
+    }
+
+    if (modified.length > 0) {
+        console.log(`✏️ DANH SÁCH TTHC CÓ THAY ĐỔI (${modified.length}):`);
+        modified.slice(0, 10).forEach((item, idx) => {
+            const desc = item.changes.map(c => `${c.field}: "${c.old}" ➔ "${c.new}"`).join(' | ');
+            console.log(`   ${idx + 1}. [${item.code || 'N/A'}] ${item.name} -> ${desc}`);
+        });
+        if (modified.length > 10) console.log(`   ... và ${modified.length - 10} TTHC thay đổi khác.`);
+        console.log('');
+    }
+
+    const report = {
+        compared_at: new Date().toISOString(),
+        summary: {
+            previous_total: previousMap.size,
+            current_total: currentMap.size,
+            net_change: netChange,
+            added_count: added.length,
+            removed_count: removed.length,
+            modified_count: modified.length
+        },
+        added,
+        removed,
+        modified
+    };
+
+    safeWriteJson(CONFIG.COMPARE_REPORT_FILE, report);
+    console.log(`💾 Chi tiết báo cáo biến động đã lưu vào: ${CONFIG.COMPARE_REPORT_FILE}`);
+
+    // Cập nhật Snapshot cho kỳ tiếp theo
+    const snapshotItems = Array.from(currentMap.values());
+    safeWriteJson(CONFIG.SNAPSHOT_FILE, snapshotItems);
+    console.log(`📸 Đã cập nhật Snapshot mới nhất cho lần so sánh tiếp theo.`);
+    console.log('========================================================================\n');
+
+    return report;
 }
 
 main().catch(err => {

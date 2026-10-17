@@ -4,10 +4,11 @@ const path = require('path');
 require('dotenv').config();
 
 const DATA_DIR = path.join(process.cwd(), 'data');
+const DATA_GL_DIR = path.join(process.cwd(), 'data-gl');
 const VERSION_FILE = path.join(DATA_DIR, 'version.json');
 const COMPARE_REPORT_FILE = path.join(DATA_DIR, 'compare_report.json');
 const COMPARE_PROVINCE_FILE = path.join(DATA_DIR, 'compare_province_report.json');
-const EXCEL_FILE = path.join(DATA_DIR, 'Bao_cao_TTHC_Gia_Lai.xlsx');
+const EXCEL_FILE = path.join(DATA_GL_DIR, 'Bao_cao_TTHC_Gia_Lai.xlsx');
 
 /**
  * Format timestamp sang gio Viet Nam (ICT - UTC+7)

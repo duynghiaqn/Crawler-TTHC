@@ -117,11 +117,14 @@ Crawler-TTHC/
 │   └── workflows/
 │       ├── auto_crawl.yml          # Workflow chạy cào dữ liệu tự động 22:00 hàng ngày
 │       └── tci_calibration.yml     # Workflow phân tích mẫu hiệu chỉnh TCI
-├── data/                           # Thư mục dữ liệu toàn quốc (Toàn bộ 6,700+ TTHC)
+├── data/                           # Thư mục dữ liệu toàn quốc (Toàn bộ 6,800+ TTHC)
 │   ├── index.json                  # Chỉ mục toàn bộ TTHC
 │   ├── version.json                # Thông tin phiên bản & thời gian cập nhật
 │   ├── discovery.json              # Cache danh mục TTHC toàn quốc (< 6h)
 │   ├── checkpoint.json             # Lưu vết tiến độ & trạng thái Circuit Breaker
+│   ├── compare_report.json         # Báo cáo biến động toàn quốc (Thêm mới, bãi bỏ, sửa đổi)
+│   ├── snapshot.json               # Snapshot lưu trữ so sánh biến động kỳ này/kỳ sau
+│   ├── Bao_cao_TTHC_DVCQG.xlsx     # Báo cáo Master Data Excel 5 Sheets Cổng DVCQG toàn quốc
 │   └── details/                    # Chi tiết từng TTHC dạng JSON
 ├── data-gl/                        # Thư mục dữ liệu CHUYÊN BIỆT TỈNH GIA LAI (Cấp tỉnh & Xã đã lọc)
 │   ├── index.json                  # Chỉ mục TTHC áp dụng tại Gia Lai

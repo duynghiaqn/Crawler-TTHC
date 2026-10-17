@@ -15,7 +15,11 @@ const INDEX_GL_FILE = path.join(DATA_GL_DIR, 'index.json');
 const REPORT_GL_FILE = path.join(DATA_GL_DIR, 'compare_report.json');
 
 const EXCEL_OUTPUT_FILE = path.join(DATA_GL_DIR, 'Bao_cao_TTHC_Gia_Lai.xlsx');
-const EXCEL_LEGACY_OUTPUT_FILE = path.join(DATA_DIR, 'Bao_cao_TTHC_Gia_Lai.xlsx');
+
+const INDEX_NATIONAL_FILE = path.join(DATA_DIR, 'index.json');
+const SNAPSHOT_NATIONAL_FILE = path.join(DATA_DIR, 'snapshot.json');
+const REPORT_NATIONAL_FILE = path.join(DATA_DIR, 'compare_report.json');
+const EXCEL_NATIONAL_OUTPUT_FILE = path.join(DATA_DIR, 'Bao_cao_TTHC_DVCQG.xlsx');
 
 /**
  * Format timestamp sang gio Viet Nam (ICT - UTC+7)
@@ -378,14 +382,6 @@ function exportTTHCExcel(customOutputPath = null) {
     XLSX.writeFile(wb, outputPath);
     console.log(`✅ Xuất thành công file Excel tại: ${outputPath}`);
 
-    // Ghi thêm bản sao sang data/ để tương thích ngược nếu outputPath là mặc định
-    if (!customOutputPath && fs.existsSync(DATA_DIR)) {
-        try {
-            XLSX.writeFile(wb, EXCEL_LEGACY_OUTPUT_FILE);
-            console.log(`✅ Đã đồng bộ thêm bản sao file Excel tại: ${EXCEL_LEGACY_OUTPUT_FILE}`);
-        } catch (e) {}
-    }
-
     console.log(`   • Sheet 1: 'Tổng hợp & Biến động' (${s1Rows.length - 25} dòng biến động)`);
     console.log(`   • Sheet 2: 'TTHC Cấp Tỉnh' (${provinceItems.length} TTHC)`);
     console.log(`   • Sheet 3: 'TTHC Cấp Xã' (${wardItems.length} TTHC)`);
@@ -394,13 +390,285 @@ function exportTTHCExcel(customOutputPath = null) {
     return outputPath;
 }
 
-// Chay truc tiep tu command line
+/**
+ * Xuất file Excel tổng hợp Toàn bộ TTHC Cổng DVCQG và Báo cáo Biến động
+ */
+function exportNationalExcel(customOutputPath = null) {
+    const outputPath = customOutputPath || EXCEL_NATIONAL_OUTPUT_FILE;
+    console.log('\n================================================================');
+    console.log('📊 ĐANG XUẤT FILE EXCEL MASTER DATA & BIẾN ĐỘNG TTHC DVCQG (TOÀN QUỐC)...');
+    console.log('================================================================');
+
+    // 1. Đọc dữ liệu toàn bộ TTHC từ data/index.json (hoặc snapshot.json)
+    let allItems = [];
+    if (fs.existsSync(INDEX_NATIONAL_FILE)) {
+        try {
+            allItems = JSON.parse(fs.readFileSync(INDEX_NATIONAL_FILE, 'utf8'));
+        } catch (e) {}
+    }
+    if ((!Array.isArray(allItems) || allItems.length === 0) && fs.existsSync(SNAPSHOT_NATIONAL_FILE)) {
+        try {
+            allItems = JSON.parse(fs.readFileSync(SNAPSHOT_NATIONAL_FILE, 'utf8'));
+        } catch (e) {}
+    }
+
+    if (!Array.isArray(allItems) || allItems.length === 0) {
+        console.error('❌ Không có dữ liệu TTHC toàn quốc trong data/index.json để xuất Excel!');
+        return null;
+    }
+
+    // 2. Đọc dữ liệu biến động từ data/compare_report.json
+    let reportData = null;
+    if (fs.existsSync(REPORT_NATIONAL_FILE)) {
+        try {
+            reportData = JSON.parse(fs.readFileSync(REPORT_NATIONAL_FILE, 'utf8'));
+        } catch (e) {}
+    }
+
+    const summary = reportData?.summary || {};
+    const addedList = reportData?.added || [];
+    const removedList = reportData?.removed || [];
+    const modifiedList = reportData?.modified || [];
+
+    const nowStr = formatVietnamTime();
+
+    // 3. Phân loại theo cấp thực hiện
+    const ministryItems = allItems.filter(x => (x.cap_thuc_hien || '').includes('Cấp Bộ'));
+    const provinceItems = allItems.filter(x => (x.cap_thuc_hien || '').includes('Cấp tỉnh'));
+    const wardItems = allItems.filter(x => (x.cap_thuc_hien || '').includes('Cấp xã'));
+    const otherAgencyItems = allItems.filter(x => (x.cap_thuc_hien || '').includes('Cơ quan khác'));
+
+    const standardItems = allItems.filter(x => (x.loai_tthc || '').toLowerCase().includes('tiêu chuẩn'));
+    const internalItems = allItems.filter(x => (x.loai_tthc || '').toLowerCase().includes('nội bộ'));
+    const specificItems = allItems.filter(x => (x.loai_tthc || '').toLowerCase().includes('đặc thù'));
+
+    // Tạo Workbook mới
+    const wb = XLSX.utils.book_new();
+
+    // -------------------------------------------------------------
+    // SHEET 1: Tổng hợp & Biến động DVCQG
+    // -------------------------------------------------------------
+    const s1Rows = [
+        ['BÁO CÁO TỔNG HỢP VÀ THEO DÕI BIẾN ĐỘNG THỦ TỤC HÀNH CHÍNH QUỐC GIA (DVCQG)'],
+        [`Thời gian xuất báo cáo: ${nowStr} (Giờ Việt Nam)`],
+        [`Nguồn dữ liệu: Cổng Dịch vụ công Quốc gia (dichvucong.gov.vn)`],
+        [`Kỳ so sánh: Đối soát so với Snapshot kỳ trước`],
+        [],
+        ['I. THỐNG KÊ TỔNG QUAN DANH MỤC TTHC TOÀN QUỐC'],
+        ['Chỉ số thống kê', 'Số lượng TTHC', 'Tỷ lệ %', 'Ghi chú'],
+        ['Tổng số TTHC công bố trên Cổng DVCQG:', allItems.length, '100%', 'Master Data toàn quốc'],
+        ['  - TTHC Thẩm quyền Cấp Trung ương (Cấp Bộ):', ministryItems.length, `${((ministryItems.length / allItems.length) * 100).toFixed(1)}%`, 'Các Bộ, cơ quan ngang Bộ'],
+        ['  - TTHC Thẩm quyền Cấp Tỉnh:', provinceItems.length, `${((provinceItems.length / allItems.length) * 100).toFixed(1)}%`, 'UBND cấp tỉnh và các Sở/Ban/Ngành'],
+        ['  - TTHC Thẩm quyền Cấp Xã:', wardItems.length, `${((wardItems.length / allItems.length) * 100).toFixed(1)}%`, 'UBND cấp xã, phường, thị trấn'],
+        ['  - TTHC Thẩm quyền Cơ quan khác:', otherAgencyItems.length, `${((otherAgencyItems.length / allItems.length) * 100).toFixed(1)}%`, 'Doanh nghiệp, đơn vị sự nghiệp, ngành dọc...'],
+        [],
+        ['  - Phân loại: TTHC Tiêu chuẩn:', standardItems.length, `${((standardItems.length / allItems.length) * 100).toFixed(1)}%`, ''],
+        ['  - Phân loại: TTHC Nội bộ:', internalItems.length, `${((internalItems.length / allItems.length) * 100).toFixed(1)}%`, ''],
+        ['  - Phân loại: TTHC Đặc thù:', specificItems.length, `${((specificItems.length / allItems.length) * 100).toFixed(1)}%`, ''],
+        [],
+        ['II. THỐNG KÊ BIẾN ĐỘNG TOÀN QUỐC SO VỚI KỲ TRƯỚC'],
+        ['Chỉ số biến động', 'Số lượng', 'Đánh giá'],
+        ['Tổng số TTHC kỳ trước:', summary.previous_total ?? 'Chưa có', ''],
+        ['Tổng số TTHC hiện tại:', summary.current_total ?? allItems.length, ''],
+        ['Biến động ròng (Net Change):', (summary.net_change >= 0 ? `+${summary.net_change}` : summary.net_change) ?? '0', summary.net_change > 0 ? 'Tăng' : (summary.net_change < 0 ? 'Giảm' : 'Không đổi')],
+        ['  - Số TTHC Mới ban hành / Thêm mới (+):', addedList.length, addedList.length > 0 ? 'Có TTHC mới ban hành' : 'Không có'],
+        ['  - Số TTHC Bãi bỏ / Hết hiệu lực (-):', removedList.length, removedList.length > 0 ? 'Có TTHC bãi bỏ' : 'Không có'],
+        ['  - Số TTHC Điều chỉnh thông tin (~):', modifiedList.length, modifiedList.length > 0 ? 'Có TTHC sửa đổi' : 'Không có'],
+        [],
+        ['III. DANH SÁCH CHI TIẾT TTHC BIẾN ĐỘNG TOÀN QUỐC (TĂNG / GIẢM / ĐIỀU CHỈNH)'],
+        [
+            'STT',
+            'Loại biến động',
+            'Mã TTHC',
+            'Tên Thủ tục Hành chính',
+            'Cấp thực hiện',
+            'Loại TTHC',
+            'Lĩnh vực',
+            'Cơ quan thực hiện',
+            'Chi tiết thay đổi / Ghi chú',
+            'Đường dẫn tra cứu DVCQG'
+        ]
+    ];
+
+    let vIndex = 1;
+    // Thêm mới
+    addedList.forEach(item => {
+        const itemUrl = item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${item.code || item.ma_tthc}`);
+        s1Rows.push([
+            vIndex++,
+            'Mới thêm (+)',
+            item.code || item.ma_tthc || '',
+            item.name || item.ten_tthc || '',
+            item.cap_thuc_hien || '',
+            item.loai_tthc || '',
+            formatCategory(item.category || item.linh_vuc),
+            item.agency || item.co_quan_thuc_hien || '',
+            'Thủ tục mới được bổ sung/ban hành trong kỳ này',
+            itemUrl
+        ]);
+    });
+
+    // Bãi bỏ
+    removedList.forEach(item => {
+        const itemUrl = item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${item.code || item.ma_tthc}`);
+        s1Rows.push([
+            vIndex++,
+            'Bãi bỏ (-)',
+            item.code || item.ma_tthc || '',
+            item.name || item.ten_tthc || '',
+            item.cap_thuc_hien || '',
+            item.loai_tthc || '',
+            formatCategory(item.category || item.linh_vuc),
+            item.agency || item.co_quan_thuc_hien || '',
+            'Thủ tục đã bị bãi bỏ hoặc loại khỏi danh mục',
+            itemUrl
+        ]);
+    });
+
+    // Thay đổi
+    modifiedList.forEach(item => {
+        const itemUrl = item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${item.code || item.ma_tthc}`);
+        const changeDesc = [];
+        if (Array.isArray(item.changes)) {
+            item.changes.forEach(c => changeDesc.push(`${c.field}: "${c.old}" ➔ "${c.new}"`));
+        } else {
+            if (item.old_name && item.old_name !== item.new_name) changeDesc.push(`Đổi tên: "${item.old_name}" -> "${item.new_name}"`);
+            if (item.old_level && item.new_level && item.old_level !== item.new_level) changeDesc.push(`Đổi cấp: ${item.old_level} -> ${item.new_level}`);
+        }
+
+        s1Rows.push([
+            vIndex++,
+            'Thay đổi (~)',
+            item.code || item.ma_tthc || '',
+            item.new_name || item.name || item.ten_tthc || '',
+            item.cap_thuc_hien || '',
+            item.loai_tthc || '',
+            formatCategory(item.category || item.linh_vuc),
+            item.agency || item.co_quan_thuc_hien || '',
+            changeDesc.join(' | ') || 'Cập nhật nội dung',
+            itemUrl
+        ]);
+    });
+
+    if (vIndex === 1) {
+        s1Rows.push(['', 'Không có biến động', '', 'Không có TTHC nào tăng, giảm hoặc thay đổi so với kỳ trước', '', '', '', '', '', '']);
+    }
+
+    const ws1 = XLSX.utils.aoa_to_sheet(s1Rows);
+    ws1['!cols'] = [
+        { wch: 6 },   // STT
+        { wch: 16 },  // Loai bien dong
+        { wch: 15 },  // Ma TTHC
+        { wch: 55 },  // Ten TTHC
+        { wch: 22 },  // Cap thuc hien
+        { wch: 18 },  // Loai TTHC
+        { wch: 25 },  // Linh vuc
+        { wch: 35 },  // Co quan thuc hien
+        { wch: 40 },  // Chi tiet thay doi
+        { wch: 60 }   // Link
+    ];
+    XLSX.utils.book_append_sheet(wb, ws1, 'Tổng hợp & Biến động DVCQG');
+
+    // Helper tạo Sheet danh mục TTHC
+    function createDatasetSheet(items, sheetTitle) {
+        const rows = [
+            [sheetTitle.toUpperCase()],
+            [`Thời gian xuất: ${nowStr} (Giờ VN) | Tổng số: ${items.length} TTHC`],
+            [],
+            [
+                'STT',
+                'Mã TTHC',
+                'Tên Thủ tục Hành chính',
+                'Cấp thực hiện',
+                'Loại TTHC',
+                'Lĩnh vực',
+                'Cơ quan thực hiện',
+                'Đường dẫn tra cứu DVCQG'
+            ]
+        ];
+
+        items.forEach((item, index) => {
+            const itemUrl = item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${item.ma_tthc || item.code}`);
+            rows.push([
+                index + 1,
+                item.ma_tthc || item.code || '',
+                item.ten_tthc || item.name || '',
+                item.cap_thuc_hien || '',
+                item.loai_tthc || '',
+                formatCategory(item.linh_vuc || item.category),
+                item.co_quan_thuc_hien || item.agency || '',
+                itemUrl
+            ]);
+        });
+
+        const ws = XLSX.utils.aoa_to_sheet(rows);
+        ws['!cols'] = [
+            { wch: 6 },   // STT
+            { wch: 15 },  // Ma TTHC
+            { wch: 60 },  // Ten TTHC
+            { wch: 22 },  // Cap thuc hien
+            { wch: 18 },  // Loai TTHC
+            { wch: 25 },  // Linh vuc
+            { wch: 35 },  // Co quan thuc hien
+            { wch: 60 }   // Link
+        ];
+        return ws;
+    }
+
+    // SHEET 2: Toàn bộ TTHC Quốc gia
+    const ws2 = createDatasetSheet(allItems, 'DANH MỤC TOÀN BỘ THỦ TỤC HÀNH CHÍNH QUỐC GIA (DVCQG)');
+    XLSX.utils.book_append_sheet(wb, ws2, 'Toàn bộ TTHC Quốc gia');
+
+    // SHEET 3: TTHC Cấp Trung ương (Cấp Bộ)
+    const ws3 = createDatasetSheet(ministryItems, 'DANH MỤC TTHC THẨM QUYỀN GIẢI QUYẾT CẤP TRUNG ƯƠNG (CẤP BỘ)');
+    XLSX.utils.book_append_sheet(wb, ws3, 'TTHC Cấp Bộ');
+
+    // SHEET 4: TTHC Cấp Tỉnh
+    const ws4 = createDatasetSheet(provinceItems, 'DANH MỤC TTHC THẨM QUYỀN GIẢI QUYẾT CẤP TỈNH');
+    XLSX.utils.book_append_sheet(wb, ws4, 'TTHC Cấp Tỉnh');
+
+    // SHEET 5: TTHC Cấp Xã
+    const ws5 = createDatasetSheet(wardItems, 'DANH MỤC TTHC THẨM QUYỀN GIẢI QUYẾT CẤP XÃ');
+    XLSX.utils.book_append_sheet(wb, ws5, 'TTHC Cấp Xã');
+
+    // Ghi file ra đĩa
+    XLSX.writeFile(wb, outputPath);
+    console.log(`✅ Xuất thành công file Excel Báo cáo DVCQG tại: ${outputPath}`);
+    console.log(`   • Sheet 1: 'Tổng hợp & Biến động DVCQG' (${s1Rows.length - 27} dòng biến động)`);
+    console.log(`   • Sheet 2: 'Toàn bộ TTHC Quốc gia' (${allItems.length} TTHC)`);
+    console.log(`   • Sheet 3: 'TTHC Cấp Bộ' (${ministryItems.length} TTHC)`);
+    console.log(`   • Sheet 4: 'TTHC Cấp Tỉnh' (${provinceItems.length} TTHC)`);
+    console.log(`   • Sheet 5: 'TTHC Cấp Xã' (${wardItems.length} TTHC)`);
+
+    return outputPath;
+}
+
+/**
+ * Xuất đồng thời cả 2 Báo cáo Excel: Gia Lai & DVCQG Toàn quốc
+ */
+function exportAllExcel() {
+    const glPath = exportTTHCExcel();
+    const nationalPath = exportNationalExcel();
+    return { glPath, nationalPath };
+}
+
+// Chạy trực tiếp từ dòng lệnh
 if (require.main === module) {
-    const customPath = process.argv[2] || null;
-    exportTTHCExcel(customPath);
+    const arg = (process.argv[2] || '').toLowerCase();
+    if (arg === '--national' || arg === '--dvcqg') {
+        exportNationalExcel();
+    } else if (arg === '--gl' || arg === '--gia-lai') {
+        exportTTHCExcel();
+    } else {
+        // Mặc định xuất cả 2 báo cáo Excel
+        exportAllExcel();
+    }
 }
 
 module.exports = {
     exportTTHCExcel,
-    EXCEL_OUTPUT_FILE
+    exportNationalExcel,
+    exportAllExcel,
+    EXCEL_OUTPUT_FILE,
+    EXCEL_NATIONAL_OUTPUT_FILE
 };

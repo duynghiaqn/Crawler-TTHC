@@ -1,0 +1,277 @@
+{
+  "id": "01a0a832-40fd-752a-acaa-2817c3aa6bb3",
+  "code": "1.116975",
+  "codeNotation": "1.116975",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến một trong các cơ quan trên\nđịa bàn tỉnh sau đây: Trung tâm phục vụ hành chính công cấp tỉnh hoặc Trung\ntâm phục vụ hành chính công cấp xã.\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và\nhẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu\ncầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung\ntheo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn\nphòng đăng ký đất đai.\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất\nđai thực hiện việc lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 17 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 17 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 17 ngày làm việc",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "(Hưng Yên) Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0a421-9f5c-70c2-9974-5b18f05ba6f5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo mẫu ban hành kèm theo Quyết định này",
+          "code": "H31_Mẫu số 21",
+          "attachments": [
+            {
+              "id": "01a0a7d2-b901-73ab-99ad-4ac5d5054ff5",
+              "fileName": "Mẫu số 21_Đơn đăng ký đất đai, tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0a7d2-b901-73ab-99ad-4ac5d5054ff5/Mẫu số 21_Đơn đăng ký đất đai, tài sản gắn liền với đất.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0a82a-e4b0-741b-a038-2a2ddf0ea358",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kết quả rà soát hiện trạng sử dụng đất theo Mẫu số 21đ ban hành kèm theo Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên",
+          "code": "H31_Báo cáo kết quả rà soát hiện trạng sử dụng đất theo Mẫu số 21đ",
+          "attachments": [
+            {
+              "id": "01a0a82f-1475-75fb-852e-b1131806d647",
+              "fileName": "Mẫu số 21đ.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0a82f-1475-75fb-852e-b1131806d647/Mẫu số 21đ.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019da523-7834-71ed-9461-2ac0a510544b",
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "01a08abc-e5eb-738e-932f-abe36517faa2",
+    "01a08ac2-2345-715f-aeb7-0fa77d09e513",
+    "01a08acb-9210-77a8-bba4-ff7a356ea457"
+  ],
+  "resultIds": [
+    "01a0a82f-b5d2-7008-8469-56d324d5d2a5"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b0b-e259cead2587"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b0b-e259cead2587"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b0b-e259cead2587",
+      "name": "Văn phòng Đăng ký đất đai tỉnh Hưng Yên",
+      "code": "H31.36.13"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b0b-e259cead2587",
+      "name": "Văn phòng Đăng ký đất đai tỉnh Hưng Yên",
+      "code": "H31.36.13"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a08abc-e5eb-738e-932f-abe36517faa2",
+      "name": "Luật số 31/2024/QH15 của Quốc hội: Luật Đất đai",
+      "code": "Luật số 31/2024/QH15"
+    },
+    {
+      "id": "01a08acb-9210-77a8-bba4-ff7a356ea457",
+      "name": "Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên quy định trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Hưng Yên",
+      "code": "Quyết định số 31/2026/QĐ-UBND"
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "01a08ac2-2345-715f-aeb7-0fa77d09e513",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị quyết số 254/2025/QH15"
+    },
+    {
+      "id": "019da523-7834-71ed-9461-2ac0a510544b",
+      "name": "sửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia",
+      "code": "367/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0a82f-b5d2-7008-8469-56d324d5d2a5",
+      "name": "Lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.",
+      "code": "KQ.H31.360011"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+  "departmentPromulgateCode": "H31",
+  "departmentPromulgateName": "UBND tỉnh Hưng Yên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791345030372,
+  "updatedAt": 1791345030372,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng Đăng ký đất đai tỉnh Hưng Yên",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm phục vụ hành chính công cấp tỉnh hoặc\nTrung tâm phục vụ hành chính công cấp xã.\nb) Nộp thông qua dịch vụ bưu chính.\nc) Nộp trực tuyến trên Cổng dịch vụ công Quốc gia",
+  "delegatedAgencies": "Văn phòng Đăng ký đất đai tỉnh Hưng Yên",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a08990-d632-7481-a424-06edb38b5ad1",
+    "proposalNumber": "2617/QĐ-UBND",
+    "decisionDate": 1787158800000,
+    "decisionNumber": null,
+    "publicationDate": 1791345030135,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+      "name": "UBND tỉnh Hưng Yên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

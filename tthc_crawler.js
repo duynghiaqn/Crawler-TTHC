@@ -458,7 +458,8 @@ async function main() {
                                 cap_thuc_hien: parseFormalityCaseLevel(detail),
                                 loai_tthc: parseFormalityType(item.type || detail.formalityType),
                                 linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
-                                co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '')
+                                co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : ''),
+                                url: `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}`
                             };
 
                             const cleanDetail = sanitizeBase64(detail);

@@ -3,18 +3,37 @@ const path = require('path');
 require('dotenv').config();
 const { notify } = require('./notify_telegram');
 
+function getGitEnv(extraEnv = {}) {
+    const env = { ...process.env, ...extraEnv };
+    if (process.env.GIT_USER_NAME) {
+        env.GIT_AUTHOR_NAME = process.env.GIT_USER_NAME;
+        env.GIT_COMMITTER_NAME = process.env.GIT_USER_NAME;
+    }
+    if (process.env.GIT_USER_EMAIL) {
+        env.GIT_AUTHOR_EMAIL = process.env.GIT_USER_EMAIL;
+        env.GIT_COMMITTER_EMAIL = process.env.GIT_USER_EMAIL;
+    }
+    return env;
+}
+
 function runCmd(command, options = {}) {
     return execSync(command, {
         cwd: process.cwd(),
         encoding: 'utf8',
         stdio: options.silent ? 'pipe' : 'inherit',
+        env: getGitEnv(options.env),
         ...options
     });
 }
 
-function runCmdOutput(command) {
+function runCmdOutput(command, options = {}) {
     try {
-        return execSync(command, { cwd: process.cwd(), encoding: 'utf8' }).trim();
+        return execSync(command, { 
+            cwd: process.cwd(), 
+            encoding: 'utf8',
+            env: getGitEnv(options.env),
+            ...options 
+        }).trim();
     } catch (e) {
         return null;
     }
@@ -31,6 +50,7 @@ async function main() {
                          (process.env.UPLOAD_REPO !== 'false' && process.env.UPLOAD_TO_GIT !== 'false');
 
     const githubToken = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || process.env.GIT_TOKEN;
+    const githubRepo = process.env.GITHUB_REPOSITORY;
     const remoteName = process.env.GIT_REMOTE_NAME || 'origin';
     const remoteUrl = process.env.GIT_REMOTE_URL;
     const mainBranch = process.env.GIT_MAIN_BRANCH || 'main';
@@ -50,7 +70,8 @@ async function main() {
 
             if (githubToken) {
                 console.log('🔑 [AUTH] Phát hiện GITHUB_TOKEN: Tự động cấu hình xác thực quyền push GitHub.');
-                const currentUrl = remoteUrl || runCmdOutput(`git remote get-url ${remoteName}`) || 'https://github.com/duynghiaqn/Crawler-TTHC.git';
+                const fallbackRepoUrl = githubRepo ? `https://github.com/${githubRepo}.git` : 'https://github.com/duynghiaqn/Crawler-TTHC.git';
+                const currentUrl = remoteUrl || runCmdOutput(`git remote get-url ${remoteName}`) || fallbackRepoUrl;
                 let cleanPath = currentUrl.replace(/^https?:\/\//i, '').replace(/^git@([^:]+):/, '$1/');
                 cleanPath = cleanPath.replace(/^[^@]+@/, '');
                 targetRemote = `https://${githubToken}@${cleanPath}`;

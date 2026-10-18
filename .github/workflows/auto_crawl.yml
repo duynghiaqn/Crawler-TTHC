@@ -47,7 +47,7 @@ jobs:
           publish_dir: ./data
           publish_branch: data # Xuất ra một nhánh riêng tên là "data"
           force_orphan: true   # ĐÂY LÀ TÍNH NĂNG XÓA SỔ LỊCH SỬ CŨ, NGĂN PHÌNH REPO!
-          commit_message: "🚀 Cập nhật Master Data tự động"
+          commit_message: "🚀 Cập nhật TTHC DVCQG tự động"
 
       - name: Bước 5.1 - Đẩy dữ liệu Gia Lai ra CDN (ÉP ĐÈ KHÔNG LƯU LỊCH SỬ)
         uses: peaceiris/actions-gh-pages@v4

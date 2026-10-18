@@ -2,8 +2,8 @@ name: Auto Crawl DVCQG Data
 
 on:
   schedule:
-    # Chạy tự động vào 22:00 (giờ Việt Nam) tức 15:00 giờ UTC mỗi ngày
-    - cron: '0 15 * * *' 
+    # Chạy tự động vào 23:30 (giờ Việt Nam) tức 16:30 giờ UTC mỗi ngày
+    - cron: '30 16 * * *' 
   workflow_dispatch: # Cho phép anh bấm nút chạy thủ công bất cứ lúc nào
   push:
     branches: [ main ]

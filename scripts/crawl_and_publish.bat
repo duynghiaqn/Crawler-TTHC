@@ -4,6 +4,11 @@ setlocal enabledelayedexpansion
 :: Chuyen den thu muc goc cua du an (thu muc cha cua scripts)
 cd /d "%~dp0\.."
 
+set "IS_AUTO=0"
+if /i "%~1"=="auto" set "IS_AUTO=1"
+if /i "%~1"=="--auto" set "IS_AUTO=1"
+if /i "%AUTO_MODE%"=="1" set "IS_AUTO=1"
+
 echo ==================================================
 echo [BAT DAU] QUY TRINH CAO TTHC VA PUBLISH DATA (WINDOWS)
 echo ==================================================
@@ -13,7 +18,7 @@ where node >nul 2>&1
 if !errorlevel! neq 0 (
     echo [LOI] Chua cai dat Node.js hoac chua them vao PATH!
     echo Vui long tai va cai dat tai: https://nodejs.org/
-    pause
+    if "!IS_AUTO!"=="0" pause
     exit /b 1
 )
 
@@ -21,7 +26,7 @@ where git >nul 2>&1
 if !errorlevel! neq 0 (
     echo [LOI] Chua cai dat Git hoac chua them vao PATH!
     echo Vui long tai va cai dat tai: https://git-scm.com/
-    pause
+    if "!IS_AUTO!"=="0" pause
     exit /b 1
 )
 
@@ -31,7 +36,7 @@ node tthc_crawler.js
 if !errorlevel! neq 0 (
     echo [LOI] Qua trinh cao du lieu gap loi!
     node scripts/notify_telegram.js --status error --error "Qua trinh cao du lieu bi loi hoac Circuit Breaker duoc kich hoat!"
-    pause
+    if "!IS_AUTO!"=="0" pause
     exit /b !errorlevel!
 )
 
@@ -60,8 +65,8 @@ echo [5/5] Dang xuat ban du lieu va gui thong bao Telegram...
 node scripts/publish.js
 if !errorlevel! neq 0 (
     echo [LOI] Qua trinh xuat ban du lieu gap loi!
-    pause
+    if "!IS_AUTO!"=="0" pause
     exit /b !errorlevel!
 )
 
-pause
+if "!IS_AUTO!"=="0" pause

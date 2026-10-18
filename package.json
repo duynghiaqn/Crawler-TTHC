@@ -6,6 +6,12 @@
   "scripts": {
     "crawl-and-publish": "bash scripts/crawl_and_publish.sh",
     "crawl-and-publish:win": "scripts\\crawl_and_publish.bat",
+    "schedule:win": "run.bat schedule",
+    "cron:win": "run.bat auto",
+    "daemon:win": "run.bat daemon",
+    "setup:env": "node scripts/setup_env.js --wizard",
+    "check:env": "node scripts/setup_env.js --check",
+    "init:env": "node scripts/setup_env.js --init",
     "compare": "node scripts/compare.js",
     "compare:all": "node tthc_crawler.js --compare",
     "compare:province": "node scripts/compare_Province.js",

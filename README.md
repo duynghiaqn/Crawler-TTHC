@@ -26,7 +26,7 @@ Dự án cung cấp giải pháp cào dữ liệu quy mô lớn (> 6,000+ TTHC) 
 
 ```mermaid
 graph TD
-    A[⏰ GitHub Actions Scheduler\n22:00 GMT+7] -->|Kích hoạt Workflow| B[🚀 auto_crawl.yml]
+    A[⏰ GitHub Actions Scheduler\n23:30 GMT+7] -->|Kích hoạt Workflow| B[🚀 auto_crawl.yml]
     C[👤 Manual Workflow Dispatch] -->|Chạy thủ công| B
     
     subgraph "Engine Cào Dữ Liệu (Node.js)"
@@ -115,7 +115,7 @@ sequenceDiagram
 Crawler-TTHC/
 ├── .github/
 │   └── workflows/
-│       ├── auto_crawl.yml          # Workflow chạy cào dữ liệu tự động 22:00 hàng ngày
+│       ├── auto_crawl.yml          # Workflow chạy cào dữ liệu tự động 23:30 hàng ngày
 │       └── tci_calibration.yml     # Workflow phân tích mẫu hiệu chỉnh TCI
 ├── data/                           # Thư mục dữ liệu toàn quốc (Toàn bộ 6,800+ TTHC)
 │   ├── index.json                  # Chỉ mục toàn bộ TTHC
@@ -258,7 +258,7 @@ Chứa toàn bộ cây dữ liệu chi tiết của 1 thủ tục (đã được
 
 | Workflow | Trigger | Lịch / Điều kiện | Nhiệm vụ |
 | :--- | :--- | :--- | :--- |
-| **`auto_crawl.yml`** | `schedule` / `workflow_dispatch` | `0 15 * * *` (22:00 VN) | Chạy `tthc_crawler.js` và đẩy dữ liệu `./data` ra nhánh `data`. |
+| **`auto_crawl.yml`** | `schedule` / `workflow_dispatch` | `30 16 * * *` (23:30 VN) | Chạy `tthc_crawler.js` và đẩy dữ liệu `./data` ra nhánh `data`. |
 | **`tci_calibration.yml`** | `push` / `workflow_dispatch` | Khi có thay đổi code TCI / detail | Phân tích 50 mẫu calibration & 15 Golden Cases, push lên nhánh `tci-calibration`. |
 
 ---

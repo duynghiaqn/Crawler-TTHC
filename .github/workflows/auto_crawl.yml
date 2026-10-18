@@ -40,7 +40,7 @@ jobs:
           GAS_WEBHOOK_URL: ${{ secrets.GAS_WEBHOOK_URL }}
           GAS_SECRET_KEY: ${{ secrets.GAS_SECRET_KEY }}
 
-      - name: Bước 5 - Đẩy dữ liệu ra CDN (ÉP ĐỀ KHÔNG LƯU LỊCH SỬ)
+      - name: Bước 5 - Đẩy dữ liệu ra CDN (ÉP ĐÈ KHÔNG LƯU LỊCH SỬ)
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -48,6 +48,15 @@ jobs:
           publish_branch: data # Xuất ra một nhánh riêng tên là "data"
           force_orphan: true   # ĐÂY LÀ TÍNH NĂNG XÓA SỔ LỊCH SỬ CŨ, NGĂN PHÌNH REPO!
           commit_message: "🚀 Cập nhật Master Data tự động"
+
+      - name: Bước 5.1 - Đẩy dữ liệu Gia Lai ra CDN (ÉP ĐÈ KHÔNG LƯU LỊCH SỬ)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./data-gl
+          publish_branch: data-gl # Xuất ra một nhánh riêng tên là "data-gl" cho dữ liệu tthc_crawler_gl
+          force_orphan: true   # ĐÂY LÀ TÍNH NĂNG XÓA SỔ LỊCH SỬ CŨ, NGĂN PHÌNH REPO!
+          commit_message: "🚀 Cập nhật TTHC Gia Lai tự động"
 
   notify:
     name: Gửi thông báo qua Telegram (GAS Webhook)

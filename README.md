@@ -258,7 +258,7 @@ Chứa toàn bộ cây dữ liệu chi tiết của 1 thủ tục (đã được
 
 | Workflow | Trigger | Lịch / Điều kiện | Nhiệm vụ |
 | :--- | :--- | :--- | :--- |
-| **`auto_crawl.yml`** | `schedule` / `workflow_dispatch` | `30 16 * * *` (23:30 VN) | Chạy `tthc_crawler.js` và đẩy dữ liệu `./data` ra nhánh `data`. |
+| **`auto_crawl.yml`** | `schedule` / `workflow_dispatch` | `30 16 * * *` (23:30 VN) | Chạy crawler và xuất bản `./data` ra nhánh `data`, `./data-gl` ra nhánh `data-gl` (force-orphan). |
 | **`tci_calibration.yml`** | `push` / `workflow_dispatch` | Khi có thay đổi code TCI / detail | Phân tích 50 mẫu calibration & 15 Golden Cases, push lên nhánh `tci-calibration`. |
 
 ---

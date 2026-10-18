@@ -116,9 +116,23 @@ async function main() {
             runCmd(`git push ${targetRemote} ${commit}:refs/heads/${dataBranch} --force`);
             console.log(`🎉 Xuất bản thành công ra nhánh [${dataBranch}]!`);
 
+            // 3.1 Publish du lieu Gia Lai dang orphan commit ra nhanh data-gl (Xoa so lich su, ngan phinh repo)
+            const dataGlBranch = process.env.GIT_DATA_GL_BRANCH || 'data-gl';
+            if (fs.existsSync(path.join(process.cwd(), 'data-gl'))) {
+                console.log(`🏛️ Đang tạo orphan commit xuất bản ra nhánh ${dataGlBranch}...`);
+                const treeGl = runCmdOutput('git write-tree --prefix=data-gl');
+                if (treeGl) {
+                    const commitGl = runCmdOutput(`git commit-tree ${treeGl} -m "🚀 Cập nhật TTHC Gia Lai tự động"`);
+                    if (commitGl) {
+                        runCmd(`git push ${targetRemote} ${commitGl}:refs/heads/${dataGlBranch} --force`);
+                        console.log(`🎉 Xuất bản thành công ra nhánh [${dataGlBranch}]!`);
+                    }
+                }
+            }
+
             uploadStatusMessage = hasChanges 
-                ? `Thành công (Đã cập nhật ${mainBranch} & ${dataBranch})`
-                : `Thành công (Đã cập nhật ${dataBranch}, ${mainBranch} không đổi)`;
+                ? `Thành công (Đã cập nhật ${mainBranch}, ${dataBranch} & ${dataGlBranch})`
+                : `Thành công (Đã cập nhật ${dataBranch} & ${dataGlBranch}, ${mainBranch} không đổi)`;
 
         } catch (err) {
             const safeErrorMessage = (githubToken && err.message)

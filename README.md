@@ -27,39 +27,64 @@ Dự án cung cấp giải pháp cào dữ liệu quy mô lớn (> 6,000+ TTHC) 
 
 ```mermaid
 graph TD
-    A[⏰ GitHub Actions Scheduler\n23:30 GMT+7] -->|Kích hoạt Workflow| B[🚀 auto_crawl.yml]
-    C[👤 Manual Workflow Dispatch] -->|Chạy thủ công| B
-    
-    subgraph "Engine Cào Dữ Liệu Toàn quốc (Node.js)"
-        B --> D[📜 tthc_crawler.js]
-        D -->|1. Discovery Engine / Cache| E[📄 data/discovery.json]
-        D -->|2. Max 5 Connections| F[🛡️ Anti-WAF Session Engine]
-        F -->|3. Verified POST API| G[🌐 dichvucong.gov.vn]
-        G -->|4. JSON Response| F
-        F -->|5. Immediate Checkpoint| H[📄 data/checkpoint.json]
-        F -->|6. Atomic JSON Write| I[📁 Local ./data directory]
+    A["⏰ GitHub Actions Scheduler<br/>23:30 GMT+7"] -->|Kích hoạt Workflow| B["🚀 auto_crawl.yml"]
+    C["👤 Manual Workflow Dispatch"] -->|Chạy thủ công| B
+
+    API["🌐 Cổng DVCQG (dichvucong.gov.vn)"]
+
+    subgraph EngineNational ["Engine Cào Dữ Liệu Toàn quốc (Node.js)"]
+        D["📜 tthc_crawler.js"]
+        E["📄 data/discovery.json"]
+        F["🛡️ Anti-WAF Session Engine"]
+        H["📄 data/checkpoint.json"]
+        I["📁 Local ./data"]
+        
+        B --> D
+        D -->|"1. Discovery Cache"| E
+        D -->|"2. Giới hạn 5 kết nối"| F
+        F -->|"5. Checkpoint tức thì"| H
+        F -->|"6. Ghi file nguyên tử"| I
     end
 
-    subgraph "Engine Xử lý Chuyên biệt Tỉnh Gia Lai"
-        B --> D2[📜 tthc_crawler_gl.js]
-        I -.->|Fast Sync (Tận dụng details có sẵn)| D2
-        D2 -->|Bộ lọc filter_gia_lai.js| I2[📁 Local ./data-gl directory]
-        D2 -->|Missing Fetch API| G
-        I2 --> J2[📄 data-gl/index.json]
-        I2 --> K2[📄 data-gl/version.json]
-        I2 --> L2[📂 data-gl/details/*.json]
+    subgraph EngineGiaLai ["Engine Xử lý Chuyên biệt Tỉnh Gia Lai"]
+        D2["📜 tthc_crawler_gl.js"]
+        Filter["🛡️ Bộ lọc filter_gia_lai.js"]
+        I2["📁 Local ./data-gl"]
+        J2["📄 data-gl/index.json"]
+        K2["📄 data-gl/version.json"]
+        L2["📂 data-gl/details/"]
+
+        B --> D2
+        I -.->|"Fast Sync từ data sẵn có"| D2
+        D2 --> Filter
+        Filter --> I2
+        I2 --> J2
+        I2 --> K2
+        I2 --> L2
     end
 
-    subgraph "Data Storage & Distribution"
-        I -->|peaceiris/actions-gh-pages| M[🌐 Branch: data]
-        I2 -->|peaceiris/actions-gh-pages| M2[🌐 Branch: data-gl]
+    F <-->|"3. POST API / 4. JSON"| API
+    D2 <-->|"Missing Details API"| API
+
+    subgraph DataStorage ["Xuất bản Dữ liệu (GitHub Pages / Branches)"]
+        M["🌐 Branch: data"]
+        M2["🌐 Branch: data-gl"]
+        
+        I -->|"peaceiris/actions-gh-pages"| M
+        I2 -->|"peaceiris/actions-gh-pages"| M2
     end
 
-    subgraph "TCI Calibration Pipeline"
-        M -->|Event Trigger| N[⚙️ tci_calibration.yml]
-        N --> O[📜 select-tci-calibration.js]
-        N --> P[📜 select-golden-cases.js]
-        O & P --> Q[📊 tci-results / Branch: tci-calibration]
+    subgraph TCIPipeline ["TCI Calibration Pipeline"]
+        N["⚙️ tci_calibration.yml"]
+        O["📜 select-tci-calibration.js"]
+        P["📜 select-golden-cases.js"]
+        Q["📊 Branch: tci-calibration"]
+
+        M -->|"Event Trigger"| N
+        N --> O
+        N --> P
+        O --> Q
+        P --> Q
     end
 ```
 
@@ -71,20 +96,20 @@ graph TD
 sequenceDiagram
     autonumber
     participant App as tthc_crawler.js
-    participant Cache as Discovery & Checkpoint
+    participant Cache as Discovery and Checkpoint
     participant API as DVCQG API Server
     participant FS as Local Filesystem
 
-    App->>FS: Kiểm tra & tạo thư mục ./data và ./data/details
+    App->>FS: Kiểm tra và tạo thư mục data và data/details
     App->>Cache: Nạp Checkpoint (completedIds, failedIds, status)
     
     rect rgb(235, 245, 255)
         note over App, API: Giai đoạn 1: Đồng bộ Danh mục TTHC Toàn quốc (Discovery)
-        alt Discovery Cache còn hạn (< 6 tiếng)
+        alt Discovery Cache còn hạn (dưới 6 tiếng)
             Cache-->>App: Nạp 6,297 mã TTHC từ data/discovery.json (0.0s)
         else Cache quá hạn hoặc chưa có
             loop Phân trang 200 items/trang
-                App->>API: POST /api/v1/submitting/formality/list-all-public-formality-by-citizen
+                App->>API: POST /list-all-public-formality-by-citizen
                 API-->>App: Trả về danh sách TTHC + lastId
             end
             App->>Cache: Ghi file data/discovery.json
@@ -95,23 +120,23 @@ sequenceDiagram
         note over App, API: Giai đoạn 2: Tải Chi tiết TTHC (Batch Size = 3, Max Concurrency = 3)
         loop Theo từng Batch 3 items chưa hoàn thành
             par Song song tối đa 3 HTTPS Sockets
-                App->>API: POST /api/v1/configuring/formality/get-formality-by-citizen
+                App->>API: POST /get-formality-by-citizen
                 API-->>App: Trả về chi tiết TTHC
             end
-            App->>App: Phân tích chỉ mục & Sanitize Base64
-            App->>FS: Atomic Write file ./data/details/{id}.json
-            App->>Cache: Lưu Checkpoint ngay lập tức vào data/checkpoint.json
+            App->>App: Phân tích chỉ mục và Sanitize Base64
+            App->>FS: Atomic Write file data/details/{id}.json
+            App->>Cache: Lưu Checkpoint tức thì vào data/checkpoint.json
             alt Phát hiện 3 lỗi liên tiếp (429, 403, 5xx, timeout)
-                App->>Cache: Trigger Circuit Breaker & Lưu vết lý do
+                App->>Cache: Trigger Circuit Breaker và Lưu vết lý do
                 App-->>App: Tự động dừng chạy an toàn (Exit 1)
             end
         end
     end
 
     rect rgb(255, 245, 235)
-        note over App, FS: Giai đoạn 3: Đóng gói & Xuất bản Master Data
-        App->>FS: Ghi file ./data/index.json (Atomic)
-        App->>FS: Ghi file ./data/version.json (Atomic)
+        note over App, FS: Giai đoạn 3: Đóng gói và Xuất bản Master Data
+        App->>FS: Ghi file data/index.json (Atomic)
+        App->>FS: Ghi file data/version.json (Atomic)
         App-->>App: Cập nhật Checkpoint = COMPLETED
     end
 ```
@@ -125,11 +150,11 @@ sequenceDiagram
     autonumber
     participant GLApp as tthc_crawler_gl.js
     participant Filter as filter_gia_lai.js
-    participant Master as Master Data (./data)
+    participant Master as Master Data [data]
     participant API as DVCQG API Server
-    participant GLStore as Local (./data-gl)
+    participant GLStore as Local [data-gl]
 
-    GLApp->>GLStore: Tạo thư mục ./data-gl và ./data-gl/details
+    GLApp->>GLStore: Tạo thư mục data-gl và details
     GLApp->>GLStore: Nạp Checkpoint data-gl/checkpoint.json
     
     alt Có sẵn cache data/discovery.json
@@ -139,14 +164,14 @@ sequenceDiagram
     end
 
     loop Duyệt từng TTHC
-        alt File chi tiết đã có trong ./data/details/{id}.json (Fast Sync)
+        alt File chi tiết đã có trong data/details/{id}.json (Fast Sync)
             GLApp->>Master: Đọc trực tiếp chi tiết cục bộ (0.0ms)
         else Chưa có trong master data
             GLApp->>API: Gửi POST /get-formality-by-citizen (Tối đa 5 kết nối)
         end
-        GLApp->>Filter: Kiểm tra thẩm quyền & cấp thực hiện (isEligibleGiaLai)
-        alt Đạt chuẩn Gia Lai (Cấp Tỉnh / Xã, không thuộc ngành dọc loại trừ)
-            GLApp->>GLStore: Lưu file ./data-gl/details/{id}.json
+        GLApp->>Filter: Kiểm tra thẩm quyền và cấp thực hiện
+        alt Đạt chuẩn Gia Lai (Cấp Tỉnh / Xã, không thuộc ngành dọc)
+            GLApp->>GLStore: Lưu file data-gl/details/{id}.json
             GLApp->>GLStore: Bổ sung vào danh sách data-gl/index.json
         else Bị loại trừ (Thuế, Ngân hàng, Công an, Tỉnh khác...)
             GLApp->>GLStore: Ghi nhận vào excludedIds trong checkpoint
@@ -154,7 +179,7 @@ sequenceDiagram
     end
 
     GLApp->>GLStore: Đóng gói index.json, version.json, checkpoint.json
-    GLApp->>GLStore: Xuất báo cáo biến động (compare_Province.js) & Excel (export_excel.js)
+    GLApp->>GLStore: Xuất báo cáo biến động và Excel
 ```
 
 ---

@@ -17,8 +17,8 @@ const CONFIG = {
     SNAPSHOT_FILE: path.join(process.cwd(), 'data', 'snapshot.json'),
     COMPARE_REPORT_FILE: path.join(process.cwd(), 'data', 'compare_report.json'),
     
-    // Low request rate settings (Conservative concurrency = 3 with Jitter)
-    MAX_CONCURRENCY: 3,
+    // Request concurrency settings (Tối đa 5 kết nối song song với Jitter)
+    MAX_CONCURRENCY: parseInt(process.env.MAX_CONCURRENCY, 10) || 5,
     BASE_DELAY_MS: 300,
     JITTER_MS: 200,
     
@@ -433,9 +433,9 @@ async function main() {
 
     console.log(`✅ Tổng số TTHC phát hiện: ${rawList.length}`);
 
-    // 5. Tải chi tiết từng TTHC — TỐI ĐA 3 KẾT NỐI SONG SONG (MAX CONCURRENCY = 3)
+    // 5. Tải chi tiết từng TTHC — TỐI ĐA KẾT NỐI SONG SONG (CONFIG.MAX_CONCURRENCY)
     if (rawList.length > 0) {
-        console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục (Tối đa 3 kết nối song song + Checkpoint liên tục)...\n`);
+        console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục (Tối đa ${CONFIG.MAX_CONCURRENCY} kết nối song song + Checkpoint liên tục)...\n`);
         
         let successCount = Object.keys(checkpoint.completedIds).length;
         let skippedCount = 0;

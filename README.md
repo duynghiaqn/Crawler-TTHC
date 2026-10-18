@@ -9,7 +9,7 @@
 Dự án cung cấp giải pháp cào dữ liệu quy mô lớn (> 6,000+ TTHC) với hiệu năng cao, cơ chế vượt tường lửa (Anti-WAF/Anti-Bot) tiên tiến, và quy trình CI/CD chạy hoàn toàn tự động trên GitHub Actions.
 
 ### ✨ Nguyên tắc Thiết kế & Tính năng Nổi bật
-- **⚡ Controlled Concurrency (Tối đa 3 kết nối song song):** Giới hạn tối đa 3 kết nối HTTPS socket đồng thời (`maxSockets: 3`), hoàn toàn loại bỏ nguy cơ nghẽn kết nối hay bị tường lửa tarpit/drop kết nối.
+- **⚡ Controlled Concurrency (Tối đa 5 kết nối song song):** Giới hạn tối đa 5 kết nối HTTPS socket đồng thời (`maxSockets: 5`), tối ưu tốc độ thu thập dữ liệu trong khi vẫn giữ an toàn tuyệt đối với tường lửa.
 - **🛡️ Conservative Rate & Jitter:** Sử dụng delay cơ sở (300ms) kết hợp nhiễu ngẫu nhiên (Jitter 0-200ms) giữa các đợt request để giữ tải ở mức lịch sự và tự nhiên.
 - **⚡ Discovery Caching:** Tự động lưu cache danh mục toàn quốc vào `data/discovery.json`. Các lần chạy tiếp theo (< 6 tiếng) sẽ khởi động tức thì mà không cần quét lại 32 trang API danh mục.
 - **⚡ Immediate Checkpointing:** Lưu tiến độ ngay lập tức vào `data/checkpoint.json` sau mỗi item. Khi tiến trình bị gián đoạn, hệ thống tự động tiếp tục tại item chưa tải mà không cần cào lại dữ liệu đã hoàn thành.
@@ -32,7 +32,7 @@ graph TD
     subgraph "Engine Cào Dữ Liệu (Node.js)"
         B --> D[📜 tthc_crawler.js]
         D -->|1. Discovery Engine / Cache| E[📄 data/discovery.json]
-        D -->|2. Max 3 Connections| F[🛡️ Anti-WAF Session Engine]
+        D -->|2. Max 5 Connections| F[🛡️ Anti-WAF Session Engine]
         F -->|3. Verified POST API| G[🌐 dichvucong.gov.vn]
         G -->|4. JSON Response| F
         F -->|5. Immediate Checkpoint| H[📄 data/checkpoint.json]

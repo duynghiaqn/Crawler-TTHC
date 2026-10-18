@@ -30,8 +30,8 @@ const CONFIG = {
     MASTER_DETAILS_DIR: path.join(process.cwd(), 'data', 'details'),
     MASTER_DISCOVERY_FILE: path.join(process.cwd(), 'data', 'discovery.json'),
 
-    // Low request rate settings (Conservative concurrency = 3 with Jitter)
-    MAX_CONCURRENCY: 3,
+    // Request concurrency settings (Tối đa 5 kết nối song song với Jitter)
+    MAX_CONCURRENCY: parseInt(process.env.MAX_CONCURRENCY, 10) || 5,
     BASE_DELAY_MS: 300,
     JITTER_MS: 200,
 
@@ -449,7 +449,7 @@ async function main() {
     if (!checkpoint.excludedIds) checkpoint.excludedIds = {};
     if (!checkpoint.failedIds) checkpoint.failedIds = {};
 
-    console.log(`\n⚡ Bắt đầu tiến trình lọc & tải chi tiết cho TTHC Gia Lai...`);
+    console.log(`\n⚡ Bắt đầu tiến trình lọc & tải chi tiết cho TTHC Gia Lai (Tối đa ${CONFIG.MAX_CONCURRENCY} kết nối song song)...`);
 
     const chunkSize = CONFIG.MAX_CONCURRENCY;
     const startTime = Date.now();

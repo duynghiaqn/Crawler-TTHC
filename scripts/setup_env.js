@@ -187,6 +187,11 @@ function checkEnvironment() {
     console.log(`    - Webhook URL:        ${gasUrl ? '✅ Đã cấu hình' : '(Chưa thiết lập - Tùy chọn)'}`);
     console.log(`    - Secret Key:         ${maskSecret(env.GAS_SECRET_KEY)}`);
 
+    // Concurrency
+    const concurrency = env.MAX_CONCURRENCY || '5';
+    console.log(`\n[4] Hiệu năng Crawler (Concurrency):`);
+    console.log(`    - Kết nối song song:  ⚡ ${concurrency} kết nối đồng thời`);
+
     console.log('\n=====================================================================');
     console.log('💡 GỢI Ý HÀNH ĐỘNG:');
     if (!teleReady && teleEnable) {

@@ -1,0 +1,372 @@
+{
+  "id": "019d2bfe-9088-744d-aa0a-eff083a455fd",
+  "code": "1.013231",
+  "codeNotation": "1.013231",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Chủ đầu tư nộp hồ sơ đề nghị cấp điều chỉnh giấy phép xây dựng công trình cấp đặc biệt, cấp I, cấp II trực tuyến tại Cổng Dịch vụ công quốc gia; trường hợp do sự cố khách quan, đột xuất không thể thực hiện trên môi trường điện tử, cơ quan có thẩm quyền cấp giấy phép xây dựng được thực hiện theo hình thức trực tiếp tại Bộ phận Một cửa hoặc thông qua dịch vụ bưu chính công ích. \n- Trong thời hạn 05 ngày làm việc đối với các công trình cấp đặc biệt, cấp I, cấp II hoặc 03 ngày làm việc đối với nhà ở riêng lẻ (trừ nhà ở riêng lẻ của hộ gia đình, cá nhân) kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền cấp giấy phép xây dựng phải tổ chức thẩm định hồ sơ, kiểm tra thực địa (nếu cần thiết), thông báo 1 lần bằng thư điện tử hoặc tin nhắn cho tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ nếu tài liệu còn thiếu, tài liệu không đúng theo quy định hoặc không đúng với thực tế. \n - Trong thời gian 02 ngày làm việc kể từ ngày nhận được hồ sơ các cơ quan quản lý nhà nước được hỏi ý kiến có trách nhiệm trả lời bằng văn bản về những nội dung thuộc chức năng quản lý của mình. Sau thời hạn trên, nếu các cơ quan này không có ý kiến thì được coi là đã đồng ý và phải chịu trách nhiệm về những nội dung thuộc chức năng quản lý của mình; cơ quan cấp giấy phép xây dựng căn cứ các quy định hiện hành để quyết định việc cấp giấy phép xây dựng.\n- Trong thời gian 02 ngày làm việc kể từ ngày nhận được thông báo (nếu có), tổ chức, cá nhân đề nghị cấp giấy phép giấy phép xây dựng có trách nhiệm bổ sung, hoàn thiện hồ sơ theo nội dung thông báo. Trường hợp việc bổ sung hồ sơ không đáp ứng được các nội dung theo thông báo thì trong thời hạn 01 ngày làm việc, cơ quan có thẩm quyền có trách nhiệm thông báo đến chủ đầu tư về lý do không cấp giấy phép. Tổ chức, cá nhân đề nghị cấp giấy phép thực hiện lại quy trình đề nghị cấp giấy phép xây dựng.\nTrong thời hạn 07 ngày làm việc đối với nhà ở riêng lẻ và 09 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền có trách nhiệm xem xét cấp giấy phép xây dựng điều chỉnh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc đối với nhà ở riêng lẻ (trừ nhà ở riêng lẻ của hộ gia đình, cá nhân) kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 9,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "09 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "hạn 07 ngày làm việc đối với nhà ở riêng lẻ (trừ nhà ở riêng lẻ của hộ gia đình, cá nhân) kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 9,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "09 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc đối với nhà ở riêng lẻ (trừ nhà ở riêng lẻ của hộ gia đình, cá nhân) kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 9,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "09 ngày làm việc đối với công trình còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh."
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Cấp điều chỉnh giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f4205-0fc8-7698-89ac-a4956ea74451",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị điều chỉnh, gia hạn, cấp lại giấy phép xây dựng theo Mẫu số 02 Phụ lục II Nghị định số 217/2026/NĐ-CP;",
+          "code": "TP-G17.000194",
+          "attachments": [
+            {
+              "id": "019fdefa-afc5-709e-a667-ff6cadedb8b8",
+              "fileName": "Đơn G 17.000194. 211 . 213. 375 380 386 393. 399.  406 415.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fdefa-afc5-709e-a667-ff6cadedb8b8/Đơn G 17.000194. 211 . 213. 375 380 386 393. 399.  406 415.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f4205-7d98-7063-bb7a-6be68658eaa5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy phép xây dựng kèm theo hồ sơ bản vẽ đã được cấp kèm theo giấy phép xây dựng;",
+          "code": "TP-G17.000195",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f4205-c00a-76b5-bac3-a22d38c60d7f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bộ bản vẽ thiết kế xây dựng điều chỉnh trong hồ sơ thiết kế xây dựng triển khai sau khi dự án được phê duyệt theo quy định của pháp luật về xây dựng tương ứng theo quy định tại Điều 57, Điều 58, Điều 59, Điều 60, Điều 61 Nghị định số 217/2026/NĐ-CP (trường hợp có điều chỉnh dự án thì hồ sơ phải bao gồm thiết kế điều chỉnh tại Báo cáo nghiên cứu khả thi);",
+          "code": "TP-G17.000196",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7056-1675-75ec-b22f-cd9464f60b0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Một trong các loại giấy tờ hợp pháp về đất đai để cấp giấy phép xây dựng theo quy định tại Điều 55 Nghị định số 217/2026/NĐ-CP đối với trường hợp việc điều chỉnh thiết kế có thay đổi về diện tích sử dụng đất hoặc chức năng sử dụng đất của công trình đề nghị cấp giấy phép xây dựng bao gồm: + Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất.   + Giấy chứng nhận quyền sử dụng đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ. Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất được cấp theo quy định của pháp luật về đất đai qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở qua các thời kỳ.  + Giấy chứng nhận quyền sở hữu nhà ở; giấy chứng nhận quyền sở hữu công trình xây dựng đã được cấp theo quy định của pháp luật về đất đai, pháp luật về nhà ở, pháp luật về xây dựng qua các thời kỳ.  + Các loại giấy tờ đủ điều kiện để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất gồm: Các loại giấy tờ quy định tại Điều 137 Luật Đất đai năm 2024; các loại giấy tờ đủ điều kiện khác để cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai. + Giấy tờ về đất đai đối với trường hợp được Nhà nước giao đất, cho thuê đất, chuyển mục đích sử dụng đất từ sau ngày 01 tháng 7 năm 2004 nhưng không có giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định của pháp luật về đất đai, gồm một trong các loại giấy tờ: Quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất của cơ quan có thẩm quyền hoặc hợp đồng thuê đất kèm theo (nếu có) hoặc giấy tờ về trúng đấu giá quyền sử dụng đất, đấu thầu dự án có sử dụng đất. + Báo cáo hiện trạng sử dụng đất đối với trường hợp tổ chức tôn giáo, tổ chức tôn giáo trực thuộc đang sử dụng mà chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất được Ủy ban nhân dân cấp tỉnh nơi có đất kiểm tra thực tế sử dụng và xử lý theo quy định tại Điều 142, Điều 145 Luật Đất đai năm 2024. + Giấy tờ về việc xếp hạng di tích lịch sử - văn hóa, danh lam thắng cảnh hoặc danh mục kiểm kê di tích theo quy định của pháp luật về di sản văn hoá đối với trường hợp cấp giấy phép xây dựng để thực hiện bảo quản, tu bổ, phục hồi di tích lịch sử - văn hóa, danh lam thắng cảnh nhưng chưa được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định. + Văn bản chấp thuận về địa điểm xây dựng của Ủy ban nhân dân cấp huyện (trước đây) hoặc Ủy ban nhân dân cấp xã đối với công trình xây dựng biển quảng cáo, trạm viễn thông, cột ăng-ten, cột điện, cáp điện, trạm biến áp phân phối và các công trình tương tự khác theo quy định của pháp luật có liên quan tại khu vực không thuộc nhóm đất có mục đích sử dụng để xây dựng đối với loại công trình này và không được chuyển đổi mục đích sử dụng đất. + Giấy tờ hợp pháp về đất đai của chủ rừng và hợp đồng cho thuê môi trường rừng giữa chủ rừng và tổ chức, cá nhân thực hiện dự án du lịch sinh thái, nghỉ dưỡng, giải trí theo quy định của pháp luật về lâm nghiệp.  + Giấy chứng nhận quyền sử dụng đất hoặc quyết định giao đất hoặc quyết định cho thuê đất của cơ quan có thẩm quyền có mục đích sử dụng đất chính kèm theo phương án sử dụng đa mục đích được cơ quan có thẩm quyền phê duyệt đối với trường hợp xây dựng công trình trên đất được sử dụng kết hợp đa mục đích theo quy định tại Điều 218 Luật Đất đai năm 2024.  + Hợp đồng thuê đất giữa chủ đầu tư xây dựng công trình và người quản lý, sử dụng công trình giao thông hoặc văn bản chấp thuận của cơ quan quản lý nhà nước có thẩm quyền về giao thông đối với công trình được phép xây dựng trong phạm vi đất dành cho giao thông theo quy định của pháp luật. + Văn bản của cơ quan có thẩm quyền đã cấp giấy chứng nhận quyền sử dụng đất xác định diện tích các loại đất đối với trường hợp người sử dụng đất có một trong các loại giấy tờ hợp pháp về đất đai theo quy định tại các khoản 1, 2, 3, 4 và 5 Điều 55 Nghị định số 217/2026/NĐ-CP nhưng trên các giấy tờ đó không ghi rõ diện tích các loại đất để làm cơ sở cấp giấy phép xây dựng. + Trường hợp chủ đầu tư thuê đất hoặc thuê công trình, bộ phận công trình của chủ sử dụng đất, chủ sở hữu công trình để đầu tư xây dựng thì ngoài một trong các giấy tờ nêu trên, người đề nghị cấp giấy phép xây dựng bổ sung hợp đồng; thoả thuận hợp pháp về việc thuê đất hoặc thuê công trình, bộ phận công trình tương ứng. + Ủy ban nhân dân cấp tỉnh hoặc phân cấp, ủy quyền cho Ủy ban nhân dân cấp xã quy định về diện tích, vị trí, mục đích sử dụng và chấp thuận tổng mặt bằng của công trình xây dựng phục vụ trực tiếp sản xuất nông nghiệp trên đất trồng lúa.  + Các giấy tờ hợp pháp khác theo quy định pháp luật về đất đai.",
+          "code": "TP-G17.000323",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f4206-6dd3-760b-b050-6d9ebdc7cdfc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kết quả thẩm định và văn bản phê duyệt thiết kế xây dựng điều chỉnh theo quy định của Nghị định số 217/2026/NĐ-CP, trong đó phải có nội dung về bảo đảm an toàn chịu lực, an toàn phòng cháy và chữa cháy, bảo vệ môi trường; kèm theo các hồ sơ theo quy định tại điểm d khoản 1 Điều 57 Nghị định số 217/2026/NĐ-CP tương ứng với phần điều chỉnh thiết kế",
+          "code": "TP-G17.000197",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019e1a20-4bcb-77ce-8a33-9b18a804996e",
+    "019f1d67-d525-7040-bc15-3156f4c4411c",
+    "019f3666-e3d6-702f-926b-ced690d453d0"
+  ],
+  "resultIds": [
+    "019fe03e-47d4-7742-b9e9-9f4519b297d0"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-d6cace024429"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+      "name": "Hoạt động xây dựng",
+      "code": "G17-XD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+    "name": "Hoạt động xây dựng",
+    "code": "G17-XD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-d6cace024429",
+      "name": "Ban quản lý khu công nghiệp, khu kinh tế, khu chế xuất, khu công nghệ cao các tỉnh, thành phố",
+      "code": "BTC-BQLKT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9448-4f70-755d-9f51-d3e89652ee18"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9448-4f70-755d-9f51-d3e89652ee18",
+      "name": "Sở Xây dựng"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e1a20-4bcb-77ce-8a33-9b18a804996e",
+      "name": " Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ.\n",
+      "code": "105/2025/NĐ- CP"
+    },
+    {
+      "id": "019f1d67-d525-7040-bc15-3156f4c4411c",
+      "name": "Luật Xây dựng",
+      "code": "135/2025/QH15"
+    },
+    {
+      "id": "019f3666-e3d6-702f-926b-ced690d453d0",
+      "name": "Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng",
+      "code": "217/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fe03e-47d4-7742-b9e9-9f4519b297d0",
+      "name": "Kết quả giấy phép cấp mới, điều chỉnh, gia hạn",
+      "code": "KQ-G17.000093"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "019f1b4a-4f3c-71bf-b249-6ae5faf58f91",
+      "name": "Cấp điều chỉnh giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án)",
+      "code": "1.013231.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a00e79-c0b7-7477-bd51-090ecf378bd9",
+      "name": "Cấp điều chỉnh giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án)",
+      "code": "1.013231.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019db0e3-6195-71de-99b5-1e261d933ebb",
+      "name": "Cấp điều chỉnh giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án)",
+      "code": "1.013231.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559596680,
+  "updatedAt": 1786949251328,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ban quản lý khu công nghiệp, khu kinh tế, khu chế xuất, khu công nghệ cao các tỉnh, thành phố",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f3649-8985-7142-a495-0228f712ad67",
+    "proposalNumber": "1077/QĐ-BXD",
+    "decisionDate": 1782666000000,
+    "decisionNumber": null,
+    "publicationDate": 1786949250428,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

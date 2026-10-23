@@ -1,0 +1,347 @@
+{
+  "id": "01a0bc9d-a3dc-726f-b1c5-2634c9ab0ba4",
+  "code": "1.116731",
+  "codeNotation": "1.116731",
+  "executionSteps": [
+    {
+      "name": "Bước 1: Người có yêu cầu nộp hồ sơ đến Trung tâm Phục vụ hành chính công.",
+      "description": "- Khi nộp hồ sơ, người sử dụng đất được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\n- Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ, kiểm tra hồ sơ đầy đủ thành phần, hợp lệ thì cấp Giấy tiếp nhận và trả kết quả và chuyển hồ sơ đến cơ quan quản lý đất đai cấp xã. \n- Trường hợp hồ sơ không đầy đủ, không hợp lệ, làm văn bản trả lại hồ sơ đồng thời hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ."
+    },
+    {
+      "name": "Bước 2: Cơ quan quản lý đất đai cấp xã:",
+      "description": "- Chủ trì, phối hợp với các phòng, ban có liên quan tổ chức thẩm định phương án sử dụng đất kết hợp/thẩm định gia hạn phương án sử dụng đất kết hợp\n- Tổ chức kiểm tra thực địa (nếu cần thiết). \n- Hoàn thiện hồ sơ trình Chủ tịch Ủy ban nhân dân cấp xã."
+    },
+    {
+      "name": "Bước 3: Chủ tịch Ủy ban nhân dân cấp xã",
+      "description": "xem xét chấp thuận hoặc không chấp thuận phương án sử dụng đất kết hợp/gia hạn phương án sử dụng đất kết hợp và chuyển về cơ quan quản lý đất đai cấp xã."
+    },
+    {
+      "name": "Bước 4: Cơ quan quản lý đất đai cấp xã",
+      "description": "chuyển kết quả cho Trung tâm hành chính công để trả kết quả cho người sử dụng đất."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "a) Điều kiện về các loại đất được sử dụng kết hợp đa mục đích:\n- Đất nông nghiệp được sử dụng kết hợp đa mục đích.\n- Đất sử dụng vào mục đích công cộng được kết hợp.\n- Đất ở được sử dụng kết hợp với mục đích nông nghiệp, thương mại, dịch vụ, công trình sự nghiệp có mục đích kinh doanh.\n- Đất có mặt nước là ao, hồ, đầm; đất có mặt nước chuyên dùng và đất sông ngòi, kênh, rạch, suối được sử dụng kết hợp đa mục đích.\n- Đất thuộc nhóm đất nông nghiệp, đất thuộc nhóm đất phi nông nghiệp được sử dụng kết hợp mục đích nông nghiệp, xây dựng công trình hạ tầng bưu chính, viễn thông, công nghệ, thông tin, quảng cáo ngoài trời, điện mặt trời.\nb) Yêu cầu về việc sử dụng đất kết hợp đa mục đích:\n- Không làm thay đổi loại đất theo phân loại đất quy định và đã được xác định loại đất tại giấy tờ về quyền sử dụng đất theo quy định.\n- Không làm mất đi điều kiện cần thiết để trở lại sử dụng đất vào mục đích chính;\n- Không ảnh hưởng đến quốc phòng, an ninh.\n- Hạn chế ảnh hưởng đến bảo tồn hệ sinh thái tự nhiên, đa dạng sinh học, cảnh quan môi trường.\n- Không làm ảnh hưởng đến việc sử dụng đất của các thửa đất liền kề.\n- Thực hiện đầy đủ nghĩa vụ tài chính theo quy định.\n- Tuân thủ pháp luật có liên quan.\nc) Yêu cầu về phạm vi sử dụng đất kết hợp đa mục đích:\n- Sử dụng đất vào mục đích kết hợp không thuộc trường hợp chuyển mục đích sử dụng đất.\n- Diện tích đất sử dụng vào mục đích kết hợp không quá 50% diện tích đất sử dụng vào mục đích chính, Điều kiện quy định tại điểm này không áp dụng đối với đất ở sử dụng kết hợp đa mục đích, các loại đất kết hợp mục đích hoạt động khoáng sản.\n- Công trình xây dựng trên đất nông nghiệp để sử dụng đất kết hợp đa mục đích phải có quy mô, tính chất phù hợp, dễ dàng tháo dỡ. Diện tích đất xây dựng công trình để sử dụng vào mục đích kết hợp trên đất trồng lúa, đất lâm nghiệp thực hiện theo quy định của Nghị định quy định chi tiết về đất trồng lúa và pháp luật về lâm nghiệp. Đất có mặt nước không được san lấp làm thay đổi dòng chảy, diện tích bề mặt nước, chiều sâu tầng nước.\n- Việc xây dựng, cải tạo công trình để sử dụng vào mục đích kết hợp phải phù hợp với quy định của pháp luật về xây dựng hoặc quy định của pháp luật khác có liên quan;”\n- Thời gian sử dụng đất vào mục đích kết hợp không vượt quá thời hạn sử dụng đất còn lại của mục đích chính.\nd) Điều kiện đối với trường hợp đơn vị sự nghiệp công lập sử dụng đất xây dựng công trình sự nghiệp kết hợp với thương mại, dịch vụ thì phải chuyển sang thuê đất trả tiền thuê đất hằng năm đối với phần diện tích kết hợp đó.\ne) Điều kiện gia hạn phương án sử dụng đất kết hợp đa mục đích: Trước khi hết thời gian sử dụng đất kết hợp 30 ngày, người sử dụng đất nếu có nhu cầu gia hạn thì gửi văn bản đề nghị gia hạn phương án sử dụng đất kết hợp.",
+  "name": "An Giang-Sử dụng đất kết hợp đa mục đích, gia hạn phương án sử dụng đất kết hợp đa mục đích",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Hồ sơ đề nghị phê duyệt phương án sử dụng đất kết hợp đa mục đích bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0cc19-c859-71b5-8983-07b3555e075e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị sử dụng đất kết hợp đa mục đích theo Mẫu số 13 ban hành theo Quyết định số 57/2026/QĐ-UBND ngày 01/7/2026.",
+          "code": "SNNMTAG_QD3828_CAPXA_TTHC_41_MAU01",
+          "attachments": [
+            {
+              "id": "01a0cc19-c243-73f7-8746-252f341f5bd8",
+              "fileName": "Mẫu số 13 Đơn đề nghị sử dụng đất kết hợp đa mục đích tthc7.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0cc19-c243-73f7-8746-252f341f5bd8/Mẫu số 13 Đơn đề nghị sử dụng đất kết hợp đa mục đích tthc7.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0cc1a-1028-70eb-8cc0-fabecfa7a4d2",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phương án sử dụng đất kết hợp.",
+          "code": "SNNMTAG_QD3828_CAPXA_TTHC_41_MAU02",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0cc1a-5533-7058-8903-d54718d19e40",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp hoặc một trong các loại giấy tờ về quyền sử dụng đất theo quy định của pháp luật (nếu có).",
+          "code": "SNNMTAG_QD3828_CAPXA_TTHC_41_MAU03",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b) Hồ sơ gia hạn phương án sử dụng đất kết hợp đa mục đích:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0cc1b-3cc6-77a9-b515-cb188c4c745b",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị gia hạn phương án sử dụng đất kết hợp.",
+          "code": "SNNMTAG_QD3828_CAPXA_TTHC_41_MAU04",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "đa mục đích, gia hạn phương án",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+    "019fe63e-5ffc-73a2-9971-335d80f4d73f",
+    "019ff439-01f8-77a8-9283-f80efea13a33",
+    "01a08abc-e5eb-738e-932f-abe36517faa2",
+    "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+    "01a08ac7-9f69-714f-b73a-7159f239f942",
+    "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+    "01a0a477-2c88-7288-8ea9-1a12e11a0825"
+  ],
+  "resultIds": [
+    "01a0bc9b-b006-7066-9308-709796009697",
+    "01a0bc9b-f6c4-760b-b7d9-0276784f3d6e",
+    "01a0bc9c-788a-73cf-ba45-3c9262b84406",
+    "01a0bc9c-d970-74ee-8bf0-4cce75216b5f"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a90-761e-acd7-9ff8d159a731"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-9ff8d159a731",
+      "name": "Cơ quan quản lý đất đai cấp xã",
+      "code": "Cơquanquảnlýđấtđaicấpxã"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff439-01f8-77a8-9283-f80efea13a33",
+      "name": "quy định về điều tra cơ bản đất đai; đăng ký, cấp GCNQSD đất, quyền sở hữu tài sản gắn liền với đất và hệ thống thông tin đất đai",
+      "code": " 101/2024/NĐ-CP ngày 29/7/2024 "
+    },
+    {
+      "id": "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị định số 49/2026/NĐ-CP"
+    },
+    {
+      "id": "01a08abc-e5eb-738e-932f-abe36517faa2",
+      "name": "Luật số 31/2024/QH15 của Quốc hội: Luật Đất đai",
+      "code": "Luật số 31/2024/QH15"
+    },
+    {
+      "id": "01a0a477-2c88-7288-8ea9-1a12e11a0825",
+      "name": "Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh An Giang",
+      "code": "57/2026/ QĐ-UBND"
+    },
+    {
+      "id": "019fe63e-5ffc-73a2-9971-335d80f4d73f",
+      "name": "Luật số 43/2024/QH15 ngày 29/6/2024 sửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng số 32/2024/QH15",
+      "code": "43/2024/QH15 ngày 29/6/2024"
+    },
+    {
+      "id": "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "Nghị định số 151/2025/NĐ-CP"
+    },
+    {
+      "id": "01a08ac7-9f69-714f-b73a-7159f239f942",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định quy định chi tiết thi hành Luật Đất đai",
+      "code": "Nghị định số 226/2025/NĐ-CP"
+    },
+    {
+      "id": "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+      "name": "Nghị định số 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai",
+      "code": "102/2024/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0bc9c-d970-74ee-8bf0-4cce75216b5f",
+      "name": "Văn bản không chấp thuận gia hạn Phương án sử dụng đất kết hợp",
+      "code": "snnmtagg-kq4-xa-tthc7"
+    },
+    {
+      "id": "01a0bc9b-f6c4-760b-b7d9-0276784f3d6e",
+      "name": "Văn bản không chấp thuận phương án sử dụng đất kết hợp (đối với trường hợp không đủ điều kiện chấp thuận).",
+      "code": "snnmtagg-kq2-xa-tthc7"
+    },
+    {
+      "id": "01a0bc9c-788a-73cf-ba45-3c9262b84406",
+      "name": "Văn bản chấp thuận gia hạn Phương án sử dụng đất kết hợp đa mục đích đối với trường hợp xin gia hạn",
+      "code": "snnmtagg-kq3-xa-tthc7"
+    },
+    {
+      "id": "01a0bc9b-b006-7066-9308-709796009697",
+      "name": "Văn bản chấp thuận Phương án sử dụng đất kết hợp đa mục đích",
+      "code": "snnmtagg-kq1-xa-tthc7"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3e7-e214bdb86482",
+  "departmentPromulgateCode": "H01",
+  "departmentPromulgateName": "UBND tỉnh An Giang",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790608206313,
+  "updatedAt": 1790608206313,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan quản lý đất đai cấp xã",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Điều kiện về các loại đất được sử dụng kết hợp đa mục đích:\n- Đất nông nghiệp được sử dụng kết hợp đa mục đích.\n- Đất sử dụng vào mục đích công cộng được kết hợp.\n- Đất ở được sử dụng kết hợp với mục đích nông nghiệp, thương mại, dịch vụ, công trình sự nghiệp có mục đích kinh doanh.\n- Đất có mặt nước là ao, hồ, đầm; đất có mặt nước chuyên dùng và đất sông ngòi, kênh, rạch, suối được sử dụng kết hợp đa mục đích.\n- Đất thuộc nhóm đất nông nghiệp, đất thuộc nhóm đất phi nông nghiệp được sử dụng kết hợp mục đích nông nghiệp, xây dựng công trình hạ tầng bưu chính, viễn thông, công nghệ, thông tin, quảng cáo ngoài trời, điện mặt trời.\nb) Yêu cầu về việc sử dụng đất kết hợp đa mục đích:\n- Không làm thay đổi loại đất theo phân loại đất quy định và đã được xác định loại đất tại giấy tờ về quyền sử dụng đất theo quy định.\n- Không làm mất đi điều kiện cần thiết để trở lại sử dụng đất vào mục đích chính;\n- Không ảnh hưởng đến quốc phòng, an ninh.\n- Hạn chế ảnh hưởng đến bảo tồn hệ sinh thái tự nhiên, đa dạng sinh học, cảnh quan môi trường.\n- Không làm ảnh hưởng đến việc sử dụng đất của các thửa đất liền kề.\n- Thực hiện đầy đủ nghĩa vụ tài chính theo quy định.\n- Tuân thủ pháp luật có liên quan.\nc) Yêu cầu về phạm vi sử dụng đất kết hợp đa mục đích:\n- Sử dụng đất vào mục đích kết hợp không thuộc trường hợp chuyển mục đích sử dụng đất.\n- Diện tích đất sử dụng vào mục đích kết hợp không quá 50% diện tích đất sử dụng vào mục đích chính, Điều kiện quy định tại điểm này không áp dụng đối với đất ở sử dụng kết hợp đa mục đích, các loại đất kết hợp mục đích hoạt động khoáng sản.\n- Công trình xây dựng trên đất nông nghiệp để sử dụng đất kết hợp đa mục đích phải có quy mô, tính chất phù hợp, dễ dàng tháo dỡ. Diện tích đất xây dựng công trình để sử dụng vào mục đích kết hợp trên đất trồng lúa, đất lâm nghiệp thực hiện theo quy định của Nghị định quy định chi tiết về đất trồng lúa và pháp luật về lâm nghiệp. Đất có mặt nước không được san lấp làm thay đổi dòng chảy, diện tích bề mặt nước, chiều sâu tầng nước.\n- Việc xây dựng, cải tạo công trình để sử dụng vào mục đích kết hợp phải phù hợp với quy định của pháp luật về xây dựng hoặc quy định của pháp luật khác có liên quan;”\n- Thời gian sử dụng đất vào mục đích kết hợp không vượt quá thời hạn sử dụng đất còn lại của mục đích chính.\nd) Điều kiện đối với trường hợp đơn vị sự nghiệp công lập sử dụng đất xây dựng công trình sự nghiệp kết hợp với thương mại, dịch vụ thì phải chuyển sang thuê đất trả tiền thuê đất hằng năm đối với phần diện tích kết hợp đó.\ne) Điều kiện gia hạn phương án sử dụng đất kết hợp đa mục đích: Trước khi hết thời gian sử dụng đất kết hợp 30 ngày, người sử dụng đất nếu có nhu cầu gia hạn thì gửi văn bản đề nghị gia hạn phương án sử dụng đất kết hợp.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fffa3-57c4-71e9-bf3a-adc3dd05efb4",
+    "proposalNumber": "3828/QĐ-UBND",
+    "decisionDate": 1786467600000,
+    "decisionNumber": null,
+    "publicationDate": 1790608203472,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3e7-e214bdb86482",
+      "name": "UBND tỉnh An Giang"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "id": "019d2bfb-98b5-74de-bcf7-26fe566908c4",
+  "code": "1.013280",
+  "codeNotation": "1.013280",
+  "executionSteps": [
+    {
+      "name": "a) Nộp hồ sơ thủ tục hành chính:",
+      "description": "Chủ sở hữu bãi cất, hạ cánh nộp đơn đề nghị đóng bãi cất, hạ cánh trên mặt đất, mặt nước, công trình nhân tạo đến Cục Tác chiến, Bộ Tổng Tham mưu bằng hình thức trực tiếp hoặc qua dịch vụ bưu chính hoặc trực tuyến qua Cổng Dịch vụ công Quốc gia hoặc Hệ thống thông tin giải quyết thủ tục hành chính Bộ Quốc phòng."
+    },
+    {
+      "name": "b) Giải quyết thủ tục hành chính:",
+      "description": "- Trường hợp hồ sơ không hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận hồ sơ, Cục Tác chiến, Bộ Tổng Tham mưu có văn bản yêu cầu chủ sở hữu bãi cất, hạ cánh hoàn thiện hồ sơ theo quy định."
+    },
+    {
+      "name": "",
+      "description": "- Trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tổng Tham mưu ra quyết định đóng bãi cất, hạ cánh sau khi có văn bản thống nhất của Bộ Xây dựng và gửi văn bản đến chủ sở hữu bãi cất, hạ cánh và các cơ quan, tổ chức, cá nhân có liên quan."
+    },
+    {
+      "name": "",
+      "description": "Kết quả giải quyết thủ tục hành chính được trả bằng bản điện tử, trừ trường hợp công dân, tổ chức có nhu cầu nhận bản giấy. Hồ sơ và kết quả giải quyết thủ tục hành chính bằng bản điện tử có giá trị pháp lý như bản giấy."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp hồ sơ không hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận hồ sơ, Cục Tác chiến, Bộ Tổng Tham mưu có văn bản yêu cầu chủ sở hữu bãi cất, hạ cánh hoàn thiện hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tổng Tham mưu ra quyết định đóng bãi cất, hạ cánh sau khi có văn bản thống nhất của Bộ Xây dựng và gửi văn bản đến chủ sở hữu bãi cất, hạ cánh và các cơ quan, tổ chức, cá nhân có liên quan.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp hồ sơ không hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận hồ sơ, Cục Tác chiến, Bộ Tổng Tham mưu có văn bản yêu cầu chủ sở hữu bãi cất, hạ cánh hoàn thiện hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tổng Tham mưu ra quyết định đóng bãi cất, hạ cánh sau khi có văn bản thống nhất của Bộ Xây dựng và gửi văn bản đến chủ sở hữu bãi cất, hạ cánh và các cơ quan, tổ chức, cá nhân có liên quan.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp hồ sơ không hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận hồ sơ, Cục Tác chiến, Bộ Tổng Tham mưu có văn bản yêu cầu chủ sở hữu bãi cất, hạ cánh hoàn thiện hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tổng Tham mưu ra quyết định đóng bãi cất, hạ cánh sau khi có văn bản thống nhất của Bộ Xây dựng và gửi văn bản đến chủ sở hữu bãi cất, hạ cánh và các cơ quan, tổ chức, cá nhân có liên quan.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Khi đóng bãi cất, hạ cánh Bộ Tổng Tham mưu có văn bản thông báo gửi Cục Hàng không Việt Nam, Bộ Xây dựng và các cơ quan, tổ chức, cá nhân liên quan.",
+  "name": "Thủ tục đóng bãi cất, hạ cánh trên mặt đất, mặt nước, công trình nhân tạo",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71a5-77d2-ae4a-47954135e41d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị đóng bãi cất, hạ cánh trên mặt đất, mặt nước, công trình nhân tạo theo Mẫu số I.13 quy định tại Phụ lục ban hành kèm theo Nghị định số 205/2026/NĐ-CP",
+          "code": "000.00.00.G11-KQ003834",
+          "attachments": [
+            {
+              "id": "019feed5-b886-71a8-b0b7-665af2b08c68",
+              "fileName": "Mẫu số I.13.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019feed5-b886-71a8-b0b7-665af2b08c68/Mẫu số I.13.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-50376f14f125"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+    "019f64ee-5895-74ab-a809-3656d3f318bb"
+  ],
+  "resultIds": [
+    "019feed7-e422-7085-8f9f-8d0cd9c8c513",
+    "019feed8-c81b-766c-80b6-185904dbc0e3"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d03-b74f1f10cf31"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6ada-753f-9ac8-c1fcac820c99"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-50376f14f125",
+      "name": "Quản lý vùng trời",
+      "code": "G11-QP12"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-50376f14f125",
+    "name": "Quản lý vùng trời",
+    "code": "G11-QP12"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d03-b74f1f10cf31",
+      "name": "Cục Tác chiến/Bộ Tổng Tham mưu",
+      "code": "BQP-CTC"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-c1fcac820c99",
+      "name": "Bộ Tổng Tham mưu",
+      "code": "G11.01.001"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019d7511-da0f-746d-aeb5-b2bc21ecab4d"
+  ],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019d7511-da0f-746d-aeb5-b2bc21ecab4d",
+      "name": "UBND cấp tỉnh hoặc cơ quan có thẩm quyền do UBND cấp tỉnh quyết định việc phân cấp hoặc ủy quyền theo quy định của Luật Tổ chức chính quyền địa phương số 72/2025/QH15"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+      "name": "Luật hàng không dân dụng Việt Nam",
+      "code": "130/2025/QH15"
+    },
+    {
+      "id": "019f64ee-5895-74ab-a809-3656d3f318bb",
+      "name": "Nghị định về cảng hàng không và bãi cất, hạ cánh",
+      "code": "205/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019feed7-e422-7085-8f9f-8d0cd9c8c513",
+      "name": "Văn bản đóng bãi cất, hạ cánh",
+      "code": "KQ.G11.1.013280.II.13"
+    },
+    {
+      "id": "019feed8-c81b-766c-80b6-185904dbc0e3",
+      "name": "Văn bản trả lời người đề nghị và nêu rõ lý do trong trường hợp không phê duyệt",
+      "code": "KQ.G11.1.013280.II.14"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "departmentPromulgateCode": "G11",
+  "departmentPromulgateName": "Bộ Quốc phòng",
+  "cases": [
+    {
+      "id": "019ff011-d926-76fc-9e5e-53ffc6934b59",
+      "name": "Thủ tục đóng bãi cất, hạ cánh trên mặt đất, mặt nước, công trình nhân tạo",
+      "code": "1.013280.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d14-e53b-7679-ba4d-e2f9be043b13",
+      "name": "Thủ tục đóng bãi cất, hạ cánh trên mặt đất, mặt nước, các tòa nhà, công trình nhân tạo, nhà giàn, giàn khoan dầu khí",
+      "code": "1.013280.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559402165,
+  "updatedAt": 1786439127616,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Tác chiến/Bộ Tổng Tham mưu",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Tổng Tham mưu",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Khi đóng bãi cất, hạ cánh Bộ Tổng Tham mưu có văn bản thông báo gửi Cục Hàng không Việt Nam, Bộ Xây dựng và các cơ quan, tổ chức, cá nhân liên quan.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fdb71-8d99-75be-8d8e-fc1a48045139",
+    "proposalNumber": "4174",
+    "decisionDate": 1785690000000,
+    "decisionNumber": null,
+    "publicationDate": 1786439127060,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "id": "01a0aec3-631f-7227-a689-d2559234cefe",
+  "code": "1.116720",
+  "codeNotation": "1.116720",
+  "executionSteps": [
+    {
+      "name": "Bước 1: Công ty nông, lâm nghiệp gửi hồ sơ đến Trung tâm Phục vụ hành chính công.",
+      "description": "Khi nộp hồ sơ, công ty nông, lâm nghiệp được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\n- Trường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ, cấp Giấy tiếp nhận hồ sơ và trả kết quả và chuyển hồ sơ đến Sở Nông nghiệp và Môi trường."
+    },
+    {
+      "name": "Bước 2: Sở Nông nghiệp và Môi trường",
+      "description": "- Rà soát, kiểm tra hồ sơ; hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ đối với trường hợp hồ sơ không đầy đủ, không hợp lệ.\n- Gửi hồ sơ phương án sử dụng đất đến các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất để lấy ý kiến và trình Ủy ban nhân dân cấp tỉnh thành lập Hội đồng thẩm định trong thời hạn không quá 05 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp.\n- Thành phần Hội đồng thẩm định bao gồm: Chủ tịch Ủy ban nhân dân cấp tỉnh hoặc 01 Phó Chủ tịch Ủy ban nhân dân cấp tỉnh làm Chủ tịch Hội đồng, Giám đốc Sở Nông nghiệp và Môi trương làm Phó Chủ tịch Hội đồng, các thành viên là đại diện lãnh đạo các sở, ban, ngành có liên quan, đại điện lãnh đạo Ủy ban nhân dân cấp xã nơi có đất."
+    },
+    {
+      "name": "Bước 3: Các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất",
+      "description": "gửi ý kiến bằng văn bản đến Sở Nông nghiệp và Môi trường trong thời gian không quá 10 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ."
+    },
+    {
+      "name": "Bước 4: Trong thời gian không quá 05 ngày làm việc kể từ ngày kết thúc thời hạn lấy ý kiến, Sở Nông nghiệp và Môi trường thực hiện:",
+      "description": "- Tổ chức họp Hội đồng để thẩm định.\n- Trường hợp hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp không phải chỉnh sửa thì trình Ủy ban nhân dân tỉnh phê duyệt trong thời gian không quá 05 ngày làm việc kể từ ngày thẩm định.\n- Trường hợp hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp phải chỉnh sửa thì trong thời gian không quá 03 ngày làm việc kể từ ngày thẩm định thì Sở Nông nghiệp và Môi trường thông báo cho công ty nông, lâm nghiệp để hoàn thiện. Sau khi công ty nông, lâm nghiệp hoàn thiện hồ sơ gửi Sở Nông nghiệp và Môi trường thì trong thời hạn không quá 05 ngày làm việc, nếu hồ sơ đầy đủ thì Sở Nông nghiệp và Môi trường trình Ủy ban nhân dân tỉnh phê duyệt."
+    },
+    {
+      "name": "Bước 5: Ủy ban nhân dân cấp tỉnh",
+      "description": "xem xét, phê duyệt phương án sử dụng đất."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "An Giang-Thẩm định, phê duyệt phương án sử dụng đất",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0c950-6261-7378-aa0e-917f95acefaa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thẩm định, phê duyệt phương án sử dụng đất theo Mẫu số 22 ban hành kèm theo Quyết định số 57/2026/QĐ-UBND ngày 01/7/2026.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU01",
+          "attachments": [
+            {
+              "id": "01a0c950-5a64-711c-8961-948e92da7187",
+              "fileName": "Mẫu số 22 Công văn thẩm định phê duyệt phương án sử dụng đất TTHC 30.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0c950-5a64-711c-8961-948e92da7187/Mẫu số 22 Công văn thẩm định phê duyệt phương án sử dụng đất TTHC 30.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0c950-b397-76cd-9e70-e1556d06b1a1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Căn cứ lập phương án sử dụng đất;",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU02",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c950-f250-70fa-908a-60fc14772d41",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phân tích, đánh giá về điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh;",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU03",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c951-2f0b-745c-9484-7c9a09969bbf",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Định hướng sử dụng đất, phương hướng nhiệm vụ, phương án sản xuất, kinh doanh cụ thể của công ty nông, lâm nghiệp;",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU04",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c951-7064-723a-be97-b33ca0da4a2f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đánh giá tác động của phương án sử dụng đất đến kinh tế - xã hội, môi trường, quốc phòng, an ninh và phương án sản xuất, kinh doanh;",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU05",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c951-af23-713f-80da-f33dd66416d8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các giải pháp tổ chức thực hiện đối với phần diện tích đất công ty nông, lâm nghiệp giữ lại;",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU06",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c951-ef90-7236-8b2e-ba7570f72590",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Xác định vị trí, ranh giới, diện tích đất, hiện trạng sử dụng đất khu vực đất bàn giao cho địa phương theo quy định tại điểm d khoản 1 Điều 181 Luật số 31/2024/QH15;",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU07",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c952-3a25-77d8-8ab5-e7b4c782a33b",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Thuyết minh phương án sử dụng đất.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU08",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c952-7ef1-733b-a52d-e76f66a3a15d",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản đồ địa chính có thể hiện ranh giới sử dụng đất hoặc hồ sơ ranh giới sử dụng đất của công ty nông, lâm nghiệp; bản tổng hợp diện tích các loại đất của công ty nông, lâm nghiệp;",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU09",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c952-c437-72bb-8e2b-9693ba01e0ee",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tài liệu khác có liên quan (nếu có).",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_30_MAU10",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Thẩm định, phê duyệt, phương án sử dụng đất",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+    "019fe63e-5ffc-73a2-9971-335d80f4d73f",
+    "019ff439-01f8-77a8-9283-f80efea13a33",
+    "01a08abc-e5eb-738e-932f-abe36517faa2",
+    "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+    "01a08ac7-9f69-714f-b73a-7159f239f942",
+    "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+    "01a0a477-2c88-7288-8ea9-1a12e11a0825"
+  ],
+  "resultIds": [
+    "01a0aec2-010c-757b-b4eb-8f008d0a4a41"
+  ],
+  "subjectTypeIds": [
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e8-1474c95f9d18"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a86-70a8-a0af-a98701742424",
+    "019d2be3-6a90-761e-acd7-9ff8d159a731"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e8-1474c95f9d18",
+      "name": "Chi cục Quản lý đất đai - Sở Nông nghiệp và Môi trường tỉnh An Giang",
+      "code": "H01.03.07"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a86-70a8-a0af-a98701742424",
+      "name": "Phòng Sở ban ngành",
+      "code": "H26.10.6"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-9ff8d159a731",
+      "name": "Cơ quan quản lý đất đai cấp xã",
+      "code": "Cơquanquảnlýđấtđaicấpxã"
+    }
+  ],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff439-01f8-77a8-9283-f80efea13a33",
+      "name": "quy định về điều tra cơ bản đất đai; đăng ký, cấp GCNQSD đất, quyền sở hữu tài sản gắn liền với đất và hệ thống thông tin đất đai",
+      "code": " 101/2024/NĐ-CP ngày 29/7/2024 "
+    },
+    {
+      "id": "01a08abc-e5eb-738e-932f-abe36517faa2",
+      "name": "Luật số 31/2024/QH15 của Quốc hội: Luật Đất đai",
+      "code": "Luật số 31/2024/QH15"
+    },
+    {
+      "id": "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị định số 49/2026/NĐ-CP"
+    },
+    {
+      "id": "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+      "name": "Nghị định số 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai",
+      "code": "102/2024/NĐ-CP "
+    },
+    {
+      "id": "019fe63e-5ffc-73a2-9971-335d80f4d73f",
+      "name": "Luật số 43/2024/QH15 ngày 29/6/2024 sửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng số 32/2024/QH15",
+      "code": "43/2024/QH15 ngày 29/6/2024"
+    },
+    {
+      "id": "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "Nghị định số 151/2025/NĐ-CP"
+    },
+    {
+      "id": "01a08ac7-9f69-714f-b73a-7159f239f942",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định quy định chi tiết thi hành Luật Đất đai",
+      "code": "Nghị định số 226/2025/NĐ-CP"
+    },
+    {
+      "id": "01a0a477-2c88-7288-8ea9-1a12e11a0825",
+      "name": "Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh An Giang",
+      "code": "57/2026/ QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0aec2-010c-757b-b4eb-8f008d0a4a41",
+      "name": "Văn bản phê duyệt phương án sử dụng đất của Công ty nông, lâm nghiệp",
+      "code": "snnmtagg-kq1-tthc30"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3e7-e214bdb86482",
+  "departmentPromulgateCode": "H01",
+  "departmentPromulgateName": "UBND tỉnh An Giang",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790608206834,
+  "updatedAt": 1790608206834,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Quản lý đất đai - Sở Nông nghiệp và Môi trường tỉnh An Giang",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "Phòng Sở ban ngành, Cơ quan quản lý đất đai cấp xã",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fffa3-57c4-71e9-bf3a-adc3dd05efb4",
+    "proposalNumber": "3828/QĐ-UBND",
+    "decisionDate": 1786467600000,
+    "decisionNumber": null,
+    "publicationDate": 1790608203472,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3e7-e214bdb86482",
+      "name": "UBND tỉnh An Giang"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

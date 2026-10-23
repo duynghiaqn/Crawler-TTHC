@@ -1,0 +1,281 @@
+{
+  "id": "019d2bf7-d547-74bd-a9fd-e17e8a760b38",
+  "code": "1.000658",
+  "codeNotation": "1.000658",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân nộp 01 bộ hồ sơ đề nghị cấp Giấy chứng nhận KP theo quy định đến cơ quan cấp phép.\nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 02 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan cấp phép thông báo để thương nhân bổ sung, hoàn thiện hồ sơ.\nc) Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và đúng quy định, cơ quan cấp phép cấp Giấy chứng nhận KP cho thương nhân theo mẫu quy định tại Phụ lục VIII kèm theo Thông tư số 48/2026/TT-BCT ngày 05    tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương về việc quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương và gửi kết quả (01 bản gốc và 02 bản sao) qua đường bưu chính theo địa chỉ đăng ký của thương nhân hoặc trả lời thương nhân về việc không cấp Giấy chứng nhận KP và nêu rõ lý do qua Cổng Thông tin một cửa Quốc gia hoặc Cổng Dịch vụ công Quốc gia hoặc Cổng dịch vụ công của cơ quan cấp phép.\nd) Trong trường hợp nhận thấy việc kiểm tra trên hồ sơ là chưa đủ căn cứ để cấp Giấy chứng nhận KP hoặc phát hiện có dấu hiệu vi phạm pháp luật đối với các Giấy chứng nhận KP đã cấp trước đó, cơ quan cấp phép chủ trì, phối hợp với các cơ quan liên quan tiến hành kiểm tra tại nơi sản xuất của thương nhân. \nQuy trình, thủ tục kiểm tra tại nơi sản xuất của thương nhân được thực hiện theo quy định của pháp luật về hoạt động kiểm tra chuyên ngành.\nTrong thời hạn 02 ngày làm việc kể từ ngày ban hành Thông báo kết luận của Đoàn kiểm tra về việc thương nhân đủ điều kiện để được cấp Giấy chứng nhận KP và nhận được bộ hồ sơ đầy đủ, đúng quy định, cơ quan cấp phép cấp Giấy chứng nhận KP cho thương nhân và gửi kết quả (01 bản gốc và 02 bản sao) qua đường bưu chính theo địa chỉ đăng ký của thương nhân hoặc trả lời thương nhân về việc không cấp Giấy chứng nhận KP và nêu rõ lý do qua Cổng Thông tin một cửa Quốc gia hoặc Cổng Dịch vụ công Quốc gia hoặc Cổng dịch vụ công của cơ quan cấp phép."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ 02 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và đúng quy định.\n+ Trong trường hợp nhận thấy việc kiểm tra trên hồ sơ là chưa đủ căn cứ để cấp Giấy chứng nhận KP hoặc phát hiện có dấu hiệu vi phạm pháp luật đối với các Giấy chứng nhận KP đã cấp trước đó: 02 ngày làm việc kể từ ngày ban hành Thông báo kết luận của Đoàn kiểm tra về việc thương nhân đủ điều kiện để được cấp Giấy chứng nhận KP và nhận được bộ hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Thương nhân chỉ được phép xuất khẩu, nhập khẩu với các thành viên của Quy chế Chứng nhận KP. Bộ Công Thương thông báo Danh sách các thành viên của Quy chế Chứng nhận KP tại Cổng thông tin điện tử Bộ Công Thương.",
+  "name": "Thủ tục cấp Giấy chứng nhận KP đối với kim cương thô xuất khẩu theo Quy chế Chứng nhận KP",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a08430-6f1c-72ee-a65f-ff29a08b396e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Bản kê khai trực tuyến thông tin về Giấy chứng nhận KP theo mẫu và hướng dẫn quy định tại Phụ lục VIII kèm theo Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương về việc quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+          "code": "XNK-2195-07",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a08430-cb7f-77ae-855f-f8273b591249",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Hoá đơn thương mại: 01 bản sao điện tử.",
+          "code": "XNK-2195-08",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a08431-31b9-77ce-b3d0-d1a0647169f4",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c) Phiếu đóng gói: 01 bản sao điện tử.",
+          "code": "XNK-2195-09",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a08431-9205-72ce-8081-b1d3838864c4",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "d) Hợp đồng gia công và định mức gia công đã đăng ký với cơ quan Hải quan (nếu có): 01 bản sao điện tử.",
+          "code": "XNK-2195-010",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+    "01a0841f-2437-7087-acf9-47e9714dc6d5"
+  ],
+  "resultIds": [
+    "01a08432-174b-776c-8af6-92914074ecf7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    },
+    {
+      "id": "01a0841f-2437-7087-acf9-47e9714dc6d5",
+      "name": "Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương về việc quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "48/2026/TT-BCT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a08432-174b-776c-8af6-92914074ecf7",
+      "name": "Giấy chứng nhận KP đối với kim cương thô xuất khẩu theo Quy chế Chứng nhận KP (01 bản gốc và 02 bản sao) hoặc trả lời thương nhân về việc không cấp Giấy chứng nhận KP và nêu rõ lý do qua Cổng Thông tin một cửa Quốc gia hoặc Cổng Dịch vụ công Quốc gia hoặc Cổng dịch vụ công của cơ quan cấp phép.",
+      "code": "KQ-XNK-0101"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "01a08435-f5f3-7230-984c-631d32f0191d",
+      "name": "Thủ tục cấp Giấy chứng nhận KP đối với kim cương thô xuất khẩu theo Quy chế Chứng nhận KP",
+      "code": "1.000658.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019dc0e0-eea9-759c-a0ce-2a6bcac3cd35",
+      "name": "Cấp Giấy chứng nhận quy trình Kimberly đối với kim cương thô",
+      "code": "1.000658.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1776321805902,
+  "updatedAt": 1788924523855,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Thương nhân chỉ được phép xuất khẩu, nhập khẩu với các thành viên của Quy chế Chứng nhận KP. Bộ Công Thương thông báo Danh sách các thành viên của Quy chế Chứng nhận KP tại Cổng thông tin điện tử Bộ Công Thương.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0840d-3793-7321-8cbd-86d03714fc3f",
+    "proposalNumber": "2195/QĐ-BCT",
+    "decisionDate": 1788800400000,
+    "decisionNumber": null,
+    "publicationDate": 1788924523781,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

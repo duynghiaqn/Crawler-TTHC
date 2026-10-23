@@ -1,0 +1,210 @@
+{
+  "id": "01a0f060-98ca-7598-b078-89b0b84a49db",
+  "code": "1.116827",
+  "codeNotation": "1.116827",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ gửi 01 bộ hồ sơ quy định tại khoản 1 Điều 8 Nghị định số 360/2026/NĐ-CP qua Cổng Dịch vụ công Quốc gia hoặc qua dịch vụ bưu chính hoặc qua VNeID hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền. Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, nếu hồ sơ chưa đầy đủ, đúng quy định, cơ quan tiếp nhận phải thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử những nội dung cần chỉnh sửa, bổ sung cho cơ quan, tổ chức.\nb) Trong thời hạn 12 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn phối hợp với đơn vị liên quan tổ chức thẩm định hồ sơ để đánh giá việc đáp ứng các điều kiện, trình cấp có thẩm quyền xem xét, quyết định cho phép thành lập; nếu chưa đủ điều kiện thì phải thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử cho cơ quan, tổ chức và nêu rõ lý do.\nc) Quyết định cho phép thành lập trường mầm non theo Mẫu số 08 Phụ lục kèm theo Nghị định 360/2026/NĐ-CP, được gửi trực tiếp hoặc qua dịch vụ bưu chính cho cơ quan, tổ chức và công bố công khai trên các phương tiện thông tin đại chúng, trang thông tin điện tử của Ủy ban nhân dân cấp tỉnh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ qua dịch vụ bưu chính đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    }
+  ],
+  "description": "a) Phù hợp với chiến lược, quy hoạch, yêu cầu phát triển kinh tế - xã hội của địa phương nơi trường đặt trụ sở. \nb) Có địa điểm dự kiến xây dựng trường phù hợp với quy hoạch của địa phương hoặc được cơ quan có thẩm quyền cho phép sử dụng đất ở, đất xây dựng trụ sở cơ quan, công trình sự nghiệp không phải là công trình giáo dục và đào tạo, đất sản xuất, kinh doanh phi nông nghiệp sang sử dụng vào mục đích giáo dục và đào tạo, đồng thời, đáp ứng các tiêu chuẩn về địa điểm, quy mô, diện tích đối với trường mầm non theo quy định của Bộ Giáo dục và Đào tạo. Đối với khu vực nội thành của các đô thị loại đặc biệt, diện tích sàn xây dựng được tính tương đương diện tích đất nhưng không thấp hơn diện tích đất bình quân tối thiểu cho một trẻ em theo quy định của Bộ Giáo dục và Đào tạo.",
+  "name": "Cho phép thành lập trường mầm non do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f05f-61b5-7465-9a52-fccac5780594",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Văn bản đề nghị cho phép thành lập trường mầm non theo Mẫu số 03 Phụ lục kèm theo Nghị định 360/2026/NĐ-CP;",
+          "code": "TP-G03.0001146",
+          "attachments": [
+            {
+              "id": "01a0f05f-56a9-74c5-81c7-b79d9e89199b",
+              "fileName": "Mẫu số 3.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0f05f-56a9-74c5-81c7-b79d9e89199b/Mẫu số 3.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0f05f-e001-7270-bc66-7743355bd27a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "b) Văn bản pháp lý chứng minh quyền sử dụng đất hoặc quyền sở hữu nhà hoặc hợp đồng thuê địa điểm, cơ sở vật chất với thời hạn tối thiểu 05 năm.  Cơ quan, tổ chức không phải nộp bản sao các thành phần hồ sơ nếu cơ quan có thẩm quyền có thể khai thác, sử dụng thông tin tương ứng trong cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành hoặc đã được số hóa theo quy định.",
+          "code": "TP-G03.0001147",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-0b425c484651"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0eb27-0a75-75f9-a08c-6705f56edf6d"
+  ],
+  "resultIds": [
+    "01a0f060-6213-778f-acdd-fd7635848815"
+  ],
+  "subjectTypeIds": [
+    "019b6990-6a92-7166-a335-f87bf9f53428"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-0b425c484651",
+      "name": "Giáo dục mầm non",
+      "code": "G03-GD06"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0eb27-0a75-75f9-a08c-6705f56edf6d",
+      "name": "Quy định về điều kiện đầu tư và hoạt động của cơ sở giáo dục mầm non, cơ sở giáo dục phổ thông, cơ sở giáo dục thường xuyên và cơ sở giáo dục khác thuộc hệ thống giáo dục quốc dân",
+      "code": "360/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f060-6213-778f-acdd-fd7635848815",
+      "name": "Quyết định của Chủ tịch Ủy ban nhân dân cấp tỉnh cho phép thành lập trường mầm non (theo Mẫu số 08 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP).",
+      "code": "KQ-G03.00021"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790907958133,
+  "updatedAt": 1790907958133,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Phù hợp với chiến lược, quy hoạch, yêu cầu phát triển kinh tế - xã hội của địa phương nơi trường đặt trụ sở. \nb) Có địa điểm dự kiến xây dựng trường phù hợp với quy hoạch của địa phương hoặc được cơ quan có thẩm quyền cho phép sử dụng đất ở, đất xây dựng trụ sở cơ quan, công trình sự nghiệp không phải là công trình giáo dục và đào tạo, đất sản xuất, kinh doanh phi nông nghiệp sang sử dụng vào mục đích giáo dục và đào tạo, đồng thời, đáp ứng các tiêu chuẩn về địa điểm, quy mô, diện tích đối với trường mầm non theo quy định của Bộ Giáo dục và Đào tạo. Đối với khu vực nội thành của các đô thị loại đặc biệt, diện tích sàn xây dựng được tính tương đương diện tích đất nhưng không thấp hơn diện tích đất bình quân tối thiểu cho một trẻ em theo quy định của Bộ Giáo dục và Đào tạo.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ec28-ef38-71b3-860d-48702fad8c6f",
+    "proposalNumber": "2855/QĐ-BGDĐT",
+    "decisionDate": 1790701200000,
+    "decisionNumber": null,
+    "publicationDate": 1790907957843,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

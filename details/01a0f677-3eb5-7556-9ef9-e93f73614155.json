@@ -1,0 +1,193 @@
+{
+  "id": "01a0f677-3eb5-7556-9ef9-e93f73614155",
+  "code": "5.003913",
+  "codeNotation": "5.003913",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Thủ tục này áp dụng đối với trường hợp thôi việc theo nguyện vọng, thực hiện quy trình như sau:\n- Bước 1: Công chức tự nguyện xin thôi việc có đơn gửi cơ quan quản lý hoặc cơ quan được phân cấp thẩm quyền quản lý hoặc được ủy quyền giải quyết thôi việc. \n- Bước 2: Trong thời hạn 30 ngày, kể từ ngày nhận đơn tự nguyện xin thôi việc của nếu đồng ý cho thôi việc thì người đứng đầu cơ quan quản lý hoặc cơ quan được phân cấp thẩm quyền quản lý hoặc được ủy quyền ra quyết định thôi việc đối với công chức; nếu không đồng ý thì trả lời bằng văn bản và nêu rõ lý do quy định tại điểm c khoản 2 Điều 57 Nghị định số 170/2025/NĐ-CP."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Trực tiếp hoặc trực tuyến qua Hệ thống phần mềm Quản lý văn bản và Hồ sơ công việc (TD Office).\nTrong thời hạn 30 ngày kể từ ngày nhận đơn tự nguyện xin thôi việc của công chức.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Trực tiếp hoặc trực tuyến qua Hệ thống phần mềm Quản lý văn bản và Hồ sơ công việc (TD Office).\nTrong thời hạn 30 ngày kể từ ngày nhận đơn tự nguyện xin thôi việc của công chức.",
+      "fees": []
+    }
+  ],
+  "description": "Công chức thôi việc theo nguyện vọng mà không thuộc các trường hợp sau: \n- Công chức đang trong thời gian xem xét xử lý kỷ luật hoặc truy cứu trách nhiệm hình sự. \n- Công chức chưa phục vụ đủ thời gian theo cam kết với cơ quan, tổ chức tuyển dụng. \n- Công chức chưa hoàn thành việc thanh toán các khoản tiền, tài sản thuộc trách nhiệm của cá nhân đối với cơ quan, tổ chức. \n- Do yêu cầu công tác của cơ quan, tổ chức hoặc chưa bố trí được người thay thế. \n- Các lý do khác theo quy định của pháp luật, quy định của cấp có thẩm quyền.",
+  "name": "Thủ tục thôi việc đối với công chức",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f589-7bd5-73d0-ba64-d14e41973713",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn tự nguyện xin thôi việc của công chức",
+          "code": "TP-H56.0000412",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-466606d10c0b"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d85-73da-8eba-0bd7fb6c4178",
+    "019d2bb3-5d7e-72d1-afec-7db4f5578e84"
+  ],
+  "resultIds": [
+    "01a0f589-e09f-7789-bf33-0830741cd67a"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-466606d10c0b",
+      "name": "Công chức, viên chức",
+      "code": "G09.05_CCVC"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-466606d10c0b",
+    "name": "Công chức, viên chức",
+    "code": "G09.05_CCVC"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d753a-845a-72e6-b902-c66999346c57"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d753a-845a-72e6-b902-c66999346c57"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d753a-845a-72e6-b902-c66999346c57",
+      "name": "Người đứng đầu cơ quan có thẩm quyền tuyển dụng công chức"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d753a-845a-72e6-b902-c66999346c57",
+      "name": "Người đứng đầu cơ quan có thẩm quyền tuyển dụng công chức"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d85-73da-8eba-0bd7fb6c4178",
+      "name": "Luật Cán bộ, Công chức",
+      "code": "80/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-7db4f5578e84",
+      "name": "Quy định về tuyển dụng, sử dụng và quản lý công chức",
+      "code": "170/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f589-e09f-7789-bf33-0830741cd67a",
+      "name": "Quyết định thôi việc",
+      "code": "KQ.H56.0000090"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+  "departmentPromulgateCode": "H56",
+  "departmentPromulgateName": "UBND tỉnh Thanh Hóa",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791855875689,
+  "updatedAt": 1791855875689,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan, tổ chức quản lý công chức hoặc cơ quan, tổ chức được phân công, phân cấp quản lý công chức; cơ quan, tổ chức, đơn vị sử dụng công chức",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Công chức thôi việc theo nguyện vọng mà không thuộc các trường hợp sau: \n- Công chức đang trong thời gian xem xét xử lý kỷ luật hoặc truy cứu trách nhiệm hình sự. \n- Công chức chưa phục vụ đủ thời gian theo cam kết với cơ quan, tổ chức tuyển dụng. \n- Công chức chưa hoàn thành việc thanh toán các khoản tiền, tài sản thuộc trách nhiệm của cá nhân đối với cơ quan, tổ chức. \n- Do yêu cầu công tác của cơ quan, tổ chức hoặc chưa bố trí được người thay thế. \n- Các lý do khác theo quy định của pháp luật, quy định của cấp có thẩm quyền.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0f174-e6e0-775a-9b5d-a985dd243b3e",
+    "proposalNumber": "2632/QĐ-VP",
+    "decisionDate": 1785258000000,
+    "decisionNumber": null,
+    "publicationDate": 1791855873968,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+      "name": "UBND tỉnh Thanh Hóa"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

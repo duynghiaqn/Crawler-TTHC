@@ -1,0 +1,250 @@
+{
+  "id": "01a028bb-b4dc-7209-a4db-5d3f01ae381e",
+  "code": "1.116477",
+  "codeNotation": "1.116477",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a.\tTổ chức, cá nhân hoạt động theo quy định điểm c khoản 4 Điều 27 của Nghị định 163/2026/NĐ-CP chuẩn bị hồ sơ, gửi trực tiếp hoặc gửi qua đường bưu điện hoặc gửi trực tuyến về Bộ Y tế (Cục Quản lý Dược).\nb.\tTrong thời hạn chậm nhất là 15 ngày kể từ ngày nhận đủ hồ sơ đề nghị cấp giấy phép nhập khẩu theo quy định, cơ quan cấp phép tiến hành cấp giấy phép nhập khẩu hoặc có văn bản thông báo không cấp phép và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Chất chuẩn thuộc Danh mục dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc được xem xét cấp phép nhập khẩu khi được sử dụng để phục vụ hoạt động kiểm nghiệm, nghiên cứu thuốc và nguyên liệu làm thuốc tại chính cơ sở kinh doanh dược, cơ sở có hoạt động dược không vì mục đích thương mại theo quy định của pháp luật về dược.",
+  "name": "Cấp phép nhập khẩu chất chuẩn thuộc Danh mục dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc phục vụ nghiên cứu, kiểm nghiệm thuốc thuộc thẩm quyền của Bộ Y tế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a028a7-6429-726a-a711-63afd67cb6e0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị cấp giấy phép nhập khẩu, xuất khẩu theo Mẫu số 05 Phụ lục II ban hành kèm theo Nghị định số 163/2026/NĐ-CP",
+          "code": "000.00.00.G07-KQ002582",
+          "attachments": [
+            {
+              "id": "01a028a7-5da3-74cc-8e9e-33764b2dd0c2",
+              "fileName": "Mẫu 05.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a028a7-5da3-74cc-8e9e-33764b2dd0c2/Mẫu 05.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a028a8-1c97-7699-9af1-744eb65ad9ae",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản chứng minh tư cách pháp nhân của tổ chức",
+          "code": "000.00.00.G07-KQ002583",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a028b6-c653-717d-b130-c59a6dcc2996",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản thuyết minh mục đích nhập khẩu (sử dụng trong sản xuất, nghiên cứu, kiểm nghiệm hoặc mục đích hợp pháp khác) kèm theo kế hoạch sử dụng chi tiết",
+          "code": "000.00.00.G07-KQ002590",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a028b7-9315-741e-81db-94c190378380",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đủ điều kiện kinh doanh dược hoặc tài liệu pháp lý thể hiện cơ sở được thực hiện hoạt động dược không vì mục đích thương mại",
+          "code": "000.00.00.G07-KQ002591",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a02313-4be6-702f-b641-946b7f2960e9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0231e-bbab-7028-8e19-559d9af5aaf1",
+    "019d2bb3-5d84-71c5-b674-8b7aa0ff0887",
+    "01a028bb-7aa1-71d7-8b28-1cc255d17481"
+  ],
+  "resultIds": [
+    "01a028a6-16a0-77b0-8a56-1904763816da"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a73-7290-a1e6-dfe7f62d61b8"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a73-7290-a1e6-dfe7f62d61b8"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a02313-4be6-702f-b641-946b7f2960e9",
+      "name": "Kiểm soát các hoạt động hợp pháp liên quan đến ma túy",
+      "code": "G01-CA35"
+    }
+  ],
+  "category": {
+    "id": "01a02313-4be6-702f-b641-946b7f2960e9",
+    "name": "Kiểm soát các hoạt động hợp pháp liên quan đến ma túy",
+    "code": "G01-CA35"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a73-7290-a1e6-dfe7f62d61b8",
+      "name": "Cục Quản lý Dược - Bộ Y tế",
+      "code": "G18.019"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a73-7290-a1e6-dfe7f62d61b8",
+      "name": "Cục Quản lý Dược - Bộ Y tế",
+      "code": "G18.019"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0231e-bbab-7028-8e19-559d9af5aaf1",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điểu của Luật phòng chống ma túy ",
+      "code": "163/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b674-8b7aa0ff0887",
+      "name": "105/2016/QH13 Dược",
+      "code": "Luật 105/2016/QH13"
+    },
+    {
+      "id": "01a028bb-7aa1-71d7-8b28-1cc255d17481",
+      "name": "Thông tư số 18/2026/TT-BYT ngày 01/6/2026 của Bộ trưởng Bộ Y tế quy định chi tiết một số điều của Luật Dược và Nghị định số 163/2025/NĐ-CP về thuốc và nguyên liệu làm thuốc phải kiểm soát đặc biệt.",
+      "code": "18/2026/TT-BYT "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a028a6-16a0-77b0-8a56-1904763816da",
+      "name": "Giấy phép/Văn bản không cấp phép xuất khẩu, nhập khẩu",
+      "code": "KQ.G07.000459"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787537979753,
+  "updatedAt": 1787537979753,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Quản lý Dược - Bộ Y tế",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Cục Quản lý Dược - Bộ Y tế",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Chất chuẩn thuộc Danh mục dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc được xem xét cấp phép nhập khẩu khi được sử dụng để phục vụ hoạt động kiểm nghiệm, nghiên cứu thuốc và nguyên liệu làm thuốc tại chính cơ sở kinh doanh dược, cơ sở có hoạt động dược không vì mục đích thương mại theo quy định của pháp luật về dược.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a022e9-ce24-7069-837e-472e8adbd993",
+    "proposalNumber": "5065/QĐ-BCA",
+    "decisionDate": 1786381200000,
+    "decisionNumber": null,
+    "publicationDate": 1787537979678,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

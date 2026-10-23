@@ -1,0 +1,391 @@
+{
+  "id": "01a158ce-4ba6-749a-a864-fc49c10890d5",
+  "code": "3.000739",
+  "codeNotation": "3.000739",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Tổ chức, cá nhân nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính đến Trung tâm Phục vụ hành chính công cấp xã hoặc nộp trực tuyến trên Cổng Dịch vụ công quốc gia."
+    },
+    {
+      "name": "",
+      "description": "- Trường hợp hồ sơ chưa hợp lệ, trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Ủy ban nhân dân cấp xã hướng dẫn tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ."
+    },
+    {
+      "name": "",
+      "description": "- Trường hợp hồ sơ hợp lệ, trong thời hạn 20 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Ủy ban nhân dân cấp xã kiểm tra hồ sơ, kiểm tra thực tế, nghiệm thu nội dung hoàn thành; xác định đối tượng, điều kiện, mức hỗ trợ và chi phí thực tế đủ điều kiện hỗ trợ; ban hành quyết định hỗ trợ kinh phí; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do."
+    },
+    {
+      "name": "",
+      "description": "- Đối với nội dung cần ý kiến chuyên môn, Ủy ban nhân dân cấp xã lấy ý kiến cơ quan, đơn vị hoặc cá nhân có chuyên môn phù hợp để làm căn cứ xem xét, quyết định hỗ trợ. Thời gian lấy ý kiến chuyên môn nằm trong thời gian 20 ngày giải quyết thủ tục hành chính."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục hỗ trợ phát triển sản phẩm du lịch trên địa bàn tỉnh Điện Biên",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a15877-8ac2-77b0-a018-21e559399fad",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Đơn đề nghị hỗ trợ kinh phí theo mẫu tại Phụ lục ban hành kèm theo Quyết định số 82/2026/QĐ-UBND ngày 13/10/2026.",
+          "code": "ĐYC1",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158c9-cdbc-7005-8544-40754ef0d953",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê nội dung, khối lượng và chi phí thực tế đề nghị hỗ trợ.",
+          "code": "60",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158ca-1295-738c-ba3e-0fcbdaebcf7c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hóa đơn; bảng kê mua hàng hóa, dịch vụ đối với hàng hóa, dịch vụ mua vào không có hóa đơn; phương án quản lý, khai thác và duy tu công trình sau đầu tư: đối với chính sách hỗ trợ quy định tại điểm a khoản 1 Điều 4 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "67",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158ca-4cec-729e-9610-0821f7e58645",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hóa đơn; bảng kê mua hàng hóa, dịch vụ đối với hàng hóa, dịch vụ mua vào không có hóa đơn; hợp đồng thuê nhân công; bảng kê thanh toán tiền công (nếu có): đối với chính sách hỗ trợ quy định tại các điểm b, c, d, e khoản 1 Điều 4 và Điều 5 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "68",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158ca-a23d-740f-b93c-390938be0cee",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hóa đơn mua sắm trang thiết bị phục vụ chiếu sáng, điện trang trí; bảng kê mua hàng hóa, dịch vụ đối với hàng hóa, dịch vụ mua vào không có hóa đơn; phương án quản lý, vận hành, bảo trì hệ thống sau đầu tư: đối với chính sách hỗ trợ quy định tại điểm đ khoản 1 Điều 4 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "69",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158ca-e3e0-7052-8088-1d799123155a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hóa đơn mua sắm thiết bị phục vụ lắp đặt mạng internet không dây (wifi) và hóa đơn thanh toán cước dịch vụ internet không dây: Đối với chính sách hỗ trợ quy định tại điểm g khoản 1 Điều 4 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "70",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158cb-6297-7631-a624-400780f7bfb4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hợp đồng thuê chuyên gia; biên bản nghiệm thu hợp đồng; biên bản thanh lý hợp đồng; hóa đơn hoặc chứng từ thanh toán (nếu có): đối với chính sách hỗ trợ quy định tại điểm h khoản 1 Điều 4 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "71",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158cb-a919-753d-a4dc-87609b5dee62",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "01 video ghi hình chương trình biểu diễn nghệ thuật truyền thống hoặc video ghi hình mô hình trải nghiệm dành cho khách du lịch; kịch bản chương trình biểu diễn hoặc chương trình trải nghiệm cho khách du lịch; hóa đơn hoặc bảng kê mua hàng hóa, dịch vụ đối với trường hợp mua hàng hóa, dịch vụ không có hóa đơn; chứng từ thanh toán (nếu có): đối với chính sách hỗ trợ quy định tại các điểm i, k khoản 1 Điều 4 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "72",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158cb-e9d9-751c-8689-d50fb9b37da1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hợp đồng; biên bản nghiệm thu hợp đồng; biên bản thanh lý hợp đồng; hóa đơn hoặc chứng từ thanh toán (nếu có): Đối với chính sách hỗ trợ quy định tại điểm l khoản 1 Điều 4 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "73",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158cc-3c22-724b-9295-da306d1018d0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hóa đơn; bảng kê mua hàng hóa, dịch vụ đối với trường hợp mua hàng hóa, dịch vụ không có hóa đơn; hợp đồng thuê nhân công (nếu có); bảng kê thanh toán tiền công (nếu có); chứng từ thanh toán (nếu có): Đối với chính sách hỗ trợ quy định tại các điểm m, n, o khoản 1 Điều 4 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "74",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158cc-7bda-74f9-9d10-78e0bfdf5f78",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hóa đơn; hợp đồng mua bán hoặc hợp đồng đóng mới tàu, thuyền; giấy chứng nhận đăng ký phương tiện; Giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường còn hiệu lực; giấy chứng nhận cấp biển hiệu phương tiện vận tải khách du lịch bằng đường thủy nội địa: đối với chính sách hỗ trợ quy định tại Điều 6 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "75",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158cc-de5e-7202-8aec-f75ab5326618",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hợp đồng; hóa đơn; giấy chứng nhận đăng ký xe điện; giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường (đăng kiểm) còn hiệu lực: Đối với chính sách hỗ trợ quy định tại Điều 7 Nghị quyết số 16/2026/NQ-HĐND.  + Hóa đơn; thiết kế gian hàng và phương án bố trí gian hàng: Đối với chính sách hỗ trợ quy định tại điểm a khoản 1 Điều 12 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "76",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": []
+    },
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-bf2462610853"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afdf-880250d65c4f",
+    "019d2bb3-5d86-7760-a641-c2bf458dc8c5",
+    "01a1587c-6dff-73f8-bd8d-e7fec8c2fad3",
+    "01a158c5-a7b0-773f-9ed0-2b6652a8c82b"
+  ],
+  "resultIds": [
+    "01a158c4-5dbb-7431-8845-10035df0cf3e"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-bf2462610853",
+      "name": "Du lịch",
+      "code": "G16-VH21"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-bf2462610853",
+    "name": "Du lịch",
+    "code": "G16-VH21"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a158c5-a7b0-773f-9ed0-2b6652a8c82b",
+      "name": "Quyết định số 82/2026/QĐ-UBND ngày 13 tháng 10 năm 2026 của Ủy ban nhân dân tỉnh ban hành Quy định hồ sơ, trình tự, thủ tục thực hiện hỗ trợ phát triển sản phẩm du lịch trên địa bàn tỉnh Điện Biên.",
+      "code": "82/2026/QĐ-UBND."
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afdf-880250d65c4f",
+      "name": "Du lịch",
+      "code": "09/2017/QH1409/2017/QH14"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a641-c2bf458dc8c5",
+      "name": "Nghị định số 168/2017/NĐ-CP ngày 31/12/2017",
+      "code": "168"
+    },
+    {
+      "id": "01a1587c-6dff-73f8-bd8d-e7fec8c2fad3",
+      "name": "Nghị quyết số 16/2026/NQ-HĐND ngày 29 tháng 6 năm 2026 của Hội đồng nhân dân tỉnh ban hành Quy định chính sách hỗ trợ phát triển sản phẩm du lịch trên địa bàn tỉnh Điện Biên;",
+      "code": "Nghị quyết số 16/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a158c4-5dbb-7431-8845-10035df0cf3e",
+      "name": "Quyết định hỗ trợ phát triển sản phẩm du lịch trên địa bàn tỉnh Điện Biên",
+      "code": "KQ.H18.03VH"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a341-16615c474af4",
+  "departmentPromulgateCode": "H18",
+  "departmentPromulgateName": "UBND tỉnh Điện Biên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1792741609489,
+  "updatedAt": 1792741609489,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công cấp xã hoặc nộp trực tuyến trên Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a158b6-0556-71a9-b688-01d5d3f8c3a8",
+    "proposalNumber": "2347/QĐ-UBND",
+    "decisionDate": 1792429200000,
+    "decisionNumber": null,
+    "publicationDate": 1792741609445,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a341-16615c474af4",
+      "name": "UBND tỉnh Điện Biên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

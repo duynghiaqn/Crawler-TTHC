@@ -1,0 +1,269 @@
+{
+  "id": "019d2bff-0656-73e8-84dc-be214b7bea55",
+  "code": "1.006780",
+  "codeNotation": "1.006780",
+  "executionSteps": [
+    {
+      "name": "Bước 1.",
+      "description": "Trạm, điểm sơ cấp cứu chữ thập đỏ gửi đơn đề nghị cấp lại giấy phép hoạt\nđộng (kèm tài liệu chứng minh nội dung, thông tin sai sót cần sửa lại, trong trường\nhợp có sai sót thông tin) đến Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương\n(cơ quan cấp giấy phép hoạt động)"
+    },
+    {
+      "name": "Bước 2:",
+      "description": "Trong thời hạn 20 ngày làm việc, kể từ ngày nhận được đơn đề nghị cấp lại\nGiấy phép hoạt động, Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương cấp lại\ngiấy phép hoạt động cho trạm, điểm sơ cấp cứu chữ thập đỏ theo mẫu quy định tại Phụ\nlục ban hành kèm theo Thông tư số 20/2026/TT-BYT, trường hợp không đủ điều kiện\ncấp giấy phép phải trả lời bằng văn bản và nêu rõ lý do"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không có"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không có"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không có"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Cấp lại Giấy phép hoạt động đối với trạm, điểm sơ cấp cứu chữ thập đỏ do mất, rách, hỏng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71c5-752a-96aa-589bd25c6199",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp lại Giấy phép hoạt động đối với trạm, điểm sơ cấp cứu chữ thập đỏ tại Sở Y tế",
+          "code": "000.00.00.G18-KQ3050",
+          "attachments": [
+            {
+              "id": "019e39e3-4595-70da-9463-fd46a8fb404d",
+              "fileName": "pl 2b_TT172014.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019e39e3-4595-70da-9463-fd46a8fb404d/pl 2b_TT172014.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b5-23402dedec55"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe2-fd9051104644",
+    "019d2bb3-5d7e-72d1-afe7-070a8b42ab82",
+    "019d2bb3-5d84-71c5-b671-8f7edce94dfc",
+    "01a06a09-b2c0-772c-b0ad-3132b47d59f9"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7b-7208-ba48-514b29bc1836"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b5-23402dedec55",
+      "name": "Khám bệnh, chữa bệnh",
+      "code": "G18-YT07"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b5-23402dedec55",
+    "name": "Khám bệnh, chữa bệnh",
+    "code": "G18-YT07"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe2-fd9051104644",
+      "name": "Thông tư 17/2014/TT-BYT-Quy định việc cấp giấy phép hoạt động đối với trạm, điểm sơ cấp cứu chữ thập đỏ và việc huấn luyện sơ cấp cứu chữ thập đỏ",
+      "code": "17/2014/TT-BYT"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe7-070a8b42ab82",
+      "name": "Nghị định 03/2011/NĐ-CP-Quy định chi tiết và biện pháp thi hành Luật Hoạt động chữ thập đỏ",
+      "code": "03/2011/NĐ-CP"
+    },
+    {
+      "id": "01a06a09-b2c0-772c-b0ad-3132b47d59f9",
+      "name": "Thông tư sửa đổi một số điều của Thông tư số 17/2014/TT-BYT ngày 02 tháng 6 năm 2014 của Bộ trưởng Bộ Y tế quy định việc cấp giấy phép hoạt động đối với trạm, điểm sơ cấp cứu chữ thập đỏ và việc huấn luyện sơ cấp cứu chữ thập đỏ và Thông tư số 17/2013/TT-BYT ngày 06 tháng 6 năm 2013 của Bộ trưởng Bộ Y tế quy định tiêu chí và hướng dẫn kiểm tra, công nhận loại trừ bệnh phong ở quy mô cấp tỉnh và cấp huyện",
+      "code": "20/2026/TT-BYT"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b671-8f7edce94dfc",
+      "name": "Luật 11/2008/QH12-Hoạt động chữ thập đỏ",
+      "code": "11/2008/QH12"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7b-7208-ba48-514b29bc1836",
+      "name": "Giấy phép hoạt động đối với cơ sở khám bệnh, chữa bệnh",
+      "code": "KQ.G18.000060"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "departmentPromulgateCode": "G18",
+  "departmentPromulgateName": "Bộ Y tế",
+  "cases": [
+    {
+      "id": "019dabc1-b5b7-77b9-936b-ec97d68ea5ad",
+      "name": "Cấp lại Giấy phép hoạt động đối với trạm, điểm sơ cấp cứu chữ thập đỏ do mất, rách, hỏng",
+      "code": "1.006780.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a06a97-effa-72f3-88ae-50eebc4719db",
+      "name": "Cấp lại Giấy phép hoạt động đối với trạm, điểm sơ cấp cứu chữ thập đỏ do mất, rách, hỏng",
+      "code": "1.006780.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1776134025626,
+  "updatedAt": 1788494737214,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a069fc-eb6c-748d-916a-ada1a9c80430",
+    "proposalNumber": "2796/QĐ-BYT",
+    "decisionDate": 1788368400000,
+    "decisionNumber": null,
+    "publicationDate": 1788494737112,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

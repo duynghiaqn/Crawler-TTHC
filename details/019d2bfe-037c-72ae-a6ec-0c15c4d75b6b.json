@@ -1,0 +1,295 @@
+{
+  "id": "019d2bfe-037c-72ae-a6ec-0c15c4d75b6b",
+  "code": "2.001765",
+  "codeNotation": "2.001765",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Các tổ chức, cá nhân thuộc đối tượng được thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh không qua biên tập bởi cơ quan báo chí nộp 01 bộ hồ sơ về Ủy ban nhân dân cấp tỉnh nơi thiết lập hệ thống thiết bị thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh.\n- Trong thời hạn 03 ngày làm việc, Ủy ban nhân dân cấp tỉnh có trách nhiệm kiểm tra tính hợp lệ của hồ sơ, thực hiện tiếp nhận chính thức hoặc yêu cầu chỉnh sửa, bổ sung hồ sơ;\n- Trong thời hạn 10 ngày làm việc, kể từ ngày tiếp nhận chính thức hồ sơ hợp lệ, Ủy ban nhân dân cấp tỉnh có trách nhiệm xét cấp đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh. Trường hợp không cấp đăng ký, Ủy ban nhân dân cấp tỉnh có văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định.",
+  "name": "Thủ tục cấp đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7180-744f-b64d-c52504903db8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao các loại giấy tờ sau: Giấy phép thành lập hoặc văn bản pháp lý tương đương đối với các tổ chức quy định tại khoản 2 Điều 18 Nghị định số 242/2026/NĐ-CP; Thẻ thường trú hoặc giấy tờ pháp lý tương đương đối với hộ gia đình, cá nhân người nước ngoài quy định tại khoản 3 Điều 18 Nghị định số 242/2026/NĐ-CP; văn bản đăng ký hoạt động của khách sạn quy định tại khoản 4 Điều 18 Nghị định số 242/2026/NĐ-CP; Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền đối với đơn vị quy định tại khoản 6, khoản 7 Điều 18 Nghị định số 242/2026/NĐ-CP",
+          "code": "000.00.00.G14-KQ001959",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7180-744f-b64d-cb27c95ab4e2",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản thuê, mượn địa điểm lắp đặt thiết bị trong trường hợp thiết bị không được lắp đặt tại địa điểm ghi trong giấy phép thành lập, Giấy chứng nhận đăng ký đầu tư, Giấy chứng nhận đăng ký doanh nghiệp, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền",
+          "code": "000.00.00.G14-KQ001960",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71bb-75c8-bd2d-3b779b9eea20",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai đăng ký theo Mẫu số 13 tại Phụ lục ban hành kèm theo Nghị định số 242/2026/NĐ-CP",
+          "code": "G16-KQ001866",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f8253-f4cc-707e-96f1-91d5e093f358"
+  ],
+  "resultIds": [
+    "019d2bb2-1c75-741b-9abe-d95d5476c8dc"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698f-1081-74cf-8c3b-3602b5a3ecad"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b67e-bd64f644ece5"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+      "name": "Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14-TT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+    "name": "Phát thanh, truyền hình và thông tin điện tử",
+    "code": "G14-TT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b67e-bd64f644ece5",
+      "name": "Sở Văn hóa, Thể thao và Du lịch",
+      "code": "000.00.CS.012"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f8253-f4cc-707e-96f1-91d5e093f358",
+      "name": "Nghị định quy định chi tiết và biện pháp thi hành Luật Báo chí về quản lý hoạt động, phát thanh, truyền hình và dịch vụ phát thanh, truyền hình.",
+      "code": "242/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c75-741b-9abe-d95d5476c8dc",
+      "name": "Giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh",
+      "code": "KQ.G14.000131"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b698f-1081-74cf-8c3b-3602b5a3ecad",
+      "name": "Tổ chức Đảng",
+      "code": "ĐT6"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "019d2cd8-5420-750d-b148-75131b122fff",
+      "name": "Cấp đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh",
+      "code": "2.001765.01",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f82a6-a84c-750f-88ef-34d186e67ce6",
+      "name": "Cấp đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh",
+      "code": "2.001765.01",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559560572,
+  "updatedAt": 1784603387225,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Văn hóa, Thể thao và Du lịch",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f7ede-a60b-708c-ba95-bcdc7a7b762d",
+    "proposalNumber": "1759/QĐ-BVHTTDL",
+    "decisionDate": 1784221200000,
+    "decisionNumber": null,
+    "publicationDate": 1784603387078,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

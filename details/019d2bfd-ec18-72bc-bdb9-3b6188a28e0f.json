@@ -1,0 +1,265 @@
+{
+  "id": "019d2bfd-ec18-72bc-bdb9-3b6188a28e0f",
+  "code": "1.013784",
+  "codeNotation": "1.013784",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Trường hợp thay đổi nội dung ghi trong giấy phép xuất bản thêm ấn phẩm báo chí, cơ quan báo chí của địa phương gửi 01 bộ hồ sơ đề nghị Ủy ban nhân dân cấp tỉnh chấp thuận.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh có trách nhiệm kiểm tra tính đầy đủ, chính xác của hồ sơ. Trường hợp hồ sơ chưa đầy đủ, chính xác, Ủy ban nhân dân cấp tỉnh phải thông báo bằng văn bản và nêu rõ lý do. Hết thời hạn 05 ngày làm việc, trường hợp không có thông báo yêu cầu bổ sung, hoàn thiện hồ sơ bằng văn bản thì hồ sơ được tiếp nhận chính thức.\n- Trong thời hạn 07 ngày làm việc kể từ ngày tiếp nhận chính thức, Ủy ban nhân dân cấp tỉnh chấp thuận bằng văn bản; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Thủ tục chấp thuận thay đổi nội dung ghi trong giấy phép xuất bản thêm ấn phẩm báo chí đối với cơ quan báo chí của địa phương",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019e80d9-1c81-70ab-bd31-1b87edae4afd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của cơ quan báo chí: (+) lý do thay đổi tôn chỉ, mục đích có xác nhận của cơ quan chủ quản báo chí (đối với trường hợp thay đổi tôn chỉ, mục đích); hoặc (+) Mẫu trình bày tên gọi ấn phẩm báo in, tạp chí in (bản màu) có xác nhận của cơ quan chủ quản báo chí (đối với trường hợp thay đổi tên gọi cơ quan chủ quản báo chí, tên gọi cơ quan báo chí, tên gọi ấn phẩm báo chí; thay đổi hình thức trình bày, vị trí của tên gọi ấn phẩm báo chí).",
+          "code": "000.00.00.G16-KQ026618",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-108a168d8c99"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f8253-7b83-74a8-9b67-48f73b229c01",
+    "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+    "01a01e6e-19d0-77ab-93db-cda462a67ed7"
+  ],
+  "resultIds": [
+    "019d2bb2-1c79-762e-8b2c-cc80310feaf1"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e65-9c9d4b77d824"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-108a168d8c99",
+      "name": "Báo chí",
+      "code": "G14-TT02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-108a168d8c99",
+    "name": "Báo chí",
+    "code": "G14-TT02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-9c9d4b77d824",
+      "name": "Ủy ban nhân dân cấp tỉnh",
+      "code": "UBNDCT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3",
+    "019d3810-8907-7195-8ecb-6e3d0c581f7e"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    },
+    {
+      "id": "019d3810-8907-7195-8ecb-6e3d0c581f7e",
+      "name": "Sở Văn hóa, Thể thao và Du lịch"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+      "name": "Thông tư quy định chi tiết hồ sơ, thủ tục cấp, sửa đổi, bổ sung giấy phép hoạt động báo chí; điều kiện, hồ sơ, thủ tục cấp giấy phép xuất bản bản tin, xuất bản đặc san; lưu chiểu bản tin, đặc san.",
+      "code": "20/2026/TT-BVHTTDL "
+    },
+    {
+      "id": "01a01e6e-19d0-77ab-93db-cda462a67ed7",
+      "name": "Nghị định quy định chi tiết thi hành một số điều của Luật Báo chí",
+      "code": "237/2026/NĐ-CP "
+    },
+    {
+      "id": "019f8253-7b83-74a8-9b67-48f73b229c01",
+      "name": "Luật Báo chí 2025",
+      "code": "126/2025/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c79-762e-8b2c-cc80310feaf1",
+      "name": "Văn bản chấp thuận thay đổi nội dung ghi trong giấy phép xuất bản thêm ấn phẩm báo chí đối với cơ quan báo chí của địa phương",
+      "code": "KQ.G16.000369"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "01a031e6-931a-76af-833b-a145f4b8e2bd",
+      "name": "Thủ tục chấp thuận thay đổi nội dung ghi trong giấy phép xuất bản thêm ấn phẩm báo chí đối với cơ quan báo chí của địa phương",
+      "code": "1.013784.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019daed5-717d-753d-a0ec-cbb7b51a5033",
+      "name": "Thủ tục chấp thuận thay đổi nội dung ghi trong giấy phép xuất bản thêm ấn phẩm báo chí đối với cơ quan báo chí của địa phương",
+      "code": "1.013784.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559554584,
+  "updatedAt": 1787543583756,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff3ff-5c64-7698-8888-c706df670883",
+    "proposalNumber": "2149/QĐ-BVHTTDL",
+    "decisionDate": 1786899600000,
+    "decisionNumber": null,
+    "publicationDate": 1787543583558,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

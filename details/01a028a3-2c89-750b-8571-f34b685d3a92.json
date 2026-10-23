@@ -1,0 +1,237 @@
+{
+  "id": "01a028a3-2c89-750b-8571-f34b685d3a92",
+  "code": "1.116473",
+  "codeNotation": "1.116473",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a.\tTổ chức cần vận chuyển chất ma túy, tiền chất theo quy định tại điểm c khoản 1 Điều 27 của Nghị định số 163/2026/NĐ-CP chuẩn bị 01 bộ hồ sơ Bộ Công an;\nb.\tTrường hợp hồ sơ chưa đầy đủ và hợp lệ, trong vòng 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan có thẩm quyền cấp phép có văn bản yêu cầu tổ chức sửa đổi, bổ sung hồ sơ. Trường hợp hết thời hạn yêu cầu sửa đổi, bổ sung hồ sơ hoặc hồ sơ sửa đổi, bổ sung không đáp ứng yêu cầu, cơ quan có thẩm quyền cấp phép ban hành văn bản từ chối cấp phép và nêu rõ lý do;\nc.\tTrong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, cơ quan có thẩm quyền cấp phép thẩm định và cấp giấy phép vận chuyển. Giấy phép vận chuyển được cấp cho từng lần vận chuyển và có giá trị trong thời hạn ghi trên giấy phép nhưng không quá 06 tháng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Cấp phép vận chuyển chất ma túy, tiền chất thuộc thẩm quyền của Bộ Công an",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0289f-5d9c-743c-aacf-3fed711c6dda",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a.\tĐơn đề nghị cấp giấy phép vận chuyển chất ma túy, tiền chất có các nội dung sau: tên, địa chỉ tổ chức giao và tổ chức nhận chất ma túy; mục đích vận chuyển; tên gọi, mã CAS và mã số hàng hóa, số lượng, hàm lượng chất ma túy; thời gian, hành trình, phương tiện vận chuyển",
+          "code": "000.00.00.G07-KQ002578",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a028a0-3c6f-74a7-82de-46dd4716bbaa",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản chứng minh tư cách pháp nhân của tổ chức đề nghị cấp phép và tổ chức thực hiện vận chuyển",
+          "code": "000.00.00.G07-KQ002579",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a028a1-2a37-73da-85df-c498df192da7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao có chứng thực hợp đồng vận chuyển giữa tổ chức đề nghị cấp phép vận chuyển với tổ chức thực hiện vận chuyển",
+          "code": "000.00.00.G07-KQ002580",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a028a1-edc3-747b-a789-be49725f1f43",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao có chứng thực giấy phép xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập chất ma túy (trường hợp vận chuyển từ kho lưu trữ, bảo quản đến cửa khẩu hoặc ngược lại để thực hiện thủ tục hải quan) hoặc giấy tờ hợp lệ chứng minh nguồn gốc, xuất xứ hợp pháp của chất ma túy, tiền chất cần vận chuyển",
+          "code": "000.00.00.G07-KQ002581",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a02313-4be6-702f-b641-946b7f2960e9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0231c-c17a-74ee-804a-764a470fa93a",
+    "01a0231e-bbab-7028-8e19-559d9af5aaf1"
+  ],
+  "resultIds": [
+    "01a028a2-cf5f-74fa-be7f-af4d5979c4a5"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a02313-4be6-702f-b641-946b7f2960e9",
+      "name": "Kiểm soát các hoạt động hợp pháp liên quan đến ma túy",
+      "code": "G01-CA35"
+    }
+  ],
+  "category": {
+    "id": "01a02313-4be6-702f-b641-946b7f2960e9",
+    "name": "Kiểm soát các hoạt động hợp pháp liên quan đến ma túy",
+    "code": "G01-CA35"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0231c-c17a-74ee-804a-764a470fa93a",
+      "name": "Luật Phòng, chống ma túy năm 2025",
+      "code": "120/2025/QH15"
+    },
+    {
+      "id": "01a0231e-bbab-7028-8e19-559d9af5aaf1",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điểu của Luật phòng chống ma túy ",
+      "code": "163/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a028a2-cf5f-74fa-be7f-af4d5979c4a5",
+      "name": "Giấy phép/Văn bản không cấp phép vận chuyển",
+      "code": "KQ.G07.000458"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787537979751,
+  "updatedAt": 1787537979751,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Công an cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Công an cấp Tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a022e9-ce24-7069-837e-472e8adbd993",
+    "proposalNumber": "5065/QĐ-BCA",
+    "decisionDate": 1786381200000,
+    "decisionNumber": null,
+    "publicationDate": 1787537979678,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

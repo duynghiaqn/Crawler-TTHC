@@ -1,0 +1,292 @@
+{
+  "id": "019d2bf8-3ad5-75ed-b8c9-ad5931ff4253",
+  "code": "2.001192",
+  "codeNotation": "2.001192",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân nộp hồ sơ theo quy định đến cơ quan cấp phép.\nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan cấp phép thông báo cho thương nhân để hoàn thiện hồ sơ.\nc) Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan cấp phép gửi văn bản lấy ý kiến kèm theo bộ hồ sơ đầy đủ đến Bộ Quốc phòng hoặc Bộ Công an, tùy thuộc vào sản phẩm gia công phục vụ lực lượng vũ trang nào.\nd) Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ quan cấp phép, Bộ Quốc phòng, Bộ Công an có văn bản trả lời cơ quan cấp phép.\nđ) Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản trả lời của Bộ Quốc phòng, Bộ Công an, cơ quan cấp phép cấp Giấy phép cho thương nhân. Trường hợp từ chối cấp Giấy phép, cơ quan cấp phép có văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 19,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "19 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 19,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "19 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 19,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "19 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "KHÔNG CÓ",
+  "name": "Thủ tục cấp Giấy phép gia công quân phục xuất khẩu cho các lực lượng vũ trang nước ngoài",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a013e2-7b67-73ed-b655-1524122027f2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Đơn đề nghị cấp Giấy phép gia công quân phục xuất khẩu cho các lực lượng vũ trang nước ngoài theo mẫu số 10 quy định tại Phụ lục VII Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương: 01 bản chính.",
+          "code": "XNK-292-40",
+          "attachments": [
+            {
+              "id": "01a013e4-d377-7029-bb0e-9406b8daf31d",
+              "fileName": "Đơn đề nghị cấp Giấy phép gia công quân phục xuất khẩu cho các lực lượng vũ trang nước ngoài.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a013e4-d377-7029-bb0e-9406b8daf31d/Đơn đề nghị cấp Giấy phép gia công quân phục xuất khẩu cho các lực lượng vũ trang nước ngoài.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a013e2-e03c-74b6-9184-d8158a224dd2",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Đơn đặt hàng hoặc văn bản đề nghị giao kết hợp đồng kèm theo 02 ảnh màu/01 mẫu sản phẩm đặt sản xuất, gia công: 01 bản sao có đóng dấu của thương nhân. Đơn đặt hàng hoặc văn bản đề nghị giao kết hợp đồng phải thể hiện tối thiểu các nội dung: Tên, địa chỉ và điện thoại của bên đặt và bên nhận sản xuất, gia công, tên hàng, số lượng, giá trị thanh toán hoặc giá gia công, thời hạn thanh toán và phương thức thanh toán, địa điểm và thời gian giao hàng.",
+          "code": "XNK-292-045",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a013e3-73c3-7358-b83b-e753e2a74db4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c) Hợp đồng, thỏa thuận mua sắm quân phục ký giữa bên đặt gia công với cơ quan chịu trách nhiệm cung cấp trực tiếp quân phục cho lực lượng vũ trang nước ngoài hoặc văn bản của cơ quan chịu trách nhiệm cung cấp trực tiếp quân phục cho lực lượng vũ trang nước ngoài hoặc cơ quan có thẩm quyền nước đặt sản xuất, gia công hoặc văn bản của cơ quan đại diện ngoại giao của nước đặt sản xuất, gia công tại Việt Nam xác nhận đơn hàng được đặt để cung cấp cho lực lượng vũ trang nước ngoài sử dụng cuối cùng. Tài liệu phải thể hiện tối thiểu các nội dung: Nước nhập khẩu, tên đơn vị lực lượng vũ trang nước ngoài sử dụng cuối cùng sản phẩm quân phục; tên bên đặt sản xuất, gia công; tên thương nhân Việt Nam nhận sản xuất, gia công và được hợp pháp hóa lãnh sự theo quy định.",
+          "code": "XNK-292-042",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3"
+  ],
+  "resultIds": [
+    "01a013e5-2d2f-7635-9840-be59adbccf1f"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a013e5-2d2f-7635-9840-be59adbccf1f",
+      "name": "Giấy phép gia công quân phục xuất khẩu cho các lực lượng vũ trang nước ngoài hoặc văn bản từ chối cấp phép.",
+      "code": "KQ-292.2"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "019eab51-c861-739f-a954-4f1aa517bd96",
+      "name": "Thủ tục cấp Giấy phép sản xuất, gia công quân phục cho các lực lượng vũ trang nước ngoài",
+      "code": "2.001192.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a013f3-dcf5-70b5-976e-6987f69ceb68",
+      "name": "Thủ tục cấp Giấy phép gia công quân phục xuất khẩu cho các lực lượng vũ trang nước ngoài",
+      "code": "2.001192.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d81-3314-7368-b4ef-50a7614cb911",
+      "name": "Thủ tục cấp Giấy phép sản xuất, gia công quân phục cho các lực lượng vũ trang nước ngoài",
+      "code": "2.001192.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019dc0f2-1858-7728-94fb-c76e90e7884f",
+      "name": "Thủ tục cấp Giấy phép sản xuất, gia công quân phục cho các lực lượng vũ trang nước ngoài",
+      "code": "2.001192.02",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559181525,
+  "updatedAt": 1787041141709,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "KHÔNG CÓ",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a00ebe-e04a-721a-881a-9da433d007cd",
+    "proposalNumber": "2040/QĐ-BCT",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1787041141457,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

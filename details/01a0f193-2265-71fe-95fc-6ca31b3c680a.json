@@ -1,0 +1,231 @@
+{
+  "id": "01a0f193-2265-71fe-95fc-6ca31b3c680a",
+  "code": "2.002922",
+  "codeNotation": "2.002922",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ sở giáo dục đại học gửi 01 bộ hồ sơ qua Cổng Dịch vụ công quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan của người có thẩm quyền giải quyết thủ tục quy định tại Điều 4 Nghị định số 361/2026/NĐ-CP."
+    },
+    {
+      "name": "",
+      "description": "- Trong thời hạn 10 ngày làm việc, nếu hồ sơ chưa đầy đủ hoặc chưa đúng quy định thì cơ quan tiếp nhận hồ sơ thông báo bằng văn bản những nội dung cần chỉnh sửa, bổ sung cho cơ sở giáo dục đại học."
+    },
+    {
+      "name": "",
+      "description": "- Trong thời hạn 20 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ, đúng quy định, Bộ Giáo dục và Đào tạo chủ trì, phối hợp với Bộ Nội vụ, Bộ Tài chính và các cơ quan có liên quan tổ chức thẩm định việc đáp ứng điều kiện. Trường hợp phải cấp phép hoạt động giáo dục đại học hoặc điều chỉnh, bổ sung quyết định cấp phép hoạt động giáo dục đại học theo quy định tại khoản 5 Điều 3 Nghị định số 361/2026/NĐ-CP thì đồng thời thẩm định việc đáp ứng điều kiện cấp phép hoạt động giáo dục đại học quy định tại Điều 23 Nghị định số 361/2026/NĐ-CP."
+    },
+    {
+      "name": "",
+      "description": "Căn cứ kết quả thẩm định, Bộ trưởng Bộ Giáo dục và Đào tạo quyết định thay đổi trụ sở chính, phân hiệu; đồng thời quyết định cấp phép hoạt động giáo dục đại học hoặc điều chỉnh, bổ sung quyết định cấp phép hoạt động giáo dục đại học theo Mẫu số 07 tại Phụ lục II kèm theo Nghị định số 361/2026/NĐ-CP. \nTrường hợp chưa đáp ứng đủ điều kiện để quyết định thì thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Đối với hồ sơ chưa đầy đủ hoặc chưa đúng: 10 ngày làm việc để thông báo hồ sơ cần chỉnh sửa, bổ sung; \n- Đối với hồ sơ đầy đủ, đúng quy định: 20 ngày làm việc kể từ ngày nhận đủ hồ sơ đúng quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Đối với hồ sơ chưa đầy đủ hoặc chưa đúng: 10 ngày làm việc để thông báo hồ sơ cần chỉnh sửa, bổ sung; \n- Đối với hồ sơ đầy đủ, đúng quy định: 20 ngày làm việc kể từ ngày nhận đủ hồ sơ đúng quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Đối với hồ sơ chưa đầy đủ hoặc chưa đúng: 10 ngày làm việc để thông báo hồ sơ cần chỉnh sửa, bổ sung; \n- Đối với hồ sơ đầy đủ, đúng quy định: 20 ngày làm việc kể từ ngày nhận đủ hồ sơ đúng quy định.",
+      "fees": []
+    }
+  ],
+  "description": "Địa điểm đào tạo dự kiến thay đổi phải đáp ứng điều kiện tương ứng với từng trường hợp sau:\na) Đối với trụ sở chính phải đáp ứng các điều kiện thành lập, cho phép thành lập quy định tại các điểm a, b khoản 1 Điều 19 Nghị định số 361/2026/NĐ-CP và điều kiện cấp phép hoạt động theo quy định tại Điều 23 Nghị định số 361/2026/NĐ-CP.\nb) Đối với phân hiệu phải đáp ứng điều kiện quy định tại điểm a khoản 2 Điều 19 Nghị định số 361/2026/NĐ-CP (trừ điều kiện về năng lực tài chính) và điều kiện cấp phép hoạt động theo quy định tại Điều 23 Nghị định số 361/2026/NĐ-CP.",
+  "name": "Thay đổi địa điểm trụ sở chính, phân hiệu của cơ sở giáo dục đại học",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f18a-cf6c-7589-ba7f-9e48cfdbdd8a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Văn bản đề nghị thay đổi địa điểm đào tạo (theo Mẫu số 06 tại Phụ lục II kèm theo Nghị định số 361/2026/NĐ-CP); trong đó thuyết minh việc đáp ứng các điều kiện thay đổi địa điểm đào tạo theo quy định, kèm theo ý kiến nhất trí với việc thay đổi hoặc cho phép thay đổi địa điểm đào tạo của cơ quan quản lý trực tiếp cơ sở giáo dục đại học công lập hoặc của cá nhân, tổ chức sở hữu đối với cơ sở giáo dục đại học tư thục; và chỉ kèm theo minh chứng tương ứng đối với thông tin, dữ liệu chưa có trong cơ sở dữ liệu của cơ quan nhà nước hoặc chưa được kết nối, chia sẻ theo quy định của pháp luật;",
+          "code": "TP-G03.00000127",
+          "attachments": [
+            {
+              "id": "01a0f18a-7cc3-71be-8e4d-f6089ee936db",
+              "fileName": "Mao so 06 -PLII.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0f18a-7cc3-71be-8e4d-f6089ee936db/Mao so 06 -PLII.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0f18b-a515-73ae-b91d-ecf058e33f01",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Bản sao văn bản của Ủy ban nhân dân cấp tỉnh nơi dự kiến đặt trụ sở chính hoặc phân hiệu mới hoặc thông tin, tài liệu, minh chứng khác, trong đó có thể hiện thông tin về địa điểm dự kiến đặt trụ sở chính hoặc phân hiệu mới và các nội dung thuộc phạm vi quản lý nhà nước của địa phương có liên quan đến điều kiện quy định tại điểm b khoản 1 Điều 19 Nghị định số 361/2026/NĐ-CP (đối với trụ sở chính) hoặc điểm a khoản 2 Điều 19 Nghị định số 361/2026/NĐ-CP (đối với phân hiệu) (chỉ trong trường hợp thông tin, dữ liệu hiện có chưa đủ để xác định các nội dung thuộc phạm vi quản lý nhà nước của địa phương);",
+          "code": "TP-G03.00000128",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0f173-4342-7578-b997-1bf9053ae25c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c) Bản sao văn bản pháp lý xác nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do cơ quan có thẩm quyền cấp hoặc văn bản chứng minh quyền sử dụng hợp pháp đất cho mục đích giáo dục theo quy định của pháp luật. Cơ quan, tổ chức, cá nhân không phải nộp bản sao các thành phần hồ sơ nếu cơ quan có thẩm quyền có thể khai thác, sử dụng thông tin tương ứng trong cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành hoặc đã được số hóa theo quy định.",
+          "code": "TP-G03.00000125",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-d2d27c45102e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0f156-2cd9-7709-8069-a1409dc80572"
+  ],
+  "resultIds": [
+    "01a0f192-fa4d-738c-9fd3-060cf2630a37"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d09-f80ce780479b"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a80-747a-9d03-79aaef8d5941"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-d2d27c45102e",
+      "name": "Giáo dục đại học",
+      "code": "G03-GD04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-d2d27c45102e",
+    "name": "Giáo dục đại học",
+    "code": "G03-GD04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo",
+      "code": "G03"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a80-747a-9d03-79aaef8d5941",
+      "name": "Bộ trưởng Bộ Giáo dục và Đào tạo",
+      "code": "BGD-BT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0f156-2cd9-7709-8069-a1409dc80572",
+      "name": "Quy định về điều kiện đầu tư và hoạt động trong giáo dục nghề nghiệp, giáo dục đại học và kiểm định chất lượng giáo dục\n",
+      "code": "361/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f192-fa4d-738c-9fd3-060cf2630a37",
+      "name": "Quyết định thay đổi hoặc cho phép thay đổi trụ sở chính hoặc phân hiệu của cơ sở giáo dục đại học",
+      "code": "KQ-G03.00000192"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790926096842,
+  "updatedAt": 1790926096842,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Giáo dục và Đào tạo",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ phận Một cửa Bộ Giá dục và Đào tạo",
+  "delegatedAgencies": "Bộ trưởng Bộ Giáo dục và Đào tạo",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Địa điểm đào tạo dự kiến thay đổi phải đáp ứng điều kiện tương ứng với từng trường hợp sau:\na) Đối với trụ sở chính phải đáp ứng các điều kiện thành lập, cho phép thành lập quy định tại các điểm a, b khoản 1 Điều 19 Nghị định số 361/2026/NĐ-CP và điều kiện cấp phép hoạt động theo quy định tại Điều 23 Nghị định số 361/2026/NĐ-CP.\nb) Đối với phân hiệu phải đáp ứng điều kiện quy định tại điểm a khoản 2 Điều 19 Nghị định số 361/2026/NĐ-CP (trừ điều kiện về năng lực tài chính) và điều kiện cấp phép hoạt động theo quy định tại Điều 23 Nghị định số 361/2026/NĐ-CP.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0f127-306c-74d9-aa9f-48991174cd52",
+    "proposalNumber": "2854/QĐ-BGDĐT",
+    "decisionDate": 1790701200000,
+    "decisionNumber": null,
+    "publicationDate": 1790926096561,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

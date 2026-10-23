@@ -1,0 +1,1669 @@
+{
+  "compared_at": "2026-10-23T20:01:38.408Z",
+  "filter": "Unique by TTHC Code (National Standard + Gia Lai H21 | Excluding specific TTHCs of other provinces)",
+  "summary": {
+    "previous_total": 2126,
+    "current_total": 2126,
+    "net_change": 0,
+    "added_count": 0,
+    "removed_count": 44,
+    "modified_count": 0,
+    "administrative": {
+      "current_total": 2076,
+      "added_count": 0,
+      "removed_count": 44,
+      "modified_count": 0
+    },
+    "internal": {
+      "current_total": 50,
+      "added_count": 0,
+      "removed_count": 0,
+      "modified_count": 0
+    },
+    "level_breakdown": {
+      "province_only": 1643,
+      "ward_only": 317,
+      "both_province_and_ward": 166
+    }
+  },
+  "added": [],
+  "removed": [
+    {
+      "id": "019d2bfa-8e4a-700f-85e7-90b59f910ad0",
+      "code": "1.014256",
+      "name": "Xác nhận đăng ký thu hồi khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014256"
+    },
+    {
+      "id": "019d2bfa-8e5a-7180-9b55-92c56132c8e6",
+      "code": "1.014258",
+      "name": "Xác nhận đăng ký thu hồi khoáng sản (cấp Xã)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp xã",
+      "isProvince": false,
+      "isWard": true,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014258"
+    },
+    {
+      "id": "019d2bfa-8e5e-714e-b4e2-87150f285b80",
+      "code": "1.014259",
+      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản (cấp Xã)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp xã",
+      "isProvince": false,
+      "isWard": true,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014259"
+    },
+    {
+      "id": "019d2bfa-8e61-73de-8f80-81e6e2a412dc",
+      "code": "1.014264",
+      "name": "Điều chỉnh giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014264"
+    },
+    {
+      "id": "019d2bfa-8e64-7535-a862-5aac8070939b",
+      "code": "1.014257",
+      "name": "Cấp giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014257"
+    },
+    {
+      "id": "019d2bfa-8e66-755d-82c5-0b803e0b405a",
+      "code": "1.014265",
+      "name": "Cấp lại giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014265"
+    },
+    {
+      "id": "019d2bfa-8e6e-7289-8f4e-fcc59ecbc609",
+      "code": "1.014261",
+      "name": "Cấp Giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014261"
+    },
+    {
+      "id": "019d2bfa-8e6f-7583-861a-43fdfcf8a805",
+      "code": "1.014268",
+      "name": "Trả lại giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014268"
+    },
+    {
+      "id": "019d2bfa-8e7f-741f-b50c-ee8aa32f0e27",
+      "code": "1.014262",
+      "name": "Cấp lại giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014262"
+    },
+    {
+      "id": "019d2bfa-8e82-710b-b1bf-e1d04040b26f",
+      "code": "1.014260",
+      "name": "Lựa chọn tổ chức, cá nhân để xem xét cấp giấy phép thăm dò khoáng sản ở khu vực không đấu giá quyền khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014260"
+    },
+    {
+      "id": "019d2bfa-8e84-70cd-be6b-5224cd26d748",
+      "code": "1.014270",
+      "name": "Chuyển nhượng quyền khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014270"
+    },
+    {
+      "id": "019d2bfa-8e84-7257-9eb2-f32167d4e12d",
+      "code": "1.014266",
+      "name": "Gia hạn giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014266"
+    },
+    {
+      "id": "019d2bfa-8e84-7685-a875-ba8983749550",
+      "code": "1.014271",
+      "name": "Chuyển nhượng quyền thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014271"
+    },
+    {
+      "id": "019d2bfa-8e85-7694-832b-66e645a91576",
+      "code": "1.014274",
+      "name": "Phê duyệt đề án đóng cửa mỏ khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014274"
+    },
+    {
+      "id": "019d2bfa-8e86-74bd-b263-94c85d792796",
+      "code": "1.014273",
+      "name": "Thăm dò bổ sung để nâng cấp tài nguyên, trữ lượng khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014273"
+    },
+    {
+      "id": "019d2bfa-8e89-762a-934e-fa84a3491a00",
+      "code": "1.014263",
+      "name": "Gia hạn giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014263"
+    },
+    {
+      "id": "019d2bfa-8e8c-76d7-ac45-5e43f465d794",
+      "code": "1.014269",
+      "name": "Trả lại giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014269"
+    },
+    {
+      "id": "019d2bfa-8e8c-76ed-a45f-1a8a49ec6471",
+      "code": "1.014267",
+      "name": "Điều chỉnh giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014267"
+    },
+    {
+      "id": "019d2bfa-8e90-74fb-8624-3b714010edbf",
+      "code": "1.014277",
+      "name": "Chấp thuận phương án đóng cửa mỏ khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014277"
+    },
+    {
+      "id": "019d2bfa-8e92-7108-a0d9-e8f11c86f323",
+      "code": "1.014280",
+      "name": "Gia hạn giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014280"
+    },
+    {
+      "id": "019d2bfa-8e94-741a-84df-6024d44555b1",
+      "code": "1.014279",
+      "name": "Cấp giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014279"
+    },
+    {
+      "id": "019d2bfa-8e94-75ef-947b-1f5d7064a0e3",
+      "code": "1.014272",
+      "name": "Cấp đổi giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014272"
+    },
+    {
+      "id": "019d2bfa-8e97-7548-9d9b-a76ff8a039b2",
+      "code": "1.014276",
+      "name": "Điều chỉnh nội dung đề án đóng cửa mỏ khoáng sản đã được phê duyệt (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014276"
+    },
+    {
+      "id": "019d2bfa-8ea9-743f-af74-73a3dfb0bcf9",
+      "code": "1.014278",
+      "name": "Quyết định đóng cửa mỏ khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014278"
+    },
+    {
+      "id": "019d2bfa-8eb9-724e-8456-e3454726f643",
+      "code": "1.014281",
+      "name": "Điều chỉnh giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014281"
+    },
+    {
+      "id": "019d2bfa-961d-707e-99a4-c63d8ca61573",
+      "code": "1.014292",
+      "name": "Chấp thuận thăm dò, khai thác khoáng sản tại khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014292"
+    },
+    {
+      "id": "019d2bfa-9621-76af-9feb-3fe9fe2daae8",
+      "code": "1.014295",
+      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014295"
+    },
+    {
+      "id": "019d2bfa-9621-77a4-8bb2-57f9962bb6a8",
+      "code": "1.014291",
+      "name": "Bổ sung khối lượng công tác thăm dò khi giấy phép thăm dò khoáng sản đã hết thời hạn (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014291"
+    },
+    {
+      "id": "019d2bfa-9623-754e-ae2d-ecbddbd72dbd",
+      "code": "1.014283",
+      "name": "Chuyển nhượng quyền khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014283"
+    },
+    {
+      "id": "019d2bfa-9626-719a-94a4-c96572a01786",
+      "code": "1.014282",
+      "name": "Trả lại giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014282"
+    },
+    {
+      "id": "019d2bfa-9626-7758-8c07-84b3b5b39fda",
+      "code": "1.014290",
+      "name": "Xác nhận kết quả khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014290"
+    },
+    {
+      "id": "019d2bfa-9630-76c4-82aa-e13f5d7e6061",
+      "code": "1.014289",
+      "name": "Chấp thuận khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV tại khu vực không đấu giá quyền khai thác khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014289"
+    },
+    {
+      "id": "019d2bfa-9633-724b-9c0f-59b125245c92",
+      "code": "1.014294",
+      "name": "Chấp thuận nội dung đánh giá mức độ ảnh hưởng của việc thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014294"
+    },
+    {
+      "id": "019d2bfa-9636-708f-9e3e-867d3cd053f8",
+      "code": "1.014346",
+      "name": "Giao nộp, thu nhận thông tin, dữ liệu địa chất, khoáng sản (cấp tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014346"
+    },
+    {
+      "id": "019d2bfa-963d-73fd-984c-2fa23676a579",
+      "code": "1.014466",
+      "name": "Công nhận kết quả thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014466"
+    },
+    {
+      "id": "019d2bfa-9679-7365-90c0-0d8d7697a0ab",
+      "code": "1.014786",
+      "name": "Khai thác thông tin, dữ liệu địa chất, khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014786"
+    },
+    {
+      "id": "019d2bfa-9df5-728a-bce4-cfa0e32c0b40",
+      "code": "1.014787",
+      "name": "Chấp thuận việc lấy mẫu để nghiên cứu, thử nghiệm công nghệ chế biến khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014787"
+    },
+    {
+      "id": "019d2bfa-9df9-749f-8ca9-da3dd4eab2e9",
+      "code": "1.014789",
+      "name": "Chấp thuận thay đổi nội dung đề án thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014789"
+    },
+    {
+      "id": "019d2bfa-9dfc-7388-8368-3b7128665588",
+      "code": "1.014788",
+      "name": "Lựa chọn tổ chức, cá nhân để nộp hồ sơ đề nghị cấp giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014788"
+    },
+    {
+      "id": "019d2bfb-2b1e-7536-9438-c72e99331359",
+      "code": "1.014680",
+      "name": "Thủ tục tặng, truy tặng \"Huy chương Thanh niên xung phong vẻ vang\"",
+      "category": "",
+      "agency": "Ban Thi đua - Khen thưởng Trung ương - Bộ Nội vụ",
+      "level_label": "Cả Cấp tỉnh & Cấp xã",
+      "isProvince": true,
+      "isWard": true,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nội vụ",
+      "executingAgencies": "Ban Thi đua - Khen thưởng Trung ương - Bộ Nội vụ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014680"
+    },
+    {
+      "id": "019d2bfb-df4a-7096-8ab6-8f1341f50cdd",
+      "code": "1.005419",
+      "name": "Quyết định sử dụng tài sản công để tham gia dự án đầu tư theo hình thức đối tác công - tư",
+      "category": "",
+      "agency": "Ủy ban Nhân dân tỉnh và thành phố trực thuộc trung ương., Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Tài chính",
+      "executingAgencies": "Ủy ban Nhân dân tỉnh và thành phố trực thuộc trung ương., Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.005419"
+    },
+    {
+      "id": "019d2bfb-df70-748e-89c5-7c3fe7606330",
+      "code": "1.005429",
+      "name": "Thanh toán chi phí có liên quan đến việc xử lý tài sản công",
+      "category": "",
+      "agency": "Ủy ban Nhân dân tỉnh và thành phố trực thuộc trung ương., Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Tài chính",
+      "executingAgencies": "Ủy ban Nhân dân tỉnh và thành phố trực thuộc trung ương., Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.005429"
+    },
+    {
+      "id": "019d2bfd-10a4-7254-8e10-065dc0af6eff",
+      "code": "3.000214",
+      "name": "Thủ tục xử lý miễn lãi các khoản lãi chậm nộp của Quỹ Hỗ trợ sắp xếp và phát triển doanh nghiệp (cấp Tỉnh)",
+      "category": "",
+      "agency": "Cơ quan đại diện chủ sở hữu",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Tài chính",
+      "executingAgencies": "Cơ quan đại diện chủ sở hữu",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=3.000214"
+    },
+    {
+      "id": "019d2bfe-a03d-7095-9f4e-fa1054f83a65",
+      "code": "2.002287",
+      "name": "Cấp lại Giấy phép kinh doanh vận tải bằng xe ô tô, bằng xe bốn bánh có gắn động cơ trường hợp Giấy phép kinh doanh bị mất, bị hỏng",
+      "category": "",
+      "agency": "Sở Xây dựng",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ xây dựng (Giao thông vận tải cũ)",
+      "executingAgencies": "Sở Xây dựng",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002287"
+    }
+  ],
+  "modified": [],
+  "added_items": [],
+  "removed_items": [
+    {
+      "id": "019d2bfa-8e4a-700f-85e7-90b59f910ad0",
+      "code": "1.014256",
+      "name": "Xác nhận đăng ký thu hồi khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014256"
+    },
+    {
+      "id": "019d2bfa-8e5a-7180-9b55-92c56132c8e6",
+      "code": "1.014258",
+      "name": "Xác nhận đăng ký thu hồi khoáng sản (cấp Xã)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp xã",
+      "isProvince": false,
+      "isWard": true,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014258"
+    },
+    {
+      "id": "019d2bfa-8e5e-714e-b4e2-87150f285b80",
+      "code": "1.014259",
+      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản (cấp Xã)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp xã",
+      "isProvince": false,
+      "isWard": true,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014259"
+    },
+    {
+      "id": "019d2bfa-8e61-73de-8f80-81e6e2a412dc",
+      "code": "1.014264",
+      "name": "Điều chỉnh giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014264"
+    },
+    {
+      "id": "019d2bfa-8e64-7535-a862-5aac8070939b",
+      "code": "1.014257",
+      "name": "Cấp giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014257"
+    },
+    {
+      "id": "019d2bfa-8e66-755d-82c5-0b803e0b405a",
+      "code": "1.014265",
+      "name": "Cấp lại giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014265"
+    },
+    {
+      "id": "019d2bfa-8e6e-7289-8f4e-fcc59ecbc609",
+      "code": "1.014261",
+      "name": "Cấp Giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014261"
+    },
+    {
+      "id": "019d2bfa-8e6f-7583-861a-43fdfcf8a805",
+      "code": "1.014268",
+      "name": "Trả lại giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014268"
+    },
+    {
+      "id": "019d2bfa-8e7f-741f-b50c-ee8aa32f0e27",
+      "code": "1.014262",
+      "name": "Cấp lại giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014262"
+    },
+    {
+      "id": "019d2bfa-8e82-710b-b1bf-e1d04040b26f",
+      "code": "1.014260",
+      "name": "Lựa chọn tổ chức, cá nhân để xem xét cấp giấy phép thăm dò khoáng sản ở khu vực không đấu giá quyền khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014260"
+    },
+    {
+      "id": "019d2bfa-8e84-70cd-be6b-5224cd26d748",
+      "code": "1.014270",
+      "name": "Chuyển nhượng quyền khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014270"
+    },
+    {
+      "id": "019d2bfa-8e84-7257-9eb2-f32167d4e12d",
+      "code": "1.014266",
+      "name": "Gia hạn giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014266"
+    },
+    {
+      "id": "019d2bfa-8e84-7685-a875-ba8983749550",
+      "code": "1.014271",
+      "name": "Chuyển nhượng quyền thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014271"
+    },
+    {
+      "id": "019d2bfa-8e85-7694-832b-66e645a91576",
+      "code": "1.014274",
+      "name": "Phê duyệt đề án đóng cửa mỏ khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014274"
+    },
+    {
+      "id": "019d2bfa-8e86-74bd-b263-94c85d792796",
+      "code": "1.014273",
+      "name": "Thăm dò bổ sung để nâng cấp tài nguyên, trữ lượng khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014273"
+    },
+    {
+      "id": "019d2bfa-8e89-762a-934e-fa84a3491a00",
+      "code": "1.014263",
+      "name": "Gia hạn giấy phép thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014263"
+    },
+    {
+      "id": "019d2bfa-8e8c-76d7-ac45-5e43f465d794",
+      "code": "1.014269",
+      "name": "Trả lại giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014269"
+    },
+    {
+      "id": "019d2bfa-8e8c-76ed-a45f-1a8a49ec6471",
+      "code": "1.014267",
+      "name": "Điều chỉnh giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014267"
+    },
+    {
+      "id": "019d2bfa-8e90-74fb-8624-3b714010edbf",
+      "code": "1.014277",
+      "name": "Chấp thuận phương án đóng cửa mỏ khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014277"
+    },
+    {
+      "id": "019d2bfa-8e92-7108-a0d9-e8f11c86f323",
+      "code": "1.014280",
+      "name": "Gia hạn giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014280"
+    },
+    {
+      "id": "019d2bfa-8e94-741a-84df-6024d44555b1",
+      "code": "1.014279",
+      "name": "Cấp giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014279"
+    },
+    {
+      "id": "019d2bfa-8e94-75ef-947b-1f5d7064a0e3",
+      "code": "1.014272",
+      "name": "Cấp đổi giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014272"
+    },
+    {
+      "id": "019d2bfa-8e97-7548-9d9b-a76ff8a039b2",
+      "code": "1.014276",
+      "name": "Điều chỉnh nội dung đề án đóng cửa mỏ khoáng sản đã được phê duyệt (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014276"
+    },
+    {
+      "id": "019d2bfa-8ea9-743f-af74-73a3dfb0bcf9",
+      "code": "1.014278",
+      "name": "Quyết định đóng cửa mỏ khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014278"
+    },
+    {
+      "id": "019d2bfa-8eb9-724e-8456-e3454726f643",
+      "code": "1.014281",
+      "name": "Điều chỉnh giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014281"
+    },
+    {
+      "id": "019d2bfa-961d-707e-99a4-c63d8ca61573",
+      "code": "1.014292",
+      "name": "Chấp thuận thăm dò, khai thác khoáng sản tại khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014292"
+    },
+    {
+      "id": "019d2bfa-9621-76af-9feb-3fe9fe2daae8",
+      "code": "1.014295",
+      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014295"
+    },
+    {
+      "id": "019d2bfa-9621-77a4-8bb2-57f9962bb6a8",
+      "code": "1.014291",
+      "name": "Bổ sung khối lượng công tác thăm dò khi giấy phép thăm dò khoáng sản đã hết thời hạn (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014291"
+    },
+    {
+      "id": "019d2bfa-9623-754e-ae2d-ecbddbd72dbd",
+      "code": "1.014283",
+      "name": "Chuyển nhượng quyền khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014283"
+    },
+    {
+      "id": "019d2bfa-9626-719a-94a4-c96572a01786",
+      "code": "1.014282",
+      "name": "Trả lại giấy phép khai thác tận thu khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014282"
+    },
+    {
+      "id": "019d2bfa-9626-7758-8c07-84b3b5b39fda",
+      "code": "1.014290",
+      "name": "Xác nhận kết quả khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014290"
+    },
+    {
+      "id": "019d2bfa-9630-76c4-82aa-e13f5d7e6061",
+      "code": "1.014289",
+      "name": "Chấp thuận khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV tại khu vực không đấu giá quyền khai thác khoáng sản",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014289"
+    },
+    {
+      "id": "019d2bfa-9633-724b-9c0f-59b125245c92",
+      "code": "1.014294",
+      "name": "Chấp thuận nội dung đánh giá mức độ ảnh hưởng của việc thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014294"
+    },
+    {
+      "id": "019d2bfa-9636-708f-9e3e-867d3cd053f8",
+      "code": "1.014346",
+      "name": "Giao nộp, thu nhận thông tin, dữ liệu địa chất, khoáng sản (cấp tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014346"
+    },
+    {
+      "id": "019d2bfa-963d-73fd-984c-2fa23676a579",
+      "code": "1.014466",
+      "name": "Công nhận kết quả thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014466"
+    },
+    {
+      "id": "019d2bfa-9679-7365-90c0-0d8d7697a0ab",
+      "code": "1.014786",
+      "name": "Khai thác thông tin, dữ liệu địa chất, khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014786"
+    },
+    {
+      "id": "019d2bfa-9df5-728a-bce4-cfa0e32c0b40",
+      "code": "1.014787",
+      "name": "Chấp thuận việc lấy mẫu để nghiên cứu, thử nghiệm công nghệ chế biến khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014787"
+    },
+    {
+      "id": "019d2bfa-9df9-749f-8ca9-da3dd4eab2e9",
+      "code": "1.014789",
+      "name": "Chấp thuận thay đổi nội dung đề án thăm dò khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014789"
+    },
+    {
+      "id": "019d2bfa-9dfc-7388-8368-3b7128665588",
+      "code": "1.014788",
+      "name": "Lựa chọn tổ chức, cá nhân để nộp hồ sơ đề nghị cấp giấy phép khai thác khoáng sản (cấp Tỉnh)",
+      "category": {
+        "id": "019d2bbb-69ee-7079-a6b2-d8f1a022b717",
+        "name": "Địa chất và khoáng sản",
+        "code": "G13-TN03"
+      },
+      "agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
+      "executingAgencies": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014788"
+    },
+    {
+      "id": "019d2bfb-2b1e-7536-9438-c72e99331359",
+      "code": "1.014680",
+      "name": "Thủ tục tặng, truy tặng \"Huy chương Thanh niên xung phong vẻ vang\"",
+      "category": "",
+      "agency": "Ban Thi đua - Khen thưởng Trung ương - Bộ Nội vụ",
+      "level_label": "Cả Cấp tỉnh & Cấp xã",
+      "isProvince": true,
+      "isWard": true,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Nội vụ",
+      "executingAgencies": "Ban Thi đua - Khen thưởng Trung ương - Bộ Nội vụ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.014680"
+    },
+    {
+      "id": "019d2bfb-df4a-7096-8ab6-8f1341f50cdd",
+      "code": "1.005419",
+      "name": "Quyết định sử dụng tài sản công để tham gia dự án đầu tư theo hình thức đối tác công - tư",
+      "category": "",
+      "agency": "Ủy ban Nhân dân tỉnh và thành phố trực thuộc trung ương., Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Tài chính",
+      "executingAgencies": "Ủy ban Nhân dân tỉnh và thành phố trực thuộc trung ương., Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.005419"
+    },
+    {
+      "id": "019d2bfb-df70-748e-89c5-7c3fe7606330",
+      "code": "1.005429",
+      "name": "Thanh toán chi phí có liên quan đến việc xử lý tài sản công",
+      "category": "",
+      "agency": "Ủy ban Nhân dân tỉnh và thành phố trực thuộc trung ương., Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Tài chính",
+      "executingAgencies": "Ủy ban Nhân dân tỉnh và thành phố trực thuộc trung ương., Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=1.005429"
+    },
+    {
+      "id": "019d2bfd-10a4-7254-8e10-065dc0af6eff",
+      "code": "3.000214",
+      "name": "Thủ tục xử lý miễn lãi các khoản lãi chậm nộp của Quỹ Hỗ trợ sắp xếp và phát triển doanh nghiệp (cấp Tỉnh)",
+      "category": "",
+      "agency": "Cơ quan đại diện chủ sở hữu",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ Tài chính",
+      "executingAgencies": "Cơ quan đại diện chủ sở hữu",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=3.000214"
+    },
+    {
+      "id": "019d2bfe-a03d-7095-9f4e-fa1054f83a65",
+      "code": "2.002287",
+      "name": "Cấp lại Giấy phép kinh doanh vận tải bằng xe ô tô, bằng xe bốn bánh có gắn động cơ trường hợp Giấy phép kinh doanh bị mất, bị hỏng",
+      "category": "",
+      "agency": "Sở Xây dựng",
+      "level_label": "Cấp tỉnh",
+      "isProvince": true,
+      "isWard": false,
+      "nhom_thu_tuc": "Thủ tục hành chính",
+      "is_noi_bo": false,
+      "departmentPromulgate": "Bộ xây dựng (Giao thông vận tải cũ)",
+      "executingAgencies": "Sở Xây dựng",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=2.002287"
+    }
+  ],
+  "modified_items": []
+}

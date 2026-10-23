@@ -1,0 +1,593 @@
+{
+  "id": "019f6fa7-9743-739f-9695-c0e5dbcc4ecd",
+  "code": "1.115886",
+  "codeNotation": "1.115886",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa (Trung tâm phục vụ hành chính công tỉnh, Trung tâm phục vụ hành chính công cấp xã).\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện:\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất hoặc Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất hoặc người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận hoặc thuộc trường hợp giảm diện tích thửa đất do sạt lở tự nhiên (nếu có).\n- Trường hợp giảm diện tích thửa đất do sạt lở tự nhiên thì Ủy ban nhân dân cấp xã có trách nhiệm xác nhận bằng văn bản về tình trạng sạt lở tự nhiên để chuyển cho Văn phòng đăng ký đất đai và người sử dụng đất. \n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai.\n- Cấp mới Giấy chứng nhận hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp; trao Giấy chứng nhận hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 4,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Không quá 04 ngày làm việc đối với thủ tục đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất.\nĐối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 14 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 4,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Không quá 04 ngày làm việc đối với thủ tục đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất.\nĐối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 14 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 4,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Không quá 04 ngày làm việc đối với thủ tục đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất.\nĐối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 14 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Không quá 05 ngày làm việc đối với thủ tục thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề.\nĐối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Không quá 05 ngày làm việc đối với thủ tục thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề.\nĐối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Không quá 05 ngày làm việc đối với thủ tục thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề.\nĐối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Không quá 10 ngày làm việc đối với thủ tục giảm diện tích thửa đất do sạt lở tự nhiên.\nĐối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Không quá 10 ngày làm việc đối với thủ tục giảm diện tích thửa đất do sạt lở tự nhiên.\nĐối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Không quá 10 ngày làm việc đối với thủ tục giảm diện tích thửa đất do sạt lở tự nhiên.\nĐối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký biến động đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất; thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề; giảm diện tích thửa đất do sạt lở tự nhiên",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6dd4-b088-71b7-ba97-b0df17939ff6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 14 ban hành kèm theo Quyết định 37/2026/QĐ-UBND",
+          "code": "TP-H14.25",
+          "attachments": [
+            {
+              "id": "019f6dd4-ab6a-72b6-b82d-2a62832843af",
+              "fileName": "Mẫu số 14 Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6dd4-ab6a-72b6-b82d-2a62832843af/Mẫu số 14 Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx"
+            },
+            {
+              "id": "019f6e54-117b-702b-b417-fe2bc720708c",
+              "fileName": "Mẫu số 14a Danh sách những người sử dụng chung thửa đất, sở hữu chung tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6e54-117b-702b-b417-fe2bc720708c/Mẫu số 14a Danh sách những người sử dụng chung thửa đất, sở hữu chung tài sản gắn liền với đất.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6dd6-420d-73ec-8755-f434369d0bb5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận quyền sử dụng đất đã cấp",
+          "code": "TP-H14.27",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6fa0-0c0a-7117-9b1e-0fda150071a6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản chính giấy tờ chứng minh về việc đổi tên, thay đổi thông tin của người sử dụng đất, chủ sở hữu tài sản gắn liền với đất đối với trường hợp không khai thác, sử dụng thông tin trong Cơ sở dữ liệu quốc gia về dân cư",
+          "code": "TP-H14.86",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6fa0-5db4-7078-b4ea-02ed88d20653",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan có thẩm quyền cho phép hoặc công nhận việc đổi tên hoặc thay đổi thông tin theo quy định của pháp luật đối với tổ chức, người gốc Việt Nam định cư ở nước ngoài, cộng đồng dân cư",
+          "code": "TP-H14.87",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6dd7-728e-71c7-967a-e264dfbecef4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mảnh trích đo bản đồ địa chính thửa đất",
+          "code": "TP-H14.28",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6e27-ab40-70a9-9e18-d10543aeab33",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện",
+          "code": "TP-H14.35",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b) Đối với trường hợp thay đổi số hiệu hoặc địa chỉ của thửa đất",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6dd4-b088-71b7-ba97-b0df17939ff6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 14 ban hành kèm theo Quyết định 37/2026/QĐ-UBND",
+          "code": "TP-H14.25",
+          "attachments": [
+            {
+              "id": "019f6dd4-ab6a-72b6-b82d-2a62832843af",
+              "fileName": "Mẫu số 14 Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6dd4-ab6a-72b6-b82d-2a62832843af/Mẫu số 14 Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx"
+            },
+            {
+              "id": "019f6e54-117b-702b-b417-fe2bc720708c",
+              "fileName": "Mẫu số 14a Danh sách những người sử dụng chung thửa đất, sở hữu chung tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6e54-117b-702b-b417-fe2bc720708c/Mẫu số 14a Danh sách những người sử dụng chung thửa đất, sở hữu chung tài sản gắn liền với đất.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6dd6-420d-73ec-8755-f434369d0bb5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận quyền sử dụng đất đã cấp",
+          "code": "TP-H14.27",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6dd7-728e-71c7-967a-e264dfbecef4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mảnh trích đo bản đồ địa chính thửa đất",
+          "code": "TP-H14.28",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6e27-ab40-70a9-9e18-d10543aeab33",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện",
+          "code": "TP-H14.35",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "c) Đối với trường hợp thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6dd4-b088-71b7-ba97-b0df17939ff6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 14 ban hành kèm theo Quyết định 37/2026/QĐ-UBND",
+          "code": "TP-H14.25",
+          "attachments": [
+            {
+              "id": "019f6dd4-ab6a-72b6-b82d-2a62832843af",
+              "fileName": "Mẫu số 14 Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6dd4-ab6a-72b6-b82d-2a62832843af/Mẫu số 14 Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx"
+            },
+            {
+              "id": "019f6e54-117b-702b-b417-fe2bc720708c",
+              "fileName": "Mẫu số 14a Danh sách những người sử dụng chung thửa đất, sở hữu chung tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6e54-117b-702b-b417-fe2bc720708c/Mẫu số 14a Danh sách những người sử dụng chung thửa đất, sở hữu chung tài sản gắn liền với đất.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6dd6-420d-73ec-8755-f434369d0bb5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận quyền sử dụng đất đã cấp",
+          "code": "TP-H14.27",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6fa1-0b56-74e0-8880-8c6521dc4adf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc thay đổi quyền của người có quyền lợi liên quan theo quy định của pháp luật dân sự",
+          "code": "TP-H14.88",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6dd7-728e-71c7-967a-e264dfbecef4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mảnh trích đo bản đồ địa chính thửa đất",
+          "code": "TP-H14.28",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6e27-ab40-70a9-9e18-d10543aeab33",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện",
+          "code": "TP-H14.35",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "d) Đối với trường hợp giảm diện tích thửa đất do sạt lở tự nhiên:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6dd4-b088-71b7-ba97-b0df17939ff6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 14 ban hành kèm theo Quyết định 37/2026/QĐ-UBND",
+          "code": "TP-H14.25",
+          "attachments": [
+            {
+              "id": "019f6dd4-ab6a-72b6-b82d-2a62832843af",
+              "fileName": "Mẫu số 14 Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6dd4-ab6a-72b6-b82d-2a62832843af/Mẫu số 14 Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx"
+            },
+            {
+              "id": "019f6e54-117b-702b-b417-fe2bc720708c",
+              "fileName": "Mẫu số 14a Danh sách những người sử dụng chung thửa đất, sở hữu chung tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6e54-117b-702b-b417-fe2bc720708c/Mẫu số 14a Danh sách những người sử dụng chung thửa đất, sở hữu chung tài sản gắn liền với đất.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6dd6-420d-73ec-8755-f434369d0bb5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận quyền sử dụng đất đã cấp",
+          "code": "TP-H14.27",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6e27-ab40-70a9-9e18-d10543aeab33",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện",
+          "code": "TP-H14.35",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f6a4a-0f53-70dd-90f4-7f8e48fb65d9"
+  ],
+  "resultIds": [
+    "019f6a35-3295-750b-81da-281b48fb23e7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a347-b53f134b0f27"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a85-74ec-a347-b53f134b0f27"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6ada-753f-9ac7-10f06892bef7"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a347-b53f134b0f27",
+      "name": "Phòng thẩm định & cấp GCN cá nhân",
+      "code": "H21.24.01.01"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a85-74ec-a347-b53f134b0f27",
+      "name": "Phòng thẩm định & cấp GCN cá nhân",
+      "code": "H21.24.01.01"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6ada-753f-9ac7-10f06892bef7",
+      "name": "Cơ quan thuế",
+      "code": "BTC-CQT"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f6a4a-0f53-70dd-90f4-7f8e48fb65d9",
+      "name": "Quyết định Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Cao Bằng",
+      "code": "37/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f6a35-3295-750b-81da-281b48fb23e7",
+      "name": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất",
+      "code": "KQ-H14.2"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33b-e8250c0580ce",
+  "departmentPromulgateCode": "H14",
+  "departmentPromulgateName": "UBND tỉnh Cao Bằng",
+  "cases": [
+    {
+      "id": "019f7db4-70bd-768f-899e-4a572f3921b5",
+      "name": "Đăng ký biến động đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất; thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề; giảm diện tích thửa đất do sạt lở tự nhiên (thủ tục đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất)",
+      "code": "1.115886.01",
+      "processingDay": {
+        "qty": 4,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f7db4-70d1-77cb-9da4-f45a0f24a291",
+      "name": "Đăng ký biến động đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất; thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề; giảm diện tích thửa đất do sạt lở tự nhiên (thủ tục thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề)",
+      "code": "1.115886.02",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f7db4-70e9-707b-aeb9-a8274d5e92fe",
+      "name": "Đăng ký biến động đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất; thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề; giảm diện tích thửa đất do sạt lở tự nhiên (thủ tục giảm diện tích thửa đất do sạt lở tự nhiên)",
+      "code": "1.115886.03",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fc688-5772-7290-b120-1ef52002b0a8",
+      "name": "Đăng ký biến động đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất; thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề; giảm diện tích thửa đất do sạt lở tự nhiên",
+      "code": "1.115886.04",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1784474331711,
+  "updatedAt": 1784474331711,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Phòng thẩm định & cấp GCN cá nhân",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công",
+  "delegatedAgencies": "Phòng thẩm định & cấp GCN cá nhân",
+  "coordinatingAgencies": "Cơ quan thuế",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f6a37-6263-74d9-904e-f9cb8c5dae81",
+    "proposalNumber": "1389/QĐ-UBND",
+    "decisionDate": 1784048400000,
+    "decisionNumber": null,
+    "publicationDate": 1784474331547,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33b-e8250c0580ce",
+      "name": "UBND tỉnh Cao Bằng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

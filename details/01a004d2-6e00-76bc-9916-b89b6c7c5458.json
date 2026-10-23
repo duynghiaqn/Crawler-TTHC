@@ -1,0 +1,266 @@
+{
+  "id": "01a004d2-6e00-76bc-9916-b89b6c7c5458",
+  "code": "1.116335",
+  "codeNotation": "1.116335",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1. Phòng Văn hóa - Xã hội thuộc Ủy ban nhân dân cấp xã tiếp nhận đề nghị khen thưởng của các đơn vị trực thuộc.\n- Bước 2. Thẩm định hồ sơ, xin ý kiến các cơ quan liên quan, báo cáo Hội đồng Thi đua – Khen thưởng cấp xã, tổng hợp trình Chủ tịch Ủy ban nhân dân cấp xã quyết định khen thưởng.\n- Bước 3. Khi có Quyết định của Chủ tịch Ủy ban nhân dân cấp xã, Phòng Văn hóa - Xã hội thuộc Ủy ban nhân dân cấp xã thông báo Quyết định, viết bằng, đóng dấu và cấp phát cho đơn vị trình khen.\n- Bước 4. Các trường hợp không được khen thưởng (không đúng đối tượng, không đủ tiêu chuẩn, không đủ hồ sơ hoặc vi phạm pháp luật), Phòng Văn hóa - Xã hội thuộc Ủy ban nhân dân cấp xã thông báo đến các đơn vị trình khen biết."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cơ quan thi đua, khen thưởng thẩm định hồ sơ khen thưởng và trình cấp có thẩm quyền trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cơ quan thi đua, khen thưởng thẩm định hồ sơ khen thưởng và trình cấp có thẩm quyền trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cơ quan thi đua, khen thưởng thẩm định hồ sơ khen thưởng và trình cấp có thẩm quyền trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "1. Danh hiệu “Lao động tiên tiến” để tặng cho cán bộ, công chức, viên chức, người lao động đạt các tiêu chuẩn sau đây:\na) Hoàn thành tốt nhiệm vụ trở lên;\nb) Có tinh thần tự lực, tự cường, đoàn kết, tương trợ, tích cực tham gia phong trào thi đua.\n2. Danh hiệu “Chiến sĩ tiên tiến” để tặng cho quân nhân, công nhân, công chức, viên chức quốc phòng thuộc Quân đội nhân dân; dân quân thường trực, dân quân tự vệ cơ động; sĩ quan, hạ sĩ quan, chiến sĩ, công nhân làm việc trong cơ quan, đơn vị thuộc Công an nhân dân đạt các tiêu chuẩn quy định tại khoản 1 Điều này.\n3. Danh hiệu “Lao động tiên tiến” để tặng cho công nhân, nông dân, người lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều này và đạt các tiêu chuẩn sau đây:\na) Lao động, sản xuất có hiệu quả, tích cực tham gia phong trào thi đua và hoạt động xã hội;\nb) Gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước; có đạo đức, lối sống lành mạnh, đoàn kết, tương trợ, giúp đỡ mọi người trong cộng đồng.",
+  "name": "Thủ tục tặng danh hiệu \"Lao động tiên tiến\"",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0e770-26df-712c-8651-3a47d912c57c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Thành phần hồ sơ: - Văn bản đề nghị kèm theo danh sách cá nhân được đề nghị tặng danh hiệu Lao động tiên tiến của cấp trình khen - Báo cáo thành tích của cá nhân; - Biên bản bình xét thi đua. b) Số lượng hồ sơ: Số lượng hồ sơ đề nghị xét tặng Lao động tiên tiến thực hiện theo quy định của Ủy ban nhân dân các xã, phường.",
+          "code": "H41-KQ000136",
+          "attachments": [
+            {
+              "id": "01a0e770-11c7-745e-b0db-cf2a00166472",
+              "fileName": "3434.Mẫu số 03 Đối với cá nhân.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0e770-11c7-745e-b0db-cf2a00166472/3434.Mẫu số 03 Đối với cá nhân.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+    "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+    "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1",
+    "01a00f38-7cb7-77a8-8392-f900f41d57c4"
+  ],
+  "resultIds": [
+    "019d2bb2-1c4c-77ab-bf6d-9a24712ee719"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dbcf8-2512-751f-b250-ac73e3d6fa26",
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dbcf8-2512-751f-b250-ac73e3d6fa26",
+      "name": "Phòng Văn hóa - Xã hội xã"
+    },
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+      "name": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng",
+      "code": "152/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+      "name": "Luật Thi đua, khen thưởng",
+      "code": "06/2022/QH15"
+    },
+    {
+      "id": "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1",
+      "name": "Sửa đổi, bổ sung một số điều của Quy chế thi đua, khen thưởng trên địa bàn tỉnh Nghệ An và Phụ lục I ban hành kèm theo Quyết định số 81/2025/QĐ-UBND ngày 31/10/2025 của Ủy ban nhân dân tỉnh Nghệ An",
+      "code": "34/2026/QĐ-UBND"
+    },
+    {
+      "id": "01a00f38-7cb7-77a8-8392-f900f41d57c4",
+      "name": "Ban hành Quy chế thi đua, khen thưởng trên địa bàn tỉnh Nghệ An",
+      "code": "81/2025/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c4c-77ab-bf6d-9a24712ee719",
+      "name": "Quyết định của Chủ tịch UBND cấp xã tặng danh hiệu Lao động tiên tiến",
+      "code": "KQ.G09.000166"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+  "departmentPromulgateCode": "H41",
+  "departmentPromulgateName": "UBND tỉnh Nghệ An",
+  "cases": [
+    {
+      "id": "01a0f549-6438-711e-9ac8-80da03d312fa",
+      "name": "Thủ tục tặng danh hiệu \"Lao động tiên tiến\"",
+      "code": "1.116335.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790589915532,
+  "updatedAt": 1790589915532,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tiếp hoặc thông qua hệ thống bưu chính tại Trung tâm Phục vụ hành chính công cấp tỉnh, cấp xã hoặc trực tuyến thông qua Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "1. Danh hiệu “Lao động tiên tiến” để tặng cho cán bộ, công chức, viên chức, người lao động đạt các tiêu chuẩn sau đây:\na) Hoàn thành tốt nhiệm vụ trở lên;\nb) Có tinh thần tự lực, tự cường, đoàn kết, tương trợ, tích cực tham gia phong trào thi đua.\n2. Danh hiệu “Chiến sĩ tiên tiến” để tặng cho quân nhân, công nhân, công chức, viên chức quốc phòng thuộc Quân đội nhân dân; dân quân thường trực, dân quân tự vệ cơ động; sĩ quan, hạ sĩ quan, chiến sĩ, công nhân làm việc trong cơ quan, đơn vị thuộc Công an nhân dân đạt các tiêu chuẩn quy định tại khoản 1 Điều này.\n3. Danh hiệu “Lao động tiên tiến” để tặng cho công nhân, nông dân, người lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều này và đạt các tiêu chuẩn sau đây:\na) Lao động, sản xuất có hiệu quả, tích cực tham gia phong trào thi đua và hoạt động xã hội;\nb) Gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước; có đạo đức, lối sống lành mạnh, đoàn kết, tương trợ, giúp đỡ mọi người trong cộng đồng.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0066e-6e26-742a-bc1f-105b7ae8b874",
+    "proposalNumber": "3434/QĐ-UBND",
+    "decisionDate": 1785690000000,
+    "decisionNumber": null,
+    "publicationDate": 1790589915436,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+      "name": "UBND tỉnh Nghệ An"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

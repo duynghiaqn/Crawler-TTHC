@@ -1,0 +1,279 @@
+{
+  "id": "019d2bfd-cce7-730c-ba57-c944b1f867a2",
+  "code": "1.004233",
+  "codeNotation": "1.004233",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Trong vòng 60 ngày trước ngày giấy phép hết hiệu lực, đơn vị muốn gia hạn giấy phép phải gửi văn bản thông báo và nêu rõ thời hạn gia hạn theo Mẫu số 08 tại Phụ lục kèm theo Nghị định số 242/2026/NĐ-CP đến Ủy ban nhân dân cấp tỉnh nơi đặt trụ sở chính của đơn vị bằng một trong các hình thức sau: qua dịch vụ bưu chính công ích hoặc nộp trực tiếp hoặc qua dịch vụ bưu chính đến Trung tâm phục vụ hành chính công tỉnh, thành phố hoặc trực tuyến trên Cổng dịch vụ công quốc gia.\n- Trong thời hạn 03 ngày làm việc, Ủy ban nhân dân cấp tỉnh có trách nhiệm kiểm tra tính hợp lệ của thông báo, thực hiện tiếp nhận chính thức hoặc yêu cầu chỉnh sửa, bổ sung hồ sơ.\n- Trong thời hạn 10 ngày làm việc, kể từ ngày tiếp nhận chính thức thông báo hợp lệ, Ủy ban nhân dân cấp tỉnh nơi đặt trụ sở chính của đơn vị cấp giấy xác nhận thông báo và gửi đơn vị đề nghị gia hạn Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền và đơn vị cấp giấy phép theo Mẫu số 09 tại Phụ lục kèm theo Nghị định số 242/2026/NĐ-CP.\nTrường hợp không cấp giấy xác nhận thông báo gia hạn, Ủy ban nhân dân cấp tỉnh có văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "- Trong thời hạn 60 (sáu mươi) ngày trước ngày Giấy phép hết hiệu lực, doanh nghiệp muốn gia hạn Giấy phép phải gửi văn bản đề nghị gia hạn.\n- Giấy phép được gia hạn không quá 01 (một) lần và có hiệu lực không quá 05 năm nhưng không vượt quá thời hạn hiệu lực ghi trong Giấy phép cung cấp dịch vụ viễn thông có hạ tầng mạng, loại hình dịch vụ truyền dẫn cho phát thanh, truyền hình hoặc văn bản thỏa thuận được thuê, sử dụng hạ tầng mạng viễn thông.",
+  "name": "Thủ tục gia hạn Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7180-744f-b64d-9e43a789eedb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản thông báo và nêu rõ thời hạn gia hạn theo Mẫu số 08 tại Phụ lục kèm theo Nghị định số 242/2026/NĐ-CP.",
+          "code": "000.00.00.G14-KQ001949",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f8253-7b83-74a8-9b67-48f73b229c01",
+    "019f8253-f4cc-707e-96f1-91d5e093f358",
+    "019d2bb3-5d85-73da-8eb9-9100a9c3e3d0",
+    "019d2bb3-5d87-7195-a447-eedfb5082f30"
+  ],
+  "resultIds": [
+    "019f8288-5b20-72bc-9dee-3d17e92dab03"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019e4dbb-7814-7524-9f44-450237279e78"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+      "name": "Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14-TT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+    "name": "Phát thanh, truyền hình và thông tin điện tử",
+    "code": "G14-TT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019e4dbb-7814-7524-9f44-450237279e78",
+      "name": "Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao tiếp nhận hồ sơ giải quyết thủ tục hành chính",
+      "code": "CQCM-TNHS-NNMT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f8253-7b83-74a8-9b67-48f73b229c01",
+      "name": "Luật Báo chí 2025",
+      "code": "126/2025/QH15 "
+    },
+    {
+      "id": "019f8253-f4cc-707e-96f1-91d5e093f358",
+      "name": "Nghị định quy định chi tiết và biện pháp thi hành Luật Báo chí về quản lý hoạt động, phát thanh, truyền hình và dịch vụ phát thanh, truyền hình.",
+      "code": "242/2026/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eb9-9100a9c3e3d0",
+      "name": "Luật Điện ảnh số 05/2022/QH15 ngày 15 tháng 6 năm 2022",
+      "code": "05/2022/QH15"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a447-eedfb5082f30",
+      "name": "Luật Viễn thông",
+      "code": "Luật Viễn thông"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f8288-5b20-72bc-9dee-3d17e92dab03",
+      "name": "Giấy xác nhận thông báo gia hạn thời hạn của Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền theo Mẫu số 09 tại Phụ lục kèm theo Nghị định số 242/2026/NĐ-CP.",
+      "code": "000.00.00.G16-KQ001242"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "019d2cd3-9273-7265-861d-c24ae1beb0ff",
+      "name": "Gia hạn Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền",
+      "code": "1.004233.01",
+      "processingDay": {
+        "qty": 16,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f82a6-a7a2-75ec-b4b9-5f126af1625a",
+      "name": "Gia hạn Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền",
+      "code": "1.004233.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559546599,
+  "updatedAt": 1784603387233,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao tiếp nhận hồ sơ giải quyết thủ tục hành chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Trong thời hạn 60 (sáu mươi) ngày trước ngày Giấy phép hết hiệu lực, doanh nghiệp muốn gia hạn Giấy phép phải gửi văn bản đề nghị gia hạn.\n- Giấy phép được gia hạn không quá 01 (một) lần và có hiệu lực không quá 05 năm nhưng không vượt quá thời hạn hiệu lực ghi trong Giấy phép cung cấp dịch vụ viễn thông có hạ tầng mạng, loại hình dịch vụ truyền dẫn cho phát thanh, truyền hình hoặc văn bản thỏa thuận được thuê, sử dụng hạ tầng mạng viễn thông.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f7ede-a60b-708c-ba95-bcdc7a7b762d",
+    "proposalNumber": "1759/QĐ-BVHTTDL",
+    "decisionDate": 1784221200000,
+    "decisionNumber": null,
+    "publicationDate": 1784603387078,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

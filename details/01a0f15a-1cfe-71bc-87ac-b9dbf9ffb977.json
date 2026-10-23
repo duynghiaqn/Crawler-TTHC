@@ -1,0 +1,186 @@
+{
+  "id": "01a0f15a-1cfe-71bc-87ac-b9dbf9ffb977",
+  "code": "5.003906",
+  "codeNotation": "5.003906",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Trên cơ sở văn bản đề nghị của Bộ Quốc phòng hoặc Bộ Công an, Sở Xây dựng ra văn bản đóng khu neo đậu đối với trường hợp vì lý do bảo đảm quốc phòng, an ninh. Thời gian đóng khu neo đậu theo đề nghị của Bộ Quốc phòng, Bộ Công an."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cách thức thực hiện: Trực tuyến (qua Hệ thống TDOffice)\nThời hạn giải quyết: Không quy định.",
+      "fees": []
+    }
+  ],
+  "description": "Không.",
+  "name": "Thủ tục Công bố đóng khu neo đậu vì lý do bảo đảm quốc phòng, an ninh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f154-e7eb-758c-be99-5d056135d0bc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của Bộ Quốc phòng, Bộ Công an",
+          "code": "TP-H56.0000402",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c0a4209513fc"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-345fa89f8a03",
+    "019fdf71-76e2-704b-a3af-c9e4c43d5e83",
+    "019fdf72-377b-70a8-9722-cada8509b918"
+  ],
+  "resultIds": [
+    "01a0f155-bbcc-748f-817a-9ec7e702155f"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+      "name": "Hàng hải và đường thủy nội địa",
+      "code": "G04-GT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+    "name": "Hàng hải và đường thủy nội địa",
+    "code": "G04-GT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9448-4f70-755d-9f51-d3e89652ee18"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9448-4f70-755d-9f51-d3e89652ee18"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9448-4f70-755d-9f51-d3e89652ee18",
+      "name": "Sở Xây dựng"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9448-4f70-755d-9f51-d3e89652ee18",
+      "name": "Sở Xây dựng"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-345fa89f8a03",
+      "name": "Giao thông đường thủy nội địa",
+      "code": "23/2004/QH11"
+    },
+    {
+      "id": "019fdf71-76e2-704b-a3af-c9e4c43d5e83",
+      "name": "Thông tư số 21/2026/TT-BXD ngày 15/5/2026 của Bộ trưởng Bộ Xây dựng quy định về quản lý kết cấu hạ tầng đường thủy nội địa",
+      "code": "21/2026/TT-BXD"
+    },
+    {
+      "id": "019fdf72-377b-70a8-9722-cada8509b918",
+      "name": "Thông tư số 54/2026/TT-BXD ngày 01/7/2026 của Bộ trưởng Bộ Xây dựng quy định Sửa đổi, bổ sung một số điều của Thông tư số 20/2026/TT-BXD ngày 15/5/2026 của Bộ trưởng Bộ Xây dựng quy định về quản lý nhà nước chuyên ngành tại cảng thủy nội địa, bến thủy nội địa, khu neo đậu và quản lý hoạt động hoa tiêu đường thủy nội địa và Thông tư số 21/2026/TT-BXD ngày 15/5/2026 của Bộ trưởng Bộ Xây dựng quy định về quản lý kết cấu hạ tầng đường thủy nội địa",
+      "code": "54/2026/TT-BXD"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f155-bbcc-748f-817a-9ec7e702155f",
+      "name": "Văn bản đóng khu neo đậu",
+      "code": "KQ-H56.0000086"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+  "departmentPromulgateCode": "H56",
+  "departmentPromulgateName": "UBND tỉnh Thanh Hóa",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790756035082,
+  "updatedAt": 1790756035082,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Sở Xây dựng tỉnh Thanh Hóa (45 Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa)",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0f142-2251-701d-80e0-9a5a53e50cfa",
+    "proposalNumber": "2600/QĐ-VP",
+    "decisionDate": 1785085200000,
+    "decisionNumber": null,
+    "publicationDate": 1790756035047,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+      "name": "UBND tỉnh Thanh Hóa"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

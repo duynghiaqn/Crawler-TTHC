@@ -1,0 +1,863 @@
+{
+  "id": "019d2bff-c234-72ba-b08f-722071358bd8",
+  "code": "2.000085",
+  "codeNotation": "2.000085",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "(i) Trình tự thực hiện thủ tục đăng ký giao dịch ngoại hối lần đầu đối với dự án thuộc thẩm quyền của Ngân hàng Nhà nước"
+    },
+    {
+      "name": "",
+      "description": "+ Bước 1: Nhà đầu tư gửi 01 bộ hồ sơ đăng ký giao dịch ngoại hối lần đầu đến Ngân hàng Nhà nước theo quy định."
+    },
+    {
+      "name": "",
+      "description": "+ Bước 2: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ, trong trường hợp cần thiết, Ngân hàng Nhà nước gửi hồ sơ lấy ý kiến cơ quan liên quan theo quy định tại khoản 7 Điều 18 Nghị định số 103/2026/NĐ-CP trước khi thực hiện xác nhận đăng ký giao dịch ngoại hối."
+    },
+    {
+      "name": "",
+      "description": "+ Bước 3: Kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc đối với dự án thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài của nhà đầu tư là tổ chức tín dụng hoặc trong thời hạn 45 ngày làm việc đối với dự án không thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài, Ngân hàng Nhà nước gửi nhà đầu tư văn bản xác nhận đăng ký giao dịch ngoại hối lần đầu theo mẫu tại Phụ lục 11 ban hành kèm Thông tư số 34/2026/TT-NHNN, hoặc gửi nhà đầu tư văn bản từ chối xác nhận đăng ký giao dịch ngoại hối lần đầu theo mẫu tại Phụ lục 13 ban hành kèm Thông tư số 34/2026/TT-NHNN; đồng thời sao gửi các cơ quan được lấy ý kiến, Bộ Tài chính và Ngân hàng Nhà nước Khu vực nơi nhà đầu tư là tổ chức đặt trụ sở chính trên địa bàn. Trường hợp từ chối xác nhận đăng ký giao dịch ngoại hối, Ngân hàng Nhà nước có văn bản nêu rõ lý do."
+    },
+    {
+      "name": "",
+      "description": "(ii) Trình tự thực hiện thủ tục đăng ký giao dịch ngoại hối lần đầu đối với dự án thuộc thẩm quyền của Ngân hàng Nhà nước Khu vực"
+    },
+    {
+      "name": "",
+      "description": "+ Bước 1: Nhà đầu tư gửi 01 bộ hồ sơ đăng ký giao dịch ngoại hối lần đầu, đến Ngân hàng Nhà nước Khu vực theo quy định."
+    },
+    {
+      "name": "",
+      "description": "+ Bước 2: Kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc đối với dự án thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài hoặc trong thời hạn 30 ngày làm việc đối với dự án không thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài, Ngân hàng Nhà nước Khu vực gửi nhà đầu tư văn bản xác nhận đăng ký giao dịch ngoại hối lần đầu theo mẫu tại Phụ lục 08 ban hành kèm Thông tư số 34/2026/TT-NHNN, hoặc văn bản từ chối xác nhận đăng ký giao dịch ngoại hối lần đầu theo mẫu tại Phụ lục 10 ban hành kèm Thông tư số 34/2026/TT-NHNN; đồng thời sao gửi Bộ Tài chính. Trường hợp từ chối xác nhận đăng ký giao dịch ngoại hối, Ngân hàng Nhà nước Khu vực có văn bản nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 45,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "* Đối với hồ sơ đăng ký giao dịch ngoại hối lần đầu thuộc thẩm quyền của Ngân hàng nhà nước:\n+ 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài của nhà đầu tư là tổ chức tín dụng.\n+ 45 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án không thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài.\n* Đối với hồ sơ đăng ký giao dịch ngoại hối lần đầu thuộc thẩm quyền của Ngân hàng Nhà nước Khu vực:\n+ 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài.\n+  30 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án không thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 45,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "* Đối với hồ sơ đăng ký giao dịch ngoại hối lần đầu thuộc thẩm quyền của Ngân hàng nhà nước:\n+ 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài của nhà đầu tư là tổ chức tín dụng.\n+ 45 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án không thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài.\n* Đối với hồ sơ đăng ký giao dịch ngoại hối lần đầu thuộc thẩm quyền của Ngân hàng Nhà nước Khu vực:\n+ 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài.\n+  30 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án không thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 45,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "* Đối với hồ sơ đăng ký giao dịch ngoại hối lần đầu thuộc thẩm quyền của Ngân hàng nhà nước:\n+ 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài của nhà đầu tư là tổ chức tín dụng.\n+ 45 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án không thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài.\n* Đối với hồ sơ đăng ký giao dịch ngoại hối lần đầu thuộc thẩm quyền của Ngân hàng Nhà nước Khu vực:\n+ 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài.\n+  30 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ đối với dự án không thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục xác nhận đăng ký giao dịch ngoại hối lần đầu liên quan đến hoạt động đầu tư ra nước ngoài",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "* Đối với dự án thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài theo quy định tại Điều 17 Nghị định số 103/2026/NĐ-CP",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a036f3-6075-7530-8d36-3a062e6b9e98",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Văn bản Đăng ký giao dịch ngoại hối lần đầu theo mẫu tại Phụ lục số 01 ban hành kèm theo Thông tư số 34/2026/TT-NHNN.",
+          "code": "G19-KQ0065120",
+          "attachments": [
+            {
+              "id": "01a036f3-2202-7752-a7ff-279a7fb3b338",
+              "fileName": "PL số 01.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a036f3-2202-7752-a7ff-279a7fb3b338/PL số 01.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a036f6-6179-7099-b751-381185bfcb65",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "b) Văn bản chấp thuận hoặc cấp phép đầu tư do cơ quan có thẩm quyền của nước tiếp nhận đầu tư cấp kèm theo trích dẫn quy định của nước tiếp nhận đầu tư phù hợp với hình thức đầu tư của dự án. Trường hợp pháp luật của nước tiếp nhận đầu tư không quy định về việc cấp phép, chấp thuận đầu tư hoặc chỉ cấp phép sau khi nhà đầu tư đã thực hiện cam kết chuyển vốn đầu tư hoặc văn bản chấp thuận, cấp phép đầu tư của cơ quan có thẩm quyền của nước tiếp nhận đầu tư không đủ thông tin về nội dung vốn đầu tư, hình thức hoặc các nội dung cần thiết khác về hoạt động đầu tư, nhà đầu tư nộp tài liệu chứng minh quyền hoạt động đầu tư tại nước tiếp nhận đầu tư, bao gồm một trong các tài liệu sau:",
+          "code": "G19-KQ0065121",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a036f7-b47f-7468-a21e-6fc205ab0dcb",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận thành lập pháp nhân hoặc xác nhận đăng ký thuế do cơ quan có thẩm quyền của nước tiếp nhận đầu tư cấp cho tổ chức kinh tế thực hiện dự án ở nước ngoài;",
+          "code": "G19-KQ0065122",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a036f9-bf04-76e4-a8f9-707e6d8be2cc",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Thỏa thuận, hợp đồng đầu tư với đối tác nước ngoài hoặc điều lệ, nghị quyết hoặc tài liệu tương đương của tổ chức kinh tế được thành lập tại nước tiếp nhận đầu tư; hoặc thỏa thuận, hợp đồng, tài liệu khác xác định việc góp vốn, mua cổ phần, mua phần vốn góp hoặc tài liệu có giá trị pháp lý tương đương thể hiện hình thức đầu tư phù hợp với quy định của pháp luật nước tiếp nhận đầu tư. Trường hợp áp dụng tài liệu này, nhà đầu tư cung cấp kèm theo tài liệu chứng minh tư cách pháp lý của đối tác nước ngoài, tổ chức kinh tế ở nước ngoài hoặc cổ đông của tổ chức kinh tế ở nước ngoài mà nhà đầu tư góp vốn, mua cổ phần, mua phần vốn góp;",
+          "code": "G19-KQ0065123",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a036fa-ac29-74e2-b837-926ea5fa5bd4",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Tài liệu hợp pháp khác theo quy định của pháp luật nước tiếp nhận đầu tư chứng minh quyền thực hiện hoạt động đầu tư.",
+          "code": "G19-KQ0065124",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a036fb-b74e-7052-8dc9-608d144e75e4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "c) Văn bản xác nhận của ngân hàng được phép về tài khoản trước đầu tư, tài khoản vốn đầu tư và tình hình giao dịch ngoại hối:",
+          "code": "G19-KQ0065125",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a036fd-0160-73c0-9e35-799dd5b8a262",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Văn bản xác nhận của ngân hàng được phép nơi mở tài khoản trước đầu tư, tài khoản vốn đầu tư cho nhà đầu tư, trong đó ghi rõ mã số dự án, số tài khoản, tên tài khoản, loại đồng tiền, ngày mở tài khoản, thời gian và số tiền chuyển trước đầu tư từng lần (nếu có) đến thời điểm xác nhận;",
+          "code": "G19-KQ0065126",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a036fd-fd6c-721c-8fa1-c6e88605b3b8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Trường hợp nhà đầu tư nhận chuyển nhượng dự án theo quy định tại khoản 4 Điều 9 Thông tư số 34/2026/TT-NHNN, nhà đầu tư cung cấp các tài liệu sau:",
+          "code": "G19-KQ0065127",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a036fe-e2be-72ac-8925-eca2d09f319c",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Văn bản xác nhận của ngân hàng được phép nơi mở tài khoản trước đầu tư, tài khoản vốn đầu tư cho nhà đầu tư, trong đó ghi rõ mã số dự án, số tài khoản, tên tài khoản, loại đồng tiền, ngày mở tài khoản, thời gian và số tiền chuyển trước đầu tư từng lần (nếu có) đến thời điểm xác nhận;",
+          "code": "G19-KQ0065128",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03700-0911-76c3-ab63-ce099dc49d7a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Văn bản xác nhận của ngân hàng được phép về tình hình thực hiện các giao dịch ngoại hối của nhà đầu tư chuyển nhượng, trong đó ghi rõ mã số dự án, số tài khoản, tên tài khoản, loại đồng tiền, thời gian và số vốn đầu tư bằng tiền đã chuyển ra nước ngoài từng lần, thời gian và số vốn đầu tư bằng tiền, lợi nhuận và các khoản thu hợp pháp đã chuyển về Việt Nam từng lần đến thời điểm xác nhận.",
+          "code": "G19-KQ0065129",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "* Đối với dự án không thuộc diện cấp Giấy chứng nhận đăng ký đầu tư ra nước ngoài theo quy định tại Điều 18 Nghị định số 103/2026/NĐ-CP",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71cb-7374-854c-5406087077d9",
+          "originalQty": 0,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "1. Hồ sơ áp dụng chung cho các dự án quy định tại Điều 18 Nghị định số 103/2026/NĐ-CP bao gồm:",
+          "code": "G19-KQ005639",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03705-09e7-7311-a222-ce4af16940e4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Văn bản Đăng ký giao dịch ngoại hối lần đầu theo mẫu tại Phụ lục số 02 ban hành kèm Thông tư số 34/2026/TT-NHNN;",
+          "code": "G19-KQ0065131",
+          "attachments": [
+            {
+              "id": "01a03704-fb05-7590-b480-a01248de4d91",
+              "fileName": "PL số 02.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03704-fb05-7590-b480-a01248de4d91/PL số 02.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a03706-0635-749e-8e74-139eddf6cda3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "b) Văn bản xác nhận của cơ quan thuế về việc hoàn thành nghĩa vụ nộp thuế của nhà đầu tư. Thời điểm xác nhận của cơ quan thuế không quá 03 tháng tính đến ngày nộp hồ sơ đăng ký giao dịch ngoại hối lần đầu;",
+          "code": "G19-KQ0065132",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03707-8246-714a-b3c1-2bf0d78465aa",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "c) Tài liệu về tư cách pháp lý của nhà đầu tư theo quy định tại khoản 8 Điều 3 Nghị định số 103/2026/NĐ-CP;",
+          "code": "G19-KQ0065133",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03708-6a7c-7538-b5a8-37a7d8edc61f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "d) Văn bản chấp thuận hoặc cấp phép đầu tư do cơ quan có thẩm quyền của nước tiếp nhận đầu tư cấp kèm theo trích dẫn quy định của nước tiếp nhận đầu tư phù hợp với hình thức đầu tư của dự án. Trường hợp pháp luật của nước tiếp nhận đầu tư không quy định về việc cấp phép, chấp thuận đầu tư hoặc chỉ cấp phép sau khi nhà đầu tư đã thực hiện cam kết chuyển vốn đầu tư hoặc văn bản chấp thuận, cấp phép đầu tư của cơ quan có thẩm quyền của nước tiếp nhận đầu tư không đủ thông tin về nội dung vốn đầu tư, hình thức đầu tư hoặc các nội dung cần thiết khác về hoạt động đầu tư, nhà đầu tư nộp tài liệu chứng minh quyền hoạt động đầu tư tại nước tiếp nhận đầu tư, bao gồm một trong các tài liệu sau:",
+          "code": "G19-KQ0065134",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03709-7050-7618-b9ea-661a60036357",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận thành lập pháp nhân hoặc xác nhận đăng ký thuế do cơ quan có thẩm quyền của nước tiếp nhận đầu tư cấp cho tổ chức kinh tế thực hiện dự án ở nước ngoài;",
+          "code": "G19-KQ0065135",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0370a-8263-702c-8f73-0edfbd98b9a9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Thỏa thuận, hợp đồng đầu tư với đối tác nước ngoài hoặc điều lệ, nghị quyết hoặc tài liệu tương đương của tổ chức kinh tế được thành lập tại nước tiếp nhận đầu tư; hoặc thỏa thuận, hợp đồng, tài liệu khác xác định việc góp vốn, mua cổ phần, mua phần vốn góp hoặc tài liệu có giá trị pháp lý tương đương thể hiện hình thức đầu tư phù hợp với quy định của pháp luật nước tiếp nhận về đầu tư. Trường hợp áp dụng tài liệu này, nhà đầu tư cung cấp kèm theo tài liệu chứng minh tư cách pháp lý của đối tác nước ngoài, tổ chức kinh tế ở nước ngoài hoặc cổ đông của tổ chức kinh tế ở nước ngoài mà nhà đầu tư góp vốn, mua cổ phần, mua phần vốn góp;",
+          "code": "G19-KQ0065136",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0370b-81e2-7158-90dc-49197e0116e9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Tài liệu hợp pháp khác theo quy định của pháp luật nước tiếp nhận đầu tư chứng minh quyền thực hiện hoạt động đầu tư.",
+          "code": "G19-KQ0065137",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0370c-86fc-7483-b425-5187d3f6f40b",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "đ) Văn bản xác nhận của ngân hàng được phép về tài khoản trước đầu tư, tài khoản vốn đầu tư và tình hình giao dịch ngoại hối:",
+          "code": "G19-KQ0065138",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0370e-0706-774d-8bfd-49de25bfabd1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(i) Văn bản xác nhận của ngân hàng được phép nơi mở tài khoản trước đầu tư, tài khoản vốn đầu tư cho nhà đầu tư, trong đó ghi rõ mã số khai hồ sơ tự động, số tài khoản, tên tài khoản, loại đồng tiền, ngày mở tài khoản, thời gian và số tiền chuyển trước đầu tư từng lần (nếu có) đến thời điểm xác nhận.",
+          "code": "G19-KQ0065139",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0370f-0674-703e-a3d0-c2bfb73666b0",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "ii) Trường hợp nhà đầu tư nhận chuyển nhượng dự án theo quy định tại khoản 4 Điều 9 Thông tư số 34/2026/TT-NHNN, nhà đầu tư cung cấp các tài liệu sau:",
+          "code": "G19-KQ0065140",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03710-0a5e-7404-b4e8-e8b50858a234",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Văn bản xác nhận của ngân hàng được phép nơi mở tài khoản trước đầu tư, tài khoản vốn đầu tư cho nhà đầu tư, trong đó ghi rõ mã số khai hồ sơ tự động, số tài khoản, tên tài khoản, loại đồng tiền, ngày mở tài khoản, thời gian và số tiền chuyển trước đầu tư từng lần (nếu có) đến thời điểm xác nhận.",
+          "code": "G19-KQ0065141",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03711-2219-73e0-8072-6a8c8f16a3c8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Văn bản xác nhận của ngân hàng được phép về tình hình thực hiện các giao dịch ngoại hối của nhà đầu tư chuyển nhượng, trong đó ghi rõ mã số khai hồ sơ tự động, số tài khoản, tên tài khoản, loại đồng tiền, thời gian và số vốn đầu tư bằng tiền đã chuyển ra nước ngoài từng lần, thời gian và số vốn đầu tư bằng tiền, lợi nhuận và các khoản thu hợp pháp đã chuyển về Việt Nam từng lần đến thời điểm xác nhận. Văn bản xác nhận của ngân hàng được phép được cấp trong vòng 10 ngày làm việc trước thời điểm nhà đầu tư nộp hồ sơ đăng ký giao dịch ngoại hối lần đầu.",
+          "code": "G19-KQ0065142",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03712-503e-77cf-a292-3a30120531a1",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "e) Tài liệu chứng minh nhà đầu tư tham gia quản lý tổ chức kinh tế ở nước ngoài đối với trường hợp tỷ lệ sở hữu vốn góp, cổ phần của nhà đầu tư nhỏ hơn 50%;",
+          "code": "G19-KQ0065143",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03713-8fcb-763c-b026-9fc60bbcebdd",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "g) Tài liệu khác liên quan đến hoạt động đầu tư ra nước ngoài của nhà đầu tư (nếu có).",
+          "code": "G19-KQ0065144",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Đối với dự án thuộc trường hợp phải có tài liệu xác định địa điểm thực hiện dự án đầu tư theo quy định tại điểm b, c, d, đ, e khoản 1 Điều 12 Nghị định số 103/2026/NĐ-CP, hồ sơ bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03716-f801-7229-9877-a999479df708",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "a) Các thành phần hồ sơ quy định chung theo mục 1 nêu trên.",
+          "code": "G19-KQ0065145",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03717-a87a-754d-8dd5-6d1ae4225a04",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "b) Tài liệu xác định địa điểm thực hiện dự án đầu tư theo quy định tại khoản 2 Điều 12 Nghị định số 103/2026/NĐ-CP:",
+          "code": "G19-KQ0065146",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03718-9558-701c-9a3f-a29ee71ee426",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Giấy phép đầu tư hoặc văn bản có giá trị tương đương của quốc gia, vùng lãnh thổ tiếp nhận đầu tư;",
+          "code": "G19-KQ0065147",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03719-5f9b-768d-ba2b-5a29c5b0baea",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Quyết định giao đất, cho thuê đất của cơ quan, tổ chức có thẩm quyền tại quốc gia, vùng lãnh thổ tiếp nhận đầu tư;",
+          "code": "G19-KQ0065148",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03723-b8e8-71c2-9f7d-670adba6910e",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Hợp đồng trúng thầu, thầu khoán; hợp đồng giao đất, cho thuê đất; hợp đồng hợp tác đầu tư, kinh doanh kèm theo tài liệu chứng minh thẩm quyền của bên liên quan trong hợp đồng đối với địa điểm;",
+          "code": "G19-KQ0065149",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03724-8593-709a-943b-e1026209c37e",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Thỏa thuận nguyên tắc về việc giao đất, cho thuê đất, thuê địa điểm kinh doanh, chuyển nhượng quyền sử dụng đất hoặc tài sản gắn liền với đất; thỏa thuận hợp tác đầu tư kinh doanh kèm theo tài liệu chứng minh thẩm quyền của bên liên quan trong thỏa thuận đối với địa điểm.",
+          "code": "G19-KQ0065150",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Đối với dự án đầu tư ra nước ngoài gắn với quốc phòng, an ninh theo quy định tại khoản 2 Điều 18 Nghị định số 103/2026/NĐ-CP, hồ sơ bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03716-f801-7229-9877-a999479df708",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "a) Các thành phần hồ sơ quy định chung theo mục 1 nêu trên.",
+          "code": "G19-KQ0065145",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03728-565c-706c-9fd9-d5e5168a6c0a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "b) Các thành phần hồ sơ quy định chung theo mục 2 nêu trên (áp dụng đối với trường hợp phải có tài liệu xác định địa điểm).",
+          "code": "G19-KQ0065151",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03729-395c-7224-af29-0bab29f69bc5",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "c) Hiệp định giữa hai Chính phủ hoặc các văn bản thỏa thuận giữa các cơ quan hai nước được Chính phủ phê duyệt.",
+          "code": "G19-KQ0065152",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Đối với dự án đầu tư ra nước ngoài của các Tập đoàn, Tổng công ty nhà nước quy định tại khoản 3 Điều 18 Nghị định số 103/2026/NĐ-CP, hồ sơ bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03716-f801-7229-9877-a999479df708",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "a) Các thành phần hồ sơ quy định chung theo mục 1 nêu trên.",
+          "code": "G19-KQ0065145",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03728-565c-706c-9fd9-d5e5168a6c0a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "b) Các thành phần hồ sơ quy định chung theo mục 2 nêu trên (áp dụng đối với trường hợp phải có tài liệu xác định địa điểm).",
+          "code": "G19-KQ0065151",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0372d-3fe7-72ec-98e4-b818f8757913",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "c) Tài liệu liên quan đến thẩm quyền quyết định đầu tư ra nước ngoài theo quy định tại Điều 10 Nghị định số 103/2026/NĐ-CP. Đối với doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ, tài liệu bao gồm:",
+          "code": "G19-KQ0065153",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0372e-01ec-707f-940b-7e7fbb5d2c2f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(i) Nghị quyết hoặc Quyết định về đầu tư ra nước ngoài của Hội đồng thành viên hoặc Chủ tịch công ty (áp dụng đối với doanh nghiệp có dự án đầu tư ra nước ngoài với mức vốn đầu tư không quá 50% vốn chủ sở hữu hoặc không quá 50% vốn đầu tư của chủ sở hữu trong trường hợp vốn đầu tư lớn hơn vốn chủ sở hữu và không quá 1.600 tỷ đồng Việt Nam);",
+          "code": "G19-KQ0065154",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0372e-d7eb-770d-bc88-b3817ee6bf5f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(ii) Văn bản phê duyệt của cơ quan đại diện chủ sở hữu về mục đích, mức vốn đầu tư, nguồn vốn đầu tư ra nước ngoài, thời gian thực hiện và Nghị quyết hoặc Quyết định đầu tư ra nước ngoài của Hội đồng thành viên hoặc Chủ tịch công ty được ban hành theo quy định của pháp luật về quản lý, đầu tư vốn nhà nước tại doanh nghiệp (áp dụng đối với doanh nghiệp có dự án đầu tư ra nước ngoài với mức vốn đầu tư lớn hơn 50% vốn chủ sở hữu hoặc lớn hơn 50% vốn đầu tư của chủ sở hữu trong trường hợp vốn đầu tư lớn hơn vốn chủ sở hữu và lớn hơn 1.600 tỷ đồng Việt Nam).",
+          "code": "G19-KQ0065155",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Đối với dự án đầu tư ra nước ngoài của tổ chức kinh tế khác quy định tại khoản 4 Điều 18 Nghị định số 103/2026/NĐ-CP, hồ sơ bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03716-f801-7229-9877-a999479df708",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "a) Các thành phần hồ sơ quy định chung theo mục 1 nêu trên.",
+          "code": "G19-KQ0065145",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03728-565c-706c-9fd9-d5e5168a6c0a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "b) Các thành phần hồ sơ quy định chung theo mục 2 nêu trên (áp dụng đối với trường hợp phải có tài liệu xác định địa điểm).",
+          "code": "G19-KQ0065151",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03732-05d7-7252-9455-9543efa8e3ba",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "c) Tài liệu chứng minh doanh nghiệp có quy mô lớn đáp ứng ít nhất hai trong ba tiêu chí có số lao động tham gia bảo hiểm xã hội bình quân năm trên 200 người trở lên, có tổng doanh thu của năm trên 300 tỷ đồng trở lên, có tổng tài sản trên 100 tỷ đồng trở lên theo quy định tại Điều 1 Nghị định số 90/2025/NĐ-CP ngày 14 tháng 4 năm 2025 sửa đổi, bổ sung một số điều của nghị định số 17/2012/NĐ-CP ngày 13 tháng 3 năm 2012 của chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật kiểm toán độc lập;",
+          "code": "G19-KQ0065156",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03733-28d4-776a-b9d9-5ac715f6994e",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "d) Tài liệu chứng minh việc sử dụng nguồn ngoại tệ tự có trong trường hợp chuyển vốn đầu tư bằng ngoại tệ, không sử dụng nguồn vốn vay để đầu tư ra nước ngoài, bao gồm:",
+          "code": "G19-KQ0065157",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03734-2b5f-72db-9a7b-6a975465d806",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(i) Văn bản cam kết và chịu trách nhiệm trước pháp luật của nhà đầu tư về sử dụng ngoại tệ tự có để đầu tư ra nước ngoài, văn bản cam kết và chịu trách nhiệm trước pháp luật của nhà đầu tư về không sử dụng nguồn vốn vay để đầu tư ra nước ngoài theo mẫu tại Phụ lục 03 và Phụ lục 04 ban hành kèm Thông tư này;",
+          "code": "G19-KQ0065158",
+          "attachments": [
+            {
+              "id": "01a03734-0800-76f9-8b66-61d6eeb93323",
+              "fileName": "PL số 03.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03734-0800-76f9-8b66-61d6eeb93323/PL số 03.docx"
+            },
+            {
+              "id": "01a03734-1c82-72ca-95ef-25879a0dd560",
+              "fileName": "PL số 04.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03734-1c82-72ca-95ef-25879a0dd560/PL số 04.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a03735-469c-74e5-a5d1-b4bcca84f0df",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "(ii) Văn bản xác nhận của ngân hàng được phép về số dư ngoại tệ hoặc đồng Việt Nam trên tài khoản của nhà đầu tư trong vòng 10 ngày làm việc trước thời điểm nhà đầu tư nộp hồ sơ đăng ký xác nhận giao dịch ngoại hối;",
+          "code": "G19-KQ0065159",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03736-1c7a-737e-b098-355411688ad1",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "đ) Báo cáo tài chính hợp nhất của nhà đầu tư chứng minh hoạt động kinh doanh có lãi trong 2 năm liền kề trước năm đầu tư;",
+          "code": "G19-KQ0065160",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03737-65cc-7727-bec1-ffc1603061df",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "e) Tài liệu chứng minh nhà đầu tư có ít nhất 2 dự án đầu tư ra nước ngoài có lợi nhuận đã chuyển về nước, trong đó gồm văn bản xác nhận của ngân hàng được phép nơi nhà đầu tư mở tài khoản vốn đầu tư hoặc tài liệu khác.",
+          "code": "G19-KQ0065161",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b5-56af5699758f"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fb16e-0ee9-770a-a670-d926495e4a80",
+    "019fb183-ceda-732e-9ee1-75f9e7e93997"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7d-740f-b02f-d0fc9d2489e1",
+    "019d2bb2-1c7d-740f-b032-2ed3ae99349f",
+    "019fb15d-9b35-7089-b5d1-a477c31a6fe1",
+    "019fb15f-4bb4-7088-846c-3b7e6e41740c"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66f-c53dedd8aa96",
+    "019d2be3-6a89-70fe-8e65-4c02c06e29bc"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b5-56af5699758f",
+      "name": "Hoạt động ngoại hối",
+      "code": "G19-NH05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b5-56af5699758f",
+    "name": "Hoạt động ngoại hối",
+    "code": "G19-NH05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66f-c53dedd8aa96",
+      "name": "Ngân hàng Nhà nước Việt Nam",
+      "code": "G19"
+    },
+    {
+      "id": "019d2be3-6a89-70fe-8e65-4c02c06e29bc",
+      "name": "Ngân hàng Nhà nước Khu vực",
+      "code": "NgânhàngNhànướcKhuvực"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fb16e-0ee9-770a-a670-d926495e4a80",
+      "name": "Thông tư hướng dẫn về quản lý ngoại hối đối với hoạt động đầu tư ra nước ngoài.",
+      "code": "Thông tư số 34/2026/TT-NHNN"
+    },
+    {
+      "id": "019fb183-ceda-732e-9ee1-75f9e7e93997",
+      "name": "Nghị định quy định về đầu tư ra nước ngoài",
+      "code": "Nghị định 103/2026/TT-NHNN"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7d-740f-b032-2ed3ae99349f",
+      "name": "Văn bản từ chối xác nhận đăng ký giao dịch ngoại hối (Đối với các dự án thuộc thẩm quyền xác nhận của Ngân hàng Nhà nước)",
+      "code": "KQ.G19.000385"
+    },
+    {
+      "id": "019d2bb2-1c7d-740f-b02f-d0fc9d2489e1",
+      "name": "Văn bản xác nhận đăng ký giao dịch ngoại hối (Đối với các dự án thuộc thẩm quyền xác nhận của Ngân hàng Nhà nước)",
+      "code": "KQ.G19.000224"
+    },
+    {
+      "id": "019fb15d-9b35-7089-b5d1-a477c31a6fe1",
+      "name": "Văn bản xác nhận đăng ký giao dịch ngoại hối (Đối với các dự án thuộc thẩm quyền xác nhận của Ngân hàng nhà nước Khu vực)",
+      "code": "KQ.G19.000580"
+    },
+    {
+      "id": "019fb15f-4bb4-7088-846c-3b7e6e41740c",
+      "name": "Văn bản từ chối xác nhận đăng ký giao dịch ngoại hối (Đối với các dự án thuộc thẩm quyền xác nhận của Ngân hàng nhà nước Khu vực)",
+      "code": "KQ.G19.000581"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66f-c53dedd8aa96",
+  "departmentPromulgateCode": "G19",
+  "departmentPromulgateName": "Ngân hàng Nhà nước Việt Nam",
+  "cases": [
+    {
+      "id": "019d2d92-3b2e-73aa-b2f5-59d295541d1c",
+      "name": "Thủ tục xác nhận đăng ký giao dịch ngoại hối liên quan đến hoạt động đầu tư ra nước ngoài",
+      "code": "2.000085.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb265-41ea-74d8-9ec8-d879b1ea0895",
+      "name": "Thủ tục xác nhận đăng ký giao dịch ngoại hối liên quan đến hoạt động đầu tư ra nước ngoài",
+      "code": "2.000085.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a031b9-9d87-77be-ba18-04bbf2c50138",
+      "name": "Thủ tục xác nhận đăng ký giao dịch ngoại hối lần đầu liên quan đến hoạt động đầu tư ra nước ngoài",
+      "code": "2.000085.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559674932,
+  "updatedAt": 1788426154422,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ngân hàng Nhà nước Việt Nam, Ngân hàng Nhà nước Khu vực",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ phận Một cửa Ngân hàng Nhà nước Việt Nam/Ngân hàng Nhà nước Khu vực",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a031b5-cc5b-70e4-98ea-ec5f79e531cb",
+    "proposalNumber": "1602a/QĐ-NHNN",
+    "decisionDate": 1783616400000,
+    "decisionNumber": null,
+    "publicationDate": 1787540642954,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66f-c53dedd8aa96",
+      "name": "Ngân hàng Nhà nước Việt Nam"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE",
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

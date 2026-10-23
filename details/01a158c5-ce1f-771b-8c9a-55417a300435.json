@@ -1,0 +1,311 @@
+{
+  "id": "01a158c5-ce1f-771b-8c9a-55417a300435",
+  "code": "3.000738",
+  "codeNotation": "3.000738",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Tổ chức, cá nhân nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính đến Trung tâm Phục vụ hành chính công tỉnh hoặc nộp trực tuyến trên Cổng Dịch vụ công quốc gia."
+    },
+    {
+      "name": "",
+      "description": "- Trường hợp hồ sơ chưa hợp lệ, trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Văn hóa, Thể thao và Du lịch hướng dẫn tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ."
+    },
+    {
+      "name": "",
+      "description": "- Trường hợp hồ sơ hợp lệ, trong thời hạn 20 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Văn hóa, Thể thao và Du lịch kiểm tra hồ sơ, kiểm tra thực tế, nghiệm thu nội dung hoàn thành; xác định đối tượng, điều kiện, mức hỗ trợ và chi 6 phí thực tế đủ điều kiện hỗ trợ; ban hành quyết định hỗ trợ kinh phí; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do."
+    },
+    {
+      "name": "",
+      "description": "- Đối với nội dung cần ý kiến chuyên môn, Sở Văn hóa, Thể thao và Du lịch lấy ý kiến cơ quan, đơn vị hoặc cá nhân có chuyên môn phù hợp để làm căn cứ xem xét, quyết định hỗ trợ. Thời gian lấy ý kiến chuyên môn nằm trong thời gian giải quyết thủ tục hành chính."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục thực hiện hỗ trợ phát triển sản phẩm du lịch trên địa bàn tỉnh Điện Biên",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a158be-2d80-7009-8f8b-b46fe98395a5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Đơn đề nghị hỗ trợ kinh phí theo mẫu tại Phụ lục ban hành kèm theo Quyết định số 82/2026/QĐ-UBND ngày 13/10/2026",
+          "code": "20",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158be-c53b-710a-8156-47f6e2526ae0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Báo cáo kết quả hoạt động kinh doanh dịch vụ lữ hành của năm trước liền kề; trường hợp doanh nghiệp được thành lập và hoạt động chưa đủ 01 năm, báo cáo kết quả hoạt động kinh doanh dịch vụ lữ hành kể từ thời điểm bắt đầu hoạt động đến thời điểm đề nghị hỗ trợ: đối với chính sách quy định tại điểm a khoản 1 Điều 9 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "21",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158bf-060e-76ca-a3d3-012a921beafa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Văn bản cử đi đào tạo của Ủy ban nhân dân cấp xã, cơ sở kinh doanh, doanh nghiệp hoặc hợp tác xã; bản sao có chứng thực chứng chỉ hoàn thành khóa đào tạo; phiếu thu hoặc hóa đơn học phí: Đối với chính sách quy định tại điểm b khoản 1 Điều 9 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "22",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158c2-8d57-735b-aafc-6bd916057b21",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "có xác nhận của cơ sở lưu trú du lịch trên địa bàn tỉnh về thời gian lưu trú tối thiểu 01 đêm và xác nhận của ban quản lý, đơn vị quản lý khu du lịch, điểm du lịch có bán vé do cơ quan nhà nước trực tiếp quản lý, khai thác: Đối với chính sách quy định tại Điều 10 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "33",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158c3-8f53-7398-8573-a39a0af4a4c5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản thuyết minh sản phẩm quà tặng lưu niệm (giới thiệu sản phẩm; tính mới, sáng tạo, giá trị nổi bật của sản phẩm; đối tượng khách hàng hướng tới; sản phẩm mẫu); bảng kê chi phí thiết kế, sản xuất các sản phẩm, quà tặng lưu niệm; hóa đơn; bảng kê thu mua hàng hóa, dịch vụ đối với trường hợp mua hàng hóa, dịch vụ không có hóa đơn theo quy định của pháp luật; chứng từ thanh toán (nếu có); tài liệu chứng minh kết quả đánh giá, công nhận sản phẩm (trường hợp sản phẩm được cơ quan, đơn vị, tổ chức khác ngoài Sở Văn hóa, Thể thao và Du lịch đánh giá, công nhận): đối với chính sách quy định tại Điều 11 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "34",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a158c3-d26a-73d5-98b9-79d27302cabd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Kế hoạch hoạt động, báo cáo kết quả thực hiện của đội văn nghệ, câu lạc bộ văn nghệ; chương trình, lịch biểu diễn do cơ quan quản lý điểm biểu diễn hoặc cơ quan có thẩm quyền tổ chức hoạt động biểu diễn ban hành: đối với chính sách hỗ trợ quy định tại điểm b khoản 1 Điều 12 Nghị quyết số 16/2026/NQ-HĐND.",
+          "code": "35",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-bf2462610853"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afdf-880250d65c4f",
+    "01a1587c-6dff-73f8-bd8d-e7fec8c2fad3",
+    "01a158c5-a7b0-773f-9ed0-2b6652a8c82b"
+  ],
+  "resultIds": [
+    "01a158c4-5dbb-7431-8845-10035df0cf3e"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-bf2462610853",
+      "name": "Du lịch",
+      "code": "G16-VH21"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-bf2462610853",
+    "name": "Du lịch",
+    "code": "G16-VH21"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d3810-8907-7195-8ecb-6e3d0c581f7e"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d3810-8907-7195-8ecb-6e3d0c581f7e",
+      "name": "Sở Văn hóa, Thể thao và Du lịch"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afdf-880250d65c4f",
+      "name": "Du lịch",
+      "code": "09/2017/QH1409/2017/QH14"
+    },
+    {
+      "id": "01a1587c-6dff-73f8-bd8d-e7fec8c2fad3",
+      "name": "Nghị quyết số 16/2026/NQ-HĐND ngày 29 tháng 6 năm 2026 của Hội đồng nhân dân tỉnh ban hành Quy định chính sách hỗ trợ phát triển sản phẩm du lịch trên địa bàn tỉnh Điện Biên;",
+      "code": "Nghị quyết số 16/2026/NQ-HĐND"
+    },
+    {
+      "id": "01a158c5-a7b0-773f-9ed0-2b6652a8c82b",
+      "name": "Quyết định số 82/2026/QĐ-UBND ngày 13 tháng 10 năm 2026 của Ủy ban nhân dân tỉnh ban hành Quy định hồ sơ, trình tự, thủ tục thực hiện hỗ trợ phát triển sản phẩm du lịch trên địa bàn tỉnh Điện Biên.",
+      "code": "82/2026/QĐ-UBND."
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a158c4-5dbb-7431-8845-10035df0cf3e",
+      "name": "Quyết định hỗ trợ phát triển sản phẩm du lịch trên địa bàn tỉnh Điện Biên",
+      "code": "KQ.H18.03VH"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a341-16615c474af4",
+  "departmentPromulgateCode": "H18",
+  "departmentPromulgateName": "UBND tỉnh Điện Biên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1792741609490,
+  "updatedAt": 1792741609490,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công tỉnh hoặc nộp trực tuyến trên Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a158b6-0556-71a9-b688-01d5d3f8c3a8",
+    "proposalNumber": "2347/QĐ-UBND",
+    "decisionDate": 1792429200000,
+    "decisionNumber": null,
+    "publicationDate": 1792741609445,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a341-16615c474af4",
+      "name": "UBND tỉnh Điện Biên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

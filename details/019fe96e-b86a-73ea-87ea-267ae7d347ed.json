@@ -1,0 +1,183 @@
+{
+  "id": "019fe96e-b86a-73ea-87ea-267ae7d347ed",
+  "code": "5.003878",
+  "codeNotation": "5.003878",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Trên cơ sở văn bản đề nghị của Bộ Quốc phòng hoặc Bộ Công an, văn bản đề nghị của cơ quan chuyên môn về đường thủy, văn bản đề nghị của tổ chức, cá nhân có đường thủy nội địa. Ủy ban nhân dân cấp tỉnh quyết định công bố đóng luồng đường thủy nội địa trong địa giới hành chính địa phương.  \n- Chậm nhất trong 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị, Ủy ban nhân dân cấp tỉnh quyết định công bố đóng luồng đường thủy nội địa trong địa giới hành chính địa phương."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Theo mô tả",
+      "processingTimeUnit": "OTHER",
+      "description": "Chậm nhất trong 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị, Ủy ban nhân dân cấp tỉnh quyết định công bố đóng luồng đường thủy nội địa trong địa giới hành chính địa phương.",
+      "fees": []
+    }
+  ],
+  "description": "Không có.",
+  "name": "Công bố đóng luồng đường thủy nội địa vì lý do bảo đảm quốc phòng, an ninh; không đảm bảo an toàn khai thác vận tải; không còn nhu cầu khai thác, sử dụng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03683-5fe3-775b-9955-bdd730ab22ac",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của Bộ Quốc phòng, Bộ Công an, văn bản đề nghị của cơ quan chuyên môn về đường thủy, văn bản đề nghị của tổ chức, cá nhân có đường thủy nội địa yêu cầu đóng luồng",
+          "code": "H38-KQ000591",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c0a4209513fc"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-345fa89f8a03",
+    "019fdf71-76e2-704b-a3af-c9e4c43d5e83",
+    "019fdf72-377b-70a8-9722-cada8509b918"
+  ],
+  "resultIds": [
+    "019fe96c-dde9-732e-b662-bdbc1199dc56"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+      "name": "Hàng hải và đường thủy nội địa",
+      "code": "G04-GT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+    "name": "Hàng hải và đường thủy nội địa",
+    "code": "G04-GT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3",
+    "019d9448-4f70-755d-9f51-d3e89652ee18"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    },
+    {
+      "id": "019d9448-4f70-755d-9f51-d3e89652ee18",
+      "name": "Sở Xây dựng"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fdf72-377b-70a8-9722-cada8509b918",
+      "name": "Thông tư số 54/2026/TT-BXD ngày 01/7/2026 của Bộ trưởng Bộ Xây dựng quy định Sửa đổi, bổ sung một số điều của Thông tư số 20/2026/TT-BXD ngày 15/5/2026 của Bộ trưởng Bộ Xây dựng quy định về quản lý nhà nước chuyên ngành tại cảng thủy nội địa, bến thủy nội địa, khu neo đậu và quản lý hoạt động hoa tiêu đường thủy nội địa và Thông tư số 21/2026/TT-BXD ngày 15/5/2026 của Bộ trưởng Bộ Xây dựng quy định về quản lý kết cấu hạ tầng đường thủy nội địa",
+      "code": "54/2026/TT-BXD"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b672-345fa89f8a03",
+      "name": "Giao thông đường thủy nội địa",
+      "code": "23/2004/QH11"
+    },
+    {
+      "id": "019fdf71-76e2-704b-a3af-c9e4c43d5e83",
+      "name": "Thông tư số 21/2026/TT-BXD ngày 15/5/2026 của Bộ trưởng Bộ Xây dựng quy định về quản lý kết cấu hạ tầng đường thủy nội địa",
+      "code": "21/2026/TT-BXD"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fe96c-dde9-732e-b662-bdbc1199dc56",
+      "name": "Quyết định công bố đóng luồng",
+      "code": "H38-KQ000331"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b12-58410ba7b5df",
+  "departmentPromulgateCode": "H38",
+  "departmentPromulgateName": "UBND tỉnh Lào Cai",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787621108935,
+  "updatedAt": 1787621108935,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không có.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fe96b-a2ce-760c-839e-db768ce0dba2",
+    "proposalNumber": "2748/QĐ-UBND.",
+    "decisionDate": 1786035600000,
+    "decisionNumber": null,
+    "publicationDate": 1787621108901,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b12-58410ba7b5df",
+      "name": "UBND tỉnh Lào Cai"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

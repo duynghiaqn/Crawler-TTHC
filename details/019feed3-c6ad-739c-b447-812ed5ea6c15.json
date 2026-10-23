@@ -1,0 +1,242 @@
+{
+  "id": "019feed3-c6ad-739c-b447-812ed5ea6c15",
+  "code": "1.116229",
+  "codeNotation": "1.116229",
+  "executionSteps": [
+    {
+      "name": "Trường hợp thông tin dữ liệu không có trong cơ sở dữ liệu quốc gia về đất đai: 15 ngày làm việc",
+      "description": "B1\t1. Cán bộ TN&TKQ tiếp nhận hồ sơ trực tiếp từ người nộp hồ sơ hoặc qua Dịch vụ bưu chính công ích hoặc qua Hệ thống thông tin giải quyết TTHC.\n2. Cán bộ TN&TKQ kiểm tra hồ sơ:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả cho người yêu cầu đăng ký. Chuyển hồ sơ cho Chi nhánh VPĐK đất đai giải quyết.\n- Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\nB2\tThẩm định, xử lý hồ sơ:\n- Trường hợp không đủ điều kiện giải quyết: ban hành Văn bản thông báo hồ sơ không đủ điều kiện giải quyết kèm theo hồ sơ chuyển Trung tâm Phục vụ hành chính công cấp xã trả cho người nộp hồ sơ.\n\t- Trường hợp đủ điều kiện giải quyết: \n+ Thực hiện việc lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.\n+ Thông báo xác nhận kết quả đăng ký đất đai.\nB3\tTrả kết quả giải quyết thủ tục hành chính.\nLưu ý: \nTrường hợp nộp hồ sơ qua Cổng dịch vụ công thì người nộp hồ sơ nộp lại đồng thời các thành phần hồ sơ yêu cầu bản gốc cho Chi nhánh văn phòng đăng ký đất đai."
+    },
+    {
+      "name": "Trường hợp thông tin dữ liệu có trong cơ sở dữ liệu quốc gia về đất đai: 14 ngày làm việc",
+      "description": "B1\t1. Cán bộ TN&TKQ tiếp nhận hồ sơ trực tiếp từ người nộp hồ sơ hoặc qua Dịch vụ bưu chính công ích hoặc qua Hệ thống thông tin giải quyết TTHC.\n2. Cán bộ TN&TKQ kiểm tra hồ sơ:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả cho người yêu cầu đăng ký. Chuyển hồ sơ cho Chi nhánh VPĐK đất đai giải quyết.\n- Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\nB2\tThẩm định, xử lý hồ sơ:\n- Trường hợp không đủ điều kiện giải quyết: ban hành Văn bản thông báo hồ sơ không đủ điều kiện giải quyết kèm theo hồ sơ chuyển Trung tâm Phục vụ hành chính công cấp xã trả cho người nộp hồ sơ.\n\t- Trường hợp đủ điều kiện giải quyết: \n+ Thực hiện việc lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.\n+ Thông báo xác nhận kết quả đăng ký đất đai.\nB3\tTrả kết quả giải quyết thủ tục hành chính.\nLưu ý: \nTrường hợp nộp hồ sơ qua Cổng dịch vụ công thì người nộp hồ sơ nộp lại đồng thời các thành phần hồ sơ yêu cầu bản gốc cho Chi nhánh văn phòng đăng ký đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Không quá 15 ngày làm việc đối với trường hợp thông tin dữ liệu không có trong cơ sở dữ liệu quốc gia về đất đai; Không quá 14 ngày làm việc đối với trường hợp thông tin dữ liệu có trong cơ sở dữ liệu quốc gia về đất đai\nThời gian thực hiện thủ tục hành chính được tính kể từ ngày nhận đủ hồ sơ hợp lệ; không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu giám định, thời gian niêm yết công khai, đăng tin trên phương tiện thông tin đại chúng, thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận, thời gian trích đo bản đồ địa chính.\nĐối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được cộng thêm 10 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Không quá 15 ngày làm việc đối với trường hợp thông tin dữ liệu không có trong cơ sở dữ liệu quốc gia về đất đai; Không quá 14 ngày làm việc đối với trường hợp thông tin dữ liệu có trong cơ sở dữ liệu quốc gia về đất đai\nThời gian thực hiện thủ tục hành chính được tính kể từ ngày nhận đủ hồ sơ hợp lệ; không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu giám định, thời gian niêm yết công khai, đăng tin trên phương tiện thông tin đại chúng, thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận, thời gian trích đo bản đồ địa chính.\nĐối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được cộng thêm 10 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Không quá 15 ngày làm việc đối với trường hợp thông tin dữ liệu không có trong cơ sở dữ liệu quốc gia về đất đai; Không quá 14 ngày làm việc đối với trường hợp thông tin dữ liệu có trong cơ sở dữ liệu quốc gia về đất đai\nThời gian thực hiện thủ tục hành chính được tính kể từ ngày nhận đủ hồ sơ hợp lệ; không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu giám định, thời gian niêm yết công khai, đăng tin trên phương tiện thông tin đại chúng, thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận, thời gian trích đo bản đồ địa chính.\nĐối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được cộng thêm 10 ngày làm việc.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Trường hợp thông tin dữ liệu không có trong cơ sở dữ liệu quốc gia về đất đai: 15 ngày làm việc",
+      "profileComponents": [
+        {
+          "profileComponentId": "019ff01f-f64c-7788-acd6-2a60701517b0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo mẫu BM.ĐĐVP.01.01",
+          "code": "QT.ĐĐVP.01",
+          "attachments": [
+            {
+              "id": "019ff4e1-e9ca-70a2-a14d-db994cc777fb",
+              "fileName": "Mẫu số 01. Đơn đăng ký đất đai, tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019ff4e1-e9ca-70a2-a14d-db994cc777fb/Mẫu số 01. Đơn đăng ký đất đai, tài sản gắn liền với đất.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab72-e75f-7064-886d-9dddc82fa4a4"
+  ],
+  "resultIds": [
+    "019fa2a1-18ea-704b-8d0f-8767be3e2634"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fa2a1-18ea-704b-8d0f-8767be3e2634",
+      "name": "Thông báo xác nhận kết quả đăng ký đất đai.",
+      "code": "KQ-H05.000131"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+  "departmentPromulgateCode": "H27",
+  "departmentPromulgateName": "UBND tỉnh Hà Tĩnh",
+  "cases": [
+    {
+      "id": "019ff9eb-0b9a-731b-81ff-9bfe5bfca0ad",
+      "name": "Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý",
+      "code": "1.116229.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786582719460,
+  "updatedAt": 1786582719460,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019feed3-ffe7-728b-a25a-95068c61d15f",
+    "proposalNumber": "1888/QĐ-UBND",
+    "decisionDate": 1784739600000,
+    "decisionNumber": null,
+    "publicationDate": 1786582718391,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-8557-a2fade51b5ae",
+      "name": "UBND tỉnh Hà Tĩnh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

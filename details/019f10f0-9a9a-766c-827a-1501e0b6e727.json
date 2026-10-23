@@ -1,0 +1,426 @@
+{
+  "id": "019f10f0-9a9a-766c-827a-1501e0b6e727",
+  "code": "1.115444",
+  "codeNotation": "1.115444",
+  "executionSteps": [
+    {
+      "name": "Bước 1: Người đề nghị nộp hồ sơ đến Trung tâm Phục vụ hành chính công.",
+      "description": "Khi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nTrung tâm Phục vụ hành chính công tiếp nhận hồ sơ, kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\nChuyển hồ sơ đến Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị."
+    },
+    {
+      "name": "Bước 2: Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị thực hiện:",
+      "description": "- Trường hợp hồ sơ không đầy đủ, không hợp lệ, làm văn bản trả lại hồ sơ đồng thời hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ.\n- Trường hợp hồ sơ hợp lệ:\n+ Thông báo cho Chi nhánh Văn phòng đăng ký đất đai cung cấp hồ sơ cấp giấy chứng nhận lần đầu.\n+ Kiểm tra hồ sơ cấp giấy chứng nhận trước đây, trường hợp đủ điều kiện xác định lại diện tích đất ở theo quy định thì trình Chủ tịch Ủy ban nhân dân cấp xã xác định lại diện tích đất ở và cấp Giấy chứng nhận cho người sử dụng đất"
+    },
+    {
+      "name": "Bước 3:",
+      "description": "Chủ tịch Ủy ban nhân dân cấp xã ký Giấy chứng nhận quyền sử dụng đất"
+    },
+    {
+      "name": "Bước 4: Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị:",
+      "description": "Chuyển Giấy chứng nhận quyền sử dụng đất đến Trung tâm hành chính công cấp xã để trả kết quả cho người sử dụng đất. Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 20 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-GCN chỉ có quyền sử dụng đất (không có nhà và tài sản khác gắn liền với đất)-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 20 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-GCN chỉ có quyền sử dụng đất (không có nhà và tài sản khác gắn liền với đất)-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 20 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "nộp Trực tuyến miễn Lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-GCN chỉ có quyền sử dụng đất (không có nhà và tài sản khác gắn liền với đất)-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-GCN chỉ có quyền sử dụng đất (không có nhà và tài sản khác gắn liền với đất)-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "nộp Trực tuyến miễn Lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 20 ngày làm việc",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-GCN chỉ có quyền sử dụng đất (không có nhà và tài sản khác gắn liền với đất)-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Cá nhân (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Xác định lại diện tích đất ở của hộ gia đình, cá nhân đã được cấp Giấy chứng nhận trước ngày 01 tháng 7 năm 2004",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa28b-d585-75f9-ac7d-0f4e14b205ea",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mẫu số 18. Đơn đăng ký biến động đất đai, tài sản gắn liền với đất",
+          "code": "TP-H05.000026",
+          "attachments": [
+            {
+              "id": "019fa28b-cd30-73c2-bf4a-d8732baaaca2",
+              "fileName": "18. Mẫu số 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa28b-cd30-73c2-bf4a-d8732baaaca2/18. Mẫu số 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa292-5a6f-776a-9133-9ddf8c3527f6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện.",
+          "code": "TP-H05.000046",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa64a-f3c0-7670-aa76-34373bb85326",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các loại giấy tờ về miễn, giảm nghĩa vụ tài chính (nếu có).",
+          "code": "TP-H05.000152.S",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa64d-00fd-72df-96a6-08f51bddcd17",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp.",
+          "code": "TP-H05.000165.S",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fa1d6-da94-7799-b6dd-b340d2f8fc51",
+    "019fa1e8-86a6-71df-9b88-c4f1e3d6e389",
+    "019fb646-12d3-7739-8d2b-990e6db53392"
+  ],
+  "resultIds": [
+    "019f3ba0-7726-770f-83e4-8e7929bf3b4e"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019e4d63-7e81-76ee-98fb-0fa853b79176"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019e4d63-7e81-76ee-98fb-0fa853b79176",
+      "name": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+      "code": "CQCM-NNMT-CAPXA"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fa1e8-86a6-71df-9b88-c4f1e3d6e389",
+      "name": "Nghị quyết số 86/2025/NQ-HĐND Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng một số loại phí và lệ phí trên địa bàn tỉnh Bắc Ninh",
+      "code": "86/2025/NQ-HĐND"
+    },
+    {
+      "id": "019fa1d6-da94-7799-b6dd-b340d2f8fc51",
+      "name": "Quyết định số 33/2026/QĐ-UBND Ban hành Quy định về trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Bắc Ninh",
+      "code": "33/2026/QĐ-UBND"
+    },
+    {
+      "id": "019fb646-12d3-7739-8d2b-990e6db53392",
+      "name": "Quyết định số 52/2026/QĐ-UBND ngày 09/7/2026 của UBND tỉnh Bắc Ninh Sửa đổi, bổ sung một số nội dung của Quyết định số 33/2026/QĐ-UBND ngày 19 tháng 5 năm 2026 Ban hành Quy định về trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Bắc Ninh.",
+      "code": "52/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f3ba0-7726-770f-83e4-8e7929bf3b4e",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H56.0000017"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND tỉnh Bắc Ninh",
+  "cases": [
+    {
+      "id": "019f4aab-e8dd-741e-ace9-e7f005245562",
+      "name": "Xác định lại diện tích đất ở của hộ gia đình, cá nhân đã được cấp Giấy chứng nhận trước ngày 01 tháng 7 năm 2004",
+      "code": "1.115444.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fbcb6-fb30-771a-96ef-a8b3bdaf500b",
+      "name": "Xác định lại diện tích đất ở của hộ gia đình, cá nhân đã được cấp Giấy chứng nhận trước ngày 01 tháng 7 năm 2004",
+      "code": "1.115444.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1782695631514,
+  "updatedAt": 1785577525818,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm phục vụ hành chính công cấp xã tỉnh Bắc Ninh",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fad62-76ca-769e-9d81-657d4c0769a1",
+    "proposalNumber": "1922/QĐ-UBND",
+    "decisionDate": 1783875600000,
+    "decisionNumber": null,
+    "publicationDate": 1785577523284,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND tỉnh Bắc Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -168,6 +168,17 @@ function getLevelLabel(item) {
     return item.level_label || 'Chưa xác định';
 }
 
+function isInternalProcedure(type, formalityType, name) {
+    const t = String(type || '').toUpperCase();
+    const ft = String(formalityType || '').toLowerCase();
+    const n = String(name || '').toLowerCase();
+    return t.includes('INTERNAL') || ft.includes('nội bộ') || n.includes('nội bộ');
+}
+
+function getProcedureGroup(type, formalityType, name) {
+    return isInternalProcedure(type, formalityType, name) ? 'Thủ tục nội bộ' : 'Thủ tục hành chính';
+}
+
 function parseFormalityType(type) {
     if (type === 'ASSIGNED_REGULATION') return 'TTHC được luật giao quy định chi tiết';
     if (type === 'SPECIFIC') return 'TTHC Đặc thù';
@@ -195,6 +206,8 @@ module.exports = {
     checkExclusionReason,
     isEligibleGiaLai,
     getLevelLabel,
+    isInternalProcedure,
+    getProcedureGroup,
     parseFormalityType,
     parseFormalityCaseLevel
 };

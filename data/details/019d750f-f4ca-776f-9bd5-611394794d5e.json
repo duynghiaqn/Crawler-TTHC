@@ -1,7 +1,7 @@
 {
   "id": "019d750f-f4ca-776f-9bd5-611394794d5e",
-  "code": "1.014927",
-  "codeNotation": "1.014927",
+  "code": "1.014972",
+  "codeNotation": "1.014972",
   "executionSteps": [
     {
       "name": "",
@@ -46,7 +46,7 @@
           "hasElectronicForm": true,
           "isProcessingResult": false,
           "name": "Đơn đề nghị hỗ trợ theo Mẫu số 01 kèm theo Quyết định số 31/2026/QĐ-UBND ngày 15/02/2026 của UBND tỉnh Đồng Tháp.",
-          "code": "31/2026_To khai 01",
+          "code": "TPHS.H20.31QD2028Tokhai01",
           "attachments": [
             {
               "id": "019d750e-4f41-75af-a59e-403efb9c0911",
@@ -61,7 +61,7 @@
   ],
   "formalityTargetType": [],
   "formalityType": "ASSIGNED_REGULATION",
-  "state": "ACTIVE",
+  "state": "UPDATED",
   "isInternal": false,
   "type": "SPECIFIC",
   "isWard": true,
@@ -79,8 +79,8 @@
   ],
   "serviceGroupIds": [],
   "legalBasisIds": [
-    "019d7512-9884-77d9-beae-82618a225a7c",
-    "019d7513-efd2-733b-864b-e412763ecd40"
+    "019d7513-efd2-733b-864b-e412763ecd40",
+    "019d7512-9884-77d9-beae-82618a225a7c"
   ],
   "resultIds": [
     "019d750f-e80e-76e8-80b5-c7363df9dd45"
@@ -114,7 +114,9 @@
     "019d74f2-c762-75b6-beb3-9e57fb9ce30c",
     "019d74f2-5ea1-7088-8c1f-fbc61b7fe8b5"
   ],
-  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorityIds": [
+    "019d2e91-6bf9-737b-b21b-29d6753ae735"
+  ],
   "unitGroupAuthorizedIds": [],
   "unitGroupCoordinatingIds": [],
   "unitGroupsExecuting": [
@@ -127,27 +129,29 @@
       "name": "Phòng Kinh tế cấp xã"
     }
   ],
-  "unitGroupsAuthority": [],
+  "unitGroupsAuthority": [
+    null
+  ],
   "unitGroupsAuthorized": [],
   "unitGroupsCoordinating": [],
   "serviceGroupsDetails": [],
   "legalBasisesDetails": [
     {
-      "id": "019d7512-9884-77d9-beae-82618a225a7c",
-      "name": "quy định chính sách hỗ trợ nâng cấp, thay thế thiết bị giám sát hành trình tàu cá đáp ứng điều kiện theo quy định tại Nghị định số 37/2024/NĐ-CP và duy trì kết nối hệ thống thiết bị giám sát hành trình tàu cá trên địa bàn tỉnh Đồng Tháp",
-      "code": "48/2025/NQ-HĐND"
-    },
-    {
       "id": "019d7513-efd2-733b-864b-e412763ecd40",
       "name": "Quy định trình tự, thủ tục hỗ trợ nâng cấp, thay thế thiết bị giám sát hành trình tàu cá đáp ứng điều kiện theo quy định và duy trì kết nối hệ thống thiết bị giám sát hành trình tàu cá trên địa bàn tỉnh Đồng Tháp.",
       "code": "31/2026/QĐ-UBND"
+    },
+    {
+      "id": "019d7512-9884-77d9-beae-82618a225a7c",
+      "name": "quy định chính sách hỗ trợ nâng cấp, thay thế thiết bị giám sát hành trình tàu cá đáp ứng điều kiện theo quy định tại Nghị định số 37/2024/NĐ-CP và duy trì kết nối hệ thống thiết bị giám sát hành trình tàu cá trên địa bàn tỉnh Đồng Tháp",
+      "code": "48/2025/NQ-HĐND"
     }
   ],
   "resultsDetails": [
     {
       "id": "019d750f-e80e-76e8-80b5-c7363df9dd45",
       "name": "Quyết định về việc hỗ trợ nâng cấp, thay thế và duy trì kết nối hệ thống thiết bị giám sát hành trình tàu cá",
-      "code": "KQ02_31_2026"
+      "code": "KQ.H20.31QD2026001"
     }
   ],
   "subjectTypesDetails": [
@@ -167,6 +171,16 @@
   "departmentPromulgateName": "UBND tỉnh Đồng Tháp",
   "cases": [
     {
+      "id": "01a0ffad-16f7-75cb-a6f5-feff31e2a968",
+      "name": "Hỗ trợ nâng cấp, thay thế thiết bị giám sát hành trình tàu cá đáp ứng điều kiện theo quy định và duy trì kết nối hệ thống thiết bị giám sát hành trình tàu cá",
+      "code": "1.014927.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
       "id": "019d8eec-7898-77a8-a588-e1050c33731e",
       "name": "Hỗ trợ nâng cấp, thay thế thiết bị giám sát hành trình tàu cá đáp ứng điều kiện theo quy định và duy trì kết nối hệ thống thiết bị giám sát hành trình tàu cá",
       "code": "1.014927.01",
@@ -179,7 +193,7 @@
   ],
   "fees": [],
   "createdAt": 1776218753348,
-  "updatedAt": 1776242443231,
+  "updatedAt": 1790995927653,
   "profileComponents": [],
   "targetObjects": [],
   "executingAgencies": "",
@@ -190,11 +204,11 @@
   "requirementsAndConditions": "Tổ chức, cá nhân sở hữu tàu cá được hưởng chính sách hỗ trợ khi đáp ứng các điều kiện sau: \n- Tàu cá có chiều dài lớn nhất từ 15 mét trở lên đăng ký tại tỉnh Đồng Tháp thuộc trường hợp phải lắp đặt thiết bị giám sát hành trình (VMS) thoe quy định của pháp luật, đã lắp thiết bị giám sát hành trình theo quy định.\n- Có các loại giấy tờ còn hiệu lực do cơ quan có thẩm quyền cấp, gồm: Giấy chứng nhận đăng ký tàu cá; Giấy chứng nhận an toàn kỹ thuật tàu cá; Giấy phép khai thác thủy sản; Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm tàu cá; Giấy phép sử dụng tần số và thiết bị vô tuyến điện.\n- Tàu cá không vi phạm khai thác thuỷ sản vượt đường phân định (ranh giới) giữa vùng biển của nước Cộng hoà xã hội chủ nghĩa Việt Nam và các nước trong khu vực; không duy trì hoặc vô hiệu hoá thiết bị giám sát hành trình theo quy định (trừ trường hợp bất khả kháng) bị lực lượng chức năng xử lý, xử phạt vi phạm hành chính, hình sự hoặc bị lực lượng chấp pháp nước ngoài bắt giữ.",
   "procedureRelatedGroup": [],
   "procedureProposal": {
-    "id": "019d8ee3-1511-7702-8522-8318e766b918",
-    "proposalNumber": "596/QĐ-UBND-2026-SNN-dacthu",
-    "decisionDate": 1772643600000,
+    "id": "01a0e71a-2985-7761-aef7-138dec28f3a9",
+    "proposalNumber": "2737/QĐ-UBND",
+    "decisionDate": 1787504400000,
     "decisionNumber": null,
-    "publicationDate": 1776218753278,
+    "publicationDate": 1790995927581,
     "issuingAgency": {
       "id": "019d2be3-6a85-74ec-a344-751a7a0bbdb5",
       "name": "UBND tỉnh Đồng Tháp"

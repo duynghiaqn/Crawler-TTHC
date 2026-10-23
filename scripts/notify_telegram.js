@@ -46,9 +46,14 @@ function collectSummaryData() {
         } catch (e) {}
     }
 
+    const glCompareFile = path.join(DATA_GL_DIR, 'compare_report.json');
     if (fs.existsSync(COMPARE_PROVINCE_FILE)) {
         try {
             provinceInfo = JSON.parse(fs.readFileSync(COMPARE_PROVINCE_FILE, 'utf8'));
+        } catch (e) {}
+    } else if (fs.existsSync(glCompareFile)) {
+        try {
+            provinceInfo = JSON.parse(fs.readFileSync(glCompareFile, 'utf8'));
         } catch (e) {}
     }
 
@@ -184,6 +189,9 @@ function buildSuccessMessage(uploadStatus = 'Chua thuc hien') {
     lines.push(`📊 <b>Master Data:</b>`);
     if (versionInfo) {
         lines.push(`• Tổng số bản ghi: <b>${versionInfo.total_records ?? 'N/A'}</b>`);
+        if (versionInfo.administrative_records !== undefined && versionInfo.internal_records !== undefined) {
+            lines.push(`  └─ 🌐 Thủ tục hành chính: <b>${versionInfo.administrative_records}</b> | 🔒 Thủ tục nội bộ: <b>${versionInfo.internal_records}</b>`);
+        }
         lines.push(`• ✅ Hoàn tất: <b>${versionInfo.completed_records ?? 'N/A'}</b>`);
         lines.push(`• ❌ Thất bại: <b>${versionInfo.failed_records ?? 0}</b>`);
         const statusEmoji = versionInfo.circuit_breaker_status === 'COMPLETED' ? '🟢' : '🟡';
@@ -196,9 +204,11 @@ function buildSuccessMessage(uploadStatus = 'Chua thuc hien') {
     // Biến động TTHC toàn quốc
     if (compareInfo && compareInfo.summary) {
         const s = compareInfo.summary;
+        const admin = s.administrative || {};
+        const intern = s.internal || {};
         lines.push(`📈 <b>Biến động TTHC Toàn quốc:</b>`);
-        lines.push(`• 🟢 Mới thêm: <b>+${s.added_count ?? 0}</b>`);
-        lines.push(`• 🔴 Bãi bỏ/Xóa: <b>-${s.removed_count ?? 0}</b>`);
+        lines.push(`• 🟢 Mới thêm: <b>+${s.added_count ?? 0}</b> (TTHC: +${admin.added_count ?? 0} | Nội bộ: +${intern.added_count ?? 0})`);
+        lines.push(`• 🔴 Bãi bỏ/Xóa: <b>-${s.removed_count ?? 0}</b> (TTHC: -${admin.removed_count ?? 0} | Nội bộ: -${intern.removed_count ?? 0})`);
         lines.push(`• 🟡 Điều chỉnh: <b>${s.modified_count ?? 0}</b>`);
         lines.push('');
     }
@@ -206,13 +216,18 @@ function buildSuccessMessage(uploadStatus = 'Chua thuc hien') {
     // Biến động TTHC Cấp Tỉnh (nếu có)
     if (provinceInfo && provinceInfo.summary) {
         const ps = provinceInfo.summary;
+        const pAdmin = ps.administrative || {};
+        const pIntern = ps.internal || {};
         lines.push(`🏛️ <b>Dữ liệu Cấp Tỉnh & Xã (Gia Lai):</b>`);
         lines.push(`• Tổng TTHC áp dụng: <b>${ps.current_total ?? 'N/A'}</b>`);
+        if (pAdmin.current_total !== undefined || pIntern.current_total !== undefined) {
+            lines.push(`  └─ 🌐 Thủ tục hành chính: <b>${pAdmin.current_total ?? 'N/A'}</b> | 🔒 Thủ tục nội bộ: <b>${pIntern.current_total ?? 0}</b>`);
+        }
         if (ps.level_breakdown) {
             lines.push(`• 🏢 Cấp Tỉnh: <b>${ps.level_breakdown.province_only + ps.level_breakdown.both_province_and_ward}</b> | 🏡 Cấp Xã: <b>${ps.level_breakdown.ward_only + ps.level_breakdown.both_province_and_ward}</b>`);
         }
         if (ps.added_count > 0 || ps.removed_count > 0 || ps.modified_count > 0) {
-            lines.push(`• Biến động: <b>+${ps.added_count} / -${ps.removed_count} / ~${ps.modified_count}</b>`);
+            lines.push(`• Biến động: <b>+${ps.added_count} / -${ps.removed_count} / ~${ps.modified_count}</b> (TTHC: +${pAdmin.added_count ?? 0}/-${pAdmin.removed_count ?? 0} | Nội bộ: +${pIntern.added_count ?? 0}/-${pIntern.removed_count ?? 0})`);
         }
         lines.push('');
     }

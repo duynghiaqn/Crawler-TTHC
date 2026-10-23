@@ -212,6 +212,17 @@ function sanitizeBase64(obj) {
     return JSON.parse(str);
 }
 
+function isInternalProcedure(type, formalityType, name) {
+    const t = String(type || '').toUpperCase();
+    const ft = String(formalityType || '').toLowerCase();
+    const n = String(name || '').toLowerCase();
+    return t.includes('INTERNAL') || ft.includes('nội bộ') || n.includes('nội bộ');
+}
+
+function getProcedureGroup(type, formalityType, name) {
+    return isInternalProcedure(type, formalityType, name) ? 'Thủ tục nội bộ' : 'Thủ tục hành chính';
+}
+
 function parseFormalityType(type) {
     if (type === 'ASSIGNED_REGULATION') return 'TTHC được luật giao quy định chi tiết';
     if (type === 'SPECIFIC') return 'TTHC Đặc thù';
@@ -219,6 +230,8 @@ function parseFormalityType(type) {
     if (type === 'INTERCONNECTED') return 'TTHC liên thông';
     if (type === 'STANDARD_INTERNAL') return 'TTHC nội bộ';
     if (type === 'INTERCONNECTED_INTERNAL') return 'TTHC nội bộ liên thông';
+    if (type === 'LOCAL_REGULATION') return 'Quy định địa phương';
+    if (type === 'CENTRAL_REGULATION') return 'Quy định trung ương';
     return type || 'Không xác định';
 }
 
@@ -315,9 +328,15 @@ async function main() {
 
     // 3. Khôi phục IndexData từ ổ đĩa nếu đã có
     let indexData = [];
+    const indexMap = new Map();
     if (fs.existsSync(CONFIG.INDEX_FILE)) {
         try {
             indexData = JSON.parse(fs.readFileSync(CONFIG.INDEX_FILE, 'utf8'));
+            if (Array.isArray(indexData)) {
+                indexData.forEach(item => {
+                    if (item.id) indexMap.set(item.id, item);
+                });
+            }
         } catch (e) {
             indexData = [];
         }
@@ -349,63 +368,80 @@ async function main() {
     process.on('SIGINT', handleShutdown);
     process.on('SIGTERM', handleShutdown);
 
-    // 4. Thu thập danh mục TTHC Toàn quốc (Discovery Engine - Always Live Discovery First)
+    // 4. Thu thập danh mục TTHC Toàn quốc (Discovery Engine - TTL Cache 6h & Live Discovery)
     let rawList = [];
-    let lastId = "";
-    let currentLimit = CONFIG.DISCOVERY_LIMIT;
-    
-    console.log(`🚀 Đang đồng bộ danh mục TTHC mới nhất từ máy chủ DVCQG (Discovery Engine - Limit: ${currentLimit})...`);
+    let useCachedDiscovery = false;
 
-    try {
-        while (true) {
-            const payload = { limit: currentLimit, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
-            let res;
-            try {
-                res = await fetchVerifiedRequest(
-                    'https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen',
-                    payload,
-                    checkpoint,
-                    CONFIG.DISCOVERY_TIMEOUT_MS
-                );
-            } catch (pageErr) {
-                if (currentLimit > 25) {
-                    currentLimit = 25;
-                    console.warn(`⚠️ Discovery gặp lỗi với limit=${payload.limit}. Tự động giảm limit xuống ${currentLimit} và thử lại...`);
-                    await new Promise(resolve => setTimeout(resolve, 2000));
-                    continue;
-                } else if (currentLimit > 10) {
-                    currentLimit = 10;
-                    console.warn(`⚠️ Discovery vẫn gặp lỗi với limit=25. Tiếp tục giảm limit xuống ${currentLimit} và thử lại...`);
-                    await new Promise(resolve => setTimeout(resolve, 3000));
-                    continue;
+    if (fs.existsSync(CONFIG.DISCOVERY_FILE)) {
+        try {
+            const cacheData = JSON.parse(fs.readFileSync(CONFIG.DISCOVERY_FILE, 'utf8'));
+            const savedAt = new Date(cacheData.savedAt || 0).getTime();
+            const now = Date.now();
+            if (Array.isArray(cacheData.items) && cacheData.items.length > 0 && (now - savedAt < 6 * 3600 * 1000)) {
+                rawList = cacheData.items;
+                useCachedDiscovery = true;
+                console.log(`⚡ Tái sử dụng Discovery Cache quốc gia còn mới (< 6 giờ): ${rawList.length} TTHC.`);
+            }
+        } catch (e) {}
+    }
+
+    if (!useCachedDiscovery) {
+        let lastId = "";
+        let currentLimit = CONFIG.DISCOVERY_LIMIT;
+        
+        console.log(`🚀 Đang đồng bộ danh mục TTHC mới nhất từ máy chủ DVCQG (Discovery Engine - Limit: ${currentLimit})...`);
+
+        try {
+            while (true) {
+                const payload = { limit: currentLimit, lastId: lastId, q: "", categoryId: "", departmentCode: "" };
+                let res;
+                try {
+                    res = await fetchVerifiedRequest(
+                        'https://dichvucong.gov.vn/api/v1/submitting/formality/list-all-public-formality-by-citizen',
+                        payload,
+                        checkpoint,
+                        CONFIG.DISCOVERY_TIMEOUT_MS
+                    );
+                } catch (pageErr) {
+                    if (currentLimit > 25) {
+                        currentLimit = 25;
+                        console.warn(`⚠️ Discovery gặp lỗi với limit=${payload.limit}. Tự động giảm limit xuống ${currentLimit} và thử lại...`);
+                        await new Promise(resolve => setTimeout(resolve, 2000));
+                        continue;
+                    } else if (currentLimit > 10) {
+                        currentLimit = 10;
+                        console.warn(`⚠️ Discovery vẫn gặp lỗi với limit=25. Tiếp tục giảm limit xuống ${currentLimit} và thử lại...`);
+                        await new Promise(resolve => setTimeout(resolve, 3000));
+                        continue;
+                    }
+                    throw pageErr;
                 }
-                throw pageErr;
+
+                if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
+                res.data.items.forEach(item => rawList.push(item));
+
+                if (!res.data.lastId || res.data.lastId === lastId) break;
+                lastId = res.data.lastId;
+                console.log(`   Đã tìm thấy: ${rawList.length} mã TTHC từ máy chủ`);
+                await politeDelay();
             }
 
-            if (!res || !res.data || !res.data.items || res.data.items.length === 0) break;
-            res.data.items.forEach(item => rawList.push(item));
+            if (rawList.length > 0) {
+                // Ghi nhận và cập nhật Discovery Cache mới nhất
+                safeWriteJson(CONFIG.DISCOVERY_FILE, {
+                    savedAt: new Date().toISOString(),
+                    totalItems: rawList.length,
+                    items: rawList
+                });
+                console.log(`✅ Đồng bộ trực tiếp thành công ${rawList.length} TTHC từ máy chủ DVCQG.`);
+            }
 
-            if (!res.data.lastId || res.data.lastId === lastId) break;
-            lastId = res.data.lastId;
-            console.log(`   Đã tìm thấy: ${rawList.length} mã TTHC từ máy chủ`);
-            await politeDelay();
-        }
-
-        if (rawList.length > 0) {
-            // Ghi nhận và cập nhật Discovery Cache mới nhất
-            safeWriteJson(CONFIG.DISCOVERY_FILE, {
-                savedAt: new Date().toISOString(),
-                totalItems: rawList.length,
-                items: rawList
-            });
-            console.log(`✅ Đồng bộ trực tiếp thành công ${rawList.length} TTHC từ máy chủ DVCQG.`);
-        }
-
-    } catch (err) {
-        if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
-            console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED TRONG DISCOVERY: ${err.message}`);
-        } else {
-            console.error(`⚠️ Không thể kết nối lấy danh mục mới từ máy chủ (${err.message}). Kích hoạt Fallback...`);
+        } catch (err) {
+            if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
+                console.error(`\n🛑 CIRCUIT BREAKER TRIGGERED TRONG DISCOVERY: ${err.message}`);
+            } else {
+                console.error(`⚠️ Không thể kết nối lấy danh mục mới từ máy chủ (${err.message}). Kích hoạt Fallback...`);
+            }
         }
     }
 
@@ -435,23 +471,73 @@ async function main() {
 
     // 5. Tải chi tiết từng TTHC — TỐI ĐA KẾT NỐI SONG SONG (CONFIG.MAX_CONCURRENCY)
     if (rawList.length > 0) {
-        console.log(`⚡ Tiến hành tải chi tiết cho: ${rawList.length} thủ tục (Tối đa ${CONFIG.MAX_CONCURRENCY} kết nối song song + Checkpoint liên tục)...\n`);
+        console.log(`⚡ Tiến hành kiểm tra và đồng bộ chi tiết cho: ${rawList.length} thủ tục (Tối đa ${CONFIG.MAX_CONCURRENCY} kết nối song song + Checkpoint liên tục)...\n`);
         
-        let successCount = Object.keys(checkpoint.completedIds).length;
+        const activeDiscoveryMap = new Map();
+        rawList.forEach(item => activeDiscoveryMap.set(item.id, item));
+
+        let successCount = 0;
         let skippedCount = 0;
         const chunkSize = CONFIG.MAX_CONCURRENCY;
         const startTime = Date.now();
 
         for (let i = 0; i < rawList.length; i += chunkSize) {
             const chunk = rawList.slice(i, i + chunkSize);
-            const pending = chunk.filter(item => {
+            const pending = [];
+
+            for (const item of chunk) {
                 const detailFilePath = path.join(CONFIG.DETAILS_DIR, `${item.id}.json`);
-                if (checkpoint.completedIds[item.id] && fs.existsSync(detailFilePath)) {
-                    skippedCount++;
-                    return false;
+                const cpItem = checkpoint.completedIds[item.id];
+
+                // Kiểm tra xem đã có dữ liệu hợp lệ và metadata Discovery không thay đổi
+                let needFetch = false;
+                if (!cpItem || !fs.existsSync(detailFilePath)) {
+                    needFetch = true;
+                } else if (cpItem) {
+                    // Nếu metadata quan trọng ở Discovery (tên, mã, loại) thay đổi so với checkpoint -> Cần fetch lại chi tiết mới nhất
+                    if (cpItem.name && item.name && cpItem.name !== item.name) needFetch = true;
+                    if (cpItem.code && item.code && cpItem.code !== item.code) needFetch = true;
+                    if (cpItem.type && item.type && cpItem.type !== item.type) needFetch = true;
                 }
-                return true;
-            });
+
+                if (needFetch) {
+                    pending.push(item);
+                } else {
+                    // Item đã hoàn thành trước đó: Đảm bảo CÓ MẶT trong indexMap
+                    if (!indexMap.has(item.id)) {
+                        try {
+                            const detail = JSON.parse(fs.readFileSync(detailFilePath, 'utf8'));
+                            const isInternal = isInternalProcedure(item.type || detail.formalityType, detail.formalityType, item.name || detail.name);
+                            indexMap.set(item.id, {
+                                id: item.id,
+                                ma_tthc: item.code || detail.code,
+                                ten_tthc: item.name || detail.name,
+                                cap_thuc_hien: parseFormalityCaseLevel(detail),
+                                nhom_thu_tuc: isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính',
+                                is_noi_bo: isInternal,
+                                loai_tthc: parseFormalityType(item.type || detail.formalityType),
+                                linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : (detail.category ? (detail.category.name || detail.category) : ''),
+                                co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : ''),
+                                url: `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}`
+                            });
+                        } catch (e) {
+                            pending.push(item);
+                            continue;
+                        }
+                    } else {
+                        // Đã có trong indexMap: Cập nhật chuẩn hóa nhom_thu_tuc & is_noi_bo
+                        const existing = indexMap.get(item.id);
+                        const isInternal = isInternalProcedure(item.type || existing.loai_tthc, existing.loai_tthc, item.name || existing.ten_tthc);
+                        existing.nhom_thu_tuc = isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính';
+                        existing.is_noi_bo = isInternal;
+                        existing.ma_tthc = item.code || existing.ma_tthc;
+                        existing.ten_tthc = item.name || existing.ten_tthc;
+                        if (item.type) existing.loai_tthc = parseFormalityType(item.type);
+                    }
+                    skippedCount++;
+                    successCount++;
+                }
+            }
 
             if (pending.length > 0) {
                 const results = await Promise.all(pending.map(async (item) => {
@@ -465,12 +551,15 @@ async function main() {
 
                         if (res && res.data) {
                             let detail = res.data.data || res.data;
+                            const isInternal = isInternalProcedure(item.type || detail.formalityType, detail.formalityType, item.name || detail.name);
 
                             const formalityItem = {
                                 id: item.id,
                                 ma_tthc: item.code,
                                 ten_tthc: item.name,
                                 cap_thuc_hien: parseFormalityCaseLevel(detail),
+                                nhom_thu_tuc: isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính',
+                                is_noi_bo: isInternal,
                                 loai_tthc: parseFormalityType(item.type || detail.formalityType),
                                 linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
                                 co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : ''),
@@ -491,15 +580,12 @@ async function main() {
                 // Cập nhật State & Checkpoint an toàn theo từng đợt Batch (Thread-Safe)
                 for (const res of results) {
                     if (res.success) {
-                        const existingIdx = indexData.findIndex(x => x.id === res.item.id);
-                        if (existingIdx >= 0) {
-                            indexData[existingIdx] = res.formalityItem;
-                        } else {
-                            indexData.push(res.formalityItem);
-                        }
+                        indexMap.set(res.item.id, res.formalityItem);
 
                         checkpoint.completedIds[res.item.id] = {
                             code: res.item.code,
+                            name: res.item.name,
+                            type: res.item.type,
                             timestamp: new Date().toISOString(),
                             verified: true
                         };
@@ -514,6 +600,7 @@ async function main() {
                     }
                 }
                 saveCheckpoint(checkpoint);
+                await politeDelay();
             }
 
             if (checkpoint.status === 'CIRCUIT_BREAKER_TRIPPED') {
@@ -521,18 +608,30 @@ async function main() {
                 break;
             }
 
-            // Log tiến độ mỗi 60 TTHC
-            if ((i + chunkSize) % 60 < chunkSize || i + chunkSize >= rawList.length) {
+            // Log tiến độ mỗi 200 TTHC
+            if ((i + chunkSize) % 200 < chunkSize || i + chunkSize >= rawList.length) {
                 const elapsedMin = ((Date.now() - startTime) / 60000).toFixed(1);
                 const pct = (((i + chunkSize) / rawList.length) * 100).toFixed(1);
-                console.log(`   [${pct}% | ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}] ✅ Hoàn tất: ${successCount} | ⏩ Bỏ qua: ${skippedCount} | ❌ Lỗi: ${Object.keys(checkpoint.failedIds).length} | ⏱️ ${elapsedMin}m`);
+                console.log(`   [${pct}% | ${Math.min(i + chunkSize, rawList.length)}/${rawList.length}] ✅ Đạt: ${successCount} | ⏩ Tái sử dụng: ${skippedCount} | ❌ Lỗi: ${Object.keys(checkpoint.failedIds).length} | ⏱️ ${elapsedMin}m`);
             }
-
-            await politeDelay();
         }
 
-        // 6. Ghi xuất bản Index & Thống kê biến động toàn bộ TTHC
+        // 6. Dọn dẹp & Loại bỏ các TTHC đã bị bãi bỏ / xóa khỏi Cổng DVCQG
+        indexData = Array.from(indexMap.values()).filter(item => activeDiscoveryMap.has(item.id));
+        
+        let prunedCount = 0;
+        for (const id of Object.keys(checkpoint.completedIds)) {
+            if (!activeDiscoveryMap.has(id)) {
+                delete checkpoint.completedIds[id];
+                prunedCount++;
+            }
+        }
+        if (prunedCount > 0) {
+            console.log(`🧹 Đã dọn dẹp ${prunedCount} TTHC đã hết hiệu lực/bãi bỏ khỏi Checkpoint và Index.`);
+        }
+
         safeWriteJson(CONFIG.INDEX_FILE, indexData);
+        saveCheckpoint(checkpoint);
 
         // Kích hoạt engine so sánh và xuất dữ liệu thống kê biến động toàn bộ TTHC
         const compareReport = generateCompareReport(indexData);
@@ -540,6 +639,8 @@ async function main() {
         const versionInfo = {
             last_updated: new Date().toISOString(),
             total_records: indexData.length,
+            administrative_records: indexData.filter(x => !x.is_noi_bo).length,
+            internal_records: indexData.filter(x => x.is_noi_bo).length,
             completed_records: Object.keys(checkpoint.completedIds).length,
             failed_records: Object.keys(checkpoint.failedIds).length,
             circuit_breaker_status: checkpoint.status,
@@ -582,11 +683,16 @@ function generateCompareReport(currentItems) {
     currentItems.forEach(item => {
         const key = item.id || item.ma_tthc || item.code;
         if (key) {
+            const isInternal = item.is_noi_bo !== undefined 
+                ? Boolean(item.is_noi_bo) 
+                : isInternalProcedure(item.loai_tthc || item.type, item.loai_tthc, item.ten_tthc || item.name);
             currentMap.set(key, {
                 id: item.id || '',
                 code: item.ma_tthc || item.code || '',
                 name: item.ten_tthc || item.name || '',
                 cap_thuc_hien: item.cap_thuc_hien || '',
+                nhom_thu_tuc: item.nhom_thu_tuc || (isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính'),
+                is_noi_bo: isInternal,
                 loai_tthc: item.loai_tthc || '',
                 category: item.linh_vuc || (Array.isArray(item.categories) ? item.categories.join(', ') : ''),
                 agency: item.co_quan_thuc_hien || (Array.isArray(item.departments) ? item.departments.join(', ') : ''),
@@ -605,11 +711,16 @@ function generateCompareReport(currentItems) {
                 prevRaw.forEach(item => {
                     const key = item.id || item.code || item.ma_tthc;
                     if (key) {
+                        const isInternal = item.is_noi_bo !== undefined 
+                            ? Boolean(item.is_noi_bo) 
+                            : isInternalProcedure(item.loai_tthc || item.type, item.loai_tthc, item.name || item.ten_tthc);
                         previousMap.set(key, {
                             id: item.id || '',
                             code: item.code || item.ma_tthc || '',
                             name: item.name || item.ten_tthc || '',
                             cap_thuc_hien: item.cap_thuc_hien || '',
+                            nhom_thu_tuc: item.nhom_thu_tuc || (isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính'),
+                            is_noi_bo: isInternal,
                             loai_tthc: item.loai_tthc || '',
                             category: item.category || item.linh_vuc || '',
                             agency: item.agency || item.co_quan_thuc_hien || '',
@@ -628,9 +739,15 @@ function generateCompareReport(currentItems) {
     const removed = [];
     const modified = [];
 
+    const currentItemsList = Array.from(currentMap.values());
+    const adminCurrent = currentItemsList.filter(x => !x.is_noi_bo).length;
+    const internalCurrent = currentItemsList.filter(x => x.is_noi_bo).length;
+
     if (!hasSnapshot) {
         console.log(`📸 Chưa có Snapshot dữ liệu trước đó.`);
         console.log(`⚡ Tạo mới Snapshot khởi tạo ban đầu với: ${currentMap.size} TTHC.`);
+        console.log(`   • 👥 Thủ tục hành chính: ${adminCurrent} TTHC`);
+        console.log(`   • 🏢 Thủ tục nội bộ:    ${internalCurrent} TTHC\n`);
         const snapshotItems = Array.from(currentMap.values());
         safeWriteJson(CONFIG.SNAPSHOT_FILE, snapshotItems);
 
@@ -643,7 +760,19 @@ function generateCompareReport(currentItems) {
                 net_change: currentMap.size,
                 added_count: currentMap.size,
                 removed_count: 0,
-                modified_count: 0
+                modified_count: 0,
+                administrative: {
+                    current_total: adminCurrent,
+                    added_count: adminCurrent,
+                    removed_count: 0,
+                    modified_count: 0
+                },
+                internal: {
+                    current_total: internalCurrent,
+                    added_count: internalCurrent,
+                    removed_count: 0,
+                    modified_count: 0
+                }
             },
             added: snapshotItems,
             removed: [],
@@ -664,6 +793,8 @@ function generateCompareReport(currentItems) {
             if (prevItem.name !== currItem.name) changes.push({ field: 'Tên TTHC', old: prevItem.name, new: currItem.name });
             if (prevItem.code && currItem.code && prevItem.code !== currItem.code) changes.push({ field: 'Mã TTHC', old: prevItem.code, new: currItem.code });
             if (prevItem.cap_thuc_hien && currItem.cap_thuc_hien && prevItem.cap_thuc_hien !== currItem.cap_thuc_hien) changes.push({ field: 'Cấp thực hiện', old: prevItem.cap_thuc_hien, new: currItem.cap_thuc_hien });
+            if (prevItem.nhom_thu_tuc && currItem.nhom_thu_tuc && prevItem.nhom_thu_tuc !== currItem.nhom_thu_tuc) changes.push({ field: 'Nhóm thủ tục', old: prevItem.nhom_thu_tuc, new: currItem.nhom_thu_tuc });
+            if (prevItem.loai_tthc && currItem.loai_tthc && prevItem.loai_tthc !== currItem.loai_tthc) changes.push({ field: 'Loại TTHC', old: prevItem.loai_tthc, new: currItem.loai_tthc });
             if (prevItem.agency && currItem.agency && prevItem.agency !== currItem.agency) changes.push({ field: 'Cơ quan thực hiện', old: prevItem.agency, new: currItem.agency });
 
             if (changes.length > 0) {
@@ -671,6 +802,7 @@ function generateCompareReport(currentItems) {
                     id: currItem.id,
                     code: currItem.code,
                     name: currItem.name,
+                    nhom_thu_tuc: currItem.nhom_thu_tuc,
                     changes,
                     url: currItem.url
                 });
@@ -688,18 +820,29 @@ function generateCompareReport(currentItems) {
     const netChange = currentMap.size - previousMap.size;
     const netSign = netChange >= 0 ? `+${netChange}` : `${netChange}`;
 
+    const adminAdded = added.filter(x => !x.is_noi_bo).length;
+    const internalAdded = added.filter(x => x.is_noi_bo).length;
+
+    const adminRemoved = removed.filter(x => !x.is_noi_bo).length;
+    const internalRemoved = removed.filter(x => x.is_noi_bo).length;
+
+    const adminModified = modified.filter(x => !x.is_noi_bo).length;
+    const internalModified = modified.filter(x => x.is_noi_bo).length;
+
     console.log(`📈 THỐNG KÊ TỔNG QUAN BIẾN ĐỘNG TOÀN BỘ TTHC:`);
     console.log(`   • Số lượng TTHC kỳ trước: ${previousMap.size}`);
     console.log(`   • Số lượng TTHC hiện tại: ${currentMap.size}`);
+    console.log(`     └─ 👥 Thủ tục hành chính: ${adminCurrent} TTHC`);
+    console.log(`     └─ 🏢 Thủ tục nội bộ:    ${internalCurrent} TTHC`);
     console.log(`   • Biến động ròng (Net):   ${netSign} TTHC`);
-    console.log(`   • 🆕 Thêm mới:           ${added.length} TTHC`);
-    console.log(`   • 🗑️ Bãi bỏ / Xóa:        ${removed.length} TTHC`);
-    console.log(`   • ✏️ Thay đổi nội dung:   ${modified.length} TTHC\n`);
+    console.log(`   • 🆕 Thêm mới:           ${added.length} TTHC (TTHC: +${adminAdded} | Nội bộ: +${internalAdded})`);
+    console.log(`   • 🗑️ Bãi bỏ / Xóa:        ${removed.length} TTHC (TTHC: -${adminRemoved} | Nội bộ: -${internalRemoved})`);
+    console.log(`   • ✏️ Thay đổi nội dung:   ${modified.length} TTHC (TTHC: ~${adminModified} | Nội bộ: ~${internalModified})\n`);
 
     if (added.length > 0) {
         console.log(`✨ DANH SÁCH TTHC MỚI BỔ SUNG (${added.length}):`);
         added.slice(0, 10).forEach((item, idx) => {
-            console.log(`   ${idx + 1}. [${item.code || 'N/A'}] ${item.name} (${item.category || item.agency || 'N/A'})`);
+            console.log(`   ${idx + 1}. [${item.code || 'N/A'}] [${item.nhom_thu_tuc || 'TTHC'}] ${item.name} (${item.category || item.agency || 'N/A'})`);
         });
         if (added.length > 10) console.log(`   ... và ${added.length - 10} TTHC mới khác.`);
         console.log('');
@@ -708,7 +851,7 @@ function generateCompareReport(currentItems) {
     if (removed.length > 0) {
         console.log(`❌ DANH SÁCH TTHC ĐÃ BÃI BỎ (${removed.length}):`);
         removed.slice(0, 10).forEach((item, idx) => {
-            console.log(`   ${idx + 1}. [${item.code || 'N/A'}] ${item.name}`);
+            console.log(`   ${idx + 1}. [${item.code || 'N/A'}] [${item.nhom_thu_tuc || 'TTHC'}] ${item.name}`);
         });
         if (removed.length > 10) console.log(`   ... và ${removed.length - 10} TTHC bãi bỏ khác.`);
         console.log('');
@@ -732,7 +875,19 @@ function generateCompareReport(currentItems) {
             net_change: netChange,
             added_count: added.length,
             removed_count: removed.length,
-            modified_count: modified.length
+            modified_count: modified.length,
+            administrative: {
+                current_total: adminCurrent,
+                added_count: adminAdded,
+                removed_count: adminRemoved,
+                modified_count: adminModified
+            },
+            internal: {
+                current_total: internalCurrent,
+                added_count: internalAdded,
+                removed_count: internalRemoved,
+                modified_count: internalModified
+            }
         },
         added,
         removed,

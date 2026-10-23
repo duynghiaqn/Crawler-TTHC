@@ -8,6 +8,8 @@ const {
     isEligibleGiaLai,
     checkExclusionReason,
     getLevelLabel,
+    isInternalProcedure,
+    getProcedureGroup,
     parseFormalityType,
     parseFormalityCaseLevel
 } = require('./scripts/filter_gia_lai');
@@ -335,14 +337,15 @@ async function main() {
 
     const forceFetch = process.argv.includes('--force-fetch');
 
-    // Kiểm tra Discovery Cache cũ trong data-gl hoặc data trước
+    // Kiểm tra Discovery Cache cũ trong data-gl hoặc data trước (chỉ dùng nếu dưới 6 tiếng)
     if (!forceFetch) {
         if (fs.existsSync(CONFIG.DISCOVERY_FILE)) {
             try {
                 const c = JSON.parse(fs.readFileSync(CONFIG.DISCOVERY_FILE, 'utf8'));
-                if (Array.isArray(c.items) && c.items.length > 0) {
+                const cacheAge = Date.now() - new Date(c.savedAt || 0).getTime();
+                if (cacheAge < 6 * 3600 * 1000 && Array.isArray(c.items) && c.items.length > 0) {
                     rawList = c.items;
-                    console.log(`⚡ Nạp nhanh ${rawList.length} TTHC từ cache: data-gl/discovery.json`);
+                    console.log(`⚡ Nạp nhanh ${rawList.length} TTHC từ cache hợp lệ (< 6h): data-gl/discovery.json`);
                 }
             } catch (e) {}
         }
@@ -350,9 +353,10 @@ async function main() {
         if (rawList.length === 0 && fs.existsSync(CONFIG.MASTER_DISCOVERY_FILE)) {
             try {
                 const c = JSON.parse(fs.readFileSync(CONFIG.MASTER_DISCOVERY_FILE, 'utf8'));
-                if (Array.isArray(c.items) && c.items.length > 0) {
+                const cacheAge = Date.now() - new Date(c.savedAt || 0).getTime();
+                if (cacheAge < 6 * 3600 * 1000 && Array.isArray(c.items) && c.items.length > 0) {
                     rawList = c.items;
-                    console.log(`⚡ Kế thừa ${rawList.length} TTHC từ Discovery Cache tổng: data/discovery.json`);
+                    console.log(`⚡ Kế thừa ${rawList.length} TTHC từ Discovery Cache tổng (< 6h): data/discovery.json`);
                 }
             } catch (e) {}
         }
@@ -523,6 +527,7 @@ async function main() {
                         const isProvince = Boolean(detail.isProvince || detail.type === 'PROVINCE');
                         const isWard = Boolean(detail.isWard || detail.type === 'WARD');
 
+                        const isInternal = isInternalProcedure(item.type || detail.formalityType, detail.formalityType, detail.name || item.name);
                         const formalityItem = {
                             id: item.id,
                             ma_tthc: detail.code || detail.codeNotation || item.code || '',
@@ -531,6 +536,8 @@ async function main() {
                             isProvince,
                             isWard,
                             level_label: getLevelLabel(detail),
+                            nhom_thu_tuc: isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính',
+                            is_noi_bo: isInternal,
                             loai_tthc: parseFormalityType(item.type || detail.formalityType),
                             linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : (detail.category ? (detail.category.name || detail.category) : ''),
                             co_quan_ban_hanh: detail.departmentPromulgateName || detail.departmentPromulgate || '',
@@ -543,6 +550,8 @@ async function main() {
                         indexMap.set(item.id, formalityItem);
                         checkpoint.completedIds[item.id] = {
                             code: formalityItem.ma_tthc,
+                            name: formalityItem.ten_tthc,
+                            type: item.type,
                             timestamp: new Date().toISOString(),
                             verified: true
                         };
@@ -582,6 +591,7 @@ async function main() {
 
                         const isProvince = Boolean(detail.isProvince || detail.type === 'PROVINCE');
                         const isWard = Boolean(detail.isWard || detail.type === 'WARD');
+                        const isInternal = isInternalProcedure(item.type || detail.formalityType, detail.formalityType, detail.name || item.name);
 
                         const formalityItem = {
                             id: item.id,
@@ -591,6 +601,8 @@ async function main() {
                             isProvince,
                             isWard,
                             level_label: getLevelLabel(detail),
+                            nhom_thu_tuc: isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính',
+                            is_noi_bo: isInternal,
                             loai_tthc: parseFormalityType(item.type || detail.formalityType),
                             linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : (detail.category ? (detail.category.name || detail.category) : ''),
                             co_quan_ban_hanh: detail.departmentPromulgateName || detail.departmentPromulgate || '',
@@ -623,6 +635,8 @@ async function main() {
                         indexMap.set(res.item.id, res.formalityItem);
                         checkpoint.completedIds[res.item.id] = {
                             code: res.item.code,
+                            name: res.item.name,
+                            type: res.item.type,
                             timestamp: new Date().toISOString(),
                             verified: true
                         };
@@ -658,16 +672,45 @@ async function main() {
         }
     }
 
-    // 6. Tổng hợp dữ liệu cuối cùng và phân cấp
-    indexData = Array.from(indexMap.values());
+    // 6. Tổng hợp dữ liệu cuối cùng và phân cấp, loại bỏ TTHC đã bãi bỏ trên DVCQG
+    const activeDiscoveryIds = new Set(rawList.map(item => item.id));
+    indexData = Array.from(indexMap.values()).filter(item => activeDiscoveryIds.has(item.id));
+    
+    // Đồng bộ chuẩn hóa nhom_thu_tuc cho mọi bản ghi trong indexData
+    indexData.forEach(item => {
+        if (item.is_noi_bo === undefined) {
+            item.is_noi_bo = isInternalProcedure(item.loai_tthc, item.loai_tthc, item.ten_tthc);
+            item.nhom_thu_tuc = item.is_noi_bo ? 'Thủ tục nội bộ' : 'Thủ tục hành chính';
+        }
+    });
+
+    let glPrunedCount = 0;
+    for (const id of Object.keys(checkpoint.completedIds)) {
+        if (!activeDiscoveryIds.has(id)) {
+            delete checkpoint.completedIds[id];
+            glPrunedCount++;
+        }
+    }
+    for (const id of Object.keys(checkpoint.excludedIds)) {
+        if (!activeDiscoveryIds.has(id)) {
+            delete checkpoint.excludedIds[id];
+        }
+    }
+    if (glPrunedCount > 0) {
+        console.log(`🧹 Đã dọn dẹp ${glPrunedCount} TTHC Gia Lai hết hiệu lực/bãi bỏ khỏi Checkpoint và Index.`);
+    }
+
     safeWriteJson(CONFIG.INDEX_FILE, indexData);
 
     const provinceOnlyItems = indexData.filter(x => x.isProvince && !x.isWard);
     const wardOnlyItems = indexData.filter(x => !x.isProvince && x.isWard);
     const bothItems = indexData.filter(x => x.isProvince && x.isWard);
 
-    // Lưu snapshot phục vụ so sánh biến động cho Gia Lai
-    safeWriteJson(CONFIG.SNAPSHOT_FILE, indexData);
+    // Khởi tạo snapshot ban đầu nếu chưa có (không ghi đè snapshot cũ để compare_Province.js so sánh chính xác)
+    if (!fs.existsSync(CONFIG.SNAPSHOT_FILE)) {
+        safeWriteJson(CONFIG.SNAPSHOT_FILE, indexData);
+        console.log(`📸 Khởi tạo snapshot ban đầu cho Gia Lai: data-gl/snapshot.json`);
+    }
 
     checkpoint.status = 'COMPLETED';
     saveCheckpoint(checkpoint);
@@ -678,6 +721,8 @@ async function main() {
         province_name: "Tỉnh Gia Lai",
         province_code: "H21",
         total_eligible_records: indexData.length,
+        administrative_records: indexData.filter(x => !x.is_noi_bo).length,
+        internal_records: indexData.filter(x => x.is_noi_bo).length,
         province_records: provinceOnlyItems.length + bothItems.length,
         ward_records: wardOnlyItems.length + bothItems.length,
         breakdown: {
@@ -703,10 +748,11 @@ async function main() {
     console.log('\n========================================================================');
     console.log('🎉 THU THẬP & ĐỒNG BỘ DỮ LIỆU TTHC GIA LAI HOÀN TẤT THÀNH CÔNG!');
     console.log('========================================================================');
-    console.log(`📁 Thư mục lưu trữ: ${CONFIG.DATA_DIR}`);
     console.log(`🏛️ Tổng số TTHC áp dụng tại Tỉnh Gia Lai: ${indexData.length} thủ tục`);
-    console.log(`   • Thẩm quyền Cấp Tỉnh: ${provinceOnlyItems.length + bothItems.length} TTHC (${provinceOnlyItems.length} chỉ tỉnh + ${bothItems.length} cả 2 cấp)`);
-    console.log(`   • Thẩm quyền Cấp Xã:   ${wardOnlyItems.length + bothItems.length} TTHC (${wardOnlyItems.length} chỉ xã + ${bothItems.length} cả 2 cấp)`);
+    console.log(`   • 👥 Thủ tục hành chính (DVC): ${versionInfo.administrative_records} TTHC`);
+    console.log(`   • 🏢 Thủ tục nội bộ:          ${versionInfo.internal_records} TTHC`);
+    console.log(`   • Thẩm quyền Cấp Tỉnh:        ${provinceOnlyItems.length + bothItems.length} TTHC (${provinceOnlyItems.length} chỉ tỉnh + ${bothItems.length} cả 2 cấp)`);
+    console.log(`   • Thẩm quyền Cấp Xã:          ${wardOnlyItems.length + bothItems.length} TTHC (${wardOnlyItems.length} chỉ xã + ${bothItems.length} cả 2 cấp)`);
     console.log(`\n🚫 Thống kê các TTHC đã được loại trừ tự động:`);
     console.log(`   • Ngành Công an:             ${versionInfo.excluded_summary.police} TTHC`);
     console.log(`   • Cơ quan Cục, Vụ (T.Ư):     ${versionInfo.excluded_summary.cuc_vu} TTHC`);

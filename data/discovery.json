@@ -1,6 +1,6 @@
 {
-  "savedAt": "2026-10-17T10:59:06.497Z",
-  "totalItems": 6829,
+  "savedAt": "2026-10-23T00:14:15.064Z",
+  "totalItems": 6765,
   "items": [
     {
       "id": "01a143f9-6d6a-762c-b604-8bb55131e36f",
@@ -485,6 +485,28 @@
       "formalityTargetType": [
         "Công dân Việt Nam",
         "Tổ chức (không bao gồm doanh nghiệp, HTX)"
+      ],
+      "state": "ACTIVE",
+      "type": "SPECIFIC"
+    },
+    {
+      "id": "01a13825-257e-73ed-83b8-50f3469af7ad",
+      "name": "Xét tặng giải thưởng khoa học,\ncông nghệ và đổi mới sáng tạo\ntỉnh Sơn La",
+      "code": "1.117105",
+      "codeNotation": "1.117105",
+      "categories": [
+        "Hoạt động khoa học và công nghệ"
+      ],
+      "categoryIds": [
+        "019d2c08-77b9-731a-ae11-42a5a53492f9"
+      ],
+      "departments": [
+        "Sở Khoa học và Công nghệ"
+      ],
+      "departmentPromulgate": "UBND tỉnh Sơn La",
+      "departmentPromulgateId": "019d2be3-6a88-732b-8b23-90f0216d78e2",
+      "formalityTargetType": [
+        "Công dân Việt Nam"
       ],
       "state": "ACTIVE",
       "type": "SPECIFIC"
@@ -51572,7 +51594,8 @@
         "Doanh nghiệp Việt Nam",
         "Doanh nghiệp có vốn đầu tư nước ngoài",
         "Hợp tác xã",
-        "Người Việt Nam định cư ở nước ngoài"
+        "Người Việt Nam định cư ở nước ngoài",
+        "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú"
       ],
       "state": "ACTIVE",
       "type": "SPECIFIC"
@@ -61148,7 +61171,7 @@
         "Công dân Việt Nam",
         "Người nước ngoài cư trú tại Việt Nam"
       ],
-      "state": "ACTIVE",
+      "state": "UPDATED",
       "type": "SPECIFIC"
     },
     {
@@ -68860,10 +68883,10 @@
       "code": "1.010947",
       "codeNotation": "1.010947",
       "categories": [
-        "Thi đua – Khen thưởng"
+        "Thi đua, khen thưởng"
       ],
       "categoryIds": [
-        "019d2bbb-69ee-7079-a6b4-a98f31e6650e"
+        "019d2bbb-69ee-7079-a6b1-a4714e95e97a"
       ],
       "departments": [
         "Sở Công Thương - thành phố Huế"
@@ -69506,57 +69529,6 @@
       ],
       "state": "ACTIVE",
       "type": "STANDARD"
-    },
-    {
-      "id": "019d9a43-5dbe-771b-b957-20f811b25127",
-      "name": "Thủ tục cấp phép xây dựng hạ tầng trạm thu phát sóng viễn thông",
-      "code": "1.014398",
-      "codeNotation": "1.014398",
-      "categories": [
-        "Viễn thông và Internet"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-24b8d66db531"
-      ],
-      "departments": [
-        "Sở Xây dựng - Thành phố Huế",
-        "Ban Quản lý Khu kinh tế, công nghiệp thành phố - Thành phố Huế",
-        "Ủy ban nhân dân cấp xã"
-      ],
-      "departmentPromulgate": "UBND Thành phố Huế",
-      "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)"
-      ],
-      "state": "ACTIVE",
-      "type": "SPECIFIC"
-    },
-    {
-      "id": "019d9a3e-52de-76e8-aab8-ab844e7cc46d",
-      "name": "Thủ tục cấp phép thi công hạ tầng kỹ thuật viễn thông ngầm",
-      "code": "1.014397",
-      "codeNotation": "1.014397",
-      "categories": [
-        "Viễn thông và Internet"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-24b8d66db531"
-      ],
-      "departments": [
-        "Sở Xây dựng - Thành phố Huế",
-        "Ban Quản lý Khu kinh tế, công nghiệp thành phố - Thành phố Huế",
-        "Ủy ban nhân dân cấp xã"
-      ],
-      "departmentPromulgate": "UBND Thành phố Huế",
-      "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp có vốn đầu tư nước ngoài"
-      ],
-      "state": "ACTIVE",
-      "type": "SPECIFIC"
     },
     {
       "id": "019d9a35-0f40-774b-8263-4dc13f99a48e",
@@ -72600,54 +72572,6 @@
       "type": "SPECIFIC"
     },
     {
-      "id": "019d860c-e665-7394-a004-f796492488b7",
-      "name": "Nghiệm thu, thanh quyết toán kinh phí hỗ trợ dự án/phương án phát triển sản xuất nông, lâm nghiệp, thủy sản trên địa bàn xã, phường",
-      "code": "1.014870",
-      "codeNotation": "1.014870",
-      "categories": [
-        "Nông nghiệp và Môi trường"
-      ],
-      "categoryIds": [
-        "019d2c08-77b9-731a-ae11-4639a6753f4e"
-      ],
-      "departments": [
-        "Ủy ban nhân dân cấp xã"
-      ],
-      "departmentPromulgate": "UBND tỉnh Lào Cai",
-      "departmentPromulgateId": "019d2be3-6a88-732b-8b12-58410ba7b5df",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Hợp tác xã"
-      ],
-      "state": "ACTIVE",
-      "type": "SPECIFIC"
-    },
-    {
-      "id": "019d8602-02a5-7607-8b56-cca306bb4336",
-      "name": "Thẩm định, phê duyệt thuyết minh và dự toán kinh phí thực hiện dự án/phương án phát triển sản xuất nông, lâm nghiệp, thủy sản hoặc quyết định phê duyệt dự toán kinh phí hỗ trợ thực hiện dự án đối với dự án thuộc diện phải chấp thuận chủ trương đầu tư",
-      "code": "1.014869",
-      "codeNotation": "1.014869",
-      "categories": [
-        "Nông nghiệp và Môi trường"
-      ],
-      "categoryIds": [
-        "019d2c08-77b9-731a-ae11-4639a6753f4e"
-      ],
-      "departments": [
-        "Ủy ban nhân dân cấp xã"
-      ],
-      "departmentPromulgate": "UBND tỉnh Lào Cai",
-      "departmentPromulgateId": "019d2be3-6a88-732b-8b12-58410ba7b5df",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Hợp tác xã"
-      ],
-      "state": "ACTIVE",
-      "type": "SPECIFIC"
-    },
-    {
       "id": "019d85f0-7f58-7319-b513-a5c0be670862",
       "name": "Lào Cai - Cấp phép thi công nút giao đấu nối vào đường địa phương đang khai thác",
       "code": "1.014195",
@@ -73084,7 +73008,8 @@
         "019d2bbb-69ee-7079-a6b1-b026d453fa12"
       ],
       "departments": [
-        "Sở Giáo dục và Đào tạo thành phố Bắc Ninh"
+        "Sở Giáo dục và Đào tạo thành phố Bắc Ninh",
+        "UBND Phường Từ Sơn, thành phố Bắc Ninh"
       ],
       "departmentPromulgate": "UBND thành phố Bắc Ninh",
       "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
@@ -73220,8 +73145,47 @@
         "019d2bbb-69ee-7079-a6b4-b537de0f78f9"
       ],
       "departments": [
+        "UBND Phường Bồng Lai, thành phố Bắc Ninh",
+        "UBND Phường Đào Viên, thành phố Bắc Ninh",
+        "UBND Phường Đồng Nguyên, thành phố Bắc Ninh",
+        "UBND Phường Hạp Lĩnh, thành phố Bắc Ninh",
         "UBND Phường Kinh Bắc, thành phố Bắc Ninh",
-        "UBND Phường Bắc Giang, thành phố Bắc Ninh"
+        "UBND Phường Mão Điền, thành phố Bắc Ninh",
+        "UBND Phường Nam Sơn, thành phố Bắc Ninh",
+        "UBND Phường Nhân Hoà, thành phố Bắc Ninh",
+        "UBND Phường Ninh Xá, thành phố Bắc Ninh",
+        "UBND Phường Phù Khê, thành phố Bắc Ninh",
+        "UBND Phường Phương Liễu, thành phố Bắc Ninh",
+        "UBND Phường Quế Võ, thành phố Bắc Ninh",
+        "UBND Phường Song Liễu, thành phố Bắc Ninh",
+        "UBND Phường Tam Sơn, thành phố Bắc Ninh",
+        "UBND Phường Thuận Thành, thành phố Bắc Ninh",
+        "UBND Phường Trạm Lộ, thành phố Bắc Ninh",
+        "UBND Phường Trí Quả, thành phố Bắc Ninh",
+        "UBND Phường Võ Cường, thành phố Bắc Ninh",
+        "UBND Phường Vũ Ninh, thành phố Bắc Ninh",
+        "UBND Xã Cao Đức, thành phố Bắc Ninh",
+        "UBND phường Chi Lăng, thành phố Bắc Ninh",
+        "UBND Xã Đại Đồng, thành phố Bắc Ninh",
+        "UBND Xã Đại Lai, thành phố Bắc Ninh",
+        "UBND Xã Đông Cứu, thành phố Bắc Ninh",
+        "UBND phường Gia Bình, thành phố Bắc Ninh",
+        "UBND Xã Lâm Thao, thành phố Bắc Ninh",
+        "UBND Xã Liên Bão, thành phố Bắc Ninh",
+        "UBND phường Lương Tài, thành phố Bắc Ninh",
+        "UBND phường Nhân Thắng, thành phố Bắc Ninh",
+        "UBND Xã Phật Tích, thành phố Bắc Ninh",
+        "UBND phường Phù Lãng, thành phố Bắc Ninh",
+        "UBND Xã Tam Đa, thành phố Bắc Ninh",
+        "UBND Xã Tam Giang, thành phố Bắc Ninh",
+        "UBND Xã Tân Chi, thành phố Bắc Ninh",
+        "UBND phường Tiên Du, thành phố Bắc Ninh",
+        "UBND Xã Trung Chính, thành phố Bắc Ninh",
+        "UBND Xã Trung Kênh, thành phố Bắc Ninh",
+        "UBND Xã Văn Môn, thành phố Bắc Ninh",
+        "UBND phường Yên Phong, thành phố Bắc Ninh",
+        "UBND Phường Bắc Giang, thành phố Bắc Ninh",
+        "UBND Phường Tiền Phong, thành phố Bắc Ninh"
       ],
       "departmentPromulgate": "UBND thành phố Bắc Ninh",
       "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
@@ -73968,7 +73932,9 @@
       "departmentPromulgateId": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
       "formalityTargetType": [
         "Công dân Việt Nam",
+        "Người nước ngoài",
         "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+        "Tổ chức nước ngoài",
         "Doanh nghiệp Việt Nam"
       ],
       "state": "ACTIVE",
@@ -101476,6 +101442,7 @@
       "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
       "formalityTargetType": [
         "Công dân Việt Nam",
+        "Doanh nghiệp",
         "Tổ chức (không bao gồm doanh nghiệp, HTX)"
       ],
       "state": "UPDATED",
@@ -109449,28 +109416,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfc-f989-745f-941d-1433f189fd4f",
-      "name": "Thủ tục hướng dẫn về hỗ trợ lãi suất vay vốn và cấp bù chênh lệch lãi suất cho các ngân hàng thương mại nhà nước do thực hiện chính sách hỗ trợ nhằm giảm tổn thất sau thu hoạch đối với nông sản, thuỷ sản.",
-      "code": "3.000046",
-      "codeNotation": "3.000046",
-      "categories": [
-        "Tài chính ngân hàng"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b3-fad511d54730"
-      ],
-      "departments": [
-        "Bộ Tài chính"
-      ],
-      "departmentPromulgate": "Bộ Tài chính",
-      "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
-      "formalityTargetType": [
-        "Doanh nghiệp"
-      ],
-      "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfc-f97b-73fa-8236-7eef15c6b835",
       "name": "Thủ tục cấp, cấp lại, điều chỉnh, gia hạn Giấy chứng nhận đủ điều kiện kinh doanh casino",
       "code": "3.000037",
@@ -109538,50 +109483,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfc-f96a-712e-9151-286efb90407a",
-      "name": "Thủ tục hướng dẫn cơ chế hỗ trợ lãi suất do thực hiện chính sách tín dụng theo Nghị định số 67/2014/NĐ-CP ngày 07/7/2014 của Chính phủ về một số chính sách phát triển thủy sản",
-      "code": "3.000041",
-      "codeNotation": "3.000041",
-      "categories": [
-        "Tài chính ngân hàng"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b3-fad511d54730"
-      ],
-      "departments": [
-        "Bộ Tài chính"
-      ],
-      "departmentPromulgate": "Bộ Tài chính",
-      "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
-      "formalityTargetType": [
-        "Doanh nghiệp"
-      ],
-      "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfc-f966-724e-8cc8-f8620dbf2135",
-      "name": "Thủ tục cấp bù lãi suất do thực hiện chính sách cho vay ưu đãi lãi suất theo chương trình hỗ trợ các huyện nghèo tại Nghị quyết số 30a/2008/NQ-CP ngày 27/12/2008 của Chính phủ",
-      "code": "3.000044",
-      "codeNotation": "3.000044",
-      "categories": [
-        "Tài chính ngân hàng"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b3-fad511d54730"
-      ],
-      "departments": [
-        "Bộ Tài chính"
-      ],
-      "departmentPromulgate": "Bộ Tài chính",
-      "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
-      "formalityTargetType": [
-        "Doanh nghiệp"
-      ],
-      "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfc-f965-74d1-a162-20566056ca43",
       "name": "Thủ tục cấp, cấp lại, điều chỉnh Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ quản lý quỹ bảo hiểm hưu trí bổ sung",
       "code": "3.000038",
@@ -109623,7 +109524,7 @@
       "formalityTargetType": [
         "Doanh nghiệp"
       ],
-      "state": "ACTIVE",
+      "state": "UPDATED",
       "type": "STANDARD"
     },
     {
@@ -110715,28 +110616,6 @@
       "formalityTargetType": [
         "Doanh nghiệp",
         "Tổ chức (không bao gồm doanh nghiệp, HTX)"
-      ],
-      "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfc-e98d-74e6-8709-2802ef6f4879",
-      "name": "Hướng dẫn cơ chế hỗ trợ lãi suất do thực hiện chính sách tín dụng theo Nghị định số 75/2015/NĐ-CP ngày 09/9/2015 của Chính phủ về cơ chế, chính sách bảo vệ và phát triển rừng, gắn với chính sách giảm nghèo nhanh, bền vững và hỗ trợ đồng bảo dân tộc thiểu số giai đoạn 2015-2020",
-      "code": "2.002245",
-      "codeNotation": "2.002245",
-      "categories": [
-        "Tài chính ngân hàng"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b3-fad511d54730"
-      ],
-      "departments": [
-        "Bộ Tài chính"
-      ],
-      "departmentPromulgate": "Bộ Tài chính",
-      "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
-      "formalityTargetType": [
-        "Doanh nghiệp"
       ],
       "state": "ACTIVE",
       "type": "STANDARD"
@@ -112337,7 +112216,7 @@
         "Công dân Việt Nam",
         "Tổ chức (không bao gồm doanh nghiệp, HTX)"
       ],
-      "state": "ACTIVE",
+      "state": "UPDATED",
       "type": "STANDARD"
     },
     {
@@ -122062,28 +121941,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfb-ef19-721f-a484-e9809ec26634",
-      "name": "Thủ tục hướng dẫn hỗ trợ lãi suất vay vốn và cấp bù chênh lệch lãi suất do thực hiện chính sách hỗ trợ nhằm giảm tổn thất trong nông nghiệp",
-      "code": "1.007241",
-      "codeNotation": "1.007241",
-      "categories": [
-        "Tài chính ngân hàng"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b3-fad511d54730"
-      ],
-      "departments": [
-        "Bộ Tài chính"
-      ],
-      "departmentPromulgate": "Bộ Tài chính",
-      "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
-      "formalityTargetType": [
-        "Doanh nghiệp"
-      ],
-      "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfb-ef0b-7208-aa89-3b781441abad",
       "name": "Đăng ký thuế trong trường hợp tạm ngừng hoạt động, kinh doanh hoặc tiếp tục hoạt động, kinh doanh trở lại trước thời hạn",
       "code": "1.007042",
@@ -122367,30 +122224,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfb-df70-748e-89c5-7c3fe7606330",
-      "name": "Thanh toán chi phí có liên quan đến việc xử lý tài sản công",
-      "code": "1.005429",
-      "codeNotation": "1.005429",
-      "categories": [
-        "Quản lý công sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b3-e02feb330582"
-      ],
-      "departments": [
-        "",
-        "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
-      ],
-      "departmentPromulgate": "Bộ Tài chính",
-      "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)"
-      ],
-      "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfb-df51-7008-934b-fb1866ac6861",
       "name": "Chấm dứt việc hưởng hỗ trợ phí bảo hiểm nông nghiệp và hoàn phí bảo hiểm nông nghiệp",
       "code": "1.005411",
@@ -122415,32 +122248,6 @@
         "Tổ chức (không bao gồm doanh nghiệp, HTX)"
       ],
       "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfb-df4a-7096-8ab6-8f1341f50cdd",
-      "name": "Quyết định sử dụng tài sản công để tham gia dự án đầu tư theo hình thức đối tác công - tư",
-      "code": "1.005419",
-      "codeNotation": "1.005419",
-      "categories": [
-        "Quản lý công sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b3-e02feb330582"
-      ],
-      "departments": [
-        "",
-        "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
-      ],
-      "departmentPromulgate": "Bộ Tài chính",
-      "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Cán bộ, công chức, viên chức"
-      ],
-      "state": "ACTIVE",
       "type": "STANDARD"
     },
     {
@@ -123380,7 +123187,7 @@
       "formalityTargetType": [
         "Công dân Việt Nam"
       ],
-      "state": "ACTIVE",
+      "state": "UPDATED",
       "type": "STANDARD"
     },
     {
@@ -134566,34 +134373,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfa-9dfc-7388-8368-3b7128665588",
-      "name": "Lựa chọn tổ chức, cá nhân để nộp hồ sơ đề nghị cấp giấy phép khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014788",
-      "codeNotation": "1.014788",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hải Phòng",
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfa-9dfb-73dc-a98a-225d40cdbe70",
       "name": "Cấp, cấp lại Giấy xác nhận nuôi trồng thủy sản lồng bè, đối tượng thủy sản nuôi chủ lực (hoạt động trên nội địa thuộc phạm vi quản lý từ 02 tỉnh, thành phố trở lên và cơ sở nuôi trồng thủy sản lồng bè thuộc thẩm quyền giao khu vực biển của Bộ trưởng Bộ Nông nghiệp và Môi trường)",
       "code": "1.014834",
@@ -134676,31 +134455,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfa-9df9-749f-8ca9-da3dd4eab2e9",
-      "name": "Chấp thuận thay đổi nội dung đề án thăm dò khoáng sản (cấp Tỉnh)",
-      "code": "1.014789",
-      "codeNotation": "1.014789",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfa-9df9-749f-8ca9-d7ded7ae1ecd",
       "name": "Cấp, cấp lại Giấy chứng nhận cơ sở đủ điều kiện đăng kiểm tàu cá (đối với cơ sở đăng kiểm tàu cá thuộc Bộ Nông nghiệp và Môi trường quản lý)",
       "code": "1.014835",
@@ -134753,31 +134507,6 @@
         "Người Việt Nam định cư ở nước ngoài"
       ],
       "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9df5-728a-bce4-cfa0e32c0b40",
-      "name": "Chấp thuận việc lấy mẫu để nghiên cứu, thử nghiệm công nghệ chế biến khoáng sản (cấp Tỉnh)",
-      "code": "1.014787",
-      "codeNotation": "1.014787",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
       "type": "STANDARD"
     },
     {
@@ -134836,31 +134565,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfa-9686-776e-856e-5ab8cb78d2b0",
-      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014775",
-      "codeNotation": "1.014775",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Tổ chức nước ngoài",
-        "Doanh nghiệp Việt Nam"
-      ],
-      "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfa-967c-7263-8603-34843e94b273",
       "name": "Gia hạn Giấy chứng nhận đủ điều kiện nhập khẩu thuốc thú y",
       "code": "1.014778",
@@ -134887,31 +134591,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfa-967b-7238-8206-6a00950b0945",
-      "name": "Lựa chọn tổ chức, cá nhân để nộp hồ sơ đề nghị cấp giấy phép khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014784",
-      "codeNotation": "1.014784",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Tổ chức nước ngoài",
-        "Doanh nghiệp Việt Nam"
-      ],
-      "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfa-967a-712c-8daa-d1e41575dc63",
       "name": "Gia hạn Giấy chứng nhận đủ điều kiện sản xuất thuốc thú y (trừ sản xuất thuốc thú y dạng dược phẩm, vắc-xin)",
       "code": "1.014777",
@@ -134935,39 +134614,6 @@
         "Doanh nghiệp có vốn đầu tư nước ngoài"
       ],
       "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9679-7365-90c0-0d8d7697a0ab",
-      "name": "Khai thác thông tin, dữ liệu địa chất, khoáng sản (cấp Tỉnh)",
-      "code": "1.014786",
-      "codeNotation": "1.014786",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Người nước ngoài",
-        "Đảng viên",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Tổ chức Đảng",
-        "Tổ chức nước ngoài",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã",
-        "Người Việt Nam định cư ở nước ngoài",
-        "Cán bộ, công chức, viên chức"
-      ],
-      "state": "ACTIVE",
       "type": "STANDARD"
     },
     {
@@ -135267,66 +134913,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfa-9648-757a-af99-4f3098315ce5",
-      "name": "Khai thác thông tin, dữ liệu địa chất, khoáng sản (cấp Bộ)",
-      "code": "1.014345",
-      "codeNotation": "1.014345",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Người nước ngoài",
-        "Đảng viên",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Tổ chức Đảng",
-        "Tổ chức nước ngoài",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã",
-        "Người Việt Nam định cư ở nước ngoài",
-        "Cán bộ, công chức, viên chức"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-963d-73fd-984c-2fa23676a579",
-      "name": "Công nhận kết quả thăm dò khoáng sản (cấp Tỉnh)",
-      "code": "1.014466",
-      "codeNotation": "1.014466",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Tổ chức nước ngoài",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfa-9636-731a-8382-44cfc8607006",
       "name": "Cấp, cấp lại mã số rừng sản xuất là rừng trồng",
       "code": "1.014605",
@@ -135346,253 +134932,6 @@
         "Tổ chức (không bao gồm doanh nghiệp, HTX)"
       ],
       "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9636-708f-9e3e-867d3cd053f8",
-      "name": "Giao nộp, thu nhận thông tin, dữ liệu địa chất, khoáng sản (cấp tỉnh)",
-      "code": "1.014346",
-      "codeNotation": "1.014346",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Người nước ngoài",
-        "Đảng viên",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Tổ chức nước ngoài",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã",
-        "Người Việt Nam định cư ở nước ngoài",
-        "Cán bộ, công chức, viên chức"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9633-724b-9c0f-59b125245c92",
-      "name": "Chấp thuận nội dung đánh giá mức độ ảnh hưởng của việc thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia",
-      "code": "1.014294",
-      "codeNotation": "1.014294",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9630-76c4-82aa-e13f5d7e6061",
-      "name": "Chấp thuận khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV tại khu vực không đấu giá quyền khai thác khoáng sản",
-      "code": "1.014289",
-      "codeNotation": "1.014289",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9629-73a3-b985-266b8e0682ea",
-      "name": "Giao nộp, thu nhận thông tin, dữ liệu địa chất, khoáng sản (cấp Bộ)",
-      "code": "1.014344",
-      "codeNotation": "1.014344",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Người nước ngoài",
-        "Đảng viên",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Tổ chức Đảng",
-        "Tổ chức nước ngoài",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã",
-        "Người Việt Nam định cư ở nước ngoài",
-        "Cán bộ, công chức, viên chức"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9626-7758-8c07-84b3b5b39fda",
-      "name": "Xác nhận kết quả khảo sát, đánh giá thông tin chung đối với khoáng sản nhóm IV",
-      "code": "1.014290",
-      "codeNotation": "1.014290",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9626-719a-94a4-c96572a01786",
-      "name": "Trả lại giấy phép khai thác tận thu khoáng sản",
-      "code": "1.014282",
-      "codeNotation": "1.014282",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9623-754e-ae2d-ecbddbd72dbd",
-      "name": "Chuyển nhượng quyền khai thác tận thu khoáng sản",
-      "code": "1.014283",
-      "codeNotation": "1.014283",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9621-77a4-8bb2-57f9962bb6a8",
-      "name": "Bổ sung khối lượng công tác thăm dò khi giấy phép thăm dò khoáng sản đã hết thời hạn (cấp Tỉnh)",
-      "code": "1.014291",
-      "codeNotation": "1.014291",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-9621-76af-9feb-3fe9fe2daae8",
-      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014295",
-      "codeNotation": "1.014295",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
       "type": "STANDARD"
     },
     {
@@ -135620,84 +134959,6 @@
       "type": "STANDARD"
     },
     {
-      "id": "019d2bfa-961d-707e-99a4-c63d8ca61573",
-      "name": "Chấp thuận thăm dò, khai thác khoáng sản tại khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản (cấp Tỉnh)",
-      "code": "1.014292",
-      "codeNotation": "1.014292",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8eb9-724e-8456-e3454726f643",
-      "name": "Điều chỉnh giấy phép khai thác tận thu khoáng sản",
-      "code": "1.014281",
-      "codeNotation": "1.014281",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8ea9-743f-af74-73a3dfb0bcf9",
-      "name": "Quyết định đóng cửa mỏ khoáng sản (cấp Tỉnh)",
-      "code": "1.014278",
-      "codeNotation": "1.014278",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
       "id": "019d2bfa-8e9b-7016-8e52-bcc0f5d0bc05",
       "name": "Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư.",
       "code": "1.014275",
@@ -135718,866 +134979,6 @@
         "Tổ chức (không bao gồm doanh nghiệp, HTX)"
       ],
       "state": "ACTIVE",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e97-7548-9d9b-a76ff8a039b2",
-      "name": "Điều chỉnh nội dung đề án đóng cửa mỏ khoáng sản đã được phê duyệt (cấp Tỉnh)",
-      "code": "1.014276",
-      "codeNotation": "1.014276",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e94-75ef-947b-1f5d7064a0e3",
-      "name": "Cấp đổi giấy phép khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014272",
-      "codeNotation": "1.014272",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e94-741a-84df-6024d44555b1",
-      "name": "Cấp giấy phép khai thác tận thu khoáng sản",
-      "code": "1.014279",
-      "codeNotation": "1.014279",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e92-7108-a0d9-e8f11c86f323",
-      "name": "Gia hạn giấy phép khai thác tận thu khoáng sản",
-      "code": "1.014280",
-      "codeNotation": "1.014280",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e90-74fb-8624-3b714010edbf",
-      "name": "Chấp thuận phương án đóng cửa mỏ khoáng sản (cấp Tỉnh)",
-      "code": "1.014277",
-      "codeNotation": "1.014277",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e8c-76ed-a45f-1a8a49ec6471",
-      "name": "Điều chỉnh giấy phép khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014267",
-      "codeNotation": "1.014267",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e8c-76d7-ac45-5e43f465d794",
-      "name": "Trả lại giấy phép khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014269",
-      "codeNotation": "1.014269",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e89-762a-934e-fa84a3491a00",
-      "name": "Gia hạn giấy phép thăm dò khoáng sản (cấp Tỉnh)",
-      "code": "1.014263",
-      "codeNotation": "1.014263",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e86-74bd-b263-94c85d792796",
-      "name": "Thăm dò bổ sung để nâng cấp tài nguyên, trữ lượng khoáng sản (cấp Tỉnh)",
-      "code": "1.014273",
-      "codeNotation": "1.014273",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e85-7694-832b-66e645a91576",
-      "name": "Phê duyệt đề án đóng cửa mỏ khoáng sản (cấp Tỉnh)",
-      "code": "1.014274",
-      "codeNotation": "1.014274",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e84-7685-a875-ba8983749550",
-      "name": "Chuyển nhượng quyền thăm dò khoáng sản (cấp Tỉnh)",
-      "code": "1.014271",
-      "codeNotation": "1.014271",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e84-7257-9eb2-f32167d4e12d",
-      "name": "Gia hạn giấy phép khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014266",
-      "codeNotation": "1.014266",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e84-70cd-be6b-5224cd26d748",
-      "name": "Chuyển nhượng quyền khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014270",
-      "codeNotation": "1.014270",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e82-710b-b1bf-e1d04040b26f",
-      "name": "Lựa chọn tổ chức, cá nhân để xem xét cấp giấy phép thăm dò khoáng sản ở khu vực không đấu giá quyền khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014260",
-      "codeNotation": "1.014260",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e7f-741f-b50c-ee8aa32f0e27",
-      "name": "Cấp lại giấy phép thăm dò khoáng sản (cấp Tỉnh)",
-      "code": "1.014262",
-      "codeNotation": "1.014262",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e6f-7583-861a-43fdfcf8a805",
-      "name": "Trả lại giấy phép thăm dò khoáng sản (cấp Tỉnh)",
-      "code": "1.014268",
-      "codeNotation": "1.014268",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e6e-7289-8f4e-fcc59ecbc609",
-      "name": "Cấp Giấy phép thăm dò khoáng sản (cấp Tỉnh)",
-      "code": "1.014261",
-      "codeNotation": "1.014261",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e66-755d-82c5-0b803e0b405a",
-      "name": "Cấp lại giấy phép khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014265",
-      "codeNotation": "1.014265",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e64-7535-a862-5aac8070939b",
-      "name": "Cấp giấy phép khai thác khoáng sản (cấp Tỉnh)",
-      "code": "1.014257",
-      "codeNotation": "1.014257",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e61-73de-8f80-81e6e2a412dc",
-      "name": "Điều chỉnh giấy phép thăm dò khoáng sản (cấp Tỉnh)",
-      "code": "1.014264",
-      "codeNotation": "1.014264",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Tổ chức nước ngoài",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e5e-714e-b4e2-87150f285b80",
-      "name": "Quyết toán tiền cấp quyền khai thác khoáng sản (cấp Xã)",
-      "code": "1.014259",
-      "codeNotation": "1.014259",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Ủy ban nhân dân cấp xã",
-        "Ủy ban nhân dân cấp xã"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e5a-7180-9b55-92c56132c8e6",
-      "name": "Xác nhận đăng ký thu hồi khoáng sản (cấp Xã)",
-      "code": "1.014258",
-      "codeNotation": "1.014258",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Ủy ban nhân dân cấp xã"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Công dân Việt Nam",
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã",
-        "Người Việt Nam định cư ở nước ngoài"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e54-72bf-97b9-a69bb04e3ece",
-      "name": "Cấp đổi giấy phép khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014244",
-      "codeNotation": "1.014244",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e4e-77ad-8cd0-871895dc57ee",
-      "name": "Chuyển nhượng quyền khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014243",
-      "codeNotation": "1.014243",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e4d-7329-bd48-995dae7e1cde",
-      "name": "Công nhận kết quả thăm dò khoáng sản (cấp Bộ)",
-      "code": "1.014251",
-      "codeNotation": "1.014251",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Văn phòng Hội đồng đánh giá trữ lượng quốc gia - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e4a-700f-85e7-90b59f910ad0",
-      "name": "Xác nhận đăng ký thu hồi khoáng sản (cấp Tỉnh)",
-      "code": "1.014256",
-      "codeNotation": "1.014256",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e48-70ef-8423-215c5997d9d0",
-      "name": "Trả lại giấy phép khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014242",
-      "codeNotation": "1.014242",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-8e47-77de-9652-8410305c28c3",
-      "name": "Tuyển chọn tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản",
-      "code": "1.014255",
-      "codeNotation": "1.014255",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-86eb-7021-9b08-a15a360fd413",
-      "name": "Điều chỉnh giấy phép khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014241",
-      "codeNotation": "1.014241",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-86d0-736b-8480-320e9906e6ac",
-      "name": "Cấp Giấy phép thăm dò khoáng sản (cấp Bộ)",
-      "code": "1.014232",
-      "codeNotation": "1.014232",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-86cd-75a8-8f9d-03376d41f445",
-      "name": "Cấp lại giấy phép khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014239",
-      "codeNotation": "1.014239",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-86c6-766e-ae4c-24bda397b36f",
-      "name": "Lựa chọn tổ chức, cá nhân để xem xét cấp giấy phép thăm dò khoáng sản ở khu vực không đấu giá quyền khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014233",
-      "codeNotation": "1.014233",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-86c5-7255-9b6e-a40ba9d38a3b",
-      "name": "Cấp giấy phép khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014236",
-      "codeNotation": "1.014236",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp Việt Nam",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
-      ],
-      "state": "UPDATED",
       "type": "STANDARD"
     },
     {
@@ -136602,31 +135003,6 @@
         "Tổ chức nước ngoài",
         "Doanh nghiệp Việt Nam",
         "Doanh nghiệp có vốn đầu tư nước ngoài"
-      ],
-      "state": "UPDATED",
-      "type": "STANDARD"
-    },
-    {
-      "id": "019d2bfa-86b9-7381-9ba3-01f20b54e467",
-      "name": "Gia hạn giấy phép khai thác khoáng sản (cấp Bộ)",
-      "code": "1.014240",
-      "codeNotation": "1.014240",
-      "categories": [
-        "Địa chất và khoáng sản"
-      ],
-      "categoryIds": [
-        "019d2bbb-69ee-7079-a6b2-d8f1a022b717"
-      ],
-      "departments": [
-        "Cục Địa chất và Khoáng sản Việt Nam - Bộ NN và MT"
-      ],
-      "departmentPromulgate": "Bộ Nông nghiệp và Môi trường",
-      "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
-      "formalityTargetType": [
-        "Doanh nghiệp",
-        "Tổ chức (không bao gồm doanh nghiệp, HTX)",
-        "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "Hợp tác xã"
       ],
       "state": "UPDATED",
       "type": "STANDARD"

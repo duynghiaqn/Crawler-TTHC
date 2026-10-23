@@ -5,7 +5,9 @@ require('dotenv').config();
 
 const {
     isEligibleGiaLai,
-    getLevelLabel
+    getLevelLabel,
+    isInternalProcedure,
+    getProcedureGroup
 } = require('./filter_gia_lai');
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -37,17 +39,26 @@ function loadUniqueProvinceWardDataset() {
                 raw.forEach(item => {
                     const code = String(item.ma_tthc || item.code || item.id).trim();
                     if (!code) return;
+                    const fType = item.loai_tthc || item.formalityType || 'STANDARD';
+                    const name = item.ten_tthc || item.name || '';
+                    const isInternal = typeof item.is_noi_bo === 'boolean' 
+                        ? item.is_noi_bo 
+                        : isInternalProcedure(fType, item.formalityType, name);
+                    const group = item.nhom_thu_tuc || getProcedureGroup(fType, item.formalityType, name);
+
                     codeMap.set(code, {
                         id: item.id || code,
                         code,
-                        name: item.ten_tthc || item.name || '',
+                        name,
                         category: item.linh_vuc || (Array.isArray(item.categories) ? item.categories.join(', ') : item.category) || '',
                         agency: item.co_quan_thuc_hien || item.executingAgencies || '',
                         isProvince: Boolean(item.isProvince || (item.cap_thuc_hien && item.cap_thuc_hien.includes('tỉnh'))),
                         isWard: Boolean(item.isWard || (item.cap_thuc_hien && item.cap_thuc_hien.includes('xã'))),
-                        formalityType: item.loai_tthc || item.formalityType || 'STANDARD',
+                        formalityType: fType,
                         executingAgencies: item.co_quan_thuc_hien || item.executingAgencies || '',
                         departmentPromulgate: item.co_quan_ban_hanh || item.departmentPromulgate || '',
+                        nhom_thu_tuc: group,
+                        is_noi_bo: isInternal,
                         url: item.url || `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
                     });
                 });
@@ -72,19 +83,27 @@ function loadUniqueProvinceWardDataset() {
 
                         const category = detail.category || detail.linh_vuc || (Array.isArray(detail.categories) ? detail.categories.join(', ') : detail.categories) || '';
                         const agency = detail.executingAgencies || detail.co_quan_thuc_hien || detail.departmentPromulgateName || detail.departmentPromulgate || '';
+                        const fType = detail.formalityType || detail.type || 'STANDARD';
+                        const name = detail.name || detail.ten_tthc || '';
+                        const isInternal = typeof detail.is_noi_bo === 'boolean'
+                            ? detail.is_noi_bo
+                            : isInternalProcedure(fType, detail.formalityType, name);
+                        const group = detail.nhom_thu_tuc || getProcedureGroup(fType, detail.formalityType, name);
 
                         if (!codeMap.has(code)) {
                             codeMap.set(code, {
                                 id: detail.id || code,
                                 code,
-                                name: detail.name || detail.ten_tthc || '',
+                                name,
                                 category,
                                 agency,
                                 isProvince,
                                 isWard,
-                                formalityType: detail.formalityType || detail.type || 'STANDARD',
+                                formalityType: fType,
                                 executingAgencies: detail.executingAgencies || detail.co_quan_thuc_hien || agency,
                                 departmentPromulgate: detail.departmentPromulgateName || detail.departmentPromulgate || '',
+                                nhom_thu_tuc: group,
+                                is_noi_bo: isInternal,
                                 url: `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
                             });
                         } else {
@@ -103,59 +122,6 @@ function loadUniqueProvinceWardDataset() {
         } catch (e) {}
     }
 
-    if (codeMap.size === 0 && fs.existsSync(DISCOVERY_FILE)) {
-        try {
-            const cache = JSON.parse(fs.readFileSync(DISCOVERY_FILE, 'utf8'));
-            const raw = cache.items || cache;
-            if (Array.isArray(raw)) {
-                raw.forEach(item => {
-                    const depts = Array.isArray(item.departments) ? item.departments.join(', ') : '';
-                    const mockDetail = {
-                        isProvince: item.type === 'PROVINCE' || !depts.includes('cấp xã'),
-                        isWard: depts.includes('cấp xã'),
-                        departmentCode: item.departmentCode || item.departmentPromulgateCode || '',
-                        departmentPromulgate: item.departmentPromulgate || '',
-                        executingAgencies: depts,
-                        type: item.type,
-                        formalityType: item.formalityType
-                    };
-
-                    if (shouldIncludeItem(mockDetail)) {
-                        const code = String(item.code || item.codeNotation || item.id).trim();
-                        if (!code) return;
-
-                        const isProvince = mockDetail.isProvince;
-                        const isWard = mockDetail.isWard;
-                        const category = Array.isArray(item.categories) ? item.categories.join(', ') : (item.category || item.linh_vuc || '');
-                        const agency = depts || (Array.isArray(item.departments) ? item.departments.join(', ') : item.co_quan_thuc_hien || item.departmentPromulgate || '');
-
-                        if (!codeMap.has(code)) {
-                            codeMap.set(code, {
-                                id: item.id || code,
-                                code,
-                                name: item.name || '',
-                                category,
-                                agency,
-                                isProvince,
-                                isWard,
-                                formalityType: item.formalityType || item.type || 'STANDARD',
-                                executingAgencies: depts || agency,
-                                departmentPromulgate: item.departmentPromulgate || '',
-                                url: `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
-                            });
-                        } else {
-                            const existing = codeMap.get(code);
-                            if (isProvince) existing.isProvince = true;
-                            if (isWard) existing.isWard = true;
-                            if (!existing.category && category) existing.category = category;
-                            if (!existing.agency && agency) existing.agency = agency;
-                        }
-                    }
-                });
-            }
-        } catch (e) {}
-    }
-
     return Array.from(codeMap.values()).map(item => ({
         ...item,
         level_label: getLevelLabel(item)
@@ -166,7 +132,7 @@ async function compareProvinceWard() {
     console.log('\n================================================================');
     console.log('🏛️  BÁO CÁO THEO DÕI BIẾN ĐỘNG TTHC THEO MÃ DUY NHẤT (PROVINCE & WARD)');
     console.log('    [Tính duy nhất theo Mã TTHC | Hợp nhất thủ tục áp dụng cả Tỉnh & Xã]');
-    console.log('    [Loại bỏ: TTHC Đặc thù/Địa phương của các tỉnh thành khác]');
+    console.log('    [Phân loại: Thủ tục hành chính & Thủ tục nội bộ]');
     console.log('================================================================\n');
 
     const currentItems = loadUniqueProvinceWardDataset();
@@ -181,12 +147,57 @@ async function compareProvinceWard() {
     let previousMap = new Map();
     let hasSnapshot = false;
 
-    if (fs.existsSync(SNAPSHOT_FILE)) {
+    // Ưu tiên đọc data-gl/snapshot.json trước, rồi đến data/snapshot_province.json
+    const snapshotPathToRead = fs.existsSync(SNAPSHOT_GL_FILE) 
+        ? SNAPSHOT_GL_FILE 
+        : (fs.existsSync(SNAPSHOT_FILE) ? SNAPSHOT_FILE : null);
+
+    if (snapshotPathToRead) {
         try {
-            const prevRaw = JSON.parse(fs.readFileSync(SNAPSHOT_FILE, 'utf8'));
-            if (Array.isArray(prevRaw)) {
-                prevRaw.forEach(item => previousMap.set(item.code || item.id, item));
-                hasSnapshot = true;
+            const prevRaw = JSON.parse(fs.readFileSync(snapshotPathToRead, 'utf8'));
+            if (Array.isArray(prevRaw) && prevRaw.length > 0) {
+                prevRaw.forEach(item => {
+                    const code = String(item.code || item.ma_tthc || item.codeNotation || item.id).trim();
+                    if (!code) return;
+                    const fType = item.formalityType || item.loai_tthc || 'STANDARD';
+                    const name = item.name || item.ten_tthc || '';
+                    const isInternal = typeof item.is_noi_bo === 'boolean'
+                        ? item.is_noi_bo
+                        : isInternalProcedure(fType, item.formalityType, name);
+                    const group = item.nhom_thu_tuc || getProcedureGroup(fType, item.formalityType, name);
+
+                    previousMap.set(code, {
+                        id: item.id || code,
+                        code: code,
+                        name: name,
+                        category: item.category || item.linh_vuc || '',
+                        agency: item.agency || item.co_quan_thuc_hien || item.executingAgencies || '',
+                        isProvince: Boolean(item.isProvince || (item.cap_thuc_hien && item.cap_thuc_hien.includes('tỉnh'))),
+                        isWard: Boolean(item.isWard || (item.cap_thuc_hien && item.cap_thuc_hien.includes('xã'))),
+                        formalityType: fType,
+                        executingAgencies: item.executingAgencies || item.co_quan_thuc_hien || '',
+                        departmentPromulgate: item.departmentPromulgate || item.co_quan_ban_hanh || '',
+                        nhom_thu_tuc: group,
+                        is_noi_bo: isInternal,
+                        level_label: item.level_label || getLevelLabel(item),
+                        url: item.url || `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
+                    });
+                });
+                hasSnapshot = previousMap.size > 0;
+            }
+        } catch (e) {}
+    }
+
+    // Nếu snapshot vừa bị ghi đè trùng khớp current, nhưng report đã có sẵn biến động, kiểm tra bảo tồn
+    let existingReportHasDiffs = false;
+    let existingReport = null;
+    const checkReportFile = fs.existsSync(REPORT_GL_FILE) ? REPORT_GL_FILE : (fs.existsSync(REPORT_FILE) ? REPORT_FILE : null);
+    if (checkReportFile) {
+        try {
+            existingReport = JSON.parse(fs.readFileSync(checkReportFile, 'utf8'));
+            const s = existingReport?.summary;
+            if (s && ((s.added_count || 0) > 0 || (s.removed_count || 0) > 0 || (s.modified_count || 0) > 0)) {
+                existingReportHasDiffs = true;
             }
         } catch (e) {}
     }
@@ -195,13 +206,18 @@ async function compareProvinceWard() {
     const wardOnlyCount = currentItems.filter(x => !x.isProvince && x.isWard).length;
     const bothCount = currentItems.filter(x => x.isProvince && x.isWard).length;
 
-    const addedItems = [];
-    const removedItems = [];
-    const modifiedItems = [];
+    const adminCurrent = currentItems.filter(x => !x.is_noi_bo).length;
+    const internalCurrent = currentItems.filter(x => x.is_noi_bo).length;
+
+    let addedItems = [];
+    let removedItems = [];
+    let modifiedItems = [];
 
     if (!hasSnapshot) {
         console.log(`📸 Khởi tạo Snapshot theo Mã TTHC duy nhất lần đầu tiên.`);
         console.log(`⚡ Tổng số Mã TTHC duy nhất hiện tại: ${currentItems.length}`);
+        console.log(`   • Thủ tục hành chính:       ${adminCurrent} TTHC`);
+        console.log(`   • Thủ tục nội bộ:           ${internalCurrent} TTHC`);
         console.log(`   • Chỉ Cấp Tỉnh:             ${provinceOnlyCount} TTHC`);
         console.log(`   • Chỉ Cấp Xã:               ${wardOnlyCount} TTHC`);
         console.log(`   • CẢ CẤP TỈNH & CẤP XÃ:     ${bothCount} TTHC\n`);
@@ -215,14 +231,17 @@ async function compareProvinceWard() {
                 const prevItem = previousMap.get(code);
                 const nameChanged = prevItem.name !== currItem.name;
                 const levelChanged = prevItem.level_label !== currItem.level_label;
+                const groupChanged = prevItem.nhom_thu_tuc !== currItem.nhom_thu_tuc;
 
-                if (nameChanged || levelChanged) {
+                if (nameChanged || levelChanged || groupChanged) {
                     modifiedItems.push({
                         id: currItem.id || code,
                         code,
                         name: currItem.name,
                         category: currItem.category || '',
                         agency: currItem.agency || currItem.executingAgencies || '',
+                        nhom_thu_tuc: currItem.nhom_thu_tuc,
+                        is_noi_bo: currItem.is_noi_bo,
                         old_name: prevItem.name,
                         new_name: currItem.name,
                         old_level: prevItem.level_label || getLevelLabel(prevItem),
@@ -246,6 +265,8 @@ async function compareProvinceWard() {
                     level_label: prevItem.level_label || getLevelLabel(prevItem),
                     isProvince: prevItem.isProvince,
                     isWard: prevItem.isWard,
+                    nhom_thu_tuc: prevItem.nhom_thu_tuc || getProcedureGroup(prevItem.formalityType, prevItem.formalityType, prevItem.name),
+                    is_noi_bo: typeof prevItem.is_noi_bo === 'boolean' ? prevItem.is_noi_bo : isInternalProcedure(prevItem.formalityType, prevItem.formalityType, prevItem.name),
                     departmentPromulgate: prevItem.departmentPromulgate || '',
                     executingAgencies: prevItem.executingAgencies || '',
                     url: prevItem.url || `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
@@ -254,17 +275,40 @@ async function compareProvinceWard() {
         });
     }
 
+    // Safety guard: Nếu diff = 0 nhưng report cũ có biến động (do snapshot đã bị ghi đè trước đó trong cùng phiên crawl)
+    if (addedItems.length === 0 && removedItems.length === 0 && modifiedItems.length === 0 && existingReportHasDiffs) {
+        console.log(`ℹ️ Snapshot trùng với currentItems nhưng phát hiện báo cáo trước đó đã ghi nhận biến động.`);
+        console.log(`   Giữ lại dữ liệu biến động từ báo cáo hiện có (${existingReport.summary.added_count} thêm, ${existingReport.summary.removed_count} bãi bỏ).`);
+        addedItems = existingReport.added || existingReport.added_items || [];
+        removedItems = existingReport.removed || existingReport.removed_items || [];
+        modifiedItems = existingReport.modified || existingReport.modified_items || [];
+    }
+
     const previousTotal = hasSnapshot ? previousMap.size : 0;
     const netChange = currentItems.length - previousTotal;
     const netSign = netChange >= 0 ? `+${netChange}` : `${netChange}`;
+
+    const adminAdded = addedItems.filter(x => !x.is_noi_bo).length;
+    const internalAdded = addedItems.filter(x => x.is_noi_bo).length;
+    const adminRemoved = removedItems.filter(x => !x.is_noi_bo).length;
+    const internalRemoved = removedItems.filter(x => x.is_noi_bo).length;
+    const adminModified = modifiedItems.filter(x => !x.is_noi_bo).length;
+    const internalModified = modifiedItems.filter(x => x.is_noi_bo).length;
 
     console.log(`📈 THỐNG KÊ BIẾN ĐỘNG DỮ LIỆU:`);
     console.log(`   • Tổng số mã TTHC kỳ trước: ${previousTotal}`);
     console.log(`   • Tổng số mã TTHC hiện tại: ${currentItems.length}`);
     console.log(`   • Biến động ròng (Net):      ${netSign} mã TTHC`);
-    console.log(`   • 🆕 Mã TTHC thêm mới:      ${addedItems.length} TTHC`);
-    console.log(`   • 🗑️ Mã TTHC bãi bỏ:        ${removedItems.length} TTHC`);
-    console.log(`   • ✏️ Mã TTHC thay đổi:       ${modifiedItems.length} TTHC\n`);
+    console.log(`   • 🆕 Mã TTHC thêm mới:      ${addedItems.length} (TTHC: ${adminAdded} | Nội bộ: ${internalAdded})`);
+    console.log(`   • 🗑️ Mã TTHC bãi bỏ:        ${removedItems.length} (TTHC: ${adminRemoved} | Nội bộ: ${internalRemoved})`);
+    console.log(`   • ✏️ Mã TTHC thay đổi:       ${modifiedItems.length} (TTHC: ${adminModified} | Nội bộ: ${internalModified})\n`);
+
+    console.log(`📊 PHÂN LOẠI HIỆN TẠI:`);
+    console.log(`   • 🌐 Thủ tục hành chính:       ${adminCurrent} TTHC`);
+    console.log(`   • 🔒 Thủ tục nội bộ:           ${internalCurrent} TTHC`);
+    console.log(`   • 🏢 Chỉ Cấp Tỉnh:             ${provinceOnlyCount} TTHC`);
+    console.log(`   • 🏡 Chỉ Cấp Xã:               ${wardOnlyCount} TTHC`);
+    console.log(`   • 🔄 CẢ CẤP TỈNH & CẤP XÃ:     ${bothCount} TTHC\n`);
 
     console.log(`📊 PHÂN LOẠI CẤP THỰC HIỆN HIỆN TẠI:`);
     console.log(`   • 🏢 Chỉ Cấp Tỉnh:             ${provinceOnlyCount} TTHC`);
@@ -311,6 +355,18 @@ async function compareProvinceWard() {
             added_count: addedItems.length,
             removed_count: removedItems.length,
             modified_count: modifiedItems.length,
+            administrative: {
+                current_total: adminCurrent,
+                added_count: adminAdded,
+                removed_count: adminRemoved,
+                modified_count: adminModified
+            },
+            internal: {
+                current_total: internalCurrent,
+                added_count: internalAdded,
+                removed_count: internalRemoved,
+                modified_count: internalModified
+            },
             level_breakdown: {
                 province_only: provinceOnlyCount,
                 ward_only: wardOnlyCount,
@@ -379,6 +435,8 @@ async function sendAlertNotification(summaryData) {
     else if (summary.added_count > 0 || summary.removed_count > 0) emoji = '⚠️';
 
     const netSign = summary.net_change >= 0 ? `+${summary.net_change}` : `${summary.net_change}`;
+    const admin = summary.administrative || {};
+    const intern = summary.internal || {};
 
     let messageLines = [
         `${emoji} *[CẢNH BÁO BIẾN ĐỘNG TTHC CẤP TỈNH & CẤP XÃ]*`,
@@ -389,14 +447,18 @@ async function sendAlertNotification(summaryData) {
         `  • Kỳ trước: *${summary.previous_total}* TTHC`,
         `  • Hiện tại: *${summary.current_total}* TTHC`,
         `  • Biến động ròng (Net): *${netSign}* TTHC`,
-        `  • 🆕 Thêm mới: *${summary.added_count}* TTHC`,
-        `  • 🗑️ Bãi bỏ: *${summary.removed_count}* TTHC`,
+        `  • 🆕 Thêm mới: *${summary.added_count}* TTHC (TTHC: +${admin.added_count ?? 0} | Nội bộ: +${intern.added_count ?? 0})`,
+        `  • 🗑️ Bãi bỏ: *${summary.removed_count}* TTHC (TTHC: -${admin.removed_count ?? 0} | Nội bộ: -${intern.removed_count ?? 0})`,
         `  • ✏️ Thay đổi thông tin: *${summary.modified_count}* TTHC`,
         ``,
+        `🌐 *PHÂN LOẠI NHÓM THỦ TỤC:*`,
+        `  • Thủ tục hành chính: *${admin.current_total ?? (summary.current_total - (intern.current_total || 0))}*`,
+        `  • Thủ tục nội bộ: *${intern.current_total ?? 0}*`,
+        ``,
         `🏢 *PHÂN LOẠI CẤP THỰC HIỆN:*`,
-        `  • Chỉ Cấp Tỉnh: ${summary.level_breakdown.province_only}`,
-        `  • Chỉ Cấp Xã: ${summary.level_breakdown.ward_only}`,
-        `  • Cả Tỉnh & Xã: ${summary.level_breakdown.both_province_and_ward}`
+        `  • Chỉ Cấp Tỉnh: ${summary.level_breakdown?.province_only ?? 0}`,
+        `  • Chỉ Cấp Xã: ${summary.level_breakdown?.ward_only ?? 0}`,
+        `  • Cả Tỉnh & Xã: ${summary.level_breakdown?.both_province_and_ward ?? 0}`
     ];
 
     if (added.length > 0) {

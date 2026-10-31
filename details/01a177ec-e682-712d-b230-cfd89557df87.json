@@ -1,0 +1,244 @@
+{
+  "id": "01a177ec-e682-712d-b230-cfd89557df87",
+  "code": "3.000787",
+  "codeNotation": "3.000787",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Căn cứ vào nhu cầu thực tế sử dụng luật sư công, cơ quan thực hiện thí điểm quy định tại khoản 2 Điều 1 của Nghị quyết số 24/2026/QH16 lập danh sách người được miễn tập sự thuộc biên chế của mình quy định tại Điều 6 của Nghị định số 364/2026/NĐ-CP, kèm theo 01 bộ hồ sơ của người đề nghị cấp Chứng chỉ hành nghề luật sư gửi trực tiếp hoặc qua dịch vụ bưu chính đến Bộ Tư pháp hoặc trực tuyến trên Cổng Dịch vụ công quốc gia.\nTrong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ trưởng Bộ Tư pháp xem xét, cấp Chứng chỉ hành nghề luật sư; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận được hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận được hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận được hồ sơ hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "1. Cán bộ, công chức, viên chức, sĩ quan, người làm việc trong doanh nghiệp nhà nước thuộc các trường hợp sau đây thì được miễn tập sự hành nghề luật sư bao gồm:\n+ Giáo sư, phó giáo sư chuyên ngành luật; tiến sĩ luật;\n+ Đã từng là thẩm phán Tòa án nhân dân bậc 2, bậc 3; kiểm sát viên trung cấp, kiểm sát viên cao cấp; điều tra viên trung cấp, điều tra viên cao cấp; chấp hành viên cao cấp; thẩm tra viên cao cấp; trợ giúp viên pháp lý hạng I;\n+ Đang là chuyên viên cao cấp, pháp chế viên cao cấp, thanh tra viên cao cấp, nghiên cứu viên cao cấp, giảng viên cao cấp trong lĩnh vực pháp luật.\nCác chức danh tương đương với các chức danh quy định tại điểm c khoản 1 Điều 6 của Nghị định số 364/2026/NĐ-CP theo quy định của Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an.\n2. Người muốn trở thành luật sư công phải đáp ứng các tiêu chuẩn sau đây:\n- Là cán bộ, công chức, viên chức, sĩ quan Quân đội nhân dân, sĩ quan Công an nhân dân, người làm việc trong doanh nghiệp nhà nước;\n- Có tư tưởng chính trị vững vàng, đạo đức nghề nghiệp trong sáng, liêm chính;\n- Có đủ tiêu chuẩn luật sư theo quy định của Luật Luật sư;\n- Có ít nhất 05 năm kinh nghiệm làm việc thường xuyên, trực tiếp trong lĩnh vực pháp luật hoặc kinh nghiệm tranh tụng, tư vấn pháp luật hoặc giải quyết vụ, việc pháp lý phức tạp theo quy định của Chính phủ.\n3. Người thuộc một trong những trường hợp sau đây thì không được cấp Chứng chỉ hành nghề luật sư:\n- Không đủ tiêu chuẩn của luật sư công theo quy định tại Điều 5 của Nghị quyết số 24/2026/QH16;\n- Người đang là thẩm phán, kiểm sát viên, điều tra viên, thẩm tra viên ngành Tòa án, kiểm tra viên ngành Kiểm sát, chấp hành viên;\n- Không thường trú tại Việt Nam;\n- Các trường hợp khác theo quy định của Luật Luật sư và không trái với Nghị quyết số 24/2026/QH16.\n4. Viên chức đang thực hiện trợ giúp pháp lý thì không được cấp Chứng chỉ hành nghề luật sư để trở thành luật sư công.",
+  "name": "Cấp Chứng chỉ hành nghề luật sư cho luật sư công đối với người được miễn tập sự hành nghề luật sư",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a177e9-665c-71d9-b2ae-176e975897fa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của cơ quan thực hiện thí điểm theo Mẫu TP-LSC-04 ban hành kèm theo Nghị định số 364/2026/NĐ-CP",
+          "code": "TP-LSC-04",
+          "attachments": [
+            {
+              "id": "01a177e9-5db5-76fd-8d1d-76f6eabc6f0d",
+              "fileName": "Mẫu TP 04.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a177e9-5db5-76fd-8d1d-76f6eabc6f0d/Mẫu TP 04.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a177ea-d476-73e8-863b-3f2e4eec70bd",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử Bằng cử nhân luật hoặc Bằng thạc sĩ luật hoặc tiến sĩ luật",
+          "code": "TP-G15.33-1000030",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a177eb-50ed-75bc-b16a-89244df09c33",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử giấy tờ chứng minh là người được miễn tập sự hành nghề luật sư quy định tại Điều 6 Nghị định số 364/2026/NĐ-CP",
+          "code": "TP-G15.33-1000031",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a177eb-cc1b-770e-bcbc-6c041b64d084",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử giấy tờ chứng minh có ít nhất 05 năm kinh nghiệm làm việc thường xuyên, trực tiếp trong lĩnh vực pháp luật hoặc kinh nghiệm tranh tụng, tư vấn pháp luật hoặc giải quyết vụ, việc pháp lý phức tạp",
+          "code": "TP-G15.33-1000032",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-5b383dd0cc28"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a177e1-74e9-71d0-863f-8cc9186727b9",
+    "01a177e1-f53d-74be-b2df-33ef08c99e4d"
+  ],
+  "resultIds": [
+    "01a177e0-2e04-73f8-b2d4-2860700cccd0"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-d603f1537007"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a72-700f-a652-d603f1537007"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-5b383dd0cc28",
+      "name": "Luật sư",
+      "code": "G15-TP09"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-5b383dd0cc28",
+    "name": "Luật sư",
+    "code": "G15-TP09"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp",
+      "code": "G15"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp",
+      "code": "G15"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a177e1-74e9-71d0-863f-8cc9186727b9",
+      "name": "Nghị quyết số 24/2026/QH16 ngày 24/4/2026 của Quốc hội về việc thí điểm thực hiện chế định luật sư công",
+      "code": "24/2026/QH16"
+    },
+    {
+      "id": "01a177e1-f53d-74be-b2df-33ef08c99e4d",
+      "name": "Nghị định số 364/2026/NĐ-CP ngày 21/9/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Nghị quyết số 24/2026/QH16 ngày 24/4/2026 của Quốc hội về việc thí điểm thực hiện chế định luật sư công",
+      "code": "364/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a177e0-2e04-73f8-b2d4-2860700cccd0",
+      "name": "Chứng chỉ hành nghề luật sư",
+      "code": "KQ.G15.18.000138"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d603f1537007",
+  "departmentPromulgateCode": "G15",
+  "departmentPromulgateName": "Bộ Tư pháp",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1793014218901,
+  "updatedAt": 1793014218901,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tư pháp",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ Tư pháp",
+  "delegatedAgencies": "Bộ Tư pháp",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "1. Cán bộ, công chức, viên chức, sĩ quan, người làm việc trong doanh nghiệp nhà nước thuộc các trường hợp sau đây thì được miễn tập sự hành nghề luật sư bao gồm:\n+ Giáo sư, phó giáo sư chuyên ngành luật; tiến sĩ luật;\n+ Đã từng là thẩm phán Tòa án nhân dân bậc 2, bậc 3; kiểm sát viên trung cấp, kiểm sát viên cao cấp; điều tra viên trung cấp, điều tra viên cao cấp; chấp hành viên cao cấp; thẩm tra viên cao cấp; trợ giúp viên pháp lý hạng I;\n+ Đang là chuyên viên cao cấp, pháp chế viên cao cấp, thanh tra viên cao cấp, nghiên cứu viên cao cấp, giảng viên cao cấp trong lĩnh vực pháp luật.\nCác chức danh tương đương với các chức danh quy định tại điểm c khoản 1 Điều 6 của Nghị định số 364/2026/NĐ-CP theo quy định của Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an.\n2. Người muốn trở thành luật sư công phải đáp ứng các tiêu chuẩn sau đây:\n- Là cán bộ, công chức, viên chức, sĩ quan Quân đội nhân dân, sĩ quan Công an nhân dân, người làm việc trong doanh nghiệp nhà nước;\n- Có tư tưởng chính trị vững vàng, đạo đức nghề nghiệp trong sáng, liêm chính;\n- Có đủ tiêu chuẩn luật sư theo quy định của Luật Luật sư;\n- Có ít nhất 05 năm kinh nghiệm làm việc thường xuyên, trực tiếp trong lĩnh vực pháp luật hoặc kinh nghiệm tranh tụng, tư vấn pháp luật hoặc giải quyết vụ, việc pháp lý phức tạp theo quy định của Chính phủ.\n3. Người thuộc một trong những trường hợp sau đây thì không được cấp Chứng chỉ hành nghề luật sư:\n- Không đủ tiêu chuẩn của luật sư công theo quy định tại Điều 5 của Nghị quyết số 24/2026/QH16;\n- Người đang là thẩm phán, kiểm sát viên, điều tra viên, thẩm tra viên ngành Tòa án, kiểm tra viên ngành Kiểm sát, chấp hành viên;\n- Không thường trú tại Việt Nam;\n- Các trường hợp khác theo quy định của Luật Luật sư và không trái với Nghị quyết số 24/2026/QH16.\n4. Viên chức đang thực hiện trợ giúp pháp lý thì không được cấp Chứng chỉ hành nghề luật sư để trở thành luật sư công.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a177cf-9222-70af-8a62-29858d613578",
+    "proposalNumber": "2296/QĐ-BTP",
+    "decisionDate": 1792602000000,
+    "decisionNumber": null,
+    "publicationDate": 1793014218848,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

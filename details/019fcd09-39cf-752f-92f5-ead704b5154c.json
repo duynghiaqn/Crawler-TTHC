@@ -1,0 +1,283 @@
+{
+  "id": "019fcd09-39cf-752f-92f5-ead704b5154c",
+  "code": "1.116198",
+  "codeNotation": "1.116198",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người sử dụng đất có yêu cầu tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận, nộp hồ sơ trực tuyến tại địa chỉ: https://dichvucong.gov.vn hoặc nộp hồ sơ trực tiếp đến Trung tâm Phục vụ hành chính công tỉnh/Trung tâm Phục vụ hành chính công cấp xã.\nTrường hợp có biên bản họp giữa Ủy ban nhân dân cấp xã với người sử dụng đất về việc tặng cho quyền sử dụng đất thì người sử dụng đất không phải nộp hồ sơ.\nBước 2: Phòng Kinh tế/Phòng Kinh tế, Hạ tầng và Đô thị tổ chức thực hiện:\n- Đo đạc chỉnh lý bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai để chỉnh lý, cập nhật vào hồ hơ địa chính.\nBước 3: Người sử dụng đất, chủ sở hữu tài sản gắn liền với đất thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu theo quy định đối với phần diện tích còn lại của thửa đất (nếu có)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 10 ngày làm việc (không tính thời gian theo quy định tại khoản 23 Điều 4 Quyết định số 79/2026/QĐ-UBND, ngày 24/7/2026 của UBND tỉnh).",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 10 ngày làm việc (không tính thời gian theo quy định tại khoản 23 Điều 4 Quyết định số 79/2026/QĐ-UBND, ngày 24/7/2026 của UBND tỉnh).",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 10 ngày làm việc (không tính thời gian theo quy định tại khoản 23 Điều 4 Quyết định số 79/2026/QĐ-UBND, ngày 24/7/2026 của UBND tỉnh).",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã đảo, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã đảo, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã đảo, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb6f6-8d5a-7237-9a78-85e9a3ad8797",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản tặng cho quyền sử dụng đất hoặc biên bản họp giữa đại diện thôn, ấp, làng, bản, buôn, bom, phum, sóc, tổ dân phố, điểm dân cư với người sử dụng đất về việc tặng cho quyền sử dụng đất và bản gốc Giấy chứng nhận đã cấp",
+          "code": "H61-KQ001123",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019fca8c-99de-7459-a357-f000b77b8be9",
+    "019fcca5-53cf-73bf-81a7-4838b2ea2060"
+  ],
+  "resultIds": [
+    "019fb72c-63c6-7649-8225-de79a40cad66"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a86-70a8-a0ae-6eb1f5ec76fd"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a86-70a8-a0ae-6eb1f5ec76fd",
+      "name": "Văn phòng Đăng ký đất đai",
+      "code": "H24.60.4"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fca8c-99de-7459-a357-f000b77b8be9",
+      "name": "Quyết định số 79/2026/QĐ-UBND ngày 24/7/2026 của Ủy ban nhân dân tỉnh ban hành quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Vĩnh Long.",
+      "code": "79/2026/QĐ-UBND"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019fcca5-53cf-73bf-81a7-4838b2ea2060",
+      "name": "Quyết định số 58/2026/QĐ-UBND ngày 29/6/2026 của Ủy ban nhân dân tỉnh phân cấp thẩm quyền cho Chủ tịch Ủy ban nhân dân xã, phường thực hiện nhiệm vụ trong lĩnh vực đất đai trên địa bàn tỉnh Vĩnh Long",
+      "code": "58/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fb72c-63c6-7649-8225-de79a40cad66",
+      "name": "Chỉnh lý, cập nhật vào hồ hơ địa chính, cơ sở dữ liệu đất đai",
+      "code": "KQ.H61.000118"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e61-5ec4a2701203",
+  "departmentPromulgateCode": "H61",
+  "departmentPromulgateName": "UBND tỉnh Vĩnh Long",
+  "cases": [
+    {
+      "id": "019fd675-7892-72cc-849b-3553eb20cfc9",
+      "name": "Vĩnh Long-Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận",
+      "code": "1.116198.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fd675-78a3-754e-bf1d-be63d42ff627",
+      "name": "Vĩnh Long-Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận (Đối với các xã đảo, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn)",
+      "code": "1.116198.02",
+      "processingDay": {
+        "qty": 20,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785938677773,
+  "updatedAt": 1785938677773,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "Văn phòng Đăng ký đất đai",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fca8f-3875-776f-9d8c-e1b5746c1553",
+    "proposalNumber": "4836/QĐ-UBND",
+    "decisionDate": 1785776400000,
+    "decisionNumber": null,
+    "publicationDate": 1785938677249,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e61-5ec4a2701203",
+      "name": "UBND tỉnh Vĩnh Long"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

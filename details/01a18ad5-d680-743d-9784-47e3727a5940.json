@@ -1,0 +1,322 @@
+{
+  "id": "01a18ad5-d680-743d-9784-47e3727a5940",
+  "code": "6.006793",
+  "codeNotation": "6.006793",
+  "executionSteps": [
+    {
+      "name": "Trường hợp gửi hồ sơ và nhận kết quả qua Trang thông tin dịch vụ công:",
+      "description": "a) Cơ quan được giao quản lý vốn nhà nước trong dự án PPP lập và gửi hồ sơ qua Trang thông tin dịch vụ công.\nb) Kho bạc Nhà nước nơi giao dịch tiếp nhận, kiểm tra hồ sơ theo quy định của Nghị định 312/2025/NĐ-CP và làm thủ tục thanh toán cho đối tượng thụ hưởng theo đề nghị hoặc từ chối thanh toán theo nguyên tắc quy định tại khoản 7 Điều 19 Nghị định số 312/2025/NĐ-CP."
+    },
+    {
+      "name": "Trường hợp gửi hồ sơ và nhận kết quả thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật:",
+      "description": "a) Cơ quan được giao quản lý vốn nhà nước trong dự án PPP lập và gửi hồ sơ Kho bạc Nhà nước nơi giao dịch.\nb) Kho bạc Nhà nước nơi giao dịch tiếp nhận, kiểm tra hồ sơ theo quy định của Nghị định 312/2025/NĐ-CP và làm thủ tục thanh toán cho đối tượng thụ hưởng theo đề nghị hoặc từ chối thanh toán theo nguyên tắc quy định tại khoản 7 Điều 19 Nghị 312/2025/NĐ-CP."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thanh toán của cơ quan thanh toán tối đa không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ đề nghị thanh toán của Cơ quan được giao quản lý vốn nhà nước trong dự án PPP theo quy định tại Nghị định 312/2025/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thanh toán của cơ quan thanh toán tối đa không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ đề nghị thanh toán của Cơ quan được giao quản lý vốn nhà nước trong dự án PPP theo quy định tại Nghị định 312/2025/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thanh toán của cơ quan thanh toán tối đa không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ đề nghị thanh toán của Cơ quan được giao quản lý vốn nhà nước trong dự án PPP theo quy định tại Nghị định 312/2025/NĐ-CP.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thanh toán vốn đầu tư dự án BT hoàn thành áp dụng loại hợp đồng BT thanh toán bằng ngân sách nhà nước",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a1) Hồ sơ pháp lý",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18ad1-105f-701e-a9e9-a2fc46c61a33",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt dự án BT của cấp có thẩm quyền và các quyết định điều chỉnh dự án BT (nếu có)",
+          "code": "G12.04.000027",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-4767ed8fe450",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng tổng hợp thông tin hợp đồng dự án PPP do Cơ quan được giao quản lý vốn nhà nước trong dự án PPP lập",
+          "code": "G12.04.000003",
+          "attachments": [
+            {
+              "id": "01a18aa4-339b-7151-aa50-700014b55dbe",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa4-339b-7151-aa50-700014b55dbe/Mẫu biểu.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6b-62cfeb9c5fc2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Kế hoạch đầu tư công hằng năm được cấp có thẩm quyền giao đối với dự án thanh toán từ nguồn vốn đầu tư công",
+          "code": "G12.04.000028",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18ad2-7f0f-71de-a68d-5fba536af444",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự toán ngân sách được cấp có thẩm quyền phê duyệt đối với dự án thanh toán từ nguồn ngân sách nhà nước thu được sau đấu giá quỹ đất, tài sản công",
+          "code": "G12.04.000029",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18ad2-edb8-7473-aad2-51adffbb33ac",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với thanh toán hạng mục công trình, công trình xây dựng thuộc dự án BT vận hành độc lập hoàn thành: văn bản xác nhận hạng mục công trình, công trình xây dựng thuộc dự án BT vận hành độc lập hoàn thành theo quy định của pháp luật xây dựng và quy định của pháp luật khác có liên quan",
+          "code": "G12.04.000030",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "a2) Hồ sơ đề nghị thanh toán",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18ad3-b11f-719c-b3e7-86b772a4f08e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với thanh toán hạng mục công trình, công trình xây dựng thuộc dự án BT vận hành độc lập hoàn thành: Báo cáo kiểm toán giá trị hạng mục công trình, công trình xây dựng thuộc dự án BT vận hành độc lập hoàn thành.",
+          "code": "G12.04.000031",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18ad3-e69c-70b8-8f61-507614b582f9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với thanh toán sau khi dự án BT hoàn thành: Quyết định phê duyệt quyết toán vốn đầu tư dự án BT hoàn thành được cấp có thẩm quyền phê duyệt",
+          "code": "G12.04.000032",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18ad4-2a6d-7381-a89d-12d41155159c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của người có thẩm quyền phê duyệt dự án BT xác định chi phí lãi vay sau thời gian xây dựng, lợi nhuận của nhà đầu tư, chi phí khác (nếu có)  phát sinh sau thời điểm được tổ chức kiểm toán kiểm toán",
+          "code": "G12.04.000033",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18ad4-8d7f-70fb-85d6-909d413e0b0b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị thanh toán dự án áp dụng loại hợp đồng BT thanh toán bằng ngân sách nhà nước",
+          "code": "G12.04.000034",
+          "attachments": [
+            {
+              "id": "01a18ad4-8500-7039-a6d1-0856323faadf",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18ad4-8500-7039-a6d1-0856323faadf/Mẫu biểu.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a18a9d-bbbe-7173-b768-a81a556c904a",
+          "originalQty": 2,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy rút vốn",
+          "code": "G12.04.000007",
+          "attachments": [
+            {
+              "id": "01a18aa3-63ef-737a-ad41-040874bc6aae",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa3-63ef-737a-ad41-040874bc6aae/Mẫu biểu.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Số lượng hồ sơ:\nTrường hợp gửi hồ sơ và nhận kết quả thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật: Số lượng của từng thành phần hồ sơ theo quy định tại điểm 4.1 là 01 bản (bản gốc hoặc bản chính hoặc bản sao y bản chính). Riêng giấy rút vốn là 02 bản gốc (trường hợp thực hiện khấu trừ thuế giá trị gia tăng hoặc trường hợp đơn vị giao dịch và nhà cung cấp hàng hóa, dịch vụ cùng mở tài khoản tại một đơn vị thuộc hoặc trực thuộc Kho bạc Nhà nước thì bổ sung thêm 01 bản gốc tương ứng với mỗi trường hợp); giấy đề nghị thanh toán vốn đầu tư là 02 bản gốc.\nĐối với trường hợp gửi hồ sơ qua Trang thông tin dịch vụ công, các thành phần hồ sơ phải được ký chữ ký số theo quy định.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46c-83fd10a7f3d4"
+  ],
+  "resultIds": [
+    "019d2bb2-1c73-70ac-aa1a-0f3f521d295e",
+    "019d2bb2-1c73-70ac-aa1a-13eaac3c063f"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a655-9eb8a9c2fe76"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+      "name": "Kho bạc Nhà nước",
+      "code": "G12-TC07"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+    "name": "Kho bạc Nhà nước",
+    "code": "G12-TC07"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a655-9eb8a9c2fe76",
+      "name": "Kho bạc Nhà nước - Bộ tài chính",
+      "code": "000.00.12.G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-83fd10a7f3d4",
+      "name": "Nghị định số 312/2025/NĐ-CP của Chính phủ",
+      "code": "312/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c73-70ac-aa1a-0f3f521d295e",
+      "name": "Kho bạc Nhà nước nơi giao dịch gửi Cơ quan được giao quản lý vốn nhà nước trong dự án PPP 01 liên chứng từ giấy (chứng từ báo Nợ) để xác nhận đã thực hiện thanh toán (bằng văn bản giấy hoặc qua Trang thông tin dịch vụ công).",
+      "code": "KQ.G12.04.025"
+    },
+    {
+      "id": "019d2bb2-1c73-70ac-aa1a-13eaac3c063f",
+      "name": "Kho bạc Nhà nước nơi giao dịch gửi Cơ quan được giao quản lý vốn nhà nước trong dự án PPP thông báo từ chối thanh toán khoản chi ngân sách nhà nước (trong đó nêu rõ lý do từ chối) (bằng văn bản giấy hoặc qua Trang thông tin dịch vụ công)",
+      "code": "KQ.G12.04.026"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1793331285186,
+  "updatedAt": 1793331285186,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Kho bạc Nhà nước - Bộ tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Kho bạc Nhà nước",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1859d-672d-741c-90ae-7b33110fdb68",
+    "proposalNumber": "09/QĐ-BTC",
+    "decisionDate": 1767546000000,
+    "decisionNumber": null,
+    "publicationDate": 1793331285124,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

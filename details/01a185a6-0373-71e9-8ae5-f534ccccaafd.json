@@ -1,0 +1,418 @@
+{
+  "id": "01a185a6-0373-71e9-8ae5-f534ccccaafd",
+  "code": "5.003976",
+  "codeNotation": "5.003976",
+  "executionSteps": [
+    {
+      "name": "1. Trường hợp gửi hồ sơ và nhận kết quả qua Trang thông tin dịch vụ công:",
+      "description": "a) Cơ quan được giao quản lý vốn nhà nước trong dự án PPP lập và gửi hồ sơ qua Trang thông tin dịch vụ công.\nb) Kho bạc Nhà nước nơi giao dịch tiếp nhận, kiểm tra hồ sơ theo quy định của Nghị định số 312/2025/NĐ-CP và làm thủ tục thanh toán cho đối tượng thụ hưởng theo đề nghị hoặc từ chối thanh toán theo nguyên tắc quy định tại khoản 7 Điều 19 Nghị định số 312/2025/NĐ-CP."
+    },
+    {
+      "name": "2. Trường hợp gửi hồ sơ và nhận kết quả thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật:",
+      "description": "a) Cơ quan được giao quản lý vốn nhà nước trong dự án PPP lập và gửi hồ sơ Kho bạc Nhà nước nơi giao dịch.\nb) Kho bạc Nhà nước nơi giao dịch tiếp nhận, kiểm tra hồ sơ theo quy định của Nghị định số 312/2025/NĐ-CP và làm thủ tục thanh toán cho đối tượng thụ hưởng theo đề nghị hoặc từ chối thanh toán theo nguyên tắc quy định tại khoản 7 Điều 19 Nghị 312/2025/NĐ-CP."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "1. Đối với các khoản tạm ứng: trong 01 ngày làm việc kể từ ngày Kho bạc Nhà nước nhận đủ hồ sơ và các thông tin giải ngân theo quy định. \n2. Đối với các khoản thanh toán: tối đa không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ đề nghị thanh toán và các thông tin giải ngân theo quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "1. Đối với các khoản tạm ứng: trong 01 ngày làm việc kể từ ngày Kho bạc Nhà nước nhận đủ hồ sơ và các thông tin giải ngân theo quy định. \n2. Đối với các khoản thanh toán: tối đa không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ đề nghị thanh toán và các thông tin giải ngân theo quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "1. Đối với các khoản tạm ứng: trong 01 ngày làm việc kể từ ngày Kho bạc Nhà nước nhận đủ hồ sơ và các thông tin giải ngân theo quy định. \n2. Đối với các khoản thanh toán: tối đa không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ đề nghị thanh toán và các thông tin giải ngân theo quy định.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thanh toán vốn đầu tư công nguồn ngân sách nhà nước, vốn từ nguồn thu hợp pháp dành để chi đầu tư, chi thường xuyên thực hiện hợp đồng dự án PPP",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Hồ sơ pháp lý - a1) Đối với vốn đầu tư công hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng được tách thành tiểu dự án trong dự án PPP hoặc bố trí vào hạng mục cụ thể; vốn đầu tư công, vốn chi thường xuyên, vốn từ nguồn thu hợp pháp để chi đầu tư thanh toán doanh nghiệp dự án PPP, nhà đầu tư thực hiện dự án áp dụng loại hợp đồng BTL, hợp đồng BLT gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-3f9c400fc932",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Kế hoạch vốn đầu tư công hằng năm, dự toán ngân sách năm (đối với vốn chi thường xuyên) được cấp có thẩm quyền giao.",
+          "code": "G12.04.000001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-42d1dd7b0738",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt dự án PPP của cấp có thẩm quyền hoặc Quyết định phê duyệt báo cáo kinh tế - kỹ thuật đầu tư xây dựng và các quyết định điều chỉnh dự án PPP, điều chỉnh báo cáo kinh tế - kỹ thuật đầu tư xây dựng (nếu có).",
+          "code": "G12.04.000002",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-4767ed8fe450",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng tổng hợp thông tin hợp đồng dự án PPP do Cơ quan được giao quản lý vốn nhà nước trong dự án PPP lập",
+          "code": "G12.04.000003",
+          "attachments": [
+            {
+              "id": "01a18aa4-339b-7151-aa50-700014b55dbe",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa4-339b-7151-aa50-700014b55dbe/Mẫu biểu.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "a) Hồ sơ pháp lý - a2) Đối với chi trả bồi thường chấm dứt hợp đồng trước thời hạn cho nhà đầu tư, doanh nghiệp dự án:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-3f9c400fc932",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Kế hoạch vốn đầu tư công hằng năm, dự toán ngân sách năm (đối với vốn chi thường xuyên) được cấp có thẩm quyền giao.",
+          "code": "G12.04.000001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-4ab2b7b78ec6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan có thẩm quyền quyết định chi trả chi phí bồi thường, chấm dứt hợp đồng trước thời hạn theo quy định tại Nghị định quy định chi tiết một số điều của Luật Đầu tư theo phương thức PPP.",
+          "code": "G12.04.000004",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b) Hồ sơ thanh toán - b1) Đối với thanh toán vốn đầu tư công hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng được tách thành tiểu dự án trong dự án PPP hoặc bố trí vào hạng mục cụ thể:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-4faebbc4750d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng tổng hợp giá trị khối lượng công việc hoàn thành đề nghị thanh toán của hạng mục có sử dụng vốn đầu tư công/tiểu dự án sử dụng vốn đầu tư công do doanh nghiệp dự án PPP, nhà đầu tư lập có xác nhận của Cơ quan được giao quản lý vốn nhà nước trong dự án PPP.",
+          "code": "G12.04,000005",
+          "attachments": [
+            {
+              "id": "01a18aa3-fd5f-7729-9b67-02738b5a6b56",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa3-fd5f-7729-9b67-02738b5a6b56/Mẫu biểu.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-50755638135d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị tạm ứng, thanh toán, thu hồi tạm ứng vốn đầu tư công hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng bố trí vào hạng mục cụ thể/tiểu dự án sử dụng vốn đầu tư công thuộc dự án PPP của Cơ quan được giao quản lý vốn nhà nước trong dự án PPP.",
+          "code": "G12.04.000006",
+          "attachments": [
+            {
+              "id": "01a18aa3-48dd-731e-bb09-065b885da922",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa3-48dd-731e-bb09-065b885da922/Mẫu biểu.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a18a9d-bbbe-7173-b768-a81a556c904a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy rút vốn",
+          "code": "G12.04.000007",
+          "attachments": [
+            {
+              "id": "01a18aa3-63ef-737a-ad41-040874bc6aae",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa3-63ef-737a-ad41-040874bc6aae/Mẫu biểu.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "b) Hồ sơ thanh toán - b2) Đối với thanh toán vốn đầu tư công nguồn ngân sách nhà nước, vốn chi thường xuyên, vốn từ nguồn thu hợp pháp để chi đầu tư cho doanh nghiệp dự án PPP, nhà đầu tư thực hiện dự án áp dụng loại hợp đồng BTL, hợp đồng BLT :",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-55e7ac36b85c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng tổng hợp giá trị khối lượng, chất lượng sản phẩm, dịch vụ công đề nghị thanh toán do doanh nghiệp dự án PPP, nhà đầu tư lập có xác nhận của Cơ quan được giao quản lý vốn nhà nước trong dự án PPP.",
+          "code": "G12.04.000008",
+          "attachments": [
+            {
+              "id": "01a18aa3-aa58-736d-a153-b50922356b67",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa3-aa58-736d-a153-b50922356b67/Mẫu biểu.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a312-5b9670fd758c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị thanh toán cho doanh nghiệp dự án PPP, nhà đầu tư cung cấp sản phẩm, dịch vụ công của Cơ quan được giao quản lý vốn nhà nước trong dự án PPP.",
+          "code": "G12.04.000009",
+          "attachments": [
+            {
+              "id": "01a18aa3-9101-7468-8e7e-bd5f66101ee7",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa3-9101-7468-8e7e-bd5f66101ee7/Mẫu biểu.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a18a9d-bbbe-7173-b768-a81a556c904a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy rút vốn",
+          "code": "G12.04.000007",
+          "attachments": [
+            {
+              "id": "01a18aa3-63ef-737a-ad41-040874bc6aae",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa3-63ef-737a-ad41-040874bc6aae/Mẫu biểu.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "b) Hồ sơ thanh toán - b3) Hồ sơ thanh toán vốn đầu tư công chi trả bồi thường chấm dứt hợp đồng trước thời hạn cho doanh nghiệp dự án PPP, nhà đầu tư gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a303-3894f87e146c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị thanh toán",
+          "code": "G12.04.000010",
+          "attachments": [
+            {
+              "id": "01a18aa3-d9b5-715e-8e66-4d145c8f16b5",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa3-d9b5-715e-8e66-4d145c8f16b5/Mẫu biểu.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a18a9d-bbbe-7173-b768-a81a556c904a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy rút vốn",
+          "code": "G12.04.000007",
+          "attachments": [
+            {
+              "id": "01a18aa3-63ef-737a-ad41-040874bc6aae",
+              "fileName": "Mẫu biểu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18aa3-63ef-737a-ad41-040874bc6aae/Mẫu biểu.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "* Trình tự thực hiện:\n1. Trường hợp gửi hồ sơ và nhận kết quả qua Trang thông tin dịch vụ công: \na) Cơ quan được giao quản lý vốn nhà nước trong dự án PPP lập và gửi hồ sơ qua Trang thông tin dịch vụ công.\nb) Kho bạc Nhà nước nơi giao dịch tiếp nhận, kiểm tra hồ sơ theo quy định của Nghị định số 312/2025/NĐ-CP và làm thủ tục thanh toán cho đối tượng thụ hưởng theo đề nghị hoặc từ chối thanh toán theo nguyên tắc quy định tại khoản 7 Điều 19 Nghị định số 312/2025/NĐ-CP.\n2. Trường hợp gửi hồ sơ và nhận kết quả thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật:\na) Cơ quan được giao quản lý vốn nhà nước trong dự án PPP lập và gửi hồ sơ Kho bạc Nhà nước nơi giao dịch.\nb) Kho bạc Nhà nước nơi giao dịch tiếp nhận, kiểm tra hồ sơ theo quy định của Nghị định số 312/2025/NĐ-CP và làm thủ tục thanh toán cho đối tượng thụ hưởng theo đề nghị hoặc từ chối thanh toán theo nguyên tắc quy định tại khoản 7 Điều 19 Nghị 312/2025/NĐ-CP.\n* Đối tượng thực hiện thủ tục hành chính nội bộ: Cơ quan được giao quản lý vốn nhà nước trong dự án PPP\nSố lượng hồ sơ:\n- Trường hợp gửi hồ sơ và nhận kết quả thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật: Số lượng của từng thành phần hồ sơ theo quy định tại điểm 4.1 nêu trên là 01 bản (bản gốc hoặc bản chính hoặc bản sao y bản chính). \nRiêng giấy rút vốn là 02 bản gốc (trường hợp thực hiện khấu trừ thuế giá trị gia tăng hoặc trường hợp đơn vị giao dịch và nhà cung cấp hàng hóa, dịch vụ cùng mở tài khoản tại một đơn vị thuộc hoặc trực thuộc Kho bạc Nhà nước thì bổ sung thêm 01 bản gốc tương ứng với mỗi trường hợp); Giấy đề nghị tạm ứng, thanh toán, thu hồi tạm ứng vốn đầu tư công hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng bố trí vào hạng mục cụ thể/tiểu dự án sử dụng vốn đầu tư công thuộc dự án PPP của cơ quan được giao quản lý vốn nhà nước trong dự án PPP là 02 bản gốc.\n- Đối với trường hợp gửi hồ sơ qua Trang thông tin dịch vụ công, các thành phần hồ sơ phải được ký chữ ký số theo quy định.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46c-83fd10a7f3d4"
+  ],
+  "resultIds": [
+    "019d2bb2-1c73-70ac-aa1a-0f3f521d295e",
+    "019d2bb2-1c73-70ac-aa1a-13eaac3c063f"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a655-9eb8a9c2fe76"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+      "name": "Kho bạc Nhà nước",
+      "code": "G12-TC07"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+    "name": "Kho bạc Nhà nước",
+    "code": "G12-TC07"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a655-9eb8a9c2fe76",
+      "name": "Kho bạc Nhà nước - Bộ tài chính",
+      "code": "000.00.12.G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-83fd10a7f3d4",
+      "name": "Nghị định số 312/2025/NĐ-CP của Chính phủ",
+      "code": "312/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c73-70ac-aa1a-13eaac3c063f",
+      "name": "Kho bạc Nhà nước nơi giao dịch gửi Cơ quan được giao quản lý vốn nhà nước trong dự án PPP thông báo từ chối thanh toán khoản chi ngân sách nhà nước (trong đó nêu rõ lý do từ chối) (bằng văn bản giấy hoặc qua Trang thông tin dịch vụ công)",
+      "code": "KQ.G12.04.026"
+    },
+    {
+      "id": "019d2bb2-1c73-70ac-aa1a-0f3f521d295e",
+      "name": "Kho bạc Nhà nước nơi giao dịch gửi Cơ quan được giao quản lý vốn nhà nước trong dự án PPP 01 liên chứng từ giấy (chứng từ báo Nợ) để xác nhận đã thực hiện thanh toán (bằng văn bản giấy hoặc qua Trang thông tin dịch vụ công).",
+      "code": "KQ.G12.04.025"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1793331285186,
+  "updatedAt": 1793331285186,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Kho bạc Nhà nước - Bộ tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Kho bạc Nhà nước",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1859d-672d-741c-90ae-7b33110fdb68",
+    "proposalNumber": "09/QĐ-BTC",
+    "decisionDate": 1767546000000,
+    "decisionNumber": null,
+    "publicationDate": 1793331285124,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

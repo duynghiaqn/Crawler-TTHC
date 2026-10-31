@@ -1,0 +1,196 @@
+{
+  "id": "01a18c05-fac4-70ec-8e07-b9ff339265db",
+  "code": "5.003992",
+  "codeNotation": "5.003992",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Chủ dự án mở Tài khoản tiếp nhận nguồn vốn viện trợ tại Kho bạc Nhà nước địa phương nơi có dự án: Trên cơ sở danh mục Dự án sử dụng vốn viện trợ do Bộ Kế hoạch và Đầu tư thông báo, Bộ Tài chính (Cục Quản lý nợ và Tài chính đối ngoại) thông báo danh mục này cho Kho bạc Nhà nước và Sở Tài chính các địa phương liên quan. Chủ dự án thực hiện mở một Tài khoản tiếp nhận nguồn vốn viện trợ tại Kho bạc Nhà nước địa phương nơi có dự án.\nBước 2. Chủ dự án có văn bản gửi Bộ Tài chính (Cục Quản lý nợ và Tài chính đối ngoại) đề nghị chuyển vốn lần đầu.\nBước 3. Bộ Tài chính có văn bản đề nghị Ngân hàng phục vụ chuyển tiền từ Tài khoản quỹ viện trợ sang tài khoản tiếp nhận nguồn vốn viện trợ được mở tại Kho bạc Nhà nước địa phương với trị giá chuyển lần đầu là 50% trị giá vốn phân bổ cho Dự án từ nguồn vốn viện trợ.\nBước 4. Khi sử dụng từ 80% đến 90% vốn chuyển lần đầu phù hợp với các quy định về thanh toán vốn đầu tư xây dựng cơ bản, Chủ dự án gửi tiếp cho Bộ Tài chính (Cục Quản lý nợ và Tài chính đối ngoại) Giấy đề nghị chuyển vốn lần hai bằng 50% trị giá vốn phân bổ cho Dự án từ nguồn vốn viện trợ kèm bản chính xác nhận kiểm soát chi của Kho bạc Nhà nước địa phương đối với phần vốn chuyển lần đầu. \nBước 5. Trên cơ sở Giấy đề nghị chuyển tiền của Chủ dự án, Bộ Tài chính có văn bản đề nghị Ngân hàng phục vụ chuyển tiền từ Tài khoản quỹ viện trợ sang tài khoản tiếp nhận nguồn vốn viện trợ mở tại Kho bạc Nhà nước địa phương nơi có dự án."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Giải ngân từ Tài khoản tiếp nhận viện trợ về tài khoản thực hiện dự án thành phần đối với Dự án đảm bảo an ninh lương thực cho các nông dân bị thiệt thòi (2KR)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b4-7308-8107-e79f71b4d3fc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị chuyển vốn của chủ dự án;",
+          "code": "G12.03.000057",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b4-7308-8107-ebca45ec7945",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Xác nhận kiểm soát chi của KBNN đối với phần vốn chuyển lần đầu (đối với chuyển vốn lần 2)",
+          "code": "G12.03.000056",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Tổ chức được giao nhiệm vụ là chủ dự án",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-0e32442a1598"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be50-a226232ad1c7",
+    "019d2bb3-5d85-73da-8eb7-f328ed8cb49b",
+    "01a18c07-ff1b-721a-b0dd-f19084c165fb"
+  ],
+  "resultIds": [
+    "01a18c05-10e3-769d-aa3f-c26e80073a9b"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+      "name": "Quản lý nợ",
+      "code": "G12-TC12"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+    "name": "Quản lý nợ",
+    "code": "G12-TC12"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be50-a226232ad1c7",
+      "name": "về việc hướng dẫn quản lý và sử dụng nguồn tiền thu từ khoản viện trợ không hoàn lại của Chính phủ Nhật Bản cho dự án đảm bảo an ninh lương thực cho các nông dân bị thiệt thòi (Dự án 2KR).",
+      "code": "Thông tư số 69/2012/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eb7-f328ed8cb49b",
+      "name": "Công hàm trao đổi và Hiệp định viện trợ của Chính phủ Nhật Bản cho nông dân bị thiệt thòi",
+      "code": "Công văn số 1642/TTg-QHQT ngày 15/9/2009"
+    },
+    {
+      "id": "01a18c07-ff1b-721a-b0dd-f19084c165fb",
+      "name": "Công văn số 7844/VPCP-QHQT ngày 14/11/2008 của Văn phòng Chính Phủ về cơ chế thực hiện việc tiếp nhận khoản viện trợ của Chính phủ Nhật Bản thuộc chương trình 2KR",
+      "code": "Công văn số 7844/VPCP-QHQT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a18c05-10e3-769d-aa3f-c26e80073a9b",
+      "name": "Văn bản (cấp Bộ) gửi chủ dự án",
+      "code": "KQ.G12.03.018"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1793350967921,
+  "updatedAt": 1793350967921,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a18bd7-4585-7734-80e9-fab55b777b85",
+    "proposalNumber": "440/QĐ-BTC.NB",
+    "decisionDate": 1773162000000,
+    "decisionNumber": null,
+    "publicationDate": 1793350967850,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

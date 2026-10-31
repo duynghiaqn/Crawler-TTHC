@@ -1,0 +1,414 @@
+{
+  "id": "01a083fd-7583-716d-acd6-c61de1722df0",
+  "code": "1.116596",
+  "codeNotation": "1.116596",
+  "executionSteps": [
+    {
+      "name": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến một trong các cơ quan trên địa bàn cấp tỉnh sau: Trung tâm Phục vụ hành chính công tỉnh, Trung tâm Phục vụ hành chính công cấp xã, Chi nhánh Văn phòng đăng ký đất đai (nơi có bố trí địa điểm tiếp nhận hồ sơ).",
+      "description": "- Khi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\n- Trường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ các giấy tờ là quyết định phê duyệt hoặc quyết định phê duyệt điều chỉnh quy hoạch xây dựng chi tiết, bản đồ điều chỉnh quy hoạch xây dựng chi tiết."
+    },
+    {
+      "name": "Bước 2: Cơ quan tiếp nhận hồ sơ thực hiện:",
+      "description": "- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\n- Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai."
+    },
+    {
+      "name": "Bước 3: Văn phòng đăng ký đất đai thực hiện:",
+      "description": "- Kiểm tra tính đầy đủ của thành phần hồ sơ.\n- Trong thời gian không quá 03 ngày làm việc, thông báo cho chủ đầu tư cung cấp các giấy tờ theo quy định đối với trường hợp người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng trực tiếp thực hiện thủ tục đăng ký, cấp Giấy chứng nhận mà chủ đầu tư chưa nộp các giấy tờ theo quy định.\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 Phụ lục ban hành kèm theo Quyết định số 122/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh hoặc theo mẫu của Bộ Tài chính đến cơ quan thuế để xác định và thông báo nghĩa vụ tài chính cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng.\n- Cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai; Cấp Giấy chứng nhận cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng; xác nhận thay đổi trên Giấy chứng nhận đã cấp cho chủ đầu tư, trong đó phần diện tích thuộc quyền sử dụng chung với người khác thì được chỉnh lý biến động để chuyển sang hình thức sử dụng chung.\nTrường hợp phải thực hiện nghĩa vụ tài chính thì Văn phòng đăng ký đất đai thực hiện các công việc tại điểm này khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính.\n- Trao Giấy chứng nhận hoặc chuyển Giấy chứng nhận cho chủ đầu tư dự án để trao cho người được cấp đối với trường hợp chủ đầu tư dự án nộp hồ sơ thực hiện thủ tục."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và đặc khu Lý Sơn thì thời gian giải quyết thủ tục hành chính được cộng thêm 10 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và đặc khu Lý Sơn thì thời gian giải quyết thủ tục hành chính được cộng thêm 10 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và đặc khu Lý Sơn thì thời gian giải quyết thủ tục hành chính được cộng thêm 10 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí."
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định.",
+  "name": "Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng trong dự án bất động sản",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Đối với trường hợp chủ đầu tư dự án nộp hồ sơ đăng ký, cấp Giấy chứng nhận cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0423c-301f-748c-bfee-67b03a801f42",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18 Phụ lục ban hành kèm theo Quyết định số 122/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh.",
+          "code": "TP-H48-0032",
+          "attachments": [
+            {
+              "id": "01a08416-9ec4-749d-86fc-afee85c051c8",
+              "fileName": "Mau so 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a08416-9ec4-749d-86fc-afee85c051c8/Mau so 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a08417-cafd-73fd-802d-6edc7ef32111",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Văn bản về việc nhà ở, công trình xây dựng đã được nghiệm thu đưa vào khai thác, sử dụng theo quy định của pháp luật về xây dựng đối với trường hợp có nhận chuyển nhượng nhà ở, công trình xây dựng",
+          "code": "TP-H48-00101",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a08418-196d-74c4-a233-89387a6edd0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Văn bản về việc đủ điều kiện được chuyển nhượng cho cá nhân tự xây dựng nhà ở đối với trường hợp chuyển nhượng quyền sử dụng đất đã có hạ tầng kỹ thuật theo quy định của pháp luật về kinh doanh bất động sản",
+          "code": "TP-H48-00102",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a08418-9247-741a-aeba-7dad585388c1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Hợp đồng chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng theo quy định của pháp luật",
+          "code": "TP-H48-00103",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a08418-fa54-72f9-93de-9662762b424d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Biên bản bàn giao nhà, đất, công trình xây dựng, hạng mục công trình xây dựng",
+          "code": "TP-H48-00104",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04254-4d75-7479-9369-220d526220a4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Giấy chứng nhận đã cấp",
+          "code": "TP-H48-0036",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a08419-e789-723a-94ca-2b1419228903",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp Văn phòng đăng ký đất đai nhận được văn bản của cơ quan có thẩm quyền về việc dự án được điều chỉnh quy hoạch xây dựng chi tiết mà làm phát sinh nghĩa vụ tài chính theo quy định của pháp luật",
+          "code": "TP-H48-00105",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b) Đối với trường hợp người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng trực tiếp thực hiện:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0423c-301f-748c-bfee-67b03a801f42",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18 Phụ lục ban hành kèm theo Quyết định số 122/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh.",
+          "code": "TP-H48-0032",
+          "attachments": [
+            {
+              "id": "01a08416-9ec4-749d-86fc-afee85c051c8",
+              "fileName": "Mau so 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a08416-9ec4-749d-86fc-afee85c051c8/Mau so 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a08418-9247-741a-aeba-7dad585388c1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Hợp đồng chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng theo quy định của pháp luật",
+          "code": "TP-H48-00103",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a08418-fa54-72f9-93de-9662762b424d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Biên bản bàn giao nhà, đất, công trình xây dựng, hạng mục công trình xây dựng",
+          "code": "TP-H48-00104",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0841b-81cb-7602-abf1-dff316c2754e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Văn bản về việc nhà ở, công trình xây dựng đã được nghiệm thu đưa vào khai thác, sử dụng theo quy định của pháp luật về xây dựng đối với trường hợp có nhận chuyển nhượng nhà ở, công trình xây dựng (nếu có).",
+          "code": "TP-H48-00106",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a08418-196d-74c4-a233-89387a6edd0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Văn bản về việc đủ điều kiện được chuyển nhượng cho cá nhân tự xây dựng nhà ở đối với trường hợp chuyển nhượng quyền sử dụng đất đã có hạ tầng kỹ thuật theo quy định của pháp luật về kinh doanh bất động sản",
+          "code": "TP-H48-00102",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04254-4d75-7479-9369-220d526220a4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Giấy chứng nhận đã cấp",
+          "code": "TP-H48-0036",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0841d-614a-75f0-b8d7-4c99b29bb552",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp Văn phòng đăng ký đất đai nhận được văn bản của cơ quan có thẩm quyền về việc dự án được điều chỉnh quy hoạch xây dựng chi tiết mà làm phát sinh nghĩa vụ tài chính theo quy định của pháp luật (nếu có).",
+          "code": "TP-H48-00107",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "01a036d7-b02b-731e-abe9-6eb1ec26e188"
+  ],
+  "resultIds": [
+    "01a04131-a7ae-71ab-9896-f5179d8ecd86"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b1a-cadbc115cc0e"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b1a-cadbc115cc0e",
+      "name": "Văn phòng đăng ký đất đai tỉnh Quảng Ngãi",
+      "code": "H48.103.24"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "01a036d7-b02b-731e-abe9-6eb1ec26e188",
+      "name": "Quyết định số 122/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh ban hành quy định trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Quảng Ngãi.",
+      "code": "122/2026/QĐ-UBND "
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a04131-a7ae-71ab-9896-f5179d8ecd86",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H48-0012"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b1a-b8df51d5f6bf",
+  "departmentPromulgateCode": "H48",
+  "departmentPromulgateName": "UBND tỉnh Quảng Ngãi",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790383270036,
+  "updatedAt": 1790383270036,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng đăng ký đất đai tỉnh Quảng Ngãi",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh, Trung tâm Phục vụ hành chính công cấp xã, Chi nhánh Văn phòng đăng ký đất đai (nơi có bố trí địa điểm tiếp nhận hồ sơ).\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a031c1-b81f-76a8-b248-9038b17f129e",
+    "proposalNumber": "1836/QĐ-UBND",
+    "decisionDate": 1783962000000,
+    "decisionNumber": null,
+    "publicationDate": 1790383262873,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b1a-b8df51d5f6bf",
+      "name": "UBND tỉnh Quảng Ngãi"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

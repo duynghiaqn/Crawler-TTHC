@@ -1,0 +1,290 @@
+{
+  "id": "01a004b8-4425-703d-abdb-95f103d59353",
+  "code": "1.116332",
+  "codeNotation": "1.116332",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1. Phòng Văn hóa - Xã hội thuộc Ủy ban nhân dân cấp xã tiếp nhận đề nghị khen thưởng của các đơn vị trực thuộc.\n- Bước 2. Thẩm định hồ sơ, xin ý kiến các cơ quan liên quan, báo cáo Hội đồng Thi đua – Khen thưởng cấp xã, tổng hợp trình Chủ tịch Ủy ban nhân dân cấp xã quyết định khen thưởng.\n- Bước 3. Khi có Quyết định của Chủ tịch Ủy ban nhân dân cấp xã, Phòng Văn hóa - Xã hội thuộc Ủy ban nhân dân cấp xã thông báo Quyết định, viết bằng, đóng dấu và cấp phát cho đơn vị trình khen.\n- Bước 4. Các trường hợp không được khen thưởng (không đúng đối tượng, không đủ tiêu chuẩn, không đủ hồ sơ hoặc vi phạm pháp luật), Phòng Văn hóa - Xã hội thuộc Ủy ban nhân dân cấp xã thông báo đến các đơn vị trình khen biết."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cơ quan thi đua, khen thưởng thẩm định hồ sơ khen thưởng và trình cấp có thẩm quyền trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cơ quan thi đua, khen thưởng thẩm định hồ sơ khen thưởng và trình cấp có thẩm quyền trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Cơ quan thi đua, khen thưởng thẩm định hồ sơ khen thưởng và trình cấp có thẩm quyền trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Chủ thể là cá nhân, tập thể có thành tích trong phong trào thi đua theo chuyên đề được đề nghị khen thưởng.",
+  "name": "Thủ tục tặng Giấy khen của Chủ tịch Ủy ban nhân dân cấp xã về thành tích thi đua theo chuyên đề",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0e76b-212b-705f-872e-6ae745e1e101",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Hồ sơ đề nghị xét tặng Giấy khen gồm: - Tờ trình đề nghị khen thưởng; - Báo cáo thành tích của các trường hợp đề nghị khen thưởng có xác nhận của cấp trình khen thưởng; - Biên bản xét khen thưởng của Hội đồng Thi đua - Khen thưởng cấp trình khen thưởng. b) Số lượng hồ sơ đề nghị xét tặng Giấy khen thực hiện theo quy định của Ủy ban nhân dân các xã, phường.",
+          "code": "H41-KQ000133",
+          "attachments": [
+            {
+              "id": "01a0e76b-1b4c-7718-9f0f-d098bbc634dd",
+              "fileName": "3434.Mẫu số 08.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0e76b-1b4c-7718-9f0f-d098bbc634dd/3434.Mẫu số 08.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+    "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+    "01a00f38-7cb7-77a8-8392-f900f41d57c4",
+    "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1"
+  ],
+  "resultIds": [
+    "019d2bb2-1c4c-77ab-bf6e-6522a674f2a4"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dbcf8-2512-751f-b250-ac73e3d6fa26",
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dbcf8-2512-751f-b250-ac73e3d6fa26",
+      "name": "Phòng Văn hóa - Xã hội xã"
+    },
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1",
+      "name": "Sửa đổi, bổ sung một số điều của Quy chế thi đua, khen thưởng trên địa bàn tỉnh Nghệ An và Phụ lục I ban hành kèm theo Quyết định số 81/2025/QĐ-UBND ngày 31/10/2025 của Ủy ban nhân dân tỉnh Nghệ An",
+      "code": "34/2026/QĐ-UBND"
+    },
+    {
+      "id": "01a00f38-7cb7-77a8-8392-f900f41d57c4",
+      "name": "Ban hành Quy chế thi đua, khen thưởng trên địa bàn tỉnh Nghệ An",
+      "code": "81/2025/QĐ-UBND"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+      "name": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng",
+      "code": "152/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+      "name": "Luật Thi đua, khen thưởng",
+      "code": "06/2022/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c4c-77ab-bf6e-6522a674f2a4",
+      "name": "Quyết định của Chủ tịch UBND cấp xã tặng Giấy khen.",
+      "code": "KQ.G09.000217"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+  "departmentPromulgateCode": "H41",
+  "departmentPromulgateName": "UBND tỉnh Nghệ An",
+  "cases": [
+    {
+      "id": "01a0f54c-6f53-766e-998c-0bb51f3f3914",
+      "name": "Thủ tục tặng Giấy khen của Chủ tịch Ủy ban nhân dân cấp xã về thành tích thi đua theo chuyên đề",
+      "code": "1.116332.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790589915532,
+  "updatedAt": 1790589915532,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tiếp hoặc thông qua hệ thống bưu chính tại Trung tâm Phục vụ hành chính công cấp tỉnh, cấp xã hoặc trực tuyến thông qua Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Chủ thể là cá nhân, tập thể có thành tích trong phong trào thi đua theo chuyên đề được đề nghị khen thưởng.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0066e-6e26-742a-bc1f-105b7ae8b874",
+    "proposalNumber": "3434/QĐ-UBND",
+    "decisionDate": 1785690000000,
+    "decisionNumber": null,
+    "publicationDate": 1790589915436,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+      "name": "UBND tỉnh Nghệ An"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

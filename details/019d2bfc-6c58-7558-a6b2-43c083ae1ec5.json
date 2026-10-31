@@ -1,0 +1,397 @@
+{
+  "id": "019d2bfc-6c58-7558-a6b2-43c083ae1ec5",
+  "code": "1.008581",
+  "codeNotation": "1.008581",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "+ Bước 1: Các tổ chức nhận tái bảo hiểm nước ngoài trực tiếp nộp hồ sơ đề nghị áp dụng Hiệp định thuế cho từng năm cho tất cả các hợp đồng tái bảo hiểm mà các tổ chức đã ký kết hoặc dự kiến ký kết trong năm đó. Các tổ chức nhận tái bảo hiểm nước ngoài có thể uỷ quyền cho các đại lý thuế hoặc bất kỳ tổ chức, cá nhân nào tại Việt Nam nộp hồ sơ."
+    },
+    {
+      "name": "",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận:\n ++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc hồ sơ được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận và giải quyết hồ sơ và trả kết quả theo quy định. \n++ Trường hợp hồ sơ được nộp đến cơ quan thuế thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế. \n++ Trong quá trình giải quyết hồ sơ miễn thuế, giảm thuế còn thiếu thông tin cần giải trình, bổ sung tài liệu thì cơ quan thuế gửi Thông báo giải trình, bổ sung thông tin, tài liệu theo mẫu số 01/TB-BSTT-NNT Phụ lục V ban hành kèm theo Thông tư số 89/2026/TT-BTC cho người nộp thuế để yêu cầu giải trình, bổ sung thông tin, tài liệu."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 30 ngày làm việc kể từ ngày được ghi trên thông báo tiếp nhận hồ sơ miễn thuế, giảm thuế theo Hiệp định thuế hoặc Điều ước quốc tế khác, cơ quan thuế đối chiếu thông tin về khoản thu nhập đề nghị miễn thuế, giảm thuế với thông tin có liên quan trên hồ sơ miễn thuế, giảm thuế của người nộp thuế, quy định tại Hiệp định thuế hoặc Điều ước quốc tế khác, pháp luật có liên quan và thông tin quản lý thuế của cơ quan thuế, đảm bảo miễn thuế, giảm thuế đúng theo quy định tại Hiệp định thuế hoặc Điều ước quốc tế khác. Trường hợp hồ sơ chưa đủ thông tin, cơ quan thuế gửi Thông báo yêu cầu bổ sung thông tin theo mẫu số 01/TB-BSTT-NNT Phụ lục V ban hành kèm theo Thông tư này để người nộp thuế giải trình, bổ sung thông tin, tài liệu theo quy định trong thời hạn 10 ngày làm việc kể từ ngày cơ quan thuế ban hành Thông báo tiếp nhận hồ sơ. Khoảng thời gian kể từ ngày cơ quan thuế ban hành Thông báo giải trình, bổ sung thông tin, tài liệu đến ngày cơ quan thuế nhận được văn bản giải trình, bổ sung thông tin, tài liệu của người nộp thuế (hoặc hết thời hạn theo Thông báo của cơ quan thuế người nộp thuế không giải trình, bổ sung) không tính trong thời hạn giải quyết hồ sơ miễn thuế, giảm thuế của cơ quan thuế.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 30 ngày làm việc kể từ ngày được ghi trên thông báo tiếp nhận hồ sơ miễn thuế, giảm thuế theo Hiệp định thuế hoặc Điều ước quốc tế khác, cơ quan thuế đối chiếu thông tin về khoản thu nhập đề nghị miễn thuế, giảm thuế với thông tin có liên quan trên hồ sơ miễn thuế, giảm thuế của người nộp thuế, quy định tại Hiệp định thuế hoặc Điều ước quốc tế khác, pháp luật có liên quan và thông tin quản lý thuế của cơ quan thuế, đảm bảo miễn thuế, giảm thuế đúng theo quy định tại Hiệp định thuế hoặc Điều ước quốc tế khác. Trường hợp hồ sơ chưa đủ thông tin, cơ quan thuế gửi Thông báo yêu cầu bổ sung thông tin theo mẫu số 01/TB-BSTT-NNT Phụ lục V ban hành kèm theo Thông tư này để người nộp thuế giải trình, bổ sung thông tin, tài liệu theo quy định trong thời hạn 10 ngày làm việc kể từ ngày cơ quan thuế ban hành Thông báo tiếp nhận hồ sơ. Khoảng thời gian kể từ ngày cơ quan thuế ban hành Thông báo giải trình, bổ sung thông tin, tài liệu đến ngày cơ quan thuế nhận được văn bản giải trình, bổ sung thông tin, tài liệu của người nộp thuế (hoặc hết thời hạn theo Thông báo của cơ quan thuế người nộp thuế không giải trình, bổ sung) không tính trong thời hạn giải quyết hồ sơ miễn thuế, giảm thuế của cơ quan thuế.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 30 ngày làm việc kể từ ngày được ghi trên thông báo tiếp nhận hồ sơ miễn thuế, giảm thuế theo Hiệp định thuế hoặc Điều ước quốc tế khác, cơ quan thuế đối chiếu thông tin về khoản thu nhập đề nghị miễn thuế, giảm thuế với thông tin có liên quan trên hồ sơ miễn thuế, giảm thuế của người nộp thuế, quy định tại Hiệp định thuế hoặc Điều ước quốc tế khác, pháp luật có liên quan và thông tin quản lý thuế của cơ quan thuế, đảm bảo miễn thuế, giảm thuế đúng theo quy định tại Hiệp định thuế hoặc Điều ước quốc tế khác. Trường hợp hồ sơ chưa đủ thông tin, cơ quan thuế gửi Thông báo yêu cầu bổ sung thông tin theo mẫu số 01/TB-BSTT-NNT Phụ lục V ban hành kèm theo Thông tư này để người nộp thuế giải trình, bổ sung thông tin, tài liệu theo quy định trong thời hạn 10 ngày làm việc kể từ ngày cơ quan thuế ban hành Thông báo tiếp nhận hồ sơ. Khoảng thời gian kể từ ngày cơ quan thuế ban hành Thông báo giải trình, bổ sung thông tin, tài liệu đến ngày cơ quan thuế nhận được văn bản giải trình, bổ sung thông tin, tài liệu của người nộp thuế (hoặc hết thời hạn theo Thông báo của cơ quan thuế người nộp thuế không giải trình, bổ sung) không tính trong thời hạn giải quyết hồ sơ miễn thuế, giảm thuế của cơ quan thuế.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+  "name": "Miễn thuế, giảm thuế theo Hiệp định tránh đánh thuế hai lần đối với thu nhập từ tái bảo hiểm nước ngoài",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "i. Đối với hồ sơ đề nghị dự kiến: 05 ngày trước khi ký kết hợp đồng hoặc 05 ngày sau khi thực hiện hợp đồng hoặc 05 ngày trước khi thanh toán, tùy theo thời điểm nào diễn ra trước, các tổ chức nhận tái bảo hiểm nước ngoài có trách nhiệm nộp cho cơ quan thuế hồ sơ đề nghị dự kiến cùng với tài liệu liên quan. Các tổ chức nhận tái bảo hiểm nước ngoài có văn phòng đại diện tại Việt Nam nộp hồ sơ tại Thuế tỉnh nơi đóng văn phòng đại diện. Đối với các tổ chức nhận tái bảo hiểm nước ngoài không có văn phòng đại diện tại Việt Nam:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30d-b270656e68a8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp các tổ chức nhận tái bảo hiểm nước ngoài trực tiếp nộp hồ sơ: nộp tại Thuế tỉnh nơi Công ty tái bảo hiểm Việt Nam đầu tiên dự kiến ký kết hợp đồng",
+          "code": "000.00.00.G12-00015661",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30a-6553bec9c7e9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp các tổ chức nhận tái bảo hiểm nước ngoài uỷ quyền cho đại diện hợp pháp tại Việt Nam (tổ chức, cá nhân cung cấp dịch vụ làm thủ tục về thuế hoặc Công ty kiểm toán hoặc Công ty tái bảo hiểm Việt Nam đầu tiên dự kiến ký kết hợp đồng...) nộp hồ sơ tại Thuế tỉnh nơi đại diện hợp pháp đăng ký nộp thuế",
+          "code": "000.00.00.G12-00015452",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f33-acc15b489b7b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ đề nghị dự kiến bao gồm: Văn bản đề nghị dự kiến theo mẫu số 01/TBH-TB Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC; Bản chính hoặc bản sao có chứng thực Giấy chứng nhận cư trú do cơ quan thuế của nước cư trú cấp đã được hợp pháp hóa lãnh sự (cho năm ngay trước năm nộp hồ sơ đề nghị dự kiến); Bảng kê các Hợp đồng tái bảo hiểm đã hoặc dự kiến ký kết theo mẫu số 01-1/TBH-TB Phụ lục III ban hành kèm theo Thông tư này; Bản sao có chứng thực văn bản ủy quyền trong trường hợp người nộp thuế ủy quyền cho đại diện hợp pháp thực hiện thủ tục áp dụng Hiệp định thuế. Trường hợp người nộp thuế không cung cấp đủ các thông tin hoặc các tài liệu theo yêu cầu của Hồ sơ thông báo thuộc diện miễn, giảm thuế theo Hiệp định thuế, người nộp thuế có trách nhiệm giải trình cụ thể tại Văn bản đề nghị (dự kiến) theo mẫu số 01/TBH-TB Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC.",
+          "code": "000.00.00.G12-00012022",
+          "attachments": [
+            {
+              "id": "019fa849-a539-7547-949b-4df0c74220e0",
+              "fileName": "01-TBH-TB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa849-a539-7547-949b-4df0c74220e0/01-TBH-TB.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ii. Đối với hồ sơ đề nghị chính thức: trong thời hạn quý I của năm sau, tổ chức nhận tái bảo hiểm nước ngoài có trách nhiệm nộp cho cơ quan thuế hồ sơ đề nghị chính thức cùng với tài liệu liên quan tương tự như đối với việc nộp hồ sơ đề nghị dự kiến. Hồ sơ đề nghị chính thức bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f33-9b42e4986f14",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị chính thức theo mẫu số 02/TBH-TB Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "000.00.00.G12-00012017",
+          "attachments": [
+            {
+              "id": "019fa84a-4b2c-7739-97af-91049c7bfff2",
+              "fileName": "02-TBH- TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa84a-4b2c-7739-97af-91049c7bfff2/02-TBH- TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30d-ad3a54567628",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản chính hoặc bản sao có chứng thực Giấy chứng nhận cư trú do cơ quan thuế của nước cư trú cấp đã được hợp pháp hóa lãnh sự trong năm tính thuế đó",
+          "code": "000.00.00.G12-00015660",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f33-9deda119f4d7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao của các hợp đồng tái bảo hiểm đã thực hiện trong năm có xác nhận của người nộp thuế (bao gồm cả những hợp đồng đã có trong kế hoạch và những hợp đồng ngoài kế hoạch đã gửi cơ quan thuế) nhưng chưa nộp cho cơ quan thuế;",
+          "code": "000.00.00.G12-00012018",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f33-a045b8dcde56",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng kê các hợp đồng tái bảo hiểm đã thực hiện theo mẫu số 02-1/TBH-TB Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "000.00.00.G12-00012019",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa842-38eb-768b-b301-3610ceb6c722",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao có chứng thực văn bản ủy quyền trong trường hợp người nộp thuế ủy quyền cho đại diện hợp pháp thực hiện thủ tục áp dụng Hiệp định thuế; Tại thời điểm nộp hồ sơ đề nghị chính thức, người nộp thuế phân loại hợp đồng và gửi danh mục hợp đồng theo từng loại (với các chỉ tiêu nhất định); mỗi loại hợp đồng chỉ gửi một bản sao có xác nhận của người nộp thuế để làm mẫu",
+          "code": "TP-G12.0001054",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa842-e295-75af-9ad7-19113bc78d9c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp người nộp thuế không cung cấp đủ các thông tin hoặc các tài liệu theo yêu cầu của Hồ sơ thông báo thuộc diện miễn, giảm thuế theo Hiệp định thuế, người nộp thuế có trách nhiệm giải trình cụ thể tại Văn bản đề nghị (chính thức) theo mẫu 02/TBH-TB Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC.",
+          "code": "TP-G12.0001055",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb1e5-b677-7698-b2b2-62c91af7e24a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC, tờ khai số 01/TBH-TB và 02/TBH-TB thực hiện theo mẫu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính (đã được sửa đổi, bổ sung).",
+          "code": "G12.0011156",
+          "attachments": [
+            {
+              "id": "019fb1e5-a25f-757b-843c-e39b9a9b842f",
+              "fileName": "02 TBH TB TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb1e5-a25f-757b-843c-e39b9a9b842f/02 TBH TB TT 80.docx"
+            },
+            {
+              "id": "019fb1e5-a388-70ca-888d-9f9dc7ff1dc9",
+              "fileName": "01 TBH TB TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb1e5-a388-70ca-888d-9f9dc7ff1dc9/01 TBH TB TT 80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "- Đối tượng thực hiện: Các tổ chức nhận tái bảo hiểm nước ngoài.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe7-f63bc8a369b7"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e005b-c45a-7351-bdf2-f495ce849003"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e005b-c45a-7351-bdf2-f495ce849003",
+      "name": "Thuế cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe7-f63bc8a369b7",
+      "name": "Trường hợp xác định người nộp thuế không thuộc diện được miễn thuế, giảm thuế theo Hiệp định thuế hoặc Điều ước quốc tế khác, cơ quan thuế gửi người nộp thuế Thông báo mẫu số 03-1/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính. Người nộp thuế có trách nhiệm khai chính xác, trung thực, đầy đủ các nội dung trong hồ sơ miễn thuế, giảm thuế theo Hiệp định thuế hoặc Điều ước quốc tế khác. Trường hợp qua kiểm tra phát hiện người nộp thuế không thuộc diện được miễn thuế, giảm thuế theo Hiệp định thuế hoặc Điều ước quốc tế khác thì người nộp thuế có trách nhiệm hoàn thành nghĩa vụ nộp thuế theo quy định.",
+      "code": "KQ.G12.000520"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d755d-e887-73f0-a284-849364adbcff",
+      "name": "Miễn thuế, giảm thuế theo Hiệp định thuế đối với Nhà thầu nước ngoài nộp thuế theo phương pháp trực tiếp - đối với tái bảo hiểm nước ngoài ",
+      "code": "1.008581.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-d364-728c-b7f0-a69fdea59182",
+      "name": "Miễn thuế, giảm thuế theo Hiệp định thuế đối với Nhà thầu nước ngoài nộp thuế theo phương pháp trực tiếp - đối với tái bảo hiểm nước ngoài ",
+      "code": "1.008581.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559456344,
+  "updatedAt": 1785399197351,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Chi cục Thuế doanh nghiệp lớn/Chi cục Thuế thương mại điện tử/Thuế tỉnh, thành phố/Thuế cơ sở.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

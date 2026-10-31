@@ -1,0 +1,290 @@
+{
+  "id": "019d2bfb-d777-72e9-84de-147abe18e3c4",
+  "code": "1.001742",
+  "codeNotation": "1.001742",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Lập, nộp hồ sơ\n- Người đang hưởng lương hưu, trợ cấp BHXH hằng tháng: Lập hồ sơ theo quy định tại mục 12.3 (Thành phần hồ sơ) và nộp đến cơ quan BHXH nơi đang chi trả lương hưu, trợ cấp hằng tháng.\n\t- Người đang chờ hưởng lương hưu, trợ cấp BHXH hằng tháng: Lập hồ sơ theo quy định tại mục 12.3 (Thành phần hồ sơ); nộp hồ sơ đến cơ quan BHXH nơi đang quản lý hồ sơ chờ hưởng.\n\t (Trường hợp người đang hưởng lương hưu, trợ cấp BHXH hằng tháng; người đang chờ hưởng lương hưu, trợ cấp BHXH hằng tháng lựa chọn hình thức nộp hồ sơ trực tiếp thì có thể nộp đến cơ quan BHXH tỉnh/BHXH cơ sở thuận tiện nhất)."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan BHXH tiếp nhận hồ sơ và giải quyết hoặc chuyển hồ sơ đến cơ quan BHXH có thẩm quyền giải quyết theo quy định (đối với hồ sơ tiếp nhận trực tiếp không thuộc thẩm quyền giải quyết của cơ quan BHXH nơi tiếp nhận)."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Nhận kết quả giải quyết:\n\tNgười đang hưởng lương hưu, trợ cấp BHXH hằng tháng; người đang chờ hưởng lương hưu, trợ cấp BHXH hằng tháng (gọi chung là người hưởng) nhận hồ sơ, giấy tờ liên quan theo quy định (Thông báo về việc chi trả lương hưu, trợ cấp BHXH hoặc Thông báo về việc tiếp nhận hồ sơ chờ hưởng lương hưu/trợ cấp hằng tháng…)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Người hưởng nhận hồ sơ, giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử)\nTối đa 03 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Người hưởng nhận hồ sơ, giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử)\nTối đa 03 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Người hưởng nhận hồ sơ, giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử)\nTối đa 03 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính (nếu có): Theo quy định tại Điều 82 Luật BHXH số 41/2024/QH15.",
+  "name": "Thay đổi hình thức nhận, nơi nhận lương hưu, trợ cấp BHXH hằng tháng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a023aa-b5de-751a-83ae-96c9cda4cf8b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị (Mẫu số 14-HSB)",
+          "code": "TP-G12.0001300",
+          "attachments": [
+            {
+              "id": "01a023bf-e555-7313-baa1-59f3d0344a1c",
+              "fileName": "14 HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a023bf-e555-7313-baa1-59f3d0344a1c/14 HSB.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cá nhân",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+    "019d2bb3-5d7d-7398-be46-85fda49d119e",
+    "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+    "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+    "019d2bb3-5d87-7195-a440-f511123122ee",
+    "019e72eb-488d-760e-abb8-0a3bb6585c78"
+  ],
+  "resultIds": [
+    "01a02f35-4782-747d-929b-3f3e91a7dbdb",
+    "01a02f37-9dea-71dc-8aea-b45e9443fb4d"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e65-3c061397ee5f"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-3c061397ee5f",
+      "name": "Bảo hiểm xã hội cấp Tỉnh",
+      "code": "LĐTB-T"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+      "name": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
+      "code": "2222/QĐ-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be46-85fda49d119e",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT BẢO HIỂM XÃ HỘI VỀ BẢO HIỂM XÃ HỘI BẮT BUỘC",
+      "code": "12/2025/TT-BNV"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc",
+      "code": "158/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a440-f511123122ee",
+      "name": "Luật Bảo hiểm xã hội",
+      "code": "41/2024/QH15"
+    },
+    {
+      "id": "019e72eb-488d-760e-abb8-0a3bb6585c78",
+      "name": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP BAN HÀNH KÈM THEO QUYẾT ĐỊNH SỐ 2222/QĐ-BHXH NGÀY 29/7/2025 CỦA GIÁM ĐỐC BẢO HIỂM XÃ HỘI VIỆT NAM",
+      "code": "313/QĐ-BHXH "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội tự nguyện",
+      "code": "159/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a02f35-4782-747d-929b-3f3e91a7dbdb",
+      "name": "Đối tượng thực hiện thủ tục hành chính: Cá nhân",
+      "code": "KQ.G12.000142"
+    },
+    {
+      "id": "01a02f37-9dea-71dc-8aea-b45e9443fb4d",
+      "name": "Thông báo về việc tiếp nhận hồ sơ chờ hưởng lương hưu/trợ cấp hằng tháng (Mẫu số 15B-HSB)",
+      "code": "KQ.G12.000157"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d7685-e5be-7482-9cb1-09d93e4e2447",
+      "name": "Giải quyết chuyển hưởng sang địa bàn khác đối với người đang hưởng lương hưu, trợ cấp BHXH hàng tháng và người chờ hưởng lương hưu, trợ cấp hàng tháng",
+      "code": "1.001742.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a507-76e8-ad97-048387e5a5e8",
+      "name": "Thay đổi hình thức nhận, nơi nhận lương hưu, trợ cấp BHXH hằng tháng",
+      "code": "1.001742.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559418231,
+  "updatedAt": 1787504992105,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính (nếu có): Theo quy định tại Điều 82 Luật BHXH số 41/2024/QH15.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

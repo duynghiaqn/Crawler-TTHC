@@ -1,0 +1,160 @@
+{
+  "id": "019fa66d-a765-778a-b0b4-6dd970e417bf",
+  "code": "6.006755",
+  "codeNotation": "6.006755",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Bước 1: Thông báo cho chủ rừng về việc thu hồi rừng\nĐối với trường hợp đã được cấp có thẩm quyền quyết định thu hồi đất trước ngày Nghị định này có hiệu lực thi hành, Chủ tịch Ủy ban nhân dân cấp xã thông báo bằng văn bản cho chủ rừng về việc thu hồi rừng.\nb) Bước 2: Kiểm tra, xác minh đặc điểm khu rừng thu hồi\nTrong thời hạn 07 ngày làm việc kể từ ngày có thông báo, cơ quan chuyên môn về nông nghiệp và môi trường cấp xã có trách nhiệm kiểm tra, xác minh đặc điểm khu rừng, trình Chủ tịch Ủy ban nhân dân cấp xã quyết định thu hồi rừng.\nc) Bước 3: Quyết định thu hồi rừng\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ trình của cơ quan chuyên môn về nông nghiệp và môi trường cấp xã, Chủ tịch Ủy ban nhân dân cấp xã xem xét, quyết định thu hồi rừng theo Mẫu số 31 Phụ lục IIA ban hành kèm theo Nghị định số 42/2026/NĐ-CP. \nTrường hợp không quyết định, Chủ tịch Ủy ban nhân dân cấp xã thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "10 ngày, kể từ ngày nhận được hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "10 ngày, kể từ ngày nhận được hồ sơ hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thu hồi rừng đối với trường hợp đã thu hồi đất thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp xã",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-c7bee458b0da"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fa669-afc9-71bf-bc98-de5f37a5de5e"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-c7bee458b0da",
+      "name": "Lâm nghiệp và Kiểm lâm",
+      "code": "G10-NN07"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-c7bee458b0da",
+    "name": "Lâm nghiệp và Kiểm lâm",
+    "code": "G10-NN07"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fa669-afc9-71bf-bc98-de5f37a5de5e",
+      "name": "Quyết định thu hồi rừng theo Mẫu số 31 Phụ lục IIA ban hành kèm theo Nghị định số 42/2026/NĐ-CP",
+      "code": "Quyết định thu hồi rừng theo Mẫu số 31 Phụ lục IIA ban hành kèm theo Nghị định số 42/2026/NĐ-CP"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789530468647,
+  "updatedAt": 1789530468647,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa286-9471-779e-b378-67e28007a3f2",
+    "proposalNumber": "549/QĐ-UBND",
+    "decisionDate": 1772384400000,
+    "decisionNumber": null,
+    "publicationDate": 1789530466824,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

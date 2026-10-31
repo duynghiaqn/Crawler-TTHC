@@ -1,0 +1,168 @@
+{
+  "id": "019fefca-f30a-7442-b538-7b00a377f1ce",
+  "code": "1.116216",
+  "codeNotation": "1.116216",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "cách thức thực hiện"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đính chính Giấy chứng nhận 01",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2c08-77b9-731a-ae11-42a5a53492f9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019feef1-7cda-74fe-acb4-1bd706ac8bed"
+  ],
+  "subjectTypeIds": [
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2c08-77b9-731a-ae11-42a5a53492f9",
+      "name": "Hoạt động khoa học và công nghệ",
+      "code": "180716381"
+    }
+  ],
+  "category": {
+    "id": "019d2c08-77b9-731a-ae11-42a5a53492f9",
+    "name": "Hoạt động khoa học và công nghệ",
+    "code": "180716381"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e919e-06bb-772b-919d-4248750a4793"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e919e-06bb-772b-919d-4248750a4793",
+      "name": "Cơ quan đại diện chủ sở hữu"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019feef1-7cda-74fe-acb4-1bd706ac8bed",
+      "name": "Văn bản trả lời người đề nghị và nêu rõ lý do trong trường hợp không phê duyệt",
+      "code": "KQ.G11.1.013283.II.14"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [
+    {
+      "id": "019fefcc-4847-718b-8969-f9638ae6a04b",
+      "name": "Đính chính Giấy chứng nhận 01",
+      "code": "1.116216.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786434482954,
+  "updatedAt": 1786434911183,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fefd1-6a91-722c-91ee-62ebfc1fb2bf",
+    "proposalNumber": "SDBCBCA/1108",
+    "decisionDate": 1785949200000,
+    "decisionNumber": null,
+    "publicationDate": 1786434911150,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

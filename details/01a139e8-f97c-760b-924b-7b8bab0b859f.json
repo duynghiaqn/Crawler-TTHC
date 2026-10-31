@@ -1,0 +1,272 @@
+{
+  "id": "01a139e8-f97c-760b-924b-7b8bab0b859f",
+  "code": "1.117118",
+  "codeNotation": "1.117118",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Tổ chức, cá nhân quản lý đội văn nghệ dân tộc gửi 01 bộ hồ sơ đề nghị hỗ trợ đến Ủy ban nhân dân xã, phường nơi thành lập đội văn nghệ. \nBước 2: Ủy ban nhân dân các xã, phường thực hiện tiếp nhận, kiểm tra hồ sơ và xử lý.\nBước 3: Trong thời hạn 08 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ủy ban nhân dân xã, phường hoàn thành việc kiểm tra hồ sơ; kiểm tra thực tế; đối chiếu tình trạng hoạt động của đội văn nghệ, địa điểm biểu diễn và trang phục, đạo cụ, nhạc cụ, thiết bị đã đầu tư với hồ sơ đăng ký nhu cầu, văn bản xác nhận đối tượng đủ điều kiện đăng ký nhu cầu thực hiện chính sách; lập Biên bản kiểm tra; đánh giá việc đáp ứng các điều kiện hỗ trợ theo quy định tại khoản 3 Điều 4 Nghị quyết số 23/2026/NQ-HĐND và Quy định về trình tự, thủ tục, hồ sơ và trách nhiệm tổ chức thực hiện chính sách hỗ trợ phát triển du lịch trên địa bàn tỉnh Tuyên Quang giai đoạn 2026 - 2030.\nBước 4: Trường hợp đủ điều kiện hỗ trợ, trong thời hạn 02 ngày làm việc kể từ ngày hoàn thành việc kiểm tra, đánh giá hồ sơ quy định Ủy ban nhân dân xã, phường ban hành Quyết định hỗ trợ, trả kết quả cho tổ chức, cá nhân và thực hiện chuyển khoản kinh phí hỗ trợ vào tài khoản do tổ chức, cá nhân cung cấp. Trường hợp không hỗ trợ, phải trả lời bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "tổ chức, cá nhân nộp hồ sơ trực tiếp đến Trung tâm Phục vụ hành chính công xã, phường",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "tổ chức, cá nhân truy cập Cổng Dịch vụ công quốc gia (http://dichvucong.gov.vn) và thực hiện đăng ký/đăng nhập tài khoản, xác thực định danh điện tử, chọn dịch vụ công, nộp hồ sơ trực tuyến theo hướng dẫn",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "tổ chức, cá nhân gửi qua dịch vụ BCCI (bưu chính công ích) đến Trung tâm Phục vụ hành chính công xã, phường",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Hỗ trợ đội văn nghệ dân tộc",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a12f8d-dca0-72a6-be54-bec26b14163a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "ĐƠN ĐỀ NGHỊ HỖ TRỢ",
+          "code": "KQ.H60.03",
+          "attachments": [
+            {
+              "id": "01a12f8d-4595-7662-b1a2-b95de7e5872e",
+              "fileName": "Mẫu số 03.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a12f8d-4595-7662-b1a2-b95de7e5872e/Mẫu số 03.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a139e6-94e1-771d-b94b-20aa741f8bda",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kết quả hoạt động của đội văn nghệ dân tộc, trong đó nêu rõ: tên đội văn nghệ; địa điểm hoạt động; địa điểm tổ chức biểu diễn thường xuyên phục vụ khách du lịch; số lượng thành viên; loại hình văn nghệ dân gian, văn hóa truyền thống đang duy trì; chương trình hoặc danh mục tiết mục văn nghệ dân tộc; kết quả tham gia biểu diễn, phục vụ khách du lịch trong 06 tháng gần nhất tính đến thời điểm đề nghị hỗ trợ; việc đáp ứng các điều kiện hỗ trợ theo quy định tại điểm b khoản 3 Điều 4 Nghị quyết số 23/2026/NQ-HĐND",
+          "code": "KQ.H60.05",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a139e6-f669-7261-b0bf-833cf7106a33",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Quyết định thành lập đội văn nghệ hoặc văn bản giao quản lý, công nhận đội văn nghệ của đơn vị chủ quản, quản lý trực tiếp như hợp tác xã, ban quản lý khu, điểm du lịch, doanh nghiệp, tổ chức kinh doanh du lịch",
+          "code": "KQ.H60.06",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a12f8e-63e6-737c-b5ba-8a251e9990be",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "VĂN BẢN CAM KẾT THỰC HIỆN CHÍNH SÁCH HỖ TRỢ",
+          "code": "KQ.H60.04",
+          "attachments": [
+            {
+              "id": "01a12f8e-5d6b-7676-a85f-10adef616ccc",
+              "fileName": "Mẫu số 04.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a12f8e-5d6b-7676-a85f-10adef616ccc/Mẫu số 04.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-bf2462610853"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a12f88-96c0-76c0-8f38-8028dbcdb020",
+    "01a12f89-e35a-740d-b5ff-5a6d692148f2"
+  ],
+  "resultIds": [
+    "01a139e8-2900-72aa-82fa-bd677900597e"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a89-70fe-8e60-d5d9ca0795ad"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-bf2462610853",
+      "name": "Du lịch",
+      "code": "G16-VH21"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-bf2462610853",
+    "name": "Du lịch",
+    "code": "G16-VH21"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a89-70fe-8e60-d5d9ca0795ad",
+      "name": "Sở Văn hóa, Thể thao và Du lịch tỉnh Tuyên Quang",
+      "code": "H60.14"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a12f88-96c0-76c0-8f38-8028dbcdb020",
+      "name": "NGHỊ QUYẾT ĐỊNH MỘT SỐ CHÍNH SÁCH HỖ TRỢ PHÁT TRIỂN DU LỊCH TRÊN ĐỊA BÀN TỈNH TUYÊN QUANG GIAI ĐOẠN 2026 - 2030",
+      "code": "23/2026/NQ-HĐND"
+    },
+    {
+      "id": "01a12f89-e35a-740d-b5ff-5a6d692148f2",
+      "name": "Quyết định Quy định trình tự, thủ tục hỗ trợ phát triển du lịch trên địa bàn tỉnh Tuyên Quang giai đoạn 2026 – 2030",
+      "code": "120/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a139e8-2900-72aa-82fa-bd677900597e",
+      "name": "Quyết định hỗ trợ cho tổ chức, cá nhân. Trường hợp không hỗ trợ, phải trả lời bằng văn bản và nêu rõ lý do",
+      "code": "KQ.H60.02"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e60-6458eb08bfe1",
+  "departmentPromulgateCode": "H60",
+  "departmentPromulgateName": "UBND tỉnh Tuyên Quang",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791973005249,
+  "updatedAt": 1791973005249,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "Sở Văn hóa, Thể thao và Du lịch tỉnh Tuyên Quang",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a13947-4512-7709-81b3-8feb163f18c5",
+    "proposalNumber": "2482/QĐ-UBND",
+    "decisionDate": 1791478800000,
+    "decisionNumber": null,
+    "publicationDate": 1791973004346,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e60-6458eb08bfe1",
+      "name": "UBND tỉnh Tuyên Quang"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "01a04bce-21fe-727a-9a4e-5d20c4772b4a",
+  "code": "1.116533",
+  "codeNotation": "1.116533",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "1.1. Người yêu cầu đăng ký nộp 01 bộ hồ sơ đến Trung tâm Phục vụ hành chính công hoặc thông qua dịch vụ bưu chính hoặc nộp trực tuyến trên Cổng dịch vụ công quốc gia.\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\n1.2. Trung tâm Phục vụ hành chính công thực hiện các công việc sau:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả; trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Ủy ban nhân dân cấp xã.\n1.3. Ủy ban nhân dân cấp xã chuyển văn bản về việc tặng cho quyền sử dụng đất kèm theo Giấy chứng nhận đã cấp đến Văn phòng đăng ký đất đai.\n1.4. Văn phòng đăng ký đất đai thực hiện:\n- Đo đạc chỉnh lý bản đồ địa chính hoặc trích đo bản đồ địa chính; chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; xác nhận thay đổi vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với trường hợp tặng cho một phần diện tích thửa đất.\nTrường hợp người sử dụng đất tặng cho toàn bộ diện tích đất đã được cấp Giấy chứng nhận thì thu hồi Giấy chứng nhận đã cấp để quản lý.\n- Gửi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đến Ủy ban nhân dân cấp xã hoặc cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nThời hạn giải quyết: Không quá 08 ngày làm việc. Đối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nThời hạn giải quyết: Không quá 08 ngày làm việc. Đối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nThời hạn giải quyết: Không quá 08 ngày làm việc. Đối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nThời hạn giải quyết: Không quá 08 ngày làm việc. Đối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nThời hạn giải quyết: Không quá 08 ngày làm việc. Đối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố.\nThời hạn giải quyết: Không quá 08 ngày làm việc. Đối với các xã vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc\nCách thức thực hiện:\n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng dịch vụ công quốc gia.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí, lệ phí (nếu có): Theo quy định của Luật phí và lệ phí và Nghị quyết Hội đồng nhân dân thành phố."
+        }
+      ]
+    }
+  ],
+  "description": "Bảo đảm các điều kiện thực hiện quyền của người sử dụng đất, chủ sở hữu tài sản theo quy định của Luật Đất đai, Luật Kinh doanh bất động sản và pháp luật khác có liên quan.",
+  "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận (TPCT)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a04bcc-7058-73d6-a862-f4be542f81a5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản tặng cho quyền sử dụng đất hoặc biên bản họp giữa đại diện thôn, ấp, làng, bản, buôn, bom, phum, sóc, tổ dân phố, điểm dân cư với người sử dụng đất về việc tặng cho quyền sử dụng đất và bản gốc Giấy chứng nhận đã cấp.",
+          "code": "SNNMT_QD4413_TTHC11_capxa_01",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04244-8427-70cd-ad01-916964c746a5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp có biên bản họp giữa Ủy ban nhân dân cấp xã với người sử dụng đất về việc tặng cho quyền sử dụng đất thì người sử dụng đất chỉ nộp bản gốc Giấy chứng nhận đã cấp cho Ủy ban nhân dân cấp xã nơi có đất.",
+          "code": "SNNMT_QD4413_TTHC14_10",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ff439-01f8-77a8-9283-f80efea13a33",
+    "019ff547-6a69-7038-a010-d5ec1e9fd252",
+    "019da523-7834-71ed-9461-2ac0a510544b",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019d2bb3-5d86-7760-a644-ce39f72a6124",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "01a040d1-bc0a-73ef-b167-197a595d77e7",
+    "01a040d3-6865-767d-819b-3095612afa68"
+  ],
+  "resultIds": [
+    "01a04174-6e6a-760e-9a3a-21c60be8753b"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a85-74ec-a339-e57aeca50e22"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a85-74ec-a339-e57aeca50e22",
+      "name": "Văn phòng Đăng ký đất đai - Thành phố Cần Thơ",
+      "code": "H13.12.3"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019ff439-01f8-77a8-9283-f80efea13a33",
+      "name": "quy định về điều tra cơ bản đất đai; đăng ký, cấp GCNQSD đất, quyền sở hữu tài sản gắn liền với đất và hệ thống thông tin đất đai",
+      "code": " 101/2024/NĐ-CP ngày 29/7/2024 "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019ff547-6a69-7038-a010-d5ec1e9fd252",
+      "name": "Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "Nghị định 118/2025/NĐ-CP "
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "01a040d1-bc0a-73ef-b167-197a595d77e7",
+      "name": "Quyết định số 54/2026/QĐ-UBND ngày 28 tháng 5 năm 2026 của Ủy ban nhân dân thành phố Cần Thơ Quy định phân cấp thẩm quyền cho Chủ tịch Ủy ban nhân dân cấp xã thực hiện một số nhiệm vụ trong lĩnh vực đất đai trên địa bàn thành phố Cần Thơ",
+      "code": "54/2026/QĐ-UBND "
+    },
+    {
+      "id": "019da523-7834-71ed-9461-2ac0a510544b",
+      "name": "sửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia",
+      "code": "367/2025/NĐ-CP"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
+      "code": "226/2025/NĐ-CP"
+    },
+    {
+      "id": "01a040d3-6865-767d-819b-3095612afa68",
+      "name": "Quyết định số 69/2026/QĐ-UBND ngày 01 tháng 7 năm 2026 của Ủy ban nhân dân thành phố Cần Thơ quy định trình tự thủ tục hành chính về đất đai trên địa bàn thành phố Cần Thơ.",
+      "code": "69/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a04174-6e6a-760e-9a3a-21c60be8753b",
+      "name": "Giấy chứng nhận",
+      "code": "H13.SNNMT_QD4413_Giấy chứng nhận"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a339-9985e7aba649",
+  "departmentPromulgateCode": "H13",
+  "departmentPromulgateName": "UBND Thành phố Cần Thơ",
+  "cases": [
+    {
+      "id": "01a04be9-e8ed-768f-a819-3487e6138086",
+      "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận (TPCT)",
+      "code": "1.116533.01",
+      "processingDay": {
+        "qty": 8,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a04be9-e90a-71b7-98ba-9a9b232b8db3",
+      "name": "Tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông đối với trường hợp thửa đất chưa được cấp Giấy chứng nhận (TPCT)",
+      "code": "1.116533.02",
+      "processingDay": {
+        "qty": 18,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1787979846580,
+  "updatedAt": 1787979846580,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Người yêu cầu đăng ký nộp 01 bộ hồ sơ đến Trung tâm Phục vụ hành chính công hoặc thông qua dịch vụ bưu chính hoặc nộp trực tuyến trên Cổng dịch vụ công quốc gia",
+  "delegatedAgencies": "Văn phòng Đăng ký đất đai - Thành phố Cần Thơ",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Bảo đảm các điều kiện thực hiện quyền của người sử dụng đất, chủ sở hữu tài sản theo quy định của Luật Đất đai, Luật Kinh doanh bất động sản và pháp luật khác có liên quan.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a042a0-5d09-7389-91d6-93dfc5a9b3f2",
+    "proposalNumber": "4413/QĐ-UBND.",
+    "decisionDate": 1787504400000,
+    "decisionNumber": null,
+    "publicationDate": 1787979844744,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a339-9985e7aba649",
+      "name": "UBND Thành phố Cần Thơ"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "id": "019d2bfd-ccf7-7600-9bdc-2f978db08931",
+  "code": "1.004266",
+  "codeNotation": "1.004266",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan báo chí có giấy phép hoạt động phát thanh, giấy phép hoạt động truyền hình có nhu cầu sản xuất thêm kênh chương trình phát thanh trong nước, kênh chương trình truyền hình trong nước gửi 01 bộ hồ sơ về Cục Phát thanh, truyền hình và thông tin điện tử.\n- Trong thời hạn 12 ngày làm việc kể từ ngày tiếp nhận chính thức, Cục Phát thanh, truyền hình và thông tin điện tử cấp giấy phép sản xuất kênh chương trình phát thanh trong nước, giấy phép sản xuất kênh chương trình truyền hình trong nước theo Mẫu số 10 tại Phụ lục IV ban hành kèm theo Thông tư số 20/2026/TT-BVHTTDL. Trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Kể từ ngày tiếp nhận chính thức hồ sơ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Kể từ ngày tiếp nhận chính thức hồ sơ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Kể từ ngày tiếp nhận chính thức hồ sơ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Thủ tục cấp giấy phép sản xuất kênh chương trình phát thanh trong nước, giấy phép sản xuất kênh chương trình truyền hình trong nước",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019e80f8-392d-7196-be44-1a0bb6cd53c0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đề án đề nghị cấp giấy phép sản xuất kênh chương trình phát thanh trong nước, giấy phép sản xuất kênh chương trình truyền hình trong nước theo Mẫu số 02 tại Phụ lục II ban hành kèm theo Thông tư số 20/2026/TT-BVHTTDL ngày 30/6/2026.",
+          "code": "000.00.00.G16-KQ0186618",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fd65c-e6f5-7429-8546-61341e37ab9e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của cơ quan báo chí do người đứng đầu hoặc người được ủy quyền hợp pháp theo quy định của pháp luật ký",
+          "code": "G16-TPHS.PTTH.2026.11",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f8253-7b83-74a8-9b67-48f73b229c01",
+    "019fd639-9da8-7316-9e3f-fff6b5bea0dc"
+  ],
+  "resultIds": [
+    "019e80f9-59d0-70e9-8747-0c7d2de31c06"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-98005c923f40"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66d-0e988ad98b55"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+      "name": "Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14-TT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+    "name": "Phát thanh, truyền hình và thông tin điện tử",
+    "code": "G14-TT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-98005c923f40",
+      "name": "Cục Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14.21"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch",
+      "code": "G16"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fd639-9da8-7316-9e3f-fff6b5bea0dc",
+      "name": "Thông tư quy định chi tiết hồ sơ, thủ tục cấp, sửa đổi, bổ sung giấy phép hoạt động báo chí; điều kiện, hồ sơ, thủ tục cấp giấy phép xuất bản bản tin, xuất bản đặc san; lưu chiểu bản tin, đặc san.",
+      "code": "20/2026/TT-BVHTTDL "
+    },
+    {
+      "id": "019f8253-7b83-74a8-9b67-48f73b229c01",
+      "name": "Luật Báo chí 2025",
+      "code": "126/2025/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019e80f9-59d0-70e9-8747-0c7d2de31c06",
+      "name": "Giấy phép sản xuất kênh chương trình phát thanh trong nước, giấy phép sản xuất kênh chương trình truyền hình trong nước",
+      "code": "G16-KQ00661820"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "019d2cd7-dd87-768a-b81f-46ce5395fbf3",
+      "name": "Cấp Giấy phép sản xuất kênh chương trình trong nước",
+      "code": "1.004266.01",
+      "processingDay": {
+        "qty": 24,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fd680-e63a-74b8-a891-7bb57adb9898",
+      "name": "Thủ tục cấp giấy phép sản xuất kênh chương trình phát thanh trong nước, giấy phép sản xuất kênh chương trình truyền hình trong nước",
+      "code": "1.004266.01",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559546615,
+  "updatedAt": 1786010199258,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Phát thanh, truyền hình và thông tin điện tử",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Văn hóa, Thể thao và Du lịch",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fd605-f4a1-76ba-9746-fa5b85971e2f",
+    "proposalNumber": "2044/QĐ-BVHTTDL",
+    "decisionDate": 1785862800000,
+    "decisionNumber": null,
+    "publicationDate": 1786010198781,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

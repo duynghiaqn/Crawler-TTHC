@@ -1,0 +1,223 @@
+{
+  "id": "01a0f0cd-08dc-767b-afe5-2426506a3b92",
+  "code": "3.000735",
+  "codeNotation": "3.000735",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân gửi một (01) bộ hồ sơ đề nghị cấp sửa đổi, bổ sung Giấy chứng nhận đủ điều kiện kinh doanh xuất khẩu gạo về Bộ Công Thương.\nb) Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Công Thương xem xét cấp sửa đổi, bổ sung Giấy chứng nhận đủ điều kiện kinh doanh xuất khẩu gạo.\nc) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Bộ Công Thương trả lời thương nhân bằng văn bản và nêu rõ lý do để thương nhân bổ sung, hoàn thiện. Thời gian kể từ khi yêu cầu bổ sung, hoàn thiện cho đến khi nhận được thông tin bổ sung hợp lệ không tính vào thời gian thẩm định hồ sơ.\nd) Trường hợp phải xác minh các giấy tờ, tài liệu liên quan trong hồ sơ đề nghị cấp Giấy chứng nhận, thời gian xử lý hồ sơ tính từ thời điểm cơ quan cấp phép nhận được văn bản trả lời của các cơ quan liên quan đối với việc xác minh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Thủ tục cấp sửa đổi, bổ sung Giấy chứng nhận đủ điều kiện kinh doanh xuất khẩu gạo",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f0c9-cdcb-7460-950b-dc6aec67c429",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị theo Mẫu số 03 ban hành tại Phụ lục kèm theo Nghị định số 365/2026/NĐ-CP ngày 23 tháng 9 năm 2026",
+          "code": "HSG-01",
+          "attachments": [
+            {
+              "id": "01a0f0cb-3d0c-714d-bf95-fb548dae5d87",
+              "fileName": "Mẫu số 03.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0f0cb-3d0c-714d-bf95-fb548dae5d87/Mẫu số 03.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0f0ca-3e2c-76e8-81b4-8e28f3a11dc3",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu liên quan đến sự thay đổi nội dung Giấy chứng nhận",
+          "code": "HSG-02",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0f0cc-9049-775c-a289-e4ee282fd2a9"
+  ],
+  "resultIds": [
+    "01a0f0ca-affa-710e-b429-efe58ed34b3d"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b16ccb65a5c0"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương",
+      "code": "G02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0f0cc-9049-775c-a289-e4ee282fd2a9",
+      "name": "Nghị định số 365/2026/NĐ-CP ngày 23 tháng 9 năm 2026 của Chính phủ về kinh doanh xuất, nhập khẩu gạo.",
+      "code": "365/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f0ca-affa-710e-b429-efe58ed34b3d",
+      "name": "Giấy chứng nhận đủ điều kiện kinh doanh xuất khẩu gạo",
+      "code": "KQG-01"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790752622398,
+  "updatedAt": 1790752622398,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công thương",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0f0c4-37ee-73c3-9e97-c422ad3de799",
+    "proposalNumber": "2421/QĐ-BCT",
+    "decisionDate": 1790269200000,
+    "decisionNumber": null,
+    "publicationDate": 1790752622330,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

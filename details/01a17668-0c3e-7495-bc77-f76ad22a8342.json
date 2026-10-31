@@ -1,0 +1,212 @@
+{
+  "id": "01a17668-0c3e-7495-bc77-f76ad22a8342",
+  "code": "5.003961",
+  "codeNotation": "5.003961",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Ủy ban nhân dân cấp tỉnh lập hồ sơ đề nghị khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ (được xác định theo quy định tại khoản 1 Điều 27 Luật Địa chất và khoáng sản) gửi về Bộ Công Thương (địa chỉ tại số 23 Ngô Quyền, phường Cửa Nam, thành phố Hà Nội).\n- Bước 2: Trong thời hạn 24 ngày làm việc, kể từ ngày nhận được hồ sơ của Ủy ban nhân dân cấp tỉnh, Bộ Công Thương tổ chức thẩm định các nội dung có liên quan đến việc chồng lấn với quy hoạch khoáng sản, phương án quản lý về địa chất, khoáng sản, khu vực dự trữ khoáng sản quốc gia, mức độ nghiên cứu, độ tin cậy của tài liệu địa chất, đặc điểm phân bố khoáng sản, quy mô trữ lượng, tài nguyên khoáng sản và các vấn đề khác có liên quan.\n- Bước 3: Trong thời hạn 08 ngày làm việc, kể từ ngày hoàn thành nội dung quy định tại Bước 2 nêu trên, Bộ trưởng Bộ Công Thương xem xét, ban hành quyết định phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ. Trường hợp không ban hành quyết định, Bộ Công Thương có văn bản thông báo đến Ủy ban nhân dân cấp tỉnh và nêu rõ lý do.\nĐối với những khu vực đã được điều tra cơ bản địa chất, điều tra địa chất về khoáng sản nhưng chưa có số liệu về tài nguyên dự tính (cấp 333), Bộ Công Thương quyết định việc đánh giá tiềm năng khoáng sản hoặc không đánh giá tiềm năng khoáng sản trước khi khoanh định, công bố khu vực có khoáng sản phân tán, nhỏ lẻ.\n- Bước 4: Kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ đã khoanh định được công bố trên cổng thông tin điện tử của Bộ Công Thương, cổng thông tin điện tử, trang thông tin điện tử của địa phương nơi khoanh định khu vực có khoáng sản phân tán nhỏ lẻ."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 32,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Khoanh định, công bố khu vực có khoáng sản phân tán, nhỏ lẻ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1765c-96ca-7212-8940-da72b447f691",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Văn bản đề nghị khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ, trong đó nêu rõ các thông tin: Địa danh hành chính, tọa độ, diện tích; loại khoáng sản; đặc điểm phân bố khoáng sản và quy mô tài nguyên, trữ lượng của khoáng sản",
+          "code": "G02.09.2784",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1765c-ef91-710b-8673-fd917defd2c8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Bản đồ khu vực đề nghị khoanh định khu vực có khoáng sản phân tán nhỏ lẻ được lập ở tỷ lệ 1:10.000, 1:5.000",
+          "code": "G02.10.2784",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1765d-6256-7585-b0ee-16fec2621fb0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Các văn bản liên quan đến khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản",
+          "code": "G02.11.2784",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a1763c-11ec-71a3-9e2c-466ab282f125"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b673-7f8ef38db354",
+    "019d2bb3-5d85-73da-8eb8-298b0b3e5261",
+    "019d2bb3-5d86-7760-a643-57895d9499c0",
+    "019d2bb3-5d84-71c5-b677-ebdeb83adab1",
+    "01a0d169-8318-727d-8919-9f1d8430cc63"
+  ],
+  "resultIds": [
+    "01a1765d-bd9b-7308-b7ea-e8de02b7a55e"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b16ccb65a5c0"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1763c-11ec-71a3-9e2c-466ab282f125",
+      "name": "Địa chất và khoáng sản",
+      "code": "LV-01011"
+    }
+  ],
+  "category": {
+    "id": "01a1763c-11ec-71a3-9e2c-466ab282f125",
+    "name": "Địa chất và khoáng sản",
+    "code": "LV-01011"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương",
+      "code": "G02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b677-ebdeb83adab1",
+      "name": "Nghị định số 21/2026/NĐ-CP ngày 16/01/2026 của Chính phủ",
+      "code": "21/2026/NĐ-CP"
+    },
+    {
+      "id": "01a0d169-8318-727d-8919-9f1d8430cc63",
+      "name": "Về xử lý khó khăn, vướng mắc liên quan đến chức năng, nhiệm vụ, quyền hạn quản lý nhà nước về khu công nghiệp, địa chất, khoáng sản",
+      "code": "66.25/2026/NQ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-7f8ef38db354",
+      "name": "Luật Địa chất và Khoáng sản",
+      "code": "54/2024/QH15"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eb8-298b0b3e5261",
+      "name": "Luật Địa chất và khoáng sản sửa đổi 2025",
+      "code": "147/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a643-57895d9499c0",
+      "name": "193/2025/NĐ-CP",
+      "code": "193/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1765d-bd9b-7308-b7ea-e8de02b7a55e",
+      "name": "Quyết định phê duyệt kết quả khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ của Bộ trưởng Bộ Công Thương hoặc văn bản thông báo của Bộ Công Thương nêu rõ lý do đối với trường hợp không ban hành quyết định.",
+      "code": "KQ.G02.000805"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1793004483864,
+  "updatedAt": 1793004483864,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công thương",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1763d-4573-76ba-a1db-d605d76fb647",
+    "proposalNumber": "2784/QĐ-BCT",
+    "decisionDate": 1792688400000,
+    "decisionNumber": null,
+    "publicationDate": 1793004483766,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

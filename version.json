@@ -1,0 +1,29 @@
+{
+  "last_updated": "2026-10-31T20:10:30.282Z",
+  "total_records": 6884,
+  "administrative_records": 6493,
+  "internal_records": 391,
+  "completed_records": 6884,
+  "failed_records": 0,
+  "circuit_breaker_status": "IN_PROGRESS",
+  "compare_summary": {
+    "previous_total": 6765,
+    "current_total": 6884,
+    "net_change": 119,
+    "added_count": 141,
+    "removed_count": 22,
+    "modified_count": 9,
+    "administrative": {
+      "current_total": 6493,
+      "added_count": 62,
+      "removed_count": 22,
+      "modified_count": 9
+    },
+    "internal": {
+      "current_total": 391,
+      "added_count": 79,
+      "removed_count": 0,
+      "modified_count": 0
+    }
+  }
+}

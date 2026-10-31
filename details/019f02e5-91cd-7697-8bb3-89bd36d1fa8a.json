@@ -1,0 +1,410 @@
+{
+  "id": "019f02e5-91cd-7697-8bb3-89bd36d1fa8a",
+  "code": "1.115436",
+  "codeNotation": "1.115436",
+  "executionSteps": [
+    {
+      "name": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công.",
+      "description": "Khi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định."
+    },
+    {
+      "name": "Bước 2: Sở Nông nghiệp và Môi trường thực hiện:",
+      "description": "- Thông báo cho Văn phòng đăng ký đất đai chuyển hồ sơ cấp Giấy chứng nhận lần đầu đến cơ quan có chức năng quản lý đất đai cấp tỉnh.\n- Kiểm tra hồ sơ, lập biên bản kết luận về nội dung và nguyên nhân sai sót.\n- Xác nhận nội dung đính chính trên Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai để chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; gửi Giấy chứng nhận đã đính chính đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 08 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Tổ chức (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-GCN chỉ có quyền sử dụng đất (không có nhà và tài sản khác gắn liền với đất)-Tổ chức (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 08 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Tổ chức (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-GCN chỉ có quyền sử dụng đất (không có nhà và tài sản khác gắn liền với đất)-Tổ chức (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "không quá 08 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "nộp Trực tuyến miễn Lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Tổ chức (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-GCN chỉ có quyền sử dụng đất (không có nhà và tài sản khác gắn liền với đất)-Tổ chức (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-Cấp GCN quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất-Tổ chức (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào GCN-GCN chỉ có quyền sử dụng đất (không có nhà và tài sản khác gắn liền với đất)-Tổ chức (II.4.2)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "nộp Trực tuyến miễn Lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định.",
+  "name": "Đính chính Giấy chứng nhận đã cấp (Trường hợp Giấy chứng nhận cấp lần đầu có sai sót)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa28b-d585-75f9-ac7d-0f4e14b205ea",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mẫu số 18. Đơn đăng ký biến động đất đai, tài sản gắn liền với đất",
+          "code": "TP-H05.000026",
+          "attachments": [
+            {
+              "id": "019fa28b-cd30-73c2-bf4a-d8732baaaca2",
+              "fileName": "18. Mẫu số 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa28b-cd30-73c2-bf4a-d8732baaaca2/18. Mẫu số 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa64d-00fd-72df-96a6-08f51bddcd17",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp.",
+          "code": "TP-H05.000165.S",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa64e-1629-7217-94d4-77ece4049a7c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ chứng minh sai sót thông tin của người được cấp Giấy chứng nhận so với thông tin tại thời điểm đề nghị đính chính hoặc sai sót thông tin về thửa đất, tài sản gắn liền với đất so với thông tin trên Giấy chứng nhận đã cấp.",
+          "code": "TP-H05.000175.S",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa640-e828-774b-8ade-d4a0f3c07766",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc ủy quyền theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục thông qua người đại diện.",
+          "code": "TP-H05.000115.S",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fa1d6-da94-7799-b6dd-b340d2f8fc51",
+    "019fa1e8-86a6-71df-9b88-c4f1e3d6e389",
+    "019fb646-12d3-7739-8d2b-990e6db53392"
+  ],
+  "resultIds": [
+    "019f94d6-7bc3-7451-b663-452e93f16d57"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3f0-d370a2e0c928"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3f0-d370a2e0c928"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a84-779d-b3f1-c79233d97192",
+    "019e4d63-7e81-76ee-98fb-0fa853b79176"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3f0-d370a2e0c928",
+      "name": "Sở Nông nghiệp và Môi trường tỉnh Bắc Ninh",
+      "code": "H05.34"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3f0-d370a2e0c928",
+      "name": "Sở Nông nghiệp và Môi trường tỉnh Bắc Ninh",
+      "code": "H05.34"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a84-779d-b3f1-c79233d97192",
+      "name": "Văn phòng đăng ký đất đai Bắc Ninh",
+      "code": "H05.34.44"
+    },
+    {
+      "id": "019e4d63-7e81-76ee-98fb-0fa853b79176",
+      "name": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+      "code": "CQCM-NNMT-CAPXA"
+    }
+  ],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fa1d6-da94-7799-b6dd-b340d2f8fc51",
+      "name": "Quyết định số 33/2026/QĐ-UBND Ban hành Quy định về trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Bắc Ninh",
+      "code": "33/2026/QĐ-UBND"
+    },
+    {
+      "id": "019fb646-12d3-7739-8d2b-990e6db53392",
+      "name": "Quyết định số 52/2026/QĐ-UBND ngày 09/7/2026 của UBND tỉnh Bắc Ninh Sửa đổi, bổ sung một số nội dung của Quyết định số 33/2026/QĐ-UBND ngày 19 tháng 5 năm 2026 Ban hành Quy định về trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Bắc Ninh.",
+      "code": "52/2026/QĐ-UBND "
+    },
+    {
+      "id": "019fa1e8-86a6-71df-9b88-c4f1e3d6e389",
+      "name": "Nghị quyết số 86/2025/NQ-HĐND Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng một số loại phí và lệ phí trên địa bàn tỉnh Bắc Ninh",
+      "code": "86/2025/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f94d6-7bc3-7451-b663-452e93f16d57",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H05.000107"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND tỉnh Bắc Ninh",
+  "cases": [
+    {
+      "id": "019f4a32-e29e-767f-89a4-7f02689074eb",
+      "name": "Đính chính Giấy chứng nhận đã cấp (Trường hợp Giấy chứng nhận cấp lần đầu có sai sót)",
+      "code": "1.115436.01",
+      "processingDay": {
+        "qty": 8,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fbcb6-f77f-70cb-a7c4-2d0853f0ddcc",
+      "name": "Đính chính Giấy chứng nhận đã cấp (Trường hợp Giấy chứng nhận cấp lần đầu có sai sót)",
+      "code": "1.115436.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1782460027340,
+  "updatedAt": 1785577523658,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Nông nghiệp và Môi trường tỉnh Bắc Ninh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "+ Trung tâm Phục vụ hành chính công tỉnh địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả giải quyết TTHC phường Kinh Bắc; số 31 đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh.\n+ Trung tâm Phục vụ hành chính công cấp xã.",
+  "delegatedAgencies": "Sở Nông nghiệp và Môi trường tỉnh Bắc Ninh",
+  "coordinatingAgencies": "Văn phòng đăng ký đất đai Bắc Ninh, Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+  "requirementsAndConditions": "Không quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fad62-76ca-769e-9d81-657d4c0769a1",
+    "proposalNumber": "1922/QĐ-UBND",
+    "decisionDate": 1783875600000,
+    "decisionNumber": null,
+    "publicationDate": 1785577523284,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND tỉnh Bắc Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

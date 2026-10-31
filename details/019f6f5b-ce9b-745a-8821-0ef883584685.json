@@ -1,0 +1,354 @@
+{
+  "id": "019f6f5b-ce9b-745a-8821-0ef883584685",
+  "code": "1.115877",
+  "codeNotation": "1.115877",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Tổ chức kinh tế nộp hồ sơ đến Bộ phận Một cửa (Trung tâm phục vụ hành chính công tỉnh, Trung tâm phục vụ hành chính công cấp xã).\nKhi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực. \n- Trung tâm Phục vụ hành chính công tiếp nhận, chuyển hồ sơ đến Sở Nông nghiệp và Môi trường.\nBước 2: Sở Nông nghiệp và Môi trường thực hiện:\n- Rà soát, kiểm tra hồ sơ; hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ đối với trường hợp hồ sơ không đầy đủ, không hợp lệ;\n- Kiểm tra thực địa (nếu cần thiết);\n- Chủ trì, phối hợp với các cơ quan liên quan thẩm định hồ sơ;\n- Ban hành Tờ trình Ủy ban nhân dân tỉnh xem xét, ban hành văn bản cho phép Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư.\nBước 3: Ủy ban nhân dân tỉnh xem xét ban hành văn bản cho phép Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư.\n Bước 4: Căn cứ văn bản chấp thuận của Ủy ban nhân dân tỉnh, Tổ chức kinh tế thực hiện việc nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư.\nTrường hợp chuyển mục đích sử dụng đất để thực hiện dự án đầu tư thì trình tự, thủ tục thực hiện theo trình tự chuyển mục đích sử dụng đất."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 23,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 23 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất và và lệ phí cấp giấy chứng nhận quyền sử dụng đất do Hội đồng nhân dân tỉnh quy định."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 33,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 33 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 23,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 23 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất và và lệ phí cấp giấy chứng nhận quyền sử dụng đất do Hội đồng nhân dân tỉnh quy định."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 23,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 23 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất và và lệ phí cấp giấy chứng nhận quyền sử dụng đất do Hội đồng nhân dân tỉnh quy định."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 33,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 33 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 33,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 33 ngày làm việc",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6df8-1747-7148-96e3-06ba9ff7a95a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo Mẫu số 21 ban hành kèm theo Quyết định 37/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh Cao Bằng",
+          "code": "TP-H14.31",
+          "attachments": [
+            {
+              "id": "019f6df8-10df-70c9-85d0-f54a59171136",
+              "fileName": "Mẫu số 21 Mẫu số 21. Văn bản đề nghị chấp thuận cho tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6df8-10df-70c9-85d0-f54a59171136/Mẫu số 21 Mẫu số 21. Văn bản đề nghị chấp thuận cho tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6a23-4e82-777b-99f8-872eb5a95382",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính",
+          "code": "TP-H14.2",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d85-73da-8eb8-298b0b3e5261",
+    "019d2bb3-5d85-73da-8eb8-4849db22ed36",
+    "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
+    "019d2bb3-5d87-7195-a446-50796660596e",
+    "019d2bb3-5d87-7195-a447-f9a5abcd2f43",
+    "019daef1-961d-7369-bdb6-2fa1ba4349a0",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019f6a4a-0f53-70dd-90f4-7f8e48fb65d9"
+  ],
+  "resultIds": [
+    "019f6dfe-58eb-74dd-a3db-795962d03d0b"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6ada-753f-9ac8-5b801c9771db"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-5b801c9771db",
+      "name": "Các cơ quan, tổ chức liên quan",
+      "code": "CQLQ"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019d8a38-d4a7-713d-9573-1e39f9f5c04f"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+      "name": "Sở Nông nghiệp và Môi trường"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d85-73da-8eb8-298b0b3e5261",
+      "name": "Luật Địa chất và khoáng sản sửa đổi 2025",
+      "code": "147/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
+      "name": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo",
+      "code": "93/2025/QH15"
+    },
+    {
+      "id": "019daef1-961d-7369-bdb6-2fa1ba4349a0",
+      "name": "Luật số 71/2025/QH15 của Quốc hội: Luật Công nghiệp công nghệ số",
+      "code": "Luật số 71/2025/QH15"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eb8-4849db22ed36",
+      "name": "Luật số 95/2025/QH15 của Quốc hội: Luật Đường sắt",
+      "code": "95/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a446-50796660596e",
+      "name": "Luật Thanh tra năm 2025",
+      "code": "84/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a447-f9a5abcd2f43",
+      "name": "Luật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường",
+      "code": "Luật số 146/2025/QH15"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019f6a4a-0f53-70dd-90f4-7f8e48fb65d9",
+      "name": "Quyết định Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Cao Bằng",
+      "code": "37/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f6dfe-58eb-74dd-a3db-795962d03d0b",
+      "name": "Văn bản chấp thuận thỏa thuận về nhận quyền sử dụng đất của Ủy ban nhân dân tỉnh để thực hiện dự án đầu tư",
+      "code": "KQ-H14.8"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33b-e8250c0580ce",
+  "departmentPromulgateCode": "H14",
+  "departmentPromulgateName": "UBND tỉnh Cao Bằng",
+  "cases": [
+    {
+      "id": "019f7d7d-8d02-758a-a54b-b85166608162",
+      "name": "Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư (Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư)",
+      "code": "1.115877.02",
+      "processingDay": {
+        "qty": 33,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f7d7d-8cda-7209-b2a8-15647812a0ed",
+      "name": "Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư",
+      "code": "1.115877.01",
+      "processingDay": {
+        "qty": 23,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1784474333244,
+  "updatedAt": 1784474333244,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "Các cơ quan, tổ chức liên quan",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f6a37-6263-74d9-904e-f9cb8c5dae81",
+    "proposalNumber": "1389/QĐ-UBND",
+    "decisionDate": 1784048400000,
+    "decisionNumber": null,
+    "publicationDate": 1784474331547,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33b-e8250c0580ce",
+      "name": "UBND tỉnh Cao Bằng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "ONLINE",
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

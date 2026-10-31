@@ -1,0 +1,226 @@
+{
+  "id": "01a01d5c-5745-7589-a5ee-c45cbaaf7b29",
+  "code": "3.000720",
+  "codeNotation": "3.000720",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Nộp hồ sơ\n- Cơ sở hỏa táng lập 01 (một) bộ hồ sơ; \n- Cơ sở hỏa táng nộp hồ sơ về Sở Xây dựng thông qua một trong các hình thức sau: nộp trực tiếp tại Trung tâm Phục vụ hành chính công thành phố hoặc nộp trực tuyến thông qua Cổng Dịch vụ công quốc gia theo quy định của pháp luật.\nBước 2. Xử lý hồ sơ\n- Trong thời hạn 01 ngày làm việc kể từ ngày nhận hồ sơ, trường hợp hồ sơ chưa đầy đủ hoặc chưa hợp lệ thì Sở Xây dựng thông báo một lần bằng văn bản hoặc thông qua Hệ thống thông tin giải quyết thủ tục hành chính và nêu rõ nội dung cần bổ sung, hoàn thiện;\n- Trong thời hạn 06 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Xây dựng ban hành quyết định hỗ trợ; trường hợp không đủ điều kiện giải quyết thì có văn bản hoặc thông báo điện tử nêu rõ lý do.\nBước 3. Trả kết quả\nQuyết định hỗ trợ được trả cho cơ sở hỏa táng theo quy định về thực hiện cơ chế một cửa. Căn cứ quyết định hỗ trợ của Sở Xây dựng, Ban Nghĩa trang thành phố thực hiện chi trả kinh phí hỗ trợ cho cơ sở hỏa táng theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "06 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "06 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "06 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định",
+      "fees": []
+    }
+  ],
+  "description": "Việc hỏa táng được thực hiện tại cơ sở hỏa táng trên địa bàn thành phố Đà Nẵng đối với đối tượng quy định tại điểm a, điểm b khoản 1 Điều 2 của Nghị quyết số 75/2026/NQ-HĐND",
+  "name": "Hỗ trợ chi phí hỏa táng cho cơ sở hỏa táng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a01d5b-3d7a-77a9-ab77-cebf4c595c06",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trích lục khai tử hoặc giấy tờ chứng minh đối tượng thuộc diện được hỗ trợ theo quy định tại điểm a, điểm b khoản 1 Điều 2 của Nghị quyết số 75/2026/NQ-HĐND",
+          "code": "TP-H17.000492",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a01d5c-0283-739c-9ee4-639d77e93e0c",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hợp đồng dịch vụ hỏa táng; biên bản giao nhận hũ đựng tro cốt.",
+          "code": "TP-H17.000493",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-fb3a527ced6d"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a01d5a-628b-708d-8fbf-b2ba18ed2b68"
+  ],
+  "resultIds": [
+    "01a01d57-ae86-7028-b56a-88672685a873"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a33f-71d0418cfa8f"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a85-74ec-a33f-83b21988acdd"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-fb3a527ced6d",
+      "name": "Hạ tầng kỹ thuật",
+      "code": "G17-XD02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-fb3a527ced6d",
+    "name": "Hạ tầng kỹ thuật",
+    "code": "G17-XD02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a33f-71d0418cfa8f",
+      "name": "Sở Xây dựng TP.Đà Nẵng",
+      "code": "H17.18"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a85-74ec-a33f-83b21988acdd",
+      "name": "Ban Nghĩa trang TP.Đà Nẵng",
+      "code": "H17.18.09"
+    }
+  ],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a01d5a-628b-708d-8fbf-b2ba18ed2b68",
+      "name": "Quy định về chính sách hỗ trợ chi phí hỏa táng trên địa bàn thành phố Đà Nẵng",
+      "code": "75/2026/NQ-HĐND (thành phố Đà Nẵng)"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a01d57-ae86-7028-b56a-88672685a873",
+      "name": "Quyết định hỗ trợ chi phí hỏa táng cho cơ sở hỏa táng của Sở Xây dựng thành phố Đà Nẵng",
+      "code": "KQ.H17.000301"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33d-803cf2496575",
+  "departmentPromulgateCode": "H17",
+  "departmentPromulgateName": "UBND Thành phố Đà Nẵng",
+  "cases": [
+    {
+      "id": "01a028d0-0dbd-75d8-9708-1130090c3769",
+      "name": "Hỗ trợ chi phí hỏa táng cho cơ sở hỏa táng",
+      "code": "3.000720.01",
+      "processingDay": {
+        "qty": 6,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1787391049438,
+  "updatedAt": 1787391049438,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Xây dựng TP.Đà Nẵng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công thành phố Đà Nẵng",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "Ban Nghĩa trang TP.Đà Nẵng",
+  "requirementsAndConditions": "Việc hỏa táng được thực hiện tại cơ sở hỏa táng trên địa bàn thành phố Đà Nẵng đối với đối tượng quy định tại điểm a, điểm b khoản 1 Điều 2 của Nghị quyết số 75/2026/NQ-HĐND",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a01d52-b941-70fc-bc49-8fe1003681cd",
+    "proposalNumber": "3745/QĐ-UBND",
+    "decisionDate": 1787158800000,
+    "decisionNumber": null,
+    "publicationDate": 1787391049396,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33d-803cf2496575",
+      "name": "UBND Thành phố Đà Nẵng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

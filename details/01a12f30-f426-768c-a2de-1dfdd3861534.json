@@ -1,0 +1,200 @@
+{
+  "id": "01a12f30-f426-768c-a2de-1dfdd3861534",
+  "code": "6.006782",
+  "codeNotation": "6.006782",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Sở Công Thương rà soát, tổng hợp và gửi văn bản đề nghị\nSở Công Thương rà soát, hướng dẫn và tổng hợp danh sách các doanh nghiệp trên địa bàn quản lý, trừ các doanh nghiệp là thành viên của Tập đoàn, Tổng công ty ngành Công Thương thuộc trường hợp quy định tại điểm b khoản 1 Điều 4 Thông tư số 42/2020/TT-BCT.\nTrên cơ sở danh sách đã tổng hợp, Sở Công Thương lập văn bản đề nghị chấm dứt tài khoản truy cập cơ sở dữ liệu môi trường ngành Công Thương theo Mẫu số 02 tại Phụ lục II ban hành kèm theo Thông tư số 42/2020/TT-BCT, được sửa đổi, bổ sung bởi Thông tư số 49/2026/TT-BCT, gửi Cục Kỹ thuật an toàn và Môi trường công nghiệp.\nBước 2. Cục Kỹ thuật an toàn và Môi trường công nghiệp tiếp nhận, giải quyết\nCục Kỹ thuật an toàn và Môi trường công nghiệp tiếp nhận văn bản đề nghị của Sở Công Thương; thực hiện chấm dứt tài khoản truy cập cơ sở dữ liệu môi trường ngành Công Thương trong thời gian không quá 07 ngày làm việc kể từ ngày nhận được văn bản đề nghị.\nBước 3. Thông báo kết quả giải quyết\nCục Kỹ thuật an toàn và Môi trường công nghiệp thông báo kết quả chấm dứt tài khoản truy cập cơ sở dữ liệu môi trường ngành Công Thương cho Sở Công Thương."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 07 ngày làm việc kể từ ngày Cục Kỹ thuật an toàn và Môi trường công nghiệp nhận được văn bản đề nghị chấm dứt tài khoản truy cập của Sở Công Thương.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 07 ngày làm việc kể từ ngày Cục Kỹ thuật an toàn và Môi trường công nghiệp nhận được văn bản đề nghị chấm dứt tài khoản truy cập của Sở Công Thương.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 07 ngày làm việc kể từ ngày Cục Kỹ thuật an toàn và Môi trường công nghiệp nhận được văn bản đề nghị chấm dứt tài khoản truy cập của Sở Công Thương.",
+      "fees": []
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Chấm dứt tài khoản truy cập cơ sở dữ liệu môi trường ngành Công Thương",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a12f2c-9589-74c4-9384-ae0c8038f9dd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị chấm dứt tài khoản truy cập của Sở Công Thương theo Mẫu số 02 tại Phụ lục II ban hành kèm theo Thông tư số 42/2020/TT-BCT, được sửa đổi, bổ sung bởi Thông tư số 49/2026/TT-BCT, kèm theo danh sách các doanh nghiệp thuộc phạm vi quản lý.",
+          "code": "GS.02.01.2585",
+          "attachments": [
+            {
+              "id": "01a12f2d-248f-75ae-a770-79b9556ccee9",
+              "fileName": "Mẫu 02.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a12f2d-248f-75ae-a770-79b9556ccee9/Mẫu 02.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a12f1a-b5b4-71fc-9031-8332656ef536"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a12f2e-f599-7679-ae4c-1e0c0f0889f0",
+    "01a12f30-c5eb-75ee-87a3-52a8eac660c4"
+  ],
+  "resultIds": [
+    "01a12f2d-e178-7288-9073-9b0785304166"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b16ccb65a5c0"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a12f1a-b5b4-71fc-9031-8332656ef536",
+      "name": "Bảo vệ môi trường ngành Công Thương",
+      "code": "G.02.2585"
+    }
+  ],
+  "category": {
+    "id": "01a12f1a-b5b4-71fc-9031-8332656ef536",
+    "name": "Bảo vệ môi trường ngành Công Thương",
+    "code": "G.02.2585"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương",
+      "code": "G02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a12f30-c5eb-75ee-87a3-52a8eac660c4",
+      "name": "Thông tư số 49/2026/TT-BCT ngày 12 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương sửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực bảo vệ môi trường ngành Công Thương",
+      "code": "49/2026/TT-BCT "
+    },
+    {
+      "id": "01a12f2e-f599-7679-ae4c-1e0c0f0889f0",
+      "name": "Thông tư số 42/2020/TT-BCT ngày 30 tháng 11 năm 2020 của Bộ trưởng Bộ Công Thương quy định việc khai báo, quản lý và sử dụng cơ sở dữ liệu môi trường ngành Công Thương",
+      "code": "42/2020/TT-BCT "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a12f2d-e178-7288-9073-9b0785304166",
+      "name": "Thông báo kết quả chấm dứt tài khoản truy cập cơ sở dữ liệu môi trường ngành Công Thương của Cục Kỹ thuật an toàn và Môi trường công nghiệp gửi Sở Công Thương.",
+      "code": "KQ.G.02.01.2585"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791795148469,
+  "updatedAt": 1791795148469,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công thương",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a12f1c-0ea5-71cd-bef6-500548b5e1fc",
+    "proposalNumber": "2585/QĐ-BCT",
+    "decisionDate": 1791392400000,
+    "decisionNumber": null,
+    "publicationDate": 1791795148408,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

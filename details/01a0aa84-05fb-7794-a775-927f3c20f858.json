@@ -1,0 +1,464 @@
+{
+  "id": "01a0aa84-05fb-7794-a775-927f3c20f858",
+  "code": "1.116702",
+  "codeNotation": "1.116702",
+  "executionSteps": [
+    {
+      "name": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công .",
+      "description": "Khi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ các giấy tờ là quyết định phê duyệt hoặc quyết định phê duyệt điều chỉnh quy hoạch xây dựng chi tiết, bản đồ điều chỉnh quy hoạch xây dựng chi tiết."
+    },
+    {
+      "name": "Bước 2: Cơ quan tiếp nhận hồ sơ thực hiện:",
+      "description": "- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ chuyển như sau:\n+ Tổ chức trong nước, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc, tổ chức nước ngoài có chức năng ngoại giao, tổ chức kinh tế có vốn đầu tư nước ngoài; tổ chức nước ngoài, cá nhân nước ngoài chuyển đến Văn phòng Đăng ký đất đai tỉnh. \n+ Cá nhân, cộng đồng dân cư, người gốc Việt Nam định cư ở nước ngoài chuyển đến Chi nhánh Văn phòng Đăng ký đất đai nơi có đất."
+    },
+    {
+      "name": "Bước 3: Văn phòng Đăng ký đất đai thực hiện:",
+      "description": "- Kiểm tra tính đầy đủ của thành phần hồ sơ.\n- Trong thời gian không quá 03 ngày làm việc, thông báo cho chủ đầu tư cung cấp các giấy tờ theo quy định đối với trường hợp người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng trực tiếp thực hiện thủ tục đăng ký, cấp Giấy chứng nhận mà chủ đầu tư chưa nộp các giấy tờ theo quy định.\n- Chuyển xử phạt hành chính (nếu có).\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính đến cơ quan thuế để xác định và thông báo nghĩa vụ tài chính cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng.\n- Cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.\n- Cấp Giấy chứng nhận cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng; xác nhận thay đổi trên Giấy chứng nhận đã cấp cho chủ đầu tư, trong đó phần diện tích thuộc quyền sử dụng chung với người khác thì được chỉnh lý biến động để chuyển sang hình thức sử dụng chung.\n- Trao Giấy chứng nhận hoặc chuyển Giấy chứng nhận cho chủ đầu tư dự án để trao cho người được cấp đối với trường hợp chủ đầu tư dự án nộp hồ sơ thực hiện thủ tục."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 11,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "08 ngày làm việc + Thời gian xác định nghĩa vụ tài chính về đất đai: 03 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang; Nghị quyết số 41/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất trên địa bàn tỉnh An Giang; Nghị quyết số 42/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp lệ phí cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của Ủy ban nhân dân tỉnh về việc ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 21/2022/QĐ-UBND ngày 24/5/2022 của Ủy ban nhân dân tỉnh về việc sửa đổi, bổ sung một số điều của Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của UBND tỉnh ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 11,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "08 ngày làm việc + Thời gian xác định nghĩa vụ tài chính về đất đai: 03 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang; Nghị quyết số 41/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất trên địa bàn tỉnh An Giang; Nghị quyết số 42/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp lệ phí cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của Ủy ban nhân dân tỉnh về việc ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 21/2022/QĐ-UBND ngày 24/5/2022 của Ủy ban nhân dân tỉnh về việc sửa đổi, bổ sung một số điều của Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của UBND tỉnh ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 11,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "08 ngày làm việc + Thời gian xác định nghĩa vụ tài chính về đất đai: 03 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Nghị quyết số 02/2026/NQ-HĐND ngày 21/5/2026 của Hội đồng nhân dân tỉnh quy định mức thu 0 đồng đối với phí và lệ phí thuộc thẩm quyềng quyết định của Hội đồng nhân dân tỉnh khi thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh An Giang; Nghị quyết số 41/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất trên địa bàn tỉnh An Giang; Nghị quyết số 42/2026/NQ-HĐND ngày 28/8/2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp lệ phí cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của Ủy ban nhân dân tỉnh về việc ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang; Quyết định số 21/2022/QĐ-UBND ngày 24/5/2022 của Ủy ban nhân dân tỉnh về việc sửa đổi, bổ sung một số điều của Quyết định số 31/2020/QĐ-UBND ngày 09/7/2020 của UBND tỉnh ban hành giá dịch vụ đo đạc; đăng ký, cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất trên địa bàn tỉnh An Giang;",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "An Giang-Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng trong dự án bất động sản",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Đối với trường hợp chủ đầu tư dự án nộp hồ sơ đăng ký, cấp Giấy chứng nhận cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0c889-77e4-7484-9bac-2a6c18666285",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất do người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng kê khai.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU01",
+          "attachments": [
+            {
+              "id": "01a0c889-71e8-73dc-aef6-e9ac74fc6c7c",
+              "fileName": "Mẫu Đơn đăng ký  biến động đất đai-TTHC 12.1.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0c889-71e8-73dc-aef6-e9ac74fc6c7c/Mẫu Đơn đăng ký  biến động đất đai-TTHC 12.1.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0c889-c4f1-735e-b130-800d6d044a98",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc nhà ở, công trình xây dựng đã được nghiệm thu đưa vào khai thác, sử dụng theo quy định của pháp luật về xây dựng đối với trường hợp có nhận chuyển nhượng nhà ở, công trình xây dựng.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU02",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88a-1035-751e-80e8-9ee11f187c5f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đủ điều kiện được chuyển nhượng cho cá nhân tự xây dựng nhà ở đối với trường hợp chuyển nhượng quyền sử dụng đất đã có hạ tầng kỹ thuật theo quy định của pháp luật về kinh doanh bất động sản.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU03",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88a-5a48-771f-b7a0-dacd3a9131d2",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hợp đồng chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng theo quy định của pháp luật.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU04",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88a-ab25-7125-ab68-f56367007c84",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản bàn giao nhà, đất, công trình xây dựng, hạng mục công trình xây dựng.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU05",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88a-f711-77a9-90a7-ea14e77866e9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp cho chủ đầu tư dự án.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU06",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88b-5f72-7295-be9a-ef16ebd1145f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp Văn phòng Đăng ký đất đai nhận được văn bản của cơ quan có thẩm quyền về việc dự án được điều chỉnh quy hoạch xây dựng chi tiết mà làm phát sinh nghĩa vụ tài chính theo quy định của pháp luật.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU07",
+          "attachments": [
+            {
+              "id": "01a0c88b-585b-728d-a20e-e0d525f92661",
+              "fileName": "PHIẾU THÔNG TIN ĐIỆN TỬ ĐỂ XÁC ĐỊNH NGHĨA VỤ TÀI CHÍNH VỀ ĐẤT ĐAI TTHC 12.2.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0c88b-585b-728d-a20e-e0d525f92661/PHIẾU THÔNG TIN ĐIỆN TỬ ĐỂ XÁC ĐỊNH NGHĨA VỤ TÀI CHÍNH VỀ ĐẤT ĐAI TTHC 12.2.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "b) Đối với trường hợp người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng trực tiếp thực hiện:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0c88c-10a4-7625-a1fe-7783459693b0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU08",
+          "attachments": [
+            {
+              "id": "01a0c88c-034c-738d-a335-708529d44dff",
+              "fileName": "Mẫu Đơn đăng ký  biến động đất đai-TTHC 12.1.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0c88c-034c-738d-a335-708529d44dff/Mẫu Đơn đăng ký  biến động đất đai-TTHC 12.1.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0c88c-d965-761c-9834-45365c0110b7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hợp đồng chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, hạng mục công trình xây dựng theo quy định của pháp luật.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU09",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88d-227a-77a8-a589-56e7761b2684",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản bàn giao nhà, đất, công trình xây dựng, hạng mục công trình xây dựng.",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU10",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88d-6ca0-725f-b0e6-d754e76d2db7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc nhà ở, công trình xây dựng đã được nghiệm thu đưa vào khai thác, sử dụng theo quy định của pháp luật về xây dựng đối với trường hợp có nhận chuyển nhượng nhà ở, công trình xây dựng (nếu có).",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU11",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88d-b410-70df-92be-ced1092ffad0",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đủ điều kiện được chuyển nhượng cho cá nhân tự xây dựng nhà ở đối với trường hợp chuyển nhượng quyền sử dụng đất đã có hạ tầng kỹ thuật theo quy định của pháp luật về kinh doanh bất động sản (nếu có).",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU12",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88d-fd79-71de-92a7-575716be65a8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp cho chủ đầu tư dự án (nếu có).",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU13",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c88e-6e39-7117-8324-26892a5843d1",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp Văn phòng Đăng ký đất đai nhận được văn bản của cơ quan có thẩm quyền về việc dự án được điều chỉnh quy hoạch xây dựng chi tiết mà làm phát sinh nghĩa vụ tài chính theo quy định của pháp luật (nếu có).",
+          "code": "SNNMTAG_QD3828_CAPTINH_TTHC_12_MAU14",
+          "attachments": [
+            {
+              "id": "01a0c88e-5afd-70a8-a7eb-a7a8fdebc281",
+              "fileName": "PHIẾU THÔNG TIN ĐIỆN TỬ ĐỂ XÁC ĐỊNH NGHĨA VỤ TÀI CHÍNH VỀ ĐẤT ĐAI TTHC 12.2.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0c88e-5afd-70a8-a7eb-a7a8fdebc281/PHIẾU THÔNG TIN ĐIỆN TỬ ĐỂ XÁC ĐỊNH NGHĨA VỤ TÀI CHÍNH VỀ ĐẤT ĐAI TTHC 12.2.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất , người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng, dự án bất động sản",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019ede08-a450-75b7-b38a-b5a065410485",
+    "019fe63e-5ffc-73a2-9971-335d80f4d73f",
+    "019ff439-01f8-77a8-9283-f80efea13a33",
+    "01a08abc-e5eb-738e-932f-abe36517faa2",
+    "01a08ac7-9f69-714f-b73a-7159f239f942",
+    "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+    "01a0a477-2c88-7288-8ea9-1a12e11a0825"
+  ],
+  "resultIds": [
+    "01a0aa4c-e407-70d9-b2c6-d1dc6861c017"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e8-27f55a1e2f3f"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6ada-753f-9ac7-10f06892bef7"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e8-27f55a1e2f3f",
+      "name": "Văn phòng Đăng ký đất đai tỉnh - Sở Nông nghiệp và Môi trường tỉnh An Giang",
+      "code": "H01.03.11"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6ada-753f-9ac7-10f06892bef7",
+      "name": "Cơ quan thuế",
+      "code": "BTC-CQT"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fe63e-5ffc-73a2-9971-335d80f4d73f",
+      "name": "Luật số 43/2024/QH15 ngày 29/6/2024 sửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng số 32/2024/QH15",
+      "code": "43/2024/QH15 ngày 29/6/2024"
+    },
+    {
+      "id": "01a08ac7-9f69-714f-b73a-7159f239f942",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định quy định chi tiết thi hành Luật Đất đai",
+      "code": "Nghị định số 226/2025/NĐ-CP"
+    },
+    {
+      "id": "01a0a477-2c88-7288-8ea9-1a12e11a0825",
+      "name": "Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh An Giang",
+      "code": "57/2026/ QĐ-UBND"
+    },
+    {
+      "id": "019ff439-01f8-77a8-9283-f80efea13a33",
+      "name": "quy định về điều tra cơ bản đất đai; đăng ký, cấp GCNQSD đất, quyền sở hữu tài sản gắn liền với đất và hệ thống thông tin đất đai",
+      "code": " 101/2024/NĐ-CP ngày 29/7/2024 "
+    },
+    {
+      "id": "01a08abc-e5eb-738e-932f-abe36517faa2",
+      "name": "Luật số 31/2024/QH15 của Quốc hội: Luật Đất đai",
+      "code": "Luật số 31/2024/QH15"
+    },
+    {
+      "id": "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị định số 49/2026/NĐ-CP"
+    },
+    {
+      "id": "019ede08-a450-75b7-b38a-b5a065410485",
+      "name": "Nghị định số 151/2026/NĐ-CP ngày 13/5/2026 của Chính phủ quy định về tổ chức và hoạt động của văn phòng thi hành án dân sự, Thừa hành viên ",
+      "code": "Nghị định số 151/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0aa4c-e407-70d9-b2c6-d1dc6861c017",
+      "name": "Giấy chứng nhận",
+      "code": "snnmtagg-GCN1"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3e7-e214bdb86482",
+  "departmentPromulgateCode": "H01",
+  "departmentPromulgateName": "UBND tỉnh An Giang",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790608207790,
+  "updatedAt": 1790608207790,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng Đăng ký đất đai tỉnh - Sở Nông nghiệp và Môi trường tỉnh An Giang",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "Cơ quan thuế",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fffa3-57c4-71e9-bf3a-adc3dd05efb4",
+    "proposalNumber": "3828/QĐ-UBND",
+    "decisionDate": 1786467600000,
+    "decisionNumber": null,
+    "publicationDate": 1790608203472,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3e7-e214bdb86482",
+      "name": "UBND tỉnh An Giang"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

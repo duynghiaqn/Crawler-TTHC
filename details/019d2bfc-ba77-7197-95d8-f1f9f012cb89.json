@@ -1,0 +1,375 @@
+{
+  "id": "019d2bfc-ba77-7197-95d8-f1f9f012cb89",
+  "code": "1.011011",
+  "codeNotation": "1.011011",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Tiếp nhận hồ sơ đề nghị MAP (từ người nộp thuế và cơ quan thuế\nnước ngoài).\nBước 2: Rà soát, phân tích hồ sơ đề nghị MAP.\nBước 3: Trao đổi quan điểm, đàm phán MAP và xác nhận kết quả trao đổi\nbằng văn bản của người nộp thuế.\nBước 4: Kết thúc và thực hiện MAP."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không",
+      "processingTimeUnit": "OTHER",
+      "description": "Qua Cổng dịch vụ công Quốc gia hoặc Ứng dụng định danh quốc gia theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không",
+      "processingTimeUnit": "OTHER",
+      "description": "Thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không",
+      "processingTimeUnit": "OTHER",
+      "description": "Hồ sơ gửi đến cơ quan Cục Thuế",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế, Thông tư số 46/2024/TT-BTC ngày 09/07/2024 sửa đổi, bổ sung một số điều của Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế và Điều 50 Nghị định số 252/2026/NĐ-CP ngày 30/6/2026 quy định chi tiết một số điều về biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế.",
+  "name": "Đề nghị áp dụng Thủ tục thỏa thuận song phương theo Hiệp định tránh\nđánh thuế hai lần (MAP)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2d-c5b560c36693",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị áp dụng thủ tục thỏa thuận song phương theo mẫu số 01/DTA-MAP",
+          "code": "G12.0001195",
+          "attachments": [
+            {
+              "id": "019f7db3-ae15-77fe-a415-07db324276c5",
+              "fileName": "Mẫu số 01 DTA-MAP.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7db3-ae15-77fe-a415-07db324276c5/Mẫu số 01 DTA-MAP.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2d-cbb8989920a8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo tài chính và tờ khai thuế liên quan đến đề nghị áp dụng MAP",
+          "code": "G12.0001198",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2d-cdd2df407f15",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu liên quan đến thông báo xác định nghĩa vụ thuế của cơ quan thuế nước ngoài hoặc của cơ quan thuế Việt Nam",
+          "code": "G12.0001202",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2d-d28dcc9b2d15",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ xác định giá giao dịch liên kết của người nộp thuế của kỳ tính thuế đề nghị áp dụng MAP (đối với MAP về xác định giá chuyển nhượng)",
+          "code": "G12.0001199",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2d-d6e2c298bb6f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thông tin, tài liệu, hợp đồng, mô tả chi tiết thực tế về giao dịch, hoạt động liên quan đến việc xác định nghĩa vụ thuế và cơ sở lập luận của người đề nghị áp dụng MAP về điều khoản Hiệp định thuế mà cơ quan thuế nước ngoài áp dụng chưa phù hợp với quy định của Hiệp định thuế, phân tích của người đề nghị liên quan đến việc xác định nghĩa vụ thuế",
+          "code": "G12.0001201",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2d-dafc7cec440d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu chứng minh việc nộp thuế trong trường hợp người đề nghị đã nộp số thuế liên quan đến đề nghị áp dụng MAP",
+          "code": "G12.0001200",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2d-dedecd080eb8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản đề nghị áp dụng thủ tục MAP và các tài liệu kèm theo trong trường hợp người đề nghị đã hoặc sẽ nộp đề nghị áp dụng MAP cho cơ quan thuế nước ngoài",
+          "code": "G12.0001196",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f2d-e0f21837cffa",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản đề nghị khiếu nại và tài liệu kèm theo trong trường hợp người đề nghị đã hoặc sẽ nộp văn bản khiếu nại theo cơ chế giải quyết khiếu nại khác trong và ngoài Việt Nam và kết quả giải quyết khiếu nại (nếu có)",
+          "code": "G12.0001197",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Các đối tượng cư trú của Việt Nam. Việc thực hiện thủ tục MAP phải được tiến hành trong vòng ba (hoặc hai) năm, tùy theo từng Hiệp định thuế, kể từ ngày có thông báo đầu tiên của cơ quan thuế nước ngoài dẫn đến việc xử lý thuế mà người khiếu nại cho là không đúng với Hiệp định thuế.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4d-9f8629ebc27d",
+    "019d2bb3-5d86-7760-a643-2e14de6cf380",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019f7e66-d4c1-712d-8380-af4266885c12"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96e1-6c1a463706a7",
+    "019f7e62-4999-757a-b936-0624f5e5721e",
+    "019f7e62-af15-71aa-a26e-e110293a8a56"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d13-a70d2aaadfb4"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d13-a70d2aaadfb4",
+      "name": "Cục Thuế - Bộ tài chính",
+      "code": "G12.18"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a643-2e14de6cf380",
+      "name": "Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn Giao dịch điện tử trong lĩnh vực thuế",
+      "code": "19/2021/TT-BTC"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4d-9f8629ebc27d",
+      "name": "sửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế",
+      "code": "46/2024/TT-BTC"
+    },
+    {
+      "id": "019f7e66-d4c1-712d-8380-af4266885c12",
+      "name": "Hướng dẫn thực hiện các Hiệp định tránh đánh thuế hai lần và ngăn ngừa việc trốn lậu thuế đối với các loại thuế đánh vào thu nhập và tài sản giữa Việt Nam với các nước và vùng lãnh thổ có hiệu lực thi hành tại Việt Nam; hướng dẫn thực hiện thủ tục thỏa thuận song phương; hướng dẫn áp dụng cơ chế thỏa thuận trước về phương pháp xác định giá tính thuế trong quản lý thuế đối với doanh nghiệp có giao dịch liên kết",
+      "code": "95/2026/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96e1-6c1a463706a7",
+      "name": "Thông báo chấp nhận đề nghị MAP",
+      "code": "KQ.G12.000452"
+    },
+    {
+      "id": "019f7e62-af15-71aa-a26e-e110293a8a56",
+      "name": "Thông báo kết thúc hồ sơ MAP",
+      "code": "KQ.G12.000454"
+    },
+    {
+      "id": "019f7e62-4999-757a-b936-0624f5e5721e",
+      "name": "Thông báo từ chối đề nghị MAP",
+      "code": "KQ.G12.000453"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d6cc7-f91a-726e-ac5c-1ad997e88d69",
+      "name": "Đề nghị áp dụng Thủ tục thỏa thuận song phương theo Hiệp định tránh đánh thuế hai lần",
+      "code": "1.011011.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f7e9f-96ee-77ce-9188-1b60b8a405ad",
+      "name": "Đề nghị áp dụng Thủ tục thỏa thuận song phương theo Hiệp định tránh đánh thuế hai lần",
+      "code": "1.011011.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559476343,
+  "updatedAt": 1784535815734,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Thuế - Bộ tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế, Thông tư số 46/2024/TT-BTC ngày 09/07/2024 sửa đổi, bổ sung một số điều của Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế và Điều 50 Nghị định số 252/2026/NĐ-CP ngày 30/6/2026 quy định chi tiết một số điều về biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f7dac-37ff-76ce-9510-db0da037a72c",
+    "proposalNumber": "1911/QĐ-BTC",
+    "decisionDate": 1784221200000,
+    "decisionNumber": null,
+    "publicationDate": 1784535815699,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "01a17b50-abed-746e-a915-3faaec8930ca",
+  "code": "3.000791",
+  "codeNotation": "3.000791",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1.\tTrong thời hạn 30 ngày kể từ ngày Sở Công Thương thành phố Đà Nẵng ban hành thông báo tiếp nhận hồ sơ, tổ chức, cá nhân nộp hồ sơ đề nghị hỗ trợ để được tiếp nhận, xử lý.\n2.\tĐơn vị thụ hưởng nộp hồ sơ đề nghị hỗ trợ bằng 1 trong 3 hình thức được quy định ở mục ”Cách thức thực hiện”.\n3.\tSở Công Thương tiếp nhận, xem xét hồ sơ trong 05 ngày làm việc.\n-\tNếu hồ sơ chưa hợp lệ, Sở Công Thương trả hồ sơ để tổ chức, cá nhân hoàn thiện hồ sơ. Trong thời hạn 10 ngày làm việc kể từ ngày nhận được thông báo, nếu tổ chức, cá nhân không bổ sung, hoàn thiện hoặc bổ sung không đầy đủ, hợp lệ thì cơ quan có thẩm quyền hỗ trợ dừng xử lý hồ sơ.\n-\tNếu hồ sơ hợp lệ: trong 60 ngày, Sở Công Thương tổ chức thẩm định thực tế, thành lập hội đồng đánh giá hồ sơ đề nghị hỗ trợ (hoặc tổ chức đánh giá thông qua bộ máy giúp việc) và xem xét, quyết định phê duyệt mức kinh phí hỗ trợ cho tổ chức, cá nhân."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "60 ngày kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "60 ngày kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "60 ngày kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục hỗ trợ kinh phí khuyến công địa phương trên địa bàn thành phố Đà Nẵng (Cấp tỉnh)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a17b52-4c45-758e-9508-01daced57014",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ (bản chính) thực hiện theo Mẫu số 01",
+          "code": "TP-H17.000684",
+          "attachments": [
+            {
+              "id": "01a17b52-4692-719b-9c64-a4e09eb24687",
+              "fileName": "Mẫu số 01.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a17b52-4692-719b-9c64-a4e09eb24687/Mẫu số 01.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a17b52-a41d-76b1-9915-9b797681b8fd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đề án khuyến công (bản chính) thực hiện theo Mẫu số 02",
+          "code": "TP-H17.000685",
+          "attachments": [
+            {
+              "id": "01a17b52-9ee7-72ac-a0b0-132d35807349",
+              "fileName": "Mẫu số 02.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a17b52-9ee7-72ac-a0b0-132d35807349/Mẫu số 02.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a17b52-e9e1-734a-a33e-8e876d500a9d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu liên quan khác phù hợp với nội dung đề án",
+          "code": "TP-H17.000686",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a143e7-54ea-717e-a4b1-bbfbded3d629"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a17b50-6328-72bb-8846-52684e08deac"
+  ],
+  "resultIds": [
+    "01a17b4c-a69a-7010-9bc0-217c11163b5d"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a33d-a0d547eb2b6c"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a143e7-54ea-717e-a4b1-bbfbded3d629",
+      "name": "Khuyến Công",
+      "code": "LV.G,02.0001"
+    }
+  ],
+  "category": {
+    "id": "01a143e7-54ea-717e-a4b1-bbfbded3d629",
+    "name": "Khuyến Công",
+    "code": "LV.G,02.0001"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a33d-a0d547eb2b6c",
+      "name": "Sở Công Thương TP.Đà Nẵng",
+      "code": "H17.03"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a17b50-6328-72bb-8846-52684e08deac",
+      "name": "Quy định chính sách khuyến công và phát triển sản xuất sản phẩm lưu niệm phục vụ du lịch trên địa bàn thành phố Đà Nẵng",
+      "code": "58/2026/NQ-HĐND (Thành phố Đà Nẵng)"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a17b4c-a69a-7010-9bc0-217c11163b5d",
+      "name": "Quyết định phê duyệt hỗ trợ kinh phí khuyến công của Sở Công Thương",
+      "code": "KQ.H17.000335"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33d-803cf2496575",
+  "departmentPromulgateCode": "H17",
+  "departmentPromulgateName": "UBND Thành phố Đà Nẵng",
+  "cases": [
+    {
+      "id": "01a17b59-ecc8-7508-b56b-47c01ba716f5",
+      "name": "Thủ tục hỗ trợ kinh phí khuyến công địa phương trên địa bàn thành phố Đà Nẵng (Cấp tỉnh)",
+      "code": "3.000791.01",
+      "processingDay": {
+        "qty": 60,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1793070657655,
+  "updatedAt": 1793070657655,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Công Thương TP.Đà Nẵng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a17b4d-ea8e-707a-82e7-960c47a31f4d",
+    "proposalNumber": "3075/QĐ-UBND",
+    "decisionDate": 1783616400000,
+    "decisionNumber": null,
+    "publicationDate": 1793070657568,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33d-803cf2496575",
+      "name": "UBND Thành phố Đà Nẵng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

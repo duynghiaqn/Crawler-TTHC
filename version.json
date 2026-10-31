@@ -1,0 +1,26 @@
+{
+  "last_updated": "2026-10-31T20:10:33.656Z",
+  "province_name": "Tỉnh Gia Lai",
+  "province_code": "H21",
+  "total_eligible_records": 2135,
+  "administrative_records": 2076,
+  "internal_records": 59,
+  "province_records": 1818,
+  "ward_records": 483,
+  "breakdown": {
+    "province_only": 1652,
+    "ward_only": 317,
+    "both_province_and_ward": 166
+  },
+  "excluded_summary": {
+    "police": 217,
+    "customs": 124,
+    "tax": 103,
+    "bank": 140,
+    "court": 3,
+    "cuc_vu": 82,
+    "other_provinces": 2145,
+    "other_levels": 1935
+  },
+  "circuit_breaker_status": "COMPLETED"
+}

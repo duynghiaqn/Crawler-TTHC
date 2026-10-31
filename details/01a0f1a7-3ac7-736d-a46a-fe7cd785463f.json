@@ -1,0 +1,221 @@
+{
+  "id": "01a0f1a7-3ac7-736d-a46a-fe7cd785463f",
+  "code": "2.002924",
+  "codeNotation": "2.002924",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ sở giáo dục nghề nghiệp gửi 01 bộ hồ sơ theo quy định qua Cổng Dịch vụ công quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan của người có thẩm quyền giải quyết thủ tục quy định tại Điều 4 Nghị định số 361/2026/NĐ-CP."
+    },
+    {
+      "name": "",
+      "description": "- Trong thời hạn 02 ngày làm việc kể từ ngày tiếp nhận hồ sơ, nếu hồ sơ chưa đầy đủ hoặc chưa đúng quy định thì cơ quan tiếp nhận hồ sơ thông báo bằng văn bản những nội dung cần chỉnh sửa, bổ sung cho cơ quan, tổ chức, cá nhân."
+    },
+    {
+      "name": "",
+      "description": "- Trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, đúng quy định, cơ quan, tổ chức được giao xử lý hồ sơ tổ chức thẩm định việc đáp ứng các điều kiện và trình người có thẩm quyền quy định tại Điều 4 Nghị định này quyết định thay đổi địa điểm trụ sở chính hoặc phân hiệu cơ sở giáo dục nghề nghiệp theo Mẫu số 09 tại Phụ lục I kèm theo Nghị định này. \nTrường hợp chưa đáp ứng đủ điều kiện để quyết định thay đổi hoặc cho phép thay đổi địa điểm trụ sở chính hoặc phân hiệu thì có văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Đối với hồ sơ chưa đầy đủ hoặc chưa đúng: 02 ngày làm việc để thông báo hồ sơ cần chỉnh sửa, bổ sung; \n- Đối với hồ sơ đầy đủ, đúng quy định: 05 ngày làm việc kể từ ngày nhận đủ hồ sơ đúng quy định để thẩm định và trình, quyết định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Đối với hồ sơ chưa đầy đủ hoặc chưa đúng: 02 ngày làm việc để thông báo hồ sơ cần chỉnh sửa, bổ sung; \n- Đối với hồ sơ đầy đủ, đúng quy định: 05 ngày làm việc kể từ ngày nhận đủ hồ sơ đúng quy định để thẩm định và trình, quyết định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Đối với hồ sơ chưa đầy đủ hoặc chưa đúng: 02 ngày làm việc để thông báo hồ sơ cần chỉnh sửa, bổ sung; \n- Đối với hồ sơ đầy đủ, đúng quy định: 05 ngày làm việc kể từ ngày nhận đủ hồ sơ đúng quy định để thẩm định và trình, quyết định.",
+      "fees": []
+    }
+  ],
+  "description": "Địa điểm đào tạo dự kiến được thay đổi phải đáp ứng điều kiện tương ứng với từng trường hợp sau:\na) Đối với trụ sở chính phải đáp ứng điều kiện thành lập, cho phép thành lập quy định tại điểm a, điểm b khoản 1 Điều 5 Nghị định này;\nb) Đối với phân hiệu phải đáp ứng điều kiện về địa điểm, cơ sở vật chất thành lập, cho phép thành lập phân hiệu quy định tại khoản 2 Điều 5 Nghị định này;",
+  "name": "Thay đổi địa điểm trụ sở chính và phân hiệu của trường trung học nghề, trường trung cấp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f171-dc9c-743d-97be-914fa5a43aec",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Văn bản đề nghị thay đổi hoặc cho phép thay đổi địa điểm đào tạo của cơ sở giáo dục nghề nghiệp (theo Mẫu số 07 tại Phụ lục I kèm theo Nghị định số 361/2026/NĐ-CP), trong đó thuyết minh việc đáp ứng các điều kiện quy định tại khoản 2 Điều 16 Nghị định số 361/2026/NĐ-CP, kèm theo ý kiến nhất trí với việc thay đổi hoặc cho phép thay đổi địa điểm đào tạo của cơ quan quản lý trực tiếp cơ sở giáo dục nghề nghiệp công lập hoặc của cá nhân, tổ chức sở hữu đối với cơ sở giáo dục nghề nghiệp tư thục; và chỉ kèm theo minh chứng tương ứng đối với thông tin, dữ liệu chưa có trong cơ sở dữ liệu của cơ quan nhà nước hoặc chưa được kết nối, chia sẻ theo quy định của pháp luật;",
+          "code": "TP-G03.00000123",
+          "attachments": [
+            {
+              "id": "01a0f171-a646-702b-879a-f10e91ae7bb6",
+              "fileName": "Mau so 07-PLI.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0f171-a646-702b-879a-f10e91ae7bb6/Mau so 07-PLI.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0f172-9e93-7018-9443-bda1f657155f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Bản sao văn bản của Ủy ban nhân dân cấp tỉnh nơi dự kiến đặt trụ sở chính hoặc phân hiệu mới hoặc thông tin, tài liệu, minh chứng khác, trong đó có thể hiện thông tin về địa điểm dự kiến đặt trụ sở chính hoặc phân hiệu mới và các nội dung thuộc phạm vi quản lý nhà nước của địa phương có liên quan đến điều kiện quy định tại các điểm a, b khoản 1 Điều 5 Nghị định số 361/2026/NĐ-CP (đối với trụ sở chính) hoặc điểm a khoản 2 Điều 5 Nghị định số 361/2026/NĐ-CP (đối với phân hiệu) (chỉ trong trường hợp thông tin, dữ liệu hiện có chưa đủ để xác định các nội dung thuộc phạm vi quản lý nhà nước của địa phương);",
+          "code": "TP-G03.00000124",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0f173-4342-7578-b997-1bf9053ae25c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c) Bản sao văn bản pháp lý xác nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do cơ quan có thẩm quyền cấp hoặc văn bản chứng minh quyền sử dụng hợp pháp đất cho mục đích giáo dục theo quy định của pháp luật. Cơ quan, tổ chức, cá nhân không phải nộp bản sao các thành phần hồ sơ nếu cơ quan có thẩm quyền có thể khai thác, sử dụng thông tin tương ứng trong cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành hoặc đã được số hóa theo quy định.",
+          "code": "TP-G03.00000125",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-f9b9de88e50e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0f156-2cd9-7709-8069-a1409dc80572"
+  ],
+  "resultIds": [
+    "01a0f1a7-0cb7-770e-b021-a007a92ec2ca"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-f9b9de88e50e",
+      "name": "Giáo dục nghề nghiệp",
+      "code": "G03-GD03"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0f156-2cd9-7709-8069-a1409dc80572",
+      "name": "Quy định về điều kiện đầu tư và hoạt động trong giáo dục nghề nghiệp, giáo dục đại học và kiểm định chất lượng giáo dục\n",
+      "code": "361/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f1a7-0cb7-770e-b021-a007a92ec2ca",
+      "name": "Quyết định thay đổi hoặc cho phép thay đổi trụ sở chính hoặc phân hiệu của trường trung học nghề, trường trung cấp",
+      "code": "KQ-G03.00000194"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790926096859,
+  "updatedAt": 1790926096859,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ phận Một cửa của cơ quan của UBND cấp tỉnh",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Địa điểm đào tạo dự kiến được thay đổi phải đáp ứng điều kiện tương ứng với từng trường hợp sau:\na) Đối với trụ sở chính phải đáp ứng điều kiện thành lập, cho phép thành lập quy định tại điểm a, điểm b khoản 1 Điều 5 Nghị định này;\nb) Đối với phân hiệu phải đáp ứng điều kiện về địa điểm, cơ sở vật chất thành lập, cho phép thành lập phân hiệu quy định tại khoản 2 Điều 5 Nghị định này;",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0f127-306c-74d9-aa9f-48991174cd52",
+    "proposalNumber": "2854/QĐ-BGDĐT",
+    "decisionDate": 1790701200000,
+    "decisionNumber": null,
+    "publicationDate": 1790926096561,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

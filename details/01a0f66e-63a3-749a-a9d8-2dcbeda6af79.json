@@ -1,0 +1,266 @@
+{
+  "id": "01a0f66e-63a3-749a-a9d8-2dcbeda6af79",
+  "code": "1.116910",
+  "codeNotation": "1.116910",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Cá nhân, cơ quan, đơn vị chịu trách nhiệm mai táng cho đối tượng làm hồ sơ theo quy định gửi Chủ tịch Ủy ban nhân dân cấp xã nơi cư trú hoặc Chủ tịch Ủy ban nhân dân cấp xã nơi đối tượng chết, nơi tổ chức mai táng cho đối tượng (đối với trường hợp trợ giúp khẩn cấp).\n- Bước 2: Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được Tờ khai của  cá nhân, cơ quan, đơn vị tổ chức đứng ra mai táng cho đối tượng, Chủ tịch Ủy ban nhân dân cấp xã xem xét, quyết định hỗ trợ chi phí mai táng và thực hiện chi trả kinh phí hỗ trợ theo quy định.\n- Trường hợp thực hiện liên thông điện tử nhóm thủ tục hành chính đăng ký khai tử, xoá đăng ký thường trú, giải quyết mai táng phí, tử tuất thì thủ tục hỗ trợ chi phí mai táng thực hiện theo quy định tại Điều 11, Điều 12, Điều 13, Điều 14 và Điều 15 Nghị định số 63/2024/NĐ-CP của Chính phủ quy định việc thực hiện liên thông điện tử 02 nhóm thủ tục hành chính: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi; đăng ký khai tử, xoá đăng ký thường trú, giải quyết mai táng phí, tử tuất, được sửa đổi, bổ sung bởi Nghị định số 301/2026/NĐ-CP (Quyết định số 1868/QĐ-BTP ngày 10/8/2026 của Bộ trưởng Bộ Tư pháp về việc công bố 02 nhóm thủ tục hành chính liên thông điện tử được thay thế: Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước cho trẻ em dưới 6 tuổi; đăng ký khai tử, xoá đăng ký thường trú, giải quyết mai táng phí, tử tuất).\n- Việc tiếp nhận thủ tục hành chính không phụ thuộc vào địa giới hành chính thực hiện theo quy định của pháp luật về thực hiện thủ tục hành chính không phụ thuộc địa giới hành chính."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "Đối tượng quy định tại khoản 1 Điều 11 Nghị định số 335/2026/NĐ-CP khi chết thì cơ quan, tổ chức, cá nhân trực tiếp tổ chức mai táng được nhà nước hỗ trợ chi phí mai táng",
+  "name": "Hỗ trợ chi phí mai táng cho đối tượng bảo trợ xã hội",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f66d-a0d4-73ec-a251-49dac788f748",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai đề nghị hỗ trợ chi phí mai táng (Mẫu số 03 ban hành kèm theo Nghị định số 335/2026/NĐ-CP)",
+          "code": "000.00.00.G18-KQ00582",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-6573ae6e97af"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0f5ba-70eb-7222-824e-83a91e1866e9"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7c-74ea-bcd1-32ff548aac85"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+      "name": "Bảo trợ xã hội",
+      "code": "G07-LĐ03"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+    "name": "Bảo trợ xã hội",
+    "code": "G07-LĐ03"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0f5ba-70eb-7222-824e-83a91e1866e9",
+      "name": "Nghị định số 335/2026/NĐ-CP ngày 21/8/2026 của Chính phủ quy\nđịnh chính sách trợ giúp xã hội",
+      "code": "335/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7c-74ea-bcd1-32ff548aac85",
+      "name": "Quyết định hỗ trợ chi phí mai táng (BYT)",
+      "code": "KQ.G18.000312"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "departmentPromulgateCode": "G18",
+  "departmentPromulgateName": "Bộ Y tế",
+  "cases": [
+    {
+      "id": "01a10a2b-c152-7562-97b6-ada3d06d0b57",
+      "name": "Hỗ trợ chi phí mai táng cho đối tượng bảo trợ xã hội",
+      "code": "1.116910.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790936620278,
+  "updatedAt": 1791172718057,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đối tượng quy định tại khoản 1 Điều 11 Nghị định số 335/2026/NĐ-CP khi chết thì cơ quan, tổ chức, cá nhân trực tiếp tổ chức mai táng được nhà nước hỗ trợ chi phí mai táng",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0f577-f175-74ec-809e-f309e5bdb030",
+    "proposalNumber": "3033/QĐ-BYT",
+    "decisionDate": 1790614800000,
+    "decisionNumber": null,
+    "publicationDate": 1790936620193,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

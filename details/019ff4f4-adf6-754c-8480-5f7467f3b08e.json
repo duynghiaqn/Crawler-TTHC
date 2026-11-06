@@ -1,0 +1,319 @@
+{
+  "id": "019ff4f4-adf6-754c-8480-5f7467f3b08e",
+  "code": "1.116344",
+  "codeNotation": "1.116344",
+  "executionSteps": [
+    {
+      "name": "Bước 1",
+      "description": "Bước 1: Tổ chức, doanh nghiệp đề nghị nộp hồ sơ trực tiếp, qua dịch vụ bưu chính công ích đến Bộ phận Một cửa; hoặc trực tuyến tại địa chỉ: https://dichvucong.gov.vn/. Hồ sơ nộp trực tuyến đảm bảo theo quy định về việc thực hiện thủ tục hành chính trên môi trường điện tử.\nCông chức Sở Khoa học và Công nghệ tiếp nhận, kiểm tra hồ sơ theo quy định."
+    },
+    {
+      "name": "Bước 2",
+      "description": "Bước 2: Sở Khoa học và Công nghệ thực hiện:\n- Trong thời hạn 05 ngày làm việc, Sở Khoa học và Công nghệ rà soát hồ sơ, ban hành văn bản yêu cầu bổ sung hoặc từ chối hỗ trợ đối với hồ sơ không đảm bảo điều kiện về thành phần hồ sơ hoặc không đảm bảo điều kiện hỗ trợ. \n- Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Sở Khoa học và Công nghệ rà soát đối tượng, nội dung, mức hỗ trợ theo quy định; xin ý kiến các cơ quan, đơn vị liên quan đối với hồ sơ đề nghị hỗ trợ chính sách quy định tại điểm a khoản 4 Điều 5 Nghị quyết số 25/2025/NQ-HĐND hoặc tổ chức thẩm định đối với hồ sơ đề nghị hỗ trợ chính sách quy định tại điểm b khoản 4 Điều 5 Nghị quyết số 25/2025/NQ-HĐND.\nTrường hợp tổ chức thẩm định, Sở Khoa học và Công nghệ tỉnh thành lập Tổ thẩm định. Tổ thẩm định có trách nhiệm đánh giá sự phù hợp về nội dung đề nghị hỗ trợ, mức hỗ trợ theo quy định (theo Biểu mẫu 2.3). Thành phần và số lượng thành viên Tổ thẩm định thực hiện theo khoản 1 Điều 9 Quyết định số 27/2026/QĐ-UBND ban hành quy định quản lý nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo sử dụng ngân sách nhà nước trên địa bàn tỉnh Bắc Ninh; biên bản họp Tổ thẩm định theo quy định (theo Biểu mẫu 2.4)."
+    },
+    {
+      "name": "Bước 3",
+      "description": "Bước 3: Tổ chức đề nghị hỗ trợ hoàn thiện hồ sơ \nTrong thời hạn 10 ngày làm việc kể từ ngày có kết quả xin ý kiến các cơ quan, đơn vị liên quan hoặc có kết quả của Tổ thẩm định, tổ chức, doanh nghiệp đề nghị hồ trợ hoàn thiện hồ sơ."
+    },
+    {
+      "name": "Bước 4",
+      "description": "Bước 4: \nTrong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị hỗ trợ đã hoàn thiện, Sở Khoa học và Công nghệ quyết định cấp kinh phí hỗ trợ trực tiếp cho các tổ chức, doanh nghiệp được thụ hưởng"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 40,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n+ Trung tâm Phục vụ hành chính công cấp xã.\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 40,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n+ Trung tâm Phục vụ hành chính công cấp xã.\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 40,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n+ Trung tâm Phục vụ hành chính công cấp xã.\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Đối tượng thuộc phạm vi hỗ trợ phải đáp ứng các điều kiện quy định của Bộ Khoa học và Công nghệ về cơ sở ươm tạo, trung tâm đổi mới sáng tạo cấp quốc gia, trung tâm đổi mới sáng tạo cấp tỉnh, trung tâm đổi mới sáng tạo, trung tâm hỗ trợ khởi nghiệp sáng tạo cấp quốc gia, trung tâm hỗ trợ khởi nghiệp sáng tạo cấp tỉnh, trung tâm hỗ trợ khởi nghiệp sáng tạo có dự án phát triển cơ sở vật chất kỹ thuật phục vụ hoạt động đổi mới sáng tạo, khởi nghiệp sáng tạo.",
+  "name": "Hỗ trợ phát triển cơ sở vật chất - kỹ thuật phục vụ hoạt động đổi mới sáng tạo, khởi nghiệp sáng tạo",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019ff400-efc5-711a-84be-4088cfd06bb6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ (theo Mẫu số 2.1)",
+          "code": "TP-H05.000239",
+          "attachments": [
+            {
+              "id": "019ff400-da5f-77b8-a060-dc4b4affee0b",
+              "fileName": "Mẫu đơn đề nghị hỗ trợ (mẫu số 2.1).docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019ff400-da5f-77b8-a060-dc4b4affee0b/Mẫu đơn đề nghị hỗ trợ (mẫu số 2.1).docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff4ef-13c2-7128-9ab6-925a22a499b3",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy tờ pháp lý của tổ chức đề nghị hỗ trợ (Minh chứng việc đảm bảo điều kiện cơ sở ươm tạo, trung tâm đổi mới sáng tạo, trung tâm hỗ trợ khởi nghiệp sáng tạo)",
+          "code": "TP-H05.000256",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff4ef-eded-761f-b8c4-df4a1e52346c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thuyết minh dự án đề nghị hỗ trợ (theo mẫu số 2.2)",
+          "code": "TP-H05.000257",
+          "attachments": [
+            {
+              "id": "019ff4ef-e881-779b-aa77-dd6bfa3f6535",
+              "fileName": "Mẫu thuyết minh dự án đề nghị hỗ trợ (mẫu số 2.2).docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019ff4ef-e881-779b-aa77-dd6bfa3f6535/Mẫu thuyết minh dự án đề nghị hỗ trợ (mẫu số 2.2).docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff4f1-bfcb-7283-a2f6-1c6f2e04295a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản nghiệm thu, thanh lý hợp đồng đầu tư nâng cấp cơ sở vật chất kỹ thuật",
+          "code": "TP-H05.000258",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff4f2-fa98-7698-9bdd-e6021acad551",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Chứng từ, hóa đơn chứng minh cho việc thực hiện các nội dung đề nghị hỗ trợ",
+          "code": "TP-H05.000259",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Hỗ trợ phát triển cơ sở vật chất - kỹ thuật",
+  "categoryIds": [
+    "019d2c08-77b9-731a-ae11-42a5a53492f9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019ff408-820d-70cb-885a-526fec10a7fe"
+  ],
+  "resultIds": [
+    "019ff4f4-3365-75b1-af93-092d3cf94a14"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3ed-9a78b73f8777"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3ed-9a78b73f8777"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2c08-77b9-731a-ae11-42a5a53492f9",
+      "name": "Hoạt động khoa học và công nghệ",
+      "code": "180716381"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3ed-9a78b73f8777",
+      "name": "Sở Khoa học và Công nghệ tỉnh Bắc Ninh",
+      "code": "H05.11"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3ed-9a78b73f8777",
+      "name": "Sở Khoa học và Công nghệ tỉnh Bắc Ninh",
+      "code": "H05.11"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff408-820d-70cb-885a-526fec10a7fe",
+      "name": "Nghị quyết số 25/2026/NQ-HĐND ngày 16/7/2026 ban hành Quy định một số chính sách khuyến khích, hỗ trợ phát triển công nghệ và đổi mới sáng tạo trên địa bàn tỉnh Bắc Ninh ",
+      "code": "25/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019ff4f4-3365-75b1-af93-092d3cf94a14",
+      "name": "Quyết định hỗ trợ phát triển cơ sở vật chất - kỹ thuật phục vụ hoạt động đổi mới sáng tạo, khởi nghiệp sáng tạo",
+      "code": "KQ-H05.000142"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND tỉnh Bắc Ninh",
+  "cases": [
+    {
+      "id": "01a00e90-2422-744b-b692-9b9ae9b39fa3",
+      "name": "Hỗ trợ phát triển cơ sở vật chất - kỹ thuật phục vụ hoạt động đổi mới sáng tạo, khởi nghiệp sáng tạo",
+      "code": "1.116344.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786937086810,
+  "updatedAt": 1786937086810,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Khoa học và Công nghệ tỉnh Bắc Ninh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n+ Trung tâm Phục vụ hành chính công cấp xã.\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+  "delegatedAgencies": "Sở Khoa học và Công nghệ tỉnh Bắc Ninh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đối tượng thuộc phạm vi hỗ trợ phải đáp ứng các điều kiện quy định của Bộ Khoa học và Công nghệ về cơ sở ươm tạo, trung tâm đổi mới sáng tạo cấp quốc gia, trung tâm đổi mới sáng tạo cấp tỉnh, trung tâm đổi mới sáng tạo, trung tâm hỗ trợ khởi nghiệp sáng tạo cấp quốc gia, trung tâm hỗ trợ khởi nghiệp sáng tạo cấp tỉnh, trung tâm hỗ trợ khởi nghiệp sáng tạo có dự án phát triển cơ sở vật chất kỹ thuật phục vụ hoạt động đổi mới sáng tạo, khởi nghiệp sáng tạo.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff3f2-f065-72de-8f01-8fe5cabd22de",
+    "proposalNumber": "2134/QĐ-UBND",
+    "decisionDate": 1785690000000,
+    "decisionNumber": null,
+    "publicationDate": 1786937086343,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND tỉnh Bắc Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

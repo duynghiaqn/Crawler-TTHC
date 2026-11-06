@@ -1,0 +1,280 @@
+{
+  "id": "01a0b21f-8e9d-74a7-9846-e094a9e68f58",
+  "code": "1.117056",
+  "codeNotation": "1.117056",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ tại Trung tâm Phục vụ hành chính công hoặc trực tuyến trên Cổng Dịch vụ công quốc gia hoặc ứng dụng định danh quốc gia hoặc thông qua dịch vụ bưu chính công ích.\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ giấy chứng nhận đăng ký doanh nghiệp.\nTrường hợp thông tin trong thành phần hồ sơ đã có trong các cơ sở dữ liệu thì cán bộ tiếp nhận hồ sơ khai thác dữ liệu từ cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính; trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cán bộ tiếp nhận yêu cầu người sử dụng đất bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính.\nBước 2: Trung tâm Phục vụ hành chính công thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai.\nBước 3: Văn phòng đăng ký đất đai thực hiện:\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất nộp mảnh trích đo bản đồ địa chính thửa đất để xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai.\n- Cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp đối với trường hợp không phải thực hiện nghĩa vụ tài chính; \n- Chuyển Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đến Trung tâm Phục vụ hành chính công để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc.\nĐối với các xã miền núi, biên giới; đặc khu Cồn Cỏ; các xã khó khăn, xã đặc biệt khó khăn theo quyết định của cấp có thẩm quyền thì thời gian thực hiện đối với thủ tục hành chính được tăng thêm 07 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 1,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc.\nĐối với các xã miền núi, biên giới; đặc khu Cồn Cỏ; các xã khó khăn, xã đặc biệt khó khăn theo quyết định của cấp có thẩm quyền thì thời gian thực hiện đối với thủ tục hành chính được tăng thêm 07 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 1,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc.\nĐối với các xã miền núi, biên giới; đặc khu Cồn Cỏ; các xã khó khăn, xã đặc biệt khó khăn theo quyết định của cấp có thẩm quyền thì thời gian thực hiện đối với thủ tục hành chính được tăng thêm 07 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 1,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Trường hợp đăng ký biến động đất đai mà phải tách thửa đất, hợp thửa đất thì phải đảm bảo điều kiện quy định tại Điều 220 Luật Đất đai.",
+  "name": "(Quảng Trị) Đăng ký biến động đối với trường hợp thành viên của hộ gia đình hoặc cá nhân đang sử dụng đất thành lập doanh nghiệp tư nhân và sử dụng đất vào hoạt động sản xuất kinh doanh của doanh nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0faad-ee5a-7585-aa91-3cb1b0646ce3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 16 ban hành kèm theo Quyết định số 59/2026/QĐ-UBND ngày 23/7/2026 của UBND tỉnh Quảng Trị",
+          "code": "H50.TPHS0144",
+          "attachments": [
+            {
+              "id": "01a0faad-e88c-7198-bf30-cdd1de457317",
+              "fileName": "Mẫu đơn số 16 PL V.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0faad-e88c-7198-bf30-cdd1de457317/Mẫu đơn số 16 PL V.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a10a0c-50f6-7712-98d4-51e93189144b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản vẽ tách thửa đất, hợp thửa đất đối với trường hợp đăng ký biến động đất đai mà phải tách thửa đất, hợp thửa đất (Mẫu số 19 ban hành kèm theo Quyết định số 59/2026/QĐ-UBND ngày 23/7/2026 của UBND tỉnh Quảng Trị)",
+          "code": "H50.TPHS0158",
+          "attachments": [
+            {
+              "id": "01a10a0c-1817-76b3-a90d-223dc4ecb719",
+              "fileName": "Mẫu số 19.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a10a0c-1817-76b3-a90d-223dc4ecb719/Mẫu số 19.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Đăng ký biến động, hộ gia đình, cá nhân, đang sử dụng đất, thành lập, doanh nghiệp tư nhân, sử dụng đất,  sản xuất kinh doanh, doanh nghiệp",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fe63e-5ffc-73a2-9971-335d80f4d73f",
+    "019ff439-01f8-77a8-9283-f80efea13a33",
+    "019ff547-6a69-7038-a010-d5ec1e9fd252",
+    "01a08ac7-9f69-714f-b73a-7159f239f942",
+    "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+    "01a0b229-6c81-73cf-b713-afdd42ad3b80"
+  ],
+  "resultIds": [
+    "01a0d156-87d8-7676-895d-3394f41ff0ea"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a86-70a8-a0ae-6eb1f5ec76fd"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a86-70a8-a0b0-2f6765c9fd7f"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a86-70a8-a0ae-6eb1f5ec76fd",
+      "name": "Văn phòng Đăng ký đất đai",
+      "code": "H24.60.4"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a86-70a8-a0b0-2f6765c9fd7f",
+      "name": "Văn phòng Đăng ký đất đai",
+      "code": "H26.103.25"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff439-01f8-77a8-9283-f80efea13a33",
+      "name": "quy định về điều tra cơ bản đất đai; đăng ký, cấp GCNQSD đất, quyền sở hữu tài sản gắn liền với đất và hệ thống thông tin đất đai",
+      "code": " 101/2024/NĐ-CP ngày 29/7/2024 "
+    },
+    {
+      "id": "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị định số 49/2026/NĐ-CP"
+    },
+    {
+      "id": "01a0b229-6c81-73cf-b713-afdd42ad3b80",
+      "name": "Quy định trình tự, thủ tục hành chính lĩnh vực đất đai áp dụng trên địa bàn tỉnh Quảng Trị",
+      "code": "59/2026/QĐ-UBND"
+    },
+    {
+      "id": "019fe63e-5ffc-73a2-9971-335d80f4d73f",
+      "name": "Luật số 43/2024/QH15 ngày 29/6/2024 sửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng số 32/2024/QH15",
+      "code": "43/2024/QH15 ngày 29/6/2024"
+    },
+    {
+      "id": "019ff547-6a69-7038-a010-d5ec1e9fd252",
+      "name": "Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "Nghị định 118/2025/NĐ-CP "
+    },
+    {
+      "id": "01a08ac7-9f69-714f-b73a-7159f239f942",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định quy định chi tiết thi hành Luật Đất đai",
+      "code": "Nghị định số 226/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0d156-87d8-7676-895d-3394f41ff0ea",
+      "name": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất",
+      "code": "H50.KQ.GCNHSDDTS"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b20-29251b1ac762",
+  "departmentPromulgateCode": "H50",
+  "departmentPromulgateName": "UBND tỉnh Quảng Trị",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791394099606,
+  "updatedAt": 1791394099606,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng Đăng ký đất đai",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công",
+  "delegatedAgencies": "Văn phòng Đăng ký đất đai",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp đăng ký biến động đất đai mà phải tách thửa đất, hợp thửa đất thì phải đảm bảo điều kiện quy định tại Điều 220 Luật Đất đai.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ae89-0763-77f8-a94d-fffa932e509e",
+    "proposalNumber": "3883/QĐ-UBND",
+    "decisionDate": 1791306000000,
+    "decisionNumber": null,
+    "publicationDate": 1791394099405,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b20-29251b1ac762",
+      "name": "UBND tỉnh Quảng Trị"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

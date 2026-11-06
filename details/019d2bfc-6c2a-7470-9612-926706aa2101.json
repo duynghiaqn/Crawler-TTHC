@@ -1,0 +1,489 @@
+{
+  "id": "019d2bfc-6c2a-7470-9612-926706aa2101",
+  "code": "1.008559",
+  "codeNotation": "1.008559",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "+ Bước 1. Người nộp thuế (NNT) được hưởng ưu đãi miễn trừ ngoại giao, Điều ước quốc tế và quyết định của cơ quan có thẩm quyền thuộc trường hợp hoàn thuế GTGT chuẩn bị hồ sơ đề nghị hoàn và gửi đến cơ quan thuế.\nTrường hợp NNT nộp hồ sơ qua giao dịch điện tử: NNT truy cập vào Cổng Dịch vụ công quốc gia/Hệ thống thông tin quản lý thuế để lập hồ sơ điện tử, ký điện tử và gửi đến cơ quan thuế.\nTrường hợp NNT nộp hồ sơ trực tiếp/qua bưu chính theo quy định tại điểm a khoản 5 Điều 8 Thông tư số 89/2026/TT-BTC: NNT lập hồ sơ giấy, ký và gửi đến cơ quan thuế qua Trung tâm Phục vụ hành chính công cấp tỉnh/Trung tâm Phục vụ hành chính công cấp xã hoặc qua đường bưu chính."
+    },
+    {
+      "name": "",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận:\n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc được gửi qua đường bưu chính theo quy định tại điểm a khoản 5 Điều 8 Thông tư số 89/2026/TT-BTC: cơ quan thuế thực hiện tiếp nhận hồ sơ theo quy định.\n+ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận hồ sơ thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế:\n+++ Ghi nhận hồ sơ: Hệ thống thông tin điện tử hiển thị thông tin ghi nhận việc NNT đã nộp hồ sơ hoặc thông báo lỗi cho NNT. \n+++ Tiếp nhận hồ sơ: Cơ quan thuế thực hiện kiểm tra hồ sơ hoàn thuế của NNT theo quy định của Luật Quản lý thuế và các văn bản hướng dẫn thi hành và gửi thông báo tiếp nhận/không tiếp nhận hồ sơ đến Cổng thông tin điện tử mà NNT lựa chọn lập và gửi hồ sơ khai thuế (Cổng Dịch vụ công quốc gia/Hệ thống thông tin quản lý thuế) chậm nhất 03 ngày làm việc kể từ ngày hệ thống thông tin điện tử mà người nộp thuế gửi hồ sơ ghi nhận việc nộp hồ sơ"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trực tiếp tại Trung tâm Phục vụ hành chính công cấp tỉnh, xã\n+ Đối với hồ sơ thuộc diện hoàn thuế trước chậm nhất là 06 ngày làm việc kể từ ngày cơ quan quản lý thuế có thông báo bằng văn bản về việc chấp nhận hồ sơ;\n+ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trực tuyến: qua Cổng dịch vụ công quốc gia/Hệ thống thông tin quản lý thuế. \n+ Đối với hồ sơ thuộc diện hoàn thuế trước chậm nhất là 06 ngày làm việc kể từ ngày cơ quan quản lý thuế có thông báo bằng văn bản về việc chấp nhận hồ sơ;\n\t+ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật\n+ Đối với hồ sơ thuộc diện hoàn thuế trước chậm nhất là 06 ngày làm việc kể từ ngày cơ quan quản lý thuế có thông báo bằng văn bản về việc chấp nhận hồ sơ;\n\t+ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC.",
+  "name": "Hoàn thuế giá trị gia tăng đối với trường hợp được hưởng ưu đãi miễn trừ ngoại giao, Điều ước quốc tế và quyết định của cơ quan có thẩm quyền",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Trường hợp hoàn thuế ưu đãi miễn trừ ngoại giao:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30e-ff405785e695",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị hoàn trả khoản thu ngân sách nhà nước theo mẫu số 01/HT Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.00015743",
+          "attachments": [
+            {
+              "id": "019fa2f8-a909-727f-ba35-f6a5fe859498",
+              "fileName": "01-HT TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa2f8-a909-727f-ba35-f6a5fe859498/01-HT TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd80-efae394b7890",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng kê thuế giá trị gia tăng của hàng hóa, dịch vụ mua vào dùng cho cơ quan đại diện ngoại giao theo mẫu số 01-3a/HT Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC có xác nhận của Cục Lễ tân Nhà nước và Phiên dịch đối ngoại trực thuộc Bộ Ngoại giao xác nhận về chi phí đầu vào thuộc diện áp dụng miễn trừ ngoại giao để được hoàn thuế",
+          "code": "000.00.00.G12-00014510",
+          "attachments": [
+            {
+              "id": "019fa2f9-3f18-7341-a91c-cfaf45e2d25a",
+              "fileName": "01-3a-HT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa2f9-3f18-7341-a91c-cfaf45e2d25a/01-3a-HT.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd80-e9b667de4de4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng kê viên chức ngoại giao thuộc đối tượng được hoàn thuế giá trị gia tăng theo mẫu số 01-3b/HT Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC có xác nhận của Cục Lễ tân Nhà nước và Phiên dịch đối ngoại trực thuộc Bộ Ngoại giao",
+          "code": "000.00.00.G12-00014509",
+          "attachments": [
+            {
+              "id": "019fa2f9-7637-7068-b2b2-42d04a5115cd",
+              "fileName": "01-3b-HT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa2f9-7637-7068-b2b2-42d04a5115cd/01-3b-HT.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp hoàn thuế giá trị gia tăng theo Điều ước quốc tế:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa2d9-cc8a-75af-9299-34d2ff2f8054",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị hoàn trả khoản thu ngân sách nhà nước theo mẫu số 01/HT Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "TP-G12.0001002",
+          "attachments": [
+            {
+              "id": "019fa2fa-02e3-7415-8016-536e123d5357",
+              "fileName": "01-HT TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa2fa-02e3-7415-8016-536e123d5357/01-HT TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa2dc-8118-7168-bb40-8253d97d081e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê hóa đơn, chứng từ hàng hóa dịch vụ mua vào theo mẫu số 01-1/HT Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "TP-G12.0001003",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa2de-285f-7098-8ba7-1ea327a52a90",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Điều ước quốc tế",
+          "code": "TP-G12.0001004",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp hoàn thuế giá trị gia tăng theo quyết định của cơ quan có thẩm quyền theo quy định của pháp luật:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30e-ff405785e695",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị hoàn trả khoản thu ngân sách nhà nước theo mẫu số 01/HT Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.00015743",
+          "attachments": [
+            {
+              "id": "019fa2f8-a909-727f-ba35-f6a5fe859498",
+              "fileName": "01-HT TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa2f8-a909-727f-ba35-f6a5fe859498/01-HT TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa2e4-232e-750d-90b4-2245b5743c86",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Quyết định của cơ quan có thẩm quyền",
+          "code": "TP-G12.0001005",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Từ ngày 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC, NNT được áp dụng các mẫu hồ sơ hoàn thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính và các văn bản sửa đổi, bổ sung cho tất cả các kỳ tính thuế.",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa300-8adb-7363-b137-58c97bea1d45",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê thuế VAT của hàng hóa, dịch vụ mua vào dùng cho cơ quan đại diện ngoại giao",
+          "code": "TP-G12.0001007",
+          "attachments": [
+            {
+              "id": "019fa300-6de4-71bf-a339-d8af55e27340",
+              "fileName": "01-3a-HT- TT80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa300-6de4-71bf-a339-d8af55e27340/01-3a-HT- TT80.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa302-e311-71a8-a2c9-3623f7414928",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị hoàn trả khoản thu ngân sách nhà nước",
+          "code": "TP-G12.0001008",
+          "attachments": [
+            {
+              "id": "019fa302-d9e1-7545-b5a9-f71a562e7768",
+              "fileName": "01-HT TT80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa302-d9e1-7545-b5a9-f71a562e7768/01-HT TT80.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa304-cbf4-75eb-886e-97e9f2c86bd3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê viên chức ngoại giao thuộc đối tượng được hoàn thuế giá trị gia tăng",
+          "code": "TP-G12.0001009",
+          "attachments": [
+            {
+              "id": "019fa304-bfb7-7529-9d33-057c50aac836",
+              "fileName": "01-3b-HT-TT80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa304-bfb7-7529-9d33-057c50aac836/01-3b-HT-TT80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d87-7195-a442-104ae6dd177c",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c73-70ac-aa17-fd7a8f7b7402",
+    "019fa329-7177-760d-ad80-2bef251243b4",
+    "019fa6bb-5cc3-70ff-b663-0bb8c95abfb2",
+    "019fa6be-d9ec-771f-b967-a3bae0d4c476"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a442-104ae6dd177c",
+      "name": "Luật Thuế giá tri gia tăng năm 2024",
+      "code": "48/2024/QH15"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c73-70ac-aa17-fd7a8f7b7402",
+      "name": "Quyết định hoàn thuế kiêm bù trừ thu Ngân sách nhà nước, Thông báo về việc không được hoàn thuế (Mẫu số 04/TB-HT)",
+      "code": "KQ.G12.001297"
+    },
+    {
+      "id": "019fa329-7177-760d-ad80-2bef251243b4",
+      "name": "Quyết định hoàn thuế kiêm bù trừ thu ngân sách nhà nước (mẫu số 02/QĐ-HT)",
+      "code": "KQ.G12.001558"
+    },
+    {
+      "id": "019fa6bb-5cc3-70ff-b663-0bb8c95abfb2",
+      "name": "Quyết định hoàn thuế (Mẫu số 01/QĐ-HT)",
+      "code": "KQ.G12.001600"
+    },
+    {
+      "id": "019fa6be-d9ec-771f-b967-a3bae0d4c476",
+      "name": "Phụ lục số tiền thuế, tiền chậm nộp, tiền phạt phải nộp được bù trừ (Mẫu số 01/PL-BT)",
+      "code": "KQ.G12000603"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019fb215-d2b8-720f-be44-05b49083afdb",
+      "name": "Hoàn thuế GTGT đối với trường hợp được hưởng ưu đãi miễn trừ ngoại giao",
+      "code": "1.008559.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d7563-c5eb-7359-9e38-25541e922311",
+      "name": "Hoàn thuế GTGT đối với trường hợp được hưởng ưu đãi miễn trừ ngoại giao",
+      "code": "1.008559.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559456298,
+  "updatedAt": 1785399198279,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

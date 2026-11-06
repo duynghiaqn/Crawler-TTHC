@@ -1,0 +1,259 @@
+{
+  "id": "01a00f44-4478-735e-ac00-177fb45b4d7d",
+  "code": "1.116684",
+  "codeNotation": "1.116684",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1. Sở Nội vụ tiếp nhận đề nghị khen thưởng của các đơn vị trực thuộc.\n- Bước 2. Thẩm định hồ sơ, xin ý kiến các cơ quan liên quan, báo cáo Hội đồng Thi đua - Khen thưởng tỉnh, sau đó trình Chủ tịch Ủy ban nhân dân tỉnh quyết định khen thưởng.\n- Bước 3. Khi có Quyết định của Chủ tịch Ủy ban nhân dân tỉnh, Sở Nội vụ thông báo Quyết định, viết bằng, đóng dấu và cấp phát cho đơn vị trình khen.\n- Bước 4. Các trường hợp không được khen thưởng (không đúng đối tượng, không đủ tiêu chuẩn, không đủ hồ sơ hoặc vi phạm pháp luật), Sở Nội vụ thông báo đến các đơn vị trình khen biết."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thẩm định hồ sơ khen thưởng và trình cấp có thẩm quyền trong thời hạn 25 ngày làm việc từ ngày nhận đủ hồ sơ theo quy định.  \n- Sau khi nhận được bản sao Quyết định khen thưởng của cấp có thẩm quyền khen thưởng, trong thời hạn 10 ngày làm việc, cơ quan trình khen thưởng sao gửi Quyết định khen thưởng cho các trường hợp được khen thưởng.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không có",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thẩm định hồ sơ khen thưởng và trình cấp có thẩm quyền trong thời hạn 25 ngày làm việc từ ngày nhận đủ hồ sơ theo quy định.  \n- Sau khi nhận được bản sao Quyết định khen thưởng của cấp có thẩm quyền khen thưởng, trong thời hạn 10 ngày làm việc, cơ quan trình khen thưởng sao gửi Quyết định khen thưởng cho các trường hợp được khen thưởng.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không có",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thẩm định hồ sơ khen thưởng và trình cấp có thẩm quyền trong thời hạn 25 ngày làm việc từ ngày nhận đủ hồ sơ theo quy định.  \n- Sau khi nhận được bản sao Quyết định khen thưởng của cấp có thẩm quyền khen thưởng, trong thời hạn 10 ngày làm việc, cơ quan trình khen thưởng sao gửi Quyết định khen thưởng cho các trường hợp được khen thưởng.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không có",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "1. Danh hiệu chiến sĩ thi đua tỉnh để tặng cho cá nhân đạt các tiêu chuẩn sau đây:\na) Có thành tích xuất sắc tiêu biểu được lựa chọn trong số những cá nhân có 03 lần liên tục được tặng danh hiệu “Chiến sĩ thi đua cơ sở”;\nb) Có sáng kiến đã được áp dụng hiệu quả và có khả năng nhân rộng trong tỉnh hoặc có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu và áp dụng hiệu quả, có phạm vi ảnh hưởng trong tỉnh hoặc mưu trí, sáng tạo trong chiến đấu, phục vụ chiến đấu có phạm vi ảnh hưởng trong toàn quân hoặc toàn lực lượng Công an nhân dân.\n2. Người đứng đầu tỉnh xem xét, công nhận hiệu quả và khả năng nhân rộng, phạm vi ảnh hưởng trong tỉnh của sáng kiến, đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ. \nBộ Chỉ huy Quân sự, Công an tỉnh xem xét, công nhận sự mưu trí, sáng tạo trong chiến đấu, phục vụ chiến đấu có phạm vi ảnh hưởng trong toàn quân hoặc toàn lực lượng Công an nhân dân”.",
+  "name": "Thủ tục tặng danh hiệu “Chiến sĩ thi đua tỉnh”",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0e73c-5eb1-737f-9ee6-c5fadba888c4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Hồ sơ đề nghị xét tặng danh hiệu thi đua gồm: - Tờ trình đề nghị xét tặng danh hiệu thi đua; - Báo cáo thành tích của cá nhân; - Biên bản bình xét thi đua và kết quả bỏ phiếu của Hội đồng Thi đua - Khen thưởng cấp trình khen thưởng; - Chứng nhận hoặc xác nhận của người đứng đầu tỉnh về sáng kiến đã được áp dụng hiệu quả và có khả năng nhân rộng trong tỉnh hoặc có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu và áp dụng hiệu quả, có phạm vi ảnh hưởng trong tỉnh hoặc mưu trí, sáng tạo trong chiến đấu, phục vụ chiến đấu có phạm vi ảnh hưởng trong toàn quân hoặc toàn lực lượng Công an nhân dân. b) Số lượng hồ sơ đề nghị xét tặng Chiến sĩ thi đua cấp tỉnh thực hiện theo quy định của Chủ tịch Ủy ban nhân dân tỉnh: 02 bộ (hoặc theo quy định của Chủ tịch Ủy ban nhân dân tỉnh).",
+          "code": "H41-KQ000125",
+          "attachments": [
+            {
+              "id": "01a0e73c-48e1-7777-9254-f7c1fdd70fd2",
+              "fileName": "3434.Mẫu số 03 Đối với cá nhân.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0e73c-48e1-7777-9254-f7c1fdd70fd2/3434.Mẫu số 03 Đối với cá nhân.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+    "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+    "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1",
+    "01a00f38-7cb7-77a8-8392-f900f41d57c4"
+  ],
+  "resultIds": [
+    "01a00f43-b294-734c-bf41-7a86be6dc1f6"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b14-75f6d4995002"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b14-75f6d4995002",
+      "name": "Sở Nội Vụ - Tỉnh Nghệ An",
+      "code": "H41.39"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+      "name": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng",
+      "code": "152/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+      "name": "Luật Thi đua, khen thưởng",
+      "code": "06/2022/QH15"
+    },
+    {
+      "id": "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1",
+      "name": "Sửa đổi, bổ sung một số điều của Quy chế thi đua, khen thưởng trên địa bàn tỉnh Nghệ An và Phụ lục I ban hành kèm theo Quyết định số 81/2025/QĐ-UBND ngày 31/10/2025 của Ủy ban nhân dân tỉnh Nghệ An",
+      "code": "34/2026/QĐ-UBND"
+    },
+    {
+      "id": "01a00f38-7cb7-77a8-8392-f900f41d57c4",
+      "name": "Ban hành Quy chế thi đua, khen thưởng trên địa bàn tỉnh Nghệ An",
+      "code": "81/2025/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a00f43-b294-734c-bf41-7a86be6dc1f6",
+      "name": "Quyết định tặng danh hiệu: Chiến sĩ thi đua tỉnh",
+      "code": "KQ.G09.001002"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+  "departmentPromulgateCode": "H41",
+  "departmentPromulgateName": "UBND tỉnh Nghệ An",
+  "cases": [
+    {
+      "id": "01a0f536-2e1a-76ac-88d1-00d9644123cf",
+      "name": "Thủ tục tặng danh hiệu “Chiến sĩ thi đua tỉnh”",
+      "code": "1.116684.01",
+      "processingDay": {
+        "qty": 35,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790589915531,
+  "updatedAt": 1790589915531,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Nội Vụ - Tỉnh Nghệ An",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tiếp hoặc thông qua hệ thống bưu chính tại Trung tâm Phục vụ hành chính công cấp tỉnh, cấp xã hoặc trực tuyến thông qua Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "1. Danh hiệu chiến sĩ thi đua tỉnh để tặng cho cá nhân đạt các tiêu chuẩn sau đây:\na) Có thành tích xuất sắc tiêu biểu được lựa chọn trong số những cá nhân có 03 lần liên tục được tặng danh hiệu “Chiến sĩ thi đua cơ sở”;\nb) Có sáng kiến đã được áp dụng hiệu quả và có khả năng nhân rộng trong tỉnh hoặc có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu và áp dụng hiệu quả, có phạm vi ảnh hưởng trong tỉnh hoặc mưu trí, sáng tạo trong chiến đấu, phục vụ chiến đấu có phạm vi ảnh hưởng trong toàn quân hoặc toàn lực lượng Công an nhân dân.\n2. Người đứng đầu tỉnh xem xét, công nhận hiệu quả và khả năng nhân rộng, phạm vi ảnh hưởng trong tỉnh của sáng kiến, đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ. \nBộ Chỉ huy Quân sự, Công an tỉnh xem xét, công nhận sự mưu trí, sáng tạo trong chiến đấu, phục vụ chiến đấu có phạm vi ảnh hưởng trong toàn quân hoặc toàn lực lượng Công an nhân dân”.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0066e-6e26-742a-bc1f-105b7ae8b874",
+    "proposalNumber": "3434/QĐ-UBND",
+    "decisionDate": 1785690000000,
+    "decisionNumber": null,
+    "publicationDate": 1790589915436,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+      "name": "UBND tỉnh Nghệ An"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

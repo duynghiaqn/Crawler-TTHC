@@ -1,0 +1,235 @@
+{
+  "id": "01a067aa-3d8a-74e6-a1fc-19aca1f61b28",
+  "code": "1.116552",
+  "codeNotation": "1.116552",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Hai hoặc một số văn phòng giám định tư pháp có thể hợp nhất thành một văn phòng giám định tư pháp mới (sau đây gọi là văn phòng giám định tư pháp hợp nhất) bằng cách chuyển toàn bộ tài sản, quyền, nghĩa vụ và lợi ích hợp pháp sang văn phòng giám định tư pháp hợp nhất, đồng thời chấm dứt hoạt động của các văn phòng giám định tư pháp bị hợp nhất.\nVăn phòng giám định tư pháp đề nghị hợp nhất lập 01 bộ hồ sơ theo quy định, nộp trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp hoặc Trung tâm phục vụ hành chính công tỉnh, thành phố nơi văn phòng giám định tư pháp hợp nhất dự kiến đặt trụ sở hoặc trực tuyến theo quy định tại Điều 2 của Nghị định số 177/2026/NĐ-CP ngày 19/5/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Giám định tư pháp.\nTrong thời hạn 20 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Tư pháp tỉnh, thành phố xem xét, quyết định cấp giấy đăng ký hoạt động cho văn phòng giám định tư pháp hợp nhất; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Hợp nhất văn phòng giám định tư pháp được tổ chức và hoạt động dưới hình thức công ty hợp danh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a067a5-a78f-71f9-b8af-ab4306a96d17",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hợp nhất của văn phòng giám định tư pháp",
+          "code": "TP-G15.33-1000001",
+          "attachments": [
+            {
+              "id": "01a067a5-9ea6-76ef-8a60-475b70e4524e",
+              "fileName": "Mẫu TP14_Đơn đn hợp nhất và sát nhập VPGĐ.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a067a5-9ea6-76ef-8a60-475b70e4524e/Mẫu TP14_Đơn đn hợp nhất và sát nhập VPGĐ.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a067a7-5194-730e-b82a-112b0f01df03",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hợp đồng hợp nhất văn phòng, trong đó có các nội dung chủ yếu sau: Tên, địa chỉ trụ sở của các văn phòng bị hợp nhất; tên, địa chỉ trụ sở của văn phòng giám định tư pháp hợp nhất; danh sách giám định viên hợp danh tại các văn phòng giám định tư pháp bị hợp nhất; thời gian thực hiện hợp nhất; số lượng và phân loại hồ sơ giám định của các văn phòng giám định bị hợp nhất; phương án chuyển tài sản của các văn phòng giám định bị hợp nhất sang văn phòng giám định hợp nhất; phương án sử dụng lao động của văn phòng giám định tư pháp hợp nhất; việc kế thừa toàn bộ quyền, nghĩa vụ của các văn phòng giám định bị hợp nhất và các nội dung khác có liên quan. Mỗi văn phòng giám định tư pháp bị hợp nhất cử một giám định viên tư pháp hợp danh làm đại diện để ký kết hợp đồng hợp nhất",
+          "code": "TP-G15.33-1000002",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a067a7-f3ed-73d7-bb93-5dede34eeab4",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Kê khai thuế, báo cáo tài chính trong 03 năm gần nhất đã được kiểm toán của các văn phòng giám định tư pháp bị hợp nhất",
+          "code": "TP-G15.33-1000003",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a067a8-b1d8-734f-be6d-5e0c709b9bb3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Thẻ giám định viên tư pháp của các giám định viên tư pháp của văn phòng giám định tư pháp",
+          "code": "TP-G15.33-1000004",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0666a-36b1-758a-b184-d986ec52dc4e",
+    "01a0666c-3cd7-74a9-80b5-f2296fc0681c"
+  ],
+  "resultIds": [
+    "01a067a9-d08f-7294-a152-8beeec261d9c"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3",
+      "name": "Giám định tư pháp",
+      "code": "G15-TP06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3",
+    "name": "Giám định tư pháp",
+    "code": "G15-TP06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dae14-45ef-7462-9028-2facf17f028a"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dae14-45ef-7462-9028-2facf17f028a",
+      "name": "Sở Tư pháp"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0666c-3cd7-74a9-80b5-f2296fc0681c",
+      "name": "Nghị định số 177/2026/NĐ-CP ngày 19/5/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Giám định tư pháp",
+      "code": "177/2026/NĐ-CP"
+    },
+    {
+      "id": "01a0666a-36b1-758a-b184-d986ec52dc4e",
+      "name": "Luật Giám định tư pháp năm 2025",
+      "code": "105/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a067a9-d08f-7294-a152-8beeec261d9c",
+      "name": "Cấp Giấy đăng ký hoạt động cho văn phòng giám định tư pháp",
+      "code": "KQ.G15.99707"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d603f1537007",
+  "departmentPromulgateCode": "G15",
+  "departmentPromulgateName": "Bộ Tư pháp",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1788451549284,
+  "updatedAt": 1788451549284,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Hồ sơ được nộp trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp hoặc Trung tâm phục vụ hành chính công tỉnh, thành phố nơi văn phòng giám định tư pháp hợp nhất dự kiến đặt trụ sở hoặc trực tuyến",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0662c-75a1-743b-8fe0-435be75b70a0",
+    "proposalNumber": "1998/QĐ-BTP",
+    "decisionDate": 1788368400000,
+    "decisionNumber": null,
+    "publicationDate": 1788451549153,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

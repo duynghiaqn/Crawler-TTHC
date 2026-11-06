@@ -1,0 +1,494 @@
+{
+  "id": "019d2bfc-54b1-716c-b947-16aadc566930",
+  "code": "1.008333",
+  "codeNotation": "1.008333",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1."
+    },
+    {
+      "name": "(i) Trường hợp khai thuế đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài",
+      "description": "- Nhà thầu nước ngoài, nhà thầu phụ nước ngoài nộp thuế GTGT tính trực tiếp trên GTGT, nộp thuế TNDN theo tỷ lệ % tính trên doanh thu đối với hoạt động kinh doanh và các loại thu nhập khác khai theo lần phát sinh thanh toán tiền cho nhà thầu nước ngoài. Bên Việt Nam ký hợp đồng với nhà thầu nước ngoài khấu trừ và nộp thuế thay cho nhà thầu nước ngoài. Hồ sơ khai thuế được nộp cho cơ quan thuế quản lý trực tiếp của bên Việt Nam. Trường hợp bên Việt Nam thanh toán cho nhà thầu nước ngoài nhiều lần trong tháng thì có thể đăng ký khai thuế theo tháng thay cho việc khai theo từng lần phát sinh thanh toán tiền cho nhà thầu nước ngoài. \n- Nhà thầu nước ngoài, nhà thầu phụ nước ngoài trực tiếp thực hiện khai thuế giá trị gia tăng theo phương pháp khấu trừ, thuế thu nhập doanh nghiệp theo tỷ lệ % trên doanh thu tính thuế nộp hồ sơ khai thuế, hồ sơ khai quyết toán thuế cho cơ quan thuế quản lý trực tiếp bên Việt Nam. Trường hợp nhà thầu nước ngoài nhận được tiền thanh toán nhiều lần trong tháng thì có thể đăng ký khai thuế theo tháng thay cho việc khai theo từng lần phát sinh."
+    },
+    {
+      "name": "(ii) Trường hợp khai thuế đối với nhà cung cấp nước ngoài, cá nhân không cư trú có hoạt động kinh doanh trên nền tảng TMĐT",
+      "description": "- Tổ chức kinh doanh tại Việt Nam áp dụng phương pháp tính thuế GTGT là phương pháp khấu trừ thuế khai theo từng lần phát sinh thanh toán tiền cho Nhà cung cấp nước ngoài, cá nhân không cư trú. \n- Trường hợp thanh toán cho Nhà cung cấp nước ngoài, cá nhân không cư trú nhiều lần trong tháng thì Tổ chức kinh doanh tại Việt Nam áp dụng phương pháp tính thuế GTGT là phương pháp khấu trừ thuế có thể đăng ký khai thuế theo tháng thay cho việc khai theo từng lần phát sinh."
+    },
+    {
+      "name": "(iii) Khai quyết toán thuế nhà thầu nước ngoài, nhà thầu phụ nước ngoài",
+      "description": "- Nhà thầu nước ngoài, nhà thầu phụ nước ngoài nộp thuế GTGT tính trực tiếp trên GTGT, nộp thuế TNDN theo tỷ lệ % tính trên doanh thu khai quyết toán thuế khi kết thúc hợp đồng nhà thầu nếu có phát sinh thay đổi số thuế đã khai và nộp. Bên Việt Nam ký hợp đồng với nhà thầu nước ngoài khấu trừ và nộp thuế thay cho nhà thầu nước ngoài nộp hồ sơ khai quyết toán thuế cho cơ quan thuế quản lý trực tiếp của bên Việt Nam. \n- Nhà thầu nước ngoài, nhà thầu phụ nước ngoài trực tiếp thực hiện khai thuế giá trị gia tăng theo phương pháp khấu trừ, thuế thu nhập doanh nghiệp theo tỷ lệ % trên doanh thu tính thuế lập hồ sơ khai quyết toán thuế khi kết thúc hợp đồng nhà thầu nếu có phát sinh thay đổi số thuế đã khai và nộp. Hồ sơ khai quyết toán thuế cho cơ quan thuế quản lý trực tiếp bên Việt Nam."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan thuế tiếp nhận hồ sơ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "name": "Khai thuế; Khai quyết toán đối với Nhà thầu nước ngoài, Nhà thầu phụ nước ngoài/Khai thuế đối với nhà cung cấp nước ngoài, cá nhân không cư trú có hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(i-1) Khai thuế đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài - Đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài nộp thuế GTGT theo phương pháp tính trực tiếp trên GTGT, nộp thuế TNDN theo tỷ lệ % tính trên doanh thu đối với hoạt động kinh doanh và các loại thu nhập khác gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ace-0ee9467f9906",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế mẫu số 01/NTNN,NCCNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0009587",
+          "attachments": [
+            {
+              "id": "019facef-bb04-7469-8c32-eff8dd3596a1",
+              "fileName": "1. 01.NTNN - NCCNN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facef-bb04-7469-8c32-eff8dd3596a1/1. 01.NTNN - NCCNN.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f31-0f16f987575c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hợp đồng nhà thầu, hợp đồng nhà thầu phụ (đối với lần khai thuế đầu tiên của hợp đồng nhà thầu)",
+          "code": "G12.0011855",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(i-2) Khai thuế đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài Đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài nộp thuế GTGT theo phương pháp khấu trừ, thuế TNDN theo tỷ lệ % tính trên doanh thu gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f30-c79caed9e50d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế mẫu số 03/NTNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0011837",
+          "attachments": [
+            {
+              "id": "019facf0-f342-7464-9ce5-94c1c7191614",
+              "fileName": "5. 03.NTNN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf0-f342-7464-9ce5-94c1c7191614/5. 03.NTNN.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f31-0f16f987575c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hợp đồng nhà thầu, hợp đồng nhà thầu phụ (đối với lần khai thuế đầu tiên của hợp đồng nhà thầu)",
+          "code": "G12.0011855",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(ii) Trường hợp khai thuế đối với nhà cung cấp nước ngoài, cá nhân không cư trú có hoạt động kinh doanh trên nền tảng TMĐT:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ace-0ee9467f9906",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế mẫu số 01/NTNN,NCCNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0009587",
+          "attachments": [
+            {
+              "id": "019facef-bb04-7469-8c32-eff8dd3596a1",
+              "fileName": "1. 01.NTNN - NCCNN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facef-bb04-7469-8c32-eff8dd3596a1/1. 01.NTNN - NCCNN.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(iii-1) Khai quyết toán thuế đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài - Đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài nộp thuế GTGT theo phương pháp tính trực tiếp trên GTGT, nộp thuế TNDN theo tỷ lệ % tính trên doanh thu đối với hoạt động kinh doanh và các loại thu nhập khác gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8aca-1fff2ff5085b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế mẫu số 02/NTNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0009335",
+          "attachments": [
+            {
+              "id": "019facf2-72d4-70df-ad87-89e027f7aa85",
+              "fileName": "2. 02.NTNN.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf2-72d4-70df-ad87-89e027f7aa85/2. 02.NTNN.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8aca-23690cfe5095",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục Bảng kê các Nhà thầu nước ngoài theo mẫu số 02-1/NTNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0009336",
+          "attachments": [
+            {
+              "id": "019facf2-e67b-7347-a2f3-63bdea38d2bc",
+              "fileName": "3. 02-1.NTNN.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf2-e67b-7347-a2f3-63bdea38d2bc/3. 02-1.NTNN.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8aca-322c879da667",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục Bảng kê các nhà thầu phụ tham gia thực hiện hợp đồng nhà thầu theo mẫu số 02-2/NTNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0009340",
+          "attachments": [
+            {
+              "id": "019facf3-598a-7374-83e7-e798672c40a2",
+              "fileName": "4. 02-2.NTNN.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf3-598a-7374-83e7-e798672c40a2/4. 02-2.NTNN.doc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "(iii-2) Khai quyết toán thuế đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài - Đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài nộp thuế GTGT theo phương pháp khấu trừ, thuế TNDN theo tỷ lệ % tính trên doanh thu gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8aca-2fb79d72b4d3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế mẫu số 04/NTNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0009339",
+          "attachments": [
+            {
+              "id": "019facf4-1e04-7006-bae1-db8ad77177a9",
+              "fileName": "6. 04.NTNN.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf4-1e04-7006-bae1-db8ad77177a9/6. 04.NTNN.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8aca-322c879da667",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục Bảng kê các nhà thầu phụ tham gia thực hiện hợp đồng nhà thầu theo mẫu số 02-2/NTNN ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0009340",
+          "attachments": [
+            {
+              "id": "019facf3-598a-7374-83e7-e798672c40a2",
+              "fileName": "4. 02-2.NTNN.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf3-598a-7374-83e7-e798672c40a2/4. 02-2.NTNN.doc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019facf6-926f-712c-ba42-3d5b34686bb0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì các tờ khai 01/NTNN (theo Thông tư số 89/2026/TT-BTC là mẫu số 01/NTNN,NCCNN); 02/NTNN; 02-1/NTNN; 02-2/NTNN; 03/NTNN; 04/NTNN thực hiện theo mẫu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính (đã được sửa đổi, bổ sung)",
+          "code": "G12.0009341",
+          "attachments": [
+            {
+              "id": "019facf6-84ee-70a3-a3e4-11cf44d0686e",
+              "fileName": "04 NTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf6-84ee-70a3-a3e4-11cf44d0686e/04 NTNN TT 80.docx"
+            },
+            {
+              "id": "019facf6-85ff-701f-a7a7-112bace1ad96",
+              "fileName": "03 NTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf6-85ff-701f-a7a7-112bace1ad96/03 NTNN TT 80.docx"
+            },
+            {
+              "id": "019facf6-8757-712f-a69e-4b31fa4afd3a",
+              "fileName": "02-2 NTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf6-8757-712f-a69e-4b31fa4afd3a/02-2 NTNN TT 80.docx"
+            },
+            {
+              "id": "019facf6-886f-77c9-bc11-53b1cc21a185",
+              "fileName": "02-1 NTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf6-886f-77c9-bc11-53b1cc21a185/02-1 NTNN TT 80.docx"
+            },
+            {
+              "id": "019facf6-8987-758e-a672-fee48c1c5d7d",
+              "fileName": "02 NTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf6-8987-758e-a672-fee48c1c5d7d/02 NTNN TT 80.docx"
+            },
+            {
+              "id": "019facf6-8a93-71f0-b779-b649b2f7bb47",
+              "fileName": "01 TNTNN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019facf6-8a93-71f0-b779-b649b2f7bb47/01 TNTNN TT 80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Bên Việt Nam khai thay, nộp thay; Nhà thầu nước ngoài trực tiếp kê khai, nộp thuế; Tổ chức kinh doanh tại Việt Nam áp dụng phương pháp tính thuế GTGT là phương pháp khấu trừ thuế khấu trừ của Nhà cung cấp nước ngoài, cá nhân không cư trú có hoạt động kinh doanh trên nền tảng TMĐT",
+  "keywords": "nhà thầu nước ngoài, nhà thầu phụ nước ngoài, nhà cung cấp nước ngoài, cá nhân không cư trú",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019facec-88aa-72dd-b9d6-a47f7f622abc"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019facec-88aa-72dd-b9d6-a47f7f622abc",
+      "name": "Không phải trả kết quả cho người nộp thuế",
+      "code": "KQ.G12.001885"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2dc3-34f4-74dc-9217-974e024e7a0a",
+      "name": "Khai thuế/ Khai quyết toán đối với Nhà thầu nước ngoài, Nhà thầu phụ nước ngoài",
+      "code": "1.008333.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-ce2f-7667-94f1-9016adcf536d",
+      "name": "Khai thuế/ Khai quyết toán đối với Nhà thầu nước ngoài, Nhà thầu phụ nước ngoài",
+      "code": "1.008333.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559450289,
+  "updatedAt": 1785399199173,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/Thuế cơ sở/Chi cục Thuế Doanh nghiệp lớn/Chi cục Thuế Thương mại điện tử.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

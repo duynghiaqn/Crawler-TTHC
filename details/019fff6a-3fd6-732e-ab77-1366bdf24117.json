@@ -1,0 +1,269 @@
+{
+  "id": "019fff6a-3fd6-732e-ab77-1366bdf24117",
+  "code": "2.002912",
+  "codeNotation": "2.002912",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Nộp hồ sơ TTHC:\nChủ đầu tư dự án xây dựng nút giao đấu nối vào đường địa phương đang khai thác nộp 01 bộ hồ sơ trực tiếp hoặc qua bưu chính hoặc trực tuyến, cụ thể như sau:\n- Trực tiếp tại Bộ phận Một cửa:\n+ Trung tâm Phục vụ hành chính công Thành phố Hồ Chí Minh:\nKhu vực I: Số 43 Nguyễn Văn Bá, phường Thủ Đức.\nKhu vực II: Tòa nhà Trung tâm hành chính, đường Lê Lợi, phường Bình Dương.\nKhu vực III: Số 4 Nguyễn Tất Thành, phường Bà Rịa.\n+ Trung tâm Phục vụ hành chính công cấp xã.\n- Trực tuyến tại Cổng Dịch vụ công quốc gia: https://dichvucong.gov.vn/.\nb) Giải quyết TTHC: Trong thời hạn 05 ngày làm việc kể từ khi nhận đủ hồ sơ theo quy định, cơ quan có thẩm quyền (Sở Xây dựng, Ủy ban nhân dân cấp xã) tiến hành xem xét hồ sơ, nếu đủ điều kiện thì cấp giấy phép thi công nút giao đấu nối theo quy định, trường hợp không cấp phép thì phải có văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Cấp phép thi công nút giao đấu nối vào đường địa phương đang khai tháctrên địa bàn Thành phố Hồ Chí Minh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fff67-fa52-773e-af7e-6ad508fc9f67",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "mẫu đơn đề nghị cấp phép thi công nút giao đấu nối vào đường địa phương đang khai thác trên địa bàn thành phố hồ chí minh",
+          "code": "TP-H29.0000105",
+          "attachments": [
+            {
+              "id": "019fff67-f3a6-7448-98b6-cd7e867b1914",
+              "fileName": "MẪU SỐ 02.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fff67-f3a6-7448-98b6-cd7e867b1914/MẪU SỐ 02.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fff69-8050-758a-85e1-27958352f250",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thuyết minh và bản vẽ biện pháp tổ chức thi công nút giao đấu nối vào đường địa phương đang khai thác; biện pháp bảo đảm giao thông đường bộ khi thi công xây dựng nút giao đấu nối.",
+          "code": "TP-H29.0000106",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-b96b6387bf1b"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fff6a-0826-717d-9ed4-0d81e6f7fbbd"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-b96b6387bf1b",
+      "name": "Đường bộ",
+      "code": "G04-GT02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-b96b6387bf1b",
+    "name": "Đường bộ",
+    "code": "G04-GT02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da",
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    },
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fff6a-0826-717d-9ed4-0d81e6f7fbbd",
+      "name": "Giấy phép thi công nút giao đấu nối vào đường địa phương đang khai thác trên địa bàn Thành phố Hồ Chí Minh",
+      "code": "KQ-H29.0000021"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-855a-9a81af57b106",
+  "departmentPromulgateCode": "H29",
+  "departmentPromulgateName": "UBND Thành phố Hồ Chí Minh",
+  "cases": [
+    {
+      "id": "019fff6c-6ac6-777a-8e03-04008724fd8e",
+      "name": "Cấp phép thi công nút giao đấu nối vào đường địa phương đang khai tháctrên địa bàn Thành phố Hồ Chí Minh",
+      "code": "2.002912.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786696615261,
+  "updatedAt": 1786696615261,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fff50-852b-75c4-aae9-3281c0f80346",
+    "proposalNumber": "4113/QĐ-UBND",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1786696615233,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-855a-9a81af57b106",
+      "name": "UBND Thành phố Hồ Chí Minh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

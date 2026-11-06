@@ -1,0 +1,297 @@
+{
+  "id": "01a07f02-3542-717c-9a9c-1fc440cd7872",
+  "code": "1.116581",
+  "codeNotation": "1.116581",
+  "executionSteps": [
+    {
+      "name": "Bước 1:",
+      "description": "Người sử dụng đất nông nghiệp nộp hồ sơ đến một trong các cơ quan trên địa bàn tỉnh sau: Trung tâm Phục vụ hành chính công tỉnh, Trung tâm Phục vụ hành chính công cấp xã, Chi nhánh Văn phòng đăng ký đất đai (nơi có bố trí địa điểm tiếp nhận hồ sơ).\nTrường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai."
+    },
+    {
+      "name": "Bước 2:",
+      "description": "Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai có trách nhiệm:\n- Kiểm tra hồ sơ.\n- Xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính.\n- Trao Giấy chứng nhận hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 06 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và đặc khu Lý Sơn thì thời gian giải quyết thủ tục hành chính được cộng thêm 10 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 06 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và đặc khu Lý Sơn thì thời gian giải quyết thủ tục hành chính được cộng thêm 10 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 06 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và đặc khu Lý Sơn thì thời gian giải quyết thủ tục hành chính được cộng thêm 10 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí."
+        }
+      ]
+    }
+  ],
+  "description": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp.",
+  "name": "Xác nhận tiếp tục sử dụng đất nông nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a07eff-dba2-720c-92f4-2bda48801113",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn xin xác nhận xác nhận lại thời hạn sử dụng đất theo Mẫu số 36 Phụ lục ban hành kèm theo Quyết định số 122/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh.",
+          "code": "TP-H48-0057",
+          "attachments": [
+            {
+              "id": "01a07eff-b98e-718c-b787-6751c88b49e4",
+              "fileName": "Mau so 36.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a07eff-b98e-718c-b787-6751c88b49e4/Mau so 36.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a04254-4d75-7479-9369-220d526220a4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Giấy chứng nhận đã cấp",
+          "code": "TP-H48-0036",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019daef1-961d-7369-bdb6-2fa1ba4349a0",
+    "019d2bb3-5d87-7195-a446-50796660596e",
+    "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
+    "019d2bb3-5d85-73da-8eb8-4849db22ed36",
+    "019d2bb3-5d87-7195-a447-f9a5abcd2f43",
+    "019d2bb3-5d85-73da-8eb8-298b0b3e5261",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "01a036d7-b02b-731e-abe9-6eb1ec26e188"
+  ],
+  "resultIds": [
+    "01a04131-a7ae-71ab-9896-f5179d8ecd86"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b1a-cadbc115cc0e"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b1a-cadbc115cc0e",
+      "name": "Văn phòng đăng ký đất đai tỉnh Quảng Ngãi",
+      "code": "H48.103.24"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019daef1-961d-7369-bdb6-2fa1ba4349a0",
+      "name": "Luật số 71/2025/QH15 của Quốc hội: Luật Công nghiệp công nghệ số",
+      "code": "Luật số 71/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
+      "name": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo",
+      "code": "93/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eb8-298b0b3e5261",
+      "name": "Luật Địa chất và khoáng sản sửa đổi 2025",
+      "code": "147/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a446-50796660596e",
+      "name": "Luật Thanh tra năm 2025",
+      "code": "84/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eb8-4849db22ed36",
+      "name": "Luật số 95/2025/QH15 của Quốc hội: Luật Đường sắt",
+      "code": "95/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a447-f9a5abcd2f43",
+      "name": "Luật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường",
+      "code": "Luật số 146/2025/QH15"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "01a036d7-b02b-731e-abe9-6eb1ec26e188",
+      "name": "Quyết định số 122/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh ban hành quy định trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Quảng Ngãi.",
+      "code": "122/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a04131-a7ae-71ab-9896-f5179d8ecd86",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H48-0012"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b1a-b8df51d5f6bf",
+  "departmentPromulgateCode": "H48",
+  "departmentPromulgateName": "UBND tỉnh Quảng Ngãi",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790383267053,
+  "updatedAt": 1790383267053,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng đăng ký đất đai tỉnh Quảng Ngãi",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh, Trung tâm Phục vụ hành chính công cấp xã, Chi nhánh Văn phòng đăng ký đất đai (nơi có bố trí địa điểm tiếp nhận hồ sơ).\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a031c1-b81f-76a8-b248-9038b17f129e",
+    "proposalNumber": "1836/QĐ-UBND",
+    "decisionDate": 1783962000000,
+    "decisionNumber": null,
+    "publicationDate": 1790383262873,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b1a-b8df51d5f6bf",
+      "name": "UBND tỉnh Quảng Ngãi"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

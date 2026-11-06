@@ -1,0 +1,772 @@
+{
+  "id": "019d2bfc-7428-7107-b445-7089eeb05dec",
+  "code": "1.008759",
+  "codeNotation": "1.008759",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người nộp thuế lập và gửi hồ sơ:"
+    },
+    {
+      "name": "Đối với trường hợp chia tổ chức",
+      "description": "+++ Tổ chức bị chia: nộp hồ sơ đề nghị chấm dứt hiệu lực mã số thuế theo quy định tại Điều 13 Thông tư số 90/2026/TT-BTC đến cơ quan thuế quản lý trực tiếp trong thời hạn 10 (mười) ngày làm việc kể từ ngày có Quyết định chia tổ chức hoặc văn bản tương đương. \n+++ Các tổ chức mới thành lập từ tổ chức bị chia phải thực hiện thủ tục đăng ký thuế với cơ quan thuế trong thời hạn 10 ngày làm việc kể từ ngày ghi trên giấy phép thành lập và hoạt động hoặc giấy phép tương đương theo quy định tại điểm a khoản 3 Điều 6 Nghị định số 252/2026/NĐ-CP và Điều 7 Thông tư số 90/2026/TT-BTC theo nơi nộp hồ sơ như sau:\n++++ Tổ chức kinh tế (trừ tổ hợp tác) quy định tại điểm a, b khoản 2 Điều 4 Thông tư số 90/2026/TT-BTC nộp hồ sơ đăng ký thuế tại Thuế tỉnh, thành phố nơi đặt trụ sở của tổ chức kinh tế. \n++++ Tổ hợp tác, tổ chức khác theo quy định tại điểm b, c, p khoản 2 Điều 4 Thông tư số 90/2026/TT-BTC nộp hồ sơ đăng ký thuế tại Thuế cơ sở nơi tổ hợp tác đóng trụ sở, tại Thuế tỉnh, thành phố nơi tổ chức đóng trụ sở đối với tổ chức do cơ quan trung ương và cơ quan cấp tỉnh ra quyết định thành lập (trừ đơn vị theo hệ thống ngành dọc hoạt động tại cấp xã), tại Thuế cơ sở nơi tổ chức đóng trụ sở đối với tổ chức không do cơ quan trung ương và cơ quan cấp tỉnh ra quyết định thành lập, đơn vị theo hệ thống ngành dọc hoạt động tại cấp xã do cơ quan trung ương và cơ quan cấp tỉnh ra quyết định thành lập."
+    },
+    {
+      "name": "Đối với trường hợp tách tổ chức",
+      "description": "+++ Tổ chức bị tách: nếu có phát sinh thay đổi thông tin đăng ký thuế sau khi tách thì phải thực hiện thủ tục thay đổi thông tin đăng ký thuế với cơ quan thuế quản lý trực tiếp trong thời hạn là 10 (mười) ngày làm việc kể từ ngày được cấp giấy phép thành lập và hoạt động, quyết định thành lập hoặc văn bản tương đương khác của cơ quan nhà nước có thẩm quyền.\n+++ Tổ chức được tách: phải thực hiện thủ tục đăng ký thuế với cơ quan thuế trong thời hạn 10 ngày làm việc kể từ ngày ghi trên giấy phép thành lập và hoạt động hoặc giấy phép tương đương theo quy định tại điểm a khoản 6 Nghị định số 252/2026/NĐ-CP và Điều 7 Thông tư số 90/2026/TT-BTC theo nơi nộp hồ sơ như sau:\n++++ Tổ chức kinh tế (trừ tổ hợp tác) quy định tại điểm a, b khoản 2 Điều 4 Thông tư số 90/2026/TT-BTC nộp hồ sơ đăng ký thuế tại Thuế tỉnh, thành phố nơi đặt trụ sở của tổ chức kinh tế. \n++++ Tổ hợp tác, tổ chức khác theo quy định tại điểm b, c, p khoản 2 Điều 4 Thông tư số 90/2026/TT-BTC nộp hồ sơ đăng ký thuế tại Thuế cơ sở nơi tổ hợp tác đóng trụ sở, tại Thuế tỉnh, thành phố nơi tổ chức đóng trụ sở đối với tổ chức do cơ quan trung ương và cơ quan cấp tỉnh ra quyết định thành lập (trừ đơn vị theo hệ thống ngành dọc hoạt động tại cấp xã), tại Thuế cơ sở nơi tổ chức đóng trụ sở đối với tổ chức không do cơ quan trung ương và cơ quan cấp tỉnh ra quyết định thành lập, đơn vị theo hệ thống ngành dọc hoạt động tại cấp xã do cơ quan trung ương và cơ quan cấp tỉnh ra quyết định thành lập."
+    },
+    {
+      "name": "Đối với trường hợp sáp nhập tổ chức",
+      "description": "+++ Tổ chức bị sáp nhập nộp hồ sơ đề nghị chấm dứt hiệu lực mã số thuế đến cơ quan thuế quản lý trực tiếp trong thời hạn 10 (mười) ngày làm việc kể từ ngày có hợp đồng sáp nhập hoặc văn bản tương đương. Thủ tục chấm dứt hiệu lực mã số thuế thực hiện theo quy định tại Điều 13 Thông tư số 90/2026/TT-BTC.\n+++ Tổ chức nhận sáp nhập nếu có phát sinh thay đổi thông tin đăng ký thuế sau khi sáp nhập thì trong thời hạn 10 (mười) làm việc ngày kể từ ngày được cấp giấy phép thành lập và hoạt động, quyết định thành lập hoặc giấy tờ tương đương khác, tổ chức nhận sáp nhập phải thực hiện thủ tục thông báo thay đổi thông tin đăng ký thuế với cơ quan thuế quản lý trực tiếp."
+    },
+    {
+      "name": "Đối với trường hợp hợp nhất tổ chức",
+      "description": "+++ Các tổ chức bị hợp nhất nộp hồ sơ đề nghị chấm dứt hiệu lực mã số thuế đến cơ quan thuế quản lý trực tiếp trong thời hạn 10 (mười) ngày làm việc kể từ ngày có hợp đồng hợp nhất hoặc văn bản tương đương. Thủ tục chấm dứt hiệu lực mã số thuế thực hiện theo quy định tại Điều 13 Thông tư số 90/2026/TT-BTC. \n+++ Tổ chức hợp nhất phải thực hiện thủ tục đăng ký thuế với cơ quan thuế trong thời hạn 10 ngày làm việc kể từ ngày ghi trên giấy phép thành lập và hoạt động hoặc giấy phép tương đương theo quy định tại điểm a khoản 6 Nghị định số 252/2026/NĐ-CP và Điều 7 Thông tư số 90/2026/TT-BTC theo nơi nộp hồ sơ như sau:\n++++ Tổ chức kinh tế (trừ tổ hợp tác) quy định tại điểm a, b khoản 2 Điều 4 Thông tư số 90/2026/TT-BTC nộp hồ sơ đăng ký thuế tại Thuế tỉnh, thành phố nơi đặt trụ sở của tổ chức kinh tế. \n++++ Tổ hợp tác, tổ chức khác theo quy định tại điểm b, c, p khoản 2 Điều 4 Thông tư số 90/2026/TT-BTC nộp hồ sơ đăng ký thuế tại Thuế cơ sở nơi tổ hợp tác đóng trụ sở, tại Thuế tỉnh, thành phố nơi tổ chức đóng trụ sở đối với tổ chức do cơ quan trung ương và cơ quan cấp tỉnh ra quyết định thành lập (trừ đơn vị theo hệ thống ngành dọc hoạt động tại cấp xã), tại Thuế cơ sở nơi tổ chức đóng trụ sở đối với tổ chức không do cơ quan trung ương và cơ quan cấp tỉnh ra quyết định thành lập, đơn vị theo hệ thống ngành dọc hoạt động tại cấp xã do cơ quan trung ương và cơ quan cấp tỉnh ra quyết định thành lập."
+    },
+    {
+      "name": "Đối với trường hợp chuyển đổi loại hình tổ chức",
+      "description": "Tổ chức sau chuyển đổi phải thực hiện thủ tục thông báo thay đổi thông tin đăng ký thuế với cơ quan thuế quản lý trực tiếp trong thời hạn là 10 (mười) ngày làm việc kể từ ngày được cấp giấy phép thành lập và hoạt động, quyết định thành lập hoặc văn bản tương đương khác của cơ quan nhà nước có thẩm quyền."
+    },
+    {
+      "name": "Đối với trường hợp hồ sơ đăng ký thuế điện tử",
+      "description": "Cổng Dịch vụ công quốc gia, Ứng dụng định danh quốc gia hoặc Hệ thống thông tin quản lý thuế; thực hiện lập hồ sơ đăng ký thuế trực tuyến, xác thực điện tử của người nộp thuế là cá nhân, người đại diện theo pháp luật của người nộp thuế là tổ chức (bao gồm thông tin sinh trắc học theo quy định về định danh và xác thực điện tử của Chính phủ và lộ trình của cơ quan thuế) và gửi cho cơ quan thuế."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan thuế tiếp nhận"
+    },
+    {
+      "name": "Đối với hồ sơ bằng giấy",
+      "description": "+++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế: Công chức thuế kiểm tra hồ sơ đăng ký thuế. Trường hợp hồ sơ đầy đủ theo quy định, công chức thuế tiếp nhận và đóng dấu tiếp nhận vào hồ sơ đăng ký thuế, ghi rõ ngày nhận hồ sơ, số lượng tài liệu theo bảng kê danh mục hồ sơ; lập phiếu tiếp nhận và hẹn trả kết quả, thời hạn xử lý hồ sơ đã tiếp nhận. Trường hợp hồ sơ không đầy đủ theo quy định, công chức thuế không tiếp nhận và hướng dẫn người nộp thuế hoàn thiện hồ sơ.\n+++ Trường hợp hồ sơ gửi bằng đường bưu chính: Công chức thuế đóng dấu tiếp nhận, ghi ngày nhận hồ sơ vào hồ sơ và ghi số văn thư của cơ quan thuế. Trường hợp hồ sơ không đầy đủ cần phải giải trình, bổ sung thông tin, tài liệu, cơ quan thuế thông báo cho người nộp thuế theo mẫu số 01/TB-BSTT-NNT ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính trong thời hạn 02 (hai) ngày làm việc kể từ ngày tiếp nhận hồ sơ."
+    },
+    {
+      "name": "Đối với hồ sơ điện tử",
+      "description": "Cơ quan thuế thực hiện tiếp nhận hồ sơ qua Cổng thông tin điện tử của Cục Thuế, thực hiện kiểm tra, giải quyết hồ sơ thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.\n+++ Tiếp nhận hồ sơ: Cổng Dịch vụ công quốc gia, Ứng dụng định danh quốc gia hoặc Hệ thống thông tin quản lý thuế tiếp nhận, phản hồi tự động cho người nộp thuế để ghi nhận việc thực hiện nộp hồ sơ đăng ký thuế điện tử. \nTrong thời hạn 01 (một) ngày làm việc kể từ ngày hệ thống thông tin điện tử ghi nhận việc nộp hồ sơ của người nộp thuế, cơ quan thuế thông báo cho người nộp thuế về việc tiếp nhận hoặc không tiếp nhận hồ sơ đăng ký thuế điện tử theo mẫu số 01/TB-TĐT ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế (gọi chung là Thông tư số 89/2026/TT-BTC) qua Cổng Dịch vụ công quốc gia, Ứng dụng định danh quốc gia hoặc Hệ thống thông tin quản lý thuế.\nTrường hợp hồ sơ đăng ký thuế không được tiếp nhận, thông báo của cơ quan thuế phải nêu rõ lý do để người nộp thuế hoàn thiện và gửi lại hồ sơ đăng ký thuế.\n+++ Kiểm tra, giải quyết hồ sơ: Cơ quan thuế thực hiện kiểm tra, giải quyết hồ sơ của người nộp thuế theo quy định của pháp luật về đăng ký thuế và trả kết quả giải quyết qua Cổng thông tin điện tử mà người nộp thuế lựa chọn lập và gửi hồ sơ theo thời hạn quy định tại Thông tư số 90/2026/TT-BTC."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Đối với tổ chức mới thành lập sau chia, tách, hợp nhất: 03 (ba) ngày làm việc kể từ ngày cơ quan thuế nhận được hồ sơ đăng ký thuế đầy đủ theo quy định.\n+ Đối với tổ chức bị chấm dứt hiệu lực mã số thuế do bị chia, bị sáp nhập, bị hợp nhất: \n++ Cơ quan thuế quản lý trực tiếp thực hiện:\n+++ Trong thời hạn 02 (hai) ngày làm việc kể từ ngày cơ quan thuế nhận đủ hồ sơ chấm dứt hiệu lực mã số thuế của người nộp thuế, cơ quan thuế phải thực hiện Thông báo người nộp thuế ngừng hoạt động và đang làm thủ tục chấm dứt hiệu lực mã số thuế theo mẫu số 17/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi cho người nộp thuế. Đồng thời chuyển trạng thái của người nộp thuế và các đơn vị phụ thuộc của người nộp thuế về trạng thái \"NNT ngừng hoạt động và chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế\" trên hệ thống ứng dụng đăng ký thuế.\n+++ Ban hành Thông báo gửi cho đơn vị chủ quản, đơn vị phụ thuộc theo mẫu số 35/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC trong trường hợp cơ quan thuế nhận được hồ sơ chấm dứt hiệu lực mã số thuế của đơn vị chủ quản nhưng các đơn vị phụ thuộc chưa thực hiện thủ tục chấm dứt hiệu lực mã số thuế.\n+++ Trường hợp đơn vị phụ thuộc chấm dứt hiệu lực mã số thuế nhưng không có khả năng hoàn thành nghĩa vụ còn phải nộp hoặc còn nợ, hoặc vẫn còn số nộp thừa, số thuế giá trị gia tăng chưa khấu trừ hết sau khi đã thực hiện bù trừ hoặc hoàn trả kiêm bù trừ theo quy định của pháp luật về quản lý thuế, đơn vị chủ quản đã có văn bản cam kết chịu trách nhiệm kế thừa toàn bộ khoản nghĩa vụ thuế của đơn vị phụ thuộc thì cơ quan hải quan, cơ quan thuế quản lý trực tiếp đơn vị phụ thuộc thực hiện chuyển nghĩa vụ của đơn vị phụ thuộc cho đơn vị chủ quản và ban hành Thông báo về việc chuyển nghĩa vụ thuế của người nộp thuế mẫu số 39/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi cho người nộp thuế là đơn vị chủ quản, đơn vị phụ thuộc, cơ quan thuế quản lý trực tiếp đơn vị chủ quản.\n+++ Trường hợp đơn vị bị chia, bị sáp nhập, bị hợp nhất chấm dứt hiệu lực mã số thuế nhưng không có khả năng hoàn thành nghĩa vụ còn phải nộp hoặc còn nợ, hoặc vẫn còn số nộp thừa, số thuế giá trị gia tăng chưa khấu trừ hết sau khi đã thực hiện bù trừ hoặc hoàn trả kiêm bù trừ theo quy định của pháp luật về quản lý thuế, các đơn vị mới thành lập từ đơn vị bị chia, bị sáp nhập, bị hợp nhất đã có thỏa thuận về việc kế thừa toàn bộ khoản nghĩa vụ thuế của đơn vị bị chia, bị sáp nhập, bị hợp nhất thì cơ quan hải quan, cơ quan thuế quản lý trực tiếp đơn vị bị chia, bị sáp nhập, bị hợp nhất thực hiện chuyển nghĩa vụ cho đơn vị mới và ban hành Thông báo về việc chuyển nghĩa vụ thuế của người nộp thuế mẫu số 39/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi người nộp thuế là đơn vị bị chia, bị sáp nhập, bị hợp nhất, các đơn vị mới, cơ quan thuế quản lý trực tiếp các đơn vị mới.\n+++ Trong thời hạn 03 (ba) ngày làm việc kể từ ngày người nộp thuế đã hoàn thành nghĩa vụ nộp thuế với cơ quan thuế và cơ quan hải quan hoặc cơ quan thuế hoàn thành việc chuyển toàn bộ nghĩa vụ nợ thuế và các khoản thu khác thuộc ngân sách nhà nước của đơn vị phụ thuộc sang đơn vị chủ quản, của đơn vị bị chia, bị sáp nhập, bị hợp nhất sang đơn vị mới theo quy định, cơ quan thuế ban hành Thông báo chấm dứt hiệu lực mã số thuế theo mẫu số 18/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi cho người nộp thuế.\n++ Cơ quan thuế quản lý khoản thu thực hiện:\nCập nhật thông tin người nộp thuế đã hoàn thành nghĩa vụ thuế đối với khoản thu thuộc cơ quan thuế quản lý vào Hệ thống ứng dụng đăng ký thuế ngay trong ngày làm việc hoặc chậm nhất vào đầu giờ ngày làm việc tiếp theo ngày người nộp thuế hoàn thành nghĩa vụ nộp thuế tại cơ quan thuế quản lý khoản thu.\n+ Đối với tổ chức bị tách, tổ chức nhận sáp nhập, tổ chức chuyển đổi loại hình tổ chức thay đổi thông tin ĐKT: \n++ Trong 02 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ thay đổi thông tin đăng ký thuế (đối với trường hợp không phải cấp lại Giấy chứng nhận đăng ký thuế).\n++ Trong 03 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ thay đổi thông tin đăng ký thuế (đối với trường hợp phải cấp lại Giấy chứng nhận đăng ký thuế).\n++ Trường hợp chuyển đổi giữa các loại hình doanh nghiệp hoạt động theo Luật doanh nghiệp, chuyển đổi từ tổ hợp tác thành hợp tác xã theo Luật Hợp tác xã, cơ quan thuế cập nhật thông tin thay đổi khi nhận được giao dịch đăng ký doanh nghiệp, đăng ký hợp tác xã từ cơ quan đăng ký kinh doanh truyền sang.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Đối với tổ chức mới thành lập sau chia, tách, hợp nhất: 03 (ba) ngày làm việc kể từ ngày cơ quan thuế nhận được hồ sơ đăng ký thuế đầy đủ theo quy định.\n+ Đối với tổ chức bị chấm dứt hiệu lực mã số thuế do bị chia, bị sáp nhập, bị hợp nhất: \n++ Cơ quan thuế quản lý trực tiếp thực hiện:\n+++ Trong thời hạn 02 (hai) ngày làm việc kể từ ngày cơ quan thuế nhận đủ hồ sơ chấm dứt hiệu lực mã số thuế của người nộp thuế, cơ quan thuế phải thực hiện Thông báo người nộp thuế ngừng hoạt động và đang làm thủ tục chấm dứt hiệu lực mã số thuế theo mẫu số 17/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi cho người nộp thuế. Đồng thời chuyển trạng thái của người nộp thuế và các đơn vị phụ thuộc của người nộp thuế về trạng thái \"NNT ngừng hoạt động và chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế\" trên hệ thống ứng dụng đăng ký thuế.\n+++ Ban hành Thông báo gửi cho đơn vị chủ quản, đơn vị phụ thuộc theo mẫu số 35/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC trong trường hợp cơ quan thuế nhận được hồ sơ chấm dứt hiệu lực mã số thuế của đơn vị chủ quản nhưng các đơn vị phụ thuộc chưa thực hiện thủ tục chấm dứt hiệu lực mã số thuế.\n+++ Trường hợp đơn vị phụ thuộc chấm dứt hiệu lực mã số thuế nhưng không có khả năng hoàn thành nghĩa vụ còn phải nộp hoặc còn nợ, hoặc vẫn còn số nộp thừa, số thuế giá trị gia tăng chưa khấu trừ hết sau khi đã thực hiện bù trừ hoặc hoàn trả kiêm bù trừ theo quy định của pháp luật về quản lý thuế, đơn vị chủ quản đã có văn bản cam kết chịu trách nhiệm kế thừa toàn bộ khoản nghĩa vụ thuế của đơn vị phụ thuộc thì cơ quan hải quan, cơ quan thuế quản lý trực tiếp đơn vị phụ thuộc thực hiện chuyển nghĩa vụ của đơn vị phụ thuộc cho đơn vị chủ quản và ban hành Thông báo về việc chuyển nghĩa vụ thuế của người nộp thuế mẫu số 39/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi cho người nộp thuế là đơn vị chủ quản, đơn vị phụ thuộc, cơ quan thuế quản lý trực tiếp đơn vị chủ quản.\n+++ Trường hợp đơn vị bị chia, bị sáp nhập, bị hợp nhất chấm dứt hiệu lực mã số thuế nhưng không có khả năng hoàn thành nghĩa vụ còn phải nộp hoặc còn nợ, hoặc vẫn còn số nộp thừa, số thuế giá trị gia tăng chưa khấu trừ hết sau khi đã thực hiện bù trừ hoặc hoàn trả kiêm bù trừ theo quy định của pháp luật về quản lý thuế, các đơn vị mới thành lập từ đơn vị bị chia, bị sáp nhập, bị hợp nhất đã có thỏa thuận về việc kế thừa toàn bộ khoản nghĩa vụ thuế của đơn vị bị chia, bị sáp nhập, bị hợp nhất thì cơ quan hải quan, cơ quan thuế quản lý trực tiếp đơn vị bị chia, bị sáp nhập, bị hợp nhất thực hiện chuyển nghĩa vụ cho đơn vị mới và ban hành Thông báo về việc chuyển nghĩa vụ thuế của người nộp thuế mẫu số 39/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi người nộp thuế là đơn vị bị chia, bị sáp nhập, bị hợp nhất, các đơn vị mới, cơ quan thuế quản lý trực tiếp các đơn vị mới.\n+++ Trong thời hạn 03 (ba) ngày làm việc kể từ ngày người nộp thuế đã hoàn thành nghĩa vụ nộp thuế với cơ quan thuế và cơ quan hải quan hoặc cơ quan thuế hoàn thành việc chuyển toàn bộ nghĩa vụ nợ thuế và các khoản thu khác thuộc ngân sách nhà nước của đơn vị phụ thuộc sang đơn vị chủ quản, của đơn vị bị chia, bị sáp nhập, bị hợp nhất sang đơn vị mới theo quy định, cơ quan thuế ban hành Thông báo chấm dứt hiệu lực mã số thuế theo mẫu số 18/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi cho người nộp thuế.\n++ Cơ quan thuế quản lý khoản thu thực hiện:\nCập nhật thông tin người nộp thuế đã hoàn thành nghĩa vụ thuế đối với khoản thu thuộc cơ quan thuế quản lý vào Hệ thống ứng dụng đăng ký thuế ngay trong ngày làm việc hoặc chậm nhất vào đầu giờ ngày làm việc tiếp theo ngày người nộp thuế hoàn thành nghĩa vụ nộp thuế tại cơ quan thuế quản lý khoản thu.\n+ Đối với tổ chức bị tách, tổ chức nhận sáp nhập, tổ chức chuyển đổi loại hình tổ chức thay đổi thông tin ĐKT: \n++ Trong 02 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ thay đổi thông tin đăng ký thuế (đối với trường hợp không phải cấp lại Giấy chứng nhận đăng ký thuế).\n++ Trong 03 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ thay đổi thông tin đăng ký thuế (đối với trường hợp phải cấp lại Giấy chứng nhận đăng ký thuế).\n++ Trường hợp chuyển đổi giữa các loại hình doanh nghiệp hoạt động theo Luật doanh nghiệp, chuyển đổi từ tổ hợp tác thành hợp tác xã theo Luật Hợp tác xã, cơ quan thuế cập nhật thông tin thay đổi khi nhận được giao dịch đăng ký doanh nghiệp, đăng ký hợp tác xã từ cơ quan đăng ký kinh doanh truyền sang.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Đối với tổ chức mới thành lập sau chia, tách, hợp nhất: 03 (ba) ngày làm việc kể từ ngày cơ quan thuế nhận được hồ sơ đăng ký thuế đầy đủ theo quy định.\n+ Đối với tổ chức bị chấm dứt hiệu lực mã số thuế do bị chia, bị sáp nhập, bị hợp nhất: \n++ Cơ quan thuế quản lý trực tiếp thực hiện:\n+++ Trong thời hạn 02 (hai) ngày làm việc kể từ ngày cơ quan thuế nhận đủ hồ sơ chấm dứt hiệu lực mã số thuế của người nộp thuế, cơ quan thuế phải thực hiện Thông báo người nộp thuế ngừng hoạt động và đang làm thủ tục chấm dứt hiệu lực mã số thuế theo mẫu số 17/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi cho người nộp thuế. Đồng thời chuyển trạng thái của người nộp thuế và các đơn vị phụ thuộc của người nộp thuế về trạng thái \"NNT ngừng hoạt động và chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế\" trên hệ thống ứng dụng đăng ký thuế.\n+++ Ban hành Thông báo gửi cho đơn vị chủ quản, đơn vị phụ thuộc theo mẫu số 35/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC trong trường hợp cơ quan thuế nhận được hồ sơ chấm dứt hiệu lực mã số thuế của đơn vị chủ quản nhưng các đơn vị phụ thuộc chưa thực hiện thủ tục chấm dứt hiệu lực mã số thuế.\n+++ Trường hợp đơn vị phụ thuộc chấm dứt hiệu lực mã số thuế nhưng không có khả năng hoàn thành nghĩa vụ còn phải nộp hoặc còn nợ, hoặc vẫn còn số nộp thừa, số thuế giá trị gia tăng chưa khấu trừ hết sau khi đã thực hiện bù trừ hoặc hoàn trả kiêm bù trừ theo quy định của pháp luật về quản lý thuế, đơn vị chủ quản đã có văn bản cam kết chịu trách nhiệm kế thừa toàn bộ khoản nghĩa vụ thuế của đơn vị phụ thuộc thì cơ quan hải quan, cơ quan thuế quản lý trực tiếp đơn vị phụ thuộc thực hiện chuyển nghĩa vụ của đơn vị phụ thuộc cho đơn vị chủ quản và ban hành Thông báo về việc chuyển nghĩa vụ thuế của người nộp thuế mẫu số 39/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi cho người nộp thuế là đơn vị chủ quản, đơn vị phụ thuộc, cơ quan thuế quản lý trực tiếp đơn vị chủ quản.\n+++ Trường hợp đơn vị bị chia, bị sáp nhập, bị hợp nhất chấm dứt hiệu lực mã số thuế nhưng không có khả năng hoàn thành nghĩa vụ còn phải nộp hoặc còn nợ, hoặc vẫn còn số nộp thừa, số thuế giá trị gia tăng chưa khấu trừ hết sau khi đã thực hiện bù trừ hoặc hoàn trả kiêm bù trừ theo quy định của pháp luật về quản lý thuế, các đơn vị mới thành lập từ đơn vị bị chia, bị sáp nhập, bị hợp nhất đã có thỏa thuận về việc kế thừa toàn bộ khoản nghĩa vụ thuế của đơn vị bị chia, bị sáp nhập, bị hợp nhất thì cơ quan hải quan, cơ quan thuế quản lý trực tiếp đơn vị bị chia, bị sáp nhập, bị hợp nhất thực hiện chuyển nghĩa vụ cho đơn vị mới và ban hành Thông báo về việc chuyển nghĩa vụ thuế của người nộp thuế mẫu số 39/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi người nộp thuế là đơn vị bị chia, bị sáp nhập, bị hợp nhất, các đơn vị mới, cơ quan thuế quản lý trực tiếp các đơn vị mới.\n+++ Trong thời hạn 03 (ba) ngày làm việc kể từ ngày người nộp thuế đã hoàn thành nghĩa vụ nộp thuế với cơ quan thuế và cơ quan hải quan hoặc cơ quan thuế hoàn thành việc chuyển toàn bộ nghĩa vụ nợ thuế và các khoản thu khác thuộc ngân sách nhà nước của đơn vị phụ thuộc sang đơn vị chủ quản, của đơn vị bị chia, bị sáp nhập, bị hợp nhất sang đơn vị mới theo quy định, cơ quan thuế ban hành Thông báo chấm dứt hiệu lực mã số thuế theo mẫu số 18/TB-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC gửi cho người nộp thuế.\n++ Cơ quan thuế quản lý khoản thu thực hiện:\nCập nhật thông tin người nộp thuế đã hoàn thành nghĩa vụ thuế đối với khoản thu thuộc cơ quan thuế quản lý vào Hệ thống ứng dụng đăng ký thuế ngay trong ngày làm việc hoặc chậm nhất vào đầu giờ ngày làm việc tiếp theo ngày người nộp thuế hoàn thành nghĩa vụ nộp thuế tại cơ quan thuế quản lý khoản thu.\n+ Đối với tổ chức bị tách, tổ chức nhận sáp nhập, tổ chức chuyển đổi loại hình tổ chức thay đổi thông tin ĐKT: \n++ Trong 02 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ thay đổi thông tin đăng ký thuế (đối với trường hợp không phải cấp lại Giấy chứng nhận đăng ký thuế).\n++ Trong 03 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ thay đổi thông tin đăng ký thuế (đối với trường hợp phải cấp lại Giấy chứng nhận đăng ký thuế).\n++ Trường hợp chuyển đổi giữa các loại hình doanh nghiệp hoạt động theo Luật doanh nghiệp, chuyển đổi từ tổ hợp tác thành hợp tác xã theo Luật Hợp tác xã, cơ quan thuế cập nhật thông tin thay đổi khi nhận được giao dịch đăng ký doanh nghiệp, đăng ký hợp tác xã từ cơ quan đăng ký kinh doanh truyền sang.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng các quy định của pháp luật về giao dịch điện tử đồng thời đăng ký và đảm bảo đầy đủ các điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế theo quy định tại Thông tư số 89/TT-BTC ngày 30/6/2026 của Bộ Tài chính.",
+  "name": "Đăng ký thuế trong trường hợp chia, tách, hợp nhất, sáp nhập tổ chức",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "* Đối với tổ chức mới được chia, tổ chức được tách, tổ chức hợp nhất là hồ sơ đăng ký thuế lần đầu -Tổ chức kinh tế (trừ tổ hợp tác) quy định tại điểm a, b khoản 2 Điều 4 Thông tư số 90/2026/TT-BTC:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-6efc9fd90c0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai đăng ký thuế mẫu số 01-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC",
+          "code": "G12.0001266",
+          "attachments": [
+            {
+              "id": "019f8d09-d6ad-772f-8c28-f2926a6eccb1",
+              "fileName": "01 ĐKT (TT 90).docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d09-d6ad-772f-8c28-f2926a6eccb1/01 ĐKT (TT 90).docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-88a5b073f997",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê các công ty con, công ty thành viên mẫu số BK01-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0001269",
+          "attachments": [
+            {
+              "id": "019f8d0b-8a50-7078-a5cf-1744bf134443",
+              "fileName": "BK01 ĐKT TT90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0b-8a50-7078-a5cf-1744bf134443/BK01 ĐKT TT90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-902203290665",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê các đơn vị phụ thuộc mẫu số BK02-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0001270",
+          "attachments": [
+            {
+              "id": "019f8d0c-b0ec-734b-8d9f-543aa9885b58",
+              "fileName": "BK02 ĐKT TT90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0c-b0ec-734b-8d9f-543aa9885b58/BK02 ĐKT TT90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-9a9ba8ee4bd7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê địa điểm kinh doanh mẫu số BK03-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0001271",
+          "attachments": [
+            {
+              "id": "019f8d0d-d391-7679-82f0-8d97df8deddb",
+              "fileName": "BK03 ĐKT TT90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0d-d391-7679-82f0-8d97df8deddb/BK03 ĐKT TT90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-95663c9cac18",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê các nhà thầu nước ngoài, nhà thầu phụ nước ngoài mẫu số BK04-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0001272",
+          "attachments": [
+            {
+              "id": "019f8d0e-792a-762f-a23b-a6608dca5313",
+              "fileName": "BK04 ĐKT TT 90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0e-792a-762f-a23b-a6608dca5313/BK04 ĐKT TT 90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-a028eea051d0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê góp vốn của tổ chức, cá nhân mẫu số BK06-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0001273",
+          "attachments": [
+            {
+              "id": "019f8d0e-e8fc-7499-936f-9d907edc17de",
+              "fileName": "BK 06 ĐKT TT 90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0e-e8fc-7499-936f-9d907edc17de/BK 06 ĐKT TT 90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-9c2a1d4786fa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê chủ sở hữu pháp lý, chủ sở hữu hưởng lợi của công ty nước ngoài có chi nhánh, văn phòng đại diện tại Việt Nam mẫu số BK07-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0001274",
+          "attachments": [
+            {
+              "id": "019f8d0f-a0fa-76da-bce9-7a39509be66b",
+              "fileName": "BK 07 ĐKT TT 90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0f-a0fa-76da-bce9-7a39509be66b/BK 07 ĐKT TT 90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6f-f9ea4f79af61",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Giấy phép thành lập và hoạt động, hoặc Quyết định thành lập, hoặc văn bản tương đương do cơ quan có thẩm quyền cấp, hoặc Giấy chứng nhận đăng ký kinh doanh theo quy định của pháp luật của nước có chung biên giới (đối với tổ chức của nước có chung biên giới đất liền với Việt Nam thực hiện hoạt động mua, bán, trao đổi hàng hóa tại chợ biên giới, chợ cửa khẩu, chợ trong khu kinh tế cửa khẩu của Việt Nam).",
+          "code": "G12.0001275",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f8e8a-a88e-714f-9e30-93da4e7dbfcb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp quyết định thành lập thuộc danh mục bí mật nhà nước theo quy định của pháp luật thì người nộp thuế không phải nộp bản sao quyết định thành lập khi đăng ký thuế nhưng phải có văn bản cung cấp thông tin về việc tài liệu thuộc danh mục bí mật nhà nước và chịu trách nhiệm về tính chính xác của thông tin kê khai trên hồ sơ đăng ký thuế",
+          "code": "G12.0003878",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6f-765cd31018cd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao quyết định chia/tách/hợp đồng hợp nhất hoặc văn bản tương đương",
+          "code": "G12.00035787",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "* Đối với tổ chức mới được chia, tổ chức được tách, tổ chức hợp nhất là hồ sơ đăng ký thuế lần đầu - Tổ chức khác và tổ hợp tác theo quy định tại điểm b, c, p khoản 2 Điều 4 Thông tư số 90/2026/TT-BTC:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-6efc9fd90c0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai đăng ký thuế mẫu số 01-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC",
+          "code": "G12.0001266",
+          "attachments": [
+            {
+              "id": "019f8d09-d6ad-772f-8c28-f2926a6eccb1",
+              "fileName": "01 ĐKT (TT 90).docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d09-d6ad-772f-8c28-f2926a6eccb1/01 ĐKT (TT 90).docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-88a5b073f997",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê các công ty con, công ty thành viên mẫu số BK01-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0001269",
+          "attachments": [
+            {
+              "id": "019f8d0b-8a50-7078-a5cf-1744bf134443",
+              "fileName": "BK01 ĐKT TT90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0b-8a50-7078-a5cf-1744bf134443/BK01 ĐKT TT90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-902203290665",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê các đơn vị phụ thuộc mẫu số BK02-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0001270",
+          "attachments": [
+            {
+              "id": "019f8d0c-b0ec-734b-8d9f-543aa9885b58",
+              "fileName": "BK02 ĐKT TT90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0c-b0ec-734b-8d9f-543aa9885b58/BK02 ĐKT TT90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-9a9ba8ee4bd7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê địa điểm kinh doanh mẫu số BK03-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0001271",
+          "attachments": [
+            {
+              "id": "019f8d0d-d391-7679-82f0-8d97df8deddb",
+              "fileName": "BK03 ĐKT TT90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0d-d391-7679-82f0-8d97df8deddb/BK03 ĐKT TT90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ab-713b-aa00-9ed4105d5d81",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê các nhà thầu nước ngoài, nhà thầu phụ nước ngoài mẫu số BK04-ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC (nếu có)",
+          "code": "G12.0003066",
+          "attachments": [
+            {
+              "id": "019f8d33-12bf-7788-8e3a-0cc0ca030b8c",
+              "fileName": "BK04 ĐKT TT 90.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d33-12bf-7788-8e3a-0cc0ca030b8c/BK04 ĐKT TT 90.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd70-8cbebead743a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Quyết định thành lập, hoặc văn bản tương đương do cơ quan có thẩm quyền cấp",
+          "code": "G12.0001298",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f8e8d-42f6-7297-b849-61c8bd87a0d0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp quyết định thành lập thuộc danh mục bí mật nhà nước theo quy định của pháp luật thì người nộp thuế không phải nộp bản sao quyết định thành lập khi đăng ký thuế nhưng phải có văn bản cung cấp thông tin về việc tài liệu thuộc danh mục bí mật nhà nước và chịu trách nhiệm về tính chính xác của thông tin kê khai trên hồ sơ đăng ký thuế",
+          "code": "G12.0003879",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6f-765cd31018cd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao quyết định chia/tách/hợp đồng hợp nhất hoặc văn bản tương đương",
+          "code": "G12.00035787",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "* Đối với tổ chức bị chia, tổ chức bị sáp nhập, tổ chức bị hợp nhất là hồ sơ chấm dứt hiệu lực mã số thuế gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a30a-0e9f7b3209f4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị chấm dứt hiệu lực mã số thuế mẫu số 24/ĐKT ban hành kèm theo Thông tư số 90/2026/TT-BTC",
+          "code": "G12.0003748",
+          "attachments": [
+            {
+              "id": "019f8e5c-a6cb-7269-8f76-33cfd1cde685",
+              "fileName": "27.Mẫu 24-ĐKT Đề nghị chấm dứt MST.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e5c-a6cb-7269-8f76-33cfd1cde685/27.Mẫu 24-ĐKT Đề nghị chấm dứt MST.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6f-765cd31018cd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao quyết định chia/tách/hợp đồng hợp nhất hoặc văn bản tương đương",
+          "code": "G12.00035787",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "* Đối với tổ chức bị tách, tổ chức nhận sáp nhập, tổ chức sau chuyển đổi loại hình tổ chức nếu có thay đổi thông tin đăng ký thuế thì hồ sơ thay đổi thông tin đăng ký thuế, gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a309-f9b7832a113f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai điều chỉnh, bổ sung thông tin đăng ký thuế mẫu số 08-MST ban hành kèm theo Thông tư số 90/2026/TT-BTC",
+          "code": "G12.0003017",
+          "attachments": [
+            {
+              "id": "019f8e2f-751a-73ee-8435-3b024040af10",
+              "fileName": "22.Mẫu 08-MST TK thay đổi thông tin ĐKT.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e2f-751a-73ee-8435-3b024040af10/22.Mẫu 08-MST TK thay đổi thông tin ĐKT.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6f-8db6a9a0f15a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao quyết định tách tổ chức, hoặc bản sao hợp đồng sáp nhập, hoặc bản sao quyết định chuyển đổi loại hình của tổ chức hoặc văn bản tương đương",
+          "code": "G12.0003874",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ab-713b-aa02-b2586fa081c4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao Giấy phép thành lập và hoạt động, Quyết định thành lập hoặc Giấy tờ tương đương khác",
+          "code": "G12.0003875",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f8e96-3191-7709-84a3-d8500f6b20e1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ ngày 01/7/2026 đến trước thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 36 Thông tư số 90/2026/TT-BTC thì tiếp tục áp dụng mẫu số 01-ĐK-TCT, 24/ĐK-TCT, 08-MST, BK01-ĐK-TCT, BK02-ĐK-TCT, BK03-ĐK-TCT, BK04-ĐK-TCT, BK06-ĐK-TCT ban hành kèm theo Thông tư số 86/2024/TT-BTC ngày 23/12/2024 của Bộ Tài chính đối với trường hợp đăng ký thuế theo phương thức điện tử",
+          "code": "G12.0003876",
+          "attachments": [
+            {
+              "id": "019f8e93-090e-758e-b714-d78caf444345",
+              "fileName": "01 ĐKT TCT TT 86.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e93-090e-758e-b714-d78caf444345/01 ĐKT TCT TT 86.docx"
+            },
+            {
+              "id": "019f8e93-944f-73d9-bd0c-923e842d6c73",
+              "fileName": "BK 06 ĐKT TCT TT86.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e93-944f-73d9-bd0c-923e842d6c73/BK 06 ĐKT TCT TT86.docx"
+            },
+            {
+              "id": "019f8e93-9566-702d-8547-5a282883bf2b",
+              "fileName": "BK04 ĐK TCT TT 86.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e93-9566-702d-8547-5a282883bf2b/BK04 ĐK TCT TT 86.docx"
+            },
+            {
+              "id": "019f8e93-9684-701d-be01-d58ae5f8a735",
+              "fileName": "BK02 ĐK TCT TT 86.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e93-9684-701d-be01-d58ae5f8a735/BK02 ĐK TCT TT 86.docx"
+            },
+            {
+              "id": "019f8e93-97b2-72bc-ab4f-ba0414e44b52",
+              "fileName": "BK01 ĐK TCT TT 86.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e93-97b2-72bc-ab4f-ba0414e44b52/BK01 ĐK TCT TT 86.docx"
+            },
+            {
+              "id": "019f8e93-a4ed-7178-abfa-cc6be4b56660",
+              "fileName": "08 MST TT 86.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e93-a4ed-7178-abfa-cc6be4b56660/08 MST TT 86.docx"
+            },
+            {
+              "id": "019f8e93-bdf6-77da-a612-f4116f25d638",
+              "fileName": "24 ĐK TCT TT 86.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e93-bdf6-77da-a612-f4116f25d638/24 ĐK TCT TT 86.docx"
+            },
+            {
+              "id": "019f8e94-8b99-72bf-8cf8-0c5bd44e34f6",
+              "fileName": "BK 03 ĐK TCT TT 86.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8e94-8b99-72bf-8cf8-0c5bd44e34f6/BK 03 ĐK TCT TT 86.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Tổ chức kinh tế, tổ chức khác",
+  "keywords": "Đăng ký thuế, chia, tách, hợp nhất, sáp nhập tổ chức",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019f8db3-9765-740b-8b90-682677b9c421",
+    "019f8db3-e7d0-74e4-9c61-49a28e28113a"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96de-2162d5a6fe8f",
+    "019d2bb2-1c71-7574-afeb-0715771a2242",
+    "019d2bb2-1c71-7574-afeb-1697c540e3aa",
+    "019d2bb2-1c71-7574-afeb-1bc946d29971",
+    "019f8e55-7995-7236-9140-3a2a090299f0",
+    "019f8e98-9bca-73dc-97f2-fb6146b45ffd"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "019f8db3-e7d0-74e4-9c61-49a28e28113a",
+      "name": "Thông tư số 90/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính quy định về đăng ký thuế",
+      "code": "90/2026/TT-BTC "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afeb-0715771a2242",
+      "name": "Thông báo chấm dứt hiệu lực mã số thuế (mẫu số 18/TB-ĐKT)",
+      "code": "KQ.G12.000848"
+    },
+    {
+      "id": "019d2bb2-1c71-7574-afeb-1697c540e3aa",
+      "name": "Giấy chứng nhận đăng ký thuế (Mẫu 10 MST)",
+      "code": "KQ.G12.000853"
+    },
+    {
+      "id": "019d2bb2-1c70-724b-96de-2162d5a6fe8f",
+      "name": "Thông báo người nộp thuế ngừng hoạt động và đang làm thủ tục chấm dứt hiệu lực mã số thuế (mẫu số 17/TB-ĐKT)",
+      "code": "KQ.G12.000187"
+    },
+    {
+      "id": "019d2bb2-1c71-7574-afeb-1bc946d29971",
+      "name": "Giấy chứng nhận đăng ký thuế (đối với trường hợp thay đổi thông tin trên Giấy chứng nhận đăng ký thuế).",
+      "code": "KQ.G12.000855"
+    },
+    {
+      "id": "019f8e55-7995-7236-9140-3a2a090299f0",
+      "name": "Thông báo về việc chuyển nghĩa vụ thuế của người nộp thuế (mẫu số 39/TB-ĐKT)",
+      "code": "KQ.G12.0001501"
+    },
+    {
+      "id": "019f8e98-9bca-73dc-97f2-fb6146b45ffd",
+      "name": "Thông báo chấm dứt hiệu lực mã số thuế theo đơn vị chủ quản gửi cho đơn vị chủ quản, đơn vị phụ thuộc (mẫu số 35/TB-ĐKT)",
+      "code": "KQ.G12.000856"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019f920a-98c7-725e-843b-09ede5ede0c2",
+      "name": "Đăng ký thuế trong trường hợp chia, tách, hợp nhất, sáp nhập tổ chức. ",
+      "code": "1.008759.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d753b-d8ae-721c-9e26-9369cf64a706",
+      "name": "Đăng ký thuế trong trường hợp chia, tách, hợp nhất, sáp nhập tổ chức. ",
+      "code": "1.008759.01",
+      "processingDay": {
+        "qty": 3,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559458344,
+  "updatedAt": 1784861595137,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố, Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/ Thuế cơ sở/ Chi cục Thuế Doanh nghiệp lớn/ Chi cục Thuế Thương mại điện tử",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng các quy định của pháp luật về giao dịch điện tử đồng thời đăng ký và đảm bảo đầy đủ các điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế theo quy định tại Thông tư số 89/TT-BTC ngày 30/6/2026 của Bộ Tài chính.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f8ca7-907d-772d-b99a-a0c07a3ce699",
+    "proposalNumber": "1933/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1784861594223,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

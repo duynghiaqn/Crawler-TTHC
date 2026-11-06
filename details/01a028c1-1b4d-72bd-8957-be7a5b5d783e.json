@@ -1,0 +1,248 @@
+{
+  "id": "01a028c1-1b4d-72bd-8957-be7a5b5d783e",
+  "code": "1.116478",
+  "codeNotation": "1.116478",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a.\tDoanh nghiệp có hoạt động tại điểm d khoản 1 Điều 27 của Nghị định số 163/2026/NĐ-CP chuẩn bị hồ sơ đề nghị cấp giấy phép gửi về Bộ Công an (Cục Cảnh sát điều tra tội phạm về ma túy);\nb.\tTrong thời hạn chậm nhất là 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, cơ quan cấp phép tiến hành thẩm định và cấp giấy phép quá cảnh. Trường hợp không cấp giấy phép quá cảnh thì phải thông báo bằng văn bản, nêu rõ lý do. Giấy phép quá cảnh có giá trị một lần theo thời hạn không quá 02 tháng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "a.\tChất ma túy, tiền chất; thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc; thuốc thú y có chứa chất ma túy, tiền chất; nguyên liệu làm thức ăn chăn nuôi, thức ăn thủy sản có chứa tiền chất quá cảnh lãnh thổ Việt Nam phải được chứa trong thùng chứa, đóng gói, niêm phong và đảm bảo tuân thủ tiêu chuẩn, quy chuẩn quốc tế và hồ sơ kèm theo. \nb.\tNguyên tắc quản lý hoạt động quá cảnh và thời gian quá cảnh chất ma túy, tiền chất; thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc và thuốc thú y có chứa chất ma túy, tiền chất; nguyên liệu làm thức ăn chăn nuôi, thức ăn thủy sản có chứa tiền chất qua lãnh thổ Việt Nam được thực hiện theo quy định tại Nghị định số 163/2026/NĐ-CP và các quy định của pháp luật về quản lý ngoại thương.",
+  "name": "Cấp phép quá cảnh lãnh thổ Việt Nam chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc; thuốc thú y và nguyên liệu làm thuốc thú y có chứa chất ma túy, tiền chất; nguyên liệu làm thức ăn chăn nuôi, thức ăn thủy sản có chứa tiền chất ở dạng đơn chất (nguyên liệu đơn) thuộc thẩm quyền của Bộ Công an",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a028bf-3667-71ce-a640-b52428937f4b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp giấy phép quá cảnh của doanh nghiệp gồm các thông tin về tên, địa chỉ của doanh nghiệp; thời gian, địa điểm, lý do quá cảnh; tên, địa chỉ nơi sản xuất, tên gọi, mã CAS, mã số hàng hóa, khối lượng, hàm lượng chất ma túy, tiền chất cần quá cảnh; giá trị hàng hóa; phương tiện, hành trình và điều kiện bảo đảm an toàn vận chuyển",
+          "code": "000.00.00.G07-KQ002592",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a028bf-98a7-726a-9a24-a9ad74212327",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính hợp đồng vận tải; Bản sao Giấy đăng ký kinh doanh ngành nghề giao nhận, vận tải của đơn vị làm dịch vụ vận chuyển hàng hóa quá cảnh",
+          "code": "000.00.00.G07-KQ002593",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a028c0-07ad-7176-bbdd-1c4d4843c2fc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính một trong các giấy tờ sau: Công thư đề nghị của cơ quan có thẩm quyền của nước đề nghị cho hàng hóa quá cảnh, Giấy phép xuất khẩu của nước có hàng xuất khẩu hoặc Giấy phép nhập khẩu của nước có hàng nhập khẩu",
+          "code": "000.00.00.G07-KQ002594",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a028c0-9d52-7455-9507-2acc62d776b9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính Giấy phép quá cảnh của nước mà hàng xuất khẩu hoặc nhập khẩu đã đi qua trước khi đến Việt Nam (trường hợp vận chuyển quá cảnh nhiều nước)",
+          "code": "000.00.00.G07-KQ002595",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a028c0-eb65-72cf-9292-a0387d00cc0b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu trên nếu bằng tiếng nước ngoài thì phải được dịch ra tiếng Việt có công chứng",
+          "code": "000.00.00.G07-KQ002596",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a02313-4be6-702f-b641-946b7f2960e9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0231c-c17a-74ee-804a-764a470fa93a",
+    "01a0231e-bbab-7028-8e19-559d9af5aaf1"
+  ],
+  "resultIds": [
+    "01a028be-16d3-777c-8c1c-9c86cd461feb"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d04-a2184058bf38"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a80-747a-9d04-a2184058bf38"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a02313-4be6-702f-b641-946b7f2960e9",
+      "name": "Kiểm soát các hoạt động hợp pháp liên quan đến ma túy",
+      "code": "G01-CA35"
+    }
+  ],
+  "category": {
+    "id": "01a02313-4be6-702f-b641-946b7f2960e9",
+    "name": "Kiểm soát các hoạt động hợp pháp liên quan đến ma túy",
+    "code": "G01-CA35"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d04-a2184058bf38",
+      "name": "Cục Cảnh sát điều tra tội phạm về ma túy",
+      "code": "G01.304.000"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a80-747a-9d04-a2184058bf38",
+      "name": "Cục Cảnh sát điều tra tội phạm về ma túy",
+      "code": "G01.304.000"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0231c-c17a-74ee-804a-764a470fa93a",
+      "name": "Luật Phòng, chống ma túy năm 2025",
+      "code": "120/2025/QH15"
+    },
+    {
+      "id": "01a0231e-bbab-7028-8e19-559d9af5aaf1",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điểu của Luật phòng chống ma túy ",
+      "code": "163/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a028be-16d3-777c-8c1c-9c86cd461feb",
+      "name": "Giấy chứng nhận đủ điều kiện/Văn bản không cấp phép sản xuất thuốc thú y, thức ăn chăn nuôi, thức ăn thủy sản.",
+      "code": "KQ.G07.000461"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787537979756,
+  "updatedAt": 1787537979756,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Cảnh sát điều tra tội phạm về ma túy",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Cục Cảnh sát điều tra tội phạm về ma túy",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a.\tChất ma túy, tiền chất; thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc; thuốc thú y có chứa chất ma túy, tiền chất; nguyên liệu làm thức ăn chăn nuôi, thức ăn thủy sản có chứa tiền chất quá cảnh lãnh thổ Việt Nam phải được chứa trong thùng chứa, đóng gói, niêm phong và đảm bảo tuân thủ tiêu chuẩn, quy chuẩn quốc tế và hồ sơ kèm theo. \nb.\tNguyên tắc quản lý hoạt động quá cảnh và thời gian quá cảnh chất ma túy, tiền chất; thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc và thuốc thú y có chứa chất ma túy, tiền chất; nguyên liệu làm thức ăn chăn nuôi, thức ăn thủy sản có chứa tiền chất qua lãnh thổ Việt Nam được thực hiện theo quy định tại Nghị định số 163/2026/NĐ-CP và các quy định của pháp luật về quản lý ngoại thương.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a022e9-ce24-7069-837e-472e8adbd993",
+    "proposalNumber": "5065/QĐ-BCA",
+    "decisionDate": 1786381200000,
+    "decisionNumber": null,
+    "publicationDate": 1787537979678,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

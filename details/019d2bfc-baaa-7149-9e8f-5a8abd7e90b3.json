@@ -1,0 +1,297 @@
+{
+  "id": "019d2bfc-baaa-7149-9e8f-5a8abd7e90b3",
+  "code": "1.011043",
+  "codeNotation": "1.011043",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: \n+ Đầu mối đăng ký của bên sử dụng thông tin gửi 01 văn bản đến Cục Thuế hoặc Thuế tỉnh, thành phố để đề nghị đăng ký mới hoặc bổ sung thông tin hoặc thu hồi tài khoản theo Mẫu số 01/CCTT-ĐK Phụ lục III ban hành kèm theo Thông tư số 91/2026/TT-BTC.\nBước 2: Gửi văn bản đề nghị đến cơ quan thuế. \nBước 3: Cơ quan thuế tiếp nhận và xử lý theo quy định. Trong thời hạn không quá 02 ngày làm việc kể từ khi nhận được văn bản đề nghị, cơ quan thuế thực hiện việc cấp tài khoản mới hoặc bổ sung thông tin hoặc thu hồi tài khoản và thông báo với bên sử dụng thông tin bằng văn bản. Trường hợp không chấp nhận đăng ký tài khoản hoặc không bổ sung thời hạn sử dụng của tài khoản phải nêu rõ lý do.\nThời hạn sử dụng tài khoản truy cập Hệ thống thông tin quản lý thuế đối với cả trường hợp đăng ký mới và bổ sung thông tin là 12 tháng hoặc do bên sử dụng thông tin đề nghị nhưng không quá 12 tháng tính từ ngày cơ quan thuế gửi văn bản thông báo kết quả đăng ký của bên sử dụng thông tin. Trước khi hết thời hạn sử dụng tài khoản 30 ngày, Hệ thống thông tin quản lý thuế tự động gửi thông báo cảnh báo hết hạn cho bên sử dụng thông tin. Trường hợp bên sử dụng thông tin không thay đổi thông tin, không vi phạm quy định kết nối và có nhu cầu tiếp tục khai thác, việc gia hạn được thực hiện tự động thông qua phương thức điện tử (xác thực bằng chữ ký số của bên sử dụng thông tin trên Hệ thống. Thời gian gia hạn mỗi lần không quá 12 tháng).\nCơ quan thuế thu hồi tài khoản truy cập trong các trường hợp sau: \na) Khi có đề nghị từ đầu mối đăng ký của bên sử dụng thông tin; \nb) Thời hạn sử dụng đã hết; \nc) Tài khoản truy cập Hệ thống thông tin quản lý thuế không thực hiện việc tra cứu thông tin trong thời gian 06 tháng liên tục; \nd) Phát hiện trường hợp sử dụng thông tin hóa đơn điện tử không đúng mục đích, phục vụ cho hoạt động nghiệp vụ theo chức năng, nhiệm vụ của bên sử dụng thông tin, không đúng quy định của pháp luật về bảo vệ bí mật nhà nước. Chậm nhất là 05 ngày làm việc trước thời điểm chính thức chấm dứt sử dụng các hình thức cung cấp, sử dụng thông tin hóa đơn điện tử của bên sử dụng thông tin (trừ trường hợp đầu mối đăng ký của bên sử dụng thông tin có đề nghị bằng văn bản), Cơ quan thuế thông báo bằng hình thức điện tử cho bên sử dụng thông tin về việc chấm dứt sử dụng các hình thức cung cấp, sử dụng thông tin hóa đơn điện tử, chứng từ điện tử. \nBước 4: Cơ quan thuế thông báo theo Mẫu số 01/CCTT-TB Phụ lục IV ban hành kèm theo Thông tư số 91/2026/TT-BTC thông báo về việc tiếp nhận và kết quả xử lý về việc đăng ký mới hoặc bổ sung nội dung cung cấp thông tin/tài khoản truy cập Hệ thống thông tin quản lý thuế."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "+ Các cơ quan quản lý nhà nước sử dụng thông tin hóa đơn điện tử để thực hiện các thủ tục hành chính theo quy định của pháp luật, các tổ chức tín dụng, tổ chức cung cấp dịch vụ hóa đơn điện tử có văn bản về việc tra cứu, sử dụng thông tin hóa đơn điện tử, chứng từ điện tử có văn bản về việc tra cứu, sử dụng thông tin hóa đơn điện tử, chứng từ điện tử.\n+ Đảm bảo cơ sở hạ tầng CNTT để nhận dữ liệu tới cơ quan thuế bằng phương thức điện tử",
+  "name": "Đăng ký mới/Bổ sung thông tin đăng ký/Thu hồi tài khoản truy cập Hệ thống thông tin quản lý thuế để khai thác sử dụng thông tin hóa đơn điện tử",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Trường hợp Cơ quan thuế chủ động chấm dứt",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd77-bd20192f289a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Cơ quan thuế thông báo bằng hình thức điện tử cho bên sử dụng thông tin về việc chấm dứt sử dụng các hình thức cung cấp, sử dụng thông tin hóa đơn điện tử, chứng từ điện tử trừ trường hợp đầu mối đăng ký của bên sử dụng thông tin có đề nghị bằng văn bản (không có mẫu)",
+          "code": "G12.0001209",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp bên sử dụng thông tin đề nghị",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd77-b9d4cfba2546",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đề nghị đăng ký mới hoặc bổ sung tài khoản truy cập/nội dung cung cấp thông tin hóa đơn điện tử, chứng từ điện tử (Mẫu số 01/CCTT-ĐK )",
+          "code": "G12.0001210",
+          "attachments": [
+            {
+              "id": "019f7f0f-2605-7295-84e8-2a71351f6318",
+              "fileName": "Mẫu 01 CCTT-ĐK.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7f0f-2605-7295-84e8-2a71351f6318/Mẫu 01 CCTT-ĐK.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Tổ chức kinh tế, hộ kinh doanh, cá nhân kinh doanh.",
+  "keywords": "đăng ký mới hoặc bổ sung tài khoản truy cập/nội dung cung cấp thông tin hóa đơn điện tử, chứng từ điện",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f7eee-65ff-7190-97bb-0d978182d268",
+    "019f7ef5-5ff2-73cd-841d-79992569d6c6"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe8-5ee85806cf58",
+    "019d2bb2-1c71-7574-afec-8d3174687602"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e005b-7a95-72d9-83b9-1df81c4b08e9"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e005b-7a95-72d9-83b9-1df81c4b08e9",
+      "name": "Thuế tỉnh, thành phố"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f7eee-65ff-7190-97bb-0d978182d268",
+      "name": "Nghị định số 254/2026/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "code": "254/2026/NĐ-CP"
+    },
+    {
+      "id": "019f7ef5-5ff2-73cd-841d-79992569d6c6",
+      "name": "Quy định một số điều của Luật Quản lý thuế và Nghị định số 254/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "code": "91/2026/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe8-5ee85806cf58",
+      "name": "Thông báo về việc tiếp nhận và kết quả xử lý về việc đăng ký mới hoặc bổ sung nội dung cung cấp thông tin/tài khoản truy cập hóa đơn điện tử, chứng từ điện tử - Mẫu 01/CCTT-TB",
+      "code": "KQ.G12.000608"
+    },
+    {
+      "id": "019d2bb2-1c71-7574-afec-8d3174687602",
+      "name": "Không trả thông báo, Cơ quan thuế thu hồi tài khoản.",
+      "code": "KQ.G12.000976"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d7579-e1c9-76a8-b390-b44c085bd0d7",
+      "name": "Đăng ký mới/bổ sung thông tin đăng ký/thu hồi tài khoản truy cập Cổng thông tin điện tử đề khai thác sử dụng thông tin hóa đơn điện tử",
+      "code": "1.011043.01",
+      "processingDay": {
+        "qty": 2,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f7f5d-1e6b-776e-a38d-df18bd28f31f",
+      "name": "Đăng ký mới/bổ sung thông tin đăng ký/thu hồi tài khoản truy cập Cổng thông tin điện tử đề khai thác sử dụng thông tin hóa đơn điện tử",
+      "code": "1.011043.01",
+      "processingDay": {
+        "qty": 2,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559476394,
+  "updatedAt": 1784548236180,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "+ Các cơ quan quản lý nhà nước sử dụng thông tin hóa đơn điện tử để thực hiện các thủ tục hành chính theo quy định của pháp luật, các tổ chức tín dụng, tổ chức cung cấp dịch vụ hóa đơn điện tử có văn bản về việc tra cứu, sử dụng thông tin hóa đơn điện tử, chứng từ điện tử có văn bản về việc tra cứu, sử dụng thông tin hóa đơn điện tử, chứng từ điện tử.\n+ Đảm bảo cơ sở hạ tầng CNTT để nhận dữ liệu tới cơ quan thuế bằng phương thức điện tử",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f7ee5-35d7-759c-8728-1bcfbba4d16f",
+    "proposalNumber": "1896/QĐ-BTC",
+    "decisionDate": 1784221200000,
+    "decisionNumber": null,
+    "publicationDate": 1784548236075,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "id": "019efe04-c2f6-76dd-897e-1c4d089813ed",
+  "code": "1.115433",
+  "codeNotation": "1.115433",
+  "executionSteps": [
+    {
+      "name": "Bước 1: Tổ chức kinh tế có yêu cầu gửi hồ sơ đến Trung tâm Phục vụ hành chính công.",
+      "description": "Khi nộp hồ sơ, tổ chức kinh tế được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực. \nTrung tâm Phục vụ hành chính công chuyển hồ sơ đến Sở Nông nghiệp và Môi trường"
+    },
+    {
+      "name": "Bước 2: Sở Nông nghiệp và Môi trường thực hiện:",
+      "description": "- Trường hợp hồ sơ không đầy đủ, không hợp lệ, làm văn bản trả lại hồ sơ đồng thời hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ.\n- Trường hợp hồ sơ hợp lệ, tổ chức thẩm định hồ sơ, kiểm tra thực địa (nếu cần thiết);\n- Hoàn thiện hồ sơ trình Chủ tịch Ủy ban nhân dân cấp tỉnh:"
+    },
+    {
+      "name": "Bước 3:",
+      "description": "Chủ tịch Ủy ban nhân dân tỉnh có văn bản chấp thuận hoặc không chấp thuận tổ chức kinh tế được nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư trong thời hạn không quá 05 ngày làm việc kể từ ngày nhận được văn bản thẩm định của cơ quan có chức năng quản lý đất đai cấp tỉnh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    }
+  ],
+  "description": "- Phù hợp với quy hoạch sử dụng đất cấp xã hoặc quy hoạch chung hoặc quy hoạch phân khu hoặc quy hoạch xây dựng hoặc quy hoạch nông thôn đã được phê duyệt và công bố.\n- Không vi phạm quy định của pháp luật về đất đai hoặc có vi phạm quy định của pháp luật về đất đai nhưng đã chấp hành xong quyết định, bản án đã có hiệu lực pháp luật của cơ quan có thẩm quyền tại thời điểm đề nghị giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất. Việc xác định người sử dụng đất vi phạm quy định của pháp luật về đất đai áp dụng đối với tất cả các thửa đất đang sử dụng trên địa bàn cả nước.\n- Việc sử dụng đất thực hiện dự án phát triển kinh tế - xã hội thông qua thỏa thuận về nhận quyền sử dụng đất được thực hiện trong các trường hợp sau đây: \n+ Các trường hợp thực hiện dự án không thuộc trường hợp thu hồi đất để phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng.\n+ Đối với trường hợp sử dụng đất để thực hiện dự án đầu tư xây dựng nhà ở thương mại thì chỉ được thỏa thuận về nhận quyền sử dụng đất ở.\n+ Các trường hợp không sử dụng vốn ngân sách nhà nước và thuộc trường hợp thu hồi đất để phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng mà nhà đầu tư lựa chọn phương án thỏa thuận về nhận quyền sử dụng đất, không đề xuất thu hồi đất.\n- Trường hợp tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư mà chuyển mục đích sử dụng đất để thực hiện dự án đầu tư thì phải thực hiện thêm trình tự, thủ tục theo trình tự chuyển mục đích sử dụng đất.",
+  "name": "Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa650-8674-72ef-b351-df94663b4f67",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị chấp thuận cho tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư theo Mẫu số 23.",
+          "code": "TP-H05.000153.S",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa2b0-f249-75ed-b10f-7d4636dd8873",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trích lục vị trí khu đất mà nhà đầu tư đề xuất thực hiện dự án.",
+          "code": "TP-H05.000183",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fa1d6-da94-7799-b6dd-b340d2f8fc51",
+    "019fb646-12d3-7739-8d2b-990e6db53392"
+  ],
+  "resultIds": [
+    "019f94d8-80b3-776a-ba9a-2d6fb7364ff0",
+    "019f94d8-a4a4-719b-a8c9-1e8450ade1ef"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3f0-d370a2e0c928"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3ed-9649c4f016cd"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a85-74ec-a338-04dc89744109",
+    "019e4d63-7e81-76ee-98fb-0fa853b79176"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3f0-d370a2e0c928",
+      "name": "Sở Nông nghiệp và Môi trường tỉnh Bắc Ninh",
+      "code": "H05.34"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND tỉnh Bắc Ninh",
+      "code": "H05"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a85-74ec-a338-04dc89744109",
+      "name": "Văn phòng Đăng ký đất đai tỉnh Cà Mau",
+      "code": "H12.06.26"
+    },
+    {
+      "id": "019e4d63-7e81-76ee-98fb-0fa853b79176",
+      "name": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+      "code": "CQCM-NNMT-CAPXA"
+    }
+  ],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fa1d6-da94-7799-b6dd-b340d2f8fc51",
+      "name": "Quyết định số 33/2026/QĐ-UBND Ban hành Quy định về trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Bắc Ninh",
+      "code": "33/2026/QĐ-UBND"
+    },
+    {
+      "id": "019fb646-12d3-7739-8d2b-990e6db53392",
+      "name": "Quyết định số 52/2026/QĐ-UBND ngày 09/7/2026 của UBND tỉnh Bắc Ninh Sửa đổi, bổ sung một số nội dung của Quyết định số 33/2026/QĐ-UBND ngày 19 tháng 5 năm 2026 Ban hành Quy định về trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Bắc Ninh.",
+      "code": "52/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f94d8-a4a4-719b-a8c9-1e8450ade1ef",
+      "name": "Văn bản không chấp thuận tổ chức kinh tế được nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư đối với trường hợp không được chấp thuận",
+      "code": "KQ-H05.000117"
+    },
+    {
+      "id": "019f94d8-80b3-776a-ba9a-2d6fb7364ff0",
+      "name": "Văn bản chấp thuận tổ chức kinh tế được nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư đối với trường hợp được chấp thuận",
+      "code": "KQ-H05.000116"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND tỉnh Bắc Ninh",
+  "cases": [
+    {
+      "id": "019f4a2d-479d-742b-9671-fb9c167ea678",
+      "name": "Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư",
+      "code": "1.115433.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fbcb6-f6d5-73b5-a094-9589f0ef4d35",
+      "name": "Tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư",
+      "code": "1.115433.01",
+      "processingDay": {
+        "qty": 25,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1782378185462,
+  "updatedAt": 1785577525408,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Nông nghiệp và Môi trường tỉnh Bắc Ninh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm phục vụ hành chính công cấp xã tỉnh Bắc Ninh",
+  "delegatedAgencies": "UBND tỉnh Bắc Ninh",
+  "coordinatingAgencies": "Văn phòng Đăng ký đất đai tỉnh Cà Mau, Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+  "requirementsAndConditions": "- Phù hợp với quy hoạch sử dụng đất cấp xã hoặc quy hoạch chung hoặc quy hoạch phân khu hoặc quy hoạch xây dựng hoặc quy hoạch nông thôn đã được phê duyệt và công bố.\n- Không vi phạm quy định của pháp luật về đất đai hoặc có vi phạm quy định của pháp luật về đất đai nhưng đã chấp hành xong quyết định, bản án đã có hiệu lực pháp luật của cơ quan có thẩm quyền tại thời điểm đề nghị giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất. Việc xác định người sử dụng đất vi phạm quy định của pháp luật về đất đai áp dụng đối với tất cả các thửa đất đang sử dụng trên địa bàn cả nước.\n- Việc sử dụng đất thực hiện dự án phát triển kinh tế - xã hội thông qua thỏa thuận về nhận quyền sử dụng đất được thực hiện trong các trường hợp sau đây: \n+ Các trường hợp thực hiện dự án không thuộc trường hợp thu hồi đất để phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng.\n+ Đối với trường hợp sử dụng đất để thực hiện dự án đầu tư xây dựng nhà ở thương mại thì chỉ được thỏa thuận về nhận quyền sử dụng đất ở.\n+ Các trường hợp không sử dụng vốn ngân sách nhà nước và thuộc trường hợp thu hồi đất để phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng mà nhà đầu tư lựa chọn phương án thỏa thuận về nhận quyền sử dụng đất, không đề xuất thu hồi đất.\n- Trường hợp tổ chức kinh tế nhận chuyển nhượng, thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử dụng đất để thực hiện dự án đầu tư mà chuyển mục đích sử dụng đất để thực hiện dự án đầu tư thì phải thực hiện thêm trình tự, thủ tục theo trình tự chuyển mục đích sử dụng đất.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fad62-76ca-769e-9d81-657d4c0769a1",
+    "proposalNumber": "1922/QĐ-UBND",
+    "decisionDate": 1783875600000,
+    "decisionNumber": null,
+    "publicationDate": 1785577523284,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND tỉnh Bắc Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

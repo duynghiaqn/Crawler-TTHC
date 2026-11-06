@@ -1,0 +1,221 @@
+{
+  "id": "019fb90e-6a7b-7070-b6cc-e00e459ab32e",
+  "code": "3.000666",
+  "codeNotation": "3.000666",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đính chính nộp hồ sơ đến Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm Phục vụ hành chính công cấp xã.\nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan tiếp nhận hồ sơ thực hiện\n- Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ, kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị thuộc Uỷ ban nhân dân cấp xã."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị thực hiện:\n\t- Trường hợp hồ sơ không đầy đủ, không hợp lệ, làm văn bản trả lại hồ sơ đồng thời hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ.\n- Trường hợp hồ sơ hợp lệ: \n+ Thông báo cho Văn phòng đăng ký đất đai, Chi nhánh văn phòng đăng ký đất đai để chuyển hồ sơ cấp Giấy chứng nhận lần đầu để kiểm tra hồ sơ, lập biên bản kết luận về nội dung và nguyên nhân sai sót.\n+ Trình Chủ tịch Ủy ban nhân dân cấp xã xác nhận nội dung đính chính trên Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất."
+    },
+    {
+      "name": "",
+      "description": "Bước 4: Chủ tịch Ủy ban nhân dân cấp xã ký Giấy chứng nhận quyền sử dụng đất."
+    },
+    {
+      "name": "",
+      "description": "Bước 5: Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị:\nChuyển Giấy chứng nhận quyền sử dụng đất đến Trung tâm hành chính công cấp xã để trả kết quả cho người sử dụng đất. Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đính chính Giấy chứng nhận đã cấp lần đầu có sai sót",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fb5aa-64e9-700e-b8cd-12d2845b0523"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698f-1081-74cf-8c3b-3602b5a3ecad",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fb5aa-64e9-700e-b8cd-12d2845b0523",
+      "name": "Giấy chứng nhận.",
+      "code": "KQ05"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698f-1081-74cf-8c3b-3602b5a3ecad",
+      "name": "Tổ chức Đảng",
+      "code": "ĐT6"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a341-16615c474af4",
+  "departmentPromulgateCode": "H18",
+  "departmentPromulgateName": "UBND tỉnh Điện Biên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1785562256899,
+  "updatedAt": 1785562256899,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb595-a11e-760d-90fc-0d4660334ae2",
+    "proposalNumber": "53/QUBND",
+    "decisionDate": 1784048400000,
+    "decisionNumber": null,
+    "publicationDate": 1785562255602,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a341-16615c474af4",
+      "name": "UBND tỉnh Điện Biên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

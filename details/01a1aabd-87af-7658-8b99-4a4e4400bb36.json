@@ -1,0 +1,648 @@
+{
+  "id": "01a1aabd-87af-7658-8b99-4a4e4400bb36",
+  "code": "1.117133",
+  "codeNotation": "1.117133",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Chuẩn bị hồ sơ theo quy định của pháp luật nêu tại mục 5.3.\nBước 2: Nộp hồ sơ\n- Trực tuyến: Người làm thủ tục thực hiện việc khai báo thông tin liên quan theo biểu mẫu quy định trên Cổng thông tin một cửa quốc gia. \n\t- Trực tiếp: Người làm thủ tục phải nộp hồ sơ trực tiếp tại: Cảng Hậu Giang (khu công nghiệp Sông Hậu 1, xã Châu Thành, thành phố Cần Thơ), Cảng Vĩnh Long (170/2 Phạm Hùng, phường Long Châu, tỉnh Vĩnh Long), Cảng Cần Thơ (131 Lê Hồng Phong, phường Thới An Đông, thành phố Cần Thơ), Cảng Mỹ Tho (Đường số 4, khu công nghiệp Mỹ Tho, phường Trung An, tỉnh Đồng Tháp).\n- Trạm Công an cửa khẩu cảng tiếp nhận, kiểm tra tính đầy đủ, hợp lệ của hồ sơ:\n+ Trường hợp hồ sơ đầy đủ, hợp lệ thì tiếp nhận hồ sơ.\n+ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì hướng dẫn người nộp hồ sơ hoàn chỉnh hồ sơ theo quy định.\n+ Trường hợp hồ sơ không đủ điều kiện thì không tiếp nhận hồ sơ, thông báo trực tiếp hoặc gửi thông báo từ chối thực hiện thủ tục qua Cổng thông tin một cửa quốc gia.\nBước 3: Nhận kết quả\nCông an cửa khẩu gửi xác nhận hoàn thành thủ tục kiểm soát cho tàu thuyền, thuyền viên, hành khách."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "HOUR",
+      "description": "- Người làm thủ tục gửi hồ sơ và nhận kết quả qua Cổng thông tin một cửa quốc gia\n- Chậm nhất 01 giờ kể từ khi Công an cửa khẩu cảng tiếp nhận đầy đủ các bản khai điện tử (trực tuyến) hoặc các loại giấy tờ do người làm thủ tục nộp và xuất trình (trực tiếp) đối với tàu nhập cảnh, xuất cảnh, quá cảnh, chuyển cảng đi;\n- Chậm nhất 30 phút kể từ khi Công an cửa khẩu cảng tiếp nhận đầy đủ các loại giấy tờ do người làm thủ tục nộp và xuất trình đối với tàu chuyển cảng đến.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "HOUR",
+      "description": "Nộp hồ sơ trực tiếp tại Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc văn phòng đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa, cụ thể: Cảng Hậu Giang (khu công nghiệp Sông Hậu 1, xã Châu Thành, thành phố Cần Thơ), Cảng Vĩnh Long (170/2 Phạm Hùng, phường Long Châu, tỉnh Vĩnh Long), Cảng Cần Thơ (131 Lê Hồng Phong, phường Thới An Đông, thành phố Cần Thơ), Cảng Mỹ Tho (Đường số 4, khu công nghiệp Mỹ Tho, phường Trung An, tỉnh Đồng Tháp).\n- Chậm nhất 01 giờ kể từ khi Công an cửa khẩu cảng tiếp nhận đầy đủ các bản khai điện tử (trực tuyến) hoặc các loại giấy tờ do người làm thủ tục nộp và xuất trình (trực tiếp) đối với tàu nhập cảnh, xuất cảnh, quá cảnh, chuyển cảng đi;\n- Chậm nhất 30 phút kể từ khi Công an cửa khẩu cảng tiếp nhận đầy đủ các loại giấy tờ do người làm thủ tục nộp và xuất trình đối với tàu chuyển cảng đến.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Kiểm soát đối với tàu thuyền, thuyền viên, hành khách đi trên tàu chở khách du lịch quốc tế nhập cảnh, xuất cảnh, chuyển cảng tại cửa khẩu cảng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Đối với tàu chở khách du lịch quốc tế (nộp trực tuyến)",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a493-5819-74df-b229-8b1d44cd7e7c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản khai chung",
+          "code": "000.00.00.G01-KQ003949",
+          "attachments": [
+            {
+              "id": "01a1a4ac-1e5a-726e-8c05-097ad4343a53",
+              "fileName": "Bản khai chung quy định tại Mẫu số 42 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-1e5a-726e-8c05-097ad4343a53/Bản khai chung quy định tại Mẫu số 42 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a493-d998-71fa-9a02-7c44f924af0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh sách thuyền viên",
+          "code": "000.00.00.G01-KQ003950",
+          "attachments": [
+            {
+              "id": "01a1a4ac-567d-723d-85fd-106a7ea5cc47",
+              "fileName": "Danh sách thuyền viên quy định tại Mẫu số 47 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-567d-723d-85fd-106a7ea5cc47/Danh sách thuyền viên quy định tại Mẫu số 47 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a494-4fbc-707e-9261-b4264d7fc7ba",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh sách hành khách (nếu có)",
+          "code": "000.00.00.G01-KQ003951",
+          "attachments": [
+            {
+              "id": "01a1a4ac-8afb-70fb-b452-5062998d98eb",
+              "fileName": "Danh sách hành khách quy định tại Mẫu số 48 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-8afb-70fb-b452-5062998d98eb/Danh sách hành khách quy định tại Mẫu số 48 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a494-c279-777f-bedc-9a914150aba6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản khai vũ khí và vật liệu nổ (nếu có)",
+          "code": "000.00.00.G01-KQ003952",
+          "attachments": [
+            {
+              "id": "01a1a4ac-d91c-7058-b3ba-d1cd1fe28b6e",
+              "fileName": "Bản vũ khí và vật liệu nổ quy định tại Mẫu số 36 Nghị định số 58.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-d91c-7058-b3ba-d1cd1fe28b6e/Bản vũ khí và vật liệu nổ quy định tại Mẫu số 36 Nghị định số 58.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a495-9aa7-749e-99a4-094d6daf1e0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản khai người trốn trên tàu (nếu có)",
+          "code": "000.00.00.G01-KQ003953",
+          "attachments": [
+            {
+              "id": "01a1a4ad-1691-727a-a1ec-ead11926dc8b",
+              "fileName": "Bản khai người trốn trên tàu quy định tại Mẫu số 34 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ad-1691-727a-a1ec-ead11926dc8b/Bản khai người trốn trên tàu quy định tại Mẫu số 34 Nghị định số 34.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Đối với tàu chở khách du lịch quốc tế (Thành phần hồ sơ doanh nghiệp lữ hành quốc tế phải nộp; nộp trực tiếp)",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1aab1-cc71-748c-b507-47cdb9d4d41f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "01 bản chính Chương trình du lịch của hành khách",
+          "code": "000.00.00.G01-KQ003957",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1aab2-80b8-72ed-b8cd-c935a0e1394b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "01 bản sao Giấy phép kinh doanh lữ hành quốc tế (lần đầu tiên đón khách tại cảng)",
+          "code": "000.00.00.G01-KQ003958",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1aab2-d100-7780-92c9-8c740dabd094",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính Công văn trả lời đề nghị cấp thị thực tại cửa khẩu quốc tế của Cục Quản lý xuất nhập cảnh/Bộ Công an (nếu có thuyền viên, hành khách đề nghị cấp thị thực), trừ thuyền viên, hành khách mang hộ chiếu đã có thị thực Việt Nam và thuyền viên, hành khách mang hộ chiếu thuộc diện miễn thị thực nhập cảnh Việt Nam",
+          "code": "000.00.00.G01-KQ003959",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Đối với tàu chở khách du lịch quốc tế (Thành phần hồ sơ người làm thủ tục phải nộp khi làm thủ tục nhập cảnh; nộp trực tiếp)",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a493-5819-74df-b229-8b1d44cd7e7c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản khai chung",
+          "code": "000.00.00.G01-KQ003949",
+          "attachments": [
+            {
+              "id": "01a1a4ac-1e5a-726e-8c05-097ad4343a53",
+              "fileName": "Bản khai chung quy định tại Mẫu số 42 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-1e5a-726e-8c05-097ad4343a53/Bản khai chung quy định tại Mẫu số 42 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a493-d998-71fa-9a02-7c44f924af0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh sách thuyền viên",
+          "code": "000.00.00.G01-KQ003950",
+          "attachments": [
+            {
+              "id": "01a1a4ac-567d-723d-85fd-106a7ea5cc47",
+              "fileName": "Danh sách thuyền viên quy định tại Mẫu số 47 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-567d-723d-85fd-106a7ea5cc47/Danh sách thuyền viên quy định tại Mẫu số 47 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a494-4fbc-707e-9261-b4264d7fc7ba",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh sách hành khách (nếu có)",
+          "code": "000.00.00.G01-KQ003951",
+          "attachments": [
+            {
+              "id": "01a1a4ac-8afb-70fb-b452-5062998d98eb",
+              "fileName": "Danh sách hành khách quy định tại Mẫu số 48 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-8afb-70fb-b452-5062998d98eb/Danh sách hành khách quy định tại Mẫu số 48 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a494-c279-777f-bedc-9a914150aba6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản khai vũ khí và vật liệu nổ (nếu có)",
+          "code": "000.00.00.G01-KQ003952",
+          "attachments": [
+            {
+              "id": "01a1a4ac-d91c-7058-b3ba-d1cd1fe28b6e",
+              "fileName": "Bản vũ khí và vật liệu nổ quy định tại Mẫu số 36 Nghị định số 58.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-d91c-7058-b3ba-d1cd1fe28b6e/Bản vũ khí và vật liệu nổ quy định tại Mẫu số 36 Nghị định số 58.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a495-9aa7-749e-99a4-094d6daf1e0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản khai người trốn trên tàu (nếu có)",
+          "code": "000.00.00.G01-KQ003953",
+          "attachments": [
+            {
+              "id": "01a1a4ad-1691-727a-a1ec-ead11926dc8b",
+              "fileName": "Bản khai người trốn trên tàu quy định tại Mẫu số 34 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ad-1691-727a-a1ec-ead11926dc8b/Bản khai người trốn trên tàu quy định tại Mẫu số 34 Nghị định số 34.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Đối với tàu chở khách du lịch quốc tế (Thành phần hồ sơ người làm thủ tục phải nộp khi làm thủ tục xuất cảnh, chuyển cảng đi; nộp trực tiếp)",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a493-5819-74df-b229-8b1d44cd7e7c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản khai chung",
+          "code": "000.00.00.G01-KQ003949",
+          "attachments": [
+            {
+              "id": "01a1a4ac-1e5a-726e-8c05-097ad4343a53",
+              "fileName": "Bản khai chung quy định tại Mẫu số 42 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-1e5a-726e-8c05-097ad4343a53/Bản khai chung quy định tại Mẫu số 42 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a493-d998-71fa-9a02-7c44f924af0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh sách thuyền viên",
+          "code": "000.00.00.G01-KQ003950",
+          "attachments": [
+            {
+              "id": "01a1a4ac-567d-723d-85fd-106a7ea5cc47",
+              "fileName": "Danh sách thuyền viên quy định tại Mẫu số 47 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-567d-723d-85fd-106a7ea5cc47/Danh sách thuyền viên quy định tại Mẫu số 47 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a494-4fbc-707e-9261-b4264d7fc7ba",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh sách hành khách (nếu có)",
+          "code": "000.00.00.G01-KQ003951",
+          "attachments": [
+            {
+              "id": "01a1a4ac-8afb-70fb-b452-5062998d98eb",
+              "fileName": "Danh sách hành khách quy định tại Mẫu số 48 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-8afb-70fb-b452-5062998d98eb/Danh sách hành khách quy định tại Mẫu số 48 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a494-c279-777f-bedc-9a914150aba6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản khai vũ khí và vật liệu nổ (nếu có)",
+          "code": "000.00.00.G01-KQ003952",
+          "attachments": [
+            {
+              "id": "01a1a4ac-d91c-7058-b3ba-d1cd1fe28b6e",
+              "fileName": "Bản vũ khí và vật liệu nổ quy định tại Mẫu số 36 Nghị định số 58.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ac-d91c-7058-b3ba-d1cd1fe28b6e/Bản vũ khí và vật liệu nổ quy định tại Mẫu số 36 Nghị định số 58.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1a495-9aa7-749e-99a4-094d6daf1e0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản khai người trốn trên tàu (nếu có)",
+          "code": "000.00.00.G01-KQ003953",
+          "attachments": [
+            {
+              "id": "01a1a4ad-1691-727a-a1ec-ead11926dc8b",
+              "fileName": "Bản khai người trốn trên tàu quy định tại Mẫu số 34 Nghị định số 34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1a4ad-1691-727a-a1ec-ead11926dc8b/Bản khai người trốn trên tàu quy định tại Mẫu số 34 Nghị định số 34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1aab5-c6e3-73be-93b5-aa25cddc7b02",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy phép đi bờ của thuyền viên nước ngoài (nếu có)",
+          "code": "000.00.00.G01-KQ003960",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Thành phần hồ sơ người làm thủ tục phải nộp khi làm thủ tục chuyển cảng đi",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1aab8-429f-7567-a99e-97bb3031ed68",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ chuyển cảng",
+          "code": "000.00.00.G01-KQ003961",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Thành phần hồ sơ phải xuất trình",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a49e-193d-71fd-9a11-d847a15d1649",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của thuyền viên và hành khách hoặc sổ thuyền viên đối với thuyền viên nước ngoài thuộc trường hợp quy định tại điểm c khoản 2 Điều 6 Nghị định số 289/2026/NĐ-CP ngày 21/7/2026 của Chính phủ về quản lý, bảo đảm an ninh, trật tự tại cửa khẩu cảng do Bộ Công an quản lý",
+          "code": "000.00.00.G01-KQ003954",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b) Đối với tàu khách quốc tế được cấp giấy phép chở khách du lịch nội địa (trực tuyến hoặc trực tiếp)",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1aab9-750b-74cd-9916-d4763e5185ef",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thành phần hồ sơ doanh nghiệp lữ hành phải nộp: 01 bản chính Chương trình du lịch của khách du lịch nội địa và 01 bản chính Danh sách hành khách",
+          "code": "000.00.00.G01-KQ003962",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1aab9-d01a-7008-a6ca-02d67c0bdab3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thành phần hồ sơ người làm thủ tục phải nộp: 01 bản sao giấy phép của cơ quan có thẩm quyền của Việt Nam cho phép tàu đón khách du lịch nội địa giữa các cảng của Việt Nam",
+          "code": "000.00.00.G01-KQ003963",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1aaba-74fa-74fc-94c2-c067d9555043",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thành phần hồ sơ phải xuất trình: Thuyền viên, Hành khách là người nước ngoài phải xuất trình hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế",
+          "code": "000.00.00.G01-KQ003964",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1aaba-ec09-746e-ac71-014fd4caeea1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hành khách là người Việt Nam sử dụng Căn cước hoặc Căn cước công dân: Hành khách không phải xuất trình Căn cước hoặc Căn cước công dân nếu đơn vị Công an cửa khẩu cảng kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dữ liệu căn cước công dân (Công an cửa khẩu cảng tự tra cứu, kiểm tra). Trường hợp đơn vị Công an cửa khẩu cảng chưa kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dữ liệu căn cước công dân, hành khách có thể xuất trình Căn cước hoặc Căn cước công dân trên VNeiD hoặc bản cứng.",
+          "code": "000.00.00.G01-KQ003965",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a1a44b-f72a-70b0-866b-04da2946c166"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46c-e32fea9edd37",
+    "019d2bb3-5d86-7760-a645-08dd5ede9baf",
+    "019f82b2-689c-7667-aa40-6ec8fb7fcd94",
+    "01a1a49c-09d6-774b-905e-dbebf5b61f68",
+    "01a1a49d-20c6-73f7-aa4c-f803911bb66b"
+  ],
+  "resultIds": [
+    "01a1a496-7ab6-771c-8371-c73c5906e836",
+    "01a1a497-0088-737a-b7db-5437ed6da041",
+    "01a1aaac-4c93-732b-87e9-99a484780fce"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1a44b-f72a-70b0-866b-04da2946c166",
+      "name": "Đảm bảo an ninh, trật tự tại cửa khẩu cảng",
+      "code": "G01-CA37"
+    }
+  ],
+  "category": {
+    "id": "01a1a44b-f72a-70b0-866b-04da2946c166",
+    "name": "Đảm bảo an ninh, trật tự tại cửa khẩu cảng",
+    "code": "G01-CA37"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1a49c-09d6-774b-905e-dbebf5b61f68",
+      "name": "Về quản lý, bảo đảm an ninh, trật tự tại cửa khẩu cảng do Bộ Công an quản lý",
+      "code": "289/2026/NĐ-CP "
+    },
+    {
+      "id": "019f82b2-689c-7667-aa40-6ec8fb7fcd94",
+      "name": "Sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự",
+      "code": "118/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-e32fea9edd37",
+      "name": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hàng hải",
+      "code": "34/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a645-08dd5ede9baf",
+      "name": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023",
+      "code": "23/2023/QH15"
+    },
+    {
+      "id": "01a1a49d-20c6-73f7-aa4c-f803911bb66b",
+      "name": "Quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải",
+      "code": "58/2017/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1a496-7ab6-771c-8371-c73c5906e836",
+      "name": "Bản điện tử xác nhận hoàn thành thủ tục kiểm soát điện tử cảng biển",
+      "code": "KQ.G01.000315"
+    },
+    {
+      "id": "01a1a497-0088-737a-b7db-5437ed6da041",
+      "name": "Văn bản từ chối thực hiện thủ tục kiểm soát điện tử cảng biển của Công an cửa khẩu cảng",
+      "code": "KQ.G01.000316"
+    },
+    {
+      "id": "01a1aaac-4c93-732b-87e9-99a484780fce",
+      "name": "Công an cửa khẩu cảng niêm phong hồ sơ chuyển cảng đối với tàu thuyền chuyển cảng đi; tiếp nhận, kiểm tra hồ sơ chuyển cảng đối với tàu thuyền chuyển cảng đến",
+      "code": "KQ.G01.000319"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1793929190300,
+  "updatedAt": 1793929190300,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Công an cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Công an cấp Tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1a457-9d82-73d9-942f-702367376d8c",
+    "proposalNumber": "5890/QĐ-BCA",
+    "decisionDate": 1789578000000,
+    "decisionNumber": null,
+    "publicationDate": 1793929190220,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

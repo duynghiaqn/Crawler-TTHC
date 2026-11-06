@@ -1,0 +1,258 @@
+{
+  "id": "019d2bfb-d77a-71f2-b10c-7610793936b0",
+  "code": "1.001909",
+  "codeNotation": "1.001909",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Xác định số quyết toán chi phí\n- Căn cứ kết quả giám định chi phí khám bệnh, chữa bệnh bảo hiểm y tế, cơ quan bảo hiểm xã hội xác định số quyết toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế, lập Biên bản quyết toán theo Mẫu số 06/BH gửi cơ sở khám bệnh, chữa bệnh trực tiếp ký hợp đồng qua Cổng tiếp nhận dữ liệu cùng thời điểm thông báo kết quả giám định chi phí khám bệnh, chữa bệnh bảo hiểm y tế.\n-  Trong thời hạn 02 ngày làm việc kể từ ngày nhận được Biên bản quyết toán, cơ sở khám bệnh, chữa bệnh gửi Biên bản quyết toán đã ký và hóa đơn điện tử khớp đúng số chi khám bệnh, chữa bệnh được quyết toán trên Biên bản quyết toán; hoàn trả kinh phí đã tạm ứng lớn hơn kinh phí quyết toán (nếu có) cho cơ quan bảo hiểm xã hội.\nTrường hợp có ý kiến, cơ sở khám bệnh, chữa bệnh ghi nhận nội dung trên Biên bản quyết toán, ký số gửi cơ quan bảo hiểm xã hội. \nCơ quan bảo hiểm xã hội ký số Biên bản quyết toán, gửi cơ sở khám bệnh, chữa bệnh trong thời hạn 01 ngày làm việc kể từ ngày nhận được Biên bản quyết toán từ cơ sở khám bệnh, chữa bệnh."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Thông báo số quyết toán \nTrong 30 ngày kể từ ngày nhận được báo cáo quyết toán quý trước, cơ quan bảo hiểm xã hội thông báo số quyết toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế với cơ sở khám bệnh, chữa bệnh.\nĐối với quý 4, thời hạn thông báo không quá 60 ngày kể từ ngày nhận được báo cáo quyết toán quý 4."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Thanh toán chi phí\nTrong 10 ngày kể từ ngày thông báo số quyết toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế, cơ quan bảo hiểm xã hội hoàn thành việc thanh toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế với cơ sở khám bệnh, chữa bệnh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "- Trực tuyến thông qua Hệ thống thông tin giám định bảo hiểm y tế.\n- Trực tiếp giữa cơ quan bảo hiểm xã hội và cơ sở khám bệnh, chữa bệnh khi cần thiết.\nTrong thời hạn 10 ngày kể từ ngày thông báo số quyết toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế, cơ quan bảo hiểm xã hội phải hoàn thành việc thanh toán với cơ sở khám bệnh, chữa bệnh.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "- Trực tuyến thông qua Hệ thống thông tin giám định bảo hiểm y tế.\n- Trực tiếp giữa cơ quan bảo hiểm xã hội và cơ sở khám bệnh, chữa bệnh khi cần thiết.\nTrong thời hạn 10 ngày kể từ ngày thông báo số quyết toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế, cơ quan bảo hiểm xã hội phải hoàn thành việc thanh toán với cơ sở khám bệnh, chữa bệnh.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "- Cơ sở khám bệnh, chữa bệnh phải có hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế còn hiệu lực với cơ quan bảo hiểm xã hội theo quy định của pháp luật về bảo hiểm y tế.\n- Hồ sơ đề nghị thanh toán, quyết toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế phải được lập đầy đủ, đúng biểu mẫu và gửi cơ quan bảo hiểm xã hội theo quy định.\n- Việc quyết toán năm chi phí khám bệnh, chữa bệnh bảo hiểm y tế giữa cơ sở khám bệnh, chữa bệnh và cơ quan bảo hiểm xã hội được thực hiện theo quy định của pháp luật về bảo hiểm y tế, bảo đảm hoàn thành trước ngày 01 tháng 10 năm sau.",
+  "name": "Thanh toán chi phí khám bệnh, chữa bệnh giữa cơ quan bảo hiểm xã hội với cơ sở khám bệnh, chữa bệnh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02f65-7bff-7605-a7d4-ac12df592487",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản quyết toán theo Mẫu số 06/BH Phụ lục I ban hành kèm theo Thông tư số 12/2026/TT-BTC ngày 10 tháng 02 năm 2026",
+          "code": "TP.G12.000170",
+          "attachments": [
+            {
+              "id": "01a02f6e-f8ba-725e-861f-77eb499e7ec8",
+              "fileName": "Mẫu số 06.BH.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02f6e-f8ba-725e-861f-77eb499e7ec8/Mẫu số 06.BH.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02f66-1666-7799-bf60-2a9fd93d92d6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hóa đơn điện tử của cơ sở khám bệnh, chữa bệnh",
+          "code": "TP.G12.000171",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện TTHC: Cơ sở khám bệnh, chữa bệnh bảo hiểm y tế.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-cd94dee3145e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afec-d63277407a6f",
+    "019d2bb3-5d84-71c5-b672-49499e22ddad",
+    "01a02847-b487-751a-9e31-309ef5cd15e4",
+    "01a02f6a-cbda-7158-a25b-e66b8861e1b9"
+  ],
+  "resultIds": [
+    "01a02f68-5af8-726d-b2b7-3deead596cc6"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-a18231a6fcf6"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-cd94dee3145e",
+      "name": "Thực hiện chính sách BHYT",
+      "code": "G24-05"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-a18231a6fcf6",
+      "name": "Bảo hiểm xã hội tỉnh",
+      "code": "BHXHT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-49499e22ddad",
+      "name": "Luật 25/2008/QH12 - Bảo hiểm y tế",
+      "code": "25/2008/QH12"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-d63277407a6f",
+      "name": "Nghị định quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế (188/2025/NĐ-CP ngày 01/7/2025)",
+      "code": "188/2025/NĐ-CP"
+    },
+    {
+      "id": "01a02847-b487-751a-9e31-309ef5cd15e4",
+      "name": "Quy định cơ chế tài chính về bảo hiểm xã hội, bảo hiểm thất nghiệp, bảo hiểm y tế; chi tổ chức và hoạt động bảo hiểm xã hội, bảo hiểm thất nghiệp, bảo hiểm y tế",
+      "code": "233/2025/NĐ-CP"
+    },
+    {
+      "id": "01a02f6a-cbda-7158-a25b-e66b8861e1b9",
+      "name": "Quy định Danh mục bệnh bẩm sinh cần sàng lọc trước sinh và sơ sinh",
+      "code": "12/2026/TT-BYT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a02f68-5af8-726d-b2b7-3deead596cc6",
+      "name": "Cơ sở khám bệnh, chữa bệnh nhận được chi phí khám bệnh, chữa bệnh bảo hiểm y tế theo thông báo số quyết toán của cơ quan bảo hiểm xã hội",
+      "code": "KQ.G12.002052"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019e4f33-6a62-74a8-9958-58a7d7be1203",
+      "name": "Thanh toán chi phí BHYT với cơ sở KCB BHYT",
+      "code": "1.001909.01",
+      "processingDay": {
+        "qty": 40,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559418234,
+  "updatedAt": 1787504992235,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Cơ sở khám bệnh, chữa bệnh phải có hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế còn hiệu lực với cơ quan bảo hiểm xã hội theo quy định của pháp luật về bảo hiểm y tế.\n- Hồ sơ đề nghị thanh toán, quyết toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế phải được lập đầy đủ, đúng biểu mẫu và gửi cơ quan bảo hiểm xã hội theo quy định.\n- Việc quyết toán năm chi phí khám bệnh, chữa bệnh bảo hiểm y tế giữa cơ sở khám bệnh, chữa bệnh và cơ quan bảo hiểm xã hội được thực hiện theo quy định của pháp luật về bảo hiểm y tế, bảo đảm hoàn thành trước ngày 01 tháng 10 năm sau.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

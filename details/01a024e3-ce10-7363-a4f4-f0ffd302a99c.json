@@ -1,0 +1,286 @@
+{
+  "id": "01a024e3-ce10-7363-a4f4-f0ffd302a99c",
+  "code": "1.116464",
+  "codeNotation": "1.116464",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Lập, nộp hồ sơ\nTổ chức dịch vụ việc làm công gửi Quyết định về việc hỗ trợ đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề để duy trì việc làm của NLĐ cho BHXH tỉnh."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: BHXH tỉnh tiếp nhận, kiểm tra hồ sơ, rà soát đối chiếu thông tin đề nghị thanh toán với cơ sở dữ liệu của hệ thống và thực hiện như sau:\n- Trường hợp hồ sơ không đúng, đủ theo quy định hoặc không đủ điều kiện chi trả thì trả lời bằng văn bản (Mẫu số 01/TB-HSB ban hành kèm theo Quyết định số 313/QĐ-BHXH) nêu rõ lý do gửi Tổ chức dịch vụ việc làm công để bổ sung hồ sơ.\n- Trường hợp hồ sơ đủ điều kiện chi trả theo quy định thì BHXH tỉnh chuyển một lần toàn bộ kinh phí hỗ trợ đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề để duy trì việc làm cho người sử dụng lao động và trả kết quả giải quyết cho Tổ chức  dịch vụ việc làm công theo Mẫu số 01/TB-KQ (ban hành kèm theo Quyết định số 58/QĐ-BHXH ngày 22/01/2025 của BHXH Việt Nam) và cho người sử dụng lao động theo Mẫu số 93-HSB (ban hành kèm theo Quyết định số 313/QĐ-BHXH)."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Nhận kết quả giải quyết\nTổ chức dịch vụ việc làm công, người sử dụng lao động căn cứ ngày hẹn trên phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục chi trả kinh phí hỗ trợ người sử dụng lao động tham gia đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề để duy trì việc làm cho người lao động."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 4,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Tổ chức dịch vụ việc làm công và người sử dụng lao động nhận giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n04 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 4,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Tổ chức dịch vụ việc làm công và người sử dụng lao động nhận giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n04 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 4,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả: Tổ chức dịch vụ việc làm công và người sử dụng lao động nhận giấy tờ liên quan theo hình thức đã đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n04 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Chi trả kinh phí hỗ trợ người sử dụng lao động đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề để duy trì việc làm cho người lao động",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ do Tổ chức dịch vụ việc làm công gửi đến BHXH tỉnh được liên thông, chia sẻ từ cơ sở dữ liệu quốc gia về giải quyết hưởng các chế độ bảo hiểm thất nghiệp thông qua Cổng dịch vụ công quốc gia. Trường hợp chưa gửi được thông qua Cổng dịch vụ công quốc gia, Tổ chức dịch vụ việc làm công gửi trực tiếp hoặc thông qua dịch vụ bưu chính công ích đến BHXH tỉnh. Tùy theo từng trường hợp phát sinh mà hồ sơ được gửi như sau:",
+      "profileComponents": []
+    },
+    {
+      "name": "(1) Chi trả hỗ trợ đối với người sử dụng lao động được giải quyết hưởng chế độ hỗ trợ người lao động tham gia đào tạo, nâng cao trình độ kỹ năng nghề:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a024d7-4f1d-762c-9877-d041a5cd9cab",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định về việc hỗ trợ đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề để duy trì việc làm cho người lao động theo Mẫu số 28 (ban hành kèm theo Nghị định số 374/2025/NĐ-CP)",
+          "code": "TP-G12.0000005",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a024d8-2b2d-769e-b26c-478a6ad49772",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định về việc hủy hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề để duy trì việc làm cho người lao động theo Mẫu số 33 (ban hành kèm theo Nghị định số 374/2025/NĐ-CP)",
+          "code": "TP-G12.0000006",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(2) Thu hồi tiền hỗ trợ:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a024d8-eecb-74cc-8929-4330de1e7d66",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định về việc thu hồi kinh phí hỗ trợ đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề để duy trì việc làm cho người lao động theo Mẫu số 29 (ban hành kèm theo Nghị định số 374/2025/NĐ-CP)",
+          "code": "TP-G12.0000007",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Tổ chức dịch vụ việc làm công",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+    "019d2bb3-5d7f-719e-b474-aeca548c5d4e",
+    "019d2bb3-5d85-73da-8eba-01524719babf",
+    "019e72eb-488d-760e-abb8-0a3bb6585c78",
+    "01a024ce-76f5-75e5-a7fe-40af57b833fc",
+    "01a0286c-2b57-700d-a953-d146f3afa3a4"
+  ],
+  "resultIds": [
+    "01a024dd-0c21-7143-984e-34a01102a38b",
+    "01a024de-2470-70d3-af25-642e792ad8bf"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-a18231a6fcf6"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-a18231a6fcf6",
+      "name": "Bảo hiểm xã hội tỉnh",
+      "code": "BHXHT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b474-aeca548c5d4e",
+      "name": "Quy định chi tiết một số điều của Luật Việc làm về bảo hiểm thất nghiệp",
+      "code": "Nghị định số 374/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eba-01524719babf",
+      "name": "Luật Việc làm",
+      "code": "74/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+      "name": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
+      "code": "2222/QĐ-BHXH"
+    },
+    {
+      "id": "019e72eb-488d-760e-abb8-0a3bb6585c78",
+      "name": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP BAN HÀNH KÈM THEO QUYẾT ĐỊNH SỐ 2222/QĐ-BHXH NGÀY 29/7/2025 CỦA GIÁM ĐỐC BẢO HIỂM XÃ HỘI VIỆT NAM",
+      "code": "313/QĐ-BHXH "
+    },
+    {
+      "id": "01a024ce-76f5-75e5-a7fe-40af57b833fc",
+      "name": "Thông tư số 107/2025/TT-BTC của Bộ Tài chính: Hướng dẫn kế toán quỹ bảo hiểm xã hội, quỹ bảo hiểm y tế, quỹ bảo hiểm thất nghiệp",
+      "code": "107/2025/TT-BTC"
+    },
+    {
+      "id": "01a0286c-2b57-700d-a953-d146f3afa3a4",
+      "name": "hướng dẫn về việc lập chứng từ kế toán quỹ bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp",
+      "code": "3349/BHXH-TCKT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a024de-2470-70d3-af25-642e792ad8bf",
+      "name": "Biên bản giám định chi phí khám bệnh, chữa bệnh bảo hiểm y tế",
+      "code": "KQ-G12.0000003"
+    },
+    {
+      "id": "01a024dd-0c21-7143-984e-34a01102a38b",
+      "name": "Thông báo kết quả tiếp nhận quyết định hưởng các chế độ BHTN Mẫu số 01/TB-HSB, Mẫu số 01/TB-KQ",
+      "code": "KQ-G12.0000001"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787504991640,
+  "updatedAt": 1787504991640,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

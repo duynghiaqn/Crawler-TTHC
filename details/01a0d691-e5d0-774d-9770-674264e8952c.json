@@ -1,0 +1,324 @@
+{
+  "id": "01a0d691-e5d0-774d-9770-674264e8952c",
+  "code": "1.117003",
+  "codeNotation": "1.117003",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến một trong các cơ quan trên địa bàn tỉnh sau đây: Trung tâm phục vụ hành chính công cấp tỉnh hoặc Trung tâm phục vụ hành chính công cấp xã. \nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện: \n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến cơ quan có chức năng quản lý đất đai cấp xã.\nBước 3: Cơ quan có chức năng quản lý đất đai cấp xã thực hiện:\na) Xác định diện tích đất ở theo quy định tại khoản 2 Điều 20 Nghị định số 49/2026/NĐ-CP; gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 22 ban hành kèm theo Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính; thực hiện việc cấp Giấy chứng nhận theo quy định tại khoản 2 Mục V nội dung C Phần IV Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên.\nTrường hợp thửa đất có phần diện tích đất tăng thêm do thay đổi ranh giới sử dụng đất thì thực hiện đồng thời việc xác định diện tích đất ở theo quy định tại khoản 2 Điều 20 Nghị định số 49/2026/NĐ-CP và các công việc quy định tại điểm a khoản 3 Mục II nội dung C Phần IV Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên đối với toàn bộ diện tích đang sử dụng, công việc quy định tại các điểm b, c, d, đ, e, g và g khoản 3 Mục II nội dung C Phần IV Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên đối với phần diện tích đất tăng thêm. Thực hiện cấp Giấy chứng nhận đối với toàn bộ diện tích thửa đất đang sử dụng theo quy định tại khoản 2 Mục V nội dung C Phần IV Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên.\nb) Chuyển hồ sơ đã cấp Giấy chứng nhận dạng số và dạng giấy đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 20 ngày làm việc\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực\nhiện không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 20 ngày làm việc\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực\nhiện không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 20 ngày làm việc\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực\nhiện không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "(Hưng Yên) Xác định diện tích đất ở đối với trường hợp quy định tại điểm d khoản 2 Điều 20 Nghị định số 49/2026/NĐ-CP",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0a863-86aa-7266-a8e2-2fc34a3022d0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mẫu số 20 ban hành kèm theo Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên.",
+          "code": "H31_Mẫu số 20",
+          "attachments": [
+            {
+              "id": "01a0a863-7b7d-73f8-addf-56e0b98aa4ae",
+              "fileName": "Mau so 20. Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0a863-7b7d-73f8-addf-56e0b98aa4ae/Mau so 20. Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0a865-e969-7608-b155-66da6cbc5506",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp",
+          "code": "H31_Giấy chứng nhận đã cấp",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0a468-1b63-746d-ac98-b2b0b762c8be",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc ủy quyền theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục thông qua người đại diện",
+          "code": "H31_Văn bản Ủy quyền",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019da523-7834-71ed-9461-2ac0a510544b",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "01a08ac2-2345-715f-aeb7-0fa77d09e513",
+    "01a08acb-9210-77a8-bba4-ff7a356ea457"
+  ],
+  "resultIds": [
+    "01a08ab9-d163-7068-90e3-a185ee5d2608"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019e4d63-7e81-76ee-98fb-0fa853b79176"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019e4d63-7e81-76ee-98fb-0fa853b79176",
+      "name": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+      "code": "CQCM-NNMT-CAPXA"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "01a08acb-9210-77a8-bba4-ff7a356ea457",
+      "name": "Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên quy định trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Hưng Yên",
+      "code": "Quyết định số 31/2026/QĐ-UBND"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "01a08ac2-2345-715f-aeb7-0fa77d09e513",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị quyết số 254/2025/QH15"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    },
+    {
+      "id": "019da523-7834-71ed-9461-2ac0a510544b",
+      "name": "sửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia",
+      "code": "367/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a08ab9-d163-7068-90e3-a185ee5d2608",
+      "name": "Giấy chứng nhận",
+      "code": "KQ.H31.360002"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+  "departmentPromulgateCode": "H31",
+  "departmentPromulgateName": "UBND tỉnh Hưng Yên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791345030372,
+  "updatedAt": 1791880184750,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm phục vụ hành chính công cấp tỉnh hoặc Trung tâm phục vụ hành chính công cấp xã.\nb) Nộp thông qua dịch vụ bưu chính. \nc) Nộp trực tuyến trên Cổng dịch vụ công Quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a08990-d632-7481-a424-06edb38b5ad1",
+    "proposalNumber": "2617/QĐ-UBND",
+    "decisionDate": 1787158800000,
+    "decisionNumber": null,
+    "publicationDate": 1791345030135,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+      "name": "UBND tỉnh Hưng Yên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

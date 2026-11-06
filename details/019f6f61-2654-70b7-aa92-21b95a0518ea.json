@@ -1,0 +1,254 @@
+{
+  "id": "019f6f61-2654-70b7-aa92-21b95a0518ea",
+  "code": "1.115878",
+  "codeNotation": "1.115878",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa (Trung tâm phục vụ hành chính công tỉnh, Trung tâm phục vụ hành chính công cấp xã).\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\n- Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai.\n- Giấy tiếp nhận hồ sơ và hẹn trả kết quả và Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ thực hiện theo mẫu quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính. \nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện việc lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 14,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 14 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 14,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 14 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 14,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 14 ngày làm việc",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6e35-f810-763d-92eb-d87a19a245e0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 15 ban hành kèm theo Quyết định 37/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh",
+          "code": "TP-H14.39",
+          "attachments": [
+            {
+              "id": "019f6e35-e1bc-7378-af03-4859bd4798e8",
+              "fileName": "Mẫu số 15 Đơn đăng ký đất đai, tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6e35-e1bc-7378-af03-4859bd4798e8/Mẫu số 15 Đơn đăng ký đất đai, tài sản gắn liền với đất.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6e38-a80e-71b6-9f6e-728838413fc7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kết quả rà soát hiện trạng sử dụng đất theo Mẫu số 15d, 15đ ban hành kèm theo Quyết định 37/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh",
+          "code": "TP-H14.40",
+          "attachments": [
+            {
+              "id": "019f6e38-83aa-7759-a375-73b2d258f229",
+              "fileName": "Mẫu số 15d Báo cáo kết quả rà soát hiện trạng sử dụng đất của tổ chức, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6e38-83aa-7759-a375-73b2d258f229/Mẫu số 15d Báo cáo kết quả rà soát hiện trạng sử dụng đất của tổ chức, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc.docx"
+            },
+            {
+              "id": "019f6e38-93ee-74e2-ae59-01d30af22c88",
+              "fileName": "Mẫu số 15đ. Báo cáo kết quả rà soát hiện trạng sử dụng đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6e38-93ee-74e2-ae59-01d30af22c88/Mẫu số 15đ. Báo cáo kết quả rà soát hiện trạng sử dụng đất.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f6a4a-0f53-70dd-90f4-7f8e48fb65d9"
+  ],
+  "resultIds": [
+    "019f6f60-8851-764c-84f4-fb9eeb84a76d"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a347-b53f134b0f27"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a85-74ec-a347-b53f134b0f27"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a347-b53f134b0f27",
+      "name": "Phòng thẩm định & cấp GCN cá nhân",
+      "code": "H21.24.01.01"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a85-74ec-a347-b53f134b0f27",
+      "name": "Phòng thẩm định & cấp GCN cá nhân",
+      "code": "H21.24.01.01"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f6a4a-0f53-70dd-90f4-7f8e48fb65d9",
+      "name": "Quyết định Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Cao Bằng",
+      "code": "37/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f6f60-8851-764c-84f4-fb9eeb84a76d",
+      "name": "Lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai, văn bản thông báo kết quả đăng ký đất đai",
+      "code": "KQ-H14.10"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33b-e8250c0580ce",
+  "departmentPromulgateCode": "H14",
+  "departmentPromulgateName": "UBND tỉnh Cao Bằng",
+  "cases": [
+    {
+      "id": "019f7dbc-e4ad-726c-90ee-056a72553cb2",
+      "name": "Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý",
+      "code": "1.115878.01",
+      "processingDay": {
+        "qty": 14,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1784474331710,
+  "updatedAt": 1784474331710,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Phòng thẩm định & cấp GCN cá nhân",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công",
+  "delegatedAgencies": "Phòng thẩm định & cấp GCN cá nhân",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f6a37-6263-74d9-904e-f9cb8c5dae81",
+    "proposalNumber": "1389/QĐ-UBND",
+    "decisionDate": 1784048400000,
+    "decisionNumber": null,
+    "publicationDate": 1784474331547,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33b-e8250c0580ce",
+      "name": "UBND tỉnh Cao Bằng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

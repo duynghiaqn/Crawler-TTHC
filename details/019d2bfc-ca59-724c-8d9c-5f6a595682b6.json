@@ -1,0 +1,306 @@
+{
+  "id": "019d2bfc-ca59-724c-8d9c-5f6a595682b6",
+  "code": "1.014030",
+  "codeNotation": "1.014030",
+  "executionSteps": [
+    {
+      "name": "Khai thuế:",
+      "description": "Bước 1: Chủ quản nền tảng thương mại điện tử thực hiện khấu trừ, nộp hồ sơ khai thuế tại cơ quan thuế trực tiếp quản lý tổ chức khấu trừ đó bằng phương thức điện tử.\nThời điểm thực hiện khấu trừ: Chủ quản nền tảng thương mại điện tử thực hiện khấu trừ số thuế giá trị gia tăng, số thuế thu nhập doanh nghiệp, số thuế thu nhập cá nhân phải nộp đối với mỗi giao dịch cung cấp hàng hóa, dịch vụ phát sinh doanh thu trên nền tảng thương mại điện tử thuộc phạm vi quản lý ngay khi xác nhận đơn hàng thành công và chấp nhận thanh toán đối với giao dịch bán hàng hóa, dịch vụ trên nền tảng thương mại điện tử cho nhà cung cấp nước ngoài, hộ, cá nhân kinh doanh.\n+ Đối với Chủ quản nền tảng thương mại điện tử ở trong nước: Nộp qua Cổng thông tin tiếp nhận và xử lý thủ tục hành chính của Cục Thuế/ Nộp qua Cổng dịch vụ Công quốc gia/ Nộp qua dịch vụ thanh toán của NHTM, chi nhánh ngân hàng nước ngoài. Ngay sau khi nộp thành công số tiền thuế đã khấu trừ của hộ, cá nhân kinh doanh vào NSNN, tổ chức khấu trừ lập Bảng kê chi tiết số tiền nộp thuế của Chủ quản nền tảng thương mại điện tử theo mẫu số 01/BKNT-TMĐT trên ứng dụng hỗ trợ kê khai (HTKK) và gửi cho cơ quan thuế.\n+ Đối với Chủ quản nền tảng thương mại điện tử ở nước ngoài: Hệ thống thông tin quản lý thuế của Cơ quan thuế Việt Nam gửi email, thực hiện chuyển tiền chính xác theo đúng nội dung đã được thông báo trong email đến số tài khoản của Sở giao dịch Kho bạc Nhà nước."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan thuế tiếp nhận hồ sơ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "+ Đối với Chủ quản nền tảng thương mại điện tử ở trong nước: Trực tuyến qua Cổng dịch vụ công Quốc gia.\n+ Đối với Chủ quản nền tảng thương mại điện tử ở nước ngoài: Trực tuyến qua Hệ thống thông tin quản lý thuế của Cơ quan thuế Việt Nam",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC.",
+  "name": "Thủ tục khai thuế đã khấu trừ đối với các chủ quản nền tảng thương mại điện tử của nhà cung cấp nước ngoài, hộ, cá nhân có hoạt động kinh doanh trên nền tảng thương mại điện tử",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-d01275bc7cc0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng kê chi tiết số tiền nộp thuế của tổ chức quản lý nền tảng thương mại điện tử (01/BKNT-TMĐT )",
+          "code": "G12.0013995",
+          "attachments": [
+            {
+              "id": "019fad15-f0df-756c-b424-b9f6016f5c21",
+              "fileName": "3. Mẫu 01-BKNT-TMĐT.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fad15-f0df-756c-b424-b9f6016f5c21/3. Mẫu 01-BKNT-TMĐT.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-cfc0bc9a639c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai khấu trừ thuế đối với hộ, cá nhân và nhà cung cấp nước ngoài kinh doanh trên nền tảng thương mại điện tử (mẫu số 01/CNKD-NCCNN-TMĐT)",
+          "code": "G12.0013994",
+          "attachments": [
+            {
+              "id": "019fad14-6b36-751a-8ff2-a80ebb577475",
+              "fileName": "1. Mẫu 01-CNKD-NCCNN-TMĐT.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fad14-6b36-751a-8ff2-a80ebb577475/1. Mẫu 01-CNKD-NCCNN-TMĐT.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fad18-41d2-705e-88fa-3bb6b3227bbf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê chi tiết số thuế đã khấu trừ của nhà cung cấp nước ngoài, hộ, cá nhân kinh doanh trên nền tảng thương mại điện tử (Mẫu số 01-1/BK-CNKD-NCCNN-TMĐT)",
+          "code": "G12.0013996",
+          "attachments": [
+            {
+              "id": "019fad18-3bb9-765a-adfc-235419fe2f9c",
+              "fileName": "2. Mẫu 01-1-BK-CNKD-NCCNN-TMĐT TT 89.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fad18-3bb9-765a-adfc-235419fe2f9c/2. Mẫu 01-1-BK-CNKD-NCCNN-TMĐT TT 89.pdf"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fad1a-1257-74a4-bb3e-4b4f71473053",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì các mẫu 01/CNKD-NCCNN-TMĐT, mẫu 01-1/BK-CNKD-NCCNN-TMĐT, mẫu 01-BKNT-TMĐT thực hiện theo mẫu biểu ban hành kèm theo Nghị định số 117/2025/NĐ-CP ngày 09/6/2025 của Chính phủ",
+          "code": "G12.0014002",
+          "attachments": [
+            {
+              "id": "019fad19-e442-70c6-a161-fed6a9306179",
+              "fileName": "01 BKNT TMĐT NĐ 117.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fad19-e442-70c6-a161-fed6a9306179/01 BKNT TMĐT NĐ 117.docx"
+            },
+            {
+              "id": "019fad19-e54c-740b-8bf3-94312c4eb46a",
+              "fileName": "01-1 BK CNKD TMĐT NĐ 117.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fad19-e54c-740b-8bf3-94312c4eb46a/01-1 BK CNKD TMĐT NĐ 117.docx"
+            },
+            {
+              "id": "019fad19-e63f-718b-9c35-4eb2e99b1f25",
+              "fileName": "01 CNKD TMĐT NĐ 117.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fad19-e63f-718b-9c35-4eb2e99b1f25/01 CNKD TMĐT NĐ 117.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Chủ quản nền tảng thương mại điện tử",
+  "keywords": "khai thuế, thương mại điện tử",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e39-0aa7-757f-bfbb-291601c2e514",
+    "019e5e39-aa14-746c-80cd-afe06a8d307a",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019facec-88aa-72dd-b9d6-a47f7f622abc"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019e5e39-0aa7-757f-bfbb-291601c2e514",
+      "name": "Nghị định số 68/2026/NĐ-CP ngày 05/3/2026 quy định về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "68/2026/NĐ-CP"
+    },
+    {
+      "id": "019e5e39-aa14-746c-80cd-afe06a8d307a",
+      "name": "Thông tư số 18/2026/TT-BTC ngày 05/3/2026 quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "18/2026/TT-BTC "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019facec-88aa-72dd-b9d6-a47f7f622abc",
+      "name": "Không phải trả kết quả cho người nộp thuế",
+      "code": "KQ.G12.001885"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019fb215-d8a3-7638-af08-32a09e64e31e",
+      "name": "Thủ tục kê khai và nộp thuế đã khấu trừ đối với các tổ chức quản lý nền tảng thương mại điện tử của hộ, cá nhân có hoạt động kinh doanh trên nền tảng thương mại điện tử",
+      "code": "1.014030.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d6cda-deaa-73de-96ec-13ca46a36970",
+      "name": "Thủ tục kê khai và nộp thuế đã khấu trừ đối với các tổ chức quản lý nền tảng thương mại điện tử của hộ, cá nhân có hoạt động kinh doanh trên nền tảng thương mại điện tử",
+      "code": "1.014030.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "MONTH"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559480409,
+  "updatedAt": 1785399204736,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thuế tỉnh, thành phố, Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Chi cục Thuế Thương mại điện tử, Thuế tỉnh, thành phố, Thuế cơ sở",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

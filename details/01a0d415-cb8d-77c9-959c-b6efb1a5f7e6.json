@@ -1,0 +1,222 @@
+{
+  "id": "01a0d415-cb8d-77c9-959c-b6efb1a5f7e6",
+  "code": "2.002914",
+  "codeNotation": "2.002914",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Sau khi hoàn thành lắp đặt, thay thế thiết bị giám sát hành trình tàu cá, chủ tàu cá nộp 01 (một) bộ hồ sơ đề nghị hỗ trợ qua hình thức trực tiếp hoặc trực tuyến hoặc qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công các cấp.\nBước 2:\n- Trong thời hạn 20 ngày làm việc kể từ ngày nhận hồ sơ hợp lệ, cơ quan quản lý thủy sản Thành phố Hồ Chí Minh tổ chức kiểm tra, thẩm định, rà soát thành phần hồ sơ, điều kiện được hỗ trợ và xác định số kinh phí được hỗ trợ theo quy định, tham mưu Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân Thành phố Hồ Chí Minh. \n- Trường hợp phát hiện hồ sơ, chứng từ không hợp lệ hoặc tàu cá không đảm bảo điều kiện được hỗ trợ theo quy định, cơ quan quản lý thủy sản Thành phố Hồ Chí Minh có văn bản thông báo cho chủ tàu cá được biết trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ đề nghị hỗ trợ. \nBước 3: Trong thời hạn 15 ngày làm việc kể từ ngày nhận được Tờ trình của Sở Nông nghiệp và Môi trường, Chủ tịch Ủy ban nhân dân Thành phố Hồ Chí Minh ban hành Quyết định phê duyệt kinh phí hỗ trợ cho chủ tàu cá.\nBước 4: Căn cứ Quyết định hỗ trợ của Chủ tịch Ủy ban nhân dân Thành phố, Sở Tài chính lập thủ tục cấp kinh phí hỗ trợ đến Ủy ban nhân dân cấp xã, đồng gửi Kho bạc nhà nước để tổ chức thực hiện chi trả hỗ trợ cho ngư dân theo quy định. \nỦy ban nhân dân cấp xã chịu trách nhiệm quản lý, sử dụng, cấp phát và thanh quyết toán kinh phí hỗ trợ các chính sách của Nghị quyết theo đúng quy định của Luật Ngân sách Nhà nước và các quy định có liên quan."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Hỗ trợ lắp đặt, thay thế thiết bị giám sát hành trình tàu cá",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0d414-76ec-75cb-8433-5ad5297687ac",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "ĐƠN ĐỀ NGHỊ HỖ TRỢ LẮP ĐẶT, THAY THẾ THIẾT BỊ GIÁM SÁT HÀNH TRÌNH TÀU CÁ",
+          "code": "TP-H29.0000123",
+          "attachments": [
+            {
+              "id": "01a0d414-5ceb-7648-b4e6-5e3434e41f0d",
+              "fileName": "Mẫu số 01.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0d414-5ceb-7648-b4e6-5e3434e41f0d/Mẫu số 01.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0d415-0844-720f-8e8c-eac6dde8a9a8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hợp đồng, hóa đơn, chứng từ thanh toán tiền mua thiết bị giám sát hành trình, biên bản lắp đặt, biên bản nghiệm thu sản phẩm theo quy định (bản chính)",
+          "code": "TP-H29.0000124",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-0fb535088a1a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a0d415-940b-74ea-bb02-4493c37303b7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-0fb535088a1a",
+      "name": "Thủy sản",
+      "code": "G10-NN14"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-0fb535088a1a",
+    "name": "Thủy sản",
+    "code": "G10-NN14"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3",
+    "019d8a38-d4a7-713d-9573-1e39f9f5c04f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    },
+    {
+      "id": "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+      "name": "Sở Nông nghiệp và Môi trường"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a0d415-940b-74ea-bb02-4493c37303b7",
+      "name": "Quyết định phê duyệt kinh phí hỗ trợ cho chủ tàu cá.",
+      "code": "KQ-H29.0000023"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-855a-9a81af57b106",
+  "departmentPromulgateCode": "H29",
+  "departmentPromulgateName": "UBND Thành phố Hồ Chí Minh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790742658249,
+  "updatedAt": 1790742658249,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0d40d-c5f9-7338-b02d-b6807da5d89a",
+    "proposalNumber": "6089/QĐ-UBND",
+    "decisionDate": 1789923600000,
+    "decisionNumber": null,
+    "publicationDate": 1790742657903,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-855a-9a81af57b106",
+      "name": "UBND Thành phố Hồ Chí Minh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

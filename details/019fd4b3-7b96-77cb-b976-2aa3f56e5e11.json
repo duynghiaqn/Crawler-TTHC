@@ -1,0 +1,257 @@
+{
+  "id": "019fd4b3-7b96-77cb-b976-2aa3f56e5e11",
+  "code": "1.116200",
+  "codeNotation": "1.116200",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Đơn vị trực tiếp quản lý, sử dụng đối tượng thu hút nộp hồ sơ đề nghị thẩm định trách nhiệm bồi hoàn trong thời gian 10 (mười) ngày làm việc kể từ ngày đối tượng thu hút không thực hiện đúng cam kết hoặc có 01 năm bị xếp loại chất lượng ở mức độ không hoàn thành nhiệm vụ hoặc 02 năm liên tiếp bị xếp loại chất lượng ở mức độ hoàn thành nhiệm vụ hoặc bị xử lý kỷ luật bằng hình thức buộc thôi việc.\nBước 2: Trong thời gian 05 (năm) ngày làm việc kể từ ngày nhận đủ hồ sơ đề nghị thẩm định trách nhiệm bồi hoàn, Sở Y tế thẩm định đối tượng, điều kiện, mức bồi hoàn kinh phí và có văn bản gửi Sở Tài chính đề nghị thẩm định mức bồi hoàn kinh phí. Trường hợp hồ sơ không đủ điều kiện, Sở Y tế gửi thông báo bằng văn bản cho Thủ trưởng đơn vị trực tiếp quản lý, sử dụng đối tượng thu hút trong đó nêu rõ lý do không đủ điều kiện.\nBước 3: Trong thời gian 05 (năm) ngày làm việc kể từ ngày nhận được tờ trình của Sở Y tế, Sở Tài chính thẩm định mức bồi hoàn của đối tượng thụ hưởng chính sách và trình Chủ tịch Ủy ban nhân dân tỉnh xem xét, quyết định mức bồi hoàn kinh phí cụ thể của đối tượng thụ hưởng chính sách.\nBước 4: Trong thời gian 05 (năm) ngày làm việc kể từ ngày nhận được Tờ trình của Sở Tài chính, Chủ tịch Ủy ban nhân dân tỉnh quyết định mức bồi hoàn kinh phí của đối tượng thụ hưởng chính sách."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Không.",
+  "name": "Bồi hoàn kinh phí thực hiện chính sách thu hút bác sĩ trình độ cao và bác sĩ làm việc tại các đơn vị sự nghiệp y tế công lập tỉnh Thanh Hóa, giai đoạn 2026-2030",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fd49a-25a6-7059-9806-76c335619f04",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị của đơn vị trực tiếp quản lý, sử dụng đối tượng thu hút (theo Mẫu số 3)",
+          "code": "TP-H56.0000275",
+          "attachments": [
+            {
+              "id": "019fd49a-1dcf-709a-b9bd-92992c651802",
+              "fileName": "Mẫu số 3 Tờ trình.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fd49a-1dcf-709a-b9bd-92992c651802/Mẫu số 3 Tờ trình.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fd49a-cc68-7628-8569-4b9212f3b5b4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị của đối tượng thu hút (theo Mẫu số 4) (nếu có)",
+          "code": "TP-H56.0000276",
+          "attachments": [
+            {
+              "id": "019fd49a-c43c-70b1-b788-b1128e85f852",
+              "fileName": "Mẫu số 4 Đơn đề nghị.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fd49a-c43c-70b1-b788-b1128e85f852/Mẫu số 4 Đơn đề nghị.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fd49b-40df-7005-9adb-9133a9ebb07e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản chứng minh trong trường hợp đối tượng thu hút không thực hiện đúng theo Bản cam kết đã ký, có 01 năm bị xếp loại chất lượng ở mức độ không hoàn thành nhiệm vụ hoặc 02 năm liên tiếp bị xếp loại chất lượng ở mức độ hoàn thành nhiệm vụ, bị xử lý kỷ luật bằng hình thức buộc thôi việc",
+          "code": "TP-H56.0000277",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b5-34e77284fcca"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fd4a9-1193-7138-bf68-a1864cec112c"
+  ],
+  "resultIds": [
+    "019fd4b1-b098-725e-b0c9-3779b9886b49",
+    "019fd4a4-b74f-7718-ac42-cd60a135ef74"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b5-34e77284fcca",
+      "name": "Tổ chức cán bộ",
+      "code": "G18-YT10"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b5-34e77284fcca",
+    "name": "Tổ chức cán bộ",
+    "code": "G18-YT10"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019da875-2375-73ee-b766-00768091be3a"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019dbeb0-bbfd-709e-88ba-12512a11892b"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019da875-2375-73ee-b766-00768091be3a",
+      "name": "Sở Y tế"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019dbeb0-bbfd-709e-88ba-12512a11892b",
+      "name": "Sở tài chính"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fd4a9-1193-7138-bf68-a1864cec112c",
+      "name": "Ban hành chính sách thu hút bác sĩ trình độ cao và bác sĩ làm việc tại các đơn vị sự nghiệp y tế công lập tỉnh Thanh Hóa, giai đoạn 2026-2030",
+      "code": "26/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fd4a4-b74f-7718-ac42-cd60a135ef74",
+      "name": "Văn bản của Sở Y tế gửi đơn vị thông báo lý do (trong trường hợp hồ sơ không đủ điều kiện theo quy định)",
+      "code": "KQ-H56.0000041"
+    },
+    {
+      "id": "019fd4b1-b098-725e-b0c9-3779b9886b49",
+      "name": "Quyết định của Chủ tịch UBND tỉnh phê duyệt mức bồi hoàn kinh phí của đối tượng thụ hưởng chính sách (trong trường hợp đủ điều kiện)",
+      "code": "KQ-H56.0000042"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+  "departmentPromulgateCode": "H56",
+  "departmentPromulgateName": "UBND tỉnh Thanh Hóa",
+  "cases": [
+    {
+      "id": "019fd4b9-5c60-709b-947d-10d0de4f614a",
+      "name": "Bồi hoàn kinh phí thực hiện chính sách thu hút bác sĩ trình độ cao và bác sĩ làm việc tại các đơn vị sự nghiệp y tế công lập tỉnh Thanh Hóa, giai đoạn 2026-2030",
+      "code": "1.116200.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785980251101,
+  "updatedAt": 1785980251101,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Bộ phận tiếp nhận và trả kết quả của Sở Y tế tại Trung tâm Phục vụ hành chính công tỉnh Thanh Hóa, số 28 Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa.\n- Nộp trực tuyến (toàn trình) qua Cổng dịch vụ Công quốc gia tại địa chỉ: https://dichvucong.gov.vn.\n- Trung tâm Phục vụ hành chính công cấp xã thuộc UBND cấp xã tỉnh Thanh Hóa (thực hiện tiếp nhận hồ sơ, trả kết quả không phụ thuộc vào địa giới hành chính).",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fd49f-e181-70ff-801e-5fee9368296a",
+    "proposalNumber": "2748/QĐ-VP",
+    "decisionDate": 1785862800000,
+    "decisionNumber": null,
+    "publicationDate": 1785980251052,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+      "name": "UBND tỉnh Thanh Hóa"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

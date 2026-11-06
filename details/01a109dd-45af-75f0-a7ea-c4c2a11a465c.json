@@ -1,0 +1,274 @@
+{
+  "id": "01a109dd-45af-75f0-a7ea-c4c2a11a465c",
+  "code": "1.117100",
+  "codeNotation": "1.117100",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Người đề nghị xem xét thừa nhận giấy phép hành nghề gửi 01 bộ hồ sơ theo quy định tại khoản 2 Điều 37, Nghị định số 96/2023/NĐ-CP cho cơ quan tiếp nhận hồ sơ theo 1 trong các hình thức sau: trực tiếp, trực tuyến, qua bưu chính. Sau khi nhận hồ sơ, cơ quan tiếp nhận hồ sơ cấp phiếu tiếp nhận hồ sơ cho người đề nghị.\n- Cơ quan tiếp nhận hồ sơ chuyển hồ sơ cho Sở Y tế để tổ chức thẩm định.\n- Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Y tế trình Chủ tịch UBND Thành phố có văn bản trả lời về việc thừa nhận hoặc không thừa nhận giấy phép hành nghề.\n- Trường hợp cần xác minh đối với việc đào tạo ở nước ngoài của người hành nghề thì thời hạn thừa nhận là 20 ngày làm việc kể từ ngày có kết quả xác minh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Y tế phải có văn bản trả lời về việc thừa nhận hoặc không thừa nhận giấy phép hành nghề.\nTrường hợp cần xác minh đối với việc đào tạo ở nước ngoài của người hành nghề thì thời hạn thừa nhận là 20 ngày làm việc kể từ ngày có kết quả xác minh.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Y tế phải có văn bản trả lời về việc thừa nhận hoặc không thừa nhận giấy phép hành nghề.\nTrường hợp cần xác minh đối với việc đào tạo ở nước ngoài của người hành nghề thì thời hạn thừa nhận là 20 ngày làm việc kể từ ngày có kết quả xác minh.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Y tế phải có văn bản trả lời về việc thừa nhận hoặc không thừa nhận giấy phép hành nghề.\nTrường hợp cần xác minh đối với việc đào tạo ở nước ngoài của người hành nghề thì thời hạn thừa nhận là 20 ngày làm việc kể từ ngày có kết quả xác minh.",
+      "fees": []
+    }
+  ],
+  "description": "Giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp được xem xét thừa nhận khi đáp ứng đủ các điều kiện sau đây:\n- Được thừa nhận theo điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên hoặc thỏa thuận quốc tế mà Việt Nam là bên ký kết; giấy phép hành nghề được cấp bởi cơ quan, tổ chức có thẩm quyền của nước ngoài mà cơ quan, tổ chức đó được Bộ Y tế đánh giá để thừa nhận theo quy định;\n- Còn hiệu lực tại thời điểm đề nghị thừa nhận;\n- Có thông tin về chức danh chuyên môn và chức danh đó phải tương đương với một trong các chức danh chuyên môn quy định tại các điểm a, b, c, d, đ, e, g và h khoản 1 Điều 26 của Luật Khám bệnh, chữa bệnh số 15/2023/QH15.",
+  "name": "Thừa nhận giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp để cấp giấy phép hành nghề khám bệnh, chữa bệnh tại Việt Nam",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a10a06-5735-7215-9e8a-84b55879718a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị thừa nhận giấy phép hành nghề khám bệnh, chữa bệnh",
+          "code": "1213.2026.01",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a10a06-97fc-751c-8e58-111c2a9408f7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hợp lệ giấy phép hành nghề khám bệnh, chữa bệnh đã được cấp",
+          "code": "1213.2026.02",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b5-23402dedec55"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d86-7760-a640-c4d327e07f9e",
+    "019f1160-be7f-70b8-a88d-afea0026d637",
+    "019d2bb3-5d87-7195-a447-769d1061fb26",
+    "019ff547-6a69-7038-a010-d5ec1e9fd252",
+    "019d2bb3-5d7e-72d1-afe3-a20252d0a37c",
+    "019ff8d2-00b9-76fb-a8ca-1b63ad6c9ae6",
+    "01a12df6-852d-72be-9ee4-7c4d4ee9e324",
+    "01a12dea-05a7-718b-b15c-0bd19a76ddd5"
+  ],
+  "resultIds": [
+    "01a109db-a94b-74de-8840-42d4b76f44f8"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a87-7317-8556-f7d97e70d8df"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a86-70a8-a0af-76e986804225"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b5-23402dedec55",
+      "name": "Khám bệnh, chữa bệnh",
+      "code": "G18-YT07"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b5-23402dedec55",
+    "name": "Khám bệnh, chữa bệnh",
+    "code": "G18-YT07"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a87-7317-8556-f7d97e70d8df",
+      "name": "Sở Y tế Thành phố Hà Nội",
+      "code": "H26.19"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a86-70a8-a0af-76e986804225",
+      "name": "UBND Thành phố Hà Nội",
+      "code": "H26"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff547-6a69-7038-a010-d5ec1e9fd252",
+      "name": "Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "Nghị định 118/2025/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe3-a20252d0a37c",
+      "name": "Thông tư số 32/2023/TT-BYT quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh",
+      "code": "32/2023/TT-BYT"
+    },
+    {
+      "id": "019f1160-be7f-70b8-a88d-afea0026d637",
+      "name": "Luật Thủ đô",
+      "code": "02/2026/QH16"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a640-c4d327e07f9e",
+      "name": "Luật Khám bệnh, chữa bệnh số: 15/2023/QH15",
+      "code": "15/QH15"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a447-769d1061fb26",
+      "name": "Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh.",
+      "code": "96/2023/NĐ-CP"
+    },
+    {
+      "id": "019ff8d2-00b9-76fb-a8ca-1b63ad6c9ae6",
+      "name": "Ban hành Danh mục kỹ thuật trong khám bệnh, chữa bệnh",
+      "code": "23/2024/TT-BYT"
+    },
+    {
+      "id": "01a12dea-05a7-718b-b15c-0bd19a76ddd5",
+      "name": "Quyết định về việc công bố thủ tục hành chính lĩnh vực Khám bệnh, chữa bệnh thuộc thẩm quyền giải quyết của Chủ tịch Ủy ban nhân dân thành phố Hà Nội",
+      "code": "1213/QĐ-TTPVHCC"
+    },
+    {
+      "id": "01a12df6-852d-72be-9ee4-7c4d4ee9e324",
+      "name": "Quyết định về việc quy định điều kiện, hồ sơ, thủ tục đề nghị xem xét thừa nhận giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp để cấp giấy phép hành nghề khám bệnh, chữa bệnh tại Việt Nam",
+      "code": "81/2026/QĐ-UBND-HN"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a109db-a94b-74de-8840-42d4b76f44f8",
+      "name": "Văn bản thừa nhận giấy phép hành nghề",
+      "code": "VBTN_01"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a86-70a8-a0af-76e986804225",
+  "departmentPromulgateCode": "H26",
+  "departmentPromulgateName": "UBND Thành phố Hà Nội",
+  "cases": [
+    {
+      "id": "01a13834-c478-70eb-97ac-887b0f8cd5ac",
+      "name": "Thừa nhận giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp để cấp giấy phép hành nghề khám bệnh, chữa bệnh tại Việt Nam",
+      "code": "1.117100.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1791773421445,
+  "updatedAt": 1791773421445,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Y tế Thành phố Hà Nội",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "UBND Thành phố Hà Nội",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp được xem xét thừa nhận khi đáp ứng đủ các điều kiện sau đây:\n- Được thừa nhận theo điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên hoặc thỏa thuận quốc tế mà Việt Nam là bên ký kết; giấy phép hành nghề được cấp bởi cơ quan, tổ chức có thẩm quyền của nước ngoài mà cơ quan, tổ chức đó được Bộ Y tế đánh giá để thừa nhận theo quy định;\n- Còn hiệu lực tại thời điểm đề nghị thừa nhận;\n- Có thông tin về chức danh chuyên môn và chức danh đó phải tương đương với một trong các chức danh chuyên môn quy định tại các điểm a, b, c, d, đ, e, g và h khoản 1 Điều 26 của Luật Khám bệnh, chữa bệnh số 15/2023/QH15.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1192e-a4d3-7649-b010-725140e93aba",
+    "proposalNumber": "1213/QĐ-TTPVHCC",
+    "decisionDate": 1790787600000,
+    "decisionNumber": null,
+    "publicationDate": 1791773421371,
+    "issuingAgency": {
+      "id": "019d2be3-6a86-70a8-a0af-76e986804225",
+      "name": "UBND Thành phố Hà Nội"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

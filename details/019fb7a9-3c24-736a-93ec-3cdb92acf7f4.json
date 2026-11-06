@@ -1,0 +1,208 @@
+{
+  "id": "019fb7a9-3c24-736a-93ec-3cdb92acf7f4",
+  "code": "3.000644",
+  "codeNotation": "3.000644",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến một trong các cơ quan sau trên địa bàn các tỉnh: Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm Phục vụ hành chính công cấp xã hoặc Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n-\tKiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n-\tTrường hợp Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm Phục vụ hành chính công cấp xã tiếp nhận hồ sơ thì chuyển hồ sơ như sau:\n+ Đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu: Chuyển hồ sơ đến Văn phòng đăng ký đất đai.\n+ Đối với trường hợp thu hồi Giấy chứng nhận đã cấp khi thực hiện thủ tục đăng ký biến động đất đai, tài sản gắn liền với đất: Chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Cơ quan có chức năng quản lý đất đai cấp tỉnh, Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai kiểm tra, xem xét, quyết định thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai (trừ trường hợp người được cấp Giấy chứng nhận đã thực hiện thủ tục chuyển quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật)."
+    },
+    {
+      "name": "",
+      "description": "hiện việc cấp Giấy chứng nhận sau khi thu hồi Giấy chứng nhận:\na)\tTrường hợp Giấy chứng nhận bị thu hồi là Giấy chứng nhận cấp lần đầu thì Văn phòng đăng ký đất đai thực hiện:\n-\tKiểm tra hồ sơ, xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 của Luật Đất đai theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận.\n-\tTrình cơ quan có chức năng quản lý đất đai cấp tỉnh cấp Giấy chứng nhận.\n-\tVăn phòng đăng ký đất đai để thực hiện chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai; chuyển Giấy chứng nhận đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\nb)\tTrường hợp Giấy chứng nhận bị thu hồi là Giấy chứng nhận được cấp trong trường hợp đăng ký biến động đất đai, tài sản gắn liền với đất thì Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện:\n-\tKiểm tra hồ sơ đã cấp Giấy chứng nhận để xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 của Luật Đất đai theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận.\n-\tCấp Giấy chứng nhận; chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai; trao Giấy chứng nhận hoặc chuyển cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 35,
+      "processingTimeUnit": "DAY",
+      "description": "a)\tThời gian thu hồi Giấy chứng nhận đã cấp không quá 35 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 35,
+      "processingTimeUnit": "DAY",
+      "description": "a)\tThời gian thu hồi Giấy chứng nhận đã cấp không quá 35 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 35,
+      "processingTimeUnit": "DAY",
+      "description": "a)\tThời gian thu hồi Giấy chứng nhận đã cấp không quá 35 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thực hiện việc cấp Giấy chứng nhận sau thu hồi:\n-\tTrường hợp thu hồi Giấy chứng nhận đã cấp lần đầu thì thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận không quá 30 ngày làm việc.\n-\tTrường hợp thu hồi Giấy chứng nhận đã cấp do đăng ký biến động thì thời gian thực hiện cấp lại Giấy chứng nhận theo quy định đối với từng trường hợp đăng ký biến động theo quy định tại Quyết định này.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thực hiện việc cấp Giấy chứng nhận sau thu hồi:\n-\tTrường hợp thu hồi Giấy chứng nhận đã cấp lần đầu thì thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận không quá 30 ngày làm việc.\n-\tTrường hợp thu hồi Giấy chứng nhận đã cấp do đăng ký biến động thì thời gian thực hiện cấp lại Giấy chứng nhận theo quy định đối với từng trường hợp đăng ký biến động theo quy định tại Quyết định này.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thực hiện việc cấp Giấy chứng nhận sau thu hồi:\n-\tTrường hợp thu hồi Giấy chứng nhận đã cấp lần đầu thì thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận không quá 30 ngày làm việc.\n-\tTrường hợp thu hồi Giấy chứng nhận đã cấp do đăng ký biến động thì thời gian thực hiện cấp lại Giấy chứng nhận theo quy định đối với từng trường hợp đăng ký biến động theo quy định tại Quyết định này.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fb5aa-64e9-700e-b8cd-12d2845b0523"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-5b3b-776b-ae3c-c9f6bbc23933"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-5b3b-776b-ae3c-c9f6bbc23933",
+      "name": "Cơ quan, tổ chức, đơn vị có thẩm quyền quản lý hoặc được giao trực tiếp quản lý đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fb5aa-64e9-700e-b8cd-12d2845b0523",
+      "name": "Giấy chứng nhận.",
+      "code": "KQ05"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a341-16615c474af4",
+  "departmentPromulgateCode": "H18",
+  "departmentPromulgateName": "UBND tỉnh Điện Biên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1785562255747,
+  "updatedAt": 1785562255747,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb595-a11e-760d-90fc-0d4660334ae2",
+    "proposalNumber": "53/QUBND",
+    "decisionDate": 1784048400000,
+    "decisionNumber": null,
+    "publicationDate": 1785562255602,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a341-16615c474af4",
+      "name": "UBND tỉnh Điện Biên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "019f9349-67bd-7141-b057-9220b84533c4",
+  "code": "1.115983",
+  "codeNotation": "1.115983",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Cơ quan có thẩm quyền quyết định việc bồi hoàn thông báo cho người học hoặc gia đình người học về việc người học phải thực hiện nghĩa vụ bồi hoàn. Nếu thuộc trường hợp được miễn chi phí bồi hoàn theo quy định tại điểm b khoản 1 Điều 7a Nghị định số 51/2026/NĐ-CP thì người học hoặc gia đình người học nộp 01 bộ hồ sơ theo quy định cho cơ quan có thẩm quyền trong thời hạn 20 ngày làm việc, kể từ ngày ra thông báo;"
+    },
+    {
+      "name": "",
+      "description": "Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ đề nghị miễn chi phí bồi hoàn, nếu hồ sơ không hợp lệ, cơ quan có thẩm quyền thông báo cho người học hoặc gia đình người học bổ sung và hoàn thiện theo quy định;"
+    },
+    {
+      "name": "",
+      "description": "Trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền xem xét, ra quyết định miễn chi phí bồi hoàn cho người học; trường hợp không đủ điều kiện miễn chi phí bồi hoàn thì ra quyết định bồi hoàn chi phí đào tạo;"
+    },
+    {
+      "name": "",
+      "description": "Hết thời hạn 20 ngày làm việc, kể từ ngày ra thông báo, nếu không nhận được tài liệu, minh chứng của người học hoặc gia đình người học thì cơ quan có thẩm quyền ra quyết định bồi hoàn chi phí đào tạo đối với người học. Việc trả và thu hồi chi phí bồi hoàn thực hiện theo quy định tại Điều 7 Nghị định số 143/2013/NĐ-CP."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền xem xét, ra quyết định miễn chi phí bồi hoàn cho người học; trường hợp không đủ điều kiện miễn chi phí bồi hoàn thì ra quyết định bồi hoàn chi phí đào tạo.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền xem xét, ra quyết định miễn chi phí bồi hoàn cho người học; trường hợp không đủ điều kiện miễn chi phí bồi hoàn thì ra quyết định bồi hoàn chi phí đào tạo.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 20 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền xem xét, ra quyết định miễn chi phí bồi hoàn cho người học; trường hợp không đủ điều kiện miễn chi phí bồi hoàn thì ra quyết định bồi hoàn chi phí đào tạo.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Miễn chi phí bồi hoàn (cấp trung ương)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f9348-4495-7459-b9e2-8ddb7aa84912",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị miễn chi phí bồi hoàn (theo Mẫu số 01 Phụ lục ban hành kèm theo Nghị định số 51/2026/NĐ-CP);",
+          "code": "TP-G03.000446",
+          "attachments": [
+            {
+              "id": "019f9348-03df-7369-9108-dbe72091956b",
+              "fileName": "Mẫu số 01.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f9348-03df-7369-9108-dbe72091956b/Mẫu số 01.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f9348-ddfe-7378-8a08-e0fdfe1daf95",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao một trong các loại giấy tờ chứng minh thuộc trường hợp được miễn chi phí bồi hoàn: giấy xác nhận của cơ sở y tế có thẩm quyền trong nước hoặc nước ngoài về việc người học không đủ sức khỏe để làm việc (trường hợp giấy xác nhận bằng tiếng nước ngoài thì phải được dịch ra tiếng Việt); quyết định điều động, luân chuyển, biệt phái hoặc chuyển công tác của cơ quan có thẩm quyền; văn bản của cơ quan nhà nước có thẩm quyền xác nhận lý do khách quan, bất khả kháng khiến người học không thể chấp hành điều động làm việc.  Cơ quan giải quyết thủ tục hành chính khai thác, sử dụng thông tin có liên quan về tình trạng sức khỏe của người học từ Cơ sở dữ liệu nền tảng sổ sức khỏe điện tử (nếu có) để thay thế thành phần hồ sơ Giấy xác nhận của cơ sở y tế có thẩm quyền trong nước về việc người học không đủ sức khỏe để làm việc. Trường hợp cơ quan có thẩm quyền không khai thác được hoặc khai thác không đầy đủ dữ liệu về các thông tin trên từ Cơ sở dữ liệu nền tảng sổ sức khỏe điện tử, cơ quan giải quyết thủ tục hành chính có thông báo cho người học hoặc gia đình người học yêu cầu bổ sung Giấy xác nhận của cơ sở y tế có thẩm quyền trong nước về việc người học không đủ sức khỏe để làm việc để hoàn thiện hồ sơ.",
+          "code": "TP-G03.000447",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-e7cbc8a593ce"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f93c6-7bf4-755e-92c1-dcea8639d5d2",
+    "019f93d7-5605-760d-8e7b-fadcd4eeffa2"
+  ],
+  "resultIds": [
+    "019f9349-558c-752c-aea4-d6216074b12b"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d0a-2f5fa81ad002"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-e7cbc8a593ce",
+      "name": "Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân",
+      "code": "G03-GD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-e7cbc8a593ce",
+    "name": "Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân",
+    "code": "G03-GD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d0a-2f5fa81ad002",
+      "name": "Cục Hợp tác quốc tế - Bộ giáo dục đào tạo",
+      "code": "G03.20"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86",
+    "019f9202-ab18-77a9-86e6-51520f70579d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    },
+    {
+      "id": "019f9202-ab18-77a9-86e6-51520f70579d",
+      "name": "Đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f93d7-5605-760d-8e7b-fadcd4eeffa2",
+      "name": "Quy định về bồi hoàn học bổng và chi phí đào tạo",
+      "code": "143/2013/NĐ-CP"
+    },
+    {
+      "id": "019f93c6-7bf4-755e-92c1-dcea8639d5d2",
+      "name": "Nghị định số 51/2026/NĐ-CP ngày 02 tháng 02 năm 2026 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 143/2013/NĐ-CP ngày 24 tháng 10 năm 2013 của Chính phủ quy định về bồi hoàn học bổng và chi phí đào tạo",
+      "code": "51/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f9349-558c-752c-aea4-d6216074b12b",
+      "name": "Quyết định của cơ quan có thẩm quyền về việc miễn chi phí bồi hoàn.",
+      "code": "TP-G03.008"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [
+    {
+      "id": "019ff3dd-f6af-700b-93e5-8afc393a9af0",
+      "name": "Miễn chi phí bồi hoàn (cấp trung ương)",
+      "code": "1.115983.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1784944461279,
+  "updatedAt": 1784944461279,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Hợp tác quốc tế - Bộ giáo dục đào tạo",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "1. Trực tiếp tại cơ quan có thẩm quyền quyết định bồi hoàn;\n2. Qua dịch vụ bưu chính;\n3. Trực tuyến thông qua Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f933b-8450-7287-8331-40882e612a8f",
+    "proposalNumber": "2132/QĐ-BGDĐT",
+    "decisionDate": 1784739600000,
+    "decisionNumber": null,
+    "publicationDate": 1784944461186,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

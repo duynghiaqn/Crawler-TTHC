@@ -1,0 +1,225 @@
+{
+  "id": "019d2bfc-7434-74e8-ba52-2c1dbef05cf4",
+  "code": "1.009076",
+  "codeNotation": "1.009076",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Doanh nghiệp gửi danh sách hàng hóa đưa vào/đưa ra cửa hàng miễn thuế, kho chứa hàng miễn thuế theo các chỉ tiêu thông tin tại Mẫu số 08a, Mẫu số 08b, Mẫu số 08c Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP đến hệ thống xử lý dữ liệu điện tử hải quan;\nBước 2: Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế thực hiện phê duyệt hoặc không phê duyệt kèm lý do không phê duyệt cho doanh nghiệp thông qua hệ thống xử lý dữ liệu điện tử hải quan trong vòng 02 giờ làm việc kể từ khi hệ thống tiếp nhận thông tin.\nBước 3: Sau khi nhận được phản hồi của hệ thống xử lý dữ liệu điện tử hải quan, doanh nghiệp được đưa hàng hóa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế. Khi doanh nghiệp đưa hàng hóa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế, Hải quan kiểm tra đối chiếu thực tế hàng hóa với danh sách hàng hóa của doanh nghiệp thông qua hệ thống xử lý dữ liệu điện tử hải quan để xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế. \nTrường hợp hệ thống xử lý dữ liệu điện tử hải quan gặp sự cố, doanh nghiệp thông báo bằng văn bản về việc đưa hàng hóa vào kho chứa hàng miễn thuế, cửa hàng miễn thuế theo Mẫu số 08/DSHH Phụ lục III ban hành kèm theo Nghị định số 273/2026/NĐ-CP và gửi dữ liệu lên hệ thống xử lý dữ liệu điện tử hải quan trong vòng 24 giờ kể từ khi sự cố hệ thống xử lý dữ liệu điện tử hải quan được khắc phục.\n- Trường hợp có nghi ngờ về danh sách hàng hóa, trong vòng 02 giờ làm việc kể từ khi hệ thống xử lý dữ liệu điện tử hải quan phản hồi, Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế thực hiện kiểm tra, đối chiếu thông tin trên hệ thống xử lý dữ liệu điện tử hải quan với thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế của doanh nghiệp. Trường hợp có dấu hiệu vi phạm, Chi cục trưởng Chi cục Hải quan ban hành Quyết định kiểm tra thực tế lượng hàng tồn của cửa hàng miễn thuế, kho chứa hàng miễn thuế. Việc tổ chức thực hiện kiểm tra chậm nhất trong vòng 10 ngày làm việc kể từ ngày ký quyết định.\nTrường hợp phức tạp, Chi cục trưởng Chi cục Hải quan ban hành quyết định gia hạn thời hạn kiểm tra nhưng không quá 05 ngày làm việc kể từ ngày kết thúc kiểm tra ghi trên quyết định kiểm tra.\nNội dung kiểm tra và kết quả kiểm tra được ghi nhận bằng biên bản kiểm tra theo Mẫu số 11/BBKT Phụ lục III ban hành kèm theo Nghị định số 273/2026/NĐ-CP.\nCơ quan hải quan thực hiện xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế theo kết quả kiểm tra thực tế thông qua hệ thống xử lý dữ liệu điện tử hải quan."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Trong vòng 02 giờ làm việc kể từ khi hệ thống tiếp nhận thông tin.",
+      "processingTimeUnit": "OTHER",
+      "description": "Trực tuyến thông qua hệ thống xử lý dữ liệu điện tử hải quan.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Trong vòng 02 giờ làm việc kể từ khi hệ thống tiếp nhận thông tin.",
+      "processingTimeUnit": "OTHER",
+      "description": "- Trực tiếp tại cơ quan hải quan trong trường hợp hệ thống xử lý dữ liệu gặp sự cố.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục hải quan, kiểm tra, giám sát hải quan đối với hàng hoá từ nội địa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-64b5ec3083b0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh sách hàng hóa theo Mẫu số 08/DSHH Phụ lục III ban hành kèm theo Nghị định số 273/2026/NĐ-CP (đối với trường hợp nộp trực tiếp)",
+          "code": "000.00.00.G12-KQ9865",
+          "attachments": [
+            {
+              "id": "019fb797-6234-74bc-9378-b15e5c897f89",
+              "fileName": "Mẫu số 08.DSHH.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb797-6234-74bc-9378-b15e5c897f89/Mẫu số 08.DSHH.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb79a-da8a-737a-8b8b-dcb396ee9e55",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Chỉ tiêu thông tin theo Mẫu số 08a, Mẫu số 08b, Mẫu số 08c Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP (đối với trường hợp nộp trực tuyến).",
+          "code": "000.00.00.G12-KQ78956",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fc558-dd5c-7395-9a78-efc7e38e5c9f"
+  ],
+  "resultIds": [
+    "019d2bb2-1c73-70ac-aa18-0c88791d7b28"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019fca8e-5226-715a-a636-481e53b9f6f9"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+      "name": "Hải quan",
+      "code": "G12-TC04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+    "name": "Hải quan",
+    "code": "G12-TC04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019fca8e-5226-715a-a636-481e53b9f6f9",
+      "name": "Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế.",
+      "code": "000.00.34.G12.15"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fc558-dd5c-7395-9a78-efc7e38e5c9f",
+      "name": "Về kinh doanh hàng miễn thuế",
+      "code": "273/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c73-70ac-aa18-0c88791d7b28",
+      "name": "Xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế của Cơ quan hải quan",
+      "code": "KQ.G12.001301"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2c3e-40da-70df-98a5-a8d6bef7ad1b",
+      "name": "Thủ tục hải quan đối với hàng hóa từ nội địa đưa vào cửa hàng miễn thuế, kho hàng miễn thuế",
+      "code": "1.009076.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "HOUR"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559458356,
+  "updatedAt": 1785982947172,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế.",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb763-4d3e-756b-8273-43cfe32d9020",
+    "proposalNumber": "2017",
+    "decisionDate": 1785171600000,
+    "decisionNumber": null,
+    "publicationDate": 1785982946082,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

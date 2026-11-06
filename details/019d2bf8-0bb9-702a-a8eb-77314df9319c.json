@@ -1,0 +1,237 @@
+{
+  "id": "019d2bf8-0bb9-702a-a8eb-77314df9319c",
+  "code": "1.013771",
+  "codeNotation": "1.013771",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân gửi 01 bộ hồ sơ đề nghị cấp Giấy phép gia công hàng hóa thuộc diện hàng hóa cấm xuất khẩu, cấm nhập khẩu; hàng hóa tạm ngừng xuất khẩu, tạm ngừng nhập khẩu đến cơ quan cấp phép.\nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ của thương nhân, cơ quan cấp phép có văn bản yêu cầu thương nhân hoàn thiện hồ sơ.\nc) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan cấp phép cấp Giấy phép gia công hàng hóa cho thương nhân. Trường hợp không cấp Giấy phép, cơ quan cấp phép có văn bản trả lời nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, đúng quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, đúng quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, đúng quy định",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục cấp Giấy phép gia công hàng hóa thuộc diện hàng hóa cấm xuất khẩu, cấm nhập khẩu; hàng hóa tạm ngừng xuất khẩu, tạm ngừng nhập khẩu",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a013de-45aa-72d9-baef-fb66dbd16147",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Đơn đề nghị cấp Giấy phép gia công hàng hóa, theo mẫu số 09 quy định tại Phụ lục VII Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương: 01 bản chính.",
+          "code": "XNK-292-38",
+          "attachments": [
+            {
+              "id": "01a013df-1fe9-77c9-8dec-c705acf08763",
+              "fileName": "Đơn đề nghị cấp Giấy phép gia công hàng hóa.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a013df-1fe9-77c9-8dec-c705acf08763/Đơn đề nghị cấp Giấy phép gia công hàng hóa.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a013de-8c01-7498-a943-dc1b59c33c1f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Giấy chứng nhận đủ điều kiện sản xuất, kinh doanh hoặc tài liệu xác nhận đủ điều kiện sản xuất, kinh doanh (nếu có): 01 bản sao có đóng dấu của thương nhân.",
+          "code": "XNK-292-39",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3"
+  ],
+  "resultIds": [
+    "01a013df-a1e7-72c8-ba02-bd12cbfb512d"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a013df-a1e7-72c8-ba02-bd12cbfb512d",
+      "name": "Giấy phép gia công hàng hóa thuộc diện hàng hóa cấm xuất khẩu, cấm nhập khẩu; hàng hóa tạm ngừng xuất khẩu, tạm ngừng nhập khẩu hoặc văn bản trả lời từ chối cấp phép.",
+      "code": "KQ-292.1"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "019d2cfc-3f98-76e3-84e2-0b1fb9b670cc",
+      "name": "Thủ tục cấp giấy phép thương nhân thực hiện hoạt động gia công hàng hóa thuộc Danh mục hàng hóa cấm xuất khẩu, cấm nhập khẩu, hàng hóa tạm ngừng xuất khẩu, tạm ngừng nhập khẩu cho thương nhân nước ngoài để tiêu thụ ở nước ngoài",
+      "code": "1.013771.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a013f3-dcb4-77b9-a2c7-459cfc3876d4",
+      "name": "Thủ tục cấp Giấy phép gia công hàng hóa thuộc diện hàng hóa cấm xuất khẩu, cấm nhập khẩu; hàng hóa tạm ngừng xuất khẩu, tạm ngừng nhập khẩu",
+      "code": "1.013771.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559169465,
+  "updatedAt": 1787041141607,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a00ebe-e04a-721a-881a-9da433d007cd",
+    "proposalNumber": "2040/QĐ-BCT",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1787041141457,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

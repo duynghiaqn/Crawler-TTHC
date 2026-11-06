@@ -1,0 +1,233 @@
+{
+  "id": "01a0ec65-4faa-7015-90a7-120c7b1bf392",
+  "code": "1.116817",
+  "codeNotation": "1.116817",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Nhà trường gửi 01 bộ hồ sơ quy định tại khoản 2 Điều 6 Nghị định số 360/2026/NĐ-CP qua Cổng Dịch vụ công Quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định số 360/2026/NĐ-CP;\nb) Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, nếu hồ sơ chưa đầy đủ, đúng quy định thì cơ quan tiếp nhận thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử những nội dung cần chỉnh sửa cho nhà trường; \nc) Trong thời hạn 12 ngày làm việc kể từ ngày nhận hồ sơ, nếu hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn phối hợp với đơn vị liên quan tổ chức thẩm định để đánh giá việc đáp ứng các điều kiện thay đổi địa điểm hoạt động giáo dục, trình cấp có thẩm quyền xem xét, quyết định thay đổi địa điểm hoạt động giáo dục; nếu chưa đủ điều kiện thì thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử cho nhà trường và nêu rõ lý do. \nQuyết định thay đổi địa điểm hoạt động giáo dục của nhà trường theo Mẫu số 08 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP, được gửi trực tiếp hoặc qua dịch vụ bưu chính cho nhà trường và công bố công khai trên các phương tiện thông tin đại chúng, trang thông tin điện tử hoặc cổng thông tin điện tử của cơ quan của cấp có thẩm quyền."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ  trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ qua dịch vụ bưu chính đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    }
+  ],
+  "description": "a) Đáp ứng các tiêu chuẩn về địa điểm, quy mô, diện tích và cơ sở vật chất tối thiểu đối với nhà trường theo quy định của Bộ Giáo dục và Đào tạo. Đối với trường chuyên biệt, việc thay đổi địa điểm hoạt động giáo dục còn phải đáp ứng điều kiện về cơ sở vật chất để được cấp phép hoạt động giáo dục quy định tại Nghị định 360/2026/NĐ-CP;\nb) Việc thay đổi địa điểm hoạt động giáo dục không làm thay đổi quyền, nghĩa vụ và trách nhiệm của nhà trường; không làm ảnh hưởng đến quyền và lợi ích hợp pháp của đội ngũ cán bộ quản lý cơ sở giáo dục, giáo viên, nhân sự hỗ trợ giáo dục, người lao động và người học.",
+  "name": "Thay đổi địa điểm hoạt động giáo dục của trường mầm non, trường tiểu học, trường trung học cơ sở, trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0ec63-e967-7103-86db-fe01c8bbdd5c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Văn bản đề nghị thay đổi địa điểm hoạt động giáo dục của nhà trường theo Mẫu số 02 Phụ lục kèm theo Nghị định 360/2026/NĐ-CP.",
+          "code": "TP-G03.00012675",
+          "attachments": [
+            {
+              "id": "01a0ec63-bd48-76c9-a9bd-581a7ce749f8",
+              "fileName": "Mẫu số 02.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0ec63-bd48-76c9-a9bd-581a7ce749f8/Mẫu số 02.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0ec64-46f1-7259-9cb6-d53823aa2e42",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "b) Ý kiến chấp thuận của cơ sở giáo dục đại học, trường cao đẳng (đối với trường thuộc cơ sở giáo dục đại học hoặc trường cao đẳng theo quy định tại Nghị định 360/2026/NĐ-CP) hoặc nhà đầu tư thành lập trường dân lập, tư thục;",
+          "code": "TP-G03.00012676",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0ec64-9daa-749d-909f-9fd54267c9db",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "c) Văn bản pháp lý chứng minh quyền sử dụng đất, quyền sở hữu nhà hoặc hợp đồng thuê địa điểm của trường với thời hạn tối thiểu 05 năm. Nhà trường không phải nộp bản sao các thành phần hồ sơ nếu cơ quan có thẩm quyền có thể khai thác, sử dụng thông tin tương ứng trong cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành hoặc đã được số hóa theo quy định.",
+          "code": "TP-G03.00012677",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-e7cbc8a593ce"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0eb27-0a75-75f9-a08c-6705f56edf6d"
+  ],
+  "resultIds": [
+    "01a0ec65-2743-724c-9b4b-f93e8aa6a810"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-e7cbc8a593ce",
+      "name": "Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân",
+      "code": "G03-GD11"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0eb27-0a75-75f9-a08c-6705f56edf6d",
+      "name": "Quy định về điều kiện đầu tư và hoạt động của cơ sở giáo dục mầm non, cơ sở giáo dục phổ thông, cơ sở giáo dục thường xuyên và cơ sở giáo dục khác thuộc hệ thống giáo dục quốc dân",
+      "code": "360/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0ec65-2743-724c-9b4b-f93e8aa6a810",
+      "name": "Quyết định của Chủ tịch Ủy ban nhân dân cấp xã cho phép thay đổi địa điểm hoạt động giáo dục của nhà trường (theo Mẫu số 08 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP).",
+      "code": "KQ-G03.00010"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790907958134,
+  "updatedAt": 1790907958134,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Đáp ứng các tiêu chuẩn về địa điểm, quy mô, diện tích và cơ sở vật chất tối thiểu đối với nhà trường theo quy định của Bộ Giáo dục và Đào tạo. Đối với trường chuyên biệt, việc thay đổi địa điểm hoạt động giáo dục còn phải đáp ứng điều kiện về cơ sở vật chất để được cấp phép hoạt động giáo dục quy định tại Nghị định 360/2026/NĐ-CP;\nb) Việc thay đổi địa điểm hoạt động giáo dục không làm thay đổi quyền, nghĩa vụ và trách nhiệm của nhà trường; không làm ảnh hưởng đến quyền và lợi ích hợp pháp của đội ngũ cán bộ quản lý cơ sở giáo dục, giáo viên, nhân sự hỗ trợ giáo dục, người lao động và người học.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ec28-ef38-71b3-860d-48702fad8c6f",
+    "proposalNumber": "2855/QĐ-BGDĐT",
+    "decisionDate": 1790701200000,
+    "decisionNumber": null,
+    "publicationDate": 1790907957843,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

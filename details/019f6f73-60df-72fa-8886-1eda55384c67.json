@@ -1,0 +1,434 @@
+{
+  "id": "019f6f73-60df-72fa-8886-1eda55384c67",
+  "code": "1.115950",
+  "codeNotation": "1.115950",
+  "executionSteps": [
+    {
+      "name": "a) Nộp hồ sơ TTHC:",
+      "description": "- Trước khi đưa công trình bến thủy nội địa, bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh vào khai thác, chủ bến thủy nội địa, bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh gửi 01 (một) bộ hồ sơ đề nghị đến Ủy ban nhân dân cấp xã công bố mở khai thác bến thủy nội địa, bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh.\n- Bến thủy nội địa, bến khách ngang sông phải thực hiện công bố khi: có sự thay đổi về quy mô hoặc công năng sử dụng; hết thời hạn công bố hoạt động hoặc hết tuổi thọ thiết kế vẫn có nhu cầu tiếp tục khai thác."
+    },
+    {
+      "name": "b) Giải quyết TTHC:",
+      "description": "Trong thời hạn 04 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định, Ủy Ban nhân dân cấp xã ban hành quyết định công bố mở bến thủy nội địa, bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 4,
+      "processingTimeUnit": "DAY",
+      "description": "Trong thời hạn 04 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định, Ủy Ban nhân dân cấp xã ban hành quyết định công bố mở bến thủy nội địa, bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 4,
+      "processingTimeUnit": "DAY",
+      "description": "Trong thời hạn 04 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định, Ủy Ban nhân dân cấp xã ban hành quyết định công bố mở bến thủy nội địa, bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 4,
+      "processingTimeUnit": "DAY",
+      "description": "Trong thời hạn 04 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định, Ủy Ban nhân dân cấp xã ban hành quyết định công bố mở bến thủy nội địa, bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Công bố mở bến thủy nội địa, bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Thành phần hồ sơ công bố mở bến thủy nội địa:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0c3-839164f0d1fd",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản sao có chứng thực hoặc bản sao điện tử được cấp từ sổ gốc hoặc bản sao điện tử được chứng thực từ bản chính Văn bản phê duyệt dự án đầu tư.",
+          "code": "000.00.00.G17-KQ002952",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0b0-3b6641afd48a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản sao có chứng thực hoặc bản sao và xuất trình bản chính để đối chiếu giấy tờ về sử dụng đất để xây dựng cảng thủy nội địa do cơ quan có thẩm quyền cấp;",
+          "code": "000.00.00.G04-KQ3276",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0b0-406e2a631000",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Biên bản nghiệm thu hoàn thành công trình xây dựng đưa vào sử dụng; bản vẽ hoàn công mặt bằng, mặt chiếu đứng và mặt cắt ngang công trình cảng thủy nội địa;",
+          "code": "000.00.00.G04-KQ3278",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0b0-466f0104ee2b",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Biên bản nghiệm thu kết quả rà tìm vật chướng ngại trong vùng nước cảng; biên bản xác nhận thiết lập báo hiệu tại cảng;",
+          "code": "000.00.00.G04-KQ3279",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0af-dfa3179e6d34",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Bản sao giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường của pông-tông, phao neo thuộc đối tượng phải đăng kiểm (nếu sử dụng pông-tông làm cầu cảng);",
+          "code": "000.00.00.G04-KQ3253",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0b0-53fda876123a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản sao giấy chứng nhận phù hợp an ninh cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài (đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài);",
+          "code": "000.00.00.G04-KQ3282",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7319-a420-74bc-992c-24dd2fb6d256",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính hoặc biểu mẫu điện tử văn bản đề nghị",
+          "code": "TP-G17.000424",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Thành phần hồ sơ công bố mở bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71bd-7118-91ec-7064fec3bd7e",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản nghiệm thu hoàn thành công trình đưa vào khai thác, sử dụng",
+          "code": "000.00.00.G04-KQ1053",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0b0-3b6641afd48a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản sao có chứng thực hoặc bản sao và xuất trình bản chính để đối chiếu giấy tờ về sử dụng đất để xây dựng cảng thủy nội địa do cơ quan có thẩm quyền cấp;",
+          "code": "000.00.00.G04-KQ3276",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0af-dfa3179e6d34",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Bản sao giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường của pông-tông, phao neo thuộc đối tượng phải đăng kiểm (nếu sử dụng pông-tông làm cầu cảng);",
+          "code": "000.00.00.G04-KQ3253",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7319-a420-74bc-992c-24dd2fb6d256",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính hoặc biểu mẫu điện tử văn bản đề nghị",
+          "code": "TP-G17.000424",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0af-1d7eb85f38e9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Biên bản nghiệm thu rà quét vật chướng ngại.",
+          "code": "000.00.00.G04-KQ3205",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Thành phần hồ sơ công bố mở bến thủy nội địa, bến khách ngang sông khi có sự thay đổi về quy mô hoặc công năng sử dụng; hết thời hạn công bố hoạt động hoặc hết tuổi thọ thiết kế vẫn có nhu cầu tiếp tục khai thác",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0b0-406e2a631000",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Biên bản nghiệm thu hoàn thành công trình xây dựng đưa vào sử dụng; bản vẽ hoàn công mặt bằng, mặt chiếu đứng và mặt cắt ngang công trình cảng thủy nội địa;",
+          "code": "000.00.00.G04-KQ3278",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7319-a420-74bc-992c-24dd2fb6d256",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính hoặc biểu mẫu điện tử văn bản đề nghị",
+          "code": "TP-G17.000424",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7319-f683-7026-b6b9-105dda5df41f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kiểm định, đánh giá chất lượng công trình do tư vấn có tư cách pháp nhân thực hiện",
+          "code": "TP-G17.000425",
+          "attachments": [
+            {
+              "id": "019f7322-784e-7619-9983-ebedee7ad384",
+              "fileName": "TTHC thường 04 – Mẫu đề nghị.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7322-784e-7619-9983-ebedee7ad384/TTHC thường 04 – Mẫu đề nghị.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f7318-f47e-73b4-bf06-fbd1aa35d8b6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, biên bản nghiệm thu hoàn thành cải tạo, sửa chữa, nâng cấp (nếu có)",
+          "code": "TP-G17.000422",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c0a4209513fc"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-345fa89f8a03",
+    "019d2bb3-5d84-71c5-b673-4c2d13d60f2a",
+    "019fdf71-76e2-704b-a3af-c9e4c43d5e83",
+    "019fdf72-377b-70a8-9722-cada8509b918",
+    "019d2bb3-5d7d-7398-be4a-f3074c98837e"
+  ],
+  "resultIds": [
+    "019f731e-2711-712a-b10e-c5b989c9685a"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+      "name": "Hàng hải và đường thủy nội địa",
+      "code": "G04-GT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+    "name": "Hàng hải và đường thủy nội địa",
+    "code": "G04-GT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-345fa89f8a03",
+      "name": "Giao thông đường thủy nội địa",
+      "code": "23/2004/QH11"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-4c2d13d60f2a",
+      "name": "sửa đổi, bổ sung một số Điều của Luật 23/2004/QH11 2004",
+      "code": "48/2014/QH13"
+    },
+    {
+      "id": "019fdf72-377b-70a8-9722-cada8509b918",
+      "name": "Thông tư số 54/2026/TT-BXD ngày 01/7/2026 của Bộ trưởng Bộ Xây dựng quy định Sửa đổi, bổ sung một số điều của Thông tư số 20/2026/TT-BXD ngày 15/5/2026 của Bộ trưởng Bộ Xây dựng quy định về quản lý nhà nước chuyên ngành tại cảng thủy nội địa, bến thủy nội địa, khu neo đậu và quản lý hoạt động hoa tiêu đường thủy nội địa và Thông tư số 21/2026/TT-BXD ngày 15/5/2026 của Bộ trưởng Bộ Xây dựng quy định về quản lý kết cấu hạ tầng đường thủy nội địa",
+      "code": "54/2026/TT-BXD"
+    },
+    {
+      "id": "019fdf71-76e2-704b-a3af-c9e4c43d5e83",
+      "name": "Thông tư số 21/2026/TT-BXD ngày 15/5/2026 của Bộ trưởng Bộ Xây dựng quy định về quản lý kết cấu hạ tầng đường thủy nội địa",
+      "code": "21/2026/TT-BXD"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4a-f3074c98837e",
+      "name": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực đường thủy nội địa và đường sắt",
+      "code": "198/2016/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f731e-2711-712a-b10e-c5b989c9685a",
+      "name": "Quyết định công bố mở cảng thủy nội địa",
+      "code": "KQ-G17.000058"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "019fd144-4a94-748b-8813-e5ac2b898571",
+      "name": "Công bố mở bến thủy nội địa, bến khách ngang sông, kết cấu hạ tầng đường thủy nội địa phục vụ thi công công trình, dự án và bến dân sinh",
+      "code": "1.115950.01",
+      "processingDay": {
+        "qty": 4,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785147285084,
+  "updatedAt": 1786160729766,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f68ce-0321-7437-8286-841d2ee06632",
+    "proposalNumber": "1136/QĐ-BXD",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1785147284937,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

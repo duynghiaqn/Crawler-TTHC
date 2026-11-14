@@ -1,0 +1,198 @@
+{
+  "id": "01a177f3-f268-73a6-a8d6-c6a3c9b03e45",
+  "code": "3.000789",
+  "codeNotation": "3.000789",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Trong trường hợp Chứng chỉ hành nghề luật sư bị mất, bị hỏng hoặc vì lý do khác mà thông tin trên Chứng chỉ hành nghề luật sư bị thay đổi thì cơ quan thực hiện thí điểm có văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính đến Bộ Tư pháp hoặc trực tuyến trên Cổng Dịch vụ công quốc gia đề nghị cấp đổi Chứng chỉ hành nghề luật sư cho luật sư công, trong đó nêu rõ lý do đề nghị cấp đổi.\nTrong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ trưởng Bộ Tư pháp ra quyết định cấp đổi Chứng chỉ hành nghề luật sư cho luật sư công; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận được hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận được hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận được hồ sơ hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "Chứng chỉ hành nghề luật sư bị mất, bị hỏng hoặc vì lý do khác mà thông tin trên Chứng chỉ hành nghề luật sư bị thay đổi.",
+  "name": "Cấp đổi Chứng chỉ hành nghề luật sư cho luật sư công",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a177f3-62b4-732f-9f6a-f85ae91cae78",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị cấp đổi Chứng chỉ hành nghề luật sư cho luật sư công, trong đó nêu rõ lý do đề nghị cấp đổi.",
+          "code": "TP-G15.33-1000036",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-5b383dd0cc28"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a177e1-f53d-74be-b2df-33ef08c99e4d"
+  ],
+  "resultIds": [
+    "01a177e0-2e04-73f8-b2d4-2860700cccd0"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-d603f1537007"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a72-700f-a652-d603f1537007"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-5b383dd0cc28",
+      "name": "Luật sư",
+      "code": "G15-TP09"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-5b383dd0cc28",
+    "name": "Luật sư",
+    "code": "G15-TP09"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp",
+      "code": "G15"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp",
+      "code": "G15"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a177e1-f53d-74be-b2df-33ef08c99e4d",
+      "name": "Nghị định số 364/2026/NĐ-CP ngày 21/9/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Nghị quyết số 24/2026/QH16 ngày 24/4/2026 của Quốc hội về việc thí điểm thực hiện chế định luật sư công",
+      "code": "364/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a177e0-2e04-73f8-b2d4-2860700cccd0",
+      "name": "Chứng chỉ hành nghề luật sư",
+      "code": "KQ.G15.18.000138"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d603f1537007",
+  "departmentPromulgateCode": "G15",
+  "departmentPromulgateName": "Bộ Tư pháp",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1793014218902,
+  "updatedAt": 1793014218902,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tư pháp",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ Tư pháp",
+  "delegatedAgencies": "Bộ Tư pháp",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Chứng chỉ hành nghề luật sư bị mất, bị hỏng hoặc vì lý do khác mà thông tin trên Chứng chỉ hành nghề luật sư bị thay đổi.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a177cf-9222-70af-8a62-29858d613578",
+    "proposalNumber": "2296/QĐ-BTP",
+    "decisionDate": 1792602000000,
+    "decisionNumber": null,
+    "publicationDate": 1793014218848,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

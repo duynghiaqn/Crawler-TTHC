@@ -1,0 +1,282 @@
+{
+  "id": "01a1a9cd-d8de-7065-b4e4-6829d74d6607",
+  "code": "6.006805",
+  "codeNotation": "6.006805",
+  "executionSteps": [
+    {
+      "name": "Bước 1",
+      "description": "Đơn vị được giao quản lý tài sản lập Đề án cho thuê quyền khai thác tài sản (gọi tắt là Đề án cho thuê) và có văn bản gửi Phòng Kinh tế cấp xã kèm theo Đề án cho thuê (trong trường hợp đối tượng được giao quản lý tài sản không phải là Phòng Kinh tế cấp xã)."
+    },
+    {
+      "name": "Bước 2",
+      "description": "Trong thời hạn không quá 10 ngày, kể từ ngày nhận đủ hồ sơ quy định tại điểm a khoản này, Phòng Kinh tế cấp xã gửi văn bản lấy ý kiến thẩm định của các cơ quan, đơn vị liên quan."
+    },
+    {
+      "name": "Bước 3",
+      "description": "Trong thời hạn không quá 15 ngày kể từ ngày nhận được đề nghị tham gia ý kiến, các cơ quan, đơn vị liên quan có văn bản tham gia ý kiến thẩm định gửi về Phòng Kinh tế cấp xã."
+    },
+    {
+      "name": "Bước 4",
+      "description": "Trong thời hạn không quá 20 ngày kể từ ngày nhận được ý kiến thẩm định của các cơ quan, đơn vị liên quan, Phòng Kinh tế câp xã trình Ủy ban nhân dân cấp xã xem xét, phê duyệt Đề án cho thuê hoặc có văn bản hồi đáp trong trường hợp đề nghị phê duyệt Đề án chưa phù hợp."
+    },
+    {
+      "name": "Bước 5",
+      "description": "Trong thời hạn không quá 30 ngày, kể nhận được đầy đủ hồ sơ theo quy định tại khoản 3 phần này của Phòng Kinh tế cấp xã, Ủy ban nhân dân cấp xã xem xét, phê duyệt Đề án cho thuê hoặc có văn bản hồi đáp trong trường hợp đề nghị phê duyệt Đề án cho thuê không phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 75,
+      "processingTimeUnit": "DAY",
+      "description": "Thực hiện thông qua phần mềm Hệ thống quản lý văn bản và điều hành thành phố Bắc Ninh.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Không",
+  "name": "Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng chợ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a19f9e-6397-7632-ae69-b0b616758d0f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của đối tượng được giao quản lý tài sản kèm theo Đề án cho thuê theo mẫu số 04A Phụ lục I Nghị định số 60/2024/NĐ-CP",
+          "code": "TP.H05.000335",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a9ca-13c4-7579-9037-2e45cfe15d3f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình về việc phê duyệt Đề án cho thuê",
+          "code": "TP.H05.000360",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f9f-7300-713b-bc34-1e663fb300ac",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Dự thảo Quyết định phê duyệt Đề án cho thuê",
+          "code": "TP.H05.000337",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-83161fce424c"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46f-85e5bc589b94",
+    "01a19a3d-6299-719e-8d31-2997dc6bc782",
+    "01a19f75-de68-7124-83b9-475893fbb926"
+  ],
+  "resultIds": [
+    "01a19f9f-d6e2-70c8-b5d6-b92c3a876d2e"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a93-76b6-8874-e00c3c49165d",
+    "019d2be3-6a93-76b6-8874-f769e39085e2",
+    "019d2be3-6a93-76b6-8875-0bc18b6d2a56",
+    "019d2be3-6a93-76b6-8875-1d80a15aa545",
+    "019d2be3-6a93-76b6-8875-32e5f05c64d8",
+    "019d2be3-6a93-76b6-8875-4797fcb4fdb1",
+    "019d2be3-6a93-76b6-887c-881d9cbce4b9"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-83161fce424c",
+      "name": "Tài sản kết cấu hạ tầng chợ do Nhà nước đầu tư, quản lý",
+      "code": "G02-CT41"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-83161fce424c",
+    "name": "Tài sản kết cấu hạ tầng chợ do Nhà nước đầu tư, quản lý",
+    "code": "G02-CT41"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a93-76b6-8875-32e5f05c64d8",
+      "name": "Phòng Kinh tế, Hạ tầng và Đô thị Phường Kinh Bắc",
+      "code": "H05.105.1"
+    },
+    {
+      "id": "019d2be3-6a93-76b6-8875-4797fcb4fdb1",
+      "name": "Phòng Kinh tế, Hạ tầng và Đô thị Phường Mão Điền",
+      "code": "H05.106.1"
+    },
+    {
+      "id": "019d2be3-6a93-76b6-8874-e00c3c49165d",
+      "name": "Phòng Kinh tế, Hạ tầng và Đô thị Phường Bồng Lai",
+      "code": "H05.101.1"
+    },
+    {
+      "id": "019d2be3-6a93-76b6-8874-f769e39085e2",
+      "name": "Phòng Kinh tế, Hạ tầng và Đô thị Phường Đào Viên",
+      "code": "H05.102.1"
+    },
+    {
+      "id": "019d2be3-6a93-76b6-8875-0bc18b6d2a56",
+      "name": "Phòng Kinh tế, Hạ tầng và Đô thị Phường Đồng Nguyên",
+      "code": "H05.103.1"
+    },
+    {
+      "id": "019d2be3-6a93-76b6-887c-881d9cbce4b9",
+      "name": "Phòng Kinh tế Xã Yên Thế",
+      "code": "H05.199.1"
+    },
+    {
+      "id": "019d2be3-6a93-76b6-8875-1d80a15aa545",
+      "name": "Phòng Kinh tế, Hạ tầng và Đô thị Phường Hạp Lĩnh",
+      "code": "H05.104.1"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46f-85e5bc589b94",
+      "name": "Nghị định số 60/2024/NĐ-CP",
+      "code": "60/2024/NĐ-CP"
+    },
+    {
+      "id": "01a19a3d-6299-719e-8d31-2997dc6bc782",
+      "name": "Ban hành Quy định về phát triển và quản lý chợ trên địa bàn thành phố Bắc Ninh và Quyết định số 1231/QĐ-UBND ngày 14 tháng 5 năm 2026 của Chủ tịch UBND tỉnh về việc đính chính văn bản quy phạm pháp luật lĩnh vực công thương do Uỷ ban nhân dân tỉnh Bắc Ninh ban hành",
+      "code": "101/2025/QĐ-UBND."
+    },
+    {
+      "id": "01a19f75-de68-7124-83b9-475893fbb926",
+      "name": "về việc đính chính văn bản quy phạm pháp luật lĩnh vực công thương do Uỷ ban nhân dân tỉnh Bắc Ninh ban hành",
+      "code": "1231/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a19f9f-d6e2-70c8-b5d6-b92c3a876d2e",
+      "name": "Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng chợ",
+      "code": "KQ.H05.000508"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND thành phố Bắc Ninh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794211524257,
+  "updatedAt": 1794211524257,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Phòng Kinh tế, Hạ tầng và Đô thị Phường Kinh Bắc, Phòng Kinh tế, Hạ tầng và Đô thị Phường Mão Điền, Phòng Kinh tế, Hạ tầng và Đô thị Phường Bồng Lai, Phòng Kinh tế, Hạ tầng và Đô thị Phường Đào Viên, Phòng Kinh tế, Hạ tầng và Đô thị Phường Đồng Nguyên, Phòng Kinh tế Xã Yên Thế, Phòng Kinh tế, Hạ tầng và Đô thị Phường Hạp Lĩnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1bf53-16e4-7129-8e37-bfd2f04b915e",
+    "proposalNumber": "3005/QĐ-UBND",
+    "decisionDate": 1794157200000,
+    "decisionNumber": null,
+    "publicationDate": 1794211524147,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND thành phố Bắc Ninh"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

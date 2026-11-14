@@ -1,0 +1,580 @@
+{
+  "id": "019d2bfb-d77c-7514-8e03-9ace6223bb2c",
+  "code": "1.001710",
+  "codeNotation": "1.001710",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Lập, nộp hồ sơ\n\tTổ chức, cá nhân (bao gồm đơn vị SDLĐ, NLĐ, thân nhân NLĐ) lập hồ sơ theo quy định tại Mục 11.3 (Thành phần hồ sơ) và nộp cho cơ quan BHXH như sau:\n\ta) Đối với người đang hưởng BHXH hằng tháng hoặc đang tạm dừng, chấm dứt hưởng BHXH hằng tháng; thân nhân của người đang hưởng BHXH hằng tháng hoặc đang tạm dừng hưởng BHXH hằng tháng chết: Nộp hồ sơ đề nghị điều chỉnh, tạm dừng, hưởng tiếp, hủy quyết định, chấm dứt hưởng, thôi hưởng trợ cấp tuất hằng tháng đến cơ quan BHXH đang chi trả lương hưu, trợ cấp BHXH hằng tháng (hoặc nơi chi trả lương hưu, trợ cấp BHXH hằng tháng trước khi chết, tạm dừng hưởng hoặc chấm dứt hưởng).\nb) Trường hợp điều chỉnh, hủy quyết định hưởng chế độ ốm đau, thai sản; BHXH một lần; trợ cấp TNLĐ, BNN một lần; trợ cấp tuất một lần: Nộp hồ sơ đến cơ quan BHXH nơi đã giải quyết hưởng chế độ.\n\tc) Người đang hưởng BHXH hằng tháng hoặc thân nhân người hưởng BHXH hằng tháng chết đề nghị cập nhật thông tin nhân thân theo căn cước công dân: Nộp hồ sơ đến cơ quan BHXH nơi đang chi trả BHXH hằng tháng (hoặc nơi chi trả BHXH hằng tháng trước khi chết).\nTrường hợp cá nhân nêu tại điểm a, b, c nêu trên lựa chọn hình thức nộp hồ sơ trực tiếp thì có thể nộp đến cơ quan BHXH cấp tỉnh/BHXH cơ sở thuận tiện nhất."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định hoặc chuyển hồ sơ đến cơ quan BHXH có thẩm quyền giải quyết theo quy định (đối với hồ sơ tiếp nhận trực tiếp không thuộc thẩm quyền giải quyết của cơ quan BHXH nơi tiếp nhận)."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Nhận kết quả\n\t- Hồ sơ, giấy tờ: Tổ chức, cá nhân nhận hồ sơ, giấy tờ liên quan theo quy định tương ứng với từng trường hợp (quyết định điều chỉnh, hủy quyết định hưởng hoặc chấm dứt hưởng; văn bản xác nhận cập nhật thông tin nhân thân theo căn cước công dân…).\n\t- Cá nhân là NLĐ, thân nhân NLĐ: Nhận tiền lương hưu, trợ cấp BHXH hằng tháng; tiền truy lĩnh hoặc nộp tiền phải thu hồi (nếu có)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả \n\t- Tổ chức, cá nhân nhận kết quả là hồ sơ giấy tờ theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Cá nhân là NLĐ, thân nhân NLĐ: Nhận tiền lương hưu, trợ cấp BHXH; tiền truy lĩnh (nếu có) bằng một trong các hình thức: \n+ Thông qua tài khoản cá nhân.\n+ Bằng tiền mặt tại cơ quan BHXH (đối với nhận trợ cấp một lần).\n+ Bằng tiền mặt thông qua tổ chức hỗ trợ chi trả (đối với hưởng chế độ hằng tháng).\n\t+ Trường hợp phải nộp số tiền hưởng không đúng quy định: Trực tiếp tại cơ quan BHXH tỉnh/BHXH cơ sở (nơi thuận tiện nhất) hoặc chuyển tiền thông qua tài khoản của cơ quan BHXH. \na) Giải quyết điều chỉnh, hủy quyết định, chấm dứt hưởng BHXH\n- Đối với chế độ TNLĐ, BNN: Tối đa 06 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với lương hưu: Tối đa 12 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với NLĐ không đủ điều kiện hưởng lương hưu và chưa đủ tuổi hưởng trợ cấp hưu trí xã hội: Tối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với BHXH một lần; trợ cấp một lần đối với người đang hưởng BHXH hằng tháng ra nước ngoài định cư: Tối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với chế độ tử tuất: Tối đa 08 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với trợ cấp theo Quyết định số 613/QĐ-TTg: Tối đa 15 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\nb) Giải quyết tiếp tục hưởng BHXH hằng tháng trong trường hợp đã bị tạm dừng hoặc chấm dứt hưởng; Giải quyết thôi hưởng trợ cấp tuất hằng tháng đối với người đang hưởng trợ cấp tuất hằng tháng chết mà thuộc đối tượng được hưởng hỗ trợ chi phí mai táng: Tối đa 05 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định.\nc) Cập nhật thông tin nhân thân theo căn cước công dân: Tối đa 05 ngày làm việc kể từ ngày nhận đủ hồ sơ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả \n\t- Tổ chức, cá nhân nhận kết quả là hồ sơ giấy tờ theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Cá nhân là NLĐ, thân nhân NLĐ: Nhận tiền lương hưu, trợ cấp BHXH; tiền truy lĩnh (nếu có) bằng một trong các hình thức: \n+ Thông qua tài khoản cá nhân.\n+ Bằng tiền mặt tại cơ quan BHXH (đối với nhận trợ cấp một lần).\n+ Bằng tiền mặt thông qua tổ chức hỗ trợ chi trả (đối với hưởng chế độ hằng tháng).\n\t+ Trường hợp phải nộp số tiền hưởng không đúng quy định: Trực tiếp tại cơ quan BHXH tỉnh/BHXH cơ sở (nơi thuận tiện nhất) hoặc chuyển tiền thông qua tài khoản của cơ quan BHXH. \na) Giải quyết điều chỉnh, hủy quyết định, chấm dứt hưởng BHXH\n- Đối với chế độ TNLĐ, BNN: Tối đa 06 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với lương hưu: Tối đa 12 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với NLĐ không đủ điều kiện hưởng lương hưu và chưa đủ tuổi hưởng trợ cấp hưu trí xã hội: Tối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với BHXH một lần; trợ cấp một lần đối với người đang hưởng BHXH hằng tháng ra nước ngoài định cư: Tối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với chế độ tử tuất: Tối đa 08 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với trợ cấp theo Quyết định số 613/QĐ-TTg: Tối đa 15 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\nb) Giải quyết tiếp tục hưởng BHXH hằng tháng trong trường hợp đã bị tạm dừng hoặc chấm dứt hưởng; Giải quyết thôi hưởng trợ cấp tuất hằng tháng đối với người đang hưởng trợ cấp tuất hằng tháng chết mà thuộc đối tượng được hưởng hỗ trợ chi phí mai táng: Tối đa 05 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định.\nc) Cập nhật thông tin nhân thân theo căn cước công dân: Tối đa 05 ngày làm việc kể từ ngày nhận đủ hồ sơ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả \n\t- Tổ chức, cá nhân nhận kết quả là hồ sơ giấy tờ theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Cá nhân là NLĐ, thân nhân NLĐ: Nhận tiền lương hưu, trợ cấp BHXH; tiền truy lĩnh (nếu có) bằng một trong các hình thức: \n+ Thông qua tài khoản cá nhân.\n+ Bằng tiền mặt tại cơ quan BHXH (đối với nhận trợ cấp một lần).\n+ Bằng tiền mặt thông qua tổ chức hỗ trợ chi trả (đối với hưởng chế độ hằng tháng).\n\t+ Trường hợp phải nộp số tiền hưởng không đúng quy định: Trực tiếp tại cơ quan BHXH tỉnh/BHXH cơ sở (nơi thuận tiện nhất) hoặc chuyển tiền thông qua tài khoản của cơ quan BHXH. \na) Giải quyết điều chỉnh, hủy quyết định, chấm dứt hưởng BHXH\n- Đối với chế độ TNLĐ, BNN: Tối đa 06 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với lương hưu: Tối đa 12 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với NLĐ không đủ điều kiện hưởng lương hưu và chưa đủ tuổi hưởng trợ cấp hưu trí xã hội: Tối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với BHXH một lần; trợ cấp một lần đối với người đang hưởng BHXH hằng tháng ra nước ngoài định cư: Tối đa 05 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với chế độ tử tuất: Tối đa 08 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\n- Đối với trợ cấp theo Quyết định số 613/QĐ-TTg: Tối đa 15 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\nb) Giải quyết tiếp tục hưởng BHXH hằng tháng trong trường hợp đã bị tạm dừng hoặc chấm dứt hưởng; Giải quyết thôi hưởng trợ cấp tuất hằng tháng đối với người đang hưởng trợ cấp tuất hằng tháng chết mà thuộc đối tượng được hưởng hỗ trợ chi phí mai táng: Tối đa 05 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định.\nc) Cập nhật thông tin nhân thân theo căn cước công dân: Tối đa 05 ngày làm việc kể từ ngày nhận đủ hồ sơ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "- Theo quy định tại Điều 75 Luật BHXH số 41/2024/QH15.\n-  Người đã được giải quyết hưởng các chế độ BHXH; cơ quan, tổ chức, cá nhân, đơn vị SDLĐ có căn cứ đề nghị điều chỉnh.\n- Người đang hưởng BHXH hằng tháng hoặc thân nhân người hưởng BHXH hằng tháng chết đề nghị cập nhật thông tin nhân thân theo căn cước công dân.",
+  "name": "Giải quyết điều chỉnh, tạm dừng, hủy quyết định, chấm dứt hưởng, hưởng tiếp BHXH; thôi hưởng trợ cấp tuất hằng tháng đối với người đang hưởng trợ cấp tuất hằng tháng chết mà thuộc đối tượng được hưởng hỗ trợ chi phí mai táng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "1. Trường hợp thôi hưởng trợ cấp tuất hằng tháng đối với người đang hưởng trợ cấp tuất hằng tháng chết mà thuộc đối tượng được hưởng hỗ trợ chi phí mai táng, hồ sơ gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02f0b-3ae2-7756-883d-7fed7007fa1a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao Giấy chứng tử hoặc trích lục khai tử hoặc bản sao giấy báo tử hoặc bản sao quyết định tuyên bố của tòa án đã chết",
+          "code": "TP.G12.000134",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "2. Trường hợp người đang hưởng BHXH hằng tháng hoặc thân nhân người hưởng BHXH hằng tháng chết đề nghị cập nhật thông tin nhân thân theo căn cước công dân, hồ sơ gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02f0c-3b7a-70e2-accb-647f0249856a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị Mẫu số 14-HSB",
+          "code": "TP.G12.000135",
+          "attachments": [
+            {
+              "id": "01a02f29-3793-72b5-bc47-0e2455e04b44",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02f29-3793-72b5-bc47-0e2455e04b44/14-HSB.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3. Trường hợp điều chỉnh, hủy quyết định hưởng các chế độ BHXH, hồ sơ gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02f0d-12eb-7092-b49e-908d9d3d3457",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị Mẫu số 14-HSB trong trường hợp người hưởng đề nghị",
+          "code": "TP.G12.000136",
+          "attachments": [
+            {
+              "id": "01a02f29-709b-75bb-803a-dcef04357414",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02f29-709b-75bb-803a-dcef04357414/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02f0d-a656-7588-8604-3fdd95fbd846",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, giấy tờ, văn bản làm căn cứ điều chỉnh, hủy quyết định hưởng BHXH do tổ chức, cá nhân cung cấp",
+          "code": "TP.G12.000137",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "4. Hồ sơ tạm dừng hưởng lương hưu, trợ cấp BHXH hằng tháng  Hồ sơ theo quy định tại khoản 1 Điều 75 Luật BHXH là một trong các giấy tờ sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02f13-6c16-77bc-86b3-33d703425d23",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, giấy tờ xác định người hưởng lương hưu, trợ cấp BHXH hằng tháng xuất cảnh trái phép",
+          "code": "TP.G12.000138",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f14-596e-724e-b33c-f5c68fe5f7a7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định tuyên bố một người mất tích của Tòa án nhân dân",
+          "code": "TP.G12.000139",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f14-feeb-761e-a01a-c93df010668b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Kết quả xác minh của tổ chức hỗ trợ chi trả hoặc cơ quan BHXH đối với trường hợp không xác minh được thông tin người thụ hưởng chế độ BHXH qua tài khoản cá nhân mở tại ngân hàng",
+          "code": "TP.G12.000140",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "5. Hồ sơ chấm dứt hưởng lương hưu, trợ cấp BHXH hằng tháng  Hồ sơ theo quy định tại khoản 2 Điều 75 Luật BHXH là một trong các giấy tờ sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02f16-865f-762d-a769-6adcc901aa19",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy chứng tử hoặc trích lục khai tử hoặc bản sao giấy báo tử hoặc bản sao quyết định của Tòa án tuyên bố là đã chết",
+          "code": "TP.G12.000141",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f17-1911-7364-acac-e7a5148f6376",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo Mẫu số 14-HSB thể hiện từ chối hưởng lương hưu, trợ cấp BHXH hằng tháng",
+          "code": "TP.G12.000142",
+          "attachments": [
+            {
+              "id": "01a02f29-c8ca-777a-b1ca-08302cddfb9c",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02f29-c8ca-777a-b1ca-08302cddfb9c/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02f17-9ad4-749a-9360-e1f35e959e74",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Kết luận của cơ quan có thẩm quyền về hưởng BHXH không đúng quy định của pháp luật",
+          "code": "TP.G12.000143",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "6. Hồ sơ hưởng tiếp lương hưu, trợ cấp BHXH hằng tháng Hồ sơ theo quy định tại khoản 3 Điều 75, Điều 80 Luật BHXH gồm: Văn bản đề nghị theo Mẫu số 14-HSB thể hiện đề nghị hưởng tiếp hưởng lương hưu, trợ cấp BHXH hằng tháng và một trong các giấy tờ sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02f19-9486-7195-a840-ef0c8cc8491c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan nhà nước có thẩm quyền về việc trở về nước định cư hợp pháp đối với trường hợp xuất cảnh trái phép trở về",
+          "code": "TP.G12.000144",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f19-f01c-7639-b8b0-199a73a2632b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định của Tòa án hủy bỏ quyết định tuyên bố mất tích hoặc quyết định tuyên bố là đã chết",
+          "code": "TP.G12.000145",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f1a-65e8-704f-8b26-7670ece878f2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Kết quả xác minh thông tin đủ điều kiện hưởng đối với người thụ hưởng chế độ BHXH qua tài khoản cá nhân mở tại ngân hàng của tổ chức hỗ trợ chi trả hoặc cơ quan BHXH",
+          "code": "TP.G12.000146",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f1b-75a5-7300-9475-a8e724204aad",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao của một trong các giấy tờ: Giấy chứng nhận chấp hành xong hình phạt tù hoặc giấy đặc xá tha tù trước thời hạn hoặc quyết định miễn hoặc tạm hoãn chấp hành hình phạt tù đối với trường hợp chấp hành xong hình phạt tù giam từ ngày 01/01/1995 đến trước ngày 01/01/2016",
+          "code": "TP.G12.000147",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Ghi chú:  - Hồ sơ thay thế tại Bảng này được thực hiện khi đã có trong cơ sở dữ liệu cơ quan BHXH đang quản lý, cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành được kết nối, chia sẻ đủ điều kiện khai thác, sử dụng, đảm bảo tính pháp lý theo quy định. Hồ sơ đã có dữ liệu thay thế thì đơn vị SDLĐ, NLĐ không phải cung cấp cho cơ quan BHXH. - Không yêu cầu thân nhân nộp Bản sao giấy chứng tử hoặc trích lục khai tử khi cơ quan BHXH khai thác được thông tin thành phần hồ sơ này trên Cơ sở dữ liệu hộ tịch điện tử. - Thành phần hồ sơ nếu không ghi là bản chính thì có thể nộp bản chính hoặc bản sao hợp lệ. Các thành phần hồ sơ là mẫu do cơ quan BHXH ban hành là bản chính. - Trường hợp ủy quyền nhận các chế độ BHXH: Hồ sơ kèm theo Văn bản uỷ quyền (được chứng thực) theo quy định của pháp luật và Văn bản đề nghị Mẫu số 14-HSB.",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cá nhân, Tổ chức.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+    "019d2bb3-5d7d-7398-be46-85fda49d119e",
+    "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+    "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+    "019d2bb3-5d87-7195-a440-f511123122ee",
+    "019e72eb-488d-760e-abb8-0a3bb6585c78",
+    "01a023be-84c8-77db-ade3-9c613cd83670",
+    "01a02e0b-34b0-7798-8231-7d34a42c65a8"
+  ],
+  "resultIds": [
+    "01a02f1f-6d65-722e-ae6a-c9c8d5832432",
+    "01a02f1f-cd5f-74db-8e27-16f27adbb9e9",
+    "01a02f20-5ed7-7586-900b-9dd59c6fa783",
+    "01a02f20-d005-7732-a87d-1c2c412f183b",
+    "01a02f21-3afd-76ed-a631-508b37489764",
+    "01a02f21-acc9-7616-9ac5-88862a00281b",
+    "01a02f22-2feb-75e9-87f7-137300c09e81",
+    "01a02f22-ae3b-7438-9159-a5db8c53f66b",
+    "01a02f23-1427-77bf-ae1c-7eea341de1ee",
+    "01a02f23-7a2d-715b-8b64-720937269aaa"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-a18231a6fcf6"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-a18231a6fcf6",
+      "name": "Bảo hiểm xã hội tỉnh",
+      "code": "BHXHT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc",
+      "code": "158/2025/NĐ-CP"
+    },
+    {
+      "id": "01a023be-84c8-77db-ade3-9c613cd83670",
+      "name": "Quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp; cấp sổ bảo hiểm xã hội, thẻ bảo hiểm y tế",
+      "code": "366/QĐ-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a440-f511123122ee",
+      "name": "Luật Bảo hiểm xã hội",
+      "code": "41/2024/QH15"
+    },
+    {
+      "id": "019e72eb-488d-760e-abb8-0a3bb6585c78",
+      "name": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP BAN HÀNH KÈM THEO QUYẾT ĐỊNH SỐ 2222/QĐ-BHXH NGÀY 29/7/2025 CỦA GIÁM ĐỐC BẢO HIỂM XÃ HỘI VIỆT NAM",
+      "code": "313/QĐ-BHXH "
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be46-85fda49d119e",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT BẢO HIỂM XÃ HỘI VỀ BẢO HIỂM XÃ HỘI BẮT BUỘC",
+      "code": "12/2025/TT-BNV"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội tự nguyện",
+      "code": "159/2025/NĐ-CP"
+    },
+    {
+      "id": "01a02e0b-34b0-7798-8231-7d34a42c65a8",
+      "name": "Quy định chi tiết một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội tự nguyện",
+      "code": "11/2025/TT-BNV"
+    },
+    {
+      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+      "name": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
+      "code": "2222/QĐ-BHXH"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a02f1f-6d65-722e-ae6a-c9c8d5832432",
+      "name": "Quyết định điều chỉnh (Mẫu số 06A-HSB)",
+      "code": "KQ.G12.002041"
+    },
+    {
+      "id": "01a02f1f-cd5f-74db-8e27-16f27adbb9e9",
+      "name": "Quyết định hủy quyết định hưởng (Mẫu số 06B-HSB)",
+      "code": "KQ.G12.002042"
+    },
+    {
+      "id": "01a02f20-5ed7-7586-900b-9dd59c6fa783",
+      "name": "Quyết định chấm dứt hưởng (Mẫu số 06C-HSB)",
+      "code": "KQ.G12.002043"
+    },
+    {
+      "id": "01a02f21-acc9-7616-9ac5-88862a00281b",
+      "name": "Quyết định hưởng tiếp chế độ BHXH hằng tháng (Mẫu số 11-HSB)",
+      "code": "KQ.G12.002046"
+    },
+    {
+      "id": "01a02f22-2feb-75e9-87f7-137300c09e81",
+      "name": "Văn bản xác nhận cập nhật thông tin nhân thân theo căn cước công dân (Mẫu số 29-HSB)",
+      "code": "KQ.G12.002047"
+    },
+    {
+      "id": "01a02f22-ae3b-7438-9159-a5db8c53f66b",
+      "name": "Thông báo về việc chi trả lương hưu, trợ cấp BHXH đối với trường hợp di chuyển nơi nhận chế độ BHXH (Mẫu số 23-HSB)",
+      "code": "KQ.G12.002048"
+    },
+    {
+      "id": "01a02f20-d005-7732-a87d-1c2c412f183b",
+      "name": "Quyết định thôi hưởng trợ cấp tuất hằng tháng (Mẫu số 06D-HSB)",
+      "code": "KQ.G12.002044"
+    },
+    {
+      "id": "01a02f21-3afd-76ed-a631-508b37489764",
+      "name": "Quyết định tạm dừng hưởng (Mẫu số 10-HSB)",
+      "code": "KQ.G12.002045"
+    },
+    {
+      "id": "01a02f23-1427-77bf-ae1c-7eea341de1ee",
+      "name": "Tiền lương hưu, trợ cấp BHXH; tiền truy lĩnh hoặc thu hồi (nếu có).",
+      "code": "KQ.G12.002049"
+    },
+    {
+      "id": "01a02f23-7a2d-715b-8b64-720937269aaa",
+      "name": "Thẻ BHYT (đối với trường hợp hưởng BHXH hằng tháng)",
+      "code": "KQ.G12.002050"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d7687-66c0-7608-ad4b-081158965c65",
+      "name": "Giải quyết điều chỉnh, hủy quyết định chấm dứt hưởng BHXH do tổ chức thực hiện",
+      "code": "1.001710.01",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d7688-0ed3-765f-81d0-85049c9b9db5",
+      "name": "Giải quyết điều chỉnh, hủy quyết định, chấm dứt hưởng BHXH do cá nhân thực hiện",
+      "code": "1.001710.02",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a5a2-727d-8ce5-0e181fc2a7d2",
+      "name": "Giải quyết điều chỉnh, tạm dừng, hủy quyết định, chấm dứt hưởng, hưởng tiếp BHXH; thôi hưởng trợ cấp tuất hằng tháng đối với người đang hưởng trợ cấp tuất hằng tháng chết mà thuộc đối tượng được hưởng hỗ trợ chi phí mai táng",
+      "code": "1.001710.02",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a577-71fd-9eed-bb422a32a1a1",
+      "name": "Giải quyết điều chỉnh, tạm dừng, hủy quyết định, chấm dứt hưởng, hưởng tiếp BHXH; thôi hưởng trợ cấp tuất hằng tháng đối với người đang hưởng trợ cấp tuất hằng tháng chết mà thuộc đối tượng được hưởng hỗ trợ chi phí mai táng",
+      "code": "1.001710.01",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559418236,
+  "updatedAt": 1787504991655,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Theo quy định tại Điều 75 Luật BHXH số 41/2024/QH15.\n-  Người đã được giải quyết hưởng các chế độ BHXH; cơ quan, tổ chức, cá nhân, đơn vị SDLĐ có căn cứ đề nghị điều chỉnh.\n- Người đang hưởng BHXH hằng tháng hoặc thân nhân người hưởng BHXH hằng tháng chết đề nghị cập nhật thông tin nhân thân theo căn cước công dân.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "01a185d7-585c-7181-b45a-2b5dd5c4484e",
+  "code": "6.006828",
+  "codeNotation": "6.006828",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "Bước 1: Sau khi được Chính phủ giao dự toán ngân sách, các đơn vị dự toán cấp I ở trung ương thực hiện phân bổ và giao dự toán ngân sách cho các đơn vị sử dụng ngân sách trực thuộc trong trường hợp có ủy quyền thực hiện nhiệm vụ chi của mình, gửi cơ quan tài chính cùng cấp, đồng thời gửi Kho bạc Nhà nước nơi giao dịch để thực hiện. Việc phân bổ và giao dự toán phải bảo đảm thời hạn và yêu cầu quy định tại Điều 50 của Luật Ngân sách nhà nước 2015.\nBước 2: Trong phạm vi 10 ngày làm việc, kể từ ngày nhận được tài liệu thuyết minh căn cứ và báo cáo phân bổ của đơn vị dự toán cấp I, cơ quan tài chính cùng cấp phải thực hiện kiểm tra dự toán đơn vị dự toán cấp I đã giao cho các đơn vị sử dụng ngân sách về tính chính xác, khớp đúng cả về tổng mức và chi tiết theo từng lĩnh vực, nhiệm vụ thu, chi với dự toán cấp có thẩm quyền giao cho đơn vị dự toán cấp I:\n- Trường hợp phát hiện việc giao dự toán của đơn vị dự toán cấp I không đúng tổng mức và chi tiết theo từng lĩnh vực, nhiệm vụ thu, chi của dự toán ngân sách đã được cấp có thẩm quyền giao hoặc không đúng chính sách, chế độ quy định, cơ quan tài chính yêu cầu đơn vị dự toán cấp I điều chỉnh lại dự toán đã giao. Chậm nhất trong phạm vi 07 ngày làm việc kể từ ngày nhận được yêu cầu của cơ quan tài chính, đơn vị dự toán cấp I điều chỉnh lại theo ý kiến của cơ quan tài chính và gửi quyết định giao dự toán điều chỉnh cho cơ quan tài chính, Kho bạc Nhà nước cùng cấp và Kho bạc Nhà nước nơi giao dịch theo quy định;\n- Trường hợp đơn vị dự toán cấp I không thống nhất với yêu cầu của cơ quan tài chính, thì đơn vị dự toán cấp I báo cáo Thủ tướng Chính phủ để xem xét, quyết định. Trong thời gian chờ quyết định của Thủ tướng Chính phủ thì đơn vị không được phép chi đối với số dự toán chi ngân sách cơ quan tài chính yêu cầu điều chỉnh lại.\nBước 3: Trường hợp đơn vị dự toán cấp I, ngân sách cấp dưới được giao bổ sung dự toán, thì chậm nhất trong phạm vi 10 ngày làm việc kể từ ngày được giao bổ sung dự toán, đơn vị dự toán cấp I phải hoàn thành việc phân bổ và giao dự toán theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Phí, lệ phí: Không quy định",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "name": "Giao dự toán ngân sách hàng năm thuộc thẩm quyền của Bộ trưởng, Thủ trưởng cơ quan ngang bộ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a185d8-cc0a-7628-8272-90980203cc34",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thông tin giao dự toán theo Mẫu A Phụ lục 2 dự toán ban hành kèm theo Thông tư số 342/2016 ngày 30/12/2016 của Bộ Tài chính;",
+          "code": "G12.02.0001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a185d9-3933-7339-9239-af437e93ed29",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu thuyết minh cơ sở phẩn bổ, giao dự toán theo Mẫu biểu số 36 đến mẫu biểu số 47 Phụ lục 1 ban hành kèm theo Thông tư số 342/2016 ngày 30/12/2016 của Bộ Tài chính.",
+          "code": "G12.02.0002",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Đơn vị dự toán cấp I",
+  "keywords": "",
+  "categoryIds": [
+    "01a185aa-967c-764b-ad7a-63de7681037a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4c-fc0b29f18d99",
+    "019d2bb3-5d7e-72d1-afec-20f13a1b2131",
+    "019d2bb3-5d87-7195-a446-e2b043ee42d3"
+  ],
+  "resultIds": [
+    "01a185d6-f257-70a6-9a91-531efdb21d2a"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a185aa-967c-764b-ad7a-63de7681037a",
+      "name": "Ngân sách nhà nước (TTHC nội bộ)",
+      "code": "G12.02.TC01"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-20f13a1b2131",
+      "name": "QUY ĐỊNH CHI TIẾT THI HÀNH MỘT SỐ ĐIỀU CỦA LUẬT NGÂN SÁCH NHÀ NƯỚC",
+      "code": "163/2016/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4c-fc0b29f18d99",
+      "name": "Thông tư số 342/2016/TT-BTC của Bộ Tài chính: Quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 163/2016/NĐ-CP ngày 21 tháng 12 năm 2016 của Chính phủ quy định chi tiết thi hành một số điều của Luật ngân sách nhà nước",
+      "code": "342"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a446-e2b043ee42d3",
+      "name": "Luật Ngân sách nhà nước số 89/2025/QH15",
+      "code": "89/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a185d6-f257-70a6-9a91-531efdb21d2a",
+      "name": "Kết quả thực hiện thủ tục hành chính",
+      "code": "KQ.G12.001385"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910965,
+  "updatedAt": 1794448910965,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Bộ Tài chính và các bộ, cơ quan trung",
+  "delegatedAgencies": "Bộ Tài chính",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

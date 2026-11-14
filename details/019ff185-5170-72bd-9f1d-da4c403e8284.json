@@ -1,0 +1,466 @@
+{
+  "id": "019ff185-5170-72bd-9f1d-da4c403e8284",
+  "code": "1.116541",
+  "codeNotation": "1.116541",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Tiếp nhận hồ sơ\na) Tổ chức, cá nhân, doanh nghiệp nộp 01 bộ hồ sơ thông qua một trong các hình thức sau: Nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công các cấp trên địa bàn tỉnh Thái Nguyên, hoặc nộp qua Dịch vụ bưu chính công ích (qua đường bưu chính) đến Trung tâm Phục vụ hành chính công tỉnh Thái Nguyên, hoặc nộp trực tuyến tại Cổng Dịch vụ công quốc gia (địa chỉ http://dichvucong.gov.vn).\nb) Bộ phận Tiếp nhận và Trả kết quả có trách nhiệm xem xét, kiểm tra tính đầy đủ của hồ sơ. Trường hợp hồ sơ đáp ứng quy định, Bộ phận Tiếp nhận và Trả kết quả lập phiếu tiếp nhận hồ sơ và chuyển hồ sơ đến Sở Khoa học và Công nghệ để kiểm tra tính hợp lệ của hồ sơ và tổ chức xác minh thực tế (nếu cần). \nc) Đối với hồ sơ nộp trực tuyến tại Cổng Dịch vụ công quốc gia, Bộ phận Tiếp nhận và Trả kết quả thông báo về việc tiếp nhận chính thức hoặc yêu cầu chỉnh sửa, bổ sung hồ sơ cho tổ chức, cá nhân không muộn hơn 08 (tám) giờ làm việc kể từ khi Hệ thống thông tin giải quyết thủ tục hành chính tiếp nhận hồ sơ.\nBước 2: Kiểm tra hồ sơ\nTrong thời hạn 05 ngày làm việc, Sở Khoa học và Công nghệ kiểm tra tính đầy đủ, hợp lệ của hồ sơ, tổ chức xác minh thực tế (nếu cần). Trường hợp hồ sơ chưa đầy đủ, hợp lệ, Sở Khoa học và Công nghệ thông báo bằng văn bản để Tổ chức, cá nhân, doanh nghiệp bổ sung, hoàn thiện.\nBước 3: Thẩm định hồ sơ\na) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Khoa học và Công nghệ chủ trì, tham mưu Ủy ban nhân dân tỉnh thành lập Hội đồng thẩm định hồ sơ.\nb) Trong thời hạn 20 ngày làm việc kể từ ngày thành lập Hội đồng thẩm định, Hội đồng thẩm định tổ chức thẩm định (bao gồm việc xác minh thực tế) (nếu cần) và ban hành báo cáo thẩm định gửi Sở Khoa học và Công nghệ. Căn cứ báo cáo của Hội đồng thẩm định: Trường hợp hồ sơ đủ điều kiện theo quy định, Sở Khoa học và Công nghệ trình Ủy ban nhân dân tỉnh phê duyệt nội dung và mức hỗ trợ; trường hợp hồ sơ không đủ điều kiện, thì trong vòng 05 ngày làm việc kể từ khi có báo cáo thẩm định, Sở Khoa học và Công nghệ có văn bản trả lời và nêu rõ lý do cho tổ chức, cá nhân, doanh nghiệp.\nBước 4: Phê duyệt hồ sơ và trả kết quả\na) Trong thời hạn 03 ngày làm việc sau khi nhận được Tờ trình đề nghị phê duyệt nội dung và mức hỗ trợ, Ủy ban nhân dân tỉnh xem xét quyết định phê duyệt nội dung và mức hỗ trợ đối với tổ chức, cá nhân, doanh nghiệp. Trường hợp không phê duyệt nội dung và mức hỗ trợ thì phải trả lời bằng văn bản và nêu rõ lý do.\nb) Trong thời hạn 02 ngày, kể từ ngày nhận được Quyết định phê duyệt của Ủy ban nhân dân tỉnh, Sở Khoa học và Công nghệ thông báo cho tổ chức, cá nhân, doanh nghiệp để nhận kết quả và thực hiện các nghĩa vụ có liên quan."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 30 ngày làm việc kể từ ngày nhận",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không quy định",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không quy định",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 30 ngày làm việc kể từ ngày nhận",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không quy định",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không quy định",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 30 ngày làm việc kể từ ngày nhận",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không quy định",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không quy định",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "a) Nộp trực tiếp tại Trung tâm Phục vụ hành chính công các cấp.\nb) Nộp thông qua dịch vụ bưu chính (đến Trung tâm Phục vụ hành chính công cấp tỉnh). \nc) Nộp trực tuyến trên Cổng Dịch vụ công quốc gia.",
+  "name": "Đề nghị hỗ trợ phát triển nhân lực công nghiệp công nghệ số đối với doanh nghiệp thực hiện dự án nghiên cứu, sản xuất sản phẩm công nghệ số trọng điểm, chip bán dẫn, hệ thống trí tuệ nhân tạo trên địa bàn tỉnh Thái Nguyên",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019ff18a-96cc-76ca-b5f8-ac58e575a443",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị hỗ trợ dự án (bản chính);",
+          "code": "H55-KH.01",
+          "attachments": [
+            {
+              "id": "01a06628-8506-777e-848d-353bf1f27ab7",
+              "fileName": "Mẫu 01.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a06628-8506-777e-848d-353bf1f27ab7/Mẫu 01.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff18b-739f-7246-a445-a903a78d6b20",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu thuyết minh dự án gồm: Hồ sơ thiết kế; dự toán kinh phí triển khai",
+          "code": "H55-KH.02",
+          "attachments": [
+            {
+              "id": "01a0662c-af47-75bd-9961-db64424bc904",
+              "fileName": "Mẫu 02.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0662c-af47-75bd-9961-db64424bc904/Mẫu 02.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff18c-085f-7563-9a23-c3d7a8c322aa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản cam kết thực hiện dự án được hỗ trợ",
+          "code": "H55-KH.03",
+          "attachments": [
+            {
+              "id": "01a0662a-c502-76f2-82e4-c05e5faba9f3",
+              "fileName": "Mẫu 03.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0662a-c502-76f2-82e4-c05e5faba9f3/Mẫu 03.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff18c-9366-76ba-b54f-00b243397905",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu có liên quan chứng minh tiêu chí, điều kiện hỗ trợ : Bản sao Giấy chứng nhận đăng ký doanh nghiệp và Giấy chứng nhận đăng ký đầu tư hoặc văn bản chấp thuận chủ trương đầu tư",
+          "code": "H55-KH.04",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff18d-7cdb-759c-9b8d-ca7b7a1856a0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu có liên quan chứng minh tiêu chí, điều kiện hỗ trợ: Phương án tài chính khả thi, khả năng duy trì hoạt động ổn định, tái đầu tư và mở rộng quy mô dự án",
+          "code": "H55-KH.05",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff18e-345a-74fe-b3f0-f1ac2e2a4b31",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu có liên quan chứng minh tiêu chí, điều kiện hỗ trợ: Hợp đồng, thanh lý hợp đồng, hóa đơn giá trị gia tăng mua sắm máy móc, xây dựng",
+          "code": "H55-KH.06",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff18e-ccbe-7788-8a91-62b5b0f33d22",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu có liên quan chứng minh tiêu chí, điều kiện hỗ trợ: Biên bản nghiệm thu hoàn thành hạng mục; hồ sơ năng lực",
+          "code": "H55-KH.07",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff18f-3cba-736f-b53e-db90840c6e84",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu có liên quan chứng minh tiêu chí, điều kiện hỗ trợ: Hợp đồng lao động hoặc hợp đồng thuê chuyên gia, nhân sự",
+          "code": "H55-KH.08",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-2f587e315cc3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019da8e6-051c-75f3-a3d6-79daf2b4b462",
+    "019daef1-961d-7369-bdb6-2fa1ba4349a0",
+    "019ff18c-8ab0-7782-81fd-f743bb045c38"
+  ],
+  "resultIds": [
+    "01a0655c-dac3-779f-90a6-1967035123af"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698f-1081-74cf-8c3b-3602b5a3ecad",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+    "019fa7b1-2cde-71fb-a141-17b47ab28898"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b25-82975fbdb9e4"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b25-68dfdcdcff0e"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+      "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+      "code": "G14-TT04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+    "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+    "code": "G14-TT04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b25-82975fbdb9e4",
+      "name": "Sở Khoa học và Công nghệ - tỉnh Thái Nguyên",
+      "code": "H55.04"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b25-68dfdcdcff0e",
+      "name": "UBND tỉnh Thái Nguyên",
+      "code": "H55"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019daef1-961d-7369-bdb6-2fa1ba4349a0",
+      "name": "Luật số 71/2025/QH15 của Quốc hội: Luật Công nghiệp công nghệ số",
+      "code": "Luật số 71/2025/QH15"
+    },
+    {
+      "id": "019da8e6-051c-75f3-a3d6-79daf2b4b462",
+      "name": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Công nghiệp công nghệ số",
+      "code": "353/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019ff18c-8ab0-7782-81fd-f743bb045c38",
+      "name": "Nghị quyết số 60/2026/NQ-HĐND ngày 17 tháng 7 năm 2026 của Hội đồng nhân dân tỉnh Thái Nguyên Quy định tiêu chí, điều kiện, trình tự, thủ tục, nội dung và mức hỗ trợ từ ngân sách địa phương cho các dự án, doanh nghiệp hoạt động trong lĩnh vực công nghiệp công nghệ số trên địa bàn tỉnh Thái Nguyên",
+      "code": "60/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0655c-dac3-779f-90a6-1967035123af",
+      "name": "Quyết định phê duyệt nội dung và mức hỗ trợ",
+      "code": "KQ.H55.04.01"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698f-1081-74cf-8c3b-3602b5a3ecad",
+      "name": "Tổ chức Đảng",
+      "code": "ĐT6"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b698e-842f-701f-9fa1-ddaa6398ba5a",
+      "name": "Đảng viên",
+      "code": "ĐT5"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019fa7b1-2cde-71fb-a141-17b47ab28898",
+      "name": "Ngân hàng Chính sách xã hội",
+      "code": "ĐT16"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b25-68dfdcdcff0e",
+  "departmentPromulgateCode": "H55",
+  "departmentPromulgateName": "UBND tỉnh Thái Nguyên",
+  "cases": [
+    {
+      "id": "01a06639-c1c2-775e-aa42-5df5d7ac0b94",
+      "name": "Đề nghị hỗ trợ phát triển nhân lực công nghiệp công nghệ số đối với doanh nghiệp thực hiện dự án nghiên cứu, sản xuất sản phẩm công nghệ số trọng điểm, chip bán dẫn, hệ thống trí tuệ nhân tạo trên địa bàn tỉnh Thái Nguyên",
+      "code": "1.116541.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1788421137792,
+  "updatedAt": 1788421137792,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Khoa học và Công nghệ - tỉnh Thái Nguyên",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "UBND tỉnh Thái Nguyên",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Nộp trực tiếp tại Trung tâm Phục vụ hành chính công các cấp.\nb) Nộp thông qua dịch vụ bưu chính (đến Trung tâm Phục vụ hành chính công cấp tỉnh). \nc) Nộp trực tuyến trên Cổng Dịch vụ công quốc gia.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a06632-55f2-772a-a095-96ea463b7c06",
+    "proposalNumber": "2405/QĐ-UBND",
+    "decisionDate": 1785171600000,
+    "decisionNumber": null,
+    "publicationDate": 1788421137713,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b25-68dfdcdcff0e",
+      "name": "UBND tỉnh Thái Nguyên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

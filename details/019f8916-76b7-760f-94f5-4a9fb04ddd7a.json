@@ -1,0 +1,303 @@
+{
+  "id": "019f8916-76b7-760f-94f5-4a9fb04ddd7a",
+  "code": "1.115957",
+  "codeNotation": "1.115957",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người lao động nộp hồ sơ hỗ trợ người lao động đi làm việc ở\nnước ngoài theo hợp đồng.\nBước 2: Trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hỗ trợ\nngười lao động đi làm việc ở nước ngoài theo hợp đồng, Sở Nội vụ hỗ trợ người\nlao động đi làm việc ở nước ngoài theo hợp đồng theo quy định tại Nghị quyết\nsố 45/2026/NQ-HĐND ngày 15 tháng 7 năm 2026 của Hội đồng nhân dân tỉnh\nVĩnh Long và thanh toán tiền hỗ trợ cho người lao động. Trường hợp không hỗ\ntrợ phải thông báo bằng văn bản và nêu rõ lý do"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc kể từ ngày nhận đủ hồ sơ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc kể từ ngày nhận đủ hồ sơ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc kể từ ngày nhận đủ hồ sơ.",
+      "fees": []
+    }
+  ],
+  "description": "Người lao động thường trú trên địa bàn tỉnh Vĩnh Long có nhu cầu đi làm việc ở nước ngoài theo hợp đồng không thuộc đối tượng quy định tại khoản 1 Điều 14 Luật Việc làm số 74/2025/QH15.",
+  "name": "Hỗ trợ người lao động đi làm việc ở nước ngoài theo hợp đồng không thuộc đối tượng quy định tại khoản 1 Điều 14 Luật Việc làm.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f890a-b2f9-76d8-b21f-7a2620fbb672",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị hỗ trợ đi làm việc ở nước ngoài theo hợp đồng (Phụ lục ban hành kèm theo Quy định chính sách hỗ trợ cho người lao động trên địa bàn tỉnh Vĩnh Long đi làm việc ở nước ngoài theo hợp đồng)",
+          "code": "H61-KQ001030",
+          "attachments": [
+            {
+              "id": "019f890a-abfc-72d8-b9b9-16c008be0308",
+              "fileName": "MAU DON.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f890a-abfc-72d8-b9b9-16c008be0308/MAU DON.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f890b-135b-74da-a48e-4df00c302ec5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hợp đồng đưa người lao động đi làm việc ở nước ngoài đã ký kết giữa người lao động và doanh nghiệp dịch vụ, đơn vị sự nghiệp. Trường hợp người lao động trực tiếp giao kết hợp đồng với người sử dụng lao động ở nước ngoài là bản sao hợp đồng cá nhân giữa người lao động với người sử dụng lao động nước ngoài và bản sao từ sổ gốc hoặc bản sao kèm bản chính để đối chiếu hoặc bản sao điện tử từ sổ gốc của văn bản xác nhận đăng ký hợp đồng cá nhân",
+          "code": "H61-KQ001031",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f890b-a77e-7494-a688-60813ac5832d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao từ sổ gốc hoặc bản sao kèm bản chính để đối chiếu hoặc bản sao điện tử từ sổ gốc của hộ chiếu còn thời hạn và thị thực",
+          "code": "H61-KQ001032",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f890c-e8a3-7718-a19b-83788da66ba7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hóa đơn hoặc biên lai thu tiền khám sức khỏe, hộ chiếu, thị thực, lý lịch tư pháp",
+          "code": "H61-KQ001033",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f890d-8eb8-751c-897b-88e23cdeef76",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao từ sổ gốc hoặc bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực điện tử hoặc bản sao điện tử từ sổ gốc của chứng chỉ hoặc giấy chứng nhận hoàn thành khóa giáo dục định hướng, đào tạo, bồi dưỡng nâng cao trình độ kỹ năng nghề, ngoại ngữ, đào tạo nâng cao trình độ kỹ năng nghề theo thỏa thuận của người lao động, trừ trường hợp đặt hàng đào tạo quy định tại khoản 3 Điều 32 Nghị định số 338/2025/NĐ-CP",
+          "code": "H61-KQ001034",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f890e-03d3-723b-ac8b-80730b44d8d4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hóa đơn hoặc biên lai thu tiền giáo dục định hướng, đào tạo, bồi dưỡng nâng cao trình độ kỹ năng nghề, ngoại ngữ, đào tạo nâng cao trình độ kỹ năng nghề theo thỏa thuận của người lao động, trừ trường hợp đặt hàng đào tạo quy định tại khoản 3 Điều 32 Nghị định số 338/2025/NĐ-CP",
+          "code": "H61-KQ001035",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-627a4af700e3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46c-c67f42d14e64",
+    "019d2bb3-5d85-73da-8eba-01524719babf",
+    "019f8915-b1c4-750e-b6e0-dec8d513bf8b",
+    "019f8916-45a6-70ca-a3b9-30a53449b301"
+  ],
+  "resultIds": [
+    "019f8912-f88e-77ab-a2ff-3cb3953ef4f9",
+    "019f8913-7d6d-75f8-991e-6653950e4654"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e61-695128f09653"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e61-5ec4a2701203"
+  ],
+  "departmentAuthorizedIds": [
+    "019d2be3-6a89-70fe-8e61-695128f09653"
+  ],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-627a4af700e3",
+      "name": "Việc làm",
+      "code": "G09-LĐ11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-627a4af700e3",
+    "name": "Việc làm",
+    "code": "G09-LĐ11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e61-695128f09653",
+      "name": "Sở Nội vụ - Tỉnh Vĩnh Long",
+      "code": "H61.02"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e61-5ec4a2701203",
+      "name": "UBND tỉnh Vĩnh Long",
+      "code": "H61"
+    }
+  ],
+  "departmentsAuthorized": [
+    {
+      "id": "019d2be3-6a89-70fe-8e61-695128f09653",
+      "name": "Sở Nội vụ - Tỉnh Vĩnh Long",
+      "code": "H61.02"
+    }
+  ],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d85-73da-8eba-01524719babf",
+      "name": "Luật Việc làm",
+      "code": "74/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-c67f42d14e64",
+      "name": "V/v quy định chi tiết một số điều của Luật Việc làm về chính sách hỗ trợ tạo việc làm;",
+      "code": "338/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8915-b1c4-750e-b6e0-dec8d513bf8b",
+      "name": "về việc ủy quyền cho Giám đốc Sở Nội vụ quyết định hỗ trợ cho\nngười lao động trên địa bàn tỉnh Vĩnh Long đi làm việc ở nước ngoài theo hợp\nđồng.",
+      "code": "632/QĐ-UBND"
+    },
+    {
+      "id": "019f8916-45a6-70ca-a3b9-30a53449b301",
+      "name": "Quy định chính sách hỗ trợ cho người lao động trên địa bàn tỉnh Vĩnh Long đi làm việc ở nước ngoài theo hợp đồng",
+      "code": "45/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f8913-7d6d-75f8-991e-6653950e4654",
+      "name": "Văn bản thông báo trong trường hợp không hỗ trợ",
+      "code": "KQ.H61.000099"
+    },
+    {
+      "id": "019f8912-f88e-77ab-a2ff-3cb3953ef4f9",
+      "name": "Quyết định hỗ trợ và thanh toán tiền hỗ trợ cho người lao động",
+      "code": "KQ.H61.000100"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e61-5ec4a2701203",
+  "departmentPromulgateCode": "H61",
+  "departmentPromulgateName": "UBND tỉnh Vĩnh Long",
+  "cases": [
+    {
+      "id": "019fa119-4585-72ab-9da1-fb0ea0661b8f",
+      "name": "Hỗ trợ người lao động đi làm việc ở nước ngoài theo hợp đồng không thuộc đối tượng quy định tại khoản 1 Điều 14 Luật Việc làm.",
+      "code": "1.115957.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1784713676807,
+  "updatedAt": 1784713676807,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Nội vụ - Tỉnh Vĩnh Long",
+  "authorizedAgencies": "Sở Nội vụ - Tỉnh Vĩnh Long",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn hoặc nộp hồ sơ trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua ủy quyền đến Trung tâm Phục vụ hành chính công tỉnh/Trung tâm Phục vụ hành chính công các xã, phường.",
+  "delegatedAgencies": "UBND tỉnh Vĩnh Long",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Người lao động thường trú trên địa bàn tỉnh Vĩnh Long có nhu cầu đi làm việc ở nước ngoài theo hợp đồng không thuộc đối tượng quy định tại khoản 1 Điều 14 Luật Việc làm số 74/2025/QH15.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f8916-9fc8-74ef-baef-9c46dec2cf1d",
+    "proposalNumber": "4558/QĐ-UBND",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1784713676784,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e61-5ec4a2701203",
+      "name": "UBND tỉnh Vĩnh Long"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

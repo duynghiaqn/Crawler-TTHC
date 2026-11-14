@@ -1,0 +1,191 @@
+{
+  "id": "01a1c89c-fb4d-75be-8f2c-e15eb1454850",
+  "code": "5.004029",
+  "codeNotation": "5.004029",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Trường hợp dự kiến tốc độ tăng dư nợ bảo lãnh Chính phủ vượt quá tốc độ tăng tổng sản phẩm quốc nội của năm trước, Bộ Tài chính trình Chính phủ xem xét, quyết định hạn mức bảo lãnh Chính phủ hằng năm trước khi tổng hợp vào kế hoạch vay, trả nợ công hằng năm theo quy định tại khoản 3 Điều 3 Nghị định số 84/2026/NĐ-CP sửa đổi, bổ sung điểm b khoản 3 Điều 14 Nghị định số 94/2018/NĐ-CP.\n- Sau khi kế hoạch vay, trả nợ công hằng năm đã được Thủ tướng Chính phủ phê duyệt, trường hợp phát sinh nhu cầu điều chỉnh kế hoạch cấp bảo lãnh Chính phủ dẫn đến tốc độ tăng dư nợ bảo lãnh Chính phủ vượt quá tốc độ tăng tổng sản phẩm quốc nội của năm liền kề trước đó, Bộ Tài chính trình Chính phủ xem xét, quyết định điều chỉnh hạn mức bảo lãnh Chính phủ hằng năm theo quy định tại khoản 5 Điều 3 Nghị định số 84/2026/NĐ-CP sửa đổi, bổ sung khoản 7 Điều 16 Nghị định số 94/2018/NĐ-CP."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "Cách thức thực hiện: Trình Chính phủ quyết định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "Cách thức thực hiện: Trình Chính phủ quyết định",
+      "fees": []
+    }
+  ],
+  "description": "Tốc độ tăng dư nợ bảo lãnh Chính phủ dự kiến vượt quá tốc độ tăng tổng sản phẩm quốc nội của năm trước; hoặc phát sinh nhu cầu điều chỉnh kế hoạch cấp bảo lãnh Chính phủ sau khi kế hoạch vay, trả nợ công hằng năm đã được phê duyệt dẫn đến tốc độ tăng dư nợ bảo lãnh Chính phủ dự kiến vượt quá tốc độ tăng tổng sản phẩm quốc nội của năm liền kề trước đó.",
+  "name": "Quyết định hạn mức bảo lãnh Chính phủ hằng năm trong trường hợp thuộc thẩm quyền của Chính phủ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1cd89-7126-731e-862c-1fc8315329fd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hạn mức bảo lãnh Chính phủ",
+          "code": "G12.000245",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "UPDATED",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-0e32442a1598"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4f-6b9e2b3cdd47",
+    "019d2bb3-5d86-7760-a643-9625ea4eee34",
+    "01a1cd8c-a6c3-718d-8a7c-7fbc0b2d3514",
+    "01a1cd8e-e494-773e-a25b-2593fc1e4606"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe9-376558ee05e8"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d03-f9b0b9b33781"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+      "name": "Quản lý nợ",
+      "code": "G12-TC12"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+    "name": "Quản lý nợ",
+    "code": "G12-TC12"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d03-f9b0b9b33781",
+      "name": "Chính phủ",
+      "code": "CP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be4f-6b9e2b3cdd47",
+      "name": "Nghị định số 94/2018/NĐ-CP ngày 30/6/2018 của Chính phủ về nghiệp vụ quản lý nợ công",
+      "code": "94/2018/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a643-9625ea4eee34",
+      "name": "Luật Quản lý nợ công",
+      "code": "20/2017/QH14"
+    },
+    {
+      "id": "01a1cd8c-a6c3-718d-8a7c-7fbc0b2d3514",
+      "name": "Luật 141/2025/QH15 Sửa đổi, bổ sung một số điều của Luật Quản lý nợ công",
+      "code": "141/2025/QH15"
+    },
+    {
+      "id": "01a1cd8e-e494-773e-a25b-2593fc1e4606",
+      "name": "Nghị định số 84/2026/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của các Nghị định của Chính phủ trong lĩnh vực quản lý nợ công",
+      "code": "84/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe9-376558ee05e8",
+      "name": "Nghị quyết của Chính phủ về hạn mức bảo lãnh Chính phủ hằng năm hoặc điều chỉnh hạn mức bảo lãnh Chính phủ hằng năm",
+      "code": "KQ.G12.000695"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448920506,
+  "updatedAt": 1794450490885,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chính phủ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Tốc độ tăng dư nợ bảo lãnh Chính phủ dự kiến vượt quá tốc độ tăng tổng sản phẩm quốc nội của năm trước; hoặc phát sinh nhu cầu điều chỉnh kế hoạch cấp bảo lãnh Chính phủ sau khi kế hoạch vay, trả nợ công hằng năm đã được phê duyệt dẫn đến tốc độ tăng dư nợ bảo lãnh Chính phủ dự kiến vượt quá tốc độ tăng tổng sản phẩm quốc nội của năm liền kề trước đó.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a18c0e-52fc-7019-ba0c-1c8826b16b11",
+    "proposalNumber": "2214/QĐ-BTC",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1794450490816,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

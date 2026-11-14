@@ -1,0 +1,158 @@
+{
+  "id": "01a1ab20-1cfb-74c8-96fe-8f9ae69be601",
+  "code": "6.006935",
+  "codeNotation": "6.006935",
+  "executionSteps": [
+    {
+      "name": "Đối với dự án do bộ, cơ quan trung ương quản lý",
+      "description": "- Căn cứ chủ trương đầu tư đã được cấp có thẩm quyền quyết định, người đứng đầu bộ, cơ quan trung ương giao chủ đầu tư lập báo cáo nghiên cứu khả thi dự án; thành lập Hội đồng thẩm định hoặc giao đơn vị có chức năng thẩm định báo cáo nghiên cứu khả thi dự án;\n- Chủ đầu tư căn cứ ý kiến thẩm định, hoàn thiện báo cáo nghiên cứu khả thi dự án, trình người đứng đầu bộ, cơ quan trung ương xem xét, quyết định đầu tư dự án."
+    },
+    {
+      "name": "Đối với dự án do địa phương quản lý:",
+      "description": "- Căn cứ chủ trương đầu tư đã được cấp có thẩm quyền quyết định, Chủ tịch Ủy ban nhân dân các cấp giao chủ đầu tư lập báo cáo nghiên cứu khả thi dự án; thành lập Hội đồng thẩm định hoặc giao đơn vị có chức năng thẩm định báo cáo nghiên cứu khả thi dự án;\n- Chủ đầu tư căn cứ ý kiến thẩm định, hoàn thiện báo cáo nghiên cứu khả thi dự án, trình Chủ tịch Ủy ban nhân dân các cấp xem xét, quyết định đầu tư dự án."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: đảm bảo đủ hồ sơ, quyết định đầu tư ban hành đúng đầy đủ trình tự thủ tục các pháp luật liên quan",
+  "name": "Quyết định đầu tư dự án đầu tư công tại nước ngoài",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Thành phần, số lượng hồ sơ: Không quy định trong Luật Đầu tư công, Nghị định số 40/2020/NĐ-CP.",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": true,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Các Bộ, cơ quan trung ương, địa phương",
+  "keywords": "",
+  "categoryIds": [
+    "01a1a973-43f4-732a-95f7-944491e73cf1"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b670-f845029b8ee4",
+    "019d2bb3-5d87-7195-a440-ab006a7783d8"
+  ],
+  "resultIds": [
+    "019d2bb2-1c85-700a-af45-26b3fc325b7b"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1a973-43f4-732a-95f7-944491e73cf1",
+      "name": "Quản lý đầu tư công",
+      "code": "G12.97"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b670-f845029b8ee4",
+      "name": "Luật Đầu tư công",
+      "code": "49/2014/QH13"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a440-ab006a7783d8",
+      "name": "Nghị định số 40/2020/NĐ-CP Quy đinh chi tiết thi hành một số điều của Luật Đầu tư công",
+      "code": "40/2020/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c85-700a-af45-26b3fc325b7b",
+      "name": "Quyết định đầu tư của cấp có thẩm quyền.",
+      "code": "KQ.H03.000188"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911002,
+  "updatedAt": 1794448911002,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: \nCơ quan có thẩm quyền quyết định: Thẩm quyền quyết định đầu tư dự án đầu tư công tại nước ngoài thực hiện theo quy định tại Điều 35 của Luật Đầu tư công.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: đảm bảo đủ hồ sơ, quyết định đầu tư ban hành đúng đầy đủ trình tự thủ tục các pháp luật liên quan",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

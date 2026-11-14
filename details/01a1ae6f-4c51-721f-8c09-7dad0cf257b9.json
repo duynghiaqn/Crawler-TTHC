@@ -1,0 +1,223 @@
+{
+  "id": "01a1ae6f-4c51-721f-8c09-7dad0cf257b9",
+  "code": "1.117139",
+  "codeNotation": "1.117139",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Chuẩn bị hồ sơ theo quy định của pháp luật nêu tại mục 11.3.\nBước 2: Nộp hồ sơ\n- Trực tuyến: Người làm thủ tục thực hiện việc khai báo thông tin liên quan theo biểu mẫu quy định trên Cổng thông tin một cửa quốc gia. \n- Trực tiếp: Người làm thủ tục phải nộp hồ sơ trực tiếp tại: Cảng Hậu Giang (khu công nghiệp Sông Hậu 1, xã Châu Thành, thành phố Cần Thơ), Cảng Vĩnh Long (170/2 Phạm Hùng, phường Long Châu, tỉnh Vĩnh Long), Cảng Cần Thơ (131 Lê Hồng Phong, phường Thới An Đông, thành phố Cần Thơ), Cảng Mỹ Tho (Đường số 4, khu công nghiệp Mỹ Tho, phường Trung An, tỉnh Đồng Tháp).\n- Trạm Công an cửa khẩu cảng tiếp nhận, kiểm tra tính đầy đủ, hợp lệ của hồ sơ:\n+ Trường hợp hồ sơ đầy đủ, hợp lệ thì tiếp nhận hồ sơ.\n+ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì hướng dẫn người nộp hồ sơ hoàn chỉnh hồ sơ theo quy định.\n+ Trường hợp hồ sơ không đủ điều kiện thì không tiếp nhận hồ sơ, thông báo trực tiếp hoặc gửi thông báo từ chối thực hiện thủ tục qua Cổng thông tin một cửa quốc gia.\nBước 3: Nhận kết quả\nCông an cửa khẩu cấp Giấy phép đi bờ cho thuyền viên nước ngoài."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 0.5,
+      "processingTimeUnit": "HOUR",
+      "description": "- Người làm thủ tục gửi hồ sơ và nhận kết quả qua Cổng thông tin một cửa quốc gia;\n- Ngay sau khi Công an cửa khẩu cảng tiếp nhận đề nghị cho phép thuyền viên đi bờ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định Thông tư số 138/2016/TT-BTC ngày 16/9/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép lên bờ cho thuyền viên nước ngoài, giấy phép xuống tàu nước ngoài, giấy phép cho người điều khiển phương tiện Việt Nam cặp mạn tàu nước ngoài và giấy phép cho người Việt Nam và người nước ngoài thực hiện các hoạt động báo chí, nghiên cứu khoa học, tham quan du lịch có liên quan đến tàu, thuyền nước ngoài: 03 USD/Giấy phép (trừ trường hợp được miễn lệ phí theo quy định của Bộ Tài chính)."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 0.5,
+      "processingTimeUnit": "HOUR",
+      "description": "- Nộp hồ sơ trực tiếp tại Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc văn phòng đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa, cụ thể: Cảng Hậu Giang (khu công nghiệp Sông Hậu 1, xã Châu Thành, thành phố Cần Thơ), Cảng Vĩnh Long (170/2 Phạm Hùng, phường Long Châu, tỉnh Vĩnh Long), Cảng Cần Thơ (131 Lê Hồng Phong, phường Thới An Đông, thành phố Cần Thơ), Cảng Mỹ Tho (Đường số 4, khu công nghiệp Mỹ Tho, phường Trung An, tỉnh Đồng Tháp).\n- Ngay sau khi Công an cửa khẩu cảng tiếp nhận đề nghị cho phép thuyền viên đi bờ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định Thông tư số 138/2016/TT-BTC ngày 16/9/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép lên bờ cho thuyền viên nước ngoài, giấy phép xuống tàu nước ngoài, giấy phép cho người điều khiển phương tiện Việt Nam cặp mạn tàu nước ngoài và giấy phép cho người Việt Nam và người nước ngoài thực hiện các hoạt động báo chí, nghiên cứu khoa học, tham quan du lịch có liên quan đến tàu, thuyền nước ngoài: 03 USD/Giấy phép (trừ trường hợp được miễn lệ phí theo quy định của Bộ Tài chính)."
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Cấp Giấy phép đi bờ cho thuyền viên nước ngoài đi bờ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1ae6d-b1b3-724d-8086-2442c2e3088b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị đi bờ của thuyền viên (trường hợp chưa đăng ký tại Bản khai chung).",
+          "code": "000.00.00.G01-KQ003974",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a1a44b-f72a-70b0-866b-04da2946c166"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d86-7760-a63f-a5b5e3fdfa27",
+    "01a1a49c-09d6-774b-905e-dbebf5b61f68"
+  ],
+  "resultIds": [
+    "01a1ae6e-8560-75d6-bf5b-ee5d9ada8f3c"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1a44b-f72a-70b0-866b-04da2946c166",
+      "name": "Đảm bảo an ninh, trật tự tại cửa khẩu cảng",
+      "code": "G01-CA37"
+    }
+  ],
+  "category": {
+    "id": "01a1a44b-f72a-70b0-866b-04da2946c166",
+    "name": "Đảm bảo an ninh, trật tự tại cửa khẩu cảng",
+    "code": "G01-CA37"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1a49c-09d6-774b-905e-dbebf5b61f68",
+      "name": "Về quản lý, bảo đảm an ninh, trật tự tại cửa khẩu cảng do Bộ Công an quản lý",
+      "code": "289/2026/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63f-a5b5e3fdfa27",
+      "name": "Thông tư 138/2016/TT-BTC",
+      "code": "138/2016/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1ae6e-8560-75d6-bf5b-ee5d9ada8f3c",
+      "name": "Giấy phép đi bờ của thuyền viên do Công an cửa khẩu cảng cấp",
+      "code": "KQ.G01.000325"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1793929190314,
+  "updatedAt": 1793929190314,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Công an cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Trực tuyến: Người làm thủ tục gửi hồ sơ và nhận kết quả qua Cổng thông tin một cửa quốc gia;\nb) Trực tiếp:\nNộp hồ sơ trực tiếp tại Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc văn phòng đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa, cụ thể: Cảng Hậu Giang (khu công nghiệp Sông Hậu 1, xã Châu Thành, thành phố Cần Thơ), Cảng Vĩnh Long (170/2 Phạm Hùng, phường Long Châu, tỉnh Vĩnh Long), Cảng Cần Thơ (131 Lê Hồng Phong, phường Thới An Đông, thành phố Cần Thơ), Cảng Mỹ Tho (Đường số 4, khu công nghiệp Mỹ Tho, phường Trung An, tỉnh Đồng Tháp).",
+  "delegatedAgencies": "Công an cấp Tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1a457-9d82-73d9-942f-702367376d8c",
+    "proposalNumber": "5890/QĐ-BCA",
+    "decisionDate": 1789578000000,
+    "decisionNumber": null,
+    "publicationDate": 1793929190220,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

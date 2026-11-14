@@ -1,0 +1,213 @@
+{
+  "id": "01a0c8b1-f96c-753c-87c0-7f418b93a10d",
+  "code": "1.116630",
+  "codeNotation": "1.116630",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Người đề nghị là lao động tự do xác nhận nộp Đơn đề nghị xác nhận đến Trung tâm Phục vụ hành chính công Thành phố (các Điểm hỗ trợ dịch vụ công số) tiếp nhận, chuyển UBND cấp xã nơi người lao động tự do đăng ký thường trú hoặc tạm trú thực hiện xác nhận. \n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền có trách nhiệm xem xét, xác nhận và trả kết quả; trường hợp không xác nhận phải trả lời bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Người đăng ký mua, thuê, thuê mua nhà ở xã hội là lao động tự do phải có thời gian làm việc ổn định, liên tục tại địa điểm làm việc từ đủ 06 tháng trở lên tính đến thời điểm nộp hồ sơ.",
+  "name": "Thủ tục xác nhận Giấy tờ xác định nơi làm việc cho đối tượng lao động tự do để được hưởng chính sách hỗ trợ về nhà ở xã hội (trường hợp có nhà ở thuộc sở hữu của mình nhưng cách xa địa điểm làm việc được hưởng chính sách hỗ trợ về nhà ở xã hội trên địa bàn thành phố Hà Nội)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0c881-168b-7462-a795-00cecbdaded7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ xác định nơi làm việc để được hưởng chính sách hỗ trợ về nhà ở xãhội (áp dụng cho các đối tượng không có các giấy tờ xác định nơi làm việc) theoMẫu số 02 tại Phụ lục ban hành kèm theo Quyết định số 51/2026/QĐ-UBND ngày28/4/2026 của UBND Thành phố.",
+          "code": "TPHS02.01.51/2026/QĐ-UBND",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-dfae1069d8aa"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afec-f5280260cd8c",
+    "01a0c89d-c293-75aa-b8a4-94d3ccd77e2e"
+  ],
+  "resultIds": [
+    "019d2bb2-1c75-741b-9abe-321a80b04ec9"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-dfae1069d8aa",
+      "name": "Nhà ở và công sở",
+      "code": "G17-XD08"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-dfae1069d8aa",
+    "name": "Nhà ở và công sở",
+    "code": "G17-XD08"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-f5280260cd8c",
+      "name": "quy định chi tiết một số điều và biện pháp thi hành Nghị quyết số 201/2025/QH15 ngày 29/5/2025 của Quốc hội thí điểm về một số cơ chế, chính sách đặc thù phát triển nhà ở xã hội",
+      "code": "192/2025/NĐ-CP"
+    },
+    {
+      "id": "01a0c89d-c293-75aa-b8a4-94d3ccd77e2e",
+      "name": "quy định về trường hợp có nhà ở thuộc sở hữu của mình nhưng cách xa địa điểm làm \nviệc được hưởng chính sách hỗ trợ về nhà ở xã hội trên địa bàn thành phố Hà Nội.",
+      "code": " 51/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c75-741b-9abe-321a80b04ec9",
+      "name": "Giấy xác nhận",
+      "code": "KQ.G14.000089"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a86-70a8-a0af-76e986804225",
+  "departmentPromulgateCode": "H26",
+  "departmentPromulgateName": "UBND Thành phố Hà Nội",
+  "cases": [
+    {
+      "id": "01a0d6cb-7c21-74d0-92dd-95484fa573bb",
+      "name": "Thủ tục xác nhận Giấy tờ xác định nơi làm việc cho đối tượng lao động tự do để được hưởng chính sách hỗ trợ về nhà ở xã hội (trường hợp có nhà ở thuộc sở hữu của mình nhưng cách xa địa điểm làm việc được hưởng chính sách hỗ trợ về nhà ở xã hội trên địa bàn thành phố Hà Nội)",
+      "code": "1.116630.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790309560233,
+  "updatedAt": 1790309560233,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công Thành phố (các Điểm hỗ trợ dịch vụ công số)",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Người đăng ký mua, thuê, thuê mua nhà ở xã hội là lao động tự do phải có thời gian làm việc ổn định, liên tục tại địa điểm làm việc từ đủ 06 tháng trở lên tính đến thời điểm nộp hồ sơ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0d6be-98d2-763b-b0c7-f8953f197e7a",
+    "proposalNumber": "1140/QĐ-TTPVHCC",
+    "decisionDate": 1788800400000,
+    "decisionNumber": null,
+    "publicationDate": 1790309560159,
+    "issuingAgency": {
+      "id": "019d2be3-6a86-70a8-a0af-76e986804225",
+      "name": "UBND Thành phố Hà Nội"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

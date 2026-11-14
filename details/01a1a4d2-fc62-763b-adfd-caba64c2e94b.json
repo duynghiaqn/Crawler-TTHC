@@ -1,0 +1,503 @@
+{
+  "id": "01a1a4d2-fc62-763b-adfd-caba64c2e94b",
+  "code": "5.004028",
+  "codeNotation": "5.004028",
+  "executionSteps": [
+    {
+      "name": "a) Đối với cấp Bộ",
+      "description": "- Đơn vị chuẩn bị dự án lập tờ trình đề nghị phê duyệt điều chỉnh dự án gửi cơ quan có thẩm quyền.\n- Đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ Hội đồng thẩm định nhà nước: Hội đồng thẩm định liên ngành tổ chức thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi.\n Đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác: Hội đồng thẩm định cấp cơ sở hoặc đơn vị trực thuộc được giao thực hiện nhiệm vụ thẩm định dự án tổ chức thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi.\n- Thủ tướng Chính phủ quyết định phê duyệt điều chỉnh dự án đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội; Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác phê duyệt dự án đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Thủ tướng Chính phủ, Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác."
+    },
+    {
+      "name": "b) Đối với cấp tỉnh",
+      "description": "- Đơn vị chuẩn bị dự án lập tờ trình đề nghị điều chỉnh dự án, gửi cơ quan có thẩm quyền;\n- Hội đồng thẩm định cấp cơ sở hoặc đơn vị được giao nhiệm vụ thẩm định nội dung điều chỉnh báo cáo nghiên cứu tiền khả thi;\n- Hội đồng thẩm định cấp cơ sở hoặc đơn vị được giao nhiệm vụ thẩm định hoàn thành và gửi báo cáo thẩm định đến cơ quan, đơn vị chủ trì tiếp nhận hồ sơ đề xuất PPP;\n- Ủy ban nhân dân cấp tỉnh quyết định phê duyệt điều chỉnh dự án PPP."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Theo từng trường hợp",
+      "processingTimeUnit": "OTHER",
+      "description": "1. Đối với cấp Bộ\n- Thời hạn thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi:\n+ Dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội, thời gian thẩm định thực hiện theo Nghị định số 29/2021/NĐ-CP: Không quá 90 ngày;\n+ Dự án thuộc thẩm quyền quyết định phê duyệt của Thủ tướng Chính phủ: Không quá 90 ngày;\n+ Dự án thuộc thẩm quyền phê duyệt của Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác: Không quá 60 ngày.\n- Thời hạn quyết định phê duyệt điều chỉnh dự án PPP:\n+ Dự án thuộc thẩm quyền phê duyệt của Thủ tướng Chính phủ: Không quá 20 ngày;\n+ Dự án thuộc thẩm quyền phê duyệt của Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác: Không quá 15 ngày.\n2. Đối với cấp tỉnh\n- Thời hạn thẩm định: Không quá 60 ngày.\n- Thời hạn phê duyệt: Không quá 15 ngày.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi, quyết định phê duyệt điều chỉnh dự án PPP do cơ quan có thẩm quyền lập (cấp Bộ, cấp tỉnh)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a.1. Đối với cấp bộ - Hồ sơ đề nghị thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi dự án PPP bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a4c7-e8e0-75e5-b044-9b194896c443",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thẩm định",
+          "code": "G12.000090",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8ce9-1cb1c98a20c4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo tờ trình đề nghị phê duyệt điều chỉnh dự án",
+          "code": "G12.001000",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4c9-5260-7148-b397-327f720c3168",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Nội dung điều chỉnh báo cáo nghiên cứu khả thi",
+          "code": "G12.001001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4c9-bf9b-74e3-9e5a-88defd542248",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định chủ trương đầu tư (hoặc quyết định điều chỉnh chủ trương đầu tư, nếu có)",
+          "code": "G12.001002",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4ca-33df-7528-800b-837101bf93e9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt kết quả lựa chọn nhà đầu tư (trường hợp dự án ứng dụng công nghệ cao, công nghệ mới)",
+          "code": "G12.001003",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4ca-c277-7550-b4d7-185d86383fa1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu pháp lý khác có liên quan của dự án",
+          "code": "G12.001004",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "a.2. Đối với cấp bộ - Hồ sơ đề nghị phê duyệt điều chỉnh dự án PPP bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a4cb-89e0-76fa-b335-15c3299f579c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị phê duyệt điều chỉnh dự án",
+          "code": "G12.001005",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8ce9-37475bd1ace9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo quyết định phê duyệt điều chỉnh dự án",
+          "code": "G12.001006",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4c9-5260-7148-b397-327f720c3168",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Nội dung điều chỉnh báo cáo nghiên cứu khả thi",
+          "code": "G12.001001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8ce8-8f2a382f2218",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi",
+          "code": "G12.001007",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4ca-33df-7528-800b-837101bf93e9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt kết quả lựa chọn nhà đầu tư (trường hợp dự án ứng dụng công nghệ cao, công nghệ mới)",
+          "code": "G12.001003",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4c9-bf9b-74e3-9e5a-88defd542248",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định chủ trương đầu tư (hoặc quyết định điều chỉnh chủ trương đầu tư, nếu có)",
+          "code": "G12.001002",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4ca-c277-7550-b4d7-185d86383fa1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu pháp lý khác có liên quan của dự án",
+          "code": "G12.001004",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b.1) Đối với cấp tỉnh - Hồ sơ đề nghị thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi dự án PPP bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a4c7-e8e0-75e5-b044-9b194896c443",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thẩm định",
+          "code": "G12.000090",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8ce9-1cb1c98a20c4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo tờ trình đề nghị phê duyệt điều chỉnh dự án",
+          "code": "G12.001000",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4c9-5260-7148-b397-327f720c3168",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Nội dung điều chỉnh báo cáo nghiên cứu khả thi",
+          "code": "G12.001001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4c9-bf9b-74e3-9e5a-88defd542248",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định chủ trương đầu tư (hoặc quyết định điều chỉnh chủ trương đầu tư, nếu có)",
+          "code": "G12.001002",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4ca-33df-7528-800b-837101bf93e9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt kết quả lựa chọn nhà đầu tư (trường hợp dự án ứng dụng công nghệ cao, công nghệ mới)",
+          "code": "G12.001003",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4ca-c277-7550-b4d7-185d86383fa1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu pháp lý khác có liên quan của dự án",
+          "code": "G12.001004",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b.2) Đối với cấp tỉnh - - Hồ sơ đề nghị phê duyệt điều chỉnh dự án PPP bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a4cb-89e0-76fa-b335-15c3299f579c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị phê duyệt điều chỉnh dự án",
+          "code": "G12.001005",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8ce9-37475bd1ace9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo quyết định phê duyệt điều chỉnh dự án",
+          "code": "G12.001006",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4c9-5260-7148-b397-327f720c3168",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Nội dung điều chỉnh báo cáo nghiên cứu khả thi",
+          "code": "G12.001001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8ce8-8f2a382f2218",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi",
+          "code": "G12.001007",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4c9-bf9b-74e3-9e5a-88defd542248",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định chủ trương đầu tư (hoặc quyết định điều chỉnh chủ trương đầu tư, nếu có)",
+          "code": "G12.001002",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4ca-33df-7528-800b-837101bf93e9",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt kết quả lựa chọn nhà đầu tư (trường hợp dự án ứng dụng công nghệ cao, công nghệ mới)",
+          "code": "G12.001003",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a4ca-c277-7550-b4d7-185d86383fa1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu pháp lý khác có liên quan của dự án",
+          "code": "G12.001004",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a1ae8c-d716-74aa-af54-f3daa5ca4aa7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9f05-9ce12ef5fb3a",
+    "019d2bb3-5d7f-719e-b46c-227709c9c95c",
+    "019d2bb3-5d84-71c5-b673-da4cde588b61",
+    "019d2bb3-5d84-71c5-b677-49972f9dd66c",
+    "019d2bb3-5d86-7760-a63b-fe8a0a96b6c3"
+  ],
+  "resultIds": [
+    "01a1a4cf-0f0e-771f-b226-5aff8558f322",
+    "01a1a4cf-8329-742e-b7be-705e8717ffe1"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1ae8c-d716-74aa-af54-f3daa5ca4aa7",
+      "name": "Đầu tư theo phương thức đối tác công tư (PPP)",
+      "code": "G12.99"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86",
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    },
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7c-71ab-9f05-9ce12ef5fb3a",
+      "name": "THÔNG TƯ  HƯỚNG DẪN LỰA CHỌN NHÀ ĐẦU TƯ THỰC HIỆN DỰ ÁN ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ VÀ DỰ ÁN ĐẦU TƯ CÓ SỬ DỤNG ĐẤT",
+      "code": "09/2021/TT-BKHĐT"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-da4cde588b61",
+      "name": "Luật Đầu tư theo phương thức đối tác công tư",
+      "code": "64/2020/QH14"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63b-fe8a0a96b6c3",
+      "name": "Thông tư số 10/2022/TT-BKHĐT của Bộ Kế hoạch và Đầu tư: Quy định chi tiết việc cung cấp, đăng tải thông tin và lựa chọn nhà đầu tư trên Hệ thống mạng đấu thầu quốc gia",
+      "code": "10/2022/TT-BKHĐT"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-227709c9c95c",
+      "name": "Nghị định số 29/2021/NĐ-CP Quy định về trịnh tự, thủ tục thẩm định dự án quan trọng quốc gia và giám sát, đánh giá đầu tư",
+      "code": "29/2021/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b677-49972f9dd66c",
+      "name": "Nghị định số 135/2021/NĐ-CP ngày 31/12/2021 của Chính phủ quy định về danh mục, việc quản lý, sử dụng phương tiện, thiết bị kỹ thuật nghiệp vụ và quy trình thu thập, sử dụng dữ liệu thu được từ phương tiện, thiết bị kỹ thuật do cá nhân, tổ chức cung cấp để phát hiện vi phạm hành chính.",
+      "code": "135/2021/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1a4cf-8329-742e-b7be-705e8717ffe1",
+      "name": "Quyết định phê duyệt nội dung điều chỉnh dự án PPP",
+      "code": "KQ.G12.001461"
+    },
+    {
+      "id": "01a1a4cf-0f0e-771f-b226-5aff8558f322",
+      "name": "Báo cáo thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi dự án PPP",
+      "code": "KQ.G12.001460"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911000,
+  "updatedAt": 1794448911000,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính, Thủ tướng Chính phủ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

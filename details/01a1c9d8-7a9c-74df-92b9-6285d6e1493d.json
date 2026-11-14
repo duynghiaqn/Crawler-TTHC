@@ -1,0 +1,174 @@
+{
+  "id": "01a1c9d8-7a9c-74df-92b9-6285d6e1493d",
+  "code": "5.004056",
+  "codeNotation": "5.004056",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Các nhiệm vụ KHCN cấp Bộ thực hiện theo phương thức tuyển chọn hoặc giao trực tiếp thực hiện theo các nội dung trong Thông báo của Viện Chiến lược và kinh tế tài chính. \n- Điều kiện và hồ sơ đăng ký tham gia tuyển chọn, giao trực tiếp nhiệm vụ KHCN cấp Bộ được thực hiện theo quy định tại Quy chế quản lý nhiệm vụ KHCN cấp Bộ của Bộ Tài chính. \n- Hồ sơ hợp lệ sẽ được đưa ra Hội đồng Tư vấn tuyển chọn, giao trực tiếp để xem xét, đánh giá. Hội đồng Tư vấn tuyển chọn, giao trực tiếp tổ chức, cá nhân thực hiện nhiệm vụ KHCN cấp Bộ do Bộ trưởng Bộ Tài chính quyết định thành lập trên cơ sở đề xuất của Viện CLKTTC. \n- Kết quả họp Hội đồng được ghi thành Biên bản. Tổ chức, cá nhân có nhiệm vụ KHCN được giao thực hiện có trách nhiệm hoàn thiện thuyết minh theo ý kiến của Hội đồng và gửi về Viện CLKTTC."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Theo thời hạn đã được ghi rõ trong Thông báo về việc tuyển chọn, giao trực tiếp tổ chức, cá nhân chủ trì thực hiện nhiệm vụ KHCN cấp Bộ của Bộ Tài chính. ",
+      "processingTimeUnit": "OTHER",
+      "description": "Theo thời hạn đã được ghi rõ trong Thông báo về việc tuyển chọn, giao trực tiếp tổ chức, cá nhân chủ trì thực hiện nhiệm vụ KHCN cấp Bộ của Bộ Tài chính.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Theo thời hạn đã được ghi rõ trong Thông báo về việc tuyển chọn, giao trực tiếp tổ chức, cá nhân chủ trì thực hiện nhiệm vụ KHCN cấp Bộ của Bộ Tài chính. ",
+      "processingTimeUnit": "OTHER",
+      "description": "Theo thời hạn đã được ghi rõ trong Thông báo về việc tuyển chọn, giao trực tiếp tổ chức, cá nhân chủ trì thực hiện nhiệm vụ KHCN cấp Bộ của Bộ Tài chính.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Tuyển chọn, giao trực tiếp tổ chức, cá nhân thực hiện nhiệm vụ kho học công nghệ cấp Bộ của Bộ Tài chính",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd76-43575260c224",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quy định tại Quy chế quản lý nhiệm vụ KHCN cấp Bộ của Bộ Tài chính",
+          "code": "G12.000212",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-1ea6fce4ab5f"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4d-2e5921362314"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-188abd8ebf0c"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a73-7290-a1e8-b339cf051740"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-1ea6fce4ab5f",
+      "name": "Khoa học công nghệ",
+      "code": "G12.26"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a73-7290-a1e8-b339cf051740",
+      "name": "Viện Chiến lược và Chính sách tài chính - Bộ tài chính",
+      "code": "000.00.26.G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be4d-2e5921362314",
+      "name": "Quyết định số 389/QĐ-BTC ngày 20/3/2019 của Bộ trưởng Bộ Tài chính về việc ban hành Quy chế quản lý nhiệm vụ KHCN cấp Bộ của Bộ Tài chính",
+      "code": "389"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-188abd8ebf0c",
+      "name": "Quyết định của Bộ trưởng Bộ Tài chính về việc phê duyệt danh mục và giao nhiệm vụ KHCN cấp Bộ..",
+      "code": "KQ.G12.000933"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911011,
+  "updatedAt": 1794448911011,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Viện Chiến lược và Chính sách tài chính - Bộ tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

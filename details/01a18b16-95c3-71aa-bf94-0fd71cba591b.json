@@ -1,0 +1,168 @@
+{
+  "id": "01a18b16-95c3-71aa-bf94-0fd71cba591b",
+  "code": "6.006861",
+  "codeNotation": "6.006861",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "Bước 1: Căn cứ quyết định giao đất, quyết định chuyển mục đích sử dụng đất, quyết định điều chỉnh quy hoạch chi tiết, quyết định chuyển hình thức sử dụng đất, nhu cầu công nhận quyền sử dụng đất và hồ sơ mà người sử dụng đất nộp tại cơ quan có thẩm quyền theo quy định tại Nghị định về cấp giấy chứng nhận, Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông chuyển Phiếu chuyển thông tin cho cơ quan thuế để tính tiền sử dụng đất theo quy định của pháp luật.\nBước 2: Căn cứ Phiếu chuyển thông tin (thông tin về người sử dụng đất, diện tích đất, vị trí đất, mục đích sử dụng đất, nguồn gốc sử dụng đất) do Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông chuyển đến; căn cứ Bảng giá đất, mức giảm tiền sử dụng đất được cấp có thẩm quyền xác định hoặc phê duyệt (nếu có), trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan thuế tính số tiền sử dụng đất phải nộp, số tiền sử dụng đất được giảm, ban hành thông báo nộp tiền sử dụng đất, quyết định giảm tiền sử dụng đất (nếu thuộc trường hợp được giảm tiền sử dụng đất) và gửi cho hộ gia đình, cá nhân hoặc gửi cơ quan chuyển Phiếu chuyển thông tin theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 05 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 05 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc cơ quan một cửa liên thông chịu trách nhiệm về tính chính xác của số liệu và các thông tin cung cấp cho cơ quan thuế. Cơ quan thuế chịu trách nhiệm về việc tính và ra thông báo tiền sử dụng đất phải nộp.",
+  "name": "Trình tự xác định tiền thuê đất, tiền sử dụng đất",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18b17-eafc-7357-98cb-468f1239ba79",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phiếu chuyển thông tin (thông tin về người sử dụng đất, diện tích đất, vị trí đất, mục đích sử dụng đất, nguồn gốc sử dụng đất)",
+          "code": "G12.06.0119",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông, cơ quan thuế.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe8-2d2590ea131f"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-4ea3c543c27e"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e005b-7a95-72d9-83b9-1df81c4b08e9"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e005b-7a95-72d9-83b9-1df81c4b08e9",
+      "name": "Thuế tỉnh, thành phố"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-2d2590ea131f",
+      "name": "Nghị định số 103/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định về tiền sử dụng đất, tiền thuê đất",
+      "code": "103/2024/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-4ea3c543c27e",
+      "name": "Thông báo nộp tiền sử dụng đất",
+      "code": "KQ.G12.000946"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910966,
+  "updatedAt": 1794448910966,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "* Cơ quan giải quyết thủ tục hành chính: Cơ quan thuế.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc cơ quan một cửa liên thông chịu trách nhiệm về tính chính xác của số liệu và các thông tin cung cấp cho cơ quan thuế. Cơ quan thuế chịu trách nhiệm về việc tính và ra thông báo tiền sử dụng đất phải nộp.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

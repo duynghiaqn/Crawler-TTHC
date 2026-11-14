@@ -1,0 +1,243 @@
+{
+  "id": "01a1c9df-486e-7099-8fc4-591bda30e4da",
+  "code": "5.004057",
+  "codeNotation": "5.004057",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Đơn vị chủ trì soạn thảo Thông tư gửi hồ sơ thẩm định đến Vụ Pháp chế hoặc đơn vị chủ trì thẩm định. Sau khi nhận được đầy đủ hồ sơ theo quy định, Vụ Pháp chế hoặc đơn vị chủ trì thẩm định có trách nhiệm tổ chức thẩm định và gửi báo cáo thẩm định đến đơn vị chủ trì soạn thảo.\n- Vụ Pháp chế hoặc đơn vị chủ trì thẩm định những nội dung sau:\n+ Sự cần thiết ban hành thông tư; phạm vi điều chỉnh, đối tượng áp dụng của thông tư;\n+ Sự phù hợp của nội dung dự thảo thông tư với chủ trương, đường lối của Đảng, chính sách của Nhà nước;\n+ Tính hợp hiến, tính hợp pháp, tính thống nhất với hệ thống pháp luật của dự thảo thông tư; tính tương thích với điều ước quốc tế có liên quan mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;\n+ Sự cần thiết, tính hợp lý của thủ tục hành chính (nếu có);\n+ Nguồn tài chính, nguồn nhân lực; việc phân cấp và thực hiện nhiệm vụ, quyền hạn được phân cấp (nếu có);\n+ Ngôn ngữ, thể thức, kỹ thuật trình bày và trình tự, thủ tục soạn thảo văn bản.\n+ Báo cáo thẩm định phải thể hiện đầy đủ ý kiến về các nội dung nêu trên. Tùy nội dung dự thảo thông tư, bộ, cơ quan ngang bộ có thể mời đại diện của các bộ, cơ quan ngang bộ, cơ quan, tổ chức có liên quan, chuyên gia, nhà khoa học tham gia thẩm định hoặc lấy ý kiến thẩm định bằng văn bản. \n+ Trường hợp tổ chức cuộc họp hội đồng thẩm định hoặc cuộc họp thẩm định, đơn vị chủ trì thẩm định gửi tài liệu họp thẩm định đến các thành viên tham gia thẩm định chậm nhất là 03 ngày làm việc, trước ngày tổ chức thẩm định. Thành viên tham gia thẩm định có trách nhiệm nghiên cứu hồ sơ dự thảo thông tư và phát biểu ý kiến thẩm định. Hội đồng thẩm định chấm dứt hoạt động và tự giải thể sau khi kết thúc cuộc họp hội đồng thẩm định. \n+ Trường hợp dự thảo Thông tư do Vụ Pháp chế chủ trì soạn thảo thì phân công đơn vị khác thẩm định hoặc thành lập hội đồng thẩm định hoặc tổ chức họp thẩm định.\n+ Đơn vị chủ trì soạn thảo Thông tư có trách nhiệm phối hợp với các đơn vị có liên quan nghiên cứu, tiếp thu ý kiến thẩm định để chỉnh lý dự thảo."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Theo quy định của Luật ban hành văn bản QPPL",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Theo quy định của Luật ban hành văn bản QPPL",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Theo quy định của Luật ban hành văn bản QPPL",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thẩm định dự thảo Thông tư của Bộ trưởng Bộ Tài chính do các đơn vị thuộc Bộ chủ trì soạn thảo",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Số lượng hồ sơ: 01 bản giấy và 01 bản điện tử",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1c9dd-003a-7708-b43f-feef811a0330",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo tờ trình",
+          "code": "G12.000213",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1c9dd-58d9-730c-bd4c-1899818753b5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo thông tư",
+          "code": "G12.000214",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd76-4d1b868dabd7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản đánh giá thủ tục hành chính, việc phân cấp, thực hiện nhiệm vụ, quyền hạn được phân cấp (nếu có)",
+          "code": "G12.000215",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd76-5175dc535d5a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo tổng kết việc thi hành pháp luật hoặc đánh giá thực trạng quan hệ xã hội liên quan đến dự thảo văn bản đối với trường hợp ban hành Thông tư quy định tại khoản 2 Điều 18 của Luật Ban hành văn bản quy phạm pháp luật năm 2025.",
+          "code": "G12.000216",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd76-566c71d66ab4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản tổng hợp ý kiến, tiếp thu, giải trình ý kiến góp ý",
+          "code": "G12.000217",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9034-570f5392f101",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu khác (nếu có)",
+          "code": "G12.000194",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Cơ quan giải quyết TTHC: Vụ Pháp chế; đơn vị khác được phân công thẩm định hoặc hội đồng thẩm định hoặc tổ chức họp thẩm định (trường hợp Thông tư do Vụ Pháp chế chủ trì soạn thảo).",
+  "keywords": "",
+  "categoryIds": [
+    "01a1c9d9-6c09-712a-9f9a-8211e04eeaa7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b471-49536870af15",
+    "019d2bb3-5d86-7760-a646-cf9825f97333"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-1ccbcb2975ed"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a73-7290-a1e7-25c407fbbdb3"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1c9d9-6c09-712a-9f9a-8211e04eeaa7",
+      "name": "Pháp chế",
+      "code": "G12.17.TC"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a73-7290-a1e7-25c407fbbdb3",
+      "name": "Vụ Pháp chế - Bộ tài chính",
+      "code": "000.00.17.G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b471-49536870af15",
+      "name": "NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT BAN HÀNH VĂN BẢN QUY PHẠM PHÁP LUẬT",
+      "code": "78/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a646-cf9825f97333",
+      "name": "Quyết định số 2829/QĐ-BTC ngày 27/11/2024 của Bộ Tài chính",
+      "code": "2829/QĐ-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-1ccbcb2975ed",
+      "name": "Văn bản thẩm định",
+      "code": "KQ.G12.000934"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910964,
+  "updatedAt": 1794448910964,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Vụ Pháp chế - Bộ tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "01a19bbe-e71a-72d1-9d2a-f046e0c27c7f",
+  "code": "6.006893",
+  "codeNotation": "6.006893",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Khi có tài sản KCHT hàng hải cần sử dụng để tham gia dự án đầu tư theo phương thức đối tác công tư, cơ quan quản lý tài sản lập hồ sơ đề nghị, báo cáo cơ quan quản lý cấp trên (nếu có) để trình cơ quan, người có thẩm quyền \n- Trong thời hạn 15 ngày, kể từ ngày nhận được đầy đủ hồ sơ, cơ quan, người có thẩm quyền xem xét, quyết định sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư đối với các trường hợp thuộc thẩm quyền hoặc có văn bản hồi đáp trong trường hợp đề nghị chưa phù hợp.\n- Trường hợp thuộc thẩm quyền quyết định của Thủ tướng Chính phủ thì Bộ Xây dựng (đối với tài sản thuộc trung ương quản lý), Ủy ban nhân dân cấp tỉnh (đối với tài sản thuộc địa phương quản lý) lập 01 bộ hồ sơ đề nghị Thủ tướng Chính phủ xem xét, quyết định sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư hoặc có văn bản chỉ đạo trong trường hợp đề nghị chưa phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 15 ngày.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 15 ngày.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 15 ngày.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Quản lý, sử dụng tài sản kết cấu hạ tầng hàng hải được đầu tư theo phương pháp đối tác công tư",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18acf-2f18-7324-9f1b-fb4c0c08bbc3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý tài sản về việc đề nghị sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư (trong đó nêu rõ lý do sử dụng tài sản để tham gia dự án đầu tư)",
+          "code": "G12.06.0096",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-911abd21cff4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Ý kiến của các cơ quan có liên quan",
+          "code": "G12.06.0099",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19b81-c5a3-75df-820f-d2cb264ed3c6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị điều chuyển theo Mẫu số 01B tại Phụ lục ban hành kèm theo Nghị định số 84/2025/NĐ-CP do cơ quan quản lý tài sản lập",
+          "code": "G12.060215",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19b2e-f9e9-72dd-baa5-3ce7b944d70b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "G12.060213",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan quản lý tài sản quy định tại khoản 3 Điều 2 Nghị định số 84/2025/NĐ-CP ngày 04/4/2025 của Chính phủ.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b471-fe1c33ae3b8f"
+  ],
+  "resultIds": [
+    "019d2bb2-1c72-75fa-a58f-e12be9733679"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66d-4ef4369c303d"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng",
+      "code": "G17"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b471-fe1c33ae3b8f",
+      "name": "Nghị định số 84/2025/NĐ-CP ngày 04/4/2025 của Chính phủ quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng hàng hải",
+      "code": "84/2025"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c72-75fa-a58f-e12be9733679",
+      "name": "Quyết định sử dụng tài sản kết cấu hạ tầng hàng hải để tham gia dự án đầu tư theo phương thức đối tác công tư",
+      "code": "KQ.G12.000989"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910957,
+  "updatedAt": 1794448910957,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Xây dựng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Thủ tướng Chính phủ, Bộ trưởng Bộ XD, UBND cấp tỉnh.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "id": "01a0c877-eec3-7166-875b-46ce7e760dba",
+  "code": "1.116627",
+  "codeNotation": "1.116627",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Nộp hồ sơ \nTổ chức, cá nhân thuộc đối tượng thực hiện thủ tục hành chính (TTHC) nộp hồ sơ đề nghị hỗ trợ lãi suất, định kỳ mỗi năm một lần, chậm nhất trong thời gian 30 ngày kể từ ngày kết thúc năm tài chính bằng một trong các hình thức sau: Trực tiếp tại Điểm phục vụ hành chính công cấp xã - Trung tâm Phục vụ hành chính công thành phố Hà Nội hoặc thông qua dịch vụ bưu chính hoặc nộp hồ sơ trực tuyến trên Cổng Dịch vụ công quốc gia.\na) Trường hợp nộp hồ sơ trực tiếp hoặc qua dịch vụ bưu chính, các thành phần hồ sơ phải là bản chính hoặc bản sao có chứng thực hoặc bản sao y theo đúng quy định. Trường hợp các giấy tờ theo quy định của pháp luật được cấp dưới dạng bản điện tử thì nộp bản điện tử.\nb) Trường hợp nộp hồ sơ tại Cổng Dịch vụ công quốc gia, các thành phần hồ sơ phải được scan từ bản chính, đảm bảo rõ ràng, đầy đủ và hợp lệ.\nBước 2. Tiếp nhận và hẹn ngày trả kết quả: Điểm phục vụ hành chính công cấp xã kiểm tra tính đầy đủ, hợp lệ của hồ sơ, chuyển hồ sơ về Ủy ban nhân dân cấp xã.\nBước 3. Phân công xử lý hồ sơ: Trong thời gian 03 ngày làm việc kể kể từ ngày nhận hồ sơ, Ủy ban nhân dân cấp xã kiểm tra tính hợp lệ của hồ sơ. Trường hợp hồ sơ thiếu hoặc không đủ kiều kiện, phải thông báo bằng văn bản và nêu rõ lý do cho tổ chức, cá nhân.\nBước 4: Tổ chức thẩm định \n- Trong thời gian 10 ngày làm việc (kể từ ngày nhận được hồ sơ hợp lệ), Ủy ban nhân dân cấp xã tổ chức thẩm định đối tượng, số tiền và thời gian hỗ trợ. Toàn bộ kết quả thẩm định phải được lập thành văn bản và lưu trữ theo quy định.\n- Trong thời gian 05 ngày làm việc kể từ ngày nhận được báo cáo thẩm định, Ủy ban nhân dân cấp xã xem xét, ban hành Quyết định hỗ trợ. \nBước 5: Hoàn thiện hồ sơ: Hoàn thiện hồ sơ, chuyển kết quả giải quyết thủ tục hành chính về Điểm phục vụ hành chính công cấp xã để trả cho tổ chức, cá nhân.\nBước 6: Trả kết quả: Điểm phục vụ hành chính công cấp xã trả kết quả giải quyết thủ tục hành chính cho tổ chức, cá nhân bằng một trong các hình thức sau: trực tuyến, bưu chính hoặc trực tiếp tại Điểm phục vụ hành chính công cấp xã."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": ".",
+      "processingTimeUnit": "OTHER",
+      "description": "18 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": ".",
+      "processingTimeUnit": "OTHER",
+      "description": "18 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": ".",
+      "processingTimeUnit": "OTHER",
+      "description": "18 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Hỗ trợ tiền lãi vay ngân hàng hoặc lãi vay từ Quỹ đầu tư phát triển Thành phố đối với toàn bộ giá trị hợp đồng vay được thực hiện trong thời gian vay vốn",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0c2f9-6c0e-7626-946c-5a25f97229d0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ lãi suất vay vốn theo Mẫu số 01 theo Phụ lục kèm theo Quyết định 104/2026/QĐ-UBND ngày 23/7/2026 của UBND Thành phố;",
+          "code": "1157.2026.01",
+          "attachments": [
+            {
+              "id": "01a0c861-9fc6-7023-a520-1119a2a676c6",
+              "fileName": "Đơn đề nghị hỗ trợ lãi suất vay vốn theo Mẫu số 01 theo Phụ lục kèm theo Quyết định 104.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0c861-9fc6-7023-a520-1119a2a676c6/Đơn đề nghị hỗ trợ lãi suất vay vốn theo Mẫu số 01 theo Phụ lục kèm theo Quyết định 104.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0c2f9-afb0-74f2-ab55-a0070bb62a84",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đăng ký doanh nghiệp đối với tổ chức, doanh nghiệp (khai thác từ Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp) hoặc thẻ Căn cước đối với cá nhân (khai thác từ Cơ sở dữ liệu quốc gia về dân cư);",
+          "code": "1157.2026.02",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c2f9-efb2-76a9-a666-bca706e061fc",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự án đầu tư đã được cấp có thẩm quyền phê duyệt, trong dự án phải xác định và ghi rõ nội dung về mục đích sử dụng vốn vay phù hợp với nội dung đề nghị hỗ trợ;",
+          "code": "1157.2026.03",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c2fa-2b38-721f-8e19-e94bde7ed804",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng kê dư nợ vay, lãi vay và chứng từ hoặc các giấy tờ tương đương có xác nhận của tổ chức ngân hàng, Quỹ đầu tư phát triển Thành phố xác định chủ dự án có vay vốn tại tổ chức, khoản nợ trong hạn và sử dụng vốn vay đúng mục đích để thực hiện dự án đầu tư xây dựng nhà xưởng, máy móc tại nơi di dời đến theo Quyết định của Ủy ban nhân dân Thành phố",
+          "code": "1157.2026.04",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c2fa-6833-75fb-8226-527cec4ece4c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hợp đồng tín dụng/thỏa thuận cho vay và biên lai thu tiền",
+          "code": "1157.2026.05",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c2fa-a199-74be-9150-0082e937c640",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt danh sách di dời của Ủy ban nhân dân Thành phố",
+          "code": "1157.2026.06",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0c2fa-dec8-7308-869c-c53c0e9773f2",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu chứng minh đã đầu tư theo dự án (chứng từ, hoá đơn và hồ sơ liên quan trong quá trình đầu tư); các tài liệu khác có liên quan (nếu có)",
+          "code": "1157.2026.07",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2c08-77b8-7437-8210-791db42f326a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b473-e464f5841f14",
+    "019f1160-be7f-70b8-a88d-afea0026d637",
+    "019d2bb3-5d87-7195-a445-3789c9336cec"
+  ],
+  "resultIds": [
+    "019ff4db-e548-71ab-ba00-25b6270452d6"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2c08-77b8-7437-8210-791db42f326a",
+      "name": "Kinh tế hợp tác và Phát triển nông thôn",
+      "code": "782290570"
+    }
+  ],
+  "category": {
+    "id": "019d2c08-77b8-7437-8210-791db42f326a",
+    "name": "Kinh tế hợp tác và Phát triển nông thôn",
+    "code": "782290570"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b473-e464f5841f14",
+      "name": "Nghị định của Chính phủ về phát triển ngành nghề nông thôn",
+      "code": "Nghị định 52/2018/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a445-3789c9336cec",
+      "name": "Luật Tổ chức chính quyền địa phương",
+      "code": "72/2025/QH15"
+    },
+    {
+      "id": "019f1160-be7f-70b8-a88d-afea0026d637",
+      "name": "Luật Thủ đô",
+      "code": "02/2026/QH16"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019ff4db-e548-71ab-ba00-25b6270452d6",
+      "name": "Quyết định hỗ trợ",
+      "code": "KQ-H05.000140"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a86-70a8-a0af-76e986804225",
+  "departmentPromulgateCode": "H26",
+  "departmentPromulgateName": "UBND Thành phố Hà Nội",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790070001913,
+  "updatedAt": 1790070001913,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0c86f-42cf-757f-a95a-aed6ca3a387d",
+    "proposalNumber": "1157/QĐ-TTPVHCC",
+    "decisionDate": 1789318800000,
+    "decisionNumber": null,
+    "publicationDate": 1790070001855,
+    "issuingAgency": {
+      "id": "019d2be3-6a86-70a8-a0af-76e986804225",
+      "name": "UBND Thành phố Hà Nội"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

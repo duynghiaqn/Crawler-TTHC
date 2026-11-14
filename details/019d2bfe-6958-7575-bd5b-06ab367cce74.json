@@ -1,0 +1,409 @@
+{
+  "id": "019d2bfe-6958-7575-bd5b-06ab367cce74",
+  "code": "1.009440",
+  "codeNotation": "1.009440",
+  "executionSteps": [
+    {
+      "name": "a) Nộp hồ sơ TTHC:",
+      "description": "- Trường hợp thực hiện trực tiếp tại địa điểm làm thủ tục, người làm thủ tục nộp, xuất trình giấy tờ cho cơ quan có thẩm quyền làm thủ tục theo quy định. Các cơ quan có thẩm quyền phải trả giấy tờ quy định cho người làm thủ tục ngay sau khi kiểm tra, trừ trường hợp pháp luật có quy định khác.\n- Trường hợp làm thủ tục điện tử, chậm nhất 02 giờ, trước khi phương tiện dự kiến đến cửa khẩu, người làm thủ tục phải khai báo giấy tờ quy định theo phương thức điện tử thông qua Cổng thông tin một cửa quốc gia."
+    },
+    {
+      "name": "b) Giải quyết TTHC:",
+      "description": "-  Chậm nhất 30 phút, kể từ khi người làm thủ tục hoàn thành việc nộp, xuất trình hoặc khai báo điện tử đầy đủ các giấy tờ theo quy định, trên cơ sở thông báo kết quả giải quyết thủ tục theo chuyên ngành của các cơ quan liên quan, Cảng vụ thông báo cho phương tiện vào cảng.\n- Trách nhiệm làm thủ tục của cơ quan quản lý nhà nước chuyên ngành tại cảng thủy nội địa:\n+ Kiểm tra các loại giấy tờ liên quan đến phương tiện và thuyền viên trong trường hợp làm thủ tục điện tử:\na) Cảng vụ kiểm tra các thông tin khai báo, tra cứu dữ liệu phương tiện, thuyền viên Việt Nam trên cơ sở dữ liệu điện tử của các cơ quan có thẩm quyền để giải quyết thủ tục cấp giấy phép cho phương tiện vào cảng thủy nội địa.\nb) Cảng vụ chỉ yêu cầu người làm thủ tục nộp, xuất trình các giấy tờ trong trường hợp cơ sở dữ liệu điện tử không có thông tin của phương tiện, thuyền viên, người lái phương tiện hoặc không đủ dữ liệu điện tử để kiểm tra, đối chiếu hoặc không bảo đảm điều kiện của chứng từ điện tử.\nc) Thời hạn xuất trình các giấy tờ không có trong cơ sở dữ liệu: chậm nhất 02 giờ, kể từ khi phương tiện đã neo đậu tại cầu cảng hoặc 04 giờ, kể từ khi phương tiện đã neo đậu tại vị trí khác trong vùng nước cảng.\n+ Trách nhiệm làm thủ tục:\na) Trong phạm vi chức năng, nhiệm vụ của mình, các cơ quan thực hiện kiểm tra và chịu trách nhiệm đối với kết quả kiểm tra các giấy tờ theo quy định.\nb) Cảng vụ căn cứ thông tin tàu thuyền và kết quả giải quyết thủ tục của các cơ quan quản lý nhà nước chuyên ngành khác để quyết định giải quyết thủ tục nhập cảnh vào cảng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "HOUR",
+      "description": "Chậm nhất 30 phút, kể từ khi người làm thủ tục hoàn thành việc nộp, xuất trình hoặc khai báo điện tử đầy đủ các giấy tờ theo quy định, trên cơ sở thông báo kết quả giải quyết thủ tục theo chuyên ngành của các cơ quan liên quan, Cảng vụ thông báo cho phương tiện vào cảng.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo  phí, lệ phí quy định tại Thông tư số 248/2016/TT-BTC ngày 11/11/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí áp dụng tại cảng, bến thủy nội địa"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục điện tử đối với phương tiện thủy nội địa Việt Nam, Campuchia nhập cảnh vào cảng thủy nội địa Việt Nam",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-732d5f599f91",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy phép rời cảng thủy nội địa theo mẫu;",
+          "code": "000.00.00.G04-KQ3162",
+          "attachments": [
+            {
+              "id": "019f7325-9ecd-75fb-bb81-b202d6633b2d",
+              "fileName": "000.00.00.G04-KQ3162.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7325-9ecd-75fb-bb81-b202d6633b2d/000.00.00.G04-KQ3162.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-8a9fc8b7154f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai kiểm dịch động vật đối với hàng hóa thuộc diện kiểm dịch động vật theo mẫu;",
+          "code": "000.00.00.G04-KQ3168",
+          "attachments": [
+            {
+              "id": "019f7327-25a2-73ed-b591-d8fe7a4d02b9",
+              "fileName": "000.00.00.G04-KQ3168.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7327-25a2-73ed-b591-d8fe7a4d02b9/000.00.00.G04-KQ3168.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-6c85b44a8d4e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Thông báo phương tiện đến cảng thủy nội địa theo mẫu;",
+          "code": "000.00.00.G04-KQ3161",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-75d5d047f3af",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai chung theo mẫu;",
+          "code": "000.00.00.G04-KQ3163",
+          "attachments": [
+            {
+              "id": "019f7325-e4f7-70c8-ab31-e992433a9362",
+              "fileName": "000.00.00.G04-KQ3163.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7325-e4f7-70c8-ab31-e992433a9362/000.00.00.G04-KQ3163.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-86cf46c80f6a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai kiểm dịch thực vật đối với hàng hóa thuộc diện kiểm dịch thực vật theo mẫu;",
+          "code": "000.00.00.G04-KQ3167",
+          "attachments": [
+            {
+              "id": "019f7326-f712-70fc-878e-2722b7dc3fbc",
+              "fileName": "000.00.00.G04-KQ3167.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7326-f712-70fc-878e-2722b7dc3fbc/000.00.00.G04-KQ3167.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-910ff08ce1f9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai người trốn trên tàu (nếu có) theo mẫu.",
+          "code": "000.00.00.G04-KQ3170",
+          "attachments": [
+            {
+              "id": "019f7327-9cc8-73c4-b121-d6d936e5e3ff",
+              "fileName": "000.00.00.G04-KQ3170.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7327-9cc8-73c4-b121-d6d936e5e3ff/000.00.00.G04-KQ3170.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-7f670d3f621c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh sách hành khách theo mẫu;",
+          "code": "000.00.00.G04-KQ3165",
+          "attachments": [
+            {
+              "id": "019f7326-640e-769d-bb5b-261adcba3462",
+              "fileName": "000.00.00.G04-KQ3165.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7326-640e-769d-bb5b-261adcba3462/000.00.00.G04-KQ3165.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-8c0ef5a4a39a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai vũ khí và vật liệu nổ (nếu có) theo mẫu;",
+          "code": "000.00.00.G04-KQ3169",
+          "attachments": [
+            {
+              "id": "019f7327-6608-7325-8dba-20cb7befcb78",
+              "fileName": "000.00.00.G04-KQ3169.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7327-6608-7325-8dba-20cb7befcb78/000.00.00.G04-KQ3169.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-96edfcab2cdd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Giấy tờ phải xuất trình : + Giấy tờ xuất trình cho Cảng vụ gồm: Giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường của phương tiện, giấy tờ liên quan đến hàng hóa vận tải trên phương tiện, giấy chứng nhận đăng ký phương tiện (hoặc bản sao có xác nhận của tổ chức tín dụng trong trường hợp phương tiện đang cầm cố, thế chấp), giấy chứng nhận khả năng chuyên môn, chứng chỉ chuyên môn của thuyền viên, người lái phương tiện, bản sao giấy chứng nhận bảo hiểm trách nhiệm dân sự (đối với phương tiện thuộc diện bắt buộc phải có bảo hiểm trách nhiệm dân sự), giấy phép vận tải thủy qua biên giới Việt Nam - Campuchia; + Giấy tờ xuất trình cho Cơ quan Hải quan: Giấy tờ liên quan đến hàng hóa vận tải trên phương tiện; + Giấy tờ xuất trình cho Bộ đội Biên phòng cửa khẩu: Hộ chiếu và giấy tờ có giá trị đi lại quốc tế của thuyền viên, hành khách (nếu có); + Giấy tờ xuất trình cho cơ quan kiểm dịch thực vật: Giấy chứng nhận kiểm dịch thực vật (đối với hàng hóa thuộc diện kiểm dịch thực vật); + Giấy tờ xuất trình cho cơ quan kiểm dịch động vật: Giấy chứng nhận kiểm dịch động vật của nước xuất hàng (đối với hàng hóa thuộc diện kiểm dịch động vật); + Giấy tờ xuất trình cho cơ quan kiểm dịch y tế: Giấy chứng nhận tiêm chủng quốc tế của thuyền viên, người lái phương tiện, hành khách (trong trường hợp xuất phát hoặc đi qua vùng có dịch hoặc bị nghi ngờ mắc bệnh hoặc tác nhân gây bệnh truyền nhiễm).",
+          "code": "000.00.00.G04-KQ3171",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-83bf12727164",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai hàng hóa theo mẫu;",
+          "code": "000.00.00.G04-KQ3166",
+          "attachments": [
+            {
+              "id": "019f7326-aec3-721e-8ada-4acf337e120f",
+              "fileName": "000.00.00.G04-KQ3166.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7326-aec3-721e-8ada-4acf337e120f/000.00.00.G04-KQ3166.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71c0-7647-a0ae-79f6ae31ad40",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh sách thuyền viên theo mẫu;",
+          "code": "000.00.00.G04-KQ3164",
+          "attachments": [
+            {
+              "id": "019f7326-2751-7680-ad98-74621059a6b5",
+              "fileName": "000.00.00.G04-KQ3164.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7326-2751-7680-ad98-74621059a6b5/000.00.00.G04-KQ3164.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c0a4209513fc"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4b-e85edce6cd09",
+    "019d2bb3-5d7e-72d1-afe7-a8368c489fef"
+  ],
+  "resultIds": [
+    "019d95d2-ffd0-75ed-ac64-b4b67864042a"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d04-16b7c6ee1c73",
+    "019d2be3-6a85-74ec-a342-c153946133c1"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+      "name": "Hàng hải và đường thủy nội địa",
+      "code": "G04-GT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+    "name": "Hàng hải và đường thủy nội địa",
+    "code": "G04-GT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d04-16b7c6ee1c73",
+      "name": "Cảng vụ hàng hải",
+      "code": "CVHH"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a342-c153946133c1",
+      "name": "Cảng vụ đường thủy nội địa",
+      "code": "H19.11.3"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe7-a8368c489fef",
+      "name": "Quy định về quản lý hoạt động đường thủy nội địa",
+      "code": "08/2021/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4b-e85edce6cd09",
+      "name": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí áp dụng tại cảng, bến thủy nội địa",
+      "code": "248/2016/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d95d2-ffd0-75ed-ac64-b4b67864042a",
+      "name": "Giấy phép điện tử cho phương tiện vào cảng thủy nội địa thông qua Cổng thông tin một cửa quốc gia.",
+      "code": "000.00.00.G04-KQ3172"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1774559586648,
+  "updatedAt": 1785147285523,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cảng vụ hàng hải, Cảng vụ đường thủy nội địa",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f68ce-0321-7437-8286-841d2ee06632",
+    "proposalNumber": "1136/QĐ-BXD",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1785147284937,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE",
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

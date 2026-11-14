@@ -1,0 +1,221 @@
+{
+  "id": "01a19a4c-77d4-7411-ae76-38df1c7b8303",
+  "code": "5.004003",
+  "codeNotation": "5.004003",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Cơ quan lập quy hoạch chủ trì, phối hợp với các cơ quan, tổ chức liên quan, xây dựng nhiệm vụ lập quy hoạch, trình Hội đồng thẩm định;\nb) Cơ quan thường trực Hội đồng thẩm định có trách nhiệm tiếp nhận, nghiên cứu và xử lý hồ sơ, cung cấp hồ sơ trình thẩm định nhiệm vụ lập quy hoạch cho các thành viên của Hội đồng thẩm định nghiên cứu tham gia ý kiến;\nc) Phiên họp thẩm định nhiệm vụ lập quy hoạch được tiến hành khi có ít nhất ba phần tư (3/4) số thành viên Hội đồng thẩm định dự họp, trong đó có Chủ tịch Hội đồng thẩm định, đại diện cơ quan thường trực Hội đồng thẩm định và có mặt đại diện cơ quan lập quy hoạch;\nd) Cơ quan thường trực Hội đồng thẩm định lập biên bản cuộc họp Hội đồng thẩm định; yêu cầu cơ quan lập quy hoạch chỉnh sửa, bổ sung, hoàn thiện hoặc xây dựng lại nhiệm vụ lập quy hoạch theo kết luận của Hội đồng thẩm định; tổ chức thẩm định lại nhiệm vụ lập quy hoạch trong trường hợp nhiệm vụ lập quy hoạch không được thông qua; dự thảo Báo cáo thẩm định nhiệm vụ lập quy hoạch trình Chủ tịch Hội đồng thẩm định phê duyệt."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thẩm định nhiệm vụ lập quy hoạch không quá 45 ngày tính từ ngày cơ quan thường trực Hội đồng thẩm định nhận đủ hồ sơ trình thẩm định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thẩm định nhiệm vụ lập quy hoạch không quá 45 ngày tính từ ngày cơ quan thường trực Hội đồng thẩm định nhận đủ hồ sơ trình thẩm định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thẩm định nhiệm vụ lập quy hoạch không quá 45 ngày tính từ ngày cơ quan thường trực Hội đồng thẩm định nhận đủ hồ sơ trình thẩm định.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Lập, thẩm định nhiệm vụ lập quy hoạch",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Số lượng gửi hồ sơ trình thẩm định: đảm bảo đầy đủ số lượng để gửi xin ý kiến Hội đồng thẩm định, chuyên gia phản biện và tư vấn phản biện độc lập (trong trường hợp cần thiết).",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9032-39cbdc47c1b0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình về thẩm định nhiệm vụ lập quy hoạch",
+          "code": "G12.95.000021",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9032-568dec8dca01",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo Nghị quyết của Chính phủ đối với nhiệm vụ lập quy hoạch tổng thể quốc gia, quy hoạch không gian biển quốc gia, quy hoạch sử dụng đất quốc gia; dự thảo Quyết định của Thủ tướng Chính phủ đối với nhiệm vụ lập quy hoạch ngành quốc gia, quy hoạch vùng, quy hoạch tỉnh",
+          "code": "G12.000185",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9032-626da77469ad",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo thuyết minh nhiệm vụ lập quy hoạch đã chỉnh lý, hoàn thiện",
+          "code": "G12.000193",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9034-570f5392f101",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu khác (nếu có)",
+          "code": "G12.000194",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "* Đối tượng thực hiện thủ tục hành chính: Các thành viên Hội đồng thẩm định và Ủy viên phản biện tham gia ý kiến thẩm định \n* Cơ quan giải quyết thủ tục hành chính: Cơ quan trực tiếp thực hiện TTHC: Hội đồng thẩm định Nhiệm vụ lập quy hoạch\n* Cơ quan phối hợp thực hiện TTHC: Các Bộ, ngành, địa phương và các cơ quan liên quan khác",
+  "keywords": "",
+  "categoryIds": [
+    "019d2c08-77b9-731a-ae11-3c0ff1ccab76"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46d-397f9bc04d2c"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3d-7379-a673-380ebce47a14"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6ada-753f-9ac6-24e99622651c"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2c08-77b9-731a-ae11-3c0ff1ccab76",
+      "name": "Quy hoạch (Quản lý quy hoạch)",
+      "code": "G12.95"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6ada-753f-9ac6-24e99622651c",
+      "name": "Bộ, ngành và Ủy ban nhân dân tỉnh liên quan",
+      "code": "BQP-BNLQ"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46d-397f9bc04d2c",
+      "name": "Nghị định số 37/2019/NĐ-CP ngày 07/5/2019 của Chính phủ quy định chi tiết thi hành một số điều của Luật Quy hoạch.",
+      "code": "37/2019/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3d-7379-a673-380ebce47a14",
+      "name": "Báo cáo thẩm định nhiệm vụ lập quy hoạch.",
+      "code": "KQ.G05.000230"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910964,
+  "updatedAt": 1794448910964,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "Bộ, ngành và Ủy ban nhân dân tỉnh liên quan",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

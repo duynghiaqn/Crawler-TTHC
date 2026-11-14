@@ -1,0 +1,414 @@
+{
+  "id": "01a0dcc6-caff-709d-97a2-273f7a853448",
+  "code": "1.116919",
+  "codeNotation": "1.116919",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công.\nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ các giấy tờ là giấy phép xây dựng, quyết định phê duyệt dự án đầu tư, quyết định đầu tư, giấy phép đầu tư, giấy chứng nhận đầu tư, quyết định phê duyệt hoặc quyết định phê duyệt điều chỉnh quy hoạch xây dựng chi tiết, bản đồ điều chỉnh quy hoạch xây dựng chi tiết. \nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n-\tChuyển hồ sơ tới Cơ quan chuyên môn về nông nghiệp và môi trường cấp tỉnh.\nBước 3: Cơ quan chuyên môn về nông nghiệp và môi trường cấp tỉnh kiểm tra thực tế sử dụng đất của tổ chức, xác định ranh giới cụ thể của thửa đất theo quy định tại khoản 2 Điều 142 và khoản 2 Điều 145 Luật Đất đai và thực hiện các công việc sau:\n- Trình Ủy ban nhân dân cấp tỉnh quyết định hình thức sử dụng đất của tổ chức theo mẫu 32 ban hành kèm Quyết định số 64/2026/QĐ-UBND ngày 10/6/2026.\n- Xác định giá đất và gửi Phiếu chuyển thông tin để xác định nghĩa vị tài chính về đất đai theo Mẫu số 10 ban hành kèm theo Quyết định số 64/2026/QĐ-UBND ngày 10/6/2026 đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất.\n- Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính.\n- Chuyển Giấy chứng nhận đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp; lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 72,
+      "processingTimeUnit": "HOUR",
+      "description": "Không quá 09 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu;",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 96,
+      "processingTimeUnit": "HOUR",
+      "description": "không quá 12 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 152,
+      "processingTimeUnit": "HOUR",
+      "description": "Đối với các xã miền núi, xã có điều kiện kinh tế - xã hội khó khăn, xã có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 19 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 176,
+      "processingTimeUnit": "HOUR",
+      "description": "Đối với các xã miền núi, xã có điều kiện kinh tế - xã hội khó khăn, xã có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá  22 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Ninh Bình_Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với tổ chức đang sử dụng đất.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0dcbf-5862-70ec-9b39-b357030e1bb4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 15 ban hành kèm theo Quyết định số 64/2026/QĐ-UBND.",
+          "code": "H42.TPHS Mẫu 15",
+          "attachments": [
+            {
+              "id": "01a0dcbf-5159-707b-afb3-65f59ac023f9",
+              "fileName": "Mẫu số 15.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0dcbf-5159-707b-afb3-65f59ac023f9/Mẫu số 15.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0dcc1-8344-705a-b157-94f39aa1bd04",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kết quả rà soát hiện trạng sử dụng đất theo Mẫu số 15d ban hành kèm theo Quyết định số 64/2026/QĐ-UBND.",
+          "code": "H42.TPHS Mẫu 15d",
+          "attachments": [
+            {
+              "id": "01a0dcc1-7aca-7298-a918-d2e0d94b2e8b",
+              "fileName": "Mẫu số 15d.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0dcc1-7aca-7298-a918-d2e0d94b2e8b/Mẫu số 15d.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0dcc3-30f0-72f8-b937-58ed60d391fb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ thiết kế xây dựng công trình đã được cơ quan chuyên môn về xây dựng thẩm định hoặc đã có văn bản chấp thuận kết quả nghiệm thu hoàn thành hạng mục công trình, công trình xây dựng theo quy định của pháp luật về xây dựng đối với trường hợp chứng nhận quyền sở hữu công trình xây dựng trên đất nông nghiệp mà chủ sở hữu công trình không có một trong các loại giấy tờ quy định tại Điều 149 Luật Đất đai hoặc công trình được miễn giấy phép xây dựng theo quy định của pháp luật về xây dựng.",
+          "code": "H42.TPHS TT09",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+    "01a0cc3a-0d1d-71be-8a62-fccfeed7d018",
+    "019ff547-6a69-7038-a010-d5ec1e9fd252",
+    "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+    "01a0d26b-97c7-75ea-92ea-4a6239f0625b",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+    "019e8731-a144-730f-9660-6392ade03300",
+    "01a0dba1-ea9a-71ef-a48f-08f4dae5f901",
+    "01a0db75-1b06-76d8-811f-5fefff6a8d2b"
+  ],
+  "resultIds": [
+    "01a0dcc3-dd29-736a-a666-9fa5077d90a0",
+    "01a0dcc4-3a05-74cf-ba4b-752be6be5cbf"
+  ],
+  "subjectTypeIds": [
+    "019fa7b1-2cde-71fb-a141-17b47ab28898",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b15-916ec5acad21"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b15-828ae2e74c00"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b15-916ec5acad21",
+      "name": "Sở Nông nghiệp và Môi trường - tỉnh Ninh Bình",
+      "code": "H42.02"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+      "name": "UBND tỉnh Ninh Bình",
+      "code": "H42"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+      "name": "Luật Đất đai ngày 18/01/2024;",
+      "code": "31/2024/QH15"
+    },
+    {
+      "id": "01a0cc3a-0d1d-71be-8a62-fccfeed7d018",
+      "name": "Nghị định số 101/2024/NĐ-CP ngày 29/7/2024 ",
+      "code": "Nghị định số 101/2024/NĐ-CP ngày 29/7/2024 "
+    },
+    {
+      "id": "019ff547-6a69-7038-a010-d5ec1e9fd252",
+      "name": "Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "Nghị định 118/2025/NĐ-CP "
+    },
+    {
+      "id": "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "Nghị định số 151/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị định số 49/2026/NĐ-CP"
+    },
+    {
+      "id": "019e8731-a144-730f-9660-6392ade03300",
+      "name": "Quy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất",
+      "code": "Nghị định số 50/2026/NĐ-CP"
+    },
+    {
+      "id": "01a0d26b-97c7-75ea-92ea-4a6239f0625b",
+      "name": "sửa đổi, bổ sung một số điều của các nghị định quy định chi tiết thi hành Luật Đất đai.",
+      "code": "226/2025/NĐ-CP "
+    },
+    {
+      "id": "01a0dba1-ea9a-71ef-a48f-08f4dae5f901",
+      "name": "Quyết định số 43/2026/QĐ-UBND ngày 13/4/2026 của Ủy ban nhân dân tỉnh về việc Phân cấp một số nhiệm vụ trong lĩnh vực quản lý Nhà nước về đất đai trên địa bàn tỉnh Ninh Bình",
+      "code": "43/2026/QĐ-UBND "
+    },
+    {
+      "id": "01a0db75-1b06-76d8-811f-5fefff6a8d2b",
+      "name": "Quyết định số 64/2026/QĐ-UBND ngày 10/6/2026 của Ủy ban nhân dân tỉnh về việc quy định trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn tỉnh Ninh Bình.",
+      "code": "64/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0dcc4-3a05-74cf-ba4b-752be6be5cbf",
+      "name": "Giấy chứng nhận.",
+      "code": "H42.KQTT09.2"
+    },
+    {
+      "id": "01a0dcc3-dd29-736a-a666-9fa5077d90a0",
+      "name": "Quyết định hình thức sử dụng đất.",
+      "code": "H42.KQTT09.1"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019fa7b1-2cde-71fb-a141-17b47ab28898",
+      "name": "Ngân hàng Chính sách xã hội",
+      "code": "ĐT16"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+  "departmentPromulgateCode": "H42",
+  "departmentPromulgateName": "UBND tỉnh Ninh Bình",
+  "cases": [
+    {
+      "id": "01a10ad6-f3bf-773b-a3a2-f249a2680d29",
+      "name": "Ninh Bình_Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với tổ chức đang sử dụng đất",
+      "code": "1.116919.02",
+      "processingDay": {
+        "qty": 96,
+        "type": "HOUR"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a10ad6-f485-77da-9357-49d2c9adb086",
+      "name": "Ninh Bình_Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với tổ chức đang sử dụng đất.",
+      "code": "1.116919.04",
+      "processingDay": {
+        "qty": 176,
+        "type": "HOUR"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a10ad6-f39e-7586-9c47-d9a16ccfa38e",
+      "name": "Ninh Bình_Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với tổ chức đang sử dụng đất",
+      "code": "1.116919.01",
+      "processingDay": {
+        "qty": 72,
+        "type": "HOUR"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a10ad6-f427-764c-a311-94bfc8531aab",
+      "name": "Ninh Bình_Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với tổ chức đang sử dụng đất.",
+      "code": "1.116919.03",
+      "processingDay": {
+        "qty": 152,
+        "type": "HOUR"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1791104685398,
+  "updatedAt": 1791104685398,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Nông nghiệp và Môi trường - tỉnh Ninh Bình",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\nb) Nộp thông qua dịch vụ bưu chính. \nc) Nộp trực tuyến trên Cổng dịch vụ công (DVC trực tuyến một phần).",
+  "delegatedAgencies": "UBND tỉnh Ninh Bình",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0d78b-1233-731d-9947-6315325b6d46",
+    "proposalNumber": "3497/QĐ-UBND",
+    "decisionDate": 1790182800000,
+    "decisionNumber": null,
+    "publicationDate": 1791104682829,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+      "name": "UBND tỉnh Ninh Bình"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "01a0cd37-c5e0-764c-9693-b631d334bb72",
+  "code": "1.116997",
+  "codeNotation": "1.116997",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến một trong các cơ quan trên địa bàn tỉnh sau đây: Trung tâm phục vụ hành chính công cấp tỉnh hoặc Trung tâm phục vụ hành chính công cấp xã. \nBước 2: Cơ quan tiếp nhận hồ sơ có trách nhiệm:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Ủy ban nhân dân cấp xã nơi có đất.\nBước 3: Cơ quan có chức năng quản lý đất đai cấp xã thực hiện:\n- Thông báo cho Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai chuyển hồ sơ cấp Giấy chứng nhận lần đầu để kiểm tra, xem xét và trình Chủ tịch Ủy ban nhân dân cấp xã quyết định thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai.\n- Kiểm tra hồ sơ, xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 Luật Đất đai theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận.\n- Trình Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận.\n- Chuyển hồ sơ đã giải quyết đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai để thực hiện chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai; chuyển Giấy chứng nhận đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 45,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không\nquá 20 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu\nlà không quá 17 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm\nviệc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực\nhiện thu hồi Giấy chứng nhận đã cấp là không quá 35 ngày làm việc, thời gian\ncấp lại Giấy chứng nhận sau thu hồi là không quá 30 ngày làm việc.\nThời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 20 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 35 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 600000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 45,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không\nquá 20 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu\nlà không quá 17 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm\nviệc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực\nhiện thu hồi Giấy chứng nhận đã cấp là không quá 35 ngày làm việc, thời gian\ncấp lại Giấy chứng nhận sau thu hồi là không quá 30 ngày làm việc.\nThời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 20 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 35 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 600000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 45,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không\nquá 20 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu\nlà không quá 17 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm\nviệc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực\nhiện thu hồi Giấy chứng nhận đã cấp là không quá 35 ngày làm việc, thời gian\ncấp lại Giấy chứng nhận sau thu hồi là không quá 30 ngày làm việc.\nThời hạn giải quyết: \n- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 20 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 35 ngày làm việc, thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 30 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 400000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 600000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "(Hưng Yên) Thu hồi Giấy chứng nhận đã cấp lần đầu không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0a7dc-a4b5-77bf-b944-c3a5a5031ae4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản kiến nghị việc cấp Giấy chứng nhận không đúng quy định của pháp luật đất đai (bản chính)",
+          "code": "H31_Văn bản kiến nghị việc cấp Giấy chứng nhận không đúng quy định của pháp luật đất đai",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0a7dd-598e-76a8-9ed9-cb4a0223bcc9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp (bản gốc)",
+          "code": "H31_Giấy chứng nhận bản gốc",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Thu hồi Giấy chứng nhận đã cấp lần đầu",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019da523-7834-71ed-9461-2ac0a510544b",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ed4db-2c5b-775d-871e-85a6c8c26ba8",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "01a08acb-9210-77a8-bba4-ff7a356ea457"
+  ],
+  "resultIds": [
+    "01a08ab9-d163-7068-90e3-a185ee5d2608",
+    "01a0d12d-69d0-7302-9f54-755f1ff9d0e7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [
+    "019e4d63-7e81-76ee-98fb-0fa853b79176"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019e4d63-7e81-76ee-98fb-0fa853b79176",
+      "name": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+      "code": "CQCM-NNMT-CAPXA"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019da523-7834-71ed-9461-2ac0a510544b",
+      "name": "sửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia",
+      "code": "367/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "01a08acb-9210-77a8-bba4-ff7a356ea457",
+      "name": "Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên quy định trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Hưng Yên",
+      "code": "Quyết định số 31/2026/QĐ-UBND"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "019ed4db-2c5b-775d-871e-85a6c8c26ba8",
+      "name": "quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a08ab9-d163-7068-90e3-a185ee5d2608",
+      "name": "Giấy chứng nhận",
+      "code": "KQ.H31.360002"
+    },
+    {
+      "id": "01a0d12d-69d0-7302-9f54-755f1ff9d0e7",
+      "name": "Quyết định thu hồi Giấy chứng nhận đã cấp sai quy định của pháp luật",
+      "code": "KQ.H31.360018"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+  "departmentPromulgateCode": "H31",
+  "departmentPromulgateName": "UBND tỉnh Hưng Yên",
+  "cases": [
+    {
+      "id": "01a13e90-904c-731d-b93b-c68ac7a61882",
+      "name": "Thu hồi Giấy chứng nhận đã cấp lần đầu không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi",
+      "code": "1.116997.01",
+      "processingDay": {
+        "qty": 25,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1791345033167,
+  "updatedAt": 1791879085442,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm phục vụ hành chính công cấp tỉnh hoặc\nTrung tâm phục vụ hành chính công cấp xã.\nb) Nộp thông qua dịch vụ bưu chính.\nc) Nộp trực tuyến trên Cổng dịch vụ công Quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a08990-d632-7481-a424-06edb38b5ad1",
+    "proposalNumber": "2617/QĐ-UBND",
+    "decisionDate": 1787158800000,
+    "decisionNumber": null,
+    "publicationDate": 1791345030135,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+      "name": "UBND tỉnh Hưng Yên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

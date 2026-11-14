@@ -1,0 +1,278 @@
+{
+  "id": "019d2bfd-ad54-74e9-89a1-0fce174d588d",
+  "code": "1.000836",
+  "codeNotation": "1.000836",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Doanh nghiệp được ủy quyền làm đại lý cung cấp kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền tại Việt Nam nộp 01 bộ hồ sơ theo quy định tại điểm b khoản 1 Điều 12 Nghị định số 242/2026/NĐ-CP về Bộ VHTTDL (Cục Phát thanh, truyền hình và thông tin điện tử).\n- Trong thời hạn 05 ngày làm việc, Cục Phát thanh, truyền hình và thông tin điện tử có trách nhiệm kiểm tra tính hợp lệ của hồ sơ, thực hiện tiếp nhận hoặc yêu cầu chỉnh sửa, bổ sung hồ sơ;\n- Trong thời hạn 10 ngày làm việc, kể từ ngày tiếp nhận hồ sơ hợp lệ, Cục Phát thanh, truyền hình và thông tin điện tử cấp giấy chứng nhận sửa đổi, bổ sung Giấy chứng nhận đăng ký cung cấp kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền. \nTrường hợp không cấp sửa đổi, bổ sung giấy chứng nhận, Cục Phát thanh, truyền hình và thông tin điện tử có văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 1750000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 1750000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 1750000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định.",
+  "name": "Thủ tục sửa đổi, bổ sung Giấy chứng nhận đăng ký cung cấp kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7180-744f-b64d-5d777959b8e8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị sửa đổi, bổ sung giấy chứng nhận đăng ký cung cấp kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền nêu rõ lý do và thuyết minh chi tiết những nội dung đề nghị thay đổi.",
+          "code": "000.00.00.G14-KQ001933",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7180-744f-b64d-58433c840615",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp có thay đổi về thời gian, thời lượng phát sóng, tỷ lệ thời lượng các nhóm chuyên mục của kênh chương trình, phải có thêm khung chương trình phát sóng trong 01 tháng và có thời gian phát sóng không quá 03 tháng tính đến thời điểm nộp hồ sơ, kèm theo bản dịch tiếng Việt có chứng thực đối với trường hợp văn bản được soạn bằng tiếng nước ngoài.",
+          "code": "000.00.00.G14-KQ001932",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7180-744f-b64d-55e1f692471d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản xác nhận của hãng phát thanh, truyền hình nước ngoài về những nội dung thay đổi, kèm theo bản dịch tiếng Việt có chứng thực đối với trường hợp văn bản được soạn bằng tiếng nước ngoài.",
+          "code": "000.00.00.G14-KQ001931",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f8253-f4cc-707e-96f1-91d5e093f358",
+    "019d2bb3-5d7d-7398-be50-3b445e5f88ab"
+  ],
+  "resultIds": [
+    "019d2bb2-1c75-741b-9abe-ec271d4719b7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-98005c923f40"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66d-0e988ad98b55"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+      "name": "Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14-TT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-22d5d4d67d2e",
+    "name": "Phát thanh, truyền hình và thông tin điện tử",
+    "code": "G14-TT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-98005c923f40",
+      "name": "Cục Phát thanh, truyền hình và thông tin điện tử",
+      "code": "G14.21"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch",
+      "code": "G16"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be50-3b445e5f88ab",
+      "name": "Thông tư số 153/2025/TT-BTC ngày 31 tháng 12 năm 2025 của Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp một số khoản phí, lệ phí thuộc lĩnh vực văn hóa, thể thao, du lịch.",
+      "code": "Thông tư số 153/2025/TT-BTC"
+    },
+    {
+      "id": "019f8253-f4cc-707e-96f1-91d5e093f358",
+      "name": "Nghị định quy định chi tiết và biện pháp thi hành Luật Báo chí về quản lý hoạt động, phát thanh, truyền hình và dịch vụ phát thanh, truyền hình.",
+      "code": "242/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c75-741b-9abe-ec271d4719b7",
+      "name": "Giấy chứng nhận đăng ký cung cấp kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền",
+      "code": "KQ.G14.000136"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "019d2daf-148f-75c8-af44-6dadd21929a3",
+      "name": "Thủ tục sửa đổi, bổ sung Giấy chứng nhận đăng ký cung cấp kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền",
+      "code": "1.000836.01",
+      "processingDay": {
+        "qty": 16,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f82a6-a6fc-765e-8d95-749600435ddb",
+      "name": "Thủ tục sửa đổi, bổ sung Giấy chứng nhận đăng ký cung cấp kênh chương trình nước ngoài trên dịch vụ phát thanh, truyền hình trả tiền",
+      "code": "1.000836.01",
+      "processingDay": {
+        "qty": 16,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559538516,
+  "updatedAt": 1784603387224,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Phát thanh, truyền hình và thông tin điện tử",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Văn hóa, Thể thao và Du lịch",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f7ede-a60b-708c-ba95-bcdc7a7b762d",
+    "proposalNumber": "1759/QĐ-BVHTTDL",
+    "decisionDate": 1784221200000,
+    "decisionNumber": null,
+    "publicationDate": 1784603387078,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "01a18697-211f-708a-8b4f-87f645c70ed6",
+  "code": "6.006834",
+  "codeNotation": "6.006834",
+  "executionSteps": [
+    {
+      "name": "Trường hợp thu hồi tài sản công theo quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công",
+      "description": "Bước 1: Cơ quan có chức năng thanh tra, kiểm tra, kiểm toán, xử phạt vi phạm hành chính và các cơ quan quản lý nhà nước khác khi phát hiện tài sản công thuộc các trường hợp quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công có văn bản kiến nghị và chuyển hồ sơ (nếu có) đến cơ quan, người có thẩm quyền thu hồi tài sản để xem xét, quyết định thu hồi theo quy định của pháp luật.\nBước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được kiến nghị và hồ sơ (nếu có), cơ quan, người có thẩm quyền thu hồi tài sản có trách nhiệm kiểm tra, xác minh việc quản lý, sử dụng tài sản công theo kiến nghị.\nBước 3: Trong thời hạn 30 ngày, kể từ ngày hoàn thành việc kiểm tra, xác minh, cơ quan, người có thẩm quyền ra quyết định thu hồi tài sản nếu tài sản thuộc trường hợp phải thu hồi theo quy định. Trường hợp qua kiểm tra, xác minh, tài sản không thuộc trường hợp phải thu hồi theo quy định của pháp luật, cơ quan, người có thẩm quyền thu hồi tài sản có văn bản thông báo đến cơ quan đã kiến nghị được biết."
+    },
+    {
+      "name": "Trường hợp thu hồi tài sản công theo quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công",
+      "description": "Bước 1: Cơ quan có chức năng thanh tra, kiểm tra, kiểm toán, xử phạt vi phạm hành chính và các cơ quan quản lý nhà nước khác khi phát hiện tài sản công thuộc các trường hợp quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công có văn bản kiến nghị và chuyển hồ sơ (nếu có) đến cơ quan, người có thẩm quyền thu hồi tài sản để xem xét, quyết định thu hồi theo quy định của pháp luật.\nBước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được kiến nghị và hồ sơ (nếu có), cơ quan, người có thẩm quyền thu hồi tài sản có trách nhiệm kiểm tra, xác minh việc quản lý, sử dụng tài sản công theo kiến nghị.\nBước 3: Trong thời hạn 30 ngày, kể từ ngày hoàn thành việc kiểm tra, xác minh, cơ quan, người có thẩm quyền ra quyết định thu hồi tài sản nếu tài sản thuộc trường hợp phải thu hồi theo quy định. Trường hợp qua kiểm tra, xác minh, tài sản không thuộc trường hợp phải thu hồi theo quy định của pháp luật, cơ quan, người có thẩm quyền thu hồi tài sản có văn bản thông báo đến cơ quan đã kiến nghị được biết."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Không quá 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.\nPhí, lệ phí (nếu có): Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Không quá 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.\nPhí, lệ phí (nếu có): Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Không có.",
+  "name": "Quyết định thu hồi tài sản công trong trường hợp cơ quan nhà nước được giao quản lý, sử dụng tài sản công tự nguyện trả lại cho Nhà nước và trường hợp theo quy định tại các điểm a,b,c,d,đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Trường hợp thu hồi tài sản công theo quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18699-127b-71ac-9eb6-1bc042b9a09d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị trả lại tài sản của cơ quan, tổ chức, đơn vị được giao quản lý, sử dụng tài sản",
+          "code": "G12.06.0015",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-8829-8d5a7fd5f116",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của cơ quan quản lý cấp trên (nếu có): 01 bản chính;",
+          "code": "G12.06.0016",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-8829-9285062b4e30",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Danh mục tài sản đề nghị trả lại cho Nhà nước (chủng loại, số lượng; tình trạng; nguyên giá, giá trị còn lại theo sổ kế toán): 01 bản chính;",
+          "code": "G12.06.0017",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-8829-959ccd05bb70",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Các hồ sơ khác có liên quan đến đề nghị trả lại tài sản (nếu có): 01 bản sao",
+          "code": "G12.06.0018",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp thu hồi tài sản công theo quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-8829-9fbbaf19c0e7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Văn bản kiến nghị thu hồi tài sản của cơ quan có chức năng thanh tra, kiểm tra, kiểm toán, xử phạt vi phạm hành chính và các cơ quan quản lý nhà nước khác: 01 bản chính;",
+          "code": "G12.06.0019",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-8829-a102675eac4e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Các hồ sơ có liên quan đến tài sản kiến nghị thu hồi (nếu có): 01 bản sao.",
+          "code": "G12.06.0020",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "- Trường hợp thu hồi tài sản công theo quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công: Đối tượng thực hiện thủ tục hành chính: Cơ quan, tổ chức, đơn vị không còn nhu cầu sử dụng tài sản công được giao.\nTrường hợp thu hồi tài sản công theo quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công: Đối tượng thực hiện thủ tục hành chính: Cơ quan có chức năng thanh tra, kiểm tra, kiểm toán, xử phạt vi phạm hành chính và các cơ quan quản lý nhà nước khác phát hiện tài sản công thuộc các trường hợp quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công.\n- Trường hợp thu hồi tài sản công theo quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công: Đối tượng thực hiện thủ tục hành chính: Cơ quan có chức năng thanh tra, kiểm tra, kiểm toán, xử phạt vi phạm hành chính và các cơ quan quản lý nhà nước khác phát hiện tài sản công thuộc các trường hợp quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công.\n- Trường hợp thu hồi tài sản công theo quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 41 của Luật Quản lý, sử dụng tài sản công\nCơ quan giải quyết thủ tục hành chính:\n- Bộ trưởng, Thủ trưởng cơ quan trung ương; cơ quan được phân cấp thẩm quyền quyết định thu hồi đối với tài sản công của cơ quan nhà nước thuộc phạm vi quản lý của bộ, cơ quan trung ương.\n- Ủy ban nhân dân cấp tỉnh quyết định thu hồi trụ sở làm việc của cơ quan nhà nước thuộc trung ương quản lý trên địa bàn. \n- Hội đồng nhân dân cấp tỉnh; cơ quan được phân cấp thẩm quyền quyết định thu hồi tài sản công của cơ quan nhà nước thuộc phạm vi quản lý của địa phương.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b475-420326abbc1e"
+  ],
+  "resultIds": [
+    "019d2bb2-1c86-718e-b08b-63d591da66e5",
+    "01a186ab-40d2-703b-a4cc-36b35031c7ac"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6771-31da-7758-9a23-1c3f7317813c",
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6771-31da-7758-9a23-1c3f7317813c",
+      "name": "Bộ trưởng hoặc cấp tương đương"
+    },
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b475-420326abbc1e",
+      "name": "NGHỊ ĐỊNH  QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG",
+      "code": "Số: 151/2017/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a186ab-40d2-703b-a4cc-36b35031c7ac",
+      "name": "Quyết định thu hồi tài sản hoặc văn bản thông báo tài sản không thuộc trường hợp phải thu hồi theo quy định của pháp luật.",
+      "code": "KQ.G12.001375"
+    },
+    {
+      "id": "019d2bb2-1c86-718e-b08b-63d591da66e5",
+      "name": "Quyết định thu hồi tài sản hoặc văn bản hồi đáp trong trường hợp đề nghị trả lại tài sản không phù hợp.",
+      "code": "KQ.G12.001429"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910968,
+  "updatedAt": 1794448910968,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trường hợp cơ quan nhà nước được giao quản lý, sử dụng tài sản công tự nguyện trả lại cho Nhà nước: Cơ quan giải quyết thủ tục hành chính: \n- Bộ trưởng, Thủ trưởng cơ quan trung ương; cơ quan được phân cấp thẩm quyền quyết định thu hồi đối với tài sản công của cơ quan nhà nước thuộc phạm vi quản lý của bộ, cơ quan trung ương. \n- Ủy ban nhân dân cấp tỉnh quyết định thu hồi trụ sở làm việc của cơ quan nhà nước thuộc trung ương quản lý trên địa bàn. \n- Hội đồng nhân dân cấp tỉnh; cơ quan được phân cấp thẩm quyền quyết định thu hồi tài sản công của cơ quan nhà nước thuộc phạm vi quản lý của địa phương.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không có.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

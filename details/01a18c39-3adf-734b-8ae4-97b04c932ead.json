@@ -1,0 +1,280 @@
+{
+  "id": "01a18c39-3adf-734b-8ae4-97b04c932ead",
+  "code": "5.003997",
+  "codeNotation": "5.003997",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Trình tự, thủ tục quyết định quy hoạch tổng thể quốc gia, quy hoạch không gian biển quốc gia, quy hoạch sử dụng đất quốc gia\n- Chậm nhất là 60 ngày trước ngày khai mạc kỳ họp Quốc hội, Chính phủ gửi hồ sơ trình quyết định quy hoạch đến cơ quan của Quốc hội để thẩm tra.\n- Cơ quan thẩm tra có quyền yêu cầu Chính phủ và cơ quan, tổ chức, cá nhân có liên quan báo cáo về những vấn đề thuộc nội dung quy hoạch. Cơ quan, tổ chức, cá nhân được yêu cầu có trách nhiệm cung cấp đầy đủ thông tin, tài liệu phục vụ cho việc thẩm tra.\n- Nội dung thẩm tra tập trung vào các vấn đề sau đây:\n+ Sự phù hợp của nội dung quy hoạch với chủ trương, đường lối của Đảng; tính hợp hiến, hợp pháp; tính thống nhất trong hệ thống quy hoạch; tính tương thích với điều ước quốc tế có liên quan mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;\n+  Sự phù hợp của quy hoạch với quy định tại Mục 2 Chương II của Luật Quy hoạch;\n+ Tính khả thi của quy hoạch và điều kiện bảo đảm về nguồn nhân lực, tài chính để thực hiện quy hoạch.\n- Quốc hội xem xét, thông qua nghị quyết về quy hoạch tổng thể quốc gia, quy hoạch không gian biển quốc gia, quy hoạch sử dụng đất quốc gia."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Quyết định hoặc phê duyệt Quy hoạch",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ trình quyết định hoặc phê duyệt quy hoạch bao gồm các tài liệu chủ yếu sau đây:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18c34-fad3-7549-9323-0a40810b9214",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình quyết định hoặc phê duyệt quy hoạch",
+          "code": "G12.95.000004",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-903b-2dc63dcec593",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo quy hoạch",
+          "code": "G12.000195",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9032-f794effb3da3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo văn bản quyết định hoặc phê duyệt quy hoạch",
+          "code": "G12.95.000006",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9032-f8f698a625bc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo tổng hợp ý kiến góp ý của các cơ quan, tổ chức, cộng đồng, cá nhân về quy hoạch; bản sao ý kiến góp ý của Bộ, cơ quan ngang Bộ và địa phương liên quan; báo cáo giải trình, tiếp thu ý kiến góp ý về quy hoạch;",
+          "code": "G12.95.000007",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c37-8130-766b-bed5-2fc0c058d3ae",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo đánh giá môi trường chiến lược",
+          "code": "G12.000196",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9033-01e4fd976dad",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo thẩm định quy hoạch; bản sao ý kiến của chuyên gia, tổ chức xã hội - nghề nghiệp và tổ chức khác có liên quan; báo cáo phản biện của tư vấn phản biện độc lập (nếu có);",
+          "code": "G12.95.000009",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c38-7917-71ad-9eb5-39f51900b323",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo giải trình, tiếp thu ý kiến thẩm định",
+          "code": "G12.95.000010",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9033-0989e8e0130e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hệ thống sơ đồ, bản đồ, cơ sở dữ liệu về quy hoạch",
+          "code": "G12.95.000011",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2c08-77b9-731a-ae11-3c0ff1ccab76"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46d-397f9bc04d2c",
+    "019d2bb3-5d7f-719e-b46f-3953218b7ee4",
+    "019d2bb3-5d84-71c5-b673-97f79082d98a",
+    "01a18c23-4207-73e9-a70e-af351a26f4f6"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3d-7379-a673-4352dd4bda0e"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2c08-77b9-731a-ae11-3c0ff1ccab76",
+      "name": "Quy hoạch (Quản lý quy hoạch)",
+      "code": "G12.95"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86",
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    },
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46d-397f9bc04d2c",
+      "name": "Nghị định số 37/2019/NĐ-CP ngày 07/5/2019 của Chính phủ quy định chi tiết thi hành một số điều của Luật Quy hoạch.",
+      "code": "37/2019/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46f-3953218b7ee4",
+      "name": "Nghị định 58/2023/NĐ-CP sửa đổi Nghị định 37/2019/NĐ-CP hướng dẫn Luật Quy hoạch",
+      "code": "58/2023/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-97f79082d98a",
+      "name": "Luật số 57/2024/QH15 ngày 29/11/2024",
+      "code": "57/2024/QH15"
+    },
+    {
+      "id": "01a18c23-4207-73e9-a70e-af351a26f4f6",
+      "name": "Nghị định số 22/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 37/2019/NĐ-CP ngày 07 tháng 5 năm 2019 của Chính phủ quy định chi tiêt thi hành một số điều của Luật Quy hoạch đã được sửa đổi, bổ sung một số điều theo Nghị định số 58/2023/NĐ-CP ngày 12 tháng 8 năm 2023 của Chính phủ",
+      "code": "22/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3d-7379-a673-4352dd4bda0e",
+      "name": "Văn bản quyết định hoặc phê duyệt quy hoạch",
+      "code": "KQ.G12.001334"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910951,
+  "updatedAt": 1794448910951,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Các Bộ, ngành, địa phương",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "01a11445-eb47-7234-bae3-f5d7bce14d7d",
+  "code": "1.117004",
+  "codeNotation": "1.117004",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Hộ gia đình, tổ chức, cá nhân có đề nghị Quỹ giảm thiểu thiệt hại tai nạn giao thông đường bộ (sau đây gọi chung là Quỹ) chi hỗ trợ.\n- Bước 2: Kê khai, nộp đơn, hồ sơ đề nghị chi hỗ trợ từ Quỹ\nHộ gia đình, tổ chức, cá nhân có đề nghị thực hiện kê khai và nộp đơn, hồ sơ đến cơ quan đầu mối  bằng một trong các hình thức: trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính:\n+ Trường hợp kê khai và nộp đơn, hồ sơ trực tuyến thì thông qua Cổng Dịch vụ công quốc gia hoặc Ứng dụng định danh quốc gia (VneID);\n+ Trường hợp kê khai và nộp đơn, hồ sơ trực tiếp hoặc qua dịch vụ bưu chính thì gửi đến Cơ quan đầu mối có thẩm quyền.\n- Bước 3: Tiếp nhận, kiểm tra đánh giá đơn, hồ sơ đề nghị chi hỗ trợ từ Quỹ\nCơ quan đầu mối có trách nhiệm tiếp nhận đơn, hồ sơ đề nghị chi từ Quỹ và kiểm tra, đánh giá tính hợp lệ của đơn, hồ sơ; trường hợp đơn, hồ sơ chưa đầy đủ, hợp lệ theo quy định thì Cơ quan đầu mối thông báo bằng văn bản cho hộ gia đình, tổ chức, cá nhân để bổ sung, hoàn thiện. Hộ gia đình, tổ chức, cá nhân hoàn thiện, bổ sung và gửi đơn, hồ sơ về Cơ quan đầu mối."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 02 ngày làm việc kể từ ngày nhận được đơn, hồ sơ gửi đến, Cơ quan đầu mối kiểm tra tính hợp lệ của đơn, hồ sơ; trường hợp đơn, hồ sơ chưa đầy đủ, hợp lệ theo quy định, Cơ quan đầu mối thông báo bằng văn bản cho hộ gia đình, tổ chức, cá nhân để bổ sung, hoàn thiện. Hộ gia đình, tổ chức, cá nhân hoàn thiện, bổ sung và gửi đơn, hồ sơ về Cơ quan đầu mối.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 02 ngày làm việc kể từ ngày nhận được đơn, hồ sơ gửi đến, Cơ quan đầu mối kiểm tra tính hợp lệ của đơn, hồ sơ; trường hợp đơn, hồ sơ chưa đầy đủ, hợp lệ theo quy định, Cơ quan đầu mối thông báo bằng văn bản cho hộ gia đình, tổ chức, cá nhân để bổ sung, hoàn thiện. Hộ gia đình, tổ chức, cá nhân hoàn thiện, bổ sung và gửi đơn, hồ sơ về Cơ quan đầu mối.",
+      "fees": []
+    }
+  ],
+  "description": "- Hộ gia đình, tổ chức, cá nhân thuộc một trong các trường hợp quy định tại Điều 11 Nghị định số 279/2025/NĐ-CP;\n- Nạn nhân trong vụ tai nạn giao thông đường bộ được cơ quan có thẩm quyền lập hồ sơ thụ lý, điều tra, giải quyết theo quy định của pháp luật;\n- Người không gây ra nguyên nhân trực tiếp dẫn đến vụ tai nạn giao thông đường bộ;\n- Nạn nhân không phải là người điều khiển phương tiện tham gia giao thông đường bộ mà: trong máu hoặc hơi thở có nồng độ cồn; trong cơ thể có chất ma túy hoặc các chất kích thích khác mà pháp luật cấm sử dụng; phương tiện không đủ điều kiện tham gia giao thông đường bộ theo quy định của pháp luật;\n- Tổ chức, cá nhân không có chức năng cung cấp dịch vụ cấp cứu, hỗ trợ vận chuyển người bệnh; cơ sở khám bệnh, chữa bệnh trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu mà không thu giá dịch vụ cấp cứu, vận chuyển;\n- Cá nhân không phải đang thực hiện nhiệm vụ bảo đảm an ninh, trật tự, trật tự an toàn giao thông đường bộ trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu.",
+  "name": "Đề nghị chi hỗ trợ từ Quỹ giảm thiểu thiệt hại tai nạn giao thông đường bộ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a11440-acf2-708e-bde7-03b38d934c68",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với hộ gia đình có nạn nhân bị chết, nạn nhân bị thương trong vụ tai nạn giao thông đường bộ với tỷ lệ tổn thương cơ thể trên 31% đến dưới 81% đang gặp khó khăn về kinh tế hoặc nạn nhân bị thương trong vụ tai nạn giao thông đường bộ với tỷ lệ tổn thương cơ thể trên 81% thì kê khai đơn đề nghị chi hỗ trợ từ Quỹ gửi đến Cơ quan đầu mối",
+          "code": "000.00.00.G01-KQ00560",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a11442-0e25-738f-9e91-cca699e39a13",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với tổ chức, cá nhân trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu thì thành phần hồ sơ gồm: đơn đề nghị chi hỗ trợ từ Quỹ và các tài liệu, hình ảnh phản ánh tổ chức, cá nhân trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu",
+          "code": "000.00.00.G01-KQ00561",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a11442-8e67-70fc-a175-e5d649c799c5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với tổ chức, cá nhân trực tiếp tham gia các hoạt động tuyên truyền làm giảm thiểu thiệt hại tai nạn giao thông đường bộ mà không được Nhà nước bảo đảm kinh phí thì thành phần hồ sơ gồm: đơn đề nghị chi hỗ trợ từ Quỹ và sản phẩm, tài liệu chứa thông tin, hình ảnh của hoạt động tuyên truyền, tài liệu chứa thông tin, hình ảnh thể hiện quy mô của hoạt động tuyên truyền; tài liệu chứng minh tổ chức thành lập hợp pháp; tài liệu khác (nếu có)",
+          "code": "00.00.00.G01-KQ00562",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-1f63f9beee1a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a11443-7d5d-727a-be31-2ccf0c356cdf",
+    "01a11444-1588-774b-9bdc-b625d33d1a48"
+  ],
+  "resultIds": [
+    "01a1143f-7e14-7045-8cdc-5d51e0ad6e16"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d04-bd273f0ab4f4",
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a80-747a-9d04-bd273f0ab4f4",
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-1f63f9beee1a",
+      "name": "Bảo đảm trật tự, an toàn giao thông đường bộ",
+      "code": "G01-CA32"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-1f63f9beee1a",
+    "name": "Bảo đảm trật tự, an toàn giao thông đường bộ",
+    "code": "G01-CA32"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    },
+    {
+      "id": "019d2be3-6a80-747a-9d04-bd273f0ab4f4",
+      "name": "Cục Cảnh sát giao thông",
+      "code": "G01.308.000"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    },
+    {
+      "id": "019d2be3-6a80-747a-9d04-bd273f0ab4f4",
+      "name": "Cục Cảnh sát giao thông",
+      "code": "G01.308.000"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a11443-7d5d-727a-be31-2ccf0c356cdf",
+      "name": "Nghị định số 279/2025/NĐ-CP ngày 23/10/2025 của Chính phủ quy định về thành lập, nguồn tài chính hình thành, quản lý, hoạt động chi, sử dụng Quỹ giảm thiểu thiệt hại tai nạn giao thông đường bộ",
+      "code": "279/2025/NĐ-CP "
+    },
+    {
+      "id": "01a11444-1588-774b-9bdc-b625d33d1a48",
+      "name": "Thông tư số 126/2026/TT-BCA ngày 30/6/2026 của Bộ trưởng Bộ Công an quy định trình tự, thủ tục thực hiện nội dung chi từ Quỹ giảm thiểu thiệt hại tai nạn giao thông đường bộ",
+      "code": "126/2026/TT-BCA "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1143f-7e14-7045-8cdc-5d51e0ad6e16",
+      "name": "Đơn, hồ sơ đề nghị chi hỗ trợ từ Quỹ của hộ gia đình, tổ chức, cá nhân có đề nghị Quỹ chi hỗ trợ",
+      "code": "KQ.G01.000450"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791344065890,
+  "updatedAt": 1791344065890,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Công an cấp Tỉnh, Cục Cảnh sát giao thông",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Công an cấp Tỉnh, Cục Cảnh sát giao thông",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Hộ gia đình, tổ chức, cá nhân thuộc một trong các trường hợp quy định tại Điều 11 Nghị định số 279/2025/NĐ-CP;\n- Nạn nhân trong vụ tai nạn giao thông đường bộ được cơ quan có thẩm quyền lập hồ sơ thụ lý, điều tra, giải quyết theo quy định của pháp luật;\n- Người không gây ra nguyên nhân trực tiếp dẫn đến vụ tai nạn giao thông đường bộ;\n- Nạn nhân không phải là người điều khiển phương tiện tham gia giao thông đường bộ mà: trong máu hoặc hơi thở có nồng độ cồn; trong cơ thể có chất ma túy hoặc các chất kích thích khác mà pháp luật cấm sử dụng; phương tiện không đủ điều kiện tham gia giao thông đường bộ theo quy định của pháp luật;\n- Tổ chức, cá nhân không có chức năng cung cấp dịch vụ cấp cứu, hỗ trợ vận chuyển người bệnh; cơ sở khám bệnh, chữa bệnh trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu mà không thu giá dịch vụ cấp cứu, vận chuyển;\n- Cá nhân không phải đang thực hiện nhiệm vụ bảo đảm an ninh, trật tự, trật tự an toàn giao thông đường bộ trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0e5d6-2d3d-70cf-a2c3-c7d08e56d16d",
+    "proposalNumber": "5395/QĐ-BCA",
+    "decisionDate": 1787504400000,
+    "decisionNumber": null,
+    "publicationDate": 1791344065778,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

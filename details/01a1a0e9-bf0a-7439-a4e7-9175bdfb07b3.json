@@ -1,0 +1,218 @@
+{
+  "id": "01a1a0e9-bf0a-7439-a4e7-9175bdfb07b3",
+  "code": "5.004016",
+  "codeNotation": "5.004016",
+  "executionSteps": [
+    {
+      "name": "- Đối với Quyết định chủ trương thực hiện:",
+      "description": "Bước 1: Cơ quan chủ quản có văn bản gửi Bộ Tài chính về những thay đổi so với nội dung của Quyết định chủ trương thực hiện được quy định tại khoản 4 Điều 25 của Nghị định số 114/2021/NĐ-CP kèm theo Văn kiện dự án, phi dự án điều chỉnh;\nBước 2: Bộ Tài chính chủ trì, lấy ý kiến các cơ quan có liên quan về các nội dung thay đổi có liên quan, trao đổi với nhà tài trợ nước ngoài về thay đổi quy mô vốn ODA không hoàn lại (nếu có), tổng hợp, trình Thủ tướng Chính phủ;\nBước 3: Thủ tướng Chính phủ xem xét, quyết định điều chỉnh chủ trương thực hiện dự án, phi dự án."
+    },
+    {
+      "name": "- Đối với Quyết định phê duyệt Văn kiện dự án, phi dự án:",
+      "description": "Bước 1: Cơ quan chủ quản có văn bản gửi Bộ Tài chính, Bộ Tài chính và các cơ quan có liên quan về những thay đổi so với nội dung Quyết định phê duyệt Văn kiện dự án, phi dự án kèm theo Văn kiện dự án, phi dự án điều chỉnh;\nBước 2: Trên cơ sở ý kiến của Bộ Tài chính, Bộ Tài chính và các cơ quan có liên quan, người đứng đầu cơ quan chủ quản quyết định phê duyệt điều chỉnh Văn kiện dự án, phi dự án;\nBước 3: Trường hợp dự án, phi dự án có quy mô vốn ODA không hoàn lại từ 200.000 đô la Mỹ trở xuống, người đứng đầu cơ quan chủ quản điều chỉnh Quyết định phê duyệt Văn kiện dự án, phi dự án và không bắt buộc phải lấy ý kiến của các cơ quan liên quan."
+    },
+    {
+      "name": "- Trường hợp nội dung Văn kiện dự án, phi dự án thay đổi dẫn đến vượt thẩm quyền:",
+      "description": "Trường hợp nội dung Văn kiện dự án, phi dự án thay đổi dẫn đến vượt thẩm quyền phê duyệt quy định tại Điều 23 của Nghị định số 114/2021/NĐ-CP, cơ quan chủ quản thực hiện trình tự, thủ tục quyết định chủ trương thực hiện quy định tại Điều 25 của Nghị định 114/2021/NĐ-CP"
+    },
+    {
+      "name": "- Đối với dự án, phi dự án quy định tại khoản 1 Điều 23 của Nghị định 114/2021/NĐ-CP:",
+      "description": "Người đứng đầu cơ quan chủ quản căn cứ Quyết định điều chỉnh chủ trương thực hiện theo quy định tại khoản 1 Điều 27 Nghị định số 114/2021/NĐ-CP để quyết định phê duyệt điều chỉnh Văn kiện dự án, phi dự án và không phải lấy ý kiến các cơ quan liên quan."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thẩm định Văn kiện dự án, phi dự án là không quá 20 ngày kể từ khi nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thẩm định Văn kiện dự án, phi dự án là không quá 20 ngày kể từ khi nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Điều chỉnh Quyết định chủ trương thực hiện và Quyết định phê duyệt Văn kiện dự án hỗ trợ kỹ thuật, phi dự án",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Số lượng hồ sơ: 01 bộ gốc",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd74-7694b11a8c9d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản gửi Bộ Tài chính",
+          "code": "G12.000055",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-902f-b3fa138402e9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn kiện dự án, phi dự án điều chỉnh",
+          "code": "G12.000056",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-438829520d92"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4a-f99048232a3f",
+    "019d2bb3-5d7e-72d1-afe9-0fbdece3a4c4"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afeb-a2d8c0b53db1"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b670-e23c2fe80f32",
+    "019d2be3-6adc-74f3-b278-643adb1cb677"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-438829520d92",
+      "name": "Đầu tư bằng vốn hỗ trợ phát triển chính thức (ODA) và viện trợ không hoàn lại không thuộc hỗ trợ phát triển chính thức",
+      "code": "G12.03.KTĐN"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    },
+    {
+      "id": "019d2be3-6adc-74f3-b278-643adb1cb677",
+      "name": "Cơ quan chủ quản",
+      "code": "CQCQ"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be4a-f99048232a3f",
+      "name": "Nghị định số 20/2023/NĐ-CP ngày 04/5/2023 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 114/2021/NĐ-CP ngày 16/12/2021 về Quản lý và sử dụng vốn hỗ trợ phát triển chính thức (ODA) và vốn vay ưu đãi của nhà tài trợ nước ngoài",
+      "code": "20"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-0fbdece3a4c4",
+      "name": "- Nghị định số 114/2021/NĐ-CP ngày 16/12/2021 của Chính phủ về Quản lý và sử dụng vốn hỗ trợ phát triển chính thức (ODA) và nguốn vay ưu đãi của Nhà tài trợ nước ngoài;",
+      "code": "114"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afeb-a2d8c0b53db1",
+      "name": "Quyết định điều chỉnh chương trình/dự án của cấp có thẩm quyền",
+      "code": "KQ.G12.000897"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910967,
+  "updatedAt": 1794448910967,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Thủ tướng Chính phủ, Cơ quan chủ quản",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

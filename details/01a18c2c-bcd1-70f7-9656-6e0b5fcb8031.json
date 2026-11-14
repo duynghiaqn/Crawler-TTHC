@@ -1,0 +1,337 @@
+{
+  "id": "01a18c2c-bcd1-70f7-9656-6e0b5fcb8031",
+  "code": "6.006874",
+  "codeNotation": "6.006874",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "a) Đối với tài sản kết cấu hạ tầng đường thủy nội địa thuộc thẩm quyền phê duyệt của Bộ trưởng Bộ Giao thông vận tải\n- Cơ quan quản lý tài sản ở trung ương lập hồ sơ đề nghị phê duyệt Đề án cho thuê quyền khai thác tài sản KCHT đường thủy nội địa, trình Bộ Giao thông vận tải.\n- Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ quy định tại điểm a khoản này, Bộ trưởng Bộ Giao thông vận tải xem xét, phê duyệt Đề án cho thuê quyền khai thác tài sản KCHT đường thủy nội địa hoặc có văn bản hồi đáp trong trường hợp Đề án chưa phù hợp.\nb) Đối với tài sản kết cấu hạ tầng đường thủy nội địa thuộc thẩm quyền phê duyệt của cơ quan, người có thẩm quyền quy định tại điểm b khoản 5 Điều 14 Nghị định số 12/2025/NĐ-CP ngày 20/01/2025 của Chính phủ\n- Đối với tài sản do cơ quan quản lý tài sản cấp tỉnh quản lý: Cơ quan quản lý tài sản cấp tỉnh lập hồ sơ đề nghị phê duyệt Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng đường thủy nội địa, báo cáo cơ quan, người có thẩm quyền quy định tại điểm b khoản 5 Điều 14 Nghị định số 12/2025/NĐ-CP ngày 20/01/2025 của Chính phủ.\n- Đối với tài sản do cơ quan quản lý tài sản cấp huyện quản lý: Cơ quan quản lý tài sản cấp huyện lập hồ sơ đề nghị phê duyệt Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng đường thủy nội địa, báo cáo Ủy ban nhân dân cấp huyện để xem xét, phê duyệt theo thẩm quyền hoặc báo cáo cơ quan, người có thẩm quyền xem xét, phê duyệt.\n- Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ quy định tại điểm a, điểm b khoản 7 Điều 14 Nghị định số 12/2025/NĐ-CP ngày 20/01/2025 của Chính phủ, cơ quan, người có thẩm quyền quy định tại điểm b khoản 5 Điều 14 Nghị định số 12/2025/NĐ-CP xem xét, phê duyệt Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng đườn"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Chuyển nhượng có thời hạn quyền khai thác tài sản kết cấu hạ tầng đường thủy nội địa",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Đối với tài sản kết cấu hạ tầng đường thủy nội địa thuộc thẩm quyền phê duyệt của Bộ trưởng Bộ Giao thông vận tải",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18c18-a721-708b-8466-bbda016ed6ac",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình của cơ quan quản lý tài sản về việc đề nghị phê duyệt Đề án",
+          "code": "G12.060179",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c24-e51c-7548-8245-4239b4f76dea",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng đường thủy nội địa do cơ quan quản lý tài sản lập theo Mẫu số 02B tại Phụ lục ban hành kèm theo Nghị định số 12/2025/NĐ-CP ngày 20/01/2025 của Chính phủ",
+          "code": "G12.06.0183",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c19-7b63-72e1-ba41-4e4253859f0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Ý kiến của các cơ quan có liên quan (nếu có):",
+          "code": "G12.060181",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-7adf4d20e448",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "G12.060049",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Đối với tài sản kết cấu hạ tầng đường thủy nội địa do cơ quan quản lý tài sản cấp tỉnh quản lý",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18c43-d133-7231-a092-25458729af7a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình của cơ quan quản lý tài sản cấp tỉnh về việc đề nghị phê duyệt Đề án",
+          "code": "G12.06.0185",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c24-e51c-7548-8245-4239b4f76dea",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng đường thủy nội địa do cơ quan quản lý tài sản lập theo Mẫu số 02B tại Phụ lục ban hành kèm theo Nghị định số 12/2025/NĐ-CP ngày 20/01/2025 của Chính phủ",
+          "code": "G12.06.0183",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18af5-ad9d-70b2-a338-ae8959ddd31f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản tổng hợp, giải trình, tiếp thu ý kiến của các cơ quan có liên quan (nếu có)",
+          "code": "G12.06.0104",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c19-7b63-72e1-ba41-4e4253859f0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Ý kiến của các cơ quan có liên quan (nếu có):",
+          "code": "G12.060181",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-7adf4d20e448",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "G12.060049",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Đối với tài sản kết cấu hạ tầng đường thủy nội địa do cơ quan quản lý tài sản cấp tỉnh quản lý",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18c1e-4128-772e-8069-e0848e120415",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình của cơ quan quản lý tài sản cấp huyện về việc đề nghị phê duyệt Đề án: bản chính",
+          "code": "G12.06.0182",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c24-e51c-7548-8245-4239b4f76dea",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đề án cho thuê quyền khai thác tài sản kết cấu hạ tầng đường thủy nội địa do cơ quan quản lý tài sản lập theo Mẫu số 02B tại Phụ lục ban hành kèm theo Nghị định số 12/2025/NĐ-CP ngày 20/01/2025 của Chính phủ",
+          "code": "G12.06.0183",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18af5-ad9d-70b2-a338-ae8959ddd31f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản tổng hợp, giải trình, tiếp thu ý kiến của các cơ quan có liên quan (nếu có)",
+          "code": "G12.06.0104",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c19-7b63-72e1-ba41-4e4253859f0e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Ý kiến của các cơ quan có liên quan (nếu có):",
+          "code": "G12.060181",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-7adf4d20e448",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "G12.060049",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan quản lý tài sản ở trung ương, Cơ quan quản lý tài sản cấp tỉnh, Cơ quan quản lý tài sản cấp huyện.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-8c9e03aa49d7"
+  ],
+  "resultIds": [
+    "01a0412c-72dc-72bb-a9ad-8d6cd5dd6954"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66d-4ef4369c303d"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng",
+      "code": "G17"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-8c9e03aa49d7",
+      "name": "12/2025/NĐ-CP",
+      "code": "12/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0412c-72dc-72bb-a9ad-8d6cd5dd6954",
+      "name": "Quyết định phê duyệt Đề án chuyển nhượng có thời hạn quyền khai thác tài sản",
+      "code": "KQ.H56.0000046"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910964,
+  "updatedAt": 1794448910964,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Xây dựng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Bộ trưởng Bộ Xây dựng, Hội đồng nhân dân cấp tỉnh phê duyệt hoặc phân cấp thẩm quyền phê duyệt .",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

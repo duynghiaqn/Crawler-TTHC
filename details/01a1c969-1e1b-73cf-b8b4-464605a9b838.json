@@ -1,0 +1,234 @@
+{
+  "id": "01a1c969-1e1b-73cf-b8b4-464605a9b838",
+  "code": "5.004042",
+  "codeNotation": "5.004042",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Các doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ phối hợp, thống nhất lập Hồ sơ đề nghị hợp nhất, sáp nhập, trình cơ quan quyết định thành lập hoặc được giao quản lý xem xét, quyết định.\n- Khi nhận được Hồ sơ đề nghị hợp nhất, sáp nhập, cơ quan có thẩm quyền thẩm định, phê duyệt Hồ sơ và ra quyết định hợp nhất, sáp nhập doanh nghiệp.\n- Sau khi có quyết định hợp nhất, sáp nhập, người đại diện theo pháp luật của các doanh nghiệp cùng ký vào Hợp đồng hợp nhất, sáp nhập và có trách nhiệm triển khai thực hiện Đề án hợp nhất, sáp nhập.\n- Doanh nghiệp nhận sáp nhập và doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ được thành lập trên cơ sở hợp nhất thực hiện thủ tục đăng ký doanh nghiệp theo quy định của pháp luật."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 30 ngày làm việc, kể từ ngày nhận được Hồ sơ đề nghị hợp nhất, sáp nhập, cơ quan có thẩm quyền quy định tại Điều 15 Nghị định số 23/2022/NĐ-CP thẩm định, phê duyệt Hồ sơ và ra quyết định hợp nhất, sáp nhập doanh nghiệp.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 30 ngày làm việc, kể từ ngày nhận được Hồ sơ đề nghị hợp nhất, sáp nhập, cơ quan có thẩm quyền quy định tại Điều 15 Nghị định số 23/2022/NĐ-CP thẩm định, phê duyệt Hồ sơ và ra quyết định hợp nhất, sáp nhập doanh nghiệp.",
+      "fees": []
+    }
+  ],
+  "description": "Doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ được hợp nhất, sáp nhập khi đáp ứng đủ các điều kiện sau đây:\n- Việc sáp nhập, hợp nhất doanh nghiệp phải phù hợp với văn bản về sắp xếp, đổi mới doanh nghiệp đã được Thủ tướng Chính phủ phê duyệt. Trường hợp chưa được quy định tại các văn bản này thì cơ quan đại diện chủ sở hữu phải trình Thủ tướng Chính phủ xem xét, quyết định.\n- Việc hợp nhất, sáp nhập doanh nghiệp phải đảm bảo tuân thủ quy định của Luật Cạnh tranh về hợp nhất, sáp nhập doanh nghiệp.",
+  "name": "Hợp nhất, sáp nhập doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ do cơ quan đại diện chủ sở hữu (Ủy ban nhân dân cấp tỉnh) quyết định thành lập hoặc được giao quản lý",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-b00c9019f0fd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị hợp nhất, sáp nhập doanh nghiệp",
+          "code": "G12.000168",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd75-d4c9bb22cfcc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đề án hợp nhất, sáp nhập doanh nghiệp phải bao gồm các nội dung chủ yếu sau: Tên, địa chỉ các doanh nghiệp trước và sau khi hợp nhất, sáp nhập; Sự cần thiết của việc hợp nhất, sáp nhập doanh nghiệp; sự phù hợp với chiến lược, kế hoạch phát triển kinh tế - xã hội, quy hoạch ngành quốc gia; Mức vốn điều lệ của doanh nghiệp sau khi hợp nhất, sáp nhập; Phương án sắp xếp, sử dụng lao động; Phương án xử lý tài chính, chuyển đổi, bàn giao vốn, tài sản và giải quyết các quyền, nghĩa vụ của các doanh nghiệp liên quan đến việc hợp nhất, sáp nhập; Thời hạn thực hiện hợp nhất, sáp nhập doanh nghiệp;",
+          "code": "G12.000182",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-baadd540df99",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo tài chính năm trước liền kề của doanh nghiệp đã được kiểm toán và báo cáo tài chính quý gần nhất với thời điểm hợp nhất, sáp nhập",
+          "code": "G12.000170",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-bf72a432ad7b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo Điều lệ của doanh nghiệp mới được hình thành sau khi hợp nhất, sáp nhập.",
+          "code": "G12.000171",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-c21feac38715",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo Hợp đồng hợp nhất, sáp nhập theo quy định tại Điều 200, Điều 201 Luật Doanh nghiệp đối với trường hợp sáp nhập, hợp nhất doanh nghiệp.",
+          "code": "G12.000172",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-c771a252d153",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu khác có liên quan đến việc hợp nhất, sáp nhập doanh nghiệp (nếu có)",
+          "code": "G12.000173",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-bf614dd9550d"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b474-8c42e40ee4ef",
+    "019d2bb3-5d84-71c5-b673-a5cd7b50c21c",
+    "019d2bb3-5d84-71c5-b674-0bb469239ff5"
+  ],
+  "resultIds": [
+    "019d2bb2-1c72-75fa-a590-7e4df2dd4c69"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-bf614dd9550d",
+      "name": "Thành lập và sắp xếp lại doanh nghiệp do Nhà nước nắm giữ 100 phần trăm vốn điều lệ",
+      "code": "G12.04"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e919e-06bb-772b-919d-4248750a4793"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e919e-06bb-772b-919d-4248750a4793",
+      "name": "Cơ quan đại diện chủ sở hữu"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b474-8c42e40ee4ef",
+      "name": "Về thành lập, sắp xếp lại, chuyển đổi sở hữu, chuyển giao quyền đại diện chủ sở hữu tại doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ",
+      "code": "Nghị định số 23/2022/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-a5cd7b50c21c",
+      "name": "Luật Doanh nghiệp",
+      "code": "59/2020/QH14"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b674-0bb469239ff5",
+      "name": "Luật số 69/2014/QH13 của Quốc hội: LUẬT QUẢN LÝ, SỬ DỤNG VỐN NHÀ NƯỚC ĐẦU TƯ VÀO SẢN XUẤT, KINH DOANH TẠI DOANH NGHIỆP",
+      "code": "69/2014/QH13"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c72-75fa-a590-7e4df2dd4c69",
+      "name": "Quyết định hợp nhất, sáp nhập doanh nghiệp của cơ quan đại diện chủ sở hữu",
+      "code": "KQ.G12.001033"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910965,
+  "updatedAt": 1794448910965,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ được hợp nhất, sáp nhập khi đáp ứng đủ các điều kiện sau đây:\n- Việc sáp nhập, hợp nhất doanh nghiệp phải phù hợp với văn bản về sắp xếp, đổi mới doanh nghiệp đã được Thủ tướng Chính phủ phê duyệt. Trường hợp chưa được quy định tại các văn bản này thì cơ quan đại diện chủ sở hữu phải trình Thủ tướng Chính phủ xem xét, quyết định.\n- Việc hợp nhất, sáp nhập doanh nghiệp phải đảm bảo tuân thủ quy định của Luật Cạnh tranh về hợp nhất, sáp nhập doanh nghiệp.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

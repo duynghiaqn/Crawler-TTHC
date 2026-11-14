@@ -1,0 +1,204 @@
+{
+  "id": "01a1a54f-9401-757e-a7bf-bb0c64259a4e",
+  "code": "6.006910",
+  "codeNotation": "6.006910",
+  "executionSteps": [
+    {
+      "name": "Trường hợp chi trả nợ trong nước bằng đồng Việt Nam",
+      "description": "Căn cứ dự toán và yêu cầu nghĩa vụ trả nợ đến hạn, cơ quan tài chính lập lệnh chi trả nợ trong nước bằng đồng Việt Nam gửi KBNN nơi giao dịch. KBNN kiểm tra tính hợp pháp, hợp lệ của chứng từ. Trường hợp chứng từ hợp pháp, hợp lệ, KBNN thực hiện xuất quỹ ngân sách chi trả, đồng thời hạch toán giảm nợ vay (đối với các khoản trả nợ gốc) và hạch toán chi ngân sách (đối với các khoản trả lãi, phí và chi phí phát sinh khác từ khoản vay) theo quy định, đồng thời trả lại 01 liên chứng từ cho đơn vị. Trường hợp chứng từ không hợp pháp, hợp lệ, KBNN trả lại hồ sơ chứng từ cho đơn vị."
+    },
+    {
+      "name": "Trường hợp chi trả nợ trong nước bằng ngoại tệ",
+      "description": "Căn cứ dự toán và yêu cầu nghĩa vụ trả nợ đến hạn, cơ quan tài chính lập lệnh chi trả nợ trong nước bằng ngoại tệ gửi Kho bạc Nhà nước nơi giao dịch. KBNN kiểm tra tính hợp pháp, hợp lệ của chứng từ. Trường hợp chứng từ hợp pháp, hợp lệ, KBNN thực hiện xuất quỹ ngân sách chi trả, đồng thời hạch toán giảm nợ vay (đối với các khoản trả nợ gốc) và hạch toán chi ngân sách (đối với các khoản trả lãi, phí và chi phí phát sinh khác từ khoản vay) theo quy định, đồng thời trả lại 01 liên chứng từ cho đơn vị. Trường hợp chứng từ không hợp pháp, hợp lệ, KBNN trả lại hồ sơ chứng từ cho đơn vị."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: chứng từ hợp lệ, hợp pháp",
+  "name": "Chi trả nợ trong nước bằng đồng Việt Nam và đồng ngoại tệ (của Sở Tài chính)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd66-eab0b4833f8b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "02 liên Lệnh chi trả nợ trong nước bằng đồng Việt Nam (Mẫu C2-14a/NS)",
+          "code": "G12.000106",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp chi trả nợ trong nước bằng ngoại tệ",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd66-eab0b4833f8b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "02 liên Lệnh chi trả nợ trong nước bằng đồng Việt Nam (Mẫu C2-14a/NS)",
+          "code": "G12.000106",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Sở Tài chính",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4a-bc7ca5bb3ae5",
+    "019d2bb3-5d7d-7398-be4c-fc0b29f18d99",
+    "019d2bb3-5d7d-7398-be4f-6b9e2b3cdd47",
+    "019d2bb3-5d7e-72d1-afec-20f13a1b2131"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe9-733c4663726c",
+    "019d2bb2-1c71-7574-afe9-767b23ab89da"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+      "name": "Kho bạc Nhà nước",
+      "code": "G12-TC07"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be4a-bc7ca5bb3ae5",
+      "name": "Thông tư số 19/2020/TT-BTC ngày 31/3/2020 của Bộ Tài chính sửa đổi, bổ sung một số điều của Thông tư số 77/2017/TT-BTC",
+      "code": "19"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4c-fc0b29f18d99",
+      "name": "Thông tư số 342/2016/TT-BTC của Bộ Tài chính: Quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 163/2016/NĐ-CP ngày 21 tháng 12 năm 2016 của Chính phủ quy định chi tiết thi hành một số điều của Luật ngân sách nhà nước",
+      "code": "342"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4f-6b9e2b3cdd47",
+      "name": "Nghị định số 94/2018/NĐ-CP ngày 30/6/2018 của Chính phủ về nghiệp vụ quản lý nợ công",
+      "code": "94/2018/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-20f13a1b2131",
+      "name": "QUY ĐỊNH CHI TIẾT THI HÀNH MỘT SỐ ĐIỀU CỦA LUẬT NGÂN SÁCH NHÀ NƯỚC",
+      "code": "163/2016/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe9-733c4663726c",
+      "name": "01 liên Lệnh chi trả nợ trong nước bằng đồng Việt Nam (Mẫu C2-14a/NS)",
+      "code": "KQ.G12.000714"
+    },
+    {
+      "id": "019d2bb2-1c71-7574-afe9-767b23ab89da",
+      "name": "01 liên Lệnh chi trả nợ trong nước bằng ngoại tệ (Mẫu số C2-15a/NS).",
+      "code": "KQ.G12.000715"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910983,
+  "updatedAt": 1794448910983,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: KBNN nơi giao dịch",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: chứng từ hợp lệ, hợp pháp",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

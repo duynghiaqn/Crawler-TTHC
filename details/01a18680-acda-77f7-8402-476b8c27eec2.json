@@ -1,0 +1,242 @@
+{
+  "id": "01a18680-acda-77f7-8402-476b8c27eec2",
+  "code": "6.006832",
+  "codeNotation": "6.006832",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Chậm nhất là 30 ngày trước ngày kết thúc dự án theo quyết định của cơ quan, người có thẩm quyền, Ban quản lý dự án có trách nhiệm kiểm kê tài sản phục vụ hoạt động của dự án, đề xuất phương án xử lý, báo cáo cơ quan chủ quản dự án. Việc kiểm kê phải được lập thành Biên bản, nội dung chủ yếu của Biên bản gồm: Tên dự án, tên ban quản lý dự án, cơ quan chủ quản, thành phần tham gia kiểm kê, kết quả kiểm kê. \nGhi chú: Trường hợp phát hiện thừa, thiếu tài sản phải ghi rõ trong Biên bản kiểm kê tài sản, xác định rõ nguyên nhân, trách nhiệm và đề xuất biện pháp xử lý theo chế độ quản lý, sử dụng tài sản công. Danh mục tài sản đề nghị xử lý thực hiện theo Mẫu số 07/TSC-TSDA ban hành kèm theo Nghị định này.\nĐối với dự án trong đó có một cơ quan chủ quản giữ vai trò điều phối chung và các cơ quan chủ quản của các dự án thành phần, Ban quản lý dự án thành phần chịu trách nhiệm kiểm kê, báo cáo về Ban quản lý dự án chủ quản để tổng hợp, đề xuất phương án xử lý;\nBước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được báo cáo của Ban quản lý dự án, cơ quan chủ quản dự án có trách nhiệm tổng hợp, lập 01 bộ hồ sơ đề nghị xử lý tài sản gửi cơ quan được giao thực hiện nhiệm vụ quản lý tài sản công của Bộ, cơ quan trung ương đối với đơn vị thuộc Trung ương quản lý hoặc Sở Tài chính đối với đơn vị thuộc địa phương quản lý.\nBước 3: Trong thời hạn 30 ngày, kể từ ngày nhận báo cáo của cơ quan chủ quản dự án, cơ quan được giao thực hiện nhiệm vụ quản lý tài sản công của Bộ, cơ quan trung ương, Sở Tài chính có trách nhiệm lập phương án xử lý tài sản, đề nghị cơ quan, người có thẩm quyền phê duyệt phương án xử lý tài sản xem xét, phê duyệt theo thẩm quyền hoặc trình Bộ trưởng, Thủ trưởng cơ quan trung ương, Chủ tịch UBND cấp tỉnh có ý kiến gửi cơ quan được giao thực hiện nhiệm vụ quản lý tài sản công thuộc Bộ Tài chính (đối với trường hợp thuộc thẩm quyền phê duyệt của Thủ tướng Chính phủ, Bộ trưởng Bộ Tài chính).\nBước 4: Trong thời hạn 30 ngày, kể từ ngày nhận được đề nghị của Bộ trưởng, Thủ trưởng cơ quan trung ương, Chủ tịch UBND cấp tỉnh, cơ quan được giao thực hiện nhiệm vụ quản lý tài sản công thuộc Bộ Tài chính có trách nhiệm trình Bộ trưởng Bộ Tài chính xem xét, phê duyệt phương án xử lý theo thẩm quyền hoặc báo cáo Bộ trưởng Bộ Tài chính có văn bản trình Thủ tướng Chính phủ xem xét, phê duyệt theo thẩm quyền.\nTrường hợp Ban quản lý dự án, cơ quan chủ quản dự án không đề xuất phương án xử lý hoặc đề xuất phương án xử lý không phù hợp, cơ quan được giao nhiệm vụ quản lý tài sản công của Bộ, cơ quan trung ương, Sở Tài chính lập phương án, trình Bộ trưởng Bộ Tài chính, Bộ trưởng, Thủ trưởng cơ quan trung ương, Chủ tịch UBND cấp tỉnh quyết định thu hồi để xử lý theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Phí, lệ phí: Không quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Phí, lệ phí: Không quy định",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "name": "Quyết định xử lý tài sản phục vụ hoạt động của dự án khi kết thúc",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18682-bd72-709a-8b4e-f954ace01b9a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo của Ban Quản lý dự án (kèm theo danh mục tài sản đề nghị xử lý)",
+          "code": "G12.06.0006",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18683-7750-76bf-a019-1d65de60e62d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị xử lý của cơ quan quản lý cấp trên (nếu có)",
+          "code": "G12.06.0007",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18683-cd9e-73cc-bd29-78e7b86daa4c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản kiểm kê tài sản",
+          "code": "G12.06.0008",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18684-9bf5-755d-a86f-5636fc84bb2c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn kiện dự án hoặc hồ sơ dự án được cơ quan, người có thẩm quyền phê duyệt hoặc ký kết hoặc chấp thuận",
+          "code": "G12.06.0009",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18684-ef96-77b5-b73f-3f791d0f5db0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, giấy tờ khác liên quan đến việc xử lý tài sản",
+          "code": "G12.06.0010",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Ban quản lý dự án, cơ quan chủ quản dự án.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+    "019d2bb3-5d7f-719e-b475-420326abbc1e"
+  ],
+  "resultIds": [
+    "01a18680-4029-716c-a02c-82d6f2473adc"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    },
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6771-31da-7758-9a23-1c3f7317813c",
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6771-31da-7758-9a23-1c3f7317813c",
+      "name": "Bộ trưởng hoặc cấp tương đương"
+    },
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+      "name": "Nghị định 114/2024/NĐ-CP sửa đổi Nghị định 151/2017/NĐ-CP hướng dẫn Luật Quản lý, sử dụng tài sản công",
+      "code": "114/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b475-420326abbc1e",
+      "name": "NGHỊ ĐỊNH  QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG",
+      "code": "Số: 151/2017/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a18680-4029-716c-a02c-82d6f2473adc",
+      "name": "Quyết định xử lý tài sản phục vụ hoạt động của dự án khi dự án kết thúc hoặc Quyết định thu hồi tài sản công.",
+      "code": "KQ.G12.001380"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910949,
+  "updatedAt": 1794448910949,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thủ tướng Chính phủ, Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Thủ tướng Chính phủ, Bộ trưởng Bộ Tài chính, Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, HĐND cấp tỉnh; Cơ quan, người được phân cấp thẩm quyền.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

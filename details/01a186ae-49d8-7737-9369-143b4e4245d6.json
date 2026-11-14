@@ -1,0 +1,295 @@
+{
+  "id": "01a186ae-49d8-7737-9369-143b4e4245d6",
+  "code": "6.006835",
+  "codeNotation": "6.006835",
+  "executionSteps": [
+    {
+      "name": "Trường hợp bán tài sản công",
+      "description": "Bước 1: Cơ quan, tổ chức, đơn vị có tài sản công lập 01 bộ hồ sơ đề nghị bán tài sản công gửi cơ quan quản lý cấp trên để xem xét, đề nghị cơ quan, người có thẩm quyền quyết định bán tài sản công xem xét, quyết định. \nBước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, cơ quan, người có thẩm quyền xem xét, quyết định bán tài sản công hoặc có văn bản hồi đáp trong trường hợp đề nghị bán không phù hợp. \nGhi chú: \n- Cơ quan được giao thực hiện nhiệm vụ quản lý tài sản công có trách nhiệm thẩm định về đề nghị bán tài sản trong trường hợp việc bán tài sản do Thủ tướng Chính phủ, Bộ trưởng Bộ Tài chính, Bộ trưởng, Thủ trưởng cơ quan trung ương, Chủ tịch UBND cấp tỉnh, Chủ tịch UBND cấp huyện quyết định theo thẩm quyền. \n- Trình tự này không áp dụng đối với trường hợp thanh lý tài sản công theo hình thức bán."
+    },
+    {
+      "name": "Trường hợp bán tài sản công cho người duy nhất theo quy định tại khoản 2 Điều 25 Nghị định số 151/2017/NĐ-CP ngày 26/12/2017 của Chính phủ.",
+      "description": "Bước 1: Trong thời hạn 07 ngày làm việc, kể từ ngày xác định được người duy nhất theo quy định tại khoản 2 Điều 25 Nghị định số 151/2017/NĐ-CP ngày 26/12/2017 của Chính phủ, cơ quan được giao nhiệm vụ tổ chức bán tài sản có trách nhiệm lập 01 bộ hồ sơ trình cơ quan quản lý cấp trên (nếu có) để xem xét, đề nghị cơ quan, người có thẩm quyền đã ra quyết định bán tài sản để xem xét, quyết định bán tài sản cho người duy nhất thay thế quyết định bán đấu giá tài sản đã ban hành.\nBước 2: Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, cơ quan, người có thẩm quyền xem xét, quyết định bán tài sản công cho người duy nhất tham gia đấu giá."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "1. Trường hợp bán tài sản công: Thời hạn giải quyết: Không quá 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.\n2. Trường hợp bán tài sản công cho người duy nhất theo quy định tại khoản 2 Điều 25 Nghị định số 151/2017/NĐ-CP ngày 26/12/2017 của Chính phủ: Thời hạn giải quyết: Không quá 07 ngày làm việc, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "1. Trường hợp bán tài sản công: Thời hạn giải quyết: Không quá 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.\n2. Trường hợp bán tài sản công cho người duy nhất theo quy định tại khoản 2 Điều 25 Nghị định số 151/2017/NĐ-CP ngày 26/12/2017 của Chính phủ: Thời hạn giải quyết: Không quá 07 ngày làm việc, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "Không có.",
+  "name": "Quyết định bán tài sản công",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Trường hợp bán tài sản công",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd77-c5ae0b25437c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị bán tài sản công của cơ quan được giao quản lý, sử dụng tài sản công (trong đó nêu rõ hình thức tổ chức bán tài sản, việc quản lý, sử dụng tiền thu được từ bán tài sản):",
+          "code": "G12.06.0021",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a186b5-a3d7-7677-a5af-07481fb94aeb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị bán tài sản công của cơ quan quản lý cấp trên (nếu có)",
+          "code": "G12.06.0022",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a186b7-67f9-737d-8882-2f4cc6e2d8d0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị bán (chủng loại, số lượng, diện tích; tình trạng; nguyên giá, giá trị còn lại theo sổ kế toán; mục đích sử dụng hiện tại; lý do bán)",
+          "code": "G12.06.0023",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-8829-d1b995218751",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ khác có liên quan đến đề nghị bán tài sản (nếu có)",
+          "code": "G12.06.0024",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp bán tài sản công cho người duy nhất theo quy định tại khoản 2 Điều 25 Nghị định số 151/2017/NĐ-CP ngày 26/12/2017 của Chính phủ.",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a186b8-e0b7-72a6-bc8b-7846d998f339",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị bán của cơ quan được giao nhiệm vụ tổ chức bán tài sản (trong đó mô tả đầy đủ quá trình tổ chức đấu giá; mức giá tổ chức, cá nhân duy nhất đã trả (nếu có))",
+          "code": "G12.06.0025",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a186b9-284e-70c4-8781-b75a02c29243",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị bán tài sản công cho người duy nhất của cơ quan quản lý cấp trên (nếu có)",
+          "code": "G12.06.0026",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a186b9-6aba-70fe-96de-db1b362d5072",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị mua tài sản công của người duy nhất (trong đó xác định cụ thể giá mua không thấp hơn giá khởi điểm và không thấp hơn giá đã trả (nếu có))",
+          "code": "G12.06.0027",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a186b9-ce9e-7749-949a-abd8e1baee69",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định bán đấu giá tài sản của cơ quan, người có thẩm quyền",
+          "code": "G12.06.0028",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a186ba-1ae9-76c8-bd52-a2e302868f3b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản bán đấu giá tài sản (nếu có) và các hồ sơ liên quan đến quá trình tổ chức đấu giá tài sản",
+          "code": "G12.06.0029",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "a) Trường hợp bán tài sản công: Đối tượng thực hiện thủ tục hành chính: Cơ quan, tổ chức, đơn vị có tài sản công thuộc các trường hợp quy định tại các điểm a, b và c khoản 1 Điều 43 của Luật Quản lý, sử dụng tài sản.\nb) Trường hợp bán tài sản công cho người duy nhất theo quy định tại khoản 2 Điều 25 Nghị định số 151/2017/NĐ-CP ngày 26/12/2017 của Chính phủ: Đối tượng thực hiện thủ tục hành chính: Cơ quan được giao nhiệm vụ tổ chức bán tài sản công.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe6-2afca8c14558",
+    "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+    "019d2bb3-5d7f-719e-b46e-9244f6a0342d"
+  ],
+  "resultIds": [
+    "019d2bb2-1c6f-72b5-bd0b-b2664a564300",
+    "01a186ae-3d8d-7244-b2ec-b45bc3cc103a"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6771-31da-7758-9a23-1c3f7317813c",
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6771-31da-7758-9a23-1c3f7317813c",
+      "name": "Bộ trưởng hoặc cấp tương đương"
+    },
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46e-9244f6a0342d",
+      "name": "Nghị định số 50/2024/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 136/2020/NĐ-CP ngày 24 tháng 11 năm 2020 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy và chữa cháy và Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và chữa cháy và Nghị định số 83/2017/NĐ-CP ngày 18 tháng 7 năm 2017 của Chính phủ quy định về công tác cứu nạn, cứu hộ của lực lượng phòng cháy và chữa cháy",
+      "code": "50/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe6-2afca8c14558",
+      "name": "Nghị định quy định chi tiết một số điều của Luật quản lý, sử dụng tài sản công",
+      "code": "151/2017/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+      "name": "Nghị định 114/2024/NĐ-CP sửa đổi Nghị định 151/2017/NĐ-CP hướng dẫn Luật Quản lý, sử dụng tài sản công",
+      "code": "114/2024/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c6f-72b5-bd0b-b2664a564300",
+      "name": "Quyết định bán tài sản công cho người duy nhất tham gia đấu giá.",
+      "code": "KQ.G12.000026"
+    },
+    {
+      "id": "01a186ae-3d8d-7244-b2ec-b45bc3cc103a",
+      "name": "Quyết định bán tài sản công hoặc văn bản hồi đáp trong trường hợp đề nghị bán không phù hợp",
+      "code": "KQ.G12.001377"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910953,
+  "updatedAt": 1794448910953,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Trường hợp bán tài sản công\nCơ quan thực hiện thủ tục hành chính: \n- Bộ trưởng, Thủ trưởng cơ quan trung ương; cơ quan được phân cấp thẩm quyền quyết định bán tài sản cố định tại cơ quan nhà nước thuộc phạm vi quản lý của bộ, cơ quan trung ương.\n- Hội đồng nhân dân cấp tỉnh; cơ quan được phân cấp thẩm quyền quyết định bán tài sản cố định của cơ quan nhà nước thuộc phạm vi quản lý của địa phương theo quy định tại khoản 2 Điều 17 của Luật.\n- Người đứng đầu cơ quan nhà nước được giao quản lý, sử dụng tài sản công quyết định bán đối với: Tài sản công là tài sản cố định theo thẩm quyền do Bộ trưởng, Thủ trưởng cơ quan trung ương, Hội đồng nhân dân cấp tỉnh quy định; Tài sản công không phải là tài sản cố định.\nb) Trường hợp bán tài sản công cho người duy nhất theo quy định tại khoản 2 Điều 25 Nghị định số 151/2017/NĐ-CP ngày 26/12/2017 của Chính phủ.\nCơ quan thực hiện thủ tục hành chính:\n- Bộ trưởng, Thủ trưởng cơ quan trung ương; cơ quan được phân cấp thẩm quyền quyết định bán tài sản cố định tại cơ quan nhà nước thuộc phạm vi quản lý của bộ, cơ quan trung ương.\n- Hội đồng nhân dân cấp tỉnh; cơ quan được phân cấp thẩm quyền quyết định bán tài sản cố định của cơ quan nhà nước thuộc phạm vi quản lý của địa phương theo quy định tại khoản 2 Điều 17 của Luật.\n- Người đứng đầu cơ quan nhà nước được giao quản lý, sử dụng tài sản công quyết định bán đối với: Tài sản công là tài sản cố định theo thẩm quyền do Bộ trưởng, Thủ trưởng cơ quan trung ương, Hội đồng nhân dân cấp tỉnh quy định; Tài sản công không phải là tài sản cố định.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không có.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

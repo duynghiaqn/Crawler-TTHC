@@ -1,0 +1,252 @@
+{
+  "id": "01a07fec-3f7a-751e-823a-8da7099f718b",
+  "code": "5.003883",
+  "codeNotation": "5.003883",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "+ Bộ Xây dựng chủ trì lấy ý kiến Bộ Quốc phòng, Bộ Công an, Ủy ban nhân dân cấp tỉnh và các cơ quan, tổ chức khác có liên quan về phương án đầu tư xây dựng cảng hàng không mới. Các cơ quan được lấy ý kiến có trách nhiệm trả lời bằng văn bản trong thời hạn 15 ngày làm việc kể từ ngày nhận được văn bản lấy ý kiến; \n+ Trên cơ sở ý kiến của Bộ Quốc phòng, Bộ Công an, Ủy ban nhân dân cấp tỉnh và các cơ quan, tổ chức khác có liên quan, Bộ Xây dựng tổng hợp, đánh giá, lựa chọn phương án đầu tư khả thi, hiệu quả và gửi 01 bộ hồ sơ trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống văn bản điện tử báo cáo Thủ tướng Chính phủ xin ý kiến trước khi tổ chức đầu tư xây dựng cảng hàng không mới; \n+ Trong thời hạn 15 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ theo quy định tại khoản 2 Điều này, Thủ tướng Chính phủ xem xét, chấp thuận phương án đầu tư xây dựng cảng hàng không mới. Trường hợp không chấp thuận, Thủ tướng Chính phủ có văn bản trả lời và nêu rõ lý do;"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 15 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ theo quy định, Thủ tướng Chính phủ xem xét, chấp thuận phương án đầu tư xây dựng cảng hàng không mới.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 15 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ theo quy định, Thủ tướng Chính phủ xem xét, chấp thuận phương án đầu tư xây dựng cảng hàng không mới.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 15 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ theo quy định, Thủ tướng Chính phủ xem xét, chấp thuận phương án đầu tư xây dựng cảng hàng không mới.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Chấp thuận phương án đầu tư xây dựng cảng hàng không mới",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0d110-916d-701d-b1be-2f9f28a2343e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị chấp thuận phương án đầu tư xây dựng cảng hàng không mới gồm các nội dung: sự cần thiết đầu tư xây dựng cảng hàng không mới; sơ bộ quy mô, địa điểm đầu tư, nhu cầu sử dụng đất, chi phí thực hiện dự án theo quy hoạch; hình thức đầu tư xây dựng cảng hàng không mới",
+          "code": "TP-G17.NB.260001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0d111-dbcc-75ad-80b8-3913750ab53b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản tổng hợp giải trình ý kiến đóng góp của các bộ, ngành, Ủy ban nhân dân cấp tỉnh nơi có cảng hàng không hoặc cơ quan, tổ chức khác có liên quan",
+          "code": "TP-G17.NB.260002",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Chấp thuận phương án đầu tư xây dựng cảng hàng không mới",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f64ee-5895-74ab-a809-3656d3f318bb"
+  ],
+  "resultIds": [
+    "01a07feb-d438-736f-9cd6-56ea2c4fd6f7"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a72-700f-a652-ac5169305ab5",
+    "019d2be3-6a72-700f-a652-c083c8aaf911"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+      "name": "Hàng không",
+      "code": "G04-GT06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+    "name": "Hàng không",
+    "code": "G04-GT06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an",
+      "code": "G01"
+    },
+    {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng",
+      "code": "G11"
+    }
+  ],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f64ee-5895-74ab-a809-3656d3f318bb",
+      "name": "Nghị định về cảng hàng không và bãi cất, hạ cánh",
+      "code": "205/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a07feb-d438-736f-9cd6-56ea2c4fd6f7",
+      "name": "Chấp thuận phương án đầu tư xây dựng cảng hàng không mới của Thủ tướng Chính phủ.",
+      "code": "KQ.Q02.00000120"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791537191035,
+  "updatedAt": 1791537191035,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thủ tướng Chính phủ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Thủ tướng Chính phủ",
+  "coordinatingAgencies": "Bộ Công an, Bộ Quốc phòng",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a07fd9-caed-74c1-b5f5-863ec50cb73c",
+    "proposalNumber": "1141/QĐ-BXD",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1791537190906,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "id": "019d2bfc-549f-7681-83da-f32fa0a798c5",
+  "code": "1.008324",
+  "codeNotation": "1.008324",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Người nộp thuế mới thành lập từ dự án đầu tư hoặc người nộp thuế đang hoạt động có dự án đầu tư thuộc trường hợp được hoàn thuế GTGT và có nhu cầu hoàn thuế thì lập hồ sơ khai thuế riêng cho từng dự án đầu tư và gửi đến cơ quan thuế chậm nhất là ngày thứ 20 của tháng tiếp theo tháng phát sinh nghĩa vụ thuế (đối với trường hợp khai thuế GTGT theo tháng); chậm nhất là ngày cuối cùng của tháng đầu của quý tiếp theo quý phát sinh nghĩa vụ thuế (đối với trường hợp khai thuế GTGT theo quý).\nTrường hợp NNT có số thuế GTGT đề nghị hoàn thuế trên tờ khai thuế thì NNT thực hiện kê khai thông tin vào Phụ lục tờ khai đề nghị hoàn thuế tại Tờ khai mẫu số 02/GTGT.\nTrường hợp NNT nộp hồ sơ qua giao dịch điện tử: NNT truy cập vào Cổng Dịch vụ công Quốc gia/ Hệ thống thông tin quản lý thuế/Hệ thống thông tin của tổ chức cung cấp dịch vụ T-VAN đã kết nối với Hệ thống thông tin quản lý thuế để lập hồ sơ điện tử, ký điện tử và gửi đến cơ quan thuế.\nTrường hợp NNT nộp hồ sơ trực tiếp/qua bưu chính theo quy định tại điểm a khoản 5 Điều 8 Thông tư số 89/2026/TT-BTC: NNT lập hồ sơ giấy, ký và gửi đến cơ quan thuế qua Trung tâm Phục vụ hành chính công cấp tỉnh/Trung tâm Phục vụ hành chính công cấp xã hoặc qua đường bưu chính."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan thuế tiếp nhận:\n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc được gửi qua đường bưu chính theo quy định tại điểm a khoản 5 Điều 8 Thông tư số 89/2026/TT-BTC: cơ quan thuế thực hiện tiếp nhận hồ sơ theo quy định.\n+ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận hồ sơ thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế:\n+++ Ghi nhận hồ sơ: Hệ thống thông tin điện tử hiển thị thông tin ghi nhận việc NNT đã nộp hồ sơ hoặc thông báo lỗi cho NNT . \n+++ Tiếp nhận hồ sơ: Cơ quan thuế thực hiện kiểm tra hồ sơ khai thuế của NNT theo quy định của Luật Quản lý thuế và các văn bản hướng dẫn thi hành và gửi thông báo tiếp nhận/không tiếp nhận hồ sơ đến Cổng thông tin điện tử mà NNT lựa chọn lập và gửi hồ sơ khai thuế (Cổng Dịch vụ công quốc gia/Hệ thống thông tin quản lý thuế/Hệ thống thông tin của tổ chức cung cấp dịch vụ T-VAN đã kết nối với Hệ thống thông tin quản lý thuế ) chậm nhất 01 ngày làm việc kể từ ngày Hệ thống thông tin điện tử mà người nộp thuế gửi hồ sơ ghi nhận việc thực hiện nộp hồ sơ; riêng đối với  hồ sơ khai thuế đồng thời là hồ sơ hoàn thuế, thời hạn gửi thông báo chậm nhất là 03 ngày làm việc kể từ ngày hệ thống thông tin điện tử mà người nộp thuế gửi hồ sơ ghi nhận việc nộp hồ sơ."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không phải trả kết quả cho người nộp thuế trong trường hợp NNT không có số thuế GTGT đề nghị hoàn. \nTrường hợp NNT có số thuế GTGT đề nghị hoàn thì Cơ quan Thuế giải quyết và trả kết quả trong thời hạn theo quy định: \n+ Đối với hồ sơ thuộc diện hoàn thuế trước chậm nhất là 06 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ hoàn thuế;\n+ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không phải trả kết quả cho người nộp thuế trong trường hợp NNT không có số thuế GTGT đề nghị hoàn. \nTrường hợp NNT có số thuế GTGT đề nghị hoàn thì Cơ quan Thuế giải quyết và trả kết quả trong thời hạn theo quy định: \n+ Đối với hồ sơ thuộc diện hoàn thuế trước chậm nhất là 06 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ hoàn thuế;\n+ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không phải trả kết quả cho người nộp thuế trong trường hợp NNT không có số thuế GTGT đề nghị hoàn. \nTrường hợp NNT có số thuế GTGT đề nghị hoàn thì Cơ quan Thuế giải quyết và trả kết quả trong thời hạn theo quy định: \n+ Đối với hồ sơ thuộc diện hoàn thuế trước chậm nhất là 06 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ hoàn thuế;\n+ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ Tài chính",
+  "name": "Khai/hoàn thuế giá trị gia tăng đối với dự án đầu tư thuộc trường hợp hoàn thuế và có nhu cầu hoàn thuế của người nộp thuế áp dụng phương pháp khấu trừ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd80-fcb0fb4896a0",
+          "originalQty": 1,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai thuế GTGT (áp dụng đối với người nộp thuế tính thuế theo phương pháp khấu trừ có dự án đầu tư thuộc trường hợp được hoàn thuế và có nhu cầu hoàn thuế) mẫu số 02/GTGT",
+          "code": "G12.0014514",
+          "attachments": [
+            {
+              "id": "019fa30e-e9c9-75c4-a6d2-7ebe6e11dc25",
+              "fileName": "8. 02-GTGT.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa30e-e9c9-75c4-a6d2-7ebe6e11dc25/8. 02-GTGT.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b1-7528-b0f0-fcc9baaf83a8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Phụ lục đề nghị hoàn thuế giá trị gia tăng theo mẫu số 01-8/GTGT trường hợp NNT có số thuế GTGT đề nghị hoàn",
+          "code": "G12.0002085",
+          "attachments": [
+            {
+              "id": "019fa2e1-3e3b-740c-a867-e951fa637c9a",
+              "fileName": "6. 01-8. GTGT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa2e1-3e3b-740c-a867-e951fa637c9a/6. 01-8. GTGT.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chủ đầu tư dự án hoặc tổ chức kinh tế mới, Ban Quản lý dự án, chi nhánh được chủ đầu tư giao quản lý và kê khai, hoàn thuế đối với dự án đầu tư gửi các tài liệu sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa30f-c433-704f-bd27-4b893a83be78",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao điện tử Giấy chứng nhận đăng ký đầu tư hoặc Giấy chứng nhận đầu tư hoặc Giấy phép đầu tư đối với trường hợp phải làm thủ tục cấp giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư đối với trường hợp phải làm thủ tục chấp thuận chủ trương đầu tư, Quyết định thành lập dự án đầu tư của chủ dự án đầu tư đối với trường hợp không phải làm thủ tục cấp giấy chứng nhận đăng ký đầu tư theo quy định của pháp luật về đầu tư",
+          "code": "G12.0002086",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa30f-fe23-752e-8cd9-c1cb55b4bc50",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với trường hợp dự án không phải làm thủ tục cấp Giấy chứng nhận đầu tư theo quy định của pháp luật đầu tư thì hồ sơ đề nghị hoàn thuế giá trị gia tăng phải gửi kèm theo Báo cáo thực hiện dự án đầu tư của doanh nghiệp theo quy định của pháp luật về đầu tư gửi cơ quan đăng ký đầu tư",
+          "code": "G12.0002087",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa310-5422-707d-8ba5-9095b66d6035",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với dự án có công trình xây dựng: Bản sao điện tử Giấy chứng nhận quyền sử dụng đất hoặc quyết định giao đất hoặc biên bản bàn giao đất hoặc biên bản bàn giao mặt bằng đối với dự án PPP của cơ quan có thẩm quyền hoặc hợp đồng cho thuê đất theo từng phần của dự án hoặc của cả dự án, giấy phép xây dựng đối với trường hợp phải làm thủ tục cấp giấy phép xây dựng theo quy định của pháp luật về xây dựng",
+          "code": "G12.0002088",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa311-482e-75db-a642-b142ed59afb1",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao điện tử Chứng từ góp vốn điều lệ",
+          "code": "G12.0002089",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa311-9257-74b5-a1c4-446d7455ffc6",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với dự án đầu tư của cơ sở kinh doanh ngành, nghề đầu tư kinh doanh có điều kiện trong giai đoạn đầu tư, theo quy định của pháp luật đầu tư, pháp luật chuyên ngành đã được cơ quan nhà nước có thẩm quyền cấp giấy kinh doanh ngành, nghề đầu tư kinh doanh có điều kiện: Bản sao điện tử một trong các hình thức Giấy phép hoặc giấy chứng nhận hoặc văn bản xác nhận, chấp thuận về kinh doanh ngành, nghề đầu tư kinh doanh có điều kiện",
+          "code": "G12.0002090",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa311-df2e-7540-9adf-da2b3b8e95f8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định thành lập Ban Quản lý dự án, Quy chế tổ chức và hoạt động của Ban quản lý dự án, Quyết định giao quản lý dự án đầu tư của chủ dự án đầu tư cho Ban quản lý dự án (đối với trường hợp giao cho Ban Quản lý dự án khai thuế, hoàn thuế); Quy chế tổ chức và hoạt động của chi nhánh, Quyết định giao quản lý dự án đầu tư của chủ dự án đầu tư cho chi nhánh (đối với trường hợp giao cho chi nhánh khai thuế, hoàn thuế); Quyết định giao quản lý dự án đầu tư của chủ dự án đầu tư cho tổ chức kinh tế mới khai thuế, hoàn thuế",
+          "code": "G12.0002091",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa312-9209-731b-99c8-078912e4a685",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai áp dụng cho các kỳ tính thuế theo thông báo nâng cấp Hệ thống thông tin quản lý thuế theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0002092",
+          "attachments": [
+            {
+              "id": "019fa313-8562-71c9-b105-cab59d6edbc2",
+              "fileName": "8. 02-GTGT.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa313-8562-71c9-b105-cab59d6edbc2/8. 02-GTGT.doc"
+            },
+            {
+              "id": "019fa313-8ebe-747d-b751-6eb72ca4fa3b",
+              "fileName": "6. 01-8. GTGT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa313-8ebe-747d-b751-6eb72ca4fa3b/6. 01-8. GTGT.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa312-c880-738d-9a6a-19eeda353551",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ ngày 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC, NNT được áp dụng các mẫu hồ sơ khai thuế GTGT, hồ sơ hoàn thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính và các văn bản sửa đổi, bổ sung cho tất cả các kỳ tính thuế",
+          "code": "G12.0002093",
+          "attachments": [
+            {
+              "id": "019fa314-0649-748c-b7bc-d1dfa6b1447d",
+              "fileName": "02 GTGT TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa314-0649-748c-b7bc-d1dfa6b1447d/02 GTGT TT 80.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa312-fa4a-722a-b909-f451f4077019",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với hồ sơ khai thuế mà người nộp thuế đã khai chỉ tiêu đề nghị hoàn trên tờ khai thuế của kỳ tính thuế trước ngày 01 tháng 7 năm 2026 nhưng chưa gửi hồ sơ hoàn thuế đến cơ quan thuế thì người nộp thuế gửi mẫu đơn, mẫu tờ khai của hồ sơ hoàn thuế theo quy định tại Thông tư số 80/2021/TT-BTC",
+          "code": "G12.0002094",
+          "attachments": [
+            {
+              "id": "019fa314-5f63-7759-990f-83f4d451e1d5",
+              "fileName": "01 HT TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa314-5f63-7759-990f-83f4d451e1d5/01 HT TT 80.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa313-26f0-72f2-9e23-dafd70f8a5d8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với hồ sơ khai thuế mà người nộp thuế đã khai chỉ tiêu đề nghị hoàn trên tờ khai thuế của kỳ tính thuế trước ngày 01 tháng 7 năm 2026 nhưng gửi hồ sơ hoàn thuế đến cơ quan thuế sau thời điểm quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì người nộp thuế thực hiện đề nghị hoàn thuế theo mẫu biểu quy định tại điểm a.2 khoản 1 Điều 46 Thông tư số 89/2026/TT-BTC",
+          "code": "G12.0002095",
+          "attachments": [
+            {
+              "id": "019fa314-ad03-773b-8b65-95755cf9b45c",
+              "fileName": "6. 01-8. GTGT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa314-ad03-773b-8b65-95755cf9b45c/6. 01-8. GTGT.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d87-7195-a442-104ae6dd177c",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe8-1af89bd23d1c",
+    "019fa2fb-b816-715f-b0a7-8559667eabb4",
+    "019fa6bb-5cc3-70ff-b663-0bb8c95abfb2",
+    "019fa328-0757-726b-936d-17f088ac9c48",
+    "019fa329-7177-760d-ad80-2bef251243b4",
+    "019fa6be-d9ec-771f-b967-a3bae0d4c476"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a442-104ae6dd177c",
+      "name": "Luật Thuế giá tri gia tăng năm 2024",
+      "code": "48/2024/QH15"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fa328-0757-726b-936d-17f088ac9c48",
+      "name": "Thông báo số tiền đề nghị hoàn nhưng không được hoàn thuế, số tiền đề nghị hoàn chưa đủ điều kiện được hoàn thuế (mẫu số 04/TB-HT)",
+      "code": "KQ.G12.001485"
+    },
+    {
+      "id": "019fa329-7177-760d-ad80-2bef251243b4",
+      "name": "Quyết định hoàn thuế kiêm bù trừ thu ngân sách nhà nước (mẫu số 02/QĐ-HT)",
+      "code": "KQ.G12.001558"
+    },
+    {
+      "id": "019fa6be-d9ec-771f-b967-a3bae0d4c476",
+      "name": "Phụ lục số tiền thuế, tiền chậm nộp, tiền phạt phải nộp được bù trừ (Mẫu số 01/PL-BT)",
+      "code": "KQ.G12000603"
+    },
+    {
+      "id": "019fa6bb-5cc3-70ff-b663-0bb8c95abfb2",
+      "name": "Quyết định hoàn thuế (Mẫu số 01/QĐ-HT)",
+      "code": "KQ.G12.001600"
+    },
+    {
+      "id": "019d2bb2-1c71-7574-afe8-1af89bd23d1c",
+      "name": "Thông báo về việc giải trình, bổ sung thông tin, tài liệu (Mẫu 01/TB-BSTT-NNT)",
+      "code": "KQ.G12.000566"
+    },
+    {
+      "id": "019fa2fb-b816-715f-b0a7-8559667eabb4",
+      "name": "Thông báo một phần số tiền đề nghị hoàn thuế trong hồ sơ hoàn thuế của người nộp thuế thuộc diện kiểm tra trước hoàn thuế (số 05/TB-HT )",
+      "code": "KQ.G12.000567"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d7542-0d62-7599-a2d0-c9e29c2314c1",
+      "name": "Khai thuế giá trị gia tăng đối với phương pháp khấu trừ thuế đối với dự án đầu tư thuộc diện được hoàn thuế",
+      "code": "1.008324.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-cd77-722f-9ad2-36c6fdecbfbb",
+      "name": "Khai thuế giá trị gia tăng đối với phương pháp khấu trừ thuế đối với dự án đầu tư thuộc diện được hoàn thuế",
+      "code": "1.008324.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559450271,
+  "updatedAt": 1785399197815,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố, Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/Chi cục thuế Doanh nghiệp lớn/Chi cục Thuế Thương mại điện tử/Thuế cơ sở",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ Tài chính",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

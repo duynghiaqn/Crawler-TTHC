@@ -1,0 +1,213 @@
+{
+  "id": "01a1ab25-8823-764f-b69c-38b97fec484b",
+  "code": "6.006937",
+  "codeNotation": "6.006937",
+  "executionSteps": [
+    {
+      "name": "Người đứng đầu bộ, cơ quan trung ương",
+      "description": "- Giao đơn vị trực thuộc hoặc đơn vị sự nghiệp công lập thuộc thẩm quyền quản lý lập báo cáo nghiên cứu tiền khả thi, báo cáo đề xuất chủ trương đầu tư đối với chương trình, dự án quy định tại điểm a khoản 1 Điều 5 của Nghị định 40/2020/NĐ-CP. \n- Thành lập Hội đồng thẩm định hoặc giao đơn vị có chức năng thẩm định báo cáo nghiên cứu tiền khả thi, báo cáo đề xuất chủ trương đầu tư; thẩm định nguồn vốn và khả năng cân đối vốn từ nguồn thu hợp pháp của cơ quan nhà nước, đơn vị sự nghiệp công lập dành để đầu tư;\n- Chỉ đạo đơn vị trực thuộc hoặc đơn vị sự nghiệp công lập thuộc thẩm quyền quản lý hoàn chỉnh báo cáo nghiên cứu tiền khả thi, báo cáo đề xuất chủ trương đầu tư; trình người đứng đầu bộ, cơ quan trung ương xem xét, quyết định chủ trương đầu tư chương trình, dự án."
+    },
+    {
+      "name": "Chủ tịch Ủy ban nhân dân các cấp:",
+      "description": "- Giao cơ quan chuyên môn, đơn vị trực thuộc hoặc đơn vị sự nghiệp công lập thuộc thẩm quyền quản lý lập báo cáo nghiên cứu tiền khả thi, báo cáo đề xuất chủ trương đầu tư đối với chương trình, dự án quy định tại điểm a khoản 2 Điều 5 của Nghị định số 40/2020/NĐ-CP.\n- Thành lập Hội đồng thẩm định hoặc giao đơn vị có chức năng thẩm định báo cáo nghiên cứu tiền khả thi, báo cáo đề xuất chủ trương đầu tư; thẩm định nguồn vốn và khả năng cân đối vốn từ nguồn thu hợp pháp của cơ quan, đơn vị sự nghiệp công lập dành để đầu tư.\n- Chỉ đạo cơ quan chuyên môn, đơn vị trực thuộc hoặc đơn vị sự nghiệp công lập thuộc thẩm quyền quản lý hoàn chỉnh báo cáo nghiên cứu tiền khả thi, báo cáo đề xuất chủ trương đầu tư; trình Chủ tịch Ủy ban nhân dân các cấp xem xét, quyết định chủ trương đầu tư chương trình, dự án."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "+ Thời gian thẩm định báo cáo đề xuất chủ trương đầu tư (khoản 6 Điều 9 Nghị định số 40/2020/NĐ-CP): Không quá 30 ngày kể từ ngày Hội đồng thẩm định hoặc cơ quan chủ trì thẩm định nhận đủ hồ sơ hợp lệ.  + Thời gian quyết định chủ trương đầu tư (khoản 3 Điều 10 Nghị định số 40/2020/NĐ-CP): Không quá 10 ngày Đối tượng thực hiện thủ tục hành chính: cơ quan trung ương, địa phương và đơn vị sự nghiệp công lập. ",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Hồ sơ hợp lệ",
+  "name": "Quyết định chủ trương đầu tư chương trình, dự án sử dụng vốn từ nguồn thu hợp pháp của các cơ quan nhà nước, đơn vị sự nghiệp công lập dành để đầu tư",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "05 bộ (khoản 2 Điều 10 Nghị định số 40/2020/NĐ-CP)",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a9e2-98f7-72a7-b2ab-135917dd523b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị cấp có thẩm quyền quyết định chủ trương đầu tư dự án",
+          "code": "G12.000144",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a9e8-759e-71d4-8df6-2df5268eb2f9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo đề xuất chủ trương đầu tư dự án nhóm B, C",
+          "code": "G12.000145",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9026-c65aa4cb6e7b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các tài liệu liên quan khác (nếu có)",
+          "code": "G12.000030",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a9dc-acda-702c-a59a-c76aba597960",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo thẩm định của Hội đồng thẩm định hoặc cơ quan chủ trì thẩm định về chủ trương đầu tư chương trình, dự án",
+          "code": "G12.000143",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Hồ sơ hợp lệ",
+  "keywords": "",
+  "categoryIds": [
+    "01a1a973-43f4-732a-95f7-944491e73cf1"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b670-f845029b8ee4",
+    "019d2bb3-5d87-7195-a440-ab006a7783d8"
+  ],
+  "resultIds": [
+    "019d2bb2-1c90-71e1-a8f8-e9e11bdec1f4"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1a973-43f4-732a-95f7-944491e73cf1",
+      "name": "Quản lý đầu tư công",
+      "code": "G12.97"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86",
+    "019d9022-10f8-72ed-a697-2896a786f2b3",
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    },
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    },
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b670-f845029b8ee4",
+      "name": "Luật Đầu tư công",
+      "code": "49/2014/QH13"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a440-ab006a7783d8",
+      "name": "Nghị định số 40/2020/NĐ-CP Quy đinh chi tiết thi hành một số điều của Luật Đầu tư công",
+      "code": "40/2020/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c90-71e1-a8f8-e9e11bdec1f4",
+      "name": "Quyết định phê duyệt chủ trương đầu tư dự án",
+      "code": "KQ.H36.000285"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911009,
+  "updatedAt": 1794448911009,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: \n+ Cơ quan có thẩm quyền quyết định: các bộ, cơ quan trung ương, Uỷ ban nhân dân các cấp và người đứng đầu đơn vị sự nghiệp công lập, người đứng đầu đơn vị sự nghiệp công lập.\n+ Cơ quan trực tiếp thực hiện TTHC: bộ, cơ quan trung ương, địa phương và đơn vị sự nghiệp công lập. \n+ Cơ quan phối hợp thực hiện TTHC: cơ quan có liên quan.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Hồ sơ hợp lệ",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

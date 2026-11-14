@@ -1,0 +1,185 @@
+{
+  "id": "01a19a5d-0ee6-7779-a06c-99ec8acfb22f",
+  "code": "5.004004",
+  "codeNotation": "5.004004",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Sau khi cơ quan đại diện chủ sở hữu ra quyết định tạm ngừng, đình chỉ hoạt động, chấm dứt kinh doanh, doanh nghiệp có trách nhiệm thực hiện các thủ tục tạm ngừng, đình chỉ hoạt động, chấm dứt kinh doanh theo quy định của pháp luật, cụ thể: thủ tục “Thông báo tạm ngừng kinh doanh” theo quy định tại:\n+ Luật Doanh nghiệp của Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam số 59/2020/QH14 ngày 17 tháng 6 năm 2020;\n+ Nghị định số 01/2021/NĐ-CP ngày 4 tháng 01 năm 2021 của Chính phủ về đăng ký doanh nghiệp;\n+ Thông tư số 01/2021/TT-BKHĐT.\nTrường hợp cơ quan đăng ký kinh doanh, cơ quan nhà nước có thẩm quyền yêu cầu tạm ngừng kinh doanh ngành, nghề kinh doanh có điều kiện, doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ có trách nhiệm báo cáo cơ quan đại diện chủ sở hữu doanh nghiệp để ra quyết định tạm ngừng kinh doanh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Theo quy định khi thực hiện thủ tục “Thông báo tạm ngừng kinh doanh”.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Theo quy định khi thực hiện thủ tục “Thông báo tạm ngừng kinh doanh”.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Doanh nghiệp tạm ngừng, đình chỉ hoạt động, chấm dứt kinh doanh theo yêu cầu của cơ quan đại diện chủ sở hữu và các trường hợp quy định tại khoản 2 Điều 206 Luật Doanh nghiệp.",
+  "name": "Tạm ngừng, đình chỉ hoạt động, chấm dứt kinh doanh tại doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71a8-7045-88a1-b5fa5cf336ad",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Theo quy định khi thực hiện thủ tục “Thông báo tạm ngừng kinh doanh”.",
+          "code": "G12.000183",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "* Cơ quan thực hiện: Cơ quan đại diện chủ sở hữu và các trường hợp quy định tại khoản 2 Điều 206 Luật Doanh nghiệp.\n* Đối tượng thực hiện thủ tục hành chính: Doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ.",
+  "keywords": "",
+  "categoryIds": [
+    "01a13d69-fb2f-771c-afab-773deb42bc3f"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b474-8c42e40ee4ef",
+    "019d2bb3-5d87-7195-a448-47111f521a58",
+    "019d2bb3-5d87-7195-a449-80637c595ab5",
+    "019e390e-9094-746b-9b67-f7d43f5290fe"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3d-7379-a672-8c396a0e9ec8"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a13d69-fb2f-771c-afab-773deb42bc3f",
+      "name": "Phát triển doanh nghiệp nhà nước",
+      "code": "G12-TC40"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e919e-06bb-772b-919d-4248750a4793"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e919e-06bb-772b-919d-4248750a4793",
+      "name": "Cơ quan đại diện chủ sở hữu"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d87-7195-a448-47111f521a58",
+      "name": "Nghị định số 01/2021/NĐ-CP về đăng ký doanh nghiệp",
+      "code": "Nghị định số 01/2021/NĐ-CP"
+    },
+    {
+      "id": "019e390e-9094-746b-9b67-f7d43f5290fe",
+      "name": "Luật Doanh nghiệp",
+      "code": "Luật số: 59/2020/QH14"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b474-8c42e40ee4ef",
+      "name": "Về thành lập, sắp xếp lại, chuyển đổi sở hữu, chuyển giao quyền đại diện chủ sở hữu tại doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ",
+      "code": "Nghị định số 23/2022/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a449-80637c595ab5",
+      "name": "Thông tư số 01/2021/TT-BKHĐT hướng dẫn về Đăng ký doanh nghiệp",
+      "code": "Thông tư số 01/2021/TT-BKHĐT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3d-7379-a672-8c396a0e9ec8",
+      "name": "Theo quy định khi thực hiện thủ tục “Thông báo tạm ngừng kinh doanh”.",
+      "code": "KQ.G12.001392"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910943,
+  "updatedAt": 1794448910943,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Doanh nghiệp tạm ngừng, đình chỉ hoạt động, chấm dứt kinh doanh theo yêu cầu của cơ quan đại diện chủ sở hữu và các trường hợp quy định tại khoản 2 Điều 206 Luật Doanh nghiệp.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "01a0a81a-0e11-7164-a806-78d0b3deddba",
+  "code": "1.116622",
+  "codeNotation": "1.116622",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1. Người sử dụng đất nộp hồ sơ đến một trong các cơ quan sau trên địa bàn Thành phố: Trung tâm Phục vụ hành chính công hoặc Chi nhánh Văn phòng đăng ký đất đai. \n2. Cơ quan tiếp nhận hồ sơ thực hiện: \n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. \nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai Thành phố, Chi nhánh Văn phòng đăng ký đất đai theo quy định. \n3. Văn phòng đăng ký đất đai Thành phố, Chi nhánh Văn phòng đăng ký đất đai thực hiện các công việc sau: \na) Thông báo bằng văn bản cho bên chuyển quyền và phối hợp với Ủy ban nhân dân cấp xã nơi có đất thực hiện việc niêm yết tại trụ sở Ủy ban nhân dân cấp xã về việc làm thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho người nhận chuyển quyền. Trường hợp không rõ địa chỉ của bên chuyển quyền để thông báo thì thực hiện đăng tin 03 lần trên phương tiện thông tin đại chúng ở địa phương, chi phí đăng tin do người đề nghị cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trả;\nb) Sau thời hạn 30 ngày, kể từ ngày thông báo hoặc đăng tin lần đầu tiên trên phương tiện thông tin đại chúng ở địa phương mà không có đơn đề nghị giải quyết tranh chấp thì thực hiện công việc tại Mục 3 Phần VI của “Phần C. TRÌNH TỰ, THỦ TỤC ĐĂNG KÝ ĐẤT ĐAI, TÀI SẢN GẮN LIỀN VỚI ĐẤT” Phụ lục IV ban hành kèm theo Quyết định số 44/2026/QĐ-UBND, trong đó đồng thời thực hiện việc chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai đối với thửa đất của bên chuyển quyền sử dụng đất.\nTrường hợp có đơn đề nghị giải quyết tranh chấp thì Văn phòng đăng ký đất đai Thành phố, Chi nhánh Văn phòng Đăng ký đất đai hướng dẫn các bên nộp đơn đến cơ quan nhà nước có thẩm quyền giải quyết tranh chấp theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với toàn bộ diện tích đất đang sử dụng quy định tại điểm a khoản 2 Điều 24 Nghị định số 101/2024/NĐ-CP (cấp tỉnh)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6a6f-d6ac-76df-a544-0ff054622ebc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18 ban hành kèm theo Quyết định số 44/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân Thành phố về quy định về trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn Thành phố Hồ Chí Minh",
+          "code": "TP-H29.000007",
+          "attachments": [
+            {
+              "id": "019f6a6f-d08b-723c-8d17-ad5ebe557ac2",
+              "fileName": "Mẫu số 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f6a6f-d08b-723c-8d17-ad5ebe557ac2/Mẫu số 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f6a87-5179-714e-82b5-1c34534d8c82",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mảnh trích đo bản đồ địa chính hoặc Phiếu đo đạc chỉnh lý thửa đất",
+          "code": "TP-H29.000011",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6a7a-9e36-778c-a0db-d7283ba080a0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": true,
+          "name": "",
+          "code": "",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0a817-a155-74cb-96bf-e6ef759c4e1d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ về việc nhận chuyển quyền sử dụng đất của phần diện tích tăng thêm đối với trường hợp quy định tại điểm a khoản 2 Điều 24 Nghị định số 101/2024/NĐ-CP",
+          "code": "TP-H29.0000107",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0a818-e71a-751f-8cf7-d08634d863a3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện (nếu có)",
+          "code": "TP-H29.0000108",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019f6a7a-9e36-778c-a0db-d7283ba080a0"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d8a38-d4a7-713d-9573-1e39f9f5c04f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+      "name": "Sở Nông nghiệp và Môi trường"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019f6a7a-9e36-778c-a0db-d7283ba080a0",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H29.000003"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-855a-9a81af57b106",
+  "departmentPromulgateCode": "H29",
+  "departmentPromulgateName": "UBND Thành phố Hồ Chí Minh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789645831316,
+  "updatedAt": 1789645831316,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0a80b-20fb-7209-99f4-f304b44b1266",
+    "proposalNumber": "4716/QĐ-UBND",
+    "decisionDate": 1787590800000,
+    "decisionNumber": null,
+    "publicationDate": 1789645830511,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-855a-9a81af57b106",
+      "name": "UBND Thành phố Hồ Chí Minh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

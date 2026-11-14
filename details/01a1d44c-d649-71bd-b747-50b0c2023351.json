@@ -1,0 +1,299 @@
+{
+  "id": "01a1d44c-d649-71bd-b747-50b0c2023351",
+  "code": "2.002947",
+  "codeNotation": "2.002947",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Tổ chức, doanh nghiệp, hộ kinh doanh, cá nhân lập 01 bộ hồ sơ đề nghị \nhỗ trợ gửi trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính đến Trung tâm Phục vụ hành chính công các cấp.\nTrung tâm Phục vụ hành chính tiếp nhận, rà soát tính hợp lệ của hồ sơ đề nghị hỗ trợ kinh phí. Trường hợp hồ sơ đề nghị chưa hợp lệ, có văn bản thông báo cho tổ chức, doanh nghiệp, hộ kinh doanh, cá nhân điều chỉnh, bổ sung.\n b) Trong thời hạn 60 ngày kể từ ngày nhận hồ sơ đề nghị hỗ trợ hợp lệ, Sở Khoa học và Công nghệ hoặc Sở Nông nghiệp và Môi trường hoặc Ủy ban nhân dân cấp xã thực hiện xét duyệt hỗ trợ: \n+ Trường hợp hồ sơ không đáp ứng điều kiện hỗ trợ, có văn bản thông báo cho tổ chức, doanh nghiệp, hộ kinh doanh, cá nhân và nêu rõ lý do không hỗ trợ. \n+ Trường hợp hồ sơ đầy đủ, hợp lệ và đáp ứng điều kiện hỗ trợ, thực hiện tổng hợp, giải quyết thông qua quyết định phê duyệt danh sách tổ chức, doanh nghiệp, hộ kinh doanh, cá nhân được hỗ trợ và kinh phí hỗ trợ."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "hỗ trợ kinh phí xác lập quyền sở hữu trí tuệ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1d446-1404-72fa-a8f8-9bd28fc45819",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị hỗ trợ kinh phí xác lập quyền sở hữu trí tuệ",
+          "code": "TP-H29.0000145",
+          "attachments": [
+            {
+              "id": "01a1d446-0e68-7178-8205-5976bdf89ee1",
+              "fileName": "Mẫu số 04 HỖ TRỢ KINH PHÍ XÁC LẬP QUYỀN SỞ HỮU TRÍ TUỆ.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1d446-0e68-7178-8205-5976bdf89ee1/Mẫu số 04 HỖ TRỢ KINH PHÍ XÁC LẬP QUYỀN SỞ HỮU TRÍ TUỆ.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1d447-80e1-7114-84bc-93de57e8a37b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao có chứng thực văn bằng bảo hộ/giấy chứng nhận",
+          "code": "TP-H29.0000146",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1d448-a183-72ea-af20-06f6c6f94006",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hình ảnh hoặc tài liệu minh chứng: kinh phí xác lập quyền sở hữu trí tuệ trong và ngoài nước đã chi tại thời điểm xác lập quyền theo quy định, bao gồm các khoản phí, lệ phí phải nộp cho cơ quan có thẩm quyền, chi phí dịch vụ đại diện,  tư vấn sở hữu trí tuệ, chi phí khảo nghiệm giống cây trồng và các khoản chi phí  trực tiếp, hợp pháp khác có liên quan đến việc xác lập quyền sở hữu trí tuệ (trừ trường hợp xác lập quyền đối với sáng chế); việc đang sử dụng, khai thác kiểu dáng công nghiệp, thiết kế bố trí mạch tích hợp bán dẫn, nhãn hiệu, giống cây trồng đã được cấp văn bằng bảo hộ/giấy chứng nhận.",
+          "code": "TP-H29.0000147",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-14f00d4f0a62"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1d43d-d03f-7650-afee-212783f5623a"
+  ],
+  "resultIds": [
+    "01a1d44c-2132-7019-8f86-5b29544af21d"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+      "name": "Hoạt động khoa học và công nghệ",
+      "code": "G06-KC02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+    "name": "Hoạt động khoa học và công nghệ",
+    "code": "G06-KC02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d951d-8d60-76f9-ba48-27dcc889b494",
+    "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d951d-8d60-76f9-ba48-27dcc889b494",
+      "name": "Sở Khoa học và Công nghệ"
+    },
+    {
+      "id": "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+      "name": "Sở Nông nghiệp và Môi trường"
+    },
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1d43d-d03f-7650-afee-212783f5623a",
+      "name": "Quy định một số cơ chế, chính sách hỗ trợ nghiên cứu khoa học, phát triển công nghệ, đổi mới sáng tạo; chuyển giao công nghệ; xác lập, khai thác và bảo vệ quyền sở hữu trí tuệ trên địa bàn Thành phố Hồ Chí Minh",
+      "code": "62/2026/NQ-HĐND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1d44c-2132-7019-8f86-5b29544af21d",
+      "name": "Quyết định Về việc hỗ trợ kinh phí đăng ký xác lập quyền sở hữu trí tuệ cho tổ chức.doanh nghiệp.hộ kinh doanh.cá nhân",
+      "code": "KQ-H29.0000026"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-855a-9a81af57b106",
+  "departmentPromulgateCode": "H29",
+  "departmentPromulgateName": "UBND Thành phố Hồ Chí Minh",
+  "cases": [
+    {
+      "id": "01a1d44f-4295-7049-8c85-38f6186c49ae",
+      "name": "Hỗ trợ kinh phí xác lập quyền sở hữu trí tuệ",
+      "code": "2.002947.01",
+      "processingDay": {
+        "qty": 60,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1794563182039,
+  "updatedAt": 1794563182039,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1d42a-fb00-75af-a866-3af9156fcb27",
+    "proposalNumber": "7512/QĐ-UBND",
+    "decisionDate": 1794243600000,
+    "decisionNumber": null,
+    "publicationDate": 1794563181985,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-855a-9a81af57b106",
+      "name": "UBND Thành phố Hồ Chí Minh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "01a18726-a3e3-71b0-bc06-6868560643c1",
+  "code": "6.006844",
+  "codeNotation": "6.006844",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Cơ quan, đơn vị được giao quản lý tài sản lập hồ sơ đề nghị thanh lý tài sản kết cấu hạ tầng cấp nước sạch gửi cơ quan quản lý cấp trên (nếu có) để tổng hợp, báo cáo cơ quan chuyên môn về cấp nước sạch.\nBước 2: Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ, cơ quan chuyên môn về cấp nước sạch có văn bản đề nghị trình Ủy ban nhân dân cấp tỉnh hoặc cơ quan được  Ủy ban nhân dân cấp tỉnh phân cấp thẩm quyền xem xét, quyết định.\nBước 3: Trong thời hạn 30 ngày, kể từ ngày nhận đủ hồ sơ, Ủy ban nhân dân cấp tỉnh hoặc cơ quan được  Ủy ban nhân dân cấp tỉnh phân cấp thẩm quyền quyết định xem xét, ban hành Quyết định thanh lý tài sản kết cấu hạ tầng cấp nước sạch hoặc có văn bản hồi đáp trong trường hợp đề nghị thanh lý tài sản không phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 45 ngày kể từ ngày nhận đủ hồ sơ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 45 ngày kể từ ngày nhận đủ hồ sơ.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Thanh lý tài sản kết cấu hạ tầng cấp nước sạch",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-0a8670d508d6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của cơ quan, đơn vị có tài sản thanh lý (trong đó nêu rõ lý do thanh lý)",
+          "code": "G12.06.0057",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-0df271114299",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị thanh lý (tên tài sản; địa chỉ; loại hình công trình; năm đưa vào sử dụng; diện tích; công suất, số hộ sử dụng nước theo thiết kế và thực tế; giá trị; tình trạng tài sản)",
+          "code": "G12.06.0056",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-123b8b7ed19f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản tiếp nhận vật liệu, vật tư thu hồi của cơ quan, đơn vị (trường hợp vật liệu, vật tư thu hồi được xử lý điều chuyển) (nếu có)",
+          "code": "G12.06.0058",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-7adf4d20e448",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "G12.060049",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: UBND cấp xã",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d87-7195-a448-a2e38e0d694c"
+  ],
+  "resultIds": [
+    "019d2bb2-1c84-70e1-8f77-6707590bee47"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d87-7195-a448-a2e38e0d694c",
+      "name": "Nghị định số 43/2022/NĐ-CP ngày 24/6/2022 của Chính phủ quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng cấp nước sạch.",
+      "code": "NĐ43/2022/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c84-70e1-8f77-6707590bee47",
+      "name": "Quyết định thanh lý tài sản kết cấu hạ tầng cấp nước sạch.",
+      "code": "KQ.G12.001421"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910948,
+  "updatedAt": 1794448910948,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: UBND cấp tỉnh hoặc cơ quan được  Ủy ban nhân dân cấp tỉnh phân cấp thẩm quyền quyết định.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "01a1b04f-b88c-758f-b449-96490dd14b4d",
+  "code": "6.006945",
+  "codeNotation": "6.006945",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Ngân hàng chính sách gửi hồ sơ đề nghị cấp bảo lãnh chính phủ tới Bộ Tài chính (Mẫu văn bản đề nghị xem xét cấp bảo lãnh cho khoản phát hành trái phiếu theo Phụ lục 11 Thông tư số 58/2018/TT-BTC ngày 10/7/2018 của Bộ Tài chính):\nChậm nhất mười (10) ngày làm việc sau khi Thủ tướng Chính phủ phê duyệt chỉ tiêu tăng trưởng tín dụng hàng năm, các ngân hàng chính sách gửi hồ sơ đến Bộ Tài chính để kiểm tra tính đầy đủ, hợp lệ và yêu cầu bổ sung hồ sơ nếu chưa đáp ứng.\nBước 2: Bộ Tài chính thẩm định hồ sơ, báo cáo Thủ tướng Chính phủ: \nCăn cứ hồ sơ đề nghị cấp bảo lãnh cho khoản phát hành trái phiếu, các quy định tại Nghị định 91/2018/NĐ-CP ngày 26/6/2018 và các quy định của pháp luật về phát hành trái phiếu, trong vòng ba mươi (30) ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp bảo lãnh, Bộ Tài chính xem xét, có ý kiến đối với kế hoạch phát hành trái phiếu được bảo lãnh hàng năm của các ngân hàng chính sách.\nBước 3: Sau khi được Thủ tướng Chính phủ phê duyệt, Bộ Tài chính thông báo bằng văn bản cho ngân hàng chính sách để tổ chức phát hành trái phiếu.\nBước 4: Chậm nhất là năm (05) ngày làm việc kể từ ngày kết thúc mỗi đợt phát hành, ngân hàng chính sách báo cáo Bộ Tài chính chi tiết kết quả phát hành theo hướng dẫn của Bộ Tài chính (Mẫu báo cáo kết quả từng đợt phát hành trái phiếu theo Phụ lục 12 Thông tư số 58/2018/TT-BTC ngày 10/7/2018 của Bộ Tài chính) để Bộ Tài chính xác định nghĩa vụ bảo lãnh thực tế theo quy định của pháp luật đối với trái phiếu đã phát hành."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Cấp bảo lãnh chính phủ cho ngân hàng chính sách",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-0e32442a1598"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe6-8e4938c29bba"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe9-2d6c4f4b60dc"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+      "name": "Quản lý nợ",
+      "code": "G12-TC12"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-ab18-77a9-86e6-51520f70579d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-ab18-77a9-86e6-51520f70579d",
+      "name": "Đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe6-8e4938c29bba",
+      "name": "Về cấp và quản lý bảo lãnh chính phủ",
+      "code": "91/2018/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe9-2d6c4f4b60dc",
+      "name": "Thư bảo lãnh của Bộ Tài chính",
+      "code": "KQ.G12.000182"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911001,
+  "updatedAt": 1794448911001,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

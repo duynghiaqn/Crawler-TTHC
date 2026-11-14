@@ -1,0 +1,381 @@
+{
+  "id": "019ff50e-d8bd-7099-b093-bbe1f683eeb5",
+  "code": "1.116346",
+  "codeNotation": "1.116346",
+  "executionSteps": [
+    {
+      "name": "Bước 1",
+      "description": "Bước 1: Tổ chức đề nghị nộp hồ sơ trực tiếp, qua dịch vụ bưu chính công ích đến Bộ phận Một cửa; hoặc trực tuyến tại địa chỉ: https://dichvucong.gov.vn/. \nCông chức Sở Khoa học và Công nghệ tiếp nhận, kiểm tra hồ sơ theo quy định."
+    },
+    {
+      "name": "Bước 2",
+      "description": "Bước 2: Sở Khoa học và Công nghệ thực hiện:\nTrong thời hạn 10 ngày làm việc, Sở Khoa học và Công nghệ chủ trì, phối hợp với các cơ quan, đơn vị liên quan tổ chức thẩm định hồ sơ, kiểm tra xác minh thực tế và xem xét quyết định hỗ trợ. Trường hợp sau khi kiểm tra, xác minh và thẩm định hồ sơ, nếu không đủ điều kiện hỗ trợ, Sở Khoa học và Công nghệ ban hành văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n+ Trung tâm Phục vụ hành chính công cấp xã.\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n+ Trung tâm Phục vụ hành chính công cấp xã.\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n+ Trung tâm Phục vụ hành chính công cấp xã.\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Các doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã hoạt động theo quy định của pháp luật Việt Nam, có trụ sở đóng trên địa bàn tỉnh Bắc Ninh tuân thủ các yêu cầu của tiêu chuẩn, công cụ, mô hình, phương pháp quản lý tiên tiến đề nghị hỗ trợ.",
+  "name": "Hỗ trợ tổ chức áp dụng tiêu chuẩn, công cụ, mô hình, phương pháp quản lý tiên tiến",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Đối với nội dung hỗ trợ được quy định tại điểm a, điểm b khoản 4 Điều 12 Nghị quyết số 25/2026/NQ-HĐND, hồ sơ gồm có",
+      "profileComponents": [
+        {
+          "profileComponentId": "019ff400-efc5-711a-84be-4088cfd06bb6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ (theo Mẫu số 2.1)",
+          "code": "TP-H05.000239",
+          "attachments": [
+            {
+              "id": "019ff400-da5f-77b8-a060-dc4b4affee0b",
+              "fileName": "Mẫu đơn đề nghị hỗ trợ (mẫu số 2.1).docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019ff400-da5f-77b8-a060-dc4b4affee0b/Mẫu đơn đề nghị hỗ trợ (mẫu số 2.1).docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff506-3452-712a-89b3-f0a1cef4713a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy chứng nhận đăng ký tổ chức",
+          "code": "TP-H05.000262",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff507-08bc-77ef-9ca4-ca76c0832584",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận, công nhận đã được đánh giá phù hợp với yêu cầu của tiêu chuẩn, mô hình, phương pháp, công cụ quản, lý tiên tiến do tổ chức chứng nhận, tổ chức công nhận hợp pháp cấp",
+          "code": "TP-H05.000263",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff508-2fc5-770e-9452-5319f7dcc9f8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bằng chứng chứng minh chi phí xây dựng, áp dụng tiêu chuẩn, mô hình, phương pháp, công cụ quản lý tiên tiến: Hợp đồng và hóa đơn với tổ chức đánh giá sự phù hợp",
+          "code": "TP-H05.000264",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff508-e5ce-72c6-9dd9-ca38729a4fa8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hợp đồng, thanh lý hợp đồng với tổ chức thực hiện dịch vụ, tổ chức tư vấn (nếu có)",
+          "code": "TP-H05.000265",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff509-80b9-7468-8655-444620d479dc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hóa đơn, chứng từ tài chính có liên quan (nếu có)",
+          "code": "TP-H05.000266",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b) Đối với nội dung hỗ trợ được quy định tại điểm c và điểm d khoản 4 Điều 12 Nghị quyết số 25/2026/NQ-HĐND, hồ sơ gồm có:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019ff400-efc5-711a-84be-4088cfd06bb6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hỗ trợ (theo Mẫu số 2.1)",
+          "code": "TP-H05.000239",
+          "attachments": [
+            {
+              "id": "019ff400-da5f-77b8-a060-dc4b4affee0b",
+              "fileName": "Mẫu đơn đề nghị hỗ trợ (mẫu số 2.1).docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019ff400-da5f-77b8-a060-dc4b4affee0b/Mẫu đơn đề nghị hỗ trợ (mẫu số 2.1).docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019ff506-3452-712a-89b3-f0a1cef4713a",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy chứng nhận đăng ký tổ chức",
+          "code": "TP-H05.000262",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff50b-873b-7002-8214-dd4f7e549552",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kết quả xây dựng, áp dụng mô hình, phương pháp, công cụ quản lý tiên tiến tại tổ chức",
+          "code": "TP-H05.000267",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff50d-27bc-738d-81a0-935151a777b9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bằng chứng chứng minh chi phí xây dựng, áp dụng mô hình, phương pháp, công cụ quản lý tiên tiến: Hợp đồng, thanh lý hợp đồng với tổ chức thực hiện dịch vụ, tổ chức tư vấn",
+          "code": "TP-H05.000268",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019ff509-80b9-7468-8655-444620d479dc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hóa đơn, chứng từ tài chính có liên quan (nếu có)",
+          "code": "TP-H05.000266",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "hỗ trợ tổ chức áp dụng tiêu chuẩn",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-5fb3c1d54155"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019ff408-820d-70cb-885a-526fec10a7fe"
+  ],
+  "resultIds": [
+    "019ff50e-40ea-7057-8fd2-099e8d041440"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3ed-9a78b73f8777"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3ed-9a78b73f8777"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-5fb3c1d54155",
+      "name": "Tiêu chuẩn đo lường chất lượng",
+      "code": "G02-CT20"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-5fb3c1d54155",
+    "name": "Tiêu chuẩn đo lường chất lượng",
+    "code": "G02-CT20"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3ed-9a78b73f8777",
+      "name": "Sở Khoa học và Công nghệ tỉnh Bắc Ninh",
+      "code": "H05.11"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3ed-9a78b73f8777",
+      "name": "Sở Khoa học và Công nghệ tỉnh Bắc Ninh",
+      "code": "H05.11"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff408-820d-70cb-885a-526fec10a7fe",
+      "name": "Nghị quyết số 25/2026/NQ-HĐND ngày 16/7/2026 ban hành Quy định một số chính sách khuyến khích, hỗ trợ phát triển công nghệ và đổi mới sáng tạo trên địa bàn tỉnh Bắc Ninh ",
+      "code": "25/2026/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019ff50e-40ea-7057-8fd2-099e8d041440",
+      "name": "Quyết định hỗ trợ tổ chức áp dụng tiêu chuẩn, công cụ, mô hình, phương pháp quản lý tiên tiến",
+      "code": "KQ-H05.000144"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND tỉnh Bắc Ninh",
+  "cases": [
+    {
+      "id": "01a00e92-4d4f-716b-96a6-785ac91885ea",
+      "name": "Hỗ trợ tổ chức áp dụng tiêu chuẩn, công cụ, mô hình, phương pháp quản lý tiên tiến",
+      "code": "1.116346.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786937086409,
+  "updatedAt": 1786937086409,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Khoa học và Công nghệ tỉnh Bắc Ninh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức:\n- Trực tiếp hoặc qua dịch vụ bưu chính công ích:\n+ Trung tâm Phục vụ hành chính công cấp tỉnh; địa chỉ tầng 1 và tầng 2 (giữa 2 toà nhà A, B) Khu liên cơ quan, Quảng trường 3/2, phường Bắc Giang, tỉnh Bắc Ninh.\n+ Điểm tiếp nhận và trả kết quả TTHC phường Kinh Bắc; địa chỉ: Số 31, đường Kinh Dương Vương, phường Kinh Bắc, tỉnh Bắc Ninh;\n+ Trung tâm Phục vụ hành chính công cấp xã.\n- Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/.",
+  "delegatedAgencies": "Sở Khoa học và Công nghệ tỉnh Bắc Ninh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Các doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã hoạt động theo quy định của pháp luật Việt Nam, có trụ sở đóng trên địa bàn tỉnh Bắc Ninh tuân thủ các yêu cầu của tiêu chuẩn, công cụ, mô hình, phương pháp quản lý tiên tiến đề nghị hỗ trợ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff3f2-f065-72de-8f01-8fe5cabd22de",
+    "proposalNumber": "2134/QĐ-UBND",
+    "decisionDate": 1785690000000,
+    "decisionNumber": null,
+    "publicationDate": 1786937086343,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND tỉnh Bắc Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

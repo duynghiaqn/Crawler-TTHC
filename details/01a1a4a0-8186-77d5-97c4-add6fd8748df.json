@@ -1,0 +1,186 @@
+{
+  "id": "01a1a4a0-8186-77d5-97c4-add6fd8748df",
+  "code": "6.006905",
+  "codeNotation": "6.006905",
+  "executionSteps": [
+    {
+      "name": "Trường hợp điều chỉnh thu ngân sách nhà nước",
+      "description": "- Trường hợp giao dịch trực tiếp tại Kho bạc Nhà nước: Cơ quan thu lập chứng từ và giấy tờ liên quan (nếu có) gửi trực tiếp tại KBNN nơi giao dịch. KBNN tiếp nhận, kiểm soát tính hợp pháp, hợp lệ, kiểm tra số liệu. Trường hợp đủ điều kiện điều chỉnh, KBNN hạch toán và trả lại cơ quan thu 01 liên chứng từ. Trường hợp không đủ điều kiện điều chỉnh, KBNN trả lại hồ sơ cho cơ quan thu.\n- Trường hợp giao dịch trực tuyến: Cơ quan thu lập chứng từ và giấy tờ liên quan (nếu có) truyền sang KBNN nơi giao dịch. KBNN tiếp nhận, kiểm soát tính hợp pháp, hợp lệ, kiểm tra số liệu. Trường hợp đủ điều kiện điều chỉnh, KBNN hạch toán và truyền chứng từ đã hạch toán sang cơ quan thu. Trường hợp không đủ điều kiện điều chỉnh, KBNN thông báo đến cơ quan thu"
+    },
+    {
+      "name": "Trường hợp điều chỉnh thu NSNN bằng ngoại tệ",
+      "description": "Trường hợp giao dịch trực tiếp tại Kho bạc Nhà nước: Cơ quan thu lập chứng từ và giấy tờ liên quan (nếu có) gửi trực tiếp tại KBNN nơi giao dịch. KBNN tiếp nhận, kiểm soát tính hợp pháp, hợp lệ, kiểm tra số liệu. Trường hợp đủ điều kiện điều chỉnh, KBNN hạch toán và trả lại cơ quan thu 01 liên chứng từ. Trường hợp không đủ điều kiện điều chỉnh, KBNN trả lại hồ sơ cho cơ quan thu"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Chứng từ hợp lệ, hợp pháp",
+  "name": "Điều chỉnh thu ngân sách nhà nước và thu ngân sách nhà nước bằng ngoại tệ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Trường hợp điều chỉnh thu ngân sách nhà nước",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd66-a765999106e2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đối với giao dịch trực tiếp lập 02 liên Giấy đề nghị điều chỉnh thu NSNN bằng ngoại tệ (Mẫu số C1-07b). Đối với giao dịch trực tuyến 01 liên Giấy đề nghị điều chỉnh thu NSNN bằng ngoại tệ (Mẫu số C1-07b).",
+          "code": "G12.000100",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp điều chỉnh thu NSNN bằng ngoại tệ",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd66-a765999106e2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đối với giao dịch trực tiếp lập 02 liên Giấy đề nghị điều chỉnh thu NSNN bằng ngoại tệ (Mẫu số C1-07b). Đối với giao dịch trực tuyến 01 liên Giấy đề nghị điều chỉnh thu NSNN bằng ngoại tệ (Mẫu số C1-07b).",
+          "code": "G12.000100",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan thu",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4c-ca9f6b486fb7"
+  ],
+  "resultIds": [
+    "01a1a4a5-7a49-73f7-a2ae-a1d692ab6e2a",
+    "01a1a4a6-a70e-7420-b929-3d59fad1d642"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+      "name": "Kho bạc Nhà nước",
+      "code": "G12-TC07"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-ab18-77a9-86e6-51520f70579d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-ab18-77a9-86e6-51520f70579d",
+      "name": "Đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be4c-ca9f6b486fb7",
+      "name": "Thông tư số 328/2016/TT-BTC của Bộ Tài chính: Hướng dẫn thu và quản lý các khoản thu ngân sách nhà nước qua Kho bạc Nhà nước",
+      "code": "328"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1a4a5-7a49-73f7-a2ae-a1d692ab6e2a",
+      "name": "Đối với giao dịch trực tiếp là 01 liên Giấy đề nghị điều chỉnh thu NSNN (Mẫu số C1-07a). Đối với giao dịch trực tuyến là chứng từ đã hạch toán",
+      "code": "KQ.G12.001455"
+    },
+    {
+      "id": "01a1a4a6-a70e-7420-b929-3d59fad1d642",
+      "name": "Đối với giao dịch trực tiếp là 01 liên Giấy đề nghị điều chỉnh thu NSNN bằng ngoại tệ (Mẫu số C1-07b)",
+      "code": "KQ.G12.001456"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910960,
+  "updatedAt": 1794448910960,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: KBNN nơi giao dịch",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Chứng từ hợp lệ, hợp pháp",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

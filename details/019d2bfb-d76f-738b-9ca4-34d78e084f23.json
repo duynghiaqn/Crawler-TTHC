@@ -1,0 +1,420 @@
+{
+  "id": "019d2bfb-d76f-738b-9ca4-34d78e084f23",
+  "code": "1.001656",
+  "codeNotation": "1.001656",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người bệnh hoặc thân nhân của người bệnh kê khai đầy đủ thông tin theo văn bản đề nghị thanh toán trực tiếp (Mẫu số 10), đồng thời nộp hồ sơ theo quy định tại mục 15.3 (Thành phần hồ sơ) cho cơ quan bảo hiểm xã hội."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cán bộ BHXH tiếp nhận hồ sơ và chuyển đến Phòng/bộ phận chuyên môn để giải quyết."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Giải quyết hồ sơ và trả kết quả\n- Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ, trong thời hạn 25 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), cơ quan bảo hiểm xã hội phải hoàn thành việc giám định bảo hiểm y tế và thanh toán chi phí cho người bệnh.\n- Trường hợp có yêu cầu sửa đổi, bổ sung hồ sơ được thực hiện như sau:\n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận hồ sơ (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), cơ quan bảo hiểm xã hội phải có văn bản ghi cụ thể nội dung cần sửa đổi, bổ sung gửi người bệnh hoặc thân nhân của người bệnh.\n+ Trong thời hạn 20 ngày kể từ ngày nhận được văn bản yêu cầu sửa đổi, bổ sung (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), người bệnh hoặc thân nhân của người bệnh có trách nhiệm sửa đổi, bổ sung hồ sơ và gửi cơ quan bảo hiểm xã hội để xem xét.\n+ Trong thời hạn 20 ngày, kể từ ngày nhận hồ sơ sửa đổi, bổ sung đáp ứng đủ điều kiện theo quy định (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), cơ quan bảo hiểm xã hội phải thực hiện thanh toán chi phí cho người bệnh. Chi phí thanh toán trực tiếp bằng tiền mặt hoặc chuyển khoản theo số tài khoản của người bệnh được cung cấp tại văn bản đề nghị thanh toán trực tiếp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "DAY",
+      "description": "Nhận kết quả: Nhận tiền thanh toán chi phí KCB BHYT theo quy định và Thông báo kết quả giải quyết thủ tục hành chính (Mẫu số 01-TB).  \nb1. Nhận tiền mặt: Nhận tại Phòng/bộ phận Tài chính - Kế toán thuộc cơ quan BHXH.\n- Người hưởng chế độ trực tiếp nhận: Cung cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả và xuất trình một trong các giấy tờ tùy thân có ảnh: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp.  \n- Trường hợp nhận thay:\n(i) Nếu là thân nhân của người hưởng (cha, mẹ, con, vợ, chồng): Cung cấp Giấy Tiếp nhận hồ sơ và hẹn trả kết quả; xuất trình một trong các giấy tờ tùy thân có ảnh: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp (Cán bộ tiếp nhận hồ sơ tra cứu thông tin người hưởng chế độ từ Cơ sở dữ liệu quốc gia về dân cư để xác định mối quan hệ nhân thân); \n (ii) Nếu là người giám hộ hoặc người được uỷ quyền: Cung cấp Giấy Tiếp nhận hồ sơ và hẹn trả kết quả; Quyết định công nhận việc giám hộ của cấp có thẩm quyền hoặc văn bản uỷ quyền theo quy định của pháp luật; Xuất trình một trong các giấy tờ tùy thân có ảnh: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp.\nb2. Nhận tiền qua tài khoản: Nhận tiền chuyển khoản theo số tài khoản và ngân hàng đã kê khai tại Văn bản đề nghị thanh toán trực tiếp (Mẫu số 10) theo quy định. \na) Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ: 25 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.\nb) Trường hợp yêu cầu sửa đổi, bổ sung hồ sơ:\n- Trong thời hạn 05 ngày làm việc, kể từ ngày nhận hồ sơ (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), cơ quan bảo hiểm xã hội phải có văn bản ghi cụ thể nội dung cần sửa đổi, bổ sung gửi người bệnh hoặc thân nhân của người bệnh.\n- Trong thời hạn 20 ngày kể từ ngày nhận được văn bản yêu cầu sửa đổi, bổ sung (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), người bệnh hoặc thân nhân của người bệnh có trách nhiệm sửa đổi, bổ sung hồ sơ và gửi cơ quan bảo hiểm xã hội để xem xét.\n- Trong thời hạn 20 ngày, kể từ ngày nhận hồ sơ sửa đổi, bổ sung đáp ứng đủ điều kiện theo quy định (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), cơ quan bảo hiểm xã hội phải thực hiện thanh toán chi phí cho người bệnh.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "DAY",
+      "description": "Nhận kết quả: Nhận tiền thanh toán chi phí KCB BHYT theo quy định và Thông báo kết quả giải quyết thủ tục hành chính (Mẫu số 01-TB).  \nb1. Nhận tiền mặt: Nhận tại Phòng/bộ phận Tài chính - Kế toán thuộc cơ quan BHXH.\n- Người hưởng chế độ trực tiếp nhận: Cung cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả và xuất trình một trong các giấy tờ tùy thân có ảnh: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp.  \n- Trường hợp nhận thay:\n(i) Nếu là thân nhân của người hưởng (cha, mẹ, con, vợ, chồng): Cung cấp Giấy Tiếp nhận hồ sơ và hẹn trả kết quả; xuất trình một trong các giấy tờ tùy thân có ảnh: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp (Cán bộ tiếp nhận hồ sơ tra cứu thông tin người hưởng chế độ từ Cơ sở dữ liệu quốc gia về dân cư để xác định mối quan hệ nhân thân); \n (ii) Nếu là người giám hộ hoặc người được uỷ quyền: Cung cấp Giấy Tiếp nhận hồ sơ và hẹn trả kết quả; Quyết định công nhận việc giám hộ của cấp có thẩm quyền hoặc văn bản uỷ quyền theo quy định của pháp luật; Xuất trình một trong các giấy tờ tùy thân có ảnh: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp.\nb2. Nhận tiền qua tài khoản: Nhận tiền chuyển khoản theo số tài khoản và ngân hàng đã kê khai tại Văn bản đề nghị thanh toán trực tiếp (Mẫu số 10) theo quy định. \na) Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ: 25 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.\nb) Trường hợp yêu cầu sửa đổi, bổ sung hồ sơ:\n- Trong thời hạn 05 ngày làm việc, kể từ ngày nhận hồ sơ (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), cơ quan bảo hiểm xã hội phải có văn bản ghi cụ thể nội dung cần sửa đổi, bổ sung gửi người bệnh hoặc thân nhân của người bệnh.\n- Trong thời hạn 20 ngày kể từ ngày nhận được văn bản yêu cầu sửa đổi, bổ sung (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), người bệnh hoặc thân nhân của người bệnh có trách nhiệm sửa đổi, bổ sung hồ sơ và gửi cơ quan bảo hiểm xã hội để xem xét.\n- Trong thời hạn 20 ngày, kể từ ngày nhận hồ sơ sửa đổi, bổ sung đáp ứng đủ điều kiện theo quy định (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), cơ quan bảo hiểm xã hội phải thực hiện thanh toán chi phí cho người bệnh.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "DAY",
+      "description": "Nhận kết quả: Nhận tiền thanh toán chi phí KCB BHYT theo quy định và Thông báo kết quả giải quyết thủ tục hành chính (Mẫu số 01-TB).  \nb1. Nhận tiền mặt: Nhận tại Phòng/bộ phận Tài chính - Kế toán thuộc cơ quan BHXH.\n- Người hưởng chế độ trực tiếp nhận: Cung cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả và xuất trình một trong các giấy tờ tùy thân có ảnh: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp.  \n- Trường hợp nhận thay:\n(i) Nếu là thân nhân của người hưởng (cha, mẹ, con, vợ, chồng): Cung cấp Giấy Tiếp nhận hồ sơ và hẹn trả kết quả; xuất trình một trong các giấy tờ tùy thân có ảnh: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp (Cán bộ tiếp nhận hồ sơ tra cứu thông tin người hưởng chế độ từ Cơ sở dữ liệu quốc gia về dân cư để xác định mối quan hệ nhân thân); \n (ii) Nếu là người giám hộ hoặc người được uỷ quyền: Cung cấp Giấy Tiếp nhận hồ sơ và hẹn trả kết quả; Quyết định công nhận việc giám hộ của cấp có thẩm quyền hoặc văn bản uỷ quyền theo quy định của pháp luật; Xuất trình một trong các giấy tờ tùy thân có ảnh: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp.\nb2. Nhận tiền qua tài khoản: Nhận tiền chuyển khoản theo số tài khoản và ngân hàng đã kê khai tại Văn bản đề nghị thanh toán trực tiếp (Mẫu số 10) theo quy định. \na) Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ: 25 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.\nb) Trường hợp yêu cầu sửa đổi, bổ sung hồ sơ:\n- Trong thời hạn 05 ngày làm việc, kể từ ngày nhận hồ sơ (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), cơ quan bảo hiểm xã hội phải có văn bản ghi cụ thể nội dung cần sửa đổi, bổ sung gửi người bệnh hoặc thân nhân của người bệnh.\n- Trong thời hạn 20 ngày kể từ ngày nhận được văn bản yêu cầu sửa đổi, bổ sung (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), người bệnh hoặc thân nhân của người bệnh có trách nhiệm sửa đổi, bổ sung hồ sơ và gửi cơ quan bảo hiểm xã hội để xem xét.\n- Trong thời hạn 20 ngày, kể từ ngày nhận hồ sơ sửa đổi, bổ sung đáp ứng đủ điều kiện theo quy định (trường hợp nộp hồ sơ bản giấy căn cứ theo ngày ghi trên dấu công văn đến hoặc giấy tiếp nhận hồ sơ), cơ quan bảo hiểm xã hội phải thực hiện thanh toán chi phí cho người bệnh.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "- Thẻ BHYT của người đề nghị thanh toán còn giá trị sử dụng; chi phí phát sinh thuộc phạm vi được hưởng và thuộc trường hợp được thanh toán trực tiếp; hồ sơ, chứng từ đầy đủ, hợp lệ và còn trong thời hạn theo quy định.",
+  "name": "Thanh toán trực tiếp chi phí khám bệnh, chữa bệnh giữa cơ quan bảo hiểm xã hội và người tham gia bảo hiểm y tế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02f76-2a40-721e-9e26-bdbe7d72a2c8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thanh toán trực tiếp theo Mẫu số 10 Phụ lục ban hành kèm theo Nghị định số 188/2025/NĐ-CP",
+          "code": "TP.G12.000172",
+          "attachments": [
+            {
+              "id": "01a02f88-366f-700a-9d32-ea0745ff56ca",
+              "fileName": "Mẫu số 10 NĐ 188.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02f88-366f-700a-9d32-ea0745ff56ca/Mẫu số 10 NĐ 188.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02f76-925b-74f9-b0ea-eced5cd387de",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản chụp (có dấu treo của cơ sở khám bệnh, chữa bệnh) của giấy ra viện hoặc phiếu khám bệnh hoặc sổ khám bệnh của lần khám bệnh, chữa bệnh đề nghị thanh toán. (Trường hợp Giấy ra viện hoặc phiếu khám bệnh hoặc sổ khám bệnh đã được cơ sở khám bệnh, chữa bệnh gửi lên Hệ thống thông tin giám định BHYT thì người dân không cần phải cung cấp)",
+          "code": "TP.G12.000173",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f76-f912-70c1-a771-5ccf90b5ae18",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản chụp của đơn thuốc (nếu có)",
+          "code": "TP.G12.000174",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f77-6735-761f-ba2a-a154291f008e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hóa đơn và bảng kê chi phí",
+          "code": "TP.G12.000175",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f78-d376-7346-863f-8df5ce294be3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phiếu chỉ định thiết bị y tế cho người bệnh trong trường hợp chỉ định thiết bị y tế (đối với trường hợp đề nghị thanh toán trực tiếp khi người bệnh tự mua thuốc, thiết bị y tế).",
+          "code": "TP.G12.000176",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02f79-8f7b-740c-a8e1-0e360cab1ecf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phiếu xác nhận tình trạng thiếu thuốc, thiết bị y tế theo quy định tại Mẫu số 11 Phụ lục ban hành kèm theo Nghị định số 188/2025/NĐ-CP của Chính phủ (cơ sở khám bệnh, chữa bệnh cấp cho người bệnh đối với trường hợp đề nghị thanh toán trực tiếp khi người bệnh tự mua thuốc, thiết bị y tế)",
+          "code": "TP.G12.000177",
+          "attachments": [
+            {
+              "id": "01a02f88-86a7-7017-946b-814cb5a6713f",
+              "fileName": "Mẫu số 11 NĐ188.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02f88-86a7-7017-946b-814cb5a6713f/Mẫu số 11 NĐ188.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02f79-fe21-76f0-aa32-ff17d52594ef",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng kê chi phí xác định số tiền người bệnh đã thanh toán cho cơ sở khám bệnh, chữa bệnh kèm theo hoá đơn hợp pháp (do cơ sở khám bệnh, chữa bệnh cung cấp đối với đề nghị thanh toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế cho người lao động trong trường hợp cơ quan, tổ chức, người sử dụng lao động chậm đóng, trốn đóng bảo hiểm y tế)",
+          "code": "TP.G12.000178",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện TTHC: Người bệnh hoặc thân nhân của người bệnh",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-cd94dee3145e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afec-d63277407a6f",
+    "019d2bb3-5d84-71c5-b672-49499e22ddad",
+    "019d2bb3-5d84-71c5-b673-669988af5f4c",
+    "019d2bb3-5d84-71c5-b674-ae46cb2804d7",
+    "01a02f81-83e2-779e-8fe2-558a803f5751",
+    "01a02f84-cef2-71be-b227-eeee4e878c90"
+  ],
+  "resultIds": [
+    "01a02f7c-3a39-7391-bb4a-ef7dc8a75fc0",
+    "01a02f7c-b424-77ec-b437-a10da526f6d5"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-a18231a6fcf6"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-cd94dee3145e",
+      "name": "Thực hiện chính sách BHYT",
+      "code": "G24-05"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-a18231a6fcf6",
+      "name": "Bảo hiểm xã hội tỉnh",
+      "code": "BHXHT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-49499e22ddad",
+      "name": "Luật 25/2008/QH12 - Bảo hiểm y tế",
+      "code": "25/2008/QH12"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-669988af5f4c",
+      "name": "Luật số 51/2024/QH15 ngày 27/11/2024 của Quốc hội sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế",
+      "code": "51/2024/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-d63277407a6f",
+      "name": "Nghị định quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế (188/2025/NĐ-CP ngày 01/7/2025)",
+      "code": "188/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b674-ae46cb2804d7",
+      "name": "46/2014/QH13 Sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế",
+      "code": "Luật 46/2014/QH13"
+    },
+    {
+      "id": "01a02f81-83e2-779e-8fe2-558a803f5751",
+      "name": "VỀ VIỆC CÔNG BỐ DỮ LIỆU QUỐC GIA VỀ BẢO HIỂM VÀ HƯỚNG DẪN KẾT NỐI, KHAI THÁC SỬ DỤNG DỮ LIỆU QUỐC GIA VỀ BẢO HIỂM THAY THẾ GIẤY TỜ TRONG GIẢI QUYẾT THỦ TỤC HÀNH CHÍNH",
+      "code": "241/QĐ-BTC"
+    },
+    {
+      "id": "01a02f84-cef2-71be-b227-eeee4e878c90",
+      "name": "VỀ VIỆC CÔNG BỐ PHƯƠNG ÁN TÁI CẤU TRÚC QUY TRÌNH GIẢI QUYẾT THỦ TỤC HÀNH CHÍNH MỚI BAN HÀNH TRONG LĨNH VỰC BẢO HIỂM Y TẾ CÓ THÀNH PHẦN HỒ SƠ ĐƯỢC THAY THẾ BẰNG VIỆC SỬ DỤNG THÔNG TIN TRONG CƠ SỞ DỮ LIỆU QUY ĐỊNH TẠI ĐIỀU 4 NGHỊ QUYẾT SỐ 66.7/2025/NQ-CP NGÀY 15/11/2025 CỦA CHÍNH PHỦ",
+      "code": "580/QĐ-BYT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a02f7c-3a39-7391-bb4a-ef7dc8a75fc0",
+      "name": "Thông báo kết quả giải quyết thủ tục hành chính mẫu số 01-TB (theo Quyết định số 58/QĐ-BHXH ngày 22/01/2025)",
+      "code": "KQ.G12.002053"
+    },
+    {
+      "id": "01a02f7c-b424-77ec-b437-a10da526f6d5",
+      "name": "Nhận tiền thanh toán chi phí khám bệnh chữa bệnh theo phương thức đăng ký (chuyển khoản hoặc nhận tiền mặt tại Phòng/bộ phận Tài chính - Kế toán của cơ quan bảo hiểm xã hội)",
+      "code": "KQ.G12.002054"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d8b49-9d50-7368-bf96-be7994f55331",
+      "name": "Cấp Giấy chứng nhận không cùng chi trả trong năm có kèm theo việc thanh toán trực tiếp chi phí KCB BHYT",
+      "code": "1.001656.02",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d8b48-1261-75ec-8070-7530cb3a4d0b",
+      "name": "Thanh toán trực tiếp chi phí KCB giữa cơ quan BHXH và người tham gia BHYT",
+      "code": "1.001656.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d8b4a-547e-771b-8a66-8aa7fc7b231b",
+      "name": "Cấp Giấy chứng nhận không cùng chi trả trong năm không kèm theo việc thanh toán trực tiếp chi phí KCB BHYT",
+      "code": "1.001656.03",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a3d2-70b3-b127-61fc3db324ed",
+      "name": "Thanh toán trực tiếp chi phí khám bệnh, chữa bệnh giữa cơ quan bảo hiểm xã hội và người tham gia bảo hiểm y tế",
+      "code": "1.001656.03",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a3b6-7672-9f33-4be489c016a9",
+      "name": "Thanh toán trực tiếp chi phí khám bệnh, chữa bệnh giữa cơ quan bảo hiểm xã hội và người tham gia bảo hiểm y tế",
+      "code": "1.001656.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a396-705a-87f4-a939ac419c4b",
+      "name": "Thanh toán trực tiếp chi phí khám bệnh, chữa bệnh giữa cơ quan bảo hiểm xã hội và người tham gia bảo hiểm y tế",
+      "code": "1.001656.02",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559418223,
+  "updatedAt": 1787504991655,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Thẻ BHYT của người đề nghị thanh toán còn giá trị sử dụng; chi phí phát sinh thuộc phạm vi được hưởng và thuộc trường hợp được thanh toán trực tiếp; hồ sơ, chứng từ đầy đủ, hợp lệ và còn trong thời hạn theo quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

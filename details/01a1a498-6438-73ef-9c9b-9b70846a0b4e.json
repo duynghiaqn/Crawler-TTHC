@@ -1,0 +1,193 @@
+{
+  "id": "01a1a498-6438-73ef-9c9b-9b70846a0b4e",
+  "code": "6.006904",
+  "codeNotation": "6.006904",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Khi khách hàng (đại diện cơ quan, đơn vị ) đến nhận tài sản, KBNN kiểm soát các giấy tờ và làm thủ tục xuất trả, lập Biên bản giao nhận tài sản (theo Mẫu số 03). \n- Trước khi giao tài sản, Kho bạc Nhà nước yêu cầu bên gửi kiểm tra lại tình trạng, niêm phong của hòm/túi/gói bảo quản. Nếu có dấu hiệu nghi ngờ về tình trạng niêm phong thì hai bên cùng nhau xác nhận và lập biên bản. Bên gửi có quyền mời cơ quan giám định để kiểm tra niêm phong của hòm/túi/gói trước sự chứng kiến của Kho bạc Nhà nước.\nTrường hợp khi kiểm tra thấy hòm/túi/gói mất niêm phong hoặc không còn nguyên vẹn thì hai bên phải lập biên bản đồng thời mời cơ quan chức năng đến giải quyết theo quy định của pháp luật.\n- KBNN giao tài sản theo hòm/túi/gói niêm phong của bên gửi"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời hạn giải quyết: Trong ngày làm việc kể từ khi nhận đủ hồ sơ theo quy định\nPhí, lệ phí: Không quy định",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "name": "Giao tiền mặt, giấy tờ có giá, vàng, bạc, đá quý, kim loại quý do KBNN nhận gửi và bảo quản",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd75-8b4f7c44d898",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Phương án xử lý tài sản của cơ quan, người có thẩm quyền",
+          "code": "G12.000089",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd75-696dd6dd63e5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Chứng minh nhân dân hoặc Căn cước công dân của người đến gửi tài sản.",
+          "code": "G12.000093",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a49d-9017-751a-88c8-726554de0678",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Công văn đề nghị nhận tài sản (Mẫu số 01).",
+          "code": "G12.000098",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a49d-f3b3-743b-a83b-c2e7c8deb9a9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định xử lý tài sản của cấp có thẩm quyền.",
+          "code": "G12.000099",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": true,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan, đơn vị (Công an, tòa án, viện kiểm sát, thi hành án dân sự…)",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be49-a2511e3f4d40"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe9-5a29f59ff520"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+      "name": "Kho bạc Nhà nước",
+      "code": "G12-TC07"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be49-a2511e3f4d40",
+      "name": "Thông tư số 135/2018/TT-BTC ngày 28/12/20218 quy định việc quản lý đối với tiền mặt, giấy tờ có giá, tài sản quý tạm gửi, tạm giữ do KBNN nhận bảo quản",
+      "code": "135"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe9-5a29f59ff520",
+      "name": "Biên bản bàn giao tài sản",
+      "code": "KQ.G12.000705"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448919667,
+  "updatedAt": 1794448919667,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: \n- Cơ quan có thẩm quyền quyết định: Không quy định\n- Cơ quan trực tiếp thực hiện: KBNN khu vực\n- Cơ quan phối hợp thực hiện: Không quy định",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

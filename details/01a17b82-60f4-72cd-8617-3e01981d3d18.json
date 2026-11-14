@@ -1,0 +1,181 @@
+{
+  "id": "01a17b82-60f4-72cd-8617-3e01981d3d18",
+  "code": "1.117128",
+  "codeNotation": "1.117128",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Khách hàng vay vốn\n+ Lập Giấy đề nghị vay vốn mẫu số 02 phụ lục ban hành kèm theo Nghị quyết số 25/2026/NQ-HĐND.\n+ Nộp giấy đề nghị vay vốn và các giấy tờ khác (nếu có) trong Hồ sơ vay vốn cho Tổ TK&VV nơi khách hàng cư trú hợp pháp.\n- Bước 2: Ban quản lý Tổ TK&VV\n+ Họp Tổ bổ sung tổ viên, bình xét cho vay (mẫu số 10C/TD).\n+ Kiểm tra các yếu tố trên hồ sơ vay vốn, lập Danh sách tổ viên đề nghị vay vốn NHCSXH (mẫu số 03/TD) và gửi kèm giấy đề nghị vay vốn (mẫu số 2) của các tổ viên trình UBND cấp xã xác nhận.\n+ Gửi bộ hồ sơ vay vốn tới NHCSXH nơi thực hiện thủ tục sau khi có xác nhận của UBND cấp xã trên Danh sách (mẫu số 03/TD).\n- Bước 3: NHCSXH nơi thực hiện thủ tục\n+ Kiểm tra, đối chiếu tính đầy đủ, hợp pháp, hợp lệ của đối tượng vay vốn, hồ sơ vay vốn, đối chiếu tên người đi lao động đi làm việc thời vụ ở nước ngoài trong hồ sơ vay vốn với danh sách người lao động trúng tuyển đi làm việc thời vụ ở nước ngoài theo Thông báo kết quả tuyển chọn người lao động đi làm việc thời vụ của Sở Nội vụ tỉnh Sơn La trình Trưởng phòng Kế hoạch - Tín dụng/Tổ trưởng Tổ Kế hoạch – Tín dụng kiểm soát, sau đó trình Giám đốc NHCSXH nơi thực hiện thủ tục xem xét, phê duyệt hồ sơ vay vốn.\n+ NHCSXH nơi thực hiện thủ tục lập Thông báo kết quả phê duyệt cho vay (mẫu số 04/TD) gửi UBND xã để thông báo cho khách hàng vay vốn.\n+ NHCSXH nơi thực hiện thủ tục cùng khách hàng vay vốn lập Hợp đồng tín dụng (mẫu số 07/LĐTV)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Người lao động thường trú trên địa bàn tỉnh Sơn La từ đủ mười hai tháng trở lên đi làm việc thời vụ ở nước ngoài, đã ký hợp đồng đi làm việc thời vụ ở nước ngoài với bên sử dụng lao động ở nước ngoài và có tên trong danh sách người lao động trúng tuyển đi làm việc thời vụ ở nước ngoài theo Thông báo kết quả tuyển chọn người lao động đi làm việc thời vụ của Sở Nội vụ tỉnh Sơn La.",
+  "name": "Vay vốn hỗ\ntrợ chi phí đi\nlàm việc thời\nvụ ở nước\nngoài",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Vay vốn hỗ\ntrợ chi phí đi\nlàm việc thời\nvụ ở nước\nngoài",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-627a4af700e3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a17b81-b329-73ed-9e53-fd4e1efde44a"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a72-700f-a652-ea52c1e01cce"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-627a4af700e3",
+      "name": "Việc làm",
+      "code": "G09.19_CVL"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-627a4af700e3",
+    "name": "Việc làm",
+    "code": "G09.19_CVL"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a72-700f-a652-ea52c1e01cce",
+      "name": "Ngân hàng Chính sách xã hội",
+      "code": "G66"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a17b81-b329-73ed-9e53-fd4e1efde44a",
+      "name": "Hợp đồng tín dụng",
+      "code": "HĐTD"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b23-90f0216d78e2",
+  "departmentPromulgateCode": "H52",
+  "departmentPromulgateName": "UBND tỉnh Sơn La",
+  "cases": [
+    {
+      "id": "01a1cda5-a836-71de-846b-4259ab6460fb",
+      "name": "Vay vốn hỗtrợ chi phí đilàm việc thờivụ ở nướcngoài",
+      "code": "1.117128.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1794286463533,
+  "updatedAt": 1794286463533,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "NHCSXH nơi thực hiện thủ tục (Phòng giao dịch NHCSXH trực thuộc, Hội sở chi nhánh tỉnh).",
+  "delegatedAgencies": "Ngân hàng Chính sách xã hội",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Người lao động thường trú trên địa bàn tỉnh Sơn La từ đủ mười hai tháng trở lên đi làm việc thời vụ ở nước ngoài, đã ký hợp đồng đi làm việc thời vụ ở nước ngoài với bên sử dụng lao động ở nước ngoài và có tên trong danh sách người lao động trúng tuyển đi làm việc thời vụ ở nước ngoài theo Thông báo kết quả tuyển chọn người lao động đi làm việc thời vụ của Sở Nội vụ tỉnh Sơn La.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a17b82-702f-77e8-a0ed-75db9515fc24",
+    "proposalNumber": "2279/QĐ-UBND",
+    "decisionDate": 1788886800000,
+    "decisionNumber": null,
+    "publicationDate": 1794286463452,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b23-90f0216d78e2",
+      "name": "UBND tỉnh Sơn La"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

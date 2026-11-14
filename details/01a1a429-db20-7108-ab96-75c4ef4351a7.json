@@ -1,0 +1,176 @@
+{
+  "id": "01a1a429-db20-7108-ab96-75c4ef4351a7",
+  "code": "6.006897",
+  "codeNotation": "6.006897",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Cơ quan, đơn vị tiếp nhận thông tin quy định tại khoản 1 Điều 68 Nghị định số 77/2025/NĐ-CP có văn bản đề nghị chi thưởng cho tổ chức, cá nhân phát hiện tài sản, gửi cho cơ quan, đơn vị được giao nhiệm vụ tiếp nhận, bảo quản tài sản quy định tại Điều 72 Nghị định số 77/2025/NĐ-CP. \n- Trong thời hạn 30 ngày, kể từ ngày hoàn thành việc xử lý tài sản theo quy định tại Nghị định số 77/2025/NĐ-CP, cơ quan, đơn vị được giao nhiệm vụ tiếp nhận, bảo quản tài sản có trách nhiệm trình cơ quan nhà nước có thẩm quyền quy định tại  Điều 69 Nghị định số 77/2025/NĐ-CP quyết định mức thưởng cụ thể. \n- Trường hợp nguồn chi thưởng được sử dụng từ ngân sách nhà nước, nguồn thu hợp pháp của cơ quan có chức năng lưu giữ, quản lý tài sản và phí bảo đảm hàng hải thì căn cứ vào quyết định mức thưởng của cơ quan nhà nước có thẩm quyền quy định tại khoản a2, cơ quan, đơn vị được giao nhiệm vụ chi thưởng có trách nhiệm trình cơ quan, người có thẩm quyền quyết định hoặc quyết định theo thẩm quyền việc sử dụng các nguồn kinh phí này để chi thưởng theo quy định của pháp luật.\n- Trong thời hạn 60 ngày, kể từ ngày có quyết định mức thưởng của cơ quan nhà nước có thẩm quyền, cơ quan, đơn vị có trách nhiệm chi thưởng thực hiện chi trả tiền thưởng cho tổ chức, cá nhân được thưởng theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: \n- Trong thời hạn 30 ngày, kể từ ngày hoàn thành việc xử lý tài sản theo quy định, cơ quan, đơn vị được giao nhiệm vụ tiếp nhận, bảo quản tài sản có trách nhiệm trình cơ quan nhà nước có thẩm quyền quy định tại  Điều 69 Nghị định số 77/2025/NĐ-CP quyết định mức thưởng cụ thể.\n- Trong thời hạn 60 ngày, kể từ ngày có quyết định mức thưởng của cơ quan nhà nước có thẩm quyền, cơ quan, đơn vị có trách nhiệm chi thưởng thực hiện chi trả tiền thưởng cho tổ chức, cá nhân được thưởng theo quy định.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: \n- Trong thời hạn 30 ngày, kể từ ngày hoàn thành việc xử lý tài sản theo quy định, cơ quan, đơn vị được giao nhiệm vụ tiếp nhận, bảo quản tài sản có trách nhiệm trình cơ quan nhà nước có thẩm quyền quy định tại  Điều 69 Nghị định số 77/2025/NĐ-CP quyết định mức thưởng cụ thể.\n- Trong thời hạn 60 ngày, kể từ ngày có quyết định mức thưởng của cơ quan nhà nước có thẩm quyền, cơ quan, đơn vị có trách nhiệm chi thưởng thực hiện chi trả tiền thưởng cho tổ chức, cá nhân được thưởng theo quy định.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: \n- Trong thời hạn 30 ngày, kể từ ngày hoàn thành việc xử lý tài sản theo quy định, cơ quan, đơn vị được giao nhiệm vụ tiếp nhận, bảo quản tài sản có trách nhiệm trình cơ quan nhà nước có thẩm quyền quy định tại  Điều 69 Nghị định số 77/2025/NĐ-CP quyết định mức thưởng cụ thể.\n- Trong thời hạn 60 ngày, kể từ ngày có quyết định mức thưởng của cơ quan nhà nước có thẩm quyền, cơ quan, đơn vị có trách nhiệm chi thưởng thực hiện chi trả tiền thưởng cho tổ chức, cá nhân được thưởng theo quy định.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không có",
+  "name": "Thanh toán chi thưởng cho tổ chức, cá nhân phát hiện tài sản đối với tài sản chôn, giấu, bị vùi lấp, chìm đắm",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Đối với cơ quan, đơn vị tiếp nhận thông tin",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a42c-652c-749f-b2f5-990fbcdd1f55",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị chi thưởng cho tổ chức, cá nhân phát hiện tài sản",
+          "code": "G12.060315",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": true,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan, đơn vị tiếp nhận thông tin quy định tại khoản 1 Điều 68 Nghị định số 77/2025/NĐ-CP.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b471-1f79313e051c"
+  ],
+  "resultIds": [
+    "01a1a42c-d24a-75e2-9eb4-27a09b456a70"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b471-1f79313e051c",
+      "name": "Nghị định quy định thẩm quyền, thủ tục xác lập quyền sở hữu toàn dân về tài sản và xử lý đối với tài sản được xác lập quyền sở hữu toàn dân",
+      "code": "77/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1a42c-d24a-75e2-9eb4-27a09b456a70",
+      "name": "Thanh toán chi thưởng cho tổ chức, cá nhân phát hiện tài sản đối với tài sản chôn, giấu, bị vùi lấp, chìm đắm",
+      "code": "KQ.G12.001438"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448916517,
+  "updatedAt": 1794448916517,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Cơ quan nhà nước có thẩm quyền quy định tại  Điều 69 Nghị định số 77/2025/NĐ-CP.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không có",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

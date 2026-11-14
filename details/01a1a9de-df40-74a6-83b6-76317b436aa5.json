@@ -1,0 +1,285 @@
+{
+  "id": "01a1a9de-df40-74a6-83b6-76317b436aa5",
+  "code": "6.006807",
+  "codeNotation": "6.006807",
+  "executionSteps": [
+    {
+      "name": "Bước 1",
+      "description": "Cơ quan, đơn vị có tài sản lập hồ sơ đề nghị thanh lý tài sản kết cấu hạ tầng chợ (gọi tăt là thanh lý tài sản) gửi Phòng Kinh tế cấp xã theo quy định."
+    },
+    {
+      "name": "Bước 2",
+      "description": "Trong thời hạn không quá 10 ngày, kể từ ngày nhận đủ hồ sơ quy định tại điểm a khoản này, Phòng Kinh tế cấp xã gửi văn bản lấy ý kiến của các cơ quan, đơn vị liên quan."
+    },
+    {
+      "name": "Bước 3",
+      "description": "Trong thời hạn không quá 15 ngày kể từ ngày nhận được đề nghị tham gia ý kiến, các cơ quan, đơn vị liên quan có văn bản tham gia ý kiến gửi về Phòng Kinh tê cấp xã."
+    },
+    {
+      "name": "Bước 4",
+      "description": "Trong thời hạn không quá 20 ngày kể từ ngày nhận được ý kiến của các các cơ quan, đơn vị liên quan, Phòng Kinh tế cấp xã trình Ủy ban nhân dân cấp xã xem xét, phê duyệt Quyết định thanh lý tài sản hoặc có văn bản hồi đáp trong trường hợp đề nghị thanh lý tài sản chưa phù hợp."
+    },
+    {
+      "name": "Bước 5",
+      "description": "Trong thời hạn không quá 30 ngày, kể nhận được đầy đủ hồ sơ theo quy định tại khoản 3 phần này của Phòng Kinh tế cấp xã, Ủy ban nhân dân cấp xã xem xét, phê duyệt Quyết định thanh lý tài sản hoặc có văn bản hồi đáp trong trường hợp đề nghị thanh lý tài sản không phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 75,
+      "processingTimeUnit": "DAY",
+      "description": "Thực hiện thông qua phần mềm Hệ thống quản lý văn bản và điều hành thành phố Bắc Ninh.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Không",
+  "name": "Quyết định thanh lý đối với tài sản kết cấu hạ tầng chợ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a9a4-8692-702a-a73b-4f908a13fd87",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thanh lý tài sản của cơ quan, đơn vị có tài sản (trong đó xác định cụ thể tài sản thanh lý thuộc trường hợp nào theo quy định tại khoản 1 Điều 30 Nghị định 60/2024/NĐ-CP)",
+          "code": "TP.H05.000344",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a9a5-9b26-7185-be78-27b35e52f99e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ có liên quan khác (nếu có) theo quy định tại Điều 30 Nghị định số 60/2024/NĐ-CP",
+          "code": "TP.H05.000346",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a9d9-f70d-72f5-a602-bd8ac81edf41",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình của Phòng Kinh tế cấp xã về việc thanh lý tài sản",
+          "code": "TP.H05.000362",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a99d-a7fd-701b-a9d4-a9b221c22afd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản họp liên ngành hoặc ý kiến bằng văn bản của cơ quan, đơn vị có liên quan",
+          "code": "TP.H05.000342",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a9a6-88d4-7183-afa4-29bdc6f7b0b3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Dự thảo Quyết định thanh lý tài sản",
+          "code": "TP.H05.000348",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a9a4-ba64-733e-b5b1-0af08489e658",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị thanh lý (tên tài sản, giá trị tài sản)",
+          "code": "TP.H05.000345",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-83161fce424c"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46f-85e5bc589b94",
+    "01a19a3d-6299-719e-8d31-2997dc6bc782",
+    "01a19f75-de68-7124-83b9-475893fbb926"
+  ],
+  "resultIds": [
+    "01a1a9a6-deb1-73c9-8dd9-e53021a3bdb9"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a94-7330-86c8-d87e57adc204",
+    "019d2be3-6a94-7330-86c9-d8762cb54eff"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-83161fce424c",
+      "name": "Tài sản kết cấu hạ tầng chợ do Nhà nước đầu tư, quản lý",
+      "code": "G02-CT41"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-83161fce424c",
+    "name": "Tài sản kết cấu hạ tầng chợ do Nhà nước đầu tư, quản lý",
+    "code": "G02-CT41"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a94-7330-86c8-d87e57adc204",
+      "name": "Phòng Kinh tế, Hạ tầng và Đô thị",
+      "code": "H18.132.02"
+    },
+    {
+      "id": "019d2be3-6a94-7330-86c9-d8762cb54eff",
+      "name": "Phòng Kinh tế",
+      "code": "H18.145.02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46f-85e5bc589b94",
+      "name": "Nghị định số 60/2024/NĐ-CP",
+      "code": "60/2024/NĐ-CP"
+    },
+    {
+      "id": "01a19a3d-6299-719e-8d31-2997dc6bc782",
+      "name": "Ban hành Quy định về phát triển và quản lý chợ trên địa bàn thành phố Bắc Ninh và Quyết định số 1231/QĐ-UBND ngày 14 tháng 5 năm 2026 của Chủ tịch UBND tỉnh về việc đính chính văn bản quy phạm pháp luật lĩnh vực công thương do Uỷ ban nhân dân tỉnh Bắc Ninh ban hành",
+      "code": "101/2025/QĐ-UBND."
+    },
+    {
+      "id": "01a19f75-de68-7124-83b9-475893fbb926",
+      "name": "về việc đính chính văn bản quy phạm pháp luật lĩnh vực công thương do Uỷ ban nhân dân tỉnh Bắc Ninh ban hành",
+      "code": "1231/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1a9a6-deb1-73c9-8dd9-e53021a3bdb9",
+      "name": "Quyết định thanh lý đối với tài sản kết cấu hạ tầng chợ",
+      "code": "KQ.H05.000510"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND thành phố Bắc Ninh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794211524251,
+  "updatedAt": 1794211524251,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Phòng Kinh tế, Hạ tầng và Đô thị, Phòng Kinh tế",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1bf53-16e4-7129-8e37-bfd2f04b915e",
+    "proposalNumber": "3005/QĐ-UBND",
+    "decisionDate": 1794157200000,
+    "decisionNumber": null,
+    "publicationDate": 1794211524147,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND thành phố Bắc Ninh"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "01a18c0a-c920-7374-9137-5c93aaede31f",
+  "code": "6.006871",
+  "codeNotation": "6.006871",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện",
+      "description": "Bước 1: Cơ quan quản lý đường thủy nội địa ở trung ương (đối với tài sản thuộc trung ương quản lý), cơ quan quản lý đường thủy nội địa cấp tỉnh (đối với tài sản thuộc địa phương quản lý) chủ trì, lập hồ sơ đề nghị giao tài sản KCHT đường thủy nội địa (trừ tài sản quy định tại điểm a khoản 1 Điều 7 Nghị định số 12/2025/NĐ-CP ngày 20/01/2025 của Chính phủ) cho cơ quan quản lý tài sản quy định tại điểm a, điểm b khoản 1 Điều 5 Nghị định số 12/2025/NĐ-CP, báo cáo Bộ Xây dựng (đối với tài sản thuộc trung ương quản lý), Ủy ban nhân dân cấp tỉnh (đối với tài sản thuộc địa phương quản lý).\n- Bước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ quy định tại khoản 2 Điều này, cơ quan, người có thẩm quyền quy định tại Điều 6 Nghị định số 12/2025/NĐ-CP xem xét, quyết định giao tài sản KCHT đường thủy nội địa đối với trường hợp thuộc thẩm quyền hoặc có văn bản hồi đáp trong trường hợp đề nghị giao tài sản chưa phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Giao tài sản kết cấu hạ tầng đường thủy nội địa",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18c0d-4e29-751c-a66e-2a34a3f44a66",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý đường thủy nội địa ở trung ương, cơ quan quản lý đường thủy nội địa cấp tỉnh về việc đề nghị giao tài sản",
+          "code": "G12.06.0176",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c0d-c96d-77ff-a4aa-725e75f6108d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản họp liên ngành hoặc ý kiến bằng văn bản của: Cơ quan, tổ chức, đơn vị đang quản lý hoặc tạm quản lý tài sản và cơ quan quản lý cấp trên (nếu có) của cơ quan, tổ chức, đơn vị đó; cơ quan, đơn vị có liên quan của Bộ Giao thông vận tải (đối với tài sản thuộc trung ương quản lý), cơ quan, đơn vị có liên quan của địa phương (đối với tài sản thuộc địa phương quản lý); cơ quan dự kiến được giao quản lý tài sản về việc giao tài sản",
+          "code": "G12.06.0175",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c0e-339b-7071-8550-15fec41a2153",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị giao (tên tài sản; địa chỉ; năm đưa vào sử dụng; thông số cơ bản (khối lượng, chiều dài,...); diện tích; nguyên giá, giá trị còn lại (nếu có); tình trạng sử dụng của tài sản) do cơ quan quản lý đường thủy nội địa ở trung ương, cơ quan quản lý đường thủy nội địa cấp tỉnh lập",
+          "code": "G12.06.0177",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c0e-9a01-763b-b65b-c55b09e1d62c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ pháp lý về tài sản (Quyết định giao, điều chuyển tài sản, Biên bản bàn giao, tiếp nhận tài sản hoặc các giấy tờ, tài liệu khác chứng minh quyền quản lý, sử dụng, tạm quản lý tài sản - nếu có)",
+          "code": "G12.06.0178",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18be0-1248-74f9-8269-4b23e5ae0acf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy tờ khác có liên quan (nếu có)",
+          "code": "G12.060164",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan quản lý đường thủy nội địa ở trung ương (đối với tài sản thuộc trung ương quản lý); cơ quan quản lý đường thủy nội địa cấp tỉnh (đối với tài sản thuộc địa phương quản lý)",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-8c9e03aa49d7"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afeb-fba9e3354e01"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b7c3f48c08f8"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+      "name": "Bộ xây dựng (Giao thông vận tải cũ)",
+      "code": "G04"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-8c9e03aa49d7",
+      "name": "12/2025/NĐ-CP",
+      "code": "12/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afeb-fba9e3354e01",
+      "name": "Quyết định giao tài sản kết cấu hạ tầng đường thủy nội địa",
+      "code": "KQ.G12.000923"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448912703,
+  "updatedAt": 1794448912703,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ xây dựng (Giao thông vận tải cũ)",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Bộ trưởng Bộ Xây dựng, UBND cấp tỉnh.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

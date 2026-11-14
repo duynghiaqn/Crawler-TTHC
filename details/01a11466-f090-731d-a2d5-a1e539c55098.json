@@ -1,0 +1,203 @@
+{
+  "id": "01a11466-f090-731d-a2d5-a1e539c55098",
+  "code": "1.117008",
+  "codeNotation": "1.117008",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Cơ quan quản lý Quỹ tiếp nhận Quyết định của Giám đốc Quỹ về việc chi hỗ trợ từ Quỹ;\n- Bước 2: Cơ quan quản lý Quỹ có trách nhiệm gửi Quyết định của Giám đốc Quỹ về việc chi hỗ trợ đến Cơ quan đầu mối, đối tượng được chi hỗ trợ và cơ quan, tổ chức, cá nhân có liên quan (nếu có). \n- Bước 3: Cơ quan quản lý Quỹ, phối hợp với Cơ quan đầu mối lập hồ sơ đề nghị và cơ quan, tổ chức, cá nhân có liên quan tổ chức trao tiền, hiện vật do Quỹ hỗ trợ."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Trường hợp lãnh đạo Bộ Công an hoặc Giám đốc Quỹ trực tiếp trao hỗ trợ chi từ Quỹ thì trong thời hạn 02 ngày làm việc kể từ ngày ban hành Quyết định về việc hỗ trợ chi từ Quỹ, Giám đốc Quỹ đề xuất lãnh đạo Bộ Công an hoặc tự mình trao tiền, hiện vật do Quỹ hỗ trợ cho đối tượng được hỗ trợ;\n- Trường hợp Cơ quan quản lý Quỹ, Cơ quan đầu mối tổ chức trao tiền, hiện vật do Quỹ hỗ trợ cho đối tượng được hỗ trợ:\n+ Trong thời hạn 02 ngày làm việc kể từ ngày nhận được chỉ đạo của lãnh đạo Bộ Công an hoặc Giám đốc Quỹ ủy quyền tổ chức trao hỗ trợ chi từ Quỹ, Cơ quan quản lý Quỹ tự mình tổ chức trao tiền, hiện vật cho đối tượng được hỗ trợ hoặc thông báo bằng văn bản và chuyển tiền, hiện vật, cho Cơ quan đầu mối để tổ chức trao cho đối tượng được hỗ trợ;\n+ Trong thời hạn 02 ngày làm việc kể từ ngày nhận được tiền, hiện vật, Cơ quan đầu mối có trách nhiệm tổ chức trao cho đối tượng được hỗ trợ và báo cáo Giám đốc Quỹ (qua Cơ quan quản lý Quỹ) về kết quả thực hiện.\n- Trường hợp Giám đốc Quỹ không chấp thuận chi hỗ trợ từ Quỹ, trong thời hạn 01 ngày làm việc kể từ ngày nhận được ý kiến của Giám đốc Quỹ, Cơ quan quản lý Quỹ thông báo bằng văn bản kết quả giải quyết hồ sơ đến Cơ quan đầu mối; trường hợp hộ gia đình, tổ chức, cá nhân đề nghị hỗ trợ thì Cơ quan đầu mối thông báo bằng văn bản cho hộ gia đình, tổ chức, cá nhân biết.",
+      "fees": []
+    }
+  ],
+  "description": "- Hộ gia đình, tổ chức, cá nhân thuộc một trong các trường hợp quy định tại Điều 11 Nghị định số 279/2025/NĐ-CP;\n- Nạn nhân trong vụ tai nạn giao thông đường bộ được cơ quan có thẩm quyền lập hồ sơ thụ lý, điều tra, giải quyết theo quy định của pháp luật;\n- Người không gây ra nguyên nhân trực tiếp dẫn đến vụ tai nạn giao thông đường bộ;\n- Nạn nhân không phải là người điều khiển phương tiện tham gia giao thông đường bộ mà: trong máu hoặc hơi thở có nồng độ cồn; trong cơ thể có chất ma túy hoặc các chất kích thích khác mà pháp luật cấm sử dụng; phương tiện không đủ điều kiện tham gia giao thông đường bộ theo quy định của pháp luật;\n- Tổ chức, cá nhân không có chức năng cung cấp dịch vụ cấp cứu, hỗ trợ vận chuyển người bệnh; cơ sở khám bệnh, chữa bệnh trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu mà không thu giá dịch vụ cấp cứu, vận chuyển; \n- Cá nhân không phải đang thực hiện nhiệm vụ bảo đảm an ninh, trật tự, trật tự an toàn giao thông đường bộ trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu;\n- Khả năng cân đối, đáp ứng chi của Quỹ.",
+  "name": "Tổ chức thực hiện thông báo Quyết định về việc chi hỗ trợ từ Quỹ và tổ chức trao tiền, hiện vật do Quỹ hỗ trợ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a11465-556f-7255-a249-7efc626d129f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định của Giám đốc Quỹ về việc chi hỗ trợ từ Quỹ; trong đó, nêu rõ đối tượng được chi hỗ trợ từ Quỹ, lý do hỗ trợ, hình thức hỗ trợ (tiền hoặc hiện vật), mức chi (đối với hình thức hỗ trợ bằng tiền) hoặc giá trị hiện vật (đối với hình thức hỗ trợ bằng hiện vật) và thông tin cần thiết khác",
+          "code": "00.00.00.G01-KQ00580",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a11465-95d2-74ff-98a8-2f4eb3bb0cdc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tiền, hiện vật được hỗ trợ từ Quỹ cho hộ gia đình, tổ chức, cá nhận",
+          "code": "00.00.00.G01-KQ00581",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-1f63f9beee1a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a11443-7d5d-727a-be31-2ccf0c356cdf",
+    "01a11444-1588-774b-9bdc-b625d33d1a48"
+  ],
+  "resultIds": [
+    "01a11466-8519-7200-8a7f-1f770c61912b"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d04-bd273f0ab4f4",
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a80-747a-9d04-bd273f0ab4f4",
+    "019d2be3-6a84-779d-b3e1-8de26b758e30"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-1f63f9beee1a",
+      "name": "Bảo đảm trật tự, an toàn giao thông đường bộ",
+      "code": "G01-CA32"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-1f63f9beee1a",
+    "name": "Bảo đảm trật tự, an toàn giao thông đường bộ",
+    "code": "G01-CA32"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d04-bd273f0ab4f4",
+      "name": "Cục Cảnh sát giao thông",
+      "code": "G01.308.000"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a80-747a-9d04-bd273f0ab4f4",
+      "name": "Cục Cảnh sát giao thông",
+      "code": "G01.308.000"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-8de26b758e30",
+      "name": "Công an cấp Tỉnh",
+      "code": "BCA-CAT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a11443-7d5d-727a-be31-2ccf0c356cdf",
+      "name": "Nghị định số 279/2025/NĐ-CP ngày 23/10/2025 của Chính phủ quy định về thành lập, nguồn tài chính hình thành, quản lý, hoạt động chi, sử dụng Quỹ giảm thiểu thiệt hại tai nạn giao thông đường bộ",
+      "code": "279/2025/NĐ-CP "
+    },
+    {
+      "id": "01a11444-1588-774b-9bdc-b625d33d1a48",
+      "name": "Thông tư số 126/2026/TT-BCA ngày 30/6/2026 của Bộ trưởng Bộ Công an quy định trình tự, thủ tục thực hiện nội dung chi từ Quỹ giảm thiểu thiệt hại tai nạn giao thông đường bộ",
+      "code": "126/2026/TT-BCA "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a11466-8519-7200-8a7f-1f770c61912b",
+      "name": "Tiền, hiện vật được hỗ trợ từ Quỹ cho hộ gia đình, tổ chức, cá nhân",
+      "code": "KQ.G01.000454"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791344065891,
+  "updatedAt": 1791344065891,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Cảnh sát giao thông, Công an cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Cục Cảnh sát giao thông, Công an cấp Tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Hộ gia đình, tổ chức, cá nhân thuộc một trong các trường hợp quy định tại Điều 11 Nghị định số 279/2025/NĐ-CP;\n- Nạn nhân trong vụ tai nạn giao thông đường bộ được cơ quan có thẩm quyền lập hồ sơ thụ lý, điều tra, giải quyết theo quy định của pháp luật;\n- Người không gây ra nguyên nhân trực tiếp dẫn đến vụ tai nạn giao thông đường bộ;\n- Nạn nhân không phải là người điều khiển phương tiện tham gia giao thông đường bộ mà: trong máu hoặc hơi thở có nồng độ cồn; trong cơ thể có chất ma túy hoặc các chất kích thích khác mà pháp luật cấm sử dụng; phương tiện không đủ điều kiện tham gia giao thông đường bộ theo quy định của pháp luật;\n- Tổ chức, cá nhân không có chức năng cung cấp dịch vụ cấp cứu, hỗ trợ vận chuyển người bệnh; cơ sở khám bệnh, chữa bệnh trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu mà không thu giá dịch vụ cấp cứu, vận chuyển; \n- Cá nhân không phải đang thực hiện nhiệm vụ bảo đảm an ninh, trật tự, trật tự an toàn giao thông đường bộ trực tiếp tham gia giúp đỡ, cứu chữa, đưa người bị tai nạn giao thông đường bộ đi cấp cứu;\n- Khả năng cân đối, đáp ứng chi của Quỹ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0e5d6-2d3d-70cf-a2c3-c7d08e56d16d",
+    "proposalNumber": "5395/QĐ-BCA",
+    "decisionDate": 1787504400000,
+    "decisionNumber": null,
+    "publicationDate": 1791344065778,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

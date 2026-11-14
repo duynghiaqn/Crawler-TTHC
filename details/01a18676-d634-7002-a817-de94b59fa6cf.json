@@ -1,0 +1,256 @@
+{
+  "id": "01a18676-d634-7002-a817-de94b59fa6cf",
+  "code": "6.006831",
+  "codeNotation": "6.006831",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện",
+      "description": "Bước 1: Cơ quan, tổ chức, đơn vị có tài sản lập 01 bộ hồ sơ gửi cơ quan quản lý cấp trên (nếu có) xem xét, đề nghị cơ quan, người có thẩm quyền quyết định điều chuyển tài sản công xem xét, quyết định. \nBước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, cơ quan, người có thẩm quyền ra quyết định điều chuyển tài sản công hoặc có văn bản hồi đáp trong trường hợp đề nghị điều chuyển không phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Phí, lệ phí: Không quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Phí, lệ phí: Không quy định",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "name": "Quyết định điều chuyển tài sản công",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1867a-6c6f-74ec-a2ba-78bdd784a878",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị điều chuyển tài sản của cơ quan, tổ chức, đơn vị được giao quản lý, sử dụng tài sản",
+          "code": "G12.06.0001",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1867a-d421-715d-b436-6f5ab70b99c5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị được tiếp nhận tài sản của cơ quan, tổ chức, đơn vị có nhu cầu tiếp nhận tài sản (trong đó thuyết minh cụ thể sự phù hợp của đề nghị tiếp nhận tài sản với quy định về tiêu chuẩn, định mức sử dụng tài sản công; mục đích sử dụng tài sản sau khi tiếp nhận)",
+          "code": "G12.06.0002",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1867b-33d5-764d-8834-8e2d879626f0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị điều chuyển, tiếp nhận tài sản của cơ quan quản lý cấp trên (nếu có) (trong đó có ý kiến cụ thể về sự phù hợp của đề nghị tiếp nhận tài sản với quy định về tiêu chuẩn, định mức sử dụng tài sản công; mục đích sử dụng tài sản sau khi tiếp nhận)",
+          "code": "G12.06.0003",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1867b-9341-7678-99c8-3eef54fb8547",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị điều chuyển (chủng loại, số lượng, tình trạng; nguyên giá, giá trị còn lại theo sổ kế toán; mục đích sử dụng hiện tại và mục đích sử dụng dự kiến sau khi điều chuyển trong trường hợp việc điều chuyển gắn với việc chuyển đổi công năng sử dụng tài sản; lý do điều chuyển)",
+          "code": "G12.06.0004",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1867b-ed92-728a-b801-948b8f722cd4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ khác có liên quan đến đề nghị điều chuyển tài sản (nếu có)",
+          "code": "G12.06.0005",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan nhà nước, đơn vị sự nghiệp công lập, đơn vị lực lượng vũ trang nhân dân, cơ quan Đảng Cộng sản Việt Nam, tổ chức chính trị - xã hội.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+    "019d2bb3-5d7f-719e-b46e-9244f6a0342d",
+    "019d2bb3-5d7f-719e-b475-420326abbc1e",
+    "019d2bb3-5d84-71c5-b674-94dab31e6110"
+  ],
+  "resultIds": [
+    "01a18671-4130-753e-8515-074728765bd4"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    },
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6771-31da-7758-9a23-1c3f7317813c",
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6771-31da-7758-9a23-1c3f7317813c",
+      "name": "Bộ trưởng hoặc cấp tương đương"
+    },
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+      "name": "Nghị định 114/2024/NĐ-CP sửa đổi Nghị định 151/2017/NĐ-CP hướng dẫn Luật Quản lý, sử dụng tài sản công",
+      "code": "114/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46e-9244f6a0342d",
+      "name": "Nghị định số 50/2024/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 136/2020/NĐ-CP ngày 24 tháng 11 năm 2020 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy và chữa cháy và Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và chữa cháy và Nghị định số 83/2017/NĐ-CP ngày 18 tháng 7 năm 2017 của Chính phủ quy định về công tác cứu nạn, cứu hộ của lực lượng phòng cháy và chữa cháy",
+      "code": "50/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b475-420326abbc1e",
+      "name": "NGHỊ ĐỊNH  QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG",
+      "code": "Số: 151/2017/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b674-94dab31e6110",
+      "name": "Luật quản lý, sử dụng tài sản công",
+      "code": "Luật 15/2017/QH14"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a18671-4130-753e-8515-074728765bd4",
+      "name": "Quyết định điều chuyển tài sản hoặc văn bản hồi đáp trong trường hợp đề nghị điều chuyển không phù hợp.",
+      "code": "KQ.G12.001389"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910967,
+  "updatedAt": 1794448910967,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thủ tướng Chính phủ, Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Thủ tướng Chính phủ, Bộ trưởng Bộ Tài chính, Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, HĐND cấp tỉnh; Cơ quan, người được phân cấp thẩm quyền.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

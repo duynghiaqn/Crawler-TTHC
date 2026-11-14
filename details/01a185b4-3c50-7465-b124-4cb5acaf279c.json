@@ -1,0 +1,169 @@
+{
+  "id": "01a185b4-3c50-7465-b124-4cb5acaf279c",
+  "code": "6.006824",
+  "codeNotation": "6.006824",
+  "executionSteps": [
+    {
+      "name": "* Trình tự thực hiện:",
+      "description": "Trong quá trình tổ chức thực hiện phát sinh nhiệm vụ thuộc các nhiệm vụ chi của dự phòng NSTW quy định tại khoản 2 Điều 10 Luật NSNN, các bộ, cơ quan trung ương, địa phương có đề nghị bằng văn bản gửi Bộ Tài chính để xem xét quyết định theo thẩm quyền hoặc tổng hợp trình Thủ tướng Chính phủ xem xét, quyết định bổ sung kinh phí cho các bộ, cơ quan trung ương và địa phương thực hiện."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "* Phí, Lệ phí: Không quy định",
+      "fees": []
+    }
+  ],
+  "description": "Khi phát sinh nhiệm vụ thuộc các nội dung chi của dự phòng ngân sách trung ương",
+  "name": "Sử dụng dự phòng ngân sách nhà nước",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Chi tiết các văn bản quy phạm pháp luật của từng chế độ, chính sách là khác nhau do Bộ, cơ quan trung ương chủ trì đề xuất trình cấp có thẩm quyền ban hành",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "* Đối tượng thực hiện thủ tục hành chính: Các bộ, cơ quan trung ương, địa phương khi phát sinh nhiệm vụ thuộc các nội dung chi của dự phòng ngân sách trung ương",
+  "keywords": "",
+  "categoryIds": [
+    "01a185aa-967c-764b-ad7a-63de7681037a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afec-20f13a1b2131",
+    "019d2bb3-5d84-71c5-b675-2b90defcc15e",
+    "019d2bb3-5d87-7195-a43f-55f305d370f5"
+  ],
+  "resultIds": [
+    "01a185b4-281d-73ea-9ffd-a03a6e3b8b39"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a185aa-967c-764b-ad7a-63de7681037a",
+      "name": "Ngân sách nhà nước (TTHC nội bộ)",
+      "code": "G12.02.TC01"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afec-20f13a1b2131",
+      "name": "QUY ĐỊNH CHI TIẾT THI HÀNH MỘT SỐ ĐIỀU CỦA LUẬT NGÂN SÁCH NHÀ NƯỚC",
+      "code": "163/2016/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a43f-55f305d370f5",
+      "name": "Thông tư 342/2016/TT-BTC",
+      "code": "342/2016/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b675-2b90defcc15e",
+      "name": "Ngân sách nhà nước",
+      "code": "Luật số 83/2015/QH13"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a185b4-281d-73ea-9ffd-a03a6e3b8b39",
+      "name": "Các bộ, cơ quan trung ương, địa phương được hoặc không được bổ sung kinh phí từ nguồn dự phòng NSTW",
+      "code": "KQ.G12.001390"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910956,
+  "updatedAt": 1794448910956,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "* Cơ quan giải quyết thủ tục hành chính: \n- Đối với các khoản chi trên 03 tỷ đồng đối với mỗi nhiệm vụ phát sinh, Bộ Tài chính chủ trì phối hợp với Bộ Tài chính và các cơ quan liên quan trình Thủ tướng Chính phủ quyết định các khoản chi đầu tư phát triển và các khoản chi thuộc chức năng quản lý của Bộ Tài chính. Bộ Tài chính chủ trì, phối hợp với các cơ quan liên quan trình Thủ tướng Chính phủ quyết định các khoản chi còn lại.\n- Bộ trưởng Bộ Tài chính quyết định mức chi không quá 03 tỷ đồng đối với mỗi nhiệm vụ phát sinh, định kỳ hằng quý tổng hợp báo cáo Thủ tướng Chính phủ.\n- Căn cứ các chính sách, chế độ đã được cấp có thẩm quyền quyết định chi từ nguồn dự phòng ngân sách trung ương, Bộ trưởng Bộ Tài chính quyết định chi, trừ các khoản chi quy định tại điểm a khoản 3 Điều 7 Nghị định số 163/2016/NĐ-CP khoản này và tổng hợp, báo cáo Thủ tướng Chính phủ kết quả thực hiện.",
+  "delegatedAgencies": "Thủ tướng Chính phủ",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Khi phát sinh nhiệm vụ thuộc các nội dung chi của dự phòng ngân sách trung ương",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

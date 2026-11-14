@@ -1,0 +1,525 @@
+{
+  "id": "019d2bfb-98b7-75a7-9a59-df76a408b6f3",
+  "code": "1.013275",
+  "codeNotation": "1.013275",
+  "executionSteps": [
+    {
+      "name": "a) Nộp hồ sơ thủ tục hành chính:",
+      "description": "Tổ chức, cá nhân gửi 01 hồ sơ đề nghị phê duyệt vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh đến Bộ Quốc phòng (Cục Tác chiến, Bộ Tổng Tham mưu)."
+    },
+    {
+      "name": "b) Giải quyết thủ tục hành chính:",
+      "description": "- Trường hợp phải sửa đổi, bổ sung hồ sơ, trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Bộ Quốc phòng có văn bản yêu cầu tổ chức, cá nhân hoàn thiện hồ sơ theo quy định."
+    },
+    {
+      "name": "",
+      "description": "- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định, Bộ Quốc phòng gửi văn bản lấy ý kiến thống nhất của Bộ Công an, Bộ Xây dựng, Ủy ban nhân dân cấp tỉnh về vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh. Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản lấy ý kiến của Bộ Quốc phòng, Bộ Công an, Bộ Xây dựng và Ủy ban nhân dân cấp tỉnh có văn bản trả lời gửi Bộ Quốc phòng."
+    },
+    {
+      "name": "",
+      "description": "- Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản thống nhất của Bộ Công an, Bộ Xây dựng, Ủy ban nhân dân cấp tỉnh, Bộ Quốc phòng ra quyết định phê duyệt vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh; trường hợp không chấp thuận, Bộ Quốc phòng phải có văn bản thông báo, nêu rõ lý do."
+    },
+    {
+      "name": "",
+      "description": "Kết quả giải quyết thủ tục hành chính được trả bằng bản điện tử, trừ trường hợp công dân, tổ chức có nhu cầu nhận bản giấy. Hồ sơ và kết quả giải quyết thủ tục hành chính bằng bản điện tử có giá trị pháp lý như bản giấy."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp phải sửa đổi, bổ sung hồ sơ: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian gửi lấy ý kiến: Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian đóng góp ý kiến: Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản lấy ý kiến của Bộ Quốc phòng.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian ra quyết định phê duyệt vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh: Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản thống nhất của Bộ Công an, Bộ Xây dựng, Ủy ban nhân dân cấp tỉnh.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp phải sửa đổi, bổ sung hồ sơ: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian gửi lấy ý kiến: Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian đóng góp ý kiến: Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản lấy ý kiến của Bộ Quốc phòng.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian ra quyết định phê duyệt vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh: Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản thống nhất của Bộ Công an, Bộ Xây dựng, Ủy ban nhân dân cấp tỉnh.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp phải sửa đổi, bổ sung hồ sơ: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian gửi lấy ý kiến: Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ theo quy định.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian đóng góp ý kiến: Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản lấy ý kiến của Bộ Quốc phòng.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian ra quyết định phê duyệt vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh: Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản thống nhất của Bộ Công an, Bộ Xây dựng, Ủy ban nhân dân cấp tỉnh.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục phê duyệt vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71a5-77d2-ae5a-c561cfd8ade7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị phê duyệt vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh theo Mẫu số I.01 quy định tại Phụ lục ban hành kèm theo Nghị định số 205/2026/NĐ-CP",
+          "code": "000.00.00.G11-KQ1017",
+          "attachments": [
+            {
+              "id": "019fee8c-c790-728b-8e6d-7d64da211d2d",
+              "fileName": "Mẫu số I.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fee8c-c790-728b-8e6d-7d64da211d2d/Mẫu số I.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71a5-77d2-ae5a-cbba51406121",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử thuyết minh xác định vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh.",
+          "code": "000.00.00.G11-KQ1018",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a5-77d2-ae5a-ce4ae1f2b305",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản vẽ vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh tỷ lệ 1/2.000.",
+          "code": "000.00.00.G11-KQ1019",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-50376f14f125"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+    "019f64ee-5895-74ab-a809-3656d3f318bb"
+  ],
+  "resultIds": [
+    "019fee9b-6203-7075-ad88-b3b87a82532b",
+    "019feea0-c92f-7648-9f01-1054fbaeb625"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d12-684311d9cf13"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a72-700f-a652-c083c8aaf911"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a72-700f-a652-ac5169305ab5",
+    "019d2be3-6a81-771b-b66d-4ef4369c303d"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-50376f14f125",
+      "name": "Quản lý vùng trời",
+      "code": "G11-QP12"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-50376f14f125",
+    "name": "Quản lý vùng trời",
+    "code": "G11-QP12"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d12-684311d9cf13",
+      "name": "Cục Tác chiến/Bộ Tổng Tham mưu",
+      "code": "G11.01.001.01"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng",
+      "code": "G11"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng",
+      "code": "G17"
+    },
+    {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an",
+      "code": "G01"
+    }
+  ],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+      "name": "Luật hàng không dân dụng Việt Nam",
+      "code": "130/2025/QH15"
+    },
+    {
+      "id": "019f64ee-5895-74ab-a809-3656d3f318bb",
+      "name": "Nghị định về cảng hàng không và bãi cất, hạ cánh",
+      "code": "205/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019feea0-c92f-7648-9f01-1054fbaeb625",
+      "name": "Văn bản trả lời người đề nghị và nêu rõ lý do trong trường hợp không phê duyệt",
+      "code": "KQ.G11.1.013275.II.14"
+    },
+    {
+      "id": "019fee9b-6203-7075-ad88-b3b87a82532b",
+      "name": "Quyết định phê duyệt vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh",
+      "code": "KQ.G11.1.013275.II.01"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "departmentPromulgateCode": "G11",
+  "departmentPromulgateName": "Bộ Quốc phòng",
+  "cases": [
+    {
+      "id": "019d2d15-14a6-72c1-a761-6d4ee8cdd86d",
+      "name": "Thủ tục mở sân bay chuyên dùng trên mặt đất, mặt nước",
+      "code": "1.013275.01",
+      "processingDay": {
+        "qty": 27,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019ff011-d97a-730c-af31-125db1f112cd",
+      "name": "Thủ tục phê duyệt vị trí cảng hàng không chuyên dùng và bãi cất, hạ cánh",
+      "code": "1.013275.01",
+      "processingDay": {
+        "qty": 27,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559402167,
+  "updatedAt": 1786439127476,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Tác chiến/Bộ Tổng Tham mưu",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Quốc phòng",
+  "coordinatingAgencies": "Bộ Xây dựng, Bộ Công an",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fdb71-8d99-75be-8d8e-fc1a48045139",
+    "proposalNumber": "4174",
+    "decisionDate": 1785690000000,
+    "decisionNumber": null,
+    "publicationDate": 1786439127060,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

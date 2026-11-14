@@ -1,0 +1,179 @@
+{
+  "id": "01a18afa-69a6-72a9-b221-8cbdad5e4eb9",
+  "code": "6.006858",
+  "codeNotation": "6.006858",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Trên cơ sở Kế hoạch ứng vốn đã được cơ quan, người có thẩm quyền phê duyệt, tổ chức được ứng vốn lập 01 bộ hồ sơ đề nghị ứng vốn gửi Quỹ phát triển đất.\nBước 2: Trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Quỹ phát triển đất trình cơ quan, người có thẩm quyền quyết định việc ứng vốn cho tổ chức được ứng vốn nếu đủ điều kiện hoặc có văn bản thông báo và trả lại hồ sơ cho tổ chức đề nghị ứng vốn nếu không đủ điều kiện theo quy định.\nBước 3: Căn cứ Quyết định ứng vốn từ Quỹ phát triển đất của cơ quan, người có thẩm quyền, Quỹ phát triển đất kiểm soát hồ sơ và chịu trách nhiệm về tính hợp pháp của hồ sơ, lập chứng từ chuyển tiền gửi Kho bạc Nhà nước, ngân hàng thương mại nơi mở tài khoản. Chậm nhất 01 ngày làm việc, Kho bạc Nhà nước nơi mở tài khoản chuyển tiền cho đối tượng thụ hưởng theo đề nghị của Quỹ phát triển đất. Ngân hàng thương mại nơi mở tài khoản thanh toán thực hiện lệnh chuyển tiền của Quỹ phát triển đất cho đối tượng thụ hưởng theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 7 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 7 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Thực hiện ứng vốn",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18afd-eafd-7298-9e27-07b9e3985e33",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của tổ chức được ứng vốn về việc đề nghị ứng vốn (trong đó nêu rõ kế hoạch, tiến độ thực hiện khối lượng công việc; phương án hoàn trả vốn ứng; cam kết sử dụng vốn ứng đúng mục đích và hoàn trả vốn ứng đúng thời hạn)",
+          "code": "G12.06.0106",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd76-9e07e9fbd337",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, tài liệu liên quan đến điều kiện ứng vốn quy định tại khoản 2 Điều 15 Nghị định số 104/2024/NĐ-CP ngày 31/7/2024 của Chính phủ",
+          "code": "G12.06.0107",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Tổ chức được ứng vốn.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46c-2ac0a8e0dd8a"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-409c2130f866"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-2ac0a8e0dd8a",
+      "name": "Nghị định số 291/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 103/2024/NĐ-CP ngày 30 tháng 7 năm 2024 của Chính phủ quy định về tiền sử dụng đất, tiền thuê đất và Nghị định số 104/2024/NĐ-CP ngày 31 tháng 7 năm 2024 của Chính phủ quy định về Quỹ phát triển đất",
+      "code": "291/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-409c2130f866",
+      "name": "Quyết định ứng vốn.",
+      "code": "KQ.G12.001394"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910956,
+  "updatedAt": 1794448910956,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Cơ quan người có thẩm quyền quy định tại khoản 1 Điều 16 Nghị định số 104/2024/NĐ-CP ngày 31/7/2024 của Chính phủ.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

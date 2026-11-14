@@ -1,0 +1,248 @@
+{
+  "id": "01a18a73-80de-70db-8d6c-1bfbae721102",
+  "code": "6.006850",
+  "codeNotation": "6.006850",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện",
+      "description": "Bước 1: Cơ quan quản lý tài sản lập hồ sơ đề nghị chuyển giao tài sản, báo cáo cơ quan quản lý cấp trên (nếu có) để trình cơ quan, người có thẩm quyền.\nBước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ, cơ quan, người có thẩm quyền xem xét, quyết định chuyển giao tài sản đối với các trường hợp thuộc thẩm quyền hoặc có văn bản hồi đáp trong trường hợp đề nghị điều chuyển tài sản chưa phù hợp.\nTrường hợp việc chuyển giao tài sản thuộc thẩm quyền quyết định của Thủ tướng Chính phủ thì Bộ Giao thông vận tải (đối với tài sản thuộc trung ương quản lý), Ủy ban nhân dân cấp tỉnh (đối với tài sản thuộc địa phương quản lý) lập hồ sơ đề nghị Thủ tướng Chính phủ xem xét, quyết định chuyển giao tài sản hoặc có văn bản chỉ đạo/hồi đáp trong trường hợp đề nghị chuyển giao tài sản chưa phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Chuyển giao tài sản kết cấu hạ tầng giao thông đường bộ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18a7c-4f1b-73eb-bca2-74ffe456f098",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý tài sản về việc đề nghị chuyển giao tài sản về địa phương quản lý, xử lý",
+          "code": "G12.060080",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18a7d-10ef-7053-b659-0d4bcbc93fc9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý đường bộ cấp tỉnh (trong trường hợp tài sản do cơ quan quản lý đường bộ cấp huyện hoặc cơ quan quản lý đường bộ cấp xã quản lý) về việc đề nghị chuyển giao tài sản",
+          "code": "G12.06.0082",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18a7d-550a-768d-8a16-0bbaa0fb826b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ý kiến của Ủy ban nhân dân cấp tỉnh (nơi tiếp nhận tài sản) trong trường hợp tài sản do cơ quan quản lý tài sản ở trung ương quản lý",
+          "code": "G12.06.0083",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18a7d-a1fa-743d-b509-4751ca6b6f76",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị chuyển giao theo Mẫu số 01C tại Phụ lục kèm theo Nghị định số 44/2024/NĐ-CP",
+          "code": "G12.06.0084",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18a7e-0271-719a-bc12-65cfc3a8dea3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ liên quan về lý do đề nghị chuyển giao tài sản (nếu có)",
+          "code": "G12.060085",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-7adf4d20e448",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "G12.060049",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18a63-5e4f-71fc-8110-521f830af4fa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý cấp trên của cơ quan quản lý tài sản (nếu có)",
+          "code": "G12.06.0070",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan quản lý tài sản quy định tại khoản 3 Điều 2 Nghị định .",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46e-16ecdd31d7bc"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-30e0184d3e36"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+      "name": "Bộ xây dựng (Giao thông vận tải cũ)",
+      "code": "G04"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46e-16ecdd31d7bc",
+      "name": "Nghị định 44/2024/NĐ-CP quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng giao thông đường bộ",
+      "code": "44/2024/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-30e0184d3e36",
+      "name": "Quyết định chuyển giao tài sản kết cấu hạ tầng giao thông đường bộ",
+      "code": "KQ.G12.001416"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910942,
+  "updatedAt": 1794448910942,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ xây dựng (Giao thông vận tải cũ), Thủ tướng Chính phủ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Thủ tướng Chính phủ, Bộ trưởng Bộ Giao thông vận tải, Uỷ ban nhân dân cấp tỉnh quyết định hoặc cơ quan, người có thẩm quyền quyết định.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "01a0ec2e-ed7a-7125-b4a3-0d6c726e5d27",
+  "code": "1.116811",
+  "codeNotation": "1.116811",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ gửi 01 bộ hồ sơ theo quy định tại khoản 1 Điều 16 Nghị định số 360/2026/NĐ-CP qua Cổng Dịch vụ công Quốc gia hoặc VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận hồ sơ của cấp có thẩm quyền. Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, nếu hồ sơ chưa đầy đủ, đúng quy định, cơ quan tiếp nhận phải thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử những nội dung cần chỉnh sửa, bổ sung cho cơ quan, tổ chức. \nb) Trong thời hạn 12 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn phối hợp với các đơn vị liên quan tổ chức thẩm định để đánh giá việc đáp ứng các điều kiện sáp nhập, chia, tách, trình cấp có thẩm quyền quyết định sáp nhập, chia, tách trường; nếu chưa đủ điều kiện thì phải thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử cho cơ quan, tổ chức và nêu rõ lý do. Ngay sau khi quyết định sáp nhập, chia, tách trường có hiệu lực, cấp có thẩm quyền quyết định cấp phép hoạt động giáo dục đối với trường mới hình thành.\nc) Quyết định sáp nhập, chia, tách trường mầm non và quyết định cấp phép hoạt động giáo dục đối với trường mầm non hình thành sau sáp nhập, chia, tách theo Mẫu số 08 Phụ lục kèm theo Nghị định 360/2026/NĐ-CP, được gửi trực tiếp hoặc qua dịch vụ bưu chính cho cơ quan, tổ chức và công bố công khai trên các phương tiện thông tin đại chúng, trang thông tin điện tử của Ủy ban nhân dân cấp tỉnh, Sở Giáo dục và Đào tạo."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ qua dịch vụ bưu chính đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    }
+  ],
+  "description": "a) Phù hợp với chiến lược, quy hoạch và yêu cầu phát triển kinh tế - xã hội của địa phương.\nb) Trường mầm non mới được hình thành sau khi chia, tách phải đáp ứng đầy đủ các điều kiện thành lập hoặc cho phép thành lập quy định tại Điều 7 và điều kiện cấp phép hoạt động giáo dục quy định tại Điều 9 Nghị định số 360/2026/NĐ-CP.",
+  "name": "Sáp nhập, chia, tách trường mầm non do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0ec2d-56cb-739b-b6ea-965c9e5bfcdc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị sáp nhập, chia, tách trường mầm non theo Mẫu số 05 Phụ lục kèm theo Nghị định 360/2026/NĐ-CP, trong đó thuyết minh phương án xử lý về nhân sự, tài chính, tài sản, đất đai, trẻ em và lộ trình bảo đảm hoạt động liên tục của nhà trường.",
+          "code": "TP-G03.0001340",
+          "attachments": [
+            {
+              "id": "01a0ec2d-4974-76f4-9b52-418af5b04d9d",
+              "fileName": "Mẫu số 05.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0ec2d-4974-76f4-9b52-418af5b04d9d/Mẫu số 05.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-0b425c484651"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0eb27-0a75-75f9-a08c-6705f56edf6d"
+  ],
+  "resultIds": [
+    "01a0ec2e-be43-74ae-9370-aec6da08086d",
+    "01a0f0ba-f757-7224-a606-c02e4b95b6f6"
+  ],
+  "subjectTypeIds": [
+    "019b6990-6a92-7166-a335-f87bf9f53428"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e1-9833f5fb564e",
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-0b425c484651",
+      "name": "Giáo dục mầm non",
+      "code": "G03-GD06"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-9833f5fb564e",
+      "name": "Giám đốc Sở Giáo dục và Đào tạo",
+      "code": "BGD-GDSGD"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0eb27-0a75-75f9-a08c-6705f56edf6d",
+      "name": "Quy định về điều kiện đầu tư và hoạt động của cơ sở giáo dục mầm non, cơ sở giáo dục phổ thông, cơ sở giáo dục thường xuyên và cơ sở giáo dục khác thuộc hệ thống giáo dục quốc dân",
+      "code": "360/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0ec2e-be43-74ae-9370-aec6da08086d",
+      "name": "Quyết định của Chủ tịch Ủy ban nhân dân cấp tỉnh sáp nhập, chia, tách trường mầm non (theo Mẫu số 08 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP)",
+      "code": "KQ-G03.0003"
+    },
+    {
+      "id": "01a0f0ba-f757-7224-a606-c02e4b95b6f6",
+      "name": "Quyết định của Giám đốc Sở Giáo dục và Đào tạo cấp phép hoạt động giáo dục đối với trường mầm non được hình thành sau sáp nhập, chia, tách (theo Mẫu số 08 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP)",
+      "code": "KQ-G03.0004"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790907958101,
+  "updatedAt": 1790907958101,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+  "delegatedAgencies": "Giám đốc Sở Giáo dục và Đào tạo, Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Phù hợp với chiến lược, quy hoạch và yêu cầu phát triển kinh tế - xã hội của địa phương.\nb) Trường mầm non mới được hình thành sau khi chia, tách phải đáp ứng đầy đủ các điều kiện thành lập hoặc cho phép thành lập quy định tại Điều 7 và điều kiện cấp phép hoạt động giáo dục quy định tại Điều 9 Nghị định số 360/2026/NĐ-CP.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ec28-ef38-71b3-860d-48702fad8c6f",
+    "proposalNumber": "2855/QĐ-BGDĐT",
+    "decisionDate": 1790701200000,
+    "decisionNumber": null,
+    "publicationDate": 1790907957843,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

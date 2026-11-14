@@ -1,0 +1,328 @@
+{
+  "id": "01a19f9b-6492-77f5-a4c6-efe7bf83fee8",
+  "code": "6.006798",
+  "codeNotation": "6.006798",
+  "executionSteps": [
+    {
+      "name": "Bước 1",
+      "description": "Chủ đầu tư dự án (đối với tài sản kết cấu hạ tầng chợ được đầu tư xây dựng mới), đơn vị chủ trì quản lý tài sản (đối với tài sản kết cấu hạ tầng chợ được xác lập quyền sở hữu toàn dân theo quy định tại Điều 106 Luật Quản lý, sử dụng tài sản công) có văn bản kèm theo hồ sơ về tài sản theo quy định gửi về Sở Công Thương."
+    },
+    {
+      "name": "Bước 2",
+      "description": "Trong thời hạn không quá 10 ngày, kể từ ngày nhận đủ hồ sơ quy định tại điểm a khoản này, Sở Công Thương gửi văn bản ấy ý kiến của các cơ quan, đơn vị liên quan."
+    },
+    {
+      "name": "Bước 3",
+      "description": "Trong thời hạn không quá 15 ngày kể từ ngày nhận được đề nghị tham gia ý kiến, các cơ quan, đơn vị liên quan có văn bản tham gia ý kiến gửi về Sở Công Thương."
+    },
+    {
+      "name": "Bước 4",
+      "description": "Trong thời hạn không quá 20 ngày kể từ ngày nhận được ý kiến của các cơ quan, đơn vị liên quan, Sở Công Thương trình Ủy ban nhân dân cấp thành phố xem xét, quyết định giao tài sản hoặc có văn bản hồi đáp trong trường hợp đề nghị giao tài sản chưa phù hợp."
+    },
+    {
+      "name": "Bước 5",
+      "description": "Trong thời hạn không quá 30 ngày kể nhận được hồ sơ theo quy định tại khoản 3 phần này của Sở Công Thương, Ủy ban nhân dân thành phố xem xét, phê duyệt Quyết định giao tài sản kết cấu hạ tầng chợ hoặc có văn bản hồi đáp trong trường hợp đề nghị giao tài sản không phù hợp."
+    },
+    {
+      "name": "Bước 6",
+      "description": "Trong thời hạn 30 ngày, kể từ ngày có Quyết định giao tài sản kết cấu hạ tầng chợ của Ủy ban nhân dân thành phố, các cơ quan, đơn vị, doanh nghiệp có liên quan thực hiện việc bàn giao, tiếp nhận tài sản. Việc bàn giao, tiếp nhận tài sản phải được lập thành biên bản theo Mẫu số 05 Phụ lục I Nghị định 60/2024/NĐ-CP."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 75,
+      "processingTimeUnit": "DAY",
+      "description": "Thực hiện thông qua phần mềm Hệ thống quản lý văn bản và điều hành thành phố Bắc Ninh",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Không",
+  "name": "Quyết định giao tài sản kết cấu hạ tầng chợ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a19f8f-1bce-7098-a131-2eb72a80856c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình của chủ đầu tư dự án/đơn vị chủ trì quản lý tài sản về việc giao tài sản cho đối tượng quản lý",
+          "code": "TP.H05.000325",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f8f-c342-7009-8da7-53f1b60ac132",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt dự án đầu tư xây dựng",
+          "code": "TP.H05.000326",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f8f-fba8-70dd-9efa-77937ac13a9e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị được giao tài sản",
+          "code": "TP.H05.000327",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f90-96e1-7740-badc-3adaa53dfac9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị giao (tên tài sản, địa chỉ, loại hình công trình, năm xây dựng, năm đưa vào sử dụng, diện tích, số điểm kinh doanh tại chợ, giá trị tài sản, đánh giá tình trạng tài sản - nếu có)",
+          "code": "TP.H05.000328",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f91-659c-75d1-8ab2-0f7a622d1c1c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản nghiệm thu đưa tài sản vào sử dụng (đối với tài sản được đầu tư xây dựng mới)",
+          "code": "TP.H05.000329",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f91-cb75-75a5-a03b-3e47226ba170",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định xác lập quyền sở hữu toàn dân (đối với tài sản được xác lập quyền sở hữu toàn dân theo quy định tại Điều 106 Luật Quản lý, sử dụng tài sản công)",
+          "code": "TP.H05.000330",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f92-1de6-754d-a727-70daf3891b96",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ hoàn công (đối với công trình đầu tư xây dựng mới)",
+          "code": "TP.H05.000331",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f92-86d5-74ba-a80d-b6f0f2c7e4fa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy tờ khác có liên quan (nếu có) theo quy định tại Điều 17, Nghị định 60/2024/NĐ-CP",
+          "code": "TP.H05.000332",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f93-bde0-7028-9241-61ea472d33af",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình của Sở Công Thương đề nghị giao tài sản cho đối tượng quản lý",
+          "code": "TP.H05.000333",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a19f94-1937-7218-805a-7d6dc8cafd9f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Dự thảo Quyết định giao tài sản",
+          "code": "TP.H05.000334",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-83161fce424c"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46f-85e5bc589b94",
+    "01a19a3d-6299-719e-8d31-2997dc6bc782",
+    "01a19f75-de68-7124-83b9-475893fbb926"
+  ],
+  "resultIds": [
+    "01a19f94-eba9-714d-892d-225335d2eec4"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a32e-aaa627094b57"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3ed-9649c4f016cd"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-83161fce424c",
+      "name": "Tài sản kết cấu hạ tầng chợ do Nhà nước đầu tư, quản lý",
+      "code": "G02-CT41"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-83161fce424c",
+    "name": "Tài sản kết cấu hạ tầng chợ do Nhà nước đầu tư, quản lý",
+    "code": "G02-CT41"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a32e-aaa627094b57",
+      "name": "Sở Công thương thành phố Bắc Ninh",
+      "code": "H05.7"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND thành phố Bắc Ninh",
+      "code": "H05"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46f-85e5bc589b94",
+      "name": "Nghị định số 60/2024/NĐ-CP",
+      "code": "60/2024/NĐ-CP"
+    },
+    {
+      "id": "01a19a3d-6299-719e-8d31-2997dc6bc782",
+      "name": "Ban hành Quy định về phát triển và quản lý chợ trên địa bàn thành phố Bắc Ninh và Quyết định số 1231/QĐ-UBND ngày 14 tháng 5 năm 2026 của Chủ tịch UBND tỉnh về việc đính chính văn bản quy phạm pháp luật lĩnh vực công thương do Uỷ ban nhân dân tỉnh Bắc Ninh ban hành",
+      "code": "101/2025/QĐ-UBND."
+    },
+    {
+      "id": "01a19f75-de68-7124-83b9-475893fbb926",
+      "name": "về việc đính chính văn bản quy phạm pháp luật lĩnh vực công thương do Uỷ ban nhân dân tỉnh Bắc Ninh ban hành",
+      "code": "1231/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a19f94-eba9-714d-892d-225335d2eec4",
+      "name": "Quyết định giao tài sản kết cấu hạ tầng chợ",
+      "code": "KQ.H05.000507"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND thành phố Bắc Ninh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794211524256,
+  "updatedAt": 1794211524256,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Công thương thành phố Bắc Ninh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "UBND thành phố Bắc Ninh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1bf53-16e4-7129-8e37-bfd2f04b915e",
+    "proposalNumber": "3005/QĐ-UBND",
+    "decisionDate": 1794157200000,
+    "decisionNumber": null,
+    "publicationDate": 1794211524147,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND thành phố Bắc Ninh"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

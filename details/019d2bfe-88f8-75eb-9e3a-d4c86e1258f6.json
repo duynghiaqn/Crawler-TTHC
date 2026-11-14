@@ -1,0 +1,717 @@
+{
+  "id": "019d2bfe-88f8-75eb-9e3a-d4c86e1258f6",
+  "code": "1.013216",
+  "codeNotation": "1.013216",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan chuẩn bị dự án nộp 01 bộ hồ sơ đề nghị thẩm định Báo cáo\nnghiên cứu khả thi đầu tư xây dựng/ Báo cáo nghiên cứu khả thi đầu tư xây dựng điều chỉnh đến Bộ phận Một cửa thuộc Bộ quản lý công trình xây dựng chuyên ngành (Bộ Xây dựng, Bộ Công Thương, Bộ Nông nghiệp và Môi trường) hoặc qua dịch vụ bưu chính hoặc trực tuyến tại cổng dịch vụ công quốc gia.\n- Trong thời hạn 05 ngày làm việc sau khi tiếp nhận hồ sơ trình thẩm định, cơ quan chuyên môn về xây dựng thuộc Bộ có trách nhiệm:\n+ Gửi văn bản yêu cầu bổ sung thành phần hồ sơ đến cơ quan chuẩn bị dự án;\n+ Gửi văn bản từ chối tiếp nhận thẩm định trong trường hợp xác định nội dung trong hồ sơ trình thẩm định khác với nội dung nêu tại Tờ trình thẩm định.\n- Trong quá trình thẩm định, cơ quan chuyên môn về xây dựng có quyền tạm dừng thẩm định (không quá 01 lần) và có văn bản gửi cơ quan chuẩn bị dự án về các lỗi, sai sót về thông tin, số liệu trong nội dung hồ sơ dẫn đến không thể đưa ra kết luận thẩm định.\nTrong thời hạn 20 ngày làm việc kể từ ngày nhận được văn bản yêu cầu bổ sung hồ sơ hoặc văn bản tạm dừng thẩm định của cơ quan chuyên môn về xây dựng, cơ quan chuẩn bị dự án nộp bổ sung thành phần hồ sơ hoặc điều chỉnh, làm rõ các thông tin theo yêu cầu. Thời hạn thẩm định được tính lại kể từ ngày cơ quan chuyên môn về xây dựng nhận được nội dung bổ sung, làm rõ theo yêu cầu. Hết thời hạn 20 ngày làm việc mà cơ quan chuẩn bị dự án không thực hiện việc khắc phục, bổ sung hồ sơ theo yêu cầu thì cơ quan chuyên môn về xây dựng dừng việc thẩm định. Cơ quan chuẩn bị dự án nhận lại hồ sơ trình thẩm định tại Bộ phận Một cửa.\n- Đối với dự án thực hiện thẩm định theo hình thức Hội đồng thẩm định, việc thẩm định của Hội đồng thẩm định thực hiện theo quy chế làm việc của Hội đồng thẩm định.\n- Trong thời hạn không quá 25 ngày làm việc đối với dự án nhóm A có công trình cấp I trở lên; không quá 20 ngày làm việc đối với các dự án nhóm A còn lại; 20 ngày làm việc đối với dự án nhóm B có công trình cấp I trở lên; không quá 16 ngày làm việc đối với các dự án nhóm B còn lại; 15 ngày làm việc đối với dự án nhóm C có công trình cấp I trở lên; không quá 12 ngày làm việc đối với các dự án nhóm C còn lại kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chuyên môn về xây dựng ra văn bản thông báo kết quả thẩm định kèm theo hồ sơ bản vẽ được đóng dấu xác nhận thẩm định hoặc hồ sơ bản vẽ không đóng dấu thẩm định (trường hợp Thông báo kết quả thẩm định kết luận chưa đủ điều kiện hoặc chỉ đủ điều kiện sau khi chỉnh sửa, hoàn thiện hồ sơ thiết kế cơ sở)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "25 ngày làm việc đối với dự án nhóm A có công trình cấp I trở lên kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "20 ngày làm việc đối với các dự án nhóm A còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "60 ngày đối với dự án quan trọng quốc gia kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "20 ngày làm việc đối với dự án nhóm B có công trình cấp I trở lên kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 16,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "16 ngày làm việc đối với các dự án nhóm B còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "15 ngày làm việc đối với dự án nhóm C có công trình cấp I trở lên kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "12 ngày làm việc đối với các dự án nhóm C còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 60,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "60 ngày đối với dự án quan trọng quốc gia",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "25 ngày làm việc đối với dự án nhóm A có công trình cấp I trở lên kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "20 ngày làm việc đối với các dự án nhóm A còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "20 ngày làm việc đối với dự án nhóm B có công trình cấp I trở lên kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 16,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "16 ngày làm việc đối với các dự án nhóm B còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "15 ngày làm việc đối với dự án nhóm C có công trình cấp I trở lên kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "12 ngày làm việc đối với các dự án nhóm C còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 60,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "60 ngày đối với dự án quan trọng quốc gia kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "25 ngày làm việc đối với dự án nhóm A có công trình cấp I trở lên kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "20 ngày làm việc đối với các dự án nhóm A còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "20 ngày làm việc đối với dự án nhóm B có công trình cấp I trở lên kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 16,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "16 ngày làm việc đối với các dự án nhóm B còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "15 ngày làm việc đối với dự án nhóm C có công trình cấp I trở lên kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "12 ngày làm việc đối với các dự án nhóm C còn lại kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định tại Thông tư của Bộ trưởng Bộ Tài chính."
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng/ Báo cáo nghiên cứu khả thi đầu tư xây dựng điều chỉnh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f41ca-7ca9-744c-9676-0bf6b29a5bfc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình thẩm định theo quy định tại Mẫu số 01 Phụ lục I ban hành kèm theo Nghị định số 217/2026/NĐ-CP",
+          "code": "TP-G17.000119",
+          "attachments": [
+            {
+              "id": "019fe046-add9-71ae-ac5c-87c006572f93",
+              "fileName": "G 17. 000119 , 134, 215.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fe046-add9-71ae-ac5c-87c006572f93/G 17. 000119 , 134, 215.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f41ca-f31c-7384-9f18-25cdff659358",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về chủ trương đầu tư xây dựng dự án hoặc văn bản phê duyệt thông tin dự án hoặc quyết định phê duyệt Đề án du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng đối với dự án du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng theo quy định của pháp luật về lâm nghiệp",
+          "code": "TP-G17.000120",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cb-4d82-747d-8746-b20e6ac136d5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy phép đầu tư, Giấy chứng nhận ưu đãi đầu tư, Giấy chứng nhận đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định phê duyệt kết quả trúng đấu giá quyền sử dụng đất, trúng đấu thầu dự án có sử dụng đất hoặc văn bản pháp lý khác có giá trị tương đương đối với dự án thuộc trường hợp được chuyển tiếp theo quy định pháp luật về đầu tư không có yêu cầu phải thực hiện chấp thuận chủ trương đầu tư;",
+          "code": "TP-G17.000121",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cb-b581-7446-924f-5254c6953111",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản phê duyệt phương án thiết kế kiến trúc được lựa chọn theo pháp luật về kiến trúc thông qua thi tuyển và bản vẽ kèm theo (nếu có yêu cầu thi tuyển);",
+          "code": "TP-G17.000122",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cc-2256-7267-b201-17fec8052a4b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản chấp thuận/quyết định phê duyệt và các bản vẽ quy hoạch có liên quan của quy hoạch sử dụng làm căn cứ lập dự án theo quy định tại Điều 26 Nghị định số 217/2026/NĐ-CP;",
+          "code": "TP-G17.000123",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cc-9568-727b-a178-4809c240a1c6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các văn bản thỏa thuận, xác nhận về đấu nối hạ tầng kỹ thuật của dự án; văn bản chấp thuận độ cao công trình theo quy định của Chính phủ về quản lý độ cao chướng ngại vật hàng không và các trận địa quản lý, bảo vệ vùng trời tại Việt Nam (trường hợp dự án không thuộc khu vực hoặc đối tượng có yêu cầu lấy ý kiến thống nhất về bề mặt quản lý độ cao công trình tại giai đoạn phê duyệt quy hoạch xây dựng) (nếu có);",
+          "code": "TP-G17.000124",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cd-183a-719e-922a-03f781352dea",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các văn bản pháp lý, tài liệu khác có liên quan (nếu có);",
+          "code": "TP-G17.000125",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cd-7508-7188-97c3-274692d16b84",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ khảo sát xây dựng được phê duyệt",
+          "code": "TP-G17.000126",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cd-dfc4-702c-b5ca-50a0966268a7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo nghiên cứu khả thi (gồm thuyết minh và hồ sơ thiết kế xây dựng được lập tại Báo cáo nghiên cứu khả thi); Báo cáo kết quả thẩm tra thiết kế xây dựng theo Mẫu số 02 Phụ lục I ban hành kèm theo Nghị định số 217/2026/NĐ-CP (nếu có);",
+          "code": "TP-G17.000127",
+          "attachments": [
+            {
+              "id": "019fe046-7360-708b-ba90-d1748f6a5f50",
+              "fileName": "G17. 000 127.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fe046-7360-708b-ba90-d1748f6a5f50/G17. 000 127.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f41ce-49b1-71b8-a97e-fcdf8a09aafd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với dự án đầu tư xây dựng tuyến đường sắt có yêu cầu chấp thuận danh mục tiêu chuẩn theo quy định của pháp luật về đường sắt, hồ sơ trình thẩm định phải có văn bản chấp thuận danh mục tiêu chuẩn của cơ quan có thẩm quyền;",
+          "code": "TP-G17.000128",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41ce-a6bf-7491-9c4d-51c043cf544c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với dự án quy định tại điểm a, b và c khoản 1 Điều 17 Luật Xây dựng năm 2025, ngoài các nội dung quy định nêu trên, hồ sơ trình thẩm định phải có các nội dung sau: tổng mức đầu tư; các thông tin, số liệu có liên quan về giá, định mức, báo giá, kết quả thẩm định giá (nếu có) để xác định tổng mức đầu tư;",
+          "code": "TP-G17.000129",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cf-03a5-7479-81c2-527c76ee96b3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với dự án có vi phạm hành chính về xây dựng đã bị xử phạt và biện pháp khắc phục hậu quả có yêu cầu thực hiện thẩm định, thẩm định điều chỉnh, cấp giấy phép xây dựng hoặc điều chỉnh giấy phép xây dựng, hồ sơ trình thẩm định còn phải có các nội dung: Báo cáo của chủ đầu tư về quá trình thực hiện dự án, tình hình thực tế thi công các công trình xây dựng của dự án đến thời điểm trình thẩm định; biên bản, quyết định xử phạt vi phạm hành chính của cấp có thẩm quyền; Báo cáo kiểm định của tổ chức kiểm định xây dựng đánh giá về khả năng chịu lực của phần công trình đã thi công xây dựng;",
+          "code": "TP-G17.000130",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cf-7b32-7576-a813-0b8d363077d0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với dự án sửa chữa, cải tạo, hồ sơ trình thẩm định còn phải có các nội dung: Hồ sơ khảo sát hiện trạng, Báo cáo kiểm định của tổ chức kiểm định xây dựng đánh giá về khả năng chịu lực của công trình (trường hợp nội dung sửa chữa, cải tạo có liên quan).",
+          "code": "TP-G17.000131",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41cf-dc58-7157-a1e3-201e06e09546",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đối với hồ sơ trình thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng điều chỉnh, ngoài các thành phần hồ sơ nêu trên còn phải làm rõ các nội dung sau: + Lý do, mục tiêu điều chỉnh dự án, việc đáp ứng điều kiện điều chỉnh dự án theo pháp luật có liên quan đối với dự án đầu tư xây dựng sử dụng vốn đầu tư công, dự án PPP; + Báo cáo của chủ đầu tư hoặc cơ quan chuẩn bị dự án về quá trình thực hiện dự án, tình hình thực tế thi công các công trình xây dựng của dự án đến thời điểm đề xuất điều chỉnh.",
+          "code": "TP-G17.000132",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41d0-47d6-73f8-a895-9dfe373f276f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ngoài các hồ sơ nêu trên, đối với các công trình xây dựng mới từ cấp II trở lên, người đề nghị thẩm định có trách nhiệm cung cấp dữ liệu BIM được nộp theo các định dạng chuẩn mở IFC hoặc các định dạng mở khác phù hợp với đặc thù, tính chất của công trình (trừ trường hợp người quyết định đầu tư quyết định việc không áp dụng BIM đối với dự án đầu tư xây dựng công trình theo tuyến, dự án đầu tư xây dựng tại khu vực có tính chất đặc thù, dự án có yêu cầu bảo đảm bí mật nhà nước).",
+          "code": "TP-G17.000133",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019e1a20-4bcb-77ce-8a33-9b18a804996e",
+    "019f1d67-d525-7040-bc15-3156f4c4411c",
+    "019f3666-e3d6-702f-926b-ced690d453d0"
+  ],
+  "resultIds": [
+    "019f6541-ac4d-7698-869e-5ba0259d9e8a",
+    "019fe048-3aa6-74af-b73c-abafc320ff9d",
+    "019fe048-97d4-77d4-92a5-807e58a9d526"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d03-d0308429a20c"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66d-703341214021",
+    "019d2be3-6a81-771b-b66d-97ed43429696"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+      "name": "Hoạt động xây dựng",
+      "code": "G17-XD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+    "name": "Hoạt động xây dựng",
+    "code": "G17-XD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d03-d0308429a20c",
+      "name": "Cơ quan chuyên môn được Bộ, cơ quan ngang Bộ giao",
+      "code": "BTN_CQB"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66d-703341214021",
+      "name": "Cục Kinh tế - Quản lý đầu tư xây dựng",
+      "code": "G17.11"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66d-97ed43429696",
+      "name": "Cục Kết cấu hạ tầng xây dựng",
+      "code": "G17.15"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e1a20-4bcb-77ce-8a33-9b18a804996e",
+      "name": " Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ.\n",
+      "code": "105/2025/NĐ- CP"
+    },
+    {
+      "id": "019f3666-e3d6-702f-926b-ced690d453d0",
+      "name": "Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng",
+      "code": "217/2026/NĐ-CP"
+    },
+    {
+      "id": "019f1d67-d525-7040-bc15-3156f4c4411c",
+      "name": "Luật Xây dựng",
+      "code": "135/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fe048-97d4-77d4-92a5-807e58a9d526",
+      "name": "Thông báo dừng Thẩm định",
+      "code": "KQ-G17.000097"
+    },
+    {
+      "id": "019fe048-3aa6-74af-b73c-abafc320ff9d",
+      "name": "Thông báo bổ sung hoàn thiện hồ sơ",
+      "code": "KQ-G17.000096"
+    },
+    {
+      "id": "019f6541-ac4d-7698-869e-5ba0259d9e8a",
+      "name": "Văn bản thông báo kết quả thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng/ Báo cáo nghiên cứu khả thi đầu tư xây dựng điều chỉnh",
+      "code": "KQ.G17.000095"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "019d2d12-78bd-77b3-ae24-64154d6ab023",
+      "name": "Thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng/ Báo cáo nghiên cứu khả thi đầu tư xây dựng điều chỉnh",
+      "code": "1.013216.01",
+      "processingDay": {
+        "qty": 35,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a00e79-ba65-72ba-b4cb-c820fdf3b7c3",
+      "name": "Thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng/ Báo cáo nghiên cứu khả thi đầu tư xây dựng điều chỉnh",
+      "code": "1.013216.01",
+      "processingDay": {
+        "qty": 35,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559594744,
+  "updatedAt": 1786949251317,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan chuyên môn được Bộ, cơ quan ngang Bộ giao",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ phận Một cửa Bộ Xây dựng - 65 Quán Sứ, P Cửa Nam, Hà nội",
+  "delegatedAgencies": "Cục Kinh tế - Quản lý đầu tư xây dựng, Cục Kết cấu hạ tầng xây dựng",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f3649-8985-7142-a495-0228f712ad67",
+    "proposalNumber": "1077/QĐ-BXD",
+    "decisionDate": 1782666000000,
+    "decisionNumber": null,
+    "publicationDate": 1786949250428,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

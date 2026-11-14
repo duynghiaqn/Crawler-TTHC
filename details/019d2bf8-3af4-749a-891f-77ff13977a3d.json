@@ -1,0 +1,284 @@
+{
+  "id": "019d2bf8-3af4-749a-891f-77ff13977a3d",
+  "code": "2.001296",
+  "codeNotation": "2.001296",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Thương nhân nộp 01 bộ hồ sơ theo quy định tại khoản 1 Điều 11 Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương về việc quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương tới Bộ Công Thương.\nb) Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Bộ Công Thương thông báo để thương nhân hoàn thiện hồ sơ.\nc) Trong thời hạn 20 ngày làm việc kể từ ngày kết thúc thời gian tiếp nhận hồ sơ theo công bố của Bộ Công Thương, Bộ Công Thương gửi văn bản lấy ý kiến Bộ, cơ quan ngang Bộ có liên quan.\nd) Trong thời hạn 07 ngày làm việc kể từ ngày nhận được văn bản xin ý kiến của Bộ Công Thương, Bộ, cơ quan ngang Bộ có văn bản trả lời Bộ Công Thương về phương án phân giao hạn ngạch thuế quan.\nđ) Trong thời hạn 15 ngày làm việc kể từ ngày nhận được ý kiến của các Bộ, cơ quan ngang Bộ, Bộ Công Thương cấp Giấy phép nhập khẩu theo hạn ngạch thuế quan theo mẫu tại Phụ lục VI kèm theo Thông tư 48/2026/TT-BCT cho thương nhân hoặc có văn bản trả lời thương nhân về việc không cấp Giấy phép nhập khẩu theo hạn ngạch thuế quan và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 42,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "42 ngày làm việc kể từ ngày kết thúc thời gian tiếp nhận hồ sơ theo công bố của Bộ Công Thương.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 42,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "42 ngày làm việc kể từ ngày kết thúc thời gian tiếp nhận hồ sơ theo công bố của Bộ Công Thương.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 42,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "42 ngày làm việc kể từ ngày kết thúc thời gian tiếp nhận hồ sơ theo công bố của Bộ Công Thương.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "a) Đối với hàng hóa thuộc danh mục ngành, nghề đầu tư kinh doanh có điều kiện, thương nhân được xem xét cho phép nhập khẩu theo hạn ngạch thuế quan nhập khẩu phải đáp ứng các điều kiện theo quy định về sản xuất, kinh doanh mặt hàng đó.\nb) Đối với hàng hoá có yêu cầu cụ thể về đối tượng được phân giao hạn ngạch thuế quan nhập khẩu theo cam kết quốc tế, thương nhân được xem xét cho phép nhập khẩu theo hạn ngạch thuế quan nhập khẩu phải đáp ứng các điều kiện theo cam kết.",
+  "name": "Thủ tục phân giao hạn ngạch thuế quan nhập khẩu theo phương thức xét duyệt hồ sơ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a08429-e71e-70b8-9c1b-143d00126761",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Đơn đăng ký hạn ngạch thuế quan nhập khẩu theo mẫu quy định tại Phụ lục V kèm theo Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương: 01 bản chính hoặc bản sao điện tử trong trường hợp nộp hồ sơ trực tuyến. Trường hợp ký theo ủy quyền, hồ sơ phải có văn bản ủy quyền được lập phù hợp với quy định của pháp luật.",
+          "code": "xnk-2195-05",
+          "attachments": [
+            {
+              "id": "01a0842a-be7f-7320-b839-c8f844f05f30",
+              "fileName": "Đơn đăng ký hạn ngạch thuế quan nhập khẩu.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0842a-be7f-7320-b839-c8f844f05f30/Đơn đăng ký hạn ngạch thuế quan nhập khẩu.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0842a-4b8d-77b0-bece-fa23da9dc125",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Tài liệu chứng minh thương nhân là đối tượng phân giao hạn ngạch thuế quan nhập khẩu theo quy định của Bộ Công Thương tại khoản 2 Điều 9 Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương: 01 bản sao có đóng dấu của thương nhân hoặc bản sao điện tử trong trường hợp nộp hồ sơ trực tuyến.",
+          "code": "xnk-2195-06",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "01a0841f-2437-7087-acf9-47e9714dc6d5"
+  ],
+  "resultIds": [
+    "01a0842b-6ac9-751c-9d53-fea9064be384"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b16ccb65a5c0"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương",
+      "code": "G02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "01a0841f-2437-7087-acf9-47e9714dc6d5",
+      "name": "Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương về việc quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "48/2026/TT-BCT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0842b-6ac9-751c-9d53-fea9064be384",
+      "name": "Giấy phép nhập khẩu theo hạn ngạch thuế quan hoặc văn bản trả lời thương nhân về việc không cấp Giấy phép nhập khẩu theo hạn ngạch thuế quan.",
+      "code": "kq-2195-001"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "019dc0f6-3553-7791-aa8d-c8eb48ff5c45",
+      "name": "Thủ tục cấp Giấy phép nhập khẩu theo hạn ngạch thuế quan",
+      "code": "2.001296.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a08435-f63e-739a-8f73-9daa2c0b1ee0",
+      "name": "Thủ tục phân giao hạn ngạch thuế quan nhập khẩu theo phương thức xét duyệt hồ sơ",
+      "code": "2.001296.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d81-aa15-75f4-9e73-30015a333adc",
+      "name": "Thủ tục cấp Giấy phép nhập khẩu theo hạn ngạch thuế quan",
+      "code": "2.001296.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1776321813012,
+  "updatedAt": 1788924523858,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công thương",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Đối với hàng hóa thuộc danh mục ngành, nghề đầu tư kinh doanh có điều kiện, thương nhân được xem xét cho phép nhập khẩu theo hạn ngạch thuế quan nhập khẩu phải đáp ứng các điều kiện theo quy định về sản xuất, kinh doanh mặt hàng đó.\nb) Đối với hàng hoá có yêu cầu cụ thể về đối tượng được phân giao hạn ngạch thuế quan nhập khẩu theo cam kết quốc tế, thương nhân được xem xét cho phép nhập khẩu theo hạn ngạch thuế quan nhập khẩu phải đáp ứng các điều kiện theo cam kết.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0840d-3793-7321-8cbd-86d03714fc3f",
+    "proposalNumber": "2195/QĐ-BCT",
+    "decisionDate": 1788800400000,
+    "decisionNumber": null,
+    "publicationDate": 1788924523781,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

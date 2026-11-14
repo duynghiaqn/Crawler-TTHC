@@ -1,0 +1,278 @@
+{
+  "id": "01a1c3a6-bb47-706b-a992-c1f478777a7d",
+  "code": "6.006818",
+  "codeNotation": "6.006818",
+  "executionSteps": [
+    {
+      "name": "Bước 1",
+      "description": "Căn cứ đơn đề nghị của cá nhân, hộ gia đình hoặc văn bản của tập thể đề nghị cấp đổi, cấp lại hiện vật khen thưởng của cá nhân, tập thể, hộ gia đình; Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, bộ phận tham mưu thực hiện công tác thi đua, khen thưởng của cơ quan, đơn vị, địa phương rà soát, đối chiếu hồ sơ lưu, trình Thủ trưởng cơ quan, đơn vị, địa phương quyết định cấp đổi, cấp lại hiện vật khen thưởng thuộc thẩm quyền của Thủ trưởng cơ quan, đơn vị, địa phương;"
+    },
+    {
+      "name": "Bước 2",
+      "description": "Trong thời hạn 03 ngày làm việc, Thủ trưởng cơ quan, đơn vị, địa phương xem xét, quyết định cấp đổi, cấp lại hiện vật khen thưởng theo quy định;"
+    },
+    {
+      "name": "Bước 3",
+      "description": "Mẫu hiện vật khen thưởng cấp đổi, cấp lại do Thủ trưởng cơ quan, đơn vị, địa phương quyết định và thực hiện mua sắm, in ấn theo quy định của pháp luật;"
+    },
+    {
+      "name": "Bước 4",
+      "description": "Hiện vật khen thưởng thu lại do cấp đổi, cơ quan, đơn vị, địa phương có trách nhiệm thực hiện thanh lý hoặc xử lý theo quy định của pháp luật."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 13,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tiếp tại Bộ phận tham mưu thực hiện công tác thi đua, khen thưởng của cơ quan, đơn vị, địa phương.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 13,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ bản giấy (01 bản chính) trực tiếp hoặc qua dịch vụ bưu chính công ích đến Sở Nội vụ, đồng thời gửi văn bản điện tử (trừ văn bản có nội dung bí mật nhà nước) qua Hệ thống quản lý văn bản và điều hành của thành phố (địa chỉ: https://qlvbdh.bacninh.gov.vn).",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Không",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục cấp đổi, cấp lại hiện vật khen thưởng thuộc thẩm quyền của cơ quan, đơn vị, địa phương",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1c375-920e-724f-a627-e3602e0f4704",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn hoặc văn bản đề nghị cấp đổi, cấp lại của cá nhân, tập thể, hộ gia đình khi có hiện vật khen thưởng bị hư hỏng, không còn giá trị sử dụng hoặc bị thất lạc, bị mất vì lý do khách quan như thiên tai, lũ lụt, hỏa hoạn hoặc do in sai bằng (Mẫu số 01, Mẫu số 02 ban hành kèm theo Quyết định số 94/2026/QĐ-UBND ngày 06/11/2026 của UBND thành phố Bắc Ninh)",
+          "code": "TP.H05.000382",
+          "attachments": [
+            {
+              "id": "01a1c372-a6f9-704a-a091-75fb2d27ea5f",
+              "fileName": "01_Mau01_QD94-2026_Don hoac van ban de nghi cap doi cap lai cua.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1c372-a6f9-704a-a091-75fb2d27ea5f/01_Mau01_QD94-2026_Don hoac van ban de nghi cap doi cap lai cua.docx"
+            },
+            {
+              "id": "01a1c374-8328-7228-a2a0-4f18ca4252ae",
+              "fileName": "02_Mau02_QD94-2026_Don de nghi cap doi cap lai hien vat khen.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1c374-8328-7228-a2a0-4f18ca4252ae/02_Mau02_QD94-2026_Don de nghi cap doi cap lai hien vat khen.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1c37a-80de-7299-bda1-0f41af3b67c3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hiện vật khen thưởng đề nghị cấp đổi (đối với trường hợp đề nghị cấp đổi)",
+          "code": "TP.H05.000383",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+    "01a0b3db-d59d-7129-90b4-dea934ba09d2",
+    "01a13ea9-0fc0-75cb-81c1-c04eaff872e3",
+    "01a1bfd0-9e51-707d-b265-8e59294dc8dd",
+    "01a1bfd1-a6ce-771b-82df-d393b82a2588"
+  ],
+  "resultIds": [
+    "01a1c37e-0b7c-70cc-9012-4f5080417a22"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3ed-9a78b73f8777",
+    "019d2be3-6a93-76b6-8877-6802b16932ab"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44",
+    "019d2be3-6ada-753f-9ac8-5b801c9771db"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3ed-9a78b73f8777",
+      "name": "Sở Khoa học và Công nghệ thành phố Bắc Ninh",
+      "code": "H05.11"
+    },
+    {
+      "id": "019d2be3-6a93-76b6-8877-6802b16932ab",
+      "name": "Văn phòng HĐND và UBND Xã Tam Đa",
+      "code": "H05.133.3"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-5b801c9771db",
+      "name": "Các cơ quan, tổ chức liên quan",
+      "code": "CQLQ"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0b3db-d59d-7129-90b4-dea934ba09d2",
+      "name": "Luật sửa đổi, bổ sung một số điều của Luật Thi đua, khen thưởng số 06/2022/QH15",
+      "code": "Luật số: 06/2026/QH16"
+    },
+    {
+      "id": "01a1bfd1-a6ce-771b-82df-d393b82a2588",
+      "name": "Ban hành Quy định về công tác thi đua, khen thưởng thành phố Bắc Ninh",
+      "code": "94/2026/QĐ-UBND."
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+      "name": "Luật Thi đua, khen thưởng",
+      "code": "06/2022/QH15"
+    },
+    {
+      "id": "01a1bfd0-9e51-707d-b265-8e59294dc8dd",
+      "name": "Của Bộ Nội vụ Quy định biện pháp để tổ chức, hướng dẫn thi hành Luật Thi đua, khen thưởng và Nghị định 368/2026/NĐ-CP ngày 25 tháng 9 năm 2026",
+      "code": "25/2026/TT-BNV"
+    },
+    {
+      "id": "01a13ea9-0fc0-75cb-81c1-c04eaff872e3",
+      "name": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thi đua, khen thưởng",
+      "code": "368/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1c37e-0b7c-70cc-9012-4f5080417a22",
+      "name": "Văn bản của  Văn bản củaThủ trưởng cơ quan, đơn vị, địa phương  về việc cấp đổi, cấp lại hiện vật khen thưởng;về việc cấp đổi, cấp lại hiện vật khen thưởng; Hiện vật khen thưởng cấp đổi/cấp lại",
+      "code": "KQ.H05.000520"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND thành phố Bắc Ninh",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794293036231,
+  "updatedAt": 1794293036231,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Khoa học và Công nghệ thành phố Bắc Ninh, Văn phòng HĐND và UBND Xã Tam Đa",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Các cơ quan, tổ chức liên quan, Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1c3db-b027-766e-ab15-7b64eb548462",
+    "proposalNumber": "3006/QĐ-UBND",
+    "decisionDate": 1794157200000,
+    "decisionNumber": null,
+    "publicationDate": 1794293036113,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND thành phố Bắc Ninh"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

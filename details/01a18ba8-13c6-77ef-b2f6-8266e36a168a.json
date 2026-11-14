@@ -1,0 +1,286 @@
+{
+  "id": "01a18ba8-13c6-77ef-b2f6-8266e36a168a",
+  "code": "6.006865",
+  "codeNotation": "6.006865",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Khi có công trình điện cần chuyển giao, Bên giao có trách nhiệm lập hồ sơ đề nghị chuyển giao tới Bên nhận theo công bố của Tập đoàn Điện lực Việt \nNam.\n- Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ đề nghị chuyển giao công trình điện, Bên nhận có trách nhiệm chủ trì, phối hợp với Bên giao thực hiện kiểm tra thực trạng công trình điện, đánh giá về việc đáp ứng các điều kiện chuyển giao và lập Biên bản theo Mẫu quy định.\n- Trong thời hạn 07 ngày, kể từ ngày hoàn thành việc kiểm kê, xác định giá trị công trình điện, Thủ trưởng Bên giao ban hành Quyết định chuyển giao công trình điện theo mẫu quy định.\n- Trong thời hạn 07 ngày, kể từ ngày có Quyết định chuyển giao, Bên giao chủ trì, phối hợp với Bên nhận thực hiện bàn giao, tiếp nhận công trình điện kèm theo hồ sơ theo quy định. Việc bàn giao, tiếp nhận tài sản phải được lập thành Biên bản theo mẫu quy định.\n- Căn cứ Biên bản bàn giao, tiếp nhận tài sản, Bên nhận thực hiện ghi tăng tài sản, tăng vốn đầu tư của chủ sở hữu tại doanh nghiệp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 44,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 44 ngày\nPhí, Lệ phí: Không quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 44,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 44 ngày\nPhí, Lệ phí: Không quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 44,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 44 ngày\nPhí, Lệ phí: Không quy định",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: \nCông trình điện được chuyển giao sang Tập đoàn Điện lực phải đáp ứng đầy đủ các điều kiện:\n- Phù hợp với quy hoạch phát triển điện lực, phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh tại thời điểm xây dựng hoặc tại thời điểm kiểm tra thực trạng công trình điện để chuyển giao (đối với đường dây và trạm biến áp có cấp điện áp từ 110kV trở lên và Nhà máy điện, thiết bị, lưới điện đấu nối nhà máy điện với hệ thống điện quốc gia và các công trình phụ trợ của Nhà máy điện); \n- Đáp ứng quy chuẩn, tiêu chuẩn có liên quan tại thời điểm kiểm tra thực trạng công trình điện để chuyển giao; \n- Công trình điện đang vận hành (đang được sử dụng để phát điện, truyền tải điện, phân phối điện) bình thường tại thời điểm kiểm tra thực trạng công trình điện để chuyển giao; \n- Công trình điện không trong tình trạng cầm cố, thế chấp, bảo lãnh hoặc bảo đảm bất kỳ nghĩa vụ nợ nào khác.",
+  "name": "Chuyển giao công trình điện là tài sản công tại cơ quan, tổ chức, đơn vị, doanh nghiệp, công trình điện thuộc dự án hạ tầng kỹ thuật được đầu tư bằng vốn nhà nước",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd77-22bfabd6f12e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị chuyển giao công trình điện của Bên giao theo Mẫu số 01 tại Phụ lục ban hành kèm theo Nghị định này",
+          "code": "G12.06.0133",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6c-2c14a802ad3f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định đầu tư, thiết kế kỹ thuật, thiết kế bản vẽ thi công của công trình điện, hồ sơ nghiệm thu hoàn thành công trình, hạng mục công trình độc lập có liên quan đến công trình điện, Thông báo kết quả công tác kiểm tra nghiệm thu hoàn thành hạng mục công trình theo quy định của pháp luật, báo cáo đánh giá tác động môi trường (nếu có)",
+          "code": "G12.06.0134",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6c-33c2f9db672f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ về việc nhận chuyển nhượng, tiếp nhận tài sản trong trường hợp công trình điện được hình thành từ việc mua sắm, giao, điều chuyển, chuyển giao",
+          "code": "G12.06.0135",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6c-37d8f4f62239",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ hạch toán nguyên giá và giá trị còn lại của công trình điện tại thời điểm chuyển giao đối với công trình điện đã được hạch toán",
+          "code": "G12.06.0136",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6c-3b85ab9e14fe",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản phê duyệt quyết toán của cấp có thẩm quyền (nếu đã có quyết toán được phê duyệt); văn bản đề nghị phê duyệt quyết toán hoặc Biên bản nghiệm thu A - B hoặc văn bản phê duyệt dự toán (nếu chưa có quyết toán được phê duyệt) đối với công trình điện chưa được hạch toán",
+          "code": "G12.06.0137",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6c-3c52ded5d980",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ hoàn công, sơ đồ mặt bằng hành lang tuyến đường dây và mặt bằng trạm biến áp",
+          "code": "G12.06.0138",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6c-4089ba0b87d7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ về bảo hành, bảo hiểm công trình điện trong trường hợp công trình điện đang trong thời gian bảo hành hoặc được bảo hiểm",
+          "code": "G12.06.0139",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6c-479a8ce78302",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ đất đai liên quan đến việc giao đất, cho thuê đất, công nhận quyền sử dụng đất gắn với công trình điện và các giấy tờ khác có liên quan đến đất đai (nếu có",
+          "code": "G12.06.0140",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6c-488dcf2d395d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận thẩm duyệt thiết kế, văn bản thẩm duyệt thiết kế, văn bản chấp thuận kết quả nghiệm thu về phòng cháy, chữa cháy của cơ quan có thẩm quyền (nếu có); phương án chữa cháy, phương án phòng cháy theo quy định của pháp luật về phòng cháy và chữa cháy",
+          "code": "G12.06.0141",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd6c-4d703435ac36",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các bản sao quy định tại khoản này phải được đóng dấu treo xác nhận của Bên giao. Trường hợp công trình điện chuyển giao chỉ là một hạng mục trong dự án đầu tư xây dựng thì Bên giao thực hiện trích sao phần hồ sơ có liên quan đến hạng mục công trình điện chuyển giao",
+          "code": "G12.06.0142",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": true,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan, tổ chức, đơn vị, doanh nghiệp, Ban quản lý dự án có đề nghị chuyển giao",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe6-ff19d4b15f44"
+  ],
+  "resultIds": [
+    "01a18bad-845f-72ff-9943-124008341214"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-ab18-77a9-86e6-51520f70579d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-ab18-77a9-86e6-51520f70579d",
+      "name": "Đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe6-ff19d4b15f44",
+      "name": "Nghị định 02/2024/NĐ-CP ngày 10 tháng 01 năm 2024 về việc chuyển giao công trình điện là tài sản công sang Tập đoàn Điện lực Việt Nam",
+      "code": "02/2024/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a18bad-845f-72ff-9943-124008341214",
+      "name": "Quyết định chuyển giao",
+      "code": "KQ.G12.001368"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "01a1cd7d-79b9-71ce-bc69-09a56c718f5c",
+      "name": "Chuyển giao công trình điện là tài sản công tại cơ quan, tổ chức, đơn vị, doanh nghiệp, công trình điện thuộc dự án hạ tầng kỹ thuật được đầu tư bằng vốn nhà nước",
+      "code": "6.006865",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1794448910955,
+  "updatedAt": 1794448910955,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Đơn vị điện lực",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: \nCông trình điện được chuyển giao sang Tập đoàn Điện lực phải đáp ứng đầy đủ các điều kiện:\n- Phù hợp với quy hoạch phát triển điện lực, phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh tại thời điểm xây dựng hoặc tại thời điểm kiểm tra thực trạng công trình điện để chuyển giao (đối với đường dây và trạm biến áp có cấp điện áp từ 110kV trở lên và Nhà máy điện, thiết bị, lưới điện đấu nối nhà máy điện với hệ thống điện quốc gia và các công trình phụ trợ của Nhà máy điện); \n- Đáp ứng quy chuẩn, tiêu chuẩn có liên quan tại thời điểm kiểm tra thực trạng công trình điện để chuyển giao; \n- Công trình điện đang vận hành (đang được sử dụng để phát điện, truyền tải điện, phân phối điện) bình thường tại thời điểm kiểm tra thực trạng công trình điện để chuyển giao; \n- Công trình điện không trong tình trạng cầm cố, thế chấp, bảo lãnh hoặc bảo đảm bất kỳ nghĩa vụ nợ nào khác.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": true,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

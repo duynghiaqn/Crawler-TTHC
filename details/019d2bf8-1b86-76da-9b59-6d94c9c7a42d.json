@@ -1,0 +1,232 @@
+{
+  "id": "019d2bf8-1b86-76da-9b59-6d94c9c7a42d",
+  "code": "2.000097",
+  "codeNotation": "2.000097",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Trường hợp có thay đổi nội dung Điều lệ hoạt động của Sở giao dịch hàng hóa được quy định tại Điều 13 Nghị định số 302/2026/NĐ-CP, Sở giao dịch hàng hóa gửi 01 bộ hồ sơ đề nghị phê chuẩn Điều lệ hoạt động về Bộ Công Thương theo một trong ba cách: gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công quốc gia. Trường hợp nộp hồ sơ trực tiếp hoặc qua dịch vụ bưu chính, thành phần hồ sơ là bản chính hoặc bản sao; trường hợp nộp hồ sơ qua Cổng dịch vụ công quốc gia, thành phần hồ sơ là bản điện tử theo quy định của pháp luật.\n- Trường hợp hồ sơ chưa hợp lệ, trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Bộ Công Thương có văn bản yêu cầu sửa đổi, bổ sung hồ sơ. Trong vòng 30 ngày làm việc kể từ ngày nhận được văn bản, doanh nghiệp có trách nhiệm bổ sung hồ sơ gửi Bộ Công Thương. Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ Công Thương quyết định phê chuẩn việc sửa đổi, bổ sung Điều lệ hoạt động; trường hợp không phê chuẩn, Bộ Công Thương thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trong thời hạn 20 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "Có thay đổi nội dung Điều lệ hoạt động của Sở giao dịch hàng hóa được quy định tại Điều 13 Nghị định số 302/2026/NĐ-CP.",
+  "name": "Phê chuẩn Điều lệ hoạt động sửa đổi, bổ sung của Sở giao dịch hàng hóa",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a04241-796d-76d3-865c-2455882d8427",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Giấy đề nghị phê chuẩn Điều lệ hoạt động sửa đổi, bổ sung theo Mẫu số 04.GĐN quy định tại Phụ lục I ban hành kèm theo Nghị định số 302/2026/NĐ-CP;",
+          "code": "HS-302-08",
+          "attachments": [
+            {
+              "id": "01a04242-2323-7558-908f-b359fa3a55a2",
+              "fileName": "Mẫu số 04.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a04242-2323-7558-908f-b359fa3a55a2/Mẫu số 04.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a04241-c2ae-764f-8437-8f9a346b32e5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Dự thảo Điều lệ.",
+          "code": "HS-302-09",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-3772b03d4c95"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-cff0cd8ef16a",
+    "01a04237-d0f1-761e-8b6e-1984229752e8"
+  ],
+  "resultIds": [
+    "01a04242-92dd-70ca-a270-f2aa65ad2e88"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b16ccb65a5c0"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-3772b03d4c95",
+      "name": "Sở giao dịch hàng hóa",
+      "code": "G02-CT15"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-3772b03d4c95",
+    "name": "Sở giao dịch hàng hóa",
+    "code": "G02-CT15"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương",
+      "code": "G02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-cff0cd8ef16a",
+      "name": "Luật Thương mại",
+      "code": "36/2005/QH11"
+    },
+    {
+      "id": "01a04237-d0f1-761e-8b6e-1984229752e8",
+      "name": "- Nghị định số 302/2026/NĐ-CP ngày 01 tháng 8 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Thương mại về hoạt động mua bán hàng hóa qua Sở giao dịch hàng hóa.",
+      "code": "302/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a04242-92dd-70ca-a270-f2aa65ad2e88",
+      "name": "Điều lệ hoạt động sửa đổi, bổ sung được phê chuẩn hoặc văn bản thông báo không phê chuẩn.",
+      "code": "KQ-302-05"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [
+    {
+      "id": "019dc6fe-1d41-76de-b9dc-c7060d663153",
+      "name": "Phê chuẩn điều lệ hoạt động sửa đổi, bổ sung của Sở Giao dịch hàng hóa",
+      "code": "2.000097.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a04251-2b85-747e-81c1-4c4c172f2bdf",
+      "name": "Phê chuẩn Điều lệ hoạt động sửa đổi, bổ sung của Sở giao dịch hàng hóa",
+      "code": "2.000097.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559173510,
+  "updatedAt": 1787819010554,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công thương",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Có thay đổi nội dung Điều lệ hoạt động của Sở giao dịch hàng hóa được quy định tại Điều 13 Nghị định số 302/2026/NĐ-CP.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0422c-7ae6-759b-bcb0-4e498bad4d5b",
+    "proposalNumber": "2102/QĐ-BCT",
+    "decisionDate": 1787590800000,
+    "decisionNumber": null,
+    "publicationDate": 1787819010485,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "id": "019d9901-99d6-708e-aa16-a67b7493a4d9",
+  "code": "1.012169",
+  "codeNotation": "1.012169",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Cá nhân đề nghị hỗ trợ chi phí hỏa táng nộp 01 bộ hồ sơ theo quy định\ntại khoản 2 Điều này tại Trung tâm Phục vụ hành chính công của Ủy ban nhân dân cấp\nxã (nộp trực tiếp hoặc gửi qua đường bưu điện hoặc qua Cổng dịch vụ công quốc gia)\nnơi người chết thường trú trước khi chết; cơ quan, đơn vị, tổ chức đề nghị hỗ trợ chi\nphí hỏa táng nộp 01 bộ hồ sơ theo quy định tại khoản 2 Điều này tại Trung tâm Phục\nvụ hành chính công của Ủy ban nhân dân cấp xã (nộp trực tiếp hoặc qua đường bưu\nđiện hoặc qua Cổng dịch vụ công quốc gia) nơi cơ quan, đơn vị, tổ chức đóng trụ sở.\n- Bước 2: Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, Phòng Văn\nhóa - Xã hội chủ trì, phối hợp với các các cơ quan, đơn vị liên quan tiến hành thẩm định\nhồ sơ đề nghị hỗ trợ chi phí hỏa táng.\n- Bước 3: Trong thời hạn 01 ngày làm việc, kể từ ngày Phòng Văn hóa - Xã hội\ntrình hồ sơ đề nghị hỗ trợ chi phí hỏa táng, Ủy ban nhân dân cấp xã ban hành quyết\nđịnh hỗ trợ chi phí hỏa táng (theo Mẫu số 03 Phụ lục ban hành kèm theo Nghị quyết\nnày). Trường hợp hồ sơ không đủ điều kiện hỗ trợ, Phòng Văn hóa - Xã hội tham mưu\nỦy ban nhân dân cấp xã ban hành văn bản thông báo và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp trực tiếp tại Ủy ban nhân dân cấp xã (thông qua Bộ phận Tiếp nhận và Trả\nkết quả cấp xã).\n- Gửi qua đường bưu điện (Trường hợp gửi hồ sơ qua đường bưu điện, thời\ngian được tính từ ngày đến trên phong bì).\n- Nộp trực tuyến qua Cổng Dịch vụ công quốc gia.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp trực tiếp tại Ủy ban nhân dân cấp xã (thông qua Bộ phận Tiếp nhận và Trả\nkết quả cấp xã).\n- Gửi qua đường bưu điện (Trường hợp gửi hồ sơ qua đường bưu điện, thời\ngian được tính từ ngày đến trên phong bì).\n- Nộp trực tuyến qua Cổng Dịch\nvụ công quốc gia.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp trực tiếp tại Ủy ban nhân dân cấp xã (thông qua Bộ phận Tiếp nhận và Trả\nkết quả cấp xã).\n- Gửi qua đường bưu điện (Trường hợp gửi hồ sơ qua đường bưu điện, thời\ngian được tính từ ngày đến trên phong bì).\n- Nộp trực tuyến qua Cổng Dịch vụ công quốc gia.",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Hỗ trợ chi phí hỏa táng trên địa bàn thành phố Huế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71cd-740d-a49c-504e930f6045",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai thông tin cá nhân, cơ quan, tổ chức đề nghị hỗ trợ chi phí hỏa táng",
+          "code": "000.00.00.H57-KQ000442",
+          "attachments": [
+            {
+              "id": "019dc851-e5dc-755f-8c03-b1b61c6812be",
+              "fileName": "Mẫu số 01.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019dc851-e5dc-755f-8c03-b1b61c6812be/Mẫu số 01.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71cd-740d-a49c-596a52ad9fd2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính Hợp đồng, Biên bản thanh lý Hợp đồng, Hóa đơn tài chính của cơ sở hỏa táng.",
+          "code": "000.00.00.H57-KQ000444",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71cd-740d-a49c-5d17cc2be01c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản ủy quyền hoặc giấy giới thiệu đối với cá nhân được ủy quyền hoặc đại diện cho cơ quan, tổ chức",
+          "code": "000.00.00.H57-KQ000445",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-6573ae6e97af"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d86-7760-a646-7c850bdbe395",
+    "019fdb91-0693-732d-b92a-470214c34e4b"
+  ],
+  "resultIds": [
+    "019d2bb2-1cd9-763d-8c02-852b8b25c201"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+      "name": "Bảo trợ xã hội",
+      "code": "G07-LĐ03"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+    "name": "Bảo trợ xã hội",
+    "code": "G07-LĐ03"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d86-7760-a646-7c850bdbe395",
+      "name": "Nghị quyết 27/2023/NQ-HĐND Quy định chính sách hỗ trợ chi phí hỏa táng trên địa bàn tỉnh Thừa Thiên Huế",
+      "code": "27/2023/NQ-HĐND"
+    },
+    {
+      "id": "019fdb91-0693-732d-b92a-470214c34e4b",
+      "name": "Nghị quyết số 30/2026/NQ-HĐND ngày 10 tháng 7 năm 2026 của\nHội đồng nhân dân thành phố về Quy định chính sách hỗ trợ chi phí hỏa táng trên\nđịa bàn thành phố Huế đến năm 2030\n",
+      "code": "30/2026/NQ-HĐND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1cd9-763d-8c02-852b8b25c201",
+      "name": "Quyết định về việc hỗ trợ chi phí hỏa táng",
+      "code": "KQ.H57.000052"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [
+    {
+      "id": "019db947-145e-766c-b1e8-f2b412669432",
+      "name": "Hỗ trợ chi phí hỏa táng trên địa bàn tỉnh Thừa Thiên Huế",
+      "code": "1.012169.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fdb94-e3a3-74a1-aec6-1ebcfb5f696d",
+      "name": "Hỗ trợ chi phí hỏa táng trên địa bàn thành phố Huế",
+      "code": "1.012169.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1776388512214,
+  "updatedAt": 1786095395672,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công thành phố, Trung tâm Phục vụ hành chính công cấp xã.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fdb47-f23d-7363-a9d8-8251fbe56410",
+    "proposalNumber": "2537/QĐ-UBND",
+    "decisionDate": 1784653200000,
+    "decisionNumber": null,
+    "publicationDate": 1786095395636,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

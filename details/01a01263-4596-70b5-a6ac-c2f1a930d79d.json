@@ -1,0 +1,283 @@
+{
+  "id": "01a01263-4596-70b5-a6ac-c2f1a930d79d",
+  "code": "1.116688",
+  "codeNotation": "1.116688",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1. Sở Nội vụ tiếp nhận đề nghị khen thưởng của các đơn vị trực thuộc.\n- Bước 2. Thẩm định hồ sơ, xin ý kiến các cơ quan liên quan (nếu cần), báo cáo Hội đồng Thi đua - Khen thưởng tỉnh và trình Chủ tịch Ủy ban nhân dân tỉnh quyết định khen thưởng.\n- Bước 3. Khi có Quyết định của Chủ tịch Ủy ban nhân dân tỉnh, Sở Nội vụ thông báo Quyết định, viết bằng, đóng dấu và cấp phát cho đơn vị trình khen.\n- Bước 4. Các trường hợp không được khen thưởng (không đúng đối tượng không đủ tiêu chuẩn, không đủ hồ sơ hoặc vi phạm pháp luật), Sở Nội vụ thông báo đến các đơn vị trình khen biết."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Người đứng đầu tỉnh; người đứng đầu cơ quan, tổ chức, đơn vị khen thưởng và đề nghị khen thưởng ngay sau khi cá nhân, tập thể lập được thành tích xuất sắc, đột xuất. \n- Sở Nội vụ trình cấp có thẩm quyền trong thời hạn 25 ngày làm việc từ ngày nhận đủ hồ sơ theo quy định. \n- Sau khi nhận được Quyết định khen thưởng của cấp có thẩm quyền khen thưởng, trong thời hạn 10 ngày làm việc, cơ quan trình khen thưởng sao, gửi Quyết định khen thưởng cho các trường hợp được khen thưởng",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Người đứng đầu tỉnh; người đứng đầu cơ quan, tổ chức, đơn vị khen thưởng và đề nghị khen thưởng ngay sau khi cá nhân, tập thể lập được thành tích xuất sắc, đột xuất. \n- Sở Nội vụ trình cấp có thẩm quyền trong thời hạn 25 ngày làm việc từ ngày nhận đủ hồ sơ theo quy định. \n- Sau khi nhận được Quyết định khen thưởng của cấp có thẩm quyền khen thưởng, trong thời hạn 10 ngày làm việc, cơ quan trình khen thưởng sao, gửi Quyết định khen thưởng cho các trường hợp được khen thưởng",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 35,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Người đứng đầu tỉnh; người đứng đầu cơ quan, tổ chức, đơn vị khen thưởng và đề nghị khen thưởng ngay sau khi cá nhân, tập thể lập được thành tích xuất sắc, đột xuất. \n- Sở Nội vụ trình cấp có thẩm quyền trong thời hạn 25 ngày làm việc từ ngày nhận đủ hồ sơ theo quy định. \n- Sau khi nhận được Quyết định khen thưởng của cấp có thẩm quyền khen thưởng, trong thời hạn 10 ngày làm việc, cơ quan trình khen thưởng sao, gửi Quyết định khen thưởng cho các trường hợp được khen thưởng",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Chủ thể là tập thể, cá nhân có thành tích đột xuất được đề nghị khen thưởng",
+  "name": "Thủ tục tặng thưởng Bằng khen của Chủ tịch Ủy ban nhân dân tỉnh về thành tích đột xuất",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0e746-508d-708b-966f-91561bd63907",
+          "originalQty": 2,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Thành phần hồ sơ: - Tờ trình đề nghị khen thưởng; - Báo cáo tóm tắt thành tích của cá nhân, tập thể lập được thành tích hoặc cơ quan, tổ chức, đơn vị quản lý trực tiếp, trong đó ghi rõ hành động, thành tích, công trạng, quá trình công tác hoặc tóm tắt kết quả lập thành tích đối với khen thưởng thành tích có nội dung tối mật, tuyệt mật để đề nghị khen thưởng theo thủ tục đơn giản. b) Số lượng hồ sơ đề nghị xét tặng Bằng khen của tỉnh về thành tích đột xuất: 02 bộ (hoặc theo quy định của Chủ tịch Ủy ban nhân dân tỉnh).",
+          "code": "H41-KQ000129",
+          "attachments": [
+            {
+              "id": "01a0e746-3f75-752b-8a0d-73ded81ae982",
+              "fileName": "3434.Mẫu số 07.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0e746-3f75-752b-8a0d-73ded81ae982/3434.Mẫu số 07.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+    "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+    "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1",
+    "01a00f38-7cb7-77a8-8392-f900f41d57c4"
+  ],
+  "resultIds": [
+    "019d2bb2-1c8a-715e-b8cc-7c74554ba234"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b14-75f6d4995002"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b14-75f6d4995002",
+      "name": "Sở Nội Vụ - Tỉnh Nghệ An",
+      "code": "H41.39"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fb5d3-05f3-76eb-a486-9ac5ae78f9a1",
+      "name": "Sửa đổi, bổ sung một số điều của Quy chế thi đua, khen thưởng trên địa bàn tỉnh Nghệ An và Phụ lục I ban hành kèm theo Quyết định số 81/2025/QĐ-UBND ngày 31/10/2025 của Ủy ban nhân dân tỉnh Nghệ An",
+      "code": "34/2026/QĐ-UBND"
+    },
+    {
+      "id": "01a00f38-7cb7-77a8-8392-f900f41d57c4",
+      "name": "Ban hành Quy chế thi đua, khen thưởng trên địa bàn tỉnh Nghệ An",
+      "code": "81/2025/QĐ-UBND"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+      "name": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng",
+      "code": "152/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b671-4c4f0784f204",
+      "name": "Luật Thi đua, khen thưởng",
+      "code": "06/2022/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c8a-715e-b8cc-7c74554ba234",
+      "name": "Quyết định của Chủ tịch UBND tỉnh về việc tặng thưởng Bằng khen",
+      "code": "KQ.H25.000017"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+  "departmentPromulgateCode": "H41",
+  "departmentPromulgateName": "UBND tỉnh Nghệ An",
+  "cases": [
+    {
+      "id": "01a0f53f-2aef-753c-9d31-83e5f2bb8b7b",
+      "name": "Thủ tục tặng thưởng Bằng khen của Chủ tịch Ủy ban nhân dân tỉnh về thành tích đột xuất",
+      "code": "1.116688.01",
+      "processingDay": {
+        "qty": 35,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790589915523,
+  "updatedAt": 1790589915523,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Nội Vụ - Tỉnh Nghệ An",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tiếp hoặc thông qua hệ thống bưu chính tại Trung tâm Phục\nvụ hành chính công cấp tỉnh, cấp xã hoặc trực tuyến thông qua Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Chủ thể là tập thể, cá nhân có thành tích đột xuất được đề nghị khen thưởng",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0066e-6e26-742a-bc1f-105b7ae8b874",
+    "proposalNumber": "3434/QĐ-UBND",
+    "decisionDate": 1785690000000,
+    "decisionNumber": null,
+    "publicationDate": 1790589915436,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b14-23b0bf40ce58",
+      "name": "UBND tỉnh Nghệ An"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

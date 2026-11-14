@@ -1,0 +1,270 @@
+{
+  "id": "01a1d43e-087b-7729-9aa4-d1509a0ddcff",
+  "code": "2.002946",
+  "codeNotation": "2.002946",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Doanh nghiệp lập 01 bộ hồ sơ đề nghị hỗ trợ gửi trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính đến Trung tâm Phục vụ hành chính công các cấp.\nb) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Trung tâm Phục vụ hành chính công có trách nhiệm kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ chưa đầy đủ hoặc không hợp lệ phải thông báo bằng văn bản hướng dẫn doanh nghiệp bổ sung, sửa đổi. \nc) Trong thời hạn 20 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Khoa học và Công nghệ thành lập Hội đồng tư vấn thẩm định hồ sơ hoặc tự tổ chức thẩm định hồ sơ. Trên cơ sở kết quả thẩm định, Sở Khoa học và Công nghệ ban hành Quyết định phê duyệt kinh phí hỗ trợ cho doanh nghiệp theo Mẫu số 03 ban hành kèm theo Nghị quyết này. Trường hợp từ chối hỗ trợ, phải trả lời bằng văn bản và nêu rõ lý do. \nd) Trong thời hạn 10 ngày làm việc kể từ ngày có quyết định phê duyệt kinh phí hỗ trợ cho doanh nghiệp, Sở Khoa học và Công nghệ thực hiện thủ tục cấp phát, giải ngân kinh phí hỗ trợ trực tiếp cho doanh nghiệp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Hỗ trợ kinh phí chuyển giao công nghệ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1d435-44d5-7269-95fe-a9652baa7386",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mẫu số 01 Hỗ trợ kinh phí chuyển giao công nghệ",
+          "code": "TP-H29.0000141",
+          "attachments": [
+            {
+              "id": "01a1d435-2651-7067-8acf-c1455d1e422e",
+              "fileName": "Mẫu số 01 Hỗ trợ kinh phí chuyển giao công nghệ.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1d435-2651-7067-8acf-c1455d1e422e/Mẫu số 01 Hỗ trợ kinh phí chuyển giao công nghệ.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb2-1c41-7141-b6ba-b64da86ad096",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": true,
+          "name": "",
+          "code": "",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1d437-07fd-7578-ab0c-4889210cfd6d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao các hợp đồng dịch vụ, hóa đơn tài chính và chứng từ chứng minh chi phí thực tế đã chi trả cho việc môi giới, tư vấn pháp lý, tư vấn chuyển giao, đánh giá, thẩm định giá hoặc đào tạo nguồn nhân sự, bồi dưỡng kiến thức kỹ thuật, chuyển giao bí quyết kỹ thuật quy định tại khoản 1 Điều 5 Nghị quyết số 62/2026/NQ-HĐND ngày 22/9/2026 của Hội đồng nhân dân Thành phố Hồ Chí Minh",
+          "code": "TP-H29.0000142",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1d439-060a-76ac-9eb9-d3b876058260",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mẫu số 02 BC Kết quả ứng dụng công nghệ chuyển giao vào hoạt động sản xuất, kinh doanh",
+          "code": "TP-H29.0000143",
+          "attachments": [
+            {
+              "id": "01a1d438-ef82-776c-b71f-c851a2cc4adc",
+              "fileName": "Mẫu số 02 BC Kết quả ứng dụng công nghệ chuyển giao vào hoạt động sản xuất, kinh doanh.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a1d438-ef82-776c-b71f-c851a2cc4adc/Mẫu số 02 BC Kết quả ứng dụng công nghệ chuyển giao vào hoạt động sản xuất, kinh doanh.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a1d43a-8902-70fd-b498-5e3426e82fd5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Cam kết bằng văn bản của doanh nghiệp về tính chính xác của hồ sơ và đáp ứng các điều kiện quy định tại khoản 4 Điều 5 Nghị quyết số 62/2026/NQ-HĐND ngày 22/9/2026 của Hội đồng nhân dân Thành phố Hồ Chí Minh",
+          "code": "TP-H29.0000144",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-14f00d4f0a62"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1d43d-d03f-7650-afee-212783f5623a"
+  ],
+  "resultIds": [
+    "01a1d43c-ad0d-764c-aad9-bbc9340abcd5"
+  ],
+  "subjectTypeIds": [
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+      "name": "Hoạt động khoa học và công nghệ",
+      "code": "G06-KC02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+    "name": "Hoạt động khoa học và công nghệ",
+    "code": "G06-KC02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d951d-8d60-76f9-ba48-27dcc889b494"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d951d-8d60-76f9-ba48-27dcc889b494",
+      "name": "Sở Khoa học và Công nghệ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1d43d-d03f-7650-afee-212783f5623a",
+      "name": "Quy định một số cơ chế, chính sách hỗ trợ nghiên cứu khoa học, phát triển công nghệ, đổi mới sáng tạo; chuyển giao công nghệ; xác lập, khai thác và bảo vệ quyền sở hữu trí tuệ trên địa bàn Thành phố Hồ Chí Minh",
+      "code": "62/2026/NQ-HĐND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1d43c-ad0d-764c-aad9-bbc9340abcd5",
+      "name": "Quyết định Về việc phê duyệt kinh phí hỗ trợ chuyển giao công nghệ",
+      "code": "KQ-H29.0000025"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a87-7317-855a-9a81af57b106",
+  "departmentPromulgateCode": "H29",
+  "departmentPromulgateName": "UBND Thành phố Hồ Chí Minh",
+  "cases": [
+    {
+      "id": "01a1d44d-ef8d-756c-b2e0-586f274332d8",
+      "name": "Hỗ trợ kinh phí chuyển giao công nghệ",
+      "code": "2.002946.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1794563182040,
+  "updatedAt": 1794563182040,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1d42a-fb00-75af-a866-3af9156fcb27",
+    "proposalNumber": "7512/QĐ-UBND",
+    "decisionDate": 1794243600000,
+    "decisionNumber": null,
+    "publicationDate": 1794563181985,
+    "issuingAgency": {
+      "id": "019d2be3-6a87-7317-855a-9a81af57b106",
+      "name": "UBND Thành phố Hồ Chí Minh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "01a1ae78-e156-731e-8f15-87ab4cc13d2b",
+  "code": "6.006941",
+  "codeNotation": "6.006941",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Căn cứ chủ trương đầu tư đã được Quốc hội quyết định, chủ đầu tư lập báo cáo nghiên cứu khả thi chương trình trình Thủ tướng Chính phủ.\n- Thủ tướng Chính phủ thành lập Hội đồng thẩm định nhà nước do Bộ trưởng Bộ Tài chính làm Chủ tịch Hội đồng để thẩm định chương trình.\n- Hội đồng thẩm định nhà nước thẩm định các nội dung quy định tại khoản 1 Điều 44 và khoản 2 Điều 45 Luật Đầu tư công.\n- Căn cứ ý kiến thẩm định, chủ đầu tư hoàn chỉnh báo cáo nghiên cứu khả thi dự án báo cáo cơ quan chủ quản thông qua, gửi Hội đồng thẩm định nhà nước.\n- Hội đồng thẩm định nhà nước trình Thủ tướng Chính phủ xem xét, quyết định đầu tư dự án."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "- Trong thời hạn 15 ngày kể từ ngày nhận hồ sơ dự án, Bộ Tài chính báo cáo Thủ tướng Chính phủ thành lập Hội đồng thẩm định nhà nước theo quy định. - Hội đồng thẩm định nhà nước thẩm định chủ trương đầu tư dự án quan trọng quốc gia trong thời hạn 90 ngày kể từ ngày thành lập. Trường hợp thuê tư vấn thẩm tra thì thời gian thẩm định của Hội đồng thẩm định nhà nước tính từ ngày ký hợp đồng thuê tư vấn thẩm tra.",
+      "processingTimeUnit": "OTHER",
+      "description": "Phí, lệ phí (nếu có): Chi phí thẩm định, thuê tư vấn thẩm tra (nếu có) theo quy định tại Điều 10, Điều 11, Điều 12 Nghị định số 29/2021/NĐ-CP.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "name": "Quyết định đầu tư dự án quan trọng quốc gia",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ chủ đầu tư hoặc cơ quan được giao nhiệm vụ chuẩn bị đầu tư trình cơ quan chủ quản, gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-902e-cc77121c0cbb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tài liệu khác có liên quan theo quy định.",
+          "code": "G12.000072",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1ae7e-7b82-72ff-a416-e9594a2b92d9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Nghị quyết của Quốc hội về chủ trương đầu tư dự án quan trọng quốc gia",
+          "code": "G12.000147",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1ae7e-1c73-77fe-96ee-895fc6bfaaab",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình cơ quan chủ quản của chủ đầu tư",
+          "code": "G12.000146",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1ae81-da6c-7358-bd1e-a14ee4dc8a0c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo nghiên cứu khả thi",
+          "code": "G12.000148",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Hồ sơ trình thẩm định của cơ quan chủ quản, gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1ae7e-1c73-77fe-96ee-895fc6bfaaab",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình cơ quan chủ quản của chủ đầu tư",
+          "code": "G12.000146",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1ae7e-7b82-72ff-a416-e9594a2b92d9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Nghị quyết của Quốc hội về chủ trương đầu tư dự án quan trọng quốc gia",
+          "code": "G12.000147",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-902e-cc77121c0cbb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tài liệu khác có liên quan theo quy định.",
+          "code": "G12.000072",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1ae81-da6c-7358-bd1e-a14ee4dc8a0c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo nghiên cứu khả thi",
+          "code": "G12.000148",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan chủ quản chủ đầu tư hoặc cơ quan được giao nhiệm vụ chuẩn bị đầu tư",
+  "keywords": "",
+  "categoryIds": [
+    "01a1a973-43f4-732a-95f7-944491e73cf1"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46c-227709c9c95c"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3d-7379-a672-e10146c03db8"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1a973-43f4-732a-95f7-944491e73cf1",
+      "name": "Quản lý đầu tư công",
+      "code": "G12.97"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-227709c9c95c",
+      "name": "Nghị định số 29/2021/NĐ-CP Quy định về trịnh tự, thủ tục thẩm định dự án quan trọng quốc gia và giám sát, đánh giá đầu tư",
+      "code": "29/2021/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3d-7379-a672-e10146c03db8",
+      "name": "Quyết định đầu tư dự án quan trọng quốc gia của Thủ tướng Chính phủ",
+      "code": "KQ.G05.000197"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448920081,
+  "updatedAt": 1794448920081,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính:\n- Thủ tướng Chính phủ, Hội đồng thẩm định Nhà nước: Chủ tịch Hội đồng thẩm định Nhà nước là Bộ trưởng Bộ Tài chính; Phó Chủ tịch và các thành viên khác của Hội đồng là đại diện lãnh đạo các bộ, ngành, các cơ quan liên quan\n- Cơ quan phối hợp thực hiện TTHC: các Bộ, ngành có đại diện lãnh đạo các Bộ, ngành là thành viên của Hội đồng thẩm định Nhà nước; Văn phòng Chính phủ",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

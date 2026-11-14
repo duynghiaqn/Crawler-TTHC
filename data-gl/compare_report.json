@@ -1,10 +1,10 @@
 {
-  "compared_at": "2026-10-23T00:17:04.466Z",
+  "compared_at": "2026-11-13T15:39:15.058Z",
   "filter": "Unique by TTHC Code (National Standard + Gia Lai H21 | Excluding specific TTHCs of other provinces)",
   "summary": {
-    "previous_total": 2170,
+    "previous_total": 2126,
     "current_total": 2126,
-    "net_change": -44,
+    "net_change": 0,
     "added_count": 0,
     "removed_count": 44,
     "modified_count": 0,
@@ -23,7 +23,13 @@
     "level_breakdown": {
       "province_only": 1643,
       "ward_only": 317,
-      "both_province_and_ward": 166
+      "both_province_and_ward": 166,
+      "province_total": 1809,
+      "province_admin": 1767,
+      "province_internal": 42,
+      "ward_total": 483,
+      "ward_admin": 465,
+      "ward_internal": 18
     }
   },
   "added": [],

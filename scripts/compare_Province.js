@@ -206,6 +206,11 @@ async function compareProvinceWard() {
     const wardOnlyCount = currentItems.filter(x => !x.isProvince && x.isWard).length;
     const bothCount = currentItems.filter(x => x.isProvince && x.isWard).length;
 
+    const provinceAdminCount = currentItems.filter(x => x.isProvince && !x.is_noi_bo).length;
+    const provinceInternalCount = currentItems.filter(x => x.isProvince && x.is_noi_bo).length;
+    const wardAdminCount = currentItems.filter(x => x.isWard && !x.is_noi_bo).length;
+    const wardInternalCount = currentItems.filter(x => x.isWard && x.is_noi_bo).length;
+
     const adminCurrent = currentItems.filter(x => !x.is_noi_bo).length;
     const internalCurrent = currentItems.filter(x => x.is_noi_bo).length;
 
@@ -306,14 +311,9 @@ async function compareProvinceWard() {
     console.log(`📊 PHÂN LOẠI HIỆN TẠI:`);
     console.log(`   • 🌐 Thủ tục hành chính:       ${adminCurrent} TTHC`);
     console.log(`   • 🔒 Thủ tục nội bộ:           ${internalCurrent} TTHC`);
-    console.log(`   • 🏢 Chỉ Cấp Tỉnh:             ${provinceOnlyCount} TTHC`);
-    console.log(`   • 🏡 Chỉ Cấp Xã:               ${wardOnlyCount} TTHC`);
-    console.log(`   • 🔄 CẢ CẤP TỈNH & CẤP XÃ:     ${bothCount} TTHC\n`);
-
-    console.log(`📊 PHÂN LOẠI CẤP THỰC HIỆN HIỆN TẠI:`);
-    console.log(`   • 🏢 Chỉ Cấp Tỉnh:             ${provinceOnlyCount} TTHC`);
-    console.log(`   • 🏡 Chỉ Cấp Xã:               ${wardOnlyCount} TTHC`);
-    console.log(`   • 🔄 CẢ CẤP TỈNH & CẤP XÃ:     ${bothCount} TTHC\n`);
+    console.log(`   • 🏢 Cấp Tỉnh (Tổng cộng):     ${provinceAdminCount + provinceInternalCount} (🌐 TTHC: ${provinceAdminCount} | 🔒 TTNB: ${provinceInternalCount})`);
+    console.log(`   • 🏡 Cấp Xã (Tổng cộng):       ${wardAdminCount + wardInternalCount} (🌐 TTHC: ${wardAdminCount} | 🔒 TTNB: ${wardInternalCount})`);
+    console.log(`   • Phân cấp chi tiết: Chỉ Tỉnh: ${provinceOnlyCount} | Chỉ Xã: ${wardOnlyCount} | Cả 2 cấp: ${bothCount}\n`);
 
     if (addedItems.length > 0) {
         console.log(`✨ DANH SÁCH CHI TIẾT TTHC THÊM MỚI (${addedItems.length}):`);
@@ -370,7 +370,13 @@ async function compareProvinceWard() {
             level_breakdown: {
                 province_only: provinceOnlyCount,
                 ward_only: wardOnlyCount,
-                both_province_and_ward: bothCount
+                both_province_and_ward: bothCount,
+                province_total: provinceAdminCount + provinceInternalCount,
+                province_admin: provinceAdminCount,
+                province_internal: provinceInternalCount,
+                ward_total: wardAdminCount + wardInternalCount,
+                ward_admin: wardAdminCount,
+                ward_internal: wardInternalCount
             }
         },
         added: addedItems,
@@ -456,9 +462,9 @@ async function sendAlertNotification(summaryData) {
         `  • Thủ tục nội bộ: *${intern.current_total ?? 0}*`,
         ``,
         `🏢 *PHÂN LOẠI CẤP THỰC HIỆN:*`,
-        `  • Chỉ Cấp Tỉnh: ${summary.level_breakdown?.province_only ?? 0}`,
-        `  • Chỉ Cấp Xã: ${summary.level_breakdown?.ward_only ?? 0}`,
-        `  • Cả Tỉnh & Xã: ${summary.level_breakdown?.both_province_and_ward ?? 0}`
+        `  • Cấp Tỉnh: *${summary.level_breakdown?.province_total ?? (summary.level_breakdown?.province_only + summary.level_breakdown?.both_province_and_ward)}* (TTHC: *${summary.level_breakdown?.province_admin ?? 0}* | TTNB: *${summary.level_breakdown?.province_internal ?? 0}*)`,
+        `  • Cấp Xã: *${summary.level_breakdown?.ward_total ?? (summary.level_breakdown?.ward_only + summary.level_breakdown?.both_province_and_ward)}* (TTHC: *${summary.level_breakdown?.ward_admin ?? 0}* | TTNB: *${summary.level_breakdown?.ward_internal ?? 0}*)`,
+        `  • Chi tiết: Chỉ Tỉnh: ${summary.level_breakdown?.province_only ?? 0} | Chỉ Xã: ${summary.level_breakdown?.ward_only ?? 0} | Cả 2 cấp: ${summary.level_breakdown?.both_province_and_ward ?? 0}`
     ];
 
     if (added.length > 0) {

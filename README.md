@@ -429,23 +429,27 @@ Thống kê tổng quan tỷ lệ phân bổ và các chỉ số sàng lọc:
 Ghi nhận biến động TTHC Gia Lai giữa các kỳ quét (Thêm mới, sửa đổi nội dung, bãi bỏ/hết hiệu lực), làm đầu vào phân tích cho các báo cáo giám sát.
 
 #### `data-gl/Bao_cao_TTHC_Gia_Lai.xlsx`
-Báo cáo Master Data Excel gồm 6 Sheets trình bày chuyên nghiệp:
-1. **`Tổng hợp & Biến động`**: Thống kê tổng quan phân loại TTHC vs TTHC nội bộ, phân cấp, và chi tiết thủ tục tăng/giảm/sửa đổi.
-2. **`Thủ tục hành chính (DVC)`**: Toàn bộ TTHC phục vụ người dân, doanh nghiệp trên địa bàn tỉnh Gia Lai.
-3. **`Thủ tục nội bộ`**: Toàn bộ thủ tục nội bộ giữa các cơ quan hành chính nhà nước tại tỉnh Gia Lai.
-4. **`TTHC Cấp Tỉnh`**: Danh mục toàn bộ thủ tục thẩm quyền giải quyết cấp tỉnh.
-5. **`TTHC Cấp Xã`**: Danh mục toàn bộ thủ tục thẩm quyền giải quyết cấp xã.
-6. **`Toàn bộ Cấp Tỉnh & Xã`**: Master dataset đầy đủ cấp tỉnh & cấp xã có gắn nhãn nhóm thủ tục.
+Báo cáo Master Data Excel gồm 8 Sheets trình bày chuyên nghiệp:
+1. **`Tổng hợp & Biến động`**: Thống kê tổng quan phân loại TTHC vs TTNB theo từng cấp thẩm quyền, và chi tiết thủ tục tăng/giảm/sửa đổi.
+2. **`TTHC Cấp Tỉnh`**: Danh mục TTHC phục vụ công dân, doanh nghiệp thuộc thẩm quyền Cấp Tỉnh (**đã loại bỏ TTNB**).
+3. **`TTHC Cấp Xã`**: Danh mục TTHC phục vụ công dân, doanh nghiệp thuộc thẩm quyền Cấp Xã (**đã loại bỏ TTNB**).
+4. **`TTNB Cấp Tỉnh`**: Chuyên biệt danh mục Thủ tục nội bộ nhà nước thuộc thẩm quyền Cấp Tỉnh.
+5. **`TTNB Cấp Xã`**: Chuyên biệt danh mục Thủ tục nội bộ nhà nước thuộc thẩm quyền Cấp Xã.
+6. **`Thủ tục hành chính (DVC)`**: Tổng hợp toàn bộ TTHC phục vụ người dân, doanh nghiệp (tất cả các cấp).
+7. **`Thủ tục nội bộ`**: Tổng hợp toàn bộ thủ tục nội bộ giữa các cơ quan hành chính nhà nước (tất cả các cấp).
+8. **`Toàn bộ Cấp Tỉnh & Xã`**: Master dataset đầy đủ cả TTHC & TTNB có gắn nhãn phân loại chi tiết.
 
 #### `data/Bao_cao_TTHC_DVCQG.xlsx`
-Báo cáo Master Data Excel Quốc gia gồm 7 Sheets:
-1. **`Tổng hợp & Biến động DVCQG`**: Tổng quan toàn quốc, phân loại TTHC vs TTHC nội bộ, biến động tăng/giảm.
-2. **`Thủ tục hành chính (DVC)`**: Toàn bộ TTHC phục vụ người dân & doanh nghiệp trên toàn quốc.
-3. **`Thủ tục nội bộ`**: Toàn bộ thủ tục nội bộ giữa các cơ quan nhà nước trên toàn quốc.
-4. **`Toàn bộ TTHC Quốc gia`**: Danh mục Master Data toàn quốc.
-5. **`TTHC Cấp Bộ`**: Thủ tục thuộc thẩm quyền các Bộ, cơ quan ngang Bộ.
-6. **`TTHC Cấp Tỉnh`**: Thủ tục thuộc thẩm quyền UBND cấp tỉnh và các Sở/Ban/Ngành.
-7. **`TTHC Cấp Xã`**: Thủ tục thuộc thẩm quyền cấp xã, phường, thị trấn.
+Báo cáo Master Data Excel Quốc gia gồm 9 Sheets:
+1. **`Tổng hợp & Biến động DVCQG`**: Tổng quan toàn quốc, phân loại TTHC vs TTNB theo từng cấp, biến động tăng/giảm.
+2. **`TTHC Cấp Tỉnh`**: Danh mục TTHC phục vụ công dân, DN thuộc thẩm quyền Cấp Tỉnh (**đã loại bỏ TTNB**).
+3. **`TTHC Cấp Xã`**: Danh mục TTHC phục vụ công dân, DN thuộc thẩm quyền Cấp Xã (**đã loại bỏ TTNB**).
+4. **`TTNB Cấp Tỉnh`**: Chuyên biệt danh mục Thủ tục nội bộ nhà nước thuộc thẩm quyền Cấp Tỉnh.
+5. **`TTNB Cấp Xã`**: Chuyên biệt danh mục Thủ tục nội bộ nhà nước thuộc thẩm quyền Cấp Xã.
+6. **`TTHC Cấp Bộ`**: Thủ tục thuộc thẩm quyền các Bộ, cơ quan ngang Bộ.
+7. **`Thủ tục hành chính (DVC)`**: Toàn bộ TTHC phục vụ người dân & doanh nghiệp trên toàn quốc.
+8. **`Thủ tục nội bộ`**: Toàn bộ thủ tục nội bộ giữa các cơ quan nhà nước trên toàn quốc.
+9. **`Toàn bộ TTHC Quốc gia`**: Danh mục Master Data toàn quốc đầy đủ.
 
 ---
 

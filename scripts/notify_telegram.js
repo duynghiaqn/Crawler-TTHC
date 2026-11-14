@@ -224,7 +224,15 @@ function buildSuccessMessage(uploadStatus = 'Chua thuc hien') {
             lines.push(`  └─ 🌐 Thủ tục hành chính: <b>${pAdmin.current_total ?? 'N/A'}</b> | 🔒 Thủ tục nội bộ: <b>${pIntern.current_total ?? 0}</b>`);
         }
         if (ps.level_breakdown) {
-            lines.push(`• 🏢 Cấp Tỉnh: <b>${ps.level_breakdown.province_only + ps.level_breakdown.both_province_and_ward}</b> | 🏡 Cấp Xã: <b>${ps.level_breakdown.ward_only + ps.level_breakdown.both_province_and_ward}</b>`);
+            const lb = ps.level_breakdown;
+            const provTotal = lb.province_total ?? (lb.province_only + lb.both_province_and_ward);
+            const wardTotal = lb.ward_total ?? (lb.ward_only + lb.both_province_and_ward);
+            if (lb.province_admin !== undefined) {
+                lines.push(`• 🏢 Cấp Tỉnh: <b>${provTotal}</b> (TTHC: <b>${lb.province_admin}</b> | TTNB: <b>${lb.province_internal}</b>)`);
+                lines.push(`• 🏡 Cấp Xã: <b>${wardTotal}</b> (TTHC: <b>${lb.ward_admin}</b> | TTNB: <b>${lb.ward_internal}</b>)`);
+            } else {
+                lines.push(`• 🏢 Cấp Tỉnh: <b>${provTotal}</b> | 🏡 Cấp Xã: <b>${wardTotal}</b>`);
+            }
         }
         if (ps.added_count > 0 || ps.removed_count > 0 || ps.modified_count > 0) {
             lines.push(`• Biến động: <b>+${ps.added_count} / -${ps.removed_count} / ~${ps.modified_count}</b> (TTHC: +${pAdmin.added_count ?? 0}/-${pAdmin.removed_count ?? 0} | Nội bộ: +${pIntern.added_count ?? 0}/-${pIntern.removed_count ?? 0})`);

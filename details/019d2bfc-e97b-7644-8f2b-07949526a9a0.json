@@ -1,0 +1,272 @@
+{
+  "id": "019d2bfc-e97b-7644-8f2b-07949526a9a0",
+  "code": "2.002226",
+  "codeNotation": "2.002226",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Nộp hồ sơ\nTổ trưởng tổ hợp tác (hoặc người đại diện theo ủy quyền của các thành viên tổ hợp tác) gửi hồ sơ thông báo thành lập/thay đổi tổ hợp tác đến Ủy ban nhân dân cấp xã nơi tổ hợp tác hoạt động và tự chịu trách nhiệm về tính trung thực, chính xác của các thông tin trong hồ sơ.\nBước 2: Tiếp nhận hồ sơ\nỦy ban nhân dân cấp xã tiếp nhận hồ sơ thông báo thành lập/thay đổi tổ hợp tác.\nBước 3: Xử lý hồ sơ\nĐối với hồ sơ gửi trực tiếp hoặc qua dịch vụ bưu chính, Ủy ban nhân dân cấp xã cập nhật vào Hệ thống thông tin về đăng ký hợp tác xã khi nhận hồ sơ. Trường hợp hồ sơ kê khai không đầy đủ, chính xác theo quy định tại điểm b khoản 3 Điều 17 hoặc điểm b khoản 2 Điều 18 Nghị định số 294/2026/NĐ-CP ngày 23/7/2026 của Chính phủ về tổ hợp tác (Nghị định số 294/2026/NĐ-CP), Ủy ban nhân dân cấp xã thông báo bằng văn bản cho người gửi hồ sơ khi nhận hồ sơ, trong đó ghi rõ lý do và nội dung cần sửa đổi, bổ sung.\nĐối với hồ sơ gửi qua môi trường điện tử, thông tin của tổ hợp tác được cập nhật vào Hệ thống thông tin về đăng ký hợp tác xã khi xử lý hồ sơ. Trường hợp hồ sơ kê khai không đầy đủ, chính xác theo quy định tại điểm b khoản 3 Điều 17 hoặc điểm b khoản 2 Điều 18 Nghị định số 294/2026/NĐ-CP, Ủy ban nhân dân cấp xã gửi thông báo qua mạng thông tin điện tử cho người gửi hồ sơ khi xử lý hồ sơ, trong đó ghi rõ lý do và nội dung cần sửa đổi, bổ sung."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Tại thời điểm nhận hồ sơ/tại thời điểm xử lý hồ sơ.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Tại thời điểm nhận hồ sơ/tại thời điểm xử lý hồ sơ.",
+      "processingTimeUnit": "OTHER",
+      "description": "Người nộp hồ sơ đăng nhập Cổng dịch vụ công quốc gia hoặc ứng dụng định danh quốc gia bằng tài khoản định danh điện tử để truy cập Hệ thống thông tin quốc gia về đăng ký doanh nghiệp. Người nộp hồ sơ thực hiện thủ tục đăng ký doanh nghiệp theo quy trình trên Hệ thống thông tin quốc gia về đăng ký doanh nghiệp",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Tại thời điểm nhận hồ sơ/tại thời điểm xử lý hồ sơ.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "- Tên của tổ hợp tác được đặt theo quy định tại Điều 19 của Nghị định số 294/2026/NĐ-CP;\n- Hồ sơ thông báo thành lập/thay đổi có đầy đủ giấy tờ và nội dung các giấy tờ đó được kê khai đầy đủ theo quy định của pháp luật;\n- Tổ hợp tác thực hiện thông báo thành lập/thay đổi tổ hợp tác trong thời hạn 05 ngày làm việc kể từ thời điểm các thành viên ký tên vào hợp đồng hợp tác hoặc khi thay đổi nội dung tổ hợp tác;\n- Thời gian để tổ hợp tác sửa đổi, bổ sung hồ sơ thông báo thành lập, thay đổi là 10 ngày kể từ ngày Ủy ban nhân dân cấp xã ra thông báo, sau thời hạn trên nếu tổ hợp tác không nộp hồ sơ sửa đổi, bổ sung thì hồ sơ thông báo không còn giá trị, Ủy ban nhân dân cấp xã sẽ hủy hồ sơ thông báo của tổ hợp tác.",
+  "name": "Thông báo thành lập/thay đổi tổ hợp tác không đăng ký",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa2c9-6abf-7037-99dc-501acb83b0cf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Thông báo thành lập/thay đổi tổ hợp tác không đăng ký (Mẫu số 1);",
+          "code": "TP-G12.0001999",
+          "attachments": [
+            {
+              "id": "019fa66f-5407-70e9-a7a3-5f20bab20e1e",
+              "fileName": "Biểu mẫu số 01 _ Giấy thông báo thành lập hoặc thay đổi tổ hợp tác không đăng ký.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa66f-5407-70e9-a7a3-5f20bab20e1e/Biểu mẫu số 01 _ Giấy thông báo thành lập hoặc thay đổi tổ hợp tác không đăng ký.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa2ca-5311-70ea-862b-12f092f1eb17",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Hợp đồng hợp tác (Mẫu số 2);",
+          "code": "TP-G12.0002011",
+          "attachments": [
+            {
+              "id": "019fa66f-7e75-76bf-bcad-890989a4587e",
+              "fileName": "Biểu mẫu số 02 _ Hợp đồng hợp tác.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa66f-7e75-76bf-bcad-890989a4587e/Biểu mẫu số 02 _ Hợp đồng hợp tác.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa2cc-23d0-74a0-a418-b1bf9c685f51",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản sao hoặc bản chính biên bản họp tổ hợp tác về việc bầu tổ trưởng (trường hợp tổ trưởng nộp hồ sơ);",
+          "code": "TP-G12.0002012",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa2cc-b71d-72f8-b1d1-e37044d561be",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản chính văn bản ủy quyền của một trăm phần trăm (100%) tổng số thành viên tổ hợp tác đồng ý (trường hợp người đại diện theo ủy quyền của các thành viên tổ hợp tác nộp hồ sơ)",
+          "code": "TP-G12.0002015",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-2d17782b0994"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b670-d23f4a84e3b8",
+    "019d2bb3-5d84-71c5-b671-d9e439ecbebe",
+    "019fa2f0-0446-76c2-b339-d67344e0c90b"
+  ],
+  "resultIds": [
+    "019d2bb2-1c73-70ac-aa18-dbfbf73baac7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b67e-e228d0bb056f"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-2d17782b0994",
+      "name": "Thành lập và hoạt động của tổ hợp tác không đăng ký",
+      "code": "G05-KD-13"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-2d17782b0994",
+    "name": "Thành lập và hoạt động của tổ hợp tác không đăng ký",
+    "code": "G05-KD-13"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b67e-e228d0bb056f",
+      "name": "Ủy ban Nhân dân xã, phường, thị trấn.",
+      "code": "000.00.UB.003"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-d9e439ecbebe",
+      "name": "Luật Hợp tác xã",
+      "code": "17/2023/QH15"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b670-d23f4a84e3b8",
+      "name": "Bộ luật Dân sự",
+      "code": "91/2015/QH13"
+    },
+    {
+      "id": "019fa2f0-0446-76c2-b339-d67344e0c90b",
+      "name": "Nghị định về tổ hợp tác",
+      "code": "294/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c73-70ac-aa18-dbfbf73baac7",
+      "name": "Cập nhật vào Hệ thống thông tin về đăng ký hợp tác xã hoặc thông báo",
+      "code": "KQ.G12.001487"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019f6e2a-7437-7209-9c1d-2c2b6cd2847f",
+      "name": "Thông báo thành lập/thay đổi tổ hợp tác",
+      "code": "2.002226.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fdb85-8427-77d8-9c89-cf2023f5a5d4",
+      "name": "Thông báo thành lập/thay đổi tổ hợp tác",
+      "code": "2.002226.02",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559488379,
+  "updatedAt": 1785492267808,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ủy ban Nhân dân xã, phường, thị trấn.",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Tên của tổ hợp tác được đặt theo quy định tại Điều 19 của Nghị định số 294/2026/NĐ-CP;\n- Hồ sơ thông báo thành lập/thay đổi có đầy đủ giấy tờ và nội dung các giấy tờ đó được kê khai đầy đủ theo quy định của pháp luật;\n- Tổ hợp tác thực hiện thông báo thành lập/thay đổi tổ hợp tác trong thời hạn 05 ngày làm việc kể từ thời điểm các thành viên ký tên vào hợp đồng hợp tác hoặc khi thay đổi nội dung tổ hợp tác;\n- Thời gian để tổ hợp tác sửa đổi, bổ sung hồ sơ thông báo thành lập, thay đổi là 10 ngày kể từ ngày Ủy ban nhân dân cấp xã ra thông báo, sau thời hạn trên nếu tổ hợp tác không nộp hồ sơ sửa đổi, bổ sung thì hồ sơ thông báo không còn giá trị, Ủy ban nhân dân cấp xã sẽ hủy hồ sơ thông báo của tổ hợp tác.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fad30-7182-7428-9519-366b49d5bd7d",
+    "proposalNumber": "1994/QĐ-BTC",
+    "decisionDate": 1785085200000,
+    "decisionNumber": null,
+    "publicationDate": 1785317074188,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

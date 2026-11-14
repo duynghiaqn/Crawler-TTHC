@@ -1,0 +1,251 @@
+{
+  "id": "01a0f18a-e20e-771e-92ed-eb211e5ab713",
+  "code": "1.116842",
+  "codeNotation": "1.116842",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Tổ chức, cá nhân gửi 01 bộ hồ sơ quy định tại khoản 1 Điều 24 Nghị định số 360/2026/NĐ-CP qua Cổng Dịch vụ công Quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận hồ sơ của cấp có thẩm quyền. Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, nếu hồ sơ chưa đầy đủ, đúng quy định, cơ quan tiếp nhận phải thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử những nội dung cần chỉnh sửa, bổ sung cho tổ chức, cá nhân; \nb) Trong thời hạn 10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn phối hợp với đơn vị liên quan tổ chức thẩm định hồ sơ để đánh giá việc đáp ứng các điều kiện, trình cấp có thẩm quyền xem xét, quyết định cho phép thành lập; nếu chưa đủ điều kiện thì phải thông báo bằng văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc thư điện tử cho tổ chức, cá nhân và nêu rõ lý do; \nc) Quyết định cho phép thành lập trường theo Mẫu số 08 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP, được gửi trực tiếp hoặc qua dịch vụ bưu chính cho tổ chức, cá nhân và công bố công khai trên các phương tiện thông tin đại chúng, trang thông tin điện tử của cơ quan của cấp có thẩm quyền."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ qua dịch vụ bưu chính đến cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+      "fees": []
+    }
+  ],
+  "description": "a) Phù hợp với chiến lược, quy hoạch, yêu cầu phát triển kinh tế - xã hội của địa phương nơi trường đặt trụ sở.\nb) Có địa điểm dự kiến xây dựng trường phù hợp với quy hoạch của địa phương hoặc được cơ quan có thẩm quyền cho phép sử dụng đất ở, đất xây dựng trụ sở cơ quan, công trình sự nghiệp không phải là công trình giáo dục và đào tạo, đất sản xuất, kinh doanh phi nông nghiệp sang sử dụng vào mục đích giáo dục và đào tạo, đồng thời, đáp ứng các tiêu chuẩn về địa điểm, quy mô, diện tích và cơ sở vật chất tối thiểu đối với từng cấp học tương ứng theo quy định của Bộ Giáo dục và Đào tạo. Đối với khu vực nội thành của các đô thị loại đặc biệt, diện tích sàn xây dựng được tính tương đương diện tích đất nhưng không thấp hơn diện tích đất bình quân tối thiểu cho một học sinh theo quy định.",
+  "name": "Cho phép thành lập trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f189-957a-742a-bb6f-f2a48836a149",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thành lập hoặc cho phép thành lập trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở theo Mẫu số 03 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP",
+          "code": "TP-G03.0001170",
+          "attachments": [
+            {
+              "id": "01a0f189-8f15-72ea-9398-85ef14a8c92b",
+              "fileName": "Mau so 3_VB de nghi cho phep thanh lap CSGD.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0f189-8f15-72ea-9398-85ef14a8c92b/Mau so 3_VB de nghi cho phep thanh lap CSGD.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0f189-ff0f-717e-b7c4-38a88da0a9ae",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản pháp lý chứng minh quyền sử dụng đất hoặc quyền sở hữu nhà hoặc hợp đồng thuê địa điểm, cơ sở vật chất với thời hạn tối thiểu 05 năm.  Tổ chức, cá nhân không phải nộp bản sao các thành phần hồ sơ nếu cơ quan có thẩm quyền có thể khai thác, sử dụng thông tin tương ứng trong cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành hoặc đã được số hóa theo quy định",
+          "code": "TP-G03.0001171",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0eb27-0a75-75f9-a08c-6705f56edf6d"
+  ],
+  "resultIds": [
+    "01a0f18a-c7af-7118-b90c-ca858c245bcb"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+      "name": "Giáo dục Phổ thông",
+      "code": "G03-GD18"
+    }
+  ],
+  "category": {
+    "id": "01a0eb08-8d94-779c-966b-ffe8dcc2bc8e",
+    "name": "Giáo dục Phổ thông",
+    "code": "G03-GD18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0eb27-0a75-75f9-a08c-6705f56edf6d",
+      "name": "Quy định về điều kiện đầu tư và hoạt động của cơ sở giáo dục mầm non, cơ sở giáo dục phổ thông, cơ sở giáo dục thường xuyên và cơ sở giáo dục khác thuộc hệ thống giáo dục quốc dân",
+      "code": "360/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f18a-c7af-7118-b90c-ca858c245bcb",
+      "name": "Quyết định của Chủ tịch Ủy ban nhân dân cấp xã cho phép thành lập trường tiểu học, trường trung học cơ sở và trường phổ thông có nhiều cấp học trong đó có cấp học cao nhất là trung học cơ sở (theo Mẫu số 08 Phụ lục kèm theo Nghị định số 360/2026/NĐ-CP)",
+      "code": "KQ-G03.00040"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790907958108,
+  "updatedAt": 1790907958108,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp hồ sơ trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan tiếp nhận của cấp có thẩm quyền quy định tại Điều 4 Nghị định 360/2026/NĐ-CP.",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Phù hợp với chiến lược, quy hoạch, yêu cầu phát triển kinh tế - xã hội của địa phương nơi trường đặt trụ sở.\nb) Có địa điểm dự kiến xây dựng trường phù hợp với quy hoạch của địa phương hoặc được cơ quan có thẩm quyền cho phép sử dụng đất ở, đất xây dựng trụ sở cơ quan, công trình sự nghiệp không phải là công trình giáo dục và đào tạo, đất sản xuất, kinh doanh phi nông nghiệp sang sử dụng vào mục đích giáo dục và đào tạo, đồng thời, đáp ứng các tiêu chuẩn về địa điểm, quy mô, diện tích và cơ sở vật chất tối thiểu đối với từng cấp học tương ứng theo quy định của Bộ Giáo dục và Đào tạo. Đối với khu vực nội thành của các đô thị loại đặc biệt, diện tích sàn xây dựng được tính tương đương diện tích đất nhưng không thấp hơn diện tích đất bình quân tối thiểu cho một học sinh theo quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ec28-ef38-71b3-860d-48702fad8c6f",
+    "proposalNumber": "2855/QĐ-BGDĐT",
+    "decisionDate": 1790701200000,
+    "decisionNumber": null,
+    "publicationDate": 1790907957843,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

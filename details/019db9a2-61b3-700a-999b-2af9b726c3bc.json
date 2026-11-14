@@ -1,0 +1,195 @@
+{
+  "id": "019db9a2-61b3-700a-999b-2af9b726c3bc",
+  "code": "5.002560",
+  "codeNotation": "5.002560",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Trên cơ sở văn bản đề nghị của Bộ Quốc phòng hoặc Bộ Công an, Sở Xây dựng ra văn bản đóng khu neo đậu đối với trường hợp vì lý do bảo đảm quốc phòng, an ninh. Thời gian đóng khu neo đậu theo đề nghị của Bộ Quốc phòng, Bộ Công an."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "/",
+      "processingTimeUnit": "OTHER",
+      "description": "Cách thức thực hiện: Không quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "/",
+      "processingTimeUnit": "OTHER",
+      "description": "Cách thức thực hiện: Không quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "/",
+      "processingTimeUnit": "OTHER",
+      "description": "Cách thức thực hiện: Không quy định.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Công bố đóng khu neo đậu vì lý do bảo đảm quốc phòng, an ninh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71bc-74dd-9d10-5cdf65bbd48f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của Bộ Quốc phòng, Bộ Công an",
+          "code": "000.00.00.G04-KQ004315",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "UPDATED",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c0a4209513fc"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe7-a8368c489fef",
+    "019d2bb3-5d7f-719e-b46c-b810721e9e56"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3c-7215-a27c-45df0dac2906"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+      "name": "Hàng hải và đường thủy nội địa",
+      "code": "G04-GT05"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c0a4209513fc",
+    "name": "Hàng hải và đường thủy nội địa",
+    "code": "G04-GT05"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9448-4f70-755d-9f51-d3e89652ee18"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9448-4f70-755d-9f51-d3e89652ee18",
+      "name": "Sở Xây dựng"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe7-a8368c489fef",
+      "name": "Quy định về quản lý hoạt động đường thủy nội địa",
+      "code": "08/2021/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-b810721e9e56",
+      "name": "Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng",
+      "code": "33/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3c-7215-a27c-45df0dac2906",
+      "name": "Quyết định công bố đóng khu neo đậu",
+      "code": "KQ.G04.000387"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1776935920051,
+  "updatedAt": 1785142113159,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f6e47-c499-733d-9f5c-7bd58f8887d4",
+    "proposalNumber": "1137/QĐ-BXD",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1785142112788,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

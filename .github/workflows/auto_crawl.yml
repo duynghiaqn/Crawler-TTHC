@@ -32,6 +32,11 @@ jobs:
       - name: Bước 4.1 - Thu thập & lọc dữ liệu TTHC Gia Lai (data-gl)
         run: node tthc_crawler_gl.js
 
+      - name: Bước 4.1b - Thu thập & phân tích biến động Quyết định công bố (qdcb)
+        run: |
+          node qdcb_crawler.js
+          node scripts/export_qdcb_excel.js
+
       - name: Bước 4.2 - Phân tích & Cảnh báo biến động TTHC (Compare Engine)
         run: |
           node scripts/compare.js
@@ -57,6 +62,15 @@ jobs:
           publish_branch: data-gl # Xuất ra một nhánh riêng tên là "data-gl" cho dữ liệu tthc_crawler_gl
           force_orphan: true   # ĐÂY LÀ TÍNH NĂNG XÓA SỔ LỊCH SỬ CŨ, NGĂN PHÌNH REPO!
           commit_message: "🚀 Cập nhật TTHC Gia Lai tự động"
+
+      - name: Bước 5.2 - Đẩy dữ liệu QĐCB ra CDN (ÉP ĐÈ KHÔNG LƯU LỊCH SỬ)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./qdcb
+          publish_branch: qdcb # Xuất ra một nhánh riêng tên là "qdcb"
+          force_orphan: true   # ĐÂY LÀ TÍNH NĂNG XÓA SỔ LỊCH SỬ CŨ, NGĂN PHÌNH REPO!
+          commit_message: "🚀 Cập nhật Quyết định công bố (QĐCB) tự động"
 
   notify:
     name: Gửi thông báo qua Telegram (GAS Webhook)

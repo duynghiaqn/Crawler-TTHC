@@ -1,0 +1,114 @@
+{
+  "id": "019d2c77-4882-711f-803e-f4756dfbf072",
+  "so_quyet_dinh": "67/QĐ-BCT",
+  "trich_yeu": "trích từ 67/QĐ-BCT",
+  "ngay_quyet_dinh": "2023-01-16",
+  "decision_date_ts": 1673827200000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776322366419,
+  "created_at_ts": 1673827200000,
+  "updated_at_ts": 1774567508096,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Điện"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c77-4882-711f-803e-f4756dfbf072",
+  "source_updated_at_ts": 1774567508096,
+  "fetched_at": "2026-11-18T13:29:11.438Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c77-4882-711f-803e-f4756dfbf072",
+    "state": "PUBLICATION",
+    "proposalNumber": "67/QĐ-BCT",
+    "proposalExcerpt": "trích từ 67/QĐ-BCT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-cbf470810d98"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1673827200000,
+    "decisionNumber": null,
+    "publicationDate": 1776322366419,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": "VNPT",
+    "createdAt": 1673827200000,
+    "updatedAt": 1774567508096,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-cbf470810d98",
+        "name": "Điện"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 4,
+      "items": [
+        {
+          "id": "019d2bf8-32e5-721b-9730-1c4e8263fffe",
+          "ma_tthc": "2.000526",
+          "ten_tthc": "Cấp thẻ Kiểm tra viên điện lực cho các đối tượng thuộc thẩm quyền cấp của Sở Công Thương trường hợp thẻ bị mất hoặc bị hỏng thẻ",
+          "linh_vuc": [
+            "Điện"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-32e5-721b-9730-1c4e8263fffe"
+        },
+        {
+          "id": "019d2bf8-32ef-76c2-a9a8-6bcfd1c5f200",
+          "ma_tthc": "2.000533",
+          "ten_tthc": "Cấp thẻ Kiểm tra viên điện lực cho các đối tượng thuộc thẩm quyền cấp của Cục Điều tiết điện lực trường hợp thẻ bị mất hoặc bị hỏng thẻ",
+          "linh_vuc": [
+            "Điện"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-32ef-76c2-a9a8-6bcfd1c5f200"
+        },
+        {
+          "id": "019d2bf7-e487-7096-8f09-6dbfc4796896",
+          "ma_tthc": "1.001113",
+          "ten_tthc": "Cấp thẻ Kiểm tra viên điện lực cho các đối tượng thuộc thẩm quyền cấp của Cục Điều tiết điện lực",
+          "linh_vuc": [
+            "Điện"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-e487-7096-8f09-6dbfc4796896"
+        },
+        {
+          "id": "019d2bf8-32e3-775e-8e51-2be7484b723d",
+          "ma_tthc": "2.000543",
+          "ten_tthc": "Cấp thẻ Kiểm tra viên điện lực cho các đối tượng thuộc thẩm quyền cấp của Sở Công Thương",
+          "linh_vuc": [
+            "Điện"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-32e3-775e-8e51-2be7484b723d"
+        }
+      ]
+    }
+  }
+}

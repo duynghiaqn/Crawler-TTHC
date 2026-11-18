@@ -1,0 +1,92 @@
+{
+  "id": "019d2cf1-99a9-779d-93fa-8f07839c37b5",
+  "so_quyet_dinh": "839/QĐ-BNNMT",
+  "trich_yeu": "trích từ 839/QĐ-BNNMT",
+  "ngay_quyet_dinh": "2025-04-15",
+  "decision_date_ts": 1744675200000,
+  "ngay_cong_bo": "2026-04-21",
+  "publication_date_ts": 1776738660981,
+  "created_at_ts": 1744675200000,
+  "updated_at_ts": 1774575524263,
+  "co_quan_ban_hanh": "Bộ Nông nghiệp và Môi trường",
+  "ma_co_quan": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+  "linh_vuc": [
+    "Thủy sản"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cf1-99a9-779d-93fa-8f07839c37b5",
+  "source_updated_at_ts": 1774575524263,
+  "fetched_at": "2026-11-18T13:28:54.198Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cf1-99a9-779d-93fa-8f07839c37b5",
+    "state": "PUBLICATION",
+    "proposalNumber": "839/QĐ-BNNMT",
+    "proposalExcerpt": "trích từ 839/QĐ-BNNMT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-2788e953be04"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1744675200000,
+    "decisionNumber": null,
+    "publicationDate": 1776738660981,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+    "importBy": "VNPT",
+    "createdAt": 1744675200000,
+    "updatedAt": 1774575524263,
+    "department": {
+      "id": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+      "name": "Bộ Nông nghiệp và Môi trường"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-2788e953be04",
+        "name": "Thủy sản"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfa-18b6-7197-87ff-e522f98c1f09",
+          "ma_tthc": "1.003361",
+          "ten_tthc": "Cấp, cấp lại giấy phép nhập khẩu thủy sản sống đối với trường hợp phải đánh giá rủi ro",
+          "linh_vuc": [
+            "Thủy sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-18b6-7197-87ff-e522f98c1f09"
+        },
+        {
+          "id": "019d2bfa-288f-712a-ad96-2c7be411f65b",
+          "ma_tthc": "1.003790",
+          "ten_tthc": "Cấp, cấp lại giấy phép nhập khẩu thủy sản sống đối với trường hợp không phải đánh giá rủi ro",
+          "linh_vuc": [
+            "Thủy sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-288f-712a-ad96-2c7be411f65b"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

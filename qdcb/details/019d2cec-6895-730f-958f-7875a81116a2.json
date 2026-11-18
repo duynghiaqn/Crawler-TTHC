@@ -1,0 +1,87 @@
+{
+  "id": "019d2cec-6895-730f-958f-7875a81116a2",
+  "so_quyet_dinh": "845/QĐ-BCT",
+  "trich_yeu": "trích từ 845/QĐ-BCT",
+  "ngay_quyet_dinh": "2025-03-25",
+  "decision_date_ts": 1742860800000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776321912587,
+  "created_at_ts": 1742860800000,
+  "updated_at_ts": 1774575184020,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Xuất nhập khẩu",
+    "Sản xuất, lắp ráp ô tô"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cec-6895-730f-958f-7875a81116a2",
+  "source_updated_at_ts": 1774575184020,
+  "fetched_at": "2026-11-18T13:28:54.726Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cec-6895-730f-958f-7875a81116a2",
+    "state": "PUBLICATION",
+    "proposalNumber": "845/QĐ-BCT",
+    "proposalExcerpt": "trích từ 845/QĐ-BCT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-9239bfdb9522",
+      "019d2bbb-69ee-7079-a6b1-accf42a62392"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1742860800000,
+    "decisionNumber": null,
+    "publicationDate": 1776321912587,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": "VNPT",
+    "createdAt": 1742860800000,
+    "updatedAt": 1774575184020,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b1-accf42a62392",
+        "name": "Sản xuất, lắp ráp ô tô"
+      },
+      {
+        "id": "019d2c08-77b8-7437-8210-9239bfdb9522",
+        "name": "Xuất nhập khẩu"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bf8-4aa2-709d-bfa6-0598b41195de",
+          "ma_tthc": "2.002747",
+          "ten_tthc": "Phê duyệt Kế hoạch sản xuất phương tiện vận tải có động cơ hàng năm của Liên doanh giữa Việt Nam và Liên bang Nga",
+          "linh_vuc": [
+            "Sản xuất, lắp ráp ô tô"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-4aa2-709d-bfa6-0598b41195de"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

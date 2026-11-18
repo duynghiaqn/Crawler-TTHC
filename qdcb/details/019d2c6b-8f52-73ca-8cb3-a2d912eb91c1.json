@@ -1,0 +1,378 @@
+{
+  "id": "019d2c6b-8f52-73ca-8cb3-a2d912eb91c1",
+  "so_quyet_dinh": "2589",
+  "trich_yeu": "trích từ 2589",
+  "ngay_quyet_dinh": "2021-12-31",
+  "decision_date_ts": 1640908800000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775641103315,
+  "created_at_ts": 1640908800000,
+  "updated_at_ts": 1774566739793,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Thuế"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c6b-8f52-73ca-8cb3-a2d912eb91c1",
+  "source_updated_at_ts": 1774566739793,
+  "fetched_at": "2026-11-18T13:29:13.207Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c6b-8f52-73ca-8cb3-a2d912eb91c1",
+    "state": "PUBLICATION",
+    "proposalNumber": "2589",
+    "proposalExcerpt": "trích từ 2589",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1640908800000,
+    "decisionNumber": null,
+    "publicationDate": 1775641103315,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1640908800000,
+    "updatedAt": 1774566739793,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3",
+        "name": "Thuế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 28,
+      "items": [
+        {
+          "id": "019d2bfc-aac9-7685-bb1c-369f66b6c4d3",
+          "ma_tthc": "1.010245",
+          "ten_tthc": "Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân thuộc diện nộp thuế thu nhập cá nhân và các loại thuế khác. - Đối với cá nhân nộp hồ sơ đăng ký thuế trực tiếp tại cơ quan thuế- Cấp Chi cục Thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-aac9-7685-bb1c-369f66b6c4d3"
+        },
+        {
+          "id": "019d2bfc-163b-772e-9f92-861bf6991bb8",
+          "ma_tthc": "1.007568",
+          "ten_tthc": "Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân thuộc diện nộp thuế thu nhập cá nhân và các loại thuế khác",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-163b-772e-9f92-861bf6991bb8"
+        },
+        {
+          "id": "019d2bfc-160d-7366-9e4c-648ecb537dcf",
+          "ma_tthc": "1.007558",
+          "ten_tthc": "Đăng ký thuế lần đầu đối với người nộp thuế là tổ chức, cá nhân khấu trừ nộp thay cho nhà thầu, nhà thầu phụ nước ngoài; tổ chức nộp thay cho cá nhân theo hợp đồng, hợp tác kinh doanh; tổ chức uỷ nhiệm thu",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-160d-7366-9e4c-648ecb537dcf"
+        },
+        {
+          "id": "019d2bfc-1dcb-77b6-944a-a387f88b735d",
+          "ma_tthc": "1.007584",
+          "ten_tthc": "15. Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là doanh nghiệp, tổ chức kinh tế, tổ chức khác, hộ gia đình, nhóm cá nhân, cá nhân kinh doanh thay đổi thông tin về địa chỉ trụ sở dẫn đến làm thay đổi cơ quan thuế quản lý",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1dcb-77b6-944a-a387f88b735d"
+        },
+        {
+          "id": "019d2bfc-25a4-7626-bf76-c63952b39ce7",
+          "ma_tthc": "1.007626",
+          "ten_tthc": "Đăng ký thuế đối với trường hợp chuyển đổi mô hình hoạt động của tổ chức kinh tế và tổ chức khác (Chuyển đơn vị trực thuộc của một đơn vị chủ quản thành đơn vị trực thuộc của một đơn vị chủ quản khác) – Đối với đơn vị trước chuyển đổi.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25a4-7626-bf76-c63952b39ce7"
+        },
+        {
+          "id": "019d2bfc-1dcc-70db-a69c-e7a25cdc8b64",
+          "ma_tthc": "1.007583",
+          "ten_tthc": "Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là cá nhân có phát sinh thu nhập chịu thuế thu nhập cá nhân, trừ cá nhân kinh doanh",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1dcc-70db-a69c-e7a25cdc8b64"
+        },
+        {
+          "id": "019d2bfc-1dd2-7598-bbb3-bdf6ecaa7a5c",
+          "ma_tthc": "1.007593",
+          "ten_tthc": "Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là tổ chức kinh tế, tổ chức khác, hộ gia đình, nhóm cá nhân, cá nhân kinh doanh thay đổi thông tin về địa chỉ trụ sở dẫn đến làm thay đổi cơ quan thuế quản lý",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1dd2-7598-bbb3-bdf6ecaa7a5c"
+        },
+        {
+          "id": "019d2bfc-25a4-75dc-b9eb-642b57c83d57",
+          "ma_tthc": "1.007624",
+          "ten_tthc": "Đăng ký thuế đối với trường hợp chuyển đổi mô hình hoạt động của tổ chức kinh tế và tổ chức khác (chuyển đơn vị độc lập thành đơn vị thực thuộc của một đơn vị chủ quản khác) – Đối với đơn vị trước chuyển đổi",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25a4-75dc-b9eb-642b57c83d57"
+        },
+        {
+          "id": "019d2bfc-1dca-724e-95eb-ae01d1fa2864",
+          "ma_tthc": "1.007582",
+          "ten_tthc": "Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là cá nhân có phát sinh thu nhập chịu thuế thu nhập cá nhân, trừ cá nhân kinh doanh",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1dca-724e-95eb-ae01d1fa2864"
+        },
+        {
+          "id": "019d2bfc-1df9-772f-b9bc-a98def409248",
+          "ma_tthc": "1.007615",
+          "ten_tthc": "Đăng ký thuế đối với trường hợp tổ chức lại hoạt động của tổ chức kinh tế - Trường hợp chia tổ chức kinh tế đối với tổ chức kinh tế mới được chia/được tách/hợp nhất (Cấp Chi Cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1df9-772f-b9bc-a98def409248"
+        },
+        {
+          "id": "019d2bfc-1dec-731a-acce-d6c13eb50430",
+          "ma_tthc": "1.007601",
+          "ten_tthc": "Chấm dứt hiệu lực mã số thuế đối với tổ chức kinh tế, tổ chức khác  – Đối với đơn vị trực thuộc.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1dec-731a-acce-d6c13eb50430"
+        },
+        {
+          "id": "019d2bfc-e989-7379-b372-a4ace7b7c425",
+          "ma_tthc": "2.002244",
+          "ten_tthc": "Hoàn thành nghĩa vụ trước khi giải thể đối với Doanh nghiệp.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e989-7379-b372-a4ace7b7c425"
+        },
+        {
+          "id": "019d2bfc-5ca2-712a-8943-eef14c39fe28",
+          "ma_tthc": "1.008497",
+          "ten_tthc": "Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân thuộc diện nộp thuế thu nhập cá nhân và các loại thuế khác...",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-5ca2-712a-8943-eef14c39fe28"
+        },
+        {
+          "id": "019d2bfc-25a6-72fe-a99b-fca581135447",
+          "ma_tthc": "1.007622",
+          "ten_tthc": "Đăng ký thuế đối với trường hợp chuyển đổi mô hình hoạt động của tổ chức kinh tế và tổ chức khác (Chuyển đơn vị trực thuộc thành đơn vị độc lập hoặc ngược lại) – Đối với đơn vị sau chuyển đổi (Cấp Chi Cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25a6-72fe-a99b-fca581135447"
+        },
+        {
+          "id": "019d2bfc-e98e-73d8-853a-7de73ce70b12",
+          "ma_tthc": "2.002243",
+          "ten_tthc": "Đăng ký thuế trong trường hợp tạm ngừng kinh doanh.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e98e-73d8-853a-7de73ce70b12"
+        },
+        {
+          "id": "019d2bfc-163f-7717-a4f4-74acb0fa9cdf",
+          "ma_tthc": "1.007571",
+          "ten_tthc": "Cấp lại Giấy chứng nhận đăng ký thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-163f-7717-a4f4-74acb0fa9cdf"
+        },
+        {
+          "id": "019d2bfc-162d-75c8-88e9-d2375fece593",
+          "ma_tthc": "1.007567",
+          "ten_tthc": "Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân thuộc diện nộp thuế thu nhập cá nhân và các loại thuế khác.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-162d-75c8-88e9-d2375fece593"
+        },
+        {
+          "id": "019d2bfc-1e0e-71fd-9b92-9c46d2299f37",
+          "ma_tthc": "1.007617",
+          "ten_tthc": "Đăng ký thuế đối với trường hợp tổ chức lại hoạt động của tổ chức kinh tế - Trường hợp tách tổ chức kinh tế đối với tổ chức kinh tế bị tách/nhận sáp nhập",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1e0e-71fd-9b92-9c46d2299f37"
+        },
+        {
+          "id": "019d2bfc-163a-70cb-993a-bcfe2160cce2",
+          "ma_tthc": "1.007570",
+          "ten_tthc": "Đăng ký thuế lần đầu cho người phụ thuộc để giảm trừ gia cảnh của người nộp thuế thu nhập cá nhân",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-163a-70cb-993a-bcfe2160cce2"
+        },
+        {
+          "id": "019d2bfc-160a-7576-98e4-b1a89818ea6d",
+          "ma_tthc": "1.007564",
+          "ten_tthc": "Đăng ký thuế lần đầu đối với người nộp thuế là tổ chức, cá nhân không phát sinh nghĩa vụ nộp thuế nhưng được hoàn thuế (trừ cơ quan đại diện ngoại giao, cơ quan lãnh sự và cơ quan đại diện của tổ chức quốc tế tại Việt Nam); Các tổ chức không hoạt động sản xuất, kinh doanh nhưng phát sinh nghĩa vụ thuế.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-160a-7576-98e4-b1a89818ea6d"
+        },
+        {
+          "id": "019d2bfc-25a3-73c1-a355-ef4f5471213f",
+          "ma_tthc": "1.007627",
+          "ten_tthc": "Đăng ký thuế đối với trường hợp chuyển đổi mô hình hoạt động của tổ chức kinh tế và tổ chức khác (Chuyển đơn vị trực thuộc của một đơn vị chủ quản thành đơn vị trực thuộc của một đơn vị chủ quản khác) – Đối với đơn vị sau chuyển đổi (Cấp Chi Cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25a3-73c1-a355-ef4f5471213f"
+        },
+        {
+          "id": "019d2bfc-25c9-737c-9aa8-3f6d9236eda0",
+          "ma_tthc": "1.007625",
+          "ten_tthc": "Đăng ký thuế đối với trường hợp chuyển đổi mô hình hoạt động của tổ chức kinh tế và tổ chức khác (chuyển đơn vị độc lập thành đơn vị thực thuộc của một đơn vị chủ quản khác) – Đối với đơn vị sau chuyển đổi (Cấp Chi Cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25c9-737c-9aa8-3f6d9236eda0"
+        },
+        {
+          "id": "019d2bfc-1e0e-71fd-9b92-984f0aa35407",
+          "ma_tthc": "1.007620",
+          "ten_tthc": "Đăng ký thuế đối với trường hợp chuyển đổi mô hình hoạt động của tổ chức kinh tế và tổ chức khác (Chuyển đơn vị trực thuộc thành đơn vị độc lập hoặc ngược lại) – Đối với đơn vị trước chuyển đổi",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1e0e-71fd-9b92-984f0aa35407"
+        },
+        {
+          "id": "019d2bfc-1de3-738a-9669-0aaf9bfd9c1d",
+          "ma_tthc": "1.007611",
+          "ten_tthc": "Đăng ký thuế đối với trường hợp tổ chức lại hoạt động của tổ chức kinh tế - Trường hợp chia tổ chức kinh tế đối với tổ chức kinh tế bị chia/ bị sáp nhập/bị hợp nhất.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1de3-738a-9669-0aaf9bfd9c1d"
+        },
+        {
+          "id": "019d2bfc-1df2-721d-a94c-d027ced17b89",
+          "ma_tthc": "1.007609",
+          "ten_tthc": "Khôi phục mã số thuế (Cấp Chi Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1df2-721d-a94c-d027ced17b89"
+        },
+        {
+          "id": "019d2bfc-1de1-76ae-8456-d061a33b43d4",
+          "ma_tthc": "1.007597",
+          "ten_tthc": "Chấm dứt hiệu lực mã số thuế đối với tổ chức kinh tế, tổ chức khác  – Trừ đơn vị trực thuộc.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-1de1-76ae-8456-d061a33b43d4"
+        },
+        {
+          "id": "019d2bfc-b2e3-74fe-a4b5-ca106f70d81c",
+          "ma_tthc": "1.010572",
+          "ten_tthc": "Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là cá nhân có phát sinh thu nhập chịu thuế thu nhập cá nhân, trừ cá nhân kinh doanh - trường hợp cá nhân đăng ký thay đổi thông tin qua cơ quan chi trả thu nhập (Cấp chi cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-b2e3-74fe-a4b5-ca106f70d81c"
+        },
+        {
+          "id": "019d2bfc-161a-76c7-877e-016a5ae8701e",
+          "ma_tthc": "1.007569",
+          "ten_tthc": "Đăng ký thuế lần đầu cho người phụ thuộc để giảm trừ gia cảnh của người nộp thuế thu nhập cá nhân",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-161a-76c7-877e-016a5ae8701e"
+        }
+      ]
+    }
+  }
+}

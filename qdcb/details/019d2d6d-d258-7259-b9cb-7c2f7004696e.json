@@ -1,0 +1,91 @@
+{
+  "id": "019d2d6d-d258-7259-b9cb-7c2f7004696e",
+  "so_quyet_dinh": "5234/QĐ-BQP",
+  "trich_yeu": "trích từ Quyết định số 5234/QĐ-BQP",
+  "ngay_quyet_dinh": "2025-10-17",
+  "decision_date_ts": 1760634000000,
+  "ngay_cong_bo": "2026-04-13",
+  "publication_date_ts": 1776073734194,
+  "created_at_ts": 1760634000000,
+  "updated_at_ts": 1776073726877,
+  "co_quan_ban_hanh": "Bộ Quốc phòng",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "linh_vuc": [
+    "Quản lý công nghệ thông tin BQP"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019d863e-046a-771f-93c4-cb656f168070",
+      "fileName": "5234-QUYETINHCONGBOTTHCBOBAIBOLINHVUCQUANLYCONGNGHETHONGTIN.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d6d-d258-7259-b9cb-7c2f7004696e",
+  "source_updated_at_ts": 1776073726877,
+  "fetched_at": "2026-11-18T13:28:38.151Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d6d-d258-7259-b9cb-7c2f7004696e",
+    "state": "PUBLICATION",
+    "proposalNumber": "5234/QĐ-BQP",
+    "proposalExcerpt": "trích từ Quyết định số 5234/QĐ-BQP",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-999d72859ef5"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019d863e-046a-771f-93c4-cb656f168070",
+        "fileName": "5234-QUYETINHCONGBOTTHCBOBAIBOLINHVUCQUANLYCONGNGHETHONGTIN.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1760634000000,
+    "decisionNumber": null,
+    "publicationDate": 1776073734194,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "importBy": "VNPT",
+    "createdAt": 1760634000000,
+    "updatedAt": 1776073726877,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-999d72859ef5",
+        "name": "Quản lý công nghệ thông tin BQP"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfb-cfc2-75b1-b79c-f67a13e329da",
+          "ma_tthc": "3.000420",
+          "ten_tthc": "Thủ tục xin thiết lập trang, cổng thông tin điện tử trên Internet của Bộ Quốc phòng",
+          "linh_vuc": [
+            "Quản lý công nghệ thông tin BQP"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-cfc2-75b1-b79c-f67a13e329da"
+        }
+      ]
+    }
+  }
+}

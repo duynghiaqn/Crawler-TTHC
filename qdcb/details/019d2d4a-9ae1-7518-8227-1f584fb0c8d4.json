@@ -1,0 +1,125 @@
+{
+  "id": "019d2d4a-9ae1-7518-8227-1f584fb0c8d4",
+  "so_quyet_dinh": "2526/QĐ-BTC",
+  "trich_yeu": "trích từ 2526/QĐ-BTC",
+  "ngay_quyet_dinh": "2025-07-21",
+  "decision_date_ts": 1753056000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775645666506,
+  "created_at_ts": 1753056000000,
+  "updated_at_ts": 1774581357280,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Thanh toán chi phí tố tụng"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d4a-9ae1-7518-8227-1f584fb0c8d4",
+  "source_updated_at_ts": 1774581357280,
+  "fetched_at": "2026-11-18T13:28:44.254Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d4a-9ae1-7518-8227-1f584fb0c8d4",
+    "state": "PUBLICATION",
+    "proposalNumber": "2526/QĐ-BTC",
+    "proposalExcerpt": "trích từ 2526/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-3fd7322c4e83"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1753056000000,
+    "decisionNumber": null,
+    "publicationDate": 1775645666506,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1753056000000,
+    "updatedAt": 1774581357280,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-3fd7322c4e83",
+        "name": "Thanh toán chi phí tố tụng"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 5,
+      "items": [
+        {
+          "id": "019d2bfc-f925-74cd-adcd-3dd91475a595",
+          "ma_tthc": "2.002798",
+          "ten_tthc": "Thủ tục thanh toán chi phí xem xét, thẩm định tại chỗ",
+          "linh_vuc": [
+            "Thanh toán chi phí tố tụng"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f925-74cd-adcd-3dd91475a595"
+        },
+        {
+          "id": "019d2bfc-f920-7218-8ad4-e57a1229894a",
+          "ma_tthc": "2.002800",
+          "ten_tthc": "Thủ tục tạm ứng, thanh toán chi phí định giám định",
+          "linh_vuc": [
+            "Thanh toán chi phí tố tụng"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f920-7218-8ad4-e57a1229894a"
+        },
+        {
+          "id": "019d2bfc-f91b-77ed-aaed-af37c8589717",
+          "ma_tthc": "2.002802",
+          "ten_tthc": "Thủ tục thanh toán chi phí cho người làm chứng, người chứng kiến, người phiên dịch, người dịch thuật, chi phí tham gia phiên toà, phiên họp giải quyết vụ việc, vụ án",
+          "linh_vuc": [
+            "Thanh toán chi phí tố tụng"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f91b-77ed-aaed-af37c8589717"
+        },
+        {
+          "id": "019d2bfc-f924-7088-aa02-111babeb5baf",
+          "ma_tthc": "2.002799",
+          "ten_tthc": "Thủ tục tạm ứng, thanh toán chi phí định giá tài sản",
+          "linh_vuc": [
+            "Thanh toán chi phí tố tụng"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f924-7088-aa02-111babeb5baf"
+        },
+        {
+          "id": "019d2bfc-f924-75e5-9bdf-2154d9b9ff1d",
+          "ma_tthc": "2.002801",
+          "ten_tthc": "Thủ tục thanh toán chi phí cho Hội thẩm, bào chữa viên nhân dân trong trường hợp chỉ định người bào chữa trong tố tụng hình sự",
+          "linh_vuc": [
+            "Thanh toán chi phí tố tụng"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f924-75e5-9bdf-2154d9b9ff1d"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

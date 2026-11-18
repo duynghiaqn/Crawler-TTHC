@@ -1,0 +1,114 @@
+{
+  "id": "019d2c40-34c0-7109-b39f-2f5f1eac9324",
+  "so_quyet_dinh": "4500/QĐ-BYT",
+  "trich_yeu": "trích từ 4500/QĐ-BYT",
+  "ngay_quyet_dinh": "2020-10-29",
+  "decision_date_ts": 1603929600000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133885720,
+  "created_at_ts": 1603929600000,
+  "updated_at_ts": 1774563898558,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Dược phẩm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c40-34c0-7109-b39f-2f5f1eac9324",
+  "source_updated_at_ts": 1774563898558,
+  "fetched_at": "2026-11-18T13:29:18.428Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c40-34c0-7109-b39f-2f5f1eac9324",
+    "state": "PUBLICATION",
+    "proposalNumber": "4500/QĐ-BYT",
+    "proposalExcerpt": "trích từ 4500/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-8a6c271189c4"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1603929600000,
+    "decisionNumber": null,
+    "publicationDate": 1776133885720,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1603929600000,
+    "updatedAt": 1774563898558,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae11-8a6c271189c4",
+        "name": "Dược phẩm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 4,
+      "items": [
+        {
+          "id": "019d2bfe-f668-7496-8d3a-4dbff0a28feb",
+          "ma_tthc": "1.004024",
+          "ten_tthc": "Cấp giấy chứng nhận đủ điều kiện kinh doanh thuốc đối với cơ sở bán lẻ dược liệu",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-f668-7496-8d3a-4dbff0a28feb"
+        },
+        {
+          "id": "019d2bfe-f678-75a9-a4e1-080abd78ec2b",
+          "ma_tthc": "1.004005",
+          "ten_tthc": "Cấp lại giấy chứng nhận đủ điều kiện kinh doanh thuốc đối với cơ sở bán buôn dược liệu",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-f678-75a9-a4e1-080abd78ec2b"
+        },
+        {
+          "id": "019d2bfe-f65a-71ce-a36c-228285e84d0e",
+          "ma_tthc": "1.003924",
+          "ten_tthc": "Cấp giấy chứng nhận đủ điều kiện kinh doanh thuốc đối với cơ sở bán buôn dược liệu",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-f65a-71ce-a36c-228285e84d0e"
+        },
+        {
+          "id": "019d2bfe-f684-74df-a4dd-501c6a995a7c",
+          "ma_tthc": "1.004074",
+          "ten_tthc": "Cấp lại giấy chứng nhận đủ điều kiện kinh doanh thuốc đối với cơ sở bán lẻ dược liệu",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-f684-74df-a4dd-501c6a995a7c"
+        }
+      ]
+    }
+  }
+}

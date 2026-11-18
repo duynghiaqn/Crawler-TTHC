@@ -1,0 +1,98 @@
+{
+  "id": "019d2cae-2ecd-7592-a5e6-8579407342d6",
+  "so_quyet_dinh": "743/QĐ-BYT",
+  "trich_yeu": "trích từ 743/QĐ-BYT",
+  "ngay_quyet_dinh": "2024-03-29",
+  "decision_date_ts": 1711670400000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133320752,
+  "created_at_ts": 1711670400000,
+  "updated_at_ts": 1774571105995,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Đào tạo và Nghiên cứu khoa học",
+    "Khám bệnh, chữa bệnh"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cae-2ecd-7592-a5e6-8579407342d6",
+  "source_updated_at_ts": 1774571105995,
+  "fetched_at": "2026-11-18T13:29:02.319Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cae-2ecd-7592-a5e6-8579407342d6",
+    "state": "PUBLICATION",
+    "proposalNumber": "743/QĐ-BYT",
+    "proposalExcerpt": "trích từ 743/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-2f53d301de56",
+      "019d2c08-77b9-731a-ae11-85e3c30d4863"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1711670400000,
+    "decisionNumber": null,
+    "publicationDate": 1776133320752,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1711670400000,
+    "updatedAt": 1774571105995,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-2f53d301de56",
+        "name": "Đào tạo và Nghiên cứu khoa học"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae11-85e3c30d4863",
+        "name": "Khám bệnh, chữa bệnh"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfe-afd6-7185-966d-de037a5dd589",
+          "ma_tthc": "1.001096",
+          "ten_tthc": "Phê duyệt bổ sung danh mục kỹ thuật của các cơ sở khám bệnh, chữa bệnh thuộc thẩm quyền quản lý của Bộ Y tế",
+          "linh_vuc": [
+            "Khám bệnh, chữa bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-afd6-7185-966d-de037a5dd589"
+        },
+        {
+          "id": "019d2bfe-a83e-7682-b12d-48362479753a",
+          "ma_tthc": "1.001077",
+          "ten_tthc": "Phê duyệt bổ sung danh mục kỹ thuật của các cơ sở khám bệnh, chữa bệnh thuộc thẩm quyền quản lý của Sở Y tế",
+          "linh_vuc": [
+            "Khám bệnh, chữa bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-a83e-7682-b12d-48362479753a"
+        }
+      ]
+    }
+  }
+}

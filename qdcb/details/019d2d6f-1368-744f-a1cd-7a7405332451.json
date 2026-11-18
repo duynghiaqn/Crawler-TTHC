@@ -1,0 +1,98 @@
+{
+  "id": "019d2d6f-1368-744f-a1cd-7a7405332451",
+  "so_quyet_dinh": "3574/QĐ-BYT",
+  "trich_yeu": "trích từ 3574/QĐ-BYT",
+  "ngay_quyet_dinh": "2025-11-19",
+  "decision_date_ts": 1763510400000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776134982017,
+  "created_at_ts": 1763510400000,
+  "updated_at_ts": 1774583747430,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Giám định",
+    "Tổ chức cán bộ"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d6f-1368-744f-a1cd-7a7405332451",
+  "source_updated_at_ts": 1774583747430,
+  "fetched_at": "2026-11-18T13:28:37.826Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d6f-1368-744f-a1cd-7a7405332451",
+    "state": "PUBLICATION",
+    "proposalNumber": "3574/QĐ-BYT",
+    "proposalExcerpt": "trích từ 3574/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-907fa2acef45",
+      "019d2c08-77b9-731a-ae10-b9de6a2f13a6"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1763510400000,
+    "decisionNumber": null,
+    "publicationDate": 1776134982017,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1763510400000,
+    "updatedAt": 1774583747430,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-907fa2acef45",
+        "name": "Giám định"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae10-b9de6a2f13a6",
+        "name": "Tổ chức cán bộ"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bff-2d47-76b9-b52d-3cd52ccb77e0",
+          "ma_tthc": "1.013876",
+          "ten_tthc": "Miễn nhiệm giám định viên pháp y và pháp y tâm thần.",
+          "linh_vuc": [
+            "Giám định"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-2d47-76b9-b52d-3cd52ccb77e0"
+        },
+        {
+          "id": "019d2bff-2d36-7533-81f7-31d4776c2f48",
+          "ma_tthc": "1.013871",
+          "ten_tthc": "Bổ nhiệm giám định viên pháp y và pháp y tâm thần.",
+          "linh_vuc": [
+            "Giám định"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-2d36-7533-81f7-31d4776c2f48"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

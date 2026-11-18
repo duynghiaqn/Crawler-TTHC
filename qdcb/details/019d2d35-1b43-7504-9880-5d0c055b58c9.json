@@ -1,0 +1,92 @@
+{
+  "id": "019d2d35-1b43-7504-9880-5d0c055b58c9",
+  "so_quyet_dinh": "1848/QĐ-BTP",
+  "trich_yeu": "trích từ 1848/QĐ-BTP",
+  "ngay_quyet_dinh": "2025-06-23",
+  "decision_date_ts": 1750611600000,
+  "ngay_cong_bo": "2026-04-25",
+  "publication_date_ts": 1777105286504,
+  "created_at_ts": 1750611600000,
+  "updated_at_ts": 1777105283181,
+  "co_quan_ban_hanh": "Bộ Tư pháp",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d603f1537007",
+  "linh_vuc": [
+    "Nuôi con nuôi"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d35-1b43-7504-9880-5d0c055b58c9",
+  "source_updated_at_ts": 1777105283181,
+  "fetched_at": "2026-11-18T13:28:47.300Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d35-1b43-7504-9880-5d0c055b58c9",
+    "state": "PUBLICATION",
+    "proposalNumber": "1848/QĐ-BTP",
+    "proposalExcerpt": "trích từ 1848/QĐ-BTP",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d603f1537007",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-5c450df62564"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1750611600000,
+    "decisionNumber": null,
+    "publicationDate": 1777105286504,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d603f1537007",
+    "importBy": "VNPT",
+    "createdAt": 1750611600000,
+    "updatedAt": 1777105283181,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-5c450df62564",
+        "name": "Nuôi con nuôi"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfd-9614-7528-9c06-e53f6dee7a58",
+          "ma_tthc": "2.001255",
+          "ten_tthc": "Đăng ký lại việc nuôi con nuôi trong nước",
+          "linh_vuc": [
+            "Nuôi con nuôi"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-9614-7528-9c06-e53f6dee7a58"
+        },
+        {
+          "id": "019d2bfd-5f39-7665-900e-2fc88fa8d117",
+          "ma_tthc": "1.003179",
+          "ten_tthc": "Đăng ký lại việc nuôi con nuôi có yếu tố nước ngoài",
+          "linh_vuc": [
+            "Nuôi con nuôi"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-5f39-7665-900e-2fc88fa8d117"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

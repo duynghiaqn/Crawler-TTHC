@@ -1,0 +1,91 @@
+{
+  "id": "019d8a0b-6473-751d-aad3-977fef58efd3",
+  "so_quyet_dinh": "22/QĐ-TANDTC",
+  "trich_yeu": "Áp dụng dịch vụ công trực tuyến gửi, nhận đơn khởi kiện, tài liệu, chứng cứ và cấp, tống đạt, thông báo văn bản tố tụng và phần mềm quản lý nghiệp vụ thụ lý, giải quyết các loại vụ, việc của Tòa án nhân dân",
+  "ngay_quyet_dinh": "2022-01-26",
+  "decision_date_ts": 1643130000000,
+  "ngay_cong_bo": "2026-04-24",
+  "publication_date_ts": 1776998596327,
+  "created_at_ts": 1643130000000,
+  "updated_at_ts": 1776961600181,
+  "co_quan_ban_hanh": "Tòa án nhân dân",
+  "ma_co_quan": "019d2be3-6ada-753f-9ac8-8de834426559",
+  "linh_vuc": [
+    "Tòa án"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019d8a08-b4f1-741f-9136-f416bb72f899",
+      "fileName": "QD 22.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d8a0b-6473-751d-aad3-977fef58efd3",
+  "source_updated_at_ts": 1776961600181,
+  "fetched_at": "2026-11-18T13:28:24.593Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d8a0b-6473-751d-aad3-977fef58efd3",
+    "state": "PUBLICATION",
+    "proposalNumber": "22/QĐ-TANDTC",
+    "proposalExcerpt": "Áp dụng dịch vụ công trực tuyến gửi, nhận đơn khởi kiện, tài liệu, chứng cứ và cấp, tống đạt, thông báo văn bản tố tụng và phần mềm quản lý nghiệp vụ thụ lý, giải quyết các loại vụ, việc của Tòa án nhân dân",
+    "completionDate": 1776235671713,
+    "issuingAgencyId": "019d2be3-6a80-747a-9d04-1b689bdf392e",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-a29ef5d844a1"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019d8a08-b4f1-741f-9136-f416bb72f899",
+        "fileName": "QD 22.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1643130000000,
+    "decisionNumber": null,
+    "publicationDate": 1776998596327,
+    "effectiveDate": 1643130000000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6ada-753f-9ac8-8de834426559",
+    "importBy": null,
+    "createdAt": 1643130000000,
+    "updatedAt": 1776961600181,
+    "department": {
+      "id": "019d2be3-6a80-747a-9d04-1b689bdf392e",
+      "name": "Tòa án nhân dân"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-a29ef5d844a1",
+        "name": "Tòa án"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2c00-009f-70ad-bb72-c086e3885784",
+          "ma_tthc": "3.000163",
+          "ten_tthc": "Dịch vụ công trực tuyến gửi, nhận đơn khởi kiện, tài liệu, chứng cứ và cấp, tống đạt, thông báo văn bản tố tụng ",
+          "linh_vuc": [
+            "Tòa án"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2c00-009f-70ad-bb72-c086e3885784"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

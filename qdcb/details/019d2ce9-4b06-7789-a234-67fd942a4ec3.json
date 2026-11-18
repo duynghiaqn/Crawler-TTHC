@@ -1,0 +1,81 @@
+{
+  "id": "019d2ce9-4b06-7789-a234-67fd942a4ec3",
+  "so_quyet_dinh": "852/QĐ-BYT",
+  "trich_yeu": "trích từ 852/QĐ-BYT",
+  "ngay_quyet_dinh": "2025-03-12",
+  "decision_date_ts": 1741737600000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776167828532,
+  "created_at_ts": 1741737600000,
+  "updated_at_ts": 1774574979844,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "An toàn thực phẩm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2ce9-4b06-7789-a234-67fd942a4ec3",
+  "source_updated_at_ts": 1774574979844,
+  "fetched_at": "2026-11-18T13:28:55.259Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2ce9-4b06-7789-a234-67fd942a4ec3",
+    "state": "PUBLICATION",
+    "proposalNumber": "852/QĐ-BYT",
+    "proposalExcerpt": "trích từ 852/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-7f70ea01a4f3"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1741737600000,
+    "decisionNumber": null,
+    "publicationDate": 1776167828532,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1741737600000,
+    "updatedAt": 1774574979844,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-7f70ea01a4f3",
+        "name": "An toàn thực phẩm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfe-a800-747a-93cf-835fac5d699c",
+          "ma_tthc": "1.000089",
+          "ten_tthc": "Cấp giấy chứng nhận y tế (HC) đối với thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến; dụng cụ, vật liệu bao gói, chứa đựng thực phẩm",
+          "linh_vuc": [
+            "An toàn thực phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-a800-747a-93cf-835fac5d699c"
+        }
+      ]
+    }
+  }
+}

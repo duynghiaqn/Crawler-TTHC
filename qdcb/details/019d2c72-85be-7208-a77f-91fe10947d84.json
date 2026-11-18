@@ -1,0 +1,93 @@
+{
+  "id": "019d2c72-85be-7208-a77f-91fe10947d84",
+  "so_quyet_dinh": "1462 /QĐ-BTC",
+  "trich_yeu": "trích từ 1462 /QĐ-BTC",
+  "ngay_quyet_dinh": "2022-07-22",
+  "decision_date_ts": 1658448000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775639856359,
+  "created_at_ts": 1658448000000,
+  "updated_at_ts": 1774567196092,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Hải quan",
+    "Bộ Tài chính",
+    "Thuế"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c72-85be-7208-a77f-91fe10947d84",
+  "source_updated_at_ts": 1774567196092,
+  "fetched_at": "2026-11-18T13:29:12.558Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c72-85be-7208-a77f-91fe10947d84",
+    "state": "PUBLICATION",
+    "proposalNumber": "1462 /QĐ-BTC",
+    "proposalExcerpt": "trích từ 1462 /QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-9efb77511847",
+      "019d2c08-77b9-731a-ae0f-a2506abcf7c8",
+      "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1658448000000,
+    "decisionNumber": null,
+    "publicationDate": 1775639856359,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1658448000000,
+    "updatedAt": 1774567196092,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-9efb77511847",
+        "name": "Hải quan"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae0f-a2506abcf7c8",
+        "name": "Bộ Tài chính"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3",
+        "name": "Thuế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-ca1a-739b-8c27-adc9bd558a0b",
+          "ma_tthc": "1.012838",
+          "ten_tthc": "Tạm dừng áp dụng biện pháp cưỡng chế dừng làm thủ tục hải quan",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-ca1a-739b-8c27-adc9bd558a0b"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

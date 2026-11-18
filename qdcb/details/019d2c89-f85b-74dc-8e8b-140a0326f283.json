@@ -1,0 +1,81 @@
+{
+  "id": "019d2c89-f85b-74dc-8e8b-140a0326f283",
+  "so_quyet_dinh": "3367/QĐ-BYT",
+  "trich_yeu": "trích từ 3367/QĐ-BYT",
+  "ngay_quyet_dinh": "2022-12-13",
+  "decision_date_ts": 1670889600000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133735099,
+  "created_at_ts": 1670889600000,
+  "updated_at_ts": 1774568732761,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Y Dược cổ truyền"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c89-f85b-74dc-8e8b-140a0326f283",
+  "source_updated_at_ts": 1774568732761,
+  "fetched_at": "2026-11-18T13:29:09.210Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c89-f85b-74dc-8e8b-140a0326f283",
+    "state": "PUBLICATION",
+    "proposalNumber": "3367/QĐ-BYT",
+    "proposalExcerpt": "trích từ 3367/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-13a996b92439"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1670889600000,
+    "decisionNumber": null,
+    "publicationDate": 1776133735099,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1670889600000,
+    "updatedAt": 1774568732761,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-13a996b92439",
+        "name": "Y Dược cổ truyền"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bff-15ac-715b-8ae9-a47a977dd2b2",
+          "ma_tthc": "1.010745",
+          "ten_tthc": "Thủ tục công bố tiêu chuẩn chất lượng dược liệu",
+          "linh_vuc": [
+            "Y Dược cổ truyền"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-15ac-715b-8ae9-a47a977dd2b2"
+        }
+      ]
+    }
+  }
+}

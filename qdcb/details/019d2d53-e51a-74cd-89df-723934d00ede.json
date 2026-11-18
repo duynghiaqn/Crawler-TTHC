@@ -1,0 +1,93 @@
+{
+  "id": "019d2d53-e51a-74cd-89df-723934d00ede",
+  "so_quyet_dinh": "2373/QĐ-BYT",
+  "trich_yeu": "trích từ 2373/QĐ-BYT",
+  "ngay_quyet_dinh": "2025-07-21",
+  "decision_date_ts": 1753056000000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776132915012,
+  "created_at_ts": 1753056000000,
+  "updated_at_ts": 1774581966104,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Dược phẩm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d53-e51a-74cd-89df-723934d00ede",
+  "source_updated_at_ts": 1774581966104,
+  "fetched_at": "2026-11-18T13:28:42.759Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d53-e51a-74cd-89df-723934d00ede",
+    "state": "PUBLICATION",
+    "proposalNumber": "2373/QĐ-BYT",
+    "proposalExcerpt": "trích từ 2373/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-8a6c271189c4"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1753056000000,
+    "decisionNumber": null,
+    "publicationDate": 1776132915012,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1753056000000,
+    "updatedAt": 1774581966104,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae11-8a6c271189c4",
+        "name": "Dược phẩm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bff-3d12-74de-9c24-f04dfad05f59",
+          "ma_tthc": "1.014145",
+          "ten_tthc": "Kiểm nghiệm trước khi lưu hành đối với vắc xin, sinh phẩm là huyết thanh chứa kháng thể, sinh phẩm là dẫn xuất của máu và huyết tương người",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-3d12-74de-9c24-f04dfad05f59"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfe-e0c6-77fc-a557-b0f9a36e7df1",
+          "ma_tthc": "1.003053",
+          "ten_tthc": "Kiểm nghiệm đánh giá chất lượng, an toàn, hiệu lực đối với vắc xin, sinh phẩm, huyết thanh chứa kháng thể, dẫn xuất của máu và huyết tương người",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-e0c6-77fc-a557-b0f9a36e7df1"
+        }
+      ]
+    }
+  }
+}

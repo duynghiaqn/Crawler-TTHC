@@ -1,0 +1,109 @@
+{
+  "id": "01a1199e-655d-71ec-9426-918df993c651",
+  "so_quyet_dinh": "1199/QĐ-BNV",
+  "trich_yeu": "Công bố thủ tục hành chính lĩnh vực Thi đua, khen thưởng thuộc phạm vi chức năng quản lý nhà nước của Bộ Nội vụ",
+  "ngay_quyet_dinh": "2026-10-06",
+  "decision_date_ts": 1791219600000,
+  "ngay_cong_bo": "2026-10-09",
+  "publication_date_ts": 1791511926348,
+  "created_at_ts": 1791431173446,
+  "updated_at_ts": 1791511821652,
+  "co_quan_ban_hanh": "Bộ Nội vụ",
+  "ma_co_quan": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+  "linh_vuc": [
+    "Thi đua - khen thưởng"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "01a1199d-7c9e-70bb-982b-ad2af0fef220",
+      "fileName": "1199 Phu luc kem theo QD cong bo TTHC.pdf"
+    },
+    {
+      "fileId": "01a1199d-809f-77cd-b64d-95542dd43a2a",
+      "fileName": "1199 QD cong bo TTHC tang, truy tang huy chuong thanh nien xung phong ve vang.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a1199e-655d-71ec-9426-918df993c651",
+  "source_updated_at_ts": 1791511821652,
+  "fetched_at": "2026-11-18T13:27:40.376Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a1199e-655d-71ec-9426-918df993c651",
+    "state": "PUBLICATION",
+    "proposalNumber": "1199/QĐ-BNV",
+    "proposalExcerpt": "Công bố thủ tục hành chính lĩnh vực Thi đua, khen thưởng thuộc phạm vi chức năng quản lý nhà nước của Bộ Nội vụ",
+    "completionDate": 1791511821840,
+    "issuingAgencyId": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "01a1199d-7c9e-70bb-982b-ad2af0fef220",
+        "fileName": "1199 Phu luc kem theo QD cong bo TTHC.pdf"
+      },
+      {
+        "fileId": "01a1199d-809f-77cd-b64d-95542dd43a2a",
+        "fileName": "1199 QD cong bo TTHC tang, truy tang huy chuong thanh nien xung phong ve vang.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1791219600000,
+    "decisionNumber": null,
+    "publicationDate": 1791511926348,
+    "effectiveDate": 1791219600000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+    "importBy": null,
+    "createdAt": 1791431173446,
+    "updatedAt": 1791511821652,
+    "department": {
+      "id": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+      "name": "Bộ Nội vụ"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+        "name": "Thi đua - khen thưởng"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "01a1195b-5f04-737a-b168-c2e4bf61f63f",
+          "ma_tthc": "1.117102",
+          "ten_tthc": "Thủ tục tặng, truy tặng \"Huy chương Thanh niên xung phong vẻ vang\" cho cá nhân",
+          "linh_vuc": [],
+          "ngay_hieu_luc": "2026-10-01",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/01a1195b-5f04-737a-b168-c2e4bf61f63f"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfb-2b1e-7536-9438-c72e99331359",
+          "ma_tthc": "1.014680",
+          "ten_tthc": "Thủ tục tặng, truy tặng \"Huy chương Thanh niên xung phong vẻ vang\"",
+          "linh_vuc": [
+            "Thi đua - khen thưởng"
+          ],
+          "ngay_hieu_luc": "2026-10-01",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-2b1e-7536-9438-c72e99331359"
+        }
+      ]
+    }
+  }
+}

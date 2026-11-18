@@ -1,0 +1,79 @@
+{
+  "id": "019ee5ae-2386-750d-adcb-1b91d22fa982",
+  "so_quyet_dinh": "QĐ000001SNNTEST",
+  "trich_yeu": "nội dung test",
+  "ngay_quyet_dinh": "2026-06-20",
+  "decision_date_ts": 1781888400000,
+  "ngay_cong_bo": "2026-06-20",
+  "publication_date_ts": 1781972410435,
+  "created_at_ts": 1781888400000,
+  "updated_at_ts": 1781972281265,
+  "co_quan_ban_hanh": "UBND Thành phố Đồng Nai",
+  "ma_co_quan": "019d2be3-6a85-74ec-a342-8635701ddf34",
+  "linh_vuc": [
+    "Đất đai"
+  ],
+  "loai_quyet_dinh": "SPECIFIC",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019ee5ae-2386-750d-adcb-1b91d22fa982",
+  "source_updated_at_ts": 1781972281265,
+  "fetched_at": "2026-11-18T13:28:00.282Z",
+  "thong_tin_chi_tiet": {
+    "id": "019ee5ae-2386-750d-adcb-1b91d22fa982",
+    "state": "PUBLICATION",
+    "proposalNumber": "QĐ000001SNNTEST",
+    "proposalExcerpt": "nội dung test",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a85-74ec-a342-8635701ddf34",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1781888400000,
+    "decisionNumber": null,
+    "publicationDate": 1781972410435,
+    "effectiveDate": 1781888400000,
+    "proposalType": "SPECIFIC",
+    "departmentId": "019d2be3-6a85-74ec-a342-8635701ddf34",
+    "importBy": null,
+    "createdAt": 1781888400000,
+    "updatedAt": 1781972281265,
+    "department": {
+      "id": "019d2be3-6a85-74ec-a342-8635701ddf34",
+      "name": "UBND Thành phố Đồng Nai"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+        "name": "Đất đai"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019ee5c8-f7e3-750b-91b6-9487d5b91872",
+          "ma_tthc": "1.115188",
+          "ten_tthc": "Giao đất, cho thuê đất đối với trường hợp giao đất, cho thuê đất không đấu giá quyền sử dụng đất, không đấu thầu lựa chọn nhà đầu tư thực hiện dự án có sử dụng đất và trường hợp giao đất, cho thuê đất thông qua đấu thầu lựa chọn nhà đầu tư thực hiện dự án có sử dụng đất; giao đất và giao rừng; cho thuê đất và cho thuê rừng",
+          "linh_vuc": [],
+          "ngay_hieu_luc": "2026-06-20",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019ee5c8-f7e3-750b-91b6-9487d5b91872"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

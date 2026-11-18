@@ -77,9 +77,9 @@ async function main() {
                 targetRemote = `https://${githubToken}@${cleanPath}`;
             }
 
-            // 1. Stage thu muc data/ va data-gl/
-            console.log('📁 Staging thư mục data/ & data-gl/...');
-            runCmd('git add data/ data-gl/ scripts/filter_gia_lai.js tthc_crawler_gl.js');
+            // 1. Stage thu muc data/, data-gl/ va qdcb/
+            console.log('📁 Staging thư mục data/, data-gl/ & qdcb/...');
+            runCmd('git add data/ data-gl/ qdcb/ scripts/filter_gia_lai.js tthc_crawler_gl.js qdcb_crawler.js');
 
             // 2. Kiem tra xem co thay doi trong staged hay khong
             let hasChanges = false;

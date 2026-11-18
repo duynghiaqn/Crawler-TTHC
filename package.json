@@ -17,10 +17,13 @@
     "compare:province": "node scripts/compare_Province.js",
     "compare:gl": "node scripts/compare_Province.js",
     "crawl:gl": "node tthc_crawler_gl.js",
+    "crawl:qdcb": "node qdcb_crawler.js",
+    "compare:qdcb": "node qdcb_crawler.js --compare",
     "export:excel": "node scripts/export_excel.js",
     "export:excel:all": "node scripts/export_excel.js --all",
     "export:excel:dvcqg": "node scripts/export_excel.js --national",
     "export:excel:gl": "node scripts/export_excel.js --gl",
+    "export:excel:qdcb": "node scripts/export_qdcb_excel.js",
     "build-data": "node pipeline/index.js",
     "test:regression": "node tests/regression.js"
   },

@@ -1,0 +1,104 @@
+{
+  "id": "019d2c2b-ee0e-7442-98ff-970ba6e8c823",
+  "so_quyet_dinh": "3098/QĐ_BYT",
+  "trich_yeu": "trích từ 3098/QĐ_BYT",
+  "ngay_quyet_dinh": "2019-07-10",
+  "decision_date_ts": 1562716800000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776134015381,
+  "created_at_ts": 1562716800000,
+  "updated_at_ts": 1774562569741,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Khám bệnh, chữa bệnh"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c2b-ee0e-7442-98ff-970ba6e8c823",
+  "source_updated_at_ts": 1774562569741,
+  "fetched_at": "2026-11-18T13:29:22.507Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c2b-ee0e-7442-98ff-970ba6e8c823",
+    "state": "PUBLICATION",
+    "proposalNumber": "3098/QĐ_BYT",
+    "proposalExcerpt": "trích từ 3098/QĐ_BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-85e3c30d4863"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1562716800000,
+    "decisionNumber": null,
+    "publicationDate": 1776134015381,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1562716800000,
+    "updatedAt": 1774562569741,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae11-85e3c30d4863",
+        "name": "Khám bệnh, chữa bệnh"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfe-e6b0-76dc-94c4-7504361e1d73",
+          "ma_tthc": "1.003125",
+          "ten_tthc": "Cấp giấy phép hoạt động ngân hàng mô",
+          "linh_vuc": [
+            "Khám bệnh, chữa bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-e6b0-76dc-94c4-7504361e1d73"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfe-e6ae-727f-8b26-540f719fe8c8",
+          "ma_tthc": "1.003271",
+          "ten_tthc": "Cấp giấy chứng nhận cơ sở giáo dục đủ điều kiện kiểm tra và công nhận biết tiếng Việt thành thạo hoặc sử dụng thành thạo ngôn ngữ khác hoặc đủ trình độ phiên dịch trong khám bệnh, chữa bệnh (bị bãi bỏ do trùng lặp mã 1.008085)",
+          "linh_vuc": [
+            "Khám bệnh, chữa bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-e6ae-727f-8b26-540f719fe8c8"
+        },
+        {
+          "id": "019d2bfe-aff6-77de-8348-99ab1fb64379",
+          "ma_tthc": "1.001217",
+          "ten_tthc": "Cấp lại giấy xác nhận nội dung quảng cáo dịch vụ khám bệnh, chữa bệnh thuộc thẩm quyền của Bộ Y tế khi có thay đổi về tên, địa chỉ của tổ chức, cá nhân chịu trách nhiệm và không thay đổi nội dung quảng cáo  (bãi bỏ do trùng lặp với mã 1.001375)",
+          "linh_vuc": [
+            "Khám bệnh, chữa bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-aff6-77de-8348-99ab1fb64379"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "019d2d2c-d368-71ff-b081-5dbf002d8351",
+  "so_quyet_dinh": "2096/QĐ-BTC",
+  "trich_yeu": "trích từ 2096/QĐ-BTC",
+  "ngay_quyet_dinh": "2025-06-23",
+  "decision_date_ts": 1750636800000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775645689325,
+  "created_at_ts": 1750636800000,
+  "updated_at_ts": 1774579405670,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý công sản",
+    "Quản lý tài sản công",
+    "Tài chính đất đai"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d2c-d368-71ff-b081-5dbf002d8351",
+  "source_updated_at_ts": 1774579405670,
+  "fetched_at": "2026-11-18T13:28:48.343Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d2c-d368-71ff-b081-5dbf002d8351",
+    "state": "PUBLICATION",
+    "proposalNumber": "2096/QĐ-BTC",
+    "proposalExcerpt": "trích từ 2096/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-b08a21687d58",
+      "019d2c08-77b9-731a-ae11-8f32b3d568e9",
+      "019d2bbb-69ee-7079-a6b4-15edc80221c2"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1750636800000,
+    "decisionNumber": null,
+    "publicationDate": 1775645689325,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1750636800000,
+    "updatedAt": 1774579405670,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-15edc80221c2",
+        "name": "Tài chính đất đai"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae10-b08a21687d58",
+        "name": "Quản lý công sản"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae11-8f32b3d568e9",
+        "name": "Quản lý tài sản công"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 7,
+      "items": [
+        {
+          "id": "019d2bfd-10c8-73cd-b079-ee6abf359146",
+          "ma_tthc": "3.000326",
+          "ten_tthc": "Thanh lý tài sản kết cấu hạ tầng thủy lợi; xử lý tài sản kết cấu hạ tầng thủy lợi trong trường hợp bị mất, hủy hoại",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-10c8-73cd-b079-ee6abf359146"
+        },
+        {
+          "id": "019d2bfd-10bf-77f7-936e-42b10cec1758",
+          "ma_tthc": "3.000327",
+          "ten_tthc": "Giao tài sản kết cấu hạ tầng thủy lợi",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-10bf-77f7-936e-42b10cec1758"
+        },
+        {
+          "id": "019d2bfc-ca26-7579-bfcb-15385502eb9f",
+          "ma_tthc": "1.012994",
+          "ten_tthc": "Khấu trừ kinh phí bồi thường, hỗ trợ, tái định cư",
+          "linh_vuc": [
+            "Tài chính đất đai"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-ca26-7579-bfcb-15385502eb9f"
+        },
+        {
+          "id": "019d2bfd-10bf-7089-aafb-091ca4eeadf0",
+          "ma_tthc": "3.000425",
+          "ten_tthc": "Khai thác tài sản KCHT đường sắt quốc gia/đô thị theo phương thức cơ quan quản lý tài sản trực tiếp tổ chức khai thác (đối với tài sản liên quan đến quốc phòng, an ninh quốc gia)",
+          "linh_vuc": [
+            "Quản lý tài sản công"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-10bf-7089-aafb-091ca4eeadf0"
+        },
+        {
+          "id": "019d2bfd-10ce-70a5-af8f-1774c141ba21",
+          "ma_tthc": "3.000434",
+          "ten_tthc": "Sử dụng tài sản KCHT đường sắt quốc gia/đô thị được đầu tư theo phương pháp đối tác công tư",
+          "linh_vuc": [
+            "Quản lý tài sản công"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-10ce-70a5-af8f-1774c141ba21"
+        },
+        {
+          "id": "019d2bfd-10d9-751f-b276-5cd139810851",
+          "ma_tthc": "3.000429",
+          "ten_tthc": "Điều chuyển tài sản KCHT đường sắt quốc gia/đô thị",
+          "linh_vuc": [
+            "Quản lý tài sản công"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-10d9-751f-b276-5cd139810851"
+        },
+        {
+          "id": "019d2bfd-10cc-728f-967a-9c384442b2c5",
+          "ma_tthc": "3.000424",
+          "ten_tthc": "Chuyển từ hình thức giao tài sản kết cấu hạ tầng đường sắt quốc gia/đô thị không tính thành phần vốn nhà nước tại doanh nghiệp sang hình thức tính thành phần vốn nhà nước tại doanh nghiệp",
+          "linh_vuc": [
+            "Quản lý tài sản công"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-10cc-728f-967a-9c384442b2c5"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

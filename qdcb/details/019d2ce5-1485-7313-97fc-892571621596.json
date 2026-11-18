@@ -1,0 +1,92 @@
+{
+  "id": "019d2ce5-1485-7313-97fc-892571621596",
+  "so_quyet_dinh": "3172/QĐ-BTC",
+  "trich_yeu": "trích từ 3172/QĐ-BTC",
+  "ngay_quyet_dinh": "2024-12-31",
+  "decision_date_ts": 1735603200000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775645814533,
+  "created_at_ts": 1735603200000,
+  "updated_at_ts": 1774574703747,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý công sản"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2ce5-1485-7313-97fc-892571621596",
+  "source_updated_at_ts": 1774574703747,
+  "fetched_at": "2026-11-18T13:28:55.562Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2ce5-1485-7313-97fc-892571621596",
+    "state": "PUBLICATION",
+    "proposalNumber": "3172/QĐ-BTC",
+    "proposalExcerpt": "trích từ 3172/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-b08a21687d58"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1735603200000,
+    "decisionNumber": null,
+    "publicationDate": 1775645814533,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1735603200000,
+    "updatedAt": 1774574703747,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-b08a21687d58",
+        "name": "Quản lý công sản"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfc-e213-737d-8be6-2a72aecdcfa0",
+          "ma_tthc": "2.002173",
+          "ten_tthc": "Hoàn trả hoặc khấu trừ tiền sử dụng đất đã nộp hoặc tiền nhận chuyển nhượng quyền sử dụng đất đã trả vào nghĩa vụ tài chính của chủ đầu tư dự án nhà ở xã hội",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e213-737d-8be6-2a72aecdcfa0"
+        },
+        {
+          "id": "019d2bfb-df47-770e-a320-2433d22df089",
+          "ma_tthc": "1.005415",
+          "ten_tthc": "Thủ tục Điều chuyển tài sản là hệ thống điện được đầu tư từ nguồn vốn nhà nước sang ngành điện quản lý",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-df47-770e-a320-2433d22df089"
+        }
+      ]
+    }
+  }
+}

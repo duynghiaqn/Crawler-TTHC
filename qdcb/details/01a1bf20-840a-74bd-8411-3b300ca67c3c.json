@@ -1,0 +1,92 @@
+{
+  "id": "01a1bf20-840a-74bd-8411-3b300ca67c3c",
+  "so_quyet_dinh": "09112603",
+  "trich_yeu": "dfgbdfgb",
+  "ngay_quyet_dinh": "2026-11-09",
+  "decision_date_ts": 1794157200000,
+  "ngay_cong_bo": "2026-11-09",
+  "publication_date_ts": 1794207948767,
+  "created_at_ts": 1794207941598,
+  "updated_at_ts": 1794207943559,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Đầu tư theo phương thức đối tác công tư (PPP)"
+  ],
+  "loai_quyet_dinh": "INTERNAL",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a1bf20-840a-74bd-8411-3b300ca67c3c",
+  "source_updated_at_ts": 1794207943559,
+  "fetched_at": "2026-11-18T13:27:36.195Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a1bf20-840a-74bd-8411-3b300ca67c3c",
+    "state": "PUBLICATION",
+    "proposalNumber": "09112603",
+    "proposalExcerpt": "dfgbdfgb",
+    "completionDate": 1794207943841,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "01a1ae8c-d716-74aa-af54-f3daa5ca4aa7"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1794157200000,
+    "decisionNumber": null,
+    "publicationDate": 1794207948767,
+    "effectiveDate": null,
+    "proposalType": "INTERNAL",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": null,
+    "createdAt": 1794207941598,
+    "updatedAt": 1794207943559,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "01a1ae8c-d716-74aa-af54-f3daa5ca4aa7",
+        "name": "Đầu tư theo phương thức đối tác công tư (PPP)"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "01a1be4d-c550-7530-82ad-33574672b332",
+          "ma_tthc": "5.003993",
+          "ten_tthc": "TTHC liên thông nội bộ (demo)",
+          "linh_vuc": [
+            "Đường bộ"
+          ],
+          "ngay_hieu_luc": "2026-11-09",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/01a1be4d-c550-7530-82ad-33574672b332"
+        },
+        {
+          "id": "019fefe1-19fd-766d-8be6-c6ee225afdcb",
+          "ma_tthc": "5.003872",
+          "ten_tthc": "Đăng ký kinh doanh (fix)",
+          "linh_vuc": [
+            "Hoạt động khoa học và công nghệ"
+          ],
+          "ngay_hieu_luc": "2026-08-11",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019fefe1-19fd-766d-8be6-c6ee225afdcb"
+        }
+      ]
+    }
+  }
+}

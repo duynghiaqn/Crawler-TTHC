@@ -1,0 +1,92 @@
+{
+  "id": "019d2c20-b601-73f9-a2f8-de69f2d663a1",
+  "so_quyet_dinh": "209/QĐ-BTC",
+  "trich_yeu": "trích từ 209/QĐ-BTC",
+  "ngay_quyet_dinh": "2018-02-13",
+  "decision_date_ts": 1518480000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775646171098,
+  "created_at_ts": 1518480000000,
+  "updated_at_ts": 1774561834495,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý công sản"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c20-b601-73f9-a2f8-de69f2d663a1",
+  "source_updated_at_ts": 1774561834495,
+  "fetched_at": "2026-11-18T13:29:25.232Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c20-b601-73f9-a2f8-de69f2d663a1",
+    "state": "PUBLICATION",
+    "proposalNumber": "209/QĐ-BTC",
+    "proposalExcerpt": "trích từ 209/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-b08a21687d58"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1518480000000,
+    "decisionNumber": null,
+    "publicationDate": 1775646171098,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1518480000000,
+    "updatedAt": 1774561834495,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-b08a21687d58",
+        "name": "Quản lý công sản"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfb-df4a-7096-8ab6-8f1341f50cdd",
+          "ma_tthc": "1.005419",
+          "ten_tthc": "Quyết định sử dụng tài sản công để tham gia dự án đầu tư theo hình thức đối tác công - tư",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-df4a-7096-8ab6-8f1341f50cdd"
+        },
+        {
+          "id": "019d2bfb-df70-748e-89c5-7c3fe7606330",
+          "ma_tthc": "1.005429",
+          "ten_tthc": "Thanh toán chi phí có liên quan đến việc xử lý tài sản công",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-df70-748e-89c5-7c3fe7606330"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

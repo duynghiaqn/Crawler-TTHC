@@ -1,0 +1,103 @@
+{
+  "id": "019d2c88-6945-7561-a147-6ead024e158a",
+  "so_quyet_dinh": "1893/QĐ-BTC",
+  "trich_yeu": "trích từ 1893/QĐ-BTC",
+  "ngay_quyet_dinh": "2023-09-05",
+  "decision_date_ts": 1693872000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775638098706,
+  "created_at_ts": 1693872000000,
+  "updated_at_ts": 1774568630595,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý giá"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c88-6945-7561-a147-6ead024e158a",
+  "source_updated_at_ts": 1774568630595,
+  "fetched_at": "2026-11-18T13:29:09.499Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c88-6945-7561-a147-6ead024e158a",
+    "state": "PUBLICATION",
+    "proposalNumber": "1893/QĐ-BTC",
+    "proposalExcerpt": "trích từ 1893/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-8ae5adff6f06"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1693872000000,
+    "decisionNumber": null,
+    "publicationDate": 1775638098706,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1693872000000,
+    "updatedAt": 1774568630595,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-8ae5adff6f06",
+        "name": "Quản lý giá"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfc-25d4-765c-87c3-b0fd67935435",
+          "ma_tthc": "1.007642",
+          "ten_tthc": "Thủ tục hải quan đối với gói, kiện hàng hóa nhập khẩu có trị giá hải quan trong định mức miễn thuế nhập khẩu theo quy định tại Điều 8 và Điều 29 Nghị định số 134/2016/NĐ-CP ngày 1/9/2016 của Chính phủ và không thuộc mặt hàng phải có giấy phép nhập khẩu, kiểm tra chuyên ngành gửi qua dịch vụ bưu chính",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25d4-765c-87c3-b0fd67935435"
+        },
+        {
+          "id": "019d2bfc-25b4-76cf-bd7a-9bca551d2e9b",
+          "ma_tthc": "1.007643",
+          "ten_tthc": "Thủ tục hải quan đối với gói, kiện hàng hóa xuất khẩu có trị giá hải quan dưới 5 triệu đồng, được miễn thuế xuất khẩu hoặc chịu thuế xuất khẩu với thuế suất là 0% và không thuộc mặt hàng phải có giấy phép xuất khẩu, kiểm tra chuyên ngành",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25b4-76cf-bd7a-9bca551d2e9b"
+        },
+        {
+          "id": "019d2bfc-25da-751d-bf39-58863633e659",
+          "ma_tthc": "1.007644",
+          "ten_tthc": "Thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu là tài liệu, chứng từ không có giá trị thương mại gửi qua dịch vụ chuyển phát nhanh",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25da-751d-bf39-58863633e659"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

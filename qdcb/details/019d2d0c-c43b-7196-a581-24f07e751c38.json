@@ -1,0 +1,98 @@
+{
+  "id": "019d2d0c-c43b-7196-a581-24f07e751c38",
+  "so_quyet_dinh": "397/QĐ-BNNMT",
+  "trich_yeu": "trích từ 397/QĐ-BNNMT",
+  "ngay_quyet_dinh": "2025-03-17",
+  "decision_date_ts": 1742169600000,
+  "ngay_cong_bo": "2026-04-24",
+  "publication_date_ts": 1777002246128,
+  "created_at_ts": 1742169600000,
+  "updated_at_ts": 1774577304632,
+  "co_quan_ban_hanh": "Bộ Nông nghiệp và Môi trường",
+  "ma_co_quan": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+  "linh_vuc": [
+    "Khoa học và Công nghệ",
+    "Trồng trọt"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d0c-c43b-7196-a581-24f07e751c38",
+  "source_updated_at_ts": 1774577304632,
+  "fetched_at": "2026-11-18T13:28:52.093Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d0c-c43b-7196-a581-24f07e751c38",
+    "state": "PUBLICATION",
+    "proposalNumber": "397/QĐ-BNNMT",
+    "proposalExcerpt": "trích từ 397/QĐ-BNNMT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-780a33d724f6",
+      "019d2c08-77b9-731a-ae0f-6a1ee4e333fd"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1742169600000,
+    "decisionNumber": null,
+    "publicationDate": 1777002246128,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+    "importBy": "VNPT",
+    "createdAt": 1742169600000,
+    "updatedAt": 1774577304632,
+    "department": {
+      "id": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+      "name": "Bộ Nông nghiệp và Môi trường"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-6a1ee4e333fd",
+        "name": "Trồng trọt"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae0f-780a33d724f6",
+        "name": "Khoa học và Công nghệ"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfa-28cc-774a-b55d-a88c6a1e7c44",
+          "ma_tthc": "1.003904",
+          "ten_tthc": "Công nhận tiến bộ kỹ thuật công nghệ sinh học",
+          "linh_vuc": [
+            "Khoa học và Công nghệ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-28cc-774a-b55d-a88c6a1e7c44"
+        },
+        {
+          "id": "019d2bf9-f9a2-7759-99c8-77bb86c25177",
+          "ma_tthc": "1.000076",
+          "ten_tthc": "Công nhận đặc cách giống cây trồng biến đổi gen.",
+          "linh_vuc": [
+            "Trồng trọt"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-f9a2-7759-99c8-77bb86c25177"
+        }
+      ]
+    }
+  }
+}

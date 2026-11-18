@@ -1,0 +1,92 @@
+{
+  "id": "019fdb3f-e519-74e9-b3a4-34c86bb53ae8",
+  "so_quyet_dinh": "2538/QĐ-UBND",
+  "trich_yeu": "Quyết định công bố thủ tục hành chính bị bãi bỏ trong lĩnh vực Vận tải biển thuộc thẩm quyền giải quyết của Ban Quản lý Khu kinh tế, công nghiệp",
+  "ngay_quyet_dinh": "2026-07-22",
+  "decision_date_ts": 1784653200000,
+  "ngay_cong_bo": "2026-08-07",
+  "publication_date_ts": 1786089959018,
+  "created_at_ts": 1784653200000,
+  "updated_at_ts": 1786089914568,
+  "co_quan_ban_hanh": "UBND Thành phố Huế",
+  "ma_co_quan": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "linh_vuc": [
+    "Biển và hải đảo"
+  ],
+  "loai_quyet_dinh": "SPECIFIC",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019fdb3f-e519-74e9-b3a4-34c86bb53ae8",
+  "source_updated_at_ts": 1786089914568,
+  "fetched_at": "2026-11-18T13:27:49.626Z",
+  "thong_tin_chi_tiet": {
+    "id": "019fdb3f-e519-74e9-b3a4-34c86bb53ae8",
+    "state": "PUBLICATION",
+    "proposalNumber": "2538/QĐ-UBND",
+    "proposalExcerpt": "Quyết định công bố thủ tục hành chính bị bãi bỏ trong lĩnh vực Vận tải biển thuộc thẩm quyền giải quyết của Ban Quản lý Khu kinh tế, công nghiệp",
+    "completionDate": 1786089914750,
+    "issuingAgencyId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b2-d503a498ad5f"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1784653200000,
+    "decisionNumber": null,
+    "publicationDate": 1786089959018,
+    "effectiveDate": 1784653200000,
+    "proposalType": "SPECIFIC",
+    "departmentId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+    "importBy": null,
+    "createdAt": 1784653200000,
+    "updatedAt": 1786089914568,
+    "department": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b2-d503a498ad5f",
+        "name": "Biển và hải đảo"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019da9f1-4741-7639-983c-e88ed00b38a1",
+          "ma_tthc": "1.011192",
+          "ten_tthc": "Hỗ trợ các doanh nghiệp, tổ chức, cá nhân có hàng hóa vận chuyển bằng container đi, đến Cảng Chân Mây, tỉnh Thừa Thiên Huế",
+          "linh_vuc": [
+            "Biển và hải đảo"
+          ],
+          "ngay_hieu_luc": "2026-07-22",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019da9f1-4741-7639-983c-e88ed00b38a1"
+        },
+        {
+          "id": "019da9eb-6a9a-7411-9c4f-0870aca84862",
+          "ma_tthc": "1.011191",
+          "ten_tthc": "Hỗ trợ các hãng tàu biển, đại lý hãng tàu mở tuyến vận chuyển container đi, đến cảng Chân Mây, tỉnh Thừa Thiên Huế",
+          "linh_vuc": [
+            "Biển và hải đảo"
+          ],
+          "ngay_hieu_luc": "2026-07-22",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019da9eb-6a9a-7411-9c4f-0870aca84862"
+        }
+      ]
+    }
+  }
+}

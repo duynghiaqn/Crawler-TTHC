@@ -1,0 +1,107 @@
+{
+  "id": "019e9760-f799-70e9-94a5-f658de2715bb",
+  "so_quyet_dinh": "1381/QĐ-BTC",
+  "trich_yeu": "Về việc công bố thủ tục hành chính bị bãi bỏ lĩnh vực kinh doanh bảo hiểm thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+  "ngay_quyet_dinh": "2026-06-04",
+  "decision_date_ts": 1780506000000,
+  "ngay_cong_bo": "2026-06-05",
+  "publication_date_ts": 1780656791116,
+  "created_at_ts": 1780506000000,
+  "updated_at_ts": 1780656753475,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Bảo hiểm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019e9760-1211-76eb-b9fd-d28894018370",
+      "fileName": "1381_05062026_150907.pdf"
+    },
+    {
+      "fileId": "019e9760-2c69-72b8-9b86-07452d08c2bf",
+      "fileName": "4.  Quyết định công bố TTHC.doc"
+    },
+    {
+      "fileId": "019e9760-3c3d-71ea-922a-86e1294bd5c3",
+      "fileName": "5. Phụ lục danh mục TTHC ban hành kèm theo Quyết định.docx"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019e9760-f799-70e9-94a5-f658de2715bb",
+  "source_updated_at_ts": 1780656753475,
+  "fetched_at": "2026-11-18T13:28:03.833Z",
+  "thong_tin_chi_tiet": {
+    "id": "019e9760-f799-70e9-94a5-f658de2715bb",
+    "state": "PUBLICATION",
+    "proposalNumber": "1381/QĐ-BTC",
+    "proposalExcerpt": "Về việc công bố thủ tục hành chính bị bãi bỏ lĩnh vực kinh doanh bảo hiểm thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-dfa7a3df99eb"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019e9760-1211-76eb-b9fd-d28894018370",
+        "fileName": "1381_05062026_150907.pdf"
+      },
+      {
+        "fileId": "019e9760-2c69-72b8-9b86-07452d08c2bf",
+        "fileName": "4.  Quyết định công bố TTHC.doc"
+      },
+      {
+        "fileId": "019e9760-3c3d-71ea-922a-86e1294bd5c3",
+        "fileName": "5. Phụ lục danh mục TTHC ban hành kèm theo Quyết định.docx"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1780506000000,
+    "decisionNumber": null,
+    "publicationDate": 1780656791116,
+    "effectiveDate": 1782838800000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1780506000000,
+    "updatedAt": 1780656753475,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-dfa7a3df99eb",
+        "name": "Bảo hiểm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-bac3-71dd-bd93-dbe358f62c5c",
+          "ma_tthc": "1.011422",
+          "ten_tthc": "Chuyển đổi chứng chỉ đại lý bảo hiểm",
+          "linh_vuc": [
+            "Bảo hiểm"
+          ],
+          "ngay_hieu_luc": "2026-07-01",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-bac3-71dd-bd93-dbe358f62c5c"
+        }
+      ]
+    }
+  }
+}

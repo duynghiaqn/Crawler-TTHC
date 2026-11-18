@@ -1,0 +1,104 @@
+{
+  "id": "019e4f01-d609-776b-b509-488d198c00e1",
+  "so_quyet_dinh": "769/QĐ-BXD",
+  "trich_yeu": "công bố thủ tục hành chính được bãi bỏ trong lĩnh vực giao thông vận tải thuộc phạm vi chức năng quản lý Bộ Xây dựng",
+  "ngay_quyet_dinh": "2026-05-21",
+  "decision_date_ts": 1779296400000,
+  "ngay_cong_bo": "2026-05-22",
+  "publication_date_ts": 1779443182655,
+  "created_at_ts": 1779296400000,
+  "updated_at_ts": 1779442771664,
+  "co_quan_ban_hanh": "Bộ Xây dựng",
+  "ma_co_quan": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "linh_vuc": [
+    "Giao thông vận tải"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019e4efe-f5d9-735e-b04f-389fada207b6",
+      "fileName": "Quyết định Công bố bãi bỏ TTHC.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019e4f01-d609-776b-b509-488d198c00e1",
+  "source_updated_at_ts": 1779442771664,
+  "fetched_at": "2026-11-18T13:28:08.514Z",
+  "thong_tin_chi_tiet": {
+    "id": "019e4f01-d609-776b-b509-488d198c00e1",
+    "state": "PUBLICATION",
+    "proposalNumber": "769/QĐ-BXD",
+    "proposalExcerpt": "công bố thủ tục hành chính được bãi bỏ trong lĩnh vực giao thông vận tải thuộc phạm vi chức năng quản lý Bộ Xây dựng",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b1-cfdc9357f6a0"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019e4efe-f5d9-735e-b04f-389fada207b6",
+        "fileName": "Quyết định Công bố bãi bỏ TTHC.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1779296400000,
+    "decisionNumber": null,
+    "publicationDate": 1779443182655,
+    "effectiveDate": 1779296400000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+    "importBy": null,
+    "createdAt": 1779296400000,
+    "updatedAt": 1779442771664,
+    "department": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b1-cfdc9357f6a0",
+        "name": "Giao thông vận tải"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfe-51d1-7479-8d63-ef74a7f6fd96",
+          "ma_tthc": "1.005038",
+          "ten_tthc": "Cấp lại Giấy phép kinh doanh vận tải đa phương thức quốc tế",
+          "linh_vuc": [
+            "Giao thông vận tải",
+            "Lĩnh vực khác"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-51d1-7479-8d63-ef74a7f6fd96"
+        },
+        {
+          "id": "019d2bfe-51d1-7526-aa7c-5329d5802111",
+          "ma_tthc": "1.005042",
+          "ten_tthc": "Cấp Giấy phép kinh doanh vận tải đa phương thức quốc tế",
+          "linh_vuc": [
+            "Giao thông vận tải",
+            "Lĩnh vực khác"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-51d1-7526-aa7c-5329d5802111"
+        }
+      ]
+    }
+  }
+}

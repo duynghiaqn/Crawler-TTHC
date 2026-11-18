@@ -22,6 +22,10 @@ node tthc_crawler.js
 echo "[2/5] 🏛️ Đang thu thập và lọc dữ liệu TTHC Gia Lai (data-gl)..."
 node tthc_crawler_gl.js || true
 
+echo "[2.5/5] 📜 Đang thu thập và phân tích biến động Quyết định công bố (qdcb)..."
+node qdcb_crawler.js || true
+node scripts/export_qdcb_excel.js || true
+
 # 2. Phân tích so sánh biến động dữ liệu TTHC (tăng/giảm/bãi bỏ)
 echo "[3/5] 📊 Đang phân tích so sánh biến động dữ liệu TTHC..."
 node scripts/compare.js || true

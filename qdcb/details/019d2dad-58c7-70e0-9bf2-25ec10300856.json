@@ -1,0 +1,114 @@
+{
+  "id": "019d2dad-58c7-70e0-9bf2-25ec10300856",
+  "so_quyet_dinh": "137/QĐ-BCT",
+  "trich_yeu": "trích từ 137/QĐ-BCT",
+  "ngay_quyet_dinh": "2026-01-20",
+  "decision_date_ts": 1768867200000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776321674379,
+  "created_at_ts": 1768867200000,
+  "updated_at_ts": 1774587828421,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Công nghiệp địa phương"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2dad-58c7-70e0-9bf2-25ec10300856",
+  "source_updated_at_ts": 1774587828421,
+  "fetched_at": "2026-11-18T13:28:30.409Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2dad-58c7-70e0-9bf2-25ec10300856",
+    "state": "PUBLICATION",
+    "proposalNumber": "137/QĐ-BCT",
+    "proposalExcerpt": "trích từ 137/QĐ-BCT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-dce0018f9299"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1768867200000,
+    "decisionNumber": null,
+    "publicationDate": 1776321674379,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": "VNPT",
+    "createdAt": 1768867200000,
+    "updatedAt": 1774587828421,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-dce0018f9299",
+        "name": "Công nghiệp địa phương"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 4,
+      "items": [
+        {
+          "id": "019d2bf8-4a71-76e9-b7c2-8743d31f6c0e",
+          "ma_tthc": "2.002096",
+          "ten_tthc": "Cấp Giấy chứng nhận sản phẩm công nghiệp nông thôn tiêu biểu cấp xã",
+          "linh_vuc": [
+            "Công nghiệp địa phương"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-4a71-76e9-b7c2-8743d31f6c0e"
+        },
+        {
+          "id": "019d2bf7-dcdb-744b-a789-9d89f2fabe94",
+          "ma_tthc": "1.000838",
+          "ten_tthc": "Cấp Giấy chứng nhận sản phẩm công nghiệp nông thôn tiêu biểu cấp quốc gia",
+          "linh_vuc": [
+            "Công nghiệp địa phương"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-dcdb-744b-a789-9d89f2fabe94"
+        },
+        {
+          "id": "019d2bf8-2b0e-7236-a4f5-4a71f4fc1b21",
+          "ma_tthc": "2.000331",
+          "ten_tthc": "Cấp Giấy chứng nhận sản phẩm công nghiệp nông thôn tiêu biểu cấp tỉnh",
+          "linh_vuc": [
+            "Công nghiệp địa phương"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-2b0e-7236-a4f5-4a71f4fc1b21"
+        },
+        {
+          "id": "019d2bf7-dcc9-72eb-9f45-bda6dd25b730",
+          "ma_tthc": "1.000815",
+          "ten_tthc": "Cấp Giấy chứng nhận sản phẩm công nghiệp nông thôn tiêu biểu cấp khu vực",
+          "linh_vuc": [
+            "Công nghiệp địa phương"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-dcc9-72eb-9f45-bda6dd25b730"
+        }
+      ]
+    }
+  }
+}

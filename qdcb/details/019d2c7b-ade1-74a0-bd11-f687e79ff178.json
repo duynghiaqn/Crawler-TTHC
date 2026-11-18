@@ -1,0 +1,92 @@
+{
+  "id": "019d2c7b-ade1-74a0-bd11-f687e79ff178",
+  "so_quyet_dinh": "989/QĐ-BGTVT",
+  "trich_yeu": "trích từ 989/QĐ-BGTVT",
+  "ngay_quyet_dinh": "2022-07-25",
+  "decision_date_ts": 1658707200000,
+  "ngay_cong_bo": "2026-04-17",
+  "publication_date_ts": 1776389518896,
+  "created_at_ts": 1658707200000,
+  "updated_at_ts": 1774567796191,
+  "co_quan_ban_hanh": "Bộ xây dựng (Giao thông vận tải cũ)",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+  "linh_vuc": [
+    "Đăng kiểm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c7b-ade1-74a0-bd11-f687e79ff178",
+  "source_updated_at_ts": 1774567796191,
+  "fetched_at": "2026-11-18T13:29:10.884Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c7b-ade1-74a0-bd11-f687e79ff178",
+    "state": "PUBLICATION",
+    "proposalNumber": "989/QĐ-BGTVT",
+    "proposalExcerpt": "trích từ 989/QĐ-BGTVT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae12-0d9d30c1db6e"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1658707200000,
+    "decisionNumber": null,
+    "publicationDate": 1776389518896,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+    "importBy": "VNPT",
+    "createdAt": 1658707200000,
+    "updatedAt": 1774567796191,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+      "name": "Bộ xây dựng (Giao thông vận tải cũ)"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae12-0d9d30c1db6e",
+        "name": "Đăng kiểm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfe-4262-73b9-8f2b-0d5fb9e8a174",
+          "ma_tthc": "1.004318",
+          "ten_tthc": "Cấp Giấy chứng nhận thẩm định thiết kế phương tiện, thiết bị thăm dò, khai thác và vận chuyển dầu khí trên biển (công trình biển)",
+          "linh_vuc": [
+            "Đăng kiểm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-4262-73b9-8f2b-0d5fb9e8a174"
+        },
+        {
+          "id": "019d2bfe-986a-7305-916f-3038fd3d34cc",
+          "ma_tthc": "2.000087",
+          "ten_tthc": "Thẩm định thiết kế tàu biển",
+          "linh_vuc": [
+            "Đăng kiểm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-986a-7305-916f-3038fd3d34cc"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "019d2c9a-cfbf-716d-95c3-6e62016c8e66",
+  "so_quyet_dinh": "447/QĐ-BTC",
+  "trich_yeu": "trích từ 447/QĐ-BTC",
+  "ngay_quyet_dinh": "2024-03-15",
+  "decision_date_ts": 1710460800000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775637513456,
+  "created_at_ts": 1710460800000,
+  "updated_at_ts": 1774569836478,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Kho bạc Nhà nước"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c9a-cfbf-716d-95c3-6e62016c8e66",
+  "source_updated_at_ts": 1774569836478,
+  "fetched_at": "2026-11-18T13:29:06.094Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c9a-cfbf-716d-95c3-6e62016c8e66",
+    "state": "PUBLICATION",
+    "proposalNumber": "447/QĐ-BTC",
+    "proposalExcerpt": "trích từ 447/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-ef8bc830cd15"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1710460800000,
+    "decisionNumber": null,
+    "publicationDate": 1775637513456,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1710460800000,
+    "updatedAt": 1774569836478,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-ef8bc830cd15",
+        "name": "Kho bạc Nhà nước"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfd-08f1-72b0-9de4-a72b3e5a7cc6",
+          "ma_tthc": "3.000119",
+          "ten_tthc": "Thủ tục kiểm soát thanh toán vốn đầu tư thuộc nguồn vốn ngân sách nhà nước",
+          "linh_vuc": [
+            "Kho bạc"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08f1-72b0-9de4-a72b3e5a7cc6"
+        },
+        {
+          "id": "019d2bfd-08ed-713e-b43c-6411ffebca4a",
+          "ma_tthc": "3.000124",
+          "ten_tthc": "Thủ tục kiểm soát, thanh toán chi phí quản lý dự án đầu tư của các dự án sử dụng vốn ngân sách nhà nước qua KBNN",
+          "linh_vuc": [
+            "Kho bạc"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08ed-713e-b43c-6411ffebca4a"
+        }
+      ]
+    }
+  }
+}

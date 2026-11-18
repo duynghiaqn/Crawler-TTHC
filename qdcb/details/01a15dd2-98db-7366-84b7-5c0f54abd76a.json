@@ -1,0 +1,102 @@
+{
+  "id": "01a15dd2-98db-7366-84b7-5c0f54abd76a",
+  "so_quyet_dinh": "2083/QĐ-BTC",
+  "trich_yeu": "Về công bố thủ tục hành chính bị bãi bỏ lĩnh vực Quản lý công sản thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+  "ngay_quyet_dinh": "2024-09-06",
+  "decision_date_ts": 1725555600000,
+  "ngay_cong_bo": "2026-10-21",
+  "publication_date_ts": 1792575510478,
+  "created_at_ts": 1792575445180,
+  "updated_at_ts": 1792575496640,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý công sản"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "01a15dd1-78b2-77ad-9493-c7844e115441",
+      "fileName": "Quyết-định-2083-QĐ-BTC.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a15dd2-98db-7366-84b7-5c0f54abd76a",
+  "source_updated_at_ts": 1792575496640,
+  "fetched_at": "2026-11-18T13:27:38.893Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a15dd2-98db-7366-84b7-5c0f54abd76a",
+    "state": "PUBLICATION",
+    "proposalNumber": "2083/QĐ-BTC",
+    "proposalExcerpt": "Về công bố thủ tục hành chính bị bãi bỏ lĩnh vực Quản lý công sản thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+    "completionDate": 1792575497154,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-e02feb330582"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "01a15dd1-78b2-77ad-9493-c7844e115441",
+        "fileName": "Quyết-định-2083-QĐ-BTC.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1725555600000,
+    "decisionNumber": null,
+    "publicationDate": 1792575510478,
+    "effectiveDate": 1725555600000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1792575445180,
+    "updatedAt": 1792575496640,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+        "name": "Quản lý công sản"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfb-df70-748e-89c5-7c3fe7606330",
+          "ma_tthc": "1.005429",
+          "ten_tthc": "Thanh toán chi phí có liên quan đến việc xử lý tài sản công",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "2024-09-06",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-df70-748e-89c5-7c3fe7606330"
+        },
+        {
+          "id": "019d2bfb-df4a-7096-8ab6-8f1341f50cdd",
+          "ma_tthc": "1.005419",
+          "ten_tthc": "Quyết định sử dụng tài sản công để tham gia dự án đầu tư theo hình thức đối tác công - tư",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "2024-09-06",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-df4a-7096-8ab6-8f1341f50cdd"
+        }
+      ]
+    }
+  }
+}

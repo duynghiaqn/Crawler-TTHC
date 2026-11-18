@@ -1,0 +1,99 @@
+{
+  "id": "019d2d85-3ef0-719c-b2ac-d6ef809b241d",
+  "so_quyet_dinh": "3753/QĐ-BTP",
+  "trich_yeu": "trích từ 3753/QĐ-BTP",
+  "ngay_quyet_dinh": "2025-12-30",
+  "decision_date_ts": 1767027600000,
+  "ngay_cong_bo": "2026-04-21",
+  "publication_date_ts": 1776762453327,
+  "created_at_ts": 1767027600000,
+  "updated_at_ts": 1776762450640,
+  "co_quan_ban_hanh": "Bộ Tư pháp",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d603f1537007",
+  "linh_vuc": [
+    "Hòa giải ở cơ sở"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019d906e-8670-7028-b74c-92d5546a9ae8",
+      "fileName": "Phụ lục lĩnh vực Hòa giải.pdf"
+    },
+    {
+      "fileId": "019d906e-87f2-760c-830a-a5d472ca5b79",
+      "fileName": "QD 3753 cong bo TTHC cap xa linh vuc HGCS.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d85-3ef0-719c-b2ac-d6ef809b241d",
+  "source_updated_at_ts": 1776762450640,
+  "fetched_at": "2026-11-18T13:28:34.430Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d85-3ef0-719c-b2ac-d6ef809b241d",
+    "state": "PUBLICATION",
+    "proposalNumber": "3753/QĐ-BTP",
+    "proposalExcerpt": "trích từ 3753/QĐ-BTP",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d603f1537007",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-7d9ee0599853"
+    ],
+    "note": "Thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực hòa giải ở cơ sở thuộc phạm vi chức năng của Bộ Tư pháp",
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019d906e-8670-7028-b74c-92d5546a9ae8",
+        "fileName": "Phụ lục lĩnh vực Hòa giải.pdf"
+      },
+      {
+        "fileId": "019d906e-87f2-760c-830a-a5d472ca5b79",
+        "fileName": "QD 3753 cong bo TTHC cap xa linh vuc HGCS.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1767027600000,
+    "decisionNumber": null,
+    "publicationDate": 1776762453327,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d603f1537007",
+    "importBy": "VNPT",
+    "createdAt": 1767027600000,
+    "updatedAt": 1776762450640,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-7d9ee0599853",
+        "name": "Hòa giải ở cơ sở"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfd-862f-7378-807f-97f4f7531da7",
+          "ma_tthc": "2.000424",
+          "ten_tthc": "Thủ tục thực hiện hỗ trợ khi hòa giải viên gặp tai nạn hoặc rủi ro ảnh hưởng đến sức khỏe, tính mạng trong khi thực hiện hoạt động hòa giải",
+          "linh_vuc": [
+            "Hòa giải ở cơ sở"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-862f-7378-807f-97f4f7531da7"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

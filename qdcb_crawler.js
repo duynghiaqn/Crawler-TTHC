@@ -16,7 +16,7 @@ const COMPARE_REPORT_FILE = path.join(QDCB_DIR, 'compare_report.json');
 const MONTHLY_NEW_FILE = path.join(QDCB_DIR, 'monthly_new.json');
 
 const DETAILS_CONCURRENCY = 5;
-const PART_SIZE = 200;
+const PART_TARGET_BYTES = 10 * 1024 * 1024; // Mỗi part từ ~10 MB
 
 function loadAllFromIndexOrParts() {
   if (!fs.existsSync(INDEX_FILE)) return [];
@@ -44,7 +44,26 @@ function writeShardedIndex(currentItems) {
   if (!fs.existsSync(QDCB_DIR)) fs.mkdirSync(QDCB_DIR, { recursive: true });
   if (!fs.existsSync(PARTS_DIR)) fs.mkdirSync(PARTS_DIR, { recursive: true });
 
-  const totalParts = Math.max(1, Math.ceil(currentItems.length / PART_SIZE));
+  // Chia part thông minh theo ngưỡng dung lượng ~10 MB/part (tránh chia quá nhỏ)
+  const chunks = [];
+  let currentChunk = [];
+  let currentBytes = 2; // "[]"
+
+  for (const item of currentItems) {
+    const itemBytes = Buffer.byteLength(JSON.stringify(item, null, 2), 'utf8') + 4;
+    if (currentChunk.length > 0 && currentBytes >= PART_TARGET_BYTES) {
+      chunks.push(currentChunk);
+      currentChunk = [];
+      currentBytes = 2;
+    }
+    currentChunk.push(item);
+    currentBytes += itemBytes;
+  }
+  if (currentChunk.length > 0 || chunks.length === 0) {
+    chunks.push(currentChunk);
+  }
+
+  const totalParts = chunks.length;
   const partsMeta = [];
   const lookup = {};
 
@@ -53,15 +72,17 @@ function writeShardedIndex(currentItems) {
     const fileName = `part_${String(partNum).padStart(3, '0')}.json`;
     const relPath = `parts/${fileName}`;
     const fullPath = path.join(PARTS_DIR, fileName);
-    const chunk = currentItems.slice(i * PART_SIZE, (i + 1) * PART_SIZE);
+    const chunk = chunks[i];
+    const chunkStr = JSON.stringify(chunk, null, 2);
 
-    fs.writeFileSync(fullPath, JSON.stringify(chunk, null, 2), 'utf8');
+    fs.writeFileSync(fullPath, chunkStr, 'utf8');
 
     const dates = chunk.map((x) => x.ngay_cong_bo || x.ngay_quyet_dinh).filter(Boolean).sort();
     partsMeta.push({
       part: partNum,
       file: relPath,
       count: chunk.length,
+      size_bytes: Buffer.byteLength(chunkStr, 'utf8'),
       date_from: dates[0] || '',
       date_to: dates[dates.length - 1] || '',
       first_id: chunk[0]?.id || '',
@@ -95,7 +116,7 @@ function writeShardedIndex(currentItems) {
     schema: 'qdcb-sharded-index-v2',
     updated_at: new Date().toISOString(),
     total_records: currentItems.length,
-    part_size: PART_SIZE,
+    part_target_mb: Math.round(PART_TARGET_BYTES / (1024 * 1024)),
     total_parts: partsMeta.length,
     parts: partsMeta,
     lookup,
@@ -106,7 +127,7 @@ function writeShardedIndex(currentItems) {
 
   return {
     schema: 'qdcb-sharded-index-v2',
-    part_size: PART_SIZE,
+    part_target_mb: Math.round(PART_TARGET_BYTES / (1024 * 1024)),
     total_parts: partsMeta.length,
     index_size_kb: Math.round((Buffer.byteLength(indexStr, 'utf8') / 1024) * 10) / 10,
   };
@@ -661,7 +682,7 @@ function saveQdcbOutputs(currentItems, targetMonth, detailsSummary = null) {
 
   console.log('\n📊 KẾT QUẢ LƯU TRỮ & THEO DÕI BIẾN ĐỘNG QĐCB:');
   console.log(`   📁 qdcb/index.json          : Master Index (${shardingSummary.index_size_kb} KB) -> liên kết ${shardingSummary.total_parts} parts`);
-  console.log(`   📁 qdcb/parts/              : ${shardingSummary.total_parts} files (${shardingSummary.part_size} bản ghi/part)`);
+  console.log(`   📁 qdcb/parts/              : ${shardingSummary.total_parts} files (ngưỡng ~${shardingSummary.part_target_mb} MB/part)`);
   console.log(`   📁 qdcb/snapshot.json       : Đã cập nhật mốc đối chiếu`);
   console.log(`   📁 qdcb/compare_report.json : +${compareReport.summary.added_count} mới | -${compareReport.summary.removed_count} gỡ bỏ | ~${compareReport.summary.modified_count} sửa đổi`);
   console.log(`   📁 qdcb/monthly_new.json    : ${monthlyData.total_monthly_new} QĐCB mới bổ sung trong tháng ${monthlyData.month}`);

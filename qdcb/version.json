@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-18T13:34:50.413Z",
+  "last_updated": "2026-11-18T13:37:48.548Z",
   "total_records": 1974,
   "completed_records": 1974,
-  "failed_records": 1,
+  "failed_records": 0,
   "status": "COMPLETED",
   "sharding_summary": {
     "schema": "qdcb-sharded-index-v2",
-    "part_size": 200,
-    "total_parts": 10,
-    "index_size_kb": 412
+    "part_target_mb": 10,
+    "total_parts": 1,
+    "index_size_kb": 409.6
   },
   "compare_summary": {
     "previous_total": 1974,
@@ -23,11 +23,5 @@
     "month": "2026-11",
     "total_monthly_new": 49,
     "departments_count": 18
-  },
-  "details_summary": {
-    "total": 1974,
-    "cached": 1973,
-    "fetched": 0,
-    "failed": 1
   }
 }

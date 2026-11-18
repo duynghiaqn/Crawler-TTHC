@@ -323,6 +323,18 @@ function buildErrorMessage(errorMessage) {
     return lines.join('\n');
 }
 
+function resolveGiaLaiExcelFile() {
+    const candidates = [
+        EXCEL_FILE,
+        path.join(DATA_GL_DIR, 'Bao_Cao_TTHC_Gia_lai.xlsx'),
+        path.join(DATA_DIR, 'Bao_cao_TTHC_Gia_Lai.xlsx'),
+    ];
+    for (const p of candidates) {
+        if (fs.existsSync(p)) return p;
+    }
+    return EXCEL_FILE;
+}
+
 /**
  * Ham xu ly gui thong bao tong quat
  */
@@ -337,16 +349,22 @@ async function notify({ status = 'success', uploadStatus = '', errorMessage = ''
     // 1. Gui noi dung tin nhan HTML
     const msgOk = await sendTelegramMessage(content);
 
-    // 2. Neu thanh cong, tu dong gui kem file Excel neu co
+    // 2. Neu thanh cong, tu dong gui kem file Excel Bao_cao_TTHC_Gia_Lai.xlsx va Bao_cao_QDCB_DVCQG.xlsx
     if (status === 'success') {
-        const targetDoc = documentPath || EXCEL_FILE;
-        if (fs.existsSync(targetDoc)) {
-            const timeStr = formatVietnamTime();
-            const caption = documentCaption || `📊 <b>File Excel Danh Sách & Biến Động TTHC Cấp Tỉnh, Cấp Xã (Gia Lai)</b>\n📅 <i>Thời gian xuất: ${timeStr}</i>\n📁 <i>File: ${path.basename(targetDoc)}</i>`;
-            await sendTelegramDocument(targetDoc, caption);
+        const timeStr = formatVietnamTime();
+        const giaLaiDoc = resolveGiaLaiExcelFile();
+
+        if (documentPath && fs.existsSync(documentPath)) {
+            const caption = documentCaption || `📊 <b>File Excel Báo Cáo Dữ Liệu</b>\n📅 <i>Thời gian xuất: ${timeStr}</i>\n📁 <i>File: ${path.basename(documentPath)}</i>`;
+            await sendTelegramDocument(documentPath, caption);
         }
-        if (!documentPath && fs.existsSync(QDCB_EXCEL_FILE)) {
-            const timeStr = formatVietnamTime();
+
+        if (fs.existsSync(giaLaiDoc) && (!documentPath || path.resolve(documentPath) !== path.resolve(giaLaiDoc))) {
+            const glCaption = `📊 <b>File Excel Danh Sách & Biến Động TTHC Cấp Tỉnh, Cấp Xã (Gia Lai)</b>\n📅 <i>Thời gian xuất: ${timeStr}</i>\n📁 <i>File: ${path.basename(giaLaiDoc)}</i>`;
+            await sendTelegramDocument(giaLaiDoc, glCaption);
+        }
+
+        if (fs.existsSync(QDCB_EXCEL_FILE) && (!documentPath || path.resolve(documentPath) !== path.resolve(QDCB_EXCEL_FILE))) {
             const qdcbCaption = `📜 <b>File Excel Danh Mục & Quyết Định Công Bố Mới Trong Tháng</b>\n📅 <i>Thời gian xuất: ${timeStr}</i>\n📁 <i>File: ${path.basename(QDCB_EXCEL_FILE)}</i>`;
             await sendTelegramDocument(QDCB_EXCEL_FILE, qdcbCaption);
         }

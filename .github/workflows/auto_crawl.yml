@@ -41,6 +41,7 @@ jobs:
         run: |
           node scripts/compare.js
           node scripts/compare_Province.js
+          node scripts/export_excel.js
         env:
           GAS_WEBHOOK_URL: ${{ secrets.GAS_WEBHOOK_URL }}
           GAS_SECRET_KEY: ${{ secrets.GAS_SECRET_KEY }}

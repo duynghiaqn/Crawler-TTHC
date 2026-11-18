@@ -5,10 +5,15 @@ require('dotenv').config();
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const DATA_GL_DIR = path.join(process.cwd(), 'data-gl');
+const QDCB_DIR = path.join(process.cwd(), 'qdcb');
 const VERSION_FILE = path.join(DATA_DIR, 'version.json');
 const COMPARE_REPORT_FILE = path.join(DATA_DIR, 'compare_report.json');
 const COMPARE_PROVINCE_FILE = path.join(DATA_DIR, 'compare_province_report.json');
 const EXCEL_FILE = path.join(DATA_GL_DIR, 'Bao_cao_TTHC_Gia_Lai.xlsx');
+const QDCB_VERSION_FILE = path.join(QDCB_DIR, 'version.json');
+const QDCB_COMPARE_FILE = path.join(QDCB_DIR, 'compare_report.json');
+const QDCB_MONTHLY_FILE = path.join(QDCB_DIR, 'monthly_new.json');
+const QDCB_EXCEL_FILE = path.join(QDCB_DIR, 'Bao_cao_QDCB_DVCQG.xlsx');
 
 /**
  * Format timestamp sang gio Viet Nam (ICT - UTC+7)
@@ -33,6 +38,9 @@ function collectSummaryData() {
     let versionInfo = null;
     let compareInfo = null;
     let provinceInfo = null;
+    let qdcbVersionInfo = null;
+    let qdcbCompareInfo = null;
+    let qdcbMonthlyInfo = null;
 
     if (fs.existsSync(VERSION_FILE)) {
         try {
@@ -57,7 +65,25 @@ function collectSummaryData() {
         } catch (e) {}
     }
 
-    return { versionInfo, compareInfo, provinceInfo };
+    if (fs.existsSync(QDCB_VERSION_FILE)) {
+        try {
+            qdcbVersionInfo = JSON.parse(fs.readFileSync(QDCB_VERSION_FILE, 'utf8'));
+        } catch (e) {}
+    }
+
+    if (fs.existsSync(QDCB_COMPARE_FILE)) {
+        try {
+            qdcbCompareInfo = JSON.parse(fs.readFileSync(QDCB_COMPARE_FILE, 'utf8'));
+        } catch (e) {}
+    }
+
+    if (fs.existsSync(QDCB_MONTHLY_FILE)) {
+        try {
+            qdcbMonthlyInfo = JSON.parse(fs.readFileSync(QDCB_MONTHLY_FILE, 'utf8'));
+        } catch (e) {}
+    }
+
+    return { versionInfo, compareInfo, provinceInfo, qdcbVersionInfo, qdcbCompareInfo, qdcbMonthlyInfo };
 }
 
 /**
@@ -177,7 +203,7 @@ async function sendTelegramDocument(filePath, caption = '') {
  * Xay dung noi dung thong bao thanh cong
  */
 function buildSuccessMessage(uploadStatus = 'Chua thuc hien') {
-    const { versionInfo, compareInfo, provinceInfo } = collectSummaryData();
+    const { versionInfo, compareInfo, provinceInfo, qdcbVersionInfo, qdcbCompareInfo, qdcbMonthlyInfo } = collectSummaryData();
     const timeStr = formatVietnamTime();
 
     let lines = [];
@@ -240,9 +266,35 @@ function buildSuccessMessage(uploadStatus = 'Chua thuc hien') {
         lines.push('');
     }
 
+    // Thống kê & Biến động Quyết định công bố (QĐCB)
+    if (qdcbVersionInfo || qdcbCompareInfo || qdcbMonthlyInfo) {
+        const qTotal = qdcbVersionInfo?.total_records ?? qdcbCompareInfo?.summary?.current_total ?? 'N/A';
+        const qAdded = qdcbCompareInfo?.summary?.added_count ?? qdcbVersionInfo?.compare_summary?.added_count ?? 0;
+        const qRemoved = qdcbCompareInfo?.summary?.removed_count ?? qdcbVersionInfo?.compare_summary?.removed_count ?? 0;
+        const qModified = qdcbCompareInfo?.summary?.modified_count ?? qdcbVersionInfo?.compare_summary?.modified_count ?? 0;
+        const mMonth = qdcbMonthlyInfo?.month ?? qdcbVersionInfo?.monthly_summary?.month ?? '';
+        const mCount = qdcbMonthlyInfo?.total_monthly_new ?? qdcbVersionInfo?.monthly_summary?.total_monthly_new ?? 0;
+
+        lines.push(`📜 <b>Quyết định công bố (QĐCB):</b>`);
+        lines.push(`• Tổng số QĐCB: <b>${qTotal}</b>`);
+        lines.push(`• Biến động quét: 🟢 <b>+${qAdded}</b> mới | 🔴 <b>-${qRemoved}</b> gỡ bỏ | 🟡 <b>~${qModified}</b> sửa đổi`);
+        if (mMonth) {
+            lines.push(`• 🆕 Mới bổ sung trong tháng <b>${mMonth}</b>: <b>${mCount}</b> QĐCB`);
+        }
+        if (qdcbCompareInfo?.added && qdcbCompareInfo.added.length > 0) {
+            const topAdded = qdcbCompareInfo.added.slice(0, 3).map(x => `<code>${x.so_quyet_dinh}</code> (${x.co_quan_ban_hanh || 'CQBH'})`).join(', ');
+            lines.push(`  └─ Vừa bổ sung: ${topAdded}${qdcbCompareInfo.added.length > 3 ? ` và ${qdcbCompareInfo.added.length - 3} QĐ khác` : ''}`);
+        }
+        lines.push('');
+    }
+
     // Thông tin file đính kèm Excel
     if (fs.existsSync(EXCEL_FILE)) {
         lines.push(`📎 <b>File đính kèm:</b> Đã xuất Excel <code>${path.basename(EXCEL_FILE)}</code> (Gồm TTHC Cấp Tỉnh, Cấp Xã & Biến động Gia Lai).`);
+        lines.push('');
+    }
+    if (fs.existsSync(QDCB_EXCEL_FILE)) {
+        lines.push(`📎 <b>Báo cáo QĐCB:</b> Đã xuất Excel <code>${path.basename(QDCB_EXCEL_FILE)}</code> (Toàn bộ QĐCB & Danh sách mới trong tháng).`);
         lines.push('');
     }
 
@@ -292,6 +344,11 @@ async function notify({ status = 'success', uploadStatus = '', errorMessage = ''
             const timeStr = formatVietnamTime();
             const caption = documentCaption || `📊 <b>File Excel Danh Sách & Biến Động TTHC Cấp Tỉnh, Cấp Xã (Gia Lai)</b>\n📅 <i>Thời gian xuất: ${timeStr}</i>\n📁 <i>File: ${path.basename(targetDoc)}</i>`;
             await sendTelegramDocument(targetDoc, caption);
+        }
+        if (!documentPath && fs.existsSync(QDCB_EXCEL_FILE)) {
+            const timeStr = formatVietnamTime();
+            const qdcbCaption = `📜 <b>File Excel Danh Mục & Quyết Định Công Bố Mới Trong Tháng</b>\n📅 <i>Thời gian xuất: ${timeStr}</i>\n📁 <i>File: ${path.basename(QDCB_EXCEL_FILE)}</i>`;
+            await sendTelegramDocument(QDCB_EXCEL_FILE, qdcbCaption);
         }
     }
 

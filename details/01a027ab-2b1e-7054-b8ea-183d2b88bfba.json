@@ -1,0 +1,338 @@
+{
+  "id": "01a027ab-2b1e-7054-b8ea-183d2b88bfba",
+  "code": "1.116466",
+  "codeNotation": "1.116466",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Tạo lập tài khoản và gửi danh mục sử dụng trong liên thông dữ liệu khám bệnh, chữa bệnh bảo hiểm y tế\n- Trường hợp 1: Cơ sở khám chữa bệnh, chữa bệnh chưa có tài khoản trên Cổng tiếp nhận dữ liệu, tạo lập tài khoản theo các bước sau:\n+ Cơ sở khám bệnh, chữa bệnh điền thông tin theo Mẫu số 08/BH trên Cổng tiếp nhận dữ liệu đề nghị tạo lập tài khoản quản trị.\n+ Trong thời hạn 01 ngày làm việc kể từ ngày nhận được yêu cầu tạo lập tài khoản quản trị, cơ quan bảo hiểm xã hội thực hiện đối chiếu thông tin do cơ sở khám bệnh, chữa bệnh cung cấp với hồ sơ ký hợp đồng, gửi thông tin xác thực hoặc thông báo thông tin sai lệch cần điều chỉnh cho cơ sở khám bệnh, chữa bệnh qua địa chỉ thư điện tử đã cung cấp. Cơ sở khám bệnh, chữa bệnh nhập thông tin xác thực để kích hoạt tài khoản quản trị trên Cổng tiếp nhận dữ liệu. \n+ Cơ sở khám bệnh, chữa bệnh gửi danh mục sử dụng trong liên thông dữ liệu khám bệnh, chữa bệnh bảo hiểm y tế áp dụng tại cơ sở khám bệnh, chữa bệnh (sau đây gọi là danh mục sử dụng trong liên thông dữ liệu) được tạo lập theo quy định tại khoản 1 Điều 7 Thông tư số 12/2026/TT-BTC ngày 10 tháng 02 năm 2026, ký số xác thực dữ liệu gửi cơ quan bảo hiểm xã hội qua Cổng tiếp nhận dữ liệu, đảm bảo khớp đúng với hồ sơ ký hợp đồng.\n- Trường hợp 2: Cơ sở khám chữa bệnh đã tạo lập tài khoản trên Cổng tiếp nhận dữ liệu của Hệ thống thông tin giám định bảo hiểm y tế, thực hiện đăng nhập vào Cổng tiếp nhận dữ liệu để gửi hồ sơ giám định và gửi danh mục sử dụng trong khám bệnh, chữa bệnh để thực hiện liên thông dữ liệu."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Gửi hồ sơ đề nghị giám định\nTrong thời gian quy định tại Điều 9 của Thông tư số 12/2026/TT-BTC ngày 10 tháng 02 năm 2026, cơ sở khám bệnh, chữa bệnh gửi dữ liệu chi phí khám bệnh, chữa bệnh bảo hiểm y tế và bảng tổng hợp đề nghị thanh toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế của tháng trước cho cơ quan bảo hiểm xã hội thông qua Hệ thống thông tin giám định bảo hiểm y tế."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Tiếp nhận hồ sơ, dữ liệu\nCơ quan bảo hiểm xã hội tiếp nhận hồ sơ, dữ liệu chi phí khám bệnh, chữa bệnh bảo hiểm y tế do cơ sở khám bệnh, chữa bệnh gửi."
+    },
+    {
+      "name": "",
+      "description": "Bước 4. Thực hiện giám định \nCơ quan bảo hiểm xã hội thực hiện giám định chi phí khám bệnh, chữa bệnh bảo hiểm y tế theo 02 phương thức tự động và chủ động.\na) Phương thức 1: Giám định tự động trên Hệ thống thông tin giám định bảo hiểm y tế\n- Trong thời hạn 07 ngày làm việc kể từ ngày tiếp nhận hồ sơ đề nghị thanh toán, kết quả giám định bằng phương thức tự động được gửi cho cơ sở khám bệnh, chữa bệnh trên Cổng tiếp nhận dữ liệu \n- Trong thời hạn 03 ngày làm việc kể từ ngày nhận được phản hồi từ Cổng tiếp nhận dữ liệu, cơ sở khám bệnh, chữa bệnh có trách nhiệm rà soát, cung cấp, bổ sung tài liệu, dữ liệu \n- Hệ thống thông tin giám định bảo hiểm y tế xử lý dữ liệu quy định tại điểm b khoản 3 Thông tư số 12/2026/TT-BTC ngày 10 tháng 02 năm 2026; từ chối thanh toán đối với trường hợp đã điều chỉnh nhưng không đúng quy định của pháp luật đối với nội dung tại khoản 1 Điều Thông tư số 12/2026/TT-BTC ngày 10 tháng 02 năm 2026.\nb) Phương thức 2: Giám định theo phương thức chủ động \nCơ quan bảo hiểm xã hội thực hiện rà soát, đối chiếu quy định của pháp luật về bảo hiểm y tế với hồ sơ, tài liệu liên quan đến chi phí khám bệnh, chữa bệnh bảo hiểm y tế đề nghị thanh toán của cơ sở khám bệnh, chữa bệnh theo quy định tại Điều 11 Thông tư số 12/2026/TT-BTC ngày 10 tháng 02 năm 2026.\nNội dung giám định bao gồm việc kiểm tra tính hợp lệ, hợp pháp của hồ sơ, dữ liệu chi phí khám bệnh, chữa bệnh; đối chiếu với quy định của pháp luật về bảo hiểm y tế và quy định chuyên môn y tế để xác định chi phí đủ điều kiện thanh toán."
+    },
+    {
+      "name": "",
+      "description": "Bước 5. Thông báo kết quả giám định\n- Trong thời hạn 03 ngày làm việc kể từ ngày kết thúc giám định chi phí khám bệnh, chữa bệnh bảo hiểm y tế trong quý, cơ quan bảo hiểm xã hội lập Biên bản giám định gửi cơ sở khám bệnh, chữa bệnh qua Cổng tiếp nhận dữ liệu. Biên bản giám định có đầy đủ nội dung theo quy định.\n- Trong thời hạn 02 ngày làm việc kể từ ngày nhận được Biên bản giám định từ cơ quan bảo hiểm xã hội, cơ sở khám bệnh, chữa bệnh ký, gửi lại cơ quan bảo hiểm xã hội qua Cổng tiếp nhận dữ liệu. Trường hợp không thống nhất với nội dung từ chối thanh toán, cơ sở khám bệnh, chữa bệnh ghi rõ căn cứ pháp lý đề nghị thanh toán hoặc ý kiến đề nghị cấp có thẩm quyền xem xét, giải quyết theo quy định tại khoản 3 Điều 51 Nghị định số 188/2025/NĐ-CP trong Biên bản giám định, ký và gửi lại cơ quan bảo hiểm xã hội.\n- Cơ quan bảo hiểm xã hội thông báo kết quả giám định theo Mẫu số 05/BH gửi cơ sở khám bệnh, chữa bệnh trực tiếp ký hợp đồng qua Cổng tiếp nhận dữ liệu trong thời hạn 05 ngày làm việc kể từ ngày gửi Biên bản giám định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Kể từ ngày cơ quan bảo hiểm xã hội nhận đủ hồ sơ hợp lệ, cơ quan bảo hiểm xã hội có trách nhiệm thông báo kết quả giám định trong thời hạn 30 ngày đối với quý 1,2,3 và 60 ngày đối với quý 4.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Kể từ ngày cơ quan bảo hiểm xã hội nhận đủ hồ sơ hợp lệ, cơ quan bảo hiểm xã hội có trách nhiệm thông báo kết quả giám định trong thời hạn 30 ngày đối với quý 1,2,3 và 60 ngày đối với quý 4.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "- Cơ sở khám bệnh, chữa bệnh đã ký hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế với cơ quan bảo hiểm xã hội.\n- Cơ sở khám chữa bệnh tạo tài khoản quản trị trên Cổng tiếp nhận dữ liệu của cơ quan bảo hiểm, thực hiện kết nối, liên thông dữ liệu với Hệ thống thông tin giám định bảo hiểm y tế.",
+  "name": "Giám định chi phí khám bệnh, chữa bệnh bảo hiểm y tế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a027a6-8b5e-732d-bae9-529293e75951",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng kê chi tiết đề nghị thanh toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế được lập theo chuẩn và định dạng dữ liệu theo Mẫu số 01/KBCB ban hành tại Quyết định số 697/QĐ-BYT ngày 19/03/2026 của Bộ trưởng Bộ Y tế",
+          "code": "TP.G12.0000015",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a027a6-e801-71dc-9bc3-629939f31f5e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng tổng hợp đề nghị thanh toán chi phí khám bệnh, chữa bệnh bảo hiểm y tế được lập hằng tháng theo chuẩn và định dạng dữ liệu theo Mẫu số 01/BH ban hành kèm theo Thông tư số 12/2026/TT-BTC ngày 10 tháng 02 năm 2026",
+          "code": "TP.G12.0000016",
+          "attachments": [
+            {
+              "id": "01a02863-5b1e-710a-8c84-f5998dc87fc3",
+              "fileName": "01 BH.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02863-5b1e-710a-8c84-f5998dc87fc3/01 BH.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a027a8-e5f2-76bd-b632-f5f9cc51f326",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo quyết toán chi khám bệnh, chữa bệnh bảo hiểm y tế (sau đây gọi là Báo cáo quyết toán) được lập hằng quý theo Mẫu số 02/BH ban hành kèm theo Thông tư số 12/2026/TT-BTC ngày 10 tháng 02 năm 2026",
+          "code": "TP.G12.0000017",
+          "attachments": [
+            {
+              "id": "01a02863-a167-75d9-b15a-2b7649d3f266",
+              "fileName": "02 BH.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02863-a167-75d9-b15a-2b7649d3f266/02 BH.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a027a9-683b-747b-9e94-118e46e4e8d7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ bệnh án và tài liệu chuyên môn liên quan đến việc khám bệnh, chữa bệnh của người bệnh (trong trường hợp cơ quan bảo hiểm xã hội yêu cầu để phục vụ công tác giám định)",
+          "code": "TP.G12.0000018",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện TTHC: Cơ sở khám bệnh, chữa bệnh bảo hiểm y tế",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-49499e22ddad",
+    "019d2bb3-5d84-71c5-b673-669988af5f4c",
+    "019d2bb3-5d84-71c5-b674-ae46cb2804d7",
+    "019d2bb3-5d85-73da-8eb9-b34bf387534d",
+    "019d2bb3-5d87-7195-a447-769d1061fb26",
+    "019e1a33-d365-7413-8667-bbbb7d7de2ea",
+    "01a02847-b487-751a-9e31-309ef5cd15e4",
+    "01a02854-219e-709a-84c3-cc669f327ecd",
+    "01a02856-33ae-7379-bf45-2ae7bab6ada1"
+  ],
+  "resultIds": [
+    "01a024de-2470-70d3-af25-642e792ad8bf",
+    "01a0283e-2ca5-75bc-9f32-895b58add664",
+    "01a0283e-c847-752c-bf8c-b57622a48a7a"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-a18231a6fcf6"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-a18231a6fcf6",
+      "name": "Bảo hiểm xã hội tỉnh",
+      "code": "BHXHT"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-49499e22ddad",
+      "name": "Luật 25/2008/QH12 - Bảo hiểm y tế",
+      "code": "25/2008/QH12"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-669988af5f4c",
+      "name": "Luật số 51/2024/QH15 ngày 27/11/2024 của Quốc hội sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế",
+      "code": "51/2024/QH15"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eb9-b34bf387534d",
+      "name": "Luật Khám, chữa bệnh 15/2023/QH15 (09/1/2023)",
+      "code": "15/2023/QH15"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a447-769d1061fb26",
+      "name": "Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh.",
+      "code": "96/2023/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b674-ae46cb2804d7",
+      "name": "46/2014/QH13 Sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế",
+      "code": "Luật 46/2014/QH13"
+    },
+    {
+      "id": "019e1a33-d365-7413-8667-bbbb7d7de2ea",
+      "name": "quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế",
+      "code": "Nghị định số 188/2025/NĐ-CP "
+    },
+    {
+      "id": "01a02847-b487-751a-9e31-309ef5cd15e4",
+      "name": "Quy định cơ chế tài chính về bảo hiểm xã hội, bảo hiểm thất nghiệp, bảo hiểm y tế; chi tổ chức và hoạt động bảo hiểm xã hội, bảo hiểm thất nghiệp, bảo hiểm y tế",
+      "code": "233/2025/NĐ-CP"
+    },
+    {
+      "id": "01a02856-33ae-7379-bf45-2ae7bab6ada1",
+      "name": "về việc ban hành mẫu bảng kê chi phí khám bệnh, chữa bệnh sử dụng tại các cơ sở khám bệnh, chữa bệnh",
+      "code": "697/QĐ-BYT "
+    },
+    {
+      "id": "01a02854-219e-709a-84c3-cc669f327ecd",
+      "name": "Quy định trình tự, thủ tục giám định chi phí khám bệnh, chữa bệnh bảo hiểm y tế, biểu mẫu tổng hợp thanh toán, quyết toán và biện pháp thi hành Nghị định số 188/2025/NĐ-CP ngày 01 tháng 7 năm 2025 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế",
+      "code": "12/2026/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a024de-2470-70d3-af25-642e792ad8bf",
+      "name": "Biên bản giám định chi phí khám bệnh, chữa bệnh bảo hiểm y tế",
+      "code": "KQ-G12.0000003"
+    },
+    {
+      "id": "01a0283e-2ca5-75bc-9f32-895b58add664",
+      "name": "Biên bản làm việc",
+      "code": "KQ.G12.0000007"
+    },
+    {
+      "id": "01a0283e-c847-752c-bf8c-b57622a48a7a",
+      "name": "Thông báo kết quả giám định chi phí khám bệnh, chữa bệnh bảo hiểm y tế",
+      "code": "KQ.G12.0000008"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787504991642,
+  "updatedAt": 1787504991642,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Cơ sở khám bệnh, chữa bệnh đã ký hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế với cơ quan bảo hiểm xã hội.\n- Cơ sở khám chữa bệnh tạo tài khoản quản trị trên Cổng tiếp nhận dữ liệu của cơ quan bảo hiểm, thực hiện kết nối, liên thông dữ liệu với Hệ thống thông tin giám định bảo hiểm y tế.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

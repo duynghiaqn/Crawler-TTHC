@@ -1,0 +1,204 @@
+{
+  "id": "01a1a461-9fc2-753f-b348-a0388a80b26e",
+  "code": "5.004024",
+  "codeNotation": "5.004024",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Căn cứ quyết định phê duyệt chủ trương đầu tư Chương trình mục tiêu quốc gia của cấp có thẩm quyền, cơ quan chủ trì Chương trình mục tiêu quốc gia có văn bản gửi Bộ Tài chính và Bộ Tài chính kèm theo tài liệu về khoản hỗ trợ ngân sách trong đó nêu rõ bối cảnh, sự cần thiết, mục tiêu, tổng vốn, nguồn và cơ cấu vốn, các nguồn lực khác; điều kiện tiếp nhận khoản hỗ trợ ngân sách, quyền lợi và nghĩa vụ; phương thức tài trợ và hình thức tổ chức quản lý, phương án sử dụng vốn cho các mục tiêu của Chương trình mục tiêu quốc gia; nguyên tắc, tiêu chí, danh mục dự án sử dụng khoản hỗ trợ ngân sách, phương án bố trí kế hoạch vốn cho các bộ, ngành, địa phương làm căn cứ bố trí vốn đầu tư công trung hạn và hằng năm.\nBước 2: Bộ Tài chính đánh giá mức độ ưu đãi của khoản vay, tác động nợ công, cơ chế tài chính; khả năng tiếp nhận hỗ trợ ngân sách để thực hiện các mục tiêu của Chương trình mục tiêu quốc gia; các điều kiện nhận khoản hỗ trợ ngân sách và gửi Bộ Tài chính.\nBước 3: Trên cơ sở tổng hợp ý kiến của Bộ Tài chính và ý kiến các cơ quan có liên quan, Bộ Tài chính chủ trì, báo cáo Thủ tướng Chính phủ phê duyệt chủ trương tiếp nhận khoản hỗ trợ ngân sách trung ương cho Chương trình mục tiêu quốc gia, bao gồm nguyên tắc, tiêu chí, cơ chế tài chính, danh mục dự án sử dụng khoản hỗ trợ ngân sách, phương án bố trí kế hoạch vốn cho các bộ, ngành, địa phương. \nBước 4: Thủ tướng Chính phủ xem xét, phê duyệt chủ trương tiếp nhận khoản hỗ trợ ngân sách, nguyên tắc, tiêu chí, cơ chế tài chính, danh mục dự án cụ thể, phương án phân bổ vốn cho các bộ, ngành, địa phương. \nBước 5: Căn cứ quyết định của Thủ tướng Chính phủ, cơ quan chủ quản dự án thực hiện thủ tục thẩm định, quyết định đầu tư đối với dự án cụ thể sử dụng khoản hỗ trợ ngân sách thuộc Chương trình mục tiêu quốc gia theo quy định của pháp luật có liên quan."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian xem xét, trình Thủ tướng Chính phủ về Đề xuất chương trình, dự án kể từ ngày Bộ Tài chính nhận đủ hồ sơ hợp lệ: không quá 45 ngày.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian xem xét, trình Thủ tướng Chính phủ về Đề xuất chương trình, dự án kể từ ngày Bộ Tài chính nhận đủ hồ sơ hợp lệ: không quá 45 ngày.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Quyết định chủ trương tiếp nhận khoản hỗ trợ ngân sách trung ương cho Chương trình mục tiêu quốc gia được cấp có thẩm quyền phê duyệt",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Số lượng hồ sơ: 01 bộ gốc (riêng Tài liệu về khoản hỗ trợ ngân sách có mục tiêu: 08 bộ)",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd74-3f76b6757c20",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Công văn của cơ quan chủ trì Chương trình mục tiêu quốc gia đề nghị Bộ Tài chính trình Thủ tướng Chính phủ xem xét quyết định chủ trương tiếp nhận chủ trương tiếp nhận khoản hỗ trợ ngân sách;",
+          "code": "G12.000075",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8cdd-de6babc5f2cc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu kèm theo về khoản hỗ trợ ngân sách",
+          "code": "G12.000076",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8cdd-e25f952b5e73",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao tài liệu làm việc với nhà tài trợ nước ngoài về dự án (nếu có)",
+          "code": "G12.000058",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-438829520d92"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4a-f99048232a3f",
+    "019d2bb3-5d7e-72d1-afe9-0fbdece3a4c4"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3d-7379-a672-25960f462218"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-438829520d92",
+      "name": "Đầu tư bằng vốn hỗ trợ phát triển chính thức (ODA) và viện trợ không hoàn lại không thuộc hỗ trợ phát triển chính thức",
+      "code": "G12.03.KTĐN"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-0fbdece3a4c4",
+      "name": "- Nghị định số 114/2021/NĐ-CP ngày 16/12/2021 của Chính phủ về Quản lý và sử dụng vốn hỗ trợ phát triển chính thức (ODA) và nguốn vay ưu đãi của Nhà tài trợ nước ngoài;",
+      "code": "114"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4a-f99048232a3f",
+      "name": "Nghị định số 20/2023/NĐ-CP ngày 04/5/2023 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 114/2021/NĐ-CP ngày 16/12/2021 về Quản lý và sử dụng vốn hỗ trợ phát triển chính thức (ODA) và vốn vay ưu đãi của nhà tài trợ nước ngoài",
+      "code": "20"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3d-7379-a672-25960f462218",
+      "name": "Quyết định chủ trương tiếp nhận khoản hỗ trợ ngân sách trung ương cho Chương trình mục tiêu quốc gia của Thủ tướng Chính phủ",
+      "code": "KQ.G12.000443"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448917420,
+  "updatedAt": 1794448917420,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Thủ tướng Chính phủ",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

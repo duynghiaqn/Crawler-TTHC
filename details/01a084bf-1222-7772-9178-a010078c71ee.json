@@ -1,0 +1,322 @@
+{
+  "id": "01a084bf-1222-7772-9178-a010078c71ee",
+  "code": "1.116608",
+  "codeNotation": "1.116608",
+  "executionSteps": [
+    {
+      "name": "Bước 1:",
+      "description": "Người yêu cầu đính chính nộp hồ sơ đến Trung tâm Phục vụ hành chính công cấp xã.\n- Khi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\n- Trường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định."
+    },
+    {
+      "name": "Bước 2:",
+      "description": "Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\n- Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến cơ quan có chức năng quản lý đất đai cấp xã."
+    },
+    {
+      "name": "Bước 3:",
+      "description": "Cơ quan có chức năng quản lý đất đai cấp xã thực hiện:\n- Thông báo cho Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai để chuyển hồ sơ cấp Giấy chứng nhận lần đầu để kiểm tra hồ sơ, lập biên bản kết luận về nội dung và nguyên nhân sai sót.\n- Trình Chủ tịch Ủy ban nhân dân cấp xã xác nhận nội dung đính chính trên Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Chuyển Giấy chứng nhận đến Trung tâm Phục vụ hành chính công cấp xã để trao cho người được cấp.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai để chỉnh lý, cập nhật hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 06 ngày làm việc. Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và đặc khu Lý Sơn thì thời gian giải quyết thủ tục hành chính được cộng thêm 10 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 06 ngày làm việc. Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và đặc khu Lý Sơn thì thời gian giải quyết thủ tục hành chính được cộng thêm 10 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 06 ngày làm việc. Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và đặc khu Lý Sơn thì thời gian giải quyết thủ tục hành chính được cộng thêm 10 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí."
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định.",
+  "name": "Đính chính Giấy chứng nhận đã cấp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0423c-301f-748c-bfee-67b03a801f42",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18 Phụ lục ban hành kèm theo Quyết định số 122/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh.",
+          "code": "TP-H48-0032",
+          "attachments": [
+            {
+              "id": "01a08416-9ec4-749d-86fc-afee85c051c8",
+              "fileName": "Mau so 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a08416-9ec4-749d-86fc-afee85c051c8/Mau so 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a07f6f-0e2f-747d-a253-8de4377d333c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp (bản gốc)",
+          "code": "TP-H48-0074",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a07fc3-2f93-71e8-b83a-43d27d600408",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ chứng minh sai sót thông tin của người được cấp Giấy chứng nhận so với thông tin tại thời điểm đề nghị đính chính hoặc sai sót thông tin về thửa đất, tài sản gắn liền với đất so với thông tin trên Giấy chứng nhận đã cấp",
+          "code": "TP-H48-0085",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a084bc-b7e1-7638-b82c-30772da8041e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp sai sót thông tin của người được cấp Giấy chứng nhận so với thông tin tại thời điểm đề nghị đính chính thì cơ quan giải quyết thủ tục có trách nhiệm khai thác, sử dụng thông tin về người được cấp Giấy chứng nhận trong Cơ sở dữ liệu quốc gia về dân cư, nếu không thể khai thác được thông tin thì nộp Giấy tờ chứng minh sai sót thông tin của người được cấp Giấy chứng nhận.",
+          "code": "TP-H48-00113",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a084bd-58d5-76f9-952b-1f793e266549",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp người sử dụng đất, chủ sở hữu tài sản gắn liền với đất thực hiện thủ tục thông qua người đại diện theo quy định của pháp luật về dân sự thì phải có văn bản về việc ủy quyền theo quy định của pháp luật về dân sự.",
+          "code": "TP-H48-00119",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019daef1-961d-7369-bdb6-2fa1ba4349a0",
+    "019d2bb3-5d87-7195-a446-50796660596e",
+    "019d2bb3-5d87-7195-a447-f9a5abcd2f43",
+    "019d2bb3-5d85-73da-8eb8-298b0b3e5261",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "01a036d7-b02b-731e-abe9-6eb1ec26e188"
+  ],
+  "resultIds": [
+    "01a04131-a7ae-71ab-9896-f5179d8ecd86"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "01a036d7-b02b-731e-abe9-6eb1ec26e188",
+      "name": "Quyết định số 122/2026/QĐ-UBND ngày 30 tháng 6 năm 2026 của Ủy ban nhân dân tỉnh ban hành quy định trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Quảng Ngãi.",
+      "code": "122/2026/QĐ-UBND "
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a447-f9a5abcd2f43",
+      "name": "Luật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường",
+      "code": "Luật số 146/2025/QH15"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a446-50796660596e",
+      "name": "Luật Thanh tra năm 2025",
+      "code": "84/2025/QH15"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019daef1-961d-7369-bdb6-2fa1ba4349a0",
+      "name": "Luật số 71/2025/QH15 của Quốc hội: Luật Công nghiệp công nghệ số",
+      "code": "Luật số 71/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d85-73da-8eb8-298b0b3e5261",
+      "name": "Luật Địa chất và khoáng sản sửa đổi 2025",
+      "code": "147/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a04131-a7ae-71ab-9896-f5179d8ecd86",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H48-0012"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b1a-b8df51d5f6bf",
+  "departmentPromulgateCode": "H48",
+  "departmentPromulgateName": "UBND tỉnh Quảng Ngãi",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790383269247,
+  "updatedAt": 1790383269247,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công cấp xã.\n- Nộp thông qua dịch vụ bưu chính.\n- Nộp trực tuyến trên Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a031c1-b81f-76a8-b248-9038b17f129e",
+    "proposalNumber": "1836/QĐ-UBND",
+    "decisionDate": 1783962000000,
+    "decisionNumber": null,
+    "publicationDate": 1790383262873,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b1a-b8df51d5f6bf",
+      "name": "UBND tỉnh Quảng Ngãi"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

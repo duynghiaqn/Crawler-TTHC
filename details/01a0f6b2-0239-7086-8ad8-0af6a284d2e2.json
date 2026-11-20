@@ -1,0 +1,229 @@
+{
+  "id": "01a0f6b2-0239-7086-8ad8-0af6a284d2e2",
+  "code": "2.002936",
+  "codeNotation": "2.002936",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan, tổ chức, cá nhân gửi hồ sơ theo quy định qua Cổng Dịch vụ công quốc gia hoặc qua VNeID hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Bộ phận Một cửa của cơ quan của người có thẩm quyền giải quyết thủ tục"
+    },
+    {
+      "name": "",
+      "description": "- Trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, nếu hồ sơ chưa đầy đủ hoặc chưa đúng quy định thì cơ quan tiếp nhận hồ sơ thông báo bằng văn bản những nội dung cần chỉnh sửa, bổ sung cho cơ quan, tổ chức, cá nhân."
+    },
+    {
+      "name": "",
+      "description": "- Trong thời hạn 07 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ, đúng quy định, cơ quan, tổ chức được giao xử lý kiểm tra hồ sơ, trình người có thẩm quyền ra quyết định giải thể, cho phép giải thể theo Mẫu số 09 tại Phụ lục I kèm theo Nghị định này. Trường hợp không quyết định giải thể, cho phép giải thể thì có văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Đối với hồ sơ chưa đầy đủ hoặc chưa đúng: 03 ngày làm việc để thông báo hồ sơ cần chỉnh sửa, bổ sung; \n- Đối với hồ sơ đầy đủ, đúng quy định: 07 ngày làm việc kể từ ngày nhận đủ hồ sơ đúng quy định để kiểm tra, trình quyết định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Đối với hồ sơ chưa đầy đủ hoặc chưa đúng: 03 ngày làm việc để thông báo hồ sơ cần chỉnh sửa, bổ sung; \n- Đối với hồ sơ đầy đủ, đúng quy định: 07 ngày làm việc kể từ ngày nhận đủ hồ sơ đúng quy định để kiểm tra, trình quyết định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Đối với hồ sơ chưa đầy đủ hoặc chưa đúng: 03 ngày làm việc để thông báo hồ sơ cần chỉnh sửa, bổ sung; \n- Đối với hồ sơ đầy đủ, đúng quy định: 07 ngày làm việc kể từ ngày nhận đủ hồ sơ đúng quy định để kiểm tra, trình quyết định.",
+      "fees": []
+    }
+  ],
+  "description": "Cơ quan, tổ chức, cá nhân đề nghị thành lập hoặc cho phép thành lập cơ sở giáo dục nghề nghiệp, phân hiệu của cơ sở giáo dục nghề nghiệp đề nghị giải thể hoặc cho phép giải thể.",
+  "name": "Giải thể, cho phép giải thể trường trung cấp, trường trung học nghề, phân hiệu của trường trung cấp, trường trung học nghề theo đề nghị của cơ quan, tổ chức, cá nhân đề nghị thành lập",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0f6b1-7da6-73dd-8f13-0fd48e2d1e14",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị giải thể của cơ quan quản lý trực tiếp cơ sở giáo dục nghề nghiệp công lập hoặc tổ chức, cá nhân sở hữu cơ sở giáo dục nghề nghiệp tư thục theo Mẫu số 04 tại Phụ lục I kèm theo Nghị định số 361/2026/NĐ-CP.",
+          "code": "TP-000000220",
+          "attachments": [
+            {
+              "id": "01a0f6b1-51fe-75cb-8860-36c683d80ccd",
+              "fileName": "Mau so 04 -PLI.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0f6b1-51fe-75cb-8860-36c683d80ccd/Mau so 04 -PLI.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-f9b9de88e50e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0f156-2cd9-7709-8069-a1409dc80572"
+  ],
+  "resultIds": [
+    "01a0f66a-3791-76c5-a6cb-834409b7c5c2"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-f9b9de88e50e",
+      "name": "Giáo dục nghề nghiệp",
+      "code": "G03-GD03"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0f156-2cd9-7709-8069-a1409dc80572",
+      "name": "Quy định về điều kiện đầu tư và hoạt động trong giáo dục nghề nghiệp, giáo dục đại học và kiểm định chất lượng giáo dục\n",
+      "code": "361/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0f66a-3791-76c5-a6cb-834409b7c5c2",
+      "name": "Quyết định giải thể hoặc cho phép giải thể",
+      "code": "KQ-G03.00000199"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790926096859,
+  "updatedAt": 1790926096859,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ phận Một cửa của cơ quan của người có thẩm quyền giải quyết thủ tục.\nTrường hợp cơ sở thuộc phạm vi quản lý của Bộ Quốc phòng, Bộ Công an thực hiện theo khoản 4 Điều 4 Nghị định số 361/2026/NĐ-CP (nếu thuộc trường hợp quy định).",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Cơ quan, tổ chức, cá nhân đề nghị thành lập hoặc cho phép thành lập cơ sở giáo dục nghề nghiệp, phân hiệu của cơ sở giáo dục nghề nghiệp đề nghị giải thể hoặc cho phép giải thể.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0f127-306c-74d9-aa9f-48991174cd52",
+    "proposalNumber": "2854/QĐ-BGDĐT",
+    "decisionDate": 1790701200000,
+    "decisionNumber": null,
+    "publicationDate": 1790926096561,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "019fc824-c03f-707a-979b-b4248d266683",
+  "code": "3.000683",
+  "codeNotation": "3.000683",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến một trong các cơ quan trên địa bàn cấp tỉnh sau đây: Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm hành Phục vụ hành chính cấp xã hoặc Văn phòng đăng ký đất đai.\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ giấy chứng nhận đăng ký doanh nghiệp."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trường hợp Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm Phục vụ hành chính công cấp xã tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Văn phòng đăng ký đất đai thực hiện:\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất nộp mảnh trích đo bản đồ địa chính thửa đất để xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai.\n- Cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp đối với trường hợp không phải thực hiện nghĩa vụ tài chính; trao Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký biến động đối với trường hợp thành viên của hộ gia đình hoặc cá nhân đang sử dụng đất thành lập doanh nghiệp tư nhân và sử dụng đất vào hoạt động sản xuất kinh doanh của doanh nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fe1b3-dd1b-706a-916b-baa476a4afbf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18",
+          "code": "M018",
+          "attachments": [
+            {
+              "id": "019fe1b3-8646-77f7-bc78-de48fb078dfd",
+              "fileName": "Mẫu số 18.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fe1b3-8646-77f7-bc78-de48fb078dfd/Mẫu số 18.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fe1b4-569f-771a-825b-8ba5313f2a87",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Giấy chứng nhận đã cấp, trừ trường hợp thực hiện quyết định hoặc bản án của Toà án nhân dân, quyết định thi hành án của cơ quan thi hành án đã có hiệu lực thi hành hoặc trường hợp đấu giá, giao quyền sử dụng đất, tài sản gắn liền với đất theo yêu cầu của Toà án, cơ quan thi hành án mà không thu hồi được Giấy chứng nhận đã cấp. - Giấy chứng nhận đăng ký doanh nghiệp (trường hợp không khai thác được thông tin trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp). - Văn bản thỏa thuận của các thành viên trong hộ gia đình có chung quyền sử dụng đất đồng ý đưa quyền sử dụng đất vào doanh nghiệp đã được công chứng hoặc chứng thực theo quy định của pháp luật đối với trường hợp quyền sử dụng đất của hộ gia đình.",
+          "code": "M0181",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fe1b5-db37-728c-a6d4-fe04cdb1da0b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Bản vẽ tách thửa đất, hợp thửa đất theo Mẫu số 22 kèm theo Quyết định này đối với trường hợp đăng ký biến động đất đai mà phải tách thửa đất, hợp thửa đất. - Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp người sử dụng đất có nhu cầu đo đạc để xác định lại kích thước các cạnh, diện tích của thửa đất. - Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục đăng ký đất đai, tài sản gắn liền với đất thông qua người đại diện.",
+          "code": "M22",
+          "attachments": [
+            {
+              "id": "019fe1b5-aa5f-772e-85fc-8c7787c14720",
+              "fileName": "Mẫu số 22.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fe1b5-aa5f-772e-85fc-8c7787c14720/Mẫu số 22.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019fb1fa-2084-7275-8106-8d583ed94e03"
+  ],
+  "resultIds": [
+    "019fb5cc-8fc2-75ba-89db-61892e5aa653"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-5b3b-776b-ae3c-c9f6bbc23933"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-5b3b-776b-ae3c-c9f6bbc23933",
+      "name": "Cơ quan, tổ chức, đơn vị có thẩm quyền quản lý hoặc được giao trực tiếp quản lý đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    },
+    {
+      "id": "019fb1fa-2084-7275-8106-8d583ed94e03",
+      "name": "Quy định trình tự, thủ tục hành chính về đất đai\ntrên địa bàn tỉnh Điện Biên. \n",
+      "code": "53/2026/QĐ-UBND "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fb5cc-8fc2-75ba-89db-61892e5aa653",
+      "name": "Giấy chứng nhận",
+      "code": "KQ.010"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a341-16615c474af4",
+  "departmentPromulgateCode": "H18",
+  "departmentPromulgateName": "UBND tỉnh Điện Biên",
+  "cases": [
+    {
+      "id": "01a06a56-6022-7577-a4e5-77b8aa46e33d",
+      "name": "Đăng ký biến động đối với trường hợp thành viên của hộ gia đình hoặc cá nhân đang sử dụng đất thành lập doanh nghiệp tư nhân và sử dụng đất vào hoạt động sản xuất kinh doanh của doanh nghiệp",
+      "code": "3.000683.01",
+      "processingDay": {
+        "qty": 18,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1787638241363,
+  "updatedAt": 1788769911865,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Trung tâm Phục vụ hành chính công tỉnh;\n- Trung tâm Phục vụ hành chính công cấp xã;\n- Chi nhánh Văn phòng đăng ký đất đai.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fccf2-6ffb-749b-babc-afda5bf4e3b5",
+    "proposalNumber": "1723/QĐ-UBND",
+    "decisionDate": 1785430800000,
+    "decisionNumber": null,
+    "publicationDate": 1787638237560,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a341-16615c474af4",
+      "name": "UBND tỉnh Điện Biên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

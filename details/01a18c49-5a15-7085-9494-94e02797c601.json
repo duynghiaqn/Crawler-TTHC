@@ -1,0 +1,222 @@
+{
+  "id": "01a18c49-5a15-7085-9494-94e02797c601",
+  "code": "6.006875",
+  "codeNotation": "6.006875",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Cơ quan quản lý tài sản lập hồ sơ đề nghị thu hồi tài sản, báo cáo cơ quan quản lý cấp trên (nếu có) để trình cơ quan, người có thẩm quyền\n- Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ, cơ quan, người có thẩm quyền xem xét, quyết định thu hồi tài sản theo thẩm quyền hoặc có văn bản hồi đáp trong trường hợp đề nghị thu hồi chưa phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Thu hồi tài sản kết cấu hạ tầng đường thủy nội địa",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18a93-3877-713d-8a71-15b77b9eabb8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý tài sản về việc đề nghị thu hồi tài sản",
+          "code": "G12.06.0092",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c4c-9620-777c-a247-176e09888e58",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý cấp trên (nếu có) của cơ quan quản lý tài sản về việc thu hồi tài sản",
+          "code": "G12.06.0187",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c4c-9620-777c-a247-176e09888e58",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý cấp trên (nếu có) của cơ quan quản lý tài sản về việc thu hồi tài sản",
+          "code": "G12.06.0187",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-7adf4d20e448",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "G12.060049",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan quản lý tài sản quy định tại khoản 3 Điều 2 Nghị định số 12/2025/NĐ-CP ngày 20/01/2025 của Chính phủ.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-8c9e03aa49d7"
+  ],
+  "resultIds": [
+    "01a04167-90c3-74fd-b595-793964ef1f19"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66d-4ef4369c303d"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng",
+      "code": "G17"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3",
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    },
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-8c9e03aa49d7",
+      "name": "12/2025/NĐ-CP",
+      "code": "12/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a04167-90c3-74fd-b595-793964ef1f19",
+      "name": "Quyết định thu hồi tài sản kết cấu hạ tầng đường thủy nội địa",
+      "code": "KQ.H56.0000054"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910950,
+  "updatedAt": 1794448910950,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Xây dựng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Bộ trưởng Bộ Xây dựng; UBND cấp tỉnh, UBND cấp huyện.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

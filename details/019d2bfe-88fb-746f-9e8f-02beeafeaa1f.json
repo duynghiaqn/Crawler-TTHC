@@ -1,0 +1,288 @@
+{
+  "id": "019d2bfe-88fb-746f-9e8f-02beeafeaa1f",
+  "code": "1.013217",
+  "codeNotation": "1.013217",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cá nhân nộp trực tiếp, qua dịch vụ bưu chính hoặc trực tuyến 01 bộ hồ sơ đề nghị cấp lại chứng chỉ hành nghề hoạt động xây dựng đến  Bộ phận một cửa.\n- Trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan có thẩm quyền cấp chứng chỉ hành nghề có trách nhiệm thông báo một lần bằng văn bản tới cá nhân đề nghị cấp chứng chỉ hành nghề trường hợp hồ sơ không đầy đủ hoặc không hợp lệ.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền cấp chứng chỉ hành nghề cấp lại chứng chỉ hành nghề cho cá nhân đủ điều kiện."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Bộ trưởng Bộ Tài chính"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Bộ trưởng Bộ Tài chính"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": null,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Bộ trưởng Bộ Tài chính"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Cấp lại chứng chỉ hành nghề hoạt động xây dựng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f41d8-6be0-72ae-b2e4-ea224b4e0c95",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị cấp chứng chỉ hành nghề theo Mẫu số 01 Phụ lục III ban hành kèm theo Nghị định số 212/2026/NĐ-CP (bản gốc trong trường hợp nộp trực tiếp hoặc thông qua dịch vụ bưu chính; trường hợp nộp trực tuyến thì kê khai thông tin trên biểu mẫu điện tử tương tác trên Cổng dịch vụ công quốc gia)",
+          "code": "TP-G17.000149",
+          "attachments": [
+            {
+              "id": "019f5adb-8525-771d-8548-6d876ea6bac8",
+              "fileName": "TP - G17.000149.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f5adb-8525-771d-8548-6d876ea6bac8/TP - G17.000149.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f41d9-0103-7399-936b-cc082fde9b59",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tệp tin ảnh màu cỡ 4x6 cm có nền màu trắng chân dung của người đề nghị cấp chứng chỉ hành nghề được chụp trong thời gian không quá 06 tháng",
+          "code": "TP-G17.000150",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f41de-cd66-72de-9c72-f362459042ad",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản gốc chứng chỉ hành nghề đề nghị cấp lại. Trường hợp bị mất chứng chỉ hành nghề hoặc cấp lại chứng chỉ hành nghề đối với các lĩnh vực không bị thu hồi trên chứng chỉ hành nghề đã được cấp trước đó thì phải có cam kết của người đề nghị cấp lại.",
+          "code": "TP-G17.000160",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f1d67-d525-7040-bc15-3156f4c4411c",
+    "019f5b4e-9575-73cf-9db7-d85e5179923b"
+  ],
+  "resultIds": [
+    "019fe442-bbbd-7546-ad29-8a3eabf82dea"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+      "name": "Hoạt động xây dựng",
+      "code": "G17-XD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+    "name": "Hoạt động xây dựng",
+    "code": "G17-XD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d7511-da0f-746d-aeb5-b2bc21ecab4d"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d7511-da0f-746d-aeb5-b2bc21ecab4d"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d7511-da0f-746d-aeb5-b2bc21ecab4d",
+      "name": "UBND cấp tỉnh hoặc cơ quan có thẩm quyền do UBND cấp tỉnh quyết định việc phân cấp hoặc ủy quyền theo quy định của Luật Tổ chức chính quyền địa phương số 72/2025/QH15"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d7511-da0f-746d-aeb5-b2bc21ecab4d",
+      "name": "UBND cấp tỉnh hoặc cơ quan có thẩm quyền do UBND cấp tỉnh quyết định việc phân cấp hoặc ủy quyền theo quy định của Luật Tổ chức chính quyền địa phương số 72/2025/QH15"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f5b4e-9575-73cf-9db7-d85e5179923b",
+      "name": "Nghị định số 212/2026/NĐ-CP ngày 17/6/2026 của Chính phủ quy định về điều kiện năng lực hoạt động xây dựng, hệ thống thông tin, cơ sở dữ liệu quốc gia về hoạt động xây dựng.",
+      "code": "212/2026/NĐ-CP"
+    },
+    {
+      "id": "019f1d67-d525-7040-bc15-3156f4c4411c",
+      "name": "Luật Xây dựng",
+      "code": "135/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fe442-bbbd-7546-ad29-8a3eabf82dea",
+      "name": "Chứng chỉ hành nghề hoạt động xây dựng",
+      "code": "KQ-G17.000098"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [
+    {
+      "id": "01a00e79-babc-730d-89cb-c36298381aa0",
+      "name": "Cấp lại chứng chỉ hành nghề hoạt động xây dựng",
+      "code": "1.013217.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019db0d7-aa88-728d-b575-be8eb4040f2f",
+      "name": "\t Cấp lại chứng chỉ hành nghề hoạt động xây dựng",
+      "code": "1.013217.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559594747,
+  "updatedAt": 1786949252501,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f3649-8985-7142-a495-0228f712ad67",
+    "proposalNumber": "1077/QĐ-BXD",
+    "decisionDate": 1782666000000,
+    "decisionNumber": null,
+    "publicationDate": 1786949250428,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

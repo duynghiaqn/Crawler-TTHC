@@ -1,0 +1,190 @@
+{
+  "id": "01a18749-ae28-7040-a17c-cd24ef6c0a51",
+  "code": "6.006847",
+  "codeNotation": "6.006847",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Cơ quan chuyên môn về cấp nước sạch, đơn vị được giao quản lý tài sản lập hồ sơ đề nghị thanh toán chi phí có liên quan đến việc xử lý tài sản kết cấu hạ tầng cấp nước sạch gửi Sở Tài chính (chủ tài khoản tạm giữ). \nBước 2: Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ, Sở Tài chính có trách nhiệm cấp tiền từ nguồn thu từ việc xử lý tài sản kết cấu hạ tầng cấp nước sạch cho cơ quan chuyên môn về cấp nước sạch, đơn vị để thực hiện chi trả các khoản chi phí có liên quan liên quan đến việc xử lý tài sản."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Thanh toán chi phí từ việc xử lý tài sản kết cấu hạ tầng cấp nước sạch",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd76-75b814898c1c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thanh toán của cơ quan, đơn vị có tài sản xử lý (trong đó nêu rõ số tiền thu được từ việc xử lý tài sản, tổng chi phí xử lý tài sản, thông tin về tài khoản tiếp nhận thanh toán) kèm theo bảng kê chi tiết các khoản chi",
+          "code": "G12.06.0066",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-c15959cc92e3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định xử lý tài sản của cơ quan, người có thẩm quyền",
+          "code": "G12.06.0067",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1874c-7513-75fb-b9f5-488b70a82c9d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, giấy tờ chứng minh cho các khoản chi như: dự toán chi được duyệt; chi phí kiểm kê, phá dỡ; hóa đơn, phiếu thu tiền (nếu có)",
+          "code": "G12.06.0068",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan chuyên môn về cấp nước sạch, đơn vị sự nghiệp công lập được giao quản lý tài sản kết cấu hạ tầng cấp nước sạch.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46d-f14967ca6513"
+  ],
+  "resultIds": [
+    "01a18669-551a-7372-8930-53038d47f856"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dbeb0-bbfd-709e-88ba-12512a11892b"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dbeb0-bbfd-709e-88ba-12512a11892b",
+      "name": "Sở tài chính"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46d-f14967ca6513",
+      "name": "Nghị định số 43/2022/NĐ-CP của Chính phủ quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng cấp nước sạch",
+      "code": "43/2022/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a18669-551a-7372-8930-53038d47f856",
+      "name": "Kết quả thực hiện thủ tục hành chính: Không quy định",
+      "code": "KQ.G12.001387"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910965,
+  "updatedAt": 1794448910965,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Sở Tài chính.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

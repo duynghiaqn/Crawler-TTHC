@@ -1,0 +1,250 @@
+{
+  "id": "01a066b6-6a07-72dc-8a4d-b714aadca8fe",
+  "code": "6.006763",
+  "codeNotation": "6.006763",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Khi có tài sản kết cấu hạ tầng đường bộ cần sử dụng để tham gia dự án đầu tư theo phương thức đối tác công tư, cơ quan, đơn vị quản lý tài sản lập hồ sơ đề nghị, trình cơ quan, người có thẩm quyền quy định tại khoản 1 Điều 19 Nghị định số 99/2026/NĐ-CP.\n- Bước 2: Trong thời hạn 15 ngày, kể từ ngày nhận được đầy đủ hồ sơ quy định, cơ quan, người có thẩm quyền quy định tại khoản 1 Điều 19 Nghị định số 99/2026/NĐ-CP xem xét, quyết định sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "DAY",
+      "description": "Trực tuyến qua Hệ thống phần mềm quản lý văn bản và hồ sơ công việc (TD Office)\n15 ngày kể từ ngày nhận đủ hồ sơ",
+      "fees": []
+    }
+  ],
+  "description": "Không.",
+  "name": "Thủ tục: Sử dụng tài sản kết cấu hạ tầng đường bộ hiện có để tham gia dự án đầu tư theo phương thức đối tác công tư",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a04146-0def-7639-a251-b4c190f2a418",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan, đơn vị quản lý tài sản về việc đề nghị sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư (trong đó nêu rõ lý do sử dụng tài sản để tham gia dự án)",
+          "code": "TP-H56.0000313",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04146-6b15-723e-b03d-b8dd767b3d05",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý cấp trên (nếu có) của cơ quan, đơn vị quản lý tài sản về việc đề nghị sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư",
+          "code": "TP-H56.0000314",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04146-ea5d-7034-96df-2dc96cce978c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý đường bộ cấp tỉnh (trong trường hợp tài sản do cơ quan, đơn vị quản lý tài sản cấp xã quản lý) về việc đề nghị sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư",
+          "code": "TP-H56.0000315",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04120-84fb-7767-8e55-4d2295b60001",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Ý kiến của các cơ quan có liên quan (nếu có)",
+          "code": "TP-H56.0000287",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a04147-480c-76c8-bd26-0ca0c63a8a63",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị sử dụng để tham gia dự án đầu tư theo phương thức đối tác công tư theo Mẫu số 01C tại Phụ lục kèm theo Nghị định số 44/2024/NĐ-CP, được sửa đổi, bổ sung tại Nghị định số 99/2026/NĐ-CP",
+          "code": "TP-H56.0000316",
+          "attachments": [
+            {
+              "id": "01a066b5-48d9-72cb-9939-33cb8ff40b1b",
+              "fileName": "Mẫu số 01C.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a066b5-48d9-72cb-9939-33cb8ff40b1b/Mẫu số 01C.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0664f-71df-72ce-8a44-f8a1f13344e8",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "TP-H56.0000389",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d87-7195-a448-a47bd304bbbc",
+    "01a06665-d0ed-76ea-b626-185a168f90a1"
+  ],
+  "resultIds": [
+    "01a04147-9f76-74dd-b5b3-5e9b50cbd94d"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6ada-753f-9ac8-5b801c9771db"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+    "name": "Quản lý công sản",
+    "code": "G12-TC09"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-5b801c9771db",
+      "name": "Các cơ quan, tổ chức liên quan",
+      "code": "CQLQ"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019d9448-4f70-755d-9f51-d3e89652ee18"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9448-4f70-755d-9f51-d3e89652ee18",
+      "name": "Sở Xây dựng"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a06665-d0ed-76ea-b626-185a168f90a1",
+      "name": "Sửa đổi, bổ sung một số điều của các Nghị định quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng giao thông",
+      "code": "99/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a448-a47bd304bbbc",
+      "name": "Nghị định số 44/2024/NĐ-CP ngày 24/4/2024 của Chính phủ quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng giao thông đường bộ.",
+      "code": "NĐ44/2024/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a04147-9f76-74dd-b5b3-5e9b50cbd94d",
+      "name": "Quyết định sử dụng tài sản kết cấu hạ tầng đường bộ để tham gia dự án đầu tư theo phương thức đối tác công tư",
+      "code": "KQ-H56.0000052"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+  "departmentPromulgateCode": "H56",
+  "departmentPromulgateName": "UBND tỉnh Thanh Hóa",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789954715457,
+  "updatedAt": 1789954715457,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Sở Xây dựng tỉnh Thanh Hóa (Số 45 Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa)",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "Các cơ quan, tổ chức liên quan",
+  "requirementsAndConditions": "Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a03d74-54e5-7620-a931-65ef091b67e5",
+    "proposalNumber": "2349/QĐ-VP",
+    "decisionDate": 1783530000000,
+    "decisionNumber": null,
+    "publicationDate": 1789954714458,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b26-f3a94b76f008",
+      "name": "UBND tỉnh Thanh Hóa"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

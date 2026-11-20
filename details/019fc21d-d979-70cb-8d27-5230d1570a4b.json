@@ -1,0 +1,1618 @@
+{
+  "id": "019fc21d-d979-70cb-8d27-5230d1570a4b",
+  "code": "1.116097",
+  "codeNotation": "1.116097",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu nộp hồ sơ đến Trung tâm Phục vụ hành chính công. \nBước 2: Cơ quan tiếp nhận hồ sơ có trách nhiệm:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Cơ quan có chức năng quản lý đất đai cấp xã nơi có đất.\nBước 3: Cơ quan có chức năng quản lý đất đai cấp xã thực hiện:\n- Khai thác, sử dụng hồ sơ cấp Giấy chứng nhận lần đầu trên Cơ sở dữ liệu đất đai, trường hợp không thể tra cứu được dữ liệu trên cơ sở dữ liệu đất đai thì thông báo cho Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai chuyển hồ sơ cấp Giấy chứng nhận lần đầu để kiểm tra, xem xét và trình Chủ tịch Ủy ban nhân dân cấp xã quyết định thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai.\n- Kiểm tra hồ sơ, xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 Luật Đất đai theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận.\n- Trình Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận.\n- Chuyển hồ sơ đã giải quyết đến Chi nhánh Văn phòng đăng ký đất đai để thực hiện chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai; chuyển Giấy chứng nhận đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 25 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 14,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 14 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 11 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 14,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 14 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 11 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 14,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 14 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 11 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện thu hồi Giấy chứng nhận đã cấp là không quá 18 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 21,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 21 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 21,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 21 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 21,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian cấp lại Giấy chứng nhận sau thu hồi là không quá 21 ngày làm việc",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 1. Cấp giấy chứng nhận quyền sử dụng đất: 40.000 đồng/hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 2. Đối với trường hợp đất nông nghiệp cấp nhiều thửa đất trên cùng 01 giấy chứng nhận quyền sử dụng đất (từ thửa đất thứ 02): Bằng 30% mức cấp giấy chứng nhận quyền sử dụng đất/ hồ sơ/thửa đất",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 40000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 3. Cấp giấy chứng nhận đối với tài sản: 40.000 đồng/hồ sơ/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 60000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 4. Cấp giấy chứng nhận quyền sử dụng đất + tài sản: 60.000 đồng/hồ sơ/ thửa đất/tài sản",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "II. Trường hợp cấp đổi, cấp lại 5. Từ thửa đất, tài sản thứ 2 trở lên: Bằng 50% mức quy định tại số thứ tự 1, 2, 3 và 4 Mục II Phụ lục này.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 500.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 100000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 100.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp Giấy chứng nhận mới: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với tổ chức: 50.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 25000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 25.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 10000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "- Cấp đổi, cấp lại (kể cả cấp lại do hết chỗ xác nhận), xác nhận bổ sung vào giấy chứng nhận: + Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền với đất (trường hợp không có tài sản gắn liền với đất) đối với cá nhân, hộ gia đình: 10.000 đồng/giấy.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thái Nguyên (cấp xã) - Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fc21c-2ef0-70bb-b29a-1e9c8bf83bd9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản kiến nghị việc cấp Giấy chứng nhận không đúng quy định của pháp luật đất đai (bản chính);",
+          "code": "H55-XA3-01",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fc21c-81f3-75be-8e1f-a70441d33b19",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp (bản gốc).",
+          "code": "H55-XA3-02",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019d2bb3-5d86-7760-a644-ce39f72a6124",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019fc15d-2748-70f9-aa59-4ff9b2dbeaa0"
+  ],
+  "resultIds": [
+    "019f56d7-74f2-70a9-97a2-cd7b2b2d025f",
+    "019f5a5e-e694-7725-a80a-14f82e9456b9"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698f-1081-74cf-8c3b-3602b5a3ecad",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
+      "code": "226/2025/NĐ-CP"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019fc15d-2748-70f9-aa59-4ff9b2dbeaa0",
+      "name": "Quyết định số 82/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh quy định về trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thái Nguyên. ",
+      "code": "82/2026/QĐ-UBND "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f56d7-74f2-70a9-97a2-cd7b2b2d025f",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H24.000014"
+    },
+    {
+      "id": "019f5a5e-e694-7725-a80a-14f82e9456b9",
+      "name": "Giấy chứng nhận",
+      "code": "H38-KQ000289"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698f-1081-74cf-8c3b-3602b5a3ecad",
+      "name": "Tổ chức Đảng",
+      "code": "ĐT6"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b25-68dfdcdcff0e",
+  "departmentPromulgateCode": "H55",
+  "departmentPromulgateName": "UBND tỉnh Thái Nguyên",
+  "cases": [
+    {
+      "id": "019ff0ab-8330-771b-9a6c-d0c819016a06",
+      "name": "Thái Nguyên (cấp xã) - Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi",
+      "code": "1.116097.02",
+      "processingDay": {
+        "qty": 21,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fca95-e77b-7109-81b2-96dad23f5cb5",
+      "name": "Thái Nguyên - Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi",
+      "code": "1.116097.01",
+      "processingDay": {
+        "qty": 21,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785806585947,
+  "updatedAt": 1789216552574,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\nb) Nộp thông qua dịch vụ bưu chính.\nc) Nộp trực tuyến trên Cổng dịch vụ công.",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb66d-a92f-77bb-9f04-f71f9be365ed",
+    "proposalNumber": "2198/QĐ-UBND",
+    "decisionDate": 1783357200000,
+    "decisionNumber": null,
+    "publicationDate": 1785806585669,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b25-68dfdcdcff0e",
+      "name": "UBND tỉnh Thái Nguyên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

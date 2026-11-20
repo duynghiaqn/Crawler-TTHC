@@ -1,0 +1,203 @@
+{
+  "id": "01a1c9eb-c94c-7653-a525-8567f30aa70d",
+  "code": "5.004060",
+  "codeNotation": "5.004060",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Trong thời hạn 10 ngày kể từ ngày nhận được văn bản đề nghị thu hồi của cơ quan quản lý thuế, cơ quan quản lý nhà nước có thẩm quyền cấp giấy chứng nhận đăng ký kinh doanh thực hiện thu hồi giấy chứng nhận đăng ký kinh doanh theo trình tự, thủ tục quy định hoặc thông báo cho cơ quan quản lý thuế về lý do không thu hồi."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Trong thời hạn 10 ngày kể từ ngày nhận được văn bản đề nghị thu hồi của cơ quan quản lý thuế, cơ quan quản lý nhà nước có thẩm quyền cấp giấy chứng nhận đăng ký kinh doanh thực hiện thu hồi giấy chứng nhận đăng ký kinh doanh theo trình tự, thủ tục quy định hoặc thông báo cho cơ quan quản lý thuế về lý do không thu hồi.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Trong thời hạn 10 ngày kể từ ngày nhận được văn bản đề nghị thu hồi của cơ quan quản lý thuế, cơ quan quản lý nhà nước có thẩm quyền cấp giấy chứng nhận đăng ký kinh doanh thực hiện thu hồi giấy chứng nhận đăng ký kinh doanh theo trình tự, thủ tục quy định hoặc thông báo cho cơ quan quản lý thuế về lý do không thu hồi.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Trong thời hạn 10 ngày kể từ ngày nhận được văn bản đề nghị thu hồi của cơ quan quản lý thuế, cơ quan quản lý nhà nước có thẩm quyền cấp giấy chứng nhận đăng ký kinh doanh thực hiện thu hồi giấy chứng nhận đăng ký kinh doanh theo trình tự, thủ tục quy định hoặc thông báo cho cơ quan quản lý thuế về lý do không thu hồi.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đề nghị thu hồi giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký hợp tác xã, giấy chứng nhận đăng ký đầu tư, giấy phép thành lập và hoạt động, giấy phép hành nghề",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd67-44958fb54371",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thu hồi giấy chứng nhận đăng ký kinh doanh (Mẫu số 07/CC tại Phụ lục III ban hành kèm theo Nghị định  126/2020/NĐ-CP)",
+          "code": "G12.000221",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "* Cơ quan giải quyết thủ tục hành chính: \n- Cơ quan có thẩm quyền quyết định: Phòng đăng ký kinh doanh nơi doanh nghiệp đăng ký hoặc Phòng Tài chính-KH thuộc UBND cấp huyện nơi hộ kinh doanh đặt trụ sở.\n- Cơ quan trực tiếp thực hiện TTHC: Cơ quan quản lý nhà nước có thẩm quyền cấp giấy chứng nhận đăng ký kinh doanh",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d85-73da-8eb9-e5214fd5ac79",
+    "019d2bb3-5d86-7760-a63e-9e72cf1f3ed4",
+    "019d2bb3-5d87-7195-a448-47111f521a58",
+    "019e390e-9094-746b-9b67-f7d43f5290fe"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe9-93b0b0468551"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dbeb0-bbfd-709e-88ba-12512a11892b",
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dbeb0-bbfd-709e-88ba-12512a11892b",
+      "name": "Sở tài chính"
+    },
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d85-73da-8eb9-e5214fd5ac79",
+      "name": "Luật Quản lý thuế",
+      "code": "38/2019/QH14"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63e-9e72cf1f3ed4",
+      "name": "Nghị định 126/2020/NĐ-CP",
+      "code": "126/2020/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a448-47111f521a58",
+      "name": "Nghị định số 01/2021/NĐ-CP về đăng ký doanh nghiệp",
+      "code": "Nghị định số 01/2021/NĐ-CP"
+    },
+    {
+      "id": "019e390e-9094-746b-9b67-f7d43f5290fe",
+      "name": "Luật Doanh nghiệp",
+      "code": "Luật số: 59/2020/QH14"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe9-93b0b0468551",
+      "name": "01 Quyết định thu hồi hoặc văn bản về việc không thu hồi gửi cơ quan thuế",
+      "code": "KQ.G12.000724"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910985,
+  "updatedAt": 1794448910985,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

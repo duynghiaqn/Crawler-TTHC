@@ -1,0 +1,236 @@
+{
+  "id": "01a08034-1223-75c9-999e-27dae9491fc8",
+  "code": "5.004065",
+  "codeNotation": "5.004065",
+  "executionSteps": [
+    {
+      "name": "Thực hiện thủ tục hành chính",
+      "description": "Tổng công ty Quản lý bay Việt Nam gửi 01 bộ hồ sơ đề nghị phê chuẩn sơ đồ, bản đồ hàng không qua dịch vụ bưu chính hoặc hệ thống văn bản điện tử đến Cục Hàng không Việt Nam.\nTrong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng không Việt Nam có trách nhiệm thẩm định hồ sơ. Trường hợp hồ sơ đủ điều kiện, Cục Hàng không Việt Nam ra quyết định phê chuẩn theo mẫu tại Phụ lục II ban hành kèm theo Thông tư này, Tổng công ty Quản lý bay Việt Nam thực hiện công bố tin tức hàng không theo quy định. Trường hợp từ chối phê chuẩn, Cục Hàng không Việt Nam phải thông báo bằng văn bản, nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ qua dịch vụ bưu chính hoặc hệ thống văn bản điện tử đến Cục Hàng không Việt Nam",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ qua dịch vụ bưu chính hoặc hệ thống văn bản điện tử đến Cục Hàng không Việt Nam",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Phê chuẩn sơ đồ, bản đồ hàng không",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18bd2-038b-726f-9ee0-58235948e8fe",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị phê chuẩn sơ đồ, bản đồ  hàng không",
+          "code": "TP-G17.NB.260018",
+          "attachments": [
+            {
+              "id": "01a18bd1-8351-73fe-ae5a-9110c62b7123",
+              "fileName": "TP-G17.NB.260018.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a18bd1-8351-73fe-ae5a-9110c62b7123/TP-G17.NB.260018.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a18bd2-fd9e-74f8-b8d1-865eb8376782",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử dự thảo sơ đồ, bản đồ hàng không",
+          "code": "TP-G17.NB.260019",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18bd3-72f9-7693-818b-9d74ae4ea853",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hoặc bản sao điện tử các tài liệu có liên quan bao gồm cả bảng kiểm tra tuân thủ tương ứng với Phụ ước 4 của ICAO",
+          "code": "TP-G17.NB.260020",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f5e60-6765-772d-b7b4-1e90fc871e31"
+  ],
+  "resultIds": [
+    "01a18bd7-6fea-77e8-a054-a3594c1fb346"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a81-771b-b66e-ebff4abffd7a"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+      "name": "Hàng không",
+      "code": "G04-GT06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+    "name": "Hàng không",
+    "code": "G04-GT06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a81-771b-b66e-ebff4abffd7a",
+      "name": "Cục Hàng không Việt Nam",
+      "code": "G17.44"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f5e60-6765-772d-b7b4-1e90fc871e31",
+      "name": "Thông tư quy định về quản lý và bảo đảm hoạt động bay",
+      "code": "47/2026/TT-BXD"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a18bd7-6fea-77e8-a054-a3594c1fb346",
+      "name": "Quyết định về việc phê chuẩn sơ đồ, bản đồ hàng không",
+      "code": "KQ-G17.NB.260004"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794817833012,
+  "updatedAt": 1794817833012,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Hàng không Việt Nam",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Cục Hàng không Việt Nam",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0802e-4424-7500-9e4a-30dbe3abbf2f",
+    "proposalNumber": "1884/QĐ-BXD",
+    "decisionDate": 1793293200000,
+    "decisionNumber": null,
+    "publicationDate": 1794817832855,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

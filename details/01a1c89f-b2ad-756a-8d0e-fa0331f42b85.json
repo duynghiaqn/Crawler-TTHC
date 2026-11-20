@@ -1,0 +1,207 @@
+{
+  "id": "01a1c89f-b2ad-756a-8d0e-fa0331f42b85",
+  "code": "5.004030",
+  "codeNotation": "5.004030",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Đối tượng vay lại, đối tượng được bảo lãnh lập kế hoạch vay, trả nợ đối với các khoản vay lại và bảo lãnh Chính phủ, gửi Bộ Tài chính để xác định hạn mức vay ODA, vay ưu đãi về cho vay lại và hạn mức bảo lãnh Chính phủ theo quy định tại khoản 5 Điều 3 Nghị định số 84/2026/NĐ-CP sửa đổi, bổ sung khoản 3 Điều 16 Nghị định số 94/2018/NĐ-CP.\n- Căn cứ tổng mức vay, trả nợ của ngân sách nhà nước hằng năm đã được Quốc hội quyết định, Bộ Tài chính xây dựng kế hoạch vay, trả nợ công hằng năm, bao gồm cả hạn mức vay về cho vay lại và hạn mức bảo lãnh Chính phủ, trình Thủ tướng Chính phủ trước ngày 30 tháng 11 của năm liền kề trước năm kế hoạch theo quy định tại khoản 5 Điều 3 Nghị định số 84/2026/NĐ-CP sửa đổi, bổ sung khoản 5 Điều 16 Nghị định số 94/2018/NĐ-CP.\n- Thủ tướng Chính phủ xem xét, phê duyệt kế hoạch vay, trả nợ công hằng năm trước ngày 31 tháng 12 của năm liền kề trước năm kế hoạch."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "- Bộ Tài chính trình Thủ tướng Chính phủ trước ngày 30 tháng 11 của năm liền kề trước năm kế hoạch. - Thủ tướng Chính phủ xem xét, phê duyệt trước ngày 31 tháng 12 của năm liền kề trước năm kế hoạch.",
+      "processingTimeUnit": "OTHER",
+      "description": "- Bộ Tài chính trình Thủ tướng Chính phủ trước ngày 30 tháng 11 của năm liền kề trước năm kế hoạch.\n- Thủ tướng Chính phủ xem xét, phê duyệt trước ngày 31 tháng 12 của năm liền kề trước năm kế hoạch.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "- Bộ Tài chính trình Thủ tướng Chính phủ trước ngày 30 tháng 11 của năm liền kề trước năm kế hoạch. - Thủ tướng Chính phủ xem xét, phê duyệt trước ngày 31 tháng 12 của năm liền kề trước năm kế hoạch.",
+      "processingTimeUnit": "OTHER",
+      "description": "- Bộ Tài chính trình Thủ tướng Chính phủ trước ngày 30 tháng 11 của năm liền kề trước năm kế hoạch.\n- Thủ tướng Chính phủ xem xét, phê duyệt trước ngày 31 tháng 12 của năm liền kề trước năm kế hoạch.",
+      "fees": []
+    }
+  ],
+  "description": "Hằng năm",
+  "name": "Quyết định kế hoạch vay, trả nợ công hằng năm",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1cd91-ebf1-733f-87f6-e52c5e17e49b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đánh giá thực hiện các chỉ tiêu an toàn nợ công, kế hoạch vay, trả nợ công năm hiện hành",
+          "code": "G12.000252",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1cd92-1ed9-75ca-a3de-d9e42ec40773",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự kiến các chỉ tiêu an toàn nợ công, dự kiến tổng mức vay, trả nợ của ngân sách trung ương, ngân sách địa phương; hạn mức về cho vay lại và hạn mức bảo lãnh Chính phủ của năm kế hoạch",
+          "code": "G12.000253",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1cd92-5263-738f-9a9f-3c13d0664907",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các giải pháp quản lý nợ công để thực hiện kế hoạch",
+          "code": "G12.000254",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "UPDATED",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-0e32442a1598"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d86-7760-a643-9625ea4eee34",
+    "01a1cd8c-a6c3-718d-8a7c-7fbc0b2d3514",
+    "01a1cd8e-e494-773e-a25b-2593fc1e4606"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe9-382502ba27b8"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+      "name": "Quản lý nợ",
+      "code": "G12-TC12"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+    "name": "Quản lý nợ",
+    "code": "G12-TC12"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d86-7760-a643-9625ea4eee34",
+      "name": "Luật Quản lý nợ công",
+      "code": "20/2017/QH14"
+    },
+    {
+      "id": "01a1cd8e-e494-773e-a25b-2593fc1e4606",
+      "name": "Nghị định số 84/2026/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của các Nghị định của Chính phủ trong lĩnh vực quản lý nợ công",
+      "code": "84/2026/NĐ-CP"
+    },
+    {
+      "id": "01a1cd8c-a6c3-718d-8a7c-7fbc0b2d3514",
+      "name": "Luật 141/2025/QH15 Sửa đổi, bổ sung một số điều của Luật Quản lý nợ công",
+      "code": "141/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe9-382502ba27b8",
+      "name": "Quyết định của Thủ tướng Chính phủ phê duyệt kế hoạch vay, trả nợ công hằng năm",
+      "code": "KQ.G12.000696"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448920565,
+  "updatedAt": 1794450490885,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thủ tướng Chính phủ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ Tài chính",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Hằng năm",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a18c0e-52fc-7019-ba0c-1c8826b16b11",
+    "proposalNumber": "2214/QĐ-BTC",
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1794450490816,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

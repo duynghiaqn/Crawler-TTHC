@@ -1,0 +1,212 @@
+{
+  "id": "01a18ad7-1914-70f8-b1d7-ab495fb19282",
+  "code": "6.006857",
+  "codeNotation": "6.006857",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Căn cứ tình hình thực tế tại địa phương, trường hợp cần thiết thành lập Quỹ phát triển đất. UBND cấp tỉnh giao cho cơ quan chuyên môn thuộc UBND cấp tỉnh chủ trì, phối hợp với các cơ quan chức năng của địa phương lập hồ sơ đề nghị thành lập Quỹ phát triển đất, trình UBND cấp tỉnh.\nBước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ, UBND cấp tỉnh xem xét, trình Hội đồng nhân dân cấp tỉnh để xem xét, thông qua Đề án.\nBước 3: Trong thời hạn 30 ngày, kể từ ngày Đề án được Hội đồng nhân dân cấp tỉnh thông qua, UBND có trách nhiệm: (i) Phê duyệt Đề án thành lập Quỹ phát triển đất và ban hành Quyết định thành lập Quỹ phát triển đất; (ii) Ban hành Điều lệ tổ chức và hoạt động của Quỹ phát triển đất; (iii) Có văn bản thông báo đến Bộ Tài chính về việc thành lập Quỹ phát triển đất."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 60 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 60 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Thành lập Quỹ phát triển đất",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18af4-5fd3-7327-a352-f4de2a579596",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình của cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh về việc đề nghị thành lập Quỹ phát triển đất",
+          "code": "G12.06.0101",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18af4-e700-76fa-96ea-cc9376625ba3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đề án thành lập Quỹ phát triển đất do cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh lập",
+          "code": "G12.06.0102",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18af5-ad9d-70b2-a338-ae8959ddd31f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản tổng hợp, giải trình, tiếp thu ý kiến của các cơ quan có liên quan (nếu có)",
+          "code": "G12.06.0104",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18af5-5390-7005-b8aa-5aed07c82875",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Dự thảo Điều lệ tổ chức và hoạt động của Quỹ phát triển đất với các nội dung theo quy định tại khoản 1 Điều 4 Nghị định số 104/2024/NĐ-CP ngày 31/7/2024 của Chính phủ",
+          "code": "G12.06.0103",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18af6-4c7e-7378-a43a-0daca23bea58",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Ý kiến của các cơ quan có liên quan (nếu có)",
+          "code": "G12.06.105",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan chuyên môn thuộc UBDN cấp tỉnh.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46c-2ac0a8e0dd8a"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-3e151de5703d"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-2ac0a8e0dd8a",
+      "name": "Nghị định số 291/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 103/2024/NĐ-CP ngày 30 tháng 7 năm 2024 của Chính phủ quy định về tiền sử dụng đất, tiền thuê đất và Nghị định số 104/2024/NĐ-CP ngày 31 tháng 7 năm 2024 của Chính phủ quy định về Quỹ phát triển đất",
+      "code": "291/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-3e151de5703d",
+      "name": "Đề án thành lập Quỹ phát triển đất và Quyết định thành lập Quỹ phát triển đất.",
+      "code": "KQ.G12.000942"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910939,
+  "updatedAt": 1794448910939,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: UBND cấp tỉnh.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

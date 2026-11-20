@@ -1,0 +1,256 @@
+{
+  "id": "01a1a441-3a1b-70f8-8878-359984796691",
+  "code": "5.004021",
+  "codeNotation": "5.004021",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Chủ chương trình có trách nhiệm:\n- Giao đơn vị trực thuộc lập báo cáo đề xuất chủ trương đầu tư;\n- Giao đơn vị, cơ quan có chức năng thẩm định hoặc thành lập Hội đồng để thẩm định báo cáo đề xuất chủ trương đầu tư;\n- Hoàn chỉnh báo cáo đề xuất chủ trương đầu tư trình Thủ tướng Chính phủ.\nBước 2:  Thủ tướng Chính phủ quyết định thành lập Hội đồng liên ngành hoặc giao Bộ Tài chính chủ trì, phối hợp với các cơ quan có liên quan thẩm định báo cáo đề xuất chủ trương đầu tư.\nBước 3: Chủ chương trình hoàn chỉnh báo cáo đề xuất chủ trương đầu tư theo ý kiến thẩm định quy định tại Bước 2 nêu trên trình Chính phủ.\nBước 4: Chính phủ xem xét, quyết định chủ trương đầu tư, bao gồm mục tiêu, phạm vi, quy mô, tổng mức đầu tư, thời gian, tiến độ, cơ chế giải pháp, chính sách thực hiện."
+    },
+    {
+      "name": "",
+      "description": "* Trường hợp các nội dung của Báo cáo nghiên cứu tiền khả thi, Báo cáo đề xuất chủ trương đầu tư đối với chương trình mục tiêu quốc gia, dự án quan trọng quốc gia, chương trình đầu tư công; chương trình, dự án đầu tư nhóm A sử dụng vốn vay ODA và vốn vay ưu đãi có thay đổi so với nội dung chính Đề xuất chương trình, dự án đã được Thủ tướng Chính phủ phê duyệt quy định tại điểm d khoản 2 Điều 13 Nghị định số 114/2021/NĐ-CP: Cơ quan chủ quản báo cáo cụ thể các nội dung thay đổi so với Đề xuất chương trình, dự án đã được phê duyệt tại Tờ trình thẩm định báo cáo nghiên cứu tiền khả thi, báo cáo đề xuất chủ trương đầu tư chương trình, dự án theo quy định tại điểm b khoản 1 Điều 15 của Nghị định số 114/2021/NĐ-CP."
+    },
+    {
+      "name": "",
+      "description": "* Trường hợp các nội dung của Báo cáo đề xuất chủ trương đầu tư đối với dự án không quy định tại khoản 7 của Điều 14 Nghị định 114/2021/NĐ-CP có thay đổi so với nội dung chính Đề xuất chương trình, dự án đã được Thủ tướng Chính phủ phê duyệt quy định tại điểm d khoản 2 Điều 13: Cơ quan chủ quản thực hiện trình tự, thủ tục điều chỉnh Đề xuất chương trình, dự án theo quy định tại khoản 5 Điều 13 trước khi thực hiện trình tự, thủ tục trình cấp có thẩm quyền quyết định chủ trương đầu tư dự án."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thẩm định báo cáo đề xuất chủ trương đầu tư kể từ ngày Hội đồng thẩm định hoặc cơ quan chủ trì thẩm định hồ sơ hợp lệ đối với chương trình đầu tư công: không quá 45 ngày.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 45,
+      "processingTimeUnit": "DAY",
+      "description": "Thời gian thẩm định báo cáo đề xuất chủ trương đầu tư kể từ ngày Hội đồng thẩm định hoặc cơ quan chủ trì thẩm định hồ sơ hợp lệ đối với chương trình đầu tư công: không quá 45 ngày",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Quyết định chủ trương đầu tư chương trình đầu tư công sử dụng vốn ODA, vốn vay ưu đãi thuộc thẩm quyền của Chính phủ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Số lượng hồ sơ thẩm định gửi Hội đồng thẩm định hoặc cơ quan chủ trì thẩm định tối thiểu là 10 bộ tài liệu.",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd74-500504ed7745",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị cấp có thẩm quyền quyết định chủ trương đầu tư chương trình, dự án theo mẫu tại Phụ lục IVa kèm theo Nghị định số 114/2021/NĐ-CP.",
+          "code": "G12.000025",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd74-473ad166ec48",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản phê duyệt Đề xuất chương trình, dự án của cấp có thẩm quyền; Văn bản góp ý của Bộ Tài chính, Bộ Tài chính và các cơ quan có liên quan (đối với dự án đầu tư nhóm B, nhóm C sử dụng vốn ODA và vốn vay ưu đãi)",
+          "code": "G12.000066",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-902e-f963c57ac90b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kết quả thẩm định nội bộ của cơ quan chủ quản về chủ trương đầu tư chương trình, dự án sử dụng vốn ODA, vốn vay ưu đãi (đối với chương trình mục tiêu quốc gia, dự án quan trọng quốc gia, chương trình đầu tư công; chương trình, dự án đầu tư nhóm A sử dụng vốn ODA và vốn vay ưu đãi, chương trình, dự án đầu tư khác sử dụng vốn ODA và vốn vay ưu đãi thuộc thẩm quyền quyết định chủ trương đầu tư của Thủ tướng Chính phủ)",
+          "code": "G12.000067",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8cdc-e26850c5601d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo nghiên cứu tiền khả thi hoặc báo cáo đề xuất chủ trương đầu tư chương trình, dự án theo mẫu tại Phụ lục IIIa, IIIb, IIIc kèm theo Nghị định số 114/2021/NĐ-CP",
+          "code": "G12.000068",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a9-737c-8cdc-e6d17e1490aa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo đánh giá tình hình thực hiện chương trình, dự án trong giai đoạn trước (đối với các chương trình, dự án thực hiện giai đoạn trước, tiếp tục thực hiện trong giai đoạn mới)",
+          "code": "G12.000029",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd74-658a8e6e592d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ý kiến của Hội đồng nhân dân cấp tỉnh đối với dự án nhóm A sử dụng vốn ODA, vốn vay ưu đãi do Ủy ban nhân dân cấp tỉnh chuẩn bị báo cáo nghiên cứu tiền khả thi theo quy định tại điểm c khoản 1 Điều 23 Luật Đầu tư công",
+          "code": "G12.000064",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9026-c65aa4cb6e7b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu liên quan khác (nếu có)",
+          "code": "G12.000030",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-438829520d92"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-0fbdece3a4c4",
+    "019d2bb3-5d86-7760-a643-b73160a35fcb"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3d-7379-a672-326c0a899ae1"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a80-747a-9d03-f9b0b9b33781"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-438829520d92",
+      "name": "Đầu tư bằng vốn hỗ trợ phát triển chính thức (ODA) và viện trợ không hoàn lại không thuộc hỗ trợ phát triển chính thức",
+      "code": "G12.03.KTĐN"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a80-747a-9d03-f9b0b9b33781",
+      "name": "Chính phủ",
+      "code": "CP"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-0fbdece3a4c4",
+      "name": "- Nghị định số 114/2021/NĐ-CP ngày 16/12/2021 của Chính phủ về Quản lý và sử dụng vốn hỗ trợ phát triển chính thức (ODA) và nguốn vay ưu đãi của Nhà tài trợ nước ngoài;",
+      "code": "114"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a643-b73160a35fcb",
+      "name": "Nghị định số 20/2023/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 114/2021/NĐ-CP ngày 16 tháng 12 năm 2021 về quản lý và sử dụng vốn hỗ trợ phát triển chính thức (ODA) và vốn vay ưu đãi của nhà tài trợ nước ngoài",
+      "code": "20/2023/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3d-7379-a672-326c0a899ae1",
+      "name": "Quyết định chủ trương đầu tư của Thủ tướng Chính phủ.",
+      "code": "KQ.G12.000446"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448922678,
+  "updatedAt": 1794448922678,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Chính phủ",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

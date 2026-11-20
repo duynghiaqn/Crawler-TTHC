@@ -1,0 +1,408 @@
+{
+  "id": "019d2bfc-6c24-7456-8590-5124b41d2067",
+  "code": "1.008568",
+  "codeNotation": "1.008568",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Tổ chức, hộ gia đình, cá nhân nộp hồ sơ đề nghị miễn, giảm tiền thuê đất tại cơ quan thuế nơi có đất, theo thời hạn đối với từng trường hợp quy định tại Nghị định số 230/2025/NĐ-CP hoặc quy định của Chính phủ."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan thuế tiếp nhận: Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định; Trường hợp thông tin khai trên văn bản đề nghị miễn thuế, giảm thuế không trùng khớp với thông tin trên hồ sơ miễn thuế, giảm thuế của người nộp thuế hoặc thông tin khai trên văn bản đề nghị miễn thuế, giảm thuế không trùng khớp với thông tin quản lý của cơ quan thuế dẫn đến cơ quan thuế chưa đủ thông tin để xác định hồ sơ miễn thuế, giảm thuế của người nộp thuế thuộc đối tượng và trường hợp được miễn thuế, giảm thuế, cơ quan thuế lập Thông báo giải trình, bổ sung thông tin, tài liệu theo mẫu số 01/TB-BSTT-NNT Phụ lục V ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính gửi người nộp thuế trong thời hạn 03 ngày làm việc kể từ ngày cơ quan thuế tiếp nhận hồ sơ miễn thuế, giảm thuế của người nộp thuế.\n\tNgười nộp thuế không phải nộp lại các chứng từ, tài liệu có trong hồ sơ thuế và không phải khai lại các thông tin đã có trong Hệ thống thông tin quản lý thuế hoặc cơ quan thuế đã khai thác được từ cơ sở dữ liệu quốc gia hoặc được các bộ, ngành chia sẻ thông qua Hệ thống thông tin quản lý thuế. Hệ thống thông tin quản lý thuế cập nhật và hiển thị các chứng từ, tài liệu, thông tin trong hồ sơ thuế để người nộp thuế tra cứu khi thực hiện thủ tục hành chính thuế."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp cơ quan thuế xác định số tiền, thu nhập được miễn thuế, giảm thuế thì trong thời hạn 30 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ, cơ quan thuế có quyết định, thông báo miễn thuế, giảm thuế hoặc thông báo lý do không được miễn thuế, giảm thuế. Thời hạn giải quyết hồ sơ miễn thuế, giảm thuế không bao gồm thời gian người nộp thuế được giải trình, bổ sung thông tin tài liệu theo thông báo của cơ quan thuế khi giải quyết hồ sơ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp cơ quan thuế xác định số tiền, thu nhập được miễn thuế, giảm thuế thì trong thời hạn 30 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ, cơ quan thuế có quyết định, thông báo miễn thuế, giảm thuế hoặc thông báo lý do không được miễn thuế, giảm thuế. Thời hạn giải quyết hồ sơ miễn thuế, giảm thuế không bao gồm thời gian người nộp thuế được giải trình, bổ sung thông tin tài liệu theo thông báo của cơ quan thuế khi giải quyết hồ sơ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp cơ quan thuế xác định số tiền, thu nhập được miễn thuế, giảm thuế thì trong thời hạn 30 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ, cơ quan thuế có quyết định, thông báo miễn thuế, giảm thuế hoặc thông báo lý do không được miễn thuế, giảm thuế. Thời hạn giải quyết hồ sơ miễn thuế, giảm thuế không bao gồm thời gian người nộp thuế được giải trình, bổ sung thông tin tài liệu theo thông báo của cơ quan thuế khi giải quyết hồ sơ.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "name": "Miễn tiền thuê đất một số năm, giảm tiền thuê đất trong trường hợp cơ quan thuế thông báo, quyết định miễn, giảm tiền thuê đất",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "(i) Hồ sơ miễn, giảm tiền thuê đất đối với tổ chức, đơn vị có sử dụng lao động là người dân tộc thiểu số cư trú hợp pháp trên địa bàn các tỉnh và các địa bàn có địa giới hành chính thuộc đối tượng được hưởng chính sách hỗ trợ theo Quyết định của Thủ tướng Chính phủ về việc hỗ trợ tổ chức, đơn vị sử dụng lao động là người dân tộc thiểu số tại khu vực miền núi, vùng đặc biệt khó khăn theo quy định tại khoản 5 Điều 5 Nghị định số 230/2025/NĐ-CP, bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-eb212e39a486",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0001163",
+          "attachments": [
+            {
+              "id": "019fa783-2c06-74da-bdc2-b8db8efd0de0",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa783-2c06-74da-bdc2-b8db8efd0de0/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019e6348-2fe8-7311-aa07-4617c7badfae",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao văn bản của tổ chức, đơn vị thông tin về: tỷ lệ (%) sử dụng lao động là người dân tộc thiểu số, số lao động là người dân tộc thiểu số bình quân năm và số lao động có mặt làm việc thường xuyên bình quân năm theo quy định tại khoản 5 Điều 5 Nghị định số 230/2025/NĐ-CP. Tổ chức, đơn vị có sử dụng lao động là người dân tộc thiểu số chịu trách nhiệm về các thông tin cung cấp nêu trên;",
+          "code": "G12.0001164",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-c23ae4e067b5",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao: Quyết định cho thuê đất hoặc Hợp đồng thuê đất hoặc văn bản về sử dụng đất của cơ quan, người có thẩm quyền cho thuê đất",
+          "code": "G12.0001165",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(ii) Hồ sơ miễn, giảm tiền thuê đất đối với tổ chức, đơn vị có sử dụng lao động là người khuyết tật được nhà nước cho thuê đất trả tiền thuê đất hằng năm sử dụng vào mục đích sản xuất, kinh doanh theo quy định tại khoản 6 Điều 5 Nghị định số 230/2025/NĐ-CP, bao gồm",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-eb212e39a486",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "G12.0001163",
+          "attachments": [
+            {
+              "id": "019fa783-2c06-74da-bdc2-b8db8efd0de0",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa783-2c06-74da-bdc2-b8db8efd0de0/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019e634c-c980-740b-9b4e-f5d9e0360fec",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao Quyết định của cơ quan nhà nước có thẩm quyền công nhận cơ sở sản xuất, kinh doanh sử dụng từ 30% tổng số lao động trở lên là người khuyết tật theo quy định tại Thông tư số 18/2018/TT-BLĐTBXH của Bộ trưởng Bộ Lao động - Thương binh và Xã hội sửa đổi, bổ sung một số điều của các Thông tư liên quan đến thủ tục hành chính thuộc phạm vi chức năng quản lý nhà nước của Bộ Lao động - Thương binh và Xã hội hoặc bản sao văn bản của tổ chức, đơn vị thông tin về tỷ lệ (%) sử dụng lao động là người khuyết tật của năm trước liền kề năm phải nộp tiền thuê đất theo quy định tại khoản 6 Điều 5 Nghị định số 230/2025/NĐ-CP. Tổ chức, đơn vị có sử dụng lao động là người khuyết tật chịu trách nhiệm về thông tin cung cấp nêu trên;",
+          "code": "G12.0001166",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71af-7518-a314-c23ae4e067b5",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao: Quyết định cho thuê đất hoặc Hợp đồng thuê đất hoặc văn bản về sử dụng đất của cơ quan, người có thẩm quyền cho thuê đất",
+          "code": "G12.0001165",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "(iii) Hồ sơ miễn, giảm tiền thuê đất đối với các trường hợp khác theo quy định của Chính phủ, bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa70e-6af5-72e3-b8ec-eb5eaa2e9765",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo mẫu số 01/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính",
+          "code": "TP-G12.0001019",
+          "attachments": [
+            {
+              "id": "019fa783-8edd-7585-a181-840bc6a50ab4",
+              "fileName": "01 - MGTH-TT89.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa783-8edd-7585-a181-840bc6a50ab4/01 - MGTH-TT89.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa710-5ceb-7412-a9e2-e5f2f505a93b",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao: Quyết định cho thuê đất hoặc Hợp đồng thuê đất hoặc văn bản về việc cho thuê đất của cơ quan, người có thẩm quyền cho thuê đất",
+          "code": "TP-G12.0001020",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa710-fd75-72bd-acf4-73a94506142f",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy tờ chứng minh thuộc đối tượng được miễn, giảm tiền thuê đất.",
+          "code": "TP-G12.0001021",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb1c1-e12f-77f1-878a-608852876552",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ ngày 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì mẫu số 01/MGTH thực hiện theo mẫu biểu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư 40/2025/TT-BTC và Thông tư 94/2025/TT-BTC).",
+          "code": "G12.0011211",
+          "attachments": [
+            {
+              "id": "019fb1c2-0aff-75ff-aeb3-03034e5b2385",
+              "fileName": "01 MGTH TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb1c2-0aff-75ff-aeb3-03034e5b2385/01 MGTH TT 80.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "- Đối tượng thực hiện thủ tục hành chính: Tổ chức, hộ gia đình, cá nhân.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d7e-72d1-afed-bb9d18045764",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96df-0d8378c6d2fa",
+    "019d2bb2-1c71-7574-afe8-17852300bbbb"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afed-bb9d18045764",
+      "name": "Nghị định số 230/2025/NĐ-CP Quy định các trường hợp khác được miễn, giảm tiền sử dụng đất, tiền thuê đất theo quy định tại khoản 2 Điều 157 Luật Đất đai năm 2024",
+      "code": "230/2025/NĐ-CP"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe8-17852300bbbb",
+      "name": "Thông báo không được miễn thuế, giảm thuế theo mẫu số 04/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+      "code": "KQ.G12.000558"
+    },
+    {
+      "id": "019d2bb2-1c70-724b-96df-0d8378c6d2fa",
+      "name": "Quyết định miễn thuế, giảm thuế theo mẫu số 03/MGTH Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC",
+      "code": "KQ.G12.000260"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019fb215-d1e5-76da-bf70-36f6e37fda79",
+      "name": "Miễn, giảm thu tiền sử dụng đất",
+      "code": "1.008568.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2dc3-8f50-7348-afe2-03e8528eee60",
+      "name": "Miễn, giảm thu tiền sử dụng đất",
+      "code": "1.008568.01",
+      "processingDay": {
+        "qty": 30,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559456292,
+  "updatedAt": 1785399197471,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thuế cơ sở, Thuế tỉnh, thành phố",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

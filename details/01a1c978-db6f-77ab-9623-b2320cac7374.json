@@ -1,0 +1,226 @@
+{
+  "id": "01a1c978-db6f-77ab-9623-b2320cac7374",
+  "code": "5.004045",
+  "codeNotation": "5.004045",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan lập quy hoạch chủ trì, phối hợp với các Bộ, cơ quan ngang Bộ và địa phương liên quan xây dựng nhiệm vụ lập quy hoạch trình Thủ tướng Chính phủ phê duyệt;\n- Cơ quan lập quy hoạch lựa chọn tổ chức tư vấn lập quy hoạch; chủ trì, phối hợp với các Bộ, cơ quan ngang Bộ và địa phương liên quan nghiên cứu, phân tích, đánh giá, dự báo về các yếu tố, điều kiện, nguồn lực, bối cảnh phát triển, đánh giá thực trạng phát triển kinh tế - xã hội của vùng, đề xuất các quan điểm, mục tiêu, nội dung quy hoạch; gửi các Bộ, cơ quan ngang Bộ liên quan và địa phương trong vùng;\n- Các Bộ, cơ quan ngang Bộ liên quan và địa phương trong vùng tham gia ý kiến, đề xuất các nội dung quy hoạch thuộc phạm vi quản lý, gửi cơ quan lập quy hoạch;\n- Cơ quan lập quy hoạch chủ trì, phối hợp với các Bộ, cơ quan ngang Bộ và địa phương liên quan xem xét, xử lý các vấn đề liên vùng, liên tỉnh nhằm bảo đảm tính thống nhất, đồng bộ và hiệu quả của quy hoạch;\n- Cơ quan lập quy hoạch hoàn thiện quy hoạch và gửi lấy ý kiến theo quy định tại Điều 19 của Luật Quy hoạch;\nĐánh giá môi trường chiến lược đối với quy hoạch vùng thực hiện theo quy định tại các khoản 1, 3, 4, 5 và 6 Điều 26 Luật Bảo vệ môi trường. Cơ quan lập quy hoạch chịu trách nhiệm lấy ý kiến Bộ Nông nghiệp và Môi trường bằng văn bản đồng thời với việc lấy ý kiến về quy hoạch. Bộ Nông nghiệp và Môi trường có trách nhiệm trả lời bằng văn bản bao gồm nội dung về quy hoạch và nội dung báo cáo đánh giá môi trường chiến lược đối với quy hoạch;\n- Cơ quan lập quy hoạch tiếp thu, giải trình ý kiến góp ý và hoàn thiện quy hoạch trình Hội đồng thẩm định quy hoạch;\n- Cơ quan lập quy hoạch hoàn thiện quy hoạch theo kết luận của Hội đồng thẩm định quy hoạch trình Thủ tướng Chính phủ phê duyệt."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Theo quy định tại Nghị định số 37/2019/NĐ-CP của Chính phủ, các cơ quan được hỏi ý kiến có trách nhiệm trả lời bằng văn bản trong thời hạn 30 ngày tính từ ngày nhận được hồ sơ lấy ý kiến về quy hoạch.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Theo quy định tại Nghị định số 37/2019/NĐ-CP của Chính phủ, các cơ quan được hỏi ý kiến có trách nhiệm trả lời bằng văn bản trong thời hạn 30 ngày tính từ ngày nhận được hồ sơ lấy ý kiến về quy hoạch.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Lập quy hoạch vùng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Số lượng gửi hồ sơ xin ý kiến: Gửi tới Ủy ban trung ương Mặt trận Tổ quốc Việt Nam; các bộ, cơ quan ngang bộ liên quan; Ủy ban nhân dân cấp tỉnh các địa phương trong vùng, các địa phương liền kề vùng và các địa phương nằm trong lưu vực sông liên quan tới quy hoạch vùng; cộng đồng dân cư, cơ quan, tổ chức, cá nhân có liên quan đến quy hoạch vùng.",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-903b-2dc63dcec593",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo quy hoạch",
+          "code": "G12.000195",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c37-8130-766b-bed5-2fc0c058d3ae",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo đánh giá môi trường chiến lược",
+          "code": "G12.000196",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9032-8de3af13e09b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hệ thống sơ đồ, bản đồ thể hiện nội dung quy hoạch",
+          "code": "G12.000197",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9032-a8f9403008d3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp quy hoạch có liên quan tới biên giới, hải đảo, vị trí chiến lược về quốc phòng, an ninh, cơ quan lập quy hoạch phải thống nhất với Bộ Quốc phòng và Bộ Công an về nội dung quy hoạch trước khi gửi lấy ý kiến về quy hoạch.",
+          "code": "G12.000198",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "* Đối tượng thực hiện thủ tục hành chính: Ủy ban trung ương Mặt trận Tổ quốc Việt Nam; các bộ, cơ quan ngang bộ liên quan; Ủy ban nhân dân cấp tỉnh các địa phương trong vùng, các địa phương liền kề vùng và các địa phương nằm trong lưu vực sông liên quan tới quy hoạch vùng; cộng đồng dân cư, cơ quan, tổ chức, cá nhân có liên quan đến quy hoạch vùng.\n* Cơ quan giải quyết thủ tục hành chính: Cơ quan trực tiếp thực hiện TTHC: Thủ tướng Chính phủ tổ chức lập quy hoạch vùng. \n* Cơ quan phối hợp thực hiện TTHC: Các Bộ, ngành, địa phương và các cơ quan liên quan khác",
+  "keywords": "",
+  "categoryIds": [
+    "019d2c08-77b9-731a-ae11-3c0ff1ccab76"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46d-397f9bc04d2c",
+    "019d2bb3-5d7f-719e-b46f-3953218b7ee4",
+    "019d2bb3-5d84-71c5-b673-97f79082d98a",
+    "019d2bb3-5d86-7760-a642-6690722ed369"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afeb-ba9fd0eb98f5"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2c08-77b9-731a-ae11-3c0ff1ccab76",
+      "name": "Quy hoạch (Quản lý quy hoạch)",
+      "code": "G12.95"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46d-397f9bc04d2c",
+      "name": "Nghị định số 37/2019/NĐ-CP ngày 07/5/2019 của Chính phủ quy định chi tiết thi hành một số điều của Luật Quy hoạch.",
+      "code": "37/2019/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46f-3953218b7ee4",
+      "name": "Nghị định 58/2023/NĐ-CP sửa đổi Nghị định 37/2019/NĐ-CP hướng dẫn Luật Quy hoạch",
+      "code": "58/2023/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-97f79082d98a",
+      "name": "Luật số 57/2024/QH15 ngày 29/11/2024",
+      "code": "57/2024/QH15"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a642-6690722ed369",
+      "name": "Quy định chi tiết một số điều của Luật Quy hoạch đô thị và nông thôn.",
+      "code": "178/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afeb-ba9fd0eb98f5",
+      "name": "Văn bản phê duyệt quy hoạch",
+      "code": "KQ.G12.001330"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911002,
+  "updatedAt": 1794448911002,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thủ tướng Chính phủ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "id": "019f656c-4ad8-760b-a18c-e490cb0874a9",
+  "code": "1.115836",
+  "codeNotation": "1.115836",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh; Trung tâm Phục vụ hành chính công các xã, phường, đặc khu và Điểm Tiếp nhận và Trả kết quả hoặc qua dịch vụ bưu chính hoặc trực tuyến tại Cổng dịch vụ quốc gia https://dichvucong.gov.vn/.\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nTrường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện: \n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện: \n- Xác nhận xóa cho thuê, cho thuê lại vào Giấy chứng nhận đã cấp của chủ đầu tư dự án và trả Giấy chứng nhận cho chủ đầu tư dự án.\n- Thu hồi Giấy chứng nhận đã cấp của bên thuê, bên thuê lại đất.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 13 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định tại Nghị quyết của Hội đồng nhân dân tỉnh",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định tại Nghị quyết của Hội đồng nhân dân tỉnh.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 13 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định tại Nghị quyết của Hội đồng nhân dân tỉnh",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định tại Nghị quyết của Hội đồng nhân dân tỉnh.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 13 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định tại Nghị quyết của Hội đồng nhân dân tỉnh",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định tại Nghị quyết của Hội đồng nhân dân tỉnh.",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Quảng Ninh - Xóa đăng ký thuê, cho thuê lại quyền sử dụng đất trong dự án xây dựng kinh doanh kết cấu hạ tầng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f74e9-2fda-736b-9b61-1157a5dfd309",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 18 ban hành kèm theo Quy định này;",
+          "code": "DD087",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7519-3bc2-716f-838c-2bf5f38f2dba",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp.",
+          "code": "DD123",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7554-6a08-74df-9933-12afe578bbcf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc xóa cho thuê, xóa cho thuê lại quyền sử dụng đất",
+          "code": "DD259",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f7554-a5ba-7252-ae91-053d35243d52",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục thông qua người đại diện.",
+          "code": "DD260",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019eab72-e75f-7064-886d-9dddc82fa4a4",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019f63b1-5de8-7273-a9ec-2c94ef27b0d7"
+  ],
+  "resultIds": [
+    "019f63ad-e26e-7588-a769-c3336808b482"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
+      "name": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP "
+    },
+    {
+      "id": "019f63b1-5de8-7273-a9ec-2c94ef27b0d7",
+      "name": "quy định trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Quảng Ninh.",
+      "code": "60/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f63ad-e26e-7588-a769-c3336808b482",
+      "name": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.",
+      "code": "KQ.H37 0002"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b1c-46b23e7f2084",
+  "departmentPromulgateCode": "H49",
+  "departmentPromulgateName": "UBND tỉnh Quảng Ninh",
+  "cases": [
+    {
+      "id": "019f7733-89f4-743a-a123-0b3cfeecffbd",
+      "name": "Quảng Ninh - Xóa đăng ký thuê, cho thuê lại quyền sử dụng đất trong dự án xây dựng kinh doanh kết cấu hạ tầng",
+      "code": "1.115836.01",
+      "processingDay": {
+        "qty": 13,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1784407343419,
+  "updatedAt": 1784435016404,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f63b3-ca90-741f-91fd-20abd7e67264",
+    "proposalNumber": "294/QĐ-VP.UBND.KSTT",
+    "decisionDate": 1783962000000,
+    "decisionNumber": null,
+    "publicationDate": 1784407343126,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b1c-46b23e7f2084",
+      "name": "UBND tỉnh Quảng Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "ONLINE",
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

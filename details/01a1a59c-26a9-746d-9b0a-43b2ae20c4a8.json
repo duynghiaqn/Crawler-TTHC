@@ -1,0 +1,216 @@
+{
+  "id": "01a1a59c-26a9-746d-9b0a-43b2ae20c4a8",
+  "code": "6.006923",
+  "codeNotation": "6.006923",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Trước ngày 31 tháng 7 hằng năm, Ngân hàng Phát triển Việt Nam xây dựng kế hoạch vốn tín dụng đầu tư của Nhà nước năm sau gửi Bộ Tài chính.\n- Trước ngày 31 tháng 8 hằng năm, Bộ Tài chính chủ trì, phối hợp với Ngân hàng Phát triển Việt Nam rà soát, hoàn thiện kế hoạch vốn tín dụng đầu tư của Nhà nước năm sau do Ngân hàng Phát triển Việt Nam xây dựng.\n- Trước ngày 31 tháng 12 hằng năm, Bộ Tài chính chủ trì, báo cáo Thủ tướng Chính phủ giao chỉ tiêu tổng mức tăng trưởng tín dụng đầu tư của Nhà nước hoặc tổng mức kế hoạch vốn tín dụng đầu tư của Nhà nước năm sau cho Ngân hàng Phát triển Việt Nam."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 54,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: \n- 40 ngày (không kể thời hạn Thủ tướng Chính phủ xem xét, quyết định) trong trường hợp không cần yêu cầu Ngân hàng Phát triển Việt Nam, khách hàng giải trình ý kiến Bộ, ngành, địa phương;\n- 54 ngày (không kể thời hạn Thủ tướng Chính phủ xem xét, quyết định) trong trường hợp cần yêu cầu Ngân hàng Phát triển Việt Nam, khách hàng giải trình ý kiến Bộ, ngành, địa phương",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 54,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: \n- 40 ngày (không kể thời hạn Thủ tướng Chính phủ xem xét, quyết định) trong trường hợp không cần yêu cầu Ngân hàng Phát triển Việt Nam, khách hàng giải trình ý kiến Bộ, ngành, địa phương;\n- 54 ngày (không kể thời hạn Thủ tướng Chính phủ xem xét, quyết định) trong trường hợp cần yêu cầu Ngân hàng Phát triển Việt Nam, khách hàng giải trình ý kiến Bộ, ngành, địa phương",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 54,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: \n- 40 ngày (không kể thời hạn Thủ tướng Chính phủ xem xét, quyết định) trong trường hợp không cần yêu cầu Ngân hàng Phát triển Việt Nam, khách hàng giải trình ý kiến Bộ, ngành, địa phương;\n- 54 ngày (không kể thời hạn Thủ tướng Chính phủ xem xét, quyết định) trong trường hợp cần yêu cầu Ngân hàng Phát triển Việt Nam, khách hàng giải trình ý kiến Bộ, ngành, địa phương",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "name": "Giao chỉ tiêu tổng mức tăng trưởng tín dụng đầu tư của Nhà nước hoặc tổng mức kế hoạch vốn tín dụng đầu tư của Nhà nước năm sau cho Ngân hàng Phát triển Việt Nam",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ kế hoạch vốn tín dụng đầu tư của Nhà nước do Ngân hàng Phát triển Việt Nam xây dựng bao gồm các nội dung:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a59f-36c5-7619-b935-7bfe2f81baf7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tình hình triển khai và kết quả thực hiện kế hoạch vốn tín dụng đầu tư của Nhà nước năm thực hiện, dự kiến kế hoạch vốn tín dụng đầu tư của Nhà nước năm sau",
+          "code": "G12.000112",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a59f-744c-71f9-a920-c28f1795cb3b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Khả năng huy động vốn và cân đối nguồn vốn để thực hiện kế hoạch vốn tín dụng đầu tư của Nhà nước",
+          "code": "G12.000113",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a59f-adf5-7441-9b2c-4081f2440ad8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Kế hoạch cấp bù lãi suất tín dụng ưu đãi, phí quản lý, vốn điều lệ của Ngân hàng Phát triển Việt Nam để thực hiện kế hoạch vốn tín dụng đầu tư của Nhà nước năm sau",
+          "code": "G12.000114",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a59f-e081-707a-8682-586b8d67d5ca",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giải pháp điều hành, tổ chức thực hiện và dự kiến kết quả đạt được",
+          "code": "G12.000115",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "tượng thực hiện thủ tục hành chính: Ngân hàng Phát triển Việt Nam",
+  "keywords": "",
+  "categoryIds": [
+    "019e5e4f-03ac-767c-9415-310cd12a59ac"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b471-240d047b01bb"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afeb-aab8723484c1"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019e5e4f-03ac-767c-9415-310cd12a59ac",
+      "name": "Dịch vụ tài chính",
+      "code": "G12-TC20"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b471-240d047b01bb",
+      "name": "Nghị định số 78/2023/NĐ-CP ngày 07/11/2023 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 32/2017/NĐ-CP ngày 31/3/2017 của Chính phủ về tín dụng đầu tư của Nhà nước",
+      "code": "78"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afeb-aab8723484c1",
+      "name": "Quyết định giao chỉ tiêu tổng mức tăng trưởng tín dụng đầu tư của Nhà nước hoặc tổng mức kế hoạch vốn tín dụng đầu tư của Nhà nước năm sau cho Ngân hàng Phát triển Việt Nam",
+      "code": "KQ.G12.000899"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911001,
+  "updatedAt": 1794448911001,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính, Thủ tướng Chính phủ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: \n- Cơ quan có thẩm quyền quyết định: Thủ tướng Chính phủ\n- Cơ quan trực tiếp giải quyết thủ tục hành chính: Bộ Tài chính, Bộ Tài chính",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

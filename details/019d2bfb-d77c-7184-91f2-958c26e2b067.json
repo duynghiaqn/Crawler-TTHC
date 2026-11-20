@@ -1,0 +1,354 @@
+{
+  "id": "019d2bfb-d77c-7184-91f2-958c26e2b067",
+  "code": "1.001646",
+  "codeNotation": "1.001646",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Lập, nộp hồ sơ\n\tNgười hưởng hoặc thân nhân người hưởng lập hồ sơ theo quy định tại mục 10.3 (Thành phần hồ sơ); nộp hồ sơ đến cơ quan BHXH nơi đang chi trả lương hưu, trợ cấp BHXH hoặc cơ quan BHXH (trường hợp người hưởng đã chết).\n\tTrường hợp người đang hưởng lương hưu lựa chọn hình thức nộp hồ sơ trực tiếp thì có thể nộp hồ sơ đến cơ quan BHXH tỉnh/BHXH cơ sở thuận tiện nhất."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan BHXH tiếp nhận hồ sơ và giải quyết hoặc chuyển hồ sơ đến cơ quan BHXH có thẩm quyền giải quyết theo quy định (trường hợp hồ sơ tiếp nhận trực tiếp không thuộc thẩm quyền giải quyết của cơ quan BHXH nơi tiếp nhận)."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Nhận kết quả giải quyết:\n\tNgười hưởng hoặc thân nhân người hưởng nhận hồ sơ, giấy tờ liên quan theo quy định (Quyết định về việc hưởng trợ cấp); Tiền trợ cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả giải quyết: \n- Hồ sơ, giấy tờ liên quan: Người hưởng hoặc thân nhân người hưởng nhận theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Tiền trợ cấp: Nhận bằng một trong các hình thức:\n\t+ Thông qua tài khoản cá nhân;\n\t+ Bằng tiền mặt tại cơ quan BHXH.\nTối đa 12 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả giải quyết: \n- Hồ sơ, giấy tờ liên quan: Người hưởng hoặc thân nhân người hưởng nhận theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Tiền trợ cấp: Nhận bằng một trong các hình thức:\n\t+ Thông qua tài khoản cá nhân;\n\t+ Bằng tiền mặt tại cơ quan BHXH.\nTối đa 12 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả giải quyết: \n- Hồ sơ, giấy tờ liên quan: Người hưởng hoặc thân nhân người hưởng nhận theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Tiền trợ cấp: Nhận bằng một trong các hình thức:\n\t+ Thông qua tài khoản cá nhân;\n\t+ Bằng tiền mặt tại cơ quan BHXH.\nTối đa 12 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính (nếu có): Theo Điều 3 Nghị định số 14/2020/NĐ-CP ngày 24/01/2020 của Chính phủ",
+  "name": "Giải quyết hưởng trợ cấp đối với nhà giáo đã nghỉ hưu chưa được hưởng chế độ phụ cấp thâm niên trong lương hưu theo Nghị định số 14/2020/NĐ-CP",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Đối với nhà giáo đang hưởng lương hưu:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02eb9-7797-74d8-a12e-63c826ece91c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản chính Tờ khai đề nghị hưởng trợ cấp (Mẫu số 01)",
+          "code": "TP.G12.000114",
+          "attachments": [
+            {
+              "id": "01a02efe-245a-77ab-8c2c-7c71724b1360",
+              "fileName": "Mẫu số 01 NĐ 14.2020.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02efe-245a-77ab-8c2c-7c71724b1360/Mẫu số 01 NĐ 14.2020.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "b) Đối với nhà giáo đủ điều kiện hưởng trợ cấp, chưa được giải quyết chế độ mà từ trần từ ngày 01/01/2012 trở về sau, hồ sơ bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02eba-a37a-7103-9dd3-8ad4041ff5a3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản chính Tờ khai đề nghị hưởng trợ cấp của thân nhân (mẫu số 02).",
+          "code": "TP.G12.000115",
+          "attachments": [
+            {
+              "id": "01a02efe-83ae-7599-96d5-1c3be16a9025",
+              "fileName": "Mẫu số 02 NĐ 14.2020.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02efe-83ae-7599-96d5-1c3be16a9025/Mẫu số 02 NĐ 14.2020.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02ebb-2ecc-7648-a7d2-54a8246f87a0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao Giấy chứng tử hoặc Giấy báo tử hoặc Quyết định của tòa án tuyên bố là đã chết (mang theo bản chính để đối chiếu",
+          "code": "TP.G12.000116",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02ebb-c92e-7722-8f94-f8057dd0bce6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản chính Văn bản ủy quyền (Mẫu số 03) (trường hợp chỉ có một thân nhân thì không cần văn bản ủy quyền này)",
+          "code": "TP.G12.000117",
+          "attachments": [
+            {
+              "id": "01a02efe-d49e-7151-b645-8b5ccea73c54",
+              "fileName": "Mẫu số 03 NĐ 14.2020.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02efe-d49e-7151-b645-8b5ccea73c54/Mẫu số 03 NĐ 14.2020.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ghi chú: - Không yêu cầu thân nhân nộp Bản sao giấy chứng tử hoặc trích lục khai tử khi cơ quan BHXH khai thác được thông tin thành phần hồ sơ này trên Cơ sở dữ liệu hộ tịch điện tử. - Trường hợp thân nhân người hưởng (người được ủy quyền) không trực tiếp nhận trợ cấp thì đề nghị các thân nhân là người ủy quyền thay đổi người được ủy quyền tại Giấy ủy quyền theo Mẫu số 03 để phù hợp với hình thức ủy quyền ban đầu theo quy định pháp luật.",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cá nhân",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7b-7049-8fc5-a27dfafe3e75",
+    "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+    "019d2bb3-5d86-7760-a63f-f720b7beeb63",
+    "019e72eb-488d-760e-abb8-0a3bb6585c78"
+  ],
+  "resultIds": [
+    "019d2bb2-1c82-739b-8b99-7ddbe3649f9b",
+    "019d2bb2-1c82-739b-8b99-d6be7cc06c52"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e65-3c061397ee5f"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-3c061397ee5f",
+      "name": "Bảo hiểm xã hội cấp Tỉnh",
+      "code": "LĐTB-T"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e72eb-488d-760e-abb8-0a3bb6585c78",
+      "name": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP BAN HÀNH KÈM THEO QUYẾT ĐỊNH SỐ 2222/QĐ-BHXH NGÀY 29/7/2025 CỦA GIÁM ĐỐC BẢO HIỂM XÃ HỘI VIỆT NAM",
+      "code": "313/QĐ-BHXH "
+    },
+    {
+      "id": "019d2bb3-5d7b-7049-8fc5-a27dfafe3e75",
+      "name": "778/BHXH-CSXH hướng dẫn thực hiện Nghị định số 14/2020/NĐ-CP về chế độ trợ cấp đối với nhà giáo đã nghỉ hưu",
+      "code": "778/BHXH-CSXH"
+    },
+    {
+      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+      "name": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
+      "code": "2222/QĐ-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63f-f720b7beeb63",
+      "name": "Nghị định 14/2020/NĐ-CP",
+      "code": "14/2020/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c82-739b-8b99-d6be7cc06c52",
+      "name": "Tiền trợ cấp",
+      "code": "KQ.G12.0000100"
+    },
+    {
+      "id": "019d2bb2-1c82-739b-8b99-7ddbe3649f9b",
+      "name": "Quyết định về việc hưởng trợ cấp theo Nghị định số 14/2020/NĐ-CP ngày 24/01/2020 của Chính phủ",
+      "code": "KQ.G12.002040"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d7689-23bb-7057-a95d-2e4591380413",
+      "name": "Giải quyết hưởng trợ cấp đối với nhà giáo đang hưởng lương hưu nhưng chưa được hưởng chế độ phụ cấp thâm niên trong lương hưu theo Nghị định số 14/2020/NĐ-CP",
+      "code": "1.001646.01",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a555-709a-9409-dffa65336b92",
+      "name": "Giải quyết hưởng trợ cấp đối với nhà giáo đã nghỉ hưu chưa được hưởng chế độ phụ cấp thâm niên trong lương hưu theo Nghị định số 14/2020/NĐ-CP",
+      "code": "1.001646.02",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a530-7223-ab0c-1471676b4365",
+      "name": "Giải quyết hưởng trợ cấp đối với nhà giáo đã nghỉ hưu chưa được hưởng chế độ phụ cấp thâm niên trong lương hưu theo Nghị định số 14/2020/NĐ-CP",
+      "code": "1.001646.01",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d768a-54bc-738a-81a4-7e23f8b64cfc",
+      "name": "Giải quyết hưởng trợ cấp đối với nhà giáo đủ điều kiện hưởng trợ cấp, chưa được giải quyết chế độ mà từ trần từ ngày 01/01/2012 trở về sau theo Nghị định số 14/2020/NĐ-CP",
+      "code": "1.001646.02",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559418236,
+  "updatedAt": 1787504991656,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính (nếu có): Theo Điều 3 Nghị định số 14/2020/NĐ-CP ngày 24/01/2020 của Chính phủ",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "019e4962-b8f8-724f-86e0-3429a36b42a6",
+  "code": "5.003877",
+  "codeNotation": "5.003877",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ gửi hồ sơ đề nghị bãi bỏ tiêu chuẩn quốc gia bằng bản điện tử và 01 bản giấy để gửi Bộ Khoa học và Công nghệ tổ chức thẩm định.\n- Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia, Bộ Khoa học và Công nghệ tổ chức thẩm định hồ sơ đề nghị bãi bỏ tiêu chuẩn quốc gia; trình Bộ trưởng Bộ Khoa học và Công nghệ kết quả thẩm định và dự thảo quyết định bãi bỏ để xem xét, quyết định trong thời hạn không quá 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục thẩm định hồ sơ bãi bỏ tiêu chuẩn quốc gia",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019e494e-bc57-734d-aa47-bf44a4ed2fbc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản TCVN đề nghị bãi bỏ",
+          "code": "TP-G06.00023477",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019e494f-2a14-7424-a8a9-463bbe0920d4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ (nêu rõ lý do, cơ sở pháp lý, cơ sở khoa học)",
+          "code": "TP-G06.00023478",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019e494f-7efa-7689-a4a2-7a332b9bfc02",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ý kiến của cơ quan, tổ chức, cá nhân liên quan",
+          "code": "TP-G06.00023479",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019e494b-dfc8-70f3-9a0e-460fe102d45e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu khác có liên quan (nếu có)",
+          "code": "TP-G06.00023476",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-1cc4200f15df"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019e4958-476f-7279-9486-10e5e1758d10",
+    "019d2bb3-5d7e-72d1-afed-7662c3c8bcb9"
+  ],
+  "resultIds": [
+    "019e4962-791d-76bf-9b33-2ff1ca5acf7c"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d0b-35a460ca286e"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a80-747a-9d0b-05be4d71ccc8"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-1cc4200f15df",
+      "name": "Tiêu chuẩn đo lường chất lượng",
+      "code": "G06-KC04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-1cc4200f15df",
+    "name": "Tiêu chuẩn đo lường chất lượng",
+    "code": "G06-KC04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d0b-35a460ca286e",
+      "name": "Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia",
+      "code": "G06.20"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+      "name": "Bộ Khoa học và Công nghệ",
+      "code": "G06"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afed-7662c3c8bcb9",
+      "name": "Nghị định số 22/2026/NĐ-CP ngày 16/01/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Tiêu chuẩn và quy chuẩn kỹ thuật",
+      "code": "22/2026/NĐ-CP"
+    },
+    {
+      "id": "019e4958-476f-7279-9486-10e5e1758d10",
+      "name": "Quy định chi tiết xây dựng và áp dụng tiêu chuẩn",
+      "code": "13/2026/TT-BKHCN"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019e4962-791d-76bf-9b33-2ff1ca5acf7c",
+      "name": "Thông báo kết quả thẩm định hồ sơ bãi bỏ TCVN",
+      "code": "KQ-G0600023471"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+  "departmentPromulgateCode": "G06",
+  "departmentPromulgateName": "Bộ Khoa học và Công nghệ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787566452566,
+  "updatedAt": 1787566452566,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Khoa học và Công nghệ",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019e3e7f-a1cf-76ed-96a1-58bb64f24fde",
+    "proposalNumber": "2347/QĐ-BKHCN",
+    "decisionDate": 1778259600000,
+    "decisionNumber": null,
+    "publicationDate": 1787566452427,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+      "name": "Bộ Khoa học và Công nghệ"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": []
+}

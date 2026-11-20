@@ -1,0 +1,266 @@
+{
+  "id": "01a18b01-21f2-7686-868f-0e22871928bf",
+  "code": "6.006859",
+  "codeNotation": "6.006859",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Căn cứ dự toán ngân sách được cơ quan, người có thẩm quyền phê duyệt, tổ chức được ứng vốn theo quy định lập hồ sơ đề nghị hoàn trả vốn ứng cho Quỹ phát triển đất, gửi Kho bạc Nhà nước (nơi tổ chức được ứng vốn mở tài khoản)\nBước 2: Chậm nhất 03 ngày làm việc, kể từ ngày nhận được đầy đủ hồ sơ, Kho bạc Nhà nước kiểm soát tính hợp pháp của hồ sơ do tổ chức được ứng vốn gửi; trường hợp đảm bảo đúng quy định thì Kho bạc Nhà nước chuyển tiền cho Quỹ phát triển đất; trường hợp không đúng quy định thì Kho bạc Nhà nước từ chối chuyển tiền."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 3 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Hoàn trả vốn ứng cho Quỹ phát triển đất từ nguồn vốn của dự án được cơ quan, người có thẩm quyền phê duyệt và trong trường hợp không thuộc trường hợp quy định tại khoản 1 Điều 18 Nghị định số 104/2024/NĐ-CP ngày 31/7/2024 của Chính phủ",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Đối với trường hợp hoàn trả vốn ứng từ nguồn vốn của dự án được cơ quan, người có thẩm quyền phê duyệt, thành phần hồ sơ gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18b05-3492-71be-8217-7d23fa85dbaf",
+          "originalQty": 2,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị hoàn trả vốn ứng cho Quỹ phát triển đất (trong đó nêu rõ số tiền ứng vốn từ Quỹ phát triển đất chưa hoàn trả, thời hạn ứng)",
+          "code": "G12.06.0114",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b05-971c-75cf-bf87-6f3042488e04",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy rút vốn theo Mẫu tại Phụ lục ban hành kèm theo Nghị định số 104/2024/NĐ-CP ngày 31/7/2024 của Chính phủ: 02 bản chính và đối với trường hợp gửi hồ sơ qua Trang thông tin dịch vụ công của Kho bạc Nhà nước, các thành phần hồ sơ phải được ký số theo quy định",
+          "code": "G12.06.0108",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b05-ef6b-72fa-aff0-7b31ac58573f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định ứng vốn từ Quỹ phát triển đất của cơ quan, người có thẩm quyền quy định tại khoản 1 Điều 16 Nghị định số 104/2024/NĐ-CP ngày 31/7/2024 của Chính phủ",
+          "code": "G12.06.0109",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b0a-1483-7198-b0d8-a9a9ebe87a3a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Quyết định giao kế hoạch vốn hằng năm của dự án (trong đó có số tiền hoàn trả vốn ứng cho Quỹ)",
+          "code": "G12.06.0111",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b06-ab0f-72dc-a596-391da12c29ee",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định hoàn trả vốn ứng cho Quỹ phát triển đất của cơ quan, người có thẩm quyền quyết định phê duyệt dự án đầu tư",
+          "code": "G12.06.0112",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b07-0411-7771-9b0c-fcb8d1c13dbc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quy định tại điểm a khoản 1 Điều 18 Nghị định số 104/2024/NĐ-CP ngày 31/7/2024 của Chính phủ",
+          "code": "G12.06.0113",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Đối với trường hợp không thuộc trường hợp quy định tại khoản 1 Điều 18 Nghị định số 104/2024/NĐ-CP ngày 31/7/2024 của Chính phủ, thành phần hồ sơ gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18b0c-634c-708a-99b3-0b642f7baee7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy đề nghị hoàn trả vốn ứng (trong đó nêu rõ số tiền ứng vốn từ Quỹ phát triển đất chưa hoàn trả, thời hạn ứng)",
+          "code": "G12.06.0115",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b05-971c-75cf-bf87-6f3042488e04",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy rút vốn theo Mẫu tại Phụ lục ban hành kèm theo Nghị định số 104/2024/NĐ-CP ngày 31/7/2024 của Chính phủ: 02 bản chính và đối với trường hợp gửi hồ sơ qua Trang thông tin dịch vụ công của Kho bạc Nhà nước, các thành phần hồ sơ phải được ký số theo quy định",
+          "code": "G12.06.0108",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b0e-4029-744d-9148-e9f61a37ace2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định giao dự toán ngân sách của cơ quan, người có thẩm quyền",
+          "code": "G12.06.0116",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b0e-77bc-754e-9779-fecb7298838b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định hoàn trả vốn ứng của cơ quan, người có thẩm quyền giao thực hiện nhiệm vụ",
+          "code": "G12.06.0117",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Tổ chức được ứng vốn.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46c-2ac0a8e0dd8a"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-44ba24c25843"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a655-9eb8a9c2fe76"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a655-9eb8a9c2fe76",
+      "name": "Kho bạc Nhà nước - Bộ tài chính",
+      "code": "000.00.12.G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-2ac0a8e0dd8a",
+      "name": "Nghị định số 291/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 103/2024/NĐ-CP ngày 30 tháng 7 năm 2024 của Chính phủ quy định về tiền sử dụng đất, tiền thuê đất và Nghị định số 104/2024/NĐ-CP ngày 31 tháng 7 năm 2024 của Chính phủ quy định về Quỹ phát triển đất",
+      "code": "291/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-44ba24c25843",
+      "name": "Chuyển tiền cho Quỹ phát triển đất",
+      "code": "KQ.G12.000944"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910957,
+  "updatedAt": 1794448910957,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Kho bạc Nhà nước - Bộ tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Kho bạc nhà nước.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

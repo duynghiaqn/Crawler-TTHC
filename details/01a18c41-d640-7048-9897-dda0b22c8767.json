@@ -1,0 +1,239 @@
+{
+  "id": "01a18c41-d640-7048-9897-dda0b22c8767",
+  "code": "5.003998",
+  "codeNotation": "5.003998",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Trong thời hạn 05 ngày làm việc kể từ ngày hồ sơ trình thẩm định Quy hoạch tỉnh được xác định là hợp lệ, cơ quan thường trực Hội đồng thẩm định trình Chủ tịch Hội đồng thẩm định xem xét, ban hành Kế hoạch thẩm định Quy hoạch tỉnh.\n- Sau khi Chủ tịch Hội đồng thẩm định ban hành Kế hoạch tổ chức thẩm định quy hoạch, cơ quan thường trực Hội đồng thẩm định có trách nhiệm trình Chủ tịch Hội đồng thẩm định văn bản xin ý kiến các thành viên Hội đồng thẩm định và ủy viên phản biện tham gia ý kiến thẩm định đối với hồ sơ trình thẩm định Quy hoạch tỉnh. Việc xin ý kiến tư vấn phản biện độc lập đối với nội dung quy hoạch tỉnh, kết quả đánh giá môi trường chiến lược đối với quy hoạch tỉnh được thực hiện theo quy định tại Quy chế hoạt động của Hội đồng thẩm định.\n- Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ trình thẩm định quy hoạch, thành viên Hội đồng thẩm định quy hoạch, ủy viên phản biện và tư vấn phản biện độc lập quy hoạch (nếu có) phải gửi ý kiến thẩm định bằng văn bản tới cơ quan thường trực Hội đồng thẩm định quy hoạch để tổng hợp.\n-  Cơ quan thường trực Hội đồng thẩm định quy hoạch lấy ý kiến chuyên gia, tổ chức xã hội - nghề nghiệp và tổ chức khác có liên quan về nội dung quy hoạch, kết quả đánh giá môi trường chiến lược đối với quy hoạch bằng văn bản hoặc tổ chức hội nghị, hội thảo, tọa đàm.\n- Trong thời hạn 10 ngày kể từ ngày nhận được ít nhất ba phần tư (3/4) ý kiến tham gia thẩm định bằng văn bản của thành viên Hội đồng thẩm định quy hoạch, cơ quan thường trực Hội đồng thẩm định quy hoạch tổng hợp ý kiến gửi thành viên Hội đồng thẩm định quy hoạch, tư vấn phản biện độc lập (nếu có) và trình Chủ tịch Hội đồng thẩm định quy hoạch về việc tổ chức họp Hội đồng thẩm định quy hoạch.\n- Phiên họp thẩm định hồ sơ trình thẩm định quy hoạch được tiến hành khi có ít nhất ba phần tư (3/4) số thành viên Hội đồng thẩm định quy hoạch tham dự, trong đó có Chủ tịch Hội đồng thẩm định quy hoạch hoặc Phó chủ tịch Hội đồng thẩm định quy hoạch khi được uỷ quyền, hai phần ba (2/3) số ủy viên phản biện và đại diện cơ quan thường trực Hội đồng thẩm định quy hoạch dự họp; đại diện cơ quan lập quy hoạch và đại diện tổ chức tư vấn lập quy hoạch."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Trong thời hạn 30 ngày kể từ ngày nhận được văn bản đề nghị tham gia ý kiến thẩm định (kèm theo hồ sơ trình thẩm định Quy hoạch tỉnh), các thành viên Hội đồng thẩm định, ủy viên phản biện và tư vấn phản biện độc lập quy hoạch (nếu có) gửi văn bản tham gia ý kiến thẩm định đến cơ quan thường trực Hội đồng thẩm định để tổng hợp.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Trong thời hạn 30 ngày kể từ ngày nhận được văn bản đề nghị tham gia ý kiến thẩm định (kèm theo hồ sơ trình thẩm định Quy hoạch tỉnh), các thành viên Hội đồng thẩm định, ủy viên phản biện và tư vấn phản biện độc lập quy hoạch (nếu có) gửi văn bản tham gia ý kiến thẩm định đến cơ quan thường trực Hội đồng thẩm định để tổng hợp.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thẩm định quy hoạch tỉnh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Số lượng gửi hồ sơ trình thẩm định: đảm bảo đầy đủ số lượng để gửi xin ý kiến Hội đồng thẩm định, chuyên gia phản biện và tư vấn phản biện độc lập (trong trường hợp cần thiết).",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18c3f-de00-7508-82c3-c547fbc9c538",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình thẩm định quy hoạch tỉnh",
+          "code": "G12.95.000012",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-903b-2dc63dcec593",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo quy hoạch",
+          "code": "G12.000195",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9032-f794effb3da3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dự thảo văn bản quyết định hoặc phê duyệt quy hoạch",
+          "code": "G12.95.000006",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9032-f8f698a625bc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo tổng hợp ý kiến góp ý của các cơ quan, tổ chức, cộng đồng, cá nhân về quy hoạch; bản sao ý kiến góp ý của Bộ, cơ quan ngang Bộ và địa phương liên quan; báo cáo giải trình, tiếp thu ý kiến góp ý về quy hoạch;",
+          "code": "G12.95.000007",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18c37-8130-766b-bed5-2fc0c058d3ae",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo đánh giá môi trường chiến lược",
+          "code": "G12.000196",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9033-0989e8e0130e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hệ thống sơ đồ, bản đồ, cơ sở dữ liệu về quy hoạch",
+          "code": "G12.95.000011",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2c08-77b9-731a-ae11-3c0ff1ccab76"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46d-397f9bc04d2c",
+    "01a18c26-602d-77df-8fa9-681c5745493d"
+  ],
+  "resultIds": [
+    "01a18c41-75b3-71d8-b663-e1fe0f6651bf"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2c08-77b9-731a-ae11-3c0ff1ccab76",
+      "name": "Quy hoạch (Quản lý quy hoạch)",
+      "code": "G12.95"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86",
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    },
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46d-397f9bc04d2c",
+      "name": "Nghị định số 37/2019/NĐ-CP ngày 07/5/2019 của Chính phủ quy định chi tiết thi hành một số điều của Luật Quy hoạch.",
+      "code": "37/2019/NĐ-CP"
+    },
+    {
+      "id": "01a18c26-602d-77df-8fa9-681c5745493d",
+      "name": "Luật số 112/2025/QH15 của Quốc hội: Luật Quy hoạch",
+      "code": "112/2025/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a18c41-75b3-71d8-b663-e1fe0f6651bf",
+      "name": "Báo cáo thẩm định quy hoạch",
+      "code": "KQ.G12.001327"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910940,
+  "updatedAt": 1794448910940,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Các Bộ, ngành, địa phương và các cơ quan liên quan khác",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

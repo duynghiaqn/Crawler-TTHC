@@ -1,0 +1,232 @@
+{
+  "id": "01a1f84e-a628-746b-8c6c-4f39847e0357",
+  "code": "1.117149",
+  "codeNotation": "1.117149",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1. Thương nhân gửi 01 bộ hồ sơ đến cơ quan cấp phép."
+    },
+    {
+      "name": "",
+      "description": "2. Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan cấp phép thông báo bằng văn bản (hoặc trực tuyến) cho thương nhân để bổ sung, hoàn thiện."
+    },
+    {
+      "name": "",
+      "description": "3. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định, cơ quan cấp phép xem xét sửa đổi, bổ sung Giấy phép cho thương nhân hoặc có văn bản thông báo từ chối sửa đổi, bổ sung, nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Sửa đổi, bổ sung giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu,\ntrung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1f82a-9fbc-776e-9b65-f678ef6e0f60",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị sửa đổi, bổ sung Giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ",
+          "code": "000.00.00.G06-KQ001400",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7175-75bc-b3b9-00dd2e2adaf1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "+ Các tài liệu chứng minh có liên quan.",
+          "code": "000.00.00.G02-KQ006079",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-2f587e315cc3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "019d2bb3-5d86-7760-a646-038f1b5ace8f",
+    "01a1f80f-ae4b-768e-8a64-86c623ccc194"
+  ],
+  "resultIds": [
+    "01a1f830-4429-723a-8aa6-ee6e3ba41754"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+      "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+      "code": "G14-TT04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+    "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+    "code": "G14-TT04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a646-038f1b5ace8f",
+      "name": "Nghị định số 259/2025/NĐ-CP ngày 10 tháng 10 năm 2025 của Chính phủ của Chính phủ về kiểm soát thương mại chiến lược.",
+      "code": "259/2025/NĐ-CP"
+    },
+    {
+      "id": "01a1f80f-ae4b-768e-8a64-86c623ccc194",
+      "name": "Ban hành Danh mục, tổ chức cấp phép hàng hóa lưỡng dụng và theo dõi, truy xuất thông tin về kiểm soát thương mại chiến lược thuộc quản lý nhà nước của Bộ Khoa học và Công nghệ.",
+      "code": "30/2026/TT-BKHCN"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1f830-4429-723a-8aa6-ee6e3ba41754",
+      "name": "Giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ được sửa đổi, bổ sung hoặc văn bản từ chối sửa đổi, bổ sung, nêu rõ lý do.",
+      "code": "KQ.G06.001946"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+  "departmentPromulgateCode": "G06",
+  "departmentPromulgateName": "Bộ Khoa học và Công nghệ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1795170371749,
+  "updatedAt": 1795170371749,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1f713-d306-7369-a745-be2717d5db33",
+    "proposalNumber": "4502/QĐ-BKHCN",
+    "decisionDate": 1795021200000,
+    "decisionNumber": null,
+    "publicationDate": 1795170371693,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+      "name": "Bộ Khoa học và Công nghệ"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

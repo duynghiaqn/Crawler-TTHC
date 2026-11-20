@@ -1,0 +1,269 @@
+{
+  "id": "01a1afd0-8a4d-741f-ac9b-1a6a5fdb681d",
+  "code": "2.002944",
+  "codeNotation": "2.002944",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ sở đào tạo đề nghị hỗ trợ kinh phí nộp 01 bộ hồ sơ theo quy định tại Trung tâm Phục vụ hành chính công thành phố/cấp xã (nộp trực tiếp hoặc qua Dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công quốc gia).\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch chủ trì, phối hợp với Sở Tài chính và các cơ quan, đơn vị liên quan tiến hành thẩm định hồ sơ đề nghị hỗ trợ.\n- Trong thời hạn 03 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ do Sở Văn hóa, Thể thao và Du lịch trình, Ủy ban nhân dân thành phố ban hành quyết định hỗ trợ. Trường hợp hồ sơ đề nghị hỗ trợ không đủ điều kiện hỗ trợ, Sở Văn hóa, Thể thao và Du lịch tham mưu Ủy ban nhân dân thành phố ban hành văn bản thông báo và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "-\tNộp trực tiếp  tại Trung tâm Phục vụ hành chính công thành phố Huế hoặc Trung tâm Phục vụ hành chính công cấp xã.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "-\tNộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công thành phố Huế hoặc Trung tâm Phục vụ hành chính công cấp xã.  -\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn)."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công thành phố Huế \n-\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "-\tNộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công thành phố Huế hoặc Trung tâm Phục vụ hành chính công cấp xã.  -\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn)."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "-\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "-\tNộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công thành phố Huế hoặc Trung tâm Phục vụ hành chính công cấp xã.  -\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn)."
+        }
+      ]
+    }
+  ],
+  "description": "a) Hỗ trợ đối với cá nhân học sinh, sinh viên, giáo viên, giảng viên trực tiếp tham gia và đạt thành tích tại các hội thi, hội diễn, liên hoan nghệ thuật (sau đây viết tắt là cuộc thi) do cơ quan, tổ chức có thẩm quyền tổ chức:\n- Cuộc thi cấp quốc tế: Giải Nhất, A, Vàng: 50.000.000 đồng; Giải Nhì, B, Bạc: 35.000.000 đồng; Giải Ba, C, Đồng: 20.000.000 đồng.\n- Cuộc thi cấp quốc gia: Giải Nhất, A, Vàng: 25.000.000 đồng; Giải Nhì, B, Bạc: 20.000.000 đồng; Giải Ba, C, Đồng: 10.000.000 đồng.\n- Cuộc thi cấp tỉnh: Giải Nhất, A, Vàng: 8.000.000 đồng; Giải Nhì, B, Bạc: 5.000.000 đồng; Giải Ba, C, Đồng: 3.000.000 đồng.\nb) Hỗ trợ đối với tập thể trực tiếp tham gia và đạt giải tại cuộc thi: Mức hỗ trợ cho một tập thể đối với một giải thưởng bằng 1,5 lần mức hỗ trợ giải thưởng tương ứng. Khoản hỗ trợ này được xác định cho tập thể đạt giải, không tính riêng cho từng thành viên của tập thể.\nc) Hỗ trợ đối với giáo viên, giảng viên trực tiếp hướng dẫn học sinh, sinh viên đạt giải tại cuộc thi: Mức hỗ trợ cho toàn bộ giáo viên, giảng viên trực tiếp hướng dẫn theo quyết định phân công của cơ sở đào tạo đối với một giải thưởng bằng 50% mức hỗ trợ tương ứng cho giải cá nhân và tập thể theo quy định..\nd) Nguyên tắc xác định và thực hiện hỗ trợ\n- Trường hợp cuộc thi có cách gọi tên giải thưởng khác với các giải thưởng đã được quy định, cơ sở đào tạo căn cứ điều lệ, quy chế của cuộc thi và văn bản của cơ quan tổ chức xác định thứ hạng giải thưởng để đề xuất giải thưởng tương đương trong hồ sơ đề nghị hỗ trợ; Sở Văn hóa, Thể thao và Du lịch thẩm định, trình Ủy ban nhân dân thành phố xem xét, quyết định hỗ trợ theo đúng quy định.\n- Đối với cùng một cá nhân hoặc tập thể, trong cùng một cuộc thi, nếu đạt nhiều giải thưởng thì chỉ xét hỗ trợ một giải có mức hỗ trợ cao nhất; trường hợp giải thưởng được công nhận cho tập thể thì thực hiện hỗ trợ bằng 1,5 lần mức hỗ trợ giải thưởng tương ứng. Khoản hỗ trợ này được xác định cho tập thể đạt giải, không tính riêng cho từng thành viên của tập thể\n- Giáo viên, giảng viên đồng thời trực tiếp dự thi và hướng dẫn học sinh, sinh viên đạt giải trong cùng một cuộc thi chỉ được hưởng một khoản hỗ trợ có mức cao nhất giữa hỗ trợ đối với người trực tiếp đạt giải và hỗ trợ đối với người trực tiếp hướng dẫn, đối với cùng một thành tích; không chi hỗ trợ hai lần cho cùng một thành tích.\n- Trường hợp có từ hai giáo viên, giảng viên trở lên cùng trực tiếp hướng dẫn học sinh, sinh viên đạt một giải thưởng, tổng mức hỗ trợ được chia đều cho số giáo viên, giảng viên có tên trong quyết định phân công của cơ sở đào tạo.\n- Trường hợp cùng một cá nhân, tập thể đồng thời đủ điều kiện hưởng hỗ trợ đối với cùng một thành tích đạt giải theo Điều này và theo Nghị quyết số 05/2025/NQ-HĐND ngày 07 tháng 01 năm 2025 của Hội đồng nhân dân thành phố Huế quy định chính sách hỗ trợ đối với nghệ sĩ, nghệ nhân; tác giả đạt giải thưởng quốc gia, quốc tế về văn học nghệ thuật và Câu lạc bộ hoạt động trong lĩnh vực di sản văn hoá phi vật thể trên địa bàn thành phố Huế hoặc chính sách hỗ trợ khác từ ngân sách nhà nước thì chỉ được hưởng một mức hỗ trợ cao nhất; không chi trả đồng thời các khoản hỗ trợ cho cùng một thành tích đạt giải. Trường hợp đã nhận mức hỗ trợ thấp hơn thì chỉ được hỗ trợ phần chênh lệch so với mức hỗ trợ cao nhất. Cơ sở đào tạo có trách nhiệm rà soát, xác định khoản hỗ trợ đã được chi trả khi lập hồ sơ đề nghị hỗ trợ.",
+  "name": "Hỗ trợ đối với học sinh, sinh viên, giáo viên, giảng viên đạt thành tích tại các cuộc thi",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1afc6-ecb6-775b-89ce-e05dc442f883",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị hỗ trợ kinh phí của cơ sở đào tạo",
+          "code": "TP.H57.1000600",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1afc7-b953-74ea-ad21-8e7d5d01675e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng dự toán kinh phí đề nghị hỗ trợ theo từng đối tượng thụ hưởng của chính sách, nội dung và mức hỗ trợ của cơ sở đào tạo",
+          "code": "TP.H57.1000601",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1afcf-660d-7077-8021-c5424876df12",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định cử học sinh, sinh viên, giáo viên, giảng viên tham gia cuộc thi kèm danh sách người được cử tham gia",
+          "code": "TP.H57.1000607",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1afcf-ad87-744f-ac48-05247cc609fd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phân công giáo viên, giảng viên trực tiếp hướng dẫn học sinh, sinh viên tham gia cuộc thi",
+          "code": "TP.H57.1000608",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1afcf-ec22-721b-b6a7-3324c8f3e965",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định khen thưởng hoặc Giấy chứng nhận đạt giải thưởng (kèm chương trình, tiết mục đạt giải).",
+          "code": "TP.H57.1000609",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-b537de0f78f9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a1afbd-5be7-7540-af83-93ea25180950"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e5f-386549c579a0"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e5d-edfb72e6be7f"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-b537de0f78f9",
+      "name": "Văn hóa cơ sở",
+      "code": "G16-VH13"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-b537de0f78f9",
+    "name": "Văn hóa cơ sở",
+    "code": "G16-VH13"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e5f-386549c579a0",
+      "name": "Sở Văn hóa, Thể thao và Du lịch- Thành phố Huế",
+      "code": "H57.16"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế",
+      "code": "H57"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a1afbd-5be7-7540-af83-93ea25180950",
+      "name": "Quyết định hỗ trợ của Ủy ban nhân dân thành phố",
+      "code": "KQ.H57.000072"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [
+    {
+      "id": "01a1bf52-4a22-7383-bec8-1a9c173c2008",
+      "name": "Hỗ trợ đối với học sinh, sinh viên, giáo viên, giảng viên đạt thành tích tại các cuộc thi",
+      "code": "2.002944.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1793959294627,
+  "updatedAt": 1793959294627,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Văn hóa, Thể thao và Du lịch- Thành phố Huế",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "-\tNộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công thành phố Huế hoặc Trung tâm Phục vụ hành chính công cấp xã. \n-\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn).",
+  "delegatedAgencies": "UBND Thành phố Huế",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Hỗ trợ đối với cá nhân học sinh, sinh viên, giáo viên, giảng viên trực tiếp tham gia và đạt thành tích tại các hội thi, hội diễn, liên hoan nghệ thuật (sau đây viết tắt là cuộc thi) do cơ quan, tổ chức có thẩm quyền tổ chức:\n- Cuộc thi cấp quốc tế: Giải Nhất, A, Vàng: 50.000.000 đồng; Giải Nhì, B, Bạc: 35.000.000 đồng; Giải Ba, C, Đồng: 20.000.000 đồng.\n- Cuộc thi cấp quốc gia: Giải Nhất, A, Vàng: 25.000.000 đồng; Giải Nhì, B, Bạc: 20.000.000 đồng; Giải Ba, C, Đồng: 10.000.000 đồng.\n- Cuộc thi cấp tỉnh: Giải Nhất, A, Vàng: 8.000.000 đồng; Giải Nhì, B, Bạc: 5.000.000 đồng; Giải Ba, C, Đồng: 3.000.000 đồng.\nb) Hỗ trợ đối với tập thể trực tiếp tham gia và đạt giải tại cuộc thi: Mức hỗ trợ cho một tập thể đối với một giải thưởng bằng 1,5 lần mức hỗ trợ giải thưởng tương ứng. Khoản hỗ trợ này được xác định cho tập thể đạt giải, không tính riêng cho từng thành viên của tập thể.\nc) Hỗ trợ đối với giáo viên, giảng viên trực tiếp hướng dẫn học sinh, sinh viên đạt giải tại cuộc thi: Mức hỗ trợ cho toàn bộ giáo viên, giảng viên trực tiếp hướng dẫn theo quyết định phân công của cơ sở đào tạo đối với một giải thưởng bằng 50% mức hỗ trợ tương ứng cho giải cá nhân và tập thể theo quy định..\nd) Nguyên tắc xác định và thực hiện hỗ trợ\n- Trường hợp cuộc thi có cách gọi tên giải thưởng khác với các giải thưởng đã được quy định, cơ sở đào tạo căn cứ điều lệ, quy chế của cuộc thi và văn bản của cơ quan tổ chức xác định thứ hạng giải thưởng để đề xuất giải thưởng tương đương trong hồ sơ đề nghị hỗ trợ; Sở Văn hóa, Thể thao và Du lịch thẩm định, trình Ủy ban nhân dân thành phố xem xét, quyết định hỗ trợ theo đúng quy định.\n- Đối với cùng một cá nhân hoặc tập thể, trong cùng một cuộc thi, nếu đạt nhiều giải thưởng thì chỉ xét hỗ trợ một giải có mức hỗ trợ cao nhất; trường hợp giải thưởng được công nhận cho tập thể thì thực hiện hỗ trợ bằng 1,5 lần mức hỗ trợ giải thưởng tương ứng. Khoản hỗ trợ này được xác định cho tập thể đạt giải, không tính riêng cho từng thành viên của tập thể\n- Giáo viên, giảng viên đồng thời trực tiếp dự thi và hướng dẫn học sinh, sinh viên đạt giải trong cùng một cuộc thi chỉ được hưởng một khoản hỗ trợ có mức cao nhất giữa hỗ trợ đối với người trực tiếp đạt giải và hỗ trợ đối với người trực tiếp hướng dẫn, đối với cùng một thành tích; không chi hỗ trợ hai lần cho cùng một thành tích.\n- Trường hợp có từ hai giáo viên, giảng viên trở lên cùng trực tiếp hướng dẫn học sinh, sinh viên đạt một giải thưởng, tổng mức hỗ trợ được chia đều cho số giáo viên, giảng viên có tên trong quyết định phân công của cơ sở đào tạo.\n- Trường hợp cùng một cá nhân, tập thể đồng thời đủ điều kiện hưởng hỗ trợ đối với cùng một thành tích đạt giải theo Điều này và theo Nghị quyết số 05/2025/NQ-HĐND ngày 07 tháng 01 năm 2025 của Hội đồng nhân dân thành phố Huế quy định chính sách hỗ trợ đối với nghệ sĩ, nghệ nhân; tác giả đạt giải thưởng quốc gia, quốc tế về văn học nghệ thuật và Câu lạc bộ hoạt động trong lĩnh vực di sản văn hoá phi vật thể trên địa bàn thành phố Huế hoặc chính sách hỗ trợ khác từ ngân sách nhà nước thì chỉ được hưởng một mức hỗ trợ cao nhất; không chi trả đồng thời các khoản hỗ trợ cho cùng một thành tích đạt giải. Trường hợp đã nhận mức hỗ trợ thấp hơn thì chỉ được hỗ trợ phần chênh lệch so với mức hỗ trợ cao nhất. Cơ sở đào tạo có trách nhiệm rà soát, xác định khoản hỗ trợ đã được chi trả khi lập hồ sơ đề nghị hỗ trợ.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1afbd-db82-720d-a7da-c794434f0589",
+    "proposalNumber": "3565/QĐ-UBND",
+    "decisionDate": 1793725200000,
+    "decisionNumber": null,
+    "publicationDate": 1793959294570,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "id": "01a186e7-d24d-7733-9967-1ca08172023f",
+  "code": "6.006839",
+  "codeNotation": "6.006839",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện",
+      "description": "Bước 1: Khi có tài sản công hết hạn sử dụng theo chế độ mà phải thanh lý; tài sản công chưa hết hạn sử dụng nhưng bị hư hỏng mà không thể sửa chữa được hoặc việc sửa chữa không hiệu quả (dự toán chi phí sửa chữa lớn hơn 30% nguyên giá tài sản); nhà làm việc hoặc tài sản khác gắn liền với đất phải phá dỡ để thực hiện dự án đầu tư xây dựng, giải phóng mặt bằng hoặc các trường hợp khác theo quyết định của cơ quan nhà nước có thẩm quyền, cơ quan, tổ chức, đơn vị có tài sản lập 01 bộ hồ sơ đề nghị thanh lý tài sản công, gửi cơ quan quản lý cấp trên (nếu có) xem xét, đề nghị cơ quan, người có thẩm quyền quyết định thanh lý tài sản công xem xét, quyết định. \nBước 2. Trong thời hạn 30 ngày kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, cơ quan, người có thẩm quyền quyết định thanh lý tài sản hoặc có văn bản hồi đáp trong trường hợp đề nghị thanh lý không phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính (nếu có): Không có.",
+  "name": "Quyết định thanh lý tài sản công",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a186e1-60e7-7474-850f-7c74b04d1025",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị tiêu hủy tài sản công của cơ quan nhà nước được giao quản lý, sử dụng tài sản công (trong đó nêu rõ hình thức tiêu hủy, trách nhiệm tổ chức tiêu hủy tài sản, dự kiến kinh phí tiêu hủy)",
+          "code": "G12.06.0034",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-0721f52370e6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thanh lý tài sản công của cơ quan quản lý cấp trên (nếu có)",
+          "code": "G12.06.0035",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a186eb-064a-716b-85b0-273b57e56dd9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị thanh lý (chủng loại, số lượng, diện tích; tình trạng; nguyên giá, giá trị còn lại theo sổ kế toán; hình thức thanh lý; lý do thanh lý)",
+          "code": "G12.06.0036",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a186eb-5d84-7698-9674-356346706ba3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ý kiến bằng văn bản của cơ quan chuyên môn về xây dựng (Sở Xây dựng, Phòng Quản lý đô thị, Phòng Kinh tế và hạ tầng thuộc Ủy ban nhân dân cấp huyện) hoặc văn bản thẩm định của đơn vị tư vấn có chức năng thẩm định về tình trạng tài sản và khả năng sửa chữa (đối với tài sản là nhà, công trình xây dựng chưa hết hạn sử dụng nhưng bị hư hỏng mà không thể sửa chữa được)",
+          "code": "G12.06.0037",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-113b7b366c6e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ khác có liên quan đến đề nghị thanh lý tài sản (nếu có)",
+          "code": "G12.06.0038",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan, tổ chức, đơn vị có tài sản đủ điều kiện thanh lý.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe6-2afca8c14558",
+    "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+    "019d2bb3-5d7f-719e-b46e-9244f6a0342d"
+  ],
+  "resultIds": [
+    "019f40e2-0eda-73c8-a6c7-bb55516541c1"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6771-31da-7758-9a23-1c3f7317813c"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6771-31da-7758-9a23-1c3f7317813c",
+      "name": "Bộ trưởng hoặc cấp tương đương"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe6-2afca8c14558",
+      "name": "Nghị định quy định chi tiết một số điều của Luật quản lý, sử dụng tài sản công",
+      "code": "151/2017/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+      "name": "Nghị định 114/2024/NĐ-CP sửa đổi Nghị định 151/2017/NĐ-CP hướng dẫn Luật Quản lý, sử dụng tài sản công",
+      "code": "114/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46e-9244f6a0342d",
+      "name": "Nghị định số 50/2024/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 136/2020/NĐ-CP ngày 24 tháng 11 năm 2020 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy và chữa cháy và Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và chữa cháy và Nghị định số 83/2017/NĐ-CP ngày 18 tháng 7 năm 2017 của Chính phủ quy định về công tác cứu nạn, cứu hộ của lực lượng phòng cháy và chữa cháy",
+      "code": "50/2024/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f40e2-0eda-73c8-a6c7-bb55516541c1",
+      "name": "Quyết định thanh lý tài sản công hoặc văn bản hồi đáp trong trường hợp đề nghị thanh lý không phù hợp",
+      "code": "KQ.H38.000039"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910966,
+  "updatedAt": 1794448910966,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính\n- Bộ trưởng, Thủ trưởng cơ quan trung ương, cơ quan người được phân cấp thẩm quyền quyết định thanh lý tài sản công là tài sản cố định tại cơ quan nhà nước thuộc phạm vi quản lý của bộ, cơ quan trung ương.\n- Hội đồng nhân dân cấp tỉnh, cơ quan, người được phân cấp thẩm quyền quyết định thanh lý tài sản công là tài sản cố định tại cơ quan nhà nước thuộc phạm vi quản lý của địa phương. \n- Người đứng đầu cơ quan nhà nước được giao quản lý, sử dụng tài sản công quyết định thanh lý đối với: \n+ Tài sản công là tài sản cố định theo thẩm quyền do của Bộ trưởng, Thủ trưởng cơ quan trung ương, Hội đồng nhân dân cấp tỉnh quy định.\n+ Tài sản công không phải là tài sản cố định.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính (nếu có): Không có.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "01a1ab49-cc5c-7528-8d63-367201084020",
+  "code": "6.006940",
+  "codeNotation": "6.006940",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Cơ quan được giao nhiệm vụ chuẩn bị đầu tư chương trình, dự án có trách nhiệm:\n+ Giao đơn vị trực thuộc lập báo cáo đề xuất điều chỉnh chủ trương đầu tư đối với chương trình mục tiêu quốc gia, báo cáo nghiên cứu tiền khả điều chỉnh thi đối với dự án quan trọng quốc gia;\n+ Thành lập Hội đồng để thẩm định báo cáo đề xuất điều chỉnh chủ trương đầu tư, báo cáo nghiên cứu tiền khả thi điều chỉnh;\n+ Hoàn thiện báo cáo đề xuất điều chỉnh chủ trương đầu tư, báo cáo nghiên cứu tiền khả thi điều chỉnh  trình Thủ tướng Chính phủ.\n- Thủ tướng Chính phủ thành lập Hội đồng thẩm định nhà nước do Bộ trưởng Bộ Tài chính làm Chủ tịch để thẩm định báo cáo đề xuất điều chỉnh chủ trương đầu tư chương trình mục tiêu quốc gia, báo cáo nghiên cứu tiền khả thi điều chỉnh dự án quan trọng quốc gia.\n- Chính phủ trình Quốc hội xem xét, quyết định điều chỉnh chủ trương đầu tư chương trình mục tiêu quốc gia, dự án quan trọng quốc gia.\n- Cơ quan của Quốc hội thẩm tra hồ sơ về điều chỉnh chương trình mục tiêu quốc gia, dự án quan trọng quốc gia do Chính phủ trình.\n- Quốc hội xem xét, thông qua nghị quyết về điều chỉnh chủ trương đầu tư đối với chương trình mục tiêu quốc gia, dự án quan trọng quốc gia. Nội dung chủ yếu của nghị quyết bao gồm: mục tiêu, quy mô, tổng vốn đầu tư, công nghệ chính, địa điểm, thời gian, tiến độ thực hiện, cơ chế và giải pháp, chính sách thực hiện.\n- Hồ sơ trình cấp có thẩm quyền quyết định điều chỉnh chủ trương đầu tư chương trình, dự án thực hiện theo quy định của Chính phủ."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "+ Trong thời hạn 15 ngày kể từ ngày nhận hồ sơ dự án, Bộ Tài chính báo cáo Thủ tướng Chính phủ thành lập Hội đồng thẩm định nhà nước theo quy định. + Hội đồng thẩm định nhà nước thẩm định chủ trương đầu tư dự án quan trọng quốc gia trong thời hạn 90 ngày kể từ ngày thành lập. Trường hợp thuê tư vấn thẩm tra thì thời gian thẩm định của Hội đồng thẩm định nhà nước tính từ ngày ký hợp đồng thuê tư vấn thẩm tra.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "name": "Thẩm định điều chỉnh chủ trương đầu tư chương trình, dự án quan trọng quốc gia",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ trình thẩm định điều chỉnh quyết định chủ trương đầu tư chương trình mục tiêu quốc gia, dự án quan trọng quốc gia: Cơ quan chủ quản chủ đầu tư hoặc cơ quan được giao nhiệm vụ chuẩn bị đầu tư gửi 01 bộ hồ sơ theo quy định tại khoản 1 Điều này để báo cáo Thủ tướng Chính phủ, đồng thời gửi 20 bộ hồ sơ đến Bộ Tài chính",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd74-96048b17586d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình của Chính phủ",
+          "code": "G12.000069",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd74-c33e12a9d2fd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo đề xuất điều chỉnh chủ trương đầu tư đối với chương trình mục tiêu quốc gia, báo cáo nghiên cứu tiền khả thi điều chỉnh đối với dự án quan trọng quốc gia",
+          "code": "000.00.00.G12-KQ013735",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd74-c4011fe04ebb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo thẩm định của Hội đồng thẩm định nhà nước",
+          "code": "G12.000071",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-902e-cc77121c0cbb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tài liệu khác có liên quan theo quy định.",
+          "code": "G12.000072",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": true,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan chủ quản chủ đầu tư hoặc cơ quan được giao nhiệm vụ chuẩn bị đầu tư",
+  "keywords": "",
+  "categoryIds": [
+    "01a1a973-43f4-732a-95f7-944491e73cf1"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46c-227709c9c95c"
+  ],
+  "resultIds": [
+    "019d2bb2-1c73-70ac-aa19-86ff17be360a"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1a973-43f4-732a-95f7-944491e73cf1",
+      "name": "Quản lý đầu tư công",
+      "code": "G12.97"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46c-227709c9c95c",
+      "name": "Nghị định số 29/2021/NĐ-CP Quy định về trịnh tự, thủ tục thẩm định dự án quan trọng quốc gia và giám sát, đánh giá đầu tư",
+      "code": "29/2021/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c73-70ac-aa19-86ff17be360a",
+      "name": "Báo cáo kết quả thẩm định quyết định điều chỉnh chủ trương đầu tư chương trình, dự án quan trọng quốc gia",
+      "code": "KQ.G12.001399"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911002,
+  "updatedAt": 1794448911002,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính:\n+ Hội đồng thẩm định Nhà nước, Chủ tịch Hội đồng thẩm định Nhà nước là Bộ trưởng Bộ Tài chính; Phó Chủ tịch và các thành viên khác của Hội đồng là đại diện lãnh đạo các bộ, ngành, các cơ quan liên quan\n+ Cơ quan phối hợp thực hiện TTHC: các thành viên khác của Hội đồng thẩm định Nhà nước",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

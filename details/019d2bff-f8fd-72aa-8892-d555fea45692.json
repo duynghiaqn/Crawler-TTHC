@@ -1,0 +1,203 @@
+{
+  "id": "019d2bff-f8fd-72aa-8892-d555fea45692",
+  "code": "2.002573",
+  "codeNotation": "2.002573",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Lập hồ sơ, đề nghị xét tặng kỷ niệm chương\n+ Thủ trưởng các đơn vị thuộc Thanh tra Chính phủ, Chánh thanh tra bộ, Chánh thanh tra tỉnh có trách nhiệm lập hồ sơ, đề nghị xét tặng kỷ niệm chương cho các cá nhân đủ điều kiện.\n+ Gửi công văn kèm theo danh sách đề nghị xét tặng kỷ niệm chương về Vụ Tổ chức cán bộ, Thanh tra Chính phủ trước ngày 01/9 hằng năm.\n- Bước 2: Tổng hợp hồ sơ, đề nghị xét tặng kỷ niệm chương\nVụ tổ chức Cán bộ - Thanh tra Chính phủ có trách nhiệm tổng hợp hồ sơ đề nghị tặng kỷ niệm chương để trình Hội đồng Thi đua – Khen thưởng ngành thanh tra thẩm định trước ngày 30/10 hằng năm.\n- Bước 3: Rà soát, thẩm định hồ sơ đề nghị xét tặng kỷ niệm chương\nThường trực Hội đồng thi đua khen thưởng ngành Thanh tra có trách nhiệm rà soát, thẩm định hồ sơ và đề nghị Hội đồng thi đua khen thưởng ngành thanh tra xem xét, trình Tổng Thanh tra Chính phủ xét, quyết định tặng Kỷ niệm chương cho cá nhân đủ điều kiện, tiêu chuẩn.\n- Bước 4: Ban hành quyết định tặng kỷ niệm chương\nTổng Thanh tra Chính phủ ký quyết định tặng kỷ niệm chương cho cá nhân đủ điều kiện, tiêu chuẩn và tổ chức trao tặng vào đợt kỷ niệm Ngày truyền thống ngành Thanh tra Việt Nam (23/11 hàng năm)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 1,
+      "processingTimeUnit": "MONTH",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "MONTH",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục xét tặng Kỷ niệm chương \"Vì sự nghiệp Thanh tra\"",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71cc-71f4-8333-0b672cda1aa5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Công văn đề nghị xét tặng kỷ niệm chương; - Danh sách trích ngang; - Bản tóm tắt quá trình công tác; - Bản sao các quyết định khen thưởng và hồ sơ liên quan có xác nhận của cơ quan quản lý (nếu có) đối với các trường hợp ưu tiên xét tặng. - Báo cáo thành tích, sáng kiến, công trình khoa học đối với các trường hợp được xét tặng quy định tại khoản 4 Điều 4 Thông tư số 01/2017/TT-TTCP ngày 10/4/2017.",
+          "code": "000.00.00.G20-KQ000173",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b5-8b87c2cece76"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b675-ce7654ab55e9"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7e-720f-afce-0290d771428c"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-dd984729b638"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b5-8b87c2cece76",
+      "name": "Giải quyết khiếu nại",
+      "code": "G20-TH02"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-dd984729b638",
+      "name": "Thanh tra Chính phủ",
+      "code": "G20"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b675-ce7654ab55e9",
+      "name": "Thông tư số 01/2017/TT-TTCP quy định xét tặng Kỷ niệm chương \"Vì sự nghiệp Thanh tra\"",
+      "code": "01/2017/TT-TTCP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7e-720f-afce-0290d771428c",
+      "name": "Quyết định tặng kỷ niệm chương “Vì sự nghiệp thanh tra” của Tổng Thanh tra Chính phủ",
+      "code": "KQ.G20.000025"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-dd984729b638",
+  "departmentPromulgateCode": "G20",
+  "departmentPromulgateName": "Thanh tra Chính phủ",
+  "cases": [
+    {
+      "id": "01a1e851-ef42-7083-a833-287474968dff",
+      "name": "Thủ tục xét tặng Kỷ niệm chương \"Vì sự nghiệp Thanh tra\"",
+      "code": "2.002573",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1794899046081,
+  "updatedAt": 1794899046081,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thanh tra Chính phủ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019d2ca7-1327-7603-9bb8-4fe55451541a",
+    "proposalNumber": "457/QĐ-TTCP",
+    "decisionDate": 1702227600000,
+    "decisionNumber": null,
+    "publicationDate": 1794899045878,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-dd984729b638",
+      "name": "Thanh tra Chính phủ"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": true,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

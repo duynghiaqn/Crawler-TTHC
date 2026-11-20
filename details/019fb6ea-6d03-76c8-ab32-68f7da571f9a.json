@@ -1,0 +1,271 @@
+{
+  "id": "019fb6ea-6d03-76c8-ab32-68f7da571f9a",
+  "code": "1.116312",
+  "codeNotation": "1.116312",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ tại Trung tâm Phục vụ hành chính công thành phố/ Trung tâm Phục vụ hành chính công cấp xã/ Nộp trực tuyến trên Cổng Dịch vụ công quốc gia.\nBước 2: Cơ quan tiếp nhận hồ sơ có trách nhiệm:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\nGiấy tiếp nhận hồ sơ và hẹn trả kết quả và Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ thực hiện theo mẫu quy định tại Nghị định của Chính phủ quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính;\n- Trường hợp Trung tâm Phục vụ hành chính công thành phố/ Trung tâm Phục vụ hành chính công cấp xã/ Doanh nghiệp cung ứng dịch vụ bưu chính công ích tiếp nhận hồ sơ thì chuyển hồ sơ đến Ủy ban nhân dân cấp xã nơi có đất.\nBước 3: Cơ quan có chức năng quản lý đất đai cấp xã thực hiện:\n- Khai thác, sử dụng thông tin hồ sơ cấp Giấy chứng nhận trên Cơ sở dữ liệu quốc gia về đất đai, nếu không thể khai thác được thông tin hoặc thông tin khai thác không đầy đủ thì Thông báo cho Chi nhánh Văn phòng đăng ký đất đai khu vực chuyển hồ sơ cấp Giấy chứng nhận lần đầu để kiểm tra, xem xét và trình Chủ tịch Ủy ban nhân dân cấp xã quyết định thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai.\n- Kiểm tra hồ sơ, xác định lại thông tin quy định tại điểm d khoản 2 Điều 152 Luật Đất đai 2024 theo đúng quy định của pháp luật đất đai tại thời điểm cấp Giấy chứng nhận.\n- Trình Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận.\n- Chuyển hồ sơ đã giải quyết đến Chi nhánh Văn phòng đăng ký đất đai khu vực để thực hiện chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai; chuyển Giấy chứng nhận đến cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 16,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 08 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 08 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 05 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 16,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 08 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 08 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 05 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 16,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Thời gian thu hồi Giấy chứng nhận đã cấp không quá 08 ngày làm việc.\n- Thời gian thực hiện đăng ký, cấp lại Giấy chứng nhận sau thu hồi không quá 08 ngày làm việc (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 05 ngày làm việc; cấp Giấy chứng nhận là không quá 03 ngày làm việc) đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thu hồi Giấy chứng nhận đã cấp lần đầu không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb6f0-d1b7-75d4-8388-337b649ee979",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản kiến nghị việc cấp Giấy chứng nhận không đúng quy định của pháp luật đất đai",
+          "code": "TP-H57.000149",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fa67c-b5c9-764a-a8b0-f88edd484652",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": true,
+          "name": "",
+          "code": "",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019d2bb3-5d7f-719e-b46b-911f4e0d794e",
+    "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+    "019d2bb3-5d86-7760-a644-ce39f72a6124",
+    "019ed4db-2c5b-775d-871e-85a6c8c26ba8",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019fa6c1-b028-74d3-a8da-33946aabb5be",
+    "019feec9-f9a6-749b-a97a-7305b7a405e4"
+  ],
+  "resultIds": [
+    "019fa67c-b5c9-764a-a8b0-f88edd484652",
+    "019fb6f0-433d-7299-997c-3169f517459b"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46b-911f4e0d794e",
+      "name": "Nghị định số 254/2025/NĐ-CP ngày 26/9/2025 của Chính phủ quy định về quản lý, thanh toán, quyết toán dự án sử dụng vốn đầu tư công.",
+      "code": "254/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed4db-2c5b-775d-871e-85a6c8c26ba8",
+      "name": "quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
+      "code": "101/2024/NĐ-CP"
+    },
+    {
+      "id": "019fa6c1-b028-74d3-a8da-33946aabb5be",
+      "name": "Quy định về phân cấp của Ủy ban nhân dân thành phố trong lĩnh vực đất đai trên địa bàn thành phố Huế\n",
+      "code": "31/2026/QĐ-UBND."
+    },
+    {
+      "id": "019feec9-f9a6-749b-a97a-7305b7a405e4",
+      "name": "Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn thành phố Huế",
+      "code": "80/2026/QĐ-UBND"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+      "name": "Luật Đất đai ngày 18/01/2024;",
+      "code": "31/2024/QH15"
+    },
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
+      "code": "226/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fa67c-b5c9-764a-a8b0-f88edd484652",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H57.000006"
+    },
+    {
+      "id": "019fb6f0-433d-7299-997c-3169f517459b",
+      "name": "Quyết định thu hồi Giấy chứng nhận đã cấp sai quy định của pháp luật",
+      "code": "KQ-H57.000019"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [
+    {
+      "id": "019ffdc3-a45a-7459-b3ff-860053fae45d",
+      "name": "Thu hồi Giấy chứng nhận đã cấp lần đầu không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện và cấp lại Giấy chứng nhận sau khi thu hồi",
+      "code": "1.116312.01",
+      "processingDay": {
+        "qty": 16,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1786617409619,
+  "updatedAt": 1786617409619,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại tại Trung tâm Phục vụ hành chính công thành phố Huế hoặc Trung tâm Phục vụ hành chính công cấp xã trên địa bàn thành phố Huế.\nb) Nộp thông qua Doanh nghiệp cung ứng dịch vụ bưu chính công ích.\nc) Nộp trực tuyến trên Cổng Dịch vụ công quốc gia.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff954-1697-730d-8686-87d19727de19",
+    "proposalNumber": "2746/QĐ-UBND",
+    "decisionDate": 1786122000000,
+    "decisionNumber": null,
+    "publicationDate": 1786617409387,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

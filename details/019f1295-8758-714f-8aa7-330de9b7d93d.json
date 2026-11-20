@@ -1,0 +1,590 @@
+{
+  "id": "019f1295-8758-714f-8aa7-330de9b7d93d",
+  "code": "1.115462",
+  "codeNotation": "1.115462",
+  "executionSteps": [
+    {
+      "name": "Bước 1: Người sử dụng đất nông nghiệp nộp hồ sơ tại Trung tâm Phục vụ hành chính công hoặc Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.",
+      "description": "Trường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai."
+    },
+    {
+      "name": "Bước 2: Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai có trách nhiệm:",
+      "description": "- Kiểm tra hồ sơ.\n- Xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính.\n- Trao Giấy chứng nhận hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 07 ngày làm việc.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 14000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp-Chứng nhận đăng ký biến động về đất đai-Cá nhân (II.4.3)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp-Chứng nhận đăng ký biến động về đất đai-Tổ chức (II.4.3)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 07 ngày làm việc.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 14000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp-Chứng nhận đăng ký biến động về đất đai-Cá nhân (II.4.3)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp-Chứng nhận đăng ký biến động về đất đai-Tổ chức (II.4.3)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 07 ngày làm việc.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "nộp Trực tuyến miễn Lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 07 ngày làm việc. Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 14000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp-Chứng nhận đăng ký biến động về đất đai-Cá nhân (II.4.3)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp-Chứng nhận đăng ký biến động về đất đai-Tổ chức (II.4.3)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 07 ngày làm việc. Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 14000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp-Chứng nhận đăng ký biến động về đất đai-Cá nhân (II.4.3)",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 30000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "LỆ PHÍ nộp Trực tiếp-Chứng nhận đăng ký biến động về đất đai-Tổ chức (II.4.3)",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 07 ngày làm việc. Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày.",
+      "fees": [
+        {
+          "type": "SERVICE_FEE",
+          "value": 0,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "nộp Trực tuyến miễn Lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp.",
+  "name": "Xác nhận tiếp tục sử dụng đất nông nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa294-41fa-7798-a063-45e4d6186de7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn xin xác nhận tiếp tục sử dụng đất nông nghiệp theo mẫu 09 tại Phụ lục IV ban hành kèm theo Quyết định này.",
+          "code": "TP-H05.000053",
+          "attachments": [
+            {
+              "id": "019fb881-4373-75ab-be65-14ea0d7a00b1",
+              "fileName": "9. Mẫu số 09.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb881-4373-75ab-be65-14ea0d7a00b1/9. Mẫu số 09.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fa27e-e389-76c8-bcae-63f8bdd88545",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp, trừ trường hợp thực hiện quyết định hoặc bản án của Toà án nhân dân, quyết định thi hành án của cơ quan thi hành án đã có hiệu lực thi hành hoặc trường hợp đấu giá, giao quyền sử dụng đất, tài sản gắn liền với đất theo yêu cầu của Toà án, cơ quan thi hành án mà không thu hồi được Giấy chứng nhận đã cấp.",
+          "code": "TP-H05.000040",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fa1d6-da94-7799-b6dd-b340d2f8fc51",
+    "019fa1e8-86a6-71df-9b88-c4f1e3d6e389",
+    "019fb646-12d3-7739-8d2b-990e6db53392"
+  ],
+  "resultIds": [
+    "019f94d6-7bc3-7451-b663-452e93f16d57"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3f1-c79233d97192",
+    "019d2be3-6a84-779d-b3f1-cfcba825bb8e",
+    "019d2be3-6a84-779d-b3f1-d099105d07a7",
+    "019d2be3-6a84-779d-b3f1-d7931bda311f",
+    "019d2be3-6a84-779d-b3f1-d89a3153d596",
+    "019d2be3-6a84-779d-b3f1-dd50eaed3353",
+    "019d2be3-6a84-779d-b3f1-e06b250cd6af",
+    "019d2be3-6a84-779d-b3f1-e4f43d1860e0",
+    "019d2be3-6a84-779d-b3f1-e951e7537a21",
+    "019d2be3-6a84-779d-b3f1-efa416f22c1e",
+    "019d2be3-6a84-779d-b3f1-f31f44536516",
+    "019d2be3-6a84-779d-b3f1-fa935d7cd29c",
+    "019d2be3-6a85-74ec-a32e-0a181aee8c0d",
+    "019d2be3-6a85-74ec-a32e-0dc3fdce9719",
+    "019d2be3-6a85-74ec-a32e-19ecd19516dd",
+    "019d2be3-6a85-74ec-a32e-1e6458188716",
+    "019d2be3-6a85-74ec-a32e-22fd4b49e804",
+    "019d2be3-6a85-74ec-a32e-276cbe3ce6d8",
+    "019d2be3-6a85-74ec-a32e-28dff694688b"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3f1-c79233d97192",
+    "019d2be3-6a84-779d-b3f1-cfcba825bb8e",
+    "019d2be3-6a84-779d-b3f1-d099105d07a7",
+    "019d2be3-6a84-779d-b3f1-d7931bda311f",
+    "019d2be3-6a84-779d-b3f1-d89a3153d596",
+    "019d2be3-6a84-779d-b3f1-dd50eaed3353",
+    "019d2be3-6a84-779d-b3f1-e06b250cd6af",
+    "019d2be3-6a84-779d-b3f1-e4f43d1860e0",
+    "019d2be3-6a84-779d-b3f1-e951e7537a21",
+    "019d2be3-6a84-779d-b3f1-efa416f22c1e",
+    "019d2be3-6a84-779d-b3f1-f31f44536516",
+    "019d2be3-6a84-779d-b3f1-fa935d7cd29c",
+    "019d2be3-6a85-74ec-a32e-0a181aee8c0d",
+    "019d2be3-6a85-74ec-a32e-0dc3fdce9719",
+    "019d2be3-6a85-74ec-a32e-19ecd19516dd",
+    "019d2be3-6a85-74ec-a32e-1e6458188716",
+    "019d2be3-6a85-74ec-a32e-22fd4b49e804",
+    "019d2be3-6a85-74ec-a32e-276cbe3ce6d8",
+    "019d2be3-6a85-74ec-a32e-28dff694688b"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3f1-c79233d97192",
+      "name": "Văn phòng đăng ký đất đai Bắc Ninh",
+      "code": "H05.34.44"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-d099105d07a7",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Lạng Giang",
+      "code": "H05.34.44.11"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-d89a3153d596",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Sơn Động",
+      "code": "H05.34.44.13"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-dd50eaed3353",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Hiệp Hòa",
+      "code": "H05.34.44.14"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-efa416f22c1e",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường Thuận Thành",
+      "code": "H05.34.44.18"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-f31f44536516",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Gia Bình",
+      "code": "H05.34.44.19"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-22fd4b49e804",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường xã Chũ",
+      "code": "H05.34.44.7"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-28dff694688b",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Lục Nam",
+      "code": "H05.34.44.9"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-cfcba825bb8e",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Yên Thế",
+      "code": "H05.34.44.10"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-e06b250cd6af",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường Bắc Ninh",
+      "code": "H05.34.44.15"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-e4f43d1860e0",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường Từ Sơn",
+      "code": "H05.34.44.16"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-e951e7537a21",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường xã Quế Võ",
+      "code": "H05.34.44.17"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-0a181aee8c0d",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Tiên Du",
+      "code": "H05.34.44.21"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-0dc3fdce9719",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Yên Phong",
+      "code": "H05.34.44.22"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-d7931bda311f",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Tân Yên",
+      "code": "H05.34.44.12"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-fa935d7cd29c",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Lương Tài",
+      "code": "H05.34.44.20"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-19ecd19516dd",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường xã Bắc Giang",
+      "code": "H05.34.44.5"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-1e6458188716",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường Việt Yên",
+      "code": "H05.34.44.6"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-276cbe3ce6d8",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Lục Ngạn",
+      "code": "H05.34.44.8"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3f1-c79233d97192",
+      "name": "Văn phòng đăng ký đất đai Bắc Ninh",
+      "code": "H05.34.44"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-d099105d07a7",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Lạng Giang",
+      "code": "H05.34.44.11"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-d89a3153d596",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Sơn Động",
+      "code": "H05.34.44.13"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-dd50eaed3353",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Hiệp Hòa",
+      "code": "H05.34.44.14"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-efa416f22c1e",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường Thuận Thành",
+      "code": "H05.34.44.18"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-f31f44536516",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Gia Bình",
+      "code": "H05.34.44.19"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-22fd4b49e804",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường xã Chũ",
+      "code": "H05.34.44.7"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-28dff694688b",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Lục Nam",
+      "code": "H05.34.44.9"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-cfcba825bb8e",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Yên Thế",
+      "code": "H05.34.44.10"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-e06b250cd6af",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường Bắc Ninh",
+      "code": "H05.34.44.15"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-e4f43d1860e0",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường Từ Sơn",
+      "code": "H05.34.44.16"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-e951e7537a21",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường xã Quế Võ",
+      "code": "H05.34.44.17"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-0a181aee8c0d",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Tiên Du",
+      "code": "H05.34.44.21"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-0dc3fdce9719",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Yên Phong",
+      "code": "H05.34.44.22"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-d7931bda311f",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Tân Yên",
+      "code": "H05.34.44.12"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3f1-fa935d7cd29c",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Lương Tài",
+      "code": "H05.34.44.20"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-19ecd19516dd",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường xã Bắc Giang",
+      "code": "H05.34.44.5"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-1e6458188716",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên phường Việt Yên",
+      "code": "H05.34.44.6"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a32e-276cbe3ce6d8",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai liên xã Lục Ngạn",
+      "code": "H05.34.44.8"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fa1d6-da94-7799-b6dd-b340d2f8fc51",
+      "name": "Quyết định số 33/2026/QĐ-UBND Ban hành Quy định về trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Bắc Ninh",
+      "code": "33/2026/QĐ-UBND"
+    },
+    {
+      "id": "019fb646-12d3-7739-8d2b-990e6db53392",
+      "name": "Quyết định số 52/2026/QĐ-UBND ngày 09/7/2026 của UBND tỉnh Bắc Ninh Sửa đổi, bổ sung một số nội dung của Quyết định số 33/2026/QĐ-UBND ngày 19 tháng 5 năm 2026 Ban hành Quy định về trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Bắc Ninh.",
+      "code": "52/2026/QĐ-UBND "
+    },
+    {
+      "id": "019fa1e8-86a6-71df-9b88-c4f1e3d6e389",
+      "name": "Nghị quyết số 86/2025/NQ-HĐND Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng một số loại phí và lệ phí trên địa bàn tỉnh Bắc Ninh",
+      "code": "86/2025/NQ-HĐND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f94d6-7bc3-7451-b663-452e93f16d57",
+      "name": "Giấy chứng nhận",
+      "code": "KQ-H05.000107"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+  "departmentPromulgateCode": "H05",
+  "departmentPromulgateName": "UBND tỉnh Bắc Ninh",
+  "cases": [
+    {
+      "id": "019f4af6-4174-720e-81de-e2e4898d6389",
+      "name": "Xác nhận tiếp tục sử dụng đất nông nghiệp",
+      "code": "1.115462.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fbcb6-fffe-70fb-bf7e-e15c34a19d78",
+      "name": "Xác nhận tiếp tục sử dụng đất nông nghiệp",
+      "code": "1.115462.01",
+      "processingDay": {
+        "qty": 17,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1782723217240,
+  "updatedAt": 1785577523736,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng đăng ký đất đai Bắc Ninh, Chi nhánh Văn phòng đăng ký đất đai liên xã Lạng Giang, Chi nhánh Văn phòng đăng ký đất đai liên xã Sơn Động, Chi nhánh Văn phòng đăng ký đất đai liên xã Hiệp Hòa, Chi nhánh Văn phòng đăng ký đất đai liên phường Thuận Thành, Chi nhánh Văn phòng đăng ký đất đai liên xã Gia Bình, Chi nhánh Văn phòng đăng ký đất đai liên phường xã Chũ, Chi nhánh Văn phòng đăng ký đất đai liên xã Lục Nam, Chi nhánh Văn phòng đăng ký đất đai liên xã Yên Thế, Chi nhánh Văn phòng đăng ký đất đai liên phường Bắc Ninh, Chi nhánh Văn phòng đăng ký đất đai liên phường Từ Sơn, Chi nhánh Văn phòng đăng ký đất đai liên phường xã Quế Võ, Chi nhánh Văn phòng đăng ký đất đai liên xã Tiên Du, Chi nhánh Văn phòng đăng ký đất đai liên xã Yên Phong, Chi nhánh Văn phòng đăng ký đất đai liên xã Tân Yên, Chi nhánh Văn phòng đăng ký đất đai liên xã Lương Tài, Chi nhánh Văn phòng đăng ký đất đai liên phường xã Bắc Giang, Chi nhánh Văn phòng đăng ký đất đai liên phường Việt Yên, Chi nhánh Văn phòng đăng ký đất đai liên xã Lục Ngạn",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thực hiện nộp hồ sơ không phụ thuộc vào địa giới hành chính bằng một trong các hình thức: \na) Nộp trực tiếp hoặc thông qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm phục vụ hành chính công cấp xã; Điểm tiếp nhận và trả kết quả phường Kinh Bắc.\nb) Nộp trực tuyến toàn trình trên Cổng dịch vụ công quốc gia, địa chỉ: https://dichvucong.gov.vn/",
+  "delegatedAgencies": "Văn phòng đăng ký đất đai Bắc Ninh, Chi nhánh Văn phòng đăng ký đất đai liên xã Lạng Giang, Chi nhánh Văn phòng đăng ký đất đai liên xã Sơn Động, Chi nhánh Văn phòng đăng ký đất đai liên xã Hiệp Hòa, Chi nhánh Văn phòng đăng ký đất đai liên phường Thuận Thành, Chi nhánh Văn phòng đăng ký đất đai liên xã Gia Bình, Chi nhánh Văn phòng đăng ký đất đai liên phường xã Chũ, Chi nhánh Văn phòng đăng ký đất đai liên xã Lục Nam, Chi nhánh Văn phòng đăng ký đất đai liên xã Yên Thế, Chi nhánh Văn phòng đăng ký đất đai liên phường Bắc Ninh, Chi nhánh Văn phòng đăng ký đất đai liên phường Từ Sơn, Chi nhánh Văn phòng đăng ký đất đai liên phường xã Quế Võ, Chi nhánh Văn phòng đăng ký đất đai liên xã Tiên Du, Chi nhánh Văn phòng đăng ký đất đai liên xã Yên Phong, Chi nhánh Văn phòng đăng ký đất đai liên xã Tân Yên, Chi nhánh Văn phòng đăng ký đất đai liên xã Lương Tài, Chi nhánh Văn phòng đăng ký đất đai liên phường xã Bắc Giang, Chi nhánh Văn phòng đăng ký đất đai liên phường Việt Yên, Chi nhánh Văn phòng đăng ký đất đai liên xã Lục Ngạn",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fad62-76ca-769e-9d81-657d4c0769a1",
+    "proposalNumber": "1922/QĐ-UBND",
+    "decisionDate": 1783875600000,
+    "decisionNumber": null,
+    "publicationDate": 1785577523284,
+    "issuingAgency": {
+      "id": "019d2be3-6a84-779d-b3ed-9649c4f016cd",
+      "name": "UBND tỉnh Bắc Ninh"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

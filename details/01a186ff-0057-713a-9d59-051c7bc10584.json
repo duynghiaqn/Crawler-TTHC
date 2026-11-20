@@ -1,0 +1,213 @@
+{
+  "id": "01a186ff-0057-713a-9d59-051c7bc10584",
+  "code": "6.006841",
+  "codeNotation": "6.006841",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "Bước 1: Trong thời hạn 30 ngày, kể từ ngày phát hiện tài sản công bị mất, bị hủy hoại, cơ quan, tổ chức, đơn vị được giao quản lý, sử dụng tài sản có trách nhiệm xác định nguyên nhân, trách nhiệm để xảy ra việc tài sản công bị mất, bị hủy hoại, lập 01 bộ hồ sơ đề nghị xử lý gửi cơ quan quản lý cấp trên (nếu có) để báo cáo cơ quan, người có thẩm quyền quyết định xử lý tài sản công trong trường hợp bị mất, hủy hoại xem xét, quyết định.\nBước 2. Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, cơ quan, người có thẩm quyền xem xét, quyết định xử lý tài sản công trong trường hợp bị mất, bị hủy hoại."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.\nPhí, lệ phí (nếu có): Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Không quá 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ.\nPhí, lệ phí (nếu có): Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính (nếu có): Không có.",
+  "name": "Quyết định xử lý tài sản công trong trường hợp bị mất, bị hủy hoại",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-2c18e56ef1f9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị xử lý tài sản công bị mất, bị hủy hoại của cơ quan nhà nước được giao quản lý, sử dụng tài sản công: 01 bản chính;",
+          "code": "G12.06.0042",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-313720c494e2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị xử lý tài sản công bị mất, bị hủy hoại của cơ quan quản lý cấp trên (nếu có)",
+          "code": "G12.06.0043",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-37d7780c28b1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản bị mất, bị hủy hoại (chủng loại, số lượng; nguyên giá, giá trị còn lại theo sổ kế toán; lý do bị mất, bị hủy hoại): 01 bản chính;",
+          "code": "G12.06.0044",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-381cff36dc91",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ, tài liệu chứng minh việc tài sản bị mất, bị hủy hoại (nếu có)",
+          "code": "G12.06.0045",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan, tổ chức, đơn vị được giao quản lý, sử dụng tài sản bị mất, hủy hoại.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe6-2afca8c14558",
+    "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+    "019d2bb3-5d84-71c5-b675-3f4ed878610b"
+  ],
+  "resultIds": [
+    "01a18701-c79a-723e-b557-45e6d596c8cc"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6771-31da-7758-9a23-1c3f7317813c"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6771-31da-7758-9a23-1c3f7317813c",
+      "name": "Bộ trưởng hoặc cấp tương đương"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe6-2afca8c14558",
+      "name": "Nghị định quy định chi tiết một số điều của Luật quản lý, sử dụng tài sản công",
+      "code": "151/2017/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-2564868d034e",
+      "name": "Nghị định 114/2024/NĐ-CP sửa đổi Nghị định 151/2017/NĐ-CP hướng dẫn Luật Quản lý, sử dụng tài sản công",
+      "code": "114/2024/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b675-3f4ed878610b",
+      "name": "LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG",
+      "code": "Số: 15/201/QH14"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a18701-c79a-723e-b557-45e6d596c8cc",
+      "name": "Quyết định xử lý tài sản công trong trường hợp bị mất, bị hủy hoại.",
+      "code": "KQ.G12.001372"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910946,
+  "updatedAt": 1794448910946,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính:\n- Bộ trưởng, Thủ trưởng cơ quan trung ương, cơ quan, người được phân cấp thẩm quyền quyết định xử lý tài sản công là tài sản cố định tại cơ quan nhà nước thuộc phạm vi quản lý của bộ, cơ quan trung ương trong trường hợp bị mất, bị hủy hoại. \n- Hội đồng nhân dân cấp tỉnh, cơ quan, người được phân cấp thẩm quyền quyết định xử lý tài sản công là tài sản cố định tại cơ quan nhà nước thuộc phạm vi quản lý của địa phương trong trường hợp bị mất, bị hủy hoại. \n- Người đứng đầu cơ quan nhà nước được giao quản lý, sử dụng tài sản công quyết định xử lý trong trường hợp bị mất, bị hủy hoại đối với: \n+ Tài sản công là tài sản cố định theo thẩm quyền do Bộ trưởng, Thủ trưởng cơ quan trung ương, Hội đồng nhân dân cấp tỉnh quy định. \n+ Tài sản công không phải là tài sản cố định.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính (nếu có): Không có.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "01a18ab2-0657-77ab-b70c-95f44f466a39",
+  "code": "6.006856",
+  "codeNotation": "6.006856",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Khi có tài sản KCHT giao thông đường bộ cần sử dụng để tham gia dự án đầu tư theo phương thức đối tác công tư, cơ quan quản lý tài sản lập hồ sơ đề nghị, báo cáo cơ quan quản lý cấp trên (nếu có) để trình cơ quan, người có thẩm quyền\nBước 2: Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ, cơ quan, người có thẩm quyền xem xét, quyết định sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư đối với các trường hợp thuộc thẩm quyền hoặc có văn bản hồi đáp trong trường hợp đề nghị chưa phù hợp.\nTrường hợp thuộc thẩm quyền quyết định của Thủ tướng Chính phủ thì Bộ Giao thông vận tải (đối với tài sản thuộc trung ương quản lý), UBND cấp tỉnh (đối với tài sản thuộc địa phương quản lý) lập hồ sơ đề nghị Thủ tướng Chính phủ xem xét, quyết định sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư hoặc có văn bản chỉ đạo trong trường hợp đề nghị chưa phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Quản lý, sử dụng tài sản kết cấu hạ tầng giao thông đường bộ được đầu tư theo phương pháp đối tác công tư",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18acf-2f18-7324-9f1b-fb4c0c08bbc3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý tài sản về việc đề nghị sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư (trong đó nêu rõ lý do sử dụng tài sản để tham gia dự án đầu tư)",
+          "code": "G12.06.0096",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18acf-792d-72ff-bccc-4d06bbb21ad7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý cấp trên của cơ quan quản lý tài sản (nếu có) về việc đề nghị sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư",
+          "code": "G12.06.0097",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18acf-d72d-7088-8d22-1d90c213e8ff",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan quản lý đường bộ cấp tỉnh (trong trường hợp tài sản do cơ quan quản lý tài sản cấp huyện hoặc cơ quan quản lý tài sản cấp xã quản lý) về việc đề nghị sử dụng tài sản để tham gia dự án đầu tư theo phương thức đối tác công tư",
+          "code": "G12.06.0098",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-911abd21cff4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Ý kiến của các cơ quan có liên quan",
+          "code": "G12.06.0099",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18ad0-e0ce-77df-a455-97fb88652163",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản đề nghị sử dụng để tham gia dự án đầu tư theo phương thức đối tác công tư theo Mẫu số 01C tại Phụ lục kèm theo Nghị định số 44/2024/NĐ-CP ngày 24/4/2024 của Chính phủ",
+          "code": "G12.06.0100",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-7adf4d20e448",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ có liên quan khác (nếu có)",
+          "code": "G12.060049",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan quản lý tài sản quy định tại khoản 3 Điều 2 Nghị định số 44/2024/NĐ-CP ngày 24/4/2024 của Chính phủ.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46e-16ecdd31d7bc"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-387bfe5bcea2"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+    "019d2be3-6a81-771b-b670-e23c2fe80f32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+      "name": "Bộ xây dựng (Giao thông vận tải cũ)",
+      "code": "G04"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b670-e23c2fe80f32",
+      "name": "Thủ tướng Chính phủ",
+      "code": "TTCP"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46e-16ecdd31d7bc",
+      "name": "Nghị định 44/2024/NĐ-CP quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng giao thông đường bộ",
+      "code": "44/2024/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-387bfe5bcea2",
+      "name": "Quyết định sử dụng tài sản kết cấu hạ tầng giao thông đường bộ để tham gia dự án đầu tư theo phương thức đối tác công tư",
+      "code": "KQ.G12.001396"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911476,
+  "updatedAt": 1794448911476,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ xây dựng (Giao thông vận tải cũ), Thủ tướng Chính phủ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Thủ tướng Chính phủ, Bộ trưởng Bộ Giao thông vận tải, UBND cấp tỉnh.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

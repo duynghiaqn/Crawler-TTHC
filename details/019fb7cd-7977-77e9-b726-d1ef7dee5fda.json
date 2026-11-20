@@ -1,0 +1,179 @@
+{
+  "id": "019fb7cd-7977-77e9-b726-d1ef7dee5fda",
+  "code": "3.000656",
+  "codeNotation": "3.000656",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người sử dụng đất nông nghiệp nộp hồ sơ tại Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm Phục vụ hành chính công cấp xã hoặc Chi nhánh Văn phòng đăng ký đất đai.\nKhi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực\nTrường hợp Trung tâm Phục vụ hành chính công tỉnh hoặc Trung tâm hành chính công cấp xã  tiếp nhận hồ sơ thì chuyển hồ sơ đến Chi nhánh Văn phòng đăng ký đất đai."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Chi nhánh Văn phòng đăng ký đất đai có trách nhiệm:\n- Kiểm tra hồ sơ.\n- Xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính.\n- Trao Giấy chứng nhận hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Xác nhận tiếp tục sử dụng đất nông nghiệp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fb5aa-64e9-700e-b8cd-12d2845b0523"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-5b3b-776b-ae3c-c9f6bbc23933"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-5b3b-776b-ae3c-c9f6bbc23933",
+      "name": "Cơ quan, tổ chức, đơn vị có thẩm quyền quản lý hoặc được giao trực tiếp quản lý đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fb5aa-64e9-700e-b8cd-12d2845b0523",
+      "name": "Giấy chứng nhận.",
+      "code": "KQ05"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a341-16615c474af4",
+  "departmentPromulgateCode": "H18",
+  "departmentPromulgateName": "UBND tỉnh Điện Biên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1785562255748,
+  "updatedAt": 1785562255748,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb595-a11e-760d-90fc-0d4660334ae2",
+    "proposalNumber": "53/QUBND",
+    "decisionDate": 1784048400000,
+    "decisionNumber": null,
+    "publicationDate": 1785562255602,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a341-16615c474af4",
+      "name": "UBND tỉnh Điện Biên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

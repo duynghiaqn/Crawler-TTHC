@@ -1,0 +1,211 @@
+{
+  "id": "019d2bff-f8fa-7378-a10e-0026a4c10bcf",
+  "code": "2.002571",
+  "codeNotation": "2.002571",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1:\n+ Đối với quà tặng bằng tiền, giấy tờ có giá thì Thủ trưởng cơ quan, tổ chức, đơn vị tổ chức tiếp nhận, bảo quản và làm thủ tục nộp vào ngân sách nhà nước theo quy định của pháp luật.\n+ Đối với quà tặng bằng hiện vật, Thủ trưởng cơ quan, tổ chức, đơn vị tiếp nhận, bảo quản và xử lý như sau:\nXác định giá trị của quà tặng trên cơ sở giá của quà tặng do cơ quan, đơn vị, cá nhân tặng quà cung cấp (nếu có) hoặc giá trị của quà tặng tương tự được bán trên thị trường. Trong trường hợp không xác định được giá trị của quà tặng bằng hiện vật thì có thể đề nghị cơ quan có chức năng xác định giá;\n Quyết định bán quà tặng và tổ chức công khai bán quà tặng theo quy định của pháp luật;\n Nộp vào ngân sách nhà nước số tiền thu được sau khi trừ đi chi phí liên quan đến việc xử lý quà tặng trong thời hạn 30 ngày, kể từ ngày bán quà tặng.\n+ Đối với quà tặng là dịch vụ thăm quan, du lịch, y tế, giáo dục - đào tạo, thực tập, bồi dưỡng trong nước hoặc ngoài nước, dịch vụ khác thì Thủ trưởng cơ quan, tổ chức, đơn vị phải thông báo đến cơ quan, tổ chức, đơn vị cung cấp dịch vụ về việc không sử dụng dịch vụ đó.\n+ Đối với quà tặng là động vật, thực vật, thực phẩm tươi, sống và hiện vật khác khó bảo quản thì Thủ trưởng cơ quan, tổ chức, đơn vị căn cứ tình hình cụ thể và quy định của pháp luật về xử lý tang vật trong các vụ việc vi phạm hành chính để quyết định xử lý theo thẩm quyền hoặc báo cáo Cấp có thẩm quyền xem xét, quyết định xử lý.\n\t- Bước 2: Trong thời hạn 05 ngày làm việc, kể từ ngày xử lý quà tặng, cơ quan, tổ chức, đơn vị xử lý quà tặng có trách nhiệm thông báo bằng văn bản cho cơ quan, tổ chức, đơn vị quản lý người tặng quà hoặc Cấp trên trực tiếp của cơ quan, tổ chức, đơn vị đã tặng quà để xem xét, xử lý theo thẩm quyền."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Xử lý quà tặng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71cc-71f4-8332-e4fe95ca708d",
+          "originalQty": 0,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Không quy định",
+          "code": "000.00.00.G20-KQ000164",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b5-9af94ff8e836"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46f-61cc87556088"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7b-7208-ba47-cc90dd393135"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6ada-753f-9ac5-7f7ad71b75d9",
+    "019d2be3-6ada-753f-9ac8-60f3074ce4c6",
+    "019d2be3-6adc-74f3-b277-62b5074cd68e",
+    "019d2be3-6adc-74f3-b277-a041fa742725"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b5-9af94ff8e836",
+      "name": "Phòng, chống tham nhũng",
+      "code": "G20-TH01"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b5-9af94ff8e836",
+    "name": "Phòng, chống tham nhũng",
+    "code": "G20-TH01"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6ada-753f-9ac5-7f7ad71b75d9",
+      "name": "Doanh nghiệp nhà nước",
+      "code": "BGT-DNNN"
+    },
+    {
+      "id": "019d2be3-6adc-74f3-b277-62b5074cd68e",
+      "name": "Các tổ chức chính trị - xã hội",
+      "code": "TCCC-XHCX"
+    },
+    {
+      "id": "019d2be3-6ada-753f-9ac8-60f3074ce4c6",
+      "name": "Cơ quan Nhà nước (Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, Thủ trưởng tổ chức khoa học và công nghệ công lập)",
+      "code": "CQNN"
+    },
+    {
+      "id": "019d2be3-6adc-74f3-b277-a041fa742725",
+      "name": "Đơn vị sự nghiệp công lập thuộc cơ quan hành chính nhà nước",
+      "code": "TTR-DVSN"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46f-61cc87556088",
+      "name": "Nghị định số 59/2019/NĐ-CP ngày 01 tháng 7 năm 2019 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật phòng chống tham nhũng",
+      "code": "59/2019/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7b-7208-ba47-cc90dd393135",
+      "name": "Văn bản thông báo",
+      "code": "KQ.G18.000027"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-dd984729b638",
+  "departmentPromulgateCode": "G20",
+  "departmentPromulgateName": "Thanh tra Chính phủ",
+  "cases": [
+    {
+      "id": "01a1e851-ef92-7520-ae7e-1f05823ad378",
+      "name": "Xử lý quà tặng",
+      "code": "2.002571",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1794899046080,
+  "updatedAt": 1794899046080,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Doanh nghiệp nhà nước, Các tổ chức chính trị - xã hội, Cơ quan Nhà nước (Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, Thủ trưởng tổ chức khoa học và công nghệ công lập), Đơn vị sự nghiệp công lập thuộc cơ quan hành chính nhà nước",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019d2ca7-1327-7603-9bb8-4fe55451541a",
+    "proposalNumber": "457/QĐ-TTCP",
+    "decisionDate": 1702227600000,
+    "decisionNumber": null,
+    "publicationDate": 1794899045878,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-dd984729b638",
+      "name": "Thanh tra Chính phủ"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": true,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "01a1a423-12e2-778b-9166-549e3b45536e",
+  "code": "6.006896",
+  "codeNotation": "6.006896",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "Trong thời hạn 30 ngày, kể từ ngày nộp tiền vào tài khoản tạm giữ, đơn vị chủ trì quản lý tài sản có trách nhiệm gửi văn bản đề nghị thanh toán đến chủ tài khoản tạm giữ để chi trả chi phí xử lý tài sản hoặc có văn bản đề nghị gia hạn thời hạn thanh toán (văn bản nêu rõ lý do đề nghị gia hạn và thời gian gia hạn nhưng không quá 30 ngày, kể từ ngày có văn bản đề nghị gia hạn) hoặc có văn bản xác nhận không phát sinh chi phí. Người đứng đầu đơn vị chủ trì quản lý tài sản chịu trách nhiệm trước pháp luật về việc chậm gửi hồ sơ, văn bản và khoản chi đề nghị thanh toán. Trường hợp đơn vị chủ trì quản lý tài sản phải xử lý tài sản của nhiều vụ việc phát sinh thường xuyên thì được phép tổng hợp chi phí quản lý, xử lý tài sản của nhiều vụ việc để thanh toán định kỳ nhưng không quá 06 tháng/lần. Việc thanh toán theo định kỳ phải được chủ tài khoản tạm giữ đồng ý bằng văn bản."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết:\nTrong thời hạn 30 ngày, kể từ ngày nộp tiền vào tài khoản tạm giữ, đơn vị chủ trì quản lý tài sản có trách nhiệm gửi văn bản đề nghị thanh toán đến chủ tài khoản tạm giữ để chi trả chi phí xử lý tài sản hoặc có văn bản đề nghị gia hạn thời hạn thanh toán (văn bản nêu rõ lý do đề nghị gia hạn và thời gian gia hạn nhưng không quá 30 ngày, kể từ ngày có văn bản đề nghị gia hạn) hoặc có văn bản xác nhận không phát sinh chi phí. \nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết:\nTrong thời hạn 30 ngày, kể từ ngày nộp tiền vào tài khoản tạm giữ, đơn vị chủ trì quản lý tài sản có trách nhiệm gửi văn bản đề nghị thanh toán đến chủ tài khoản tạm giữ để chi trả chi phí xử lý tài sản hoặc có văn bản đề nghị gia hạn thời hạn thanh toán (văn bản nêu rõ lý do đề nghị gia hạn và thời gian gia hạn nhưng không quá 30 ngày, kể từ ngày có văn bản đề nghị gia hạn) hoặc có văn bản xác nhận không phát sinh chi phí. \nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết:\nTrong thời hạn 30 ngày, kể từ ngày nộp tiền vào tài khoản tạm giữ, đơn vị chủ trì quản lý tài sản có trách nhiệm gửi văn bản đề nghị thanh toán đến chủ tài khoản tạm giữ để chi trả chi phí xử lý tài sản hoặc có văn bản đề nghị gia hạn thời hạn thanh toán (văn bản nêu rõ lý do đề nghị gia hạn và thời gian gia hạn nhưng không quá 30 ngày, kể từ ngày có văn bản đề nghị gia hạn) hoặc có văn bản xác nhận không phát sinh chi phí. \nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không có",
+  "name": "Thanh toán các khoản chi liên quan đến quản lý, xử lý tài sản được xác lập quyền sở hữu toàn dân",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a424-810b-77ee-beff-22e4396dd3c1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thanh toán đến chủ tài khoản tạm giữ để chi trả chi phí xử lý tài sản hoặc có văn bản đề nghị gia hạn thời hạn thanh toán hoặc có văn bản xác nhận không phát sinh chi phí",
+          "code": "G12.060314",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": true,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Đơn vị chủ trì quản lý tài sản.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b471-1f79313e051c"
+  ],
+  "resultIds": [
+    "01a1a426-0311-7217-8a1a-ed05fe0d13fc"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b471-1f79313e051c",
+      "name": "Nghị định quy định thẩm quyền, thủ tục xác lập quyền sở hữu toàn dân về tài sản và xử lý đối với tài sản được xác lập quyền sở hữu toàn dân",
+      "code": "77/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1a426-0311-7217-8a1a-ed05fe0d13fc",
+      "name": "Thanh toán các khoản chi liên quan đến quản lý, xử lý tài sản được xác lập quyền sở hữu toàn dân",
+      "code": "KQ.G12.001437"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448921624,
+  "updatedAt": 1794448921624,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Chủ tài khoản tạm giữ theo quy định tại Nghị định số 77/2025/NĐ-CP.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không có",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

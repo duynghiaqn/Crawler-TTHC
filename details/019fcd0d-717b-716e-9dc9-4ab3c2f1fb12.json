@@ -1,0 +1,320 @@
+{
+  "id": "019fcd0d-717b-716e-9dc9-4ab3c2f1fb12",
+  "code": "3.000689",
+  "codeNotation": "3.000689",
+  "executionSteps": [
+    {
+      "name": "a) Trường hợp sử dụng đất kết hợp vào mục đích thương mại, dịch vụ",
+      "description": "Bước 1: Người có yêu cầu nộp hồ sơ đến Trung tâm Phục vụ hành chính công tỉnh/Trung tâm Phục vụ hành chính công cấp xã. Trung tâm Phục vụ hành chính công tỉnh/Trung tâm Phục vụ hành chính công cấp xã chuyển hồ sơ đến Sở Nông nghiệp và Môi trường.\nKhi nộp hồ sơ, người sử dụng đất được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Sở Nông nghiệp và Môi trường chủ trì, phối hợp với các sở, ngành có liên quan thẩm định phương án sử dụng đất kết hợp trình Ủy ban nhân dân tỉnh."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Ủy ban nhân dân tỉnh chấp thuận hoặc không chấp thuận phương án sử dụng đất kết hợp; gửi cơ quan tiếp nhận hồ sơ để trả cho người có yêu cầu; trường hợp không chấp thuận thì có văn bản trả lời và nêu rõ lý do."
+    },
+    {
+      "name": "b) Trường hợp gia hạn phương án sử dụng đất kết hợp vào mục đích thương mại, dịch vụ:",
+      "description": "Bước 1: Người có yêu cầu gia hạn gửi văn bản đề nghị đến Trung tâm Phục vụ hành chính công hoặc Sở Nông nghiệp và Môi trường  trước khi hết thời gian sử dụng đất kết hợp 30 ngày.\nTrường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Sở Nông nghiệp và Môi trường"
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Sở Nông nghiệp và Môi trường  chủ trì, phối hợp với các sở, ngành có liên quan thẩm định gia hạn phương án sử dụng đất kết hợp trình Ủy ban nhân dân tỉnh."
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Ủy ban nhân dân tỉnh chấp thuận hoặc không chấp thuận gia hạn phương án sử dụng đất kết hợp; gửi cơ quan tiếp nhận hồ sơ để trả cho người có yêu cầu; trường hợp không chấp thuận thì có văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Sử dụng đất kết hợp đa mục đích, gia hạn phương án sử dụng đất kết hợp đa mục đích",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fe1c9-ae43-74e8-88d9-9957c685390b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Hồ sơ đề nghị phê duyệt phương án sử dụng đất kết hợp đa mục đích bao gồm: - Văn bản đề nghị sử dụng đất kết hợp đa mục đích theo Mẫu số 15 ban hành kèm theo Quyết định này - Phương án sử dụng đất kết hợp. - Giấy chứng nhận đã cấp hoặc một trong các loại giấy tờ về quyền sử dụng đất theo quy định của pháp luật (nếu có).",
+          "code": "B1",
+          "attachments": [
+            {
+              "id": "019fe1c9-a455-75a8-8a6b-70577e4e1182",
+              "fileName": "Mẫu số 15.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fe1c9-a455-75a8-8a6b-70577e4e1182/Mẫu số 15.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fe1ca-b0b9-7476-8b6d-c3b5ecc14124",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Hồ sơ gia hạn phương án sử dụng đất kết hợp đa mục đích hồ sơ: Văn bản đề nghị gia hạn phương án sử dụng đất kết hợp.",
+          "code": "B2",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019fb0be-c41a-70da-bf34-42632706099f",
+    "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+    "019fb1fa-2084-7275-8106-8d583ed94e03"
+  ],
+  "resultIds": [
+    "019f25e5-b821-71bd-b92e-5b673f4d1fdc",
+    "019f70bc-a123-7190-a2de-3c0142889312",
+    "019fc6bb-bd65-704f-af83-eac4c40a79eb",
+    "019fc6bb-fa03-75f8-af0f-6050f5cbe4a6"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-5b3b-776b-ae3c-c9f6bbc23933"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-5b3b-776b-ae3c-c9f6bbc23933",
+      "name": "Cơ quan, tổ chức, đơn vị có thẩm quyền quản lý hoặc được giao trực tiếp quản lý đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
+      "name": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "49/2026/NĐ-CP"
+    },
+    {
+      "id": "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+      "name": "Nghị định số 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai",
+      "code": "102/2024/NĐ-CP "
+    },
+    {
+      "id": "019fb0be-c41a-70da-bf34-42632706099f",
+      "name": "Quyết định số 22/2026/QĐ-UBND ngày 30/3/2026 về việc Quy định phân cấp phân quyền thực hiện một số nhiệm vụ trong lĩnh vực đất đai trên địa bàn tỉnh Điện Biên.",
+      "code": "22/2026/QĐ-UBND "
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "019fb1fa-2084-7275-8106-8d583ed94e03",
+      "name": "Quy định trình tự, thủ tục hành chính về đất đai\ntrên địa bàn tỉnh Điện Biên. \n",
+      "code": "53/2026/QĐ-UBND "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f25e5-b821-71bd-b92e-5b673f4d1fdc",
+      "name": "Văn bản trả lời đối với trường hợp không chấp thuận gia hạn phương án sử dụng đất kết hợp.",
+      "code": "KQ.005"
+    },
+    {
+      "id": "019f70bc-a123-7190-a2de-3c0142889312",
+      "name": "Phương án sử dụng đất kết hợp được gia hạn đối với trường hợp xin gia hạn.",
+      "code": "KQ-005"
+    },
+    {
+      "id": "019fc6bb-fa03-75f8-af0f-6050f5cbe4a6",
+      "name": "Văn bản trả lời đối với trường hợp không chấp thuận phương án sử dụng đất kết hợp.",
+      "code": "KQ-0052"
+    },
+    {
+      "id": "019fc6bb-bd65-704f-af83-eac4c40a79eb",
+      "name": "Phương án sử dụng đất kết hợp đối với trường hợp phê duyệt lần đầu.",
+      "code": "KQ-0051"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a341-16615c474af4",
+  "departmentPromulgateCode": "H18",
+  "departmentPromulgateName": "UBND tỉnh Điện Biên",
+  "cases": [
+    {
+      "id": "01a06b6c-478f-758f-b2f5-1a57b7dbdc72",
+      "name": "Sử dụng đất kết hợp đa mục đích, gia hạn phương án sử dụng đất kết hợp đa mục đích",
+      "code": "3.000689.01",
+      "processingDay": {
+        "qty": 25,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1787638239886,
+  "updatedAt": 1788770456777,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "- Trung tâm Phục vụ hành chính công tỉnh;\n- Trung tâm Phục vụ hành chính công cấp xã",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fccf2-6ffb-749b-babc-afda5bf4e3b5",
+    "proposalNumber": "1723/QĐ-UBND",
+    "decisionDate": 1785430800000,
+    "decisionNumber": null,
+    "publicationDate": 1787638237560,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a341-16615c474af4",
+      "name": "UBND tỉnh Điện Biên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

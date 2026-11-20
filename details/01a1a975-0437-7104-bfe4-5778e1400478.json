@@ -1,0 +1,179 @@
+{
+  "id": "01a1a975-0437-7104-bfe4-5778e1400478",
+  "code": "6.006925",
+  "codeNotation": "6.006925",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Chủ đầu tư báo cáo quyết toán theo niên độ gửi bộ, cơ quan trung ương hoặc cơ quan cấp trên của chủ đầu tư (trường hợp được phân cấp quản lý) trước ngày 01 tháng 5 năm sau năm quyết toán. \n- Bước 2: Bộ, cơ quan trung ương xét duyệt báo cáo của các chủ đầu tư; tổng hợp, lập báo cáo quyết toán theo niên độ gửi Bộ Tài chính trước ngày 05 tháng 7 năm sau năm quyết toán.\n+ Trường hợp bộ, cơ quan trung ương phân cấp quản lý, chủ đầu tư báo cáo quyết toán theo niên độ gửi cơ quan cấp trên của chủ đầu tư được phân cấp quản lý; cơ quan được phân cấp chịu trách nhiệm xét duyệt báo cáo của các chủ đầu tư và tổng hợp báo cáo quyết toán các dự án thuộc phạm vi được phân cấp quản lý gửi bộ, cơ quan trung ương trước ngày 05 tháng 6 năm sau năm quyết toán để bộ, cơ quan trung ương tổng hợp, lập báo cáo quyết toán theo niên độ gửi Bộ Tài chính trước ngày 05 tháng 7 năm sau năm quyết toán.\n+ Trường hợp báo cáo quyết toán theo niên độ của chủ đầu tư lập chưa đúng quy định, bộ, cơ quan trung ương, cơ quan cấp trên của chủ đầu tư (trường hợp được phân cấp quản lý) yêu cầu chủ đầu tư giải trình, cung cấp thông tin, số liệu cần thiết, điều chỉnh hoặc yêu cầu lập lại báo cáo để xét duyệt theo quy định. Bộ, cơ quan trung ương, cơ quan cấp trên của chủ đầu tư (trường hợp được phân cấp quản lý) yêu cầu chủ đầu tư nộp các khoản phải nộp ngân sách nhà nước theo quy định và xuất toán các khoản chi sai chế độ, chi không đúng kế hoạch được giao, xử lý theo thẩm quyền hoặc đề nghị cơ quan có thẩm quyền xử lý đối với chủ đầu tư sử dụng vốn không đúng quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Xét duyệt quyết toán vốn đầu tư công nguồn ngân sách nhà nước theo năm ngân sách",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1cda2-87d3-70e7-9fb7-4deb1e5f3942",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Theo hướng dẫn tại Nghị định số 254/2025/NĐ-CP ngày 26/9/2025 của Chính phủ và Thông tư số 91/2025/TT-BTC ngày 26/9/2025 của Bộ Tài chính",
+          "code": "G12.000255",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "UPDATED",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Bộ, cơ quan trung ương",
+  "keywords": "",
+  "categoryIds": [
+    "01a1a973-43f4-732a-95f7-944491e73cf1"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46b-911f4e0d794e",
+    "019d2bb3-5d87-7195-a44a-4202c4962955"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe8-ec7729e478d7"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1a973-43f4-732a-95f7-944491e73cf1",
+      "name": "Quản lý đầu tư công",
+      "code": "G12.97"
+    }
+  ],
+  "category": {
+    "id": "01a1a973-43f4-732a-95f7-944491e73cf1",
+    "name": "Quản lý đầu tư công",
+    "code": "G12.97"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d87-7195-a44a-4202c4962955",
+      "name": "Quy định về hệ thống mẫu biểu sử dụng trong công tác quyết toán",
+      "code": "Thông tư số 91/2025/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b46b-911f4e0d794e",
+      "name": "Nghị định số 254/2025/NĐ-CP ngày 26/9/2025 của Chính phủ quy định về quản lý, thanh toán, quyết toán dự án sử dụng vốn đầu tư công.",
+      "code": "254/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe8-ec7729e478d7",
+      "name": "Thông báo xét duyệt quyết toán",
+      "code": "KQ.G12.000672"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910961,
+  "updatedAt": 1794452222486,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Các bộ, cơ quan trung ương",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1cd9b-db03-7400-bc1b-bb17c07bb2f8",
+    "proposalNumber": "3494/QĐ-BTC",
+    "decisionDate": 1760461200000,
+    "decisionNumber": null,
+    "publicationDate": 1794452222444,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

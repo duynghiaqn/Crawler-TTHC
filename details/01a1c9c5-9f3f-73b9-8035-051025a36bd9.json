@@ -1,0 +1,196 @@
+{
+  "id": "01a1c9c5-9f3f-73b9-8035-051025a36bd9",
+  "code": "5.004051",
+  "codeNotation": "5.004051",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Căn cứ dự báo khả năng NQNN tạm thời nhàn rỗi hoặc NQNN tạm thời thiếu hụt trong kỳ, KBNN xây dựng phương án điều hành NQNN, lấy ý kiến Vụ NSNN, Vụ Tài chính các ngân hàng và tổ chức tài chính, trình Bộ Tài chính phê duyệt."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "-\tĐối với phương án điều hành NQNN hàng quý: trước ngày 20 tháng cuối quý -\tĐối với phương án điều hành NQNN năm: trước ngày 20 tháng 12 năm trước",
+      "processingTimeUnit": "OTHER",
+      "description": "-\tĐối với phương án điều hành NQNN hàng quý: trước ngày 20 tháng cuối quý\n-\tĐối với phương án điều hành NQNN năm: trước ngày 20 tháng 12 năm trước",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "-\tĐối với phương án điều hành NQNN hàng quý: trước ngày 20 tháng cuối quý -\tĐối với phương án điều hành NQNN năm: trước ngày 20 tháng 12 năm trước",
+      "processingTimeUnit": "OTHER",
+      "description": "-\tĐối với phương án điều hành NQNN hàng quý: trước ngày 20 tháng cuối quý\n-\tĐối với phương án điều hành NQNN năm: trước ngày 20 tháng 12 năm trước",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Xây dựng, trình Bộ xem xét, phê duyệt phương án điều hành NQNN quý/năm",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd67-99fb5d09d1c4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản tham gia ý kiến của Vụ Ngân sách nhà nước, Vụ Các định chế tài chính và tổ chức tài chính",
+          "code": "G12.000205",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4c-b2c71751d732",
+    "019d2bb3-5d7d-7398-be4e-628a92e7f0bc"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe9-c27a89dab5bf"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a655-9eb8a9c2fe76"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6a72-700f-a653-0cb6336b131a",
+    "01a11fca-8f81-759e-8b7e-71c7987ae0da"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+      "name": "Kho bạc Nhà nước",
+      "code": "G12-TC07"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a655-9eb8a9c2fe76",
+      "name": "Kho bạc Nhà nước - Bộ tài chính",
+      "code": "000.00.12.G12"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "01a11fca-8f81-759e-8b7e-71c7987ae0da",
+      "name": "Vụ Ngân sách nhà nước - Bộ Tài chính",
+      "code": "G12.02"
+    },
+    {
+      "id": "019d2be3-6a72-700f-a653-0cb6336b131a",
+      "name": "Vụ Các định chế tài chính - Bộ tài chính",
+      "code": "000.00.01.G12"
+    }
+  ],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be4c-b2c71751d732",
+      "name": "Thông tư số 314/2016/TT-BTC của Bộ Tài chính: Hướng dẫn một số điều tại Nghị định số 24/2016/NĐ-CP ngày 05 tháng 4 năm 2016 của Chính phủ quy định chế độ quản lý ngân quỹ nhà nước",
+      "code": "314"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4e-628a92e7f0bc",
+      "name": "Thông tư số 64/2019/TT-BTC ngày 16/9/2019 của Bộ Tài chính sửa đổi, bổ sung một số điều của Thông tư số 314/2016/TT-BTC",
+      "code": "64"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe9-c27a89dab5bf",
+      "name": "Bộ Tài chính phê duyệt",
+      "code": "KQ.G12.000737"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910967,
+  "updatedAt": 1794448910967,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Kho bạc Nhà nước - Bộ tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Tài chính",
+  "coordinatingAgencies": "Vụ Ngân sách nhà nước - Bộ Tài chính, Vụ Các định chế tài chính - Bộ tài chính",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

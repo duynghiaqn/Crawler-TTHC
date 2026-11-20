@@ -1,0 +1,162 @@
+{
+  "id": "01a1a4bd-59e1-7768-bbb4-8485c97d3804",
+  "code": "6.006908",
+  "codeNotation": "6.006908",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "Cơ quan tài chính, đơn vị sử dụng ngân sách lập Giấy nộp trả kinh phí cho ngân sách cấp và giấy tờ liên quan (nếu có) gửi trực tiếp tại KBNN nơi giao dịch. KBNN tiếp nhận, kiểm soát tính hợp pháp, hợp lệ, kiểm tra số liệu. Trường hợp đủ điều kiện hạch toán, KBNN hạch toán và trả lại đơn vị 01 liên chứng từ. Trường hợp không đủ điều kiện hạch toán, KBNN trả lại hồ sơ cho đơn vị"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Không quy định",
+      "processingTimeUnit": "OTHER",
+      "description": "Thời hạn giải quyết: Không quy định\nPhí, lệ phí: Không quy định",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Chứng từ hợp lệ, hợp pháp",
+  "name": "Điều chỉnh số liệu ngân sách",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd75-ca51512d10f5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "02 liên Phiếu điều chỉnh số liệu ngân sách (Mẫu số C2-10/NS).",
+          "code": "000.00.00.G12-KQ013801",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan Tài chính, đơn vị sử dụng ngân sách",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4a-bc7ca5bb3ae5"
+  ],
+  "resultIds": [
+    "01a1a4b9-bedf-71f1-9c8e-5378960796c8"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+      "name": "Kho bạc Nhà nước",
+      "code": "G12-TC07"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be4a-bc7ca5bb3ae5",
+      "name": "Thông tư số 19/2020/TT-BTC ngày 31/3/2020 của Bộ Tài chính sửa đổi, bổ sung một số điều của Thông tư số 77/2017/TT-BTC",
+      "code": "19"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1a4b9-bedf-71f1-9c8e-5378960796c8",
+      "name": "Kêt quả thực hiện kiểm chứng nhập cảnh (khi tàu đến cảng), xuất cảnh (khi tàu rời cảng) vào Bản khai chung, Danh sách thuyền viên, Danh sách hành khách (nếu có)",
+      "code": "KQ.G01.000318"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448921266,
+  "updatedAt": 1794448921266,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: KBNN nơi giao dịch",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Chứng từ hợp lệ, hợp pháp",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "01a1f7fb-6458-72bd-a2ee-8002fa649b2a",
+  "code": "1.117148",
+  "codeNotation": "1.117148",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1. Thương nhân gửi 01 bộ hồ sơ đề nghị cấp Giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ trực tiếp hoặc qua đường bưu chính hoặc trực tuyến tới cơ quan cấp phép"
+    },
+    {
+      "name": "",
+      "description": "2. Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan cấp phép thông báo bằng văn bản cho thương nhân để bổ sung, hoàn thiện."
+    },
+    {
+      "name": "",
+      "description": "3. Trường hợp cần thiết, trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan cấp phép gửi hồ sơ tới bộ liên quan để xin ý kiến. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được công văn xin ý kiến của cơ quan cấp phép, bộ liên quan xem xét hồ sơ và có văn bản trả lời."
+    },
+    {
+      "name": "",
+      "description": "4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định hoặc kể từ ngày nhận được văn bản trả lời của bộ liên quan, cơ quan cấp phép xem xét cấp Giấy phép cho thương nhân hoặc có văn bản từ chối cấp Giấy phép, nêu rõ lý do"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định hoặc kể từ ngày nhận được văn bản trả lời của bộ liên quan.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định hoặc kể từ ngày nhận được văn bản trả lời của bộ liên quan.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định hoặc kể từ ngày nhận được văn bản trả lời của bộ liên quan.",
+      "fees": []
+    }
+  ],
+  "description": "Đối với trường hợp đề nghị cấp giấy phép theo thời hạn: Thương nhân đã thực hiện Chương trình tuân thủ nội bộ từ 02 năm trở lên và được Bộ Công Thương xác nhận theo khoản 3 Điều 5 và khoản 4 Điều 8 Nghị định số 259/2025/NĐ-CP.",
+  "name": "Cấp giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7175-75bc-b3b8-eb388c7678e1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Đơn đề nghị cấp phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng",
+          "code": "000.00.00.G02-KQ006073",
+          "attachments": [
+            {
+              "id": "019d8a85-ce75-7412-a1da-452022eb7348",
+              "fileName": "DonDeNghiMoi.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019d8a85-ce75-7412-a1da-452022eb7348/DonDeNghiMoi.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-7175-75bc-b3b8-ef775ff94fad",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Văn bản cam kết của người nhập khẩu hoặc người sử dụng cuối cùng về việc hàng hóa không được sử dụng cho mục đích sản xuất vũ khí hủy diệt hàng loạt và không cung cấp cho các tổ chức, cá nhân bị chỉ định: 01 bản chính bằng tiếng Anh và 01 bản dịch tiếng Việt, cả 2 bản được xác nhận bởi thương nhân đề nghị cấp giấy phép.",
+          "code": "000.00.00.G02-KQ006074",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7175-75bc-b3b8-f1651b8be2b4",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Các chứng từ có liên quan đến lô hàng lưỡng dụng: hợp đồng xuất khẩu, tạm nhập tái xuất, quá cảnh, chuyển khẩu, trung chuyển; giấy phép của cơ quan có thẩm quyền theo quy định hiện hành (nếu có)",
+          "code": "000.00.00.G02-KQ006075",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7175-75bc-b3b8-fb115c1b4862",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Quyết định của Bộ Công Thương xác nhận thực hiện Chương trình tuân thủ nội bộ theo quy định tại khoản 3 Điều 5 Nghị định số 259/2025/NĐ-CP của Chính phủ (chỉ áp dụng với trường hợp thương nhân đề nghị cấp giấy phép theo thời hạn).",
+          "code": "000.00.00.G02-KQ006077",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-7175-75bc-b3b8-f58a78894acd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Báo cáo tình hình xuất khẩu, tạm nhập tái xuất, chuyển khẩu, quá cảnh, trung chuyển hàng hóa lưỡng dụng theo giấy phép đã được cấp trước đó theo mẫu tại Phụ lục IV ban hành kèm theo Nghị định số 259/2025/NĐ-CP của Chính phủ",
+          "code": "000.00.00.G02-KQ006076",
+          "attachments": [
+            {
+              "id": "019d8a87-5cd2-73f3-9160-9d8a2cd8fef7",
+              "fileName": "BaoCaoTinhhinh.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019d8a87-5cd2-73f3-9160-9d8a2cd8fef7/BaoCaoTinhhinh.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-2f587e315cc3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+    "019d2bb3-5d86-7760-a646-038f1b5ace8f",
+    "01a1f80f-ae4b-768e-8a64-86c623ccc194"
+  ],
+  "resultIds": [
+    "01a1f803-b783-72ec-83ff-4172b5f3d400"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+      "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+      "code": "G14-TT04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+    "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+    "code": "G14-TT04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d86-7760-a646-038f1b5ace8f",
+      "name": "Nghị định số 259/2025/NĐ-CP ngày 10 tháng 10 năm 2025 của Chính phủ của Chính phủ về kiểm soát thương mại chiến lược.",
+      "code": "259/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
+      "name": "Luật quản lý ngoại thương",
+      "code": "05/2017/QH14"
+    },
+    {
+      "id": "01a1f80f-ae4b-768e-8a64-86c623ccc194",
+      "name": "Ban hành Danh mục, tổ chức cấp phép hàng hóa lưỡng dụng và theo dõi, truy xuất thông tin về kiểm soát thương mại chiến lược thuộc quản lý nhà nước của Bộ Khoa học và Công nghệ.",
+      "code": "30/2026/TT-BKHCN"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1f803-b783-72ec-83ff-4172b5f3d400",
+      "name": "Giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ hoặc văn bản từ chối cấp Giấy phép, nêu rõ lý do.",
+      "code": "KQ.G06.001945"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+  "departmentPromulgateCode": "G06",
+  "departmentPromulgateName": "Bộ Khoa học và Công nghệ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1795170371749,
+  "updatedAt": 1795170371749,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đối với trường hợp đề nghị cấp giấy phép theo thời hạn: Thương nhân đã thực hiện Chương trình tuân thủ nội bộ từ 02 năm trở lên và được Bộ Công Thương xác nhận theo khoản 3 Điều 5 và khoản 4 Điều 8 Nghị định số 259/2025/NĐ-CP.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1f713-d306-7369-a745-be2717d5db33",
+    "proposalNumber": "4502/QĐ-BKHCN",
+    "decisionDate": 1795021200000,
+    "decisionNumber": null,
+    "publicationDate": 1795170371693,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+      "name": "Bộ Khoa học và Công nghệ"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

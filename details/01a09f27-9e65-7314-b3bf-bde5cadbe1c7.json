@@ -1,0 +1,214 @@
+{
+  "id": "01a09f27-9e65-7314-b3bf-bde5cadbe1c7",
+  "code": "3.000730",
+  "codeNotation": "3.000730",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1.\tĐối tượng, gia đình đối tượng, người giám hộ, thân nhân hoặc gia đình, cá nhân nhận chăm sóc, nuôi dưỡng hoặc cha, mẹ nuôi của đối tượng làm 01 Đơn và cung cấp 01 bản sao đối với mỗi giấy tờ liên quan đến đối tượng gửi trực tiếp tại Trung tâm Phục vụ hành chính công thành phố/Trung tâm Phục vụ hành chính công cấp xã; qua dịch vụ bưu chính; hoặc trực tuyến trên Cổng Dịch vụ công Quốc gia theo quy định đến người đứng đầu cơ sở trợ giúp xã hội công lập trực thuộc Sở Y tế.\n2.\tTrong thời hạn 07 ngày làm việc, kể từ khi nhận được Đơn và giấy tờ liên quan đến đối tượng, người đứng đầu cơ sở trợ giúp xã hội công lập trực thuộc Sở Y tế quyết định dừng trợ giúp xã hội chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội; Trường hợp đối tượng trở về gia đình, cộng đồng thì lập biên bản bàn giao có xác nhận của UBND cấp xã nơi đối tượng cư trú."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "07 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "Đối tượng thuộc các trường hợp quy định tại khoản 2 Điều 8 Quy định ban hành kèm theo Quyết định",
+  "name": "Thủ tục dừng trợ giúp xã hội chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội trực thuộc Sở Y tế theo Điều 8 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a09f27-5e60-729e-8a9f-52f82e1e6f4c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai theo Mẫu số 12 kèm theo Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+          "code": "TP-H17.000512",
+          "attachments": [
+            {
+              "id": "01a09f27-10ac-7026-90ea-7969a76d5ae0",
+              "fileName": "MauSo_12.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a09f27-10ac-7026-90ea-7969a76d5ae0/MauSo_12.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-6573ae6e97af"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a09ed6-0486-7606-b380-c185bc63b82d",
+    "01a09ed6-c17c-77f4-a132-b547cd5618d7"
+  ],
+  "resultIds": [
+    "01a09f26-6c64-77aa-b696-bd8b8b3ce40c"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a33f-a730d6c6bd32"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+      "name": "Bảo trợ xã hội",
+      "code": "G07-LĐ03"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+    "name": "Bảo trợ xã hội",
+    "code": "G07-LĐ03"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a33f-a730d6c6bd32",
+      "name": "Sở Y tế TP. Đà Nẵng",
+      "code": "H17.19"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a09ed6-0486-7606-b380-c185bc63b82d",
+      "name": "Quy định một số chính sách trợ giúp xã hội trên địa bàn thành phố Đà Nẵng",
+      "code": "Nghị quyết số 41/2025/NQ-HĐND (Thành phố Đà Nẵng)"
+    },
+    {
+      "id": "01a09ed6-c17c-77f4-a132-b547cd5618d7",
+      "name": "Quy định về thẩm quyền, hồ sơ, trình tự, thủ tục thực hiện chính sách trợ giúp xã hội theo Nghị quyết số 41/2025/NQ-HĐND",
+      "code": "124/2026/QĐ-UBND (thành phố Đà Nẵng)"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a09f26-6c64-77aa-b696-bd8b8b3ce40c",
+      "name": "Quyết định dừng trợ giúp xã hội tại cơ sở trợ giúp xã hội của người đứng đầu cơ sở trợ giúp xã hội công lập trực thuộc Sở Y tế.",
+      "code": "KQ.H17.000307"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33d-803cf2496575",
+  "departmentPromulgateCode": "H17",
+  "departmentPromulgateName": "UBND Thành phố Đà Nẵng",
+  "cases": [
+    {
+      "id": "01a0cc46-0e54-724a-9049-5b7ccc5c146b",
+      "name": "Thủ tục dừng trợ giúp xã hội chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội trực thuộc Sở Y tế theo Điều 8 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ-UBND",
+      "code": "3.000730.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790133045792,
+  "updatedAt": 1790133045792,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Y tế TP. Đà Nẵng",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đối tượng thuộc các trường hợp quy định tại khoản 2 Điều 8 Quy định ban hành kèm theo Quyết định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a09ed0-e223-7106-83d1-874643a1972a",
+    "proposalNumber": "4088/QĐ-UBND",
+    "decisionDate": 1789059600000,
+    "decisionNumber": null,
+    "publicationDate": 1790133045722,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33d-803cf2496575",
+      "name": "UBND Thành phố Đà Nẵng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

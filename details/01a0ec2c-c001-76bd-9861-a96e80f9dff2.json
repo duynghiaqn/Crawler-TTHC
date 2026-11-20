@@ -1,0 +1,219 @@
+{
+  "id": "01a0ec2c-c001-76bd-9861-a96e80f9dff2",
+  "code": "5.003898",
+  "codeNotation": "5.003898",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Các đơn vị chủ trì (các Bộ, ngành) thực hiện gửi 01 hồ sơ đề xuất đề án thực hiện Chương trình Thương hiệu Quốc gia Việt Nam đến Bộ Công Thương, trước ngày 30 tháng 5 của năm trước năm kế hoạch.\nBước 2. Bộ Công Thương có trách nhiệm thẩm định đề án do các đơn vị chủ trì đề xuất, căn cứ theo: chiến lược phát triển hoạt động ngoại thương trong ngành, lĩnh vực đã được cấp có thẩm quyền phê duyệt; định hướng cụ thể hàng năm hoặc từng thời kỳ của Hội đồng Thương hiệu quốc gia Việt Nam; nhu cầu của các tổ chức, doanh nghiệp.\nBước 3. Căn cứ ý kiến của Hội đồng Thương hiệu quốc gia Việt Nam về danh mục đề án do các đơn vị chủ trì đề xuất, Bộ trưởng Bộ Công Thương quyết định phê duyệt danh mục đề án trước ngày 15 tháng 7 của năm trước năm kế hoạch.\nBước 4. Trong vòng 20 ngày làm việc kể từ ngày nhận được văn bản của Bộ Tài chính thông báo dự toán chi ngân sách cho Chương trình, Bộ trưởng Bộ Công Thương quyết định phê duyệt đề án và kinh phí được hỗ trợ theo nguyên tắc tổng kinh phí hỗ trợ để thực hiện các đề án không vượt quá tổng dự toán được giao.\nBước 5. Trong vòng 03 ngày làm việc kể từ ngày ban hành quyết định phê duyệt đề án, Bộ Công Thương công bố đến các đơn vị chủ trì và các cơ quan quản lý nhà nước có liên quan, đồng thời thông báo về các đề án không được phê duyệt."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật\n20 ngày làm việc kể từ ngày nhận được văn bản của Bộ Tài chính thông báo dự toán chi ngân sách cho Chương trình, Bộ trưởng Bộ Công Thương quyết định phê duyệt đề án và kinh phí được hỗ trợ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trực tuyến tại cổng dịch vụ công quốc gia\n20 ngày làm việc kể từ ngày nhận được văn bản của Bộ Tài chính thông báo dự toán chi ngân sách cho Chương trình, Bộ trưởng Bộ Công Thương quyết định phê duyệt đề án và kinh phí được hỗ trợ",
+      "fees": []
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Xây dựng Đề án thuộc Chương trình Thương hiệu Quốc gia Việt Nam",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0ec28-7742-7535-b89d-b1f4e5950773",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề xuất đề án thực hiện Chương trình Thương hiệu Quốc gia Việt Nam",
+          "code": "XTTM-NB-01",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0ec28-d1a5-74fd-bcd6-45bd34ea4581",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đề án chi tiết thực hiện hoạt động thuộc Chương trình Thương hiệu Quốc gia Việt Nam",
+          "code": "XTTM-NB-02",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0ec29-354b-738f-a50e-42c05a0ca9ca",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định thành lập hoặc Điều lệ (hoặc văn bản có giá trị tương đương), báo cáo tình hình hoạt động thuộc Chương trình Thương hiệu Quốc gia Việt Nam của đơn vị chủ trì trong năm gần nhất",
+          "code": "XTTM-NB-03",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-618942ed888a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46b-ed77704c08fa",
+    "01a0ec2b-9dd8-723f-82af-c981e342af9b",
+    "01a0ec2c-5a67-703e-8d1a-562719937d89"
+  ],
+  "resultIds": [
+    "01a0ec29-8b02-7558-bc55-2856a4f9b8c1"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-b16ccb65a5c0"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-618942ed888a",
+      "name": "Xúc tiến thương mại",
+      "code": "G02-CT23"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-618942ed888a",
+    "name": "Xúc tiến thương mại",
+    "code": "G02-CT23"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương",
+      "code": "G02"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46b-ed77704c08fa",
+      "name": "Quy định chi tiết Luật Quản lý ngoại thương về một số biện pháp phát triển ngoại thương",
+      "code": "28/2018/NĐ-CP"
+    },
+    {
+      "id": "01a0ec2b-9dd8-723f-82af-c981e342af9b",
+      "name": "Quyết định số 30/2019/QĐ-TTg ngày 08 tháng 10 năm 2019 của Thủ tướng Chính phủ ban hành Quy chế xây dựng, quản lý, thực hiện Chương trình Thương hiệu quốc gia Việt Nam đã được sửa đổi, bổ sung một số điều theo Quyết định số 03/2026/QĐ-TTg ngày 20 tháng 01 năm 2026",
+      "code": "30/2019/QĐ-TTg"
+    },
+    {
+      "id": "01a0ec2c-5a67-703e-8d1a-562719937d89",
+      "name": "Thông tư số 18/2026/TT-BCT ngày 03 tháng 4 năm 2026 của Bộ trưởng Bộ Công Thương quy định hệ thống tiêu chí của Chương trình Thương hiệu quốc gia Việt Nam",
+      "code": "18/2026/TT-BCT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0ec29-8b02-7558-bc55-2856a4f9b8c1",
+      "name": "Quyết định về việc phê duyệt Đề án thuộc Chương trình Thương hiệu Quốc gia Việt Nam",
+      "code": "KQNB-01"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1790670754594,
+  "updatedAt": 1790670754594,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công thương",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ec23-87b4-76fe-857a-a2fc07412db8",
+    "proposalNumber": "2420/QĐ-BCT",
+    "decisionDate": 1790269200000,
+    "decisionNumber": null,
+    "publicationDate": 1790670754534,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

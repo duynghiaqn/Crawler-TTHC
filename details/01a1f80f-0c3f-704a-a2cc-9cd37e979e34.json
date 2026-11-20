@@ -1,0 +1,184 @@
+{
+  "id": "01a1f80f-0c3f-704a-a2cc-9cd37e979e34",
+  "code": "6.006959",
+  "codeNotation": "6.006959",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan, đơn vị lập 01 bộ hồ sơ bản giấy (bản chính) và các tệp tin điện tử (file pdf, file word) của hồ sơ đề nghị xét tặng Kỷ niệm chương gửi đến Bộ Khoa học và Công nghệ;\n- Vụ Tổ chức cán bộ, Bộ Khoa học và Công nghệ thẩm định hồ sơ, trình Bộ trưởng quyết định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện thông qua một trong các cách thức sau:\n- Nộp trực tiếp tại Bộ Khoa học và Công nghệ.\n- Nộp qua hệ thống bưu chính (địa chỉ cơ quan: 18 Nguyễn Du, Phường Cửa Nam, Thành phố Hà Nội).\n- Nộp trực tuyến qua hệ thống văn bản điều hành (https://mst.gov.vn).",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục đề nghị xét tặng Kỷ niệm chương “Vì sự nghiệp Khoa học và Công nghệ”",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-14f00d4f0a62"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1f80e-2839-72fe-b2d1-6922508a4ec9"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7b-7208-ba4a-7fd0ff0ce547"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+      "name": "Hoạt động khoa học và công nghệ",
+      "code": "G06-KC02"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorityIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1f80e-2839-72fe-b2d1-6922508a4ec9",
+      "name": "Thông tư quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng đối với ngành Khoa học và Công nghệ",
+      "code": "58/2026/TT-BKHCN"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7b-7208-ba4a-7fd0ff0ce547",
+      "name": "Quyết định tặng Kỷ niệm chương",
+      "code": "KQ.G18.000203"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+  "departmentPromulgateCode": "G06",
+  "departmentPromulgateName": "Bộ Khoa học và Công nghệ",
+  "cases": [
+    {
+      "id": "01a1f854-65ce-75be-844d-52565bd77034",
+      "name": "Thủ tục đề nghị xét tặng Kỷ niệm chương “Vì sự nghiệp Khoa học và Công nghệ",
+      "code": "6.006959.01",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a1f86b-4083-7626-8e04-a400377c6c9b",
+      "name": "Thủ tục đề nghị xét tặng Kỷ niệm chương “Vì sự nghiệp Khoa học và Công nghệ",
+      "code": "6.006959.02",
+      "processingDay": {
+        "qty": 15,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1795163108872,
+  "updatedAt": 1795163108872,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ Khoa học và Công nghệ, số 18 Nguyễn Du, phường Cửa Nam, Hà Nội",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1f7e4-6da6-729a-9d3d-696d864fd807",
+    "proposalNumber": "4508/QĐ-BKHCN",
+    "decisionDate": 1795021200000,
+    "decisionNumber": null,
+    "publicationDate": 1795163108837,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+      "name": "Bộ Khoa học và Công nghệ"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "019d2c1e-2a30-71bc-8adc-04223a440e42",
+  "so_quyet_dinh": "7867/QĐ_BYT",
+  "trich_yeu": "trích từ 7867/QĐ_BYT",
+  "ngay_quyet_dinh": "2018-12-28",
+  "decision_date_ts": 1545955200000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776135045338,
+  "created_at_ts": 1545955200000,
+  "updated_at_ts": 1774561667629,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Dược phẩm",
+    "Y Dược cổ truyền"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c1e-2a30-71bc-8adc-04223a440e42",
+  "source_updated_at_ts": 1774561667629,
+  "fetched_at": "2026-11-18T13:29:26.511Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c1e-2a30-71bc-8adc-04223a440e42",
+    "state": "PUBLICATION",
+    "proposalNumber": "7867/QĐ_BYT",
+    "proposalExcerpt": "trích từ 7867/QĐ_BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-8a6c271189c4",
+      "019d2bbb-69ee-7079-a6b5-13a996b92439"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1545955200000,
+    "decisionNumber": null,
+    "publicationDate": 1776135045338,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1545955200000,
+    "updatedAt": 1774561667629,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-13a996b92439",
+        "name": "Y Dược cổ truyền"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae11-8a6c271189c4",
+        "name": "Dược phẩm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bff-0656-73e8-84dc-ba9363fce092",
+          "ma_tthc": "1.008075",
+          "ten_tthc": "Công bố cơ sở tổ chức thi xét cấp Chứng chỉ hành nghề dược (CCHND)",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-0656-73e8-84dc-ba9363fce092"
+        },
+        {
+          "id": "019d2bff-0654-7063-9eb7-14cbbf1e0acd",
+          "ma_tthc": "1.008076",
+          "ten_tthc": "Điều chỉnh công bố cơ sở tổ chức thi xét cấp Chứng chỉ hành nghề dược trong trường hợp thay đổi thông tin về tên, địa chỉ của cơ sở tổ chức thi",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-0654-7063-9eb7-14cbbf1e0acd"
+        },
+        {
+          "id": "019d2bff-0dd7-76fe-abef-006bc50753fd",
+          "ma_tthc": "1.008077",
+          "ten_tthc": "Điều chỉnh công bố cơ sở tổ chức thi xét cấp Chứng chỉ hành nghề dược trong trường hợp thay đổi phạm vi tổ chức thi",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-0dd7-76fe-abef-006bc50753fd"
+        }
+      ]
+    }
+  }
+}

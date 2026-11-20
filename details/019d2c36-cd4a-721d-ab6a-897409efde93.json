@@ -1,0 +1,92 @@
+{
+  "id": "019d2c36-cd4a-721d-ab6a-897409efde93",
+  "so_quyet_dinh": "384/QĐ-BTC",
+  "trich_yeu": "trích từ 384/QĐ-BTC",
+  "ngay_quyet_dinh": "2020-03-23",
+  "decision_date_ts": 1584921600000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775642734305,
+  "created_at_ts": 1584921600000,
+  "updated_at_ts": 1774563282248,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Kế toán, kiểm toán"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c36-cd4a-721d-ab6a-897409efde93",
+  "source_updated_at_ts": 1774563282248,
+  "fetched_at": "2026-11-18T13:29:20.426Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c36-cd4a-721d-ab6a-897409efde93",
+    "state": "PUBLICATION",
+    "proposalNumber": "384/QĐ-BTC",
+    "proposalExcerpt": "trích từ 384/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-de6df80476e4"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1584921600000,
+    "decisionNumber": null,
+    "publicationDate": 1775642734305,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1584921600000,
+    "updatedAt": 1774563282248,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-de6df80476e4",
+        "name": "Kế toán, kiểm toán"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfc-25a6-760a-a089-239b7faeaf3a",
+          "ma_tthc": "1.007638",
+          "ten_tthc": "Thủ tục Đăng ký tham gia kiểm toán cho đơn vị có lợi ích công chúng",
+          "linh_vuc": [
+            "Kế toán, kiểm toán"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25a6-760a-a089-239b7faeaf3a"
+        },
+        {
+          "id": "019d2bfd-00fb-77fe-bb1c-441cc4c84b89",
+          "ma_tthc": "3.000061",
+          "ten_tthc": "Thủ tục đề nghị cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán qua biên giới tại Việt Nam của doanh nghiệp dịch vụ kế toán nước ngoài",
+          "linh_vuc": [
+            "Kế toán, kiểm toán"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-00fb-77fe-bb1c-441cc4c84b89"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

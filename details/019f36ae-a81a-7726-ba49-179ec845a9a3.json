@@ -1,0 +1,131 @@
+{
+  "id": "019f36ae-a81a-7726-ba49-179ec845a9a3",
+  "so_quyet_dinh": "1767/QĐ-BTC",
+  "trich_yeu": "Về việc công bố thủ tục hành chính được sửa đổi, bổ sung, bị bãi bỏ trong lĩnh vực thuế, hải quan thuộc phạm vi chức năng quản lý nhà nước của Bộ Tài chính",
+  "ngay_quyet_dinh": "2026-07-02",
+  "decision_date_ts": 1782925200000,
+  "ngay_cong_bo": "2026-07-07",
+  "publication_date_ts": 1783417627986,
+  "created_at_ts": 1782925200000,
+  "updated_at_ts": 1783414402093,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Thuế",
+    "Hải quan"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019f36ad-da0b-75ee-8ad6-83825fbec0bc",
+      "fileName": "QD 1767.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019f36ae-a81a-7726-ba49-179ec845a9a3",
+  "source_updated_at_ts": 1783414402093,
+  "fetched_at": "2026-11-18T13:27:56.628Z",
+  "thong_tin_chi_tiet": {
+    "id": "019f36ae-a81a-7726-ba49-179ec845a9a3",
+    "state": "PUBLICATION",
+    "proposalNumber": "1767/QĐ-BTC",
+    "proposalExcerpt": "Về việc công bố thủ tục hành chính được sửa đổi, bổ sung, bị bãi bỏ trong lĩnh vực thuế, hải quan thuộc phạm vi chức năng quản lý nhà nước của Bộ Tài chính",
+    "completionDate": 1783417536087,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019f36ad-da0b-75ee-8ad6-83825fbec0bc",
+        "fileName": "QD 1767.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1782925200000,
+    "decisionNumber": null,
+    "publicationDate": 1783417627986,
+    "effectiveDate": 1782925200000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1782925200000,
+    "updatedAt": 1783414402093,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+        "name": "Hải quan"
+      },
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+        "name": "Thuế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfc-6c30-753d-afe3-ebbd93967f7f",
+          "ma_tthc": "1.008567",
+          "ten_tthc": "Thủ tục lựa chọn doanh nghiệp đăng ký, điều chỉnh, chấm dứt việc bán hàng hoàn thuế giá trị gia tăng",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "2026-07-02",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6c30-753d-afe3-ebbd93967f7f"
+        },
+        {
+          "id": "019d2bfc-4cee-7529-b259-31a11fdaab4b",
+          "ma_tthc": "1.007901",
+          "ten_tthc": "Thủ tục chấm dứt đại lý hoàn thuế đối với Ngân hàng thương mại",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "2026-07-02",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-4cee-7529-b259-31a11fdaab4b"
+        },
+        {
+          "id": "019d2bfc-4cca-770c-bce7-7a2f27c69f1e",
+          "ma_tthc": "1.007900",
+          "ten_tthc": "Thủ tục lựa chọn Ngân hàng thương mại là đại lý hoàn thuế giá trị gia tăng",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "2026-07-02",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-4cca-770c-bce7-7a2f27c69f1e"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-6c25-74f8-b09e-dbe57d5c0e7b",
+          "ma_tthc": "1.008566",
+          "ten_tthc": "Thủ tục lựa chọn doanh nghiệp bán hàng hoàn thuế giá trị gia tăng",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "2026-07-02",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6c25-74f8-b09e-dbe57d5c0e7b"
+        }
+      ]
+    }
+  }
+}

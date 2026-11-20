@@ -1,0 +1,91 @@
+{
+  "id": "01a19f08-98b0-709e-b870-68e16091eb2a",
+  "so_quyet_dinh": "3146/QĐ-BTC",
+  "trich_yeu": "Về việc công bố thủ tục hành chính được tái cấu trúc dựa trên dữ liệu trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý nhà nước của Bộ Tài chính",
+  "ngay_quyet_dinh": "2026-10-29",
+  "decision_date_ts": 1793206800000,
+  "ngay_cong_bo": "2026-11-03",
+  "publication_date_ts": 1793691461135,
+  "created_at_ts": 1793669503125,
+  "updated_at_ts": 1793691458294,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Hải quan"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "01a19f25-06f8-72ba-96d6-9f1289dd6765",
+      "fileName": "3146_29102026_170325.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a19f08-98b0-709e-b870-68e16091eb2a",
+  "source_updated_at_ts": 1793691458294,
+  "fetched_at": "2026-11-18T13:27:36.859Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a19f08-98b0-709e-b870-68e16091eb2a",
+    "state": "PUBLICATION",
+    "proposalNumber": "3146/QĐ-BTC",
+    "proposalExcerpt": "Về việc công bố thủ tục hành chính được tái cấu trúc dựa trên dữ liệu trong lĩnh vực hải quan thuộc phạm vi chức năng quản lý nhà nước của Bộ Tài chính",
+    "completionDate": 1793691458446,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "01a19f25-06f8-72ba-96d6-9f1289dd6765",
+        "fileName": "3146_29102026_170325.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1793206800000,
+    "decisionNumber": null,
+    "publicationDate": 1793691461135,
+    "effectiveDate": 1793206800000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1793669503125,
+    "updatedAt": 1793691458294,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+        "name": "Hải quan"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-c24f-7784-aac0-5888b2a5ac2e",
+          "ma_tthc": "1.011663",
+          "ten_tthc": "Thủ tục xác nhận về đạt tiêu chuẩn xe thiết kế chở tiền thuộc Nhóm 98.23",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "2026-10-29",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-c24f-7784-aac0-5888b2a5ac2e"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

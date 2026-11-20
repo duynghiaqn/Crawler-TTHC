@@ -1,0 +1,81 @@
+{
+  "id": "019d2d85-7835-72ea-a9f5-dcbbe4e3b15b",
+  "so_quyet_dinh": "3666/QĐ-BCT",
+  "trich_yeu": "trích từ 3666/QĐ-BCT",
+  "ngay_quyet_dinh": "2025-12-17",
+  "decision_date_ts": 1765929600000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776322012742,
+  "created_at_ts": 1765929600000,
+  "updated_at_ts": 1774585215028,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Xuất nhập khẩu"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d85-7835-72ea-a9f5-dcbbe4e3b15b",
+  "source_updated_at_ts": 1774585215028,
+  "fetched_at": "2026-11-18T13:28:34.291Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d85-7835-72ea-a9f5-dcbbe4e3b15b",
+    "state": "PUBLICATION",
+    "proposalNumber": "3666/QĐ-BCT",
+    "proposalExcerpt": "trích từ 3666/QĐ-BCT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-9239bfdb9522"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1765929600000,
+    "decisionNumber": null,
+    "publicationDate": 1776322012742,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": "VNPT",
+    "createdAt": 1765929600000,
+    "updatedAt": 1774585215028,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-9239bfdb9522",
+        "name": "Xuất nhập khẩu"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bf7-d4e4-723c-a2a1-62aab1ddfb31",
+          "ma_tthc": "1.000400",
+          "ten_tthc": "Cấp chứng thư xuất khẩu cho hàng dệt may xuất khẩu sang Mêhico",
+          "linh_vuc": [
+            "Xuất nhập khẩu"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-d4e4-723c-a2a1-62aab1ddfb31"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

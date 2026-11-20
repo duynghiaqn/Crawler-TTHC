@@ -1,0 +1,91 @@
+{
+  "id": "019d2d9a-3f79-70ed-8b53-55d8998bb9d1",
+  "so_quyet_dinh": "132/QĐ-BQP",
+  "trich_yeu": "trích từ Quyết định số 132/QĐ-BQP",
+  "ngay_quyet_dinh": "2026-01-09",
+  "decision_date_ts": 1767891600000,
+  "ngay_cong_bo": "2026-04-13",
+  "publication_date_ts": 1776073969948,
+  "created_at_ts": 1767891600000,
+  "updated_at_ts": 1776073963510,
+  "co_quan_ban_hanh": "Bộ Quốc phòng",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "linh_vuc": [
+    "Chính sách"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019d8641-e3be-7222-8249-1cc3dc6de9b5",
+      "fileName": "132_QUYTNHCNGBTHTCHNHCHNH.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d9a-3f79-70ed-8b53-55d8998bb9d1",
+  "source_updated_at_ts": 1776073963510,
+  "fetched_at": "2026-11-18T13:28:31.766Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d9a-3f79-70ed-8b53-55d8998bb9d1",
+    "state": "PUBLICATION",
+    "proposalNumber": "132/QĐ-BQP",
+    "proposalExcerpt": "trích từ Quyết định số 132/QĐ-BQP",
+    "completionDate": 1775961159386,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae12-40068f372825"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019d8641-e3be-7222-8249-1cc3dc6de9b5",
+        "fileName": "132_QUYTNHCNGBTHTCHNHCHNH.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1767891600000,
+    "decisionNumber": null,
+    "publicationDate": 1776073969948,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "importBy": "VNPT",
+    "createdAt": 1767891600000,
+    "updatedAt": 1776073963510,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae12-40068f372825",
+        "name": "Chính sách"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfb-cf79-74df-bb1f-3fd783777d04",
+          "ma_tthc": "2.002761",
+          "ten_tthc": "Thủ tục xác nhận cán bộ Quân đội nghỉ hưu mắc bệnh hiểm nghèo",
+          "linh_vuc": [
+            "Chính sách BQP"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-cf79-74df-bb1f-3fd783777d04"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

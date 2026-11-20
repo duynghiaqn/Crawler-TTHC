@@ -1,0 +1,103 @@
+{
+  "id": "019d2cf0-e36d-73d9-8c6d-a0eeea041730",
+  "so_quyet_dinh": "1327/QĐ-BTC",
+  "trich_yeu": "trích từ 1327/QĐ-BTC",
+  "ngay_quyet_dinh": "2025-04-11",
+  "decision_date_ts": 1744329600000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775645774613,
+  "created_at_ts": 1744329600000,
+  "updated_at_ts": 1774575477611,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý công sản"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cf0-e36d-73d9-8c6d-a0eeea041730",
+  "source_updated_at_ts": 1774575477611,
+  "fetched_at": "2026-11-18T13:28:54.496Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cf0-e36d-73d9-8c6d-a0eeea041730",
+    "state": "PUBLICATION",
+    "proposalNumber": "1327/QĐ-BTC",
+    "proposalExcerpt": "trích từ 1327/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-b08a21687d58"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1744329600000,
+    "decisionNumber": null,
+    "publicationDate": 1775645774613,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1744329600000,
+    "updatedAt": 1774575477611,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-b08a21687d58",
+        "name": "Quản lý công sản"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfb-e6fb-74eb-8900-ca770ed92d2c",
+          "ma_tthc": "1.006218",
+          "ten_tthc": "Thủ tục xác lập quyền sở hữu toàn dân đối với tài sản do các tổ chức, cá nhân tự nguyện chuyển giao quyền sở hữu cho Nhà nước",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-e6fb-74eb-8900-ca770ed92d2c"
+        },
+        {
+          "id": "019d2bfb-e6f9-75bb-9e55-13c918a3ff2d",
+          "ma_tthc": "1.006220",
+          "ten_tthc": "Thủ tục thanh toán phần giá trị của tài sản cho tổ chức, cá nhân ngẫu nhiên tìm thấy tài sản chôn, giấu, bị vùi lấp, chìm đắm, tài sản bị đánh rơi, bỏ quên nhưng không xác định được chủ sở hữu",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-e6f9-75bb-9e55-13c918a3ff2d"
+        },
+        {
+          "id": "019d2bfb-e6fa-76f5-ae29-9aea0f606365",
+          "ma_tthc": "1.006219",
+          "ten_tthc": "Thủ tục chi thưởng đối với tổ chức, cá nhân phát hiện tài sản chôn, giấu, bị vùi lấp, chìm đắm, tài sản bị đánh rơi, bỏ quên",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-e6fa-76f5-ae29-9aea0f606365"
+        }
+      ]
+    }
+  }
+}

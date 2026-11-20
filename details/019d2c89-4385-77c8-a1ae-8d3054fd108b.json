@@ -1,0 +1,92 @@
+{
+  "id": "019d2c89-4385-77c8-a1ae-8d3054fd108b",
+  "so_quyet_dinh": "47/QĐ-BYT",
+  "trich_yeu": "trích từ 47/QĐ-BYT",
+  "ngay_quyet_dinh": "2023-01-09",
+  "decision_date_ts": 1673222400000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133726313,
+  "created_at_ts": 1673222400000,
+  "updated_at_ts": 1774568686468,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Y Dược cổ truyền"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c89-4385-77c8-a1ae-8d3054fd108b",
+  "source_updated_at_ts": 1774568686468,
+  "fetched_at": "2026-11-18T13:29:09.418Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c89-4385-77c8-a1ae-8d3054fd108b",
+    "state": "PUBLICATION",
+    "proposalNumber": "47/QĐ-BYT",
+    "proposalExcerpt": "trích từ 47/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-13a996b92439"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1673222400000,
+    "decisionNumber": null,
+    "publicationDate": 1776133726313,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1673222400000,
+    "updatedAt": 1774568686468,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-13a996b92439",
+        "name": "Y Dược cổ truyền"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfe-b00f-7330-acb3-8102e7273f3a",
+          "ma_tthc": "1.001524",
+          "ten_tthc": "Xin phép tổ chức hội nghị, hội thảo quốc tế thuộc thẩm quyền quyết định của Thủ tướng Chính phủ",
+          "linh_vuc": [
+            "Y Dược cổ truyền"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-b00f-7330-acb3-8102e7273f3a"
+        },
+        {
+          "id": "019d2bfe-affe-7243-8d26-2797b36cc47d",
+          "ma_tthc": "1.001439",
+          "ten_tthc": "Xin phép tổ chức hội nghị, hội thảo quốc tế thuộc thẩm quyền giải quyết của Bộ Y tế",
+          "linh_vuc": [
+            "Y Dược cổ truyền"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-affe-7243-8d26-2797b36cc47d"
+        }
+      ]
+    }
+  }
+}

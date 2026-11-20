@@ -1,0 +1,81 @@
+{
+  "id": "019fc30a-d1f8-7673-bf62-1c915dc62337",
+  "so_quyet_dinh": "HCCTT",
+  "trich_yeu": "trích yếu",
+  "ngay_quyet_dinh": "2026-08-19",
+  "decision_date_ts": 1787072400000,
+  "ngay_cong_bo": "2026-08-02",
+  "publication_date_ts": 1785683708861,
+  "created_at_ts": 1787072400000,
+  "updated_at_ts": 1785683707128,
+  "co_quan_ban_hanh": "Bộ xây dựng (Giao thông vận tải cũ)",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Đăng ký hoạt động của Ngân hàng Chính sách xã hội"
+  ],
+  "loai_quyet_dinh": "INTERNAL",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019fc30a-d1f8-7673-bf62-1c915dc62337",
+  "source_updated_at_ts": 1785683707128,
+  "fetched_at": "2026-11-18T13:27:50.667Z",
+  "thong_tin_chi_tiet": {
+    "id": "019fc30a-d1f8-7673-bf62-1c915dc62337",
+    "state": "PUBLICATION",
+    "proposalNumber": "HCCTT",
+    "proposalExcerpt": "trích yếu",
+    "completionDate": 1785683707277,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+    "categoryIds": [
+      "019fa69d-53a9-76ba-b821-816b341b4795"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1785683708861,
+    "effectiveDate": null,
+    "proposalType": "INTERNAL",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1787072400000,
+    "updatedAt": 1785683707128,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+      "name": "Bộ xây dựng (Giao thông vận tải cũ)"
+    },
+    "categories": [
+      {
+        "id": "019fa69d-53a9-76ba-b821-816b341b4795",
+        "name": "Đăng ký hoạt động của Ngân hàng Chính sách xã hội"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019fc2fc-ad32-72c9-be00-91b9db9f3515",
+          "ma_tthc": "6.006756",
+          "ten_tthc": "Hành chính công CT",
+          "linh_vuc": [
+            "Đăng ký hoạt động của Ngân hàng Chính sách xã hội"
+          ],
+          "ngay_hieu_luc": "2026-08-03",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019fc2fc-ad32-72c9-be00-91b9db9f3515"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "019edee0-034c-70ae-841f-22136e9a695c",
+  "so_quyet_dinh": "1101",
+  "trich_yeu": "Quyết định công bố thủ tục hành chính đặc thù bị bãi bỏ lĩnh vực Khuyến công thuộc thẩm quyền giải quyết của Sở Công Thương tỉnh Lạng Sơn",
+  "ngay_quyet_dinh": "2026-06-18",
+  "decision_date_ts": 1781715600000,
+  "ngay_cong_bo": "2026-06-25",
+  "publication_date_ts": 1782355125286,
+  "created_at_ts": 1781715600000,
+  "updated_at_ts": 1781855704066,
+  "co_quan_ban_hanh": "UBND tỉnh Lạng Sơn",
+  "ma_co_quan": "019d2be3-6a81-771b-b671-9078297c4a7b",
+  "linh_vuc": [
+    "Công nghiệp địa phương"
+  ],
+  "loai_quyet_dinh": "SPECIFIC",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019ededf-7c6b-7468-94a5-50fb6357a81f",
+      "fileName": "T6.26-QĐ cong bo TTHC dac thu bi bai bo So Cong Thuong-KC.pdf"
+    },
+    {
+      "fileId": "019ededf-8d1e-72f6-8bbd-73f033e08846",
+      "fileName": "T6.26-DM TTHC So Cong Thuong-Dac thu KC.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019edee0-034c-70ae-841f-22136e9a695c",
+  "source_updated_at_ts": 1781855704066,
+  "fetched_at": "2026-11-18T13:28:00.583Z",
+  "thong_tin_chi_tiet": {
+    "id": "019edee0-034c-70ae-841f-22136e9a695c",
+    "state": "PUBLICATION",
+    "proposalNumber": "1101",
+    "proposalExcerpt": "Quyết định công bố thủ tục hành chính đặc thù bị bãi bỏ lĩnh vực Khuyến công thuộc thẩm quyền giải quyết của Sở Công Thương tỉnh Lạng Sơn",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a81-771b-b671-9078297c4a7b",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b1-572613287763"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019ededf-7c6b-7468-94a5-50fb6357a81f",
+        "fileName": "T6.26-QĐ cong bo TTHC dac thu bi bai bo So Cong Thuong-KC.pdf"
+      },
+      {
+        "fileId": "019ededf-8d1e-72f6-8bbd-73f033e08846",
+        "fileName": "T6.26-DM TTHC So Cong Thuong-Dac thu KC.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1781715600000,
+    "decisionNumber": null,
+    "publicationDate": 1782355125286,
+    "effectiveDate": 1781715600000,
+    "proposalType": "SPECIFIC",
+    "departmentId": "019d2be3-6a81-771b-b671-9078297c4a7b",
+    "importBy": null,
+    "createdAt": 1781715600000,
+    "updatedAt": 1781855704066,
+    "department": {
+      "id": "019d2be3-6a81-771b-b671-9078297c4a7b",
+      "name": "UBND tỉnh Lạng Sơn"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b1-572613287763",
+        "name": "Công nghiệp địa phương"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d8f57-d195-777d-93b3-73f9a106d002",
+          "ma_tthc": "1.007913",
+          "ten_tthc": "Phê duyệt danh mục đề án khuyến công",
+          "linh_vuc": [
+            "Công Thương địa phương"
+          ],
+          "ngay_hieu_luc": "2026-06-18",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d8f57-d195-777d-93b3-73f9a106d002"
+        }
+      ]
+    }
+  }
+}

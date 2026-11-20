@@ -1,0 +1,92 @@
+{
+  "id": "019d2c61-d6b1-747b-8047-4b311b5c62a7",
+  "so_quyet_dinh": "2217",
+  "trich_yeu": "trích từ 2217",
+  "ngay_quyet_dinh": "2021-11-29",
+  "decision_date_ts": 1638144000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775641262629,
+  "created_at_ts": 1638144000000,
+  "updated_at_ts": 1774566102702,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Thuế"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c61-d6b1-747b-8047-4b311b5c62a7",
+  "source_updated_at_ts": 1774566102702,
+  "fetched_at": "2026-11-18T13:29:14.330Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c61-d6b1-747b-8047-4b311b5c62a7",
+    "state": "PUBLICATION",
+    "proposalNumber": "2217",
+    "proposalExcerpt": "trích từ 2217",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1638144000000,
+    "decisionNumber": null,
+    "publicationDate": 1775641262629,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1638144000000,
+    "updatedAt": 1774566102702,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3",
+        "name": "Thuế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfc-aacd-756f-bd02-ad44429a1538",
+          "ma_tthc": "1.010238",
+          "ten_tthc": "Đăng ký cấp chứng chỉ hành nghề dịch vụ làm thủ tục về thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-aacd-756f-bd02-ad44429a1538"
+        },
+        {
+          "id": "019d2bfc-6c8b-704e-92c3-c68b4e4b0a39",
+          "ma_tthc": "1.008595",
+          "ten_tthc": "Thông báo danh sách nhân viên đại lý thuế thay đổi",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6c8b-704e-92c3-c68b4e4b0a39"
+        }
+      ]
+    }
+  }
+}

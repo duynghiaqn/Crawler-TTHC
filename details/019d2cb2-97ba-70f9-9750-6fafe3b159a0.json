@@ -1,0 +1,81 @@
+{
+  "id": "019d2cb2-97ba-70f9-9750-6fafe3b159a0",
+  "so_quyet_dinh": "1613/QĐ-BYT",
+  "trich_yeu": "trích từ 1613/QĐ-BYT",
+  "ngay_quyet_dinh": "2024-06-11",
+  "decision_date_ts": 1718064000000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776167900262,
+  "created_at_ts": 1718064000000,
+  "updated_at_ts": 1774571395000,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "An toàn thực phẩm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cb2-97ba-70f9-9750-6fafe3b159a0",
+  "source_updated_at_ts": 1774571395000,
+  "fetched_at": "2026-11-18T13:29:01.429Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cb2-97ba-70f9-9750-6fafe3b159a0",
+    "state": "PUBLICATION",
+    "proposalNumber": "1613/QĐ-BYT",
+    "proposalExcerpt": "trích từ 1613/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-7f70ea01a4f3"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1718064000000,
+    "decisionNumber": null,
+    "publicationDate": 1776167900262,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1718064000000,
+    "updatedAt": 1774571395000,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-7f70ea01a4f3",
+        "name": "An toàn thực phẩm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfe-e6b2-72df-b4fb-86e72a6aef4d",
+          "ma_tthc": "1.003094",
+          "ten_tthc": "Kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm nhập khẩu theo phương thức kiểm tra giảm",
+          "linh_vuc": [
+            "An toàn thực phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-e6b2-72df-b4fb-86e72a6aef4d"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

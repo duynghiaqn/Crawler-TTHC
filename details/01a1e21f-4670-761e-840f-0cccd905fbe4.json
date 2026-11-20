@@ -1,0 +1,102 @@
+{
+  "id": "01a1e21f-4670-761e-840f-0cccd905fbe4",
+  "so_quyet_dinh": "3313/QĐ-BTC",
+  "trich_yeu": "Về việc công bố TTHC bị bãi bỏ trong lĩnh vực dự trữ quốc gia thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+  "ngay_quyet_dinh": "2026-11-11",
+  "decision_date_ts": 1794330000000,
+  "ngay_cong_bo": "2026-11-16",
+  "publication_date_ts": 1794798649342,
+  "created_at_ts": 1794795062881,
+  "updated_at_ts": 1794795850574,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Dự trữ"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "01a1e21f-68b0-76bd-8b16-e65f327f25cd",
+      "fileName": "QD cong bo 2 TTHC bi bai bo Cuc DTNN.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a1e21f-4670-761e-840f-0cccd905fbe4",
+  "source_updated_at_ts": 1794795850574,
+  "fetched_at": "2026-11-18T13:27:35.191Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a1e21f-4670-761e-840f-0cccd905fbe4",
+    "state": "PUBLICATION",
+    "proposalNumber": "3313/QĐ-BTC",
+    "proposalExcerpt": "Về việc công bố TTHC bị bãi bỏ trong lĩnh vực dự trữ quốc gia thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+    "completionDate": 1794798560031,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-ecbe9d32ec81"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "01a1e21f-68b0-76bd-8b16-e65f327f25cd",
+        "fileName": "QD cong bo 2 TTHC bi bai bo Cuc DTNN.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1794330000000,
+    "decisionNumber": null,
+    "publicationDate": 1794798649342,
+    "effectiveDate": 1794330000000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1794795062881,
+    "updatedAt": 1794795850574,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-ecbe9d32ec81",
+        "name": "Dự trữ"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfc-f94e-74af-88d2-7791a60b54a9",
+          "ma_tthc": "3.000030",
+          "ten_tthc": "Mua hàng dự trữ quốc gia theo phương thức mua trực tiếp rộng rãi của mọi đối tượng",
+          "linh_vuc": [
+            "Dự trữ"
+          ],
+          "ngay_hieu_luc": "2026-11-16",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f94e-74af-88d2-7791a60b54a9"
+        },
+        {
+          "id": "019d2bfc-e978-705c-889a-1a1344a8e628",
+          "ma_tthc": "2.002239",
+          "ten_tthc": "Bán hàng DTQG theo phương thức trực tiếp rộng rãi cho mọi đối tượng",
+          "linh_vuc": [
+            "Dự trữ"
+          ],
+          "ngay_hieu_luc": "2026-11-16",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e978-705c-889a-1a1344a8e628"
+        }
+      ]
+    }
+  }
+}

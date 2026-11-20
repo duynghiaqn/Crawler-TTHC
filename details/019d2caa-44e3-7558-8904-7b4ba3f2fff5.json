@@ -1,0 +1,103 @@
+{
+  "id": "019d2caa-44e3-7558-8904-7b4ba3f2fff5",
+  "so_quyet_dinh": "254/QĐ-BYT",
+  "trich_yeu": "trích từ 254/QĐ-BYT",
+  "ngay_quyet_dinh": "2024-02-01",
+  "decision_date_ts": 1706745600000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133313981,
+  "created_at_ts": 1706745600000,
+  "updated_at_ts": 1774570849500,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Dược phẩm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2caa-44e3-7558-8904-7b4ba3f2fff5",
+  "source_updated_at_ts": 1774570849500,
+  "fetched_at": "2026-11-18T13:29:03.217Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2caa-44e3-7558-8904-7b4ba3f2fff5",
+    "state": "PUBLICATION",
+    "proposalNumber": "254/QĐ-BYT",
+    "proposalExcerpt": "trích từ 254/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-8a6c271189c4"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1706745600000,
+    "decisionNumber": null,
+    "publicationDate": 1776133313981,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1706745600000,
+    "updatedAt": 1774570849500,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae11-8a6c271189c4",
+        "name": "Dược phẩm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfe-cf5f-74aa-9a38-afba6800a6d9",
+          "ma_tthc": "1.002333",
+          "ten_tthc": "Cấp giấy đăng ký lưu hành thuốc chuyển giao sản xuất tại Việt Nam trường hợp thuốc trước chuyển giao đã có Giấy đăng ký lưu hành tại Việt Nam",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf5f-74aa-9a38-afba6800a6d9"
+        },
+        {
+          "id": "019d2bfe-cf47-7039-9a28-8c0a0e94d6b7",
+          "ma_tthc": "1.002278",
+          "ten_tthc": "Cấp giấy đăng ký lưu hành thuốc chuyển giao sản xuất tại Việt Nam trường hợp thuốc trước chuyển giao chưa có Giấy đăng ký lưu hành tại Việt Nam",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf47-7039-9a28-8c0a0e94d6b7"
+        },
+        {
+          "id": "019d2bfe-cf4a-74e0-8472-5fa392086fef",
+          "ma_tthc": "1.002307",
+          "ten_tthc": "Cấp giấy đăng ký lưu hành thuốc thực hiện công đoạn đóng gói thứ cấp tại Việt Nam đối với trường hợp đã có Giấy đăng ký lưu hành tại Việt Nam",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf4a-74e0-8472-5fa392086fef"
+        }
+      ]
+    }
+  }
+}

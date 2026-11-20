@@ -1,0 +1,120 @@
+{
+  "id": "019d2c39-2925-71d9-9b63-6805692ac248",
+  "so_quyet_dinh": "3179/QĐ-BYT",
+  "trich_yeu": "trích từ 3179/QĐ-BYT",
+  "ngay_quyet_dinh": "2020-07-21",
+  "decision_date_ts": 1595289600000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133794768,
+  "created_at_ts": 1595289600000,
+  "updated_at_ts": 1774563436835,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Đào tạo và Nghiên cứu khoa học",
+    "Dược phẩm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c39-2925-71d9-9b63-6805692ac248",
+  "source_updated_at_ts": 1774563436835,
+  "fetched_at": "2026-11-18T13:29:19.854Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c39-2925-71d9-9b63-6805692ac248",
+    "state": "PUBLICATION",
+    "proposalNumber": "3179/QĐ-BYT",
+    "proposalExcerpt": "trích từ 3179/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-2f53d301de56",
+      "019d2c08-77b9-731a-ae11-8a6c271189c4"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1595289600000,
+    "decisionNumber": null,
+    "publicationDate": 1776133794768,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1595289600000,
+    "updatedAt": 1774563436835,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-2f53d301de56",
+        "name": "Đào tạo và Nghiên cứu khoa học"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae11-8a6c271189c4",
+        "name": "Dược phẩm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 4,
+      "items": [
+        {
+          "id": "019d2bfe-bfad-737e-bbcc-c6a90d879322",
+          "ma_tthc": "1.002023",
+          "ten_tthc": "Nghiệm thu kết quả thử thuốc trên lâm sàng",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-bfad-737e-bbcc-c6a90d879322"
+        },
+        {
+          "id": "019d2bfe-ded4-704a-89ce-b5ba2055ef3e",
+          "ma_tthc": "1.002718",
+          "ten_tthc": "Cập nhật thông tin thay đổi của Hội đồng đạo đức",
+          "linh_vuc": [
+            "Đào tạo và Nghiên cứu khoa học"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-ded4-704a-89ce-b5ba2055ef3e"
+        },
+        {
+          "id": "019d2bfe-dedc-74c1-900c-6ff46d5c664f",
+          "ma_tthc": "1.002726",
+          "ten_tthc": "Cấp mã số hoạt động của Hội đồng đạo đức trong nghiên cứu y sinh học cấp cơ sở",
+          "linh_vuc": [
+            "Đào tạo và Nghiên cứu khoa học"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-dedc-74c1-900c-6ff46d5c664f"
+        },
+        {
+          "id": "019d2bfe-bfcb-73ea-a561-20aecaac812a",
+          "ma_tthc": "1.002072",
+          "ten_tthc": "Phê duyệt đề cương nghiên cứu thử thuốc trên lâm sàng",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-bfcb-73ea-a561-20aecaac812a"
+        }
+      ]
+    }
+  }
+}

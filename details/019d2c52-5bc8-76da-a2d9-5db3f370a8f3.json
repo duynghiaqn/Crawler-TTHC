@@ -1,0 +1,92 @@
+{
+  "id": "019d2c52-5bc8-76da-a2d9-5db3f370a8f3",
+  "so_quyet_dinh": "1435/QĐ-BYT",
+  "trich_yeu": "trích từ 1435/QĐ-BYT",
+  "ngay_quyet_dinh": "2021-03-04",
+  "decision_date_ts": 1614816000000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776134212588,
+  "created_at_ts": 1614816000000,
+  "updated_at_ts": 1774565088198,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Giám định"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c52-5bc8-76da-a2d9-5db3f370a8f3",
+  "source_updated_at_ts": 1774565088198,
+  "fetched_at": "2026-11-18T13:29:15.690Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c52-5bc8-76da-a2d9-5db3f370a8f3",
+    "state": "PUBLICATION",
+    "proposalNumber": "1435/QĐ-BYT",
+    "proposalExcerpt": "trích từ 1435/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-907fa2acef45"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1614816000000,
+    "decisionNumber": null,
+    "publicationDate": 1776134212588,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1614816000000,
+    "updatedAt": 1774565088198,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-907fa2acef45",
+        "name": "Giám định"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bff-44d8-7221-98d4-d34147b3568c",
+          "ma_tthc": "2.000504",
+          "ten_tthc": "Công nhận cơ sở khám bệnh, chữa bệnh trực thuộc Bộ Y tế đủ điều kiện thực hiện can thiệp y tế để xác định lại giới tính",
+          "linh_vuc": [
+            "Giám định"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-44d8-7221-98d4-d34147b3568c"
+        },
+        {
+          "id": "019d2bfe-a81f-75ed-adfe-ed159ccb602c",
+          "ma_tthc": "1.000906",
+          "ten_tthc": "Công nhận cơ sở đủ điều kiện thực hiện can thiệp y tế để xác định lại giới tính đối với cơ sở khám bệnh, chữa bệnh trực thuộc Sở Y tế, cơ sở khám bệnh, chữa bệnh của y tế ngành, bệnh viện tư nhân thuộc địa bàn quản lý",
+          "linh_vuc": [
+            "Giám định"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-a81f-75ed-adfe-ed159ccb602c"
+        }
+      ]
+    }
+  }
+}

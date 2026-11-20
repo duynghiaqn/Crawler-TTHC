@@ -1,0 +1,98 @@
+{
+  "id": "019e29a7-da39-761b-a394-c9c339ee539f",
+  "so_quyet_dinh": "01",
+  "trich_yeu": "Bãi bỏ thủ tục hành chính sau rà soát",
+  "ngay_quyet_dinh": "2020-07-20",
+  "decision_date_ts": 1595178000000,
+  "ngay_cong_bo": "2026-05-15",
+  "publication_date_ts": 1778818151069,
+  "created_at_ts": 1595178000000,
+  "updated_at_ts": 1778817823574,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Phòng bệnh",
+    "Thiết bị y tế"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019e29a7-da39-761b-a394-c9c339ee539f",
+  "source_updated_at_ts": 1778817823574,
+  "fetched_at": "2026-11-18T13:28:10.542Z",
+  "thong_tin_chi_tiet": {
+    "id": "019e29a7-da39-761b-a394-c9c339ee539f",
+    "state": "PUBLICATION",
+    "proposalNumber": "01",
+    "proposalExcerpt": "Bãi bỏ thủ tục hành chính sau rà soát",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-14e7ff23278d",
+      "019d2bbb-69ee-7079-a6b5-303a1115839d"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1595178000000,
+    "decisionNumber": null,
+    "publicationDate": 1778818151069,
+    "effectiveDate": 1595178000000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": null,
+    "createdAt": 1595178000000,
+    "updatedAt": 1778817823574,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-14e7ff23278d",
+        "name": "Phòng bệnh"
+      },
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-303a1115839d",
+        "name": "Thiết bị y tế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfe-e6af-7148-a68c-1eed3a422971",
+          "ma_tthc": "1.003095",
+          "ten_tthc": "Điều chỉnh giấy chứng nhận đủ điều kiện xét nghiệm khẳng định các trường hợp HIV dương tính",
+          "linh_vuc": [
+            "Phòng bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-e6af-7148-a68c-1eed3a422971"
+        },
+        {
+          "id": "019d2bfe-ded4-704a-89ce-b91a4d37dc72",
+          "ma_tthc": "1.002651",
+          "ten_tthc": "Cấp giấy phép nhập khẩu trang thiết bị y tế",
+          "linh_vuc": [
+            "Thiết bị y tế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-ded4-704a-89ce-b91a4d37dc72"
+        }
+      ]
+    }
+  }
+}

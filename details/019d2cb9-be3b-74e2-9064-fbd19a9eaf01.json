@@ -1,0 +1,103 @@
+{
+  "id": "019d2cb9-be3b-74e2-9064-fbd19a9eaf01",
+  "so_quyet_dinh": "977/QĐ-BCT",
+  "trich_yeu": "trích từ 977/QĐ-BCT",
+  "ngay_quyet_dinh": "2024-04-24",
+  "decision_date_ts": 1713916800000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776322154225,
+  "created_at_ts": 1713916800000,
+  "updated_at_ts": 1774571863609,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Hóa chất"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cb9-be3b-74e2-9064-fbd19a9eaf01",
+  "source_updated_at_ts": 1774571863609,
+  "fetched_at": "2026-11-18T13:29:00.528Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cb9-be3b-74e2-9064-fbd19a9eaf01",
+    "state": "PUBLICATION",
+    "proposalNumber": "977/QĐ-BCT",
+    "proposalExcerpt": "trích từ 977/QĐ-BCT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-c76dc669176a"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1713916800000,
+    "decisionNumber": null,
+    "publicationDate": 1776322154225,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": "VNPT",
+    "createdAt": 1713916800000,
+    "updatedAt": 1774571863609,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-c76dc669176a",
+        "name": "Hóa chất"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bf7-ec9e-7458-be44-c9902ab284e5",
+          "ma_tthc": "1.003905",
+          "ten_tthc": "Cấp điều chỉnh giấy phép sản xuất hóa chất DOC,DOC-PSF",
+          "linh_vuc": [
+            "Hóa chất"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-ec9e-7458-be44-c9902ab284e5"
+        },
+        {
+          "id": "019d2bf8-4a66-700a-8d07-07381bff4d75",
+          "ma_tthc": "2.001689",
+          "ten_tthc": "Cấp lại giấy phép sản xuất hóa chất DOC,DOC-PSF",
+          "linh_vuc": [
+            "Hóa chất"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-4a66-700a-8d07-07381bff4d75"
+        },
+        {
+          "id": "019d2bf7-f439-71d3-a434-73086faeca22",
+          "ma_tthc": "1.004015",
+          "ten_tthc": "Cấp giấy phép sản xuất hóa chất DOC, DOC-PSF",
+          "linh_vuc": [
+            "Hóa chất"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-f439-71d3-a434-73086faeca22"
+        }
+      ]
+    }
+  }
+}

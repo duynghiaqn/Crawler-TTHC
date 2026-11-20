@@ -1,0 +1,104 @@
+{
+  "id": "019d2d77-3118-776f-9ab3-bda439535dcf",
+  "so_quyet_dinh": "3571/QĐ-BCT",
+  "trich_yeu": "trích từ 3571/QĐ-BCT",
+  "ngay_quyet_dinh": "2025-12-05",
+  "decision_date_ts": 1764892800000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776321849876,
+  "created_at_ts": 1764892800000,
+  "updated_at_ts": 1774584279319,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Năng lượng"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d77-3118-776f-9ab3-bda439535dcf",
+  "source_updated_at_ts": 1774584279319,
+  "fetched_at": "2026-11-18T13:28:36.759Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d77-3118-776f-9ab3-bda439535dcf",
+    "state": "PUBLICATION",
+    "proposalNumber": "3571/QĐ-BCT",
+    "proposalExcerpt": "trích từ 3571/QĐ-BCT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-b8878e732288"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1764892800000,
+    "decisionNumber": null,
+    "publicationDate": 1776321849876,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": "VNPT",
+    "createdAt": 1764892800000,
+    "updatedAt": 1774584279319,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-b8878e732288",
+        "name": "Năng lượng"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bf8-139a-751d-9954-d3a8495e66db",
+          "ma_tthc": "1.014532",
+          "ten_tthc": "Cấp lại chứng chỉ quản lý năng lượng khi hết hạn",
+          "linh_vuc": [
+            "Năng lượng"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-139a-751d-9954-d3a8495e66db"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bf8-0bda-744d-bb12-807b48dec797",
+          "ma_tthc": "1.013985",
+          "ten_tthc": "Cấp đổi, cấp lại chứng chỉ người quản lý năng lượng khi chưa hết hạn",
+          "linh_vuc": [
+            "Năng lượng"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-0bda-744d-bb12-807b48dec797"
+        },
+        {
+          "id": "019d2bf8-0bd9-706b-b1fa-79afc71c7207",
+          "ma_tthc": "1.013984",
+          "ten_tthc": "Cấp chứng chỉ quản lý năng lượng",
+          "linh_vuc": [
+            "Năng lượng"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-0bd9-706b-b1fa-79afc71c7207"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

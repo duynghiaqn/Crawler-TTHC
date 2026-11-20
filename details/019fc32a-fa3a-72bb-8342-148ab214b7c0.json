@@ -1,0 +1,79 @@
+{
+  "id": "019fc32a-fa3a-72bb-8342-148ab214b7c0",
+  "so_quyet_dinh": "020804",
+  "trich_yeu": "ac",
+  "ngay_quyet_dinh": "2026-08-02",
+  "decision_date_ts": 1785603600000,
+  "ngay_cong_bo": "2026-08-02",
+  "publication_date_ts": 1785685828653,
+  "created_at_ts": 1785603600000,
+  "updated_at_ts": 1785685803934,
+  "co_quan_ban_hanh": "Văn phòng Chính phủ",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-e63cf92e538d",
+  "linh_vuc": [
+    "Bảo tồn thiên nhiên và Đa dạng sinh học"
+  ],
+  "loai_quyet_dinh": "INTERNAL",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019fc32a-fa3a-72bb-8342-148ab214b7c0",
+  "source_updated_at_ts": 1785685803934,
+  "fetched_at": "2026-11-18T13:27:50.698Z",
+  "thong_tin_chi_tiet": {
+    "id": "019fc32a-fa3a-72bb-8342-148ab214b7c0",
+    "state": "PUBLICATION",
+    "proposalNumber": "020804",
+    "proposalExcerpt": "ac",
+    "completionDate": 1785685805177,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-e63cf92e538d",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-233b05efea16"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1785603600000,
+    "decisionNumber": null,
+    "publicationDate": 1785685828653,
+    "effectiveDate": null,
+    "proposalType": "INTERNAL",
+    "departmentId": "019d2be3-6a72-700f-a652-e63cf92e538d",
+    "importBy": null,
+    "createdAt": 1785603600000,
+    "updatedAt": 1785685803934,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-e63cf92e538d",
+      "name": "Văn phòng Chính phủ"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-233b05efea16",
+        "name": "Bảo tồn thiên nhiên và Đa dạng sinh học"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019fc32a-8b3c-777e-9d8d-1f7fef8f4bfc",
+          "ma_tthc": "5.003872",
+          "ten_tthc": "Đăng ký kinh doanh (2)",
+          "linh_vuc": [],
+          "ngay_hieu_luc": "2026-08-02",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019fc32a-8b3c-777e-9d8d-1f7fef8f4bfc"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

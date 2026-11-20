@@ -1,0 +1,92 @@
+{
+  "id": "019d2c76-5d2c-733a-acfb-e3a6a42a3ca2",
+  "so_quyet_dinh": "2800/QĐ-BTC",
+  "trich_yeu": "trích từ 2800/QĐ-BTC",
+  "ngay_quyet_dinh": "2022-12-26",
+  "decision_date_ts": 1672012800000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775644357166,
+  "created_at_ts": 1672012800000,
+  "updated_at_ts": 1774567447850,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Bảo hiểm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c76-5d2c-733a-acfb-e3a6a42a3ca2",
+  "source_updated_at_ts": 1774567447850,
+  "fetched_at": "2026-11-18T13:29:11.735Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c76-5d2c-733a-acfb-e3a6a42a3ca2",
+    "state": "PUBLICATION",
+    "proposalNumber": "2800/QĐ-BTC",
+    "proposalExcerpt": "trích từ 2800/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-d5cef93a3b0f"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1672012800000,
+    "decisionNumber": null,
+    "publicationDate": 1775644357166,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1672012800000,
+    "updatedAt": 1774567447850,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-d5cef93a3b0f",
+        "name": "Bảo hiểm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfc-b2b3-760a-bc5e-961bb1ebdb6b",
+          "ma_tthc": "1.010393",
+          "ten_tthc": "Công nhận chứng chỉ về phụ trợ bảo hiểm do cơ sở đào tạo ở nước ngoài cấp",
+          "linh_vuc": [
+            "Bảo hiểm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-b2b3-760a-bc5e-961bb1ebdb6b"
+        },
+        {
+          "id": "019d2bfc-b2ae-7485-b6c6-a728f26ab979",
+          "ma_tthc": "1.010388",
+          "ten_tthc": "Báo cáo kết quả chấm thi chứng chỉ đại lý bảo hiểm",
+          "linh_vuc": [
+            "Bảo hiểm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-b2ae-7485-b6c6-a728f26ab979"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "019e6368-5789-758d-b854-20deb0e0cf93",
+  "so_quyet_dinh": "788/QĐ-BXD",
+  "trich_yeu": "Công bố thủ tục hành chính bị bãi bỏ trong lĩnh vực Vật liệu xây  dựng thuộc phạm vi chức năng quản lý nhà nước của Bộ Xây dựng",
+  "ngay_quyet_dinh": "2026-05-25",
+  "decision_date_ts": 1779642000000,
+  "ngay_cong_bo": "2026-06-11",
+  "publication_date_ts": 1781159847739,
+  "created_at_ts": 1779642000000,
+  "updated_at_ts": 1781153936121,
+  "co_quan_ban_hanh": "Bộ Xây dựng",
+  "ma_co_quan": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "linh_vuc": [
+    "Vật liệu xây dựng"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019e6366-75da-758b-847e-4c32a39add2c",
+      "fileName": "QĐ Bãi bỏ TTHC Công bố Hợp quy.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019e6368-5789-758d-b854-20deb0e0cf93",
+  "source_updated_at_ts": 1781153936121,
+  "fetched_at": "2026-11-18T13:28:06.973Z",
+  "thong_tin_chi_tiet": {
+    "id": "019e6368-5789-758d-b854-20deb0e0cf93",
+    "state": "PUBLICATION",
+    "proposalNumber": "788/QĐ-BXD",
+    "proposalExcerpt": "Công bố thủ tục hành chính bị bãi bỏ trong lĩnh vực Vật liệu xây  dựng thuộc phạm vi chức năng quản lý nhà nước của Bộ Xây dựng",
+    "completionDate": 1779867851028,
+    "issuingAgencyId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-035c4b4a1756"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019e6366-75da-758b-847e-4c32a39add2c",
+        "fileName": "QĐ Bãi bỏ TTHC Công bố Hợp quy.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1779642000000,
+    "decisionNumber": null,
+    "publicationDate": 1781159847739,
+    "effectiveDate": 1779642000000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+    "importBy": null,
+    "createdAt": 1779642000000,
+    "updatedAt": 1781153936121,
+    "department": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-035c4b4a1756",
+        "name": "Vật liệu xây dựng"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfe-520d-769c-a349-7b9661189ffc",
+          "ma_tthc": "1.006871",
+          "ten_tthc": "Công bố hợp quy sản phẩm, hàng hóa vật liệu xây dựng",
+          "linh_vuc": [
+            "Vật liệu xây dựng"
+          ],
+          "ngay_hieu_luc": "2017-12-27",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-520d-769c-a349-7b9661189ffc"
+        }
+      ]
+    }
+  }
+}

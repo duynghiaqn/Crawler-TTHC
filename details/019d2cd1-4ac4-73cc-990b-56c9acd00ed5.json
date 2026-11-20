@@ -1,0 +1,114 @@
+{
+  "id": "019d2cd1-4ac4-73cc-990b-56c9acd00ed5",
+  "so_quyet_dinh": "3493/ QĐ-BYT",
+  "trich_yeu": "trích từ 3493/ QĐ-BYT",
+  "ngay_quyet_dinh": "2024-11-19",
+  "decision_date_ts": 1731974400000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133491073,
+  "created_at_ts": 1731974400000,
+  "updated_at_ts": 1774573406914,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Dược phẩm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cd1-4ac4-73cc-990b-56c9acd00ed5",
+  "source_updated_at_ts": 1774573406914,
+  "fetched_at": "2026-11-18T13:28:57.447Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cd1-4ac4-73cc-990b-56c9acd00ed5",
+    "state": "PUBLICATION",
+    "proposalNumber": "3493/ QĐ-BYT",
+    "proposalExcerpt": "trích từ 3493/ QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-8a6c271189c4"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1731974400000,
+    "decisionNumber": null,
+    "publicationDate": 1776133491073,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1731974400000,
+    "updatedAt": 1774573406914,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae11-8a6c271189c4",
+        "name": "Dược phẩm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 4,
+      "items": [
+        {
+          "id": "019d2bfe-fe29-73ab-b031-96c635850aed",
+          "ma_tthc": "1.004491",
+          "ten_tthc": "Kê khai giá thuốc sản xuất trong nước hoặc thuốc nước ngoài nhập khẩu vào Việt Nam",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-fe29-73ab-b031-96c635850aed"
+        },
+        {
+          "id": "019d2bff-0618-70ba-8645-72785243d502",
+          "ma_tthc": "1.004620",
+          "ten_tthc": "Kê khai lại giá thuốc nước ngoài nhập khẩu vào Việt Nam",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-0618-70ba-8645-72785243d502"
+        },
+        {
+          "id": "019d2bff-0617-76e9-a825-467c9d426726",
+          "ma_tthc": "1.004618",
+          "ten_tthc": "Bổ sung, thay đổi thông tin của thuốc đã kê khai, kê khai lại trong trường hợp có thay đổi so với thông tin đã được công bố nhưng giá thuốc không đổi",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-0617-76e9-a825-467c9d426726"
+        },
+        {
+          "id": "019d2bfe-ee7b-7649-84bb-80220e255cc6",
+          "ma_tthc": "1.003613",
+          "ten_tthc": "Kê khai lại giá thuốc sản xuất trong nước",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-ee7b-7649-84bb-80220e255cc6"
+        }
+      ]
+    }
+  }
+}

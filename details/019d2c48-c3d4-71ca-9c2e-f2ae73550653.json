@@ -1,0 +1,81 @@
+{
+  "id": "019d2c48-c3d4-71ca-9c2e-f2ae73550653",
+  "so_quyet_dinh": "2910/QĐ-BQP",
+  "trich_yeu": "trích từ 2910/QĐ-BQP",
+  "ngay_quyet_dinh": "2020-09-21",
+  "decision_date_ts": 1600646400000,
+  "ngay_cong_bo": "2026-04-13",
+  "publication_date_ts": 1776067472655,
+  "created_at_ts": 1600646400000,
+  "updated_at_ts": 1774564459474,
+  "co_quan_ban_hanh": "Bộ Quốc phòng",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "linh_vuc": [
+    "Dân quân tự vệ"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c48-c3d4-71ca-9c2e-f2ae73550653",
+  "source_updated_at_ts": 1774564459474,
+  "fetched_at": "2026-11-18T13:29:17.702Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c48-c3d4-71ca-9c2e-f2ae73550653",
+    "state": "PUBLICATION",
+    "proposalNumber": "2910/QĐ-BQP",
+    "proposalExcerpt": "trích từ 2910/QĐ-BQP",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-7d8709eda5ea"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1600646400000,
+    "decisionNumber": null,
+    "publicationDate": 1776067472655,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "importBy": "VNPT",
+    "createdAt": 1600646400000,
+    "updatedAt": 1774564459474,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-7d8709eda5ea",
+        "name": "Dân quân tự vệ"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfb-795b-7359-b0e0-19d2eba97fcc",
+          "ma_tthc": "1.009361",
+          "ten_tthc": "Thủ tục trợ cấp cho Dân quân tự vệ không tham gia bảo hiểm xã hội nếu bị tai nạn, chết.",
+          "linh_vuc": [
+            "Dân quân tự vệ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-795b-7359-b0e0-19d2eba97fcc"
+        }
+      ]
+    }
+  }
+}

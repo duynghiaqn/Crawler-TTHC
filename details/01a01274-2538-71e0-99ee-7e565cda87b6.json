@@ -1,0 +1,110 @@
+{
+  "id": "01a01274-2538-71e0-99ee-7e565cda87b6",
+  "so_quyet_dinh": "4444/QĐ-BQP",
+  "trich_yeu": "Quyết định về việc công bố thủ tục hành chính bị bãi bỏ trong lĩnh vực cơ yếu thuộc phạm vi chức năng quản lý của Bộ Quốc phòng",
+  "ngay_quyet_dinh": "2026-08-18",
+  "decision_date_ts": 1786986000000,
+  "ngay_cong_bo": "2026-08-18",
+  "publication_date_ts": 1787016141182,
+  "created_at_ts": 1786986000000,
+  "updated_at_ts": 1787015996700,
+  "co_quan_ban_hanh": "Bộ Quốc phòng",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "linh_vuc": [
+    "Cơ yếu"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "01a01272-cbd6-70f8-be3e-d0899aa0dda9",
+      "fileName": "SỐ 4444_QUYET DINH CONG BO TTHC BI BAI BO LINH VUC CO YEU.pdf"
+    },
+    {
+      "fileId": "01a01272-e0b0-70b8-9e83-e19dedfbb578",
+      "fileName": "4444_ QUYET DINH CONG BO TTHC BI BAI BO LINH VUC CO YEU.docx"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a01274-2538-71e0-99ee-7e565cda87b6",
+  "source_updated_at_ts": 1787015996700,
+  "fetched_at": "2026-11-18T13:27:47.243Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a01274-2538-71e0-99ee-7e565cda87b6",
+    "state": "PUBLICATION",
+    "proposalNumber": "4444/QĐ-BQP",
+    "proposalExcerpt": "Quyết định về việc công bố thủ tục hành chính bị bãi bỏ trong lĩnh vực cơ yếu thuộc phạm vi chức năng quản lý của Bộ Quốc phòng",
+    "completionDate": 1787016083062,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-8ac65c452805"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "01a01272-cbd6-70f8-be3e-d0899aa0dda9",
+        "fileName": "SỐ 4444_QUYET DINH CONG BO TTHC BI BAI BO LINH VUC CO YEU.pdf"
+      },
+      {
+        "fileId": "01a01272-e0b0-70b8-9e83-e19dedfbb578",
+        "fileName": "4444_ QUYET DINH CONG BO TTHC BI BAI BO LINH VUC CO YEU.docx"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1786986000000,
+    "decisionNumber": null,
+    "publicationDate": 1787016141182,
+    "effectiveDate": 1786986000000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "importBy": null,
+    "createdAt": 1786986000000,
+    "updatedAt": 1787015996700,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-8ac65c452805",
+        "name": "Cơ yếu"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfb-916c-75dc-8da9-5557d36fe11d",
+          "ma_tthc": "1.013198",
+          "ten_tthc": "Thủ tục công nhận tuổi nghề cơ yếu đối với người làm công tác cơ yếu thôi làm việc trong tổ chức cơ yếu (nghỉ hưu, chuyển ngành, thôi việc)",
+          "linh_vuc": [
+            "Cơ yếu"
+          ],
+          "ngay_hieu_luc": "2026-08-18",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-916c-75dc-8da9-5557d36fe11d"
+        },
+        {
+          "id": "019d2bfb-918a-710a-a2ee-3176d07184a8",
+          "ma_tthc": "1.013197",
+          "ten_tthc": "Thủ tục công nhận tuổi nghề cơ yếu đối với người đang làm công tác cơ yếu",
+          "linh_vuc": [
+            "Cơ yếu"
+          ],
+          "ngay_hieu_luc": "2026-08-18",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-918a-710a-a2ee-3176d07184a8"
+        }
+      ]
+    }
+  }
+}

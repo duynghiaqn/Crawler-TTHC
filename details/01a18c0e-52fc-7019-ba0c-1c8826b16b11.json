@@ -1,0 +1,102 @@
+{
+  "id": "01a18c0e-52fc-7019-ba0c-1c8826b16b11",
+  "so_quyet_dinh": "2214/QĐ-BTC",
+  "trich_yeu": "Về việc công bố thủ tục hành chính nội bộ được sửa đổi, bổ sung trong lĩnh vực quản lý nợ và kinh tế đối ngoại thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+  "ngay_quyet_dinh": "2026-08-14",
+  "decision_date_ts": 1786640400000,
+  "ngay_cong_bo": "2026-11-12",
+  "publication_date_ts": 1794450490816,
+  "created_at_ts": 1793351111395,
+  "updated_at_ts": 1794450479887,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý nợ"
+  ],
+  "loai_quyet_dinh": "INTERNAL",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "01a18c0e-0c7e-75eb-b5c3-d62033a36775",
+      "fileName": "2214_17082026_134930.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a18c0e-52fc-7019-ba0c-1c8826b16b11",
+  "source_updated_at_ts": 1794450479887,
+  "fetched_at": "2026-11-18T13:27:37.099Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a18c0e-52fc-7019-ba0c-1c8826b16b11",
+    "state": "PUBLICATION",
+    "proposalNumber": "2214/QĐ-BTC",
+    "proposalExcerpt": "Về việc công bố thủ tục hành chính nội bộ được sửa đổi, bổ sung trong lĩnh vực quản lý nợ và kinh tế đối ngoại thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+    "completionDate": 1794450480050,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-0e32442a1598"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "01a18c0e-0c7e-75eb-b5c3-d62033a36775",
+        "fileName": "2214_17082026_134930.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1786640400000,
+    "decisionNumber": null,
+    "publicationDate": 1794450490816,
+    "effectiveDate": 1786640400000,
+    "proposalType": "INTERNAL",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1793351111395,
+    "updatedAt": 1794450479887,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+        "name": "Quản lý nợ"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "01a1c89f-b2ad-756a-8d0e-fa0331f42b85",
+          "ma_tthc": "5.004030",
+          "ten_tthc": "Quyết định kế hoạch vay, trả nợ công hằng năm",
+          "linh_vuc": [
+            "Quản lý nợ"
+          ],
+          "ngay_hieu_luc": "2026-08-14",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/01a1c89f-b2ad-756a-8d0e-fa0331f42b85"
+        },
+        {
+          "id": "01a1c89c-fb4d-75be-8f2c-e15eb1454850",
+          "ma_tthc": "5.004029",
+          "ten_tthc": "Quyết định hạn mức bảo lãnh Chính phủ hằng năm trong trường hợp thuộc thẩm quyền của Chính phủ",
+          "linh_vuc": [
+            "Quản lý nợ"
+          ],
+          "ngay_hieu_luc": "2026-08-14",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/01a1c89c-fb4d-75be-8f2c-e15eb1454850"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

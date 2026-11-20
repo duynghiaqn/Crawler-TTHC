@@ -1,0 +1,91 @@
+{
+  "id": "01a18038-29a7-7168-a405-c4c67021f70f",
+  "so_quyet_dinh": "3103/QĐ-BTC",
+  "trich_yeu": "V/v Ban hành Quyết định tái cấu trúc công bố TTHC được tái cấu trúc dựa trên dữ liệu trong lĩnh vực bảo hiểm thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+  "ngay_quyet_dinh": "2026-10-26",
+  "decision_date_ts": 1792947600000,
+  "ngay_cong_bo": "2026-10-29",
+  "publication_date_ts": 1793267206057,
+  "created_at_ts": 1793152526734,
+  "updated_at_ts": 1793153383579,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Bảo hiểm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "01a18035-ce58-76b0-8f5d-1164d246ac19",
+      "fileName": "3103_27102026_144648.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a18038-29a7-7168-a405-c4c67021f70f",
+  "source_updated_at_ts": 1793153383579,
+  "fetched_at": "2026-11-18T13:27:37.783Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a18038-29a7-7168-a405-c4c67021f70f",
+    "state": "PUBLICATION",
+    "proposalNumber": "3103/QĐ-BTC",
+    "proposalExcerpt": "V/v Ban hành Quyết định tái cấu trúc công bố TTHC được tái cấu trúc dựa trên dữ liệu trong lĩnh vực bảo hiểm thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+    "completionDate": 1793153383712,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-dfa7a3df99eb"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "01a18035-ce58-76b0-8f5d-1164d246ac19",
+        "fileName": "3103_27102026_144648.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1792947600000,
+    "decisionNumber": null,
+    "publicationDate": 1793267206057,
+    "effectiveDate": 1792947600000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1793152526734,
+    "updatedAt": 1793153383579,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-dfa7a3df99eb",
+        "name": "Bảo hiểm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-c260-7731-8eac-b109f4597d23",
+          "ma_tthc": "1.012340",
+          "ten_tthc": "Đề nghị cấp/cấp lại giấy phép thành lập và hoạt động của tổ chức tương hỗ cung cấp bảo hiểm vi mô",
+          "linh_vuc": [
+            "Bảo hiểm"
+          ],
+          "ngay_hieu_luc": "2026-10-26",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-c260-7731-8eac-b109f4597d23"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

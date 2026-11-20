@@ -1,0 +1,92 @@
+{
+  "id": "019d2ccc-ef7d-7589-b0ee-3e88518994c6",
+  "so_quyet_dinh": "2878/QĐ-BYT",
+  "trich_yeu": "trích từ 2878/QĐ-BYT",
+  "ngay_quyet_dinh": "2024-09-27",
+  "decision_date_ts": 1727395200000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776174339788,
+  "created_at_ts": 1727395200000,
+  "updated_at_ts": 1774573121403,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Thiết bị y tế"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2ccc-ef7d-7589-b0ee-3e88518994c6",
+  "source_updated_at_ts": 1774573121403,
+  "fetched_at": "2026-11-18T13:28:58.200Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2ccc-ef7d-7589-b0ee-3e88518994c6",
+    "state": "PUBLICATION",
+    "proposalNumber": "2878/QĐ-BYT",
+    "proposalExcerpt": "trích từ 2878/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-303a1115839d"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1727395200000,
+    "decisionNumber": null,
+    "publicationDate": 1776174339788,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1727395200000,
+    "updatedAt": 1774573121403,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-303a1115839d",
+        "name": "Thiết bị y tế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bff-15af-70fd-b458-cae83d36ab71",
+          "ma_tthc": "1.010229",
+          "ten_tthc": "Cấp giấy chứng nhận đăng ký lưu hành đối với trang thiết bị y tế loại C, D phục vụ phòng, chống dịch COVID-19 trong trường hợp cấp bách",
+          "linh_vuc": [
+            "Thiết bị y tế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-15af-70fd-b458-cae83d36ab71"
+        },
+        {
+          "id": "019d2bff-15b4-747e-9bf8-9580c2dfecc0",
+          "ma_tthc": "1.010228",
+          "ten_tthc": "Công bố tiêu chuẩn áp dụng đối với trang thiết bị y tế loại B phục vụ phòng chống dịch Covid-19 trong trường hợp cấp bách",
+          "linh_vuc": [
+            "Thiết bị y tế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-15b4-747e-9bf8-9580c2dfecc0"
+        }
+      ]
+    }
+  }
+}

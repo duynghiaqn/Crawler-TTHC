@@ -1,0 +1,114 @@
+{
+  "id": "019d2d7d-e8ac-7263-88d5-0b67b40700eb",
+  "so_quyet_dinh": "3797/QĐ-BTC",
+  "trich_yeu": "trích từ 3797/QĐ-BTC",
+  "ngay_quyet_dinh": "2025-11-11",
+  "decision_date_ts": 1762819200000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775645505217,
+  "created_at_ts": 1762819200000,
+  "updated_at_ts": 1774584719530,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Dự trữ"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d7d-e8ac-7263-88d5-0b67b40700eb",
+  "source_updated_at_ts": 1774584719530,
+  "fetched_at": "2026-11-18T13:28:35.546Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d7d-e8ac-7263-88d5-0b67b40700eb",
+    "state": "PUBLICATION",
+    "proposalNumber": "3797/QĐ-BTC",
+    "proposalExcerpt": "trích từ 3797/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-d97cad208e8b"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1762819200000,
+    "decisionNumber": null,
+    "publicationDate": 1775645505217,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1762819200000,
+    "updatedAt": 1774584719530,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-d97cad208e8b",
+        "name": "Dự trữ"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 4,
+      "items": [
+        {
+          "id": "019d2bfc-e98a-72cd-a09e-4386948158bf",
+          "ma_tthc": "2.002241",
+          "ten_tthc": "Bán hàng dự trữ quốc gia theo phương thức đấu giá",
+          "linh_vuc": [
+            "Dự trữ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e98a-72cd-a09e-4386948158bf"
+        },
+        {
+          "id": "019d2bfb-eed4-72dd-88ac-ee3abccc295f",
+          "ma_tthc": "1.006481",
+          "ten_tthc": "Mua hàng dự trữ quốc gia (DTQG) theo phương thức đấu thầu",
+          "linh_vuc": [
+            "Dự trữ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-eed4-72dd-88ac-ee3abccc295f"
+        },
+        {
+          "id": "019d2bfb-eecd-75f2-86da-8ca94e62c50e",
+          "ma_tthc": "1.006483",
+          "ten_tthc": "Xuất hàng DTQG theo Quyết định của Thủ tướng Chính phủ để cứu trợ",
+          "linh_vuc": [
+            "Dự trữ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-eecd-75f2-86da-8ca94e62c50e"
+        },
+        {
+          "id": "019d2bfb-eecd-7191-bf12-c345009b45e9",
+          "ma_tthc": "1.006484",
+          "ten_tthc": "Xuất hàng DTQG theo Quyết định của Thủ tướng Chính phủ để viện trợ",
+          "linh_vuc": [
+            "Dự trữ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-eecd-7191-bf12-c345009b45e9"
+        }
+      ]
+    }
+  }
+}

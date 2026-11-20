@@ -1,0 +1,91 @@
+{
+  "id": "01a0d7c4-263f-71e8-8408-d54f4f6eca30",
+  "so_quyet_dinh": "2397/QĐ-BCT",
+  "trich_yeu": "Quyết định về việc công bố Thủ tục hành chính bị bãi bỏ trong lĩnh vực Sở giao dịch hàng hóa thuộc phạm vi chức năng quản lý của Bộ Công Thương",
+  "ngay_quyet_dinh": "2026-09-24",
+  "decision_date_ts": 1790182800000,
+  "ngay_cong_bo": "2026-09-25",
+  "publication_date_ts": 1790326456287,
+  "created_at_ts": 1790182800000,
+  "updated_at_ts": 1790326415168,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Sở giao dịch hàng hóa"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "01a0d7c3-3aa4-704f-8a77-e19bdfce7346",
+      "fileName": "1_QĐ-BCT_2026_2397.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a0d7c4-263f-71e8-8408-d54f4f6eca30",
+  "source_updated_at_ts": 1790326415168,
+  "fetched_at": "2026-11-18T13:27:42.505Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a0d7c4-263f-71e8-8408-d54f4f6eca30",
+    "state": "PUBLICATION",
+    "proposalNumber": "2397/QĐ-BCT",
+    "proposalExcerpt": "Quyết định về việc công bố Thủ tục hành chính bị bãi bỏ trong lĩnh vực Sở giao dịch hàng hóa thuộc phạm vi chức năng quản lý của Bộ Công Thương",
+    "completionDate": 1790326415311,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b1-3772b03d4c95"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "01a0d7c3-3aa4-704f-8a77-e19bdfce7346",
+        "fileName": "1_QĐ-BCT_2026_2397.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1790182800000,
+    "decisionNumber": null,
+    "publicationDate": 1790326456287,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": null,
+    "createdAt": 1790182800000,
+    "updatedAt": 1790326415168,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b1-3772b03d4c95",
+        "name": "Sở giao dịch hàng hóa"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bf7-cd5f-710a-9fc9-f5d4e552e9ab",
+          "ma_tthc": "1.000224",
+          "ten_tthc": "Thông báo hàng hóa mới niêm yết trên Sở Giao dịch hàng hóa",
+          "linh_vuc": [
+            "Sở giao dịch hàng hóa"
+          ],
+          "ngay_hieu_luc": "2026-09-24",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-cd5f-710a-9fc9-f5d4e552e9ab"
+        }
+      ]
+    }
+  }
+}

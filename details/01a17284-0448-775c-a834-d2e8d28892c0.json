@@ -1,0 +1,91 @@
+{
+  "id": "01a17284-0448-775c-a834-d2e8d28892c0",
+  "so_quyet_dinh": "3078/QĐ-BTC",
+  "trich_yeu": "Về việc công bố thủ tục hành chính bị bãi bỏ trong lĩnh vực chứng khoán thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+  "ngay_quyet_dinh": "2026-10-23",
+  "decision_date_ts": 1792688400000,
+  "ngay_cong_bo": "2026-11-12",
+  "publication_date_ts": 1794456747348,
+  "created_at_ts": 1792922616881,
+  "updated_at_ts": 1794456744173,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Chứng khoán"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "01a17282-4978-7088-97a6-fc1e2cc7ccc4",
+      "fileName": "QD công bố TTHC bị bãi bỏ CK_1.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a17284-0448-775c-a834-d2e8d28892c0",
+  "source_updated_at_ts": 1794456744173,
+  "fetched_at": "2026-11-18T13:27:38.668Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a17284-0448-775c-a834-d2e8d28892c0",
+    "state": "PUBLICATION",
+    "proposalNumber": "3078/QĐ-BTC",
+    "proposalExcerpt": "Về việc công bố thủ tục hành chính bị bãi bỏ trong lĩnh vực chứng khoán thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+    "completionDate": 1794456744420,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-f4edf13b8cc3"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "01a17282-4978-7088-97a6-fc1e2cc7ccc4",
+        "fileName": "QD công bố TTHC bị bãi bỏ CK_1.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1792688400000,
+    "decisionNumber": null,
+    "publicationDate": 1794456747348,
+    "effectiveDate": 1794762000000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1792922616881,
+    "updatedAt": 1794456744173,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-f4edf13b8cc3",
+        "name": "Chứng khoán"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-a336-771e-a21d-7ef08dfe094d",
+          "ma_tthc": "1.009878",
+          "ten_tthc": "Chuyển quyền sở hữu chứng khoán ngoài hệ thống giao dịch chứng khoán đối với trường hợp phải có ý kiến chấp thuận của Ủy ban Chứng khoán Nhà nước",
+          "linh_vuc": [
+            "Chứng khoán"
+          ],
+          "ngay_hieu_luc": "2026-10-15",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-a336-771e-a21d-7ef08dfe094d"
+        }
+      ]
+    }
+  }
+}

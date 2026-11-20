@@ -1,0 +1,103 @@
+{
+  "id": "019d7c0d-2786-7308-b8d0-7daa0da05ed9",
+  "so_quyet_dinh": "1679/QĐ-BQP",
+  "trich_yeu": "(ĐỢI) QUYẾT ĐỊNH về việc công bố thủ tục hành chính được sửa đổi, bổ sung và thủ tục hành chính bị bãi bỏ lĩnh vực chính sách người có công với cách mạng thuộc phạm vi chức năng quản lý của Bộ Quốc phòng",
+  "ngay_quyet_dinh": "2026-04-08",
+  "decision_date_ts": 1775581200000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776161019412,
+  "created_at_ts": 1775581200000,
+  "updated_at_ts": 1776161017684,
+  "co_quan_ban_hanh": "Bộ Quốc phòng",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "linh_vuc": [
+    "Chính sách"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019d7c0c-a421-76e5-89f8-fc50cd70791c",
+      "fileName": "Quyết định số 1679_QĐ của BQP.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d7c0d-2786-7308-b8d0-7daa0da05ed9",
+  "source_updated_at_ts": 1776161017684,
+  "fetched_at": "2026-11-18T13:28:25.944Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d7c0d-2786-7308-b8d0-7daa0da05ed9",
+    "state": "PUBLICATION",
+    "proposalNumber": "1679/QĐ-BQP",
+    "proposalExcerpt": "(ĐỢI) QUYẾT ĐỊNH về việc công bố thủ tục hành chính được sửa đổi, bổ sung và thủ tục hành chính bị bãi bỏ lĩnh vực chính sách người có công với cách mạng thuộc phạm vi chức năng quản lý của Bộ Quốc phòng",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae12-40068f372825"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019d7c0c-a421-76e5-89f8-fc50cd70791c",
+        "fileName": "Quyết định số 1679_QĐ của BQP.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1775581200000,
+    "decisionNumber": null,
+    "publicationDate": 1776161019412,
+    "effectiveDate": 1775581200000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "importBy": null,
+    "createdAt": 1775581200000,
+    "updatedAt": 1776161017684,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae12-40068f372825",
+        "name": "Chính sách"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfb-9103-73bb-bc49-5ce6a87acd3c",
+          "ma_tthc": "1.013193",
+          "ten_tthc": "Thủ tục sửa đổi, bổ sung thông tin cá nhân trong hồ sơ người có công đang tại ngũ, công tác",
+          "linh_vuc": [
+            "Chính sách BQP"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-9103-73bb-bc49-5ce6a87acd3c"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfb-9165-712f-a218-34ed0166362c",
+          "ma_tthc": "1.013195",
+          "ten_tthc": "Thủ tục sửa đổi, bổ sung thông tin cá nhân trong hồ sơ người có công đã chuyển ra",
+          "linh_vuc": [
+            "Chính sách BQP"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-9165-712f-a218-34ed0166362c"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "019d2cf8-e18b-744b-9529-ade46f9768f8",
+  "so_quyet_dinh": "499/QĐ-BNV",
+  "trich_yeu": "trích từ 499/QĐ-BNV",
+  "ngay_quyet_dinh": "2025-05-17",
+  "decision_date_ts": 1747414800000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776131510207,
+  "created_at_ts": 1747414800000,
+  "updated_at_ts": 1776078066323,
+  "co_quan_ban_hanh": "Bộ Nội vụ",
+  "ma_co_quan": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+  "linh_vuc": [
+    "Lao động, tiền lương"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019d867f-c713-72db-b8fd-dbca4d15a363",
+      "fileName": "499  Phu luc.pdf"
+    },
+    {
+      "fileId": "019d8680-2121-70a8-9b0d-f0c6d3cf2956",
+      "fileName": "499 QD-BNV.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cf8-e18b-744b-9529-ade46f9768f8",
+  "source_updated_at_ts": 1776078066323,
+  "fetched_at": "2026-11-18T13:28:53.050Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cf8-e18b-744b-9529-ade46f9768f8",
+    "state": "PUBLICATION",
+    "proposalNumber": "499/QĐ-BNV",
+    "proposalExcerpt": "trích từ 499/QĐ-BNV",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-2e7598898fee"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019d867f-c713-72db-b8fd-dbca4d15a363",
+        "fileName": "499  Phu luc.pdf"
+      },
+      {
+        "fileId": "019d8680-2121-70a8-9b0d-f0c6d3cf2956",
+        "fileName": "499 QD-BNV.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1747414800000,
+    "decisionNumber": null,
+    "publicationDate": 1776131510207,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+    "importBy": "VNPT",
+    "createdAt": 1747414800000,
+    "updatedAt": 1776078066323,
+    "department": {
+      "id": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+      "name": "Bộ Nội vụ"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-2e7598898fee",
+        "name": "Lao động, tiền lương"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfb-03d3-760e-989b-f2fbe55bed1d",
+          "ma_tthc": "1.012091",
+          "ten_tthc": "Đề nghị việc sử dụng người chưa đủ 13 tuổi làm việc",
+          "linh_vuc": [
+            "Lao động, tiền lương và bảo hiểm xã hội"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-03d3-760e-989b-f2fbe55bed1d"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

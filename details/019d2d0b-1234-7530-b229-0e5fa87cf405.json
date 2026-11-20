@@ -1,0 +1,81 @@
+{
+  "id": "019d2d0b-1234-7530-b229-0e5fa87cf405",
+  "so_quyet_dinh": "1569/QĐ-BQP",
+  "trich_yeu": "1569",
+  "ngay_quyet_dinh": "2025-05-07",
+  "decision_date_ts": 1746550800000,
+  "ngay_cong_bo": "2026-04-15",
+  "publication_date_ts": 1776242524211,
+  "created_at_ts": 1746550800000,
+  "updated_at_ts": 1776242522377,
+  "co_quan_ban_hanh": "Bộ Quốc phòng",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "linh_vuc": [
+    "Chính sách"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d0b-1234-7530-b229-0e5fa87cf405",
+  "source_updated_at_ts": 1776242522377,
+  "fetched_at": "2026-11-18T13:28:52.347Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d0b-1234-7530-b229-0e5fa87cf405",
+    "state": "PUBLICATION",
+    "proposalNumber": "1569/QĐ-BQP",
+    "proposalExcerpt": "1569",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae12-40068f372825"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1746550800000,
+    "decisionNumber": null,
+    "publicationDate": 1776242524211,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "importBy": "VNPT",
+    "createdAt": 1746550800000,
+    "updatedAt": 1776242522377,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae12-40068f372825",
+        "name": "Chính sách"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfb-90ce-70ab-a3ec-ad438c98c0df",
+          "ma_tthc": "1.013162",
+          "ten_tthc": "Thủ tục giải quyết chế độ trợ cấp một lần đối với quân nhân, người làm công tác cơ yếu hưởng lương như đối với quân nhân, công an nhân dân; công nhân viên chức quốc phòng; dân quân tự vệ trực tiếp tham gia chiến tranh bảo vệ Tổ quốc và làm nhiệm vụ quốc tế sau ngày 30/4/1975, có dưới 15 năm công tác đã phục viên, xuất ngũ, thôi việc (đối tượng còn sống) thuộc thẩm quyền giải quyết của Bộ Quốc phòng.(2024)",
+          "linh_vuc": [
+            "Chính sách BQP"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-90ce-70ab-a3ec-ad438c98c0df"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "019d2d1b-c85a-7799-ade2-3fe7fa6d39f3",
+  "so_quyet_dinh": "1586/QĐ-BYT",
+  "trich_yeu": "trích từ 1586/QĐ-BYT",
+  "ngay_quyet_dinh": "2025-05-14",
+  "decision_date_ts": 1747180800000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133607795,
+  "created_at_ts": 1747180800000,
+  "updated_at_ts": 1774578288729,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Phòng bệnh"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d1b-c85a-7799-ade2-3fe7fa6d39f3",
+  "source_updated_at_ts": 1774578288729,
+  "fetched_at": "2026-11-18T13:28:49.507Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d1b-c85a-7799-ade2-3fe7fa6d39f3",
+    "state": "PUBLICATION",
+    "proposalNumber": "1586/QĐ-BYT",
+    "proposalExcerpt": "trích từ 1586/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-51538ee74f19"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1747180800000,
+    "decisionNumber": null,
+    "publicationDate": 1776133607795,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1747180800000,
+    "updatedAt": 1774578288729,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae11-51538ee74f19",
+        "name": "Phòng bệnh"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfe-a825-7666-a3d9-3deea05d7f7b",
+          "ma_tthc": "1.000844",
+          "ten_tthc": "Thông báo hoạt động đối với tổ chức tư vấn về phòng, chống HIV/AIDS",
+          "linh_vuc": [
+            "Phòng bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-a825-7666-a3d9-3deea05d7f7b"
+        }
+      ]
+    }
+  }
+}

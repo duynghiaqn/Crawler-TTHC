@@ -1,0 +1,115 @@
+{
+  "id": "019d2c3f-d30d-7611-95a5-ae7c3b4c1868",
+  "so_quyet_dinh": "1761/QĐ-BCT",
+  "trich_yeu": "trích từ 1761/QĐ-BCT",
+  "ngay_quyet_dinh": "2020-07-02",
+  "decision_date_ts": 1593648000000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776322483577,
+  "created_at_ts": 1593648000000,
+  "updated_at_ts": 1774563873546,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "An toàn thực phẩm",
+    "Năng lượng",
+    "Hóa chất"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c3f-d30d-7611-95a5-ae7c3b4c1868",
+  "source_updated_at_ts": 1774563873546,
+  "fetched_at": "2026-11-18T13:29:18.465Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c3f-d30d-7611-95a5-ae7c3b4c1868",
+    "state": "PUBLICATION",
+    "proposalNumber": "1761/QĐ-BCT",
+    "proposalExcerpt": "trích từ 1761/QĐ-BCT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-7f70ea01a4f3",
+      "019d2c08-77b8-7437-8210-b8878e732288",
+      "019d2c08-77b8-7437-8210-c76dc669176a"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1593648000000,
+    "decisionNumber": null,
+    "publicationDate": 1776322483577,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": "VNPT",
+    "createdAt": 1593648000000,
+    "updatedAt": 1774563873546,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-7f70ea01a4f3",
+        "name": "An toàn thực phẩm"
+      },
+      {
+        "id": "019d2c08-77b8-7437-8210-b8878e732288",
+        "name": "Năng lượng"
+      },
+      {
+        "id": "019d2c08-77b8-7437-8210-c76dc669176a",
+        "name": "Hóa chất"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bf7-cd37-752e-be73-e556e6d4893d",
+          "ma_tthc": "1.000171",
+          "ten_tthc": "Cấp Giấy xác nhận kiến thức về an toàn thực phẩm cho tổ chức và cá nhân thuộc thẩm quyền cấp của Bộ Công Thương",
+          "linh_vuc": [
+            "An toàn thực phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-cd37-752e-be73-e556e6d4893d"
+        },
+        {
+          "id": "019d2bf8-3303-7724-a817-b3131d1ecec2",
+          "ma_tthc": "2.000607",
+          "ten_tthc": "Cấp Giấy xác nhận kiến thức về an toàn thực phẩm cho tổ chức và cá nhân thuộc thẩm quyền cấp của Sở Công Thương",
+          "linh_vuc": [
+            "An toàn thực phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-3303-7724-a817-b3131d1ecec2"
+        },
+        {
+          "id": "019d2bf8-32ef-7776-b207-6f3abaf4ff40",
+          "ma_tthc": "2.000484",
+          "ten_tthc": "Điều chỉnh Quy hoạch phát triển điện lực tỉnh không theo chu kỳ (đối với điều chỉnh Hợp phần Quy hoạch chi tiết phát triển lưới điện trung và hạ áp sau các trạm 110kV)",
+          "linh_vuc": [
+            "Năng lượng"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-32ef-7776-b207-6f3abaf4ff40"
+        }
+      ]
+    }
+  }
+}

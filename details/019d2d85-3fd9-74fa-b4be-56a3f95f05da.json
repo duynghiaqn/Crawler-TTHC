@@ -1,0 +1,109 @@
+{
+  "id": "019d2d85-3fd9-74fa-b4be-56a3f95f05da",
+  "so_quyet_dinh": "31/QĐ-BNNMT",
+  "trich_yeu": "trích từ 31/QĐ-BNNMT",
+  "ngay_quyet_dinh": "2026-01-07",
+  "decision_date_ts": 1767744000000,
+  "ngay_cong_bo": "2026-04-19",
+  "publication_date_ts": 1776594467687,
+  "created_at_ts": 1767744000000,
+  "updated_at_ts": 1774585200600,
+  "co_quan_ban_hanh": "Bộ Nông nghiệp và Môi trường",
+  "ma_co_quan": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+  "linh_vuc": [
+    "Thủy sản",
+    "Kiểm ngư"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d85-3fd9-74fa-b4be-56a3f95f05da",
+  "source_updated_at_ts": 1774585200600,
+  "fetched_at": "2026-11-18T13:28:34.368Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d85-3fd9-74fa-b4be-56a3f95f05da",
+    "state": "PUBLICATION",
+    "proposalNumber": "31/QĐ-BNNMT",
+    "proposalExcerpt": "trích từ 31/QĐ-BNNMT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-2788e953be04",
+      "019d2c08-77b9-731a-ae0f-28a36347d5f4"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1767744000000,
+    "decisionNumber": null,
+    "publicationDate": 1776594467687,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+    "importBy": "VNPT",
+    "createdAt": 1767744000000,
+    "updatedAt": 1774585200600,
+    "department": {
+      "id": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+      "name": "Bộ Nông nghiệp và Môi trường"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-2788e953be04",
+        "name": "Thủy sản"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae0f-28a36347d5f4",
+        "name": "Kiểm ngư"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfa-286a-7798-b2af-4ca8ea2e98b5",
+          "ma_tthc": "1.003666",
+          "ten_tthc": "Cấp, cấp lại Giấy chứng nhận nguồn gốc thủy sản khai thác",
+          "linh_vuc": [
+            "Thủy sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-286a-7798-b2af-4ca8ea2e98b5"
+        },
+        {
+          "id": "019d2bfa-2881-70fc-a840-92cd12cf4ca5",
+          "ma_tthc": "1.003770",
+          "ten_tthc": "Xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu",
+          "linh_vuc": [
+            "Thủy sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-2881-70fc-a840-92cd12cf4ca5"
+        },
+        {
+          "id": "019d2bfa-20ce-7700-ad54-e5a569690127",
+          "ma_tthc": "1.003593",
+          "ten_tthc": "Cấp giấy xác nhận nguyên liệu thủy sản khai thác",
+          "linh_vuc": [
+            "Thủy sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-20ce-7700-ad54-e5a569690127"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

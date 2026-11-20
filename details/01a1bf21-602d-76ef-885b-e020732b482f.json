@@ -1,0 +1,81 @@
+{
+  "id": "01a1bf21-602d-76ef-885b-e020732b482f",
+  "so_quyet_dinh": "09112604",
+  "trich_yeu": "test bãi bỏ tthc liên thông",
+  "ngay_quyet_dinh": "2026-11-09",
+  "decision_date_ts": 1794157200000,
+  "ngay_cong_bo": "2026-11-09",
+  "publication_date_ts": 1794208004412,
+  "created_at_ts": 1794207997970,
+  "updated_at_ts": 1794208000518,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Quản lý đầu tư công"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a1bf21-602d-76ef-885b-e020732b482f",
+  "source_updated_at_ts": 1794208000518,
+  "fetched_at": "2026-11-18T13:27:36.145Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a1bf21-602d-76ef-885b-e020732b482f",
+    "state": "PUBLICATION",
+    "proposalNumber": "09112604",
+    "proposalExcerpt": "test bãi bỏ tthc liên thông",
+    "completionDate": 1794208000761,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "01a1a973-43f4-732a-95f7-944491e73cf1"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1794157200000,
+    "decisionNumber": null,
+    "publicationDate": 1794208004412,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": null,
+    "createdAt": 1794207997970,
+    "updatedAt": 1794208000518,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "01a1a973-43f4-732a-95f7-944491e73cf1",
+        "name": "Quản lý đầu tư công"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "01a1bf1d-ab43-77cc-acdc-26b3636013d0",
+          "ma_tthc": "1.117144",
+          "ten_tthc": "TTHC liên thông thường (demo)",
+          "linh_vuc": [
+            "Quản lý đầu tư công"
+          ],
+          "ngay_hieu_luc": "2026-11-09",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/01a1bf1d-ab43-77cc-acdc-26b3636013d0"
+        }
+      ]
+    }
+  }
+}

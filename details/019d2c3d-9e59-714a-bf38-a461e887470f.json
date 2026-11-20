@@ -1,0 +1,87 @@
+{
+  "id": "019d2c3d-9e59-714a-bf38-a461e887470f",
+  "so_quyet_dinh": "814/QĐ-BTC",
+  "trich_yeu": "trích từ 814/QĐ-BTC",
+  "ngay_quyet_dinh": "2020-06-03",
+  "decision_date_ts": 1591142400000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775639921908,
+  "created_at_ts": 1591142400000,
+  "updated_at_ts": 1774563728983,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Hải quan",
+    "Thuế"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c3d-9e59-714a-bf38-a461e887470f",
+  "source_updated_at_ts": 1774563728983,
+  "fetched_at": "2026-11-18T13:29:18.897Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c3d-9e59-714a-bf38-a461e887470f",
+    "state": "PUBLICATION",
+    "proposalNumber": "814/QĐ-BTC",
+    "proposalExcerpt": "trích từ 814/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-9efb77511847",
+      "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1591142400000,
+    "decisionNumber": null,
+    "publicationDate": 1775639921908,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1591142400000,
+    "updatedAt": 1774563728983,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-9efb77511847",
+        "name": "Hải quan"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3",
+        "name": "Thuế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-4cca-770c-bce7-7a2f27c69f1e",
+          "ma_tthc": "1.007900",
+          "ten_tthc": "Thủ tục lựa chọn Ngân hàng thương mại là đại lý hoàn thuế giá trị gia tăng",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-4cca-770c-bce7-7a2f27c69f1e"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

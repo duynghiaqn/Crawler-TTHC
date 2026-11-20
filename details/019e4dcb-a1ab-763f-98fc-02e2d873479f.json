@@ -1,0 +1,110 @@
+{
+  "id": "019e4dcb-a1ab-763f-98fc-02e2d873479f",
+  "so_quyet_dinh": "1846/QĐ-BNNMT",
+  "trich_yeu": "Về việc công bố thủ tục hành chính bị bãi bỏ lĩnh vực đất đai thuộc phạm vi chức năng quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
+  "ngay_quyet_dinh": "2026-05-21",
+  "decision_date_ts": 1779296400000,
+  "ngay_cong_bo": "2026-05-22",
+  "publication_date_ts": 1779428408286,
+  "created_at_ts": 1779296400000,
+  "updated_at_ts": 1779421662026,
+  "co_quan_ban_hanh": "Bộ Nông nghiệp và Môi trường",
+  "ma_co_quan": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+  "linh_vuc": [
+    "Đất đai"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019e4dca-107c-75fb-b3ff-79b00686f4e8",
+      "fileName": "1846.QD.BNNMT.pdf"
+    },
+    {
+      "fileId": "019e4dca-14bc-77ab-9db3-b742cf7ec80a",
+      "fileName": "Phu luc kem QD 1846.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019e4dcb-a1ab-763f-98fc-02e2d873479f",
+  "source_updated_at_ts": 1779421662026,
+  "fetched_at": "2026-11-18T13:28:08.838Z",
+  "thong_tin_chi_tiet": {
+    "id": "019e4dcb-a1ab-763f-98fc-02e2d873479f",
+    "state": "PUBLICATION",
+    "proposalNumber": "1846/QĐ-BNNMT",
+    "proposalExcerpt": "Về việc công bố thủ tục hành chính bị bãi bỏ lĩnh vực đất đai thuộc phạm vi chức năng quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-31ffcc26f0ea"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019e4dca-107c-75fb-b3ff-79b00686f4e8",
+        "fileName": "1846.QD.BNNMT.pdf"
+      },
+      {
+        "fileId": "019e4dca-14bc-77ab-9db3-b742cf7ec80a",
+        "fileName": "Phu luc kem QD 1846.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1779296400000,
+    "decisionNumber": null,
+    "publicationDate": 1779428408286,
+    "effectiveDate": 1779296400000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+    "importBy": null,
+    "createdAt": 1779296400000,
+    "updatedAt": 1779421662026,
+    "department": {
+      "id": "019d2be3-6a80-747a-9d0b-db7fd18abadc",
+      "name": "Bộ Nông nghiệp và Môi trường"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-31ffcc26f0ea",
+        "name": "Đất đai"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfa-76cb-75ec-b0b4-47b7d915c3f3",
+          "ma_tthc": "1.012789",
+          "ten_tthc": "Cung cấp thông tin, dữ liệu đất đai.",
+          "linh_vuc": [
+            "Đất đai"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-76cb-75ec-b0b4-47b7d915c3f3"
+        },
+        {
+          "id": "019d2bfa-6ef1-74ef-893e-a67213ebf146",
+          "ma_tthc": "1.012750",
+          "ten_tthc": "Cung cấp thông tin, dữ liệu đất đai",
+          "linh_vuc": [
+            "Đất đai"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-6ef1-74ef-893e-a67213ebf146"
+        }
+      ]
+    }
+  }
+}

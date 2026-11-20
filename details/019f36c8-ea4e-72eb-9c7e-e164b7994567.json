@@ -1,0 +1,99 @@
+{
+  "id": "019f36c8-ea4e-72eb-9c7e-e164b7994567",
+  "so_quyet_dinh": "2029/QĐ-BYT",
+  "trich_yeu": "Về việc công bố thủ tục hành chính bị bãi bỏ lĩnh vực dân số thuộc phạm vi chức năng quản lý của Bộ Y tế",
+  "ngay_quyet_dinh": "2026-07-06",
+  "decision_date_ts": 1783270800000,
+  "ngay_cong_bo": "2026-07-06",
+  "publication_date_ts": 1783330616343,
+  "created_at_ts": 1783270800000,
+  "updated_at_ts": 1783330570421,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Dân số, Bà mẹ - Trẻ em"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019f36c6-6f09-7578-9cee-3bf8254f4524",
+      "fileName": "QD 2029 ve viec cong bo bai bo TTHC bai bo trong linh vuc dan so.signed.pdf"
+    },
+    {
+      "fileId": "019f36c6-7e51-702c-b622-30fe0a1858ef",
+      "fileName": "QD ve viec cong bo bai bo TTHC bai bo trong linh vuc dan so.docx"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019f36c8-ea4e-72eb-9c7e-e164b7994567",
+  "source_updated_at_ts": 1783330570421,
+  "fetched_at": "2026-11-18T13:27:56.616Z",
+  "thong_tin_chi_tiet": {
+    "id": "019f36c8-ea4e-72eb-9c7e-e164b7994567",
+    "state": "PUBLICATION",
+    "proposalNumber": "2029/QĐ-BYT",
+    "proposalExcerpt": "Về việc công bố thủ tục hành chính bị bãi bỏ lĩnh vực dân số thuộc phạm vi chức năng quản lý của Bộ Y tế",
+    "completionDate": 1783330570544,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-3c5b9a0510fa"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019f36c6-6f09-7578-9cee-3bf8254f4524",
+        "fileName": "QD 2029 ve viec cong bo bai bo TTHC bai bo trong linh vuc dan so.signed.pdf"
+      },
+      {
+        "fileId": "019f36c6-7e51-702c-b622-30fe0a1858ef",
+        "fileName": "QD ve viec cong bo bai bo TTHC bai bo trong linh vuc dan so.docx"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1783270800000,
+    "decisionNumber": null,
+    "publicationDate": 1783330616343,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": null,
+    "createdAt": 1783270800000,
+    "updatedAt": 1783330570421,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-3c5b9a0510fa",
+        "name": "Dân số, Bà mẹ - Trẻ em"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bff-4cac-771a-aba3-4e1dfc42f375",
+          "ma_tthc": "2.001088",
+          "ten_tthc": "Xét hưởng chính sách hỗ trợ cho đối tượng sinh con đúng chính sách dân số.",
+          "linh_vuc": [
+            "Dân số, Bà mẹ - Trẻ em"
+          ],
+          "ngay_hieu_luc": "2026-07-01",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-4cac-771a-aba3-4e1dfc42f375"
+        }
+      ]
+    }
+  }
+}

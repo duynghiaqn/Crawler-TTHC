@@ -1,0 +1,103 @@
+{
+  "id": "019eaa26-e162-739d-a3d8-8cb0c1be2dd8",
+  "so_quyet_dinh": "1326/QĐ-BVHTTDL",
+  "trich_yeu": "Quyết định công bố thủ tục hành chính được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực Quảng cáo thuộc phạm vi chức năng quản lý của Bộ Văn hóa, Thể thao và Du lịch (theo Thông tư số 12/2026/TT-BVHTTDL)",
+  "ngay_quyet_dinh": "2026-06-05",
+  "decision_date_ts": 1780592400000,
+  "ngay_cong_bo": "2026-07-01",
+  "publication_date_ts": 1782871809151,
+  "created_at_ts": 1780592400000,
+  "updated_at_ts": 1780971576647,
+  "co_quan_ban_hanh": "Bộ Văn hóa, Thể thao và Du lịch",
+  "ma_co_quan": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "linh_vuc": [
+    "Quảng cáo"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019eaa26-4295-777c-8d0f-678fffb961e3",
+      "fileName": "QD cong bo TTHC_Quang Cao (Thong tu 12.2026).pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019eaa26-e162-739d-a3d8-8cb0c1be2dd8",
+  "source_updated_at_ts": 1780971576647,
+  "fetched_at": "2026-11-18T13:28:03.377Z",
+  "thong_tin_chi_tiet": {
+    "id": "019eaa26-e162-739d-a3d8-8cb0c1be2dd8",
+    "state": "PUBLICATION",
+    "proposalNumber": "1326/QĐ-BVHTTDL",
+    "proposalExcerpt": "Quyết định công bố thủ tục hành chính được sửa đổi, bổ sung và bị bãi bỏ trong lĩnh vực Quảng cáo thuộc phạm vi chức năng quản lý của Bộ Văn hóa, Thể thao và Du lịch (theo Thông tư số 12/2026/TT-BVHTTDL)",
+    "completionDate": 1782871778467,
+    "issuingAgencyId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-d301c0c6d52d"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019eaa26-4295-777c-8d0f-678fffb961e3",
+        "fileName": "QD cong bo TTHC_Quang Cao (Thong tu 12.2026).pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1780592400000,
+    "decisionNumber": null,
+    "publicationDate": 1782871809151,
+    "effectiveDate": 1783184400000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+    "importBy": null,
+    "createdAt": 1780592400000,
+    "updatedAt": 1780971576647,
+    "department": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-d301c0c6d52d",
+        "name": "Quảng cáo"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfd-d4c2-724e-9592-6b77fecd2e0f",
+          "ma_tthc": "1.004645",
+          "ten_tthc": "Thủ tục thông báo tổ chức đoàn người thực hiện quảng cáo",
+          "linh_vuc": [
+            "Quảng cáo"
+          ],
+          "ngay_hieu_luc": "2026-07-05",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-d4c2-724e-9592-6b77fecd2e0f"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfd-dc5b-70d9-9efc-944021075bc8",
+          "ma_tthc": "1.004671",
+          "ten_tthc": "Thủ tục thẩm định sản phẩm quảng cáo theo yêu cầu của tổ chức, cá nhân",
+          "linh_vuc": [
+            "Quảng cáo"
+          ],
+          "ngay_hieu_luc": "2026-07-05",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-dc5b-70d9-9efc-944021075bc8"
+        }
+      ]
+    }
+  }
+}

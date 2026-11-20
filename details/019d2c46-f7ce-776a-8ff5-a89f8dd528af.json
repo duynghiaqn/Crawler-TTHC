@@ -1,0 +1,103 @@
+{
+  "id": "019d2c46-f7ce-776a-8ff5-a89f8dd528af",
+  "so_quyet_dinh": "3931/QĐ-BYT",
+  "trich_yeu": "trích từ 3931/QĐ-BYT",
+  "ngay_quyet_dinh": "2020-09-11",
+  "decision_date_ts": 1599782400000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133919764,
+  "created_at_ts": 1599782400000,
+  "updated_at_ts": 1774564341707,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Phòng bệnh"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c46-f7ce-776a-8ff5-a89f8dd528af",
+  "source_updated_at_ts": 1774564341707,
+  "fetched_at": "2026-11-18T13:29:17.870Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c46-f7ce-776a-8ff5-a89f8dd528af",
+    "state": "PUBLICATION",
+    "proposalNumber": "3931/QĐ-BYT",
+    "proposalExcerpt": "trích từ 3931/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-51538ee74f19"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1599782400000,
+    "decisionNumber": null,
+    "publicationDate": 1776133919764,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1599782400000,
+    "updatedAt": 1774564341707,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae11-51538ee74f19",
+        "name": "Phòng bệnh"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfe-cf2c-73ec-a3fc-9d2fcd7d9a02",
+          "ma_tthc": "1.002265",
+          "ten_tthc": "Duyệt dự trù và phân phối thuốc Methadone thuộc thẩm quyền quản lý của Sở Y tế",
+          "linh_vuc": [
+            "Phòng bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf2c-73ec-a3fc-9d2fcd7d9a02"
+        },
+        {
+          "id": "019d2bfe-cf2f-723f-a180-66155d37d955",
+          "ma_tthc": "1.002246",
+          "ten_tthc": "Duyệt dự trù và phân phối thuốc Methadone thuộc thẩm quyền quản lý của Cơ quan đầu mối quản lý về y tế của các Bộ ngành",
+          "linh_vuc": [
+            "Phòng bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf2f-723f-a180-66155d37d955"
+        },
+        {
+          "id": "019d2bfe-cf29-772c-8906-24347c42ec18",
+          "ma_tthc": "1.002275",
+          "ten_tthc": "Duyệt dự trù và phân phối thuốc Methadone thuộc thẩm quyền quản lý của Bộ Y tế",
+          "linh_vuc": [
+            "Phòng bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf29-772c-8906-24347c42ec18"
+        }
+      ]
+    }
+  }
+}

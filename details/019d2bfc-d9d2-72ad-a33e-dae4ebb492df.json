@@ -1,0 +1,648 @@
+{
+  "id": "019d2bfc-d9d2-72ad-a33e-dae4ebb492df",
+  "code": "2.000605",
+  "codeNotation": "2.000605",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Lập, nộp hồ sơ\n\ta) NLĐ đang tham gia BHXH bắt buộc: Lập hồ sơ theo quy định tại Mục 5.3 (Thành phần hồ sơ, nộp cho đơn vị SDLĐ. Đơn vị SDLĐ tiếp nhận hồ sơ, lập và nộp hồ sơ theo quy định đến cơ quan BHXH nơi đơn vị đóng BHXH.\n\tb) NLĐ đang tham gia BHXH tự nguyện, người bảo lưu thời gian đóng BHXH: Lập hồ sơ theo quy định tại mục 5.3 (Thành phần hồ sơ); nộp hồ sơ đến cơ quan BHXH.\n\tc) NLĐ có Quyết định hoặc Giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng lương hưu hoặc hưởng trợ cấp hằng tháng theo Nghị định số 09/1998/NĐ- CP: Lập hồ sơ theo quy định tại mục 5.3 (Thành phần hồ sơ); nộp hồ sơ đến cơ quan BHXH."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định"
+    },
+    {
+      "name": "",
+      "description": "Bước 3: Nhận kết quả\na) Hồ sơ, giấy tờ: NLĐ, đơn vị SDLĐ (nhận để trả cho NLĐ) nhận hồ sơ giấy tờ liên quan theo quy định (Quyết định hưởng chế độ hưu trí; Quyết định về việc hưởng trợ cấp hằng tháng của cán bộ xã; Bản quá trình đóng BHXH; Thẻ BHYT…).\n\tb) NLĐ nhận tiền lương hưu, trợ cấp BHXH hằng tháng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả\n\t- Đơn vị SDLĐ, NLĐ nhận hồ sơ, giấy tờ theo hình thức đăng ký (trực tiếp hoặc thông qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- NLĐ nhận lương hưu, trợ cấp BHXH hằng tháng bằng một trong các hình thức sau:\n\t+ Thông qua tài khoản cá nhân.\n\t+ Bằng tiền mặt thông qua Tổ chức hỗ trợ chi trả. \nThời hạn giải quyết: Tối đa 12 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả\n\t- Đơn vị SDLĐ, NLĐ nhận hồ sơ, giấy tờ theo hình thức đăng ký (trực tiếp hoặc thông qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- NLĐ nhận lương hưu, trợ cấp BHXH hằng tháng bằng một trong các hình thức sau:\n\t+ Thông qua tài khoản cá nhân.\n\t+ Bằng tiền mặt thông qua Tổ chức hỗ trợ chi trả. \nThời hạn giải quyết: Tối đa 12 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 12,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nhận kết quả\n\t- Đơn vị SDLĐ, NLĐ nhận hồ sơ, giấy tờ theo hình thức đăng ký (trực tiếp hoặc thông qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- NLĐ nhận lương hưu, trợ cấp BHXH hằng tháng bằng một trong các hình thức sau:\n\t+ Thông qua tài khoản cá nhân.\n\t+ Bằng tiền mặt thông qua Tổ chức hỗ trợ chi trả. \nThời hạn giải quyết: Tối đa 12 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Theo Điều 64, Điều 65, Điều 98,  Khoản 10 Điều 141 Luật BHXH số 41/2024/QH15.",
+  "name": "Giải quyết hưởng lương hưu; trợ cấp hằng tháng đối với cán bộ xã",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ theo quy định tại Điều 77, 105, 111 Luật BHXH năm 2024; Thông tư số 136/2020/TT-BQP ngày 29/10/2020 của Bộ Quốc phòng hướng dẫn về hồ sơ, quy trình và trách nhiệm giải quyết hưởng các chế độ BHXH trong Bộ Quốc phòng (Thông tư số 136/2020/TT-BQP), gồm:",
+      "profileComponents": []
+    },
+    {
+      "name": "1. Trường hợp đang tham gia BHXH bắt buộc",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a023a8-f7e8-73b0-9497-f4e60ff02794",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Sổ BHXH",
+          "code": "TP-G12.0001200",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02df1-960a-7029-a5b8-73d9dfa30231",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản chính hoặc bản sao văn bản xác định việc chấm dứt hợp đồng lao động hoặc văn bản chấm dứt làm việc hoặc văn bản đề nghị (Mẫu số 14-HSB) của đối tượng quy định tại các điểm g, h, m và n khoản 1 Điều 2 của Luật BHXH. (Văn bản xác định việc chấm dứt hợp đồng lao động hoặc văn bản chấm dứt làm việc thể hiện các thông tin của người hưởng: Mã số BHXH/Số CCCD; Số điện thoại liên hệ; Thời điểm hưởng lương hưu; Nơi cư trú sau khi nghỉ hưu (ghi đầy đủ số nhà, ngõ (ngách, hẻm), đường phố, tổ (thôn, xóm, ấp), xã/phường/đặc khu, tỉnh (thành phố)); Hình thức nhận lương hưu (trường hợp nhận lương hưu qua tài khoản cá nhân thì ghi rõ thông tin: Chủ tài khoản, số tài khoản, ngân hàng mở tài khoản); Nơi khám, chữa bệnh BHYT ban đầu).  \tx",
+          "code": "TP.G12.002009",
+          "attachments": [
+            {
+              "id": "01a02e13-b999-72fa-bcb2-6e0761b03606",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02e13-b999-72fa-bcb2-6e0761b03606/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02df3-d676-719d-8bed-a54eafb12e17",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp hưởng lương hưu khi suy giảm KNLĐ, ngoài hồ sơ quy định tại điểm a, b khoản này thì có thêm biên bản giám định mức suy giảm KNLĐ của Hội đồng GĐYK hoặc bản sao giấy xác nhận mức độ khuyết tật nặng, đặc biệt nặng có thể hiện kết luận của Hội đồng GĐYK ghi rõ tỷ lệ phần trăm suy giảm KNLĐ",
+          "code": "TP.G12.002010",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02df4-792f-775f-a82f-a3f1c2aaae0b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp hưởng lương hưu do bị nhiễm HIV/AIDS do tai nạn rủi ro nghề nghiệp trong khi thực hiện nhiệm vụ được giao, ngoài hồ sơ quy định tại tiết a, b điểm này thì có thêm bản sao giấy chứng nhận bị nhiễm HIV do tai nạn rủi ro nghề nghiệp",
+          "code": "TP.G12.002011",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02df5-322e-7191-a3cd-36fc125fba50",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai cá nhân về thời gian, địa bàn phục vụ trong quân đội có hưởng phụ cấp khu vực theo mẫu số 04B-HBQP (ban hành kèm theo Thông tư số 136/2020/TT-BQP) đối với người có thời gian phục vụ trong quân đội trước ngày 01/01/2007 tại địa bàn có hưởng phụ cấp khu vực mà sổ BHXH không thể hiện đầy đủ thông tin làm căn cứ tính phụ cấp khu vực",
+          "code": "TP.G12.002012",
+          "attachments": [
+            {
+              "id": "01a02e14-43d6-71be-b978-c3f15fc6444c",
+              "fileName": "04B-HBQP.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02e14-43d6-71be-b978-c3f15fc6444c/04B-HBQP.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02d6b-4c91-72b6-a251-d4f74fb82c82",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp thanh toán phí GĐYK thì có thêm hóa đơn, chứng từ thu phí giám định; bảng kê các nội dung giám định của cơ sở thực hiện GĐYK",
+          "code": "TP.G12.000087",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "2. Trường hợp tham gia BHXH tự nguyện, bảo lưu thời gian tham gia BHXH (gồm cả người đang chấp hành hình phạt tù, người xuất cảnh trái phép trở về nước định cư hợp pháp, người được Tòa án hủy quyết định tuyên bố mất tích), hồ sơ bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a023a8-f7e8-73b0-9497-f4e60ff02794",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Sổ BHXH",
+          "code": "TP-G12.0001200",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02d67-f839-7657-ba05-9b5922055954",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị theo Mẫu số 14-HSB",
+          "code": "TP.G12.000081",
+          "attachments": [
+            {
+              "id": "01a02de5-e51a-722c-b292-89c5fb20dec8",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02de5-e51a-722c-b292-89c5fb20dec8/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02df7-70c2-7372-a03c-52948d41e2a8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp hưởng lương hưu khi suy giảm KNLĐ, ngoài hồ sơ quy định tại tiết a, b điểm này thì có thêm biên bản giám định mức suy giảm KNLĐ của Hội đồng GĐYK hoặc bản sao giấy xác nhận mức độ khuyết tật nặng, đặc biệt nặng có thể hiện kết luận của Hội đồng GĐYK ghi rõ tỷ lệ phần trăm suy giảm KNLĐ",
+          "code": "TP.G12.002013",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02df8-049c-70da-a334-0579a241a6ca",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp đang chấp hành hình phạt tù từ ngày 01/01/1995 trở đi thì có thêm Văn bản ủy quyền theo quy định của pháp luật dân sự",
+          "code": "TP.G12.002014",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02df8-86bd-7152-a26d-8014a7a68764",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp đã chấp hành xong hình phạt tù giam từ ngày 01/01/1995 đến trước ngày 01/01/2016 thì có thêm bản sao của một trong các giấy tờ sau: Bản sao Giấy chứng nhận chấp hành xong hình phạt tù hoặc giấy đặc xá tha tù trước thời hạn hoặc quyết định miễn hoặc tạm hoãn chấp hành hình phạt tù.",
+          "code": "TP.G12.002015",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02df9-1d85-7212-b776-e0eec367f803",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp xuất cảnh trái phép trở về thì có thêm bản sao văn bản của cơ quan nhà nước có thẩm quyền về việc trở về nước định cư hợp pháp",
+          "code": "TP.G12.002016",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02df9-a2c3-710f-b8a2-e037da4cc36e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp mất tích trở về thì có thêm bản sao Quyết định có hiệu lực pháp luật của Tòa án hủy bỏ quyết định tuyên bố mất tích",
+          "code": "TP.G12.002017",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02dfa-be73-77fe-9af0-2a0f8e780fff",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản khai cá nhân về thời gian, địa bàn phục vụ trong quân đội có hưởng phụ cấp khu vực theo mẫu số 04B-HBQP (ban hành kèm theo Thông tư số 136/2020/TT-BQP) đối với người có thời gian phục vụ trong quân đội trước ngày 01/01/2007 tại địa bàn có hưởng phụ cấp khu vực mà sổ BHXH không thể hiện đầy đủ thông tin làm căn cứ tính phụ cấp khu vực",
+          "code": "TP.G12.002018",
+          "attachments": [
+            {
+              "id": "01a02e15-0263-73b8-9e24-c929434cb752",
+              "fileName": "04B-HBQP.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02e15-0263-73b8-9e24-c929434cb752/04B-HBQP.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02dfe-272c-73c8-82d7-290b7ef1df3c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp thanh toán phí GĐYK thì có thêm hóa đơn, chứng từ thu phí giám định; bảng kê các nội dung giám định của cơ sở thực hiện GĐYK",
+          "code": "TP.G12.002019",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "3. Hồ sơ hưởng lương hưu đối với người có văn bản của cơ quan BHXH xác nhận về việc chờ đủ điều kiện về tuổi đời để hưởng lương hưu được quy định tại Nghị định số 12/CP ngày 26/01/1995 được sửa đổi, bổ sung một số điều theo Nghị định số 01/2003/NĐ-CP ngày 09/01/2003 của Chính phủ hoặc cán bộ xã thuộc đối tượng điều chỉnh của Nghị định số 09/1998/NĐ-CP ngày 23/01/1998 của Chính phủ đã có quyết định hoặc giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng trợ cấp hằng tháng của cơ quan BHXH bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02e01-bf7e-7049-85d1-597a9383b821",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định hoặc giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng lương hưu hoặc chờ hưởng trợ cấp hằng tháng theo Nghị định số 09/1998/NĐ-CP (bản chính); trường hợp bị mất giấy tờ trên thì có thêm Văn bản đề nghị theo Mẫu số 14-HSB nêu rõ lý do bị mất.",
+          "code": "TP.G12.2020",
+          "attachments": [
+            {
+              "id": "01a02e15-ad2f-7511-8347-caed9d7e0848",
+              "fileName": "14-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02e15-ad2f-7511-8347-caed9d7e0848/14-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02e02-6352-7024-9356-4b28c464bd6b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ như quy định tại điểm c, d, đ, e, g, h, i  khoản 2 nêu trên.",
+          "code": "TP.G12.002021",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Ghi chú:  - Hồ sơ thay thế tại Bảng này được thực hiện khi đã có trong cơ sở dữ liệu cơ quan BHXH đang quản lý, cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành được kết nối, chia sẻ đủ điều kiện khai thác, sử dụng, đảm bảo tính pháp lý theo quy định. Hồ sơ đã có dữ liệu thay thế thì đơn vị SDLĐ, NLĐ không phải cung cấp cho cơ quan BHXH. - Không yêu cầu NLĐ nộp lại sổ BHXH bản giấy.  - Thành phần hồ sơ nếu không ghi là bản chính thì có thể nộp bản chính hoặc bản sao hợp lệ. Các thành phần hồ sơ là mẫu do cơ quan BHXH ban hành là bản chính. - Trường hợp ủy quyền nhận chế độ BHXH: Hồ sơ kèm theo Văn bản uỷ quyền (được chứng thực) theo quy định của pháp luật và Văn bản đề nghị Mẫu số 14-HSB.",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cá nhân, Tổ chức",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+    "019d2bb3-5d7d-7398-be46-85fda49d119e",
+    "019d2bb3-5d7e-72d1-afe5-6de8c6e793ac",
+    "019d2bb3-5d7e-72d1-afea-8e78eb76af05",
+    "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+    "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+    "019d2bb3-5d84-71c5-b673-3e33a4649d19",
+    "019d2bb3-5d86-7760-a63f-86fb70a72ee2",
+    "019d2bb3-5d87-7195-a440-f511123122ee",
+    "019e72eb-488d-760e-abb8-0a3bb6585c78",
+    "01a023be-84c8-77db-ade3-9c613cd83670",
+    "01a02e0b-34b0-7798-8231-7d34a42c65a8",
+    "01a02e0e-719d-7317-8057-eba06fcb84d3"
+  ],
+  "resultIds": [
+    "019d2bb2-1c72-75fa-a592-4e8f1550ca0d",
+    "019d2bb2-1c72-75fa-a592-5b00aa1e9684",
+    "019d2bb2-1c82-739b-8b99-657b0405c94b",
+    "01a02d57-1940-7115-919c-ba642218cc56",
+    "01a02e06-0cbe-730e-89e8-4443b4b48efd",
+    "01a02e06-c14f-7429-a32f-8ab211d1b094"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e65-3c061397ee5f"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-3c061397ee5f",
+      "name": "Bảo hiểm xã hội cấp Tỉnh",
+      "code": "LĐTB-T"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+      "name": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
+      "code": "2222/QĐ-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be46-85fda49d119e",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT BẢO HIỂM XÃ HỘI VỀ BẢO HIỂM XÃ HỘI BẮT BUỘC",
+      "code": "12/2025/TT-BNV"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe5-6de8c6e793ac",
+      "name": "THÔNG TƯ QUY ĐỊNH CHI TIẾT THI HÀNH LUẬT BẢO HIỂM XÃ HỘI, LUẬT AN TOÀN, VỆ SINH LAO ĐỘNG VỀ LĨNH VỰC Y TẾ VÀ MỘT SỐ ĐIỀU CỦA LUẬT KHÁM BỆNH, CHỮA BỆNH",
+      "code": "25/2025/TT-BYT"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc",
+      "code": "158/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afea-8e78eb76af05",
+      "name": "135/2020/NĐ-CP Quy định về tuổi nghỉ hưu",
+      "code": "135/2020/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63f-86fb70a72ee2",
+      "name": "Thông tư 136/2020/TT-BQP",
+      "code": "136/2020/TT-BQP"
+    },
+    {
+      "id": "01a023be-84c8-77db-ade3-9c613cd83670",
+      "name": "Quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp; cấp sổ bảo hiểm xã hội, thẻ bảo hiểm y tế",
+      "code": "366/QĐ-BHXH"
+    },
+    {
+      "id": "01a02e0e-719d-7317-8057-eba06fcb84d3",
+      "name": "Vv vướng mắc trong thực hiện chế độ BHXH",
+      "code": "4831/LĐTBXH-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-f6d50e5e6371",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội tự nguyện",
+      "code": "159/2025/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-3e33a4649d19",
+      "name": "Bộ Luật lao động",
+      "code": "45/2019/QH14"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a440-f511123122ee",
+      "name": "Luật Bảo hiểm xã hội",
+      "code": "41/2024/QH15"
+    },
+    {
+      "id": "019e72eb-488d-760e-abb8-0a3bb6585c78",
+      "name": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP BAN HÀNH KÈM THEO QUYẾT ĐỊNH SỐ 2222/QĐ-BHXH NGÀY 29/7/2025 CỦA GIÁM ĐỐC BẢO HIỂM XÃ HỘI VIỆT NAM",
+      "code": "313/QĐ-BHXH "
+    },
+    {
+      "id": "01a02e0b-34b0-7798-8231-7d34a42c65a8",
+      "name": "Quy định chi tiết một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội tự nguyện",
+      "code": "11/2025/TT-BNV"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c72-75fa-a592-4e8f1550ca0d",
+      "name": "Tiền lương hưu, trợ cấp BHXH",
+      "code": "KQ.G12.001170"
+    },
+    {
+      "id": "01a02e06-0cbe-730e-89e8-4443b4b48efd",
+      "name": "Quyết định về việc hưởng chế độ hưu trí hằng tháng (Mẫu số 07A-HSB)",
+      "code": "KQ.G12.002020"
+    },
+    {
+      "id": "01a02e06-c14f-7429-a32f-8ab211d1b094",
+      "name": "Quyết định về việc hưởng trợ cấp hằng tháng của cán bộ xã, phường, thị trấn (Mẫu số 07C-HSB)",
+      "code": "TP.G12.002021"
+    },
+    {
+      "id": "019d2bb2-1c72-75fa-a592-5b00aa1e9684",
+      "name": "Bản quá trình đóng BHXH (mẫu số 04-HSB)",
+      "code": "KQ.G12.001173"
+    },
+    {
+      "id": "01a02d57-1940-7115-919c-ba642218cc56",
+      "name": "Thông báo về việc chi trả lương hưu, trợ cấp BHXH đối với trường hợp chuyển nơi nhận chế độ BHXH (Mẫu số 23-HSB)",
+      "code": "KQ.G12.002008"
+    },
+    {
+      "id": "019d2bb2-1c82-739b-8b99-657b0405c94b",
+      "name": "Thẻ BHYT",
+      "code": "KQ.G12.0000401"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d767d-1ed5-738c-bf94-6a8fec731a05",
+      "name": "Giải quyết hưởng lương hưu đối với người đang tham gia BHXH bắt buộc",
+      "code": "2.000605.01",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d767f-8e59-742c-8494-4525541fd7b8",
+      "name": "Giải quyết hưởng lương hưu đối với người đang tham gia BHXH tự nguyện, bảo lưu thời gian đóng BHXH",
+      "code": "2.000605.02",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d7683-3881-7501-a6c6-562c34822a8e",
+      "name": "Giải quyết hưởng lương hưu, trợ cấp BHXH hàng tháng đối với người có Quyết định hoặc Giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng lương hưu hoặc trợ cấp hàng tháng theo Nghị định số 09/1998/NĐ-CP",
+      "code": "2.000605.03",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a7d5-72d2-8ece-c2e1ef89532c",
+      "name": "Giải quyết hưởng lương hưu; trợ cấp hằng tháng đối với cán bộ xã",
+      "code": "2.000605.02",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a7ab-7103-a57c-d6c794ce821c",
+      "name": "Giải quyết hưởng lương hưu; trợ cấp hằng tháng đối với cán bộ xã",
+      "code": "2.000605.01",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a02f99-a802-738f-9f4b-bf557687f0f6",
+      "name": "Giải quyết hưởng lương hưu; trợ cấp hằng tháng đối với cán bộ xã",
+      "code": "2.000605.03",
+      "processingDay": {
+        "qty": 12,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559484370,
+  "updatedAt": 1787504991656,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Theo Điều 64, Điều 65, Điều 98,  Khoản 10 Điều 141 Luật BHXH số 41/2024/QH15.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "019d2bfd-ec26-745a-ba74-b2d0463fe204",
+  "code": "1.013790",
+  "codeNotation": "1.013790",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan báo chí và cơ sở kinh doanh dịch vụ phát hành báo chí nhập khẩu gửi 01 bộ hồ sơ về Ủy ban nhân dân cấp tỉnh nơi đặt trụ sở hoặc nơi có cửa khẩu nhập khẩu báo chí in.\n- Trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Ủy ban nhân dân cấp tỉnh có trách nhiệm kiểm tra, xem xét tính đầy đủ, hợp lệ của hồ sơ.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ủy ban nhân dân cấp tỉnh có văn bản thông báo việc chấp thuận đăng ký danh mục báo chí nhập khẩu cho cơ quan, tổ chức đề nghị; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định.",
+  "name": "Thủ tục đăng ký danh mục báo chí nhập khẩu",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71bb-75c8-bd30-c30dfdb911b5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị đăng ký danh mục báo chí nhập khẩu của cơ sở kinh doanh dịch vụ phát hành báo chí nhập khẩu và Danh mục báo chí in nhập khẩu theo Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định số 237/2026/NĐ-CP ngày 26/6/2026.",
+          "code": "G16-KQ002092",
+          "attachments": [
+            {
+              "id": "01a031df-ac14-7349-8fb6-c0c9c1909d33",
+              "fileName": "MS04 Dang ky bao chi nhap khau.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a031df-ac14-7349-8fb6-c0c9c1909d33/MS04 Dang ky bao chi nhap khau.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-108a168d8c99"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f8253-7b83-74a8-9b67-48f73b229c01",
+    "01a01e6e-19d0-77ab-93db-cda462a67ed7"
+  ],
+  "resultIds": [
+    "01a031de-6675-70ad-8123-b444e577a07b"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e65-9c9d4b77d824"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-108a168d8c99",
+      "name": "Báo chí",
+      "code": "G14-TT02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-108a168d8c99",
+    "name": "Báo chí",
+    "code": "G14-TT02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-9c9d4b77d824",
+      "name": "Ủy ban nhân dân cấp tỉnh",
+      "code": "UBNDCT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3",
+    "019d3810-8907-7195-8ecb-6e3d0c581f7e"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    },
+    {
+      "id": "019d3810-8907-7195-8ecb-6e3d0c581f7e",
+      "name": "Sở Văn hóa, Thể thao và Du lịch"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a01e6e-19d0-77ab-93db-cda462a67ed7",
+      "name": "Nghị định quy định chi tiết thi hành một số điều của Luật Báo chí",
+      "code": "237/2026/NĐ-CP "
+    },
+    {
+      "id": "019f8253-7b83-74a8-9b67-48f73b229c01",
+      "name": "Luật Báo chí 2025",
+      "code": "126/2025/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a031de-6675-70ad-8123-b444e577a07b",
+      "name": "Văn bản chấp thuận đăng ký danh mục báo chí nhập khẩu",
+      "code": "000.00.00.G16-KQ1.013790.01"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+  "departmentPromulgateCode": "G16",
+  "departmentPromulgateName": "Bộ Văn hóa, Thể thao và Du lịch",
+  "cases": [
+    {
+      "id": "01a031e6-9399-749b-a1c1-7e6cf8614bf1",
+      "name": "Thủ tục đăng ký danh mục báo chí nhập khẩu",
+      "code": "1.013790.01",
+      "processingDay": {
+        "qty": 7,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019daecd-1356-70bb-bfc4-21ba2f27dc2a",
+      "name": "Thủ tục tiếp nhận đăng ký danh mục báo chí nhập khẩu",
+      "code": "1.013790.01",
+      "processingDay": {
+        "qty": 25,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559554598,
+  "updatedAt": 1787543583743,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019ff3ff-5c64-7698-8888-c706df670883",
+    "proposalNumber": "2149/QĐ-BVHTTDL",
+    "decisionDate": 1786899600000,
+    "decisionNumber": null,
+    "publicationDate": 1787543583558,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-0e988ad98b55",
+      "name": "Bộ Văn hóa, Thể thao và Du lịch"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

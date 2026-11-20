@@ -1,0 +1,473 @@
+{
+  "id": "019d2bfd-5f38-701f-a0b4-950c57bd420a",
+  "code": "1.003091",
+  "codeNotation": "1.003091",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Đương sự tự mình hoặc ủy quyền cho người khác thực hiện việc yêu cầu thi hành án đến cơ quan thi hành án dân sự có thẩm quyền bằng một trong các hình thức sau đây: \n+ Gửi yêu cầu trên môi trường số qua Cổng Dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính tập trung của Bộ Tư pháp, ứng dụng VNeID hoặc phương tiện điện tử khác theo quy định của pháp luật; \n+ Trực tiếp nộp đơn yêu cầu hoặc trình bày bằng lời nói. Trường hợp trình bày bằng lời nói thì cơ quan thi hành án dân sự phải lập biên bản có các nội dung quy định tại khoản 2 Điều này, có chữ ký của người lập biên bản, chữ ký hoặc điểm chỉ của người yêu cầu; biên bản này có giá trị như đơn yêu cầu; \n+ Gửi đơn yêu cầu qua dịch vụ bưu chính;\n+ Hình thức khác theo quy định của pháp luật.\t\n- Ngày yêu cầu thi hành án được tính từ ngày người yêu cầu nộp đơn hoặc trình bày trực tiếp hoặc ngày có dấu bưu điện nơi gửi.\n- Khi tiếp nhận yêu cầu thi hành án, cơ quan thi hành án dân sự phải cấp phiếu nhận yêu cầu. Cơ quan thi hành án dân sự chỉ vào sổ nhận yêu cầu thi hành án khi nội dung yêu cầu thi hành án và các tài liệu kèm theo chính xác, đầy đủ theo quy định.\n- Cơ quan Thi hành án dân sự từ chối yêu cầu thi hành án khi thuộc một trong các trường hợp được quy định tại khoản 4 Điều 34 Luật Thi hành án dân sự năm 2025 và phải thông báo cho người yêu cầu trong thời hạn 05 ngày làm việc kể từ ngày nhận được yêu cầu thi hành án.\n- Thời hạn ra quyết định thi hành án theo yêu cầu là 05 ngày làm việc, kể từ ngày nhận được yêu cầu thi hành án."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Được thực hiện trên Cổng Dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính tập trung của Bộ Tư pháp, Ứng dụng VNeID hoặc trực tiếp nộp đơn yêu cầu hoặc trình bày bằng lời nói hoặc gửi đơn yêu cầu qua dịch vụ bưu chính hoặc hình thức khác theo quy định của pháp luật.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Thực hiện theo Điều 5 và 6 Thông tư số 72/2026/TT-BTC ngày 23/6/2026 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn, giảm, chế độ thu, nộp phí thi hành án dân sự."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Được thực hiện trên Cổng Dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính tập trung của Bộ Tư pháp, Ứng dụng VNeID hoặc trực tiếp nộp đơn yêu cầu hoặc trình bày bằng lời nói hoặc gửi đơn yêu cầu qua dịch vụ bưu chính hoặc hình thức khác theo quy định của pháp luật.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Thực hiện theo Điều 5 và 6 Thông tư số 72/2026/TT-BTC ngày 23/6/2026 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn, giảm, chế độ thu, nộp phí thi hành án dân sự."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Được thực hiện trên Cổng Dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính tập trung của Bộ Tư pháp, Ứng dụng VNeID",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Thực hiện theo Điều 5 và 6 Thông tư số 72/2026/TT-BTC ngày 23/6/2026 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn, giảm, chế độ thu, nộp phí thi hành án dân sự."
+        }
+      ]
+    }
+  ],
+  "description": "a) Cơ quan thi hành án dân sự từ chối yêu cầu thi hành án và phải thông báo bằng văn bản cho người yêu cầu trong thời hạn 05 ngày làm việc, kể từ ngày nhận được yêu cầu thi hành án trong các trường hợp sau đây:\n- Người yêu cầu không có quyền yêu cầu thi hành án hoặc nội dung yêu cầu không liên quan đến nội dung của bản án, quyết định;\n- Bản án, quyết định không làm phát sinh quyền, nghĩa vụ của các đương sự theo quy định tại điểm a khoản 5 Điều 31 Luật Thi hành án dân sự trong trường hợp bản án, quyết định không xác định rõ khoản phải thi hành hoặc không xác định rõ người phải thi hành án, trừ các trường hợp: (i) Giao quyền sở hữu, sử dụng, quản lý tài sản mà tại thời điểm yêu cầu thi hành án, người được thi hành án không được trực tiếp quản lý, sử dụng tài sản; (ii) Giao quyền nuôi dưỡng người chưa thành niên mà tại thời điểm yêu cầu thi hành án, người được thi hành án không được trực tiếp nuôi dưỡng; (iii) Giao quyền thăm nom, chăm sóc người chưa thành niên, người mất năng lực hành vi dân sự, người không có khả năng lao động cho người được thi hành án không trực tiếp nuôi dưỡng.\n- Cơ quan thi hành án dân sự được yêu cầu không có thẩm quyền thi hành án;\n- Hết thời hiệu yêu cầu thi hành án.\nb) Thời hiệu yêu cầu thi hành án\n- Trong thời hạn 05 năm, kể từ ngày bản án, quyết định có hiệu lực pháp luật, người được thi hành án, người phải thi hành án có quyền yêu cầu cơ quan thi hành án dân sự có thẩm quyền ra quyết định thi hành án.\nTrường hợp thời hạn thực hiện nghĩa vụ được ấn định trong bản án, quyết định thì thời hạn 05 năm được tính từ ngày nghĩa vụ đến hạn.\nĐối với bản án, quyết định thi hành theo định kỳ thì thời hạn 05 năm được áp dụng cho từng định kỳ, kể từ ngày nghĩa vụ đến hạn.\n- Đối với các trường hợp hoãn, tạm đình chỉ thi hành án theo quy định của Luật này thì thời gian hoãn, tạm đình chỉ không tính vào thời hiệu yêu cầu thi hành án, trừ trường hợp người được thi hành án đồng ý cho người phải thi hành án hoãn thi hành án.\n- Trường hợp người yêu cầu thi hành án chứng minh được do trở ngại khách quan hoặc do sự kiện bất khả kháng mà không thể yêu cầu thi hành án đúng thời hạn thì thời gian có trở ngại khách quan hoặc sự kiện bất khả kháng không tính vào thời hiệu yêu cầu thi hành án.",
+  "name": "Yêu cầu thi hành án dân sự",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-55c9b9913713",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Đối với các trường hợp bất khả kháng, trở ngại khách quan khác nên không thể yêu cầu thi hành án đúng hạn thì phải có xác nhận của cơ quan có thẩm quyền hoặc tài liệu hợp pháp khác để chứng minh. Xác nhận của tổ chức, cá nhân có thẩm quyền phải thể hiện rõ địa điểm, nội dung và thời gian xảy ra sự kiện bất khả kháng hoặc trở ngại khách quan dẫn đến việc đương sự không thể yêu cầu thi hành án đúng hạn.",
+          "code": "000.00.00.G15-KQ004986",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-2aa3bba50205",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Bản án, quyết định và tài liệu khác có liên quan;",
+          "code": "000.00.00.G15-KQ004975",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-3b515295fad8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Trường hợp yêu cầu thi hành án quá hạn, ngoài các tài liệu nêu trên, người yêu cầu thi hành án nộp kèm theo bản gốc hoặc bản sao có chứng thực các tài liệu chứng minh lý do không thể yêu cầu thi hành án đúng hạn để đối chiếu hồ sơ. Tài liệu chứng minh gồm:",
+          "code": "000.00.00.G15-KQ004979",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-3f14e4d55f9d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Đối với trường hợp xảy ra sự kiện bất khả kháng hoặc do đương sự chết mà chưa xác định được người thừa kế hoặc do trở ngại khách quan xảy ra tại địa phương nên không thể yêu cầu thi hành án đúng hạn thì phải có xác nhận của Ủy ban nhân dân cấp xã nơi người đó cư trú cuối cùng hoặc nơi cư trú khi xảy ra sự kiện bất khả kháng, trừ trường hợp quy định tại Điều 3 Nghị định số 152/2026/NĐ-CP ngày 13/5/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành luật Thi hành án dân sự.",
+          "code": "000.00.00.G15-KQ004980",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-2e324c0d71cc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Tài liệu thông tin về tài sản hoặc điều kiện thi hành của người phải thi hành án (nếu có);",
+          "code": "000.00.00.G15-KQ004976",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-25192d14b2f6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Đơn yêu cầu thi hành án (Mẫu số D 01-THADS) hoặc biên bản ghi nhận yêu cầu thi hành án (Mẫu số D34-THADS);",
+          "code": "000.00.00.G15-KQ004974",
+          "attachments": [
+            {
+              "id": "01a0a545-2e6c-731e-bb55-a9cc0a945e86",
+              "fileName": "D01 D34.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0a545-2e6c-731e-bb55-a9cc0a945e86/D01 D34.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-43bf114290df",
+          "originalQty": 0,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Lưu ý: Trong trường hợp cần sử dụng đến thông tin về nơi cư trú của người đề nghị xác nhận về sự kiện bất khả kháng thì cán bộ, công chức, viên chức, cá nhân được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công thực hiện khai thác thông tin về cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư theo một trong các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ về việc sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công. Nếu không thể khai thác được thông tin cư trú của công dân theo các phương thức nêu tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP hoặc thông tin khai thác trên cơ sở dữ liệu quốc gia về dân cư không được đầy đủ, không chính xác thì cơ quan có thẩm quyền, cán bộ, công chức, viên chức, cá nhân được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công có thể yêu cầu công dân nộp bản sao hoặc xuất trình một trong các giấy tờ có giá trị chứng minh thông tin về cư trú theo quy định tại khoản 3 Điều 14 Nghị định số 104/2022/NĐ-CP. Các loại giấy tờ có giá trị chứng minh thông tin về cư trú được quy định tại khoản 4 Điều 14 Nghị định số 104/2022/NĐ-CP bao gồm: Thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư.",
+          "code": "000.00.00.G15-KQ004981",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-4525b055dd3e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Đối với trường hợp tai nạn, ốm nặng đến mức mất khả năng nhận thức nên không thể yêu cầu thi hành án đúng hạn thì phải có tóm tắt hồ sơ bệnh án được cơ sở khám bệnh, chữa bệnh từ cấp huyện trở lên xác nhận và tài liệu kèm theo, nếu có.",
+          "code": "000.00.00.G15-KQ004982",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-4c1545e01843",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Đối với trường hợp do lỗi của cơ quan xét xử, cơ quan thi hành án nên không thể yêu cầu thi hành án đúng hạn thì phải có xác nhận của cơ quan đã ra bản án, quyết định, cơ quan thi hành án có thẩm quyền",
+          "code": "000.00.00.G15-KQ004984",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-493f417d4024",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Đối với trường hợp do yêu cầu công tác nên không thể yêu cầu thi hành án đúng hạn thì phải có xác nhận của Thủ trưởng cơ quan, đơn vị hoặc giấy cử đi công tác của cơ quan, đơn vị đó.",
+          "code": "000.00.00.G15-KQ004983",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-37726f05c204",
+          "originalQty": 0,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Lưu ý: Trường hợp không khai thác được thông tin hoặc thông tin khai thác trên cơ sở dữ liệu quốc gia về dân cư không được đầy đủ, không chính xác thì cán bộ, công chức, viên chức, cá nhân được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung một trong các giấy tờ sau đây: Thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân;",
+          "code": "000.00.00.G15-KQ004978",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-591978d4c6a2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "-  Đối với trường hợp đã trả đơn yêu cầu thi hành án trước ngày 01/07/2015 yêu cầu thi hành án phải kèm theo quyết định trả đơn yêu cầu thi hành án, tài liệu khác có liên quan. Trường hợp không còn quyết định trả lại đơn yêu cầu thi hành án, người được thi hành án có quyền đề nghị cơ quan thi hành án đã ra quyết định trả lại đơn yêu cầu thi hành án xác nhận về việc đã trả đơn và thụ lý giải quyết việc thi hành án",
+          "code": "000.00.00.G15-KQ004987",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-5101b7a26542",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Đối với trường hợp hợp nhất, sáp nhập, chia, tách, giải thể, chuyển đổi hình thức, chuyển giao bắt buộc, chuyển nhượng toàn bộ cổ phần, phần vốn góp thì phải có văn bản hợp pháp chứng minh thời gian chưa xác định được tổ chức, cá nhân mới có quyền yêu cầu thi hành án.",
+          "code": "000.00.00.G15-KQ004985",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b8-7770-8067-3016436ee54d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "- Trường hợp ủy quyền phải kèm theo giấy ủy quyền hợp pháp và xuất trình tài khoản định danh điện tử theo quy định pháp luật.",
+          "code": "000.00.00.G15-KQ004977",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-6b3a3dcfec8a"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be52-c047b61cfb64",
+    "019d2bb3-5d7e-72d1-afe8-3ac91da2e6b0",
+    "019d2bb3-5d7e-72d1-afe9-94e5c2fcfb2b",
+    "019d2bb3-5d7f-719e-b470-22af3c5ee091",
+    "019d2bb3-5d87-7195-a43f-05ce562f381b",
+    "019d951f-b414-7526-97a3-b578b6f5aa4c",
+    "01a0a526-8107-752e-b085-503cf52a0dd7",
+    "01a0a527-6bc2-766c-b8a6-5845b288f0be",
+    "01a0a528-354c-746b-9ca0-1858b32ae121",
+    "01a0a528-e09d-760c-a547-51774e9a04a8"
+  ],
+  "resultIds": [
+    "019d2bb2-1c79-762e-8b2a-27ad853d579a",
+    "019d2bb2-1c79-762e-8b2a-2b75ca5c83f3"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6ada-753f-9ac7-7c1aeb07ce5f",
+    "019d2be3-6ada-753f-9ac7-8c28efaf90f7"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-6b3a3dcfec8a",
+      "name": "Thi hành án dân sự",
+      "code": "G15-TP15"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-6b3a3dcfec8a",
+    "name": "Thi hành án dân sự",
+    "code": "G15-TP15"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6ada-753f-9ac7-7c1aeb07ce5f",
+      "name": "Thi hành án dân sự tỉnh, thành phố",
+      "code": "BTP-CTHA"
+    },
+    {
+      "id": "019d2be3-6ada-753f-9ac7-8c28efaf90f7",
+      "name": "Phòng thi hành án cấp quân khu",
+      "code": "BTP-PTHA"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-3ac91da2e6b0",
+      "name": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công",
+      "code": "104/2022/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
+      "name": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
+      "code": "66.7/2025/NQ-CP"
+    },
+    {
+      "id": "019d951f-b414-7526-97a3-b578b6f5aa4c",
+      "name": "sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh\nthuộc phạm vi quản lý của Bộ Tư pháp.",
+      "code": "18/2026/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be52-c047b61cfb64",
+      "name": "Thông tư liên tịch 11/2016/TTLT-BTP-TANDTC-VKSNDTC",
+      "code": "11/2016/TTLT-BTP-TANDTC-VKSNDTC"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-94e5c2fcfb2b",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Luật phí và lệ phí, có hiệu lực từ ngày 01/01/2017",
+      "code": "120/2016/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a43f-05ce562f381b",
+      "name": "Luật Thi hành án dân sự số 106/2025/QH15",
+      "code": "106/2025/QH15"
+    },
+    {
+      "id": "01a0a526-8107-752e-b085-503cf52a0dd7",
+      "name": "Nghị định số 152/2026/NĐ-CP ngày 13/5/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Thi hành án dân sự",
+      "code": "Nghị định số 152/2026/NĐ-CP"
+    },
+    {
+      "id": "01a0a527-6bc2-766c-b8a6-5845b288f0be",
+      "name": "Thông tư số 06/2026/TT-BTP ngày 16/5/2026 của Bộ trưởng Bộ Tư pháp hướng dẫn giao nhận, bảo quản, xử lý vật chứng, tài sản tạm giữ; thủ tục quản lý hành chính, biểu mẫu và quy trình xử lý, giải quyết khiếu nại, tố cáo, kiến nghị, phản ánh trong thi hành án dân sự",
+      "code": "Thông tư số 06/2026/TT-BTP"
+    },
+    {
+      "id": "01a0a528-e09d-760c-a547-51774e9a04a8",
+      "name": "Quyết định số 89/QĐ/BTP ngày 15/01/2026 của Bộ trưởng Bộ Tư pháp quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Quản lý Thi hành án dân sự",
+      "code": "Quyết định số 89/QĐ/BTP "
+    },
+    {
+      "id": "01a0a528-354c-746b-9ca0-1858b32ae121",
+      "name": "Thông tư số 72/2026/TT-BTC ngày 23/6/2026 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn, giảm, chế độ thu, nộp phí thi hành án dân sự ngày 23/6/2026 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn, giảm, chế độ thu, nộp phí thi hành án dân sự",
+      "code": "Thông tư số 72/2026/TT-BTC "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c79-762e-8b2a-27ad853d579a",
+      "name": "Quyết định thi hành án dân sự",
+      "code": "KQ.G15.000327"
+    },
+    {
+      "id": "019d2bb2-1c79-762e-8b2a-2b75ca5c83f3",
+      "name": "Thông báo về việc từ chối thi hành án theo yêu cầu",
+      "code": "KQ.G15.000328"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d603f1537007",
+  "departmentPromulgateCode": "G15",
+  "departmentPromulgateName": "Bộ Tư pháp",
+  "cases": [
+    {
+      "id": "019d2d81-2377-7304-92bf-723716d97e3c",
+      "name": "Yêu cầu thi hành án dân sự (cấp tỉnh)",
+      "code": "1.003091.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a0a537-a818-7438-9a0f-a44bdb538d3b",
+      "name": "Yêu cầu thi hành án dân sự",
+      "code": "1.003091.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019da8f3-5960-76f3-88fd-46bccb4dde5d",
+      "name": "Yêu cầu thi hành án dân sự",
+      "code": "1.003091.02",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559518520,
+  "updatedAt": 1789478283001,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thi hành án dân sự tỉnh, thành phố, Phòng thi hành án cấp quân khu",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Cơ quan thi hành án dân sự từ chối yêu cầu thi hành án và phải thông báo bằng văn bản cho người yêu cầu trong thời hạn 05 ngày làm việc, kể từ ngày nhận được yêu cầu thi hành án trong các trường hợp sau đây:\n- Người yêu cầu không có quyền yêu cầu thi hành án hoặc nội dung yêu cầu không liên quan đến nội dung của bản án, quyết định;\n- Bản án, quyết định không làm phát sinh quyền, nghĩa vụ của các đương sự theo quy định tại điểm a khoản 5 Điều 31 Luật Thi hành án dân sự trong trường hợp bản án, quyết định không xác định rõ khoản phải thi hành hoặc không xác định rõ người phải thi hành án, trừ các trường hợp: (i) Giao quyền sở hữu, sử dụng, quản lý tài sản mà tại thời điểm yêu cầu thi hành án, người được thi hành án không được trực tiếp quản lý, sử dụng tài sản; (ii) Giao quyền nuôi dưỡng người chưa thành niên mà tại thời điểm yêu cầu thi hành án, người được thi hành án không được trực tiếp nuôi dưỡng; (iii) Giao quyền thăm nom, chăm sóc người chưa thành niên, người mất năng lực hành vi dân sự, người không có khả năng lao động cho người được thi hành án không trực tiếp nuôi dưỡng.\n- Cơ quan thi hành án dân sự được yêu cầu không có thẩm quyền thi hành án;\n- Hết thời hiệu yêu cầu thi hành án.\nb) Thời hiệu yêu cầu thi hành án\n- Trong thời hạn 05 năm, kể từ ngày bản án, quyết định có hiệu lực pháp luật, người được thi hành án, người phải thi hành án có quyền yêu cầu cơ quan thi hành án dân sự có thẩm quyền ra quyết định thi hành án.\nTrường hợp thời hạn thực hiện nghĩa vụ được ấn định trong bản án, quyết định thì thời hạn 05 năm được tính từ ngày nghĩa vụ đến hạn.\nĐối với bản án, quyết định thi hành theo định kỳ thì thời hạn 05 năm được áp dụng cho từng định kỳ, kể từ ngày nghĩa vụ đến hạn.\n- Đối với các trường hợp hoãn, tạm đình chỉ thi hành án theo quy định của Luật này thì thời gian hoãn, tạm đình chỉ không tính vào thời hiệu yêu cầu thi hành án, trừ trường hợp người được thi hành án đồng ý cho người phải thi hành án hoãn thi hành án.\n- Trường hợp người yêu cầu thi hành án chứng minh được do trở ngại khách quan hoặc do sự kiện bất khả kháng mà không thể yêu cầu thi hành án đúng thời hạn thì thời gian có trở ngại khách quan hoặc sự kiện bất khả kháng không tính vào thời hiệu yêu cầu thi hành án.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a06681-5b63-7140-9d8d-e5fa4872ed72",
+    "proposalNumber": "1966/QĐ-BTP",
+    "decisionDate": 1787677200000,
+    "decisionNumber": null,
+    "publicationDate": 1789478282943,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

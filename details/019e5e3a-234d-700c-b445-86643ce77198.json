@@ -1,0 +1,351 @@
+{
+  "id": "019e5e3a-234d-700c-b445-86643ce77198",
+  "code": "1.014976",
+  "codeNotation": "1.014976",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: \n++ Trường hợp (1): Khai quyết toán thuế đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất thực hiện khai hồ sơ khai quyết toán thuế thu nhập cá nhân theo mẫu Tờ khai số 02/CNKD-TNCN-QTT ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế.\n++ Trường hợp (2): Hoàn thuế đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất nếu có số thuế nộp thừa thì không phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [22] - “Số thuế đề nghị hoàn trả cho người nộp thuế” hoặc chỉ tiêu [23] - “Số thuế đề nghị bù trừ cho khoản phải nộp ngân sách nhà nước khác” tại tờ khai quyết toán thuế theo mẫu số 02/CNKD-TNCN-QTT khi quyết toán thuế.  \nThời hạn nộp hồ sơ khai thuế chậm nhất là ngày cuối cùng của tháng thứ 3 kể từ ngày kết thúc kỳ quyết toán thuế."
+    },
+    {
+      "name": "",
+      "description": "Bước 2: Cơ quan thuế tiếp nhận hồ sơ theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp (1): Không phải trả kết quả cho người nộp thuế.\n+ Trường hợp (2): \n++ Đối với hồ sơ thuộc diện hoàn thuế trước: chậm nhất là 06 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ hoàn thuế.\n++ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế: chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp (1): Không phải trả kết quả cho người nộp thuế.\n+ Trường hợp (2): \n++ Đối với hồ sơ thuộc diện hoàn thuế trước: chậm nhất là 06 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ hoàn thuế.\n++ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế: chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp (1): Không phải trả kết quả cho người nộp thuế.\n+ Trường hợp (2): \n++ Đối với hồ sơ thuộc diện hoàn thuế trước: chậm nhất là 06 ngày làm việc kể từ ngày cơ quan thuế có thông báo tiếp nhận hồ sơ hoàn thuế.\n++ Đối với hồ sơ thuộc diện kiểm tra trước hoàn thuế: chậm nhất là 10 ngày làm việc kể từ ngày cơ quan thuế ban hành kết luận hoặc quyết định xử lý vi phạm sau khi kiểm tra tại trụ sở người nộp thuế.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026  của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "name": "Quyết toán thuế/Hoàn thuế thu nhập cá nhân nộp thừa đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế trên thu nhập tính thuế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Trường hợp (1): Khai quyết toán thuế đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất thực hiện khai hồ sơ khai quyết toán thuế thu nhập cá nhân",
+      "profileComponents": [
+        {
+          "profileComponentId": "019e5e33-3f5f-733c-bea1-78f67bc0ff32",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai quyết toán thuế thu nhập cá nhân (Áp dụng cho hộ kinh doanh, cá nhân kinh doanh thực hiện nộp thuế thu nhập cá nhân trên thu nhập tính thuế) theo mẫu số 02/CNKD-TNCN-QTT Phụ lục I ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/06/2026",
+          "code": "G12.0001127",
+          "attachments": [
+            {
+              "id": "019fa6eb-cab8-76bf-ac10-e92872d0eb6a",
+              "fileName": "25. 02.CNKD-TNCN-QTT TT 89.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6eb-cab8-76bf-ac10-e92872d0eb6a/25. 02.CNKD-TNCN-QTT TT 89.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp (2): Hoàn thuế đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất nếu có số thuế nộp thừa:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa6ed-ac6a-748f-b67f-bff5b169b07b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Không phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [22] - “Số thuế đề nghị hoàn trả cho người nộp thuế” hoặc chỉ tiêu [23] - “Số thuế đề nghị bù trừ cho khoản phải nộp ngân sách nhà nước khác” tại tờ khai quyết toán thuế theo mẫu số 02/CNKD-TNCN-QTT khi quyết toán thuế",
+          "code": "G12.0011128",
+          "attachments": [
+            {
+              "id": "019fa6ed-a7ba-71bf-985b-cdbe59c54b2e",
+              "fileName": "25. 02.CNKD-TNCN-QTT TT 89.pdf",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6ed-a7ba-71bf-985b-cdbe59c54b2e/25. 02.CNKD-TNCN-QTT TT 89.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fa6ee-3e3c-74b8-9390-7871da872095",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC thì áp dụng theo mẫu tờ khai số 02/CNKD-TNCN-QTT ban hành kèm theo Thông tư số 18/2026/TT-BTC",
+          "code": "G12.0011129",
+          "attachments": [
+            {
+              "id": "019fa6ee-0d89-77ed-be67-79c951b04104",
+              "fileName": "Mẫu số 02 CNKD-TNCN-QTT.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fa6ee-0d89-77ed-be67-79c951b04104/Mẫu số 02 CNKD-TNCN-QTT.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e39-0aa7-757f-bfbb-291601c2e514",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421",
+    "019fa376-69da-7783-9853-6afa7cd86621",
+    "019fa377-0d10-73ea-b3b0-ee84180af5fe"
+  ],
+  "resultIds": [
+    "019fa328-0757-726b-936d-17f088ac9c48",
+    "019fa329-7177-760d-ad80-2bef251243b4",
+    "019fa687-3cf7-772d-bd42-14d2e12a5150",
+    "019fa6bb-5cc3-70ff-b663-0bb8c95abfb2"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e005b-c45a-7351-bdf2-f495ce849003"
+  ],
+  "unitGroupAuthorityIds": [
+    "019e005b-c45a-7351-bdf2-f495ce849003"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e005b-c45a-7351-bdf2-f495ce849003",
+      "name": "Thuế cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019e005b-c45a-7351-bdf2-f495ce849003",
+      "name": "Thuế cơ sở"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019e5e39-0aa7-757f-bfbb-291601c2e514",
+      "name": "Nghị định số 68/2026/NĐ-CP ngày 05/3/2026 quy định về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "68/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019fa377-0d10-73ea-b3b0-ee84180af5fe",
+      "name": "Nghị định số 253/2026/NĐ-CP ngày 30/6/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập cá nhân",
+      "code": "253/2026/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019fa376-69da-7783-9853-6afa7cd86621",
+      "name": "Luật Thuế thu nhập cá nhân 109/2025/QH15 ngày 10/12/2025 và các văn bản pháp luật quy định chi tiết, hướng dẫn thi hành và sửa đổi, bổ sung có liên quan",
+      "code": "109/2025/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fa328-0757-726b-936d-17f088ac9c48",
+      "name": "Thông báo số tiền đề nghị hoàn nhưng không được hoàn thuế, số tiền đề nghị hoàn chưa đủ điều kiện được hoàn thuế (mẫu số 04/TB-HT)",
+      "code": "KQ.G12.001485"
+    },
+    {
+      "id": "019fa329-7177-760d-ad80-2bef251243b4",
+      "name": "Quyết định hoàn thuế kiêm bù trừ thu ngân sách nhà nước (mẫu số 02/QĐ-HT)",
+      "code": "KQ.G12.001558"
+    },
+    {
+      "id": "019fa6bb-5cc3-70ff-b663-0bb8c95abfb2",
+      "name": "Quyết định hoàn thuế (Mẫu số 01/QĐ-HT)",
+      "code": "KQ.G12.001600"
+    },
+    {
+      "id": "019fa687-3cf7-772d-bd42-14d2e12a5150",
+      "name": "Phụ lục số tiền thuế, tiền chậm nộp, tiền phạt phải nộp được bù trừ (mẫu số 01/PL-BT)",
+      "code": "KQ.G12.001578"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019e9376-7d39-7144-9789-5c2f33176e0b",
+      "name": "Quyết toán thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "1.014976.03",
+      "processingDay": {
+        "qty": 0,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019e9334-4946-7397-aff4-1696418f1d1e",
+      "name": "Quyết toán thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "1.014976.01",
+      "processingDay": {
+        "qty": 0,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019fb215-da72-74eb-a6fa-2cf2c1c70365",
+      "name": "Quyết toán thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "1.014976.03",
+      "processingDay": {
+        "qty": 0,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019e935c-b06a-77de-b01c-587ed80d240b",
+      "name": "Quyết toán thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh",
+      "code": "1.014976.02",
+      "processingDay": {
+        "qty": 0,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1779697328973,
+  "updatedAt": 1785399201740,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế cơ sở",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/06/2026 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP ngày 30/06/2026  của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

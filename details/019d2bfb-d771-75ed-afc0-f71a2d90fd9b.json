@@ -1,0 +1,426 @@
+{
+  "id": "019d2bfb-d771-75ed-afc0-f71a2d90fd9b",
+  "code": "1.001643",
+  "codeNotation": "1.001643",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Lập, nộp hồ sơ\n\ta)  Cá nhân \nLập hồ sơ theo quy định tại mục 3.3 (Thành phần hồ sơ) và nộp cho đơn vị SDLĐ.  \n\tb) Đơn vị SDLĐ:\n\t- Tiếp nhận hồ sơ từ NLĐ;\n\t- Lập Văn bản đề nghị giải quyết chế độ TNLĐ hoặc BNN (Mẫu số 05A-HSB); nộp hồ sơ đến cơ quan BHXH nơi đơn vị SDLĐ đóng BHXH."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định."
+    },
+    {
+      "name": "",
+      "description": "Bước 3. Nhận kết quả giải quyết\n\t- Đơn vị SDLĐ nhận hồ sơ, giấy tờ liên quan theo quy định để trả cho NLĐ (Quyết định hưởng trợ cấp TNLĐ, BNN; Bản quá trình đóng BHXH; Thẻ BHYT…).\n\t- NLĐ: Nhận tiền trợ cấp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tối đa 06 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\nNhận kết quả\n\t- Đơn vị SDLĐ: Nhận hồ sơ, giấy tờ liên quan để trả cho NLĐ theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Đối với NLĐ: Nhận tiền trợ cấp bằng một trong các hình thức sau:\n\t+ Thông qua tài khoản cá nhân. \n\t+ Bằng tiền mặt tại cơ quan BHXH (đối với nhận trợ cấp một lần). \n\t+ Bằng tiền mặt thông qua Tổ chức hỗ trợ chi trả (đối với hưởng chế độ hằng tháng).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tối đa 06 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\nNhận kết quả\n\t- Đơn vị SDLĐ: Nhận hồ sơ, giấy tờ liên quan để trả cho NLĐ theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Đối với NLĐ: Nhận tiền trợ cấp bằng một trong các hình thức sau:\n\t+ Thông qua tài khoản cá nhân. \n\t+ Bằng tiền mặt tại cơ quan BHXH (đối với nhận trợ cấp một lần). \n\t+ Bằng tiền mặt thông qua Tổ chức hỗ trợ chi trả (đối với hưởng chế độ hằng tháng).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 6,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tối đa 06 ngày làm việc kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định.\nNhận kết quả\n\t- Đơn vị SDLĐ: Nhận hồ sơ, giấy tờ liên quan để trả cho NLĐ theo hình thức đăng ký nhận hồ sơ (trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc qua giao dịch điện tử).\n\t- Đối với NLĐ: Nhận tiền trợ cấp bằng một trong các hình thức sau:\n\t+ Thông qua tài khoản cá nhân. \n\t+ Bằng tiền mặt tại cơ quan BHXH (đối với nhận trợ cấp một lần). \n\t+ Bằng tiền mặt thông qua Tổ chức hỗ trợ chi trả (đối với hưởng chế độ hằng tháng).",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Theo quy định tại Điều 45, 46, 47 Luật An toàn, vệ sinh lao động:",
+  "name": "Giải quyết hưởng chế độ TNLĐ, BNN đối với trường hợp đã bị TNLĐ, BNN, nay tiếp tục bị TNLĐ hoặc BNN",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ theo quy định tại Điều 8 Nghị định số 88/2020/NĐ-CP ngày 28/7/2020 của Chính phủ và khoản 2 Điều 27 Thông tư số 25/2025/TT-BYT ngày 30/6/2025 của Bộ Y tế;  gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02d49-71cf-7613-ad41-edd138d966dc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bản sao giấy ra viện hoặc trích sao hồ sơ bệnh án sau khi đã điều trị TNLĐ, BNN của lần điều trị nội trú sau cùng",
+          "code": "TP.G12.000074",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02d4e-7877-704c-8239-a4b93786f5d8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản giám định tổng hợp mức suy giảm KNLĐ của Hội đồng GĐYK; trường hợp lần bị TNLĐ, BNN trước đã được giám định mức suy giảm KNLĐ nhưng không đủ điều kiện hưởng trợ cấp thì có thêm biên bản giám định mức suy giảm KNLĐ của lần giám định đó",
+          "code": "TP.G12.000077",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02d4f-15ab-7692-8719-870a27ba719f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Chỉ định của cơ sở khám bệnh, chữa bệnh, cơ sở chỉnh hình, phục hồi chức năng theo quy định về việc trang cấp PTTGSH (nếu có)",
+          "code": "TP.G12.000078",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02d4f-9041-75fd-b302-e040ef8cddc1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị giải quyết chế độ TNLĐ, BNN theo mẫu số 05A-HSB đối với lần bị TNLĐ, BNN sau cùng; trường hợp lần bị TNLĐ, BNN trước đó tại đơn vị khác nhưng chưa được giải quyết chế độ thì có thêm văn bản đề nghị giải quyết của đơn vị nơi xảy ra TNLĐ, BNN",
+          "code": "TP.G12.000079",
+          "attachments": [
+            {
+              "id": "01a02d5f-e63d-7548-812f-decce1b92958",
+              "fileName": "05A-HSB.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a02d5f-e63d-7548-812f-decce1b92958/05A-HSB.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a02d50-10a5-7163-9224-3db865620184",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Trường hợp thanh toán phí GĐYK thì có thêm hóa đơn, chứng từ thu phí giám định; bảng kê các nội dung giám định của cơ sở thực hiện GĐYK",
+          "code": "TP.G12.000080",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp bị TNLĐ điều trị xong, ra viện trước ngày 01 tháng 7 năm 2016 mà chưa được giám định mức suy giảm KNLĐ:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02d4a-6052-706a-b864-ca9e5b63064a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản điều tra TNLĐ; nếu bị TNGT được xác định là TNLĐ thì có thêm bản sao một trong các giấy tờ sau: Biên bản khám nghiệm hiện trường, sơ đồ hiện trường vụ TNGT hoặc biên bản TNGT của cơ quan công an hoặc cơ quan điều tra hình sự quân đội",
+          "code": "TP.G12.000075",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp bị BNN điều trị xong, ra viện trước ngày 01 tháng 7 năm 2016 mà chưa được giám định mức suy giảm KNLĐ:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a02d4b-c9fc-76ab-83f7-278540674e72",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Kết quả đo đạc, quan trắc môi trường lao động",
+          "code": "TP.G12.000076",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Ghi chú:  - Hồ sơ thay thế tại Bảng này được thực hiện khi đã có trong cơ sở dữ liệu cơ quan BHXH đang quản lý, cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành được kết nối, chia sẻ đủ điều kiện khai thác, sử dụng, đảm bảo tính pháp lý theo quy định. Hồ sơ đã có dữ liệu thay thế thì đơn vị SDLĐ, NLĐ không phải cung cấp cho cơ quan BHXH. - Thành phần hồ sơ nếu không ghi là bản chính thì có thể nộp bản chính hoặc bản sao hợp lệ. Các thành phần hồ sơ là mẫu do cơ quan BHXH ban hành là bản chính. - Trường hợp ủy quyền nhận các chế độ BHXH: Hồ sơ kèm theo Văn bản uỷ quyền (được chứng thực) theo quy định của pháp luật và Văn bản đề nghị Mẫu số 14-HSB.",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Tổ chức",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-c731f6f5f850"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+    "019d2bb3-5d7e-72d1-afe5-6de8c6e793ac",
+    "019d2bb3-5d87-7195-a446-b9df772557c6",
+    "019d6d49-de8f-7682-83b1-0b8c61d58c2d",
+    "019e72e9-3b2a-77b9-9c29-023d914eb3dc",
+    "019e72eb-488d-760e-abb8-0a3bb6585c78",
+    "01a023be-84c8-77db-ade3-9c613cd83670",
+    "01a02cd0-b47a-7096-b169-0e3135e43619"
+  ],
+  "resultIds": [
+    "019d2bb2-1c82-739b-8b99-d6be7cc06c52",
+    "019d2bb2-1c82-739b-8b99-e259405a083c",
+    "01a02cc7-64fc-76ea-8f17-25a963c88e35",
+    "01a02cc8-4162-7606-babd-a7808853d3c9",
+    "01a02d55-58e8-70de-ab5e-d1704c0e0155",
+    "01a02d57-1940-7115-919c-ba642218cc56"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e65-3c061397ee5f"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+      "name": "Thực hiện chính sách BHXH",
+      "code": "G24-02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-c731f6f5f850",
+    "name": "Thực hiện chính sách BHXH",
+    "code": "G24-02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e65-3c061397ee5f",
+      "name": "Bảo hiểm xã hội cấp Tỉnh",
+      "code": "LĐTB-T"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019db541-0d59-77fd-9e73-799f96d56fdb"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019db541-0d59-77fd-9e73-799f96d56fdb",
+      "name": "Bảo hiểm xã hội cơ sở"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d6d49-de8f-7682-83b1-0b8c61d58c2d",
+      "name": "Luật An toàn, vệ sinh lao động ",
+      "code": "84/2015/QH13 "
+    },
+    {
+      "id": "01a023be-84c8-77db-ade3-9c613cd83670",
+      "name": "Quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp; cấp sổ bảo hiểm xã hội, thẻ bảo hiểm y tế",
+      "code": "366/QĐ-BHXH"
+    },
+    {
+      "id": "019e72eb-488d-760e-abb8-0a3bb6585c78",
+      "name": "SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP BAN HÀNH KÈM THEO QUYẾT ĐỊNH SỐ 2222/QĐ-BHXH NGÀY 29/7/2025 CỦA GIÁM ĐỐC BẢO HIỂM XÃ HỘI VIỆT NAM",
+      "code": "313/QĐ-BHXH "
+    },
+    {
+      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
+      "name": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
+      "code": "2222/QĐ-BHXH"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe5-6de8c6e793ac",
+      "name": "THÔNG TƯ QUY ĐỊNH CHI TIẾT THI HÀNH LUẬT BẢO HIỂM XÃ HỘI, LUẬT AN TOÀN, VỆ SINH LAO ĐỘNG VỀ LĨNH VỰC Y TẾ VÀ MỘT SỐ ĐIỀU CỦA LUẬT KHÁM BỆNH, CHỮA BỆNH",
+      "code": "25/2025/TT-BYT"
+    },
+    {
+      "id": "019e72e9-3b2a-77b9-9c29-023d914eb3dc",
+      "name": "Quy định về giao dịch điện tử trong lĩnh vực bảo hiểm xã hội và Cơ sở dữ liệu quốc gia về bảo hiểm",
+      "code": "164/2025/NĐ-CP "
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a446-b9df772557c6",
+      "name": "Nghị định số 88/2020/NĐ-CP ngày 28/7/2020 của Chính phủ quy định chi tiết một số điều của Luật An toàn, vệ sinh lao động về bảo hiểm tai nạn lao động, bệnh nghề nghiệp bắt buộc",
+      "code": "88/2020/NĐ-CP"
+    },
+    {
+      "id": "01a02cd0-b47a-7096-b169-0e3135e43619",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật An toàn, vệ sinh lao động về chế độ đối với người lao động bị tai nạn lao động, bệnh nghề nghiệp",
+      "code": "28/2021/TT-BLĐTBXH"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c82-739b-8b99-d6be7cc06c52",
+      "name": "Tiền trợ cấp",
+      "code": "KQ.G12.0000100"
+    },
+    {
+      "id": "019d2bb2-1c82-739b-8b99-e259405a083c",
+      "name": "Bản quá trình đóng BHXH (Mẫu 04-HSB)",
+      "code": "KQ.G12.0001400"
+    },
+    {
+      "id": "01a02cc8-4162-7606-babd-a7808853d3c9",
+      "name": "Thẻ BHYT đối với trường hợp nghỉ việc hưởng trợ cấp TNLĐ, BNN hằng tháng",
+      "code": "KQ.G12.002005"
+    },
+    {
+      "id": "01a02d55-58e8-70de-ab5e-d1704c0e0155",
+      "name": "Quyết định về việc hưởng trợ cấp TNLĐ/BNN hằng tháng/một lần do giám định tổng hợp mức suy giảm khả năng lao động (các Mẫu số: 03M-HSB, 03N-HSB)",
+      "code": "KQ.G12.002007"
+    },
+    {
+      "id": "01a02cc7-64fc-76ea-8f17-25a963c88e35",
+      "name": "Quyết định cấp tiền mua PTTGSH (Mẫu số 03P-HSB) (nếu có)",
+      "code": "KQ.G12.002004"
+    },
+    {
+      "id": "01a02d57-1940-7115-919c-ba642218cc56",
+      "name": "Thông báo về việc chi trả lương hưu, trợ cấp BHXH đối với trường hợp chuyển nơi nhận chế độ BHXH (Mẫu số 23-HSB)",
+      "code": "KQ.G12.002008"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019d2cf7-358f-717d-94f8-bd6f42c7af9c",
+      "name": "Giải quyết hưởng chế độ TNLĐ, BNN đối với trường hợp đã bị TNLĐ, BNN nay tiếp tục bị TNLĐ hoặc BNN",
+      "code": "1.001643.01",
+      "processingDay": {
+        "qty": 6,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559418225,
+  "updatedAt": 1787504991655,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bảo hiểm xã hội cấp Tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Theo quy định tại Điều 45, 46, 47 Luật An toàn, vệ sinh lao động:",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0239c-6998-72bd-aee9-4a1862601d1f",
+    "proposalNumber": "2270/QĐ-BTC",
+    "decisionDate": 1787072400000,
+    "decisionNumber": null,
+    "publicationDate": 1787504991476,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

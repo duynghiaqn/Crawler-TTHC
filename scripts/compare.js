@@ -1,8 +1,15 @@
 const fs = require('fs');
 const path = require('path');
-const { isInternalProcedure, getProcedureGroup } = require('./filter_gia_lai');
+const {
+    isInternalProcedure,
+    getProcedureGroup,
+    parseIsFullProcess,
+    getServiceLevelLabel,
+    resolveServiceLevel
+} = require('./filter_gia_lai');
 
 const DATA_DIR = path.join(process.cwd(), 'data');
+const DETAILS_DIR = path.join(DATA_DIR, 'details');
 const INDEX_FILE = path.join(DATA_DIR, 'index.json');
 const DISCOVERY_FILE = path.join(DATA_DIR, 'discovery.json');
 const SNAPSHOT_FILE = path.join(DATA_DIR, 'snapshot.json');
@@ -17,6 +24,7 @@ function loadCurrentDataset() {
                     const isInternal = item.is_noi_bo !== undefined 
                         ? Boolean(item.is_noi_bo) 
                         : isInternalProcedure(item.loai_tthc, item.loai_tthc, item.ten_tthc || item.name);
+                    const sl = resolveServiceLevel(item, [DETAILS_DIR]);
                     return {
                         id: item.id || item.ma_tthc,
                         code: item.ma_tthc || item.code || '',
@@ -24,6 +32,8 @@ function loadCurrentDataset() {
                         cap_thuc_hien: item.cap_thuc_hien || '',
                         nhom_thu_tuc: item.nhom_thu_tuc || (isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính'),
                         is_noi_bo: isInternal,
+                        isFullProcess: sl.isFullProcess,
+                        muc_do_dvc: sl.muc_do_dvc,
                         loai_tthc: item.loai_tthc || '',
                         category: item.linh_vuc || (Array.isArray(item.categories) ? item.categories.join(', ') : ''),
                         agency: item.co_quan_thuc_hien || (Array.isArray(item.departments) ? item.departments.join(', ') : ''),
@@ -41,12 +51,15 @@ function loadCurrentDataset() {
             if (Array.isArray(items) && items.length > 0) {
                 return items.map(item => {
                     const isInternal = isInternalProcedure(item.type, item.type, item.name);
+                    const sl = resolveServiceLevel(item, [DETAILS_DIR]);
                     return {
                         id: item.id || item.code,
                         code: item.code || item.codeNotation || '',
                         name: item.name || '',
                         nhom_thu_tuc: isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính',
                         is_noi_bo: isInternal,
+                        isFullProcess: sl.isFullProcess,
+                        muc_do_dvc: sl.muc_do_dvc,
                         loai_tthc: item.type || '',
                         category: Array.isArray(item.categories) ? item.categories.join(', ') : '',
                         agency: Array.isArray(item.departments) ? item.departments.join(', ') : ''
@@ -88,6 +101,7 @@ function compareDatasets() {
                         const isInternal = item.is_noi_bo !== undefined 
                             ? Boolean(item.is_noi_bo) 
                             : isInternalProcedure(item.loai_tthc || item.type, item.loai_tthc, item.name || item.ten_tthc);
+                        const prevIsFull = parseIsFullProcess(item);
                         previousMap.set(key, {
                             id: item.id || key,
                             code: item.code || item.ma_tthc || '',
@@ -95,6 +109,8 @@ function compareDatasets() {
                             cap_thuc_hien: item.cap_thuc_hien || '',
                             nhom_thu_tuc: item.nhom_thu_tuc || (isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính'),
                             is_noi_bo: isInternal,
+                            isFullProcess: prevIsFull,
+                            muc_do_dvc: getServiceLevelLabel(prevIsFull),
                             loai_tthc: item.loai_tthc || '',
                             category: item.category || item.linh_vuc || '',
                             agency: item.agency || item.co_quan_thuc_hien || '',
@@ -111,14 +127,18 @@ function compareDatasets() {
 
     const adminCurrent = currentItems.filter(x => !x.is_noi_bo).length;
     const internalCurrent = currentItems.filter(x => x.is_noi_bo).length;
+    const fullCurrent = currentItems.filter(x => x.isFullProcess === true).length;
+    const partialCurrent = currentItems.filter(x => x.isFullProcess === false).length;
+    const adminFullCurrent = currentItems.filter(x => !x.is_noi_bo && x.isFullProcess === true).length;
+    const adminPartialCurrent = currentItems.filter(x => !x.is_noi_bo && x.isFullProcess === false).length;
 
     // Kiểm tra xem báo cáo so sánh đã được tạo hợp lệ trước đó chưa
     if (hasSnapshot && previousMap.size === currentMap.size && fs.existsSync(REPORT_FILE)) {
         try {
             const existingReport = JSON.parse(fs.readFileSync(REPORT_FILE, 'utf8'));
             const reportAge = Date.now() - new Date(existingReport.compared_at || 0).getTime();
-            // Nếu báo cáo vừa được tạo dưới 15 phút và có ghi nhận biến động
-            if (reportAge < 15 * 60 * 1000 && existingReport.summary && 
+            // Nếu báo cáo vừa được tạo dưới 15 phút và có ghi nhận biến động và đã có service_level
+            if (reportAge < 15 * 60 * 1000 && existingReport.summary && existingReport.summary.service_level &&
                 (existingReport.summary.added_count > 0 || existingReport.summary.removed_count > 0 || existingReport.summary.modified_count > 0)) {
                 console.log(`ℹ️ Báo cáo biến động đã được cập nhật gần nhất (${Math.round(reportAge / 1000)}s trước) với ${existingReport.summary.added_count} thêm, ${existingReport.summary.removed_count} bãi bỏ, ${existingReport.summary.modified_count} sửa đổi.`);
                 console.log(`   Giữ nguyên kết quả báo cáo hợp lệ và bỏ qua ghi đè rỗng.`);
@@ -131,7 +151,9 @@ function compareDatasets() {
         console.log(`📸 Chưa có Snapshot dữ liệu trước đó.`);
         console.log(`⚡ Tạo mới Snapshot khởi tạo ban đầu với: ${currentItems.length} TTHC.`);
         console.log(`   • 👥 Thủ tục hành chính: ${adminCurrent} TTHC`);
-        console.log(`   • 🏢 Thủ tục nội bộ:    ${internalCurrent} TTHC\n`);
+        console.log(`   • 🏢 Thủ tục nội bộ:    ${internalCurrent} TTHC`);
+        console.log(`   • ⚡ DVC Toàn trình:     ${fullCurrent} TTHC (DVC không nội bộ: ${adminFullCurrent})`);
+        console.log(`   • 🧩 DVC Một phần:       ${partialCurrent} TTHC (DVC không nội bộ: ${adminPartialCurrent})\n`);
         fs.writeFileSync(SNAPSHOT_FILE, JSON.stringify(currentItems, null, 2));
         
         const initialReport = {
@@ -155,6 +177,14 @@ function compareDatasets() {
                     added_count: internalCurrent,
                     removed_count: 0,
                     modified_count: 0
+                },
+                service_level: {
+                    full_process: fullCurrent,
+                    partial_process: partialCurrent,
+                    admin_full_process: adminFullCurrent,
+                    admin_partial_process: adminPartialCurrent,
+                    upgraded_to_full: 0,
+                    downgraded_to_partial: 0
                 }
             },
             added: currentItems,
@@ -170,6 +200,8 @@ function compareDatasets() {
     const added = [];
     const removed = [];
     const modified = [];
+    let upgradedToFull = 0;
+    let downgradedToPartial = 0;
 
     // Tìm TTHC mới thêm vào & sửa đổi
     currentMap.forEach((currItem, id) => {
@@ -182,6 +214,11 @@ function compareDatasets() {
             if (prevItem.code && currItem.code && prevItem.code !== currItem.code) changes.push({ field: 'Mã TTHC', old: prevItem.code, new: currItem.code });
             if (prevItem.cap_thuc_hien && currItem.cap_thuc_hien && prevItem.cap_thuc_hien !== currItem.cap_thuc_hien) changes.push({ field: 'Cấp thực hiện', old: prevItem.cap_thuc_hien, new: currItem.cap_thuc_hien });
             if (prevItem.nhom_thu_tuc && currItem.nhom_thu_tuc && prevItem.nhom_thu_tuc !== currItem.nhom_thu_tuc) changes.push({ field: 'Nhóm thủ tục', old: prevItem.nhom_thu_tuc, new: currItem.nhom_thu_tuc });
+            if (prevItem.muc_do_dvc && prevItem.muc_do_dvc !== 'Chưa xác định' && currItem.muc_do_dvc && currItem.muc_do_dvc !== 'Chưa xác định' && prevItem.muc_do_dvc !== currItem.muc_do_dvc) {
+                changes.push({ field: 'Mức độ DVC', old: prevItem.muc_do_dvc, new: currItem.muc_do_dvc });
+                if (currItem.isFullProcess === true) upgradedToFull++;
+                else if (currItem.isFullProcess === false) downgradedToPartial++;
+            }
             if (prevItem.loai_tthc && currItem.loai_tthc && prevItem.loai_tthc !== currItem.loai_tthc) changes.push({ field: 'Loại TTHC', old: prevItem.loai_tthc, new: currItem.loai_tthc });
             if (prevItem.agency && currItem.agency && prevItem.agency !== currItem.agency) changes.push({ field: 'Cơ quan thực hiện', old: prevItem.agency, new: currItem.agency });
 
@@ -191,6 +228,9 @@ function compareDatasets() {
                     code: currItem.code,
                     name: currItem.name,
                     nhom_thu_tuc: currItem.nhom_thu_tuc,
+                    is_noi_bo: currItem.is_noi_bo,
+                    isFullProcess: currItem.isFullProcess,
+                    muc_do_dvc: currItem.muc_do_dvc,
                     changes,
                     url: currItem.url
                 });
@@ -222,10 +262,12 @@ function compareDatasets() {
     console.log(`   • Số lượng TTHC hiện tại: ${currentItems.length}`);
     console.log(`     └─ 👥 Thủ tục hành chính: ${adminCurrent} TTHC`);
     console.log(`     └─ 🏢 Thủ tục nội bộ:    ${internalCurrent} TTHC`);
+    console.log(`     └─ ⚡ DVC Toàn trình:     ${fullCurrent} TTHC (DVC không nội bộ: ${adminFullCurrent})`);
+    console.log(`     └─ 🧩 DVC Một phần:       ${partialCurrent} TTHC (DVC không nội bộ: ${adminPartialCurrent})`);
     console.log(`   • Biến động ròng (Net):   ${netSign} TTHC`);
     console.log(`   • 🆕 Thêm mới:           ${added.length} TTHC (TTHC: +${adminAdded} | Nội bộ: +${internalAdded})`);
     console.log(`   • 🗑️ Bãi bỏ / Xóa:        ${removed.length} TTHC (TTHC: -${adminRemoved} | Nội bộ: -${internalRemoved})`);
-    console.log(`   • ✏️ Thay đổi nội dung:   ${modified.length} TTHC (TTHC: ~${adminModified} | Nội bộ: ~${internalModified})\n`);
+    console.log(`   • ✏️ Thay đổi nội dung:   ${modified.length} TTHC (TTHC: ~${adminModified} | Nội bộ: ~${internalModified} | Lên Toàn trình: ${upgradedToFull} | Về Một phần: ${downgradedToPartial})\n`);
 
     if (added.length > 0) {
         console.log(`✨ DANH SÁCH TTHC MỚI BỔ SUNG (${added.length}):`);
@@ -266,6 +308,14 @@ function compareDatasets() {
                 added_count: internalAdded,
                 removed_count: internalRemoved,
                 modified_count: internalModified
+            },
+            service_level: {
+                full_process: fullCurrent,
+                partial_process: partialCurrent,
+                admin_full_process: adminFullCurrent,
+                admin_partial_process: adminPartialCurrent,
+                upgraded_to_full: upgradedToFull,
+                downgraded_to_partial: downgradedToPartial
             }
         },
         added,

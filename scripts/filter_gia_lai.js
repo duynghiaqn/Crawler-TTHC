@@ -13,6 +13,9 @@
  *    - Công an (Bộ Công an, Công an tỉnh, Công an cấp xã, Phòng Cảnh sát, Quản lý XNC, PCCC...)
  */
 
+const fs = require('fs');
+const path = require('path');
+
 function normalizeText(str) {
     if (!str) return '';
     return String(str).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -200,6 +203,62 @@ function parseFormalityCaseLevel(detail) {
     return arr.length > 0 ? arr.join(', ') : 'Chưa xác định';
 }
 
+/**
+ * Chuẩn hóa giá trị boolean isFullProcess từ object TTHC/detail
+ * @returns {boolean|null}
+ */
+function parseIsFullProcess(item) {
+    if (!item || typeof item !== 'object') return null;
+    if (typeof item.isFullProcess === 'boolean') return item.isFullProcess;
+    if (typeof item.is_full_process === 'boolean') return item.is_full_process;
+    const label = String(item.muc_do_dvc || '').toLowerCase();
+    if (label.includes('toàn trình')) return true;
+    if (label.includes('một phần')) return false;
+    return null;
+}
+
+/**
+ * Trả về nhãn hiển thị Mức độ Dịch vụ công từ boolean isFullProcess hoặc object
+ * - true  -> 'Toàn trình'
+ * - false -> 'Một phần'
+ * - khác  -> 'Chưa xác định'
+ */
+function getServiceLevelLabel(valOrItem) {
+    const isFull = typeof valOrItem === 'boolean' ? valOrItem : parseIsFullProcess(valOrItem);
+    if (isFull === true) return 'Toàn trình';
+    if (isFull === false) return 'Một phần';
+    return 'Chưa xác định';
+}
+
+/**
+ * Hydrate isFullProcess từ thư mục details cục bộ khi bản ghi index/snapshot chưa có
+ * @param {object} item
+ * @param {string[]} detailsDirs Danh sách thư mục details ưu tiên đọc
+ * @returns {{ isFullProcess: boolean|null, muc_do_dvc: string }}
+ */
+function resolveServiceLevel(item, detailsDirs = []) {
+    let isFull = parseIsFullProcess(item);
+    if (isFull === null && item && item.id && Array.isArray(detailsDirs)) {
+        for (const dir of detailsDirs) {
+            if (!dir) continue;
+            const filePath = path.join(dir, `${item.id}.json`);
+            if (fs.existsSync(filePath)) {
+                try {
+                    const detail = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                    if (typeof detail.isFullProcess === 'boolean') {
+                        isFull = detail.isFullProcess;
+                        break;
+                    }
+                } catch (e) {}
+            }
+        }
+    }
+    return {
+        isFullProcess: isFull,
+        muc_do_dvc: getServiceLevelLabel(isFull)
+    };
+}
+
 module.exports = {
     normalizeText,
     isOtherProvince,
@@ -209,5 +268,8 @@ module.exports = {
     isInternalProcedure,
     getProcedureGroup,
     parseFormalityType,
-    parseFormalityCaseLevel
+    parseFormalityCaseLevel,
+    parseIsFullProcess,
+    getServiceLevelLabel,
+    resolveServiceLevel
 };

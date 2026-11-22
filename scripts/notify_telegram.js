@@ -218,6 +218,10 @@ function buildSuccessMessage(uploadStatus = 'Chua thuc hien') {
         if (versionInfo.administrative_records !== undefined && versionInfo.internal_records !== undefined) {
             lines.push(`  └─ 🌐 Thủ tục hành chính: <b>${versionInfo.administrative_records}</b> | 🔒 Thủ tục nội bộ: <b>${versionInfo.internal_records}</b>`);
         }
+        const natSL = versionInfo.service_level || compareInfo?.summary?.service_level;
+        if (natSL) {
+            lines.push(`  └─ ⚡ Toàn trình: <b>${natSL.admin_full_process ?? natSL.full_process ?? 0}</b> | 🧩 Một phần: <b>${natSL.admin_partial_process ?? natSL.partial_process ?? 0}</b>`);
+        }
         lines.push(`• ✅ Hoàn tất: <b>${versionInfo.completed_records ?? 'N/A'}</b>`);
         lines.push(`• ❌ Thất bại: <b>${versionInfo.failed_records ?? 0}</b>`);
         const statusEmoji = versionInfo.circuit_breaker_status === 'COMPLETED' ? '🟢' : '🟡';
@@ -248,6 +252,10 @@ function buildSuccessMessage(uploadStatus = 'Chua thuc hien') {
         lines.push(`• Tổng TTHC áp dụng: <b>${ps.current_total ?? 'N/A'}</b>`);
         if (pAdmin.current_total !== undefined || pIntern.current_total !== undefined) {
             lines.push(`  └─ 🌐 Thủ tục hành chính: <b>${pAdmin.current_total ?? 'N/A'}</b> | 🔒 Thủ tục nội bộ: <b>${pIntern.current_total ?? 0}</b>`);
+        }
+        if (ps.service_level) {
+            const psl = ps.service_level;
+            lines.push(`  └─ ⚡ DVC Toàn trình: <b>${psl.admin_full_process ?? psl.full_process ?? 0}</b> | 🧩 Một phần: <b>${psl.admin_partial_process ?? psl.partial_process ?? 0}</b>`);
         }
         if (ps.level_breakdown) {
             const lb = ps.level_breakdown;

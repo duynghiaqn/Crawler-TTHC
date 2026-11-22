@@ -1,5 +1,5 @@
 {
-  "compared_at": "2026-11-13T15:39:15.058Z",
+  "compared_at": "2026-11-22T14:53:08.662Z",
   "filter": "Unique by TTHC Code (National Standard + Gia Lai H21 | Excluding specific TTHCs of other provinces)",
   "summary": {
     "previous_total": 2126,
@@ -30,6 +30,18 @@
       "ward_total": 483,
       "ward_admin": 465,
       "ward_internal": 18
+    },
+    "service_level": {
+      "full_process": 915,
+      "partial_process": 1211,
+      "admin_full_process": 907,
+      "admin_partial_process": 1169,
+      "province_admin_full_process": 808,
+      "province_admin_partial_process": 959,
+      "ward_admin_full_process": 184,
+      "ward_admin_partial_process": 281,
+      "upgraded_to_full": 0,
+      "downgraded_to_partial": 0
     }
   },
   "added": [],

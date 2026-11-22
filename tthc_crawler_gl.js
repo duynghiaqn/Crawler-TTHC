@@ -11,7 +11,9 @@ const {
     isInternalProcedure,
     getProcedureGroup,
     parseFormalityType,
-    parseFormalityCaseLevel
+    parseFormalityCaseLevel,
+    getServiceLevelLabel,
+    resolveServiceLevel
 } = require('./scripts/filter_gia_lai');
 
 // ============================================================
@@ -491,6 +493,14 @@ async function main() {
                         if (stats.excludedCounts[exReason] !== undefined) stats.excludedCounts[exReason]++;
                         continue;
                     } else if (checkpoint.completedIds[item.id]) {
+                        if (indexMap.has(item.id)) {
+                            const existing = indexMap.get(item.id);
+                            if (typeof existing.isFullProcess !== 'boolean' || !existing.muc_do_dvc) {
+                                const isFullProcess = typeof detail.isFullProcess === 'boolean' ? detail.isFullProcess : null;
+                                existing.isFullProcess = isFullProcess;
+                                existing.muc_do_dvc = getServiceLevelLabel(isFullProcess);
+                            }
+                        }
                         stats.eligibleGiaLai++;
                         continue;
                     }
@@ -528,6 +538,7 @@ async function main() {
                         const isWard = Boolean(detail.isWard || detail.type === 'WARD');
 
                         const isInternal = isInternalProcedure(item.type || detail.formalityType, detail.formalityType, detail.name || item.name);
+                        const isFullProcess = typeof detail.isFullProcess === 'boolean' ? detail.isFullProcess : null;
                         const formalityItem = {
                             id: item.id,
                             ma_tthc: detail.code || detail.codeNotation || item.code || '',
@@ -538,6 +549,8 @@ async function main() {
                             level_label: getLevelLabel(detail),
                             nhom_thu_tuc: isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính',
                             is_noi_bo: isInternal,
+                            isFullProcess,
+                            muc_do_dvc: getServiceLevelLabel(isFullProcess),
                             loai_tthc: parseFormalityType(item.type || detail.formalityType),
                             linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : (detail.category ? (detail.category.name || detail.category) : ''),
                             co_quan_ban_hanh: detail.departmentPromulgateName || detail.departmentPromulgate || '',
@@ -592,6 +605,7 @@ async function main() {
                         const isProvince = Boolean(detail.isProvince || detail.type === 'PROVINCE');
                         const isWard = Boolean(detail.isWard || detail.type === 'WARD');
                         const isInternal = isInternalProcedure(item.type || detail.formalityType, detail.formalityType, detail.name || item.name);
+                        const isFullProcess = typeof detail.isFullProcess === 'boolean' ? detail.isFullProcess : null;
 
                         const formalityItem = {
                             id: item.id,
@@ -603,6 +617,8 @@ async function main() {
                             level_label: getLevelLabel(detail),
                             nhom_thu_tuc: isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính',
                             is_noi_bo: isInternal,
+                            isFullProcess,
+                            muc_do_dvc: getServiceLevelLabel(isFullProcess),
                             loai_tthc: parseFormalityType(item.type || detail.formalityType),
                             linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : (detail.category ? (detail.category.name || detail.category) : ''),
                             co_quan_ban_hanh: detail.departmentPromulgateName || detail.departmentPromulgate || '',
@@ -676,11 +692,16 @@ async function main() {
     const activeDiscoveryIds = new Set(rawList.map(item => item.id));
     indexData = Array.from(indexMap.values()).filter(item => activeDiscoveryIds.has(item.id));
     
-    // Đồng bộ chuẩn hóa nhom_thu_tuc cho mọi bản ghi trong indexData
+    // Đồng bộ chuẩn hóa nhom_thu_tuc & mức độ DVC (isFullProcess) cho mọi bản ghi trong indexData
     indexData.forEach(item => {
         if (item.is_noi_bo === undefined) {
             item.is_noi_bo = isInternalProcedure(item.loai_tthc, item.loai_tthc, item.ten_tthc);
             item.nhom_thu_tuc = item.is_noi_bo ? 'Thủ tục nội bộ' : 'Thủ tục hành chính';
+        }
+        if (typeof item.isFullProcess !== 'boolean' || !item.muc_do_dvc) {
+            const sl = resolveServiceLevel(item, [CONFIG.DETAILS_DIR, CONFIG.MASTER_DETAILS_DIR]);
+            item.isFullProcess = sl.isFullProcess;
+            item.muc_do_dvc = sl.muc_do_dvc;
         }
     });
 
@@ -715,6 +736,11 @@ async function main() {
     checkpoint.status = 'COMPLETED';
     saveCheckpoint(checkpoint);
 
+    const fullProcessItems = indexData.filter(x => x.isFullProcess === true);
+    const partialProcessItems = indexData.filter(x => x.isFullProcess === false);
+    const adminFullProcessItems = indexData.filter(x => !x.is_noi_bo && x.isFullProcess === true);
+    const adminPartialProcessItems = indexData.filter(x => !x.is_noi_bo && x.isFullProcess === false);
+
     // Lưu version info
     const versionInfo = {
         last_updated: new Date().toISOString(),
@@ -723,6 +749,16 @@ async function main() {
         total_eligible_records: indexData.length,
         administrative_records: indexData.filter(x => !x.is_noi_bo).length,
         internal_records: indexData.filter(x => x.is_noi_bo).length,
+        service_level: {
+            full_process: fullProcessItems.length,
+            partial_process: partialProcessItems.length,
+            admin_full_process: adminFullProcessItems.length,
+            admin_partial_process: adminPartialProcessItems.length,
+            province_admin_full_process: indexData.filter(x => x.isProvince && !x.is_noi_bo && x.isFullProcess === true).length,
+            province_admin_partial_process: indexData.filter(x => x.isProvince && !x.is_noi_bo && x.isFullProcess === false).length,
+            ward_admin_full_process: indexData.filter(x => x.isWard && !x.is_noi_bo && x.isFullProcess === true).length,
+            ward_admin_partial_process: indexData.filter(x => x.isWard && !x.is_noi_bo && x.isFullProcess === false).length
+        },
         province_records: provinceOnlyItems.length + bothItems.length,
         ward_records: wardOnlyItems.length + bothItems.length,
         breakdown: {
@@ -751,6 +787,8 @@ async function main() {
     console.log(`🏛️ Tổng số TTHC áp dụng tại Tỉnh Gia Lai: ${indexData.length} thủ tục`);
     console.log(`   • 👥 Thủ tục hành chính (DVC): ${versionInfo.administrative_records} TTHC`);
     console.log(`   • 🏢 Thủ tục nội bộ:          ${versionInfo.internal_records} TTHC`);
+    console.log(`   • ⚡ DVC Toàn trình:           ${versionInfo.service_level.full_process} TTHC (DVC không nội bộ: ${versionInfo.service_level.admin_full_process})`);
+    console.log(`   • 🧩 DVC Một phần:             ${versionInfo.service_level.partial_process} TTHC (DVC không nội bộ: ${versionInfo.service_level.admin_partial_process})`);
     console.log(`   • Thẩm quyền Cấp Tỉnh:        ${provinceOnlyItems.length + bothItems.length} TTHC (${provinceOnlyItems.length} chỉ tỉnh + ${bothItems.length} cả 2 cấp)`);
     console.log(`   • Thẩm quyền Cấp Xã:          ${wardOnlyItems.length + bothItems.length} TTHC (${wardOnlyItems.length} chỉ xã + ${bothItems.length} cả 2 cấp)`);
     console.log(`\n🚫 Thống kê các TTHC đã được loại trừ tự động:`);

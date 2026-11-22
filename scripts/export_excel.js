@@ -5,11 +5,15 @@ const XLSX = require('xlsx');
 const { 
     getLevelLabel, 
     isInternalProcedure, 
-    getProcedureGroup 
+    getProcedureGroup,
+    getServiceLevelLabel,
+    resolveServiceLevel
 } = require('./filter_gia_lai');
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const DATA_GL_DIR = path.join(process.cwd(), 'data-gl');
+const DETAILS_DIR = path.join(DATA_DIR, 'details');
+const DETAILS_GL_DIR = path.join(DATA_GL_DIR, 'details');
 
 const SNAPSHOT_PROVINCE_FILE = path.join(DATA_DIR, 'snapshot_province.json');
 const REPORT_PROVINCE_FILE = path.join(DATA_DIR, 'compare_province_report.json');
@@ -82,7 +86,7 @@ function exportTTHCExcel(customOutputPath = null) {
         return null;
     }
 
-    // Đảm bảo chuẩn hóa nhom_thu_tuc và is_noi_bo cho mọi bản ghi
+    // Đảm bảo chuẩn hóa nhom_thu_tuc, is_noi_bo & mức độ DVC (isFullProcess) cho mọi bản ghi
     allItems = allItems.map(item => {
         const fType = item.formalityType || item.loai_tthc || 'STANDARD';
         const name = item.name || item.ten_tthc || '';
@@ -90,10 +94,13 @@ function exportTTHCExcel(customOutputPath = null) {
             ? item.is_noi_bo
             : isInternalProcedure(fType, item.formalityType, name);
         const group = item.nhom_thu_tuc || getProcedureGroup(fType, item.formalityType, name);
+        const sl = resolveServiceLevel(item, [DETAILS_GL_DIR, DETAILS_DIR]);
         return {
             ...item,
             nhom_thu_tuc: group,
-            is_noi_bo: isInternal
+            is_noi_bo: isInternal,
+            isFullProcess: sl.isFullProcess,
+            muc_do_dvc: sl.muc_do_dvc
         };
     });
 
@@ -138,6 +145,17 @@ function exportTTHCExcel(customOutputPath = null) {
     const bothAdminItems = allItems.filter(x => x.isProvince && x.isWard && !x.is_noi_bo);
     const bothInternalItems = allItems.filter(x => x.isProvince && x.isWard && x.is_noi_bo);
 
+    // Phân loại theo Mức độ DVC (isFullProcess: Toàn trình / Một phần)
+    const fullAllItems = allItems.filter(x => x.isFullProcess === true);
+    const partialAllItems = allItems.filter(x => x.isFullProcess === false);
+    const fullAdminItems = adminItems.filter(x => x.isFullProcess === true);
+    const partialAdminItems = adminItems.filter(x => x.isFullProcess === false);
+    const provinceAdminFullItems = provinceAdminItems.filter(x => x.isFullProcess === true);
+    const provinceAdminPartialItems = provinceAdminItems.filter(x => x.isFullProcess === false);
+    const wardAdminFullItems = wardAdminItems.filter(x => x.isFullProcess === true);
+    const wardAdminPartialItems = wardAdminItems.filter(x => x.isFullProcess === false);
+    const pctAdmin = (n) => adminItems.length > 0 ? `${((n / adminItems.length) * 100).toFixed(1)}%` : '0.0%';
+
     // Tao Workbook moi
     const wb = XLSX.utils.book_new();
 
@@ -164,6 +182,10 @@ function exportTTHCExcel(customOutputPath = null) {
         ['     • Thẩm quyền Cấp Xã (Tổng cộng):', wardItems.length, `${((wardItems.length / allItems.length) * 100).toFixed(1)}%`, 'Bao gồm thủ tục chỉ cấp xã và cả 2 cấp'],
         ['         + TTHC phục vụ công dân, doanh nghiệp (Cấp Xã):', wardAdminItems.length, `${((wardAdminItems.length / allItems.length) * 100).toFixed(1)}%`, 'Đã loại bỏ TTNB (Sheet: TTHC Cấp Xã)'],
         ['         + Thủ tục nội bộ nhà nước (TTNB Cấp Xã):', wardInternalItems.length, `${((wardInternalItems.length / allItems.length) * 100).toFixed(1)}%`, 'Thủ tục nội bộ Cấp Xã (Sheet: TTNB Cấp Xã)'],
+        ['  3. Phân loại theo Mức độ cung cấp Dịch vụ công (isFullProcess):'],
+        ['     • Dịch vụ công trực tuyến Toàn trình (TTHC phục vụ người dân, DN):', fullAdminItems.length, pctAdmin(fullAdminItems.length), `Tỷ lệ trên TTHC (DVC) | Cấp Tỉnh: ${provinceAdminFullItems.length} | Cấp Xã: ${wardAdminFullItems.length} (Sheet: DVC Toàn trình)`],
+        ['     • Dịch vụ công trực tuyến Một phần (TTHC phục vụ người dân, DN):', partialAdminItems.length, pctAdmin(partialAdminItems.length), `Tỷ lệ trên TTHC (DVC) | Cấp Tỉnh: ${provinceAdminPartialItems.length} | Cấp Xã: ${wardAdminPartialItems.length} (Sheet: DVC Một phần)`],
+        ['     • Tổng hợp Toàn bộ (gồm cả TTNB):', `${fullAllItems.length} Toàn trình / ${partialAllItems.length} Một phần`, '100%', 'Phân loại theo trường isFullProcess từ DVCQG'],
         [],
         ['II. THỐNG KÊ BIẾN ĐỘNG SO VỚI KỲ TRƯỚC'],
         ['Chỉ số biến động', 'Số lượng', 'Đánh giá'],
@@ -179,6 +201,7 @@ function exportTTHCExcel(customOutputPath = null) {
             'STT',
             'Loại biến động',
             'Nhóm thủ tục',
+            'Mức độ DVC',
             'Mã TTHC',
             'Tên Thủ tục Hành chính',
             'Cấp thực hiện',
@@ -194,10 +217,12 @@ function exportTTHCExcel(customOutputPath = null) {
     // Them moi
     addedList.forEach(item => {
         const group = item.nhom_thu_tuc || getProcedureGroup(item.formalityType || item.loai_tthc, item.formalityType, item.name || item.ten_tthc);
+        const slLabel = item.muc_do_dvc || getServiceLevelLabel(item);
         s1Rows.push([
             vIndex++,
             'Mới thêm (+)',
             group,
+            slLabel,
             item.code || '',
             item.name || '',
             getLevelLabel(item),
@@ -212,10 +237,12 @@ function exportTTHCExcel(customOutputPath = null) {
     // Bai bo
     removedList.forEach(item => {
         const group = item.nhom_thu_tuc || getProcedureGroup(item.formalityType || item.loai_tthc, item.formalityType, item.name || item.ten_tthc);
+        const slLabel = item.muc_do_dvc || getServiceLevelLabel(item);
         s1Rows.push([
             vIndex++,
             'Bãi bỏ (-)',
             group,
+            slLabel,
             item.code || '',
             item.name || '',
             getLevelLabel(item),
@@ -230,6 +257,7 @@ function exportTTHCExcel(customOutputPath = null) {
     // Thay doi
     modifiedList.forEach(item => {
         const group = item.nhom_thu_tuc || getProcedureGroup(item.formalityType || item.loai_tthc, item.formalityType, item.name || item.ten_tthc);
+        const slLabel = item.new_service_level || item.muc_do_dvc || getServiceLevelLabel(item);
         const changeDesc = [];
         if (item.old_name && item.old_name !== item.new_name) {
             changeDesc.push(`Đổi tên: "${item.old_name}" -> "${item.new_name}"`);
@@ -237,10 +265,14 @@ function exportTTHCExcel(customOutputPath = null) {
         if (item.old_level && item.new_level && item.old_level !== item.new_level) {
             changeDesc.push(`Đổi cấp: ${item.old_level} -> ${item.new_level}`);
         }
+        if (item.old_service_level && item.new_service_level && item.old_service_level !== item.new_service_level) {
+            changeDesc.push(`Đổi mức độ DVC: ${item.old_service_level} -> ${item.new_service_level}`);
+        }
         s1Rows.push([
             vIndex++,
             'Thay đổi (~)',
             group,
+            slLabel,
             item.code || '',
             item.new_name || item.name || '',
             item.new_level || getLevelLabel(item),
@@ -253,7 +285,7 @@ function exportTTHCExcel(customOutputPath = null) {
     });
 
     if (vIndex === 1) {
-        s1Rows.push(['', 'Không có biến động', '', '', 'Không có TTHC nào tăng, giảm hoặc thay đổi so với kỳ trước', '', '', '', '', '', '']);
+        s1Rows.push(['', 'Không có biến động', '', '', '', 'Không có TTHC nào tăng, giảm hoặc thay đổi so với kỳ trước', '', '', '', '', '', '']);
     }
 
     const ws1 = XLSX.utils.aoa_to_sheet(s1Rows);
@@ -261,6 +293,7 @@ function exportTTHCExcel(customOutputPath = null) {
         { wch: 6 },   // STT
         { wch: 15 },  // Loai bien dong
         { wch: 22 },  // Nhom thu tuc
+        { wch: 16 },  // Muc do DVC
         { wch: 15 },  // Ma TTHC
         { wch: 55 },  // Ten TTHC
         { wch: 22 },  // Cap thuc hien
@@ -283,6 +316,7 @@ function exportTTHCExcel(customOutputPath = null) {
                 'Mã TTHC',
                 'Tên Thủ tục Hành chính',
                 'Nhóm thủ tục',
+                'Mức độ DVC',
                 'Phân cấp chi tiết',
                 'Lĩnh vực',
                 'Cơ quan ban hành',
@@ -299,6 +333,7 @@ function exportTTHCExcel(customOutputPath = null) {
                 item.code || '',
                 item.name || '',
                 item.nhom_thu_tuc || 'Thủ tục hành chính',
+                item.muc_do_dvc || getServiceLevelLabel(item),
                 detailLevel,
                 formatCategory(item.category),
                 item.departmentPromulgate || '',
@@ -314,6 +349,7 @@ function exportTTHCExcel(customOutputPath = null) {
             { wch: 15 },  // Ma TTHC
             { wch: 55 },  // Ten TTHC
             { wch: 22 },  // Nhom thu tuc
+            { wch: 16 },  // Muc do DVC
             { wch: 24 },  // Phan cap chi tiet
             { wch: 25 },  // Linh vuc
             { wch: 28 },  // Co quan ban hanh
@@ -332,23 +368,31 @@ function exportTTHCExcel(customOutputPath = null) {
     const ws3 = createGiaLaiDatasetSheet(wardAdminItems, 'DANH SÁCH THỦ TỤC HÀNH CHÍNH THẨM QUYỀN GIẢI QUYẾT CẤP XÃ (GIA LAI) - KHÔNG BAO GỒM TTNB');
     XLSX.utils.book_append_sheet(wb, ws3, 'TTHC Cấp Xã');
 
-    // SHEET 4: TTNB Cấp Tỉnh (CHUYÊN BIỆT THỦ TỤC NỘI BỘ CẤP TỈNH)
+    // SHEET 4: DVC Toàn trình (CHUYÊN BIỆT isFullProcess = true, ĐÃ LOẠI BỎ TTNB)
+    const wsFull = createGiaLaiDatasetSheet(fullAdminItems, 'DANH MỤC DỊCH VỤ CÔNG TRỰC TUYẾN TOÀN TRÌNH ÁP DỤNG TẠI GIA LAI (isFullProcess = true)');
+    XLSX.utils.book_append_sheet(wb, wsFull, 'DVC Toàn trình');
+
+    // SHEET 5: DVC Một phần (CHUYÊN BIỆT isFullProcess = false, ĐÃ LOẠI BỎ TTNB)
+    const wsPartial = createGiaLaiDatasetSheet(partialAdminItems, 'DANH MỤC DỊCH VỤ CÔNG TRỰC TUYẾN MỘT PHẦN ÁP DỤNG TẠI GIA LAI (isFullProcess = false)');
+    XLSX.utils.book_append_sheet(wb, wsPartial, 'DVC Một phần');
+
+    // SHEET 6: TTNB Cấp Tỉnh (CHUYÊN BIỆT THỦ TỤC NỘI BỘ CẤP TỈNH)
     const ws4 = createGiaLaiDatasetSheet(provinceInternalItems, 'DANH MỤC THỦ TỤC NỘI BỘ (TTNB) THẨM QUYỀN GIẢI QUYẾT CẤP TỈNH (GIA LAI)');
     XLSX.utils.book_append_sheet(wb, ws4, 'TTNB Cấp Tỉnh');
 
-    // SHEET 5: TTNB Cấp Xã (CHUYÊN BIỆT THỦ TỤC NỘI BỘ CẤP XÃ)
+    // SHEET 7: TTNB Cấp Xã (CHUYÊN BIỆT THỦ TỤC NỘI BỘ CẤP XÃ)
     const ws5 = createGiaLaiDatasetSheet(wardInternalItems, 'DANH MỤC THỦ TỤC NỘI BỘ (TTNB) THẨM QUYỀN GIẢI QUYẾT CẤP XÃ (GIA LAI)');
     XLSX.utils.book_append_sheet(wb, ws5, 'TTNB Cấp Xã');
 
-    // SHEET 6: Thủ tục hành chính (DVC) phục vụ người dân, doanh nghiệp (Cả cấp Tỉnh & Xã)
+    // SHEET 8: Thủ tục hành chính (DVC) phục vụ người dân, doanh nghiệp (Cả cấp Tỉnh & Xã)
     const ws6 = createGiaLaiDatasetSheet(adminItems, 'DANH MỤC THỦ TỤC HÀNH CHÍNH (DVC) ÁP DỤNG TẠI GIA LAI (TẤT CẢ CÁC CẤP)');
     XLSX.utils.book_append_sheet(wb, ws6, 'Thủ tục hành chính (DVC)');
 
-    // SHEET 7: Thủ tục nội bộ (Tất cả các cấp)
+    // SHEET 9: Thủ tục nội bộ (Tất cả các cấp)
     const ws7 = createGiaLaiDatasetSheet(internalItems, 'DANH MỤC THỦ TỤC NỘI BỘ GIỮA CÁC CƠ QUAN HÀNH CHÍNH (GIA LAI - TẤT CẢ CÁC CẤP)');
     XLSX.utils.book_append_sheet(wb, ws7, 'Thủ tục nội bộ');
 
-    // SHEET 8: Toàn bộ Cấp Tỉnh & Cấp Xã (allItems)
+    // SHEET 10: Toàn bộ Cấp Tỉnh & Cấp Xã (allItems)
     const s8Rows = [
         ['TOÀN BỘ DANH MỤC THỦ TỤC HÀNH CHÍNH & NỘI BỘ CẤP TỈNH & CẤP XÃ (GIA LAI)'],
         [`Tổng số lượng: ${allItems.length} TTHC | Thời gian xuất: ${nowStr}`],
@@ -358,6 +402,7 @@ function exportTTHCExcel(customOutputPath = null) {
             'Mã TTHC',
             'Tên Thủ tục Hành chính',
             'Nhóm thủ tục',
+            'Mức độ DVC',
             'Phân cấp thực hiện',
             'Cấp Tỉnh',
             'Cấp Xã',
@@ -375,6 +420,7 @@ function exportTTHCExcel(customOutputPath = null) {
             item.code || '',
             item.name || '',
             item.nhom_thu_tuc || 'Thủ tục hành chính',
+            item.muc_do_dvc || getServiceLevelLabel(item),
             getLevelLabel(item),
             item.isProvince ? 'Có' : 'Không',
             item.isWard ? 'Có' : 'Không',
@@ -392,6 +438,7 @@ function exportTTHCExcel(customOutputPath = null) {
         { wch: 15 },  // Ma TTHC
         { wch: 55 },  // Ten TTHC
         { wch: 22 },  // Nhom thu tuc
+        { wch: 16 },  // Muc do DVC
         { wch: 24 },  // Phan cap thuc hien
         { wch: 10 },  // Cap Tinh
         { wch: 10 },  // Cap Xa
@@ -406,14 +453,16 @@ function exportTTHCExcel(customOutputPath = null) {
     // 4. Ghi file ra dia
     XLSX.writeFile(wb, outputPath);
     console.log(`✅ Xuất thành công file Excel tại: ${outputPath}`);
-    console.log(`   • Sheet 1: 'Tổng hợp & Biến động' (${s1Rows.length - 27} dòng biến động)`);
+    console.log(`   • Sheet 1: 'Tổng hợp & Biến động' (${vIndex - 1} dòng biến động)`);
     console.log(`   • Sheet 2: 'TTHC Cấp Tỉnh' (${provinceAdminItems.length} TTHC - đã lọc bỏ TTNB)`);
     console.log(`   • Sheet 3: 'TTHC Cấp Xã' (${wardAdminItems.length} TTHC - đã lọc bỏ TTNB)`);
-    console.log(`   • Sheet 4: 'TTNB Cấp Tỉnh' (${provinceInternalItems.length} TTNB)`);
-    console.log(`   • Sheet 5: 'TTNB Cấp Xã' (${wardInternalItems.length} TTNB)`);
-    console.log(`   • Sheet 6: 'Thủ tục hành chính (DVC)' (${adminItems.length} TTHC)`);
-    console.log(`   • Sheet 7: 'Thủ tục nội bộ' (${internalItems.length} TTNB)`);
-    console.log(`   • Sheet 8: 'Toàn bộ Cấp Tỉnh & Xã' (${allItems.length} TTHC & TTNB)`);
+    console.log(`   • Sheet 4: 'DVC Toàn trình' (${fullAdminItems.length} TTHC - isFullProcess=true)`);
+    console.log(`   • Sheet 5: 'DVC Một phần' (${partialAdminItems.length} TTHC - isFullProcess=false)`);
+    console.log(`   • Sheet 6: 'TTNB Cấp Tỉnh' (${provinceInternalItems.length} TTNB)`);
+    console.log(`   • Sheet 7: 'TTNB Cấp Xã' (${wardInternalItems.length} TTNB)`);
+    console.log(`   • Sheet 8: 'Thủ tục hành chính (DVC)' (${adminItems.length} TTHC)`);
+    console.log(`   • Sheet 9: 'Thủ tục nội bộ' (${internalItems.length} TTNB)`);
+    console.log(`   • Sheet 10: 'Toàn bộ Cấp Tỉnh & Xã' (${allItems.length} TTHC & TTNB)`);
 
     return outputPath;
 }
@@ -445,7 +494,7 @@ function exportNationalExcel(customOutputPath = null) {
         return null;
     }
 
-    // Chuẩn hóa nhom_thu_tuc và is_noi_bo cho toàn bộ danh mục
+    // Chuẩn hóa nhom_thu_tuc, is_noi_bo & mức độ DVC (isFullProcess) cho toàn bộ danh mục
     allItems = allItems.map(item => {
         const fType = item.loai_tthc || item.formalityType || 'STANDARD';
         const name = item.ten_tthc || item.name || '';
@@ -453,10 +502,13 @@ function exportNationalExcel(customOutputPath = null) {
             ? item.is_noi_bo
             : isInternalProcedure(fType, item.formalityType, name);
         const group = item.nhom_thu_tuc || getProcedureGroup(fType, item.formalityType, name);
+        const sl = resolveServiceLevel(item, [DETAILS_DIR]);
         return {
             ...item,
             nhom_thu_tuc: group,
-            is_noi_bo: isInternal
+            is_noi_bo: isInternal,
+            isFullProcess: sl.isFullProcess,
+            muc_do_dvc: sl.muc_do_dvc
         };
     });
 
@@ -494,6 +546,17 @@ function exportNationalExcel(customOutputPath = null) {
     const standardItems = allItems.filter(x => (x.loai_tthc || '').toLowerCase().includes('tiêu chuẩn'));
     const specificItems = allItems.filter(x => (x.loai_tthc || '').toLowerCase().includes('đặc thù'));
 
+    // Phân loại theo Mức độ DVC (isFullProcess: Toàn trình / Một phần)
+    const fullAllItems = allItems.filter(x => x.isFullProcess === true);
+    const partialAllItems = allItems.filter(x => x.isFullProcess === false);
+    const fullAdminItems = adminItems.filter(x => x.isFullProcess === true);
+    const partialAdminItems = adminItems.filter(x => x.isFullProcess === false);
+    const provinceAdminFullItems = provinceAdminItems.filter(x => x.isFullProcess === true);
+    const provinceAdminPartialItems = provinceAdminItems.filter(x => x.isFullProcess === false);
+    const wardAdminFullItems = wardAdminItems.filter(x => x.isFullProcess === true);
+    const wardAdminPartialItems = wardAdminItems.filter(x => x.isFullProcess === false);
+    const pctAdmin = (n) => adminItems.length > 0 ? `${((n / adminItems.length) * 100).toFixed(1)}%` : '0.0%';
+
     // Tạo Workbook mới
     const wb = XLSX.utils.book_new();
 
@@ -521,6 +584,10 @@ function exportNationalExcel(customOutputPath = null) {
         ['         + TTHC phục vụ công dân, doanh nghiệp (Cấp Xã):', wardAdminItems.length, `${((wardAdminItems.length / allItems.length) * 100).toFixed(1)}%`, 'Đã loại bỏ TTNB (Sheet: TTHC Cấp Xã)'],
         ['         + Thủ tục nội bộ nhà nước (TTNB Cấp Xã):', wardInternalItems.length, `${((wardInternalItems.length / allItems.length) * 100).toFixed(1)}%`, 'Sheet: TTNB Cấp Xã'],
         ['     • TTHC Thẩm quyền Cơ quan khác:', otherAgencyItems.length, `${((otherAgencyItems.length / allItems.length) * 100).toFixed(1)}%`, 'Doanh nghiệp, đơn vị sự nghiệp, ngành dọc...'],
+        ['  3. Phân loại theo Mức độ cung cấp Dịch vụ công (isFullProcess):'],
+        ['     • Dịch vụ công trực tuyến Toàn trình (TTHC phục vụ người dân, DN):', fullAdminItems.length, pctAdmin(fullAdminItems.length), `Tỷ lệ trên TTHC (DVC) | Cấp Tỉnh: ${provinceAdminFullItems.length} | Cấp Xã: ${wardAdminFullItems.length} (Sheet: DVC Toàn trình)`],
+        ['     • Dịch vụ công trực tuyến Một phần (TTHC phục vụ người dân, DN):', partialAdminItems.length, pctAdmin(partialAdminItems.length), `Tỷ lệ trên TTHC (DVC) | Cấp Tỉnh: ${provinceAdminPartialItems.length} | Cấp Xã: ${wardAdminPartialItems.length} (Sheet: DVC Một phần)`],
+        ['     • Tổng hợp Toàn bộ (gồm cả TTNB):', `${fullAllItems.length} Toàn trình / ${partialAllItems.length} Một phần`, '100%', 'Phân loại theo trường isFullProcess từ DVCQG'],
         [],
         ['II. THỐNG KÊ BIẾN ĐỘNG TOÀN QUỐC SO VỚI KỲ TRƯỚC'],
         ['Chỉ số biến động', 'Số lượng', 'Đánh giá'],
@@ -536,6 +603,7 @@ function exportNationalExcel(customOutputPath = null) {
             'STT',
             'Loại biến động',
             'Nhóm thủ tục',
+            'Mức độ DVC',
             'Mã TTHC',
             'Tên Thủ tục Hành chính',
             'Cấp thực hiện',
@@ -552,10 +620,12 @@ function exportNationalExcel(customOutputPath = null) {
     addedList.forEach(item => {
         const itemUrl = item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${item.code || item.ma_tthc}`);
         const group = item.nhom_thu_tuc || getProcedureGroup(item.loai_tthc || item.formalityType, item.formalityType, item.ten_tthc || item.name);
+        const slLabel = item.muc_do_dvc || getServiceLevelLabel(item);
         s1Rows.push([
             vIndex++,
             'Mới thêm (+)',
             group,
+            slLabel,
             item.code || item.ma_tthc || '',
             item.name || item.ten_tthc || '',
             item.cap_thuc_hien || '',
@@ -571,10 +641,12 @@ function exportNationalExcel(customOutputPath = null) {
     removedList.forEach(item => {
         const itemUrl = item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${item.code || item.ma_tthc}`);
         const group = item.nhom_thu_tuc || getProcedureGroup(item.loai_tthc || item.formalityType, item.formalityType, item.ten_tthc || item.name);
+        const slLabel = item.muc_do_dvc || getServiceLevelLabel(item);
         s1Rows.push([
             vIndex++,
             'Bãi bỏ (-)',
             group,
+            slLabel,
             item.code || item.ma_tthc || '',
             item.name || item.ten_tthc || '',
             item.cap_thuc_hien || '',
@@ -590,18 +662,21 @@ function exportNationalExcel(customOutputPath = null) {
     modifiedList.forEach(item => {
         const itemUrl = item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${item.code || item.ma_tthc}`);
         const group = item.nhom_thu_tuc || getProcedureGroup(item.loai_tthc || item.formalityType, item.formalityType, item.ten_tthc || item.name);
+        const slLabel = item.new_service_level || item.muc_do_dvc || getServiceLevelLabel(item);
         const changeDesc = [];
         if (Array.isArray(item.changes)) {
             item.changes.forEach(c => changeDesc.push(`${c.field}: "${c.old}" ➔ "${c.new}"`));
         } else {
             if (item.old_name && item.old_name !== item.new_name) changeDesc.push(`Đổi tên: "${item.old_name}" -> "${item.new_name}"`);
             if (item.old_level && item.new_level && item.old_level !== item.new_level) changeDesc.push(`Đổi cấp: ${item.old_level} -> ${item.new_level}`);
+            if (item.old_service_level && item.new_service_level && item.old_service_level !== item.new_service_level) changeDesc.push(`Đổi mức độ DVC: ${item.old_service_level} -> ${item.new_service_level}`);
         }
 
         s1Rows.push([
             vIndex++,
             'Thay đổi (~)',
             group,
+            slLabel,
             item.code || item.ma_tthc || '',
             item.new_name || item.name || item.ten_tthc || '',
             item.cap_thuc_hien || '',
@@ -614,7 +689,7 @@ function exportNationalExcel(customOutputPath = null) {
     });
 
     if (vIndex === 1) {
-        s1Rows.push(['', 'Không có biến động', '', '', 'Không có TTHC nào tăng, giảm hoặc thay đổi so với kỳ trước', '', '', '', '', '', '']);
+        s1Rows.push(['', 'Không có biến động', '', '', '', 'Không có TTHC nào tăng, giảm hoặc thay đổi so với kỳ trước', '', '', '', '', '', '']);
     }
 
     const ws1 = XLSX.utils.aoa_to_sheet(s1Rows);
@@ -622,6 +697,7 @@ function exportNationalExcel(customOutputPath = null) {
         { wch: 6 },   // STT
         { wch: 16 },  // Loai bien dong
         { wch: 22 },  // Nhom thu tuc
+        { wch: 16 },  // Muc do DVC
         { wch: 15 },  // Ma TTHC
         { wch: 55 },  // Ten TTHC
         { wch: 22 },  // Cap thuc hien
@@ -644,6 +720,7 @@ function exportNationalExcel(customOutputPath = null) {
                 'Mã TTHC',
                 'Tên Thủ tục Hành chính',
                 'Nhóm thủ tục',
+                'Mức độ DVC',
                 'Cấp thực hiện',
                 'Loại TTHC',
                 'Lĩnh vực',
@@ -659,6 +736,7 @@ function exportNationalExcel(customOutputPath = null) {
                 item.ma_tthc || item.code || '',
                 item.ten_tthc || item.name || '',
                 item.nhom_thu_tuc || 'Thủ tục hành chính',
+                item.muc_do_dvc || getServiceLevelLabel(item),
                 item.cap_thuc_hien || '',
                 item.loai_tthc || '',
                 formatCategory(item.linh_vuc || item.category),
@@ -673,6 +751,7 @@ function exportNationalExcel(customOutputPath = null) {
             { wch: 15 },  // Ma TTHC
             { wch: 60 },  // Ten TTHC
             { wch: 22 },  // Nhom thu tuc
+            { wch: 16 },  // Muc do DVC
             { wch: 22 },  // Cap thuc hien
             { wch: 18 },  // Loai TTHC
             { wch: 25 },  // Linh vuc
@@ -690,42 +769,52 @@ function exportNationalExcel(customOutputPath = null) {
     const ws3 = createDatasetSheet(wardAdminItems, 'DANH MỤC THỦ TỤC HÀNH CHÍNH THẨM QUYỀN GIẢI QUYẾT CẤP XÃ (KHÔNG BAO GỒM TTNB)');
     XLSX.utils.book_append_sheet(wb, ws3, 'TTHC Cấp Xã');
 
-    // SHEET 4: TTNB Cấp Tỉnh (CHUYÊN BIỆT THỦ TỤC NỘI BỘ CẤP TỈNH)
+    // SHEET 4: DVC Toàn trình (CHUYÊN BIỆT isFullProcess = true, ĐÃ LOẠI BỎ TTNB)
+    const wsFull = createDatasetSheet(fullAdminItems, 'DANH MỤC DỊCH VỤ CÔNG TRỰC TUYẾN TOÀN TRÌNH TOÀN QUỐC (isFullProcess = true)');
+    XLSX.utils.book_append_sheet(wb, wsFull, 'DVC Toàn trình');
+
+    // SHEET 5: DVC Một phần (CHUYÊN BIỆT isFullProcess = false, ĐÃ LOẠI BỎ TTNB)
+    const wsPartial = createDatasetSheet(partialAdminItems, 'DANH MỤC DỊCH VỤ CÔNG TRỰC TUYẾN MỘT PHẦN TOÀN QUỐC (isFullProcess = false)');
+    XLSX.utils.book_append_sheet(wb, wsPartial, 'DVC Một phần');
+
+    // SHEET 6: TTNB Cấp Tỉnh (CHUYÊN BIỆT THỦ TỤC NỘI BỘ CẤP TỈNH)
     const ws4 = createDatasetSheet(provinceInternalItems, 'DANH MỤC THỦ TỤC NỘI BỘ (TTNB) THẨM QUYỀN GIẢI QUYẾT CẤP TỈNH');
     XLSX.utils.book_append_sheet(wb, ws4, 'TTNB Cấp Tỉnh');
 
-    // SHEET 5: TTNB Cấp Xã (CHUYÊN BIỆT THỦ TỤC NỘI BỘ CẤP XÃ)
+    // SHEET 7: TTNB Cấp Xã (CHUYÊN BIỆT THỦ TỤC NỘI BỘ CẤP XÃ)
     const ws5 = createDatasetSheet(wardInternalItems, 'DANH MỤC THỦ TỤC NỘI BỘ (TTNB) THẨM QUYỀN GIẢI QUYẾT CẤP XÃ');
     XLSX.utils.book_append_sheet(wb, ws5, 'TTNB Cấp Xã');
 
-    // SHEET 6: TTHC Cấp Trung ương (Cấp Bộ)
+    // SHEET 8: TTHC Cấp Trung ương (Cấp Bộ)
     const ws6 = createDatasetSheet(ministryItems, 'DANH MỤC TTHC THẨM QUYỀN GIẢI QUYẾT CẤP TRUNG ƯƠNG (CẤP BỘ)');
     XLSX.utils.book_append_sheet(wb, ws6, 'TTHC Cấp Bộ');
 
-    // SHEET 7: Thủ tục hành chính (DVC) phục vụ người dân, doanh nghiệp toàn quốc
+    // SHEET 9: Thủ tục hành chính (DVC) phục vụ người dân, doanh nghiệp toàn quốc
     const ws7 = createDatasetSheet(adminItems, 'DANH MỤC THỦ TỤC HÀNH CHÍNH (DVC) TOÀN QUỐC');
     XLSX.utils.book_append_sheet(wb, ws7, 'Thủ tục hành chính (DVC)');
 
-    // SHEET 8: Thủ tục nội bộ toàn quốc
+    // SHEET 10: Thủ tục nội bộ toàn quốc
     const ws8 = createDatasetSheet(internalItems, 'DANH MỤC THỦ TỤC NỘI BỘ GIỮA CÁC CƠ QUAN HÀNH CHÍNH (DVCQG)');
     XLSX.utils.book_append_sheet(wb, ws8, 'Thủ tục nội bộ');
 
-    // SHEET 9: Toàn bộ TTHC Quốc gia
+    // SHEET 11: Toàn bộ TTHC Quốc gia
     const ws9 = createDatasetSheet(allItems, 'DANH MỤC TOÀN BỘ THỦ TỤC HÀNH CHÍNH & NỘI BỘ QUỐC GIA (DVCQG)');
     XLSX.utils.book_append_sheet(wb, ws9, 'Toàn bộ TTHC Quốc gia');
 
     // Ghi file ra đĩa
     XLSX.writeFile(wb, outputPath);
     console.log(`✅ Xuất thành công file Excel Báo cáo DVCQG tại: ${outputPath}`);
-    console.log(`   • Sheet 1: 'Tổng hợp & Biến động DVCQG' (${s1Rows.length - 28} dòng biến động)`);
+    console.log(`   • Sheet 1: 'Tổng hợp & Biến động DVCQG' (${vIndex - 1} dòng biến động)`);
     console.log(`   • Sheet 2: 'TTHC Cấp Tỉnh' (${provinceAdminItems.length} TTHC - đã lọc bỏ TTNB)`);
     console.log(`   • Sheet 3: 'TTHC Cấp Xã' (${wardAdminItems.length} TTHC - đã lọc bỏ TTNB)`);
-    console.log(`   • Sheet 4: 'TTNB Cấp Tỉnh' (${provinceInternalItems.length} TTNB)`);
-    console.log(`   • Sheet 5: 'TTNB Cấp Xã' (${wardInternalItems.length} TTNB)`);
-    console.log(`   • Sheet 6: 'TTHC Cấp Bộ' (${ministryItems.length} TTHC)`);
-    console.log(`   • Sheet 7: 'Thủ tục hành chính (DVC)' (${adminItems.length} TTHC)`);
-    console.log(`   • Sheet 8: 'Thủ tục nội bộ' (${internalItems.length} TTNB)`);
-    console.log(`   • Sheet 9: 'Toàn bộ TTHC Quốc gia' (${allItems.length} TTHC & TTNB)`);
+    console.log(`   • Sheet 4: 'DVC Toàn trình' (${fullAdminItems.length} TTHC - isFullProcess=true)`);
+    console.log(`   • Sheet 5: 'DVC Một phần' (${partialAdminItems.length} TTHC - isFullProcess=false)`);
+    console.log(`   • Sheet 6: 'TTNB Cấp Tỉnh' (${provinceInternalItems.length} TTNB)`);
+    console.log(`   • Sheet 7: 'TTNB Cấp Xã' (${wardInternalItems.length} TTNB)`);
+    console.log(`   • Sheet 8: 'TTHC Cấp Bộ' (${ministryItems.length} TTHC)`);
+    console.log(`   • Sheet 9: 'Thủ tục hành chính (DVC)' (${adminItems.length} TTHC)`);
+    console.log(`   • Sheet 10: 'Thủ tục nội bộ' (${internalItems.length} TTNB)`);
+    console.log(`   • Sheet 11: 'Toàn bộ TTHC Quốc gia' (${allItems.length} TTHC & TTNB)`);
 
     return outputPath;
 }

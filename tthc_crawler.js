@@ -3,6 +3,11 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 require('dotenv').config();
+const {
+    parseIsFullProcess,
+    getServiceLevelLabel,
+    resolveServiceLevel
+} = require('./scripts/filter_gia_lai');
 
 // ============================================================
 // CONFIGURATION & CONSTANTS
@@ -508,6 +513,7 @@ async function main() {
                         try {
                             const detail = JSON.parse(fs.readFileSync(detailFilePath, 'utf8'));
                             const isInternal = isInternalProcedure(item.type || detail.formalityType, detail.formalityType, item.name || detail.name);
+                            const isFullProcess = typeof detail.isFullProcess === 'boolean' ? detail.isFullProcess : null;
                             indexMap.set(item.id, {
                                 id: item.id,
                                 ma_tthc: item.code || detail.code,
@@ -515,6 +521,8 @@ async function main() {
                                 cap_thuc_hien: parseFormalityCaseLevel(detail),
                                 nhom_thu_tuc: isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính',
                                 is_noi_bo: isInternal,
+                                isFullProcess,
+                                muc_do_dvc: getServiceLevelLabel(isFullProcess),
                                 loai_tthc: parseFormalityType(item.type || detail.formalityType),
                                 linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : (detail.category ? (detail.category.name || detail.category) : ''),
                                 co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : ''),
@@ -525,7 +533,7 @@ async function main() {
                             continue;
                         }
                     } else {
-                        // Đã có trong indexMap: Cập nhật chuẩn hóa nhom_thu_tuc & is_noi_bo
+                        // Đã có trong indexMap: Cập nhật chuẩn hóa nhom_thu_tuc, is_noi_bo & mức độ DVC (isFullProcess)
                         const existing = indexMap.get(item.id);
                         const isInternal = isInternalProcedure(item.type || existing.loai_tthc, existing.loai_tthc, item.name || existing.ten_tthc);
                         existing.nhom_thu_tuc = isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính';
@@ -533,6 +541,11 @@ async function main() {
                         existing.ma_tthc = item.code || existing.ma_tthc;
                         existing.ten_tthc = item.name || existing.ten_tthc;
                         if (item.type) existing.loai_tthc = parseFormalityType(item.type);
+                        if (typeof existing.isFullProcess !== 'boolean' || !existing.muc_do_dvc) {
+                            const sl = resolveServiceLevel(existing, [CONFIG.DETAILS_DIR]);
+                            existing.isFullProcess = sl.isFullProcess;
+                            existing.muc_do_dvc = sl.muc_do_dvc;
+                        }
                     }
                     skippedCount++;
                     successCount++;
@@ -553,6 +566,7 @@ async function main() {
                             let detail = res.data.data || res.data;
                             const isInternal = isInternalProcedure(item.type || detail.formalityType, detail.formalityType, item.name || detail.name);
 
+                            const isFullProcess = typeof detail.isFullProcess === 'boolean' ? detail.isFullProcess : null;
                             const formalityItem = {
                                 id: item.id,
                                 ma_tthc: item.code,
@@ -560,6 +574,8 @@ async function main() {
                                 cap_thuc_hien: parseFormalityCaseLevel(detail),
                                 nhom_thu_tuc: isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính',
                                 is_noi_bo: isInternal,
+                                isFullProcess,
+                                muc_do_dvc: getServiceLevelLabel(isFullProcess),
                                 loai_tthc: parseFormalityType(item.type || detail.formalityType),
                                 linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
                                 co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : ''),
@@ -641,6 +657,12 @@ async function main() {
             total_records: indexData.length,
             administrative_records: indexData.filter(x => !x.is_noi_bo).length,
             internal_records: indexData.filter(x => x.is_noi_bo).length,
+            service_level: {
+                full_process: indexData.filter(x => x.isFullProcess === true).length,
+                partial_process: indexData.filter(x => x.isFullProcess === false).length,
+                admin_full_process: indexData.filter(x => !x.is_noi_bo && x.isFullProcess === true).length,
+                admin_partial_process: indexData.filter(x => !x.is_noi_bo && x.isFullProcess === false).length
+            },
             completed_records: Object.keys(checkpoint.completedIds).length,
             failed_records: Object.keys(checkpoint.failedIds).length,
             circuit_breaker_status: checkpoint.status,
@@ -686,6 +708,7 @@ function generateCompareReport(currentItems) {
             const isInternal = item.is_noi_bo !== undefined 
                 ? Boolean(item.is_noi_bo) 
                 : isInternalProcedure(item.loai_tthc || item.type, item.loai_tthc, item.ten_tthc || item.name);
+            const sl = resolveServiceLevel(item, [CONFIG.DETAILS_DIR]);
             currentMap.set(key, {
                 id: item.id || '',
                 code: item.ma_tthc || item.code || '',
@@ -693,6 +716,8 @@ function generateCompareReport(currentItems) {
                 cap_thuc_hien: item.cap_thuc_hien || '',
                 nhom_thu_tuc: item.nhom_thu_tuc || (isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính'),
                 is_noi_bo: isInternal,
+                isFullProcess: sl.isFullProcess,
+                muc_do_dvc: sl.muc_do_dvc,
                 loai_tthc: item.loai_tthc || '',
                 category: item.linh_vuc || (Array.isArray(item.categories) ? item.categories.join(', ') : ''),
                 agency: item.co_quan_thuc_hien || (Array.isArray(item.departments) ? item.departments.join(', ') : ''),
@@ -714,6 +739,7 @@ function generateCompareReport(currentItems) {
                         const isInternal = item.is_noi_bo !== undefined 
                             ? Boolean(item.is_noi_bo) 
                             : isInternalProcedure(item.loai_tthc || item.type, item.loai_tthc, item.name || item.ten_tthc);
+                        const prevIsFull = parseIsFullProcess(item);
                         previousMap.set(key, {
                             id: item.id || '',
                             code: item.code || item.ma_tthc || '',
@@ -721,6 +747,8 @@ function generateCompareReport(currentItems) {
                             cap_thuc_hien: item.cap_thuc_hien || '',
                             nhom_thu_tuc: item.nhom_thu_tuc || (isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính'),
                             is_noi_bo: isInternal,
+                            isFullProcess: prevIsFull,
+                            muc_do_dvc: getServiceLevelLabel(prevIsFull),
                             loai_tthc: item.loai_tthc || '',
                             category: item.category || item.linh_vuc || '',
                             agency: item.agency || item.co_quan_thuc_hien || '',
@@ -742,12 +770,18 @@ function generateCompareReport(currentItems) {
     const currentItemsList = Array.from(currentMap.values());
     const adminCurrent = currentItemsList.filter(x => !x.is_noi_bo).length;
     const internalCurrent = currentItemsList.filter(x => x.is_noi_bo).length;
+    const fullCurrent = currentItemsList.filter(x => x.isFullProcess === true).length;
+    const partialCurrent = currentItemsList.filter(x => x.isFullProcess === false).length;
+    const adminFullCurrent = currentItemsList.filter(x => !x.is_noi_bo && x.isFullProcess === true).length;
+    const adminPartialCurrent = currentItemsList.filter(x => !x.is_noi_bo && x.isFullProcess === false).length;
 
     if (!hasSnapshot) {
         console.log(`📸 Chưa có Snapshot dữ liệu trước đó.`);
         console.log(`⚡ Tạo mới Snapshot khởi tạo ban đầu với: ${currentMap.size} TTHC.`);
         console.log(`   • 👥 Thủ tục hành chính: ${adminCurrent} TTHC`);
-        console.log(`   • 🏢 Thủ tục nội bộ:    ${internalCurrent} TTHC\n`);
+        console.log(`   • 🏢 Thủ tục nội bộ:    ${internalCurrent} TTHC`);
+        console.log(`   • ⚡ DVC Toàn trình:     ${fullCurrent} TTHC (DVC không nội bộ: ${adminFullCurrent})`);
+        console.log(`   • 🧩 DVC Một phần:       ${partialCurrent} TTHC (DVC không nội bộ: ${adminPartialCurrent})\n`);
         const snapshotItems = Array.from(currentMap.values());
         safeWriteJson(CONFIG.SNAPSHOT_FILE, snapshotItems);
 
@@ -772,6 +806,14 @@ function generateCompareReport(currentItems) {
                     added_count: internalCurrent,
                     removed_count: 0,
                     modified_count: 0
+                },
+                service_level: {
+                    full_process: fullCurrent,
+                    partial_process: partialCurrent,
+                    admin_full_process: adminFullCurrent,
+                    admin_partial_process: adminPartialCurrent,
+                    upgraded_to_full: 0,
+                    downgraded_to_partial: 0
                 }
             },
             added: snapshotItems,
@@ -782,6 +824,9 @@ function generateCompareReport(currentItems) {
         console.log(`✅ Đã xuất báo cáo khởi tạo vào: ${CONFIG.COMPARE_REPORT_FILE}\n`);
         return initialReport;
     }
+
+    let upgradedToFull = 0;
+    let downgradedToPartial = 0;
 
     // So sánh: tìm thủ tục thêm mới & sửa đổi
     currentMap.forEach((currItem, key) => {
@@ -794,6 +839,11 @@ function generateCompareReport(currentItems) {
             if (prevItem.code && currItem.code && prevItem.code !== currItem.code) changes.push({ field: 'Mã TTHC', old: prevItem.code, new: currItem.code });
             if (prevItem.cap_thuc_hien && currItem.cap_thuc_hien && prevItem.cap_thuc_hien !== currItem.cap_thuc_hien) changes.push({ field: 'Cấp thực hiện', old: prevItem.cap_thuc_hien, new: currItem.cap_thuc_hien });
             if (prevItem.nhom_thu_tuc && currItem.nhom_thu_tuc && prevItem.nhom_thu_tuc !== currItem.nhom_thu_tuc) changes.push({ field: 'Nhóm thủ tục', old: prevItem.nhom_thu_tuc, new: currItem.nhom_thu_tuc });
+            if (prevItem.muc_do_dvc && prevItem.muc_do_dvc !== 'Chưa xác định' && currItem.muc_do_dvc && currItem.muc_do_dvc !== 'Chưa xác định' && prevItem.muc_do_dvc !== currItem.muc_do_dvc) {
+                changes.push({ field: 'Mức độ DVC', old: prevItem.muc_do_dvc, new: currItem.muc_do_dvc });
+                if (currItem.isFullProcess === true) upgradedToFull++;
+                else if (currItem.isFullProcess === false) downgradedToPartial++;
+            }
             if (prevItem.loai_tthc && currItem.loai_tthc && prevItem.loai_tthc !== currItem.loai_tthc) changes.push({ field: 'Loại TTHC', old: prevItem.loai_tthc, new: currItem.loai_tthc });
             if (prevItem.agency && currItem.agency && prevItem.agency !== currItem.agency) changes.push({ field: 'Cơ quan thực hiện', old: prevItem.agency, new: currItem.agency });
 
@@ -803,6 +853,9 @@ function generateCompareReport(currentItems) {
                     code: currItem.code,
                     name: currItem.name,
                     nhom_thu_tuc: currItem.nhom_thu_tuc,
+                    is_noi_bo: currItem.is_noi_bo,
+                    isFullProcess: currItem.isFullProcess,
+                    muc_do_dvc: currItem.muc_do_dvc,
                     changes,
                     url: currItem.url
                 });
@@ -834,10 +887,12 @@ function generateCompareReport(currentItems) {
     console.log(`   • Số lượng TTHC hiện tại: ${currentMap.size}`);
     console.log(`     └─ 👥 Thủ tục hành chính: ${adminCurrent} TTHC`);
     console.log(`     └─ 🏢 Thủ tục nội bộ:    ${internalCurrent} TTHC`);
+    console.log(`     └─ ⚡ DVC Toàn trình:     ${fullCurrent} TTHC (DVC không nội bộ: ${adminFullCurrent})`);
+    console.log(`     └─ 🧩 DVC Một phần:       ${partialCurrent} TTHC (DVC không nội bộ: ${adminPartialCurrent})`);
     console.log(`   • Biến động ròng (Net):   ${netSign} TTHC`);
     console.log(`   • 🆕 Thêm mới:           ${added.length} TTHC (TTHC: +${adminAdded} | Nội bộ: +${internalAdded})`);
     console.log(`   • 🗑️ Bãi bỏ / Xóa:        ${removed.length} TTHC (TTHC: -${adminRemoved} | Nội bộ: -${internalRemoved})`);
-    console.log(`   • ✏️ Thay đổi nội dung:   ${modified.length} TTHC (TTHC: ~${adminModified} | Nội bộ: ~${internalModified})\n`);
+    console.log(`   • ✏️ Thay đổi nội dung:   ${modified.length} TTHC (TTHC: ~${adminModified} | Nội bộ: ~${internalModified} | Lên Toàn trình: ${upgradedToFull} | Về Một phần: ${downgradedToPartial})\n`);
 
     if (added.length > 0) {
         console.log(`✨ DANH SÁCH TTHC MỚI BỔ SUNG (${added.length}):`);
@@ -887,6 +942,14 @@ function generateCompareReport(currentItems) {
                 added_count: internalAdded,
                 removed_count: internalRemoved,
                 modified_count: internalModified
+            },
+            service_level: {
+                full_process: fullCurrent,
+                partial_process: partialCurrent,
+                admin_full_process: adminFullCurrent,
+                admin_partial_process: adminPartialCurrent,
+                upgraded_to_full: upgradedToFull,
+                downgraded_to_partial: downgradedToPartial
             }
         },
         added,

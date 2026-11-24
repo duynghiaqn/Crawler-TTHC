@@ -259,6 +259,59 @@ function resolveServiceLevel(item, detailsDirs = []) {
     };
 }
 
+const UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+function extractFormalityIdAndCode(itemOrId, fallbackCode = '') {
+    let id = '';
+    let code = fallbackCode || '';
+    let existingUrl = '';
+
+    if (typeof itemOrId === 'string') {
+        id = itemOrId.trim();
+    } else if (itemOrId && typeof itemOrId === 'object') {
+        id = String(itemOrId.id || itemOrId.formalityId || '').trim();
+        code = String(itemOrId.code || itemOrId.ma_tthc || itemOrId.codeNotation || fallbackCode || '').trim();
+        existingUrl = String(itemOrId.url || itemOrId.url_nop_truc_tuyen || '').trim();
+    }
+
+    if (!UUID_REGEX.test(id) && existingUrl) {
+        const m = existingUrl.match(/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/i);
+        if (m) id = m[1];
+    }
+
+    return { id, code };
+}
+
+/**
+ * Tạo đường dẫn XEM CHI TIẾT TTHC chuẩn trên Cổng DVCQG:
+ * https://dichvucong.gov.vn/thu-tuc-hanh-chinh/{id}
+ */
+function buildFormalityUrl(itemOrId, fallbackCode = '') {
+    const { id, code } = extractFormalityIdAndCode(itemOrId, fallbackCode);
+    if (id && (UUID_REGEX.test(id) || id !== code)) {
+        return `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${id}`;
+    }
+    if (code) {
+        return `https://dichvucong.gov.vn/tim-kiem-thu-tuc-hanh-chinh?keyword=${encodeURIComponent(code)}`;
+    }
+    return 'https://dichvucong.gov.vn/thu-tuc-hanh-chinh';
+}
+
+/**
+ * Tạo đường dẫn NỘP HỒ SƠ TRỰC TUYẾN chuẩn trên Cổng DVCQG:
+ * https://dichvucong.gov.vn/tim-kiem-thu-tuc-hanh-chinh?formalityId={id}
+ */
+function buildSubmitOnlineUrl(itemOrId, fallbackCode = '') {
+    const { id, code } = extractFormalityIdAndCode(itemOrId, fallbackCode);
+    if (id && (UUID_REGEX.test(id) || id !== code)) {
+        return `https://dichvucong.gov.vn/tim-kiem-thu-tuc-hanh-chinh?formalityId=${id}`;
+    }
+    if (code) {
+        return `https://dichvucong.gov.vn/tim-kiem-thu-tuc-hanh-chinh?keyword=${encodeURIComponent(code)}`;
+    }
+    return 'https://dichvucong.gov.vn/tim-kiem-thu-tuc-hanh-chinh';
+}
+
 module.exports = {
     normalizeText,
     isOtherProvince,
@@ -271,5 +324,7 @@ module.exports = {
     parseFormalityCaseLevel,
     parseIsFullProcess,
     getServiceLevelLabel,
-    resolveServiceLevel
+    resolveServiceLevel,
+    buildFormalityUrl,
+    buildSubmitOnlineUrl
 };

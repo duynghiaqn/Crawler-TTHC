@@ -6,7 +6,9 @@ require('dotenv').config();
 const {
     parseIsFullProcess,
     getServiceLevelLabel,
-    resolveServiceLevel
+    resolveServiceLevel,
+    buildFormalityUrl,
+    buildSubmitOnlineUrl
 } = require('./scripts/filter_gia_lai');
 
 // ============================================================
@@ -526,20 +528,22 @@ async function main() {
                                 loai_tthc: parseFormalityType(item.type || detail.formalityType),
                                 linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : (detail.category ? (detail.category.name || detail.category) : ''),
                                 co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : ''),
-                                url: `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}`
+                                url: buildFormalityUrl(item.id, item.code || detail.code)
                             });
                         } catch (e) {
                             pending.push(item);
                             continue;
                         }
                     } else {
-                        // Đã có trong indexMap: Cập nhật chuẩn hóa nhom_thu_tuc, is_noi_bo & mức độ DVC (isFullProcess)
+                        // Đã có trong indexMap: Cập nhật chuẩn hóa nhom_thu_tuc, is_noi_bo, mức độ DVC & URL
                         const existing = indexMap.get(item.id);
                         const isInternal = isInternalProcedure(item.type || existing.loai_tthc, existing.loai_tthc, item.name || existing.ten_tthc);
                         existing.nhom_thu_tuc = isInternal ? 'Thủ tục nội bộ' : 'Thủ tục hành chính';
                         existing.is_noi_bo = isInternal;
                         existing.ma_tthc = item.code || existing.ma_tthc;
                         existing.ten_tthc = item.name || existing.ten_tthc;
+                        existing.url = buildFormalityUrl(item.id, existing.ma_tthc);
+                        delete existing.url_nop_truc_tuyen;
                         if (item.type) existing.loai_tthc = parseFormalityType(item.type);
                         if (typeof existing.isFullProcess !== 'boolean' || !existing.muc_do_dvc) {
                             const sl = resolveServiceLevel(existing, [CONFIG.DETAILS_DIR]);
@@ -579,7 +583,7 @@ async function main() {
                                 loai_tthc: parseFormalityType(item.type || detail.formalityType),
                                 linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : '',
                                 co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : ''),
-                                url: `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}`
+                                url: buildFormalityUrl(item.id, item.code)
                             };
 
                             const cleanDetail = sanitizeBase64(detail);
@@ -721,7 +725,8 @@ function generateCompareReport(currentItems) {
                 loai_tthc: item.loai_tthc || '',
                 category: item.linh_vuc || (Array.isArray(item.categories) ? item.categories.join(', ') : ''),
                 agency: item.co_quan_thuc_hien || (Array.isArray(item.departments) ? item.departments.join(', ') : ''),
-                url: item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : '')
+                url: buildFormalityUrl(item),
+                url_nop_truc_tuyen: buildSubmitOnlineUrl(item)
             });
         }
     });
@@ -752,7 +757,8 @@ function generateCompareReport(currentItems) {
                             loai_tthc: item.loai_tthc || '',
                             category: item.category || item.linh_vuc || '',
                             agency: item.agency || item.co_quan_thuc_hien || '',
-                            url: item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : '')
+                            url: buildFormalityUrl(item),
+                            url_nop_truc_tuyen: buildSubmitOnlineUrl(item)
                         });
                     }
                 });

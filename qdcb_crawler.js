@@ -547,6 +547,7 @@ async function fetchProposalFormalitiesByType(proposalId, typeVal) {
         ngay_hieu_luc: formatVnDate(fd.effectiveDate),
         trang_thai: r.state || '',
         url: (fd.id || r.formalityDraftId) ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${fd.id || r.formalityDraftId}` : '',
+        url_nop_truc_tuyen: (fd.id || r.formalityDraftId) ? `https://dichvucong.gov.vn/tim-kiem-thu-tuc-hanh-chinh?formalityId=${fd.id || r.formalityDraftId}` : '',
       });
     }
 

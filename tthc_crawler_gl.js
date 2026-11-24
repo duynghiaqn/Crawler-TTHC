@@ -13,7 +13,8 @@ const {
     parseFormalityType,
     parseFormalityCaseLevel,
     getServiceLevelLabel,
-    resolveServiceLevel
+    resolveServiceLevel,
+    buildFormalityUrl
 } = require('./scripts/filter_gia_lai');
 
 // ============================================================
@@ -500,6 +501,8 @@ async function main() {
                                 existing.isFullProcess = isFullProcess;
                                 existing.muc_do_dvc = getServiceLevelLabel(isFullProcess);
                             }
+                            existing.url = buildFormalityUrl(item.id || detail.id, existing.ma_tthc || detail.code);
+                            delete existing.url_nop_truc_tuyen;
                         }
                         stats.eligibleGiaLai++;
                         continue;
@@ -555,9 +558,7 @@ async function main() {
                             linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : (detail.category ? (detail.category.name || detail.category) : ''),
                             co_quan_ban_hanh: detail.departmentPromulgateName || detail.departmentPromulgate || '',
                             co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '') || '',
-                            url: (item.id || detail.id)
-                                ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id || detail.id}`
-                                : `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${detail.code || detail.codeNotation || item.code}`
+                            url: buildFormalityUrl(item.id || detail.id, detail.code || detail.codeNotation || item.code)
                         };
 
                         indexMap.set(item.id, formalityItem);
@@ -623,9 +624,7 @@ async function main() {
                             linh_vuc: (item.categories && item.categories.length > 0) ? item.categories.join(', ') : (detail.category ? (detail.category.name || detail.category) : ''),
                             co_quan_ban_hanh: detail.departmentPromulgateName || detail.departmentPromulgate || '',
                             co_quan_thuc_hien: detail.executingAgencies || (item.departments ? item.departments.join(', ') : '') || '',
-                            url: (item.id || detail.id)
-                                ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id || detail.id}`
-                                : `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${detail.code || detail.codeNotation || item.code}`
+                            url: buildFormalityUrl(item.id || detail.id, detail.code || detail.codeNotation || item.code)
                         };
 
                         return { success: true, item, excluded: false, formalityItem };
@@ -703,6 +702,8 @@ async function main() {
             item.isFullProcess = sl.isFullProcess;
             item.muc_do_dvc = sl.muc_do_dvc;
         }
+        item.url = buildFormalityUrl(item);
+        delete item.url_nop_truc_tuyen;
     });
 
     let glPrunedCount = 0;

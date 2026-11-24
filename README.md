@@ -397,7 +397,8 @@ Danh mục chỉ mục rút gọn các TTHC có hiệu lực thi hành tại Gia
     "co_quan_thuc_hien": "Cơ quan chuyên môn về nông nghiệp và môi trường thuộc UBND cấp tỉnh",
     "isProvince": true,
     "isWard": false,
-    "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=5.003882"
+    "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/01a2076b-718d-719f-89fe-b68582910fad",
+    "url_nop_truc_tuyen": "https://dichvucong.gov.vn/tim-kiem-thu-tuc-hanh-chinh?formalityId=01a2076b-718d-719f-89fe-b68582910fad"
   }
 ]
 ```

@@ -5,7 +5,9 @@ const {
     getProcedureGroup,
     parseIsFullProcess,
     getServiceLevelLabel,
-    resolveServiceLevel
+    resolveServiceLevel,
+    buildFormalityUrl,
+    buildSubmitOnlineUrl
 } = require('./filter_gia_lai');
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -37,7 +39,8 @@ function loadCurrentDataset() {
                         loai_tthc: item.loai_tthc || '',
                         category: item.linh_vuc || (Array.isArray(item.categories) ? item.categories.join(', ') : ''),
                         agency: item.co_quan_thuc_hien || (Array.isArray(item.departments) ? item.departments.join(', ') : ''),
-                        url: item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : '')
+                        url: buildFormalityUrl(item),
+                        url_nop_truc_tuyen: buildSubmitOnlineUrl(item)
                     };
                 });
             }
@@ -114,7 +117,8 @@ function compareDatasets() {
                             loai_tthc: item.loai_tthc || '',
                             category: item.category || item.linh_vuc || '',
                             agency: item.agency || item.co_quan_thuc_hien || '',
-                            url: item.url || (item.id ? `https://dichvucong.gov.vn/thu-tuc-hanh-chinh/${item.id}` : '')
+                            url: buildFormalityUrl(item),
+                        url_nop_truc_tuyen: buildSubmitOnlineUrl(item)
                         });
                     }
                 });
@@ -232,7 +236,8 @@ function compareDatasets() {
                     isFullProcess: currItem.isFullProcess,
                     muc_do_dvc: currItem.muc_do_dvc,
                     changes,
-                    url: currItem.url
+                    url: currItem.url,
+                    url_nop_truc_tuyen: currItem.url_nop_truc_tuyen
                 });
             }
         }

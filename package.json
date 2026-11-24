@@ -25,7 +25,11 @@
     "export:excel:gl": "node scripts/export_excel.js --gl",
     "export:excel:qdcb": "node scripts/export_qdcb_excel.js",
     "build-data": "node pipeline/index.js",
-    "test:regression": "node tests/regression.js"
+    "test:regression": "node tests/regression.js",
+    "check:dvctt": "node scripts/check_online_service.js --gl",
+    "check:dvctt:gl": "node scripts/check_online_service.js --gl",
+    "check:dvctt:national": "node scripts/check_online_service.js --national",
+    "check:dvctt:all": "node scripts/check_online_service.js --all"
   },
   "dependencies": {
     "axios": "^1.6.0",

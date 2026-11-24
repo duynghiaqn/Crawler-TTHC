@@ -10,7 +10,9 @@ const {
     getProcedureGroup,
     parseIsFullProcess,
     getServiceLevelLabel,
-    resolveServiceLevel
+    resolveServiceLevel,
+    buildFormalityUrl,
+    buildSubmitOnlineUrl
 } = require('./filter_gia_lai');
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -67,7 +69,8 @@ function loadUniqueProvinceWardDataset() {
                         is_noi_bo: isInternal,
                         isFullProcess: sl.isFullProcess,
                         muc_do_dvc: sl.muc_do_dvc,
-                        url: item.url || `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
+                        url: buildFormalityUrl(item, code),
+                        url_nop_truc_tuyen: buildSubmitOnlineUrl(item, code)
                     });
                 });
             }
@@ -116,7 +119,8 @@ function loadUniqueProvinceWardDataset() {
                                 is_noi_bo: isInternal,
                                 isFullProcess,
                                 muc_do_dvc: mucDoDvc,
-                                url: `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
+                                url: buildFormalityUrl(detail, code),
+                                url_nop_truc_tuyen: buildSubmitOnlineUrl(detail, code)
                             });
                         } else {
                             const existing = codeMap.get(code);
@@ -202,7 +206,8 @@ async function compareProvinceWard() {
                         isFullProcess: prevIsFull,
                         muc_do_dvc: getServiceLevelLabel(prevIsFull),
                         level_label: item.level_label || getLevelLabel(item),
-                        url: item.url || `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
+                        url: buildFormalityUrl(item, code),
+                        url_nop_truc_tuyen: buildSubmitOnlineUrl(item, code)
                     });
                 });
                 hasSnapshot = previousMap.size > 0;
@@ -302,7 +307,8 @@ async function compareProvinceWard() {
                         new_service_level: currItem.muc_do_dvc,
                         executingAgencies: currItem.executingAgencies,
                         departmentPromulgate: currItem.departmentPromulgate,
-                        url: currItem.url
+                        url: currItem.url,
+                        url_nop_truc_tuyen: currItem.url_nop_truc_tuyen
                     });
                 }
             }
@@ -325,7 +331,8 @@ async function compareProvinceWard() {
                     muc_do_dvc: prevItem.muc_do_dvc || getServiceLevelLabel(prevItem),
                     departmentPromulgate: prevItem.departmentPromulgate || '',
                     executingAgencies: prevItem.executingAgencies || '',
-                    url: prevItem.url || `https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc.html?ma_thu_tuc=${code}`
+                    url: buildFormalityUrl(prevItem, code),
+                    url_nop_truc_tuyen: buildSubmitOnlineUrl(prevItem, code)
                 });
             }
         });
@@ -335,9 +342,14 @@ async function compareProvinceWard() {
     if (addedItems.length === 0 && removedItems.length === 0 && modifiedItems.length === 0 && existingReportHasDiffs) {
         console.log(`ℹ️ Snapshot trùng với currentItems nhưng phát hiện báo cáo trước đó đã ghi nhận biến động.`);
         console.log(`   Giữ lại dữ liệu biến động từ báo cáo hiện có (${existingReport.summary.added_count} thêm, ${existingReport.summary.removed_count} bãi bỏ).`);
-        addedItems = existingReport.added || existingReport.added_items || [];
-        removedItems = existingReport.removed || existingReport.removed_items || [];
-        modifiedItems = existingReport.modified || existingReport.modified_items || [];
+        const normalizePreserved = (arr) => (arr || []).map(it => ({
+            ...it,
+            url: buildFormalityUrl(it),
+            url_nop_truc_tuyen: buildSubmitOnlineUrl(it)
+        }));
+        addedItems = normalizePreserved(existingReport.added || existingReport.added_items);
+        removedItems = normalizePreserved(existingReport.removed || existingReport.removed_items);
+        modifiedItems = normalizePreserved(existingReport.modified || existingReport.modified_items);
     }
 
     const previousTotal = hasSnapshot ? previousMap.size : 0;

@@ -1,0 +1,434 @@
+{
+  "id": "01a0a867-d75a-732f-987a-92e60540149f",
+  "code": "1.116976",
+  "codeNotation": "1.116976",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến một trong các cơ quan trên\nđịa bàn tỉnh sau đây: Trung tâm phục vụ hành chính công cấp tỉnh hoặc Trung\ntâm phục vụ hành chính công cấp xã.\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ\nvà xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp\nbản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực;\ntrường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa\ntừ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nTrường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì\nnộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết\nquả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các\ngiấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và\nhẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu\ncầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung\ntheo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn\nphòng đăng ký đất đai.\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất\nđai thực hiện:\n- Xác nhận xóa cho thuê, cho thuê lại vào Giấy chứng nhận đã cấp của\nchủ đầu tư dự án và trả Giấy chứng nhận cho chủ đầu tư dự án.\n- Thu hồi Giấy chứng nhận đã cấp của bên thuê, bên thuê lại đất.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 03 ngày làm việc.\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực\nhiện được tăng thêm 13 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 1500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 03 ngày làm việc.\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực\nhiện được tăng thêm 13 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 1500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 3,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 03 ngày làm việc.\nĐối với các xã có điều kiện kinh tế - xã hội khó khăn thì thời gian thực\nhiện được tăng thêm 13 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Hộ gia đình, cá nhân. Giảm 40% tiền phí đối với người nộp phí là trẻ em, hộ nghèo, người cao tuổi, người khuyết tật, người có công với cách mạng.",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "FEE",
+          "value": 1500000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        },
+        {
+          "type": "SERVICE_FEE",
+          "value": 50000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Áp dụng đối với Tổ chức, cộng đồng dân cư, cơ sở tôn giáo",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "(Hưng Yên) Xóa đăng ký thuê, cho thuê lại quyền sử dụng đất trong dự án xây\ndựng kinh doanh kết cấu hạ tầng",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0a863-86aa-7266-a8e2-2fc34a3022d0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mẫu số 20 ban hành kèm theo Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên.",
+          "code": "H31_Mẫu số 20",
+          "attachments": [
+            {
+              "id": "01a0a863-7b7d-73f8-addf-56e0b98aa4ae",
+              "fileName": "Mau so 20. Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0a863-7b7d-73f8-addf-56e0b98aa4ae/Mau so 20. Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0a865-2d48-718e-8d52-8b5b491d6261",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản về việc xóa cho thuê, xóa cho thuê lại quyền sử dụng đất; + Văn bản về việc đại diện theo quy định của pháp luật về dân sự đối với trường hợp thực hiện thủ tục thông qua người đại diện",
+          "code": "H31_Văn bản về việc xóa cho thuê, xóa cho thuê",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0a865-e969-7608-b155-66da6cbc5506",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đã cấp",
+          "code": "H31_Giấy chứng nhận đã cấp",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019da523-7834-71ed-9461-2ac0a510544b",
+    "019f64ed-e026-7299-b5f2-ca44a3964050",
+    "019ff439-01f8-77a8-9283-f80efea13a33",
+    "01a08abc-e5eb-738e-932f-abe36517faa2",
+    "01a08ac2-2345-715f-aeb7-0fa77d09e513",
+    "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+    "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+    "01a08acb-9210-77a8-bba4-ff7a356ea457"
+  ],
+  "resultIds": [
+    "01a08ab9-d163-7068-90e3-a185ee5d2608"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b0b-e259cead2587"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b0b-e259cead2587"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b0b-e259cead2587",
+      "name": "Văn phòng Đăng ký đất đai tỉnh Hưng Yên",
+      "code": "H31.36.13"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b0b-e259cead2587",
+      "name": "Văn phòng Đăng ký đất đai tỉnh Hưng Yên",
+      "code": "H31.36.13"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a08ac6-c63a-74bd-81ef-a293f1bed433",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "Nghị định số 151/2025/NĐ-CP"
+    },
+    {
+      "id": "019da523-7834-71ed-9461-2ac0a510544b",
+      "name": "sửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia",
+      "code": "367/2025/NĐ-CP"
+    },
+    {
+      "id": "01a08abc-e5eb-738e-932f-abe36517faa2",
+      "name": "Luật số 31/2024/QH15 của Quốc hội: Luật Đất đai",
+      "code": "Luật số 31/2024/QH15"
+    },
+    {
+      "id": "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị định số 49/2026/NĐ-CP"
+    },
+    {
+      "id": "01a08acb-9210-77a8-bba4-ff7a356ea457",
+      "name": "Quyết định số 31/2026/QĐ-UBND ngày 30/6/2026 của UBND tỉnh Hưng Yên quy định trình tự, thủ tục hành chính về đất đai áp dụng trên địa bàn tỉnh Hưng Yên",
+      "code": "Quyết định số 31/2026/QĐ-UBND"
+    },
+    {
+      "id": "019ff439-01f8-77a8-9283-f80efea13a33",
+      "name": "quy định về điều tra cơ bản đất đai; đăng ký, cấp GCNQSD đất, quyền sở hữu tài sản gắn liền với đất và hệ thống thông tin đất đai",
+      "code": " 101/2024/NĐ-CP ngày 29/7/2024 "
+    },
+    {
+      "id": "019f64ed-e026-7299-b5f2-ca44a3964050",
+      "name": "Nghị định về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia.",
+      "code": "118/2025/NĐ-CP "
+    },
+    {
+      "id": "01a08ac2-2345-715f-aeb7-0fa77d09e513",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị quyết số 254/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a08ab9-d163-7068-90e3-a185ee5d2608",
+      "name": "Giấy chứng nhận",
+      "code": "KQ.H31.360002"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+  "departmentPromulgateCode": "H31",
+  "departmentPromulgateName": "UBND tỉnh Hưng Yên",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791345031511,
+  "updatedAt": 1791862468816,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng Đăng ký đất đai tỉnh Hưng Yên",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm phục vụ hành chính công cấp tỉnh hoặc\nTrung tâm phục vụ hành chính công cấp xã.\nb) Nộp thông qua dịch vụ bưu chính.\nc) Nộp trực tuyến trên Cổng dịch vụ công Quốc gia.",
+  "delegatedAgencies": "Văn phòng Đăng ký đất đai tỉnh Hưng Yên",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a08990-d632-7481-a424-06edb38b5ad1",
+    "proposalNumber": "2617/QĐ-UBND",
+    "decisionDate": 1787158800000,
+    "decisionNumber": null,
+    "publicationDate": 1791345030135,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b0b-a4fad4f39fbc",
+      "name": "UBND tỉnh Hưng Yên"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

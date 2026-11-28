@@ -1,0 +1,315 @@
+{
+  "id": "019d2bfc-740f-77c1-8adc-a0e5648d08b3",
+  "code": "1.009064",
+  "codeNotation": "1.009064",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Doanh nghiệp thực hiện việc khai báo hải quan và xuất trình hồ sơ hải quan (nếu có), gửi bảng kê hàng hóa đã bán cho khách xuất cảnh theo Mẫu số 09 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP đến hệ thống xử lý dữ liệu điện tử hải quan hoặc Mẫu số 09/BKHH Phụ lục III ban hành kèm theo Nghị định số 273/2026/NĐ-CP trong trường hợp hệ thống gặp sự cố và 01 bản chụp hộ chiếu hoặc giấy thông hành (trang đầu và trang có đóng dấu xuất cảnh của cơ quan xuất nhập cảnh).\nBước 2: Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế thực hiện việc thông quan hàng hóa cho doanh nghiệp làm thủ tục xuất khẩu."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "HOUR",
+      "description": "- Thời hạn tiếp nhận, đăng ký, kiểm tra hồ sơ hải quan: ngay sau khi người khai hải quan nộp, xuất trình hồ sơ hải quan đúng quy định của pháp luật (Khoản 1 Điều 23 Luật Hải quan)\n- Thời hạn hoàn thành thành kiểm tra hồ sơ và kiểm tra thực tế hàng hóa, phương tiện vận tải:\n+ Hoàn thành việc kiểm tra hồ sơ chậm nhất là 02 giờ làm việc kể từ thời điểm cơ quan hải quan tiếp nhận đầy đủ hồ sơ hải quan;\n+ Hoàn thành việc kiểm tra thực tế hàng hóa chậm nhất là 08 giờ làm việc kể từ thời điểm người khai hải quan xuất trình đầy đủ hàng hóa cho cơ quan hải quan;\nTrường hợp hàng hóa thuộc đối tượng kiểm tra chuyên ngành về chất lượng, y tế, văn hóa, kiểm dịch động vật, thực vật, an toàn thực phẩm theo quy định của pháp luật có liên quan thì thời hạn hoàn thành kiểm tra thực tế hàng hóa được tính từ thời điểm nhận được kết quả kiểm tra chuyên ngành theo quy định.\nTrường hợp lô hàng có số lượng lớn, nhiều chủng loại hoặc việc kiểm tra phức tạp thì Thủ trưởng cơ quan hải quan nơi làm thủ tục hải quan quyết định việc gia hạn thời gian kiểm tra thực tế hàng hóa, nhưng thời gian gia hạn tối đa không quá 02 ngày.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "HOUR",
+      "description": "- Thời hạn tiếp nhận, đăng ký, kiểm tra hồ sơ hải quan: ngay sau khi người khai hải quan nộp, xuất trình hồ sơ hải quan đúng quy định của pháp luật (Khoản 1 Điều 23 Luật Hải quan)\n- Thời hạn hoàn thành thành kiểm tra hồ sơ và kiểm tra thực tế hàng hóa, phương tiện vận tải:\n+ Hoàn thành việc kiểm tra hồ sơ chậm nhất là 02 giờ làm việc kể từ thời điểm cơ quan hải quan tiếp nhận đầy đủ hồ sơ hải quan;\n+ Hoàn thành việc kiểm tra thực tế hàng hóa chậm nhất là 08 giờ làm việc kể từ thời điểm người khai hải quan xuất trình đầy đủ hàng hóa cho cơ quan hải quan;\nTrường hợp hàng hóa thuộc đối tượng kiểm tra chuyên ngành về chất lượng, y tế, văn hóa, kiểm dịch động vật, thực vật, an toàn thực phẩm theo quy định của pháp luật có liên quan thì thời hạn hoàn thành kiểm tra thực tế hàng hóa được tính từ thời điểm nhận được kết quả kiểm tra chuyên ngành theo quy định.\nTrường hợp lô hàng có số lượng lớn, nhiều chủng loại hoặc việc kiểm tra phức tạp thì Thủ trưởng cơ quan hải quan nơi làm thủ tục hải quan quyết định việc gia hạn thời gian kiểm tra thực tế hàng hóa, nhưng thời gian gia hạn tối đa không quá 02 ngày.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 20000,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục hải quan đối với hàng hóa đã bán cho khách xuất cảnh nhưng giao ở nước ngoài theo yêu cầu của khách",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-05d0099c548a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ khai hải quan",
+          "code": "000.00.00.G12-KQ9841",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-0e46869587fa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Bảng kê hàng hóa bán cho khách xuất cảnh theo Mẫu số 09/BKHH Phụ lục III ban hành kèm theo Nghị định số 273/2026/NĐ-CP (đối với trường hợp nộp trực tiếp).",
+          "code": "000.00.00.G12-KQ9843",
+          "attachments": [
+            {
+              "id": "019fd137-c669-765a-9499-b1aa039b965b",
+              "fileName": "Mẫu số 09.BKHH.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fd137-c669-765a-9499-b1aa039b965b/Mẫu số 09.BKHH.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-091b82ea1615",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hóa đơn thương mại hoặc chứng từ có giá trị tương đương trong trường hợp người mua phải thanh toán cho người bán. Trường hợp hóa đơn thương mại được cấp dưới dạng điện tử theo quy định tại điểm 2a Điều 8 Nghị định 123/2020/NĐ-CP ngày 19/10/2020 được sửa đổi, bổ sung bởi khoản 5 Điều 1 Nghị định 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủ trước thời điểm khai báo hải quan thì người khai hải quan không phải nộp cho cơ quan hải quan khi làm thủ tục hải quan;",
+          "code": "000.00.00.G12-KQ9842",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-22069cacd18d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Chỉ tiêu thông tin theo Mẫu số 09 Phụ lục II ban hành kèm theo Nghị định số 273/2026/NĐ-CP (đối với trường hợp nộp trực tuyến).",
+          "code": "000.00.00.G12-KQ9848",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-146b7c2c8093",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy thông báo miễn kiểm tra hoặc giấy thông báo kết quả kiểm tra chuyên ngành hoặc chứng từ khác theo quy định của pháp luật (sau đây gọi tắt là Giấy chứng nhận kiểm tra chuyên ngành);",
+          "code": "000.00.00.G12-KQ9845",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-27a53c2e0ae0",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "01 bản chụp hộ chiếu hoặc giấy thông hành (trang đầu và trang có đóng dấu xuất cảnh của cơ quan xuất nhập cảnh).",
+          "code": "000.00.00.G12-KQ9849",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-13a44ac6a14a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy phép xuất khẩu hoặc văn bản cho phép xuất khẩu của cơ quan có thẩm quyền theo quy định pháp luật (sau đây gọi tắt là giấy phép xuất khẩu);",
+          "code": "000.00.00.G12-KQ9844",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-1daddf3cbaf0",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hợp đồng ủy thác đối với trường hợp ủy thác xuất khẩu hàng hóa thuộc diện phải có giấy phép xuất khẩu, giấy chứng nhận kiểm tra chuyên ngành, chứng từ chứng minh tổ chức, cá nhân đủ điều kiện xuất khẩu hàng hóa theo quy định của pháp luật về đầu tư;",
+          "code": "000.00.00.G12-KQ9847",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b6-776e-8ad2-1b2b0ebd3e2a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Chứng từ chứng minh tổ chức, cá nhân đủ điều kiện xuất khẩu hàng hóa theo quy định của pháp luật về đầu tư",
+          "code": "000.00.00.G12-KQ9846",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f3d-758399c89771",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận đăng ký quyền xuất khẩu, nhập khẩu của thương nhân nước ngoài không có hiện diện tại Việt Nam do Bộ Công Thương cấp",
+          "code": "000.00.00.G12-KQ012644",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fd132-4c70-70b8-a90b-bab1eb8b46bc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đối với doanh nghiệp có vốn đầu tư nước ngoài thực hiện quyền xuất khẩu: Giấy chứng nhận đầu tư về hoạt động mua bán hàng hóa và các hoạt động liên quan đến mua bán hàng hóa của thương nhân có vốn đầu tư nước ngoài có đăng ký quyền xuất khẩu; Trường hợp không phải thực hiện cấp Giấy chứng nhận đầu tư thì nộp chứng từ tương đương. Trường hợp thực hiện thủ tục hải quan tại cùng một cơ quan hải quan thì người khai hải quan chỉ phải nộp các chứng từ quy định tại điểm g và điểm h khoản này lần đầu khi làm thủ tục hải quan.",
+          "code": "000.00.00.G12-KQ12656",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019fc558-dd5c-7395-9a78-efc7e38e5c9f"
+  ],
+  "resultIds": [
+    "019d2bb2-1c70-724b-96df-98c3165f3fa1"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [
+    "019fca8e-5226-715a-a636-481e53b9f6f9"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+      "name": "Hải quan",
+      "code": "G12-TC04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+    "name": "Hải quan",
+    "code": "G12-TC04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019fca8e-5226-715a-a636-481e53b9f6f9",
+      "name": "Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế.",
+      "code": "000.00.34.G12.15"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019fc558-dd5c-7395-9a78-efc7e38e5c9f",
+      "name": "Về kinh doanh hàng miễn thuế",
+      "code": "273/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c70-724b-96df-98c3165f3fa1",
+      "name": "Xác nhận thông quan trên hệ thống",
+      "code": "KQ.G12.000305"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1774559458319,
+  "updatedAt": 1785982946940,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế.",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fb763-4d3e-756b-8273-43cfe32d9020",
+    "proposalNumber": "2017",
+    "decisionDate": 1785171600000,
+    "decisionNumber": null,
+    "publicationDate": 1785982946082,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

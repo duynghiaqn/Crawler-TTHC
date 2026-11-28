@@ -1,0 +1,274 @@
+{
+  "id": "01a1e380-0133-718c-bd1f-614455d54808",
+  "code": "6.006947",
+  "codeNotation": "6.006947",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Cơ quan, đơn vị, địa phương căn cứ tiêu chuẩn, điều kiện xét tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”, tổ chức bình xét, suy tôn theo quy định và gửi hồ sơ đề nghị xét tặng đến Sở Nội vụ."
+    },
+    {
+      "name": "",
+      "description": "b) Sở Nội vụ tiếp nhận, kiểm tra thành phần hồ sơ; trường hợp hồ sơ chưa đầy đủ theo quy định thì hướng dẫn cơ quan, đơn vị, địa phương bổ sung, hoàn thiện hồ sơ. Trường hợp hồ sơ đầy đủ, hợp lệ, Sở Nội vụ tổ chức thẩm định, lấy ý kiến cơ quan có liên quan khi cần thiết, tổng hợp, báo cáo Hội đồng Thi đua - Khen thưởng thành phố và trình Chủ tịch Ủy ban nhân dân thành phố xem xét, quyết định tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”."
+    },
+    {
+      "name": "",
+      "description": "c) Căn cứ quyết định của Chủ tịch Ủy ban nhân dân thành phố, Sở Nội vụ thông báo kết quả và thực hiện việc cấp phát hiện vật khen thưởng theo quy định."
+    },
+    {
+      "name": "",
+      "description": "d) Trường hợp hồ sơ không đủ điều kiện, tiêu chuẩn hoặc không bảo đảm thành phần hồ sơ theo quy định, Sở Nội vụ thông báo bằng văn bản cho cơ quan, đơn vị, địa phương trình khen thưởng, nêu rõ lý do và căn cứ pháp lý."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 25,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Tập thể đạt được thành tích theo quy định đủ điều kiện đề nghị xét tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+  "name": "Thủ tục đề nghị xét tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Hồ sơ đề nghị Chủ tịch Ủy ban nhân dân thành phố xét tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” (01 bản chính và các tệp tin điện tử của hồ sơ), gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1e26f-9277-745b-8e3c-742b0cb6f145",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị xét tặng danh hiệu thi đua (theo mẫu số 01 Phụ lục kèm theo Quyết định này).",
+          "code": "H57-KQ00080",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e236-470e-736b-8067-9ef7b0667898",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo thành tích tập thể (theo mẫu số 03 Phụ lục kèm theo Quyết định này)",
+          "code": "H57-KQ000005",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e244-a410-778d-a694-3091461f9e05",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản bình xét và kết quả bỏ phiếu kín của Hội đồng Thi đua - Khen thưởng cấp trình khen thưởng (theo mẫu số 11 Phụ lục kèm theo Quyết định này).",
+          "code": "H57-KQ000013",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b) Hồ sơ Sở Nội vụ trình Chủ tịch Ủy ban nhân dân thành phố gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1e27c-261d-737e-ad47-00122305e422",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình của Sở Nội vụ kèm theo danh sách đề nghị tặng “Cờ thi đua của Ủy ban nhân dân thành phố” và các tệp tin điện tử của hồ sơ quy định tại điểm a khoản 3 Điều này.",
+          "code": "H57-KQ000036",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1e226-ba60-71ed-9a2f-918e313579c8"
+  ],
+  "resultIds": [
+    "01a1e237-203b-717e-87b3-57b34a10bae4"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dd22b-38df-740e-bdfc-18915a6eff9e"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dd22b-38df-740e-bdfc-18915a6eff9e",
+      "name": "Sở Nội Vụ"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1e226-ba60-71ed-9a2f-918e313579c8",
+      "name": "Quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng áp dụng trên địa bàn thành phố Huế",
+      "code": "118/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1e237-203b-717e-87b3-57b34a10bae4",
+      "name": "Quyết định của Chủ tịch Ủy ban nhân dân thành phố về việc tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” hoặc văn bản thông báo kết quả giải quyết hồ sơ đối với trường hợp không được tặng danh hiệu.",
+      "code": "KQ.H57.000111"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794880431609,
+  "updatedAt": 1794880431609,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Tập thể đạt được thành tích theo quy định đủ điều kiện đề nghị xét tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1e220-4209-7261-a74e-3fd90aeca1ce",
+    "proposalNumber": "3727/QĐ-UBND",
+    "decisionDate": 1794589200000,
+    "decisionNumber": null,
+    "publicationDate": 1794880431455,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "01a1e385-5529-729d-8e1f-10f4de043aad",
+  "code": "6.006948",
+  "codeNotation": "6.006948",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Cơ quan, đơn vị, địa phương căn cứ tiêu chuẩn, điều kiện xét tặng danh hiệu “Tập thể lao động xuất sắc” và tiêu chuẩn, điều kiện tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố về khen thưởng công trạng, tổ chức bình xét, hoàn thiện hồ sơ và gửi hồ sơ đề nghị xét tặng, tặng Bằng khen đến Sở Nội vụ."
+    },
+    {
+      "name": "",
+      "description": "b) Sở Nội vụ tiếp nhận, kiểm tra thành phần hồ sơ; trường hợp hồ sơ chưa đầy đủ theo quy định thì hướng dẫn cơ quan, đơn vị, địa phương bổ sung, hoàn thiện hồ sơ. Trường hợp hồ sơ đầy đủ, hợp lệ, Sở Nội vụ tổ chức thẩm định, lấy ý kiến cơ quan có liên quan khi cần thiết và trình Chủ tịch Ủy ban nhân dân thành phố xem xét, quyết định."
+    },
+    {
+      "name": "",
+      "description": "c) Căn cứ quyết định của Chủ tịch Ủy ban nhân dân thành phố, Sở Nội vụ thông báo kết quả và thực hiện việc cấp phát bằng, hiện vật khen thưởng theo quy định."
+    },
+    {
+      "name": "",
+      "description": "d) Trường hợp hồ sơ không đủ điều kiện, tiêu chuẩn hoặc không bảo đảm thành phần hồ sơ theo quy định, Sở Nội vụ thông báo bằng văn bản cho cơ quan, đơn vị, địa phương trình khen thưởng, nêu rõ lý do và căn cứ pháp lý."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 17,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Tập thể, cá nhân đạt được thành tích theo quy định đề nghị xét tặng danh hiệu “Tập thể lao động xuất sắc” và Bằng khen của Chủ tịch Ủy ban nhân dân thành phố về khen thưởng công trạng",
+  "name": "Thủ tục xét tặng danh hiệu “Tập thể lao động xuất sắc” và Bằng khen của Chủ tịch Ủy ban nhân dân thành phố về khen thưởng công trạng (khen thưởng công tác năm)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Hồ sơ đề nghị Chủ tịch Ủy ban nhân dân thành phố xét tặng danh hiệu “Tập thể lao động xuất sắc” và Bằng khen của Chủ tịch Ủy ban nhân dân thành phố về khen thưởng công trạng (01 bản chính và các tệp tin điện tử của hồ sơ), gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1e384-202b-72c7-b24a-1fbb2e6c8332",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị xét tặng danh hiệu thi đua và thành tích khen thưởng (theo mẫu số 01 Phụ lục kèm theo Quyết định này)",
+          "code": "H57-KQ000200",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e23e-0cd0-724f-b847-e117b012bb3d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo thành tích tập thể đề nghị xét tặng danh hiệu “Tập thể lao động xuất sắc” (theo mẫu số 04 Phụ lục kèm theo Quyết định này)",
+          "code": "H57-KQ000006",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e23e-8f88-72a9-95bd-3fe1d243528f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo thành tích của cá nhân, tập thể đề nghị tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố về khen thưởng công trạng (theo mẫu số 04 hoặc mẫu số 05 Phụ lục kèm theo Quyết định này)",
+          "code": "H57-KQ000007",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e274-d245-749e-939f-3f546bdbd7e6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản bình xét và kết quả bỏ phiếu kín của Hội đồng Thi đua - Khen thưởng cấp trình khen thưởng (theo mẫu số 11 Phụ lục kèm theo Quyết định này).",
+          "code": "H57-KQ000092",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b) Hồ sơ Sở Nội vụ trình Chủ tịch Ủy ban nhân dân thành phố gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1e27d-988c-76ea-8339-228227af63d3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình của Sở Nội vụ kèm theo danh sách đề nghị xét tặng danh hiệu “Tập thể lao động xuất sắc”, Bằng khen của Chủ tịch Ủy ban nhân dân thành phố về khen thưởng công trạng và các tệp tin điện tử của hồ sơ quy định tại điểm a khoản 3 Điều này.",
+          "code": "H57-KQ000056",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1e226-ba60-71ed-9a2f-918e313579c8"
+  ],
+  "resultIds": [
+    "01a1e23f-1b4f-742c-bfe1-1cddfee9133a"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dd22b-38df-740e-bdfc-18915a6eff9e"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dd22b-38df-740e-bdfc-18915a6eff9e",
+      "name": "Sở Nội Vụ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1e226-ba60-71ed-9a2f-918e313579c8",
+      "name": "Quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng áp dụng trên địa bàn thành phố Huế",
+      "code": "118/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1e23f-1b4f-742c-bfe1-1cddfee9133a",
+      "name": "Quyết định của Chủ tịch Ủy ban nhân dân thành phố về việc tặng danh hiệu “Tập thể lao động xuất sắc” hoặc tặng Bằng khen, hoặc văn bản thông báo kết quả giải quyết hồ sơ đối với trường hợp không được tặng danh hiệu hoặc không được tặng Bằng khen.",
+      "code": "KQ.H57.000112"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794880431607,
+  "updatedAt": 1794880431607,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Tập thể, cá nhân đạt được thành tích theo quy định đề nghị xét tặng danh hiệu “Tập thể lao động xuất sắc” và Bằng khen của Chủ tịch Ủy ban nhân dân thành phố về khen thưởng công trạng",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1e220-4209-7261-a74e-3fd90aeca1ce",
+    "proposalNumber": "3727/QĐ-UBND",
+    "decisionDate": 1794589200000,
+    "decisionNumber": null,
+    "publicationDate": 1794880431455,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

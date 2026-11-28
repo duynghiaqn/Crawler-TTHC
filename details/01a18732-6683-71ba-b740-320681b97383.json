@@ -1,0 +1,201 @@
+{
+  "id": "01a18732-6683-71ba-b740-320681b97383",
+  "code": "6.006845",
+  "codeNotation": "6.006845",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện",
+      "description": "Bước 1: Trong thời hạn 30 ngày, kể từ ngày phát hiện tài sản kết cấu hạ tầng cấp nước sạch bị mất, bị hủy hoại do thiên tai, hỏa hoạn hoặc các nguyên nhân khác, cơ quan, đơn vị được giao quản lý tài sản lập hồ sơ đề nghị xử lý tài sản kết cấu hạ tầng cấp nước sạch bị mất, bị hủy hoại gửi cơ quan quản lý cấp trên (nếu có) để tổng hợp, báo cáo cơ quan chuyên môn về cấp nước sạch.\nBước 2: Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ, cơ quan quản lý cấp trên (nếu có) có ý kiến bằng văn bản gửi cơ quan chuyên môn về cấp nước sạch.\nBước 3: Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ, cơ quan chuyên môn về cấp nước sạch có văn bản đề nghị trình Ủy ban nhân dân cấp tỉnh hoặc cơ quan được  Ủy ban nhân dân cấp tỉnh phân cấp thẩm quyền xem xét, quyết định.\nBước 4: Trong thời hạn 30 ngày, kể từ ngày nhận đủ hồ sơ, Ủy ban nhân dân cấp tỉnh hoặc cơ quan được  Ủy ban nhân dân cấp tỉnh phân cấp thẩm quyền xem xét, ban hành Quyết định xử lý tài sản kết cấu hạ tầng cấp nước sạch bị mất, bị hủy hoại hoặc có văn bản hồi đáp trong trường hợp đề nghị xử lý tài sản không phù hợp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 60 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 60 ngày kể từ ngày nhận đủ hồ sơ.\nPhí, lệ phí: Không có",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Xử lý tài sản kết cấu hạ tầng cấp nước sạch trong trường hợp bị mất, bị hủy hoại",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-151c1b2db88e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị xử lý của cơ quan, đơn vị được giao quản lý tài sản (trong đó nêu rõ lý do điều chuyển)",
+          "code": "G12.06.0059",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-24f2f648c3ba",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Danh mục tài sản bị mất, bị hủy hoại (tên tài sản; địa chỉ; loại hình công trình; năm đưa vào sử dụng; diện tích; công suất, số hộ sử dụng nước theo thiết kế và thực tế; giá trị; tình trạng tài sản):",
+          "code": "G12.06.0060",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-2a70629d1a5e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản xác định tài sản bị mất, bị hủy hoại",
+          "code": "G12.060061",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-2fa3ef3a4249",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ chứng minh việc tài sản bị mất, bị hủy hoại (nếu có)",
+          "code": "G12.060062",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: UBND cấp xã, đơn vị sự nghiệp công lập được giao quản lý tài sản kết cấu hạ tầng cấp nước sạch.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b46d-f14967ca6513"
+  ],
+  "resultIds": [
+    "019d2bb2-1c84-70e1-8f77-6b86b17ec3c7"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b46d-f14967ca6513",
+      "name": "Nghị định số 43/2022/NĐ-CP của Chính phủ quy định việc quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng cấp nước sạch",
+      "code": "43/2022/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c84-70e1-8f77-6b86b17ec3c7",
+      "name": "Quyết định xử lý tài sản kết cấu hạ tầng cấp nước sạch.",
+      "code": "KQ.G12.001422"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910950,
+  "updatedAt": 1794448910950,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: UBND cấp tỉnh hoặc cơ quan được  Ủy ban nhân dân cấp tỉnh phân cấp thẩm quyền.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "01a1e3a6-e40a-73f0-9ebb-a5166e7d570c",
+  "code": "6.006958",
+  "codeNotation": "6.006958",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Trong thời hạn 02 ngày làm việc kể từ ngày nhận kết luận của cơ quan có thẩm quyền xác định việc cá nhân, tập thể, hộ gia đình có hành vi vi phạm thuộc trường hợp phải hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng theo quy định của pháp luật, cấp đã trình khen thưởng có trách nhiệm báo cáo và gửi hồ sơ đề nghị hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng đến cấp có thẩm quyền đã khen thưởng."
+    },
+    {
+      "name": "",
+      "description": "b) Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, người có thẩm quyền đã quyết định khen thưởng xem xét, quyết định hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng theo thẩm quyền."
+    },
+    {
+      "name": "",
+      "description": "c) Sau khi có quyết định hủy bỏ, cơ quan, đơn vị, địa phương có liên quan thông báo cho đối tượng được khen thưởng và thực hiện việc thu hồi hiện vật khen thưởng, tiền thưởng theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Hồ sơ được gửi trực tiếp hoặc theo quy chế làm việc của cơ quan, đơn vị, địa phương.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Cá nhân, tập thể, hộ gia đình có hành vi vi phạm thuộc trường hợp phải hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng theo quy định của pháp luật",
+  "name": "Thủ tục hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng của Thủ trưởng các cơ quan, đơn vị, địa phương thuộc thành phố",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ đề nghị hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng (01 bản chính và các tệp tin điện tử của hồ sơ), gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1e278-1c42-75ab-9519-1fc63b3b57c7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình của cấp đã trình khen thưởng đề nghị hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng của cá nhân, tập thể, hộ gia đình",
+          "code": "H57-KQ000095",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e278-5a45-73e8-a686-49fd6c7cfbab",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo của cấp đã trình khen thưởng về lý do trình cấp có thẩm quyền hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng (kèm theo Quyết định khen thưởng).",
+          "code": "H57-KQ000096",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a1e278-ad15-7420-8de5-134fa21142c4"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6ada-753f-9ac8-567452168685"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6ada-753f-9ac6-bc0a7a1a53b2",
+    "01a17cd9-a562-71d8-9800-b5bbab5cee6b"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-567452168685",
+      "name": "Cơ quan khác",
+      "code": "CQK"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6ada-753f-9ac6-bc0a7a1a53b2",
+      "name": "Thủ trưởng cơ quan",
+      "code": "BQP-TTCQ"
+    },
+    {
+      "id": "01a17cd9-a562-71d8-9800-b5bbab5cee6b",
+      "name": "Chủ tịch Ủy ban nhân dân cấp xã",
+      "code": "CQCM-NNMT-CHUTICHXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a1e278-ad15-7420-8de5-134fa21142c4",
+      "name": "Quyết định hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng của người có thẩm quyền.",
+      "code": "KQ.H57.000195"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794880431606,
+  "updatedAt": 1794880431606,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan khác",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Hồ sơ được gửi trực tiếp hoặc theo quy chế làm việc của cơ quan, đơn vị, địa phương.",
+  "delegatedAgencies": "Thủ trưởng cơ quan, Chủ tịch Ủy ban nhân dân cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Cá nhân, tập thể, hộ gia đình có hành vi vi phạm thuộc trường hợp phải hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng theo quy định của pháp luật",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1e220-4209-7261-a74e-3fd90aeca1ce",
+    "proposalNumber": "3727/QĐ-UBND",
+    "decisionDate": 1794589200000,
+    "decisionNumber": null,
+    "publicationDate": 1794880431455,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "id": "019f6f8c-e0af-7408-87c6-29fd994db108",
+  "code": "1.115882",
+  "codeNotation": "1.115882",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa (Trung tâm phục vụ hành chính công tỉnh, Trung tâm phục vụ hành chính công cấp xã).\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Sở Nông nghiệp và Môi trường đối với trường hợp thu hồi Giấy chứng nhận đã cấp lần đầu. \n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai đối với trường hợp thu hồi Giấy chứng nhận đã cấp khi thực hiện thủ tục đăng ký biến động đất đai, tài sản gắn liền với đất.\nBước 3: Sở Nông nghiệp và Môi trường, Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai kiểm tra, xem xét, quyết định thu hồi hoặc quyết định hủy Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai (trừ trường hợp người được cấp Giấy chứng nhận đã thực hiện thủ tục chuyển quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật).\nSở Nông nghiệp và Môi trường Chuyển hồ sơ đã giải quyết đến Văn phòng đăng ký đất đai để thực hiện chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.\nBước 4: Người sử dụng đất nghị cấp lại Giấy chứng nhận sau khi thu hồi\nnộp hồ sơ theo thủ tục tương ứng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thời gian thu hồi Giấy chứng nhận đã cấp không quá 20 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 30 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 30 ngày làm việc",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 30 ngày làm việc",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f6f88-ffbf-770f-9365-6dd5bbf3f104",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản kiến nghị việc cấp Giấy chứng nhận không đúng quy định của pháp luật đất đai (bản chính)",
+          "code": "TP-H14.79",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f6dd6-420d-73ec-8755-f434369d0bb5",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng nhận quyền sử dụng đất đã cấp",
+          "code": "TP-H14.27",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f6a4a-0f53-70dd-90f4-7f8e48fb65d9"
+  ],
+  "resultIds": [
+    "019f6f8c-a900-745c-85d8-58e23e9c8067"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b10-613384c5b347"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b10-613384c5b347"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6ada-753f-9ac7-10f06892bef7"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b10-613384c5b347",
+      "name": "Văn phòng đăng ký đất đai",
+      "code": "H35.12.10"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b10-613384c5b347",
+      "name": "Văn phòng đăng ký đất đai",
+      "code": "H35.12.10"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6ada-753f-9ac7-10f06892bef7",
+      "name": "Cơ quan thuế",
+      "code": "BTC-CQT"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+      "name": "Sở Nông nghiệp và Môi trường"
+    },
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+      "name": "Sở Nông nghiệp và Môi trường"
+    },
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f6a4a-0f53-70dd-90f4-7f8e48fb65d9",
+      "name": "Quyết định Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Cao Bằng",
+      "code": "37/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f6f8c-a900-745c-85d8-58e23e9c8067",
+      "name": "Quyết định thu hồi giấy chứng nhận đã cấp",
+      "code": "KQ-H14.11"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33b-e8250c0580ce",
+  "departmentPromulgateCode": "H14",
+  "departmentPromulgateName": "UBND tỉnh Cao Bằng",
+  "cases": [
+    {
+      "id": "019f7b13-98ad-7157-ada5-de77b05012ff",
+      "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện",
+      "code": "1.115882.01",
+      "processingDay": {
+        "qty": 20,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019f7b13-98bc-717f-b489-d0ec7c9311ae",
+      "name": "Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện  (Thu hồi Giấy chứng nhận đã cấp không đúng quy định của pháp luật đất đai do người sử dụng đất, chủ sở hữu tài sản gắn liền với đất phát hiện)",
+      "code": "1.115882.02",
+      "processingDay": {
+        "qty": 30,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1784474333335,
+  "updatedAt": 1784474333335,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng đăng ký đất đai",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công",
+  "delegatedAgencies": "Văn phòng đăng ký đất đai",
+  "coordinatingAgencies": "Cơ quan thuế",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f6a37-6263-74d9-904e-f9cb8c5dae81",
+    "proposalNumber": "1389/QĐ-UBND",
+    "decisionDate": 1784048400000,
+    "decisionNumber": null,
+    "publicationDate": 1784474331547,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33b-e8250c0580ce",
+      "name": "UBND tỉnh Cao Bằng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

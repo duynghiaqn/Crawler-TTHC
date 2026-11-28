@@ -1,0 +1,297 @@
+{
+  "id": "01a0b2bc-2e8b-72af-9807-ba861ba3eeec",
+  "code": "3.000733",
+  "codeNotation": "3.000733",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a)\tĐối tượng hoặc gia đình đối tượng hoặc người giám hộ đề nghị hưởng trợ cấp xã hội hàng tháng làm 01 Tờ khai và cung cấp 01 bản sao đối với mỗi loại giấy tờ liên quan gửi trực tiếp tại tại Trung tâm Phục vụ hành chính công thành phố/Trung tâm Phục vụ hành chính công cấp xã; qua dịch vụ bưu chính; hoặc trực tuyến trên Cổng Dịch vụ công Quốc gia theo quy định đến Chủ tịch UBND cấp xã nơi cư trú.\nb)\tTrong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ của đối tượng, Chủ tịch UBND cấp xã tổ chức xem xét, thực hiện xác thực và chuẩn hóa thông tin liên quan của đối tượng với cơ sở dữ liệu quốc gia về dân cư, quyết định và thực hiện chi trả trợ cấp xã hội hàng tháng cho đối tượng. Thời gian hưởng kể từ tháng Chủ tịch UBND cấp xã ký quyết định.\nTrường hợp không đủ điều kiện, trong thời hạn 03 ngày làm việc kể từ khi nhận hồ sơ của đối tượng, Chủ tịch UBND cấp xã trả lời bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc kể từ ngày tiếp nhận hồ sơ đầy đủ, hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "Đối tượng thuộc quy định tại khoản 1 Điều 2 Nghị quyết số 41/2025/NQ-HĐND",
+  "name": "Thủ tục trợ cấp xã hội hằng tháng cho đối tượng bảo trợ xã hội ở cộng đồng theo Điều 3 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ- UBND",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a09f2b-4de3-7302-a8f6-479f5b67d7d3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai theo Mẫu số 01, 02, 03, 04, 05, 06, 07, 08 kèm theo Quy định ban hành kèm theo Quyết định số 124/2026/QĐ- UBND",
+          "code": "TP-H17.000513",
+          "attachments": [
+            {
+              "id": "01a09f2b-47b4-75e8-9f29-331c6b7c6b57",
+              "fileName": "BieuMau_01-08.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a09f2b-47b4-75e8-9f29-331c6b7c6b57/BieuMau_01-08.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a09f2b-9eca-773b-96f0-221d2622b5ed",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy xác định mức độ khuyết tật đối với người khuyết tật.",
+          "code": "TP-H17.000514",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09f2b-dc01-724d-b8ad-f9dbe72cf325",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy ra viện đối với đối tượng mắc bệnh hiểm nghèo.",
+          "code": "TP-H17.000515",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09f23-7b6f-721c-957a-901cf451f159",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Xác nhận của cơ quan y tế có thẩm quyền đối với trường hợp nhiễm HIV/AIDS.",
+          "code": "TP-H17.000511",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09f2c-8194-705d-8197-7b44dcc34732",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định xuất ngũ hoặc xác nhận của cơ quan quân sự về thời gian tham gia quân đội đối với Bộ đội phục viên, xuất ngũ mắc bệnh tâm thần.",
+          "code": "TP-H17.000517",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09f2c-ed21-73cc-b119-0fc50c729185",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định của cơ quan bảo hiểm xã hội về ngừng hưởng trợ cấp mất sức lao động đối với đối tượng ngừng hưởng trợ cấp mất sức lao động.",
+          "code": "TP-H17.000518",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a09f2d-c3c8-745e-b314-bbf88d0882b3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy xác nhận của cơ sở giáo dục phổ thông, cơ sở giáo dục nghề nghiệp và cơ sở giáo dục đại học (công lập và ngoài công lập) đối với người từ 16 đến 22 tuổi đang đi học (mẫu số 08).",
+          "code": "TP-H17.000519",
+          "attachments": [
+            {
+              "id": "01a09f2d-bd5d-71de-87d6-5ac00c646980",
+              "fileName": "BieuMau_08.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a09f2d-bd5d-71de-87d6-5ac00c646980/BieuMau_08.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a09ee3-251e-7206-8754-f97fd4d04ccc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ liên quan khác (nếu có)",
+          "code": "TP-H17.000507",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "OTHER",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-6573ae6e97af"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a09ed6-0486-7606-b380-c185bc63b82d",
+    "01a09ed6-c17c-77f4-a132-b547cd5618d7"
+  ],
+  "resultIds": [
+    "01a09f2a-3061-7698-a8a3-8688a1c4abb2"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+      "name": "Bảo trợ xã hội",
+      "code": "G07-LĐ03"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-6573ae6e97af",
+    "name": "Bảo trợ xã hội",
+    "code": "G07-LĐ03"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a09ed6-0486-7606-b380-c185bc63b82d",
+      "name": "Quy định một số chính sách trợ giúp xã hội trên địa bàn thành phố Đà Nẵng",
+      "code": "Nghị quyết số 41/2025/NQ-HĐND (Thành phố Đà Nẵng)"
+    },
+    {
+      "id": "01a09ed6-c17c-77f4-a132-b547cd5618d7",
+      "name": "Quy định về thẩm quyền, hồ sơ, trình tự, thủ tục thực hiện chính sách trợ giúp xã hội theo Nghị quyết số 41/2025/NQ-HĐND",
+      "code": "124/2026/QĐ-UBND (thành phố Đà Nẵng)"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a09f2a-3061-7698-a8a3-8688a1c4abb2",
+      "name": "Quyết định trợ cấp xã hội hàng tháng cho đối tượng của Chủ tịch UBND cấp xã hoặc văn bản trả lời không đủ điều kiện để trợ cấp xã hội hàng tháng.",
+      "code": "KQ.H17.000308"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a85-74ec-a33d-803cf2496575",
+  "departmentPromulgateCode": "H17",
+  "departmentPromulgateName": "UBND Thành phố Đà Nẵng",
+  "cases": [
+    {
+      "id": "01a0cc49-a28f-76ba-9c15-77ba930e2b74",
+      "name": "Thủ tục trợ cấp xã hội hằng tháng cho đối tượng bảo trợ xã hội ở cộng đồng theo Điều 3 Quy định ban hành kèm theo Quyết định số 124/2026/QĐ- UBND",
+      "code": "3.000733.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790133045795,
+  "updatedAt": 1790133045795,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Đối tượng thuộc quy định tại khoản 1 Điều 2 Nghị quyết số 41/2025/NQ-HĐND",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a09ed0-e223-7106-83d1-874643a1972a",
+    "proposalNumber": "4088/QĐ-UBND",
+    "decisionDate": 1789059600000,
+    "decisionNumber": null,
+    "publicationDate": 1790133045722,
+    "issuingAgency": {
+      "id": "019d2be3-6a85-74ec-a33d-803cf2496575",
+      "name": "UBND Thành phố Đà Nẵng"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

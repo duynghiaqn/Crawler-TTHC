@@ -1,0 +1,221 @@
+{
+  "id": "01a2076b-718d-719f-89fe-b68582910fad",
+  "code": "6.006960",
+  "codeNotation": "6.006960",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan, đơn vị lập 01 bộ hồ sơ bản giấy (bản chính) và các tệp tin điện tử (file pdf, file word) của hồ sơ đề nghị xét tặng Kỷ niệm chương gửi đến Bộ Khoa học và Công nghệ;\n- Vụ Tổ chức cán bộ, Bộ Khoa học và Công nghệ thẩm định hồ sơ, trình Bộ trưởng quyết định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp trực tiếp tại Bộ Khoa học và Công nghệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp trực tuyến qua hệ thống văn bản điều hành (https://mst.gov.vn)",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp qua hệ thống bưu chính (địa chỉ cơ quan: 18 Nguyễn Du, Phường Cửa Nam, Thành phố Hà Nội)",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục đề nghị xét tặng Kỷ niệm chương “Vì sự nghiệp Khoa học và Công nghệ”",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a20769-1d69-76da-be13-b5d91d8becf4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình kèm theo danh sách trích ngang đề nghị xét tặng Kỷ niệm chương",
+          "code": "1.1.6",
+          "attachments": [
+            {
+              "id": "01a20768-dd29-720e-8e45-f947d86e78c7",
+              "fileName": "Mẫu Tờ trình kèm danh sách.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a20768-dd29-720e-8e45-f947d86e78c7/Mẫu Tờ trình kèm danh sách.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a20769-8e76-77dd-8fe2-4f60311ddd26",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo Quá trình công tác",
+          "code": "1.1.7",
+          "attachments": [
+            {
+              "id": "01a20769-8715-72cf-acce-a1c0eb9f6df4",
+              "fileName": "Mẫu Báo cáo quá trình công tác.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a20769-8715-72cf-acce-a1c0eb9f6df4/Mẫu Báo cáo quá trình công tác.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-14f00d4f0a62"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a2076b-0c43-77fc-82fd-9db167668e87"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7b-7208-ba4a-7fd0ff0ce547"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d0b-05be4d71ccc8"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a80-747a-9d0b-05be4d71ccc8"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+      "name": "Hoạt động khoa học và công nghệ",
+      "code": "G06-KC02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+    "name": "Hoạt động khoa học và công nghệ",
+    "code": "G06-KC02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+      "name": "Bộ Khoa học và Công nghệ",
+      "code": "G06"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+      "name": "Bộ Khoa học và Công nghệ",
+      "code": "G06"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a2076b-0c43-77fc-82fd-9db167668e87",
+      "name": "Thông tư quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng đối với ngành Khoa học và Công nghệ",
+      "code": "58/2026/TT-BKHCN."
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7b-7208-ba4a-7fd0ff0ce547",
+      "name": "Quyết định tặng Kỷ niệm chương",
+      "code": "KQ.G18.000203"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+  "departmentPromulgateCode": "G06",
+  "departmentPromulgateName": "Bộ Khoa học và Công nghệ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1795422254810,
+  "updatedAt": 1795422254810,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Khoa học và Công nghệ",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ Khoa học và Công nghệ, 18 Nguyễn Du, phường Cửa Nam, Hà Nội",
+  "delegatedAgencies": "Bộ Khoa học và Công nghệ",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a2076b-f434-713a-bf21-0b735f64a7bd",
+    "proposalNumber": "4508/QĐ-BKHCN.",
+    "decisionDate": 1795021200000,
+    "decisionNumber": null,
+    "publicationDate": 1795422254764,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+      "name": "Bộ Khoa học và Công nghệ"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME"
+      ]
+    }
+  ]
+}

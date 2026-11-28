@@ -1,0 +1,198 @@
+{
+  "id": "01a19a6b-f896-727c-b5aa-8c1e29e8fd35",
+  "code": "6.006880",
+  "codeNotation": "6.006880",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Cơ quan quản lý tài sản có trách nhiệm lập dự toán đối với các khoản chi phí liên quan đến việc xử lý tài sản, trình Thủ trưởng cơ quan quản lý tài sản phê duyệt (thời hạn phê duyệt dự toán là 30 ngày, kể từ ngày cơ quan quản lý tài sản nộp dự toán)\n- Trong thời hạn 30 ngày, kể từ ngày hoàn thành việc xử lý tài sản, cơ quan quản lý tài sản có trách nhiệm lập hồ sơ đề nghị thanh toán, gửi chủ tài khoản tạm giữ để chi trả chi phí xử lý tài sản hoặc có văn bản đề nghị gia hạn thời hạn thanh toán (văn bản nêu rõ lý do đề nghị gia hạn và thời hạn gia hạn nhưng không quá 30 ngày, kể từ ngày có văn bản đề nghị gia hạn) hoặc có văn bản xác nhận không phát sinh chi phí. Người đứng đầu cơ quan quản lý tài sản chịu trách nhiệm trước pháp luật về việc chậm gửi hồ sơ, văn bản và tính chính xác của khoản chi đề nghị thanh toán."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày\nPhí, lệ phí: Không có",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày\nPhí, lệ phí: Không có",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày\nPhí, lệ phí: Không có",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "name": "Quản lý, sử dụng số tiền thu được từ việc xử lý tài sản kết cấu hạ tầng đường thủy nội địa",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd76-92ff72fb5059",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thanh toán của cơ quan quản lý tài sản (trong đó nêu rõ số tiền thu được từ việc xử lý tài sản, tổng chi phí xử lý tài sản, thông tin về tài khoản tiếp nhận thanh toán) kèm theo bảng kê chi tiết các khoản chi: 01 bản chính. - Văn bản thẩm định dự toán của cơ quan có thẩm quyền theo quy định tại khoản 2 Điều này: 01 bản chính. - Quyết định xử lý tài sản của cơ quan, người có thẩm quyền: 01 bản sao. - Các hồ sơ, giấy tờ chứng minh cho các khoản chi như: Dự toán chi được duyệt; hợp đồng thuê dịch vụ thẩm định giá, đấu giá, phá dỡ và các dịch vụ khác (nếu có); hóa đơn, phiếu thu tiền (nếu có)",
+          "code": "G12.06.0093",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-c15959cc92e3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định xử lý tài sản của cơ quan, người có thẩm quyền",
+          "code": "G12.06.0067",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18aae-b911-752c-a8cb-f67173791de3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ, giấy tờ chứng minh cho các khoản chi như: Dự toán chi được duyệt; hợp đồng thuê dịch vụ thẩm định giá, đấu giá, phá dỡ và các dịch vụ khác (nếu có); hóa đơn, phiếu thu tiền (nếu có)",
+          "code": "G12.06.0095",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": true,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan quản lý tài sản quy định tại khoản 3 Điều 2 Nghị định số 12/2025/NĐ-CP ngày 20/01/2025 của Chính phủ của Chính phủ.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-8c9e03aa49d7"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-9ede21b86ac7"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-8c9e03aa49d7",
+      "name": "12/2025/NĐ-CP",
+      "code": "12/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-9ede21b86ac7",
+      "name": "Quyết định xử lý tài sản kết cấu hạ tầng đường thủy nội địa",
+      "code": "KQ.G12.000980"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910951,
+  "updatedAt": 1794448910951,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Thủ trưởng cơ quan quản lý tài sản.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "id": "01a115ad-5352-735c-b382-680509d88290",
+  "code": "1.117053",
+  "codeNotation": "1.117053",
+  "executionSteps": [
+    {
+      "name": "Trường hợp thửa đất đã được cấp Giấy chứng nhận thì thực hiện như sau",
+      "description": "a) Người sử dụng đất nộp văn bản tặng cho quyền sử dụng đất hoặc biên bản họp giữa đại diện thôn, ấp, làng, bản, buôn, bom, phum, sóc, tổ dân phố, điểm dân cư với người sử dụng đất về việc tặng cho quyền sử dụng đất và bản gốc Giấy chứng nhận đã cấp cho Trung tâm phục vụ hành chính công cấp xã/cấp tỉnh.\nTrường hợp có biên bản họp giữa Ủy ban nhân dân cấp xã với người sử dụng đất về việc tặng cho quyền sử dụng đất thì người sử dụng đất chỉ nộp bản gốc Giấy chứng nhận đã cấp cho Ủy ban nhân dân cấp xã nơi có đất.\nTrung tâm phục vụ hành chính công cấp xã/cấp tỉnh chuyển hồ sơ đến Cơ quan chuyên môn nông nghiệp và môi trường cấp xã;\nb) Cơ quan chuyên môn nông nghiệp và môi trường cấp xã kiểm tra hồ sơ, báo cáo tham mưu Ủy ban nhân dân cấp xã xem xét chuyển văn bản về việc tặng cho quyền sử dụng đất kèm theo Giấy chứng nhận đã cấp đến Văn phòng đăng ký đất đai;\nc) Văn phòng đăng ký đất đai thực hiện đo đạc chỉnh lý bản đồ địa chính hoặc trích đo bản đồ địa chính; chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; xác nhận thay đổi vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với trường hợp tặng cho một phần diện tích thửa đất.\nTrường hợp người sử dụng đất tặng cho toàn bộ diện tích đất đã được cấp Giấy chứng nhận thì thu hồi Giấy chứng nhận đã cấp để quản lý;\nd) Trao Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc chuyển Giấy chứng nhận tới Ủy ban nhân dân cấp xã để trao cho người được cấp theo quy định."
+    },
+    {
+      "name": "Trường hợp thửa đất chưa được cấp Giấy chứng nhận thì thực hiện như sau:",
+      "description": "a) Người sử dụng đất nộp văn bản tặng cho quyền sử dụng đất hoặc biên bản họp giữa đại diện thôn, ấp, làng, bản, buôn, bom, phum, sóc, tổ dân phố, điểm dân cư với người sử dụng đất về việc tặng cho quyền sử dụng đất cho Trung tâm phục vụ hành chính công cấp xã/cấp tỉnh.\nTrung tâm phục vụ hành chính công cấp xã/cấp tỉnh chuyển hồ sơ đến Cơ quan chuyên môn nông nghiệp và môi trường cấp xã.\nb) Cơ quan chuyên môn nông nghiệp và môi trường cấp xã kiểm tra hồ sơ, kiểm tra thực địa trong trường hợp mở rộng đường giao thông, báo cáo tham mưu Ủy ban nhân dân cấp xã xem xét giao Cơ quan chuyên môn nông nghiệp và môi trường cấp xã tổ chức thực hiện đo đạc chỉnh lý bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất theo quy định;\nc) Phần diện tích còn lại của thửa đất (nếu có) thì người sử dụng đất, chủ sở hữu tài sản gắn liền với đất thực hiện thủ tục đăng ký đất đai, cấp Giấy chứng nhận quyền sử dụng đất, tài sản gắn liền với đất lần đầu theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 10 ngày làm việc, không bao gồm thời gian thực hiện đăng ký đất đai, tài sản gắn liền với đất cho cá nhân. Trường hợp thực hiện thủ tục hành chính về đất đai tại địa bàn các xã miền núi, hải đảo, vùng có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn theo quy định hiện hành, tổng thời gian thực hiện được cộng thêm 10 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 10 ngày làm việc, không bao gồm thời gian thực hiện đăng ký đất đai, tài sản gắn liền với đất cho cá nhân. Trường hợp thực hiện thủ tục hành chính về đất đai tại địa bàn các xã miền núi, hải đảo, vùng có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn theo quy định hiện hành, tổng thời gian thực hiện được cộng thêm 10 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 10 ngày làm việc, không bao gồm thời gian thực hiện đăng ký đất đai, tài sản gắn liền với đất cho cá nhân. Trường hợp thực hiện thủ tục hành chính về đất đai tại địa bàn các xã miền núi, hải đảo, vùng có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn theo quy định hiện hành, tổng thời gian thực hiện được cộng thêm 10 ngày làm việc.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với trường hợp tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a1149a-f1a4-70f9-b7a3-100da36cf9a7"
+  ],
+  "subjectTypeIds": [
+    "019fa7b1-2cde-71fb-a141-17b47ab28898",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a1149a-f1a4-70f9-b7a3-100da36cf9a7",
+      "name": "Giấy chứng nhận quyền sử dụng đất",
+      "code": "H32.KQ.GCNQSDĐ"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019fa7b1-2cde-71fb-a141-17b47ab28898",
+      "name": "Ngân hàng Chính sách xã hội",
+      "code": "ĐT16"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b0b-eac587d5c164",
+  "departmentPromulgateCode": "H32",
+  "departmentPromulgateName": "UBND tỉnh Khánh Hòa",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791365648280,
+  "updatedAt": 1791365648280,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1140f-25a3-7641-a0fa-defdd64169f7",
+    "proposalNumber": "3377/QĐ-UBND",
+    "decisionDate": 1790182800000,
+    "decisionNumber": null,
+    "publicationDate": 1791365646844,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b0b-eac587d5c164",
+      "name": "UBND tỉnh Khánh Hòa"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

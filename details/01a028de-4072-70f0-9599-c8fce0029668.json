@@ -1,0 +1,213 @@
+{
+  "id": "01a028de-4072-70f0-9599-c8fce0029668",
+  "code": "1.116482",
+  "codeNotation": "1.116482",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a.\tTrường hợp Giấy phép bị mất, sai sót, hư hỏng hoặc có thay đổi về thông tin của tổ chức, tổ chức lập 01 bộ hồ sơ đề nghị điều chỉnh, cấp lại Giấy phép; gửi trực tiếp hoặc qua đường bưu điện hoặc trực tuyến về Cơ quan có thẩm quyền cấp phép;\nb.\tTrong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền cấp phép kiểm tra, cấp lại Giấy phép cho tổ chức. Trường hợp từ chối điều chỉnh, cấp lại, cơ quan có thẩm quyền cấp phép trả lời bằng văn bản và nêu rõ lý do;"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Thời hạn của Giấy phép cấp lại bằng thời hạn còn lại của Giấy phép đã cấp",
+  "name": "Điều chỉnh, cấp lại giấy phép xuất khẩu, nhập khẩu thuốc thú y và nguyên liệu làm thuốc thú y có chứa chất ma túy, tiền chất; thức ăn chăn nuôi, thức ăn thủy sản có chứa tiền chất và nguyên liệu làm thức ăn chăn nuôi, thức ăn thủy sản có chứa tiền chất",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a028d6-88e3-726c-9d5e-db3e49ba09b7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị gia hạn, trong đó nêu rõ lý do, thời gian đề nghị gia hạn",
+          "code": "000.00.00.G07-KQ002610",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a02885-e3ca-775c-8c85-be27dbaddd7d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu xác nhận, chứng minh các nội dung thay đổi, điều chỉnh",
+          "code": "000.00.00.G07-KQ002604",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "01a02313-4be6-702f-b641-946b7f2960e9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0231c-c17a-74ee-804a-764a470fa93a",
+    "01a0231e-bbab-7028-8e19-559d9af5aaf1"
+  ],
+  "resultIds": [
+    "01a028a6-16a0-77b0-8a56-1904763816da"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a02313-4be6-702f-b641-946b7f2960e9",
+      "name": "Kiểm soát các hoạt động hợp pháp liên quan đến ma túy",
+      "code": "G01-CA35"
+    }
+  ],
+  "category": {
+    "id": "01a02313-4be6-702f-b641-946b7f2960e9",
+    "name": "Kiểm soát các hoạt động hợp pháp liên quan đến ma túy",
+    "code": "G01-CA35"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0231c-c17a-74ee-804a-764a470fa93a",
+      "name": "Luật Phòng, chống ma túy năm 2025",
+      "code": "120/2025/QH15"
+    },
+    {
+      "id": "01a0231e-bbab-7028-8e19-559d9af5aaf1",
+      "name": "Quy định chi tiết và hướng dẫn thi hành một số điểu của Luật phòng chống ma túy ",
+      "code": "163/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a028a6-16a0-77b0-8a56-1904763816da",
+      "name": "Giấy phép/Văn bản không cấp phép xuất khẩu, nhập khẩu",
+      "code": "KQ.G07.000459"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787537980710,
+  "updatedAt": 1787537980710,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Thời hạn của Giấy phép cấp lại bằng thời hạn còn lại của Giấy phép đã cấp",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a022e9-ce24-7069-837e-472e8adbd993",
+    "proposalNumber": "5065/QĐ-BCA",
+    "decisionDate": 1786381200000,
+    "decisionNumber": null,
+    "publicationDate": 1787537979678,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": "019facde-c842-71ac-b74f-fd09cb97b29c",
+  "code": "1.116033",
+  "codeNotation": "1.116033",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công cấp tỉnh, Trung tâm Phục vụ hành chính công cấp xã hoặc thông qua dịch vụ bưu chính công ích hoặc nộp trực tuyến trên Cổng dịch vụ công. Việc lựa chọn địa điểm nộp hồ sơ không phụ thuộc vào địa bàn cấp xã nơi có đất.\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nTrung tâm Phục vụ hành chính công tiếp nhận hồ sơ và chuyển hồ sơ đến Sở Nông nghiệp và Môi trường đối với trường hợp Giấy chứng nhận đã cấp lần đầu có sai sót thuộc thẩm quyền giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất, công nhận quyền sử dụng đất của Chủ tịch Ủy ban nhân dân tỉnh. \nBước 2: Sở Nông nghiệp và Môi trường thực hiện:\n- Thông báo cho Văn phòng đăng ký đất đai chuyển hồ sơ cấp Giấy chứng nhận đến cơ quan có chức năng quản lý đất đai cấp tỉnh.\n- Kiểm tra hồ sơ, lập biên bản kết luận về nội dung và nguyên nhân sai sót.\nBước 3: Thực hiện xác nhận nội dung đính chính trên Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \nBước 4: Chuyển hồ sơ đến Văn phòng đăng ký đất đai để chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai.\n- Chuyển Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đến Trung tâm phục vụ hành chính công để trao cho người sử dụng đất."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 8,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 08 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 18,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 18 ngày làm việc.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đính chính Giấy chứng nhận đã cấp (cấp tỉnh - tỉnh Phú Thọ)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019fb1df-f471-76b0-b9ba-55d8992e30be",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 14 ban hành kèm theo Quyết định số 33/2026/QĐ-UBND ngày 29 tháng 6 năm 2026 của UBND tỉnh Phú Thọ",
+          "code": "H44.TPHS.00138",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb1e0-4d1f-76ac-9e41-7f48455bff11",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản gốc Giấy chứng nhận đã cấp",
+          "code": "H44.TPHS.00140",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb1e0-8c76-7410-b7e3-94d52d9b068b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ chứng minh sai sót thông tin về thửa đất, tài sản gắn liền với đất so với thông tin trên Giấy chứng nhận đã cấp đối với trường hợp sai sót thông tin về thửa đất, tài sản gắn liền với đất (nếu có)",
+          "code": "H44.TPHS.00141",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb1e0-c646-75cb-a061-2952a1001675",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp sai sót thông tin của người được cấp Giấy chứng nhận so với thông tin tại thời điểm đề nghị đính chính thì cơ quan giải quyết thủ tục có trách nhiệm khai thác, sử dụng thông tin về người được cấp Giấy chứng nhận trong Cơ sở dữ liệu quốc gia về dân cư, nếu không thể khai thác được thông tin thì nộp Giấy tờ chứng minh sai sót thông tin của người được cấp Giấy chứng nhận",
+          "code": "H44.TPHS.00142",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019fb1e1-2c71-71fe-8d11-40384198fb76",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp người sử dụng đất, chủ sở hữu tài sản gắn liền với đất thực hiện thủ tục thông qua người đại diện theo quy định của pháp luật về dân sự thì phải có văn bản về việc ủy quyền theo quy định của pháp luật về dân sự",
+          "code": "H44.TPHS.00144",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019f8cf0-675b-775d-94ab-b96500c631d5"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6adc-74f3-b272-e66d5054f354"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b18-2dde8e4c6913"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6adc-74f3-b272-e66d5054f354",
+      "name": "Chi cục Quản lý đất đai, đo đạc, bản đồ và viễn thám",
+      "code": "H44.45.02"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b18-2dde8e4c6913",
+      "name": "Sở Nông Nghiệp và Môi Trường - Tỉnh Phú Thọ",
+      "code": "H44.45"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    },
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019f8cf0-675b-775d-94ab-b96500c631d5",
+      "name": "Giấy chứng nhận. .",
+      "code": "GCN"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [
+    {
+      "id": "019fd0ed-aec5-71dc-a09c-389a7241ad00",
+      "name": "Đính chính Giấy chứng nhận đã cấp (cấp tỉnh - tỉnh Phú Thọ)",
+      "code": "1.116033.01",
+      "processingDay": {
+        "qty": 8,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1785397272388,
+  "updatedAt": 1785397272388,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Quản lý đất đai, đo đạc, bản đồ và viễn thám",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "1. Trực tiếp\n1.1. Trung tâm Phục vụ hành chính công tỉnh Phú Thọ (Sở Xây dựng).\n- Cơ sở 1: Địa chỉ: Số 398 - đường Trần Phú - phường Việt Trì - tỉnh Phú Thọ;\nĐT: 0210 2222 555.\n- Cơ sở 2: Địa chỉ: Số 5 - đường Nguyễn Trãi, phường Vĩnh Phúc, tỉnh Phú Thọ;\nĐT: 0211 3616 618.\n- Cơ sở 3: Địa chỉ: Số 485 - đường Trần Hưng Đạo, phường Hòa Bình, tỉnh Phú Thọ;\nĐT: 0218 3868 689.\n1.2. Trung tâm Phục vụ hành chính công các xã, phường trên địa bàn tỉnh Phú Thọ (dịch vụ công phi địa giới hành chính)\n2. Trực tuyến:\nĐịa chỉ truy cập: \nhttps://dichvucong.gov.vn/\n3. Dịch vụ Bưu chính công ích.",
+  "delegatedAgencies": "Sở Nông Nghiệp và Môi Trường - Tỉnh Phú Thọ",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019facb1-b74a-7752-abe0-45a36aafd4f7",
+    "proposalNumber": "2143/QĐ-UBND",
+    "decisionDate": 1782838800000,
+    "decisionNumber": null,
+    "publicationDate": 1785397269411,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

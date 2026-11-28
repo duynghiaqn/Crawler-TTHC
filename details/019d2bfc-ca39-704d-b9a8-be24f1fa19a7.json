@@ -1,0 +1,282 @@
+{
+  "id": "019d2bfc-ca39-704d-b9a8-be24f1fa19a7",
+  "code": "1.013479",
+  "codeNotation": "1.013479",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Doanh nghiệp, tổ chức khi mua tem điện tử thuốc lá, tem điện tử rượu điền đầy đủ thông tin trên Hệ thống Dịch vụ công trực tuyến (DVCTT) và đính kèm các giấy tờ theo yêu cầu.\nBước 2: Cơ quan hải quan tiếp nhận, kiểm tra hồ sơ mua tem.\nBước 3: Cơ quan hải quan bàn giao tem điện tử cho doanh nghiệp, tổ chức đề nghị mua tem."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Sau khi Doanh nghiệp, tổ chức nộp thành công hồ sơ lên Hệ thống Dịch vụ công trực tuyến.",
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Hồ sơ mua tem điện tử thuốc lá hoặc tem điện tử rượu nhập khẩu",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-7168-7766-84dd-ce7dc1d79241",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Số lượng hồ sơ: 01 (bộ).",
+          "code": "000.00.00.G01-KQ002801",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd78-870cecb4789a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị mua tem điện tử rượu/tem điện tử thuốc lá nhập khẩu theo Mẫu số 09/TEM Phụ lục VI kèm theo Thông tư số 93/2026/TT-BTC.",
+          "code": "000.00.00.G12-KQ013976",
+          "attachments": [
+            {
+              "id": "019f8d0b-0700-7459-9cba-d8591b582180",
+              "fileName": "Mẫu số 09.TEM.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f8d0b-0700-7459-9cba-d8591b582180/Mẫu số 09.TEM.doc"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b470-5059d2d50a11",
+    "019d2bb3-5d84-71c5-b673-f984e45ff67a",
+    "019d2bb3-5d86-7760-a63c-797a72f2fc9c",
+    "019d2bb3-5d87-7195-a444-f7af6096dd40",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f4f9f-9993-735f-bafe-9ee32a939d9e",
+    "019f7eee-65ff-7190-97bb-0d978182d268",
+    "019f8950-f814-75e9-9794-0f1fbb579324",
+    "019f8961-befe-72a0-bfd4-d723439f074a",
+    "019f8962-323c-72b9-8b93-9e34d4aeb1dc"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afeb-2571b4298f6c"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a84-779d-b3e1-ef2c2dac8162",
+    "019d2be3-6a90-761e-acd7-67d808ae72f6"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e1-ef2c2dac8162"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+      "name": "Hải quan",
+      "code": "G12-TC04"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-ef2c2dac8162",
+      "name": "Hải quan khu vực/ hải quan cửa khẩu",
+      "code": "BTCHQKV"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-67d808ae72f6",
+      "name": "Chi cục Hải quan khu vực",
+      "code": "CCHQ"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e1-ef2c2dac8162",
+      "name": "Hải quan khu vực/ hải quan cửa khẩu",
+      "code": "BTCHQKV"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b470-5059d2d50a11",
+      "name": "Quy định chi tiết một số điều và biện pháp thi hành Luật Phòng, chống tác hại của thuốc lá về kinh doanh thuốc lá",
+      "code": "67/2013/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-f984e45ff67a",
+      "name": "Luật 67/2006/QH11",
+      "code": "67/2006/QH11"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019f7eee-65ff-7190-97bb-0d978182d268",
+      "name": "Nghị định số 254/2026/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "code": "254/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8950-f814-75e9-9794-0f1fbb579324",
+      "name": "Thông tư số 93/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định việc in, phát hành, quản lý và sử dụng tem điện tử rượu và tem điện tử thuốc lá",
+      "code": "93/2026/TT-BTC "
+    },
+    {
+      "id": "019d2bb3-5d87-7195-a444-f7af6096dd40",
+      "name": "Nghị định số 70/2025/NĐ-CP ngày ngày 20 tháng 3 năm 2025 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hóa đơn, chứng từ.",
+      "code": "70/2025/NĐ-CP"
+    },
+    {
+      "id": "019f8961-befe-72a0-bfd4-d723439f074a",
+      "name": "Luật Chuyển đổi số số 148/2025/QH15",
+      "code": "148/2025/QH15"
+    },
+    {
+      "id": "019f8962-323c-72b9-8b93-9e34d4aeb1dc",
+      "name": "Luật An ninh mạng số 116/2025/QH15",
+      "code": "116/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d86-7760-a63c-797a72f2fc9c",
+      "name": "Nghị định 105/2017/NĐ-CP",
+      "code": "105/2017/NĐ-CP"
+    },
+    {
+      "id": "019f4f9f-9993-735f-bafe-9ee32a939d9e",
+      "name": "về việc sửa đổi, bổ sung một số điều của Quy chế xét tặng danh hiệu Nghệ nhân Thừa Thiên Huế trong lĩnh vực nghề thủ công mỹ nghệ ban hành kèm theo Quyết định số 64/2015/QĐ-UBND ngày 25 tháng 11 năm 2015;",
+      "code": "20/2023/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afeb-2571b4298f6c",
+      "name": "Tem điện tử thuốc lá nhập khẩu, tem điện tử rượu nhập khẩu được bàn giao cho doanh nghiệp, tổ chức để dán lên sản phẩm",
+      "code": "KQ.G12.000860"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019f8d2c-2f4a-7639-922b-0139d2c1d903",
+      "name": "Hồ sơ mua tem điện tử thuốc lá hoặc tem điện tử rượu nhập khẩu",
+      "code": "1.013479.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d2d36-787e-745d-a2c5-3aa47f0d9a98",
+      "name": "Hồ sơ mua tem điện tử thuốc lá hoặc tem điện tử rượu nhập khẩu",
+      "code": "1.013479.01",
+      "processingDay": {
+        "qty": 1,
+        "type": "OTHER"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559480377,
+  "updatedAt": 1784779910430,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Hải quan khu vực/ hải quan cửa khẩu, Chi cục Hải quan khu vực",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Hải quan khu vực/ hải quan cửa khẩu",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f8949-589b-7534-a278-afbc00c352f7",
+    "proposalNumber": "1932/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1784779910366,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

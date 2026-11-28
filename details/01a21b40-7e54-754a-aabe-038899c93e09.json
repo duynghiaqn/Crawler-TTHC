@@ -1,0 +1,288 @@
+{
+  "id": "01a21b40-7e54-754a-aabe-038899c93e09",
+  "code": "1.117162",
+  "codeNotation": "1.117162",
+  "executionSteps": [
+    {
+      "name": "Chấp thuận gia hạn thời gian tồn tại của công trình tạm sử dụng cho việc tổ chức các sự kiện",
+      "description": "- Đối với hồ sơ nộp trực tiếp, cơ quan có thẩm quyền thực hiện kiểm tra thành phần hồ sơ, nếu đủ thì tiếp nhận và viết phiếu hẹn trả kết quả, nếu không đủ thì hướng dẫn chủ đầu tư hoàn thiện hồ sơ theo quy định.\n- Đối với hồ sơ nộp qua dịch vụ bưu chính hoặc trực tuyến, trong thời hạn 0,5 giờ làm việc kể từ ngày nhận được hồ sơ, cơ quan có thẩm quyền kiểm tra thành phần hồ sơ, nếu đủ thì tiếp nhận, nếu không đủ, có văn bản thông báo đến tổ chức, cá nhân để bổ sung, hoàn thiện\n- Trong thời hạn 01 ngày làm việc kể từ khi nhận đủ hồ sơ theo quy định, Ủy ban nhân dân cấp xã tiến hành xem xét, thẩm định hồ sơ, nếu đủ điều kiện thì có văn bản chấp thuận gia hạn thời gian tồn tại của công trình tạm sử dụng cho việc tổ chức các sự kiện (theo mẫu số 04), trường hợp không chấp thuận thì phải có văn bản trả lời và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp trực tiếp hoặc dịch vụ bưu chính công ích hoặc trực tuyến.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp trực tiếp hoặc dịch vụ bưu chính công ích hoặc trực tuyến.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 1,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp trực tiếp hoặc dịch vụ bưu chính công ích hoặc trực tuyến.",
+      "fees": []
+    }
+  ],
+  "description": "Địa điểm, quy mô xây dựng được thiết kế, xây dựng tuân thủ quy chuẩn, tiêu chuẩn kỹ thuật; phù hợp cho việc tổ chức các sự kiện.",
+  "name": "Chấp thuận gia hạn thời gian tồn tại của công trình tạm sử dụng cho việc tổ chức các sự kiện",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a21b3d-5192-75c3-899e-a91fd0d3ad97",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị gia hạn thời gian tồn tại của công trình tạm sử dụng cho việc tổ chức các sự kiện",
+          "code": "H52-KQ000136",
+          "attachments": [
+            {
+              "id": "01a21b3d-3b10-718b-99ee-b28f362db664",
+              "fileName": "Mẫu số 03.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a21b3d-3b10-718b-99ee-b28f362db664/Mẫu số 03.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f3666-e3d6-702f-926b-ced690d453d0",
+    "01a21a87-8240-7103-979b-1880b69e7cd7",
+    "01a21b31-d891-702b-8445-8b8cadd7efc6"
+  ],
+  "resultIds": [
+    "01a21b3f-e125-724a-ac74-a40ea80391e7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019d2be3-6adb-7552-9a1b-9ec1a17fbdd9"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+      "name": "Hoạt động xây dựng",
+      "code": "G17-XD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+    "name": "Hoạt động xây dựng",
+    "code": "G17-XD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019d2be3-6adb-7552-9a1b-9ec1a17fbdd9",
+      "name": "Phòng Công nghệ và Sở hữu trí tuệ",
+      "code": "H21.09.04"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019e4f3a-61a2-7349-9976-d91057e644bd",
+    "019dd22b-38df-740e-bdfc-18915a6eff9e",
+    "019dbeb0-bbfd-709e-88ba-12512a11892b",
+    "019dae14-45ef-7462-9028-2facf17f028a",
+    "019da875-2375-73ee-b766-00768091be3a",
+    "019d951d-8d60-76f9-ba48-27dcc889b494",
+    "019d8f52-858e-71bc-98e7-8a22086c9d5e",
+    "019d9448-4f70-755d-9f51-d3e89652ee18",
+    "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+    "019d3810-8907-7195-8ecb-6e3d0c581f7e"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019e4f3a-61a2-7349-9976-d91057e644bd",
+      "name": "Sở Giáo dục và Đào tạo"
+    },
+    {
+      "id": "019dd22b-38df-740e-bdfc-18915a6eff9e",
+      "name": "Sở Nội Vụ"
+    },
+    {
+      "id": "019dbeb0-bbfd-709e-88ba-12512a11892b",
+      "name": "Sở tài chính"
+    },
+    {
+      "id": "019dae14-45ef-7462-9028-2facf17f028a",
+      "name": "Sở Tư pháp"
+    },
+    {
+      "id": "019da875-2375-73ee-b766-00768091be3a",
+      "name": "Sở Y tế"
+    },
+    {
+      "id": "019d951d-8d60-76f9-ba48-27dcc889b494",
+      "name": "Sở Khoa học và Công nghệ"
+    },
+    {
+      "id": "019d8f52-858e-71bc-98e7-8a22086c9d5e",
+      "name": "Sở Công Thương"
+    },
+    {
+      "id": "019d9448-4f70-755d-9f51-d3e89652ee18",
+      "name": "Sở Xây dựng"
+    },
+    {
+      "id": "019d8a38-d4a7-713d-9573-1e39f9f5c04f",
+      "name": "Sở Nông nghiệp và Môi trường"
+    },
+    {
+      "id": "019d3810-8907-7195-8ecb-6e3d0c581f7e",
+      "name": "Sở Văn hóa, Thể thao và Du lịch"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f3666-e3d6-702f-926b-ced690d453d0",
+      "name": "Nghị định số 217/2026/NĐ-CP ngày 19/6/2026 của Chính phủ quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng",
+      "code": "217/2026/NĐ-CP"
+    },
+    {
+      "id": "01a21a87-8240-7103-979b-1880b69e7cd7",
+      "name": "Ban hành Quy định một số nội dung về xây dựng công trình tạm sử dụng cho việc tổ chức các sự kiện và cấp giấy phép xây dựng có thời hạn trên địa bàn tỉnh Sơn La",
+      "code": "71/2026/QĐ-UBND"
+    },
+    {
+      "id": "01a21b31-d891-702b-8445-8b8cadd7efc6",
+      "name": "Luật Xây dựng số 135/2025/QH15 (gồm VIII Chương, 95 Điều), thay thế Luật Xây dựng 2014 và có hiệu lực thi hành từ ngày 01/7/2026 (một số điều khoản áp dụng từ 01/01/2026)",
+      "code": "Luật Xây dựng số 135/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a21b3f-e125-724a-ac74-a40ea80391e7",
+      "name": "Văn bản chấp thuận gia hạn thời gian tồn tại của công trình tạm sử dụng cho việc tổ chức các sự kiện",
+      "code": "KQ.H52.00036"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b23-90f0216d78e2",
+  "departmentPromulgateCode": "H52",
+  "departmentPromulgateName": "UBND tỉnh Sơn La",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1795769130242,
+  "updatedAt": 1795769130242,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Bộ phận tiếp nhận và trả kết quả tại Trung tâm Phục vụ hành chính công của Ủy ban nhân dân cấp xã",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "Phòng Công nghệ và Sở hữu trí tuệ",
+  "requirementsAndConditions": "Địa điểm, quy mô xây dựng được thiết kế, xây dựng tuân thủ quy chuẩn, tiêu chuẩn kỹ thuật; phù hợp cho việc tổ chức các sự kiện.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a21b35-6014-77a5-beb3-9fea45b89b39",
+    "proposalNumber": "2950/QĐ-UBND",
+    "decisionDate": 1795626000000,
+    "decisionNumber": null,
+    "publicationDate": 1795769130191,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b23-90f0216d78e2",
+      "name": "UBND tỉnh Sơn La"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

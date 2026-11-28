@@ -1,0 +1,250 @@
+{
+  "id": "01a21215-9c5a-723e-b2aa-73d4f3aa6434",
+  "code": "1.117153",
+  "codeNotation": "1.117153",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Giấy công nhận được cấp lại khi thay đổi thông tin của tổ chức hoặc khi Giấy công nhận bị mất, cháy, rách, nát hoặc bị tiêu hủy;\n- Tổ chức nộp 01 bộ hồ sơ đến Sở Khoa học và Công nghệ thông qua Trung tâm Phục vụ hành chính công Thành phố - Các Chi nhánh bằng hình thức trực tiếp hoặc trực tuyến trên Hệ thống thông tin giải quyết thủ tục hành chính thành phố Hà Nội hoặc qua dịch vụ bưu chính công ích.\n- Trong thời hạn 0,5 ngày làm việc kể từ thời điểm tiếp nhận hồ sơ, Trung tâm Phục vụ hành chính công Thành phố - Các Chi nhánh kiểm tra hình thức của hồ sơ và chuyển đến Sở Khoa học và Công nghệ;\nTrong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, Sở Khoa học và Công nghệ thông báo về tính hợp lệ của hồ sơ; \n- Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Khoa học và Công nghệ xem xét, ban hành quyết định cấp lại và cấp Giấy công nhận theo Biểu mẫu TTĐMST-GCN tại Phụ lục II ban hành kèm theo Quyết định này. \nThời hạn hiệu lực của Giấy công nhận cấp lại bằng thời hạn còn lại của Giấy công nhận đã được cấp. Trường hợp không cấp lại, Sở Khoa học và Công nghệ thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "5,5 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5.5,
+      "processingTimeUnit": "DAY",
+      "description": "5,5 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5.5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "5,5 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Giấy công nhận được cấp lại khi thay đổi thông tin của tổ chức hoặc khi Giấy công nhận bị mất, cháy, rách, nát hoặc bị tiêu hủy.",
+  "name": "Thủ tục cấp lại Giấy công nhận Trung tâm đổi mới sáng tạo trên địa bàn Thành phố; Trung tâm đổi mới sáng tạo cấp Thành phố",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a21247-4a49-7099-b14d-c1160cf9dc9c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị cấp lại Giấy công nhận theo Biểu mẫu TTĐMST-05 tại Phụ lục II ban hành kèm theo Quyết định số 160/2026/QĐ-UBND ngày 15/11/2026 của UBND Thành phố Quy định chi tiết thi hành Nghị quyết số 58/2026/NQ-HĐND ngày 15/6/2026 của HĐNDTPHN;",
+          "code": "ĐMST25112026-3.1",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a21247-9439-7240-83ce-e2f067006a78",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tài liệu chứng minh nội dung thay đổi hoặc văn bản cam kết về việc Giấy công nhận bị mất, cháy, rách, nát hoặc bị tiêu hủy.",
+          "code": "ĐMST25112026-3.2",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-14f00d4f0a62"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a21212-6016-7472-885b-dec7ee90e788",
+    "01a21212-b5fc-7279-9edf-a2f0dc13b742",
+    "01a21213-16ea-7578-a651-df54eb8738da"
+  ],
+  "resultIds": [
+    "01a21209-26ab-75af-8038-589aa9b592b7"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+      "name": "Hoạt động khoa học và công nghệ",
+      "code": "G06-KC02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-14f00d4f0a62",
+    "name": "Hoạt động khoa học và công nghệ",
+    "code": "G06-KC02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d951d-8d60-76f9-ba48-27dcc889b494"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d951d-8d60-76f9-ba48-27dcc889b494"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [
+    "019dbd08-967d-70bc-844a-029f8bf4749e"
+  ],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d951d-8d60-76f9-ba48-27dcc889b494",
+      "name": "Sở Khoa học và Công nghệ"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d951d-8d60-76f9-ba48-27dcc889b494",
+      "name": "Sở Khoa học và Công nghệ"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [
+    {
+      "id": "019dbd08-967d-70bc-844a-029f8bf4749e",
+      "name": "Trung tâm phục vụ hành chính công"
+    }
+  ],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a21212-6016-7472-885b-dec7ee90e788",
+      "name": "Nghị quyết số 05/2026/NQHĐND ngày 11/5/2026 của Hội đồng nhân dân thành phố Hà Nội quy định một số nội dung về xây dựng, ban hành văn bản quy phạm pháp luật để tổ chức thi hành Luật Thủ đô",
+      "code": "05/2026/NQHĐND"
+    },
+    {
+      "id": "01a21212-b5fc-7279-9edf-a2f0dc13b742",
+      "name": "- Nghị quyết số 58/2026/NQHĐND ngày 15/6/2026 của HĐND Thành phố của HĐND thành phố Hà Nội quy định chính sách phát triển khởi nghiệp sáng tạo, đổi mới sáng tạo, bảo vệ quyền sở hữu trí tuệ trên địa bàn thành phố Hà Nội.",
+      "code": " 58/2026/NQHĐND"
+    },
+    {
+      "id": "01a21213-16ea-7578-a651-df54eb8738da",
+      "name": "Quyết định số 160/2026/QĐ-UBND ngày 15 /11/2026 Quy định chi tiết thi hành Nghị quyết số 58/2026/NQ-HĐND ngày 15/6/2026 của HĐND thành phố Hà Nội.",
+      "code": " 160/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a21209-26ab-75af-8038-589aa9b592b7",
+      "name": "Quyết định công nhận và Giấy công nhận",
+      "code": "QD251126"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a86-70a8-a0af-76e986804225",
+  "departmentPromulgateCode": "H26",
+  "departmentPromulgateName": "UBND Thành phố Hà Nội",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1795660721536,
+  "updatedAt": 1795660721536,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp trực tiếp tại các Chi nhánh- TTPHVCC TP, trực tuyến trên Hệ thống thông tin giải quyết thủ tục hành chính thành phố Hà Nội hoặc qua dịch vụ bưu chính công ích.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Giấy công nhận được cấp lại khi thay đổi thông tin của tổ chức hoặc khi Giấy công nhận bị mất, cháy, rách, nát hoặc bị tiêu hủy.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a21218-1095-7646-95d7-f28c67dbb3fa",
+    "proposalNumber": "1346/QĐ-TTPVHCC",
+    "decisionDate": 1795539600000,
+    "decisionNumber": null,
+    "publicationDate": 1795660720734,
+    "issuingAgency": {
+      "id": "019d2be3-6a86-70a8-a0af-76e986804225",
+      "name": "UBND Thành phố Hà Nội"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

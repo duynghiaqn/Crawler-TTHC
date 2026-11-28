@@ -1,0 +1,235 @@
+{
+  "id": "019d2bff-f8e3-758b-92cb-e5b77fe729ef",
+  "code": "2.002567",
+  "codeNotation": "2.002567",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Căn cứ tình hình tham nhũng và công tác phòng, chống tham nhũng ở các ngành, lĩnh vực và địa phương và yêu cầu, chỉ đạo của cơ quan, tổ chức có thẩm quyền trong công tác phòng, chống tham nhũng thì Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ chỉ đạo cơ quan thanh tra (nơi không có cơ quan thanh tra thì chỉ đạo đơn vị phụ trách công tác cán bộ) xây dựng kế hoạch xác minh tài sản, thu nhập hằng năm.\n- Bước 2: Trước ngày 31 tháng 01 hằng năm, người đứng đầu Cơ quan kiểm soát tài sản thu nhập quy định tại Khoản 1,3,4,5,6,7,8 Điều 30 Luật Phòng chống tham nhũng phê duyệt nội dung và ban hành kế hoạch xác minh; Chánh thanh tra tỉnh ban hành kế hoạch xác minh hằng năm sau khi trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt.\n- Bước 3: Trong thời hạn 10 ngày kể từ ngày kế hoạch xác minh được ban hành, cơ quan kiểm soát tài sản thu nhập tổ chức lựa chọn ngẫu nhiên người được xác minh. Việc lựa chọn được thực hiện công khai bằng hình thức bốc thăm hoặc sử dụng phần mềm máy tính. Số lượng người được lựa chọn để xác minh ngẫu nhiên phải bảo đảm tối thiểu 10% số người có nghĩa vụ kê khai hàng năm tại cơ quan,  trong đó có ít nhất 01 người là người đứng đầu hoặc cấp phó của người đứng đầu cục, vụ, đơn vị."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "OTHER",
+      "description": "",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thủ tục xây dựng, phê duyệt kế hoạch xác minh tài sản, thu nhập hàng năm",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71cc-71f4-8332-d6c9d9250782",
+          "originalQty": 0,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Không quy định",
+          "code": "000.00.00.G20-KQ000160",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b5-9af94ff8e836"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-db2ba22210f1"
+  ],
+  "resultIds": [
+    "019d2bb2-1c7e-720f-afcd-e8162768bf98"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-dd984729b638",
+    "019d2be3-6a85-74ec-a344-1d01a62633bd",
+    "019d2be3-6ada-753f-9ac5-24de9eba9f82",
+    "019d2be3-6ada-753f-9ac8-3933d4ceb744",
+    "019d2be3-6adc-74f3-b276-c3e6856ed7a9",
+    "019d2be3-6adc-74f3-b277-d16155968c2d",
+    "019d2be3-6adc-74f3-b277-e40b48e58456",
+    "019d2be3-6adc-74f3-b277-fee0aa6bbd79",
+    "019d2be3-6adc-74f3-b278-0388d7f68513"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b5-9af94ff8e836",
+      "name": "Phòng, chống tham nhũng",
+      "code": "G20-TH01"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b5-9af94ff8e836",
+    "name": "Phòng, chống tham nhũng",
+    "code": "G20-TH01"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-dd984729b638",
+      "name": "Thanh tra Chính phủ",
+      "code": "G20"
+    },
+    {
+      "id": "019d2be3-6adc-74f3-b277-d16155968c2d",
+      "name": "Ủy ban thường vụ quốc hội",
+      "code": "UBTV"
+    },
+    {
+      "id": "019d2be3-6ada-753f-9ac5-24de9eba9f82",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "code": "BCCNB"
+    },
+    {
+      "id": "019d2be3-6adc-74f3-b276-c3e6856ed7a9",
+      "name": "Kiểm toán Nhà nước",
+      "code": "KTNN"
+    },
+    {
+      "id": "019d2be3-6a85-74ec-a344-1d01a62633bd",
+      "name": "Thanh tra tỉnh Đồng Nai",
+      "code": "H19.6"
+    },
+    {
+      "id": "019d2be3-6ada-753f-9ac8-3933d4ceb744",
+      "name": "Cơ quan có thẩm quyền của Đảng Cộng sản Việt Nam, tổ chức chính trị - xã hội",
+      "code": "CQCTQ"
+    },
+    {
+      "id": "019d2be3-6adc-74f3-b277-e40b48e58456",
+      "name": "Viện Kiểm sát nhân dân tối cao",
+      "code": "VKSNDTC"
+    },
+    {
+      "id": "019d2be3-6adc-74f3-b277-fee0aa6bbd79",
+      "name": "Văn phòng Chủ tịch nước",
+      "code": "VPCTN"
+    },
+    {
+      "id": "019d2be3-6adc-74f3-b278-0388d7f68513",
+      "name": "Văn phòng Quốc hội",
+      "code": "VPQH"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-db2ba22210f1",
+      "name": "Luật Phòng, chống tham nhũng",
+      "code": "36/2018/QH14"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c7e-720f-afcd-e8162768bf98",
+      "name": "Kế hoạch xác minh tài sản, thu nhập được ban hành.",
+      "code": "KQ.G20.000019"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-dd984729b638",
+  "departmentPromulgateCode": "G20",
+  "departmentPromulgateName": "Thanh tra Chính phủ",
+  "cases": [
+    {
+      "id": "01a1e851-f1cc-77a4-9320-83aac08fef35",
+      "name": "Thủ tục xây dựng, phê duyệt kế hoạch xác minh tài sản, thu nhập hàng năm",
+      "code": "2.002567",
+      "processingDay": {
+        "qty": 1,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1794899046087,
+  "updatedAt": 1794899046087,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Thanh tra Chính phủ, Ủy ban thường vụ quốc hội, Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Kiểm toán Nhà nước, Thanh tra tỉnh Đồng Nai, Cơ quan có thẩm quyền của Đảng Cộng sản Việt Nam, tổ chức chính trị - xã hội, Viện Kiểm sát nhân dân tối cao, Văn phòng Chủ tịch nước, Văn phòng Quốc hội",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019d2ca7-1327-7603-9bb8-4fe55451541a",
+    "proposalNumber": "457/QĐ-TTCP",
+    "decisionDate": 1702227600000,
+    "decisionNumber": null,
+    "publicationDate": 1794899045878,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-dd984729b638",
+      "name": "Thanh tra Chính phủ"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": true,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

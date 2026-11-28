@@ -1,0 +1,219 @@
+{
+  "id": "01a1f857-36fd-7797-acff-6d7ef670216f",
+  "code": "1.117150",
+  "codeNotation": "1.117150",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1. Thương nhân gửi 01 bộ hồ sơ đến cơ quan cấp phép."
+    },
+    {
+      "name": "",
+      "description": "2. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định, cơ quan cấp phép xem xét cấp lại Giấy phép cho thương nhân hoặc có văn bản thông báo từ chối cấp lại, nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "DAY",
+      "description": "05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ theo quy định.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Cấp lại giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ do mất, thất lạc, hư hỏng giấy phép.",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1f82b-1eb3-726e-ae6a-e460849eabbe",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị cấp lại Giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ (do mất, thất lạc, hư hỏng giấy phép);",
+          "code": "000.00.00.G06-KQ001401",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1f83c-6f38-76e5-87b1-b49f8d888183",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu có liên quan (nếu có).",
+          "code": "000.00.00.G06-KQ001402",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b2-2f587e315cc3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a1f856-c29a-71e8-b6bb-caff38ccc87d"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+      "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+      "code": "G14-TT04"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b2-2f587e315cc3",
+    "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
+    "code": "G14-TT04"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a1f856-c29a-71e8-b6bb-caff38ccc87d",
+      "name": "Giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ hoặc văn bản thông báo từ chối cấp lại, nêu rõ lý do.",
+      "code": "000.00.00.G06-KQ001403"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+  "departmentPromulgateCode": "G06",
+  "departmentPromulgateName": "Bộ Khoa học và Công nghệ",
+  "cases": [
+    {
+      "id": "01a211b0-4530-7008-9cec-dd1686ad8b88",
+      "name": "Cấp lại giấy phép xuất khẩu, tạm nhập tái xuất, chuyển khẩu, trung chuyển, quá cảnh hàng hóa lưỡng dụng thuộc thẩm quyền quản lý của Bộ Khoa học và Công nghệ do mất, thất lạc, hư hỏng giấy phép.",
+      "code": "1.117150.01",
+      "processingDay": {
+        "qty": 5,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1795170371751,
+  "updatedAt": 1795170371751,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1f713-d306-7369-a745-be2717d5db33",
+    "proposalNumber": "4502/QĐ-BKHCN",
+    "decisionDate": 1795021200000,
+    "decisionNumber": null,
+    "publicationDate": 1795170371693,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d0b-05be4d71ccc8",
+      "name": "Bộ Khoa học và Công nghệ"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "id": "01a0aedd-ac13-7085-85ed-1033a5fa81d3",
+  "code": "1.117054",
+  "codeNotation": "1.117054",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ tại Trung tâm Phục vụ hành chính công hoặc trực tuyến trên Cổng Dịch vụ công quốc gia hoặc ứng dụng định danh quốc gia hoặc thông qua dịch vụ bưu chính công ích.\nBước 2: Trung tâm Phục vụ hành chính công thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện việc lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai và thông báo cho người yêu cầu."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 13,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 13 ngày làm việc.\nĐối với các xã miền núi, biên giới; đặc khu Cồn Cỏ; các xã khó khăn, xã đặc biệt khó khăn theo quyết định của cấp có thẩm quyền thì thời gian thực hiện đối với thủ tục hành chính được tăng thêm 07 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 1,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 13,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 13 ngày làm việc.\nĐối với các xã miền núi, biên giới; đặc khu Cồn Cỏ; các xã khó khăn, xã đặc biệt khó khăn theo quyết định của cấp có thẩm quyền thì thời gian thực hiện đối với thủ tục hành chính được tăng thêm 07 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 1,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 13,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Không quá 13 ngày làm việc.\nĐối với các xã miền núi, biên giới; đặc khu Cồn Cỏ; các xã khó khăn, xã đặc biệt khó khăn theo quyết định của cấp có thẩm quyền thì thời gian thực hiện đối với thủ tục hành chính được tăng thêm 07 ngày làm việc.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 1,
+          "currencyId": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "attachment": null,
+          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+          "currencyName": "Việt Nam Đồng"
+        }
+      ]
+    }
+  ],
+  "description": "Không",
+  "name": "(Quảng Trị) Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0fc33-e6bc-76c8-a10e-e284d2816f3b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 13 ban hành kèm theo Quyết định số 59/2026/QĐ-UBND ngày 23/7/2026 của UBND tỉnh Quảng Trị",
+          "code": "H50.TPHS0152",
+          "attachments": [
+            {
+              "id": "01a0fc33-df9a-71ec-a9b4-ca5bf18e5627",
+              "fileName": "Mẫu số 13.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0fc33-df9a-71ec-a9b4-ca5bf18e5627/Mẫu số 13.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0fc36-6c13-73fa-8513-5653718d5895",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kết quả rà soát hiện trạng sử dụng đất theo Mẫu số 13đ ban hành kèm theo Quyết định số 59/2026/QĐ-UBND ngày 23/7/2026 của UBND tỉnh Quảng Trị (Trường hợp đối tượng được giao quản lý đất theo quy định tại khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15)",
+          "code": "H50.TPHS0153",
+          "attachments": [
+            {
+              "id": "01a0fc36-49dd-71f0-af00-91f99b47a5c7",
+              "fileName": "Mẫu số 13đ.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0fc36-49dd-71f0-af00-91f99b47a5c7/Mẫu số 13đ.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Đăng ký đất đai lần đầu, Đăng ký đất đai, lần đầu, Nhà nước giao đất, quản lý",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019eab71-e707-70af-996a-4e5b8b36e53e",
+    "019ff439-01f8-77a8-9283-f80efea13a33",
+    "019ff547-6a69-7038-a010-d5ec1e9fd252",
+    "01a08ac7-9f69-714f-b73a-7159f239f942",
+    "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+    "01a0b229-6c81-73cf-b713-afdd42ad3b80"
+  ],
+  "resultIds": [
+    "01a0d162-9615-729b-8a80-eb8eb8a033e5"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a86-70a8-a0ae-6eb1f5ec76fd"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b10-613384c5b347"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a86-70a8-a0ae-6eb1f5ec76fd",
+      "name": "Văn phòng Đăng ký đất đai",
+      "code": "H24.60.4"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b10-613384c5b347",
+      "name": "Văn phòng đăng ký đất đai",
+      "code": "H35.12.10"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorityIds": [
+    "019dca9f-47ec-7779-bf66-0d8ac35ad4db"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019dca9f-47ec-7779-bf66-0d8ac35ad4db",
+      "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff547-6a69-7038-a010-d5ec1e9fd252",
+      "name": "Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "Nghị định 118/2025/NĐ-CP "
+    },
+    {
+      "id": "01a08ac7-9f69-714f-b73a-7159f239f942",
+      "name": "Sửa đổi, bổ sung một số điều của các nghị định quy định chi tiết thi hành Luật Đất đai",
+      "code": "Nghị định số 226/2025/NĐ-CP"
+    },
+    {
+      "id": "01a08ac8-be3c-71ad-9995-7ca9081fabfc",
+      "name": "Quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "Nghị định số 49/2026/NĐ-CP"
+    },
+    {
+      "id": "01a0b229-6c81-73cf-b713-afdd42ad3b80",
+      "name": "Quy định trình tự, thủ tục hành chính lĩnh vực đất đai áp dụng trên địa bàn tỉnh Quảng Trị",
+      "code": "59/2026/QĐ-UBND"
+    },
+    {
+      "id": "019ff439-01f8-77a8-9283-f80efea13a33",
+      "name": "quy định về điều tra cơ bản đất đai; đăng ký, cấp GCNQSD đất, quyền sở hữu tài sản gắn liền với đất và hệ thống thông tin đất đai",
+      "code": " 101/2024/NĐ-CP ngày 29/7/2024 "
+    },
+    {
+      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
+      "name": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
+      "code": "31/2024/QH15 "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0d162-9615-729b-8a80-eb8eb8a033e5",
+      "name": "Lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai",
+      "code": "H50.KQ.HSDC"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b20-29251b1ac762",
+  "departmentPromulgateCode": "H50",
+  "departmentPromulgateName": "UBND tỉnh Quảng Trị",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791394099609,
+  "updatedAt": 1791394099609,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng Đăng ký đất đai",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công",
+  "delegatedAgencies": "Văn phòng đăng ký đất đai",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ae89-0763-77f8-a94d-fffa932e509e",
+    "proposalNumber": "3883/QĐ-UBND",
+    "decisionDate": 1791306000000,
+    "decisionNumber": null,
+    "publicationDate": 1791394099405,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b20-29251b1ac762",
+      "name": "UBND tỉnh Quảng Trị"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

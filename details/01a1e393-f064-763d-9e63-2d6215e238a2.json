@@ -1,0 +1,268 @@
+{
+  "id": "01a1e393-f064-763d-9e63-2d6215e238a2",
+  "code": "6.006952",
+  "codeNotation": "6.006952",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Trong thời hạn 01 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cấp đã trình khen thưởng kiểm tra, đối chiếu với hồ sơ lưu, xác nhận và chuyển hồ sơ đến Sở Nội vụ."
+    },
+    {
+      "name": "",
+      "description": "b) Trong thời hạn 04 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Nội vụ thẩm định, lấy ý kiến cơ quan có liên quan khi cần thiết và trình Chủ tịch Ủy ban nhân dân thành phố xem xét, quyết định."
+    },
+    {
+      "name": "",
+      "description": "c) Trong thời hạn 02 ngày làm việc kể từ ngày nhận được tờ trình của Sở Nội vụ, Chủ tịch Ủy ban nhân dân thành phố xem xét, cấp Giấy chứng nhận cấp lại hiện vật khen thưởng theo thẩm quyền."
+    },
+    {
+      "name": "",
+      "description": "d) Sau khi có Giấy chứng nhận, Sở Nội vụ tổ chức thực hiện việc cấp lại hiện vật khen thưởng."
+    },
+    {
+      "name": "",
+      "description": "đ) Trường hợp hồ sơ không đầy đủ hoặc không đáp ứng điều kiện cấp lại, cơ quan tiếp nhận hồ sơ hướng dẫn bổ sung hoặc thông báo bằng văn bản, nêu rõ lý do và căn cứ pháp lý."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Tập thể, cá nhân, hộ gia đình được tặng hiện vật khen thưởng của thành phố có đề nghị cấp lại thuộc trường hợp quy định.",
+  "name": "Thủ tục Cấp lại hiện vật khen thưởng của thành phố",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "a) Hồ sơ đề nghị cấp lại hiện vật khen thưởng (01 bản chính và các tệp tin điện tử của hồ sơ), gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1e25c-ce6d-772b-841b-fb8d5f1ae616",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Công văn đề nghị cấp lại hiện vật khen thưởng của tập thể hoặc đơn đề nghị cấp lại hiện vật khen thưởng của cá nhân, hộ gia đình khi có hiện vật khen thưởng bị thất lạc, bị mất do khách quan như thiên tai, lũ lụt, hỏa hoạn (theo mẫu số 16 hoặc mẫu số 17 Phụ lục kèm theo Quyết định này).",
+          "code": "H57-KQ000030",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e25d-0fdb-75a9-9a1a-f524ff12ae27",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Công văn của cấp đã trình khen thưởng đề nghị cấp lại hiện vật khen thưởng kèm theo danh sách cá nhân, tập thể, hộ gia đình đề nghị cấp lại hiện vật khen thưởng.",
+          "code": "H57-KQ000031",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "b) Hồ sơ Sở Nội vụ trình Chủ tịch Ủy ban nhân dân thành phố gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1e25d-8fca-75b9-81bf-e8d9ca75041f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình của Sở Nội vụ kèm theo các tệp tin điện tử của hồ sơ quy định tại điểm a khoản 3 Điều này.",
+          "code": "H57-KQ000033",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1e226-ba60-71ed-9a2f-918e313579c8"
+  ],
+  "resultIds": [
+    "01a1e25d-f7f6-7565-a930-cd16a0fb37d8"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dd22b-38df-740e-bdfc-18915a6eff9e"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dd22b-38df-740e-bdfc-18915a6eff9e",
+      "name": "Sở Nội Vụ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1e226-ba60-71ed-9a2f-918e313579c8",
+      "name": "Quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng áp dụng trên địa bàn thành phố Huế",
+      "code": "118/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1e25d-f7f6-7565-a930-cd16a0fb37d8",
+      "name": "Giấy chứng nhận cấp lại hiện vật khen thưởng của Chủ tịch Ủy ban nhân dân thành phố và hiện vật khen thưởng được cấp lại theo Giấy chứng nhận.",
+      "code": "KQ.H57.000119"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794880431605,
+  "updatedAt": 1794880431605,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Tập thể, cá nhân, hộ gia đình được tặng hiện vật khen thưởng của thành phố có đề nghị cấp lại thuộc trường hợp quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1e220-4209-7261-a74e-3fd90aeca1ce",
+    "proposalNumber": "3727/QĐ-UBND",
+    "decisionDate": 1794589200000,
+    "decisionNumber": null,
+    "publicationDate": 1794880431455,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

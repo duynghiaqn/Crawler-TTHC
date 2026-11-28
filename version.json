@@ -1,0 +1,43 @@
+{
+  "last_updated": "2026-11-28T00:10:48.554Z",
+  "total_records": 7130,
+  "administrative_records": 6505,
+  "internal_records": 625,
+  "service_level": {
+    "full_process": 2243,
+    "partial_process": 4887,
+    "admin_full_process": 2215,
+    "admin_partial_process": 4290
+  },
+  "completed_records": 7130,
+  "failed_records": 0,
+  "circuit_breaker_status": "IN_PROGRESS",
+  "compare_summary": {
+    "previous_total": 6765,
+    "current_total": 7130,
+    "net_change": 365,
+    "added_count": 433,
+    "removed_count": 68,
+    "modified_count": 39,
+    "administrative": {
+      "current_total": 6505,
+      "added_count": 115,
+      "removed_count": 63,
+      "modified_count": 38
+    },
+    "internal": {
+      "current_total": 625,
+      "added_count": 318,
+      "removed_count": 5,
+      "modified_count": 1
+    },
+    "service_level": {
+      "full_process": 2243,
+      "partial_process": 4887,
+      "admin_full_process": 2215,
+      "admin_partial_process": 4290,
+      "upgraded_to_full": 0,
+      "downgraded_to_partial": 0
+    }
+  }
+}

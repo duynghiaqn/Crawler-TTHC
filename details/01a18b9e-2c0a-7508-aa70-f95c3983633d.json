@@ -1,0 +1,242 @@
+{
+  "id": "01a18b9e-2c0a-7508-aa70-f95c3983633d",
+  "code": "6.006864",
+  "codeNotation": "6.006864",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "Bước 1: Trong thời hạn 60 ngày, kể từ ngày tiếp nhận nhà, đất, cơ quan, tổ chức, đơn vị, doanh nghiệp được giao thực hiện nhiệm vụ chủ trì xử lý nhà, đất chủ trì, phối hợp với cơ quan có liên quan lập phương án xử lý nhà, đất (theo phương án giao cho tổ chức quản lý, kinh doanh nhà để quản lý, khai thác) trình Ủy ban nhân dân cấp tỉnh xem xét, quyết định. \nBước 2: Trong thời hạn 30 ngày, kể từ ngày nhận đầy đủ hồ sơ theo quy định, Ủy ban nhân dân cấp tỉnh xem xét, quyết định giao nhà, đất cho tổ chức quản lý, kinh doanh nhà để quản lý, khai thác."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Trong thời hạn 30 ngày, kể từ ngày nhận đầy đủ hồ sơ theo quy định, Ủy ban nhân dân cấp tỉnh xem xét, quyết định giao nhà, đất cho tổ chức quản lý, kinh doanh nhà để quản lý, khai thác.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Trong thời hạn 30 ngày, kể từ ngày nhận đầy đủ hồ sơ theo quy định, Ủy ban nhân dân cấp tỉnh xem xét, quyết định giao nhà, đất cho tổ chức quản lý, kinh doanh nhà để quản lý, khai thác.\nPhí, lệ phí: Không có.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: Trong thời hạn 30 ngày, kể từ ngày nhận đầy đủ hồ sơ theo quy định, Ủy ban nhân dân cấp tỉnh xem xét, quyết định giao nhà, đất cho tổ chức quản lý, kinh doanh nhà để quản lý, khai thác.\nPhí, lệ phí: Không có.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không có.",
+  "name": "Giao nhà, đất quy định tại các khoản 6 Điều 5 Nghị định số 108/2024/NĐ-CP (trừ nhà, đất đã có Quyết định giao, điều chuyển trực tiếp cho tổ chức quản lý, kinh doanh nhà) cho tổ chức có chức năng quản lý, kinh doanh nhà địa phương",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a18ba2-b749-76c3-9f2c-b497f4856bf3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình của cơ quan, tổ chức, đơn vị, doanh nghiệp được giao thực hiện nhiệm vụ chủ trì xử lý nhà, đất",
+          "code": "G12.06.0131",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18ba2-ff9b-779c-9756-5dad8fff224d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị tiếp nhận nhà, đất để quản lý, khai thác của tổ chức quản lý, kinh doanh nhà và ý kiến bằng văn bản của cơ quan quản lý cấp trên (nếu có)",
+          "code": "G12.06.0132",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b98-37a7-726a-a4e7-c87b392df418",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản ý kiến của Sở Tài chính",
+          "code": "G12.06.0127",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b98-cf29-71eb-886b-3e946350aef0",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Danh mục nhà, đất (trong đó gồm các thông tin: địa chỉ nhà, đất; số thứ tự thửa đất, tờ bản đồ; năm xây dựng nhà, năm đưa nhà vào sử dụng; diện tích đất, diện tích sàn xây dựng nhà, diện tích sàn sử dụng nhà; nguyên giá, giá trị còn lại; hiện trạng sử dụng) đề nghị giao cho tổ chức quản lý, kinh doanh nhà để quản lý, khai thác chia theo từng mục đích quy định tại điểm a và điểm b khoản 1 Điều 1 Nghị định số 108/2024/NĐ-CP do Sở Tài chính lập",
+          "code": "G12.06.0128",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b99-4628-7647-9255-15c4f9415c56",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định chuyển giao nhà, đất",
+          "code": "G12.06.0129",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b99-a8dd-7058-bb1c-8ed65fefbdd2",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản bàn giao, tiếp nhận nhà, đất",
+          "code": "G12.06.0130",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a18b91-0cd5-7258-996c-823132c42777",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ pháp lý về nhà, đất (nếu có)",
+          "code": "G12.06.0124",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan, tổ chức, đơn vị, doanh nghiệp được giao thực hiện nhiệm vụ chủ trì xử lý nhà, đất.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe8-9745764488d3"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afeb-e3a6ee3d498d"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe8-9745764488d3",
+      "name": "108/2024/NĐ-CP",
+      "code": "108/2024/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afeb-e3a6ee3d498d",
+      "name": "Quyết định giao nhà, đất cho tổ chức quản lý, kinh doanh nhà để quản lý, khai thác.",
+      "code": "KQ.G12.000917"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910963,
+  "updatedAt": 1794448910963,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Ủy ban nhân dân cấp tỉnh.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không có.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

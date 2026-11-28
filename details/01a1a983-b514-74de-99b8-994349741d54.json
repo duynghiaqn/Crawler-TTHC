@@ -1,0 +1,352 @@
+{
+  "id": "01a1a983-b514-74de-99b8-994349741d54",
+  "code": "6.006926",
+  "codeNotation": "6.006926",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Chủ đầu tư gửi hồ sơ quyết toán đến cơ quan chủ trì thẩm tra quyết toán vốn đầu tư dự án. Cơ quan chủ trì thẩm tra quyết toán lập hồ sơ trình duyệt quyết toán vốn đầu tư dự án để trình người có thẩm quyền phê duyệt quyết toán sau khi đã thẩm tra xong quyết toán."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 9,
+      "processingTimeUnit": "MONTH",
+      "description": "Thời hạn giải quyết: \nDự án\tQuan trọng quốc gia\tNhóm A\tNhóm B\tNhóm C\nThời gian chủ đầu tư lập hồ sơ quyết toán trình phê duyệt\t09 tháng\t09 tháng\t06 tháng\t04 tháng\nThời gian thẩm tra quyết toán\t04 tháng\t04 tháng\t2,5 tháng\t02 tháng\nThời gian phê duyệt quyết toán\t15 ngày\t15 ngày\t10 ngày\t07 ngày\n- Thời gian chủ đầu tư lập hồ sơ quyết toán trình phê duyệt được tính từ ngày dự án, công trình hoàn thành được bàn giao đưa vào khai thác, sử dụng theo quy định của pháp luật hoặc ngày có hiệu lực của văn bản cho phép dừng thực hiện dự án đến ngày chủ đầu tư nộp đầy đủ hồ sơ đến cơ quan chủ trì thẩm tra quyết toán.\n- Thời gian thẩm tra quyết toán được tính từ ngày cơ quan chủ trì thẩm tra quyết toán nhận đủ hồ sơ quyết toán (theo quy định tại Điều 7 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ) đến ngày trình người có thẩm quyền phê duyệt quyết toán. \n- Thời gian phê duyệt quyết toán được tính từ ngày người có thẩm quyền phê duyệt quyết toán (theo quy định tại khoản 1 Điều 8 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ) nhận đủ hồ sơ trình duyệt quyết toán (theo quy định tại khoản 1 Điều 19 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ) đến ngày ban hành quyết định phê duyệt quyết toán.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Chi phí thẩm tra, phê duyệt quyết toán thực hiện theo quy định tại khoản 1 Điều 20 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ quy định về quyết toán vốn đầu tư dự án."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 9,
+      "processingTimeUnit": "MONTH",
+      "description": "Thời hạn giải quyết: \nDự án\tQuan trọng quốc gia\tNhóm A\tNhóm B\tNhóm C\nThời gian chủ đầu tư lập hồ sơ quyết toán trình phê duyệt\t09 tháng\t09 tháng\t06 tháng\t04 tháng\nThời gian thẩm tra quyết toán\t08 tháng\t08 tháng\t05 tháng\t04 tháng\nThời gian phê duyệt quyết toán\t01 tháng\t01 tháng\t20 ngày\t15 ngày\n- Thời gian chủ đầu tư lập hồ sơ quyết toán vốn đầu tư dự án hoàn thành trình phê duyệt được tính từ ngày dự án, công trình được ký biên bản nghiệm thu hoàn thành, bàn giao đưa vào khai thác, sử dụng theo quy định của pháp luật hoặc ngày có hiệu lực của văn bản cho phép dừng thực hiện dự án đến ngày chủ đầu tư nộp đầy đủ hồ sơ đến cơ quan chủ trì thẩm tra quyết toán.\n- Thời gian thẩm tra quyết toán vốn đầu tư dự án hoàn thành được tính từ ngày cơ quan chủ trì thẩm tra quyết toán nhận đủ hồ sơ quyết toán (theo quy định tại Điều 33 Nghị định số 254/2025/NĐ-CP ngày 26/9/2025 của Chính phủ) đến ngày trình người có thẩm quyền phê duyệt quyết toán.\n- Thời gian phê duyệt quyết toán vốn đầu tư dự án hoàn thành được tính từ ngày người có thẩm quyền phê duyệt quyết toán (theo quy định tại khoản 1 Điều 34 Nghị định này) nhận đủ hồ sơ trình duyệt quyết toán (theo quy định tại khoản 1 Điều 44 Nghị định số 254/2025/NĐ-CP ngày 26/9/2025 của Chính phủ) đến ngày ban hành quyết định phê duyệt quyết toán vốn đầu tư dự án hoàn thành.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Chi phí thẩm tra, phê duyệt quyết toán thực hiện theo quy định tại khoản 1 Điều 20 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ quy định về quyết toán vốn đầu tư dự án."
+        }
+      ]
+    }
+  ],
+  "description": "",
+  "name": "Thẩm tra, phê duyệt quyết toán vốn đầu tư dự án",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Theo hướng dẫn tại Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ và Thông tư số 73/2026/TT-BTC ngày 25/6/2026 của Bộ Tài chính. - Chủ đầu tư gửi 01 bộ hồ sơ và thành phần hồ sơ (theo quy định tại Điều 7 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ) đến cơ quan chủ trì thẩm tra quyết toán vốn đầu tư dự án. Hồ sơ là bản chính hoặc do chủ đầu tư sao y bản chính hoặc bản được công chứng, chứng thực theo quy định của pháp luật hoặc văn bản điện tử theo quy định của pháp luật. - Cơ quan chủ trì thẩm tra quyết toán lập hồ sơ trình duyệt quyết toán vốn đầu tư dự án để trình người có thẩm quyền phê duyệt quyết toán sau khi đã thẩm tra xong quyết toán (theo quy định tại Điều 19 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ).  a) Đối với dự án đầu tư hoàn thành, công trình, hạng mục công trình hoàn thành, dự án đầu tư dừng thực hiện có khối lượng thi công xây dựng, lắp đặt thiết bị:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-a69555806212",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị phê duyệt quyết toán vốn đầu tư dự án của chủ đầu tư. Trường hợp kiểm toán độc lập thực hiện kiểm toán, tờ trình phải nêu rõ những nội dung thống nhất, nội dung không thống nhất và lý do không thống nhất giữa chủ đầu tư và kiểm toán độc lập. Trường hợp các cơ quan thực hiện chức năng thanh tra (sau đây gọi là thanh tra), kiểm tra, Kiểm toán nhà nước, cơ quan pháp luật đã thực hiện thanh tra, kiểm tra, kiểm toán, điều tra dự án, trong tờ trình chủ đầu tư phải nêu rõ việc chấp hành các kiến nghị, kết luận của các cơ quan trên",
+          "code": "G12.000133",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-ab43fc762e1e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mẫu biểu báo cáo quyết toán theo quy định tại khoản 2 Điều 6 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ và Thông tư số 73/2026/TT-BTC ngày 25/6/2026 của Bộ Tài chính",
+          "code": "G12.000134",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-aeff61046e98",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các văn bản pháp lý của dự án",
+          "code": "G12.000135",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-b1d023557f11",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ quyết toán chi phí của toàn bộ dự án; trong đó, hồ sơ quyết toán của từng hợp đồng gồm các tài liệu: Hợp đồng và các phụ lục bổ sung hợp đồng (nếu có); các biên bản nghiệm thu khối lượng hoàn thành theo giai đoạn thanh toán; biên bản nghiệm thu khối lượng hoàn thành toàn bộ hợp đồng; bảng tính giá trị quyết toán hợp đồng giữa chủ đầu tư và nhà thầu (sau đây gọi là quyết toán A - B) theo Mẫu số 01/QTDA ban hành kèm theo Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ; văn bản thanh lý hợp đồng đối với trường hợp đã đủ điều kiện thanh lý hợp đồng theo quy định của pháp luật về hợp đồng; các tài liệu khác theo thỏa thuận trong hợp đồng liên quan đến nội dung thẩm tra, phê duyệt quyết toán vốn đầu tư dự án",
+          "code": "G12.000136",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-b4b50d6c511a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản nghiệm thu hoàn thành (nếu có)",
+          "code": "G12.000138",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-bb7f3814ab3e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kiểm toán của đơn vị kiểm toán độc lập trong trường hợp thuê kiểm toán độc lập thực hiện kiểm toán",
+          "code": "G12.000139",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-be999de3584f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kiểm toán hoặc thông báo kết quả kiểm toán (sau đây gọi chung là báo cáo kiểm toán), kết luận thanh tra, biên bản kiểm tra, quyết định xử lý vi phạm của các cơ quan Kiểm toán nhà nước, thanh tra, kiểm tra trong trường hợp các cơ quan này thực hiện kiểm toán, thanh tra, kiểm tra dự án; kết quả điều tra, bản án có hiệu lực của các cơ quan pháp luật trong trường hợp dự án có vi phạm pháp luật bị cơ quan pháp luật điều tra, xét xử. Báo cáo của chủ đầu tư kèm các tài liệu liên quan về tình hình chấp hành các kiến nghị của các cơ quan nêu trên",
+          "code": "G12.000140",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1cdbe-ba5f-7470-8b41-e7d730ecc9aa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản bàn giao đưa vào khai thác, sử dụng (nếu có)",
+          "code": "G12.000256",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Theo hướng dẫn tại Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ và Thông tư số 73/2026/TT-BTC ngày 25/6/2026 của Bộ Tài chính. - Chủ đầu tư gửi 01 bộ hồ sơ và thành phần hồ sơ (theo quy định tại Điều 7 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ) đến cơ quan chủ trì thẩm tra quyết toán vốn đầu tư dự án. Hồ sơ là bản chính hoặc do chủ đầu tư sao y bản chính hoặc bản được công chứng, chứng thực theo quy định của pháp luật hoặc văn bản điện tử theo quy định của pháp luật. - Cơ quan chủ trì thẩm tra quyết toán lập hồ sơ trình duyệt quyết toán vốn đầu tư dự án để trình người có thẩm quyền phê duyệt quyết toán sau khi đã thẩm tra xong quyết toán (theo quy định tại Điều 19 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ).  b) Đối với dự án quy hoạch, dự án chuẩn bị đầu tư, dự án dừng thực hiện chưa có khối lượng thi công xây dựng, lắp đặt thiết bị:",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-ab43fc762e1e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Mẫu biểu báo cáo quyết toán theo quy định tại khoản 2 Điều 6 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ và Thông tư số 73/2026/TT-BTC ngày 25/6/2026 của Bộ Tài chính",
+          "code": "G12.000134",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd73-aeff61046e98",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các văn bản pháp lý của dự án",
+          "code": "G12.000135",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a98d-2007-7737-81ab-89a8e2d19ad3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ quyết toán chi phí của toàn bộ dự án; trong đó, hồ sơ quyết toán của từng hợp đồng gồm các tài liệu: Hợp đồng và các phụ lục bổ sung hợp đồng (nếu có), các biên bản nghiệm thu khối lượng hoàn thành theo giai đoạn thanh toán (nếu có); văn bản phê duyệt điều chỉnh, bổ sung, phát sinh, thay đổi (nếu có), biên bản nghiệm thu khối lượng hoàn thành theo hợp đồng (nếu có), quyết toán A - B theo Mẫu số 01/QTDA (nếu có), văn bản thanh lý hợp đồng đối với trường hợp đã đủ điều kiện thanh lý hợp đồng theo quy định của pháp luật về hợp đồng",
+          "code": "G12.000131",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a999-3198-727a-95b9-c4a1f0832129",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị phê duyệt quyết toán vốn đầu tư dự án của chủ đầu tư. Trường hợp kiểm toán độc lập thực hiện kiểm toán, văn bản phải nêu rõ những nội dung thống nhất, nội dung không thống nhất và lý do không thống nhất giữa chủ đầu tư và kiểm toán độc lập. Trường hợp các cơ quan thực hiện chức năng thanh tra, kiểm tra, Kiểm toán nhà nước, cơ quan pháp luật đã thực hiện thanh tra, kiểm tra, kiểm toán, điều tra dự án, trong văn bản chủ đầu tư phải nêu rõ việc chấp hành các kiến nghị, kết luận của các cơ quan trên",
+          "code": "G12.000141",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1a98d-59f4-77b4-b958-45005bdc0d9b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kiểm toán của kiểm toán độc lập trong trường hợp kiểm toán độc lập thực hiện kiểm toán",
+          "code": "G12.000132",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1cdc1-a9f0-757a-b230-ab70efe2163d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo kiểm toán, kết luận thanh tra, biên bản kiểm tra, quyết định xử lý vi phạm của các cơ quan Kiểm toán nhà nước, thanh tra, kiểm tra trong trường hợp các cơ quan này thực hiện kiểm toán, thanh tra, kiểm tra dự án; kết quả điều tra, bản án có hiệu lực của các cơ quan pháp luật trong trường hợp dự án có vi phạm pháp luật bị cơ quan pháp luật điều tra, xét xử. Báo cáo của chủ đầu tư kèm các tài liệu liên quan về tình hình chấp hành các kiến nghị của các cơ quan nêu trên",
+          "code": "G12.000259",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "UPDATED",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Tổ chức, cá nhân liên quan đến thẩm tra quyết toán dự án hoàn thành sử dụng vốn đầu tư công.",
+  "keywords": "",
+  "categoryIds": [
+    "01a1a973-43f4-732a-95f7-944491e73cf1"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1cdc3-b85a-75e2-8b76-e93bdaab0b64",
+    "01a1cdc6-a999-708e-925c-a7b714ff9bb7"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afeb-984466c802fb"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "01a1a973-43f4-732a-95f7-944491e73cf1",
+      "name": "Quản lý đầu tư công",
+      "code": "G12.97"
+    }
+  ],
+  "category": {
+    "id": "01a1a973-43f4-732a-95f7-944491e73cf1",
+    "name": "Quản lý đầu tư công",
+    "code": "G12.97"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3",
+    "019d9015-9d25-73eb-a102-a33e4fe610da",
+    "019e6393-02ca-745a-910d-fd6ab0a15e86"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    },
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    },
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1cdc3-b85a-75e2-8b76-e93bdaab0b64",
+      "name": "Thông tư số 73/2026/TT-BTC của Bộ Tài chính: Quy định về hệ thống mẫu biểu sử dụng trong công tác quyết toán vốn đầu tư dự án",
+      "code": "73/2026/TT-BTC"
+    },
+    {
+      "id": "01a1cdc6-a999-708e-925c-a7b714ff9bb7",
+      "name": "Nghị định số 193/2026/NĐ-CP của Chính phủ: Quy định về quyết toán vốn đầu tư dự án",
+      "code": "193/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afeb-984466c802fb",
+      "name": "Báo cáo kết quả thẩm tra quyết toán vốn đầu tư dự án, Quyết định phê duyệt quyết toán vốn đầu tư dự án",
+      "code": "KQ.G12.000894"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911013,
+  "updatedAt": 1794453759457,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: \n(1). Thẩm quyền phê duyệt quyết toán:\na) Đối với dự án quan trọng quốc gia do Thủ tướng Chính phủ quyết định đầu tư:\nNgười đứng đầu bộ, cơ quan trung ương, người đại diện theo pháp luật của tập đoàn, tổng công ty nhà nước, Chủ tịch Ủy ban nhân dân cấp tỉnh, Chủ tịch Ủy ban nhân dân cấp xã phê duyệt quyết toán đối với dự án hoặc dự án thành phần, tiểu dự án độc lập sử dụng vốn đầu tư công, chi thường xuyên từ ngân sách nhà nước, vốn ngân sách nhà nước khác không thuộc phạm vi điều chỉnh của pháp luật về đầu tư công giao cơ quan, đơn vị mình quản lý.\nChủ đầu tư phê duyệt quyết toán đối với dự án thành phần, tiểu dự án độc lập không sử dụng vốn đầu tư công, chi thường xuyên từ ngân sách nhà nước, vốn ngân sách nhà nước khác không thuộc phạm vi điều chỉnh của pháp luật về đầu tư công.\nb) Đối với các dự án khác: người có thẩm quyền quyết định đầu tư dự án là người có thẩm quyền phê duyệt quyết toán vốn đầu tư dự án. \nc) Trong và sau quá trình kiện toàn tổ chức bộ máy chính quyền địa phương hai cấp được thực hiện theo các trường hợp sau: \nTrường hợp dự án thuộc thẩm quyền đầu tư dự án của Chủ tịch Ủy ban nhân dân cấp huyện bàn giao cho cấp tỉnh quản lý: cơ quan, đơn vị trực thuộc cấp tỉnh nhận bàn giao dự án kế thừa toàn bộ trách nhiệm của cấp huyện đối với dự án. Chủ tịch Ủy ban nhân dân cấp tỉnh chịu trách nhiệm phê duyệt quyết toán vốn đầu tư dự án. \nTrường hợp dự án thuộc thẩm quyền đầu tư dự án của Chủ tịch Ủy ban nhân dân cấp huyện bàn giao cho cấp xã quản lý: cơ quan, đơn vị trực thuộc cấp xã nhận bàn giao kế thừa toàn bộ trách nhiệm của cấp huyện đối với dự án. Chủ tịch Ủy ban nhân dân cấp xã chịu trách nhiệm phê duyệt quyết toán vốn đầu tư dự án.\nd) Người có thẩm quyền quyết định phê duyệt quyết toán quy định tại điểm b, điểm c khoản 1 Điều 8 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ, được phân cấp hoặc ủy quyền phê duyệt quyết toán vốn đầu tư dự án theo quy định của pháp luật về xây dựng, pháp luật về tổ chức chính phủ, pháp luật về tổ chức chính quyền địa phương và pháp luật khác có liên quan.\n (2). Cơ quan chủ trì thẩm tra quyết toán:\na) Đối với các dự án sử dụng vốn đầu tư công, dự án sử dụng chi thường xuyên từ ngân sách nhà nước, vốn ngân sách nhà nước khác không thuộc phạm vi điều chỉnh của pháp luật về đầu tư công thuộc thẩm quyền quyết định đầu tư của Chủ tịch Ủy ban nhân dân cấp tỉnh: Sở Tài chính chủ trì tổ chức thẩm tra. \nb) Đối với dự án sử dụng vốn đầu tư công, dự án sử dụng chi thường xuyên từ ngân sách nhà nước, vốn ngân sách nhà nước khác không thuộc phạm vi điều chỉnh của pháp luật về đầu tư công thuộc thẩm quyền quyết định đầu tư của Chủ tịch Ủy ban nhân dân cấp xã: đối với cấp xã có tổ chức phòng, Chủ tịch Ủy ban nhân dân cấp xã giao phòng chuyên môn có chức năng về tài chính chủ trì tổ chức thẩm tra; đối với cấp xã không tổ chức phòng, Chủ tịch Ủy ban nhân dân cấp xã giao công chức chuyên môn thuộc quyền quản lý để thẩm tra.\nc) Đối với các dự án khác: người có thẩm quyền phê duyệt quyết toán giao cho đơn vị có chức năng thuộc quyền quản lý chủ trì tổ chức thẩm tra quyết toán vốn đầu tư dự án trước khi phê duyệt.\nd) Trường hợp cần thiết, tổ chức, cá nhân được giao nhiệm vụ chủ trì thẩm tra quyết toán báo cáo người có thẩm quyền phê duyệt quyết toán vốn đầu tư dự án quyết định thành lập Tổ thẩm tra để thực hiện thẩm tra quyết toán vốn đầu tư dự án trước khi trình phê duyệt. Thành phần của Tổ thẩm tra gồm đại diện có thẩm quyền của các đơn vị, cơ quan có liên quan. Nhiệm vụ của thành viên Tổ thẩm tra do người có thẩm quyền thành lập Tổ quyết định. \nđ) Riêng đối với các nhiệm vụ, dự án đầu tư các nền tảng số, hệ thống thông tin quy mô quốc gia, quy mô vùng sử dụng vốn đầu tư công nguồn ngân sách nhà nước quy định tại khoản 1 Điều 10 Nghị quyết số 193/2025/QH15 ngày 19 tháng 02 năm 2025 của Quốc hội về thí điểm một số cơ chế, chính sách đặc biệt tạo đột phá phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia: trường hợp Kiểm toán nhà nước, cơ quan thanh tra thực hiện kiểm toán, thanh tra và phát hành báo cáo kiểm toán, kết luận thanh tra có đủ nội dung quy định tại Điều 11 Nghị định số 193/2026/NĐ-CP ngày 01/6/2026 của Chính phủ, chủ đầu tư căn cứ báo cáo kiểm toán, kết luận thanh tra lập báo cáo quyết toán vốn đầu tư dự án, trình người có thẩm quyền quyết định phê duyệt quyết toán vốn đầu tư dự án; không yêu cầu thẩm tra trước khi phê duyệt quyết toán.",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1cdb2-e55d-76ca-9e7a-a5025b991975",
+    "proposalNumber": "1666/QĐ-BTC",
+    "decisionDate": 1782666000000,
+    "decisionNumber": null,
+    "publicationDate": 1794453759419,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

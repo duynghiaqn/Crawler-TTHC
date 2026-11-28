@@ -1,0 +1,191 @@
+{
+  "id": "01a18bcc-3d3b-7375-94a5-5de704801376",
+  "code": "6.006868",
+  "codeNotation": "6.006868",
+  "executionSteps": [
+    {
+      "name": "Trình độ thực hiện:",
+      "description": "- Trong thời hạn 30 ngày, kể từ ngày nộp tiền vào tài khoản tạm giữ, cơ quan được giao nhiệm vụ tổ chức bán, thanh lý tài sản có trách nhiệm lập 01 bộ hồ sơ đề nghị thanh toán gửi chủ tài khoản tạm giữ để chi trả chi phí xử lý tài sản. \nNgười đứng đầu cơ quan được giao nhiệm vụ tổ chức bán, thanh lý tài sản chịu trách nhiệm trước pháp luật về tính chính xác của khoản chi đề nghị thanh toán.\n- Trong thời hạn 30 ngày, kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, chủ tài khoản tạm giữ có trách nhiệm cấp tiền cho cơ quan được giao nhiệm vụ tổ chức bán, thanh lý tài sản để thực hiện chi trả các khoản chi phí có liên quan đến việc xử lý tài sản công."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày \nPhí, Lệ phí: Không quy định",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "Thời hạn giải quyết: 30 ngày \nPhí, Lệ phí: Không quy định",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "name": "Thanh toán chi phí có liên quan đến việc xử lý tài sản công",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-403f17c0f789",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị thanh toán của cơ quan được giao nhiệm vụ tổ chức xử lý tài sản (trong đó nêu rõ số tiền thu được từ việc xử lý tài sản, tổng chi phí xử lý tài sản, thông tin về tài khoản tiếp nhận thanh toán) kèm theo bảng kê chi tiết các khoản chi",
+          "code": "G12.06.0150",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b1-7528-b0f3-eb6c1c617d28",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định xử lý tài sản của cơ quan, người có thẩm quyền",
+          "code": "G12.06.0151",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71b3-76aa-882a-4bb1258684d6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Các hồ sơ, giấy tờ chứng minh cho các khoản chi như: Dự toán chi được duyệt; Hợp đồng thuê dịch vụ thẩm định giá, đấu giá, phá dỡ; hóa đơn, phiếu thu tiền (nếu có)",
+          "code": "G12.06.0152",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": true,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Ủy ban Nhân dân tỉnh và thành phố trực thuộc trung ương, Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e02feb330582"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe6-2afca8c14558"
+  ],
+  "resultIds": [
+    "019d2bb2-1c6f-72b5-bd0b-9cb3f193e3cf"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e02feb330582",
+      "name": "Quản lý công sản",
+      "code": "G12-TC09"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6771-31da-7758-9a23-1c3f7317813c"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6771-31da-7758-9a23-1c3f7317813c",
+      "name": "Bộ trưởng hoặc cấp tương đương"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe6-2afca8c14558",
+      "name": "Nghị định quy định chi tiết một số điều của Luật quản lý, sử dụng tài sản công",
+      "code": "151/2017/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c6f-72b5-bd0b-9cb3f193e3cf",
+      "name": "Quyết định thanh toán các khoản cho phí liên quan đến việc xử lý tài sản công",
+      "code": "KQ.G12.000279"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910938,
+  "updatedAt": 1794448910938,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: Cơ quan được giao nhiệm vụ làm chủ tài khoản tạm giữ",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

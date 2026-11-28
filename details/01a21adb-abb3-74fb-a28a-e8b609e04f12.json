@@ -1,0 +1,238 @@
+{
+  "id": "01a21adb-abb3-74fb-a28a-e8b609e04f12",
+  "code": "1.117160",
+  "codeNotation": "1.117160",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Sau khi công trình chính của dự án đầu tư xây dựng đưa vào khai thác sử dụng, Chủ đầu tư công trình/dự án gửi các hồ sơ liên quan đến Ủy ban nhân dân cấp xã nơi có công trình tạm đề nghị chấp thuận về địa điểm, quy mô xây dựng công trình khi muốn tiếp tục khai thác sử dụng công trình xây dựng tạm.\nỦy ban nhân dân cấp xã có trách nhiệm tiếp nhận hồ sơ của chủ đầu tư.\nTrong thời hạn không quá 10 ngày làm việc kể từ ngày nhận được hồ sơ, \nỦy ban nhân dân cấp xã phải tổ chức thẩm định hồ sơ, kiểm tra thực địa và xem xét chấp thuận việc tiếp tục khai thác, sử dụng công trình xây dựng tạm phục vụ thi công công trình chính (theo quy định tại khoản 4 Điều 131 Luật Xây dựng số 50/2014/QH13 được sửa đổi bổ sung bởi khoản 49 Điều 1 Luật số 62/2020/QH14).\nKhi thẩm định hồ sơ, trường hợp hồ sơ không đúng theo quy định hoặc không đúng với thực tế, nội dung đề xuất không đảm bảo, Ủy ban nhân dân cấp xã thông báo một lần bằng văn bản cho chủ đầu tư bổ sung, hoàn chỉnh hồ sơ. Chủ đầu tư có trách nhiệm bổ sung, hoàn thiện hồ sơ theo văn bản thông báo. \nTrường hợp việc bổ sung hồ sơ vẫn không đáp ứng được các nội dung theothông báo, Ủy ban nhân dân cấp xã có trách nhiệm thông báo đến chủ đầu tư về lý do không chấp thuận."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc, kể từ ngày nhận được đầy đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc, kể từ ngày nhận được đầy đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "10 ngày làm việc, kể từ ngày nhận được đầy đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Không quy định"
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Chấp thuận việc tiếp tục khai thác, sử dụng công trình xây dựng tạm phục vụ thi công công trình chính",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a21adb-6f90-70fe-9411-91e315f7aab8"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6adc-74f3-b277-ce0ff2366b99"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [
+    "019e4d63-7e81-76ee-98fb-0fa853b79176"
+  ],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+      "name": "Hoạt động xây dựng",
+      "code": "G17-XD11"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-e39d8baa7b6e",
+    "name": "Hoạt động xây dựng",
+    "code": "G17-XD11"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6adc-74f3-b277-ce0ff2366b99",
+      "name": "Ủy ban nhân dân cấp xã",
+      "code": "UBNDX"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [
+    {
+      "id": "019e4d63-7e81-76ee-98fb-0fa853b79176",
+      "name": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+      "code": "CQCM-NNMT-CAPXA"
+    }
+  ],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a21adb-6f90-70fe-9411-91e315f7aab8",
+      "name": "Văn bản chấp thuận việc tiếp  tục khai thác, sử dụng công trình xây dựng tạm bao gồm các nội dung: sự phù  hợp vị trí của công trình tạm với quy hoạch xây dựng đã được phê duyệt, quy  mô xây dựng công trình, mục đích đầu tư, sử dụng.",
+      "code": "KQ.H32.00010"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b0b-eac587d5c164",
+  "departmentPromulgateCode": "H32",
+  "departmentPromulgateName": "UBND tỉnh Khánh Hòa",
+  "cases": [
+    {
+      "id": "01a21bff-06fe-736b-9bfa-0253e29fecc1",
+      "name": "* Tên thủ tục hành chính Chấp thuận việc tiếp tục khai thác, sử dụng công trình xây dựng tạm phục vụ thi công công trình chính",
+      "code": "1.117160.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1795747227313,
+  "updatedAt": 1795747227313,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Nộp trực tuyến thông qua Cổng Dịch vụ công; nộp hồ sơ trực tiếp tại Bộ phận một cửa các cấp hoặc nộp qua dịch vụ bưu chính.",
+  "delegatedAgencies": "Ủy ban nhân dân cấp xã",
+  "coordinatingAgencies": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
+  "requirementsAndConditions": "Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a21ae0-0922-73d0-9a8a-def46186753b",
+    "proposalNumber": "4215/QĐ-UBND",
+    "decisionDate": 1795539600000,
+    "decisionNumber": null,
+    "publicationDate": 1795747227255,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b0b-eac587d5c164",
+      "name": "UBND tỉnh Khánh Hòa"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

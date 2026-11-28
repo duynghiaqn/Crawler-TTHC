@@ -1,0 +1,273 @@
+{
+  "id": "019f7e8f-d25d-7094-bcb9-b6b857ea1dee",
+  "code": "1.116205",
+  "codeNotation": "1.116205",
+  "executionSteps": [
+    {
+      "name": "Nộp hồ sơ thủ tục hành chính",
+      "description": "Nhà đầu tư, doanh nghiệp đầu tư gửi hồ sơ đến cơ quan chủ sở hữu tài sản công để đề nghị chấp thuận việc đầu tư xây dựng nâng cấp, mở rộng, bảo trì, khai thác công trình là tài sản công mà không phải chuyển quyền sở hữu tài sản. \nViệc thực hiện tiếp nhận thủ tục hành chính được thực hiện theo quy định của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận một cửa và Cổng dịch vụ công quốc gia."
+    },
+    {
+      "name": "Giải quyết thủ tục hành chính",
+      "description": "Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, cơ quan quản lý tài sản có văn bản chấp thuận cho phép nhà đầu tư, doanh nghiệp đầu tư được đầu tư xây dựng nâng cấp, mở rộng, bảo trì, khai thác công trình là tài sản công mà không phải chuyển quyền sở hữu tài sản; trường hợp không chấp thuận, cơ quan chủ sở hữu tài sản công có văn bản trả lời và nêu rõ lý do.\nSau khi cơ quan giải quyết thủ tục hành chính thực hiện thẩm định mà có yêu cầu phải sửa đổi, bổ sung hồ sơ, cơ quan giải quyết thủ tục hành chính có văn bản đề nghị sửa đổi, bổ sung, nêu rõ lý do, nội dung cần bổ sung. Sau 15 ngày làm việc kể từ ngày nhận được thông báo của cơ quan giải quyết thủ tục hành chính mà tổ chức, cá nhân không hoàn thiện, bổ sung hồ sơ thì cơ quan giải quyết thủ tục hành chính kết thúc giải quyết thủ tục hành chính. Thời gian tổ chức, cá nhân bổ sung hồ sơ không tính vào thời gian giải quyết thủ tục hành chính.\nKết quả giải quyết thủ tục hành chính được trả bằng bản điện tử, trừ trường hợp công dân, tổ chức có nhu cầu nhận bản giấy. Hồ sơ và kết quả giải quyết thủ tục hành chính bằng bản điện tử có giá trị pháp lý như bản giấy."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp hồ sơ qua hình thức trực tuyến tại Cổng Dịch vụ công quốc gia hoặc qua dịch vụ bưu chính hoặc trực tiếp tại Bộ phận Một cửa của cơ quan chủ sở hữu tài sản công.\n- 15 ngày làm việc kể từ ngày cơ quan quản lý tài sản công nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp hồ sơ qua hình thức trực tuyến tại Cổng Dịch vụ công quốc gia hoặc qua dịch vụ bưu chính hoặc trực tiếp tại Bộ phận Một cửa của cơ quan chủ sở hữu tài sản công.\n- 15 ngày làm việc kể từ ngày cơ quan quản lý tài sản công nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp hồ sơ qua hình thức trực tuyến tại Cổng Dịch vụ công quốc gia hoặc qua dịch vụ bưu chính hoặc trực tiếp tại Bộ phận Một cửa của cơ quan chủ sở hữu tài sản công.\n- 15 ngày làm việc kể từ ngày cơ quan quản lý tài sản công nhận đủ hồ sơ theo quy định.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Sau khi được giao khai thác, bảo trì tài sản công, trường hợp nhà đầu tư, doanh nghiệp đầu tư có nhu cầu chuyển nhượng dự án, thay đổi người khai thác, sử dụng công trình thì phải được cơ quan chủ sở hữu tài sản công chấp thuận theo quy định.",
+  "name": "Chấp thuận việc đầu tư xây dựng nâng cấp, mở rộng, bảo trì, khai thác công trình là tài sản công mà không phải chuyển quyền sở hữu tài sản",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f7fc8-8123-748c-a713-5307634f66c4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị được đầu tư xây dựng nâng cấp, mở rộng, bảo trì, khai thác công trình là tài sản công theo Mẫu số I.20 quy định tại Phụ lục ban hành kèm theo Nghị định số 205/2026/NĐ-CP",
+          "code": "TP-G17.000475",
+          "attachments": [
+            {
+              "id": "019f7fca-609a-766f-8e97-f87b61e1f8e7",
+              "fileName": "Dondenghidautuxaydungnangcapmorongcongtrinhlataisancong.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f7fca-609a-766f-8e97-f87b61e1f8e7/Dondenghidautuxaydungnangcapmorongcongtrinhlataisancong.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f7fc8-dea7-7549-9370-0407f55829f4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ thuyết minh đề xuất bao gồm các nội dung: sự cần thiết đầu tư; sự phù hợp với quy hoạch, kế hoạch đầu tư xây dựng cải tạo, nâng cấp, mở rộng cảng hàng không được phê duyệt; sơ bộ mục tiêu, quy mô, địa điểm đầu tư, chi phí đầu tư, thời gian dự kiến thực hiện; xác định tài sản công được sử dụng để đầu tư xây dựng nâng cấp, mở rộng, bảo trì, khai thác.",
+          "code": "TP-G17.000476",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "Chấp thuận việc đầu tư xây dựng nâng cấp, mở rộng, bảo trì, khai thác công trình là tài sản công",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d86-7760-a639-d5af31708914"
+  ],
+  "resultIds": [
+    "019f7e8b-ba8c-750b-94c7-fda25db1d6a0",
+    "019f889c-0e2b-77fd-b75a-eac0c6f3f0ce"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6ada-753f-9ac5-24de9eba9f82"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+      "name": "Hàng không",
+      "code": "G04-GT06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+    "name": "Hàng không",
+    "code": "G04-GT06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6ada-753f-9ac5-24de9eba9f82",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+      "code": "BCCNB"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019e6393-02ca-745a-910d-fd6ab0a15e86",
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019e6393-02ca-745a-910d-fd6ab0a15e86",
+      "name": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
+    },
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d86-7760-a639-d5af31708914",
+      "name": "Nghị định 205/2026/NĐ-CP ngày 15/6/2026 của Chính phủ về cảng hàng không và bãi cất, hạ cánh.",
+      "code": "205/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f7e8b-ba8c-750b-94c7-fda25db1d6a0",
+      "name": "Quyết định chấp thuận đầu tư",
+      "code": "KQ-G17.000075"
+    },
+    {
+      "id": "019f889c-0e2b-77fd-b75a-eac0c6f3f0ce",
+      "name": "Văn bản trả lời",
+      "code": "KQ-G17.000086"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+  "departmentPromulgateCode": "G17",
+  "departmentPromulgateName": "Bộ Xây dựng",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787731366669,
+  "updatedAt": 1787731366669,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Sau khi được giao khai thác, bảo trì tài sản công, trường hợp nhà đầu tư, doanh nghiệp đầu tư có nhu cầu chuyển nhượng dự án, thay đổi người khai thác, sử dụng công trình thì phải được cơ quan chủ sở hữu tài sản công chấp thuận theo quy định.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f1c62-d663-7662-900f-fc080643c590",
+    "proposalNumber": "1201/QĐ-BXD",
+    "decisionDate": 1783616400000,
+    "decisionNumber": null,
+    "publicationDate": 1787731365779,
+    "issuingAgency": {
+      "id": "019d2be3-6a81-771b-b66d-4ef4369c303d",
+      "name": "Bộ Xây dựng"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

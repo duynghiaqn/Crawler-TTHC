@@ -1,0 +1,200 @@
+{
+  "id": "01a21ab0-611e-74a4-ba45-d9a072e2ba2a",
+  "code": "1.117157",
+  "codeNotation": "1.117157",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Cơ sở đào tạo, huấn luyện an ninh hàng không tổ chức kiểm tra đối với học viên tham dự chương trình đào tạo, huấn luyện.\nKiểm tra lý thuyết được thực hiện bằng một trong các hình thức trắc nghiệm hoặc viết. Kiểm tra thực hành được thực hiện bằng phương tiện, trang thiết bị, cơ sở sẵn có, phần mềm mô phỏng, tình huống giả định hoặc vấn đáp, bảo đảm phù hợp với bài học cụ thể.\nĐối với học viên tham dự chương trình đào tạo ban đầu quy định tại Chương II và Chương IV của Thông tư, cơ sở đào tạo, huấn luyện tổ chức kiểm tra khi kết thúc từng bài học. Thời gian kiểm tra phù hợp với thời lượng của từng nội dung, bảo đảm tối thiểu 15 phút và không áp dụng hình thức kiểm tra tự luận.\nKhi kết thúc khóa học, học viên thực hiện kiểm tra kết thúc khóa học. Thời gian kiểm tra tối thiểu 30 phút đối với hình thức trắc nghiệm lý thuyết, tối thiểu 120 phút đối với hình thức tự luận lý thuyết và tối thiểu 120 phút đối với nội dung thực hành.\n- Bước 2: Cơ sở đào tạo, huấn luyện an ninh hàng không chấm điểm, đánh giá kết quả kiểm tra.\nĐiểm kiểm tra lý thuyết và điểm kiểm tra thực hành được tính theo thang điểm 100. Học viên đạt từ 80 điểm trở lên đối với từng phần kiểm tra lý thuyết và thực hành được công nhận hoàn thành khóa học.\n- Bước 3: Cơ sở đào tạo, huấn luyện an ninh hàng không cấp chứng chỉ hoặc công nhận hoàn thành khóa học đối với học viên đáp ứng yêu cầu, cụ thể:\na) Cấp chứng chỉ chuyên môn cho học viên hoàn thành khóa đào tạo ban đầu quy định tại Chương II, Chương IV của Thông tư và huấn luyện chuyển loại lực lượng kiểm soát an ninh hàng không;\nb) Thủ trưởng cơ sở đào tạo, huấn luyện an ninh hàng không công nhận bằng văn bản đối với học viên hoàn thành khóa huấn luyện định kỳ của quy định tại Chương II, Chương IV của Thông tư."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "Thực hiện trực tiếp thông qua việc tham gia huấn luyện và kiểm tra tại cơ sở huấn luyện an ninh hàng không.\nViệc cấp chứng chỉ hoặc công nhận hoàn thành khóa học được thực hiện sau 07 ngày kể từ khi học viên hoàn thành bài kiểm tra cuối khóa.",
+      "fees": []
+    }
+  ],
+  "description": "Học viên đã hoàn thành chương trình đào tạo, huấn luyện tương ứng theo quy định và kết quả kiểm tra của học viên đạt 80 điểm trở lên.",
+  "name": "Kiểm tra, cấp chứng chỉ, chứng nhận hoàn thành khóa học",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a21aaf-1649-7129-b8e2-8390dfea4d14",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Không quy định hồ sơ do cá nhân phải nộp. Việc kiểm tra, cấp chứng chỉ hoặc công nhận hoàn thành khóa học được thực hiện trên cơ sở hồ sơ quản lý khóa học và kết quả kiểm tra do cơ sở đào tạo, huấn luyện an ninh hàng không lập",
+          "code": "000.00.00.G01-KQ003742",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-193e36874ae4"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+    "019f8cf8-01e1-724b-a428-0fce4ca54aef",
+    "01a215cc-1f25-709f-8aec-9d472e54b8cf"
+  ],
+  "resultIds": [
+    "01a21aaf-85fd-71e8-b09a-e822e655118c",
+    "01a21aaf-c15b-71dd-ae20-5e8b2b8c546a"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-ac5169305ab5"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a72-700f-a652-ac5169305ab5"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-193e36874ae4",
+      "name": "Bảo đảm an ninh hàng không",
+      "code": "G01-CA31"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-193e36874ae4",
+    "name": "Bảo đảm an ninh hàng không",
+    "code": "G01-CA31"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an",
+      "code": "G01"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an",
+      "code": "G01"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f8cf8-01e1-724b-a428-0fce4ca54aef",
+      "name": "Nghị định số 215/2026/NĐ-CP ngày 18/6/2026 của Thủ tướng Chính phủ quy định về an ninh hàng không",
+      "code": "215/2026/NĐ-CP "
+    },
+    {
+      "id": "01a215cc-1f25-709f-8aec-9d472e54b8cf",
+      "name": "Thông tư số 110/2026/TT-BCA ngày  29 tháng 6 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình huấn luyện an ninh hàng không dân dụng Việt Nam.",
+      "code": "110/2026/TT-BCA "
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+      "name": "Luật hàng không dân dụng Việt Nam",
+      "code": "130/2025/QH15"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a21aaf-85fd-71e8-b09a-e822e655118c",
+      "name": "Chứng chỉ hoàn thành khóa đào tạo, huấn luyện an ninh hàng không theo mẫu quy định tại Phụ lục 1 ban hành kèm theo Thông tư",
+      "code": "KQ.G01.000447"
+    },
+    {
+      "id": "01a21aaf-c15b-71dd-ae20-5e8b2b8c546a",
+      "name": "Văn bản công nhận hoàn thành khóa huấn luyện định kỳ của thủ trưởng cơ sở huấn luyện an ninh hàng không",
+      "code": "KQ.G01.000448"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1795744509371,
+  "updatedAt": 1795744509371,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công an",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Công an",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Học viên đã hoàn thành chương trình đào tạo, huấn luyện tương ứng theo quy định và kết quả kiểm tra của học viên đạt 80 điểm trở lên.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a215c2-0ee4-72bc-9879-414cbf50fb49",
+    "proposalNumber": "4977/QĐ-BCA-QLXNC",
+    "decisionDate": 1786035600000,
+    "decisionNumber": null,
+    "publicationDate": 1795744509180,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

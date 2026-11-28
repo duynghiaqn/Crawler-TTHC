@@ -1,0 +1,255 @@
+{
+  "id": "019fe940-fee1-73a9-b7bb-9b1074b1bf41",
+  "code": "6.006757",
+  "codeNotation": "6.006757",
+  "executionSteps": [
+    {
+      "name": "Bước 1:",
+      "description": "Bước 1: Uỷ ban nhân dân cấp xã tự đánh giá mức độ đạt tiêu chuẩn theo quy định, gửi Báo cáo thành tích và Tờ trình đề nghị xét tặng danh hiệu “Xã, phường tiêu biểu” đến Sở Văn hoá, Thể thao và Du lịch."
+    },
+    {
+      "name": "Bước 2:",
+      "description": "Sở Văn hoá, Thể thao và Du lịch tiếp nhận, tổng hợp hồ sơ, họp\nHội đồng thi đua - khen thưởng để đánh giá, quyết định danh sách xã, phường\nđủ điều kiện đề nghị xét tặng danh hiệu “Xã, phường tiêu biểu”;"
+    },
+    {
+      "name": "Bước 3:",
+      "description": "Sở Văn hóa, Thể thao và Du lịch thực hiện xin ý kiến các sở,\nngành liên quan; công khai trên trang thông tin điện tử của đơn vị hoặc các hình\nthức khác (nếu có) để lấy ý kiến người dân trong thời hạn 10 ngày."
+    },
+    {
+      "name": "Bước 4:",
+      "description": "hết thời hạn lấy ý kiến, Sở Văn hoá, Thể thao và Du lịch tổng\nhợp, lập hồ sơ theo quy định, trình Chủ tịch Uỷ ban nhân dân tỉnh quyết định\ncông nhận danh hiệu “Xã, phường tiêu biểu”"
+    },
+    {
+      "name": "Bước 5:",
+      "description": "Trong thời hạn 10 ngày kể từ ngày nhận đủ hồ sơ theo quy định,\nChủ tịch Ủy ban nhân dân tỉnh quyết định tặng danh hiệu và Bằng chứng nhận\n“Xã, phường tiêu biểu”."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Trong thời hạn 10 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Trong thời hạn 10 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "DAY",
+      "description": "Trong thời hạn 10 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "Xã, phường đạt tất cả các tiêu chuẩn quy định tại Phụ lục III kèm theo Quyết định số 25/2026/QĐ-UBND ngày 21/4/2026 của Ủy ban nhân dân tỉnh Lào Cai ban hành quy định chi tiết tiêu chuẩn, trình tự, thủ tục xét tặng danh hiệu “Gia đình văn hóa”, “Thôn, tổ dân phố văn hóa”, “Xã, phường tiêu biểu” trên địa bàn tỉnh Lào Cai.",
+  "name": "Xét tặng danh hiệu “Xã, phường tiêu biểu”",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0368b-30af-751f-a1b0-28d6272b0a3e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị xét tặng danh hiệu “Xã, phường tiêu biểu” (Mẫu số 07 Phụ lục kèm theo Hướng dẫn số 07/HD-SVHTTDL ngày 17/6/2026 của Sở Văn hoá, Thể thao và Du lịch tỉnh Lào Cai)",
+          "code": "H38-KQ000593",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0368b-cfd0-7014-9a36-692ac3bdf168",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo thành tích đề nghị xét tặng danh hiệu “Xã, phường tiêu biểu” (Mẫu số 08 Phụ lục kèm theo Hướng dẫn số 07/HD-SVHTTDL ngày 17/6/2026 của Sở Văn hoá, Thể thao và Du lịch tỉnh Lào Cai).",
+          "code": "H38-KQ000594",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0368c-37f7-77a5-a50d-4136e9d5c4cb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản họp bình xét danh hiệu “Xã, phường tiêu biểu” (Mẫu số 09 Phụ lục kèm theo Hướng dẫn số 07/HD-SVHTTDL ngày 17/6/2026 của Sở Văn hoá, Thể thao và Du lịch tỉnh Lào Cai).",
+          "code": "H38-KQ000595",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-b537de0f78f9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+    "019d2bb3-5d7f-719e-b472-2b0c8f3414cc",
+    "019fe93f-8d07-740b-9648-822a24636cc7",
+    "019fe940-6f9b-76ff-a62b-5926a021e9d1",
+    "019fe940-e97e-7228-be1d-9b983e5c46cb"
+  ],
+  "resultIds": [
+    "019fe93e-9478-719e-bbfe-1ed0847cd504"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-b537de0f78f9",
+      "name": "Văn hóa",
+      "code": "G16-VH13"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-b537de0f78f9",
+    "name": "Văn hóa",
+    "code": "G16-VH13"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d3810-8907-7195-8ecb-6e3d0c581f7e"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d3810-8907-7195-8ecb-6e3d0c581f7e",
+      "name": "Sở Văn hóa, Thể thao và Du lịch"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7f-719e-b472-2b0c8f3414cc",
+      "name": "Nghị định số 86/2023/NĐ-CP của Chính phủ: Quy định về khung tiêu chuẩn và trình tự, thủ tục, hồ sơ xét tặng danh hiệu \"Gia đình văn hóa\", \"Thôn, tổ dân phố văn hóa\", \"Xã, phường, thị trấn tiêu biểu\"",
+      "code": "86/2023/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
+      "name": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng",
+      "code": "152/2025/NĐ-CP"
+    },
+    {
+      "id": "019fe93f-8d07-740b-9648-822a24636cc7",
+      "name": "Quyết định số 25/2026/QĐ-UBND ngày 21/4/2026 của Ủy ban nhân dân tỉnh Lào Cai ban hành quy định chi tiết tiêu chuẩn, trình tự, thủ tục xét tặng danh hiệu “Gia đình văn hóa”, “Thôn, tổ dân phố văn hóa”, “Xã, phường tiêu biểu” trên địa bàn tỉnh Lào Cai",
+      "code": "25/2026/QĐ-UBND "
+    },
+    {
+      "id": "019fe940-6f9b-76ff-a62b-5926a021e9d1",
+      "name": "Hướng dẫn số 07/HD-SVHTTDL ngày 17/6/2026 của Sở Văn hoá, Thể thao và Du lịch tỉnh Lào Cai về cách thức đánh giá, xét tặng danh hiệu “Gia đình văn hóa”, “Thôn, tổ dân phố văn hoá”, “Xã, phường tiêu biểu” trên địa bàn tỉnh Lào Cai",
+      "code": "07/HD-SVHTTDL "
+    },
+    {
+      "id": "019fe940-e97e-7228-be1d-9b983e5c46cb",
+      "name": "Công văn số 3205/BVHTTDL-VHCSGĐTV ngày 03/6/2026 của Cục Văn hoá cơ sở, Gia đình và Thư viện về việc tăng cường quản lý, nâng cao hiệu quả thiết chế văn hoá, thư viện công cộng và xây dựng đời sống văn hoá cơ sở",
+      "code": "3205/BVHTTDL-VHCSGĐTV "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019fe93e-9478-719e-bbfe-1ed0847cd504",
+      "name": "Quyết định tặng danh hiệu; Bằng chứng nhận xã, phường tiêu biểu",
+      "code": "H38-KQ000330"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b12-58410ba7b5df",
+  "departmentPromulgateCode": "H38",
+  "departmentPromulgateName": "UBND tỉnh Lào Cai",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787622073817,
+  "updatedAt": 1787622073817,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Ủy ban nhân dân các xã, phường nộp hồ sơ bản giấy (bản chính) về Sở Văn hoá, Thể thao và Du lịch tỉnh Lào Cai (qua Phòng Quản lý Văn hóa và Gia đình) theo địa chỉ: Cơ sở 1: Số 02, đường Nguyễn Văn Mậu, xã Yên Bình, tỉnh Lào Cai hoặc Cơ sở 2: Trụ sở Khối 3, Phường Cam Đường, tỉnh Lào Cai) vào trước ngày 10/11 hàng năm (thời gian gửi tính theo dấu bưu điện)",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Xã, phường đạt tất cả các tiêu chuẩn quy định tại Phụ lục III kèm theo Quyết định số 25/2026/QĐ-UBND ngày 21/4/2026 của Ủy ban nhân dân tỉnh Lào Cai ban hành quy định chi tiết tiêu chuẩn, trình tự, thủ tục xét tặng danh hiệu “Gia đình văn hóa”, “Thôn, tổ dân phố văn hóa”, “Xã, phường tiêu biểu” trên địa bàn tỉnh Lào Cai.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fe93a-224b-70af-a382-ab964d8e416d",
+    "proposalNumber": "2712/QĐ-UBND",
+    "decisionDate": 1785862800000,
+    "decisionNumber": null,
+    "publicationDate": 1787622073786,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b12-58410ba7b5df",
+      "name": "UBND tỉnh Lào Cai"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

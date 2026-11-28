@@ -1,0 +1,227 @@
+{
+  "id": "01a21aab-5fba-7170-954e-ceaad9400b5e",
+  "code": "1.117156",
+  "codeNotation": "1.117156",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Chuẩn bị hồ sơ theo quy định tại mục 2.3.\nBước 2: Nộp hồ sơ\n- Cơ sở đủ điều kiện đào tạo, huấn luyện an ninh hàng không gửi hồ sơ đề nghị hủy bỏ Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện an ninh hàng không trực tiếp hoặc qua dịch vụ bưu chính đến trụ sở làm việc của Cục Quản lý xuất nhập cảnh, Bộ Công an tại số 69 Mạc Thái Tổ, phường Yên Hòa, thành phố Hà Nội (Cổng số 2 mặt đường Nguyễn Quốc Trị) hoặc qua Cổng Dịch vụ công quốc gia.\n- Cục Quản lý xuất nhập cảnh tiếp nhận, kiểm tra tính đầy đủ, hợp lệ của hồ sơ:\n+ Trường hợp hồ sơ đầy đủ, hợp lệ thì tiếp nhận hồ sơ, cấp giấy hẹn trả kết quả hoặc Cổng Dịch vụ công quốc gia thông báo bằng tin nhắn (SMS) hoặc thư điện tử (email) về việc tiếp nhận hồ sơ.\n+ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì hướng dẫn người nộp hồ sơ hoàn chỉnh hồ sơ theo quy định hoặc Cổng Dịch vụ công quốc gia thông báo bằng tin nhắn (SMS) hoặc thư điện tử (email) để người nộp hồ sơ bổ sung, hoàn thiện hồ sơ.\n+ Trường hợp hồ sơ không đủ điều kiện thì không tiếp nhận hồ sơ, trả lời bằng văn bản hoặc thông báo trên Cổng Dịch vụ công quốc gia và nêu rõ lý do.\n- Thời gian tiếp nhận hồ sơ: Từ thứ Hai đến sáng thứ Bảy hằng tuần (trừ ngày Tết, ngày lễ).\nBước 3: Nhận kết quả\n- Đơn vị đề nghị hủy bỏ Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện an ninh hàng không trực tiếp nhận văn bản trả lời tại trụ sở Cục Quản lý xuất nhập cảnh hoặc qua dịch vụ bưu chính hoặc qua Cổng Dịch vụ công quốc gia.\n- Thời gian nhận kết quả: Từ thứ Hai đến thứ Sáu hằng tuần (trừ ngày Tết, ngày lễ)."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tiếp tại trụ sở Cục Quản lý xuất nhập cảnh",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Nộp hồ sơ trực tuyến qua Cổng Dịch vụ công quốc gia",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 5,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Gửi hồ sơ qua dịch vụ bưu chính công ích đến Cục Quản lý xuất nhập cảnh.",
+      "fees": []
+    }
+  ],
+  "description": "Cơ sở đã được cấp Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện an ninh hàng không có đề nghị hủy bỏ Giấy chứng nhận.",
+  "name": "Hủy bỏ giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện an ninh hàng không",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a21aa9-c1f6-761f-a275-03def0b19d9f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị hủy bỏ giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện an ninh hàng không (không quy định mẫu cụ thể)",
+          "code": "000.00.00.G01-KQ003740",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a21aaa-1a1b-76de-9471-bde9a5a84f65",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy chứng chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện an ninh hàng không",
+          "code": "000.00.00.G01-KQ003741",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-193e36874ae4"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+    "019f8cf8-01e1-724b-a428-0fce4ca54aef",
+    "01a215cc-1f25-709f-8aec-9d472e54b8cf"
+  ],
+  "resultIds": [
+    "01a21aaa-9ec8-7088-882b-c206a5f5d420"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-ac5169305ab5"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a72-700f-a652-ac5169305ab5"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-193e36874ae4",
+      "name": "Bảo đảm an ninh hàng không",
+      "code": "G01-CA31"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-193e36874ae4",
+    "name": "Bảo đảm an ninh hàng không",
+    "code": "G01-CA31"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an",
+      "code": "G01"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an",
+      "code": "G01"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+      "name": "Luật hàng không dân dụng Việt Nam",
+      "code": "130/2025/QH15"
+    },
+    {
+      "id": "01a215cc-1f25-709f-8aec-9d472e54b8cf",
+      "name": "Thông tư số 110/2026/TT-BCA ngày  29 tháng 6 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình huấn luyện an ninh hàng không dân dụng Việt Nam.",
+      "code": "110/2026/TT-BCA "
+    },
+    {
+      "id": "019f8cf8-01e1-724b-a428-0fce4ca54aef",
+      "name": "Nghị định số 215/2026/NĐ-CP ngày 18/6/2026 của Thủ tướng Chính phủ quy định về an ninh hàng không",
+      "code": "215/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a21aaa-9ec8-7088-882b-c206a5f5d420",
+      "name": "Quyết định hủy bỏ Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện an ninh hàng không",
+      "code": "KQ.G01.000446"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1795744509375,
+  "updatedAt": 1795744509375,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công an",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Công an",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Cơ sở đã được cấp Giấy chứng nhận cơ sở đủ điều kiện đào tạo, huấn luyện an ninh hàng không có đề nghị hủy bỏ Giấy chứng nhận.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a215c2-0ee4-72bc-9879-414cbf50fb49",
+    "proposalNumber": "4977/QĐ-BCA-QLXNC",
+    "decisionDate": 1786035600000,
+    "decisionNumber": null,
+    "publicationDate": 1795744509180,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

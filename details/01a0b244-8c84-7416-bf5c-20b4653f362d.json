@@ -1,0 +1,218 @@
+{
+  "id": "01a0b244-8c84-7416-bf5c-20b4653f362d",
+  "code": "1.116624",
+  "codeNotation": "1.116624",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Du học sinh thuộc trường hợp không phải đền bù chi phí đào tạo theo quy định tại khoản 3, khoản 4 Điều 13 Nghị định số 322/2026/NĐ-CP hoặc gia đình du học sinh nộp 01 bộ hồ sơ đến cơ quan cử đi học hoặc cơ quan quản lý trực tiếp (đối với trường hợp có cơ quan công tác) theo một trong các hình thức trực tiếp tại Bộ phận Một cửa hoặc qua dịch vụ bưu chính hoặc trực tuyến tại Cổng Dịch vụ công quốc gia hoặc Ứng dụng định danh quốc gia.\nb) Trong thời hạn 05 ngày làm việc kể từ khi nhận được hồ sơ, nếu hồ sơ không hợp lệ, cơ quan cử đi học hoặc cơ quan quản lý trực tiếp thông báo cho du học sinh hoặc gia đình du học sinh để bổ sung và hoàn thiện theo quy định.\nc) Trong thời hạn 60 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan cử đi học hoặc cơ quan quản lý trực tiếp xem xét, ra quyết định không phải đền bù chi phí đào tạo đối với du học sinh. Quyết định không phải đền bù chi phí đào tạo được gửi cho du học sinh hoặc gia đình du học sinh."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Nộp hồ sơ trực tiếp cho cơ quan cử đi học hoặc cơ quan quản lý trực tiếp (đối với trường hợp du học sinh có cơ quan công tác) tại Bộ phận Một cửa. Thời hạn giải quyết: Trong thời hạn 60 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Nộp hồ sơ trực tuyến tại Cổng Dịch vụ công quốc gia hoặc Ứng dụng định danh quốc gia.  Thời hạn giải quyết: Trong thời hạn 60 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 60,
+      "processingTimeUnit": "DAY",
+      "description": "Nộp hồ sơ qua dịch vụ bưu chính cho cơ quan cử đi học hoặc cơ quan quản lý trực tiếp (đối với trường hợp du học sinh có cơ quan công tác). Thời hạn giải quyết: Trong thời hạn 60 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đề nghị không phải đền bù chi phí đào tạo đối với du học sinh",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0b242-09b3-72cf-84e9-1493846d0a31",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị không phải đền bù chi phí đào tạo (theo Mẫu số 5a tại Phụ lục ban hành kèm theo Nghị định số 322/2026/NĐ-CP).",
+          "code": "TP-G03.0001037",
+          "attachments": [
+            {
+              "id": "01a0b241-de91-761a-a9fe-a9097dcac430",
+              "fileName": "Mẫu số 5a.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0b241-de91-761a-a9fe-a9097dcac430/Mẫu số 5a.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0b242-8ea6-71b9-b8e0-67268ce4b15c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao một trong các giấy tờ chứng minh thuộc trường hợp không phải đền bù chi phí đào tạo gồm: giấy xác nhận của cơ quan đại diện Việt Nam ở nước sở tại hoặc cơ sở giáo dục nước ngoài hoặc cơ quan có thẩm quyền của phía nước ngoài đối với trường hợp quy định tại điểm a khoản 3 Điều 13 Nghị định số 322/2026/NĐ-CP; giấy xác nhận của cơ sở y tế có thẩm quyền trong nước hoặc nước ngoài đối với trường hợp quy định tại điểm b khoản 3 Điều 13 Nghị định số 322/2026/NĐ-CP (đối với Giấy xác nhận bằng tiếng nước ngoài phải được dịch ra tiếng Việt), giấy chứng tử hoặc giấy khai tử hoặc trích lục khai tử của cơ quan nhà nước có thẩm quyền đối với trường hợp du học sinh đã chết; tài liệu, minh chứng liên quan (nếu có) đối với trường hợp quy định tại khoản 4 Điều 13 Nghị định số 322/2026/NĐ-CP.  Trường hợp cơ quan cử đi học, cơ quan quản lý trực tiếp khai thác được các thông tin nêu trên từ Cơ sở dữ liệu chuyên ngành hoặc từ cơ quan nhà nước thì du học sinh hoặc gia đình du học sinh không phải cung cấp các văn bản trên và chỉ cung cấp thông tin để có cơ sở đối chiếu, khai thác dữ liệu.",
+          "code": "TP-G03.0001038",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-e80df833fea5"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0b237-6bd7-74b4-992b-aa1ca8aa29ed"
+  ],
+  "resultIds": [
+    "01a0b244-3353-742e-9db5-8888bfdbb4f7"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a80-747a-9d0a-2f5fa81ad002"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a80-747a-9d09-f80ce780479b"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-e80df833fea5",
+      "name": "Giáo dục, đào tạo với nước ngoài",
+      "code": "G03-GD02"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a80-747a-9d0a-2f5fa81ad002",
+      "name": "Cục Hợp tác quốc tế - Bộ giáo dục đào tạo",
+      "code": "G03.20"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo",
+      "code": "G03"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-5b3b-776b-ae3c-c9f6bbc23933"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-5b3b-776b-ae3c-c9f6bbc23933",
+      "name": "Cơ quan, tổ chức, đơn vị có thẩm quyền quản lý hoặc được giao trực tiếp quản lý đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0b237-6bd7-74b4-992b-aa1ca8aa29ed",
+      "name": "sửa đổi, bổ sung một số điều của Nghị định số 86/2021/NĐ-CP ngày 25/9/2021 của Chính phủ quy định việc công dân Việt Nam ra nước ngoài học tập, giảng dạy, nghiên cứu khoa học và trao đổi học thuật",
+      "code": "322/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0b244-3353-742e-9db5-8888bfdbb4f7",
+      "name": "Quyết định không phải đền bù chi phí đào tạo được gửi cho du học sinh hoặc gia đình du học sinh.",
+      "code": "KQ-G03.000001117"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789699068023,
+  "updatedAt": 1789699068023,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cục Hợp tác quốc tế - Bộ giáo dục đào tạo",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Giáo dục và Đào tạo",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0ad9b-baa9-7226-a0ad-72d62c6e067a",
+    "proposalNumber": "2688/QĐ-BGDĐT",
+    "decisionDate": 1789318800000,
+    "decisionNumber": null,
+    "publicationDate": 1789699067939,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

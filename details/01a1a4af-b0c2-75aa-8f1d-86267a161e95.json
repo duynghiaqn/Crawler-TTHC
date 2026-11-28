@@ -1,0 +1,192 @@
+{
+  "id": "01a1a4af-b0c2-75aa-8f1d-86267a161e95",
+  "code": "6.006906",
+  "codeNotation": "6.006906",
+  "executionSteps": [
+    {
+      "name": "Trường hợp cấp kinh phí ngân sách cho các đối tượng thụ hưởng bằng lệnh chi tiến của cơ quan tài chính",
+      "description": "Chuyên viên cơ quan tài chính lập giao dịch chi bằng lệnh chi tiền trên TABMIS chứng từ, trình lên Người duyệt của cơ quan tài chính. Trường hợp được phê duyệt truyền sang KBNN nơi giao dịch. KBNN tiếp nhận, kiểm soát tính hợp pháp, hợp lệ của lệnh chi tiền, căn cứ nội dung trên lệnh chi tiền, thực hiện xuất quỹ ngân sách, chuyển tiền vào tài khoản hoặc chi bằng tiền mặt cho các đối tượng thụ hưởng ngân sách. Trường hợp lệnh chi tiền không hợp lệ, hợp pháp, thì chậm nhất trong 01 ngày làm việc kể từ ngày nhận được lệnh chi tiền, Kho bạc Nhà nước phải thông báo cho cơ quan tài chính biết để xử lý."
+    },
+    {
+      "name": "Trường hợp cấp kinh phí ngân sách cho các đối tượng thụ hưởng bằng lệnh chi tiền của UBND xã",
+      "description": "UBND xã lập lệnh chi tiền gửi KBNN nơi giao dịch. KBNN tiếp nhận, kiểm soát tính hợp pháp, hợp lệ của lệnh chi tiền, căn cứ nội dung trên lệnh chi tiền, thực hiện xuất quỹ ngân sách, chuyển tiền vào tài khoản hoặc chi bằng tiền mặt cho các đối tượng thụ hưởng ngân sách và gửi lại UBND xã 01 liên chứng từ đã hạch toán. Trường hợp lệnh chi tiền không hợp lệ, hợp pháp, thì chậm nhất trong 01 ngày làm việc kể từ ngày nhận được lệnh chi tiền, KBNN phải thông báo cho UBND xã biết để xử lý."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp cấp kinh phí ngân sách cho các đối tượng thụ hưởng bằng lệnh chi tiến của cơ quan tài chính:\nThời hạn giải quyết: Trường hợp lệnh chi tiền hợp lệ, hợp pháp, thời hạn giải quyết 02 ngày làm việc. Trường hợp lệnh chi tiền không hợp lệ, hợp pháp, thì chậm nhất trong  01 ngày làm việc phải thông báo cho cơ quan tài chính.\nTrường hợp cấp kinh phí ngân sách cho các đối tượng thụ hưởng bằng lệnh chi tiền của UBND xã: Thời hạn giải quyết: Trường hợp lệnh chi tiền hợp lệ, hợp pháp, thời hạn giải quyết 02 ngày làm việc. Trường hợp lệnh chi tiền không hợp lệ, hợp pháp, thì chậm nhất trong  01 ngày làm việc phải thông báo cho cơ quan tài chính.",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Chứng từ hợp lệ, hợp pháp",
+  "name": "Cấp kinh phí ngân sách cho các đối tượng thụ hưởng bằng lệnh chi tiền (của cơ quan tài chính và cửa UBND cấp xã)",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Trường hợp cấp kinh phí ngân sách cho các đối tượng thụ hưởng bằng lệnh chi tiến của cơ quan tài chính",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd75-deef48e1a93e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "01 liên Lệnh chi tiền (Mẫu số C2-01a/NS).",
+          "code": "G12.000101",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Trường hợp cấp kinh phí ngân sách cho các đối tượng thụ hưởng bằng lệnh chi tiền của UBND xã",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1a4b3-ffca-724d-9194-3fcf992b8b7b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "04 liên Lệnh chi tiền (Mẫu số C2-01a/NS)",
+          "code": "G12.000102",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Cơ quan tài chính",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be4a-bc7ca5bb3ae5",
+    "019d2bb3-5d7d-7398-be4c-fc0b29f18d99"
+  ],
+  "resultIds": [
+    "01a1a4b4-b989-71bb-b74f-4d3b80ea92f1",
+    "01a1a4b5-2785-72cd-bdb3-aea2f6b3ddda"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+      "name": "Kho bạc Nhà nước",
+      "code": "G12-TC07"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d2ef4-4db1-745c-94e3-4d0abb2c625f"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d2ef4-4db1-745c-94e3-4d0abb2c625f",
+      "name": "Cơ quan nhà nước có liên quan"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be4a-bc7ca5bb3ae5",
+      "name": "Thông tư số 19/2020/TT-BTC ngày 31/3/2020 của Bộ Tài chính sửa đổi, bổ sung một số điều của Thông tư số 77/2017/TT-BTC",
+      "code": "19"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4c-fc0b29f18d99",
+      "name": "Thông tư số 342/2016/TT-BTC của Bộ Tài chính: Quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 163/2016/NĐ-CP ngày 21 tháng 12 năm 2016 của Chính phủ quy định chi tiết thi hành một số điều của Luật ngân sách nhà nước",
+      "code": "342"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1a4b4-b989-71bb-b74f-4d3b80ea92f1",
+      "name": "Thanh toán tiền mặt/chuyển khoản cho đối tượng thụ hưởng (không trả lại 01 liên LCT cho cơ quan tài chính)",
+      "code": "KQ.G12.001457"
+    },
+    {
+      "id": "01a1a4b5-2785-72cd-bdb3-aea2f6b3ddda",
+      "name": "01 liên Lệnh chi tiền (Mẫu số C2-01a/NS) báo Nợ cho UBND Xã và 01 liên báo có cho đơn vị (trừ trường hợp đơn vị hưởng chuyển tiền vào tài khoản tại KBNN khác hoặc ngân hàng)",
+      "code": "KQ.G12.001459"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910985,
+  "updatedAt": 1794448910985,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Cơ quan giải quyết thủ tục hành chính: KBNN nơi giao dịch",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Chứng từ hợp lệ, hợp pháp",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

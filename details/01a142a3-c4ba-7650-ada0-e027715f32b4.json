@@ -1,0 +1,450 @@
+{
+  "id": "01a142a3-c4ba-7650-ada0-e027715f32b4",
+  "code": "1.117122",
+  "codeNotation": "1.117122",
+  "executionSteps": [
+    {
+      "name": "a) Bước 1. Nộp hồ sơ",
+      "description": "Đối tượng thực hiện chính sách nộp trực tiếp hoặc qua dịch vụ bưu chính hoặc qua môi trường điện tử đơn đề nghị nghiệm thu, thanh toán kinh phí hỗ trợ (theo mẫu số 08 kèm theo Quyết định số 86/2026/QĐ-UBND ngày 06/10/2026 của Ủy ban nhân dân tỉnh Lào Cai) đến cơ quan được Ủy ban nhân dân cấp xã giao nhiệm vụ (bộ phận thường trực của Hội đồng nghiệm thu) tại Bộ phận Một cửa thuộc Trung tâm Phục vụ hành chính công cấp xã."
+    },
+    {
+      "name": "b) Bước 2. Tổ chức nghiệm thu",
+      "description": "Trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được đơn đề\nnghị nghiệm thu, thanh toán kinh phí hỗ trợ, Hội đồng nghiệm thu tiến hành\nnghiệm thu theo quy định."
+    },
+    {
+      "name": "c) Thanh toán kinh phí hỗ trợ",
+      "description": "Trong thời hạn không quá 15 ngày làm việc, kể từ ngày nhận được biên bản\nnghiệm thu khối lượng hoàn thành (theo mẫu số 09 kèm theo Quyết định số\n86/2026/QĐ-UBND ngày 06/10/2026 của Ủy ban nhân dân tỉnh Lào Cai), cơ quan\nđược giao nhiệm vụ thực hiện thanh toán kinh phí hỗ trợ cho đối tượng thụ hưởng."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": "Theo mô tả",
+      "processingTimeUnit": "OTHER",
+      "description": "- Thời hạn tổ chức nghiệm thu: Trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được đơn đề nghị nghiệm thu, thanh toán kinh phí hỗ trợ.\n- Thời hạn thanh toán kinh phí hỗ trợ: Trong thời hạn không quá 15 ngày làm việc, kể từ ngày nhận được biên bản nghiệm thu khối lượng hoàn thành.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Theo mô tả",
+      "processingTimeUnit": "OTHER",
+      "description": "- Thời hạn tổ chức nghiệm thu: Trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được đơn đề nghị nghiệm thu, thanh toán kinh phí hỗ trợ.\n- Thời hạn thanh toán kinh phí hỗ trợ: Trong thời hạn không quá 15 ngày làm việc, kể từ ngày nhận được biên bản nghiệm thu khối lượng hoàn thành.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": "Theo mô tả",
+      "processingTimeUnit": "OTHER",
+      "description": "- Thời hạn tổ chức nghiệm thu: Trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được đơn đề nghị nghiệm thu, thanh toán kinh phí hỗ trợ.\n- Thời hạn thanh toán kinh phí hỗ trợ: Trong thời hạn không quá 15 ngày làm việc, kể từ ngày nhận được biên bản nghiệm thu khối lượng hoàn thành.",
+      "fees": []
+    }
+  ],
+  "description": "Không nghiệm thu, hỗ trợ đối với các nội dung đã đầu tư trước ngày có Quyết định phê duyệt dự toán kinh phí hỗ trợ thực hiện chính sách của Ủy ban nhân dân cấp xã.",
+  "name": "Nghiệm thu, thanh toán, quyết toán kinh phí thực hiện chính sách khuyến khích, hỗ trợ phát triển sản xuất nông, lâm nghiệp và thủy sản",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a143f4-4fae-7526-98ab-dd849e72741a",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định giao kinh phí thực hiện chính sách khuyến khích, hỗ trợ phát triển sản xuất nông, lâm nghiệp, thuỷ sản của Ủy ban nhân dân tỉnh",
+          "code": "H38-KQ000620",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f4-95ad-738a-96b7-6b6f92520d9d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Quyết định phê duyệt dự toán kinh phí hỗ trợ thực hiện dự án/phương án sản xuất của Ủy ban nhân dân cấp xã (kèm theo hồ sơ dự án/phương án sản xuất).",
+          "code": "H38-KQ000621",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f4-f9bd-740e-9154-099bc2912b42",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị nghiệm thu, thanh toán kinh phí hỗ trợ",
+          "code": "H38-KQ000622",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f5-b2ef-71da-8e6c-714529381484",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Biên bản nghiệm thu kết quả thực hiện chính sách.",
+          "code": "H38-KQ000623",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f5-ff3c-775e-badd-bd35ef627bb8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hoá đơn mua bán hàng hoá, vật tư, thiết bị, cây, con giống theo quy định. Trường hợp hàng hoá, vật tư, thiết bị, cây, con giống do người dân trực tiếp sản xuất, cung ứng tại địa phương trong tỉnh không có hoá đơn theo quy định thì sử dụng giấy tờ mua bán có xác nhận của Uỷ ban nhân dân cấp xã nơi bán để làm cơ sở nghiệm thu, thanh toán kinh phí hỗ trợ",
+          "code": "H38-KQ000624",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "Hồ sơ, giấy tờ về tiêu chuẩn, chất lượng vật tư, thiết bị và nguồn gốc cây, con giống, sản phẩm áp dụng theo từng nội dung hỗ trợ, từng trường hợp cụ thể, bao gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a143f6-acbe-729f-aa2b-53923ebfd362",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, giấy tờ chứng minh đạt tiêu chuẩn chất lượng vùng nguyên liệu cây trồng: Giấy chứng nhận tiêu chuẩn chất lượng vùng nguyên liệu; Thông báo về việc cấp mã số vùng trồng, mã số cơ sở đóng gói.",
+          "code": "H38-KQ000625",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f7-17f7-73ca-a591-74081d267fd8",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, giấy tờ chứng minh bảo đảm điều kiện về an toàn dịch bệnh, vệ sinh thú y do cơ quan quản lý chuyên ngành thú y có thẩm quyền cấp: Giấy chứng nhận an toàn dịch bệnh động vật (áp dụng đối với xây dựng cơ sở an toàn dịch bệnh); Có văn bản kết luận kết quả kiểm tra vệ sinh thú y (áp dụng đối với cơ sở giết mổ động vật).",
+          "code": "H38-KQ000626",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f7-6d9c-71a8-9c0b-e26333373ff4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Hồ sơ, giấy tờ chứng minh sản phẩm được đánh giá, phân hạng sản phẩm OCOP theo quy định: Giấy chứng nhận sản phẩm OCOP",
+          "code": "H38-KQ000627",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "- Hồ sơ, giấy tờ chứng minh nguồn gốc, tiêu chuẩn chất lượng cây, con giống:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a143f8-0ac2-75ff-b8b7-90bb03a2fa9d",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Cây giống chè, cây ăn quả (bưởi, cam, quýt, lê, đào, mận), cây dâu tằm, giống chè Shan (nhân giống bằng hạt, gieo ươm trong bầu): Cung cấp hồ sơ chứng minh nguồn gốc giống được khai thác từ cây đầu dòng hoặc vườn cây đầu dòng đã được công nhận; đối với các loại cây giống đã có tiêu chuẩn quốc gia hoặc tiêu chuẩn ngành thì thực hiện áp dụng theo tiêu chuẩn tương ứng. Trường hợp chưa có tiêu chuẩn Quốc gia hoặc tiêu chuẩn ngành thì cung cấp hồ sơ công bố tiêu chuẩn cơ sở do tổ chức, cá nhân tự công bố theo quy định",
+          "code": "H38-KQ000628",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f8-4884-704d-9d93-eeca2575f1ea",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Đối với giống cây chuối, dứa và cây dược liệu: Cung cấp hồ sơ chứng minh cây giống đáp ứng tiêu chuẩn Quốc gia hoặc tiêu chuẩn ngành, trường hợp không có tiêu chuẩn Quốc gia, tiêu chuẩn ngành thì cung cấp hồ sơ công bố tiêu chuẩn cơ sở do tổ chức, cá nhân tự công bố theo quy định.",
+          "code": "H38-KQ000629",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f8-84ea-7261-8eeb-e6532ee77eca",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Đối với cây tre măng Bát độ: Cung cấp hồ sơ chứng minh cây giống được mua từ những tổ chức, cá nhân sản xuất, kinh doanh giống cây trồng lâm nghiệp theo quy định tại khoản 6 Điều 7 Thông tư số 84/2025/TT-BNNMT Quy định chi tiết một số nội dung của Luật Lâm nghiệp và sửa đổi, bổ sung một số thông tư trong lĩnh vực lâm nghiệp và kiểm lâm.",
+          "code": "H38-KQ000630",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f8-c4c9-713e-a7e3-566784900d2b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Đối với con giống vật nuôi: Có bản sao Bản công bố tiêu chuẩn áp dụng của cơ sở sản xuất giống. Trường hợp con giống mua của người dân trực tiếp sản xuất trên địa bàn tỉnh chưa được công bố tiêu chuẩn áp dụng, yêu cầu con giống phải bảo đảm khoẻ mạnh, đáp ứng tiêu chuẩn định mức kinh tế kỹ thuật theo quy định và có giấy xác nhận đã tiêm phòng vắc xin của Ủy ban nhân dân cấp xã hoặc biên bản giám sát tiêm phòng của cơ quan chuyên môn cấp xã nơi bán. Trường hợp con giống được mua từ ngoài tỉnh phải có giấy chứng nhận kiểm dịch vận chuyển động vật theo quy định.",
+          "code": "H38-KQ000631",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "ển động vật theo quy định. - Hồ sơ, giấy tờ chứng minh cơ sở đủ điều kiện hỗ trợ máy móc, dây chuyên, thiết bị bảo quản, chế biến:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a143f9-3074-7728-b3a7-7be99afd012e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Cung cấp hồ sơ về máy móc, dây chuyền, thiết bị, gồm: Hợp đồng mua bán máy móc, dây chuyền, thiết bị; Hóa đơn giá trị gia tăng theo quy định của pháp luật; Phiếu xuất kho, biên bản giao nhận, biên bản nghiệm thu, bàn giao đưa vào sử dụng; Tài liệu kỹ thuật của nhà sản xuất (catalogue, thông số kỹ thuật, hướng dẫn sử dụng); Giấy chứng nhận xuất xứ hàng hóa (C/O) đối với hàng hóa nhập khẩu; Giấy chứng nhận hợp quy hoặc giấy chứng nhận hợp chuẩn hoặc tài liệu của nhà sản xuất, nhà cung cấp chứng minh máy móc, dây chuyền, thiết bị đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật, tiêu chuẩn áp dụng hoặc yêu cầu chất lượng theo quy định của pháp luật; Các tài liệu khác chứng minh nguồn gốc, xuất xứ, tiêu chuẩn, chất lượng của máy móc, dây chuyền, thiết bị theo quy định của pháp luật.",
+          "code": "H38-KQ000632",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f9-756a-70d9-9750-f3b4f4e7aa73",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Cung cấp hồ sơ về tiêu chuẩn chất lượng cơ sở đối với cơ sở bảo quản dược liệu: Đối với cơ sở bảo quản dược liệu sử dụng làm thuốc hoặc nguyên liệu làm thuốc yêu cầu có Giấy chứng nhận Thực hành tốt bảo quản thuốc, nguyên liệu làm thuốc (GSP) theo quy định của pháp luật về dược; đối với cơ sở bảo quản dược liệu để sử dụng cho mục đích sản xuất thực phẩm bảo vệ sức khỏe, mỹ phẩm hoặc sản phẩm khác yêu cầu có Giấy chứng nhận về bảo quản theo pháp luật chuyên ngành tương ứng về an toàn thực phẩm, mỹ phẩm và pháp luật khác có liên quan.",
+          "code": "H38-KQ000633",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f9-b15d-73ee-8ce3-35ed20b94890",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Cung cấp hồ sơ về tiêu chuẩn chất lượng cơ sở đối với cơ sở chế biến dược liệu: Đối với cơ sở chế biến dược liệu sử dụng làm thuốc hoặc nguyên liệu làm thuốc yêu cầu có Giấy chứng nhận Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc (GMP) theo quy định của pháp luật về dược; đối với cơ sở chế biến dược liệu để sử dụng cho mục đích sản xuất thực phẩm bảo vệ sức khỏe, mỹ phẩm hoặc sản phẩm khác yêu cầu có Giấy chứng nhận đáp ứng các điều kiện về hoạt động chế biến theo pháp luật chuyên ngành tương ứng về an toàn thực phẩm, mỹ phẩm và pháp luật khác có liên quan.",
+          "code": "H38-KQ000634",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143f9-ed98-76fa-bdf7-b3d70f5b11a6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "+ Cung cấp tài liệu minh chứng quy mô, công suất cơ sở chế biến, bảo quản;",
+          "code": "H38-KQ000635",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143fa-3d86-7299-93db-a4ef5216a4ae",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Cung cấp Hợp đồng thu mua nguyên liệu dược liệu theo quy định.",
+          "code": "H38-KQ000636",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a143fa-833c-743b-8b0f-0284a2e66c9f",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản cam kết duy trì sử dụng cơ sở hạ tầng, thiết bị được hỗ trợ đúng mục đích (theo mẫu số 10 kèm theo Quyết định số 86/2026/QĐ-UBND ngày 06/10/2026 của Ủy ban nhân dân tỉnh Lào Cai); Bản cam kết của bên nhận chuyển nhượng tiếp tục duy trì sử dụng cơ sở hạ tầng được hỗ trợ đúng mục đích (theo mẫu số 11 kèm theo Quyết định số 86/2026/QĐ-UBND ngày 06/10/2026 của Ủy ban nhân dân tỉnh Lào Cai)",
+          "code": "H38-KQ000637",
+          "attachments": [
+            {
+              "id": "01a143fb-aa83-707b-9057-ede9bfbc85c3",
+              "fileName": "mẫu số 10, 11.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a143fb-aa83-707b-9057-ede9bfbc85c3/mẫu số 10, 11.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2c08-77b9-731a-ae11-4639a6753f4e"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d860c-d0e2-7679-b690-4c27d6a71136",
+    "01a14299-e025-76af-9d0e-3b2a45009dfd",
+    "01a1429a-cf88-706f-9b4a-8fd766fb084e"
+  ],
+  "resultIds": [
+    "01a142a3-0015-7029-b3c5-1d2d3ace51ef",
+    "01a143fd-276f-7410-bbfe-5fb1742751d2"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b6992-72d8-7737-b634-a4a57284e881"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [
+    "019d2be3-6a90-761e-acd7-834542e7ef44"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2c08-77b9-731a-ae11-4639a6753f4e",
+      "name": "Nông nghiệp và Môi trường",
+      "code": "923192120"
+    }
+  ],
+  "category": {
+    "id": "019d2c08-77b9-731a-ae11-4639a6753f4e",
+    "name": "Nông nghiệp và Môi trường",
+    "code": "923192120"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-834542e7ef44",
+      "name": "Chủ tịch UBND cấp xã",
+      "code": "CTUBNDXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d860c-d0e2-7679-b690-4c27d6a71136",
+      "name": "NGHỊ QUYẾT\nBAN HÀNH MỘT SỐ CHÍNH SÁCH KHUYẾN KHÍCH, HỖ TRỢ PHÁT TRIỂN SẢN XUẤT NÔNG, LÂM NGHIỆP VÀ THUỶ SẢN TRÊN ĐỊA BÀN TỈNH LÀO CAI.",
+      "code": "21/2025/NQ-HĐND."
+    },
+    {
+      "id": "01a14299-e025-76af-9d0e-3b2a45009dfd",
+      "name": "Nghị quyết số 24/2026/NQ-HĐND ngày 11/8/2026 của Hội đồng nhân dân tỉnh Lào Cai ban hành Quy định một số chính sách khuyến khích, hỗ trợ phát triển dược liệu trên địa bàn tỉnh Lào Cai",
+      "code": "24/2026/NQ-HĐND"
+    },
+    {
+      "id": "01a1429a-cf88-706f-9b4a-8fd766fb084e",
+      "name": "Quyết định số 86/2026/QĐ-UBND ngày 06/10/2026 của Ủy ban nhân dân tỉnh Lào Cai Quy định trình tự, thủ tục, hồ sơ thực hiện chính sách khuyến khích, hỗ trợ phát triển sản xuất nông, lâm nghiệp và thủy sản trên địa bàn tỉnh Lào Cai",
+      "code": "86/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a143fd-276f-7410-bbfe-5fb1742751d2",
+      "name": "hồ sơ thanh toán kinh phí hỗ trợ thực hiện chính sách",
+      "code": "H38-KQ000335"
+    },
+    {
+      "id": "01a142a3-0015-7029-b3c5-1d2d3ace51ef",
+      "name": "Biên bản nghiệm thu",
+      "code": "H38-KQ000334"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b12-58410ba7b5df",
+  "departmentPromulgateCode": "H38",
+  "departmentPromulgateName": "UBND tỉnh Lào Cai",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1792142192993,
+  "updatedAt": 1792142192993,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Trung tâm Phục vụ hành chính công tỉnh Lào Cai (quầy giao dịch Sở Nông nghiệp và Môi trường) tại địa chỉ:\n+ Cơ sở 1: Số 64, đường Lý Tự Trọng, phường Yên Bái, tỉnh Lào Cai.\n+ Cơ sở 2: Đại lộ Trần Hưng Đạo, phường Cam Đường, tỉnh Lào Cai.\n- Trung tâm Phục vụ hành chính công cấp xã.\n- Cổng Dịch vụ công quốc gia (dịch vụ công trực tuyến).",
+  "delegatedAgencies": "Chủ tịch UBND cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không nghiệm thu, hỗ trợ đối với các nội dung đã đầu tư trước ngày có Quyết định phê duyệt dự toán kinh phí hỗ trợ thực hiện chính sách của Ủy ban nhân dân cấp xã.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a14285-8963-7729-a073-f28054236f07",
+    "proposalNumber": "3789/QĐ-UBND",
+    "decisionDate": 1791910800000,
+    "decisionNumber": null,
+    "publicationDate": 1792142192952,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b12-58410ba7b5df",
+      "name": "UBND tỉnh Lào Cai"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE",
+        "AT_SUBMISSION_PLACE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

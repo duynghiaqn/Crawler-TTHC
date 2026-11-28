@@ -1,0 +1,172 @@
+{
+  "id": "01a1a57b-0fb8-72c8-9304-c46ad7f41f57",
+  "code": "6.006918",
+  "codeNotation": "6.006918",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Cơ quan Hải quan (gồm: Cục trưởng Tổng cục Hải quan, Cục trưởng Cục Kiểm tra sau thông quan, Cục trưởng Cục Hải quan tỉnh, thành phố) gửi văn bản lấy ý kiến về chuyên môn của cơ quan có thẩm quyền vào nội dung cần lấy ý kiến trong dự thảo Kết luận kiểm tra sau thông quan tại trụ sở người khai hải quan.\n-  Cơ quan chuyên môn có thẩm quyền trả lời cơ quan Hải quan bằng văn bản."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Lấy ý kiến về chuyên môn của cơ quan có thẩm quyền trước khi ban hành kết luận kiểm tra sau thông quan tại trụ sở người khai hải quan",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd76-29dea7b856dd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan Hải quan về việc lấy ý kiến về chuyên môn của cơ quan có thẩm quyền vào nội dung cần lấy ý kiến trong dự thảo Kết luận kiểm tra sau thông quan tại trụ sở người khai hải quan.",
+          "code": "000.00.00.G12-KQ013825",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7d-7398-be48-2ce7181d92a3",
+    "019d2bb3-5d7d-7398-be4d-1c6dbc289d7a",
+    "019d2bb3-5d7e-72d1-afe7-9c25863596db"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afec-1603919cfdc2"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+      "name": "Hải quan",
+      "code": "G12-TC04"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-ab18-77a9-86e6-51520f70579d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-ab18-77a9-86e6-51520f70579d",
+      "name": "Đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7d-7398-be48-2ce7181d92a3",
+      "name": "Thông tư số 39/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính sửa đổi, bổ sung một số điều tại Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu.",
+      "code": "39/2018/TT-BTC"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe7-9c25863596db",
+      "name": "Nghị định 08/2015/NĐ-CP",
+      "code": "08/2015/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d7d-7398-be4d-1c6dbc289d7a",
+      "name": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu.",
+      "code": "38/2015/TT-BTC"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afec-1603919cfdc2",
+      "name": ".Văn bản trả lời của cơ quan chuyên môn có thẩm quyền.",
+      "code": "KQ.G12.000932"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448910965,
+  "updatedAt": 1794448910965,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

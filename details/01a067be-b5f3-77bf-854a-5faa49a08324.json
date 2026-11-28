@@ -1,0 +1,206 @@
+{
+  "id": "01a067be-b5f3-77bf-854a-5faa49a08324",
+  "code": "1.116555",
+  "codeNotation": "1.116555",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Văn phòng giám định tư pháp chấm dứt hoạt động trong các trường hợp sau đây: Tự chấm dứt hoạt động; Bị thu hồi giấy đăng ký hoạt động theo quy định tại Điều 28 của Nghị định số 177/2026/NĐ-CP ngày 19/5/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Giám định tư pháp; Bị hợp nhất, bị sáp nhập.\nTrường hợp chấm dứt hoạt động theo quy định tại điểm a khoản 1 Điều Điều 29 của Nghị định số 177/2026/NĐ-CP thì chậm nhất là 30 ngày trước thời điểm dự kiến chấm dứt hoạt động, văn phòng giám định tư pháp phải có báo cáo bằng văn bản gửi Sở Tư pháp nơi đăng ký hoạt động.\nVăn phòng giám định tư pháp phải gửi kèm theo báo cáo giấy tờ chứng minh đã hoàn thành việc thực hiện giám định đối với các trưng cầu, yêu cầu giám định tư pháp đã tiếp nhận, nộp đủ số thuế còn nợ, thanh toán xong các khoản nợ theo quy định của pháp luật, làm thủ tục chấm dứt hợp đồng lao động đã ký với người lao động, đăng báo trung ương hoặc báo địa phương trong hai số liên tiếp về thời điểm dự kiến chấm dứt hoạt động.\nTrong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Tư pháp tỉnh, thành phố xem xét, quyết định chấm dứt hoạt động của văn phòng giám định tư pháp."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Chấm dứt hoạt động văn phòng giám định tư pháp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a067bd-35ac-7244-90b7-deb1e1fd42cf",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Báo cáo bằng văn bản của văn phòng giám định tư pháp",
+          "code": "TP-G15.33-1000009",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a067bd-9a75-727b-8a9b-5ae73e750bc6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Giấy tờ chứng minh đã hoàn thành việc thực hiện giám định đối với các trưng cầu, yêu cầu giám định tư pháp đã tiếp nhận, nộp đủ số thuế còn nợ, thanh toán xong các khoản nợ theo quy định của pháp luật, làm thủ tục chấm dứt hợp đồng lao động đã ký với người lao động, đăng báo trung ương hoặc báo địa phương trong hai số liên tiếp về thời điểm dự kiến chấm dứt hoạt động",
+          "code": "TP-G15.33-1000010",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a0666a-36b1-758a-b184-d986ec52dc4e",
+    "01a0666c-3cd7-74a9-80b5-f2296fc0681c"
+  ],
+  "resultIds": [
+    "01a067be-588f-704e-9812-56bd8896725c"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3",
+      "name": "Giám định tư pháp",
+      "code": "G15-TP06"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-6c5a39ec15a3",
+    "name": "Giám định tư pháp",
+    "code": "G15-TP06"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dae14-45ef-7462-9028-2facf17f028a"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dae14-45ef-7462-9028-2facf17f028a",
+      "name": "Sở Tư pháp"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a0666a-36b1-758a-b184-d986ec52dc4e",
+      "name": "Luật Giám định tư pháp năm 2025",
+      "code": "105/2025/QH15"
+    },
+    {
+      "id": "01a0666c-3cd7-74a9-80b5-f2296fc0681c",
+      "name": "Nghị định số 177/2026/NĐ-CP ngày 19/5/2026 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Giám định tư pháp",
+      "code": "177/2026/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a067be-588f-704e-9812-56bd8896725c",
+      "name": "Quyết định chấm dứt hoạt động của văn phòng giám định tư phá",
+      "code": "KQ.G15.99709"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d603f1537007",
+  "departmentPromulgateCode": "G15",
+  "departmentPromulgateName": "Bộ Tư pháp",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1788451549299,
+  "updatedAt": 1788451549299,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Hồ sơ được nộp trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp hoặc Trung tâm phục vụ hành chính công tỉnh, thành phố nơi văn phòng giám định tư pháp hợp nhất dự kiến đặt trụ sở hoặc trực tuyến",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0662c-75a1-743b-8fe0-435be75b70a0",
+    "proposalNumber": "1998/QĐ-BTP",
+    "decisionDate": 1788368400000,
+    "decisionNumber": null,
+    "publicationDate": 1788451549153,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

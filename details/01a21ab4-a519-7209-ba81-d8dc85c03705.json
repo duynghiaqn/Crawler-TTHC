@@ -1,0 +1,194 @@
+{
+  "id": "01a21ab4-a519-7209-ba81-d8dc85c03705",
+  "code": "1.117158",
+  "codeNotation": "1.117158",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1: Đơn vị đào tạo, huấn luyện tổ chức kiểm tra lý thuyết, kiểm tra thực hành và kiểm tra kết thúc khóa học đối với học viên tham dự các chương trình đào tạo, huấn luyện an ninh hàng không quy định tại Chương III của Thông tư.\nViệc kiểm tra lý thuyết và kiểm tra thực hành được thực hiện theo quy định tại Điều 20 của Thông tư.\nThời gian kiểm tra kết thúc khóa học tối thiểu 15 phút đối với hình thức trắc nghiệm lý thuyết, tối thiểu 60 phút đối với hình thức tự luận lý thuyết và tối thiểu 45 phút đối với nội dung thực hành.\n- Bước 2: Đơn vị đào tạo, huấn luyện chấm điểm, đánh giá kết quả kiểm tra.\nĐiểm kiểm tra lý thuyết và điểm kiểm tra thực hành được tính theo thang điểm 100. Học viên đạt từ 80 điểm trở lên đối với từng phần kiểm tra lý thuyết và thực hành được công nhận hoàn thành khóa học.\n- Bước 3: Đơn vị đào tạo, huấn luyện cấp chứng nhận hoặc công nhận hoàn thành khóa học, cụ thể:\na) Chứng nhận hoàn thành khóa đào tạo, huấn luyện kiến thức an ninh hàng không theo mẫu quy định tại Phụ lục 02 ban hành kèm theo Thông tư;\nb) Công nhận bằng văn bản đối với học viên hoàn thành khóa huấn luyện định kỳ kiến thức an ninh hàng không."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "DAY",
+      "description": "Thực hiện trực tiếp thông qua việc tham gia đào tạo, huấn luyện và kiểm tra tại đơn vị huấn luyện\nViệc cấp chứng nhận hoặc công nhận hoàn thành khóa học được thực hiện sau 07 ngày kể từ khi học viên hoàn thành bài kiểm tra cuối khóa.",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Kiểm tra, chứng nhận hoàn thành khóa học",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a21aaf-1649-7129-b8e2-8390dfea4d14",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Không quy định hồ sơ do cá nhân phải nộp. Việc kiểm tra, cấp chứng chỉ hoặc công nhận hoàn thành khóa học được thực hiện trên cơ sở hồ sơ quản lý khóa học và kết quả kiểm tra do cơ sở đào tạo, huấn luyện an ninh hàng không lập",
+          "code": "000.00.00.G01-KQ003742",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-193e36874ae4"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+    "019f8cf8-01e1-724b-a428-0fce4ca54aef",
+    "01a215cc-1f25-709f-8aec-9d472e54b8cf"
+  ],
+  "resultIds": [
+    "01a21ab3-2aee-73da-94c9-226ef0d3e2ff",
+    "01a21ab4-06a2-772b-84e7-528b8d6f31a4"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-ac5169305ab5"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a72-700f-a652-ac5169305ab5"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-193e36874ae4",
+      "name": "Bảo đảm an ninh hàng không",
+      "code": "G01-CA31"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-193e36874ae4",
+    "name": "Bảo đảm an ninh hàng không",
+    "code": "G01-CA31"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an",
+      "code": "G01"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an",
+      "code": "G01"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a215cc-1f25-709f-8aec-9d472e54b8cf",
+      "name": "Thông tư số 110/2026/TT-BCA ngày  29 tháng 6 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình huấn luyện an ninh hàng không dân dụng Việt Nam.",
+      "code": "110/2026/TT-BCA "
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
+      "name": "Luật hàng không dân dụng Việt Nam",
+      "code": "130/2025/QH15"
+    },
+    {
+      "id": "019f8cf8-01e1-724b-a428-0fce4ca54aef",
+      "name": "Nghị định số 215/2026/NĐ-CP ngày 18/6/2026 của Thủ tướng Chính phủ quy định về an ninh hàng không",
+      "code": "215/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a21ab3-2aee-73da-94c9-226ef0d3e2ff",
+      "name": "Chứng nhận hoàn thành khóa học theo mẫu quy định tại Phụ lục 2 ban hành kèm theo Thông tư đối với học viên hoàn thành khóa huấn luyện ban đầu an ninh hàng không",
+      "code": "KQ.G01.000449"
+    },
+    {
+      "id": "01a21ab4-06a2-772b-84e7-528b8d6f31a4",
+      "name": "Văn bản công nhận hoàn thành khóa huấn luyện định kỳ an ninh hàng không",
+      "code": "KQ.G01.000460"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-ac5169305ab5",
+  "departmentPromulgateCode": "G01",
+  "departmentPromulgateName": "Bộ Công an",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1795744509370,
+  "updatedAt": 1795744509370,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Công an",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "Bộ Công an",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a215c2-0ee4-72bc-9879-414cbf50fb49",
+    "proposalNumber": "4977/QĐ-BCA-QLXNC",
+    "decisionDate": 1786035600000,
+    "decisionNumber": null,
+    "publicationDate": 1795744509180,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-ac5169305ab5",
+      "name": "Bộ Công an"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

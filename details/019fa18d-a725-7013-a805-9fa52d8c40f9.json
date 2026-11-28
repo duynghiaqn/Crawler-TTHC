@@ -1,0 +1,204 @@
+{
+  "id": "019fa18d-a725-7013-a805-9fa52d8c40f9",
+  "code": "5.003864",
+  "codeNotation": "5.003864",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Bước 1: Xây dựng phương án\n- Sở Nông nghiệp và Môi trường xây dựng phương án chuyển vị bảo tồn loài nguy cấp, quý, hiếm được ưu tiên bảo vệ theo Mẫu số 16 Phụ lục II ban hành kèm theo Thông tư số 85/2025/TT-BNNMT trình Ủy ban nhân dân cấp tỉnh nơi thực hiện hoạt động chuyển vị bảo tồn;\nb) Bước 2: Xử lý đề nghị\n\tTrong thời hạn 07 ngày làm việc kể từ ngày nhận được phương án chuyển vị bảo tồn, Ủy ban nhân dân cấp tỉnh xem xét phê duyệt phương án theo Mẫu số 17 Phụ lục II ban hành kèm theo Thông tư số 85/2025/TT-BNNMT. Trường hợp cần thiết, Ủy ban nhân dân cấp tỉnh tham vấn cơ quan khoa học và cơ quan quản lý nhà nước có liên quan theo trình tự như sau:\n\tTrong thời hạn 03 ngày làm việc kể từ ngày nhận được Phương án chuyển vị, Ủy ban nhân dân cấp tỉnh gửi văn bản tham vấn đến Cơ quan khoa học CITES Việt Nam, cơ quan quản lý nhà nước có liên quan và Ủy ban nhân dân cấp tỉnh nơi tiếp nhận trong trường hợp nơi tiếp nhận chuyển vị loài được ưu tiên bảo vệ thuộc tỉnh khác.\n\tTrong thời hạn 15 ngày làm việc, kể từ ngày nhận được văn bản của Ủy ban nhân dân cấp tỉnh, Cơ quan khoa học CITES Việt Nam, cơ quan quản lý nhà nước có liên quan và Ủy ban nhân dân cấp tỉnh nơi tiếp nhận có trách nhiệm trả lời bằng văn bản.\nTrong thời hạn 03 ngày làm việc, kể từ ngày nhận được kết quả tham vấn, Ủy ban nhân dân cấp tỉnh phê duyệt Phương án chuyển vị; trường hợp từ chối phê duyệt hoặc không nhận được kết quả tham vấn, thông báo bằng văn bản và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp không tham vấn",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp không tham vấn",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp không tham vấn",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 21,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp tham vấn",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 21,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp tham vấn",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 21,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Trường hợp tham vấn",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Chuyển vị bảo tồn động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm được ưu tiên bảo vệ",
+  "decisionNo": "",
+  "executionCases": [],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-233b05efea16"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fa18c-17a0-721b-a5fc-a207218dd85a"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-233b05efea16",
+      "name": "Bảo tồn thiên nhiên và Đa dạng sinh học",
+      "code": "G10-TN13"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-233b05efea16",
+    "name": "Bảo tồn thiên nhiên và Đa dạng sinh học",
+    "code": "G10-TN13"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fa18c-17a0-721b-a5fc-a207218dd85a",
+      "name": "Phê duyệt Phương án chuyển vị theo Mẫu số 17 Phụ lục II Thông tư số 85/2025/TT-BNNMT",
+      "code": "Mẫu số 17 Phụ lục II Thông tư số 85/2025/TT-BNNMT"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b17-b68020c8553a",
+  "departmentPromulgateCode": "H44",
+  "departmentPromulgateName": "UBND tỉnh Phú Thọ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1789530513479,
+  "updatedAt": 1789530513479,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa18d-c0da-72c9-a01a-462ed9e21a2b",
+    "proposalNumber": "119/QĐ-UBND",
+    "decisionDate": 1768410000000,
+    "decisionNumber": null,
+    "publicationDate": 1789530513166,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b17-b68020c8553a",
+      "name": "UBND tỉnh Phú Thọ"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE",
+        "AT_SUBMISSION_PLACE",
+        "AT_HOME"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

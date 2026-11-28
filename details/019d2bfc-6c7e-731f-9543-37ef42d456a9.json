@@ -1,0 +1,338 @@
+{
+  "id": "019d2bfc-6c7e-731f-9543-37ef42d456a9",
+  "code": "1.008589",
+  "codeNotation": "1.008589",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1: Người nộp thuế (NNT) thuộc trường hợp không tính tiền chậm nộp chuẩn bị hồ sơ đề nghị không tính tiền chậm nộp theo đúng quy định và gửi tới cơ quan thuế quản lý trực tiếp hoặc cơ quan thuế quản lý khoản thu ngân sách nhà nước.\n++ Đối với trường hợp hồ sơ không tính tiền chậm nộp điện tử: NNT truy cập vào Hệ thống thông tin giải quyết TTHC mà NNT lựa chọn (Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền bao gồm: Cổng dịch vụ công quốc gia theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính/ Hệ thống thông tin quản lý thuế, hệ thống thông tin giải quyết TTHC của Cục Thuế (trường hợp TTHC đã toàn trình như chưa tích hợp lên cổng dịch vụ công quốc gia)/ Hệ thống thông tin của tổ chức cung cấp dịch vụ T-VAN) để lập văn bản đề nghị không tính tiền chậm nộp và gửi kèm các hồ sơ theo quy định dưới dạng điện tử (nếu có), ký điện tử và gửi đến cơ quan thuế qua Cổng thông tin điện tử mà NNT lựa chọn."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Cơ quan thuế tiếp nhận:\n+++ Trường hợp hồ sơ được nộp trực tiếp tại Trung tâm phục vụ hành chính công (TTPVHCC) cấp tỉnh, xã hoặc qua dịch vụ bưu chính: công chức thuế tiếp nhận, giải quyết hồ sơ và trả kết quả theo quy định. \n+++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận hồ sơ thuế do cơ quan thuế thực hiện thông qua hệ thống xử lý dữ liệu điện tử."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp hồ sơ đề nghị không tính tiền chậm nộp chưa đầy đủ theo quy định, trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan thuế phải thông báo bằng văn bản theo mẫu số 01/TB-BSTT-NNT Phụ lục V ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính đề nghị người nộp thuế giải trình hoặc bổ sung hồ sơ.\n+ Trường hợp hồ sơ đề nghị không tính tiền chậm nộp đầy đủ, trong thời hạn 07 (bảy) ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan thuế phải ban hành Thông báo không chấp thuận không tính tiền chậm nộp (mẫu số 04/KTCN ban hành kèm theo phụ lục III Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính) đối với trường hợp không thuộc đối tượng không tính tiền chậm nộp hoặc Thông báo chấp thuận không tính tiền chậm nộp (mẫu số 05/KTCN ban hành kèm theo phụ lục III Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính) đối với trường hợp thuộc đối tượng không tính tiền chậm nộp.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp hồ sơ đề nghị không tính tiền chậm nộp chưa đầy đủ theo quy định, trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan thuế phải thông báo bằng văn bản theo mẫu số 01/TB-BSTT-NNT Phụ lục V ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính đề nghị người nộp thuế giải trình hoặc bổ sung hồ sơ.\n+ Trường hợp hồ sơ đề nghị không tính tiền chậm nộp đầy đủ, trong thời hạn 07 (bảy) ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan thuế phải ban hành Thông báo không chấp thuận không tính tiền chậm nộp (mẫu số 04/KTCN ban hành kèm theo phụ lục III Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính) đối với trường hợp không thuộc đối tượng không tính tiền chậm nộp hoặc Thông báo chấp thuận không tính tiền chậm nộp (mẫu số 05/KTCN ban hành kèm theo phụ lục III Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính) đối với trường hợp thuộc đối tượng không tính tiền chậm nộp.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 7,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "+ Trường hợp hồ sơ đề nghị không tính tiền chậm nộp chưa đầy đủ theo quy định, trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan thuế phải thông báo bằng văn bản theo mẫu số 01/TB-BSTT-NNT Phụ lục V ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính đề nghị người nộp thuế giải trình hoặc bổ sung hồ sơ.\n+ Trường hợp hồ sơ đề nghị không tính tiền chậm nộp đầy đủ, trong thời hạn 07 (bảy) ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan thuế phải ban hành Thông báo không chấp thuận không tính tiền chậm nộp (mẫu số 04/KTCN ban hành kèm theo phụ lục III Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính) đối với trường hợp không thuộc đối tượng không tính tiền chậm nộp hoặc Thông báo chấp thuận không tính tiền chậm nộp (mẫu số 05/KTCN ban hành kèm theo phụ lục III Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính) đối với trường hợp thuộc đối tượng không tính tiền chậm nộp.",
+      "fees": []
+    }
+  ],
+  "description": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "name": "Không tính tiền chậm nộp",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71ad-7288-8f37-23c945d42114",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": false,
+          "isProcessingResult": false,
+          "name": "Văn bản đề nghị không tính tiền chậm nộp theo mẫu số 01/KTCN Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính",
+          "code": "G12.0012242",
+          "attachments": [
+            {
+              "id": "019fad49-388b-77d3-bee4-c9684abd6430",
+              "fileName": "1. Mẫu số 01 KTCN.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fad49-388b-77d3-bee4-c9684abd6430/1. Mẫu số 01 KTCN.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fad49-e761-7150-8d01-c80c75314e61",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Từ 01/7/2026 đến thời điểm theo lộ trình của cơ quan thuế quy định tại khoản 2 Điều 99 Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính thì văn bản đề nghị không tính tiền chậm nộp theo mẫu số 01/KTCN, văn bản có xác nhận của đơn vị sử dụng ngân sách nhà nước về việc người nộp thuế chưa được thanh toán theo mẫu số 02/KTCN thực hiện theo mẫu ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài chính (đã được sửa đổi, bổ sung).",
+          "code": "G12.0012244",
+          "attachments": [
+            {
+              "id": "019fad4a-bcd3-74ed-9ce9-1012b56aa860",
+              "fileName": "02 KTCN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fad4a-bcd3-74ed-9ce9-1012b56aa860/02 KTCN TT 80.docx"
+            },
+            {
+              "id": "019fad4a-be01-77ff-8c80-6ccd49701b5e",
+              "fileName": "01 KTCN TT 80.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fad4a-be01-77ff-8c80-6ccd49701b5e/01 KTCN TT 80.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb133-c242-7478-bcef-6510447ba861",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản chính hoặc bản sao có chứng thực văn bản có xác nhận của đơn vị sử dụng ngân sách nhà nước về việc người nộp thuế chưa được thanh toán theo mẫu số 02/KTCN Phụ lục III ban hành kèm theo Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ Tài chính",
+          "code": "G12.0012245",
+          "attachments": [
+            {
+              "id": "019fb133-be3d-753b-9294-6d57c213084f",
+              "fileName": "2. Mẫu số 02 KTCN.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019fb133-be3d-753b-9294-6d57c213084f/2. Mẫu số 02 KTCN.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019fb134-1230-742b-9392-2edb77263ec3",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bản sao hợp đồng cung ứng hàng hoá, dịch vụ ký với chủ đầu tư",
+          "code": "G12.0012246",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "UPDATED",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": true,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "Tổ chức, hộ gia đình, cá nhân",
+  "keywords": "Không tính tiền chậm nộp",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-f27294458635"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+    "019e5e83-1282-771d-9014-49799413a4e5",
+    "019f356e-75e3-7494-a2f3-672d8dce61a6",
+    "019f8db3-9765-740b-8b90-682677b9c421"
+  ],
+  "resultIds": [
+    "019d2bb2-1c71-7574-afe8-1c9a3557c450",
+    "019d2bb2-1c71-7574-afe8-2120d8dd740f"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b6991-aa01-772c-8759-c76bb73c83cc"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+    "019d2be3-6a81-771b-b66c-7407e2c364d2",
+    "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+    "019d2be3-6a90-761e-acd7-55b0f6a96543"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+      "name": "Thuế",
+      "code": "G12-TC18"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-f27294458635",
+    "name": "Thuế",
+    "code": "G12-TC18"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a81-771b-b66c-71bd25c38bf7",
+      "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
+      "code": "G12.18.C3"
+    },
+    {
+      "id": "019d2be3-6a84-779d-b3e1-fae943ee6f6c",
+      "name": "Thuế tỉnh, thành phố",
+      "code": "BTC_TDP"
+    },
+    {
+      "id": "019d2be3-6a90-761e-acd7-55b0f6a96543",
+      "name": "Thuế cơ sở",
+      "code": "BTC_TCS"
+    },
+    {
+      "id": "019d2be3-6a81-771b-b66c-7407e2c364d2",
+      "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+      "code": "G12.18.C7"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f356e-75e3-7494-a2f3-672d8dce61a6",
+      "name": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT QUẢN LÝ THUẾ",
+      "code": "252/2026/NĐ-CP"
+    },
+    {
+      "id": "019f8db3-9765-740b-8b90-682677b9c421",
+      "name": "Thông tư quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "code": "89/2026/TT-BTC"
+    },
+    {
+      "id": "019e5e83-1282-771d-9014-49799413a4e5",
+      "name": "Luật số 108/2025/QH15 của Quốc hội: Luật Quản lý thuế",
+      "code": "108/2025/QH15"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
+      "name": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "118/2025/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c71-7574-afe8-1c9a3557c450",
+      "name": "Thông báo không chấp thuận không tính tiền chậm nộp (Mẫu số 04/KTCN)",
+      "code": "KQ.G12.000571"
+    },
+    {
+      "id": "019d2bb2-1c71-7574-afe8-2120d8dd740f",
+      "name": "Thông báo chấp thuận không tính tiền chậm nộp (Mẫu số 05/KTCN)",
+      "code": "KQ.G12.000572"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "019fb215-d4ec-754e-9744-8f3ac2550c9b",
+      "name": "Không tính tiền chậm nộp",
+      "code": "1.008589.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "019d7569-4938-7435-8739-80163107efaa",
+      "name": "Không tính tiền chậm nộp",
+      "code": "1.008589.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1774559456382,
+  "updatedAt": 1785399202039,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế tỉnh, thành phố, Thuế cơ sở, Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Thuế tỉnh, thành phố/ Chi cục Thuế doanh nghiệp lớn/ Chi cục Thuế thương mại điện tử/ Thuế cơ sở",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019fa27b-202e-7746-b333-03ea451df91c",
+    "proposalNumber": "1934/QĐ-BTC",
+    "decisionDate": 1784480400000,
+    "decisionNumber": null,
+    "publicationDate": 1785399196933,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "01a1e3a4-6649-750d-9976-36bc37e864a0",
+  "code": "6.006957",
+  "codeNotation": "6.006957",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Cơ quan, đơn vị, địa phương có thẩm quyền căn cứ tiêu chuẩn, điều kiện xét tặng Giấy khen của Thủ trưởng cơ quan chuyên môn thuộc Ủy ban nhân dân thành phố và tương đương; Chủ tịch Ủy ban nhân dân cấp xã; Chủ tịch Hội đồng quản trị, Chủ tịch Hội đồng thành viên, Tổng Giám đốc, Giám đốc doanh nghiệp thuộc Ủy ban nhân dân thành phố"
+    },
+    {
+      "name": "",
+      "description": "b) Đối với hồ sơ thuộc thẩm quyền quyết định của Chủ tịch Ủy ban nhân dân cấp xã, Phòng Văn hóa - Xã hội cấp xã tiếp nhận, kiểm tra, thẩm định hồ sơ, tổng hợp, báo cáo Hội đồng Thi đua - Khen thưởng cơ sở và trình Chủ tịch Ủy ban nhân dân cấp xã xem xét, quyết định tặng giấy khen."
+    },
+    {
+      "name": "",
+      "description": "c) Đối với hồ sơ thuộc thẩm quyền quyết định của thủ trưởng cơ quan, đơn vị, bộ phận tham mưu công tác thi đua, khen thưởng hoặc cơ quan, bộ phận tham mưu được giao nhiệm vụ tiếp nhận, kiểm tra, thẩm định hồ sơ và trình thủ trưởng cơ quan, đơn vị xem xét, quyết định tặng giấy khen."
+    },
+    {
+      "name": "",
+      "description": "d) Người có thẩm quyền xem xét, quyết định tặng giấy khen đối với trường hợp đáp ứng đủ điều kiện, tiêu chuẩn theo quy định của pháp luật."
+    },
+    {
+      "name": "",
+      "description": "đ) Trường hợp hồ sơ không đủ điều kiện, tiêu chuẩn hoặc không bảo đảm thành phần hồ sơ theo quy định, cơ quan, bộ phận tham mưu có trách nhiệm thông báo hoặc trình người có thẩm quyền thông báo cho cơ quan, đơn vị, địa phương trình khen thưởng biết, nêu rõ lý do và căn cứ pháp lý."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 15,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Hồ sơ được gửi trực tiếp hoặc theo quy chế làm việc của cơ quan, đơn vị, địa phương.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Tập thể, cá nhân đạt thành tích theo quy định đủ điều kiện đề nghị xét tặng giấy khen.",
+  "name": "Thủ tục đề nghị xét tặng Giấy khen của Thủ trưởng cơ quan chuyên môn thuộc Ủy ban nhân dân thành phố và tương đương; Chủ tịch Ủy ban nhân dân cấp xã; Chủ tịch Hội đồng quản trị, Chủ tịch Hội đồng thành viên, Tổng Giám đốc, Giám đốc doanh nghiệp thuộc Ủy ban nhân dân thành phố",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Hồ sơ đề nghị xét tặng Giấy khen (01 bản chính và các tệp tin điện tử của hồ sơ), gồm:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1e274-4680-715f-906c-c1526c9af1f1",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị khen thưởng (theo mẫu số 01 Phụ lục kèm theo Quyết định này).",
+          "code": "H57-KQ000090",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e274-93cc-7331-9e6a-3cca235edff3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Báo cáo thành tích của cá nhân, tập thể, hộ gia đình (theo mẫu số 04, 05, 06, 07 Phụ lục kèm theo Quyết định này).",
+          "code": "H57-KQ000091",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e274-d245-749e-939f-3f546bdbd7e6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Biên bản bình xét và kết quả bỏ phiếu kín của Hội đồng Thi đua - Khen thưởng cấp trình khen thưởng (theo mẫu số 11 Phụ lục kèm theo Quyết định này).",
+          "code": "H57-KQ000092",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": true,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1e226-ba60-71ed-9a2f-918e313579c8"
+  ],
+  "resultIds": [
+    "01a1e275-301f-766e-b31f-1f6d06a0fad9"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6ada-753f-9ac8-567452168685"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6ada-753f-9ac6-bc0a7a1a53b2",
+    "01a17cd9-a562-71d8-9800-b5bbab5cee6b"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6ada-753f-9ac8-567452168685",
+      "name": "Cơ quan khác",
+      "code": "CQK"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6ada-753f-9ac6-bc0a7a1a53b2",
+      "name": "Thủ trưởng cơ quan",
+      "code": "BQP-TTCQ"
+    },
+    {
+      "id": "01a17cd9-a562-71d8-9800-b5bbab5cee6b",
+      "name": "Chủ tịch Ủy ban nhân dân cấp xã",
+      "code": "CQCM-NNMT-CHUTICHXA"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1e226-ba60-71ed-9a2f-918e313579c8",
+      "name": "Quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng áp dụng trên địa bàn thành phố Huế",
+      "code": "118/2026/QĐ-UBND "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1e275-301f-766e-b31f-1f6d06a0fad9",
+      "name": "Quyết định tặng giấy khen của người có thẩm quyền hoặc văn bản thông báo kết quả giải quyết hồ sơ đối với trường hợp không được tặng giấy khen.",
+      "code": "KQ.H57.000155"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794880431609,
+  "updatedAt": 1794880431609,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Cơ quan khác",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Hồ sơ được gửi trực tiếp hoặc theo quy chế làm việc của cơ quan, đơn vị, địa phương",
+  "delegatedAgencies": "Thủ trưởng cơ quan, Chủ tịch Ủy ban nhân dân cấp xã",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Tập thể, cá nhân đạt thành tích theo quy định đủ điều kiện đề nghị xét tặng giấy khen.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1e220-4209-7261-a74e-3fd90aeca1ce",
+    "proposalNumber": "3727/QĐ-UBND",
+    "decisionDate": 1794589200000,
+    "decisionNumber": null,
+    "publicationDate": 1794880431455,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

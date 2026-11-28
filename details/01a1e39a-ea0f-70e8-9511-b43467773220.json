@@ -1,0 +1,271 @@
+{
+  "id": "01a1e39a-ea0f-70e8-9511-b43467773220",
+  "code": "6.006954",
+  "codeNotation": "6.006954",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "a) Cơ quan hành chính nhà nước giới thiệu, đề nghị Chủ tịch Ủy ban nhân dân thành phố xét tặng danh hiệu “Công dân danh dự thành phố Huế” nộp 01 bộ hồ sơ (bản giấy nộp trực tiếp hoặc qua đường bưu điện và bản điện tử nộp qua hệ thống hồ sơ công vụ) theo quy định tại Điều 5 Quy chế này tại Sở Nội vụ (qua Ban Thi đua - Khen thưởng)."
+    },
+    {
+      "name": "",
+      "description": "b) Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ, Sở Nội vụ chủ trì, phối hợp với Công an thành phố, Sở Ngoại vụ và các cơ quan nhà nước có liên quan thẩm định hồ sơ."
+    },
+    {
+      "name": "",
+      "description": "c) Trong thời hạn 01 ngày làm việc kể từ ngày có kết quả thẩm định hồ sơ, Sở Nội vụ phối hợp với Văn phòng Ủy ban nhân dân thành phố thực hiện công khai Danh sách các cá nhân dự kiến tặng danh hiệu “Công dân danh dự thành phố Huế” trên Cổng Thông tin điện tử thành phố để lấy ý kiến Nhân dân trong thời hạn 07 ngày làm việc."
+    },
+    {
+      "name": "",
+      "description": "d) Sau khi kết thúc thời hạn lấy ý kiến Nhân dân, trong thời hạn 05 ngày làm việc, Sở Nội vụ tổng hợp, tiếp thu, giải trình các ý kiến và báo cáo Hội đồng Thi đua - Khen thưởng thành phố xem xét, tư vấn về việc xét tặng danh hiệu. \nTrên cơ sở ý kiến của Hội đồng Thi đua - Khen thưởng thành phố, trong thời gian 3 ngày làm việc, Sở Nội vụ tham mưu Ủy ban nhân dân thành phố trình Ban Thường vụ Đảng ủy Ủy ban nhân dân thành phố báo cáo, xin ý kiến Thường trực Thành ủy xem xét, cho ý kiến về việc xét tặng danh hiệu “Công dân danh dự thành phố Huế”; tiếp thu ý kiến, hoàn thiện hồ sơ trình Chủ tịch Ủy ban nhân dân thành phố xem xét, quyết định tặng danh hiệu."
+    },
+    {
+      "name": "",
+      "description": "e) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được Tờ trình của Sở Nội vụ, Chủ tịch Ủy ban nhân dân thành phố xem xét, quyết định tặng danh hiệu “Công dân danh dự thành phố Huế”."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 28,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần tại Sở Nội vụ (Ban Thi đua - Khen thưởng) hoặc qua đường bưu chính.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 28,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần tại Sở Nội vụ (Ban Thi đua - Khen thưởng) hoặc qua đường bưu chính.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 28,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần tại Sở Nội vụ (Ban Thi đua - Khen thưởng) hoặc qua đường bưu chính.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "description": "Cá nhân đạt được thành tích theo quy định đủ điều kiện xét tặng danh hiệu “Công dân danh dự thành phố Huế”",
+  "name": "Thủ tục xét tặng và tôn vinh danh hiệu “Công dân danh dự thành phố Huế”",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1e265-0333-7019-889b-f7fd1f009207",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "a) Tờ trình đề nghị xét tặng danh hiệu (theo Mẫu số 01 Phụ lục ban hành kèm theo Quyết định này).",
+          "code": "H57-KQ000050",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e265-4565-77df-838f-e5a2dc739c08",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "b) Báo cáo thành tích của cá nhân được đề nghị xét tặng do cơ quan hành chính nhà nước giới thiệu, đề nghị xét tặng lập (theo Mẫu số 02 Phụ lục ban hành kèm theo Quyết định này).",
+          "code": "H57-KQ000051",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1e26a-082c-7248-a3e0-f5df5e1ff790",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "c) Các văn bản, tài liệu minh chứng thành tích của cá nhân theo quy định.",
+          "code": "H57-KQ000072",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1e266-b6bc-75db-aad8-48f409db8f41"
+  ],
+  "resultIds": [
+    "01a1e265-f66e-7558-a90b-287a5839ff6c"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a85-74ec-a341-1911c88c87d6"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a84-779d-b3e2-3bfbb2d55427"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+      "name": "Thi đua - khen thưởng",
+      "code": "G09.17_TDKTTW"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2b9f2bf4ac61",
+    "name": "Thi đua - khen thưởng",
+    "code": "G09.17_TDKTTW"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a85-74ec-a341-1911c88c87d6",
+      "name": "Văn phòng UBND tỉnh",
+      "code": "H18.1"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a84-779d-b3e2-3bfbb2d55427",
+      "name": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+      "code": "CTUBNDT"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019dd22b-38df-740e-bdfc-18915a6eff9e"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019dd22b-38df-740e-bdfc-18915a6eff9e",
+      "name": "Sở Nội Vụ"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1e266-b6bc-75db-aad8-48f409db8f41",
+      "name": "Ban hành quy chế xét tặng và tôn vinh danh hiệu “Công dân danh dự thành phố Huế”",
+      "code": "119/2026/QĐ-UBND"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1e265-f66e-7558-a90b-287a5839ff6c",
+      "name": "Quyết định tôn vinh danh hiệu “Công dân danh dự thành phố Huế”",
+      "code": "KQ.H57.000130"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794880431606,
+  "updatedAt": 1794880431606,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Văn phòng UBND tỉnh",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "Tiếp nhận hồ sơ vào các ngày làm việc trong tuần gửi đến Sở Nội vụ (Ban Thi đua - Khen thưởng) qua các phương thức: Trực tiếp, qua dịch vụ bưu chính và trực tuyến.",
+  "delegatedAgencies": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Cá nhân đạt được thành tích theo quy định đủ điều kiện xét tặng danh hiệu “Công dân danh dự thành phố Huế”",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1e220-4209-7261-a74e-3fd90aeca1ce",
+    "proposalNumber": "3727/QĐ-UBND",
+    "decisionDate": 1794589200000,
+    "decisionNumber": null,
+    "publicationDate": 1794880431455,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "ONLINE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "id": "01a1afd5-b34f-761b-a88e-32a776afaee7",
+  "code": "2.002945",
+  "codeNotation": "2.002945",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ sở đào tạo đề nghị hỗ trợ kinh phí nộp 01 bộ hồ sơ theo quy định tại Trung tâm Phục vụ hành chính công thành phố/cấp xã (nộp trực tiếp hoặc qua Dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công quốc gia).\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch chủ trì, phối hợp với Sở Tài chính và các cơ quan, đơn vị liên quan tiến hành thẩm định hồ sơ đề nghị hỗ trợ.\n- Trong thời hạn 03 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ do Sở Văn hóa, Thể thao và Du lịch trình, Ủy ban nhân dân thành phố ban hành quyết định hỗ trợ. Trường hợp hồ sơ đề nghị hỗ trợ không đủ điều kiện hỗ trợ, Sở Văn hóa, Thể thao và Du lịch tham mưu Ủy ban nhân dân thành phố ban hành văn bản thông báo và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công thành phố Huế/cấp xã",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "-\tNộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp xã hoặc Trung tâm Phục vụ hành chính công thành phố Huế.  -\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn)."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công thành phố Huế/cấp xã\n- Nộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn)",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "-\tNộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp xã hoặc Trung tâm Phục vụ hành chính công thành phố Huế.  -\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn)."
+        }
+      ]
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Nộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn)",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "-\tNộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp xã hoặc Trung tâm Phục vụ hành chính công thành phố Huế.  -\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn)."
+        }
+      ]
+    }
+  ],
+  "description": "Các cơ sở đào tạo, học sinh, sinh viên, giáo viên, giảng viên được cơ quan có thẩm quyền cử tham gia các hội thi, hội diễn, liên hoan nghệ thuật cấp tỉnh, quốc gia và quốc tế được hỗ trợ chi phí đi lại, tiền ăn, tiền thuê chỗ nghỉ, chi phí thuê/mua sắm, vận chuyển đạo cụ, phục trang và các chi phí cần thiết khác phục vụ cho cuộc thi theo chế độ, tiêu chuẩn, định mức của pháp luật hiện hành và trong phạm vi dự toán được cấp có thẩm quyền phê duyệt. Cơ sở đào tạo tổng hợp kinh phí đề nghị hỗ trợ, không lập và thanh toán trùng cùng một nội dung chi cho cơ sở đào tạo và người được cử tham gia hoặc với khoản kinh phí đã được nguồn khác chi trả.",
+  "name": "Hỗ trợ kinh phí tham gia hội thi, hội diễn, liên hoan nghệ thuật cấp tỉnh, quốc gia và quốc tế",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1afc6-ecb6-775b-89ce-e05dc442f883",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị hỗ trợ kinh phí của cơ sở đào tạo",
+          "code": "TP.H57.1000600",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1afc7-b953-74ea-ad21-8e7d5d01675e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Bảng dự toán kinh phí đề nghị hỗ trợ theo từng đối tượng thụ hưởng của chính sách, nội dung và mức hỗ trợ của cơ sở đào tạo",
+          "code": "TP.H57.1000601",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1afcf-ad87-744f-ac48-05247cc609fd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định phân công giáo viên, giảng viên trực tiếp hướng dẫn học sinh, sinh viên tham gia cuộc thi",
+          "code": "TP.H57.1000608",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1afcf-660d-7077-8021-c5424876df12",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Quyết định cử học sinh, sinh viên, giáo viên, giảng viên tham gia cuộc thi kèm danh sách người được cử tham gia",
+          "code": "TP.H57.1000607",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1afd5-25cf-74d9-b8bc-e3128b0d4b44",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thông báo, kế hoạch, điều lệ hoặc văn bản của cơ quan, tổ chức có thẩm quyền về việc tổ chức cuộc thi (bản sao)",
+          "code": "TP.H57.1000610",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1afd5-74d9-719b-93d7-3ccdc1a1fb77",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Kế hoạch tham gia cuộc thi của cơ sở đào tạo, kèm chương trình, tiết mục hoặc nội dung dự thi",
+          "code": "TP.H57.1000611",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b4-b537de0f78f9"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "01a1afbd-5be7-7540-af83-93ea25180950"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a89-70fe-8e5f-386549c579a0"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a89-70fe-8e5d-edfb72e6be7f"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b4-b537de0f78f9",
+      "name": "Văn hóa cơ sở",
+      "code": "G16-VH13"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b4-b537de0f78f9",
+    "name": "Văn hóa cơ sở",
+    "code": "G16-VH13"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a89-70fe-8e5f-386549c579a0",
+      "name": "Sở Văn hóa, Thể thao và Du lịch- Thành phố Huế",
+      "code": "H57.16"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế",
+      "code": "H57"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "01a1afbd-5be7-7540-af83-93ea25180950",
+      "name": "Quyết định hỗ trợ của Ủy ban nhân dân thành phố",
+      "code": "KQ.H57.000072"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+  "departmentPromulgateCode": "H57",
+  "departmentPromulgateName": "UBND Thành phố Huế",
+  "cases": [
+    {
+      "id": "01a1bf51-ec92-7530-a2dc-efe426703ef2",
+      "name": "Hỗ trợ kinh phí tham gia hội thi, hội diễn, liên hoan nghệ thuật cấp tỉnh, quốc gia và quốc tế",
+      "code": "2.002945.01",
+      "processingDay": {
+        "qty": 10,
+        "type": "WORKING_DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1793959294629,
+  "updatedAt": 1793959294629,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Văn hóa, Thể thao và Du lịch- Thành phố Huế",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "-\tNộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp xã hoặc Trung tâm Phục vụ hành chính công thành phố Huế. \n-\tNộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn).",
+  "delegatedAgencies": "UBND Thành phố Huế",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Các cơ sở đào tạo, học sinh, sinh viên, giáo viên, giảng viên được cơ quan có thẩm quyền cử tham gia các hội thi, hội diễn, liên hoan nghệ thuật cấp tỉnh, quốc gia và quốc tế được hỗ trợ chi phí đi lại, tiền ăn, tiền thuê chỗ nghỉ, chi phí thuê/mua sắm, vận chuyển đạo cụ, phục trang và các chi phí cần thiết khác phục vụ cho cuộc thi theo chế độ, tiêu chuẩn, định mức của pháp luật hiện hành và trong phạm vi dự toán được cấp có thẩm quyền phê duyệt. Cơ sở đào tạo tổng hợp kinh phí đề nghị hỗ trợ, không lập và thanh toán trùng cùng một nội dung chi cho cơ sở đào tạo và người được cử tham gia hoặc với khoản kinh phí đã được nguồn khác chi trả.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1afbd-db82-720d-a7da-c794434f0589",
+    "proposalNumber": "3565/QĐ-UBND",
+    "decisionDate": 1793725200000,
+    "decisionNumber": null,
+    "publicationDate": 1793959294570,
+    "issuingAgency": {
+      "id": "019d2be3-6a89-70fe-8e5d-edfb72e6be7f",
+      "name": "UBND Thành phố Huế"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": true,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

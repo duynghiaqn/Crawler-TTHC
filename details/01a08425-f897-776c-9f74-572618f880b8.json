@@ -1,0 +1,177 @@
+{
+  "id": "01a08425-f897-776c-9f74-572618f880b8",
+  "code": "1.116563",
+  "codeNotation": "1.116563",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "1. Trường hợp có nhu cầu sửa đổi, bổ sung thông tin trong Giấy chứng nhận KP hoặc cấp lại Giấy chứng nhận KP bị mất, thất lạc, hư hỏng, thương nhân nộp 01 Bản kê khai trực tuyến thông tin về Giấy chứng nhận KP theo mẫu và hướng dẫn quy định tại Phụ lục VIII kèm theo Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương qua Cổng Thông tin một cửa Quốc gia hoặc Cổng Dịch vụ công Quốc gia hoặc Cổng dịch vụ công của cơ quan cấp phép.\n2. Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 02 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan cấp phép thông báo để thương nhân bổ sung, hoàn thiện hồ sơ. \n3. Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và đúng quy định, cơ quan cấp phép cấp sửa đổi, bổ sung, cấp lại Giấy chứng nhận KP theo Quy chế Chứng nhận KP cho thương nhân theo mẫu quy định tại Phụ lục VIII kèm theo Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương và gửi kết quả (01 bản gốc và 02 bản sao) qua đường bưu chính theo địa chỉ đăng ký của thương nhân hoặc trả lời thương nhân về việc không cấp sửa đổi, bổ sung, cấp lại Giấy chứng nhận KP và nêu rõ lý do qua Cổng Thông tin một cửa Quốc gia hoặc Cổng Dịch vụ công Quốc gia hoặc Cổng dịch vụ công của cơ quan cấp phép."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 2,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Kê khai trực tuyến qua Cổng Thông tin một cửa Quốc gia hoặc Cổng Dịch vụ công Quốc gia hoặc Cổng dịch vụ công của cơ quan cấp phép.",
+      "fees": []
+    }
+  ],
+  "description": "Không",
+  "name": "Thủ tục cấp sửa đổi, bổ sung, cấp lại do mất, thất lạc, hư hỏng Giấy chứng nhận KP theo Quy chế Chứng nhận KP",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a08424-4378-7763-8858-c412dd0820bd",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "01 Bản kê khai trực tuyến thông tin về Giấy chứng nhận KP theo mẫu và hướng dẫn quy định tại Phụ lục VIII kèm theo Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương về việc quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+          "code": "XNK-2195-04",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+    "01a0841f-2437-7087-acf9-47e9714dc6d5"
+  ],
+  "resultIds": [
+    "01a08424-9a2c-71bb-bdc2-7b58f319e736"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+      "name": "Xuất nhập khẩu",
+      "code": "G02-CT22"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-21d46fc1c3f8",
+    "name": "Xuất nhập khẩu",
+    "code": "G02-CT22"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a00ec5-d351-7579-ad32-65ec7cce36b3",
+      "name": "Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "292/2026/NĐ-CP "
+    },
+    {
+      "id": "01a0841f-2437-7087-acf9-47e9714dc6d5",
+      "name": "Thông tư số 48/2026/TT-BCT ngày 05 tháng 9 năm 2026 của Bộ trưởng Bộ Công Thương về việc quy định chi tiết một số điều của Luật Quản lý ngoại thương và Nghị định số 292/2026/NĐ-CP ngày 22 tháng 7 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý ngoại thương.",
+      "code": "48/2026/TT-BCT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a08424-9a2c-71bb-bdc2-7b58f319e736",
+      "name": "Giấy chứng nhận KP theo Quy chế Chứng nhận KP được cấp sửa đổi, bổ sung, cấp lại (01 bản gốc và 02 bản sao) hoặc trả lời thương nhân về việc không cấp sửa đổi, bổ sung, cấp lại Giấy chứng nhận KP và nêu rõ lý do qua Cổng Thông tin một cửa Quốc gia hoặc Cổng Dịch vụ công Quốc gia hoặc Cổng dịch vụ công của cơ quan cấp phép.",
+      "code": "KQ-2195-02"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "departmentPromulgateCode": "G02",
+  "departmentPromulgateName": "Bộ Công thương",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1788924523848,
+  "updatedAt": 1788924523848,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0840d-3793-7321-8cbd-86d03714fc3f",
+    "proposalNumber": "2195/QĐ-BCT",
+    "decisionDate": 1788800400000,
+    "decisionNumber": null,
+    "publicationDate": 1788924523781,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

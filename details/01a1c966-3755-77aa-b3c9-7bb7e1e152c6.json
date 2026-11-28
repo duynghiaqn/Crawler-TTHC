@@ -1,0 +1,191 @@
+{
+  "id": "01a1c966-3755-77aa-b3c9-7bb7e1e152c6",
+  "code": "5.004041",
+  "codeNotation": "5.004041",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Cơ quan đại diện chủ sở hữu lập Hồ sơ gốc đề nghị thành lập doanh nghiệp gửi Bộ Tài chính để thẩm định.\n- Sau khi nhận đủ Hồ sơ, Bộ Tài chính chủ trì lấy ý kiến của Bộ Tài chính, Bộ quản lý ngành.\nKhi nhận được Hồ sơ, các cơ quan liên quan gửi văn bản tham gia ý kiến đối với các nội dung thuộc phạm vi quản lý đến Bộ Tài chính để tổng hợp và lập báo cáo thẩm định.\n- Khi nhận được ý kiến của các cơ quan liên quan, Bộ Tài chính lập báo cáo thẩm định và gửi cơ quan đại diện chủ sở hữu.\n- Cơ quan đại diện chủ sở hữu tiếp thu, giải trình ý kiến thẩm định của Bộ Tài chính, hoàn thiện Hồ sơ trình Thủ tướng Chính phủ xem xét, phê duyệt chủ trương thành lập doanh nghiệp.\n- Cơ quan đại diện chủ sở hữu ra quyết định thành lập doanh nghiệp sau khi được Thủ tướng Chính phủ phê duyệt chủ trương."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Trong thời hạn 10 ngày làm việc kể từ ngày nhận được Hồ sơ, các cơ quan liên quan gửi văn bản tham gia ý kiến đối với các nội dung thuộc phạm vi quản lý đến Bộ Tài chính để tổng hợp và lập báo cáo thẩm định.\n- Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được ý kiến của các cơ quan liên quan, Bộ Tài chính lập báo cáo thẩm định và gửi cơ quan đại diện chủ sở hữu.\n- Cơ quan đại diện chủ sở hữu ra quyết định thành lập doanh nghiệp trong thời hạn 30 ngày làm việc kể từ ngày được Thủ tướng Chính phủ phê duyệt chủ trương.",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 30,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "- Trong thời hạn 10 ngày làm việc kể từ ngày nhận được Hồ sơ, các cơ quan liên quan gửi văn bản tham gia ý kiến đối với các nội dung thuộc phạm vi quản lý đến Bộ Tài chính để tổng hợp và lập báo cáo thẩm định.\n- Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được ý kiến của các cơ quan liên quan, Bộ Tài chính lập báo cáo thẩm định và gửi cơ quan đại diện chủ sở hữu.\n- Cơ quan đại diện chủ sở hữu ra quyết định thành lập doanh nghiệp trong thời hạn 30 ngày làm việc kể từ ngày được Thủ tướng Chính phủ phê duyệt chủ trương.",
+      "fees": []
+    }
+  ],
+  "description": "- Có ngành, lĩnh vực hoạt động thuộc phạm vi đầu tư vốn nhà nước để thành lập doanh nghiệp theo quy định của pháp luật về quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp.\n- Đảm bảo đủ vốn điều lệ theo quy định:\n+ Doanh nghiệp khi thành lập phải có mức vốn điều lệ không thấp hơn 100 tỷ đồng.\n+ Trường hợp kinh doanh những ngành, nghề quy định phải có vốn pháp định thì ngoài điều kiện nêu trên, vốn điều lệ của doanh nghiệp khi thành lập không thấp hơn mức vốn pháp định quy định đối với ngành, nghề kinh doanh đó.\n+ Đối với doanh nghiệp cung ứng sản phẩm, dịch vụ công ích thiết yếu, bảo đảm an sinh xã hội hoặc hoạt động trong một số ngành, lĩnh vực, địa bàn cần Nhà nước đầu tư vốn để thành lập doanh nghiệp thì vốn điều lệ có thể thấp hơn mức quy định nêu trên (100 tỷ đồng) nhưng không thấp hơn mức vốn pháp định quy định đối với ngành, nghề kinh doanh yêu cầu vốn pháp định\n- Có Hồ sơ hợp lệ theo quy định.\n- Việc thành lập doanh nghiệp phải phù hợp với chiến lược, kế hoạch phát triển kinh tế - xã hội, quy hoạch ngành quốc gia.",
+  "name": "Thành lập doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ do cơ quan đại diện chủ sở hữu (Ủy ban nhân dân cấp tỉnh) quyết định thành lập",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Số lượng hồ sơ: 03 bộ Hồ sơ gốc",
+      "profileComponents": [
+        {
+          "profileComponentId": "019d2bb8-71a7-7559-9031-e2ad78fa30b4",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ trình đề nghị thành lập doanh nghiệp",
+          "code": "G12.000165",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019d2bb8-71ae-70d7-bd75-cc72043c1a11",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đề án thành lập doanh nghiệp phải bao gồm các nội dung chủ yếu sau: Căn cứ pháp lý, mục tiêu, sự cần thiết thành lập doanh nghiệp; Tên gọi, mô hình tổ chức quản lý doanh nghiệp và thời gian hoạt động; Địa điểm trụ sở chính của doanh nghiệp, địa điểm xây dựng cơ sở sản xuất, kinh doanh và diện tích đất sử dụng; chi nhánh, văn phòng đại diện (nếu có); Nhiệm vụ do Nhà nước giao; ngành, nghề kinh doanh; danh mục sản phẩm, dịch vụ do doanh nghiệp cung ứng; Đánh giá sự phù hợp của việc thành lập doanh nghiệp với chiến lược, kế hoạch phát triển kinh tế - xã hội, quy hoạch ngành quốc gia; Tình hình thị trường, nhu cầu và triển vọng thị trường về từng loại sản phẩm, dịch vụ do doanh nghiệp cung ứng; công nghệ dự kiến áp dụng vào hoạt động sản xuất kinh doanh; kế hoạch sản xuất kinh doanh và đầu tư phát triển 05 năm sau khi thành lập; Mức vốn điều lệ; dự kiến tổng vốn đầu tư (trường hợp thành lập doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ gắn với thực hiện dự án đầu tư); nguồn và hình thức huy động số vốn còn lại ngoài nguồn vốn đầu tư ban đầu của Nhà nước; phương án hoàn trả vốn huy động; nhu cầu và biện pháp tạo vốn lưu động đối với doanh nghiệp; Dự kiến hiệu quả kinh tế, hiệu quả xã hội; Dự kiến khả năng cung ứng nguồn lao động, nguyên liệu, vật liệu, năng lượng, công nghệ và các điều kiện cần thiết khác để hoạt động sau khi thành lập",
+          "code": "G12.000166",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": true,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-bf614dd9550d"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7f-719e-b474-8c42e40ee4ef",
+    "019d2bb3-5d84-71c5-b674-0bb469239ff5",
+    "019e390e-9094-746b-9b67-f7d43f5290fe"
+  ],
+  "resultIds": [
+    "019d2bb2-1c3d-7379-a672-8b2281f45cb3"
+  ],
+  "subjectTypeIds": [
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a72-700f-a652-c9b1df8256e9"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-bf614dd9550d",
+      "name": "Thành lập và sắp xếp lại doanh nghiệp do Nhà nước nắm giữ 100 phần trăm vốn điều lệ",
+      "code": "G12.04"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính",
+      "code": "G12"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019e390e-9094-746b-9b67-f7d43f5290fe",
+      "name": "Luật Doanh nghiệp",
+      "code": "Luật số: 59/2020/QH14"
+    },
+    {
+      "id": "019d2bb3-5d7f-719e-b474-8c42e40ee4ef",
+      "name": "Về thành lập, sắp xếp lại, chuyển đổi sở hữu, chuyển giao quyền đại diện chủ sở hữu tại doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ",
+      "code": "Nghị định số 23/2022/NĐ-CP"
+    },
+    {
+      "id": "019d2bb3-5d84-71c5-b674-0bb469239ff5",
+      "name": "Luật số 69/2014/QH13 của Quốc hội: LUẬT QUẢN LÝ, SỬ DỤNG VỐN NHÀ NƯỚC ĐẦU TƯ VÀO SẢN XUẤT, KINH DOANH TẠI DOANH NGHIỆP",
+      "code": "69/2014/QH13"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019d2bb2-1c3d-7379-a672-8b2281f45cb3",
+      "name": "Trong trường hợp được Thủ tướng Chính phủ phê duyệt, Cơ quan đại diện chủ sở hữu ra quyết định thành lập doanh nghiệp",
+      "code": "KQ.G12.000464"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448911010,
+  "updatedAt": 1794448911010,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Bộ Tài chính",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Có ngành, lĩnh vực hoạt động thuộc phạm vi đầu tư vốn nhà nước để thành lập doanh nghiệp theo quy định của pháp luật về quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp.\n- Đảm bảo đủ vốn điều lệ theo quy định:\n+ Doanh nghiệp khi thành lập phải có mức vốn điều lệ không thấp hơn 100 tỷ đồng.\n+ Trường hợp kinh doanh những ngành, nghề quy định phải có vốn pháp định thì ngoài điều kiện nêu trên, vốn điều lệ của doanh nghiệp khi thành lập không thấp hơn mức vốn pháp định quy định đối với ngành, nghề kinh doanh đó.\n+ Đối với doanh nghiệp cung ứng sản phẩm, dịch vụ công ích thiết yếu, bảo đảm an sinh xã hội hoặc hoạt động trong một số ngành, lĩnh vực, địa bàn cần Nhà nước đầu tư vốn để thành lập doanh nghiệp thì vốn điều lệ có thể thấp hơn mức quy định nêu trên (100 tỷ đồng) nhưng không thấp hơn mức vốn pháp định quy định đối với ngành, nghề kinh doanh yêu cầu vốn pháp định\n- Có Hồ sơ hợp lệ theo quy định.\n- Việc thành lập doanh nghiệp phải phù hợp với chiến lược, kế hoạch phát triển kinh tế - xã hội, quy hoạch ngành quốc gia.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

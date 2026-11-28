@@ -1,0 +1,545 @@
+{
+  "id": "01a03d95-035a-701a-af30-45899ccb145c",
+  "code": "2.002913",
+  "codeNotation": "2.002913",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "- Bước 1. Người yêu cầu truy cập vào Cổng Dịch vụ công quốc gia (tại địa chỉ dichvucong.gov.vn) hoặc trên ứng dụng VNeID, lựa chọn dịch vụ công liên thông Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất để thực hiện nộp hồ sơ trực tuyến và lệ phí theo quy định.\nNgười yêu cầu có thể lựa chọn thực hiện liên thông hai (02) thủ tục hành chính (Đăng ký khai tử, xóa đăng ký thường trú); hoặc ba (03) thủ tục hành chính (Đăng ký khai tử, xoá đăng ký thường trú, giải quyết mai táng phí); hoặc bốn (04) thủ tục hành chính (Đăng ký khai tử, xoá đăng ký thường trú, giải quyết mai táng phí, tử tuất), Phần mềm dịch vụ công liên thông sẽ điều chỉnh nội dung tờ khai điện tử và giấy tờ phải đính kèm theo nội dung liên thông mà người yêu cầu đã lựa chọn để người yêu cầu thực hiện nộp hồ sơ trực tuyến theo quy định.\nCác thông tin trong tờ khai điện tử được điền tự động đối với các thông tin đã có trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu hộ tịch, Cơ sở dữ liệu quốc gia về Bảo hiểm và cơ sở dữ liệu, hệ thống thông tin có liên quan khác. Cá nhân đăng nhập Cổng Dịch vụ công quốc gia hoặc Ứng dụng định danh quốc gia (VNeID) đề nghị giải quyết thủ tục hành chính thì không phải thực hiện ký số biểu mẫu điện tử tương tác.\n- Bước 2. Cổng Dịch vụ công quốc gia nhận thông tin thanh toán thành công từ nền tảng thanh toán; tiến hành bóc tách thành phần hồ sơ; thực hiện chuyển hồ sơ (bao gồm biểu mẫu điện tử tương tác, các giấy tờ đính kèm) tới Hệ thống thông tin giải quyết TTHC của Bộ Tư pháp qua Nền tảng chia sẻ và điều phối dữ liệu. Hệ thống thông tin giải quyết TTHC của Bộ Tư pháp đồng bộ hồ sơ về Hệ thống đăng ký, quản lý hộ tịch điện tử của Bộ Tư pháp. Hệ thống đăng ký, quản lý hộ tịch điện tử của Bộ Tư pháp tiếp nhận hồ sơ và phản hồi trạng thái cho Cổng Dịch vụ công quốc gia qua Hệ thống thông tin giải quyết TTHC của Bộ Tư pháp.\n- Bước 3. Giải quyết hồ sơ đăng ký khai tử\nNgười thực hiện công tác hộ tịch tại Ủy ban nhân dân cấp xã thực hiện nghiệp vụ đăng ký khai tử trên Hệ thống đăng ký, quản lý hộ tịch điện tử của Bộ Tư pháp. Thời gian giải quyết đăng ký khai tử trong 24 giờ kể từ thời điểm Hệ thống đăng ký, quản lý hộ tịch điện tử của Bộ Tư pháp nhận đủ hồ sơ hợp lệ. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.\nTrường hợp hồ sơ chưa đầy đủ hoặc không đủ điều kiện giải quyết: Người thực hiện công tác hộ tịch tại Ủy ban nhân dân cấp xã thực hiện thao tác trên Hệ thống đăng ký, quản lý hộ tịch điện tử của Bộ Tư pháp để gửi thông tin trạng thái hồ sơ đến Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Tư pháp, sau đó Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Tư pháp thông báo cho người yêu cầu qua Cổng Dịch vụ công quốc gia, ứng dụng VNeID, trong đó nêu rõ lý do đối với các trường hợp hồ sơ bị từ chối giải quyết hoặc nêu rõ loại giấy tờ, nội dung cần bổ sung trong thời gian không quá 24 giờ kể từ thời điểm nhận được hồ sơ điện tử trên hệ thống.\nTrường hợp cần bổ sung thành phần hồ sơ thì người yêu cầu có trách nhiệm hoàn thiện hồ sơ trong 07 ngày làm việc, nếu quá thời hạn này không bổ sung được thì người thực hiện công tác hộ tịch tại Ủy ban nhân dân cấp xã thực hiện thao tác trên Hệ thống đăng ký, quản lý hộ tịch điện tử của Bộ Tư pháp để dừng xử lý do không bổ sung theo quy định. Thông tin về việc dừng xử lý được gửi đến Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Tư pháp để thông báo cho người yêu cầu qua Cổng Dịch vụ công quốc gia hoặc ứng dụng VNeID hoặc gửi tin nhắn điện thoại tự động của Cổng Dịch vụ công quốc gia.\n- Bước 4. Giải quyết hồ sơ xóa đăng ký thường trú và giải quyết mai táng phí, tử tuất\n+ Sau khi bản điện tử Trích lục khai tử được cấp, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Tư pháp tự động chuyển bản điện tử Trích lục khai tử đến Cổng Dịch vụ công quốc gia, sau đó Cổng Dịch vụ công quốc gia thực hiện chia sẻ dữ liệu đến Hệ thống thông tin quản lý cư trú để thực hiện xóa đăng ký thường trú. Trong thời hạn 01 ngày làm việc kể từ ngày tiếp nhận thông tin, cơ quan đăng ký cư trú thực hiện xóa đăng ký thường trú đối với công dân và cập nhật việc xóa đăng ký thường trú vào Cơ sở dữ liệu về cư trú, Cơ sở dữ liệu quốc gia về dân cư.\n+ Sau khi Hệ thống đăng ký, quản lý hộ tịch điện tử của Bộ Tư pháp chuyển bản điện tử Trích lục khai tử sang Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Tư pháp để tự động đồng bộ tới Cổng Dịch vụ công quốc gia, Cổng Dịch vụ công quốc gia phân tách, chuyển hồ sơ điện tử (bao gồm biểu mẫu, tờ khai mà người yêu cầu đã kê khai, bản điện tử Trích lục khai tử và các thành phần hồ sơ liên quan) đến Hệ thống thông tin của ngành Bảo hiểm xã hội hoặc Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Nội vụ hoặc Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Y tế thực hiện giải quyết chế độ mai táng phí, tử tuất.\nTrường hợp đối tượng là người đang hưởng trợ cấp tuất hằng tháng, trợ cấp hằng tháng khác được hỗ trợ chi phí mai táng, mai táng phí, Cổng Dịch vụ công quốc gia tự động chuyển hồ sơ của đối tượng đến Hệ thống thông tin của ngành Bảo hiểm xã hội. Sau 02 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan Bảo hiểm xã hội có trách nhiệm giải quyết và chuyển quyết định thôi hưởng trợ cấp tuất hằng tháng về Cổng Dịch vụ công quốc gia để chuyển hồ sơ sang Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Nội vụ hoặc Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Y tế để giải quyết chi trả chế độ mai táng, tử tuất.\nThời hạn cơ quan Bảo hiểm xã hội giải quyết trợ cấp mai táng, trợ cấp tuất không quá 08 ngày làm việc; giải quyết thôi hưởng trợ cấp tuất hằng tháng không quá 02 ngày làm việc kể từ ngày nhận được hồ sơ điện tử từ Cổng Dịch vụ công quốc gia.\nThời hạn cơ quan y tế giải quyết hỗ trợ chi phí mai táng không quá 03 ngày làm việc kể từ ngày nhận được hồ sơ điện tử từ Cổng Dịch vụ công quốc gia.\nThời hạn cơ quan nội vụ giải quyết trợ cấp mai táng, trợ cấp tuất đối với người có công không quá 18 ngày làm việc kể từ ngày nhận được hồ sơ điện tử từ Cổng Dịch vụ công quốc gia."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": "Xem phần mô tả",
+      "processingTimeUnit": "OTHER",
+      "description": "- Đăng ký khai tử, xóa đăng ký thường trú, giải quyết trợ cấp mai táng, tử tuất đối với nhóm Người có công: không quá mười tám (18) ngày làm việc. \n- Đăng ký khai tử, xóa đăng ký thường trú, giải quyết hỗ trợ chi phí mai táng đối với nhóm đối tượng Bảo trợ xã hội: không quá sáu (06) ngày làm việc. Không quá mười một (11) ngày làm việc đối với trường hợp đối tượng là người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất hằng tháng.\n- Đăng ký khai tử, xóa đăng ký thường trú, trợ cấp mai táng, trợ cấp tử tuất đối với đối tượng do ngành Bảo hiểm xã hội giải quyết: không quá chín (09) ngày làm việc.\nTrường hợp nhận hồ sơ sau 15 giờ thì thời gian được tính bắt đầu từ ngày làm việc tiếp theo.",
+      "fees": [
+        {
+          "type": "FEE",
+          "value": 0,
+          "currencyId": "",
+          "attachment": null,
+          "description": "Theo quy định của các TTHC tương ứng"
+        }
+      ]
+    }
+  ],
+  "description": "Không quy định",
+  "name": "Liên thông điện tử: Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "1) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất do cơ quan bảo hiểm xã hội giải quyết a)  Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí bao gồm các thành phần sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03d76-5ee8-776a-8ba1-f7a562f35197",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định số 301/2026/NĐ-CP).",
+          "code": "TP-G15.32-99948",
+          "attachments": [
+            {
+              "id": "01a03d76-1cb5-7000-9a74-2660a44a51e5",
+              "fileName": "Mau 2.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03d76-1cb5-7000-9a74-2660a44a51e5/Mau 2.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a03d77-b4ff-706e-a1dd-d49d1cad44a7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dữ liệu điện tử có ký số của Giấy báo tử được liên thông từ cơ sở khám bệnh, chữa bệnh với Cổng Dịch vụ công quốc gia hoặc bản điện tử Giấy báo tử do người yêu cầu đăng ký khai tử đính kèm trên Cổng Dịch vụ công quốc gia.Trường hợp không có Giấy báo tử thì người yêu cầu đăng ký khai tử có thể đính kèm bản chụp hoặc bản điện tử giấy tờ thay Giấy báo tử theo quy định pháp luật về hộ tịch.",
+          "code": "TP-G15.32-99946",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "1) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường hội giải quyết. b) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết trợ cấp mai táng, trợ cấp tuất một lần bao gồm các thành phần sau",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03d76-5ee8-776a-8ba1-f7a562f35197",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định số 301/2026/NĐ-CP).",
+          "code": "TP-G15.32-99948",
+          "attachments": [
+            {
+              "id": "01a03d76-1cb5-7000-9a74-2660a44a51e5",
+              "fileName": "Mau 2.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03d76-1cb5-7000-9a74-2660a44a51e5/Mau 2.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a03d77-b4ff-706e-a1dd-d49d1cad44a7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dữ liệu điện tử có ký số của Giấy báo tử được liên thông từ cơ sở khám bệnh, chữa bệnh với Cổng Dịch vụ công quốc gia hoặc bản điện tử Giấy báo tử do người yêu cầu đăng ký khai tử đính kèm trên Cổng Dịch vụ công quốc gia.Trường hợp không có Giấy báo tử thì người yêu cầu đăng ký khai tử có thể đính kèm bản chụp hoặc bản điện tử giấy tờ thay Giấy báo tử theo quy định pháp luật về hộ tịch.",
+          "code": "TP-G15.32-99946",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03d7b-2af2-77aa-8a7f-dc082a39ba0b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thông tin xác nhận của các thân nhân đồng ý cử người đại diện nhận trợ cấp tuất một lần được thực hiện qua ứng dụng VNeID hoặc đính kèm Tờ khai điện tử về việc cử người đại diện nhận trợ cấp tuất một lần theo hướng dẫn của Bảo hiểm xã hội Việt Nam. Thời hạn xác nhận qua ứng dụng VNeID không quá 05 ngày làm việc.",
+          "code": "TP-G15.32-99947",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "1) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường hội giải quyết. c) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết trợ cấp mai táng, trợ cấp tuất hằng tháng bao gồm các thành phần sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03d76-5ee8-776a-8ba1-f7a562f35197",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định số 301/2026/NĐ-CP).",
+          "code": "TP-G15.32-99948",
+          "attachments": [
+            {
+              "id": "01a03d76-1cb5-7000-9a74-2660a44a51e5",
+              "fileName": "Mau 2.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03d76-1cb5-7000-9a74-2660a44a51e5/Mau 2.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a03d77-b4ff-706e-a1dd-d49d1cad44a7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dữ liệu điện tử có ký số của Giấy báo tử được liên thông từ cơ sở khám bệnh, chữa bệnh với Cổng Dịch vụ công quốc gia hoặc bản điện tử Giấy báo tử do người yêu cầu đăng ký khai tử đính kèm trên Cổng Dịch vụ công quốc gia.Trường hợp không có Giấy báo tử thì người yêu cầu đăng ký khai tử có thể đính kèm bản chụp hoặc bản điện tử giấy tờ thay Giấy báo tử theo quy định pháp luật về hộ tịch.",
+          "code": "TP-G15.32-99946",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03d7d-3e9c-717e-8ae9-70979257dc49",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp thân nhân là con từ đủ 18 tuổi trở lên hoặc vợ, chồng; cha đẻ, mẹ đẻ; cha đẻ, mẹ đẻ của vợ hoặc của chồng; thành viên khác của gia đình chưa đủ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động mà người tham gia bảo hiểm xã hội đang có nghĩa vụ nuôi dưỡng theo quy định của pháp luật về hôn nhân và gia đình, nếu không có thu nhập hằng tháng hoặc có thu nhập hằng tháng nhưng thấp hơn mức tham chiếu và bị suy giảm khả năng lao động từ 81% trở lên thì đính kèm các thành phần hồ sơ sau: (i) Bản điện tử Biên bản giám định mức suy giảm khả năng lao động của Hội đồng Giám định y khoa đối với thân nhân bị suy giảm khả năng lao động từ 81% trở lên hoặc biên bản Giám định y khoa để hưởng các chính sách khác trước đó mà đủ điều kiện hưởng hoặc Giấy xác nhận khuyết tật mức độ đặc biệt nặng tương đương mức suy giảm khả năng lao động từ 81% trở lên. (ii) Hóa đơn, chứng từ thu phí giám định, bảng kê các nội dung giám định của cơ sở thực hiện Giám định y khoa trong trường hợp thanh toán phí Giám định y khoa. Trường hợp các thành phần hồ sơ trên là bản giấy thì phải thực hiện số hóa theo quy định tại Nghị định số 118/2025/NĐ-CP, được sửa đổi, bổ sung bởi Nghị định số 367/2025/NĐ-CP.",
+          "code": "TP-G15.32-99945",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "2) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất do cơ quan nội vụ, y tế giải quyết a) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết trợ cấp mai táng bao gồm các thành phần sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03d76-5ee8-776a-8ba1-f7a562f35197",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định số 301/2026/NĐ-CP).",
+          "code": "TP-G15.32-99948",
+          "attachments": [
+            {
+              "id": "01a03d76-1cb5-7000-9a74-2660a44a51e5",
+              "fileName": "Mau 2.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03d76-1cb5-7000-9a74-2660a44a51e5/Mau 2.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a03d77-b4ff-706e-a1dd-d49d1cad44a7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dữ liệu điện tử có ký số của Giấy báo tử được liên thông từ cơ sở khám bệnh, chữa bệnh với Cổng Dịch vụ công quốc gia hoặc bản điện tử Giấy báo tử do người yêu cầu đăng ký khai tử đính kèm trên Cổng Dịch vụ công quốc gia.Trường hợp không có Giấy báo tử thì người yêu cầu đăng ký khai tử có thể đính kèm bản chụp hoặc bản điện tử giấy tờ thay Giấy báo tử theo quy định pháp luật về hộ tịch.",
+          "code": "TP-G15.32-99946",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "2) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất do cơ quan nội vụ, y tế giải quyết. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, hỗ trợ chi phí mai táng cho đối tượng bảo trợ xã hội bao gồm các thành phần sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03d76-5ee8-776a-8ba1-f7a562f35197",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định số 301/2026/NĐ-CP).",
+          "code": "TP-G15.32-99948",
+          "attachments": [
+            {
+              "id": "01a03d76-1cb5-7000-9a74-2660a44a51e5",
+              "fileName": "Mau 2.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03d76-1cb5-7000-9a74-2660a44a51e5/Mau 2.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a03d77-b4ff-706e-a1dd-d49d1cad44a7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dữ liệu điện tử có ký số của Giấy báo tử được liên thông từ cơ sở khám bệnh, chữa bệnh với Cổng Dịch vụ công quốc gia hoặc bản điện tử Giấy báo tử do người yêu cầu đăng ký khai tử đính kèm trên Cổng Dịch vụ công quốc gia.Trường hợp không có Giấy báo tử thì người yêu cầu đăng ký khai tử có thể đính kèm bản chụp hoặc bản điện tử giấy tờ thay Giấy báo tử theo quy định pháp luật về hộ tịch.",
+          "code": "TP-G15.32-99946",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03d80-1e06-716f-9345-d946a90a2000",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất hằng tháng chết thì bổ sung bản điện tử Quyết định thôi hưởng trợ cấp tuất hằng tháng. Bản điện tử này do Hệ thống thông tin của Bảo hiểm xã hội chuyển đến Phần mềm dịch vụ công liên thông.",
+          "code": "TP-G15.32-99944",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "2) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất do cơ quan nội vụ, y tế giải quyết. c) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết trợ cấp mai táng, trợ cấp tuất một lần bao gồm các thành phần sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03d76-5ee8-776a-8ba1-f7a562f35197",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định số 301/2026/NĐ-CP).",
+          "code": "TP-G15.32-99948",
+          "attachments": [
+            {
+              "id": "01a03d76-1cb5-7000-9a74-2660a44a51e5",
+              "fileName": "Mau 2.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03d76-1cb5-7000-9a74-2660a44a51e5/Mau 2.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a03d77-b4ff-706e-a1dd-d49d1cad44a7",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dữ liệu điện tử có ký số của Giấy báo tử được liên thông từ cơ sở khám bệnh, chữa bệnh với Cổng Dịch vụ công quốc gia hoặc bản điện tử Giấy báo tử do người yêu cầu đăng ký khai tử đính kèm trên Cổng Dịch vụ công quốc gia.Trường hợp không có Giấy báo tử thì người yêu cầu đăng ký khai tử có thể đính kèm bản chụp hoặc bản điện tử giấy tờ thay Giấy báo tử theo quy định pháp luật về hộ tịch.",
+          "code": "TP-G15.32-99946",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03d7b-2af2-77aa-8a7f-dc082a39ba0b",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thông tin xác nhận của các thân nhân đồng ý cử người đại diện nhận trợ cấp tuất một lần được thực hiện qua ứng dụng VNeID hoặc đính kèm Tờ khai điện tử về việc cử người đại diện nhận trợ cấp tuất một lần theo hướng dẫn của Bảo hiểm xã hội Việt Nam. Thời hạn xác nhận qua ứng dụng VNeID không quá 05 ngày làm việc.",
+          "code": "TP-G15.32-99947",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "2) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất do cơ quan nội vụ, y tế giải quyết. d) Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường trú, giải quyết trợ cấp mai táng, trợ cấp tuất hằng tháng bao gồm các thành phần sau:",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a03d76-5ee8-776a-8ba1-f7a562f35197",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định số 301/2026/NĐ-CP).",
+          "code": "TP-G15.32-99948",
+          "attachments": [
+            {
+              "id": "01a03d76-1cb5-7000-9a74-2660a44a51e5",
+              "fileName": "Mau 2.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a03d76-1cb5-7000-9a74-2660a44a51e5/Mau 2.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a03d77-b4ff-706e-a1dd-d49d1cad44a7",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Dữ liệu điện tử có ký số của Giấy báo tử được liên thông từ cơ sở khám bệnh, chữa bệnh với Cổng Dịch vụ công quốc gia hoặc bản điện tử Giấy báo tử do người yêu cầu đăng ký khai tử đính kèm trên Cổng Dịch vụ công quốc gia.Trường hợp không có Giấy báo tử thì người yêu cầu đăng ký khai tử có thể đính kèm bản chụp hoặc bản điện tử giấy tờ thay Giấy báo tử theo quy định pháp luật về hộ tịch.",
+          "code": "TP-G15.32-99946",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03d85-b849-733c-93dc-6de13e372ddb",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Thông tin xác nhận của các thân nhân đồng thuận xác nhận người có công nuôi liệt sĩ được thực hiện qua ứng dụng VNeID hoặc đính kèm bản điện tử văn bản đồng thuận của các thân nhân xác nhận là người có công nuôi liệt sĩ. Thời hạn xác nhận qua ứng dụng VNeID không quá 05 ngày làm việc.",
+          "code": "TP-G15.32-99943",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03d86-679e-7327-b437-a6043494e431",
+          "originalQty": 0,
+          "copyQty": 1,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp thân nhân là con từ đủ 18 tuổi trở lên đang đi học thì đính kèm bản điện tử giấy xác nhận của cơ sở giáo dục nơi đang theo học hoặc bản điện tử Bằng tốt nghiệp trung học phổ thông nếu đang theo học tại cơ sở giáo dục nghề nghiệp hoặc giáo dục đại học hoặc giấy xác nhận của cơ sở giáo dục trung học phổ thông về thời điểm kết thúc học.",
+          "code": "TP-G15.32-99942",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03d87-0fc4-76a8-9cc7-82a45111d8f3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp thân nhân sống độc thân và không còn thân nhân hoặc mồ côi cả cha lẫn mẹ, Ủy ban nhân dân cấp xã có trách nhiệm hoàn thiện giấy xác nhận sống độc thân và không còn thân nhân hoặc mồ côi cả cha lẫn mẹ.",
+          "code": "TP-G15.32-99941",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03d88-0f82-76c4-8df1-177155ebd696",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp thân nhân là con người có công với cách mạng từ đủ 18 tuổi trở lên bị khuyết tật nặng hoặc đặc biệt nặng sau khi đủ 18 tuổi mà không có thu nhập hằng tháng hoặc có thu nhập hằng tháng nhưng thấp hơn 0,6 lần mức chuẩn thì đính kèm giấy xác nhận khuyết tật theo quy định của Luật Người khuyết tật và giấy xác nhận thu nhập theo quy định hiện hành. Trường hợp con từ đủ 18 tuổi trở lên bị khuyết tật nặng, khuyết tật đặc biệt nặng từ nhỏ thì đính kèm giấy xác nhận khuyết tật theo quy định của Luật Người khuyết tật.",
+          "code": "TP-G15.32-99940",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a03d89-343e-7057-84a1-8801b248d521",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Trường hợp các thành phần hồ sơ trên là bản giấy thì phải thực hiện số hóa theo quy định tại Nghị định số 107/2021/NĐ-CP của Chính phủ.",
+          "code": "TP-G15.32-99939",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "NOT_ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "INTERCONNECTED",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019ff3df-9c2b-71dd-bd10-cdfdedab533c"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019ff3f9-baa1-7103-aa2d-326a3fe17fc1"
+  ],
+  "resultIds": [
+    "01a03d92-8b60-73a8-b30b-ae4545a6e724",
+    "01a03d93-0981-772f-bdd1-162ae7420ca7",
+    "01a03d93-dad8-7039-9b4f-674f7b91d135",
+    "01a03d94-6fa7-76ec-97d6-09a8c6195a64",
+    "01a03d94-eb65-75db-81c7-008916c92934"
+  ],
+  "subjectTypeIds": [
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a90-761e-acd7-26762619bf92"
+  ],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019ff3df-9c2b-71dd-bd10-cdfdedab533c",
+      "name": "thủ tục hành chính liên thông",
+      "code": "G15-TP10"
+    }
+  ],
+  "category": {
+    "id": "019ff3df-9c2b-71dd-bd10-cdfdedab533c",
+    "name": "thủ tục hành chính liên thông",
+    "code": "G15-TP10"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a90-761e-acd7-26762619bf92",
+      "name": "Công an cấp Xã",
+      "code": "BCA_CAX"
+    }
+  ],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da",
+    "019e87cc-1144-71a8-990f-802dcb6f09ef"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    },
+    {
+      "id": "019e87cc-1144-71a8-990f-802dcb6f09ef",
+      "name": "Cơ quan bảo hiểm xã hội"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019ff3f9-baa1-7103-aa2d-326a3fe17fc1",
+      "name": "Nghị định số 301/2026/NĐ-CP ngày 30 tháng 7 năm 2026 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 63/2024/NĐ-CP ngày 10 tháng 6 năm 2024 của Chính phủ quy định việc thực hiện liên thông điện tử 02 nhóm thủ tục hành chính: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi; đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất.",
+      "code": "Nghị định số 301/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a03d92-8b60-73a8-b30b-ae4545a6e724",
+      "name": "- Bản điện tử Trích lục khai tử được cập nhật vào kho quản lý dữ liệu điện tử của người yêu cầu trên Cổng Dịch vụ công quốc gia, ứng dụng VNeID và Hệ thống thông tin giải quyết TTHC của Bộ Tư pháp.  Bản giấy Trích lục khai tử trả cho người yêu cầu theo cách thức đã lựa chọn tại Tờ khai.",
+      "code": "KQ.G15.9970"
+    },
+    {
+      "id": "01a03d94-6fa7-76ec-97d6-09a8c6195a64",
+      "name": "- Kết quả giải quyết hưởng trợ cấp mai táng, trợ cấp tuất do cơ quan Nội vụ thực hiện được gửi cho người yêu cầu và cập nhật vào kho quản lý dữ liệu điện tử của người yêu cầu trên Cổng Dịch vụ công quốc gia, ứng dụng VNeID và Hệ thống thông tin giải quyết TTHC của Bộ Nội vụ. Bản giấy Quyết định hưởng trợ cấp mai táng, trợ cấp tuất được trả cho người yêu cầu theo cách thức đã lựa chọn tại Tờ khai.",
+      "code": "KQ.G15.9967"
+    },
+    {
+      "id": "01a03d94-eb65-75db-81c7-008916c92934",
+      "name": "Kết quả giải quyết hưởng trợ cấp mai táng, trợ cấp tuất do cơ quan Y tế thực hiện được gửi cho người yêu cầu và cập nhật vào kho quản lý dữ liệu điện tử của người yêu cầu trên Cổng Dịch vụ công quốc gia, ứng dụng VNeID và Hệ thống thông tin giải quyết TTHC của Bộ Y Tế. Bản giấy Quyết định hỗ trợ chi phí mai táng, hưởng trợ cấp mai táng, trợ cấp tuất được trả cho người yêu cầu theo cách thức đã lựa chọn tại Tờ khai.",
+      "code": "KQ.G15.9966"
+    },
+    {
+      "id": "01a03d93-0981-772f-bdd1-162ae7420ca7",
+      "name": "- Kết quả giải quyết xóa đăng ký thường trú được gửi cho người yêu cầu và cập nhật vào kho quản lý dữ liệu điện tử của người yêu cầu trên Cổng Dịch vụ công quốc gia, ứng dụng VNeID và Hệ thống thông tin giải quyết TTHC của Bộ Công an. Bản giấy Thông báo kết quả giải quyết xóa đăng ký cư trú được trả cho người yêu cầu theo cách thức đã lựa chọn tại Tờ khai.",
+      "code": "KQ.G15.9969"
+    },
+    {
+      "id": "01a03d93-dad8-7039-9b4f-674f7b91d135",
+      "name": "- Kết quả giải quyết hưởng trợ cấp mai táng, trợ cấp tuất do cơ quan Bảo hiểm xã hội thực hiện được gửi cho người yêu cầu và cập nhật vào kho quản lý dữ liệu điện tử của người yêu cầu trên Cổng Dịch vụ công quốc gia, ứng dụng VNeID và Hệ thống thông tin giải quyết TTHC của Bộ Tài chính. Bản giấy Quyết định hưởng trợ cấp mai táng, trợ cấp tuất được trả cho người yêu cầu theo cách thức đã lựa chọn tại Tờ khai.",
+      "code": "KQ.G15.9968"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-d603f1537007",
+  "departmentPromulgateCode": "G15",
+  "departmentPromulgateName": "Bộ Tư pháp",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1787800941411,
+  "updatedAt": 1787800941411,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Công an cấp Xã",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Không quy định",
+  "relatedFormalities": [
+    {
+      "id": "019d2bfe-4a2d-7338-84cd-8c448e8bcec8",
+      "name": "Cấp Giấy phép kinh doanh cảng hàng không"
+    }
+  ],
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a036af-f021-7419-9d78-919416a8a103",
+    "proposalNumber": "1868/QĐ-BTP",
+    "decisionDate": 1786294800000,
+    "decisionNumber": null,
+    "publicationDate": 1787800941364,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

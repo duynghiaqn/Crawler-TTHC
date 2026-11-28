@@ -1,0 +1,164 @@
+{
+  "id": "01a1a56c-4bf5-762a-af04-ff755bafdca8",
+  "code": "6.006915",
+  "codeNotation": "6.006915",
+  "executionSteps": [
+    {
+      "name": "Trình tự thực hiện:",
+      "description": "- Các Bộ, cơ quan ngang Bộ quản lý chuyên ngành theo quy định của pháp luật xây dựng Danh mục hàng hóa cấm xuất khẩu, tạm ngừng xuất khẩu; Danh mục hàng hóa cấm nhập khẩu, tạm ngừng nhập khẩu; Danh mục hàng hóa xuất khẩu, nhập khẩu theo giấy phép; Danh mục hàng hóa thuộc đối tượng kiểm tra chuyên ngành gửi Bộ Tài chính. \n- Chậm nhất 10 ngày làm việc, Bộ Tài chính thực hiện xác định về mã số hàng hóa phù hợp với Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam áp dụng đối với hàng hóa xuất khẩu, nhập khẩu của các hàng hóa này để các Bộ, cơ quan ngang Bộ thực hiện công bố ban hành."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 10,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "name": "Xác định mã số hàng hóa trong Danh mục hàng hóa cấm xuất khẩu, tạm ngừng xuất khẩu; Danh mục hàng hóa cấm nhập khẩu, tạm ngừng nhập khẩu; Danh mục hàng hóa xuất khẩu, nhập khẩu theo giấy phép; Danh mục hàng hóa thuộc đối tượng kiểm tra chuyên ngành",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "Thành phần, số lượng hồ sơ: Không quy định.",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "LOCAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": false,
+  "isProvince": false,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "Đối tượng thực hiện thủ tục hành chính: Các Bộ, cơ quan ngang Bộ quản lý chuyên ngành.",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-b61a0915d496"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d7e-72d1-afe7-9c25863596db"
+  ],
+  "resultIds": [
+    "01a18669-551a-7372-8930-53038d47f856"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-b61a0915d496",
+      "name": "Hải quan",
+      "code": "G12-TC04"
+    }
+  ],
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-ab18-77a9-86e6-51520f70579d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-ab18-77a9-86e6-51520f70579d",
+      "name": "Đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d7e-72d1-afe7-9c25863596db",
+      "name": "Nghị định 08/2015/NĐ-CP",
+      "code": "08/2015/NĐ-CP"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a18669-551a-7372-8930-53038d47f856",
+      "name": "Kết quả thực hiện thủ tục hành chính: Không quy định",
+      "code": "KQ.G12.001387"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1794448921409,
+  "updatedAt": 1794448921409,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "Yêu cầu, điều kiện thực hiện thủ tục hành chính: Không quy định",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a185a7-f028-737d-966a-debe66f13461",
+    "proposalNumber": "1534/QĐ-BTC",
+    "decisionDate": 1745859600000,
+    "decisionNumber": null,
+    "publicationDate": 1794448909353,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

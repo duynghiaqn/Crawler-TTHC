@@ -1,0 +1,374 @@
+{
+  "id": "01a0db75-3571-7463-bfda-f21f7c81be91",
+  "code": "1.116913",
+  "codeNotation": "1.116913",
+  "executionSteps": [
+    {
+      "name": "Trường hợp đề nghị điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất",
+      "description": "Trường hợp đề nghị điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất: không quá 05 ngày kể từ ngày nhận đủ hồ sơ hợp lệ; đối với các xã miền núi; xã có điều kiện kinh tế - xã hội khó khăn; xã có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày."
+    },
+    {
+      "name": "Trường hợp đề nghị điều chỉnh thời hạn sử dụng đất của dự án đầu tư",
+      "description": "Trường hợp đề nghị điều chỉnh thời hạn sử dụng đất của dự án đầu tư:  không quá 10 ngày kể từ ngày nhận đủ hồ sơ hợp lệ; đối với các xã miền núi; xã có điều kiện kinh tế - xã hội khó khăn; xã có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 120,
+      "processingTimeUnit": "HOUR",
+      "description": "Trường hợp đề nghị điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 160,
+      "processingTimeUnit": "HOUR",
+      "description": "Trường hợp đề nghị điều chỉnh thời hạn sử dụng đất của dự án đầu tư:  không quá 10 ngày kể từ ngày nhận đủ hồ sơ hợp lệ; đối với các xã miền núi; xã có điều kiện kinh tế - xã hội khó khăn; xã có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày.",
+      "fees": []
+    }
+  ],
+  "description": "a) Điều kiện đối với trường hợp điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất:\n- Đang sử dụng đất đã có quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất.\n- Thay đổi căn cứ để ban hành quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất quy định tại các khoản 1, 2, 3, 4 và 5 Điều 116 Luật Đất đai.\nb) Điều kiện đối với trường hợp đề nghị điều chỉnh thời hạn sử dụng đất đối với dự án đầu tư có sử dụng đất khi chưa hết thời hạn sử dụng đất:\n- Phù hợp với quy hoạch sử dụng đất cấp huyện, kế hoạch sử dụng đất hằng năm cấp huyện đã được phê duyệt trước ngày 01 tháng 7 năm 2025 hoặc chỉ tiêu sử dụng đất trong phương án phân bổ và khoanh vùng đất đai của quy hoạch tỉnh được phân bổ đến đơn vị hành chính cấp xã sau sắp xếp hoặc quy hoạch được lập theo quy định của pháp luật về quy hoạch đô thị và nông thôn để thực hiện việc thu hồi đất, giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất theo quy định của pháp luật về đất đai.\n- Có văn bản đề nghị điều chỉnh thời hạn sử dụng đất của dự án đầu tư.\n- Đã hoàn thành nghĩa vụ tài chính về đất đai đối với Nhà nước theo quy định của pháp luật.\n- Không thuộc trường hợp thu hồi đất do vi phạm pháp luật về đất đai quy định tại Điều 81 của Luật này.\n- Có văn bản của cơ quan có thẩm quyền về việc điều chỉnh dự án đầu tư theo quy định của pháp luật mà có thay đổi thời hạn hoạt động của dự án đầu tư.\n- Đáp ứng các điều kiện về môi trường theo quy định của pháp luật về bảo vệ môi trường.",
+  "name": "Ninh Bình_Điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất do thay đổi căn cứ quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất; điều chỉnh thời hạn sử dụng đất của dự án đầu tư",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a0db6e-40a9-736b-9c4b-14af4c4f94aa",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn theo Mẫu số 04 tại Phụ lục ban hành kèm theo Quyết định số 64/2026/QĐ-UBND.",
+          "code": "H42.TPHS Mẫu 04",
+          "attachments": [
+            {
+              "id": "01a0db6e-3749-759d-b3c4-413f7dc8ca85",
+              "fileName": "Mẫu số 04.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0db6e-3749-759d-b3c4-413f7dc8ca85/Mẫu số 04.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0db6f-3076-73da-9c28-3ec3f92ece26",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan nhà nước có thẩm quyền có nội dung làm thay đổi căn cứ quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất quy định tại các khoản 1, 2, 3, 4 và 5 Điều 116 Luật Đất đai.",
+          "code": "H42.TPHS TT03",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a0db70-18f0-77ba-81f7-640b0740b4e6",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị điều chỉnh thời hạn sử dụng đất của dự án theo Mẫu số 12 ban hành kèm theo Quyết định số 64/2026/QĐ-UBND",
+          "code": "H42.TPHS Mẫu 12",
+          "attachments": [
+            {
+              "id": "01a0db70-12cf-708b-9efc-84055644f8ca",
+              "fileName": "Mẫu số 12.docx",
+              "bucketName": "dvc",
+              "filePath": "configuring/01a0db70-12cf-708b-9efc-84055644f8ca/Mẫu số 12.docx"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "01a0db71-00f4-740d-936f-b6d3f9db0537",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản của cơ quan có thẩm quyền cho phép thay đổi thời hạn hoạt động của dự án đầu tư theo quy định của pháp luật về đầu tư",
+          "code": "H42.TPHS TT03.2",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "SPECIFIC",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-02acce6471b7"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+    "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+    "019ff547-6a69-7038-a010-d5ec1e9fd252",
+    "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+    "01a0d26b-97c7-75ea-92ea-4a6239f0625b",
+    "01a08ac9-e89b-7591-bb03-d553234b1d79",
+    "019ed889-689c-754e-8006-5ba0214fab5a",
+    "019e8731-a144-730f-9660-6392ade03300",
+    "019e8114-5db9-705d-8436-003dee043795",
+    "01a0db75-1b06-76d8-811f-5fefff6a8d2b"
+  ],
+  "resultIds": [
+    "01a0db72-1229-7673-bebc-04b00851955d"
+  ],
+  "subjectTypeIds": [
+    "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+    "019b6992-72d8-7737-b634-a4a57284e881",
+    "019b6990-6a92-7166-a335-f87bf9f53428",
+    "019b698a-6087-75ab-84ce-69f9a05c4feb",
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660",
+    "019b6991-aa01-772c-8759-c76bb73c83cc",
+    "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+    "019b698d-d28c-74c8-8844-9ec8823d06ca",
+    "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+    "019b6990-a906-76be-90f0-08d93db85329",
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+    "019fa7b1-2cde-71fb-a141-17b47ab28898"
+  ],
+  "departmentExecutingIds": [
+    "019d2be3-6a88-732b-8b15-916ec5acad21"
+  ],
+  "departmentAuthorityIds": [
+    "019d2be3-6a88-732b-8b15-828ae2e74c00"
+  ],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+      "name": "Đất đai",
+      "code": "G13-TN02"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-02acce6471b7",
+    "name": "Đất đai",
+    "code": "G13-TN02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [
+    {
+      "id": "019d2be3-6a88-732b-8b15-916ec5acad21",
+      "name": "Sở Nông nghiệp và Môi trường - tỉnh Ninh Bình",
+      "code": "H42.02"
+    }
+  ],
+  "departmentsAuthority": [
+    {
+      "id": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+      "name": "UBND tỉnh Ninh Bình",
+      "code": "H42"
+    }
+  ],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
+      "name": "Luật Đất đai ngày 18/01/2024;",
+      "code": "31/2024/QH15"
+    },
+    {
+      "id": "019fb0eb-7629-732a-ae85-4507d8b9cbc8",
+      "name": "Nghị định số 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai",
+      "code": "102/2024/NĐ-CP "
+    },
+    {
+      "id": "019ff547-6a69-7038-a010-d5ec1e9fd252",
+      "name": "Nghị định 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
+      "code": "Nghị định 118/2025/NĐ-CP "
+    },
+    {
+      "id": "019e8114-5db9-705d-8436-003dee043795",
+      "name": "Xét tặng Giải thưởng Cố đô về khoa học, công nghệ và đổi mới sáng tạo thành phố Huế.",
+      "code": "43/2026/QĐ-UBND"
+    },
+    {
+      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
+      "name": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
+      "code": "151/2025/NĐ-CP"
+    },
+    {
+      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
+      "name": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
+      "code": "254/2025/QH15"
+    },
+    {
+      "id": "01a0db75-1b06-76d8-811f-5fefff6a8d2b",
+      "name": "Quyết định số 64/2026/QĐ-UBND ngày 10/6/2026 của Ủy ban nhân dân tỉnh về việc quy định trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn tỉnh Ninh Bình.",
+      "code": "64/2026/QĐ-UBND "
+    },
+    {
+      "id": "01a0d26b-97c7-75ea-92ea-4a6239f0625b",
+      "name": "sửa đổi, bổ sung một số điều của các nghị định quy định chi tiết thi hành Luật Đất đai.",
+      "code": "226/2025/NĐ-CP "
+    },
+    {
+      "id": "019e8731-a144-730f-9660-6392ade03300",
+      "name": "Quy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất",
+      "code": "Nghị định số 50/2026/NĐ-CP"
+    },
+    {
+      "id": "01a08ac9-e89b-7591-bb03-d553234b1d79",
+      "name": "- Quyết định số 2418/QĐ-BTNMT ngày 28/6/2025 của Bộ trưởng Bộ\nNông nghiệp và Môi trường về việc đính chính Nghị định số 151/2025/NĐ-CP",
+      "code": "Quyết định số 2418/QĐ-BTNMT"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a0db72-1229-7673-bebc-04b00851955d",
+      "name": "Quyết định điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất theo Mẫu số 09 ban hành kèm theo quyết định số 64/2026/QĐ-UBND.",
+      "code": "H42.KQ Mẫu 09"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019b698e-91f0-7769-93ad-b9a2b156f5f7",
+      "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+      "code": "ĐT9"
+    },
+    {
+      "id": "019fa7b1-2cde-71fb-a141-17b47ab28898",
+      "name": "Ngân hàng Chính sách xã hội",
+      "code": "ĐT16"
+    },
+    {
+      "id": "019b6991-aa01-772c-8759-c76bb73c83cc",
+      "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
+      "code": "ĐT10"
+    },
+    {
+      "id": "019b6990-a906-76be-90f0-08d93db85329",
+      "name": "Doanh nghiệp Việt Nam",
+      "code": "ĐT8"
+    },
+    {
+      "id": "019b698b-78ec-7719-b8ff-c85d1f3f433f",
+      "name": "Người nước ngoài cư trú tại Việt Nam",
+      "code": "ĐT3"
+    },
+    {
+      "id": "019b6992-72d8-7737-b634-a4a57284e881",
+      "name": "Hợp tác xã",
+      "code": "DT11"
+    },
+    {
+      "id": "019b6990-6a92-7166-a335-f87bf9f53428",
+      "name": "Tổ chức nước ngoài",
+      "code": "ĐT7"
+    },
+    {
+      "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+      "name": "Công dân Việt Nam",
+      "code": "ĐT1"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    },
+    {
+      "id": "019b698d-d28c-74c8-8844-9ec8823d06ca",
+      "name": "Người nước ngoài",
+      "code": "ĐT4"
+    },
+    {
+      "id": "019f1cb2-880c-773e-9d3f-4bcd620b6b50",
+      "name": "Công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú",
+      "code": "ĐT14"
+    },
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    },
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+  "departmentPromulgateCode": "H42",
+  "departmentPromulgateName": "UBND tỉnh Ninh Bình",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1791104683043,
+  "updatedAt": 1791104683043,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "Sở Nông nghiệp và Môi trường - tỉnh Ninh Bình",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "a) Nộp trực tiếp tại Trung tâm Phục vụ hành chính công.\nb) Nộp thông qua dịch vụ bưu chính công ích.\nc) Nộp trực tuyến trên Cổng dịch vụ công (DVC trực tuyến một phần).",
+  "delegatedAgencies": "UBND tỉnh Ninh Bình",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "a) Điều kiện đối với trường hợp điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất:\n- Đang sử dụng đất đã có quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất.\n- Thay đổi căn cứ để ban hành quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất quy định tại các khoản 1, 2, 3, 4 và 5 Điều 116 Luật Đất đai.\nb) Điều kiện đối với trường hợp đề nghị điều chỉnh thời hạn sử dụng đất đối với dự án đầu tư có sử dụng đất khi chưa hết thời hạn sử dụng đất:\n- Phù hợp với quy hoạch sử dụng đất cấp huyện, kế hoạch sử dụng đất hằng năm cấp huyện đã được phê duyệt trước ngày 01 tháng 7 năm 2025 hoặc chỉ tiêu sử dụng đất trong phương án phân bổ và khoanh vùng đất đai của quy hoạch tỉnh được phân bổ đến đơn vị hành chính cấp xã sau sắp xếp hoặc quy hoạch được lập theo quy định của pháp luật về quy hoạch đô thị và nông thôn để thực hiện việc thu hồi đất, giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất theo quy định của pháp luật về đất đai.\n- Có văn bản đề nghị điều chỉnh thời hạn sử dụng đất của dự án đầu tư.\n- Đã hoàn thành nghĩa vụ tài chính về đất đai đối với Nhà nước theo quy định của pháp luật.\n- Không thuộc trường hợp thu hồi đất do vi phạm pháp luật về đất đai quy định tại Điều 81 của Luật này.\n- Có văn bản của cơ quan có thẩm quyền về việc điều chỉnh dự án đầu tư theo quy định của pháp luật mà có thay đổi thời hạn hoạt động của dự án đầu tư.\n- Đáp ứng các điều kiện về môi trường theo quy định của pháp luật về bảo vệ môi trường.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0d78b-1233-731d-9947-6315325b6d46",
+    "proposalNumber": "3497/QĐ-UBND",
+    "decisionDate": 1790182800000,
+    "decisionNumber": null,
+    "publicationDate": 1791104682829,
+    "issuingAgency": {
+      "id": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+      "name": "UBND tỉnh Ninh Bình"
+    },
+    "proposalType": "SPECIFIC"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

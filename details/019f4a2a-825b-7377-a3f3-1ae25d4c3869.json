@@ -1,0 +1,228 @@
+{
+  "id": "019f4a2a-825b-7377-a3f3-1ae25d4c3869",
+  "code": "5.003871",
+  "codeNotation": "5.003871",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Đối với trường hợp thuyên chuyển thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp xã quy định tại điểm a khoản 2 Điều 12 Nghị định số 93/2026/NĐ-CP:"
+    },
+    {
+      "name": "",
+      "description": "a) Nhà giáo gửi 01 bộ hồ sơ theo quy định tại điểm a khoản 3 Điều 12 Nghị định số 93/2026/NĐ-CP đến Ủy ban nhân dân cấp xã có thẩm quyền thuyên chuyển nhà giáo."
+    },
+    {
+      "name": "",
+      "description": "b) Trong thời hạn 30 ngày làm việc tính từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền thuyên chuyển nhà giáo xem xét hồ sơ theo quy định và ra quyết định thuyên chuyển nhà giáo. Trường hợp không đồng ý thuyên chuyển nhà giáo, cơ quan có thẩm quyền trả lời bằng văn bản cho nhà giáo và nêu rõ lý do."
+    },
+    {
+      "name": "",
+      "description": "Quyết định thuyên chuyển nhà giáo phải được cập nhật vào hồ sơ điện tử của nhà giáo theo quy định."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 1,
+      "processingTimeUnit": "DAY",
+      "description": "Không quy định",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Thuyên chuyển nhà giáo trong cơ sở giáo dục công lập tại cấp xã",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "019f5984-3d24-7067-b131-d0bf4f823d9c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Đơn đề nghị thuyên chuyển của nhà giáo có xác nhận của người đứng đầu cơ sở giáo dục (theo Mẫu số 01 tại Phụ lục kèm theo Nghị định số 93/2026/NĐ-CP);",
+          "code": "TP-G03.000340",
+          "attachments": [
+            {
+              "id": "019f5984-381b-71da-8e3c-4abf857967b4",
+              "fileName": "Mẫu số 1.doc",
+              "bucketName": "dvc",
+              "filePath": "configuring/019f5984-381b-71da-8e3c-4abf857967b4/Mẫu số 1.doc"
+            }
+          ]
+        },
+        {
+          "profileComponentId": "019f5984-aa15-73df-a3a9-60386e5db4dc",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đồng ý cho liên hệ công tác của cơ sở giáo dục cơ quan, đơn vị nơi nhà giáo chuyển đi;",
+          "code": "TP-G03.000341",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f5984-fdee-7219-9785-5dd6e1a19619",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Văn bản đồng ý tiếp nhận của cơ sở giáo dục, cơ quan, đơn vị nơi nhà giáo xin chuyển đến;",
+          "code": "TP-G03.000342",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f5985-6087-73c6-8f21-04d3779857c3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Hồ sơ nhà giáo theo quy định của pháp luật về viên chức;",
+          "code": "TP-G03.000443",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "019f5985-b360-778f-835c-710cc6463154",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "Các tài liệu có liên quan khác (nếu có). Trường hợp Hồ sơ nhà giáo đã được cơ quan có thẩm quyền phê duyệt và thông tin đã được cập nhật trong cơ sở dữ liệu quốc gia về cán bộ, công chức, viên chức hoặc cơ sở dữ liệu chuyên ngành thì được khai thác, sử dụng để thay thế thành phần hồ sơ giấy tương ứng. Trường hợp không khai thác được thông tin hoặc thông tin khai thác không đầy đủ, không chính xác thì cơ sở giáo dục công lập hoặc cơ quan, đơn vị quản lý giáo dục, nhà giáo có trách nhiệm bổ sung, hoàn thiện hồ sơ theo quy định.",
+          "code": "TP-G03.000444",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "CENTRAL_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": true,
+  "type": "STANDARD_INTERNAL",
+  "isWard": true,
+  "isProvince": false,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019eca4d-b72f-7579-bcc2-d9362d98d938"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "019f45e7-887a-760f-a9d8-3f74cc2ff72a"
+  ],
+  "resultIds": [
+    "019f4626-ba03-72a8-93be-090050d69081"
+  ],
+  "subjectTypeIds": [
+    "019b6992-ebe9-706f-a8c8-b8938c4cb534"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019eca4d-b72f-7579-bcc2-d9362d98d938",
+      "name": "Chế độ, chính sách đối với nhà giáo",
+      "code": "G03-NG02"
+    }
+  ],
+  "category": {
+    "id": "019eca4d-b72f-7579-bcc2-d9362d98d938",
+    "name": "Chế độ, chính sách đối với nhà giáo",
+    "code": "G03-NG02"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9015-9d25-73eb-a102-a33e4fe610da"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9015-9d25-73eb-a102-a33e4fe610da",
+      "name": "Ủy ban nhân dân cấp xã"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "019f45e7-887a-760f-a9d8-3f74cc2ff72a",
+      "name": "Nghị định số 93/2026/NĐ-CP ngày 31/3/2026 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Nhà giáo.",
+      "code": "93/2026/NĐ-CP "
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "019f4626-ba03-72a8-93be-090050d69081",
+      "name": "Quyết định thuyên chuyển nhà giáo",
+      "code": "kq"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-ebe9-706f-a8c8-b8938c4cb534",
+      "name": "Cán bộ, công chức, viên chức",
+      "code": "DT13"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d09-f80ce780479b",
+  "departmentPromulgateCode": "G03",
+  "departmentPromulgateName": "Bộ Giáo dục và Đào tạo",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1785483791041,
+  "updatedAt": 1785483791041,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "019f4a1d-738b-75bc-83c0-503c23da8539",
+    "proposalNumber": "1224/QĐ-BGDĐT",
+    "decisionDate": 1779037200000,
+    "decisionNumber": null,
+    "publicationDate": 1785483790979,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d09-f80ce780479b",
+      "name": "Bộ Giáo dục và Đào tạo"
+    },
+    "proposalType": "INTERNAL"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "01a0cd2b-e53b-7119-b29d-9db38979543e",
+  "code": "1.116628",
+  "codeNotation": "1.116628",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "test"
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 2,
+      "processingTimeUnit": "DAY",
+      "description": "",
+      "fees": []
+    }
+  ],
+  "description": "",
+  "name": "Đăng ký kinh doanh 23/09",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": []
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": true,
+  "isProvince": true,
+  "isMinistry": true,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": false,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b1-0a0aeeeedd58"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [],
+  "resultIds": [
+    "019fd01c-b804-7780-a7e3-6a9b3ebb443f"
+  ],
+  "subjectTypeIds": [
+    "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+    "019b6992-adb1-70f9-bb02-c25b6fecc660"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b1-0a0aeeeedd58",
+      "name": "Lý lịch tư pháp",
+      "code": "G01-CA27"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b1-0a0aeeeedd58",
+    "name": "Lý lịch tư pháp",
+    "code": "G01-CA27"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019f9202-ab18-77a9-86e6-51520f70579d"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019f9202-ab18-77a9-86e6-51520f70579d",
+      "name": "Đơn vị sự nghiệp công lập."
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [],
+  "resultsDetails": [
+    {
+      "id": "019fd01c-b804-7780-a7e3-6a9b3ebb443f",
+      "name": "Bản chính hoặc biểu mẫu điện tử Phương án kinh doanh vận tải đường bộ quốc tế giữa Việt Nam và Campuchia theo mẫu số 03 Phụ lục VII Nghị định 218/2026/NĐ-CP",
+      "code": "KQ-G17.000088"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b6992-adb1-70f9-bb02-c25b6fecc660",
+      "name": "Người Việt Nam định cư ở nước ngoài",
+      "code": "DT12"
+    },
+    {
+      "id": "019f1cb2-bc36-76ff-91f9-1ce58e50415c",
+      "name": "Người nước ngoài đã cư trú tại Việt Nam",
+      "code": "ĐT15"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "departmentPromulgateCode": "G12",
+  "departmentPromulgateName": "Bộ Tài chính",
+  "cases": [
+    {
+      "id": "01a0cd7b-498e-722c-91b6-b2113d93b384",
+      "name": "Đăng ký kinh doanh 23/09 (02)",
+      "code": "1.116628.03",
+      "processingDay": {
+        "qty": 6,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a0cd31-b40a-75c9-b34c-99e980a54c55",
+      "name": "Đăng ký kinh doanh 23/09",
+      "code": "1.116628.01",
+      "processingDay": {
+        "qty": 2,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    },
+    {
+      "id": "01a0cd36-7c69-711c-8463-9f8ea3888c09",
+      "name": "Đăng ký kinh doanh 23/09 (01)",
+      "code": "1.116628.02",
+      "processingDay": {
+        "qty": 2,
+        "type": "DAY"
+      },
+      "profileComponents": []
+    }
+  ],
+  "fees": [],
+  "createdAt": 1790148849937,
+  "updatedAt": 1790148849937,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a0cd2f-889f-72ce-a73e-ff8a9d171904",
+    "proposalNumber": "23092026",
+    "decisionDate": 1790096400000,
+    "decisionNumber": null,
+    "publicationDate": 1790148849890,
+    "issuingAgency": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "ONLINE"
+      ]
+    }
+  ]
+}

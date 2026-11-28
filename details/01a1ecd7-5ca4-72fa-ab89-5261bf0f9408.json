@@ -1,0 +1,232 @@
+{
+  "id": "01a1ecd7-5ca4-72fa-ab89-5261bf0f9408",
+  "code": "1.117147",
+  "codeNotation": "1.117147",
+  "executionSteps": [
+    {
+      "name": "",
+      "description": "Bước 1. Doanh nghiệp gửi 01 bộ hồ sơ đề nghị phê duyệt phương án sử dụng\nlao động theo hình thức trực tuyến hoặc qua dịch vụ bưu chính hoặc trực tiếp đến\nUỷ ban nhân dân cấp tỉnh được Chính phủ giao thực hiện quyền, trách nhiệm của\nđại diện chủ sở hữu nhà nước (sau đây gọi tắt là Uỷ ban nhân dân cấp tỉnh)."
+    },
+    {
+      "name": "",
+      "description": "Bước 2. Trong thời hạn 20 ngày làm việc, kể từ ngày nhận được hồ sơ đề\nnghị phê duyệt phương án sử dụng lao động đầy đủ, hợp lệ của doanh nghiệp, Uỷ\nban nhân dân cấp tỉnh có trách nhiệm xem xét, quyết định phê duyệt phương án\nsử dụng lao động.\nTrường hợp không phê duyệt phương án sử dụng lao động, Uỷ ban nhân dân\ncấp tỉnh có văn bản trả lời doanh nghiệp và nêu rõ lý do."
+    }
+  ],
+  "executionMethods": [
+    {
+      "submissionMethod": "DIRECT",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện theo một trong ba cách thức sau: Trực tuyến hoặc trực tiếp hoặc\nqua dịch vụ bưu chính. 20 ngày làm việc (kể từ khi nhận được hồ sơ đầy đủ,\nhợp lệ).",
+      "fees": []
+    },
+    {
+      "submissionMethod": "ONLINE",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện theo một trong ba cách thức sau: Trực tuyến hoặc trực tiếp hoặc\nqua dịch vụ bưu chính. 20 ngày làm việc (kể từ khi nhận được hồ sơ đầy đủ,\nhợp lệ).",
+      "fees": []
+    },
+    {
+      "submissionMethod": "POSTAL",
+      "processingTime": 20,
+      "processingTimeUnit": "WORKING_DAY",
+      "description": "Thực hiện theo một trong ba cách thức sau: Trực tuyến hoặc trực tiếp hoặc\nqua dịch vụ bưu chính. 20 ngày làm việc (kể từ khi nhận được hồ sơ đầy đủ,\nhợp lệ).",
+      "fees": []
+    }
+  ],
+  "description": "- Doanh nghiệp thực hiện thủ tục hành chính là doanh nghiệp do Nhà nước\nnắm giữ 100% vốn điều lệ thực hiện cổ phần hóa, chuyển đổi thành công ty trách\nnhiệm hữu hạn hai thành viên trở lên, hợp nhất, sáp nhập, chia, tách phải xây dựng\nphương án sử dụng lao động.\n- Dự thảo phương án sử dụng lao động bảo đảm theo quy định tại khoản 1\nĐiều 5 Thông tư số 30/2026/TT-BNV.",
+  "name": "Xây dựng, phê duyệt phương án sử dụng lao động",
+  "decisionNo": "",
+  "executionCases": [
+    {
+      "name": "",
+      "profileComponents": [
+        {
+          "profileComponentId": "01a1ecc9-90e6-71da-8260-7c65fa4ad9a3",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Văn bản đề nghị phê duyệt phương án sử dụng lao động;",
+          "code": "G09-KQ003210109",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1ecca-228d-7061-a78b-0cc631b7224c",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Dự thảo phương án sử dụng lao động bảo đảm theo quy định tại khoản 1 Điều 5 Thông tư số 30/2026/TT-BNV;",
+          "code": "G09-KQ003210110",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1eccb-4442-7781-8661-192e1b7ff03e",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Biên bản đối thoại tại nơi làm việc về phương án sử dụng lao động theo quy định tại điểm đ khoản 1 Điều 41 Nghị định số 145/2020/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động;",
+          "code": "G09-KQ003210119",
+          "attachments": []
+        },
+        {
+          "profileComponentId": "01a1eccc-88a5-714d-9e36-5fcdeaee79f9",
+          "originalQty": 1,
+          "copyQty": 0,
+          "required": false,
+          "hasElectronicForm": true,
+          "isProcessingResult": false,
+          "name": "- Tài liệu chứng minh liên quan đến phương án sử dụng lao động (nếu có).",
+          "code": "G09-KQ003210131",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "formalityTargetType": [],
+  "formalityType": "ASSIGNED_REGULATION",
+  "state": "ACTIVE",
+  "isInternal": false,
+  "type": "STANDARD",
+  "isWard": false,
+  "isProvince": true,
+  "isMinistry": false,
+  "isOtherAgency": false,
+  "isUndetermined": false,
+  "isVertical": false,
+  "isFullProcess": true,
+  "isSharedService": false,
+  "note": "",
+  "keywords": "",
+  "categoryIds": [
+    "019d2bbb-69ee-7079-a6b3-2e7598898fee"
+  ],
+  "serviceGroupIds": [],
+  "legalBasisIds": [
+    "01a1eccf-cc91-72ae-956b-ba0eb7242c8b",
+    "01a1fec5-8053-744f-a347-61e1e8248715"
+  ],
+  "resultIds": [
+    "01a1eccd-8a3c-733c-be51-206e61ab0c1c"
+  ],
+  "subjectTypeIds": [
+    "019b698b-07d7-7768-b827-9fcf3b2cbfec"
+  ],
+  "departmentExecutingIds": [],
+  "departmentAuthorityIds": [],
+  "departmentAuthorizedIds": [],
+  "departmentCoordinatingIds": [],
+  "categoriesDetails": [
+    {
+      "id": "019d2bbb-69ee-7079-a6b3-2e7598898fee",
+      "name": "Lao động, tiền lương",
+      "code": "G09-NV23"
+    }
+  ],
+  "category": {
+    "id": "019d2bbb-69ee-7079-a6b3-2e7598898fee",
+    "name": "Lao động, tiền lương",
+    "code": "G09-NV23"
+  },
+  "departmentDetails": [],
+  "departmentsExecuting": [],
+  "departmentsAuthority": [],
+  "departmentsAuthorized": [],
+  "departmentsCoordinating": [],
+  "unitGroupExecutingIds": [
+    "019d9022-10f8-72ed-a697-2896a786f2b3"
+  ],
+  "unitGroupAuthorityIds": [],
+  "unitGroupAuthorizedIds": [],
+  "unitGroupCoordinatingIds": [],
+  "unitGroupsExecuting": [
+    {
+      "id": "019d9022-10f8-72ed-a697-2896a786f2b3",
+      "name": "Ủy ban nhân dân cấp tỉnh"
+    }
+  ],
+  "unitGroupsAuthority": [],
+  "unitGroupsAuthorized": [],
+  "unitGroupsCoordinating": [],
+  "serviceGroupsDetails": [],
+  "legalBasisesDetails": [
+    {
+      "id": "01a1eccf-cc91-72ae-956b-ba0eb7242c8b",
+      "name": "Về cơ cấu lại vốn nhà nước tại doanh nghiệp",
+      "code": "57/2026/NĐ-CP"
+    },
+    {
+      "id": "01a1fec5-8053-744f-a347-61e1e8248715",
+      "name": "HƯỚNG DẪN THỰC HIỆN CHÍNH SÁCH LAO ĐỘNG KHI CƠ CẤU LẠI VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP",
+      "code": "30/2026/TT-BNV"
+    }
+  ],
+  "resultsDetails": [
+    {
+      "id": "01a1eccd-8a3c-733c-be51-206e61ab0c1c",
+      "name": "Quyết định phê duyệt phương án sử dụng lao động.",
+      "code": "KQ.G09-KQ001723"
+    }
+  ],
+  "subjectTypesDetails": [
+    {
+      "id": "019b698b-07d7-7768-b827-9fcf3b2cbfec",
+      "name": "Doanh nghiệp",
+      "code": "ĐT2"
+    }
+  ],
+  "departmentPromulgateId": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+  "departmentPromulgateCode": "G09",
+  "departmentPromulgateName": "Bộ Nội vụ",
+  "cases": [],
+  "fees": [],
+  "createdAt": 1795275737223,
+  "updatedAt": 1795275737223,
+  "profileComponents": [],
+  "targetObjects": [],
+  "executingAgencies": "",
+  "authorizedAgencies": "",
+  "dossierReceivingAddresses": "",
+  "delegatedAgencies": "",
+  "coordinatingAgencies": "",
+  "requirementsAndConditions": "- Doanh nghiệp thực hiện thủ tục hành chính là doanh nghiệp do Nhà nước\nnắm giữ 100% vốn điều lệ thực hiện cổ phần hóa, chuyển đổi thành công ty trách\nnhiệm hữu hạn hai thành viên trở lên, hợp nhất, sáp nhập, chia, tách phải xây dựng\nphương án sử dụng lao động.\n- Dự thảo phương án sử dụng lao động bảo đảm theo quy định tại khoản 1\nĐiều 5 Thông tư số 30/2026/TT-BNV.",
+  "procedureRelatedGroup": [],
+  "procedureProposal": {
+    "id": "01a1ecc3-29d7-720c-b24c-df8e596c6a5c",
+    "proposalNumber": "1405/QĐ-BNV",
+    "decisionDate": 1794502800000,
+    "decisionNumber": null,
+    "publicationDate": 1795275737182,
+    "issuingAgency": {
+      "id": "019d2be3-6a80-747a-9d0b-d22b7584413d",
+      "name": "Bộ Nội vụ"
+    },
+    "proposalType": "STANDARD"
+  },
+  "isOfflineOnly": false,
+  "isNonTerritorial": false,
+  "returningMethods": [
+    {
+      "type": "ONLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    },
+    {
+      "type": "OFFLINE",
+      "value": [
+        "AT_HOME",
+        "AT_SUBMISSION_PLACE",
+        "ONLINE"
+      ]
+    }
+  ]
+}

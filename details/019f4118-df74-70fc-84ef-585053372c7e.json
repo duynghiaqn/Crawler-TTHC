@@ -1,0 +1,99 @@
+{
+  "id": "019f4118-df74-70fc-84ef-585053372c7e",
+  "so_quyet_dinh": "1781/QĐ-BTC",
+  "trich_yeu": "Về việc công bố TTHC nội bộ mới ban hành và TTHC bị bãi bỏ trong lĩnh vực Công nghệ thông tin thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+  "ngay_quyet_dinh": "2026-07-06",
+  "decision_date_ts": 1783270800000,
+  "ngay_cong_bo": "2026-07-08",
+  "publication_date_ts": 1783503632632,
+  "created_at_ts": 1783270800000,
+  "updated_at_ts": 1783503623840,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Tin học - Thống kê"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019f4115-a197-72e8-81c2-1cb97d2163c6",
+      "fileName": "Du thao QĐ, Phu luc.doc"
+    },
+    {
+      "fileId": "019f4117-21b3-766f-bf3d-54afea9b2212",
+      "fileName": "1781_06072026_161411-trang-1.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019f4118-df74-70fc-84ef-585053372c7e",
+  "source_updated_at_ts": 1783503623840,
+  "fetched_at": "2026-11-18T13:27:56.109Z",
+  "thong_tin_chi_tiet": {
+    "id": "019f4118-df74-70fc-84ef-585053372c7e",
+    "state": "PUBLICATION",
+    "proposalNumber": "1781/QĐ-BTC",
+    "proposalExcerpt": "Về việc công bố TTHC nội bộ mới ban hành và TTHC bị bãi bỏ trong lĩnh vực Công nghệ thông tin thuộc phạm vi chức năng quản lý của Bộ Tài chính",
+    "completionDate": 1783503623968,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-2b5ef96d61f0"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019f4115-a197-72e8-81c2-1cb97d2163c6",
+        "fileName": "Du thao QĐ, Phu luc.doc"
+      },
+      {
+        "fileId": "019f4117-21b3-766f-bf3d-54afea9b2212",
+        "fileName": "1781_06072026_161411-trang-1.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1783270800000,
+    "decisionNumber": null,
+    "publicationDate": 1783503632632,
+    "effectiveDate": 1783270800000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": null,
+    "createdAt": 1783270800000,
+    "updatedAt": 1783503623840,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-2b5ef96d61f0",
+        "name": "Tin học - Thống kê"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-e21d-75c9-aa2a-3c95ccc9f8cd",
+          "ma_tthc": "2.002206",
+          "ten_tthc": "Thủ tục đăng ký mã số đơn vị có quan hệ với ngân sách",
+          "linh_vuc": [
+            "Tin học - Thống kê"
+          ],
+          "ngay_hieu_luc": "2026-07-08",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e21d-75c9-aa2a-3c95ccc9f8cd"
+        }
+      ]
+    }
+  }
+}

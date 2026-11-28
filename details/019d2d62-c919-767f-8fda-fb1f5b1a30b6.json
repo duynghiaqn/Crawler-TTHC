@@ -1,0 +1,92 @@
+{
+  "id": "019d2d62-c919-767f-8fda-fb1f5b1a30b6",
+  "so_quyet_dinh": "2944/QĐ-BYT",
+  "trich_yeu": "trích từ 2944/QĐ-BYT",
+  "ngay_quyet_dinh": "2025-09-16",
+  "decision_date_ts": 1757980800000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133084814,
+  "created_at_ts": 1757980800000,
+  "updated_at_ts": 1774582941975,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Bảo trợ xã hội"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d62-c919-767f-8fda-fb1f5b1a30b6",
+  "source_updated_at_ts": 1774582941975,
+  "fetched_at": "2026-11-18T13:28:39.982Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d62-c919-767f-8fda-fb1f5b1a30b6",
+    "state": "PUBLICATION",
+    "proposalNumber": "2944/QĐ-BYT",
+    "proposalExcerpt": "trích từ 2944/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-5312ed7e0235"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1757980800000,
+    "decisionNumber": null,
+    "publicationDate": 1776133084814,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1757980800000,
+    "updatedAt": 1774582941975,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-5312ed7e0235",
+        "name": "Bảo trợ xã hội"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bff-2593-736e-808f-aec7226d7863",
+          "ma_tthc": "1.013822",
+          "ten_tthc": "Hỗ trợ chi phí mai táng đối với nghệ nhân nhân dân, nghệ nhân ưu tú có thu nhập thấp, hoàn cảnh khó khăn",
+          "linh_vuc": [
+            "Bảo trợ xã hội"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-2593-736e-808f-aec7226d7863"
+        },
+        {
+          "id": "019d2bff-258d-729e-900f-7463f0e24398",
+          "ma_tthc": "1.013821",
+          "ten_tthc": "Thực hiện, điều chỉnh, tạm dừng, thôi hưởng trợ cấp sinh hoạt hàng tháng đối với nghệ nhân nhân dân, nghệ nhân ưu tú có thu nhập thấp, hoàn cảnh khó khăn",
+          "linh_vuc": [
+            "Bảo trợ xã hội"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-258d-729e-900f-7463f0e24398"
+        }
+      ]
+    }
+  }
+}

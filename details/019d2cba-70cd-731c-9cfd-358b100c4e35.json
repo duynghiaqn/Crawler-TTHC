@@ -1,0 +1,81 @@
+{
+  "id": "019d2cba-70cd-731c-9cfd-358b100c4e35",
+  "so_quyet_dinh": "3032/QĐ-BTC",
+  "trich_yeu": "trích từ 3032/QĐ-BTC",
+  "ngay_quyet_dinh": "2024-12-23",
+  "decision_date_ts": 1734912000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775644292111,
+  "created_at_ts": 1734912000000,
+  "updated_at_ts": 1774571909323,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Bảo hiểm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cba-70cd-731c-9cfd-358b100c4e35",
+  "source_updated_at_ts": 1774571909323,
+  "fetched_at": "2026-11-18T13:29:00.287Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cba-70cd-731c-9cfd-358b100c4e35",
+    "state": "PUBLICATION",
+    "proposalNumber": "3032/QĐ-BTC",
+    "proposalExcerpt": "trích từ 3032/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-d5cef93a3b0f"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1734912000000,
+    "decisionNumber": null,
+    "publicationDate": 1775644292111,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1734912000000,
+    "updatedAt": 1774571909323,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-d5cef93a3b0f",
+        "name": "Bảo hiểm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-b2b1-74ed-af48-102e7eb4d4cf",
+          "ma_tthc": "1.010389",
+          "ten_tthc": "Phúc khảo bài thi chứng chỉ đại lý bảo hiểm",
+          "linh_vuc": [
+            "Bảo hiểm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-b2b1-74ed-af48-102e7eb4d4cf"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

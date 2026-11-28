@@ -1,0 +1,81 @@
+{
+  "id": "019d2c4e-180b-7140-8b61-8f7bf45b4e34",
+  "so_quyet_dinh": "3341/QĐ-BCT",
+  "trich_yeu": "trích từ 3341/QĐ-BCT",
+  "ngay_quyet_dinh": "2020-12-16",
+  "decision_date_ts": 1608076800000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776322471412,
+  "created_at_ts": 1608076800000,
+  "updated_at_ts": 1774564808713,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Hóa chất"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c4e-180b-7140-8b61-8f7bf45b4e34",
+  "source_updated_at_ts": 1774564808713,
+  "fetched_at": "2026-11-18T13:29:16.360Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c4e-180b-7140-8b61-8f7bf45b4e34",
+    "state": "PUBLICATION",
+    "proposalNumber": "3341/QĐ-BCT",
+    "proposalExcerpt": "trích từ 3341/QĐ-BCT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-c76dc669176a"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1608076800000,
+    "decisionNumber": null,
+    "publicationDate": 1776322471412,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": "VNPT",
+    "createdAt": 1608076800000,
+    "updatedAt": 1774564808713,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-c76dc669176a",
+        "name": "Hóa chất"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bf8-2334-716b-a209-ef2361e54ed2",
+          "ma_tthc": "2.000179",
+          "ten_tthc": "Cấp Giấy chứng nhận huấn luyện kỹ thuật an toàn vận chuyển hàng công nghiệp nguy hiểm",
+          "linh_vuc": [
+            "Hóa chất"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-2334-716b-a209-ef2361e54ed2"
+        }
+      ]
+    }
+  }
+}

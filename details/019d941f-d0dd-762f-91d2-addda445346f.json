@@ -1,0 +1,91 @@
+{
+  "id": "019d941f-d0dd-762f-91d2-addda445346f",
+  "so_quyet_dinh": "02/QĐ-UBND",
+  "trich_yeu": "Danh mục TTHC thuộc thẩm quyền giải quyết của Sở Du lịch",
+  "ngay_quyet_dinh": "2026-01-05",
+  "decision_date_ts": 1767546000000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776306640831,
+  "created_at_ts": 1767546000000,
+  "updated_at_ts": 1776306618198,
+  "co_quan_ban_hanh": "UBND tỉnh Ninh Bình",
+  "ma_co_quan": "019d2be3-6a88-732b-8b16-d31969aba2e8",
+  "linh_vuc": [
+    "Du lịch"
+  ],
+  "loai_quyet_dinh": "SPECIFIC",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019d9408-b81d-739e-921b-eced7b0416e4",
+      "fileName": "TTHC LV Du lịch.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d941f-d0dd-762f-91d2-addda445346f",
+  "source_updated_at_ts": 1776306618198,
+  "fetched_at": "2026-11-18T13:28:22.947Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d941f-d0dd-762f-91d2-addda445346f",
+    "state": "PUBLICATION",
+    "proposalNumber": "02/QĐ-UBND",
+    "proposalExcerpt": "Danh mục TTHC thuộc thẩm quyền giải quyết của Sở Du lịch",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-bf2462610853"
+    ],
+    "note": "Danh mục TTHC thuộc thẩm quyền giải quyết của Sở Du lịch",
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019d9408-b81d-739e-921b-eced7b0416e4",
+        "fileName": "TTHC LV Du lịch.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1767546000000,
+    "decisionNumber": null,
+    "publicationDate": 1776306640831,
+    "effectiveDate": 1767546000000,
+    "proposalType": "SPECIFIC",
+    "departmentId": "019d2be3-6a88-732b-8b16-d31969aba2e8",
+    "importBy": null,
+    "createdAt": 1767546000000,
+    "updatedAt": 1776306618198,
+    "department": {
+      "id": "019d2be3-6a88-732b-8b15-828ae2e74c00",
+      "name": "UBND tỉnh Ninh Bình"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-bf2462610853",
+        "name": "Du lịch"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d941f-8791-7099-b19c-79e497507e3f",
+          "ma_tthc": "3.000533",
+          "ten_tthc": "Hỗ trợ đào tạo nghề du lịch",
+          "linh_vuc": [
+            "Du lịch"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d941f-8791-7099-b19c-79e497507e3f"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

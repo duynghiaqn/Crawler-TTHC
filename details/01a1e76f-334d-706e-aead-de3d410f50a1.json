@@ -1,0 +1,102 @@
+{
+  "id": "01a1e76f-334d-706e-aead-de3d410f50a1",
+  "so_quyet_dinh": "807/QĐ-TTCP",
+  "trich_yeu": "Quyết định: về việc công bố thủ tục hành chính trong lĩnh vực phòng, chống tham nhũng thuộc phạm vi quản lý nhà nước của Thanh tra Chính phủ",
+  "ngay_quyet_dinh": "2026-08-26",
+  "decision_date_ts": 1787677200000,
+  "ngay_cong_bo": "2026-11-17",
+  "publication_date_ts": 1794888407286,
+  "created_at_ts": 1794884186934,
+  "updated_at_ts": 1794888398264,
+  "co_quan_ban_hanh": "Thanh tra Chính phủ",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-dd984729b638",
+  "linh_vuc": [
+    "Phòng, chống tham nhũng"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/01a1e76f-334d-706e-aead-de3d410f50a1",
+  "source_updated_at_ts": 1794888398264,
+  "fetched_at": "2026-11-18T13:27:34.894Z",
+  "thong_tin_chi_tiet": {
+    "id": "01a1e76f-334d-706e-aead-de3d410f50a1",
+    "state": "PUBLICATION",
+    "proposalNumber": "807/QĐ-TTCP",
+    "proposalExcerpt": "Quyết định: về việc công bố thủ tục hành chính trong lĩnh vực phòng, chống tham nhũng thuộc phạm vi quản lý nhà nước của Thanh tra Chính phủ",
+    "completionDate": 1794888398438,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-dd984729b638",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-9af94ff8e836"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1787677200000,
+    "decisionNumber": null,
+    "publicationDate": 1794888407286,
+    "effectiveDate": 1787677200000,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-dd984729b638",
+    "importBy": null,
+    "createdAt": 1794884186934,
+    "updatedAt": 1794888398264,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-dd984729b638",
+      "name": "Thanh tra Chính phủ"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-9af94ff8e836",
+        "name": "Phòng, chống tham nhũng"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "01a1e7ad-9406-7075-982c-0f3596de75af",
+          "ma_tthc": "2.002949",
+          "ten_tthc": "Thủ tục thực hiện việc giải trình",
+          "linh_vuc": [],
+          "ngay_hieu_luc": "2026-08-26",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/01a1e7ad-9406-7075-982c-0f3596de75af"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bff-f8e2-7009-9af5-adb99e44ab29",
+          "ma_tthc": "2.002403",
+          "ten_tthc": "Thủ tục thực hiện việc giải trình",
+          "linh_vuc": [
+            "Phòng, chống tham nhũng"
+          ],
+          "ngay_hieu_luc": "2021-03-08",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-f8e2-7009-9af5-adb99e44ab29"
+        },
+        {
+          "id": "019d2bff-f8d6-777b-ba51-0c34f1a3cc59",
+          "ma_tthc": "2.002402",
+          "ten_tthc": "Thủ tục tiếp nhận yêu cầu giải trình",
+          "linh_vuc": [
+            "Phòng, chống tham nhũng"
+          ],
+          "ngay_hieu_luc": "2021-03-08",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-f8d6-777b-ba51-0c34f1a3cc59"
+        }
+      ]
+    }
+  }
+}

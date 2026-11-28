@@ -1,0 +1,103 @@
+{
+  "id": "019d2c6d-c562-75a3-acf1-3f7ae899d3e1",
+  "so_quyet_dinh": "1225/QĐ-BTC",
+  "trich_yeu": "trích từ 1225/QĐ-BTC",
+  "ngay_quyet_dinh": "2022-06-22",
+  "decision_date_ts": 1655856000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775646063576,
+  "created_at_ts": 1655856000000,
+  "updated_at_ts": 1774566884705,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý nợ"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c6d-c562-75a3-acf1-3f7ae899d3e1",
+  "source_updated_at_ts": 1774566884705,
+  "fetched_at": "2026-11-18T13:29:12.905Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c6d-c562-75a3-acf1-3f7ae899d3e1",
+    "state": "PUBLICATION",
+    "proposalNumber": "1225/QĐ-BTC",
+    "proposalExcerpt": "trích từ 1225/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-0e32442a1598"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1655856000000,
+    "decisionNumber": null,
+    "publicationDate": 1775646063576,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1655856000000,
+    "updatedAt": 1774566884705,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+        "name": "Quản lý nợ"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfd-0132-730c-9bbb-fb30149f436a",
+          "ma_tthc": "3.000078",
+          "ten_tthc": "Xác nhận viện trợ hàng hóa nhập khẩu",
+          "linh_vuc": [
+            "Quản lý nợ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-0132-730c-9bbb-fb30149f436a"
+        },
+        {
+          "id": "019d2bfd-0123-7590-a14b-7a7696c6c2ed",
+          "ma_tthc": "3.000066",
+          "ten_tthc": "Xác nhận viện trợ hàng hóa dịch vụ trong nước",
+          "linh_vuc": [
+            "Quản lý nợ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-0123-7590-a14b-7a7696c6c2ed"
+        },
+        {
+          "id": "019d2bfd-010a-710f-be50-542cade0fa49",
+          "ma_tthc": "3.000065",
+          "ten_tthc": "Xác nhận viện trợ bằng tiền",
+          "linh_vuc": [
+            "Quản lý nợ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-010a-710f-be50-542cade0fa49"
+        }
+      ]
+    }
+  }
+}

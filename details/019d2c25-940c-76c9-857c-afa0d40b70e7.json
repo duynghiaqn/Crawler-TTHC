@@ -1,0 +1,121 @@
+{
+  "id": "019d2c25-940c-76c9-857c-afa0d40b70e7",
+  "so_quyet_dinh": "3854/QĐ_BYT",
+  "trich_yeu": "trích từ 3854/QĐ_BYT",
+  "ngay_quyet_dinh": "2019-08-28",
+  "decision_date_ts": 1566950400000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776134024602,
+  "created_at_ts": 1566950400000,
+  "updated_at_ts": 1774562153476,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Dược phẩm",
+    "Y Dược cổ truyền"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c25-940c-76c9-857c-afa0d40b70e7",
+  "source_updated_at_ts": 1774562153476,
+  "fetched_at": "2026-11-18T13:29:23.656Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c25-940c-76c9-857c-afa0d40b70e7",
+    "state": "PUBLICATION",
+    "proposalNumber": "3854/QĐ_BYT",
+    "proposalExcerpt": "trích từ 3854/QĐ_BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-8a6c271189c4",
+      "019d2bbb-69ee-7079-a6b5-13a996b92439"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1566950400000,
+    "decisionNumber": null,
+    "publicationDate": 1776134024602,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1566950400000,
+    "updatedAt": 1774562153476,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-13a996b92439",
+        "name": "Y Dược cổ truyền"
+      },
+      {
+        "id": "019d2c08-77b9-731a-ae11-8a6c271189c4",
+        "name": "Dược phẩm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bff-0dd1-70ab-8dda-ffd020477f10",
+          "ma_tthc": "1.008398",
+          "ten_tthc": "Cấp lại Giấy chứng nhận dược liệu đạt GACP trong trường hợp bị mất hoặc hư hỏng",
+          "linh_vuc": [
+            "Y Dược cổ truyền"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-0dd1-70ab-8dda-ffd020477f10"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfe-cf4d-712e-9889-d9167a7489c6",
+          "ma_tthc": "1.002303",
+          "ten_tthc": "Chỉ định Tổ chức đánh giá sự phù hợp trong lĩnh vực GACP-WHO",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf4d-712e-9889-d9167a7489c6"
+        },
+        {
+          "id": "019d2bfe-cf77-716e-b6b0-fe3a825fd570",
+          "ma_tthc": "1.002337",
+          "ten_tthc": "Cấp Phiếu tiếp nhận bản công bố lại/công bố bổ sung dược liệu sản xuất theo GACP-WHO",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf77-716e-b6b0-fe3a825fd570"
+        },
+        {
+          "id": "019d2bfe-cf72-7629-966f-bd722c537248",
+          "ma_tthc": "1.002351",
+          "ten_tthc": "Cấp Phiếu tiếp nhận bản công bố dược liệu sản xuất theo GACP-WHO",
+          "linh_vuc": [
+            "Dược phẩm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf72-7629-966f-bd722c537248"
+        }
+      ]
+    }
+  }
+}

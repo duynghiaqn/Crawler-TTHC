@@ -1,0 +1,103 @@
+{
+  "id": "019d2d88-b783-7574-90ae-d667833d1b7a",
+  "so_quyet_dinh": "4311/QĐ-BTC",
+  "trich_yeu": "trích từ 4311/QĐ-BTC",
+  "ngay_quyet_dinh": "2025-12-29",
+  "decision_date_ts": 1766966400000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775644040724,
+  "created_at_ts": 1766966400000,
+  "updated_at_ts": 1774585427840,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý nợ"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d88-b783-7574-90ae-d667833d1b7a",
+  "source_updated_at_ts": 1774585427840,
+  "fetched_at": "2026-11-18T13:28:33.687Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d88-b783-7574-90ae-d667833d1b7a",
+    "state": "PUBLICATION",
+    "proposalNumber": "4311/QĐ-BTC",
+    "proposalExcerpt": "trích từ 4311/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-0e32442a1598"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1766966400000,
+    "decisionNumber": null,
+    "publicationDate": 1775644040724,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1766966400000,
+    "updatedAt": 1774585427840,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-0e32442a1598",
+        "name": "Quản lý nợ"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfd-0107-72ee-ae9a-fa9295622456",
+          "ma_tthc": "3.000062",
+          "ten_tthc": "Hướng dẫn cơ chế quản lý tài chính vốn vay (ODA) của Chính phủ Nhật Bản cho Dự án Phục hồi và quản lý bền vững rừng phòng hộ (Dự án JICA2)",
+          "linh_vuc": [
+            "Quản lý nợ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-0107-72ee-ae9a-fa9295622456"
+        },
+        {
+          "id": "019d2bfc-7c06-725c-9d50-145f1ba7c235",
+          "ma_tthc": "1.009388",
+          "ten_tthc": "Thủ tục rút vốn ODA, vốn vay ưu đãi nước ngoài theo hình thức rút vốn bằng thư tín dụng (L/C) từ tài khoản tạm ứng",
+          "linh_vuc": [
+            "Quản lý nợ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-7c06-725c-9d50-145f1ba7c235"
+        },
+        {
+          "id": "019d2bfd-011d-7601-9425-cf77f8687f2f",
+          "ma_tthc": "3.000077",
+          "ten_tthc": "Thủ tục rút vốn đối với phần vốn vay theo phương thức hỗ trợ ngân sách áp dụng đối với dự án “Tăng cường hệ thống trợ giúp xã hội Việt Nam” vay vốn Ngân hàng Thế giới",
+          "linh_vuc": [
+            "Quản lý nợ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-011d-7601-9425-cf77f8687f2f"
+        }
+      ]
+    }
+  }
+}

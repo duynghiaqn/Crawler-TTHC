@@ -1,0 +1,81 @@
+{
+  "id": "019d2c29-55e6-7359-8f8f-c18edf2acf5c",
+  "so_quyet_dinh": "625/QĐ-BTC",
+  "trich_yeu": "trích từ 625/QĐ-BTC",
+  "ngay_quyet_dinh": "2019-04-11",
+  "decision_date_ts": 1554940800000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775641297716,
+  "created_at_ts": 1554940800000,
+  "updated_at_ts": 1774562399716,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Thuế"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c29-55e6-7359-8f8f-c18edf2acf5c",
+  "source_updated_at_ts": 1774562399716,
+  "fetched_at": "2026-11-18T13:29:22.856Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c29-55e6-7359-8f8f-c18edf2acf5c",
+    "state": "PUBLICATION",
+    "proposalNumber": "625/QĐ-BTC",
+    "proposalExcerpt": "trích từ 625/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1554940800000,
+    "decisionNumber": null,
+    "publicationDate": 1775641297716,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1554940800000,
+    "updatedAt": 1774562399716,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3",
+        "name": "Thuế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-aac7-73ff-b358-88880c2735aa",
+          "ma_tthc": "1.010230",
+          "ten_tthc": "Gia hạn nộp thuế theo NĐ 52 câp Chi cục Thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-aac7-73ff-b358-88880c2735aa"
+        }
+      ]
+    }
+  }
+}

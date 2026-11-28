@@ -1,0 +1,92 @@
+{
+  "id": "019d2c4c-8b29-760a-be63-c09f8474caf2",
+  "so_quyet_dinh": "2081/QĐ-BTC",
+  "trich_yeu": "trích từ 2081/QĐ-BTC",
+  "ngay_quyet_dinh": "2020-12-09",
+  "decision_date_ts": 1607472000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775639879997,
+  "created_at_ts": 1607472000000,
+  "updated_at_ts": 1774564707112,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Hải quan"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c4c-8b29-760a-be63-c09f8474caf2",
+  "source_updated_at_ts": 1774564707112,
+  "fetched_at": "2026-11-18T13:29:16.748Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c4c-8b29-760a-be63-c09f8474caf2",
+    "state": "PUBLICATION",
+    "proposalNumber": "2081/QĐ-BTC",
+    "proposalExcerpt": "trích từ 2081/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-9efb77511847"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1607472000000,
+    "decisionNumber": null,
+    "publicationDate": 1775639879997,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1607472000000,
+    "updatedAt": 1774564707112,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-9efb77511847",
+        "name": "Hải quan"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfc-44f9-70e1-b8e0-7e51c975fa2e",
+          "ma_tthc": "1.007832",
+          "ten_tthc": "Thủ tục quyết toán việc xuất khẩu, sử dụng hàng hóa miễn thuế là vật liệu xây dựng đưa từ thị trường trong nước vào khu phi thuế quan để xây dựng sửa chữa và bảo dưỡng kết cấu hạ tầng kỹ thuật, hạ tầng xã hội chung trong khu phi thuế quan",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-44f9-70e1-b8e0-7e51c975fa2e"
+        },
+        {
+          "id": "019d2bfc-4cde-7013-88f7-e9d4e0793b6e",
+          "ma_tthc": "1.007903",
+          "ten_tthc": "Thủ tục đăng ký danh mục hàng hóa xuất khẩu miễn thuế là vật liệu xây dựng đưa từ thị trường trong nước vào khu phi thuế quan",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-4cde-7013-88f7-e9d4e0793b6e"
+        }
+      ]
+    }
+  }
+}

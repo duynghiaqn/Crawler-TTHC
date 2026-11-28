@@ -1,0 +1,104 @@
+{
+  "id": "019d2cf9-dc85-77d1-bb04-e6ff0462d351",
+  "so_quyet_dinh": "1564/QĐ-BCT",
+  "trich_yeu": "trích từ 1564/QĐ-BCT",
+  "ngay_quyet_dinh": "2025-06-03",
+  "decision_date_ts": 1748908800000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776322185157,
+  "created_at_ts": 1748908800000,
+  "updated_at_ts": 1774576065666,
+  "co_quan_ban_hanh": "Bộ Công thương",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+  "linh_vuc": [
+    "Phòng vệ thương mại"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cf9-dc85-77d1-bb04-e6ff0462d351",
+  "source_updated_at_ts": 1774576065666,
+  "fetched_at": "2026-11-18T13:28:52.944Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cf9-dc85-77d1-bb04-e6ff0462d351",
+    "state": "PUBLICATION",
+    "proposalNumber": "1564/QĐ-BCT",
+    "proposalExcerpt": "trích từ 1564/QĐ-BCT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-b7a81af2593a"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1748908800000,
+    "decisionNumber": null,
+    "publicationDate": 1776322185157,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+    "importBy": "VNPT",
+    "createdAt": 1748908800000,
+    "updatedAt": 1774576065666,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b16ccb65a5c0",
+      "name": "Bộ Công thương"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-b7a81af2593a",
+        "name": "Phòng vệ thương mại"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bf7-cd3e-72e8-97ec-80943a2d4d98",
+          "ma_tthc": "1.000209",
+          "ten_tthc": "Miễn trừ áp dụng biện pháp phòng vệ thương mại",
+          "linh_vuc": [
+            "Phòng vệ thương mại"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-cd3e-72e8-97ec-80943a2d4d98"
+        },
+        {
+          "id": "019d2bf7-cd3f-7579-b90f-afd993a11ae5",
+          "ma_tthc": "1.000226",
+          "ten_tthc": "Bổ sung lượng hàng hóa được miễn trừ áp dụng biện pháp phòng vệ thương mại",
+          "linh_vuc": [
+            "Phòng vệ thương mại"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-cd3f-7579-b90f-afd993a11ae5"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bf7-cd41-7410-96d8-49f44ec5c2ad",
+          "ma_tthc": "1.000214",
+          "ten_tthc": "Khai báo nhập khẩu đối với hàng hóa bị điều tra áp dụng biện pháp phòng vệ thương mại",
+          "linh_vuc": [
+            "Phòng vệ thương mại"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-cd41-7410-96d8-49f44ec5c2ad"
+        }
+      ]
+    }
+  }
+}

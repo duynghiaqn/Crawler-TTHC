@@ -1,0 +1,92 @@
+{
+  "id": "019d2d53-5f32-7108-8fc7-b80cb0ccaf19",
+  "so_quyet_dinh": "2519/QĐ-BTC",
+  "trich_yeu": "trích từ 2519/QĐ-BTC",
+  "ngay_quyet_dinh": "2025-07-18",
+  "decision_date_ts": 1752796800000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775645678623,
+  "created_at_ts": 1752796800000,
+  "updated_at_ts": 1774581931824,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý công sản"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d53-5f32-7108-8fc7-b80cb0ccaf19",
+  "source_updated_at_ts": 1774581931824,
+  "fetched_at": "2026-11-18T13:28:42.759Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d53-5f32-7108-8fc7-b80cb0ccaf19",
+    "state": "PUBLICATION",
+    "proposalNumber": "2519/QĐ-BTC",
+    "proposalExcerpt": "trích từ 2519/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-b08a21687d58"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1752796800000,
+    "decisionNumber": null,
+    "publicationDate": 1775645678623,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1752796800000,
+    "updatedAt": 1774581931824,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-b08a21687d58",
+        "name": "Quản lý công sản"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfb-e6f4-7260-a3e1-53fa58b41778",
+          "ma_tthc": "1.005437",
+          "ten_tthc": "Đăng ký tham gia và thay đổi, bổ sung thông tin đã đăng ký trên Hệ thống giao dịch điện tử về tài sản công của tổ chức, cá nhân tham gia mua, thuê tài sản, nhận chuyển nhượng, thuê quyền khai thác tài sản công",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-e6f4-7260-a3e1-53fa58b41778"
+        },
+        {
+          "id": "019d2bfb-e6fc-7737-ae11-549ecd4fd86f",
+          "ma_tthc": "1.005436",
+          "ten_tthc": "Đăng ký tham gia và thay đổi, bổ sung thông tin đã đăng ký trên Hệ thống giao dịch điện tử về tài sản công của cơ quan, tổ chức, đơn vị có tài sản",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-e6fc-7737-ae11-549ecd4fd86f"
+        }
+      ]
+    }
+  }
+}

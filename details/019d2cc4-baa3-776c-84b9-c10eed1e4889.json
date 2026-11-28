@@ -1,0 +1,81 @@
+{
+  "id": "019d2cc4-baa3-776c-84b9-c10eed1e4889",
+  "so_quyet_dinh": "985/QĐ-BGTVT",
+  "trich_yeu": "trích từ 985/QĐ-BGTVT",
+  "ngay_quyet_dinh": "2024-08-08",
+  "decision_date_ts": 1723050000000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776343109291,
+  "created_at_ts": 1723050000000,
+  "updated_at_ts": 1776342204143,
+  "co_quan_ban_hanh": "Bộ xây dựng (Giao thông vận tải cũ)",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+  "linh_vuc": [
+    "Hàng không"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cc4-baa3-776c-84b9-c10eed1e4889",
+  "source_updated_at_ts": 1776342204143,
+  "fetched_at": "2026-11-18T13:28:59.171Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cc4-baa3-776c-84b9-c10eed1e4889",
+    "state": "PUBLICATION",
+    "proposalNumber": "985/QĐ-BGTVT",
+    "proposalExcerpt": "trích từ 985/QĐ-BGTVT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1723050000000,
+    "decisionNumber": null,
+    "publicationDate": 1776343109291,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+    "importBy": "VNPT",
+    "createdAt": 1723050000000,
+    "updatedAt": 1776342204143,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+      "name": "Bộ xây dựng (Giao thông vận tải cũ)"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+        "name": "Hàng không"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfe-49f6-7296-b61c-afdd1495d79e",
+          "ma_tthc": "1.004413",
+          "ten_tthc": "Cấp Giấy chứng nhận thành viên tổ bay",
+          "linh_vuc": [
+            "Hàng không"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-49f6-7296-b61c-afdd1495d79e"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

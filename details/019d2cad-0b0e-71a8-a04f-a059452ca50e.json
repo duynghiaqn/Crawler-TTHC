@@ -1,0 +1,115 @@
+{
+  "id": "019d2cad-0b0e-71a8-a04f-a059452ca50e",
+  "so_quyet_dinh": "218/QĐ-BTC",
+  "trich_yeu": "trích từ 218/QĐ-BTC",
+  "ngay_quyet_dinh": "2024-02-01",
+  "decision_date_ts": 1706745600000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775644295196,
+  "created_at_ts": 1706745600000,
+  "updated_at_ts": 1774571031308,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Bảo hiểm"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2cad-0b0e-71a8-a04f-a059452ca50e",
+  "source_updated_at_ts": 1774571031308,
+  "fetched_at": "2026-11-18T13:29:02.656Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2cad-0b0e-71a8-a04f-a059452ca50e",
+    "state": "PUBLICATION",
+    "proposalNumber": "218/QĐ-BTC",
+    "proposalExcerpt": "trích từ 218/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-d5cef93a3b0f"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1706745600000,
+    "decisionNumber": null,
+    "publicationDate": 1775644295196,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1706745600000,
+    "updatedAt": 1774571031308,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-d5cef93a3b0f",
+        "name": "Bảo hiểm"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfc-c247-76e2-9708-f2805223f43d",
+          "ma_tthc": "1.012337",
+          "ten_tthc": "Thành lập Hội đồng quản lý quỹ bảo hiểm xe Cơ giới",
+          "linh_vuc": [
+            "Bảo hiểm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-c247-76e2-9708-f2805223f43d"
+        },
+        {
+          "id": "019d2bfc-c248-717f-8866-e2d2f5385fdd",
+          "ma_tthc": "1.012338",
+          "ten_tthc": "Thay đổi thành viên Hội đồng quản lý Quỹ bảo hiểm xe Cơ giới.",
+          "linh_vuc": [
+            "Bảo hiểm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-c248-717f-8866-e2d2f5385fdd"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfc-b2d4-730c-9295-d079d68f5292",
+          "ma_tthc": "1.010395",
+          "ten_tthc": "Thành lập Hội đồng quản lý quỹ bảo hiểm xe cơ giới",
+          "linh_vuc": [
+            "Bảo hiểm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-b2d4-730c-9295-d079d68f5292"
+        },
+        {
+          "id": "019d2bfc-b2ce-746d-970f-65581119d6ca",
+          "ma_tthc": "1.010397",
+          "ten_tthc": "Thay đổi thành viên Hội đồng quản lý Quỹ bảo hiểm xe cơ giới",
+          "linh_vuc": [
+            "Bảo hiểm"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-b2ce-746d-970f-65581119d6ca"
+        }
+      ]
+    }
+  }
+}

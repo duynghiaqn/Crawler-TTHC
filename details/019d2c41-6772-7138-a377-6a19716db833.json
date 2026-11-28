@@ -1,0 +1,92 @@
+{
+  "id": "019d2c41-6772-7138-a377-6a19716db833",
+  "so_quyet_dinh": "01/QĐCB",
+  "trich_yeu": "trích từ 01/QĐCB",
+  "ngay_quyet_dinh": "2020-12-01",
+  "decision_date_ts": 1606755600000,
+  "ngay_cong_bo": "2026-04-28",
+  "publication_date_ts": 1777367210032,
+  "created_at_ts": 1606755600000,
+  "updated_at_ts": 1776137090308,
+  "co_quan_ban_hanh": "Tòa án nhân dân",
+  "ma_co_quan": "019d2be3-6a80-747a-9d04-1b689bdf392e",
+  "linh_vuc": [
+    "Tòa án"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c41-6772-7138-a377-6a19716db833",
+  "source_updated_at_ts": 1776137090308,
+  "fetched_at": "2026-11-18T13:29:18.400Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c41-6772-7138-a377-6a19716db833",
+    "state": "PUBLICATION",
+    "proposalNumber": "01/QĐCB",
+    "proposalExcerpt": "trích từ 01/QĐCB",
+    "completionDate": 1775493417593,
+    "issuingAgencyId": "019d2be3-6a80-747a-9d04-1b689bdf392e",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-a29ef5d844a1"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1606755600000,
+    "decisionNumber": null,
+    "publicationDate": 1777367210032,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a80-747a-9d04-1b689bdf392e",
+    "importBy": "VNPT",
+    "createdAt": 1606755600000,
+    "updatedAt": 1776137090308,
+    "department": {
+      "id": "019d2be3-6a80-747a-9d04-1b689bdf392e",
+      "name": "Tòa án nhân dân"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-a29ef5d844a1",
+        "name": "Tòa án"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2c00-00a3-753d-a87f-4f8daa9d9f72",
+          "ma_tthc": "3.000164",
+          "ten_tthc": "Đăng ký nhận các thông báo, văn bản tố tụng bằng phương tiện điện tử",
+          "linh_vuc": [
+            "Tòa án"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2c00-00a3-753d-a87f-4f8daa9d9f72"
+        },
+        {
+          "id": "019d2c00-009b-747f-89bc-b5c3ddc311ab",
+          "ma_tthc": "3.000165",
+          "ten_tthc": "Đăng ký cấp sao bản án, tài liệu trong hồ sơ vụ án",
+          "linh_vuc": [
+            "Tòa án"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2c00-009b-747f-89bc-b5c3ddc311ab"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

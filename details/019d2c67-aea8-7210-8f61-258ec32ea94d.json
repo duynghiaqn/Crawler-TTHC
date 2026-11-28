@@ -1,0 +1,92 @@
+{
+  "id": "019d2c67-aea8-7210-8f61-258ec32ea94d",
+  "so_quyet_dinh": "185/QĐ-BYT",
+  "trich_yeu": "trích từ 185/QĐ-BYT",
+  "ngay_quyet_dinh": "2022-02-25",
+  "decision_date_ts": 1645747200000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133743450,
+  "created_at_ts": 1645747200000,
+  "updated_at_ts": 1774566485669,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Y Dược cổ truyền"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c67-aea8-7210-8f61-258ec32ea94d",
+  "source_updated_at_ts": 1774566485669,
+  "fetched_at": "2026-11-18T13:29:13.469Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c67-aea8-7210-8f61-258ec32ea94d",
+    "state": "PUBLICATION",
+    "proposalNumber": "185/QĐ-BYT",
+    "proposalExcerpt": "trích từ 185/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-13a996b92439"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1645747200000,
+    "decisionNumber": null,
+    "publicationDate": 1776133743450,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1645747200000,
+    "updatedAt": 1774566485669,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-13a996b92439",
+        "name": "Y Dược cổ truyền"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bff-4ca5-749a-bf25-3e3efa93bd07",
+          "ma_tthc": "2.001010",
+          "ten_tthc": "Thủ tục đề nghị khắc phục thuốc cổ truyền bị thu hồi",
+          "linh_vuc": [
+            "Y Dược cổ truyền"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-4ca5-749a-bf25-3e3efa93bd07"
+        },
+        {
+          "id": "019d2bfe-cf57-70f1-9d03-15df99dfe12c",
+          "ma_tthc": "1.002324",
+          "ten_tthc": "Thủ tục đề nghị tái xuất thuốc cổ truyền bị thu hồi",
+          "linh_vuc": [
+            "Y Dược cổ truyền"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-cf57-70f1-9d03-15df99dfe12c"
+        }
+      ]
+    }
+  }
+}

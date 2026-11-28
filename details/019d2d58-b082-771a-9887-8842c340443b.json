@@ -1,0 +1,111 @@
+{
+  "id": "019d2d58-b082-771a-9887-8842c340443b",
+  "so_quyet_dinh": "2555/QĐ-BYT",
+  "trich_yeu": "trích từ 2555/QĐ-BYT",
+  "ngay_quyet_dinh": "2025-08-12",
+  "decision_date_ts": 1754956800000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776167136213,
+  "created_at_ts": 1754956800000,
+  "updated_at_ts": 1774582280321,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Tài chính y tế",
+    "Bảo hiểm y tế"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d58-b082-771a-9887-8842c340443b",
+  "source_updated_at_ts": 1774582280321,
+  "fetched_at": "2026-11-18T13:28:41.928Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d58-b082-771a-9887-8842c340443b",
+    "state": "PUBLICATION",
+    "proposalNumber": "2555/QĐ-BYT",
+    "proposalExcerpt": "trích từ 2555/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-4237eae194e7",
+      "019d2bbb-69ee-7079-a6b5-4a9c3fdb2b53"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1754956800000,
+    "decisionNumber": null,
+    "publicationDate": 1776167136213,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1754956800000,
+    "updatedAt": 1774582280321,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-4237eae194e7",
+        "name": "Tài chính y tế"
+      },
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-4a9c3fdb2b53",
+        "name": "Bảo hiểm y tế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bff-3d2b-70b2-9083-51112278f353",
+          "ma_tthc": "1.014193",
+          "ten_tthc": "Thủ tục khám bệnh, chữa bệnh bảo hiểm y tế",
+          "linh_vuc": [
+            "Bảo hiểm y tế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-3d2b-70b2-9083-51112278f353"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bff-5484-7294-9f78-b0cb091b662f",
+          "ma_tthc": "3.000499",
+          "ten_tthc": "Thanh toán chi phí khám bệnh, chữa bệnh giữa cơ quan bảo hiểm xã hội và cơ sở khám bệnh, chữa bệnh",
+          "linh_vuc": [
+            "Bảo hiểm y tế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-5484-7294-9f78-b0cb091b662f"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bff-5456-7408-b6d9-bbad46ff0323",
+          "ma_tthc": "2.001265",
+          "ten_tthc": "Thủ tục khám bệnh, chữa bệnh bảo hiểm y tế",
+          "linh_vuc": [
+            "Tài chính y tế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-5456-7408-b6d9-bbad46ff0323"
+        }
+      ]
+    }
+  }
+}

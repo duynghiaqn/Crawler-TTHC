@@ -1,0 +1,92 @@
+{
+  "id": "019d2d3d-9250-72df-a924-0dd7397dc44e",
+  "so_quyet_dinh": "2180/QĐ-BYT",
+  "trich_yeu": "trích từ 2180/QĐ-BYT",
+  "ngay_quyet_dinh": "2025-06-30",
+  "decision_date_ts": 1751241600000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776133109344,
+  "created_at_ts": 1751241600000,
+  "updated_at_ts": 1774580503118,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Bảo trợ xã hội"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d3d-9250-72df-a924-0dd7397dc44e",
+  "source_updated_at_ts": 1774580503118,
+  "fetched_at": "2026-11-18T13:28:45.923Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d3d-9250-72df-a924-0dd7397dc44e",
+    "state": "PUBLICATION",
+    "proposalNumber": "2180/QĐ-BYT",
+    "proposalExcerpt": "trích từ 2180/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-5312ed7e0235"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1751241600000,
+    "decisionNumber": null,
+    "publicationDate": 1776133109344,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1751241600000,
+    "updatedAt": 1774580503118,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-5312ed7e0235",
+        "name": "Bảo trợ xã hội"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bff-2d80-74d8-8515-90f6f61822f0",
+          "ma_tthc": "1.014027",
+          "ten_tthc": "Thực hiện, điều chỉnh, thôi hưởng trợ cấp hưu trí xã hội",
+          "linh_vuc": [
+            "Bảo trợ xã hội"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-2d80-74d8-8515-90f6f61822f0"
+        },
+        {
+          "id": "019d2bff-3508-7268-b54b-6ce79a8cbf0e",
+          "ma_tthc": "1.014028",
+          "ten_tthc": "Hỗ trợ chi phí mai táng đối với đối tượng hưởng trợ cấp hưu trí xã hội",
+          "linh_vuc": [
+            "Bảo trợ xã hội"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-3508-7268-b54b-6ce79a8cbf0e"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

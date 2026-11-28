@@ -1,0 +1,92 @@
+{
+  "id": "019d2ccd-e361-759e-8868-6a2b95b4dbdc",
+  "so_quyet_dinh": "2556/QĐ-BTC",
+  "trich_yeu": "trích từ 2556/QĐ-BTC",
+  "ngay_quyet_dinh": "2024-10-29",
+  "decision_date_ts": 1730160000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775645878766,
+  "created_at_ts": 1730160000000,
+  "updated_at_ts": 1774573183839,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Quản lý công sản"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2ccd-e361-759e-8868-6a2b95b4dbdc",
+  "source_updated_at_ts": 1774573183839,
+  "fetched_at": "2026-11-18T13:28:57.971Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2ccd-e361-759e-8868-6a2b95b4dbdc",
+    "state": "PUBLICATION",
+    "proposalNumber": "2556/QĐ-BTC",
+    "proposalExcerpt": "trích từ 2556/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-b08a21687d58"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1730160000000,
+    "decisionNumber": null,
+    "publicationDate": 1775645878766,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1730160000000,
+    "updatedAt": 1774573183839,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-b08a21687d58",
+        "name": "Quản lý công sản"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfb-e6fb-74eb-8900-cfd3caf633e8",
+          "ma_tthc": "1.005435",
+          "ten_tthc": "Mua hóa đơn lẻ",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-e6fb-74eb-8900-cfd3caf633e8"
+        },
+        {
+          "id": "019d2bfb-e6f9-75bb-9e55-0fa82f233546",
+          "ma_tthc": "1.005434",
+          "ten_tthc": "Mua quyển hóa đơn",
+          "linh_vuc": [
+            "Quản lý công sản"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-e6f9-75bb-9e55-0fa82f233546"
+        }
+      ]
+    }
+  }
+}

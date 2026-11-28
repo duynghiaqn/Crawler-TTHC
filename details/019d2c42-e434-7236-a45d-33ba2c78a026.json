@@ -1,0 +1,147 @@
+{
+  "id": "019d2c42-e434-7236-a45d-33ba2c78a026",
+  "so_quyet_dinh": "1032/QĐ-TCHQ",
+  "trich_yeu": "trích từ 1032/QĐ-TCHQ",
+  "ngay_quyet_dinh": "2020-07-10",
+  "decision_date_ts": 1594339200000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775639890092,
+  "created_at_ts": 1594339200000,
+  "updated_at_ts": 1774564074545,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Hải quan"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c42-e434-7236-a45d-33ba2c78a026",
+  "source_updated_at_ts": 1774564074545,
+  "fetched_at": "2026-11-18T13:29:18.176Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c42-e434-7236-a45d-33ba2c78a026",
+    "state": "PUBLICATION",
+    "proposalNumber": "1032/QĐ-TCHQ",
+    "proposalExcerpt": "trích từ 1032/QĐ-TCHQ",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-9efb77511847"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1594339200000,
+    "decisionNumber": null,
+    "publicationDate": 1775639890092,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1594339200000,
+    "updatedAt": 1774564074545,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-9efb77511847",
+        "name": "Hải quan"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 7,
+      "items": [
+        {
+          "id": "019d2bfc-7404-743f-a8fd-c3198439007c",
+          "ma_tthc": "1.008617",
+          "ten_tthc": "Thủ tục tạm nhập hàng hóa tạm quản",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-7404-743f-a8fd-c3198439007c"
+        },
+        {
+          "id": "019d2bfc-e9ba-7349-bdd7-8edfe7222b17",
+          "ma_tthc": "2.002324",
+          "ten_tthc": "Thủ tục hoàn trả sổ ATA",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e9ba-7349-bdd7-8edfe7222b17"
+        },
+        {
+          "id": "019d2bfc-ea0c-769c-9289-f28bee2841ee",
+          "ma_tthc": "2.002322",
+          "ten_tthc": "Thủ tục cấp sổ tạm quản hàng hóa (sổ ATA)",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-ea0c-769c-9289-f28bee2841ee"
+        },
+        {
+          "id": "019d2bfc-e9be-7375-9ffc-cca1347c17f3",
+          "ma_tthc": "2.002323",
+          "ten_tthc": "Thủ tục cấp sổ ATA thay thế",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e9be-7375-9ffc-cca1347c17f3"
+        },
+        {
+          "id": "019d2bfc-7401-72ec-98e9-d481d3286604",
+          "ma_tthc": "1.008618",
+          "ten_tthc": "Thủ tục tái xuất hàng hóa tạm quản",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-7401-72ec-98e9-d481d3286604"
+        },
+        {
+          "id": "019d2bfc-73f7-73ab-8bbd-4037414dd00f",
+          "ma_tthc": "1.008615",
+          "ten_tthc": "Thủ tục tạm xuất hàng hóa tạm quản",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-73f7-73ab-8bbd-4037414dd00f"
+        },
+        {
+          "id": "019d2bfc-73f3-7528-9353-f4e64149a699",
+          "ma_tthc": "1.008616",
+          "ten_tthc": "Thủ tục tái nhập hàng hóa tạm quản",
+          "linh_vuc": [
+            "Hải quan"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-73f3-7528-9353-f4e64149a699"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

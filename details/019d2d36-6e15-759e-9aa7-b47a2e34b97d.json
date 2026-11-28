@@ -1,0 +1,115 @@
+{
+  "id": "019d2d36-6e15-759e-9aa7-b47a2e34b97d",
+  "so_quyet_dinh": "1858/QĐ-BTP",
+  "trich_yeu": "trích từ 1858/QĐ-BTP",
+  "ngay_quyet_dinh": "2025-06-23",
+  "decision_date_ts": 1750636800000,
+  "ngay_cong_bo": "2026-04-17",
+  "publication_date_ts": 1776419548634,
+  "created_at_ts": 1750636800000,
+  "updated_at_ts": 1774580035091,
+  "co_quan_ban_hanh": "Bộ Tư pháp",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d603f1537007",
+  "linh_vuc": [
+    "Quản tài viên"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d36-6e15-759e-9aa7-b47a2e34b97d",
+  "source_updated_at_ts": 1774580035091,
+  "fetched_at": "2026-11-18T13:28:47.013Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d36-6e15-759e-9aa7-b47a2e34b97d",
+    "state": "PUBLICATION",
+    "proposalNumber": "1858/QĐ-BTP",
+    "proposalExcerpt": "trích từ 1858/QĐ-BTP",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d603f1537007",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b4-79a273b0c675"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1750636800000,
+    "decisionNumber": null,
+    "publicationDate": 1776419548634,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d603f1537007",
+    "importBy": "VNPT",
+    "createdAt": 1750636800000,
+    "updatedAt": 1774580035091,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d603f1537007",
+      "name": "Bộ Tư pháp"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b4-79a273b0c675",
+        "name": "Quản tài viên"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfd-6ed3-775f-bb80-6d85925619dc",
+          "ma_tthc": "1.008727",
+          "ten_tthc": "Thay đổi thành viên hợp danh của công ty hợp danh hoặc thay đổi chủ doanh nghiệp tư nhân của doanh nghiệp quản lý, thanh lý tài sản",
+          "linh_vuc": [
+            "Quản tài viên"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-6ed3-775f-bb80-6d85925619dc"
+        },
+        {
+          "id": "019d2bfd-478c-701a-a254-0eeacdf37019",
+          "ma_tthc": "1.001600",
+          "ten_tthc": "Thay đổi thông tin đăng ký hành nghề của Quản tài viên",
+          "linh_vuc": [
+            "Quản tài viên"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-478c-701a-a254-0eeacdf37019"
+        },
+        {
+          "id": "019d2bfd-47a4-717e-aa4b-3cf01ab211ed",
+          "ma_tthc": "1.001633",
+          "ten_tthc": "Thay đổi tên, địa chỉ trụ sở, văn phòng đại diện, chi nhánh, người đại diện theo pháp luật, danh sách Quản tài viên hành nghề trong doanh nghiệp quản lý, thanh lý tài sản",
+          "linh_vuc": [
+            "Quản tài viên"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-47a4-717e-aa4b-3cf01ab211ed"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfd-9616-7403-b669-e67134185e9d",
+          "ma_tthc": "2.001113",
+          "ten_tthc": "Thu hồi chứng chỉ hành nghề Quản tài viên",
+          "linh_vuc": [
+            "Quản tài viên"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-9616-7403-b669-e67134185e9d"
+        }
+      ]
+    }
+  }
+}

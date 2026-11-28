@@ -1,0 +1,994 @@
+{
+  "id": "019d2c79-2374-711b-80d9-775322e85518",
+  "so_quyet_dinh": "1462/QĐ-BTC",
+  "trich_yeu": "trích từ 1462/QĐ-BTC",
+  "ngay_quyet_dinh": "2022-07-22",
+  "decision_date_ts": 1658448000000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775641176022,
+  "created_at_ts": 1658448000000,
+  "updated_at_ts": 1774567629680,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Thuế"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c79-2374-711b-80d9-775322e85518",
+  "source_updated_at_ts": 1774567629680,
+  "fetched_at": "2026-11-18T13:29:11.393Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c79-2374-711b-80d9-775322e85518",
+    "state": "PUBLICATION",
+    "proposalNumber": "1462/QĐ-BTC",
+    "proposalExcerpt": "trích từ 1462/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1658448000000,
+    "decisionNumber": null,
+    "publicationDate": 1775641176022,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1658448000000,
+    "updatedAt": 1774567629680,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae0f-a7f3bfd8cbe3",
+        "name": "Thuế"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 84,
+      "items": [
+        {
+          "id": "019d2bfc-355b-7383-b8a4-8e27142cf9c3",
+          "ma_tthc": "1.007719",
+          "ten_tthc": "Hoàn các loại thuế, phí khác",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-355b-7383-b8a4-8e27142cf9c3"
+        },
+        {
+          "id": "019d2bfd-08cd-730d-b0de-5b3461810612",
+          "ma_tthc": "3.000093",
+          "ten_tthc": "Đề nghị điều chỉnh sai sót liên quan đến khoản nộp ngân sách nhà nước cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08cd-730d-b0de-5b3461810612"
+        },
+        {
+          "id": "019d2bfc-647b-7528-a130-4ed1ca6d95a0",
+          "ma_tthc": "1.008541",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với cá nhân cư trú có thu nhập từ đầu tư vốn, từ bản quyền, từ nhượng quyền thương mại, từ trúng thưởng phát sinh tại nước ngoài (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-647b-7528-a130-4ed1ca6d95a0"
+        },
+        {
+          "id": "019d2bfd-08c8-766d-b75d-49be958817d9",
+          "ma_tthc": "3.000089",
+          "ten_tthc": "Nộp dần tiền thuế nợ",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08c8-766d-b75d-49be958817d9"
+        },
+        {
+          "id": "019d2bfc-354a-7419-8ca3-27865c6ee15d",
+          "ma_tthc": "1.007722",
+          "ten_tthc": "Gia hạn nộp thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-354a-7419-8ca3-27865c6ee15d"
+        },
+        {
+          "id": "019d2bfd-0150-74ea-aa98-58a9ccc8b48f",
+          "ma_tthc": "3.000086",
+          "ten_tthc": "Miễn, giảm thu tiền sử dụng đất (cấp Huyện)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-0150-74ea-aa98-58a9ccc8b48f"
+        },
+        {
+          "id": "019d2bfd-0151-7489-8546-57e2b01a5f8b",
+          "ma_tthc": "3.000085",
+          "ten_tthc": "Miễn, giảm tiền thuê đất, thuê mặt nước",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-0151-7489-8546-57e2b01a5f8b"
+        },
+        {
+          "id": "019d2bfc-6c23-741f-8fe1-0a21cfc1a8bd",
+          "ma_tthc": "1.008560",
+          "ten_tthc": "Hoàn thuế GTGT đối với thiết bị, máy móc, phương tiện vận tải chuyên dùng nằm trong dây chuyền công nghệ và vật tư xây dựng thuộc loại trong nước chưa sản xuất được cần nhập khẩu để tạo tài sản cố định của doanh nghiệp...",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6c23-741f-8fe1-0a21cfc1a8bd"
+        },
+        {
+          "id": "019d2bfc-6487-776e-be66-27c6dd3ebcac",
+          "ma_tthc": "1.008537",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với cá nhân có thu nhập từ chuyển nhượng nhà ở, công trình xây dựng hình thành trong tương lai tại nước ngoài; cá nhân nhận thừa kế, quà tặng là nhà ở, công trình xây dựng hình thành trong tương lai tại nước ngoài",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6487-776e-be66-27c6dd3ebcac"
+        },
+        {
+          "id": "019d2bfc-6481-755e-918e-430e2c22fa65",
+          "ma_tthc": "1.008540",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với cá nhân cư trú có thu nhập từ chuyển nhượng vốn (trừ chuyển nhượng chứng khoán) (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6481-755e-918e-430e2c22fa65"
+        },
+        {
+          "id": "019d2bfc-2d89-76b8-94b7-e3d341211f3f",
+          "ma_tthc": "1.007676",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với cá nhân chuyển nhượng chứng khoán khai trực tiếp với cơ quan thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d89-76b8-94b7-e3d341211f3f"
+        },
+        {
+          "id": "019d2bfc-2d77-768e-86dc-fccb32a2a7e8",
+          "ma_tthc": "1.007677",
+          "ten_tthc": "Khai thay thuế thu nhập cá nhân đối với doanh nghiệp có cá nhân chuyển nhượng chứng khoán nhưng chưa khai thuế (Cấp Chi cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d77-768e-86dc-fccb32a2a7e8"
+        },
+        {
+          "id": "019d2bfc-2d7c-7470-9f19-54c8e96cd3b8",
+          "ma_tthc": "1.007675",
+          "ten_tthc": "Khai thay thuế thu nhập cá nhân đối với doanh nghiệp có cá nhân chuyển nhượng vốn góp (không bao gồm chứng khoán) nhưng chưa khai thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d7c-7470-9f19-54c8e96cd3b8"
+        },
+        {
+          "id": "019d2bfc-3560-73e4-90a2-4082c8223b2e",
+          "ma_tthc": "1.007723",
+          "ten_tthc": "Gia hạn nộp hồ sơ khai thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-3560-73e4-90a2-4082c8223b2e"
+        },
+        {
+          "id": "019d2bfc-2dc1-74ee-a3a0-b85c50075f9a",
+          "ma_tthc": "1.007702",
+          "ten_tthc": "Khai quyết toán phí, lệ phí khác thuộc ngân sách nhà nước cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2dc1-74ee-a3a0-b85c50075f9a"
+        },
+        {
+          "id": "019d2bfc-6475-76a9-8a7c-7f93c613f889",
+          "ma_tthc": "1.008545",
+          "ten_tthc": "Khai khoản thu điều tiết tháng",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6475-76a9-8a7c-7f93c613f889"
+        },
+        {
+          "id": "019d2bfd-08cb-71c8-b9d4-8b02f34914bd",
+          "ma_tthc": "3.000092",
+          "ten_tthc": "Cấp giấy đề nghị xác nhận số thuế đã nộp ngân sách nhà nước (Cấp Chi Cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08cb-71c8-b9d4-8b02f34914bd"
+        },
+        {
+          "id": "019d2bfc-7400-7105-90a3-51a6dc1cd2b3",
+          "ma_tthc": "1.008600",
+          "ten_tthc": "Cấp giấy đề nghị xác nhận số thuế đã nộp ngân sách nhà nước (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-7400-7105-90a3-51a6dc1cd2b3"
+        },
+        {
+          "id": "019d2bfc-3551-75e1-b103-7a38d0a66ce1",
+          "ma_tthc": "1.007716",
+          "ten_tthc": "Hoàn thuế GTGT đối với thiết bị, máy móc, phương tiện vận tải chuyên dùng nằm trong dây chuyền công nghệ và vật tư xây dựng thuộc loại trong nước chưa sản xuất được cần nhập khẩu để tạo tài sản cố định của doanh nghiệp",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-3551-75e1-b103-7a38d0a66ce1"
+        },
+        {
+          "id": "019d2bfc-2da9-70ba-93c1-59436419529d",
+          "ma_tthc": "1.007691",
+          "ten_tthc": "Khai quyết toán thuế tài nguyên (trừ dầu thô, khí thiên nhiên) cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2da9-70ba-93c1-59436419529d"
+        },
+        {
+          "id": "019d2bfb-eedc-74b9-9059-00d37b6b2021",
+          "ma_tthc": "1.007029",
+          "ten_tthc": "Khai quyết toán thuế thu nhập doanh nghiệp (cấp Chi cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-eedc-74b9-9059-00d37b6b2021"
+        },
+        {
+          "id": "019d2bfb-eec9-73d7-bdd6-d4eaffde138d",
+          "ma_tthc": "1.007017",
+          "ten_tthc": "Khai thuế GTGT theo phương pháp trực tiếp trên GTGT cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-eec9-73d7-bdd6-d4eaffde138d"
+        },
+        {
+          "id": "019d2bfc-549f-7681-83da-f60f0969d896",
+          "ma_tthc": "1.008314",
+          "ten_tthc": "Khai thuế GTGT đối với hoạt động kinh doanh xây dựng, lắp đặt, bán hàng vãng lai ngoại tỉnh và chuyển nhượng bất động sản ngoại tỉnh (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-549f-7681-83da-f60f0969d896"
+        },
+        {
+          "id": "019d2bfc-2db4-773f-a6cc-84186a6b373a",
+          "ma_tthc": "1.007701",
+          "ten_tthc": "Khai phí, lệ phí khác thuộc ngân sách nhà nước cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2db4-773f-a6cc-84186a6b373a"
+        },
+        {
+          "id": "019d2bfc-54ab-7171-836f-5b0859427809",
+          "ma_tthc": "1.008322",
+          "ten_tthc": "Khai lệ phí môn bài (Cấp Chi Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-54ab-7171-836f-5b0859427809"
+        },
+        {
+          "id": "019d2bfc-2de8-7198-960d-e523e455d4e3",
+          "ma_tthc": "1.007706",
+          "ten_tthc": "Khai thuế đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài nộp thuế GTGT theo phương pháp tính trực tiếp trên GTGT, nộp thuế TNDN theo tỷ lệ phần trăm tính trên doanh thu đối với hoạt động kinh doanh và các loại thu nhập khác (cấp Chi cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2de8-7198-960d-e523e455d4e3"
+        },
+        {
+          "id": "019d2bfc-2dab-7593-a5a2-9f5ff20128d8",
+          "ma_tthc": "1.007704",
+          "ten_tthc": "Khai thuế đối với Nhà thầu nước ngoài, Nhà thầu phụ nước ngoài  nộp thuế GTGT theo phương pháp khấu trừ, nộp thuế TNDN theo tỷ lệ phần trăm tính trên doanh thu cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2dab-7593-a5a2-9f5ff20128d8"
+        },
+        {
+          "id": "019d2bfc-4d10-71ce-923b-cb28abbe2800",
+          "ma_tthc": "1.008303",
+          "ten_tthc": "Khai thuế tài nguyên trường hợp cơ sở sản xuất thủy điện có lòng hồ nằm chung trên địa bàn các tỉnh (cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-4d10-71ce-923b-cb28abbe2800"
+        },
+        {
+          "id": "019d2bfc-6481-72ff-a614-f896391fcf5f",
+          "ma_tthc": "1.008550",
+          "ten_tthc": "Khai thuế bảo vệ môi trường đối với than khai thác và tiêu thụ nội địa - Trường hợp than do Tập đoàn công nghiệp Than - Khoáng sản Việt Nam (Vinacomin) quản lý và giao cho các đơn vị thành viên khai thác, chế biến và tiêu thụ (cấp tỉnh)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6481-72ff-a614-f896391fcf5f"
+        },
+        {
+          "id": "019d2bfd-08cd-733e-baa3-ff84ea23f619",
+          "ma_tthc": "3.000091",
+          "ten_tthc": "Khai bổ sung hồ sơ khai thuế (cấp Chi cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08cd-733e-baa3-ff84ea23f619"
+        },
+        {
+          "id": "019d2bfc-2d76-71ec-9b59-022089f252fb",
+          "ma_tthc": "1.007671",
+          "ten_tthc": "Khai thuế thu nhập doanh nghiệp đối với hoạt động chuyển nhượng bất động sản cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d76-71ec-9b59-022089f252fb"
+        },
+        {
+          "id": "019d2bfb-eed0-759c-a4e8-e8e3b98d5340",
+          "ma_tthc": "1.007023",
+          "ten_tthc": "Khai thuế GTGT theo phương pháp trực tiếp trên doanh thu (cấp Chi cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-eed0-759c-a4e8-e8e3b98d5340"
+        },
+        {
+          "id": "019d2bfc-54bf-7794-b0e0-ee2d99456d99",
+          "ma_tthc": "1.008318",
+          "ten_tthc": "Khai thuế Giá trị gia tăng đối với cơ sở sản xuất thủy điện hạch toán phụ thuộc EVN, trường hợp nhà máy thủy điện nằm trên 1 tỉnh (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-54bf-7794-b0e0-ee2d99456d99"
+        },
+        {
+          "id": "019d2bfc-549f-7295-ba8d-32d75c8ffa36",
+          "ma_tthc": "1.008316",
+          "ten_tthc": "Khai thuế Giá trị gia tăng đối với cơ sở sản xuất thủy điện hạch toán phụ thuộc EVN, trường hợp nhà máy thủy điện nằm chung trên địa bàn các tỉnh (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-549f-7295-ba8d-32d75c8ffa36"
+        },
+        {
+          "id": "019d2bfb-eeca-77f9-8c8f-1b8f4ece8910",
+          "ma_tthc": "1.007015",
+          "ten_tthc": "Khai thuế GTGT theo phương pháp khấu trừ cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-eeca-77f9-8c8f-1b8f4ece8910"
+        },
+        {
+          "id": "019d2bfc-644a-76c4-8144-6d10ecbaa255",
+          "ma_tthc": "1.008523",
+          "ten_tthc": "Chuyển đổi áp dụng các phương pháp tính thuế giá trị gia tăng...",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-644a-76c4-8144-6d10ecbaa255"
+        },
+        {
+          "id": "019d2bfb-f6a4-734d-bdff-3c39b863f8df",
+          "ma_tthc": "1.007279",
+          "ten_tthc": "Thủ tục khai lệ phí trước bạ đối với tài sản khác theo quy định của pháp luật về lệ phí trước bạ (trừ nhà, đất và tàu thuyền đánh cá, tàu thuyền vận tải thủy nội địa, tàu biển thiếu hồ sơ gốc hoặc đóng mới tại Việt Nam)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-f6a4-734d-bdff-3c39b863f8df"
+        },
+        {
+          "id": "019d2bfc-6486-70ca-9671-6b2fddccacc4",
+          "ma_tthc": "1.008531",
+          "ten_tthc": "Khai thay thuế thu nhập cá nhân đối với doanh nghiệp có cá nhân chuyển nhượng chứng khoán nhưng chưa khai thuế (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6486-70ca-9671-6b2fddccacc4"
+        },
+        {
+          "id": "019d2bfc-e996-706f-a9c8-dde890227c9a",
+          "ma_tthc": "2.002260",
+          "ten_tthc": "Khai thuế tài nguyên đối với cơ sở khai thác tài nguyên cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e996-706f-a9c8-dde890227c9a"
+        },
+        {
+          "id": "019d2bfc-2daf-7069-b0fa-e51fdb85874b",
+          "ma_tthc": "1.007707",
+          "ten_tthc": "Khai quyết toán thuế đối với nhà thầu nước ngoài, nhà thầu phụ nước ngoài nộp thuế GTGT tính trực tiếp trên GTGT, nộp thuế TNDN theo tỷ lệ phần trăm tính trên doanh thu đối với hoạt động kinh doanh và các loại thu nhập khác (cấp Chi cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2daf-7069-b0fa-e51fdb85874b"
+        },
+        {
+          "id": "019d2bfc-2da4-704b-85a5-1e0cff6cbae7",
+          "ma_tthc": "1.007693",
+          "ten_tthc": "Khai thuế bảo vệ môi trường đối với than khai thác và tiêu thụ nội địa - Trường hợp than do Tập đoàn công nghiệp Than - Khoáng sản Việt Nam (Vinacomin) quản lý và giao cho các đơn vị thành viên khai thác, chế biến và tiêu thụ cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2da4-704b-85a5-1e0cff6cbae7"
+        },
+        {
+          "id": "019d2bfc-2d86-7440-9f5a-5a93bf95ec1d",
+          "ma_tthc": "1.007670",
+          "ten_tthc": "Khai thuế giá trị gia tăng dành cho dự án đầu tư cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d86-7440-9f5a-5a93bf95ec1d"
+        },
+        {
+          "id": "019d2bfc-25a4-7439-9eda-b0863dda7c18",
+          "ma_tthc": "1.007628",
+          "ten_tthc": "Khai thuế GTGT đối với hoạt động kinh doanh xây dựng, lắp đặt, bán hàng vãng lai ngoại tỉnh và chuyển nhượng bất động sản ngoại tỉnh cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-25a4-7439-9eda-b0863dda7c18"
+        },
+        {
+          "id": "019d2bfd-08c8-763c-8c8a-6f8c29807a23",
+          "ma_tthc": "3.000090",
+          "ten_tthc": "Xác nhận việc thực hiện nghĩa vụ thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08c8-763c-8c8a-6f8c29807a23"
+        },
+        {
+          "id": "019d2bfc-6476-70c2-aea5-819404cd6a5b",
+          "ma_tthc": "1.008534",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng chứng khoán trong trường hợp góp vốn bằng chứng khoán.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6476-70c2-aea5-819404cd6a5b"
+        },
+        {
+          "id": "019d2bfc-2dd4-71e9-b5e7-774f775c65a1",
+          "ma_tthc": "1.007703",
+          "ten_tthc": "Thông báo (đăng ký) phương pháp tính thuế của nhà thầu nước ngoài, nhà thầu phụ nước ngoài (NTNN, NTPNN)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2dd4-71e9-b5e7-774f775c65a1"
+        },
+        {
+          "id": "019d2bfc-6449-734d-bc81-b80147a6b4f1",
+          "ma_tthc": "1.008527",
+          "ten_tthc": "Thông báo (đăng ký) phương pháp tính thuế của nhà thầu nước ngoài, nhà thầu phụ nước ngoài (NTNN, NTPNN).",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6449-734d-bc81-b80147a6b4f1"
+        },
+        {
+          "id": "019d2bfc-2dd3-71ea-9e9e-9b01ce9cdda1",
+          "ma_tthc": "1.007697",
+          "ten_tthc": "Khai thuế đối với hãng hàng không nước ngoài (cấp Chi cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2dd3-71ea-9e9e-9b01ce9cdda1"
+        },
+        {
+          "id": "019d2bfd-012b-70bc-abfa-1628f2e88ed7",
+          "ma_tthc": "3.000080",
+          "ten_tthc": "Khai thuế đối với hãng vận tải nước ngoài cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-012b-70bc-abfa-1628f2e88ed7"
+        },
+        {
+          "id": "019d2bfc-4d07-7777-a4b9-efed655b6e35",
+          "ma_tthc": "1.008308",
+          "ten_tthc": "Khai quyết toán thuế tài nguyên đối với cơ sở sản xuất thủy điện (cấp Cục thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-4d07-7777-a4b9-efed655b6e35"
+        },
+        {
+          "id": "019d2bfc-ab1a-73a6-90c4-394300f2c2a4",
+          "ma_tthc": "1.010346",
+          "ten_tthc": "Khai khoản thu điều tiết tháng (Đối tượng thực hiện thủ tục hành chính: Công ty Lọc hóa dầu Bình Sơn (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-ab1a-73a6-90c4-394300f2c2a4"
+        },
+        {
+          "id": "019d2bfc-ab15-72da-91c3-ec851400a5d5",
+          "ma_tthc": "1.010347",
+          "ten_tthc": "Khai quyết toán khoản thu điều tiết năm (Đối tượng thực hiện thủ tục hành chính: Công ty Lọc hóa dầu Bình Sơn)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-ab15-72da-91c3-ec851400a5d5"
+        },
+        {
+          "id": "019d2bfb-eeec-754d-8e3c-7e4c0c1042d4",
+          "ma_tthc": "1.007028",
+          "ten_tthc": "trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng các quy định của pháp luật về giao dịch điện tử.",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-eeec-754d-8e3c-7e4c0c1042d4"
+        },
+        {
+          "id": "019d2bfc-3555-74c3-8c01-c384a4dbf814",
+          "ma_tthc": "1.007718",
+          "ten_tthc": "Hoàn thuế, phí nộp thừa đối với người nộp thuế sáp nhập, hợp nhất, chia tách, giải thể, phá sản, chuyển đổi sở hữu, chấm dứt hoạt động (trường hợp kiểm tra trước hoàn thuế sau)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-3555-74c3-8c01-c384a4dbf814"
+        },
+        {
+          "id": "019d2bfc-2db1-73d0-95a8-79a481f22eca",
+          "ma_tthc": "1.007688",
+          "ten_tthc": "Khai khấu trừ thuế thu nhập cá nhân đối với Công ty xổ số, doanh nghiệp bảo hiểm, doanh nghiệp bán hàng đa cấp trả tiền hoa hồng cho cá nhân trực tiếp ký hợp đồng làm đại lý bán đúng giá; doanh nghiệp bảo hiểm trả phí tích luỹ bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2db1-73d0-95a8-79a481f22eca"
+        },
+        {
+          "id": "019d2bfc-e995-705a-892f-4f9c580df301",
+          "ma_tthc": "2.002257",
+          "ten_tthc": "Khai khấu trừ thuế thu nhập cá nhân đối với tổ chức, cá nhân trả thu nhập thực hiện khấu trừ thuế đối với thu nhập từ đầu tư vốn, từ chuyển nhượng chứng khoán, từ bản quyền, từ nhượng quyền thương mại, từ trúng thưởng của cá nhân cư trú và cá nhân không cư trú; từ kinh doanh của cá nhân không cư trú; Tổ chức, cá nhân trả thu nhập thực hiện khấu trừ thuế khi nhận chuyển nhượng vốn góp của cá nhân không cư trú cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e995-705a-892f-4f9c580df301"
+        },
+        {
+          "id": "019d2bfc-e974-75c8-991f-0c6db1f88669",
+          "ma_tthc": "2.002230",
+          "ten_tthc": "Đăng ký người phụ thuộc (NPT) giảm trừ gia cảnh đối với cá nhân có thu nhập từ tiền lương, tiền công (Cấp Chi Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e974-75c8-991f-0c6db1f88669"
+        },
+        {
+          "id": "019d2bfc-e996-7436-85c4-64b09494fdda",
+          "ma_tthc": "2.002258",
+          "ten_tthc": "Khai quyết toán thuế thu nhập cá nhân đối với tổ chức, cá nhân trả thu nhập từ tiền lương, tiền công cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e996-7436-85c4-64b09494fdda"
+        },
+        {
+          "id": "019d2bfc-e9ac-72c9-866a-292982ecffeb",
+          "ma_tthc": "2.002262",
+          "ten_tthc": "Khai thuế bảo vệ môi trường đối với tổ chức, hộ gia đình, cá nhân khai thác khoáng sản cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e9ac-72c9-866a-292982ecffeb"
+        },
+        {
+          "id": "019d2bfb-eec8-70da-b18e-309b0c843d61",
+          "ma_tthc": "1.007025",
+          "ten_tthc": "Khai thuế thu nhập doanh nghiệp tính theo tỷ lệ phần trăm trên doanh thu cấp Chi cục Thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-eec8-70da-b18e-309b0c843d61"
+        },
+        {
+          "id": "019d2bfc-aacd-71ba-8871-b0893cadc766",
+          "ma_tthc": "1.010232",
+          "ten_tthc": "Đăng ký giao dịch với cơ quan thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-aacd-71ba-8871-b0893cadc766"
+        },
+        {
+          "id": "019d2bfb-f6a9-744c-b6a3-9d8ddc5f71fd",
+          "ma_tthc": "1.007278",
+          "ten_tthc": "Thủ tục khai lệ phí trước bạ đối với tàu thuyền đánh cá, tàu thuyền vận tải thủy nội địa, tàu biển thiếu hồ sơ gốc hoặc đóng mới tại Việt Nam",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-f6a9-744c-b6a3-9d8ddc5f71fd"
+        },
+        {
+          "id": "019d2bfc-aace-77ab-9328-4fdfca917f5e",
+          "ma_tthc": "1.010236",
+          "ten_tthc": "Gia hạn nộp thuế (cấp Chi cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-aace-77ab-9328-4fdfca917f5e"
+        },
+        {
+          "id": "019d2bfc-2d77-768e-86dd-00160aad0ba5",
+          "ma_tthc": "1.007680",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng chứng khoán trong trường hợp góp vốn bằng chứng khoán",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d77-768e-86dd-00160aad0ba5"
+        },
+        {
+          "id": "019d2bfc-e99a-7218-84a7-a3872fabdc87",
+          "ma_tthc": "2.002261",
+          "ten_tthc": "Khai phí bảo vệ môi trường đối với khai thác khoáng sản cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e99a-7218-84a7-a3872fabdc87"
+        },
+        {
+          "id": "019d2bfc-2dc9-7339-b737-a7d2e5cb8142",
+          "ma_tthc": "1.007705",
+          "ten_tthc": "Khai quyết toán thuế TNDN đối với Nhà thầu nước ngoài, Nhà thầu phụ nước ngoài  nộp thuế GTGT theo phương pháp khấu trừ, nộp thuế TNDN theo tỷ lệ phần trăm tính trên doanh thu (cấp Chi cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2dc9-7339-b737-a7d2e5cb8142"
+        },
+        {
+          "id": "019d2bfc-4ded-732c-a5bc-1f494604d550",
+          "ma_tthc": "1.008311",
+          "ten_tthc": "Khai thuế tài nguyên đối với trường hợp cơ sở sản xuất thủy điện không có lòng hồ nằm chung trên địa bàn các tỉnh",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-4ded-732c-a5bc-1f494604d550"
+        },
+        {
+          "id": "019d2bfc-4cf2-743d-8c5c-20d8d67c9f22",
+          "ma_tthc": "1.008306",
+          "ten_tthc": "Khai quyết toán thuế thu nhập doanh nghiệp đối với cơ sở sản xuất thủy điện mà nhà máy thủy điện nằm chung trên địa bàn các tỉnh có/hoặc không có các đơn vị thủy điện hạch toán phụ thuộc",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-4cf2-743d-8c5c-20d8d67c9f22"
+        },
+        {
+          "id": "019d2bfc-354f-721c-8245-f5337ded82dd",
+          "ma_tthc": "1.007717",
+          "ten_tthc": "Hoàn thuế TNCN đối với tổ chức, cá nhân trả thu nhập thực hiện quyết toán thay cho các cá nhân có ủy quyền quyết toán thuế (trường hợp hoàn trước kiểm tra sau) - cấp Chi cục Thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-354f-721c-8245-f5337ded82dd"
+        },
+        {
+          "id": "019d2bfc-649c-7437-a84f-cc897d6a3c2f",
+          "ma_tthc": "1.008546",
+          "ten_tthc": "Khai quyết toán khoản thu điều tiết năm",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-649c-7437-a84f-cc897d6a3c2f"
+        },
+        {
+          "id": "019d2bfc-2d81-75b8-86bd-240f56af32e4",
+          "ma_tthc": "1.007672",
+          "ten_tthc": "Khai thuế thu nhập doanh nghiệp đối với hoạt động chuyển nhượng vốn (cấp Chi cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d81-75b8-86bd-240f56af32e4"
+        },
+        {
+          "id": "019d2bfc-54a7-768b-855e-9d6caf4c2512",
+          "ma_tthc": "1.008320",
+          "ten_tthc": "Khai thuế GTGT đối với cơ sở sản xuất thủy điện không thuộc EVN (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-54a7-768b-855e-9d6caf4c2512"
+        },
+        {
+          "id": "019d2bfc-2d9f-7729-b864-2a8909ef3e9a",
+          "ma_tthc": "1.007685",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với cá nhân có thu nhập từ chuyển nhượng nhà ở, công trình xây dựng hình thành trong tương lai tại Việt Nam; cá nhân nhận thừa kế, quà tặng là nhà ở, công trình xây dựng hình thành trong tương lai tại Việt Nam",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d9f-7729-b864-2a8909ef3e9a"
+        },
+        {
+          "id": "019d2bfc-f14c-703f-892d-dc4d6745255e",
+          "ma_tthc": "2.002445",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với cá nhân cư trú có thu nhập từ chuyển nhượng vốn (trừ chuyển nhượng chứng khoán) (cấp Chi cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f14c-703f-892d-dc4d6745255e"
+        },
+        {
+          "id": "019d2bfc-2d88-754e-8b41-b6ae8d37c310",
+          "ma_tthc": "1.007683",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với cá nhân nhận cổ tức bằng cổ phiếu, lợi tức ghi tăng vốn khi chuyển nhượng (Cấp Chi cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d88-754e-8b41-b6ae8d37c310"
+        },
+        {
+          "id": "019d2bfc-e97a-7529-9185-7409d0fb58d4",
+          "ma_tthc": "2.002234",
+          "ten_tthc": "Khai quyết toán thuế/ Hoàn thuế (trường hợp hoàn trước kiểm tra sau) đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế (Cấp Chi Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e97a-7529-9185-7409d0fb58d4"
+        },
+        {
+          "id": "019d2bfc-e975-702b-8e64-5877ee6b1ad3",
+          "ma_tthc": "2.002236",
+          "ten_tthc": "Khai khấu trừ thuế thu nhập cá nhân đối với tổ chức, cá nhân trả thu nhập từ tiền lương, tiền công cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e975-702b-8e64-5877ee6b1ad3"
+        },
+        {
+          "id": "019d2bfc-6460-77c9-b2a8-2be526e245f5",
+          "ma_tthc": "1.008535",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công đối với thu nhập từ thưởng bằng cổ phiếu (Cấp Cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6460-77c9-b2a8-2be526e245f5"
+        },
+        {
+          "id": "019d2bfc-2d94-70cb-bd0d-63a28f8d38ad",
+          "ma_tthc": "1.007692",
+          "ten_tthc": "Khai quyết toán phí bảo vệ môi trường đối với khai thác khoáng sản cấp huyện",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d94-70cb-bd0d-63a28f8d38ad"
+        },
+        {
+          "id": "019d2bfc-2da4-733a-89fd-9824e564e93b",
+          "ma_tthc": "1.007694",
+          "ten_tthc": "Khai thuế đối với tái bảo hiểm nước ngoài (cấp Chi cục)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2da4-733a-89fd-9824e564e93b"
+        },
+        {
+          "id": "019d2bfc-ab20-743b-b73c-c583bc14c480",
+          "ma_tthc": "1.010350",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với cá nhân có thu nhập từ tiền lương, tiền công thuộc diện khai thuế thu nhập cá nhân trực tiếp với cơ quan thuế",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-ab20-743b-b73c-c583bc14c480"
+        },
+        {
+          "id": "019d2bfc-2da2-7166-a45f-8d28e301c481",
+          "ma_tthc": "1.007687",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với cá nhân có thu nhập từ nhận thừa kế, quà tặng (trừ bất động sản)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2da2-7166-a45f-8d28e301c481"
+        },
+        {
+          "id": "019d2bfc-2d7d-70a7-ad5d-26d83075bfb0",
+          "ma_tthc": "1.007679",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng vốn, trong trường hợp góp vốn bằng phần vốn góp (Cấp chi cục Thuế).",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d7d-70a7-ad5d-26d83075bfb0"
+        },
+        {
+          "id": "019d2bfc-2d75-7418-829d-ced7c4672d68",
+          "ma_tthc": "1.007681",
+          "ten_tthc": "Khai thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công đối với thu nhập từ thưởng bằng cổ phiếu (Cấp Chi cục Thuế)",
+          "linh_vuc": [
+            "Thuế"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d75-7418-829d-ced7c4672d68"
+        }
+      ]
+    }
+  }
+}

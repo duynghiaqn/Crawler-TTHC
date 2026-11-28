@@ -1,0 +1,110 @@
+{
+  "id": "019d2d68-4d67-707c-a209-1a1f79c9473c",
+  "so_quyet_dinh": "4823/QĐ-BQP",
+  "trich_yeu": "trích từ Quyết định số 8423/QĐ-BQP",
+  "ngay_quyet_dinh": "2025-09-29",
+  "decision_date_ts": 1759078800000,
+  "ngay_cong_bo": "2026-04-13",
+  "publication_date_ts": 1776077005270,
+  "created_at_ts": 1759078800000,
+  "updated_at_ts": 1776077000588,
+  "co_quan_ban_hanh": "Bộ Quốc phòng",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "linh_vuc": [
+    "Dân quân tự vệ"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019d866f-8362-700b-b72b-5a95c9a3bfe4",
+      "fileName": "4823-TTHCCSAIBSUNGLNHVCDNQUNTV.pdf"
+    },
+    {
+      "fileId": "019d866f-85dc-76cb-a198-bd0b64f7c2fb",
+      "fileName": "4823-QUYETINHCNGBOTTHCSAOIBOSUNGLINHVCDQTV.pdf"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d68-4d67-707c-a209-1a1f79c9473c",
+  "source_updated_at_ts": 1776077000588,
+  "fetched_at": "2026-11-18T13:28:39.132Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d68-4d67-707c-a209-1a1f79c9473c",
+    "state": "PUBLICATION",
+    "proposalNumber": "4823/QĐ-BQP",
+    "proposalExcerpt": "trích từ Quyết định số 8423/QĐ-BQP",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-7d8709eda5ea"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019d866f-8362-700b-b72b-5a95c9a3bfe4",
+        "fileName": "4823-TTHCCSAIBSUNGLNHVCDNQUNTV.pdf"
+      },
+      {
+        "fileId": "019d866f-85dc-76cb-a198-bd0b64f7c2fb",
+        "fileName": "4823-QUYETINHCNGBOTTHCSAOIBOSUNGLINHVCDQTV.pdf"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1759078800000,
+    "decisionNumber": null,
+    "publicationDate": 1776077005270,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "importBy": "VNPT",
+    "createdAt": 1759078800000,
+    "updatedAt": 1776077000588,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-7d8709eda5ea",
+        "name": "Dân quân tự vệ"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfb-98e0-712f-ba17-d419abac02ec",
+          "ma_tthc": "1.013513",
+          "ten_tthc": "Thủ tục thanh toán chi phí khám bệnh, chữa bệnh cho Dân quân tự vệ không tham gia bảo hiểm y tế nếu bị ốm đau, bị tai nạn, bị thương",
+          "linh_vuc": [
+            "Dân quân tự vệ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-98e0-712f-ba17-d419abac02ec"
+        },
+        {
+          "id": "019d2bfb-98cf-758c-8542-bb35f2be8471",
+          "ma_tthc": "1.013514",
+          "ten_tthc": "Thủ tục trợ cấp cho Dân quân tự vệ không tham gia bảo hiểm xã hội nếu bị tai nạn, chết",
+          "linh_vuc": [
+            "Dân quân tự vệ"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-98cf-758c-8542-bb35f2be8471"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

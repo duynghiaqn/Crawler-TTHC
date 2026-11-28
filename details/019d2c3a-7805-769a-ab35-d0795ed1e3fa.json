@@ -1,0 +1,92 @@
+{
+  "id": "019d2c3a-7805-769a-ab35-d0795ed1e3fa",
+  "so_quyet_dinh": "6145/QĐ-BYT",
+  "trich_yeu": "trích từ 6145/QĐ-BYT",
+  "ngay_quyet_dinh": "2019-12-31",
+  "decision_date_ts": 1577750400000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776134070591,
+  "created_at_ts": 1577750400000,
+  "updated_at_ts": 1774563522563,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Phòng bệnh"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c3a-7805-769a-ab35-d0795ed1e3fa",
+  "source_updated_at_ts": 1774563522563,
+  "fetched_at": "2026-11-18T13:29:19.621Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c3a-7805-769a-ab35-d0795ed1e3fa",
+    "state": "PUBLICATION",
+    "proposalNumber": "6145/QĐ-BYT",
+    "proposalExcerpt": "trích từ 6145/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae11-51538ee74f19"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1577750400000,
+    "decisionNumber": null,
+    "publicationDate": 1776134070591,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1577750400000,
+    "updatedAt": 1774563522563,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae11-51538ee74f19",
+        "name": "Phòng bệnh"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bfe-f698-75eb-914b-ebdaffdc7421",
+          "ma_tthc": "1.004451",
+          "ten_tthc": "Công bố đủ điều kiện huấn luyện cấp chứng chỉ chứng nhận về y tế lao động đối với các cơ sở y tế thuộc thẩm quyền Bộ Y tế",
+          "linh_vuc": [
+            "Phòng bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-f698-75eb-914b-ebdaffdc7421"
+        },
+        {
+          "id": "019d2bfe-f668-7496-8d3a-528a0ab90454",
+          "ma_tthc": "1.003993",
+          "ten_tthc": "Công bố đủ điều kiện huấn luyện cấp chứng chỉ chứng nhận về y tế lao động đối với cơ sở y tế thuộc thẩm quyền Sở y tế",
+          "linh_vuc": [
+            "Phòng bệnh"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-f668-7496-8d3a-528a0ab90454"
+        }
+      ]
+    }
+  }
+}

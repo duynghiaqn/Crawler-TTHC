@@ -1,0 +1,119 @@
+{
+  "id": "019d2d55-cb3d-769b-951d-3b363483bd93",
+  "so_quyet_dinh": "2757/QĐ-BTC",
+  "trich_yeu": "trích từ 2757/QĐ-BTC",
+  "ngay_quyet_dinh": "2025-08-07",
+  "decision_date_ts": 1754499600000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775644611021,
+  "created_at_ts": 1754499600000,
+  "updated_at_ts": 1774682335020,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Đấu thầu"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [
+    {
+      "fileId": "019d334e-bbe6-70bb-9ede-33de7afaf570",
+      "fileName": "Q_Cngb1.docx"
+    },
+    {
+      "fileId": "019d334e-f544-727d-b86f-b35a01a76a73",
+      "fileName": "PhlcII.docx"
+    },
+    {
+      "fileId": "019d334f-10b4-754d-8d41-0b5dd575ac08",
+      "fileName": "PhlcI.docx"
+    }
+  ],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d55-cb3d-769b-951d-3b363483bd93",
+  "source_updated_at_ts": 1774682335020,
+  "fetched_at": "2026-11-18T13:28:42.478Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d55-cb3d-769b-951d-3b363483bd93",
+    "state": "PUBLICATION",
+    "proposalNumber": "2757/QĐ-BTC",
+    "proposalExcerpt": "trích từ 2757/QĐ-BTC",
+    "completionDate": 1774582092099,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b8-7437-8210-22fee8f888bf"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [
+      {
+        "fileId": "019d334e-bbe6-70bb-9ede-33de7afaf570",
+        "fileName": "Q_Cngb1.docx"
+      },
+      {
+        "fileId": "019d334e-f544-727d-b86f-b35a01a76a73",
+        "fileName": "PhlcII.docx"
+      },
+      {
+        "fileId": "019d334f-10b4-754d-8d41-0b5dd575ac08",
+        "fileName": "PhlcI.docx"
+      }
+    ],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1754499600000,
+    "decisionNumber": null,
+    "publicationDate": 1775644611021,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1754499600000,
+    "updatedAt": 1774682335020,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b8-7437-8210-22fee8f888bf",
+        "name": "Đấu thầu"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-f15b-769a-b98c-98dad3297fc3",
+          "ma_tthc": "2.002610",
+          "ten_tthc": "Đăng ký tham gia Hệ thống mạng đấu thầu quốc gia",
+          "linh_vuc": [
+            "Đấu thầu"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f15b-769a-b98c-98dad3297fc3"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfc-f175-716b-808b-e59585f4547a",
+          "ma_tthc": "2.002611",
+          "ten_tthc": "Cập nhật thông tin tài khoản của tổ chức, cá nhân trên Hệ thống mạng đấu thầu quốc gia",
+          "linh_vuc": [
+            "Đấu thầu"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f175-716b-808b-e59585f4547a"
+        }
+      ]
+    }
+  }
+}

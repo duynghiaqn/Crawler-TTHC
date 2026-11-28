@@ -1,0 +1,81 @@
+{
+  "id": "019d2c1f-52d1-74b7-ad32-d0a12e73f240",
+  "so_quyet_dinh": "1837/QĐ-BTC",
+  "trich_yeu": "trích từ 1837/QĐ-BTC",
+  "ngay_quyet_dinh": "2017-09-18",
+  "decision_date_ts": 1505692800000,
+  "ngay_cong_bo": "2026-04-08",
+  "publication_date_ts": 1775640929080,
+  "created_at_ts": 1505692800000,
+  "updated_at_ts": 1774561743568,
+  "co_quan_ban_hanh": "Bộ Tài chính",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+  "linh_vuc": [
+    "Kế toán, kiểm toán"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c1f-52d1-74b7-ad32-d0a12e73f240",
+  "source_updated_at_ts": 1774561743568,
+  "fetched_at": "2026-11-18T13:29:26.013Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c1f-52d1-74b7-ad32-d0a12e73f240",
+    "state": "PUBLICATION",
+    "proposalNumber": "1837/QĐ-BTC",
+    "proposalExcerpt": "trích từ 1837/QĐ-BTC",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "categoryIds": [
+      "019d2c08-77b9-731a-ae10-de6df80476e4"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1505692800000,
+    "decisionNumber": null,
+    "publicationDate": 1775640929080,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "importBy": "VNPT",
+    "createdAt": 1505692800000,
+    "updatedAt": 1774561743568,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+      "name": "Bộ Tài chính"
+    },
+    "categories": [
+      {
+        "id": "019d2c08-77b9-731a-ae10-de6df80476e4",
+        "name": "Kế toán, kiểm toán"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfb-feb1-75ed-8263-3d724dcf1660",
+          "ma_tthc": "1.007456",
+          "ten_tthc": "Thủ tục đăng ký cấp lại Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán",
+          "linh_vuc": [
+            "Kế toán, kiểm toán"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-feb1-75ed-8263-3d724dcf1660"
+        }
+      ]
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

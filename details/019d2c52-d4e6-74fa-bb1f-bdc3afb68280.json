@@ -1,0 +1,81 @@
+{
+  "id": "019d2c52-d4e6-74fa-bb1f-bdc3afb68280",
+  "so_quyet_dinh": "280/QĐ-BGTVT",
+  "trich_yeu": "trích từ 280/QĐ-BGTVT",
+  "ngay_quyet_dinh": "2021-02-22",
+  "decision_date_ts": 1613926800000,
+  "ngay_cong_bo": "2026-04-16",
+  "publication_date_ts": 1776343162095,
+  "created_at_ts": 1613926800000,
+  "updated_at_ts": 1776342120381,
+  "co_quan_ban_hanh": "Bộ xây dựng (Giao thông vận tải cũ)",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+  "linh_vuc": [
+    "Hàng không"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c52-d4e6-74fa-bb1f-bdc3afb68280",
+  "source_updated_at_ts": 1776342120381,
+  "fetched_at": "2026-11-18T13:29:15.584Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c52-d4e6-74fa-bb1f-bdc3afb68280",
+    "state": "PUBLICATION",
+    "proposalNumber": "280/QĐ-BGTVT",
+    "proposalExcerpt": "trích từ 280/QĐ-BGTVT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1613926800000,
+    "decisionNumber": null,
+    "publicationDate": 1776343162095,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+    "importBy": "VNPT",
+    "createdAt": 1613926800000,
+    "updatedAt": 1776342120381,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-b7c3f48c08f8",
+      "name": "Bộ xây dựng (Giao thông vận tải cũ)"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b1-c63cc1c2d7c8",
+        "name": "Hàng không"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 1,
+      "items": [
+        {
+          "id": "019d2bfe-427a-7623-92d3-f3c21221cec4",
+          "ma_tthc": "1.004362",
+          "ten_tthc": "Thủ tục cấp, gia hạn, công nhận Giấy chứng nhận đủ điều kiện bay",
+          "linh_vuc": [
+            "Hàng không"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-427a-7623-92d3-f3c21221cec4"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}

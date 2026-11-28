@@ -1,0 +1,103 @@
+{
+  "id": "019d2c81-dd45-727f-a7a4-7785609497a1",
+  "so_quyet_dinh": "3002/QĐ-BQP",
+  "trich_yeu": "trích từ 3002/QĐ-BQP",
+  "ngay_quyet_dinh": "2023-07-07",
+  "decision_date_ts": 1688688000000,
+  "ngay_cong_bo": "2026-04-13",
+  "publication_date_ts": 1776067873831,
+  "created_at_ts": 1688688000000,
+  "updated_at_ts": 1774568201539,
+  "co_quan_ban_hanh": "Bộ Quốc phòng",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-c083c8aaf911",
+  "linh_vuc": [
+    "Tuyển sinh quân sự"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2c81-dd45-727f-a7a4-7785609497a1",
+  "source_updated_at_ts": 1774568201539,
+  "fetched_at": "2026-11-18T13:29:10.426Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2c81-dd45-727f-a7a4-7785609497a1",
+    "state": "PUBLICATION",
+    "proposalNumber": "3002/QĐ-BQP",
+    "proposalExcerpt": "trích từ 3002/QĐ-BQP",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-75a919d27f7c"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1688688000000,
+    "decisionNumber": null,
+    "publicationDate": 1776067873831,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-c083c8aaf911",
+    "importBy": "VNPT",
+    "createdAt": 1688688000000,
+    "updatedAt": 1774568201539,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-c083c8aaf911",
+      "name": "Bộ Quốc phòng"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-75a919d27f7c",
+        "name": "Tuyển sinh quân sự"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 0,
+      "items": []
+    },
+    "bai_bo": {
+      "count": 3,
+      "items": [
+        {
+          "id": "019d2bfb-7194-77bc-9f1d-aa11e7a39464",
+          "ma_tthc": "1.008283",
+          "ten_tthc": "Thủ tục tuyển sinh đào tạo cán bộ ngành quân sự cơ sở",
+          "linh_vuc": [
+            "Tuyển sinh quân sự"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-7194-77bc-9f1d-aa11e7a39464"
+        },
+        {
+          "id": "019d2bfb-bfec-76e6-995b-abc01a27b5b2",
+          "ma_tthc": "2.001360",
+          "ten_tthc": "Thủ tục tuyển sinh theo chế độ cử tuyển đại học, cao đẳng, trung cấp chuyên nghiệp",
+          "linh_vuc": [
+            "Tuyển sinh quân sự"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-bfec-76e6-995b-abc01a27b5b2"
+        },
+        {
+          "id": "019d2bfb-bfe1-7386-8921-6a693bbddf33",
+          "ma_tthc": "2.001376",
+          "ten_tthc": "Thủ tục tuyển sinh đào tạo trình độ đại học, cao đẳng quân sự hệ chính quy",
+          "linh_vuc": [
+            "Tuyển sinh quân sự"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "INACTIVE",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-bfe1-7386-8921-6a693bbddf33"
+        }
+      ]
+    }
+  }
+}

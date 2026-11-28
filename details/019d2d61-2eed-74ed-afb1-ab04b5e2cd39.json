@@ -1,0 +1,92 @@
+{
+  "id": "019d2d61-2eed-74ed-afb1-ab04b5e2cd39",
+  "so_quyet_dinh": "2831/QĐ-BYT",
+  "trich_yeu": "trích từ 2831/QĐ-BYT",
+  "ngay_quyet_dinh": "2025-09-08",
+  "decision_date_ts": 1757289600000,
+  "ngay_cong_bo": "2026-04-14",
+  "publication_date_ts": 1776132831375,
+  "created_at_ts": 1757289600000,
+  "updated_at_ts": 1774582836971,
+  "co_quan_ban_hanh": "Bộ Y tế",
+  "ma_co_quan": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+  "linh_vuc": [
+    "Y Dược cổ truyền"
+  ],
+  "loai_quyet_dinh": "STANDARD",
+  "trang_thai": "PUBLICATION",
+  "tep_dinh_kem": [],
+  "url": "https://dichvucong.gov.vn/quyet-dinh-cong-bo/019d2d61-2eed-74ed-afb1-ab04b5e2cd39",
+  "source_updated_at_ts": 1774582836971,
+  "fetched_at": "2026-11-18T13:28:40.483Z",
+  "thong_tin_chi_tiet": {
+    "id": "019d2d61-2eed-74ed-afb1-ab04b5e2cd39",
+    "state": "PUBLICATION",
+    "proposalNumber": "2831/QĐ-BYT",
+    "proposalExcerpt": "trích từ 2831/QĐ-BYT",
+    "completionDate": null,
+    "issuingAgencyId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b5-13a996b92439"
+    ],
+    "note": null,
+    "proposalAttachmentFiles": [],
+    "decisionAttachmentFiles": [],
+    "decisionDate": 1757289600000,
+    "decisionNumber": null,
+    "publicationDate": 1776132831375,
+    "effectiveDate": null,
+    "proposalType": "STANDARD",
+    "departmentId": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+    "importBy": "VNPT",
+    "createdAt": 1757289600000,
+    "updatedAt": 1774582836971,
+    "department": {
+      "id": "019d2be3-6a72-700f-a652-d877ec9f7cfe",
+      "name": "Bộ Y tế"
+    },
+    "categories": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b5-13a996b92439",
+        "name": "Y Dược cổ truyền"
+      }
+    ]
+  },
+  "tthc_kem_theo": {
+    "cong_khai_moi": {
+      "count": 0,
+      "items": []
+    },
+    "sua_doi_bo_sung": {
+      "count": 2,
+      "items": [
+        {
+          "id": "019d2bff-0e24-732d-9992-1d352d13852e",
+          "ma_tthc": "1.009407",
+          "ten_tthc": "Công bố đáp ứng tiêu chuẩn chế biến, bào chế thuốc cổ truyền đối với cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền trực thuộc quản lý của Sở Y tế",
+          "linh_vuc": [
+            "Y Dược cổ truyền"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-0e24-732d-9992-1d352d13852e"
+        },
+        {
+          "id": "019d2bff-0e14-720b-abd7-f2a227e268c4",
+          "ma_tthc": "1.009406",
+          "ten_tthc": "Công bố đáp ứng tiêu chuẩn chế biến, bào chế thuốc cổ truyền đối với cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền trực thuộc quản lý của Bộ Y tế và y tế Bộ, Ngành",
+          "linh_vuc": [
+            "Y Dược cổ truyền"
+          ],
+          "ngay_hieu_luc": "",
+          "trang_thai": "PUBLICATION",
+          "url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-0e14-720b-abd7-f2a227e268c4"
+        }
+      ]
+    },
+    "bai_bo": {
+      "count": 0,
+      "items": []
+    }
+  }
+}
